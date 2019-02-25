@@ -1,0 +1,82 @@
+accessibility: []
+additionDate: '2018-03-05T20:52:40Z'
+biotoolsCURIE: biotools:msinspect
+biotoolsID: msinspect
+collectionID: []
+cost: null
+credit:
+  - email: mmcintos@fhcrc.org
+    name: Martin McIntosh
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A software platform for rapidly creating computational tools for mass
+  spectrometry-based proteomics.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Spectral analysis
+        uri: http://edamontology.org/operation_3214
+    output: []
+homepage: https://github.com/dhmay/msInspect
+homepage_status: 0
+language:
+  - R
+  - Java
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link: []
+maturity: null
+name: msInspect
+operatingSystem: []
+otherID: []
+owner: jison
+publication:
+  - doi: 10.1021/pr900169w
+    metadata:
+      abstract: "We describe and demonstrate the proteomics computational toolkit\
+        \ provided in the open-source msInspect software distribution. The toolkit\
+        \ includes modules written in Java and in the R statistical programming language\
+        \ to aid the rapid development of proteomics software applications. It contains\
+        \ tools for processing and manipulating standard MS data files, including\
+        \ signal processing of LC-MS data and parsing of MS/MS search results, as\
+        \ well as for modeling proteomics data structures, creating charts, and other\
+        \ common tasks. We present this toolkit's capability to rapidly develop new\
+        \ computational tools by presenting an example application, Qurate, a graphical\
+        \ tool for manually curating isotopically labeled peptide quantitative events.\
+        \ \xA9 2009 American Chemical Society."
+      authors:
+        - name: May D.
+        - name: Law W.
+        - name: Fitzgibbon M.
+        - name: Fang Q.
+        - name: McIntosh M.
+      citationCount: 20
+      date: '2009-06-05T00:00:00Z'
+      journal: Journal of Proteome Research
+      title: Software platform for rapidly creating computational tools for mass spectrometry-based
+        proteomics
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Suite
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+validated: 1
+version: []

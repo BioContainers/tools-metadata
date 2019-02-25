@@ -1,0 +1,104 @@
+accessibility: []
+additionDate: '2017-08-03T19:01:16Z'
+biotoolsCURIE: biotools:sephiroth
+biotoolsID: sephiroth
+collectionID: []
+cost: null
+credit:
+  - email: draimond@ulb.ac.be
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: wim.vranken@vub.be
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A disulfide connectivity pattern predictor based on evolutionary information
+  retrieved from Multiple Sequence Alignments (MSAs).
+documentation:
+  - note: null
+    type: General
+    url: http://ibsquare.be/sephiroth
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Disulfide bond prediction
+        uri: http://edamontology.org/operation_0471
+    output: []
+homepage: http://ibsquare.be/sephiroth
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/sephiroth-20140618-disulfide-connectivity-prediction.html
+maturity: null
+name: Sephiroth
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2014 The Author. Motivation: Cysteine residues have particular\
+        \ structural and functional relevance in proteins because of their ability\
+        \ to form covalent disulfide bonds. Bioinformatics tools that can accurately\
+        \ predict cysteine bonding states are already available, whereas it remains\
+        \ challenging to infer the disulfide connectivity pattern of unknown protein\
+        \ sequences. Improving accuracy in this area is highly relevant for the structural\
+        \ and functional annotation of proteins. Results: We predict the intra-chain\
+        \ disulfide bond connectivity patterns starting from known cysteine bonding\
+        \ states with an evolutionary-based unsupervised approach called Sephiroth\
+        \ that relies on high-quality alignments obtained with HHblits and is based\
+        \ on a coarse-grained cluster-based modelization of tandem cysteine mutations\
+        \ within a protein family. We compared our method with state-of-the-art unsupervised\
+        \ predictors and achieve a performance improvement of 25-27% while requiring\
+        \ an order of magnitude less of aligned homologous sequences (1/410 3 instead\
+        \ of 1/410 4). Availability and implementation: The software described in\
+        \ this article and the datasets used are available at http://ibsquare.be/sephiroth.\
+        \ Contact:"
+      authors:
+        - name: Raimondi D.
+        - name: Orlando G.
+        - name: Vranken W.F.
+      citationCount: 4
+      date: '2015-04-15T00:00:00Z'
+      journal: Bioinformatics
+      title: Clustering-based model of cysteine co-evolution improves disulfide bond
+        connectivity prediction and reduces homologous sequence requirements
+    pmcid: null
+    pmid: '25492406'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

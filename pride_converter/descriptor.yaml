@@ -1,0 +1,110 @@
+accessibility: []
+additionDate: '2017-12-18T00:10:29Z'
+biotoolsCURIE: biotools:pride_converter
+biotoolsID: pride_converter
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/PRIDE-Toolsuite/pride-converter-2
+description: Converts mass spectrometry data from most common data formats into valid
+  PRIDE XML for submission to the publicly available PRIDE database. It presents a
+  convenient, wizard-like graphical user interface, and includes efficient access
+  to the Ontology Lookup Service.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/PRIDE-Toolsuite/pride-converter-2
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output: []
+homepage: https://github.com/PRIDE-Toolsuite/pride-converter-2
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/pride-converter-2-5-1-converts-mass-spectrometry-data-pride-xml.html
+maturity: null
+name: PRIDE Converter
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: 10.1074/mcp.M112.017483
+    metadata:
+      abstract: "Protein kinase signaling is fundamental to cell homeostasis and is\
+        \ deregulated in all cancers but varies between patients. Understanding the\
+        \ mechanisms underlying this heterogeneity is critical for personalized targeted\
+        \ therapies. Here, we used a recently established LC-MS/MS platform to profile\
+        \ protein phosphorylation in acute myeloid leukemia cell lines with different\
+        \ sensitivities to kinase inhibitors. The compounds used in this study were\
+        \ originally developed to target Janus kinase, phosphatidylinositol 3-kinase,\
+        \ and MEK. After further validation of the technique, we identified several\
+        \ phosphorylation sites that were inhibited by these compounds but whose intensities\
+        \ did not always correlate with growth inhibition sensitivity. In contrast,\
+        \ several hundred phosphorylation sites that correlated with sensitivity/resistance\
+        \ were not in general inhibited by the compounds. These results indicate that\
+        \ markers of pathway activity may not always be reliable indicators of sensitivity\
+        \ of cancer cells to inhibitors that target such pathways, because the activity\
+        \ of parallel kinases can contribute to resistance. By mining our data we\
+        \ identified protein kinase C isoforms as one of such parallel pathways being\
+        \ more active in resistant cells. Consistent with the view that several parallel\
+        \ kinase pathways were contributing to resistance, inhibitors that target\
+        \ protein kinase C, MEK, and Janus kinase potentiated each other in arresting\
+        \ the proliferation of multidrug-resistant cells. Untargeted/unbiased approaches,\
+        \ such as the one described here, to quantify the activity of the intended\
+        \ target kinase pathway in concert with the activities of parallel kinase\
+        \ pathways will be invaluable to personalize therapies based on kinase inhibitors.\
+        \ \xA9 2012 by The American Society for Biochemistry and Molecular Biology,\
+        \ Inc."
+      authors:
+        - name: Alcolea M.P.
+        - name: Casado P.
+        - name: Rodriguez-Prados J.-C.
+        - name: Vanhaesebroeckp B.
+        - name: Cutillas P.R.
+      citationCount: 42
+      date: '2012-08-01T00:00:00Z'
+      journal: Molecular and Cellular Proteomics
+      title: Phosphoproteomic analysis of leukemia cells under basal and drug-treated
+        conditions identifies markers of kinase pathway activation and mechanisms
+        of resistance
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version:
+  - 2.5.7

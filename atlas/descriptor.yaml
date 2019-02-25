@@ -1,0 +1,73 @@
+accessibility: []
+additionDate: '2017-12-18T00:03:43Z'
+biotoolsCURIE: biotools:atlas
+biotoolsID: atlas
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.hgsc.bcm.tmc.edu/
+description: Collection of software tools to facilitate the assembly of large genomes
+  from whole genome shotgun reads, or a combination of whole genome shotgun reads
+  and BAC or other localized reads.
+documentation:
+  - note: null
+    type: General
+    url: https://www.hgsc.bcm.edu/sites/default/files/software/Atlas/atlas_readme.txt
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence assembly
+        uri: http://edamontology.org/operation_0310
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genome assembly
+        uri: http://edamontology.org/operation_0525
+    output: []
+homepage: https://www.hgsc.bcm.edu/software/atlas-whole-genome-assembly-suite
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/atlas-2005-genome-assembly-suite.html
+maturity: null
+name: Atlas
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Whole genome sequencing
+    uri: http://edamontology.org/topic_3673
+validated: 1
+version:
+  - '2005'

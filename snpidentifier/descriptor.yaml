@@ -1,0 +1,104 @@
+accessibility: []
+additionDate: '2017-08-03T19:00:06Z'
+biotoolsCURIE: biotools:snpidentifier
+biotoolsID: snpidentifier
+collectionID: []
+cost: null
+credit:
+  - email: zhu@iastate.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.animalgenome.org/bioinfo/community/team.html
+description: Predicts the location of SNPs from clusters of ESTs produced by the program
+  CAP3. It is designed for ESTs without accompanying chromatogram sequence quality
+  information, and therefore it performs quality control checks on all data.
+documentation:
+  - note: null
+    type: General
+    url: https://www.animalgenome.org/tools/share/SNPidentifier/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: SNP detection
+        uri: http://edamontology.org/operation_0484
+    output: []
+homepage: http://www.animalgenome.org/tools/share/SNPidentifier/
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/snpidentifier-1-10-discover-snps-based-cap3-alignments.html
+maturity: null
+name: SNPidentifier
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Litopenaeus vannamei (Pacific white shrimp) have been farmed in the\
+        \ Americas for many years and are growing in popularity in Asia with the development\
+        \ of specific pathogen-free stocks. The full genomic sequence of this species\
+        \ might not be available in the near future, so other tools are needed to\
+        \ discover the location of polymorphic sites for quantitative trait loci mapping,\
+        \ association studies and subsequent marker-assisted selection. Currently,\
+        \ 25 937 L. vannamei expressed sequence tags (ESTs) are publicly available.\
+        \ These sequences were manually screened, masked for tandem repeats and inputted\
+        \ into CAP3 for clustering. The resulting 3532 contigs were analysed for possible\
+        \ single nucleotide polymorphisms (SNPs) with snpidentifier, a newly developed\
+        \ computer program for predicting SNPs. snpidentifier is designed for ESTs\
+        \ without accompanying chromatogram sequence quality information, and therefore\
+        \ it performs quality control checks on all data. snpidentifier sets a threshold\
+        \ such that the sequences used have a poor quality nucleotide (N) frequency\
+        \ <0.1, and it trims off the first 10 bases of every sequence to ensure higher\
+        \ sequence quality. For a base to be predicted as an SNP, the minor nucleotide\
+        \ (allele) frequency must be >0.1, it must be observed at least four times\
+        \ and the 15 bases on either side must exactly match the consensus sequence.\
+        \ Using these conservative parameters, 504 SNPs were predicted from 141 contigs\
+        \ for L. vannamei. A small sample of 18 individuals from three lines have\
+        \ been sequenced to verify prediction results and 17 of 39 (44%) of the tested\
+        \ SNPs have been confirmed. \xA9 2008 The Authors."
+      authors:
+        - name: Gorbach D.M.
+        - name: Hu Z.-L.
+        - name: Du Z.-Q.
+        - name: Rothschild M.F.
+      citationCount: 17
+      date: '2009-02-01T00:00:00Z'
+      journal: Animal Genetics
+      title: SNP discovery in Litopenaeus vannamei with a new computational pipeline
+    pmcid: null
+    pmid: '18828861'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Data architecture, analysis and design
+    uri: http://edamontology.org/topic_3365
+validated: 1
+version: []

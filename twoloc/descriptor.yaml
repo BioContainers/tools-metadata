@@ -1,0 +1,97 @@
+accessibility: []
+additionDate: '2017-08-03T19:03:02Z'
+biotoolsCURIE: biotools:twoloc
+biotoolsID: twoloc
+collectionID: []
+cost: null
+credit:
+  - email: mfarrall@well.ox.ac.uk
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.well.ox.ac.uk/~mfarrall/
+  - email: cordell@darwin.cwru.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Software package for analyzing two-locus susceptibility gene models in
+  affected sib-pair data.
+documentation:
+  - note: null
+    type: General
+    url: http://www.well.ox.ac.uk/~mfarrall/twoloc_readme.htm
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Linkage analysis
+        uri: http://edamontology.org/operation_0283
+    output: []
+homepage: http://www.well.ox.ac.uk/~mfarrall/twoloc.htm
+homepage_status: 0
+language:
+  - Fortran
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/twoloc-analyze-two-locus-susceptibility-gene-models-affected-sib-pair-data.html
+maturity: null
+name: TWOLOC
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: Genome-wide searches for susceptibility genes using pairs of affected
+        siblings are being undertaken to dissect out individual polygenes that contribute
+        to human multifactorial diseases. Efficient identity-by-descent (IBD)-based
+        sibpair linkage tests are available that test individual markers or maps of
+        linked markers for linkage to a single putative susceptibility gene. In order
+        to assess the support for linkage to a second putative susceptibility gene
+        that happens to map close to an established susceptibility gene, it is necessary
+        to use a method that correctly allows for the IBD distortion that directly
+        results from the linkage between the two genes. A maximum likelihood-based,
+        multilocus linkage test is proposed, which accounts for this interdependency
+        and evaluates the support for an interaction between constituent susceptibility
+        genes. The size and power of a test for a second linked susceptibility gene
+        is investigated by simulation studies.
+      authors:
+        - name: Farrall M.
+      citationCount: 42
+      date: '1997-05-06T00:00:00Z'
+      journal: Genetic Epidemiology
+      title: Affected sibpair linkage tests for multiple linked susceptibility genes
+    pmcid: null
+    pmid: '9129957'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Nucleic acid sites, features and motifs
+    uri: http://edamontology.org/topic_3511
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

@@ -1,0 +1,124 @@
+accessibility:
+  - Open access
+additionDate: '2017-04-10T19:04:58Z'
+biotoolsCURIE: biotools:siamcat
+biotoolsID: siamcat
+collectionID:
+  - de.NBI
+cost: Free of charge
+credit:
+  - email: null
+    name: European Molecular Biology Laboratory (EMBL)
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: https://www.embl.de/
+  - email: null
+    name: HD-HuB
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: https://www.hd-hub.de/
+  - email: zeller@embl.de
+    name: Georg Zeller
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Modular framework for the statistical inference of associations between
+  microbial communities and host phenotypes, such as disease states in clinical case-control
+  studies. It is based on LASSO models, which offer distinctive advantages for model
+  interpretation and microbial biomarker selection and avoid overfitting issues that
+  can arise in naive combinations of feature selection and cross-validation.
+documentation:
+  - note: null
+    type: General
+    url: http://siamcat.embl.de/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence features metadata
+          uri: http://edamontology.org/data_2914
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
+      - data:
+          term: Matrix
+          uri: http://edamontology.org/data_2082
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
+    note: null
+    operation:
+      - term: Statistical inference
+        uri: http://edamontology.org/operation_3658
+    output:
+      - data:
+          term: Plot
+          uri: http://edamontology.org/data_2884
+        format:
+          - term: PDF
+            uri: http://edamontology.org/format_3508
+      - data:
+          term: Matrix
+          uri: http://edamontology.org/data_2082
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
+homepage: http://siamcat.embl.de/
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:51Z'
+license: GPL-3.0
+link: []
+maturity: Emerging
+name: SIAMCAT
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: hdhub
+publication:
+  - doi: null
+    metadata:
+      abstract: ''
+      authors:
+        - name: Gerhard W.
+        - name: von Smekal P.
+      citationCount: 1
+      date: '1968-02-01T00:00:00Z'
+      journal: Zeitschrift fur Kreislaufforschung
+      title: The clinical picture of postural hypotension Das Krankheitsbild der Positionshypotonie.
+    pmcid: PMC4299606
+    pmid: null
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+  - Web application
+topic:
+  - term: Metagenomics
+    uri: http://edamontology.org/topic_3174
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+validated: 1
+version:
+  - '0.1'

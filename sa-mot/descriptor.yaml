@@ -1,0 +1,124 @@
+accessibility: []
+additionDate: '2017-02-14T09:34:58Z'
+biotoolsCURIE: biotools:sa-mot
+biotoolsID: sa-mot
+collectionID: []
+cost: null
+credit:
+  - email: leslie.regad@univ-paris-diderot.fr
+    name: Leslie Regad
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: adrien.saladin@univ-paris-diderot.fr
+    name: Adrien Saladin
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: julien.maupetit@univ-paris-diderot.fr
+    name: Julien Maupetit
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: SA-Mot is a wbe server for the extraction and location of structural
+  motifs of interest from protein loops. Recurrent and conserved structural motifs
+  involved in structural redundancy of loops are considered.
+documentation:
+  - note: null
+    type: General
+    url: http://sa-mot.mti.univ-paris-diderot.fr/main/SA_Mot_Method
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence motif discovery
+        uri: http://edamontology.org/operation_0238
+      - term: Protein folding analysis
+        uri: http://edamontology.org/operation_2415
+      - term: Protein structural motif recognition
+        uri: http://edamontology.org/operation_0245
+      - term: Protein model validation
+        uri: http://edamontology.org/operation_0321
+      - term: Protein modelling (loops)
+        uri: http://edamontology.org/operation_0481
+    output: []
+homepage: http://sa-mot.mti.univ-paris-diderot.fr
+homepage_status: 0
+language:
+  - Javascript
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link: []
+maturity: null
+name: SA-Mot
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "The detection of functional motifs is an important step for the determination\
+        \ of protein functions. We present here a new web server SA-Mot (Structural\
+        \ Alphabet Motif) for the extraction and location of structural motifs of\
+        \ interest from protein loops. Contrary to other methods, SA-Mot does not\
+        \ focus only on functional motifs, but it extracts recurrent and conserved\
+        \ structural motifs involved in structural redundancy of loops. SA-Mot uses\
+        \ the structural word notion to extract all structural motifs from uni-dimensional\
+        \ sequences corresponding to loop structures. Then, SA-Mot provides a description\
+        \ of these structural motifs using statistics computed in the loop data set\
+        \ and in SCOP superfamily, sequence and structural parameters. SA-Mot results\
+        \ correspond to an interactive table listing all structural motifs extracted\
+        \ from a target structure and their associated descriptors. Using this information,\
+        \ the users can easily locate loop regions that are important for the protein\
+        \ folding and function. The SA-Mot web server is available at http://sa-mot.mti.univ-paris-\
+        \ diderot.fr. \xA9 2011 The Author(s)."
+      authors:
+        - name: Regad L.
+        - name: Saladin A.
+        - name: Maupetit J.
+        - name: Geneix C.
+        - name: Camproux A.-C.
+      citationCount: 8
+      date: '2011-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'SA-Mot: A web server for the identification of motifs of interest extracted
+        from protein loops'
+    pmcid: null
+    pmid: '21665924'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+  - term: Protein folds and structural domains
+    uri: http://edamontology.org/topic_0736
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+validated: 1
+version: []

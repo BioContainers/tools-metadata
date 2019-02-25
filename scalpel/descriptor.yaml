@@ -1,0 +1,102 @@
+accessibility: []
+additionDate: '2017-08-03T19:01:05Z'
+biotoolsCURIE: biotools:scalpel
+biotoolsID: scalpel
+collectionID: []
+cost: null
+credit:
+  - email: gnarzisi@nygenome.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://scalpel.sourceforge.net/contact.html
+description: A software package for detecting INDELs (INsertions and DELetions) mutations
+  in a reference genome which has been sequenced with next-generation sequencing technology
+  .
+documentation:
+  - note: null
+    type: Manual
+    url: http://scalpel.sourceforge.net/manual.html
+  - note: null
+    type: General
+    url: http://scalpel.sourceforge.net/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Polymorphism detection
+        uri: http://edamontology.org/operation_3202
+    output: []
+homepage: http://scalpel.sourceforge.net/
+homepage_status: 0
+language:
+  - C++
+  - Perl
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/scalpel-0-2-2-genetic-variants-discovery-tool.html
+maturity: null
+name: Scalpel
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "We present an open-source algorithm, Scalpel (http://scalpel.sourceforge.net/),\
+        \ which combines mapping and assembly for sensitive and specific discovery\
+        \ of insertions and deletions (indels) in exome-capture data. A detailed repeat\
+        \ analysis coupled with a self-tuning k-mer strategy allows Scalpel to outperform\
+        \ other state-of-the-art approaches for indel discovery, particularly in regions\
+        \ containing near-perfect repeats. We analyzed 593 families from the Simons\
+        \ Simplex Collection and demonstrated Scalpel's power to detect long (\u2030\
+        \ 30 bp) transmitted events and enrichment for de novo likely gene-disrupting\
+        \ indels in autistic children."
+      authors:
+        - name: Narzisi G.
+        - name: O'Rawe J.A.
+        - name: Iossifov I.
+        - name: Fang H.
+        - name: Lee Y.-H.
+        - name: Wang Z.
+        - name: Wu Y.
+        - name: Lyon G.J.
+        - name: Wigler M.
+        - name: Schatz M.C.
+      citationCount: 73
+      date: '2014-01-01T00:00:00Z'
+      journal: Nature Methods
+      title: Accurate de novo and transmitted indel detection in exome-capture data
+        using microassembly
+    pmcid: null
+    pmid: '25128977'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+  - term: DNA mutation
+    uri: http://edamontology.org/topic_2533
+validated: 1
+version: []

@@ -1,0 +1,97 @@
+accessibility: []
+additionDate: '2017-08-03T19:07:01Z'
+biotoolsCURIE: biotools:mirmodule
+biotoolsID: mirmodule
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://hulab.ucf.edu/
+description: Software tool for systematic discovery of miRNA modules from a set of
+  predefined miRNA target sites. Given a sets of miRNA binding sites, miRModule efficiently
+  identifies groups of miRNAs, whose binding sites significantly co-occur in the same
+  set of target mRNAs, as putative miRNA modules.
+documentation:
+  - note: null
+    type: General
+    url: http://hulab.ucf.edu/research/projects/miRNA/miRModule/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Prediction and recognition
+        uri: http://edamontology.org/operation_2423
+    output: []
+homepage: http://hulab.ucf.edu/research/projects/miRNA/miRModule/
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/mirmodule-identification-of-mirna-modules-from-high-throughput-mirna-mrna-binding-experiments.html
+maturity: null
+name: miRModule
+operatingSystem:
+  - Linux
+  - Windows
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2014 The Author. Published by Oxford University Press. Motivation:\
+        \ MicroRNAs (miRNAs) play critical roles in gene regulation. Although it is\
+        \ well known that multiple miRNAs may work as miRNA modules to synergistically\
+        \ regulate common target mRNAs, the understanding of miRNA modules is still\
+        \ in its infancy. Results: We employed the recently generated high throughput\
+        \ experimental data to study miRNA modules. We predicted 181 miRNA modules\
+        \ and 306 potential miRNA modules. We observed that the target sites of these\
+        \ predicted modules were in general weaker compared with those not bound by\
+        \ miRNA modules. We also discovered that miRNAs in predicted modules preferred\
+        \ to bind unconventional target sites rather than canonical sites. Surprisingly,\
+        \ contrary to a previous study, we found that most adjacent miRNA target sites\
+        \ from the same miRNA modules were not within the range of 10-130 nucleotides.\
+        \ Interestingly, the distance of target sites bound by miRNAs in the same\
+        \ modules was shorter when miRNA modules bound unconventional instead of canonical\
+        \ sites. Our study shed new light on miRNA binding and miRNA target sites,\
+        \ which will likely advance our understanding of miRNA regulation."
+      authors:
+        - name: Ding J.
+        - name: Li X.
+        - name: Hu H.
+      citationCount: 7
+      date: '2015-01-01T00:00:00Z'
+      journal: Bioinformatics
+      title: MicroRNA modules prefer to bind weak and unconventional target sites
+    pmcid: null
+    pmid: '25527098'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Functional, regulatory and non-coding RNA
+    uri: http://edamontology.org/topic_0659
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
+validated: 1
+version: []

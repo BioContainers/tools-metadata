@@ -1,0 +1,168 @@
+accessibility: []
+additionDate: '2016-09-02T00:45:28Z'
+biotoolsCURIE: biotools:nullarbor
+biotoolsID: nullarbor
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: Torsten Seemann
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: A Goncalves da Silva
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: MB Schultz
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: JC Kwong
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: DM Bulach
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: BP Howden
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: University of Melbourne, Australia
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: unimelb.edu.au
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: torsten.seemann@gmail.com
+    name: Torsten Seemann
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/tseemann/nullarbor/issues
+  - email: null
+    name: Australia
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/tseemann/nullarbor/issues
+description: Pipeline to generate complete public health microbiology reports from
+  isolates sequenced with Illumina paired-end sequencing.
+documentation:
+  - note: null
+    type: Citation instructions
+    url: https://github.com/tseemann/nullarbor/blob/master/README.md
+  - note: null
+    type: General
+    url: https://github.com/tseemann/nullarbor/blob/master/README.md
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: "Nullarbor is a pipeline that can perform the following processing and analysis\
+      \ steps on paired-end Illumina sequencing reads from microbiological clinical\
+      \ isolates:\nPer isolate\n\n    Clean reads (Trimmomatic)\n    Species identification\
+      \ against known genome database (Kraken)\n    De novo assembly (MEGA-HIT, SPAdes)\n\
+      \    Annotation (Prokka)\n    MLST Genotyping (mlst)\n    Detection of known\
+      \ antibiotic resistance variants (abricate)\n    Variant calling (Snippy)\n\n\
+      Per isolate set\n\n    Core genome SNPs (Snippy-core)\n    Draw tree (FastTree,\
+      \ afa-pairwise)\n    Pan genome analysis (Roary)\n    Report\n        Table\
+      \ of isolates, yield, coverage, species, MLST (HTML + Plotly.JS + DataTables)"
+    operation:
+      - term: Variant pattern analysis
+        uri: http://edamontology.org/operation_3504
+      - term: k-mer counting
+        uri: http://edamontology.org/operation_3472
+      - term: Phylogenetic tree visualisation
+        uri: http://edamontology.org/operation_0567
+      - term: Sequence trimming
+        uri: http://edamontology.org/operation_3192
+      - term: Phylogenetic tree generation
+        uri: http://edamontology.org/operation_0323
+      - term: Genome visualisation
+        uri: http://edamontology.org/operation_3208
+      - term: Genome annotation
+        uri: http://edamontology.org/operation_0362
+      - term: Nucleic acid feature detection
+        uri: http://edamontology.org/operation_0415
+      - term: Sequencing quality control
+        uri: http://edamontology.org/operation_3218
+      - term: De-novo assembly
+        uri: http://edamontology.org/operation_0524
+      - term: Variant calling
+        uri: http://edamontology.org/operation_3227
+    output: []
+homepage: https://github.com/tseemann/nullarbor
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:52Z'
+license: GPL-2.0
+link:
+  - note: null
+    type: Repository
+    url: https://github.com/tseemann/nullarbor/
+maturity: null
+name: nullarbor
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: griffinp@unimelb.edu.au
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Model organisms
+    uri: http://edamontology.org/topic_0621
+  - term: Model organisms
+    uri: http://edamontology.org/topic_0621
+validated: 1
+version:
+  - '1'

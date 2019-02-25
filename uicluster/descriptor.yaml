@@ -1,0 +1,73 @@
+accessibility: []
+additionDate: '2017-12-18T00:13:53Z'
+biotoolsCURIE: biotools:uicluster
+biotoolsID: uicluster
+collectionID: []
+cost: null
+credit:
+  - email: pedretti@eng.uiowa.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Updated version of tlcluster that is much faster and adds new features
+  such as reverse complement checking. In addition to optimization and reverse checking,
+  it performs an extended search of all primaries for each sequence being clustered.
+documentation:
+  - note: null
+    type: General
+    url: https://genome.uiowa.edu/home.old/pubsoft/clustering/index.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Prediction and recognition
+        uri: http://edamontology.org/operation_2423
+    output: []
+homepage: https://genome.uiowa.edu/home.old/pubsoft/clustering/index.html
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/uicluster-3-0-5-parallel-clustering-of-est-gene-sequences.html
+maturity: null
+name: UIcluster
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication: []
+toolType:
+  - Desktop application
+topic:
+  - term: Gene structure
+    uri: http://edamontology.org/topic_0114
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version:
+  - 3.0.5

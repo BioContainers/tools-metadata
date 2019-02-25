@@ -1,0 +1,107 @@
+accessibility: []
+additionDate: '2017-01-13T13:14:44Z'
+biotoolsCURIE: biotools:gene-counter
+biotoolsID: gene-counter
+collectionID: []
+cost: null
+credit:
+  - email: changj@cgrb.oregonstate.edu
+    name: Jeff H. Chang
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: GENE-counter is a computational pipeline for analyzing RNA-Sequencing
+  (RNA-Seq) data for differential gene expression.
+documentation:
+  - note: null
+    type: Manual
+    url: https://sourceforge.net/projects/genecounter/files/DOCUMENTS/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Gene expression analysis
+        uri: http://edamontology.org/operation_2495
+    output: []
+homepage: https://sourceforge.net/projects/genecounter/
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link: []
+maturity: Mature
+name: GENE-Counter
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "GENE-counter is a complete Perl-based computational pipeline for\
+        \ analyzing RNA-Sequencing (RNA-Seq) data for differential gene expression.\
+        \ In addition to its use in studying transcriptomes of eukaryotic model organisms,\
+        \ GENE-counter is applicable for prokaryotes and non-model organisms without\
+        \ an available genome reference sequence. For alignments, GENE-counter is\
+        \ configured for CASHX, Bowtie, and BWA, but an end user can use any Sequence\
+        \ Alignment/Map (SAM)-compliant program of preference. To analyze data for\
+        \ differential gene expression, GENE-counter can be run with any one of three\
+        \ statistics packages that are based on variations of the negative binomial\
+        \ distribution. The default method is a new and simple statistical test we\
+        \ developed based on an over-parameterized version of the negative binomial\
+        \ distribution. GENE-counter also includes three different methods for assessing\
+        \ differentially expressed features for enriched gene ontology (GO) terms.\
+        \ Results are transparent and data are systematically stored in a MySQL relational\
+        \ database to facilitate additional analyses as well as quality assessment.\
+        \ We used next generation sequencing to generate a small-scale RNA-Seq dataset\
+        \ derived from the heavily studied defense response of Arabidopsis thaliana\
+        \ and used GENE-counter to process the data. Collectively, the support from\
+        \ analysis of microarrays as well as the observed and substantial overlap\
+        \ in results from each of the three statistics packages demonstrates that\
+        \ GENE-counter is well suited for handling the unique characteristics of small\
+        \ sample sizes and high variability in gene counts. \xA9 2011 Cumbie et al."
+      authors:
+        - name: Cumbie J.S.
+        - name: Kimbrel J.A.
+        - name: Di Y.
+        - name: Schafer D.W.
+        - name: Wilhelm L.J.
+        - name: Fox S.E.
+        - name: Sullivan C.M.
+        - name: Curzon A.D.
+        - name: Carrington J.C.
+        - name: Mockler T.C.
+        - name: Chang J.H.
+      citationCount: 38
+      date: '2011-10-06T00:00:00Z'
+      journal: PLoS ONE
+      title: 'GENE-counter: A computational pipeline for the analysis of RNA-seq data
+        for gene expression differences'
+    pmcid: null
+    pmid: '21998647'
+    type: null
+    version: null
+toolType:
+  - Suite
+topic:
+  - term: RNA-Seq
+    uri: http://edamontology.org/topic_3170
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+validated: 1
+version: []

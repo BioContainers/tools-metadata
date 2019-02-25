@@ -1,0 +1,122 @@
+accessibility: []
+additionDate: '2016-05-17T10:18:06Z'
+biotoolsCURIE: biotools:phenetic
+biotoolsID: phenetic
+collectionID:
+  - BIG N2N
+  - UGent
+cost: null
+credit:
+  - email: null
+    name: ugent.be
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: kathleen.marchal@intec.ugent.be
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Infer the molecular mechanism driving your expression phenotype.
+documentation:
+  - note: null
+    type: General
+    url: http://bioinformatics.intec.ugent.be/phenetic/index.html#/info
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Gene expression data
+          uri: http://edamontology.org/data_2603
+        format: []
+      - data:
+          term: Pathway or network
+          uri: http://edamontology.org/data_2600
+        format: []
+      - data:
+          term: Gene ID
+          uri: http://edamontology.org/data_2295
+        format: []
+    note: null
+    operation:
+      - term: Gene to pathway mapping
+        uri: http://edamontology.org/operation_0533
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format: []
+      - data:
+          term: Pathway or network
+          uri: http://edamontology.org/data_2600
+        format: []
+homepage: http://bioinformatics.intec.ugent.be/phenetic/#/index
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link: []
+maturity: null
+name: PheNetic
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: Katrijn.Vannerum@ugent.be
+publication:
+  - doi: 10.1039/c3mb25551d
+    metadata:
+      abstract: "At the present time, omics experiments are commonly used in wet lab\
+        \ practice to identify leads involved in interesting phenotypes. These omics\
+        \ experiments often result in unstructured gene lists, the interpretation\
+        \ of which in terms of pathways or the mode of action is challenging. To aid\
+        \ in the interpretation of such gene lists, we developed PheNetic, a decision\
+        \ theoretic method that exploits publicly available information, captured\
+        \ in a comprehensive interaction network to obtain a mechanistic view of the\
+        \ listed genes. PheNetic selects from an interaction network the sub-networks\
+        \ highlighted by these gene lists. We applied PheNetic to an Escherichia coli\
+        \ interaction network to reanalyse a previously published KO compendium, assessing\
+        \ gene expression of 27 E. coli knock-out mutants under mild acidic conditions.\
+        \ Being able to unveil previously described mechanisms involved in acid resistance\
+        \ demonstrated both the performance of our method and the added value of our\
+        \ integrated E. coli network. PheNetic is available at http://bioi.biw.kuleuven.be/~driesdm/phenetic/\
+        \ . \xA9 The Royal Society of Chemistry 2013."
+      authors:
+        - name: De Maeyer D.
+        - name: Renkens J.
+        - name: Cloots L.
+        - name: De Raedt L.
+        - name: Marchal K.
+      citationCount: 12
+      date: '2013-01-01T00:00:00Z'
+      journal: Molecular BioSystems
+      title: 'PheNetic: Network-based interpretation of unstructured gene lists in
+        E. coli'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+validated: 1
+version:
+  - '1'

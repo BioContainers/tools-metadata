@@ -1,0 +1,101 @@
+accessibility: []
+additionDate: '2017-08-03T18:49:15Z'
+biotoolsCURIE: biotools:memosys
+biotoolsID: memosys
+collectionID: []
+cost: null
+credit:
+  - email: zlatko.trajanoski@i-med.ac.at
+    name: Zlatko Trajanoski (Director)
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://icbi.at/contact.html
+description: Web based bioinformatics platform for the management, storage, and development
+  of metabolic models. It supports the development of new models by providing a built
+  in version control system which offers access to the complete reconstruction history.
+documentation:
+  - note: null
+    type: Manual
+    url: https://memosys.i-med.ac.at/MEMOSys/help.seam
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Metabolic network modelling
+        uri: http://edamontology.org/operation_3660
+    output: []
+homepage: http://icbi.at/software/memosys/memosys.shtml
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/memosys-2-1-1-metabolic-model-system.html
+maturity: null
+name: MEMOSys
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author(s) 2014. The MEtabolic MOdel research and development\
+        \ System (MEMOSys) is a versatile database for the management, storage and\
+        \ development of genome-scale models (GEMs). Since its initial release, the\
+        \ database has undergone major improvements, and the new version introduces\
+        \ several new features. First, the novel concept of derived models allows\
+        \ users to create model hierarchies that automatically propagate modifications\
+        \ along their order. Second, all stored components can now be easily enhanced\
+        \ with additional annotations that can be directly extracted from a supplied\
+        \ Systems Biology Markup Language (SBML) file. Third, the web application\
+        \ has been substantially revised and now features new query mechanisms, an\
+        \ easy search system for reactions and new link-out services to publicly available\
+        \ databases. Fourth, the updated database now contains 20 publicly available\
+        \ models, which can be easily exported into standardized formats for further\
+        \ analysis. Fifth, MEMOSys 2.0 is now also available as a fully configured\
+        \ virtual image and can be found online at http://www.icbi.at/memosys and\
+        \ http://memoys.i-med.ac.at."
+      authors:
+        - name: Pabinger S.
+        - name: Snajder R.
+        - name: Hardiman T.
+        - name: Willi M.
+        - name: Dander A.
+        - name: Trajanoski Z.
+      citationCount: 5
+      date: '2014-01-01T00:00:00Z'
+      journal: Database
+      title: 'MEMOSys 2.0: An update of the bioinformatics database for genome-scale
+        models and genomic data'
+    pmcid: null
+    pmid: '24532766'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
+  - term: Endocrinology and metabolism
+    uri: http://edamontology.org/topic_3407
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+validated: 1
+version: []

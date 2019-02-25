@@ -1,0 +1,113 @@
+accessibility: []
+additionDate: '2015-08-03T09:36:04Z'
+biotoolsCURIE: biotools:flymine
+biotoolsID: flymine
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: BioCatalogue
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: https://www.biocatalogue.org
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.flymine.org/
+description: An integrated database for Drosophila and Anopheles genomics.
+documentation:
+  - note: null
+    type: General
+    url: http://intermine.readthedocs.org/en/latest/web-services/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Data retrieval
+        uri: http://edamontology.org/operation_2422
+    output: []
+homepage: http://intermine.readthedocs.org/en/latest/web-services/
+homepage_status: 0
+language:
+  - R
+  - Ruby
+  - Java
+  - Python
+  - Javascript
+  - Perl
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: https://www.biocatalogue.org/services/3790
+maturity: null
+name: FlyMine
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: BioCatalogue
+publication:
+  - doi: 10.1186/gb-2007-8-7-r129
+    metadata:
+      abstract: "FlyMine is a data warehouse that addresses one of the important challenges\
+        \ of modern biology: how to integrate and make use of the diversity and volume\
+        \ of current biological data. Its main focus is genomic and proteomics data\
+        \ for Drosophila and other insects. It provides web access to integrated data\
+        \ at a number of different levels, from simple browsing to construction of\
+        \ complex queries, which can be executed on either single items or lists.\
+        \ \xA9 2007 Lyne et al.; licensee BioMed Central Ltd."
+      authors:
+        - name: Lyne R.
+        - name: Smith R.
+        - name: Rutherford K.
+        - name: Wakeling M.
+        - name: Varley A.
+        - name: Guillier F.
+        - name: Janssens H.
+        - name: Ji W.
+        - name: Mclaren P.
+        - name: North P.
+        - name: Rana D.
+        - name: Riley T.
+        - name: Sullivan J.
+        - name: Watkins X.
+        - name: Woodbridge M.
+        - name: Lilley K.
+        - name: Russell S.
+        - name: Ashburner M.
+        - name: Mizuguchi K.
+        - name: Micklem G.
+      citationCount: 192
+      date: '2007-07-05T00:00:00Z'
+      journal: Genome Biology
+      title: 'FlyMine: An integrated database for Drosophila and Anopheles genomics'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web API
+topic:
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
+validated: 1
+version:
+  - '1'

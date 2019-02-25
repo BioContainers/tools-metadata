@@ -1,0 +1,96 @@
+accessibility: []
+additionDate: '2017-08-03T18:49:32Z'
+biotoolsCURIE: biotools:millipede
+biotoolsID: millipede
+collectionID: []
+cost: null
+credit:
+  - email: amink@cs.duke.edu
+    name: Alexander J. Hartemink
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.cs.duke.edu/~amink/
+description: Method that outperforms a leading recent method, centipede, marginally
+  in human but dramatically in yeast (average auROC across 20 TFs increases from 74%
+  to 94%). The sofware is based on logistic regression and thus benefits from supervision,
+  but we show that partially and completely unsupervised variants perform nearly as
+  well.
+documentation:
+  - note: null
+    type: General
+    url: https://users.cs.duke.edu/~amink/software/millipede/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Regression analysis
+        uri: http://edamontology.org/operation_3659
+    output: []
+homepage: http://www.cs.duke.edu/~amink/software/millipede/
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/millipede-1-1-0-model-identifying-transcription-factor-binding-sites.html
+maturity: null
+name: MILLIPEDE
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: Identifying binding sites of transcription factors (TFs) is a key
+        task in deciphering transcriptional regulation. ChIP-based methods are used
+        to survey the genomic locations of a single TF in each experiment. But methods
+        combining DNase digestion data with TF binding specificity information could
+        potentially be used to survey the locations of many TFs in the same experiment,
+        provided such methods permit reasonable levels of sensitivity and specificity.
+        Here, we present a simple such method that outperforms a leading recent method,
+        centipede, marginally in human but dramatically in yeast (average auROC across
+        20 TFs increases from 74% to 94%). Our method is based on logistic regression
+        and thus benefits from supervision, but we show that partially and completely
+        unsupervised variants perform nearly as well. Because the number of parameters
+        in our method is at least an order of magnitude smaller than centipede, we
+        dub it millipede.
+      authors:
+        - name: Luo K.
+        - name: Hartemink A.J.
+      citationCount: 16
+      date: '2013-01-01T00:00:00Z'
+      journal: 18th Pacific Symposium on Biocomputing, PSB 2013
+      title: Using dnase digestion data to accurately identify transcription factor
+        binding sites
+    pmcid: null
+    pmid: '23424114'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Model organisms
+    uri: http://edamontology.org/topic_0621
+  - term: Human biology
+    uri: http://edamontology.org/topic_2815
+validated: 1
+version: []

@@ -1,0 +1,90 @@
+accessibility:
+  - Open access
+additionDate: '2018-03-08T21:05:31Z'
+biotoolsCURIE: biotools:mentalist
+biotoolsID: mentalist
+collectionID: []
+cost: Free of charge
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/WGS-TB/MentaLiST
+description: A MLST caller based on a k-mer counting algorithm and written in the
+  Julia language, specifically designed and implemented to handle large typing schemes.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/WGS-TB/MentaLiST/blob/master/docs/Basic%20Usage.ipynb
+download:
+  - note: null
+    type: Source code
+    url: https://github.com/WGS-TB/MentaLiST
+    version: null
+  - note: null
+    type: Binary package
+    url: https://anaconda.org/bioconda/mentalist
+    version: null
+editPermission:
+  authors: []
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: DNA sequence (raw)
+          uri: http://edamontology.org/data_3497
+        format:
+          - term: FASTQ
+            uri: http://edamontology.org/format_1930
+      - data:
+          term: Genome index
+          uri: http://edamontology.org/data_3210
+        format:
+          - term: hdf5
+            uri: http://edamontology.org/format_3590
+    note: null
+    operation:
+      - term: Genotyping
+        uri: http://edamontology.org/operation_3196
+    output:
+      - data:
+          term: Nucleic acid signature
+          uri: http://edamontology.org/data_3492
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
+homepage: https://github.com/WGS-TB/MentaLiST
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:52Z'
+license: MIT
+link: []
+maturity: Emerging
+name: MentaLiST
+operatingSystem:
+  - Linux
+otherID: []
+owner: dfornika
+publication:
+  - doi: 10.1099/mgen.0.000146
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+validated: 1
+version:
+  - 0.2.1

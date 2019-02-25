@@ -1,0 +1,67 @@
+accessibility: []
+additionDate: '2017-12-18T00:03:20Z'
+biotoolsCURIE: biotools:atlas_gapfill
+biotoolsID: atlas_gapfill
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.hgsc.bcm.tmc.edu/
+description: Deals with the repetitive gap assembly problem by using the unique gap-flanking
+  sequences to group reads and convert the problem to a local assembly task. Localizing
+  the assembly reduces the numbers of repeats in the assembly, allows more data to
+  be incorporated, and allows for gaps to be filled.
+documentation:
+  - note: null
+    type: General
+    url: https://www.hgsc.bcm.edu/sites/default/files/software/ATLAS_GapFill_V2_2/README
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence assembly
+        uri: http://edamontology.org/operation_0310
+    output: []
+homepage: https://www.hgsc.bcm.edu/software/atlas-gapfill
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/atlas-gapfill-2-2-deals-repetitive-gap-assembly-problem.html
+maturity: null
+name: ATLAS GapFill
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Whole genome sequencing
+    uri: http://edamontology.org/topic_3673
+validated: 1
+version:
+  - '2.2'

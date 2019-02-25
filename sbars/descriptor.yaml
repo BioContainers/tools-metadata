@@ -1,0 +1,89 @@
+accessibility: []
+additionDate: '2017-08-03T18:59:08Z'
+biotoolsCURIE: biotools:sbars
+biotoolsID: sbars
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/mpyatkov
+description: A bioinformatics tool for searching of different types of long repeats
+  in sequences comparable by size with chromosomes.
+documentation:
+  - note: null
+    type: Manual
+    url: https://github.com/mpyatkov/sbars/raw/master/SBARS.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Repeat sequence detection
+        uri: http://edamontology.org/operation_0379
+    output: []
+homepage: http://mpyatkov.github.io/sbars/
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/sbars-spectral-based-approach-for-repeats-search.html
+maturity: null
+name: SBARS
+operatingSystem:
+  - Linux
+  - Windows
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Structural analysis of long DNA fragments, including chromosomes\
+        \ and whole genomes, is one of the main challenges in modern bioinformatics.\
+        \ Here, we propose an original approach based on spectral methods and its\
+        \ implementation called SBARS (Spectral-Based Approach for Repeats Search.\
+        \ The main idea of our approach is that repeated DNA structures are recognized\
+        \ not within the nucleotide sequence directly but within the function derived\
+        \ from this sequence. This allows us to investigate nucleotide sequences on\
+        \ different scales and decrease time complexity for dotplot creation down\
+        \ to. \xA9 2014 The Author. Published by Oxford University Press. All rights\
+        \ reserved."
+      authors:
+        - name: Pyatkov M.I.
+        - name: Pankratov A.N.
+      citationCount: 3
+      date: '2014-06-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'SBARS: Fast creation of dotplots for DNA sequences on different scales
+        using GA-,GC-content'
+    pmcid: null
+    pmid: '24532721'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Sequence composition, complexity and repeats
+    uri: http://edamontology.org/topic_0157
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+validated: 1
+version: []

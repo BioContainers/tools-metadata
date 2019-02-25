@@ -1,0 +1,100 @@
+accessibility: []
+additionDate: '2017-08-03T18:57:41Z'
+biotoolsCURIE: biotools:regent
+biotoolsID: regent
+collectionID: []
+cost: null
+credit:
+  - email: djmcrouch@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.kcl.ac.uk/medicine/research/divisions/gmm/departments/mmg/researchgroups/clewis/index.aspx
+description: "An R package to calculate risks conferred by genetic factors and multi-level\
+  \ environmental factors. \_This is performed at a population level, with the option\
+  \ to also analyse individual-level data. \_REGENT incorporates variability in risk\
+  \ factors to calculate confidence intervals for risk estimates and to classify the\
+  \ population into different categories of risk based on significant differences\
+  \ from the baseline average member of the population."
+documentation:
+  - note: null
+    type: General
+    url: https://cran.r-project.org/web/packages/REGENT/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Virulence prediction
+        uri: http://edamontology.org/operation_3461
+    output: []
+homepage: https://www.kcl.ac.uk/lsm/research/divisions/gmm/departments/mmg/researchgroups/clewis/software/regent/index.aspx
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/regent-1-0-2-calculate-risks-conferred-genetic-factors-multi-level-environmental-factors.html
+maturity: null
+name: REGENT
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "The identification of environmental and genetic factors that contribute\
+        \ to disease risk requires appropriate statistical methods and software that\
+        \ can integrate different sources of risk, provide statistical assessment\
+        \ of combined risk factors, and facilitate interpretation of this risk. We\
+        \ have developed an R package, REGENT, to calculate risks conferred by genetic\
+        \ factors and multilevel environmental factors. This is performed at a population\
+        \ level, with the option to also analyse individual-level data. REGENT incorporates\
+        \ variability in risk factors to calculate confidence intervals for risk estimates\
+        \ and to classify the population into different categories of risk based on\
+        \ significant differences from the baseline average member of the population.\
+        \ REGENT is an R package available from CRAN: http://cran.r-project.org/web/packages/REGENT.\
+        \ It will be of value to genetic researchers exploring the utility of the\
+        \ variants detected for their disorder, and to clinical researchers interested\
+        \ in genetic risk studies. \xA9 2013 Macmillan Publishers Limited. All rights\
+        \ reserved."
+      authors:
+        - name: Crouch D.J.M.
+        - name: Goddard G.H.M.
+        - name: Lewis C.M.
+      citationCount: 9
+      date: '2013-01-01T00:00:00Z'
+      journal: European Journal of Human Genetics
+      title: 'REGENT: A risk assessment and classification algorithm for genetic and
+        environmental factors'
+    pmcid: null
+    pmid: '22669417'
+    type: null
+    version: null
+toolType:
+  - Library
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Pathology
+    uri: http://edamontology.org/topic_0634
+  - term: Metagenomics
+    uri: http://edamontology.org/topic_3174
+validated: 1
+version: []

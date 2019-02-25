@@ -1,0 +1,100 @@
+accessibility: []
+additionDate: '2015-03-08T21:36:53Z'
+biotoolsCURIE: biotools:hapcluster
+biotoolsID: hapcluster
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: birc.au.dk
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: mailund@birc.au.dk
+    name: Thomas Mailund
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A software package for association mapping.
+documentation:
+  - note: null
+    type: General
+    url: http://www.daimi.au.dk/~mailund/HapCluster/#about
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genetic mapping
+        uri: http://edamontology.org/operation_0282
+    output: []
+homepage: http://www.daimi.au.dk/~mailund/HapCluster/
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link: []
+maturity: null
+name: HapCluster
+operatingSystem:
+  - Linux
+otherID: []
+owner: runef@birc.au.dk
+publication:
+  - doi: 10.1002/gepi.20134
+    metadata:
+      abstract: "We propose an algorithm for analysing SNP-based population association\
+        \ studies, which is a development of that introduced by Molitor et al. [2003:\
+        \ Am J Hum Genet 73:1368-1384]. It uses clustering of haplotypes to overcome\
+        \ the major limitations of many current haplotype-based approaches. We define\
+        \ a between-haplotype score that is simple, yet appears to capture much of\
+        \ the information about evolutionary relatedness of the haplotypes in the\
+        \ vicinity of a (unobserved) putative causal locus. Haplotype clusters can\
+        \ then be defined via a putative ancestral haplotype and a cut-off distance.\
+        \ The number of an individual's two haplotypes that lie within the cluster\
+        \ predicts the individual's genotype at the causal locus. This predicted genotype\
+        \ can then be investigated for association with the phenotype of interest.\
+        \ We implement our approach within a Markov-chain Monte Carlo algorithm that,\
+        \ in effect, searches over locations and ancestral haplotypes to identify\
+        \ large, case-rich clusters. The algorithm successfully fine-maps a causal\
+        \ mutation in a test analysis using real data, and achieves almost 98% accuracy\
+        \ in predicting the genotype at the causal locus. A simulation study indicates\
+        \ that the new algorithm is substantially superior to alternative approaches,\
+        \ and it also allows us to identify situations in which multipoint approaches\
+        \ can substantially improve over single-SNP analyses. Our algorithm runs quickly\
+        \ and there is scope for extension to a wide range of disease models and genomic\
+        \ scales. \xA9 2005 Wiley-Liss, Inc."
+      authors:
+        - name: Waldron E.
+        - name: Whittaker J.C.
+        - name: Balding D.J.
+      citationCount: 40
+      date: '2006-02-01T00:00:00Z'
+      journal: Genetic Epidemiology
+      title: Fine mapping of disease genes via haplotype clustering
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
+validated: 1
+version:
+  - 2.3.0

@@ -1,0 +1,102 @@
+accessibility: []
+additionDate: '2017-08-03T18:58:05Z'
+biotoolsCURIE: biotools:rnapasta
+biotoolsID: rnapasta
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://rna-informatics.uga.edu/malmberg/rlmlab/index.php
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://rna-informatics.uga.edu/malmberg/rlmlab/index.php?s=2&n=7&r=0
+description: A utility for collecting statistics from aligned and structurally annotated
+  RNA sequences. It is a java utility intended to work with RNA structural alignments,
+  including the motifs of stem-loops and pseudoknots. It can perform a variety of
+  statistical analyses, and has editing capabilities intended to be useful with alignments
+  that contain variable data such as the presence or absence of stem-loops or pseudoknots
+  across sequences.
+documentation:
+  - note: null
+    type: General
+    url: http://rna-informatics.uga.edu/malmberg/rlmlab/index.php?s=1&n=5&r=0
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: RNA secondary structure alignment
+        uri: http://edamontology.org/operation_0502
+    output: []
+homepage: http://rna-informatics.uga.edu/malmberg/rlmlab/index.php?s=1&n=5&r=0
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/rnapasta-1-01-rna-structural-alignment-statistical-analysis.html
+maturity: null
+name: RNApasta
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "The study of RNA sequence structural alignments has become an important\
+        \ part of characterising noncoding RNAs. We developed RNApasta, a Java program\
+        \ with a graphical interface, to perform analysis and editing of RNA alignments.\
+        \ RNApasta can be used to generate statistics for modelling RNAs and to develop\
+        \ homogeneous subsets of alignments that contain variability. RNApasta includes\
+        \ several functions to characterise variation in stem and loop lengths, including\
+        \ phylogenetic analysis of this variation; as an example, we analyse variation\
+        \ in mir-31 pre-microRNA loop length variation, demonstrating that the sequences\
+        \ with longer loops had a single evolutionary origin. \xA9 2010 Inderscience\
+        \ Enterprises Ltd."
+      authors:
+        - name: Malmberg R.L.
+        - name: Shaw T.I.
+        - name: Cai L.
+      citationCount: 1
+      date: '2010-12-01T00:00:00Z'
+      journal: International Journal of Bioinformatics Research and Applications
+      title: 'RNApasta: A tool for analysis of RNA structural alignments'
+    pmcid: null
+    pmid: '21354963'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Nucleic acid structure analysis
+    uri: http://edamontology.org/topic_0097
+  - term: Functional, regulatory and non-coding RNA
+    uri: http://edamontology.org/topic_0659
+validated: 1
+version: []

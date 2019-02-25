@@ -1,0 +1,121 @@
+accessibility: []
+additionDate: '2017-08-03T18:58:51Z'
+biotoolsCURIE: biotools:rvtests
+biotoolsID: rvtests
+collectionID: []
+cost: null
+credit:
+  - email: zhanxw@umich.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://genome.sph.umich.edu/wiki/Main_Page
+  - email: dajiang.liu@outlook.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: goncalo@umich.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A flexible software package for genetic association studies. It is designed
+  to support unrelated individual or related (family-based) individuals. Both quantitative
+  trait and binary trait are supported
+documentation:
+  - note: null
+    type: General
+    url: http://zhanxw.github.io/rvtests/#introduction
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output: []
+homepage: http://zhanxw.github.io/rvtests/
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/rvtests-v1-rare-variants-tests.html
+maturity: null
+name: RvTests
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2016. Published by Oxford University Press. Motivation:\
+        \ Next-generation sequencing technologies have enabled the large-scale assessment\
+        \ of the impact of rare and low-frequency genetic variants for complex human\
+        \ diseases. Gene-level association tests are often performed to analyze rare\
+        \ variants, where multiple rare variants in a gene region are analyzed jointly.\
+        \ Applying gene-level association tests to analyze sequence data often requires\
+        \ integrating multiple heterogeneous sources of information (e.g. annotations,\
+        \ functional prediction scores, allele frequencies, genotypes and phenotypes)\
+        \ to determine the optimal analysis unit and prioritize causal variants. Given\
+        \ the complexity and scale of current sequence datasets and bioinformatics\
+        \ databases, there is a compelling need for more efficient software tools\
+        \ to facilitate these analyses. To answer this challenge, we developed RVTESTS,\
+        \ which implements a broad set of rare variant association statistics and\
+        \ supports the analysis of autosomal and X-linked variants for both unrelated\
+        \ and related individuals. RVTESTS also provides useful companion features\
+        \ for annotating sequence variants, integrating bioinformatics databases,\
+        \ performing data quality control and sample selection. We illustrate the\
+        \ advantages of RVTESTS in functionality and efficiency using the 1000 Genomes\
+        \ Project data."
+      authors:
+        - name: Zhan X.
+        - name: Hu Y.
+        - name: Li B.
+        - name: Abecasis G.R.
+        - name: Liu D.J.
+      citationCount: 23
+      date: '2016-05-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'RVTESTS: An efficient and comprehensive tool for rare variant association
+        analysis using sequence data'
+    pmcid: null
+    pmid: '27153000'
+    type: null
+    version: null
+toolType:
+  - Library
+topic:
+  - term: Human genetics
+    uri: http://edamontology.org/topic_3574
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+validated: 1
+version: []

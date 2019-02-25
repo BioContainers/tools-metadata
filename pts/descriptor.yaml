@@ -1,0 +1,68 @@
+accessibility: []
+additionDate: '2017-12-18T00:10:40Z'
+biotoolsCURIE: biotools:pts
+biotoolsID: pts
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://bioinf.eva.mpg.de/
+description: Small collection of programs concerned with parallel sequencing of multiple
+  samples on the 454 platform. untag supports Parallel Tagged Sequencing by sorting
+  sequences according to their tags and by removing those tags when producing output
+  files (in FASTA or SFF format) for downstream processing with standard 454 or other
+  assembly software.
+documentation:
+  - note: null
+    type: General
+    url: https://bioinf.eva.mpg.de/pts/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence assembly
+        uri: http://edamontology.org/operation_0310
+    output: []
+homepage: https://bioinf.eva.mpg.de/pts/
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/pts-1-0-2-parallel-tagged-sequencing.html
+maturity: null
+name: PTS
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+validated: 1
+version:
+  - 1.0.2

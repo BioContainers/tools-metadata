@@ -1,0 +1,95 @@
+accessibility: []
+additionDate: '2017-08-03T18:52:10Z'
+biotoolsCURIE: biotools:n-score
+biotoolsID: n-score
+collectionID: []
+cost: null
+credit:
+  - email: gcyuan@jimmy.harvard.edu
+    name: Guo-Cheng Yuan
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://bcb.dfci.harvard.edu/~gcyuan/
+description: Wavelet analysis based model for predicting nucleosome positions from
+  DNA sequence information.
+documentation:
+  - note: null
+    type: General
+    url: http://bcb.dfci.harvard.edu/~gcyuan/software.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Nucleic acid sequence analysis
+        uri: http://edamontology.org/operation_2478
+    output: []
+homepage: http://bcb.dfci.harvard.edu/~gcyuan/software.html
+homepage_status: 0
+language:
+  - MATLAB
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/n-score-predict-nucleosome-positions-dna-sequence-information.html
+maturity: null
+name: N-score
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "The regulation of DNA accessibility through nucleosome positioning\
+        \ is important for transcription control. Computational models have been developed\
+        \ to predict genome-wide nucleosome positions from DNA sequences, but these\
+        \ models consider only nucleosome sequences, which may have limited their\
+        \ power. We developed a statistical multi-resolution approach to identify\
+        \ a sequence signature, called the N-score, that distinguishes nucleosome\
+        \ binding DNA from non-nucleosome DNA. This new approach has significantly\
+        \ improved the prediction accuracy. The sequence information is highly predictive\
+        \ for local nucleosome enrichment or depletion, whereas predictions of the\
+        \ exact positions are only modestly more accurate than a null model, suggesting\
+        \ the importance of other regulatory factors in fine-tuning the nucleosome\
+        \ positions. The N-score in promoter regions is negatively correlated with\
+        \ gene expression levels. Regulatory elements are enriched in low N-score\
+        \ regions. While our model is derived from yeast data, the Nscore pattern\
+        \ computed from this model agrees well with recent high-resolution protein-binding\
+        \ data in human. \xA9 2008 Yuan and Liu."
+      authors:
+        - name: Yuan G.-C.
+        - name: Liu J.S.
+      citationCount: 146
+      date: '2008-01-01T00:00:00Z'
+      journal: PLoS Computational Biology
+      title: Genomic sequence is highly predictive of local nucleosome depletion
+    pmcid: null
+    pmid: '18225943'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Nucleic acid sites, features and motifs
+    uri: http://edamontology.org/topic_3511
+  - term: Epigenetics
+    uri: http://edamontology.org/topic_3295
+validated: 1
+version: []

@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2017-08-03T19:08:11Z'
+biotoolsCURIE: biotools:rnapagenumber
+biotoolsID: rnapagenumber
+collectionID: []
+cost: null
+credit:
+  - email: clote@bc.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://bioinformatics.bc.edu/clotelab/
+description: A web server that computes the optimal "page number" of an RNA pseudoknotted
+  or tertiary structure, by using constraint programming (CP); input as a PDB file
+  or .ct (mfold connect) file.
+documentation:
+  - note: null
+    type: Manual
+    url: http://bioinformatics.bc.edu/clotelab/RNApagenumber/index.spy?tab=manual
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: RNA secondary structure analysis
+        uri: http://edamontology.org/operation_2439
+    output: []
+homepage: http://bioinformatics.bc.edu/clotelab/RNApagenumber/index.spy
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/rnapagenumber-compute-optimal-page-number-rna-structure.html
+maturity: null
+name: rnapagenumber
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Let S denote the set of (possibly noncanonical) base pairs {i, j}\
+        \ of an RNA tertiary structure; i. e. {i, j} \u2208 S if there is a hydrogen\
+        \ bond between the ith and jth nucleotide. The page number of S, denoted \u03C0\
+        (S), is the minimum number k such that S can be decomposed into a disjoint\
+        \ union of k secondary structures. Here, we show that computing the page number\
+        \ is NP-complete; we describe an exact computation of page number, using constraint\
+        \ programming, and determine the page number of a collection of RNA tertiary\
+        \ structures, for which the topological genus is known. We describe an approximation\
+        \ algorithm from which it follows that \u03C9(S) \u2264 \u03C0(S) \u2264 \u03C9\
+        (S)\xB7 log n, where the clique number of S, \u03C9(S), denotes the maximum\
+        \ number of base pairs that pairwise cross each other. \xA9 2011 Springer-Verlag."
+      authors:
+        - name: Clote P.
+        - name: Dobrev S.
+        - name: Dotu I.
+        - name: Kranakis E.
+        - name: Krizanc D.
+        - name: Urrutia J.
+      citationCount: 5
+      date: '2012-01-01T00:00:00Z'
+      journal: Journal of Mathematical Biology
+      title: On the page number of RNA secondary structures with pseudoknots
+    pmcid: null
+    pmid: '22159642'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Nucleic acid structure analysis
+    uri: http://edamontology.org/topic_0097
+  - term: Nucleic acid sites, features and motifs
+    uri: http://edamontology.org/topic_3511
+validated: 1
+version: []

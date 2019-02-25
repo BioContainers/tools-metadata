@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2017-05-02T10:01:07Z'
+biotoolsCURIE: biotools:scpsrm
+biotoolsID: scpsrm
+collectionID: []
+cost: null
+credit:
+  - email: am8@sanger.ac.uk
+    name: Alan M Moses
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Cyclin-dependent kinase (CDK) consensus motifs are frequently clustered
+  in CDK substrate proteins. This tool contains the scripts used to search for CDK
+  clusters.
+documentation:
+  - note: null
+    type: General
+    url: http://www.moseslab.csb.utoronto.ca/alan/protein_motifs.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence motif recognition
+        uri: http://edamontology.org/operation_0239
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+      - term: Protein structural motif recognition
+        uri: http://edamontology.org/operation_0245
+    output: []
+homepage: http://www.moseslab.csb.utoronto.ca/alan/protein_motifs.html
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link: []
+maturity: null
+name: SCPSRM
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Protein kinases are critical to cellular signalling and post-translational\
+        \ gene regulation, but their biological substrates are difficult to identify.\
+        \ We show that cyclin-dependent kinase (CDK) consensus motifs are frequently\
+        \ clustered in CDK substrate proteins. Based on this, we introduce a new computational\
+        \ strategy to predict the targets of CDKs and use it to identify new biologically\
+        \ interesting candidates. Our data suggest that regulatory modules may exist\
+        \ in protein sequence as clusters of short sequence motifs. \xA9 2007 Moses\
+        \ et al.; licensee BioMed Central Ltd."
+      authors:
+        - name: Moses A.M.
+        - name: Heriche J.-K.
+        - name: Durbin R.
+      citationCount: 50
+      date: '2007-02-22T00:00:00Z'
+      journal: Genome Biology
+      title: Clustering of phosphorylation site recognition motifs can be exploited
+        to predict the targets of cyclin-dependent kinase
+    pmcid: null
+    pmid: '17316440'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+  - term: Sequence sites, features and motifs
+    uri: http://edamontology.org/topic_0160
+  - term: Protein sites, features and motifs
+    uri: http://edamontology.org/topic_3510
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+validated: 1
+version: []

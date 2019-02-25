@@ -1,0 +1,124 @@
+accessibility: []
+additionDate: '2017-01-13T13:16:08Z'
+biotoolsCURIE: biotools:rnnotator
+biotoolsID: rnnotator
+collectionID: []
+cost: null
+credit:
+  - email: DEGilbert@lbl.gov
+    name: David Gilbert
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: JAMartin@lbl.gov
+    name: Jeff Martin
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: ZhongWang@lbl.gov
+    name: Zhong Wang
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: XiandongMeng@lbl.gov
+    name: Xiandong Meng
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Automated software pipeline that generates transcript models by de novo
+  assembly of RNA-Seq data without the need for a reference genome
+documentation:
+  - note: null
+    type: General
+    url: https://sites.google.com/a/lbl.gov/rnnotator/announcements
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: De-novo assembly
+        uri: http://edamontology.org/operation_0524
+    output: []
+homepage: https://sites.google.com/a/lbl.gov/rnnotator/
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link: []
+maturity: null
+name: Rnnotator
+operatingSystem:
+  - Linux
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Background: Comprehensive annotation and quantification of transcriptomes\
+        \ are outstanding problems in functional genomics. While high throughput mRNA\
+        \ sequencing (RNA-Seq) has emerged as a powerful tool for addressing these\
+        \ problems, its success is dependent upon the availability and quality of\
+        \ reference genome sequences, thus limiting the organisms to which it can\
+        \ be applied.Results: Here, we describe Rnnotator, an automated software pipeline\
+        \ that generates transcript models by de novo assembly of RNA-Seq data without\
+        \ the need for a reference genome. We have applied the Rnnotator assembly\
+        \ pipeline to two yeast transcriptomes and compared the results to the reference\
+        \ gene catalogs of these organisms. The contigs produced by Rnnotator are\
+        \ highly accurate (95%) and reconstruct full-length genes for the majority\
+        \ of the existing gene models (54.3%). Furthermore, our analyses revealed\
+        \ many novel transcribed regions that are absent from well annotated genomes,\
+        \ suggesting Rnnotator serves as a complementary approach to analysis based\
+        \ on a reference genome for comprehensive transcriptomics.Conclusions: These\
+        \ results demonstrate that the Rnnotator pipeline is able to reconstruct full-length\
+        \ transcripts in the absence of a complete reference genome. \xA9 2010 Martin\
+        \ et al; licensee BioMed Central Ltd."
+      authors:
+        - name: Martin J.
+        - name: Bruno V.M.
+        - name: Fang Z.
+        - name: Meng X.
+        - name: Blow M.
+        - name: Zhang T.
+        - name: Sherlock G.
+        - name: Snyder M.
+        - name: Wang Z.
+      citationCount: 131
+      date: '2010-11-24T00:00:00Z'
+      journal: BMC Genomics
+      title: 'Rnnotator: An automated de novo transcriptome assembly pipeline from
+        stranded RNA-Seq reads'
+    pmcid: null
+    pmid: '21106091'
+    type: null
+    version: null
+toolType:
+  - Workflow
+topic:
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+  - term: RNA-Seq
+    uri: http://edamontology.org/topic_3170
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+validated: 1
+version: []

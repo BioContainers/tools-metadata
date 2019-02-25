@@ -1,0 +1,74 @@
+accessibility: []
+additionDate: '2017-12-18T00:12:34Z'
+biotoolsCURIE: biotools:snapr
+biotoolsID: snapr
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://price.systemsbiology.org/
+description: New method for RNA-seq analysis, optimized for hundreds or even thousands
+  of RNA-seq libraries. It reads from and writes to BAM format, automatically generates
+  read counts, and accurately identifies viral/bacterial infections and gene fusions.
+documentation:
+  - note: null
+    type: Manual
+    url: https://github.com/PriceLab/snapr/tree/master/docs
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: RNA-Seq analysis
+        uri: http://edamontology.org/operation_3680
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output: []
+homepage: https://price.systemsbiology.org/research/snapr/
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/snapr-scalable-nucleotide-alignment-program-rna-seq.html
+maturity: null
+name: SNAPR
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: RNA-Seq
+    uri: http://edamontology.org/topic_3170
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+validated: 1
+version: []

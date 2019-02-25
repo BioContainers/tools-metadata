@@ -1,0 +1,91 @@
+accessibility: []
+additionDate: '2017-02-14T09:35:56Z'
+biotoolsCURIE: biotools:alter
+biotoolsID: alter
+collectionID: []
+cost: null
+credit:
+  - email: alter@sing.ei.uvigo.es
+    name: ALTER Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: ALTER is a program-oriented web tool for the conversion between DNA and
+  protein alignments.
+documentation:
+  - note: null
+    type: Manual
+    url: http://sing.ei.uvigo.es/ALTER/help/ALTER-UserGuide.htm
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence alignment conversion
+        uri: http://edamontology.org/operation_0260
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+homepage: http://sing.ei.uvigo.es/ALTER/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link: []
+maturity: null
+name: ALTER
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "ALTER is an open web-based tool to transform between different multiple\
+        \ sequence alignment formats. The originality of ALTER lies in the fact that\
+        \ it focuses on the specifications of mainstream alignment and analysis programs\
+        \ rather than on the conversion among more or less specific formats. In addition,\
+        \ ALTER is capable of identify and remove identical sequences during the transformation\
+        \ process. Besides its user-friendly environment, ALTER allows access to its\
+        \ functionalities in a programmatic way through a Representational State Transfer\
+        \ web service. ALTER's front-end and its API are freely available at http://sing.ei.uvigo.es/ALTER/\
+        \ and http://sing.ei.uvigo.es/ALTER/api/, respectively. \xA9 The Author(s)\
+        \ 2010. Published by Oxford University Press."
+      authors:
+        - name: Glez-Pena D.
+        - name: Gomez-Blanco D.
+        - name: Reboiro-Jato M.
+        - name: Fdez-Riverola F.
+        - name: Posada D.
+      citationCount: 130
+      date: '2010-05-03T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'ALTER: Program-oriented conversion of DNA and protein alignments'
+    pmcid: null
+    pmid: '20439312'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

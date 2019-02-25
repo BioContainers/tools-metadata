@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2017-02-14T09:35:08Z'
+biotoolsCURIE: biotools:oligowalk
+biotoolsID: oligowalk
+collectionID: []
+cost: null
+credit:
+  - email: David_Mathews@urmc.rochester.edu
+    name: David Mathews
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: OligoWalk is an online sever for designing efficient siRNA targeting
+  a given mRNA sequence. By calculating thermodynamic features of sense-antisense
+  hybidization, OligoWalk predicts the free energy changes of oligonucleotides binding
+  to a target RNA.
+documentation:
+  - note: null
+    type: General
+    url: http://rna.urmc.rochester.edu/servers/oligowalk2/help.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: siRNA duplex prediction
+        uri: http://edamontology.org/operation_2008
+      - term: siRNA binding specificity prediction
+        uri: http://edamontology.org/operation_0465
+    output: []
+homepage: http://rna.urmc.rochester.edu/servers/oligowalk
+homepage_status: 0
+language:
+  - Javascript
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link: []
+maturity: null
+name: OligoWalk
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: Given an mRNA sequence as input, the OligoWalk web server generates
+        a list of small interfering RNA (siRNA) candidate sequences, ranked by the
+        probability of being efficient siRNA (silencing efficacy greater than 70%).
+        To accomplish this, the server predicts the free energy changes of the hybridization
+        of an siRNA to a target mRNA, considering both siRNA and mRNA self-structure.
+        The free energy changes of the structures are rigorously calculated using
+        a partition function calculation. By changing advanced options, the free energy
+        changes can also be calculated using less rigorous lowest free energy structure
+        or suboptimal structure prediction methods for the purpose of comparison.
+        Considering the predicted free energy changes and local siRNA sequence features,
+        the server selects efficient siRNA with high accuracy using a support vector
+        machine. On average, the fraction of efficient siRNAs selected by the server
+        that will be efficient at silencing is 78.6%. The OligoWalk web server is
+        freely accessible through internet at http://rna.urmc.rochester.edu/servers/oligowalk.
+      authors:
+        - name: Lu Z.J.
+        - name: Mathews D.H.
+      citationCount: 44
+      date: '2008-07-01T00:00:00Z'
+      journal: Nucleic acids research
+      title: 'OligoWalk: an online siRNA design tool utilizing hybridization thermodynamics.'
+    pmcid: null
+    pmid: '18490376'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Functional, regulatory and non-coding RNA
+    uri: http://edamontology.org/topic_0659
+  - term: Gene transcripts
+    uri: http://edamontology.org/topic_3512
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+  - term: Nucleic acid structure analysis
+    uri: http://edamontology.org/topic_0097
+validated: 1
+version: []

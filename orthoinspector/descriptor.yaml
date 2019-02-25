@@ -1,0 +1,96 @@
+accessibility: []
+additionDate: '2017-08-03T18:53:23Z'
+biotoolsCURIE: biotools:orthoinspector
+biotoolsID: orthoinspector
+collectionID: []
+cost: null
+credit:
+  - email: odile.lecompte@unistra.fr
+    name: Odile Lecompte
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://alnitak.u-strasbg.fr/lbgi/
+description: Software system incorporating an original algorithm for the rapid detection
+  of orthology and inparalogy relations between different species.
+documentation:
+  - note: null
+    type: Manual
+    url: http://lbgi.igbmc.fr/orthoinspector/index.php?option=com_content&view=article&id=50:tutorial-prepare-data-to-create-your-own-database&catid=3:tutorials&Itemid=6
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Prediction and recognition
+        uri: http://edamontology.org/operation_2423
+    output: []
+homepage: http://lbgi.igbmc.fr/orthoinspector/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/orthoinspector-2-10-rapid-detection-orthology-inparalogy-relations-species.html
+maturity: null
+name: OrthoInspector
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2014. Published by Oxford University Press. All rights\
+        \ reserved. We previously developed OrthoInspector, a package incorporating\
+        \ an original algorithm for the detection of orthology and inparalogy relations\
+        \ between different species. We have added new functionalities to the package.\
+        \ While its original algorithm was not modified, performing similar orthology\
+        \ predictions, we facilitated the prediction of very large databases (thousands\
+        \ of proteomes), refurbished its graphical interface, added new visualization\
+        \ tools for comparative genomics/protein family analysis and facilitated its\
+        \ deployment in a network environment. Finally, we have released three online\
+        \ databases of precomputed orthology relationships."
+      authors:
+        - name: Linard B.
+        - name: Allot A.
+        - name: Schneider R.
+        - name: Morel C.
+        - name: Ripp R.
+        - name: Bigler M.
+        - name: Thompson J.D.
+        - name: Poch O.
+        - name: Lecompte O.
+      citationCount: 8
+      date: '2015-07-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'OrthoInspector 2.0: Software and database updates'
+    pmcid: null
+    pmid: '25273105'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Evolutionary biology
+    uri: http://edamontology.org/topic_3299
+validated: 1
+version: []

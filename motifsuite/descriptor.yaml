@@ -1,0 +1,103 @@
+accessibility: []
+additionDate: '2016-05-17T10:18:51Z'
+biotoolsCURIE: biotools:motifsuite
+biotoolsID: motifsuite
+collectionID:
+  - BIG N2N
+  - VIB
+  - Plant Systems Biology
+  - UGent
+cost: null
+credit:
+  - email: null
+    name: ugent.be
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: kathleen.marchal@intec.ugent.be
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Probabilistic motif detection.
+documentation:
+  - note: null
+    type: General
+    url: http://bioinformatics.intec.ugent.be/MotifSuite/usemotifsuite.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Nucleic acid sequence
+          uri: http://edamontology.org/data_2977
+        format: []
+    note: null
+    operation:
+      - term: Sequence motif discovery
+        uri: http://edamontology.org/operation_0238
+    output:
+      - data:
+          term: Sequence motif (nucleic acid)
+          uri: http://edamontology.org/data_2070
+        format: []
+homepage: http://bioinformatics.intec.ugent.be/MotifSuite/Index.htm
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link: []
+maturity: null
+name: MotifSuite
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: Katrijn.Vannerum@ugent.be
+publication:
+  - doi: 10.1093/bioinformatics/bts293
+    metadata:
+      abstract: "Motivation: Probabilistic motif detection requires a multi-step approach\
+        \ going from the actual de novo regulatory motif finding up to a tedious assessment\
+        \ of the predicted motifs. MotifSuite, a user-friendly web interface streamlines\
+        \ this analysis flow. Its core consists of two post-processing procedures\
+        \ that allow prioritizing the motif detection output. The tools offered by\
+        \ MotifSuite are built around the well-established motif detection tool MotifSampler\
+        \ and can also be used in combination with any other probabilistic motif detection\
+        \ tool. Elaborate guidelines on each of its applications have been provided.\
+        \ \xA9 The Author 2012. Published by Oxford University Press. All rights reserved."
+      authors:
+        - name: Claeys M.
+        - name: Storms V.
+        - name: Sun H.
+        - name: Michoel T.
+        - name: Marchal K.
+      citationCount: 8
+      date: '2012-07-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'Motifsuite: Workflow for probabilistic motif detection and assessment'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Nucleic acid sites, features and motifs
+    uri: http://edamontology.org/topic_3511
+validated: 1
+version:
+  - '1'

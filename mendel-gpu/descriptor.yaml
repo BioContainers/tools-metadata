@@ -1,0 +1,66 @@
+accessibility: []
+additionDate: '2017-12-18T00:15:11Z'
+biotoolsCURIE: biotools:mendel-gpu
+biotoolsID: mendel-gpu
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www-hsc.usc.edu/~garykche/
+description: This tool uses OpenCL kernels to rapidly impute genotypes using linkage
+  disequilibrium patterns in unrelated subjects. It is appropriate for resequencing
+  data.
+documentation:
+  - note: null
+    type: General
+    url: https://code.google.com/archive/p/mendel-gpu/wikis/configuration.wiki
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Imputation
+        uri: http://edamontology.org/operation_3557
+    output: []
+homepage: https://code.google.com/p/mendel-gpu/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/mendel-gpu-gpu-enabled-haplotying-and-genotype-imputation.html
+maturity: null
+name: mendel-gpu
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+validated: 1
+version: []

@@ -1,0 +1,93 @@
+accessibility: []
+additionDate: '2017-05-02T10:01:12Z'
+biotoolsCURIE: biotools:weighbor
+biotoolsID: weighbor
+collectionID: []
+cost: null
+credit: []
+description: Tool for building phylogenetic trees from distance matrices. It employs
+  a weighted version of the neighbour-joining method in which longer distances in
+  the matrix are given less weight.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Phylogenetic tree generation (minimum distance methods)
+        uri: http://edamontology.org/operation_0546
+      - term: Phylogenetic tree comparison
+        uri: http://edamontology.org/operation_0325
+      - term: Phylogenetic tree distances calculation
+        uri: http://edamontology.org/operation_0557
+      - term: Sequence distance matrix generation
+        uri: http://edamontology.org/operation_0289
+    output: []
+homepage: http://www.t10.lanl.gov/billb/weighbor/index.html
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link: []
+maturity: null
+name: Weighbor
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: We introduce a distance-based phylogeny reconstruction method called
+        'weighted neighbor joining,' or 'Weighbor' for short. As in neighbor joining,
+        two taxa are joined in each iteration; however, the Weighbor criterion for
+        choosing a pair of taxa to join takes into account that errors in distance
+        estimates are exponentially larger for longer distances. The criterion embodies
+        a likelihood function on the distances, which are modeled as correlated Gaussian
+        random variables with different means and variances, computed under a probabilistic
+        model for sequence evolution. The Weighbor criterion consists of two terms,
+        an additivity term and a positivity term, that quantify the implications of
+        joining the pair. The first term evaluates deviations from additivity of the
+        implied external branches, while the second term evaluates confidence that
+        the implied internal branch has a positive branch length. Compared with maximum-likelihood
+        phylogeny reconstruction, Weighbor is much faster, while building trees that
+        are qualitatively and quantitatively similar. Weighbor appears to be relatively
+        immune to the 'long branches attract' and 'long branch distracts' drawbacks
+        observed with neighbor joining, BIONJ, and parsimony.
+      authors:
+        - name: Bruno W.J.
+        - name: Socci N.D.
+        - name: Halpern A.L.
+      citationCount: 313
+      date: '2000-01-01T00:00:00Z'
+      journal: Molecular Biology and Evolution
+      title: 'Weighted neighbor joining: A likelihood-based approach to distance-based
+        phylogeny reconstruction'
+    pmcid: null
+    pmid: '10666718'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Phylogeny
+    uri: http://edamontology.org/topic_0084
+  - term: Zoology
+    uri: http://edamontology.org/topic_3500
+  - term: Phylogenetics
+    uri: http://edamontology.org/topic_3293
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+  - term: Computational biology
+    uri: http://edamontology.org/topic_3307
+validated: 1
+version: []

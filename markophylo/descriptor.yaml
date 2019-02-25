@@ -1,0 +1,99 @@
+accessibility: []
+additionDate: '2017-08-03T19:06:50Z'
+biotoolsCURIE: biotools:markophylo
+biotoolsID: markophylo
+collectionID: []
+cost: null
+credit:
+  - email: udang@mcmaster.ca
+    name: Utkarsh J. Dang
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Allows for fitting of maximum likelihood models using Markov chains on
+  phylogenetic trees for analysis of discrete character data.
+documentation:
+  - note: null
+    type: Manual
+    url: https://cran.r-project.org/web/packages/markophylo/markophylo.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Phylogenetic tree analysis
+        uri: http://edamontology.org/operation_0324
+    output: []
+homepage: https://cran.r-project.org/web/packages/markophylo/
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/markophylo-markov-chain-models-for-phylogenetic-trees.html
+maturity: null
+name: markophylo
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015 The Author 2015. Published by Oxford University Press.\
+        \ All rights reserved. Summary: Continuous-time Markov chain models with finite\
+        \ state space are routinely used for analysis of discrete character data on\
+        \ phylogenetic trees. Examples of such discrete character data include restriction\
+        \ sites, gene family presence/absence, intron presence/absence and gene family\
+        \ size data. While models with constrained substitution rate matrices have\
+        \ been used to good effect, more biologically realistic models have been increasingly\
+        \ implemented in the recent literature combining, e.g., site rate variation,\
+        \ site partitioning, branch-specific rates, allowing for non-stationary prior\
+        \ root probabilities, correcting for sampling bias, etc. to name a few. Here,\
+        \ a flexible and fast R package is introduced that infers evolutionary rates\
+        \ of discrete characters on a tree within a probabilistic framework. The package,\
+        \ markophylo, fits maximum-likelihood models using Markov chains on phylogenetic\
+        \ trees. The package is efficient, with the workhorse functions written in\
+        \ C++ and the interface in user-friendly R. Availability and implementation:\
+        \ markophylo is available as a platform-independent R package from the Comprehensive\
+        \ R Archive Network at https://cran.r-project.org/web/packages/markophylo/.\
+        \ A vignette with numerous examples is also provided with the R package."
+      authors:
+        - name: Dang U.J.
+        - name: Golding G.B.
+      citationCount: 1
+      date: '2015-07-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'Markophylo: Markov chain analysis on phylogenetic trees'
+    pmcid: null
+    pmid: '26363176'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Phylogenetics
+    uri: http://edamontology.org/topic_3293
+  - term: Phylogeny
+    uri: http://edamontology.org/topic_0084
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+  - term: Gene and protein families
+    uri: http://edamontology.org/topic_0623
+validated: 1
+version: []

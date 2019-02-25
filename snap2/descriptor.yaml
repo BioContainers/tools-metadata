@@ -1,0 +1,123 @@
+accessibility: []
+additionDate: '2016-01-19T15:00:57Z'
+biotoolsCURIE: biotools:snap2
+biotoolsID: snap2
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: Maximilian Hecht
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: mytum.de
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: assistant@rostlab.org
+    name: Rostlab
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://rostlab.org
+description: Method that predicts the effects of single amino acid substitutions in
+  a protein on the protein's function using neural networks.
+documentation:
+  - note: null
+    type: Citation instructions
+    url: https://github.com/Rostlab/SNAP2
+  - note: null
+    type: General
+    url: https://github.com/Rostlab/SNAP2
+download:
+  - note: null
+    type: Source code
+    url: https://github.com/Rostlab/SNAP2
+    version: null
+  - note: null
+    type: Binaries
+    url: https://github.com/Rostlab/SNAP2
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Protein sequence record
+          uri: http://edamontology.org/data_2886
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+    note: Prediction of SNP influence on protein function between neutral and effect.
+      "functional effect"-score between -100 (neutral) and 100 (effect) for every
+      possible SNP at every position of the input sequence
+    operation:
+      - term: SNP detection
+        uri: http://edamontology.org/operation_0484
+    output:
+      - data:
+          term: Score
+          uri: http://edamontology.org/data_1772
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+homepage: https://github.com/Rostlab/SNAP2
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link:
+  - note: null
+    type: Repository
+    url: https://github.com/Rostlab/SNAP2
+maturity: null
+name: SNAP2
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: andre.seitz@mytum.de
+publication:
+  - doi: 10.1186/1471-2164-16-S8-S1
+    metadata:
+      abstract: "\xA9 2015 Hecht et al.; licensee BioMed Central Ltd. Definitions\
+        \ used: Delta, input feature that results from computing the difference feature\
+        \ scores for native amino acid and feature scores for variant amino acid;\
+        \ nsSNP, non-synoymous SNP; PMD, Protein Mutant Database; SNAP, Screening\
+        \ for non-acceptable polymorphisms; SNP, single nucleotide polymorphism; variant,\
+        \ any amino acid changing sequence variant."
+      authors:
+        - name: Hecht M.
+        - name: Bromberg Y.
+        - name: Rost B.
+      citationCount: 66
+      date: '2015-06-18T00:00:00Z'
+      journal: BMC Genomics
+      title: Better prediction of functional effects for sequence variants
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+  - Web application
+topic:
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+validated: 1
+version:
+  - '1'

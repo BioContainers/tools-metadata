@@ -1,0 +1,116 @@
+accessibility: []
+additionDate: '2017-01-13T13:16:23Z'
+biotoolsCURIE: biotools:sequedex
+biotoolsID: sequedex
+collectionID: []
+cost: null
+credit:
+  - email: sequedex@lanl.gov
+    name: Sequedex Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Sequedex classifies short reads for phylogeny and function at high speed
+documentation:
+  - note: null
+    type: General
+    url: http://sequedex.readthedocs.io/en/latest/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+      - term: Sequence annotation
+        uri: http://edamontology.org/operation_0361
+    output: []
+homepage: http://sequedex.lanl.gov
+homepage_status: 0
+language:
+  - Java
+  - Python
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link: []
+maturity: Mature
+name: Sequedex
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Background: Classification is difficult for shotgun metagenomics\
+        \ data from environments such as soils, where the diversity of sequences is\
+        \ high and where reference sequences from close relatives may not exist. Approaches\
+        \ based on sequence-similarity scores must deal with the confounding effects\
+        \ that inheritance and functional pressures exert on the relation between\
+        \ scores and phylogenetic distance, while approaches based on sequence alignment\
+        \ and tree-building are typically limited to a small fraction of gene families.\
+        \ We describe an approach based on finding one or more exact matches between\
+        \ a read and a precomputed set of peptide 10-mers. Results: At even the largest\
+        \ phylogenetic distances, thousands of 10-mer peptide exact matches can be\
+        \ found between pairs of bacterial genomes. Genes that share one or more peptide\
+        \ 10-mers typically have high reciprocal BLAST scores. Among a set of 403\
+        \ representative bacterial genomes, some 20 million 10-mer peptides were found\
+        \ to be shared. We assign each of these peptides as a signature of a particular\
+        \ node in a phylogenetic reference tree based on the RNA polymerase genes.\
+        \ We classify the phylogeny of a genomic fragment (e.g., read) at the most\
+        \ specific node on the reference tree that is consistent with the phylogeny\
+        \ of observed signature peptides it contains. Using both synthetic data from\
+        \ four newly-sequenced soil-bacterium genomes and ten real soil metagenomics\
+        \ data sets, we demonstrate a sensitivity and specificity comparable to that\
+        \ of the MEGAN metagenomics analysis package using BLASTX against the NR database.\
+        \ Phylogenetic and functional similarity metrics applied to real metagenomics\
+        \ data indicates a signal-to-noise ratio of approximately 400 for distinguishing\
+        \ among environments. Our method assigns \u223C6.6 Gbp/hr on a single CPU,\
+        \ compared with 25 kbp/hr for methods based on BLASTX against the NR database.\
+        \ Conclusions: Classification by exact matching against a precomputed list\
+        \ of signature peptides provides comparable results to existing techniques\
+        \ for reads longer than about 300 bp and does not degrade severely with shorter\
+        \ reads. Orders of magnitude faster than existing methods, the approach is\
+        \ suitable now for inclusion in analysis pipelines and appears to be extensible\
+        \ in several different directions. \xA9 2012 Berendzen et al.; licensee BioMed\
+        \ Central Ltd."
+      authors:
+        - name: Berendzen J.
+        - name: Bruno W.J.
+        - name: Cohn J.D.
+        - name: Hengartner N.W.
+        - name: Kuske C.R.
+        - name: McMahon B.H.
+        - name: Wolinsky M.A.
+        - name: Xie G.
+      citationCount: 17
+      date: '2012-08-30T00:00:00Z'
+      journal: BMC Research Notes
+      title: Rapid phylogenetic and functional classification of short genomic fragments
+        with signature peptides
+    pmcid: null
+    pmid: '22925230'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Metagenomics
+    uri: http://edamontology.org/topic_3174
+  - term: Phylogenetics
+    uri: http://edamontology.org/topic_3293
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 1
+version: []

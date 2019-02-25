@@ -1,0 +1,139 @@
+accessibility: []
+additionDate: '2015-01-22T11:28:31Z'
+biotoolsCURIE: biotools:seaview
+biotoolsID: seaview
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: IFB ELIXIR-FR
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: mgouy@biomserv.uni-lyon1.fr
+    name: Manolo Gouy
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Multiplatform graphical user interface designed to facilitate alignment
+  and phylogenic tree building from molecular sequences.
+documentation:
+  - note: null
+    type: General
+    url: http://doua.prabi.fr/main/index
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format: []
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format: []
+      - data:
+          term: Phylogenetic tree
+          uri: http://edamontology.org/data_0872
+        format: []
+    note: null
+    operation:
+      - term: Phylogenetic tree visualisation
+        uri: http://edamontology.org/operation_0567
+      - term: Sequence visualisation
+        uri: http://edamontology.org/operation_0564
+      - term: Phylogenetic tree editing
+        uri: http://edamontology.org/operation_0326
+      - term: Multiple sequence alignment
+        uri: http://edamontology.org/operation_0492
+      - term: Phylogenetic tree generation (from molecular sequences)
+        uri: http://edamontology.org/operation_0540
+      - term: Sequence alignment editing
+        uri: http://edamontology.org/operation_3081
+    output:
+      - data:
+          term: Phylogenetic tree
+          uri: http://edamontology.org/data_0872
+        format: []
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format: []
+      - data:
+          term: Phylogenetic tree image
+          uri: http://edamontology.org/data_1707
+        format: []
+      - data:
+          term: Sequence alignment image
+          uri: http://edamontology.org/data_1711
+        format: []
+homepage: http://doua.prabi.fr/software/seaview
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://doua.prabi.fr/software/seaview
+maturity: null
+name: SeaView
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-FR
+publication:
+  - doi: 10.1093/molbev/msp259
+    metadata:
+      abstract: We present SeaView version 4, a multiplatform program designed to
+        facilitate multiple alignment and phylogenetic tree building from molecular
+        sequence data through the use of a graphical user interface. SeaView version
+        4 combines all the functions of the widely used programs SeaView (in its previous
+        versions) and Phylo-win, and expands them by adding network access to sequence
+        databases, alignment with arbitrary algorithm, maximum-likelihood tree building
+        with PhyML, and display, printing, and copy-to-clipboard of rooted or unrooted,
+        binary or multifurcating phylogenetic trees. In relation to the wide present
+        offer of tools and algorithms for phylogenetic analyses, SeaView is especially
+        useful for teaching and for occasional users of such software. SeaView is
+        freely available at http://pbil.univ-lyon1.fr/software/seaview.
+      authors:
+        - name: Gouy M.
+        - name: Guindon S.
+        - name: Gascuel O.
+      citationCount: 2522
+      date: '2010-02-01T00:00:00Z'
+      journal: Molecular Biology and Evolution
+      title: 'Sea view version 4: A multiplatform graphical user interface for sequence
+        alignment and phylogenetic tree building'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+  - Desktop application
+topic:
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Phylogeny
+    uri: http://edamontology.org/topic_0084
+validated: 1
+version:
+  - '4'

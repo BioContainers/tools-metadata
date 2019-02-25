@@ -1,0 +1,234 @@
+accessibility:
+  - Open access
+additionDate: '2017-08-03T12:46:16Z'
+biotoolsCURIE: biotools:channelsdb
+biotoolsID: channelsdb
+collectionID:
+  - LCC NCBR
+  - ELIXIR-CZ
+cost: Free of charge
+credit:
+  - email: xpravda@ncbr.muni.cz
+    name: "Luk\xE1\u0161 Pravda"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: david.sehnal@mail.muni.cz
+    name: David Sehnal
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: karel.berka@upol.cz
+    name: Karel Berka
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Contributor
+    url: null
+  - email: michal.otyepka@upol.cz
+    name: Michal Otyepka
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Contributor
+    url: null
+  - email: radka.svobodova@ceitec.muni.cz
+    name: "Radka Svobodov\xE1 Va\u0159ekov\xE1"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Contributor
+    url: null
+  - email: jaroslav.koca@ceitec.muni.cz
+    name: "Jaroslav Ko\u010Da"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Contributor
+    url: null
+  - email: tousekdominik@gmail.com
+    name: "Dominik Tou\u0161ek"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: nancyblueberry@gmail.com
+    name: "Veronika Navr\xE1tilov\xE1"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Contributor
+    url: null
+  - email: karel.berka@upol.cz
+    name: Karel Berka
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A comprehensive resource of channels, pores and tunnels found in biomacromolecular
+  structures deposited in the Protein Data Bank.
+documentation:
+  - note: 'Database content
+
+      Channels nomenclature
+
+      MOLE settings
+
+      List of cofactors used for channel determination.
+
+      Description how to read the resuls page.
+
+      How to access content of the database programatically.'
+    type: Manual
+    url: https://webchemdev.ncbr.muni.cz/ChannelsDB/documentation.html
+  - note: Info about methodology
+    type: General
+    url: https://webchemdev.ncbr.muni.cz/ChannelsDB/methods.html
+  - note: null
+    type: Citation instructions
+    url: https://webchemdev.ncbr.muni.cz/ChannelsDB/contribute.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Keyword
+          uri: http://edamontology.org/data_0968
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: PDB ID
+          uri: http://edamontology.org/data_1127
+        format:
+          - term: mmCIF
+            uri: http://edamontology.org/format_1477
+          - term: PDB
+            uri: http://edamontology.org/format_1476
+    note: null
+    operation:
+      - term: Deposition
+        uri: http://edamontology.org/operation_3431
+      - term: Structure visualisation
+        uri: http://edamontology.org/operation_0570
+      - term: Protein property calculation
+        uri: http://edamontology.org/operation_0250
+      - term: Protein structural motif recognition
+        uri: http://edamontology.org/operation_0245
+    output:
+      - data:
+          term: Database search results
+          uri: http://edamontology.org/data_2080
+        format:
+          - term: JSON
+            uri: http://edamontology.org/format_3464
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+          - term: PDB
+            uri: http://edamontology.org/format_1476
+      - data:
+          term: Protein structural motif
+          uri: http://edamontology.org/data_2878
+        format:
+          - term: XML
+            uri: http://edamontology.org/format_2332
+          - term: JSON
+            uri: http://edamontology.org/format_3464
+homepage: http://ncbr.muni.cz/ChannelsDB/
+homepage_status: 0
+language:
+  - Javascript
+  - C#
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Browser
+    url: http://ncbr.muni.cz/ChannelsDB
+maturity: Emerging
+name: ChannelsDB
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-CZ
+publication:
+  - doi: 10.1093/nar/gkx868
+    metadata:
+      abstract: "\xA9 The Author(s) 2017. Published by Oxford University Press on\
+        \ behalf of Nucleic Acids Research. ChannelsDB (http://ncbr.muni.cz/ChannelsDB)\
+        \ is a database providing information about the positions, geometry and physicochemical\
+        \ properties of channels (pores and tunnels) found within biomacromolecular\
+        \ structures deposited in the Protein Data Bank. Channels were deposited from\
+        \ two sources; from literature using manual deposition and from a software\
+        \ tool automatically detecting tunnels leading to the enzymatic active sites\
+        \ and selected cofactors, and transmembrane pores. The database stores information\
+        \ about geometrical features (e.g. length and radius profile along a channel)\
+        \ and physicochemical properties involving polarity, hydrophobicity, hydropathy,\
+        \ charge and mutability. The stored data are interlinked with available UniProt\
+        \ annotation data mapping known mutation effects to channel-lining residues.\
+        \ All structures with channels are displayed in a clear interactive manner,\
+        \ further facilitating data manipulation and interpretation. As such, ChannelsDB\
+        \ provides an invaluable resource for research related to deciphering the\
+        \ biological function of biomacromolecular channels."
+      authors:
+        - name: Pravda L.
+        - name: Sehnal D.
+        - name: Svobodova VaEkova R.
+        - name: Navratilova V.
+        - name: Tousek D.
+        - name: Berka K.
+        - name: Otyepka M.
+        - name: Koca J.
+      citationCount: 3
+      date: '2018-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'ChannelsDB: Database of biomacromolecular tunnels and pores'
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Structural biology
+    uri: http://edamontology.org/topic_1317
+  - term: Biophysics
+    uri: http://edamontology.org/topic_3306
+  - term: Protein properties
+    uri: http://edamontology.org/topic_0123
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+  - term: Enzymes
+    uri: http://edamontology.org/topic_0821
+  - term: Membrane and lipoproteins
+    uri: http://edamontology.org/topic_0820
+  - term: Enzymes
+    uri: http://edamontology.org/topic_0821
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+validated: 1
+version:
+  - '1.0'

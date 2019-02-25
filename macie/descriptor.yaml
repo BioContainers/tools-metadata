@@ -1,0 +1,104 @@
+accessibility: []
+additionDate: '2017-03-30T23:01:19Z'
+biotoolsCURIE: biotools:macie
+biotoolsID: macie
+collectionID: []
+cost: null
+credit:
+  - email: gemma@ebi.ac.uk
+    name: Gemma L. Holliday
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: 'Mechanism, Annotation, and Classification in Enzymes: database of enzyme
+  reaction mechanisms.'
+documentation:
+  - note: null
+    type: General
+    url: http://www.ebi.ac.uk/thornton-srv/databases/MACiE/documentation/index.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Deposition
+        uri: http://edamontology.org/operation_3431
+      - term: Annotation
+        uri: http://edamontology.org/operation_0226
+      - term: Enzyme kinetics calculation
+        uri: http://edamontology.org/operation_0334
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+      - term: Classification
+        uri: http://edamontology.org/operation_2990
+    output: []
+homepage: http://www.ebi.ac.uk/thornton-srv/databases/MACiE/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link: []
+maturity: null
+name: MACIE
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "MACiE (which stands for Mechanism, Annotation and Classification\
+        \ in Enzymes) is a database of enzyme reaction mechanisms, and can be accessed\
+        \ from http://www.ebi.ac.uk/thornton-srv/databases/ MACiE/. This article presents\
+        \ the release of Version 3 of MACiE, which not only extends the dataset to\
+        \ 335 entries, covering 182 of the EC sub-subclasses with a crystal structure\
+        \ available (\u223C90%), but also incorporates greater chemical and structural\
+        \ detail. This version of MACiE represents a shift in emphasis for new entries,\
+        \ from non-homologous representatives covering EC reaction space to enzymes\
+        \ with mechanisms of interest to our users and collaborators with a view to\
+        \ exploring the chemical diversity of life. We present new tools for exploring\
+        \ the data in MACiE and comparing entries as well as new analyses of the data\
+        \ and new searches, many of which can now be accessed via dedicated Perl scripts."
+      authors:
+        - name: Holliday G.L.
+        - name: Andreini C.
+        - name: Fischer J.D.
+        - name: Rahman S.A.
+        - name: Almonacid D.E.
+        - name: Williams S.T.
+        - name: Pearson W.R.
+      citationCount: 51
+      date: '2012-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'MACiE: Exploring the diversity of biochemical reactions'
+    pmcid: null
+    pmid: '22058127'
+    type: null
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Enzymes
+    uri: http://edamontology.org/topic_0821
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
+  - term: Chemistry
+    uri: http://edamontology.org/topic_3314
+  - term: Protein binding sites
+    uri: http://edamontology.org/topic_3534
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+validated: 1
+version: []

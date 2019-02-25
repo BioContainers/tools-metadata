@@ -1,0 +1,69 @@
+accessibility: []
+additionDate: '2017-12-18T00:13:49Z'
+biotoolsCURIE: biotools:transps
+biotoolsID: transps
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://bioinformatics.cs.vt.edu/zhanglab/
+description: Pipeline for post-processing of pre-assembled transcriptomes using reference
+  based method.
+documentation:
+  - note: null
+    type: General
+    url: https://bioinformatics.cs.vt.edu/zhanglab/software/transps/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Data handling
+        uri: http://edamontology.org/operation_2409
+    output: []
+homepage: https://bioinformatics.cs.vt.edu/zhanglab/software/transps/
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/transps-transcriptome-post-scaffolding.html
+maturity: null
+name: TransPS
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: 10.1155/2014/961823
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+validated: 1
+version:
+  - 1.1.0

@@ -1,0 +1,131 @@
+accessibility: []
+additionDate: '2016-09-21T15:18:44Z'
+biotoolsCURIE: biotools:tableannotator
+biotoolsID: tableannotator
+collectionID: []
+cost: Free of charge
+credit:
+  - email: null
+    name: Nikola Milosevic
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: manchester.ac.uk
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: nikola.milosevic@manchester.ac.uk
+    name: Nikola Milosevic
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://personalpages.manchester.ac.uk/staff/nikola.milosevic/
+description: Tool for annotating tables written in Java. It uses specific annotation
+  schema we proposed that is able to capture information about functions of a cell
+  and inter-cell relationships. It is a tool for extracting annotations from tables
+  in PMC and DailyMed in XML format.
+documentation:
+  - note: null
+    type: Citation instructions
+    url: https://github.com/nikolamilosevic86/TableAnnotator/wiki/Algorithm-description
+  - note: null
+    type: General
+    url: https://github.com/nikolamilosevic86/TableAnnotator/wiki
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Text data
+          uri: http://edamontology.org/data_2526
+        format:
+          - term: XML
+            uri: http://edamontology.org/format_2332
+    note: Disentangles tables in publications and saves them to the database preprocessed
+      and annotated for information extraction Publications or Structured drug labels
+      in XML format MySQL database
+    operation:
+      - term: Data retrieval
+        uri: http://edamontology.org/operation_2422
+      - term: Annotation
+        uri: http://edamontology.org/operation_0226
+      - term: Text mining
+        uri: http://edamontology.org/operation_0306
+    output:
+      - data:
+          term: Database search results
+          uri: http://edamontology.org/data_2080
+        format:
+          - term: Database hits (sequence) format
+            uri: http://edamontology.org/format_2066
+homepage: https://github.com/nikolamilosevic86/TableAnnotator
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:52Z'
+license: GPL-3.0
+link:
+  - note: null
+    type: Repository
+    url: https://github.com/nikolamilosevic86/TableAnnotator
+maturity: Mature
+name: TableAnnotator
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: nikola.milosevic@manchester.ac
+publication:
+  - doi: 10.1007/978-3-319-41754-7_14
+    metadata:
+      abstract: "\xA9 Springer International Publishing Switzerland 2016.Within the\
+        \ scientific literature, tables are commonly used to present factual and statistical\
+        \ information in a compact way, which is easy to digest by readers. The ability\
+        \ to \"understand\" the structure of tables is key for information extraction\
+        \ in many domains. However, the complexity and variety of presentation layouts\
+        \ and value formats makes it difficult to automatically extract roles and\
+        \ relationships of table cells. In this paper, we present a model that structures\
+        \ tables in a machine readable way and a methodology to automatically disentangle\
+        \ and transform tables into the modelled data structure. The method was tested\
+        \ in the domain of clinical trials: it achieved an F-score of 94.26% for cell\
+        \ function identification and 94.84% for identification of inter-cell relationships."
+      authors:
+        - name: Milosevic N.
+        - name: Gregson C.
+        - name: Hernandez R.
+        - name: Nenadic G.
+      citationCount: 0
+      date: '2016-01-01T00:00:00Z'
+      journal: Lecture Notes in Computer Science (including subseries Lecture Notes
+        in Artificial Intelligence and Lecture Notes in Bioinformatics)
+      title: Disentangling the structure of tables in scientific literature
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Preclinical and clinical studies
+    uri: http://edamontology.org/topic_3379
+  - term: Drug discovery
+    uri: http://edamontology.org/topic_3336
+validated: 1
+version:
+  - '0.3'

@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2017-08-03T18:49:48Z'
+biotoolsCURIE: biotools:mml
+biotoolsID: mml
+collectionID: []
+cost: null
+credit:
+  - email: xxli@stanford.edu
+    name: Xin Li
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://sites.google.com/site/xinlishomepage/
+description: Is a software to analyze haplotype polymorphisms in a real human population.
+documentation:
+  - note: null
+    type: General
+    url: https://sites.google.com/site/xlxlxlxinli/mml
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Haplotype mapping
+        uri: http://edamontology.org/operation_0487
+    output: []
+homepage: https://sites.google.com/site/xlxlxlxinli/mml
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/mml-haplotyping-using-both-family-and-population-infomation.html
+maturity: null
+name: MML
+operatingSystem:
+  - Linux
+  - Windows
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Data from current gene-disease association studies motivate changes\
+        \ to existing haplotype inference methodologies. Many datasets are now comprised\
+        \ of both pedigree and population data so it is desirable to incorporate both\
+        \ sources of information when inferring haplotypes. The availability of high-density\
+        \ SNP data also makes it possible to determine and use the precise locations\
+        \ of recombination events. Our proposed method reconstructs haplotype structure\
+        \ on a genome-wide level by jointly using the information from the Mendelian\
+        \ law of inheritance and local population structure. The method combines in\
+        \ one framework new techniques of recombination event detection, maximum likelihood\
+        \ optimization of population haplotype diversity and our previous algorithm\
+        \ of zero-recombinant haplotype reconstruction. Experiments on both real and\
+        \ simulated datasets prove the efficiency and accuracy of our approach in\
+        \ reconstructing the haplotype structure. Our method makes it possible to\
+        \ reveal the haplotypic variation on a genome-wide level. \xA9 2010 World\
+        \ Scientific Publishing Co. Pte. Ltd."
+      authors:
+        - name: Li X.
+        - name: Chen Y.
+        - name: Li J.
+      citationCount: 6
+      date: '2010-12-01T00:00:00Z'
+      journal: Pacific Symposium on Biocomputing 2010, PSB 2010
+      title: Detecting genome-wide haplotype polymorphism by combined use of mendelian
+        constraints and local population structure
+    pmcid: null
+    pmid: '19908387'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Population genetics
+    uri: http://edamontology.org/topic_3056
+  - term: Gene and protein families
+    uri: http://edamontology.org/topic_0623
+validated: 1
+version: []

@@ -1,0 +1,96 @@
+accessibility: []
+additionDate: '2017-08-03T18:44:18Z'
+biotoolsCURIE: biotools:ghostz
+biotoolsID: ghostz
+collectionID: []
+cost: null
+credit:
+  - email: akiyama@cs.titech.ac.jp
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Homology search tool which can detect remote homologues like BLAST and
+  is about 200 times more efficient than BLAST by using database subsequence clustering.
+  GHOSTZ outputs search results in the format similar to BLAST-tabular format.
+documentation:
+  - note: null
+    type: General
+    url: http://www.bi.cs.titech.ac.jp/ghostz/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Homology-based gene prediction
+        uri: http://edamontology.org/operation_3663
+    output: []
+homepage: http://www.bi.cs.titech.ac.jp/ghostz/
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/ghostz-1-0-0-homology-search-tool.html
+maturity: null
+name: GHOSTZ
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2014 The Author. Motivation: Sequence homology searches are\
+        \ used in various fields. New sequencing technologies produce huge amounts\
+        \ of sequence data, which continuously increase the size of sequence databases.\
+        \ As a result, homology searches require large amounts of computational time,\
+        \ especially for metagenomic analysis. Results: We developed a fast homology\
+        \ search method based on database subsequence clustering, and implemented\
+        \ it as GHOSTZ. This method clusters similar subsequences from a database\
+        \ to perform an efficient seed search and ungapped extension by reducing alignment\
+        \ candidates based on triangle inequality. The database subsequence clustering\
+        \ technique achieved an \xE2 1/42-fold increase in speed without a large decrease\
+        \ in search sensitivity. When we measured with metagenomic data, GHOSTZ is\
+        \ \xE2 1/42.2-2.8 times faster than RAPSearch and is \xE2 1/4185-261 times\
+        \ faster than BLASTX. Availability and implementation: The source code is\
+        \ freely available for download at http://www.bi.cs.titech.ac.jp/ghostz/."
+      authors:
+        - name: Suzuki S.
+        - name: Kakuta M.
+        - name: Ishida T.
+        - name: Akiyama Y.
+      citationCount: 14
+      date: '2015-04-15T00:00:00Z'
+      journal: Bioinformatics
+      title: Faster sequence homology searches by clustering subsequences
+    pmcid: null
+    pmid: '25432166'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Molecular genetics
+    uri: http://edamontology.org/topic_3321
+validated: 1
+version: []

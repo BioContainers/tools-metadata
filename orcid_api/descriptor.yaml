@@ -1,0 +1,103 @@
+accessibility: []
+additionDate: '2017-07-20T13:06:01Z'
+biotoolsCURIE: biotools:orcid_api
+biotoolsID: orcid_api
+collectionID: []
+cost: null
+credit:
+  - email: l.haak@orcid.org
+    name: Laurel L. HAAK
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://orcid.org/help/contact-us
+description: ORCID provides a persistent digital identifier that distinguishes you
+  from every other researcher and, through integration in key research workflows such
+  as manuscript and grant submission, supports automated linkages between you and
+  your professional activities ensuring that your work is recognized.
+documentation:
+  - note: null
+    type: General
+    url: https://orcid.org/about/what-is-orcid/mission
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Identifier
+          uri: http://edamontology.org/data_0842
+        format: []
+    note: null
+    operation:
+      - term: Data retrieval
+        uri: http://edamontology.org/operation_2422
+    output:
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: XML
+            uri: http://edamontology.org/format_2332
+          - term: JSON
+            uri: http://edamontology.org/format_3464
+homepage: https://orcid.org/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link: []
+maturity: null
+name: Orcid API
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: jmelius
+publication:
+  - doi: 10.1087/20120404
+    metadata:
+      abstract: "The Open Researcher & Contributor ID (ORCID) registry presents a\
+        \ unique opportunity to solve the problem of author name ambiguity. At its\
+        \ core the value of the ORCID registry is that it crosses disciplines, organizations,\
+        \ and countries, linking ORCID with both existing identifier schemes as well\
+        \ as publications and other research activities. By supporting linkages across\
+        \ multiple datasets - clinical trials, publications, patents, datasets - such\
+        \ a registry becomes a switchboard for researchers and publishers alike in\
+        \ managing the dissemination of research findings. We describe use cases for\
+        \ embedding ORCID identifiers in manuscript submission workflows, prior work\
+        \ searches, manuscript citations, and repository deposition. We make recommendations\
+        \ for storing and displaying ORCID identifiers in publication metadata to\
+        \ include ORCID identifiers, with CrossRef integration as a specific example.\
+        \ Finally, we provide an overview of ORCID membership and integration tools\
+        \ and resources. \xA9 Laurel L. Haak, Martin Fenner, Laura Paglione, Ed Pentz\
+        \ and Howard Ratner 2012."
+      authors:
+        - name: Haak L.L.
+        - name: Fenner M.
+        - name: Paglione L.
+        - name: Pentz E.
+        - name: Ratner H.
+      citationCount: 50
+      date: '2012-10-01T00:00:00Z'
+      journal: Learned Publishing
+      title: 'ORCID: A system to uniquely identify researchers'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
+toolType:
+  - Web API
+topic:
+  - term: Data identity and mapping
+    uri: http://edamontology.org/topic_3345
+validated: 0
+version: []

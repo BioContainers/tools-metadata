@@ -1,0 +1,81 @@
+accessibility: []
+additionDate: '2017-12-18T00:08:40Z'
+biotoolsCURIE: biotools:mcl
+biotoolsID: mcl
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://micans.org/stijn/index.html
+description: MCL is a clustering algorithm widely used in bioinformatics and gaining
+  traction in other fields.
+documentation:
+  - note: null
+    type: General
+    url: https://micans.org/mcl/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+    output: []
+homepage: http://micans.org/mcl/
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/mcl-11-335-mcl-edge-cluster-algorithm-graphs.html
+maturity: null
+name: MCL
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: 10.1007/978-1-61779-361-5_15
+    metadata:
+      abstract: "MCL is a general purpose cluster algorithm for both weighted and\
+        \ unweighted networks. The algorithm utilises network topology as well as\
+        \ edge weights, is highly scalable and has been applied in a wide variety\
+        \ of bioinformatic methods. In this chapter, we give protocols and case studies\
+        \ for clustering of networks derived from, respectively, protein sequence\
+        \ similarities and gene expression profile correlations. \xA9 2012 Springer\
+        \ Science+Business Media, LLC."
+      authors:
+        - name: Van Dongen S.
+        - name: Abreu-Goodger C.
+      citationCount: 85
+      date: '2012-01-20T00:00:00Z'
+      journal: Methods in Molecular Biology
+      title: Using MCL to extract clusters from networks
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
+validated: 1
+version:
+  - 14-137

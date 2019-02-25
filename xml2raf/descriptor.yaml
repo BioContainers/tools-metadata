@@ -1,0 +1,71 @@
+accessibility: []
+additionDate: '2017-12-18T00:14:19Z'
+biotoolsCURIE: biotools:xml2raf
+biotoolsID: xml2raf
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://compbio.berkeley.edu/
+description: "XML2RAF is a Perl software to create RAF maps from PDB XML files.The\
+  \ Protein Data Bank provides XML files that include a mapping between the PDB-format\
+  \ records SEQRES (representing the sequence of the molecule used in an experiment)\
+  \ and ATOM (representing the atoms experimentally observed). These XML files (along\
+  \ with the PDB\u2019s chemical dictionary) also provide information on the original\
+  \ identity of most residues prior to any post-translational modifications,\_including\
+  \ cyclizations."
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Mapping
+        uri: http://edamontology.org/operation_2429
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output: []
+homepage: http://scop.berkeley.edu/downloads/ver=1.75B
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/xml2raf-1-01-create-raf-maps-pdb-xml-files.html
+maturity: null
+name: XML2RAF 1.02 -Create RAF Maps from PDB XML files
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+validated: 1
+version: []

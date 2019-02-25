@@ -1,0 +1,105 @@
+accessibility: []
+additionDate: '2015-12-01T16:35:10Z'
+biotoolsCURIE: biotools:metitree
+biotoolsID: metitree
+collectionID:
+  - NMC
+  - ELIXIR-NL
+cost: null
+credit:
+  - email: null
+    name: ELIXIR-NL
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://metitree.abs-resources.org/feedback.php
+description: Repository, in a prototype stage, of mass spectra of small chemical compounds
+  for life science (<2000 Da). The database will contain MSn data acquired on different
+  platforms by different research groups. MSn data will be annotated with chemical
+  information about the fragments.
+documentation:
+  - note: null
+    type: General
+    url: http://www.metitree.nl/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: Metabolite identification and structure elucidation from MSn data, visualizing
+      fragmetation trees.
+    operation:
+      - term: Structure visualisation
+        uri: http://edamontology.org/operation_0570
+    output: []
+homepage: http://www.metitree.nl/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:52Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: MetiTree
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-NL
+publication:
+  - doi: 10.1093/bioinformatics/bts486
+    metadata:
+      abstract: "Identification of metabolites using high-resolution multi-stage mass\
+        \ spectrometry (MSn) data is a significant challenge demanding access to all\
+        \ sorts of computational infrastructures. MetiTree is a user-friendly, web\
+        \ application dedicated to organize, process, share, visualize and compare\
+        \ MS n data. It integrates several features to export and visualize complex\
+        \ MSn data, facilitating the exploration and interpretation of metabolomics\
+        \ experiments. A dedicated spectral tree viewer allows the simultaneous presentation\
+        \ of three related types of MSn data, namely, the spectral data, the fragmentation\
+        \ tree and the fragmentation reactions. MetiTree stores the data in an internal\
+        \ database to enable searching for similar fragmentation trees and matching\
+        \ against other MSn data. As such MetiTree contains much functionality that\
+        \ will make the difficult task of identifying unknown metabolites much easier.\
+        \ \xA9 The Author 2012. Published by Oxford University Press. All rights reserved."
+      authors:
+        - name: Rojas-Cherto M.
+        - name: Van Vliet M.
+        - name: Peironcely J.E.
+        - name: Van Doorn R.
+        - name: Kooyman M.
+        - name: Te Beek T.
+        - name: Van Driel M.A.
+        - name: Hankemeier T.
+        - name: Reijmers T.
+      citationCount: 14
+      date: '2012-10-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'MetiTree: A web application to organize and process high-resolution
+        multi-stage mass spectrometry metabolomics data'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Metabolomics
+    uri: http://edamontology.org/topic_3172
+validated: 1
+version: []

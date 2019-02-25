@@ -1,0 +1,104 @@
+accessibility: []
+additionDate: '2017-08-03T18:48:15Z'
+biotoolsCURIE: biotools:lrpath
+biotoolsID: lrpath
+collectionID: []
+cost: null
+credit:
+  - email: snehal@med.umich.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://sartorlab.ccmb.med.umich.edu/
+description: LRpath performs gene set enrichment testing using logistic regression,
+  and allows the data to remain on a continuous scale.
+documentation:
+  - note: null
+    type: General
+    url: http://lrpath.ncibi.org/method.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Pathway or network analysis
+        uri: http://edamontology.org/operation_2497
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Regression analysis
+        uri: http://edamontology.org/operation_3659
+    output: []
+homepage: http://lrpath.ncibi.org/
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/lrpath-pathway-analysis-using-logistic-regression.html
+maturity: null
+name: LRpath
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015 The Author 2015. Published by Oxford University Press.\
+        \ All rights reserved. For Permissions, please e-mail: journals.permissions@oup.com.\
+        \ Summary: Tests for differential gene expression with RNA-seq data have a\
+        \ tendency to identify certain types of transcripts as significant, e.g. longer\
+        \ and highly-expressed transcripts. This tendency has been shown to bias gene\
+        \ set enrichment (GSE) testing, which is used to find over- or under-represented\
+        \ biological functions in the data. Yet, there remains a surprising lack of\
+        \ tools for GSE testing specific for RNA-seq. We present a new GSE method\
+        \ for RNA-seq data, RNA-Enrich, that accounts for the above tendency empirically\
+        \ by adjusting for average read count per gene. RNA-Enrich is a quick, flexible\
+        \ method and web-based tool, with 16 available gene annotation databases.\
+        \ It does not require a P-value cut-off to define differential expression,\
+        \ and works well even with small sample-sized experiments. We show that adjusting\
+        \ for read counts per gene improves both the type I error rate and detection\
+        \ power of the test. Availability and implementation: RNA-Enrich is available\
+        \ at http://lrpath.ncibi.org or from supplemental material as R code."
+      authors:
+        - name: Lee C.
+        - name: Patil S.
+        - name: Sartor M.A.
+      citationCount: 7
+      date: '2016-04-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'RNA-Enrich: A cut-off free functional enrichment testing method for
+        RNA-seq with improved detection power'
+    pmcid: null
+    pmid: '26607492'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+validated: 1
+version: []
