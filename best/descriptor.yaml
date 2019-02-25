@@ -1,0 +1,84 @@
+accessibility: []
+additionDate: '2017-08-03T18:36:49Z'
+biotoolsCURIE: biotools:best
+biotoolsID: best
+collectionID: []
+cost: null
+credit:
+  - email: apopov@esrf.fr
+    name: Alexander Popov
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.embl-hamburg.de/best_cgi-bin/emailus.pl
+description: Program for optimal planning of X-ray data collection from protein crystals
+documentation:
+  - note: null
+    type: Manual
+    url: http://www.embl-hamburg.de/BEST/best3.1_manual.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein crystallizability prediction
+        uri: http://edamontology.org/operation_0410
+    output: []
+homepage: http://www.embl-hamburg.de/BEST/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:43Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/3-1-macromolecular-crystallography.html
+maturity: null
+name: BEST
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: To take into account the effects of radiation damage, new algorithms
+        for the optimization of data-collection strategies have been implemented in
+        the software package BEST. The intensity variation related to radiation damage
+        is approximated by log-linear functions of resolution and cumulative X - ray
+        dose. Based on an accurate prediction of the basic characteristics of data
+        yet to be collected, BEST establishes objective relationships between the
+        accessible data completeness, resolution and signal-to-noise statistics that
+        can be achieved in an experiment and designs an optimal plan for data collection.
+      authors:
+        - name: Bourenkov G.P.
+        - name: Popov A.N.
+      citationCount: 74
+      date: '2010-04-19T00:00:00Z'
+      journal: 'Acta Crystallographica Section D: Biological Crystallography'
+      title: Optimization of data collection taking radiation damage into account
+    pmcid: null
+    pmid: '20382994'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+  - term: X-ray diffraction
+    uri: http://edamontology.org/topic_2828
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+validated: 1
+version: []

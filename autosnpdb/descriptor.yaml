@@ -1,0 +1,93 @@
+accessibility: []
+additionDate: '2017-03-24T10:30:37Z'
+biotoolsCURIE: biotools:autosnpdb
+biotoolsID: autosnpdb
+collectionID: []
+cost: null
+credit: []
+description: Combines BLAST, cap3 and a SNP discovery module into a single pipeline
+  for the discovery of SNPs in user submitted files or dynamically created assemblies.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Indel detection
+        uri: http://edamontology.org/operation_0452
+      - term: Haplotype mapping
+        uri: http://edamontology.org/operation_0487
+      - term: SNP detection
+        uri: http://edamontology.org/operation_0484
+      - term: SNP detection
+        uri: http://edamontology.org/operation_0484
+      - term: SNP annotation
+        uri: http://edamontology.org/operation_3661
+    output: []
+homepage: http://autosnpdb.qfab.org.au/
+homepage_status: 1
+language: []
+lastUpdate: '2018-12-10T12:58:40Z'
+license: null
+link: []
+maturity: null
+name: AutoSNPdb
+operatingSystem: []
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "SNPServer is a real-time flexible tool for the discovery of SNPs\
+        \ (single nucleotide polymorphisms) within DNA sequence data. The program\
+        \ uses BLAST, to identify related sequences, and CAP3, to cluster and align\
+        \ these sequences. The alignments are parsed to the SNP discovery software\
+        \ autoSNP, a program that detects SNPs and insertion/deletion polymorphisms\
+        \ (indels). Alternatively, lists of related sequences or pre-assembled sequences\
+        \ may be entered for SNP discovery. SNPServer and autoSNP use redundancy to\
+        \ differentiate between candidate SNPs and sequence errors. For each candidate\
+        \ SNP, two measures of confidence are calculated, the redundancy of the polymorphism\
+        \ at a SNP locus and the co-segregation of the candidate SNP with other SNPs\
+        \ in the alignment. SNPServer is available at http://hornbill.cspp.latrobe.edu.au/\
+        \ snpdiscovery.html. \xA9 2005 Oxford University Press."
+      authors:
+        - name: Savage D.
+        - name: Batley J.
+        - name: Erwin T.
+        - name: Logan E.
+        - name: Love C.G.
+        - name: Lim G.A.C.
+        - name: Mongin E.
+        - name: Barker G.
+        - name: Spangenberg G.C.
+        - name: Edwards D.
+      citationCount: 38
+      date: '2005-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'SNPServer: A real-time SNP discovery tool'
+    pmcid: null
+    pmid: '15980519'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+  - term: Workflows
+    uri: http://edamontology.org/topic_0769
+validated: 1
+version: []

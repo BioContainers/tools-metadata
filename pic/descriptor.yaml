@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2017-02-10T14:14:16Z'
+biotoolsCURIE: biotools:pic
+biotoolsID: pic
+collectionID: []
+cost: null
+credit: []
+description: Server which recognizes various kinds of interactions, such as disulphide
+  bonds, hydrophobic interactions, hydrogen bonds, aromatic interactions, and ionic
+  interactions within a protein or between proteins in a complex.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Pathway or network visualisation
+        uri: http://edamontology.org/operation_3083
+      - term: Residue interaction calculation
+        uri: http://edamontology.org/operation_0248
+      - term: Hydrogen bond calculation
+        uri: http://edamontology.org/operation_0394
+      - term: Protein interaction prediction
+        uri: http://edamontology.org/operation_2492
+      - term: Protein interaction analysis
+        uri: http://edamontology.org/operation_2949
+    output: []
+homepage: http://crick.mbu.iisc.ernet.in/~PIC/
+homepage_status: 1
+language: []
+lastUpdate: '2018-12-10T12:58:39Z'
+license: null
+link: []
+maturity: null
+name: PIC
+operatingSystem: []
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Interactions within a protein structure and interactions between\
+        \ proteins in an assembly are essential considerations in understanding molecular\
+        \ basis of stability and functions of proteins and their complexes. There\
+        \ are several weak and strong interactions that render stability to a protein\
+        \ structure or an assembly. Protein Interactions Calculator (PIC) is a server\
+        \ which, given the coordinate set of 3D structure of a protein or an assembly,\
+        \ computes various interactions such as disulphide bonds, interactions between\
+        \ hydrophobic residues, ionic interactions, hydrogen bonds, aromatic- aromatic\
+        \ interactions, aromatic-sulphur interactions and cation-\u03C0 interactions\
+        \ within a protein or between proteins in a complex. Interactions are calculated\
+        \ on the basis of standard, published criteria. The identified interactions\
+        \ between residues can be visualized using a RasMol and Jmol interface. The\
+        \ advantage with PIC server is the easy availability of inter-residue interaction\
+        \ calculations in a single site. It also determines the accessible surface\
+        \ area and residue-depth, which is the distance of a residue from the surface\
+        \ of the protein. User can also recognize specific kind of interactions, such\
+        \ as apolar-apolar residue interactions or ionic interactions, that are formed\
+        \ between buried or exposed residues or near the surface or deep inside. \xA9\
+        \ 2007 The Author(s)."
+      authors:
+        - name: Tina K.G.
+        - name: Bhadra R.
+        - name: Srinivasan N.
+      citationCount: 423
+      date: '2007-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'PIC: Protein Interactions Calculator'
+    pmcid: null
+    pmid: '17584791'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Protein interaction experiment
+    uri: http://edamontology.org/topic_3557
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Protein folding, stability and design
+    uri: http://edamontology.org/topic_0130
+validated: 1
+version: []

@@ -1,0 +1,96 @@
+accessibility: []
+additionDate: '2017-03-24T11:45:19Z'
+biotoolsCURIE: biotools:profeat
+biotoolsID: profeat
+collectionID: []
+cost: null
+credit: []
+description: Tool for computing commonly-used structural and physicochemical features
+  of proteins and peptides from amino acid sequence. New functions include computation
+  of protein-protein and protein-small molecule interactions, topological descriptors
+  for peptide sequences and small molecule structures. New feature groups of descriptors
+  have also been added.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein structural motif recognition
+        uri: http://edamontology.org/operation_0245
+      - term: Protein secondary structure prediction
+        uri: http://edamontology.org/operation_0267
+      - term: Protein feature detection
+        uri: http://edamontology.org/operation_3092
+      - term: Protein function prediction
+        uri: http://edamontology.org/operation_1777
+    output: []
+homepage: http://bidd.cz3.nus.edu.sg/cgi-bin/prof/protein/profnew.cgi
+homepage_status: 1
+language: []
+lastUpdate: '2018-12-10T12:58:40Z'
+license: null
+link: []
+maturity: null
+name: PROFEAT
+operatingSystem: []
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Sequence-derived structural and physicochemical features have frequently\
+        \ been used in the development of statistical learning models for prelicting\
+        \ proteins and peptides of different structural, functional and interaction\
+        \ profiles. PROFEAT (Protein Features) is a web server for computing commonly-used\
+        \ structural and physicochemical features of proteins and peptides from amino\
+        \ acid sequence. It computes six feature groups composed of ten features that\
+        \ include 51 descriptors and 1447 descriptor values. The computed features\
+        \ include amino acid composition, dipeptide composition, normalized Moreau-Broto\
+        \ autocorrelation, Moran autocorrelation, Geary autocorrelation, sequence-order-coupling\
+        \ number, quasisequence-order descriptors and the composition, transition\
+        \ and distribution of various structural and physicochemical properties. In\
+        \ addition, it can also compute previous autocorrelations descriptors based\
+        \ on user-defined properties. Our computational algorithms were extensively\
+        \ tested and the computed protein features have been used in a number of published\
+        \ works for predicting proteins of functional classes, protein-protein interactions\
+        \ and MHC-binding peptides. PROFEAT is accessible at http://jing.cz3.nus.edu.sg/cgi-bin/prof/prof.cgi.\
+        \ \xA9 The Author 2006. Published by Oxford University Press. All rights reserved."
+      authors:
+        - name: Li Z.R.
+        - name: Lin H.H.
+        - name: Han L.Y.
+        - name: Jiang L.
+        - name: Chen X.
+        - name: Chen Y.Z.
+      citationCount: 184
+      date: '2006-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'PROFEAT: A web server for computing structural and physicochemical features
+        of proteins and peptides from amino acid sequence'
+    pmcid: null
+    pmid: '16845018'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+  - term: Protein sites, features and motifs
+    uri: http://edamontology.org/topic_3510
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+validated: 1
+version: []

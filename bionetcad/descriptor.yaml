@@ -1,0 +1,100 @@
+accessibility: []
+additionDate: '2017-08-03T18:37:34Z'
+biotoolsCURIE: biotools:bionetcad
+biotoolsID: bionetcad
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www.sys2diag.cnrs.fr/index.php?page=bionetcad
+description: CellDesigner plug-in, is a computer assisted design tool for synthetic
+  biology.
+documentation:
+  - note: null
+    type: Manual
+    url: https://www.sys2diag.cnrs.fr/publications/supplementary-materials/BioNetCAD/BioNetCAD_Tutorial_1.1.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Design
+        uri: http://edamontology.org/operation_2430
+    output: []
+homepage: https://www.sys2diag.cnrs.fr/index.php?page=bionetcad
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:43Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/bionetcad-design-simulation-and-experimental-validation-of-synthetic-biochemical-networks.html
+maturity: null
+name: BioNetCAD
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: Synthetic biology studies how to design and construct\
+        \ biological systems with functions that do not exist in nature. Biochemical\
+        \ networks, although easier to control, have been used less frequently than\
+        \ genetic networks as a base to build a synthetic system. To date, no clear\
+        \ engineering principles exist to design such cell-free biochemical networks.\
+        \ Results: We describe a methodology for the construction of synthetic biochemical\
+        \ networks based on three main steps: design, simulation and experimental\
+        \ validation. We developed BioNetCAD to help users to go through these steps.\
+        \ BioNetCAD allows designing abstract networks that can be implemented thanks\
+        \ to CompuBioTicDB, a database of parts for synthetic biology. BioNetCAD enables\
+        \ also simulations with the HSim software and the classical Ordinary Differential\
+        \ Equations (ODE). We demonstrate with a case study that BioNetCAD can rationalize\
+        \ and reduce further experimental validation during the construction of a\
+        \ biochemical network. \xA9 The Author(s) 2010. Published by Oxford University\
+        \ Press."
+      authors:
+        - name: Rialle S.
+        - name: Felicori L.
+        - name: Dias-Lopes C.
+        - name: Preres S.
+        - name: El Atia S.
+        - name: Thierry A.R.
+        - name: Amar P.
+        - name: Molina F.
+      citationCount: 12
+      date: '2010-07-13T00:00:00Z'
+      journal: Bioinformatics
+      title: 'BioNetCAD: Design, simulation and experimental validation of synthetic
+        biochemical networks'
+    pmcid: null
+    pmid: '20628073'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Biology
+    uri: http://edamontology.org/topic_3070
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+validated: 1
+version: []

@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2017-08-03T18:35:18Z'
+biotoolsCURIE: biotools:16s_classifier
+biotoolsID: 16s_classifier
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: MetaBioSys Group
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://metabiosys.iiserb.ac.in/contact.html
+description: Random Forest based tool which is developed to carry out fast, efficient
+  and accurate taxonomic classification of 16S rRNA sequences. It has the unique ability
+  to classify small Hypervariable Regions of 16S rRNA.
+documentation:
+  - note: null
+    type: General
+    url: http://metabiosys.iiserb.ac.in/16Sclassifier/algorithm.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Taxonomic classification
+        uri: http://edamontology.org/operation_3460
+    output: []
+homepage: http://metabiosys.iiserb.ac.in/16Sclassifier/application.php
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:43Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/16s-classifier-fast-and-accurate-taxonomic-classification-of-16s-rrna-sequences.html
+maturity: null
+name: 16S classifier
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015 Chaudhary et al.The diversity of microbial species in a\
+        \ metagenomic study is commonly assessed using 16S rRNA gene sequencing. With\
+        \ the rapid developments in genome sequencing technologies, the focus has\
+        \ shifted towards the sequencing of hypervariable regions of 16S rRNA gene\
+        \ instead of full length gene sequencing. Therefore, 16S Classifier is developed\
+        \ using a machine learning method, Random Forest, for faster and accurate\
+        \ taxonomic classification of short hypervariable regions of 16S rRNA sequence.\
+        \ It displayed precision values of up to 0.91 on training datasets and the\
+        \ precision values of up to 0.98 on the test dataset. On real metagenomic\
+        \ datasets, it showed up to 99.7% accuracy at the phylum level and up to 99.0%\
+        \ accuracy at the genus level. 16S Classifier is available freely at http://\
+        \ metagenomics.iiserb.ac.in/16Sclassifier and http://metabiosys.iiserb.ac.in/16Sclassifier."
+      authors:
+        - name: Chaudhary N.
+        - name: Sharma A.K.
+        - name: Agarwal P.
+        - name: Gupta A.
+        - name: Sharma V.K.
+      citationCount: 24
+      date: '2015-02-03T00:00:00Z'
+      journal: PLoS ONE
+      title: '16S classifier: A tool for fast and accurate taxonomic classification
+        of 16S rRNA hypervariable regions in metagenomic datasets'
+    pmcid: null
+    pmid: '25646627'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+  - Web application
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Functional, regulatory and non-coding RNA
+    uri: http://edamontology.org/topic_0659
+  - term: Machine learning
+    uri: http://edamontology.org/topic_3474
+validated: 1
+version: []

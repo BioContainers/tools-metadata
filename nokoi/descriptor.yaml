@@ -1,0 +1,101 @@
+accessibility: []
+additionDate: '2016-05-17T10:18:19Z'
+biotoolsCURIE: biotools:nokoi
+biotoolsID: nokoi
+collectionID:
+  - BIG N2N
+  - VIB
+  - Compomics
+  - UGent
+cost: null
+credit:
+  - email: null
+    name: ugent.be
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: lennart.martens@ugent.be
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A decoy-free approach to the identification of peptides.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output:
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format: []
+homepage: http://genesis.ugent.be/files/costore/Nokoi_utilities.zip
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:36Z'
+license: Apache-2.0
+link: []
+maturity: null
+name: Nokoi
+operatingSystem:
+  - Linux
+otherID: []
+owner: Katrijn.Vannerum@ugent.be
+publication:
+  - doi: 10.1021/pr501164r
+    metadata:
+      abstract: "\xA9 2015 American Chemical Society. A growing number of proteogenomics\
+        \ and metaproteomics studies indicate potential limitations of the application\
+        \ of the \"decoy\" database paradigm used to separate correct peptide identifications\
+        \ from incorrect ones in traditional shotgun proteomics. We therefore propose\
+        \ a binary classifier called Nokoi that allows fast yet reliable decoy-free\
+        \ separation of correct from incorrect peptide-to-spectrum matches (PSMs).\
+        \ Nokoi was trained on a very large collection of heterogeneous data using\
+        \ ranks supplied by the Mascot search engine to label correct and incorrect\
+        \ PSMs. We show that Nokoi outperforms Mascot and achieves a performance very\
+        \ close to that of Percolator at substantially higher processing speeds."
+      authors:
+        - name: Gonnelli G.
+        - name: Stock M.
+        - name: Verwaeren J.
+        - name: Maddelein D.
+        - name: De Baets B.
+        - name: Martens L.
+        - name: Degroeve S.
+      citationCount: 14
+      date: '2015-01-01T00:00:00Z'
+      journal: Journal of Proteome Research
+      title: A decoy-free approach to the identification of peptides
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+validated: 1
+version:
+  - '1'

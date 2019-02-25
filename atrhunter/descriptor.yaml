@@ -1,0 +1,91 @@
+accessibility: []
+additionDate: '2017-08-03T18:36:01Z'
+biotoolsCURIE: biotools:atrhunter
+biotoolsID: atrhunter
+collectionID: []
+cost: null
+credit:
+  - email: ywex@cs.technion.ac.il
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.cs.technion.ac.il/labs/cbl/
+description: Software that finds and displays approximate tandem repeats (ATR) in
+  DNA sequences. An approximate tandem repeat (ATR) in a genomic sequence is a string
+  of nucleotides repeated consecutively at least twice with some small differences
+  between the repeated copies.
+documentation:
+  - note: null
+    type: General
+    url: http://www.cs.technion.ac.il/labs/cbl/atrhunter/ATRinformation.htm
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Repeat sequence analysis
+        uri: http://edamontology.org/operation_0237
+    output: []
+homepage: http://www.cs.technion.ac.il/labs/cbl/atrhunter/ATRinformation.htm
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:43Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/atrhunter-atrhunterplus-find-approximate-tandem-repeats-genomic-sequence.html
+  - note: null
+    type: Registry
+    url: http://www.cs.technion.ac.il/labs/cbl/atrhunter/ATRHunter.htm
+maturity: null
+name: ATRHunter
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "An efficient algorithm is presented for detecting approximate tandem\
+        \ repeats in genomic sequences. The algorithm is based on a flexible statistical\
+        \ model which allows a wide range of definitions of approximate tandem repeats.\
+        \ The ideas and methods underlying the algorithm are described and its effectiveness\
+        \ on genomic data is demonstrated. \xA9 Mary Ann Liebert, Inc."
+      authors:
+        - name: Wexler Y.
+        - name: Yakhini Z.
+        - name: Kashi Y.
+        - name: Geiger D.
+      citationCount: 44
+      date: '2005-09-01T00:00:00Z'
+      journal: Journal of Computational Biology
+      title: Finding approximate tandem repeats in genomic sequences
+    pmcid: null
+    pmid: '16201913'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+  - Web service
+topic:
+  - term: Sequence composition, complexity and repeats
+    uri: http://edamontology.org/topic_0157
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+validated: 1
+version: []

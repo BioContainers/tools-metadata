@@ -1,0 +1,96 @@
+accessibility: []
+additionDate: '2017-02-10T14:15:36Z'
+biotoolsCURIE: biotools:medock
+biotoolsID: medock
+collectionID: []
+cost: null
+credit: []
+description: This is a tool for predicting ligand binding sites.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Transcription factor binding site prediction
+        uri: http://edamontology.org/operation_0445
+      - term: Protein binding site prediction
+        uri: http://edamontology.org/operation_2575
+      - term: Molecular docking
+        uri: http://edamontology.org/operation_0478
+      - term: Protein-ligand docking
+        uri: http://edamontology.org/operation_0482
+    output: []
+homepage: http://medock.csie.ntu.edu.tw/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:40Z'
+license: null
+link: []
+maturity: null
+name: MEDock
+operatingSystem: []
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "The prediction of ligand binding sites is an essential part of the\
+        \ drug discovery process. Knowing the location of binding sites greatly facilitates\
+        \ the search for hits, the lead optimization process, the design of site-directed\
+        \ mutagenesis experiments and the hunt for structural features that influence\
+        \ the selectivity of binding in order to minimize the drug's adverse effects.\
+        \ However, docking is still the rate-limiting step for such predictions; consequently,\
+        \ much more efficient algorithms are required. In this article, the design\
+        \ of the MEDock web server is described. The goal of this sever is to provide\
+        \ an efficient utility for predicting ligand binding sites. The MEDock web\
+        \ server incorporates a global search strategy that exploits the maximum entropy\
+        \ property of the Gaussian probability distribution in the context of information\
+        \ theory. As a result of the global search strategy, the optimization algorithm\
+        \ incorporated in MEDock is significantly superior when dealing with very\
+        \ rugged energy landscapes, which usually have insurmountable barriers. This\
+        \ article describes four different benchmark cases that span a diverse set\
+        \ of different types of ligand binding interactions. These benchmarks were\
+        \ compared with the use of the Lamarckian genetic algorithm (LGA), which is\
+        \ the major workhorse of the well-known AutoDock program. These results demonstrate\
+        \ that MEDock consistently converged to the correct binding modes with significantly\
+        \ smaller numbers of energy evaluations than the LGA required. When judged\
+        \ by a threshold of the number of energy evaluations consumed in the docking\
+        \ simulation, MEDock also greatly elevates the rate of accurate predictions\
+        \ for all benchmark cases. MEDock is available at http:// medock.csie.ntu.edu.tw/\
+        \ and http://bioinfo.mc.ntu.edu.tw/medock/. \xA9 2005 Oxford University Press."
+      authors:
+        - name: Chang D.T.-H.
+        - name: Oyang Y.-J.
+        - name: Lin J.-H.
+      citationCount: 70
+      date: '2005-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'MEDock: A web server for efficient prediction of ligand binding sites
+        based on a novel optimization algorithm'
+    pmcid: null
+    pmid: '15991337'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Nucleic acid sites, features and motifs
+    uri: http://edamontology.org/topic_3511
+  - term: DNA binding sites
+    uri: http://edamontology.org/topic_3125
+  - term: Protein binding sites
+    uri: http://edamontology.org/topic_3534
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
+validated: 1
+version: []

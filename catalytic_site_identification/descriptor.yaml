@@ -1,0 +1,87 @@
+accessibility: []
+additionDate: '2017-03-25T17:09:53Z'
+biotoolsCURIE: biotools:catalytic_site_identification
+biotoolsID: catalytic_site_identification
+collectionID: []
+cost: null
+credit: []
+description: Provides the ability to find structural matches to a user-specified catalytic
+  site among all Protein Data Bank (PDB) proteins. The web server can also examine
+  a user-specified protein to identify structural matches to a library of catalytic
+  sites.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein modelling
+        uri: http://edamontology.org/operation_0477
+      - term: Protein structural motif recognition
+        uri: http://edamontology.org/operation_0245
+      - term: Protein structure comparison
+        uri: http://edamontology.org/operation_2487
+      - term: Protein binding site prediction
+        uri: http://edamontology.org/operation_2575
+      - term: Protein identification
+        uri: http://edamontology.org/operation_3767
+    output: []
+homepage: http://mvirdb.llnl.gov/css
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:40Z'
+license: null
+link: []
+maturity: null
+name: Catalytic Site Identification
+operatingSystem: []
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: The catalytic site identification web server provides the innovative
+        capability to find structural matches to a user-specified catalytic site among
+        all Protein Data Bank proteins rapidly (in less than a minute). The server
+        also can examine a user-specified protein structure or model to identify structural
+        matches to a library of catalytic sites. Finally, the server provides a database
+        of pre-calculated matches between all Protein Data Bank proteins and the library
+        of catalytic sites. The database has been used to derive a set of hypothesized
+        novel enzymatic function annotations. In all cases, matches and putative binding
+        sites (protein structure and surfaces) can be visualized interactively online.
+        The website can be accessed at http://catsid.llnl.gov.
+      authors:
+        - name: Kirshner D.A.
+        - name: Nilmeier J.P.
+        - name: Lightstone F.C.
+      citationCount: 12
+      date: '2013-01-01T00:00:00Z'
+      journal: Nucleic acids research
+      title: Catalytic site identification--a web server to identify catalytic site
+        structural matches throughout PDB.
+    pmcid: null
+    pmid: '23680785'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Protein binding sites
+    uri: http://edamontology.org/topic_3534
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+  - term: Protein folds and structural domains
+    uri: http://edamontology.org/topic_0736
+validated: 1
+version: []

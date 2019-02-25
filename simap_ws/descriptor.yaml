@@ -1,0 +1,77 @@
+accessibility: []
+additionDate: '2015-08-03T09:36:12Z'
+biotoolsCURIE: biotools:simap_ws
+biotoolsID: simap_ws
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: BioCatalogue
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: https://www.biocatalogue.org
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://liferay.csb.univie.ac.at/portal/web/simap/contact
+description: Database containing the similarity space formed by about all amino-acid
+  sequences from public databases and completely sequenced genomes.
+documentation:
+  - note: null
+    type: General
+    url: http://liferay.csb.univie.ac.at/portal/web/simap/webservice
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Data retrieval
+        uri: http://edamontology.org/operation_2422
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+homepage: http://liferay.csb.univie.ac.at/portal/web/simap/webservice
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:35Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: https://www.biocatalogue.org/services/3726
+maturity: null
+name: SIMAP WS
+operatingSystem: []
+otherID: []
+owner: BioCatalogue
+publication:
+  - doi: 10.1093/nar/gkj106
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web service
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
+validated: 1
+version:
+  - '1'

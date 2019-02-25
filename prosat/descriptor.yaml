@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2017-08-03T18:56:28Z'
+biotoolsCURIE: biotools:prosat
+biotoolsID: prosat
+collectionID: []
+cost: null
+credit:
+  - email: mcmsoft@h-its.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Tool to explore the relation between sequence and structural properties.
+documentation:
+  - note: null
+    type: General
+    url: http://prosat.h-its.org/prosat/documentation
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation: []
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+homepage: http://prosat.h-its.org/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:43Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/prosat-protein-structure-annotation-tool.html
+maturity: null
+name: ProSAT+
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2016 The Author. Protein Structure Annotation Tool-plus (ProSAT+)\
+        \ is a new web server for mapping protein sequence annotations onto a protein\
+        \ structure and visualizing them simultaneously with the structure. ProSAT+\
+        \ incorporates many of the features of the preceding ProSAT and ProSAT2 tools\
+        \ but also provides new options for the visualization and sharing of protein\
+        \ annotations. Data are extracted from the UniProt KnowledgeBase, the RCSB\
+        \ PDB and the PDBe SIFTS resource, and visualization is performed using JSmol.\
+        \ User-defined sequence annotations can be added directly to the URL, thus\
+        \ enabling visualization and easy data sharing. ProSAT+ is available at http://prosat.h-its.org."
+      authors:
+        - name: Stank A.
+        - name: Richter S.
+        - name: Wade R.C.
+      citationCount: 2
+      date: '2016-08-01T00:00:00Z'
+      journal: Protein Engineering, Design and Selection
+      title: 'ProSAT+: Visualizing sequence annotations on 3D structure'
+    pmcid: null
+    pmid: '27284084'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+  - term: Data submission, annotation and curation
+    uri: http://edamontology.org/topic_0219
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+validated: 1
+version: []

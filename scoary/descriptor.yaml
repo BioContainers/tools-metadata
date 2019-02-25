@@ -1,0 +1,152 @@
+accessibility:
+  - Open access
+additionDate: '2016-09-12T15:20:53Z'
+biotoolsCURIE: biotools:scoary
+biotoolsID: scoary
+collectionID: []
+cost: Free of charge
+credit:
+  - email: null
+    name: Ola Brynildsrud
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Vegard Eldholm
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Norwegian Institute of Public Health
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: UiO
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: ola.brynildsrud@fhi.no
+    name: Ola Brynildsrud
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/AdmiralenOla
+description: Pan-genome wide association studies and  is designed to take the gene_presence_absence.csv
+  file from Roary as well as a traits file created by the user and calculate the assocations
+  between all genes in the accessory genome (all genes that are present in i genomes
+  where 1 < i < N) and the traits. It reports a list of genes sorted by strength of
+  association per trait.
+documentation:
+  - note: null
+    type: Terms of use
+    url: https://github.com/AdmiralenOla/Scoary/blob/master/LICENSE
+  - note: null
+    type: General
+    url: https://github.com/AdmiralenOla/Scoary
+download:
+  - note: null
+    type: Source package
+    url: https://github.com/AdmiralenOla/Scoary/archive/master.zip
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+    note: Scoary correlates the genes of an accessory genome to an observed phenotype
+      (e.g. resistance towards a certain antibiotic compound, a particular pathotype
+      etc.). It is thus a quick way of establishing possible genetic mechanisms of
+      an expressed trait, not unlike a GWAS, but with the entire pan-genome rather
+      than a core set of mutations. Scoary works on both bacteria, Archea and (in
+      theory at least) viruses.
+    operation:
+      - term: Analysis
+        uri: http://edamontology.org/operation_2945
+    output:
+      - data:
+          term: P-value
+          uri: http://edamontology.org/data_1669
+        format:
+          - term: CSV
+            uri: http://edamontology.org/format_3752
+homepage: https://github.com/AdmiralenOla/Scoary
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:41Z'
+license: GPL-3.0
+link:
+  - note: null
+    type: Repository
+    url: https://github.com/AdmiralenOla/Scoary
+maturity: Mature
+name: Scoary
+operatingSystem:
+  - Linux
+otherID: []
+owner: UiO
+publication:
+  - doi: 10.1186/s13059-016-1108-8
+    metadata:
+      abstract: "\xA9 2016 The Author(s). Genome-wide association studies (GWAS) have\
+        \ become indispensable in human medicine and genomics, but very few have been\
+        \ carried out on bacteria. Here we introduce Scoary, an ultra-fast, easy-to-use,\
+        \ and widely applicable software tool that scores the components of the pan-genome\
+        \ for associations to observed phenotypic traits while accounting for population\
+        \ stratification, with minimal assumptions about evolutionary processes. We\
+        \ call our approach pan-GWAS to distinguish it from traditional, single nucleotide\
+        \ polymorphism (SNP)-based GWAS. Scoary is implemented in Python and is available\
+        \ under an open source GPLv3 license at https://github.com/AdmiralenOla/Scoary."
+      authors:
+        - name: Brynildsrud O.
+        - name: Bohlin J.
+        - name: Scheffer L.
+        - name: Eldholm V.
+      citationCount: 35
+      date: '2016-11-25T00:00:00Z'
+      journal: Genome Biology
+      title: Rapid scoring of genes in microbial pan-genome-wide association studies
+        with Scoary
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Genotype and phenotype
+    uri: http://edamontology.org/topic_0625
+  - term: Model organisms
+    uri: http://edamontology.org/topic_0621
+  - term: GWAS study
+    uri: http://edamontology.org/topic_3517
+  - term: Functional genomics
+    uri: http://edamontology.org/topic_0085
+validated: 1
+version:
+  - 1.6.11

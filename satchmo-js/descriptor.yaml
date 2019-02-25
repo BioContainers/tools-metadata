@@ -1,0 +1,91 @@
+accessibility: []
+additionDate: '2017-03-25T12:40:52Z'
+biotoolsCURIE: biotools:satchmo-js
+biotoolsID: satchmo-js
+collectionID: []
+cost: null
+credit: []
+description: Web server for simultaneous estimation of protein multiple sequence alignments
+  and phylogenetic trees. Input is a FASTA file of sequences, and output is a phylogenetic
+  tree and multiple sequence alignment.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Tree-based sequence alignment
+        uri: http://edamontology.org/operation_0499
+      - term: Multiple sequence alignment
+        uri: http://edamontology.org/operation_0492
+      - term: Phylogenetic tree generation
+        uri: http://edamontology.org/operation_0323
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output: []
+homepage: http://phylogenomics.berkeley.edu/satchmo-js
+homepage_status: 1
+language: []
+lastUpdate: '2018-12-10T12:58:40Z'
+license: null
+link: []
+maturity: null
+name: SATCHMO-JS
+operatingSystem: []
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "We present the jump-start simultaneous alignment and tree construction\
+        \ using hidden Markov models (SATCHMO-JS) web server for simultaneous estimation\
+        \ of protein multiple sequence alignments (MSAs) and phylogenetic trees. The\
+        \ server takes as input a set of sequences in FASTA format, and outputs a\
+        \ phylogenetic tree and MSA; these can be viewed online or downloaded from\
+        \ the website. SATCHMO-JS is an extension of the SATCHMO algorithm, and employs\
+        \ a divide-and-conquer strategy to jump-start SATCHMO at a higher point in\
+        \ the phylogenetic tree, reducing the computational complexity of the progressive\
+        \ all-versus-all HMM-HMM scoring and alignment. Results on a benchmark dataset\
+        \ of 983 structurally aligned pairs from the PREFAB benchmark dataset show\
+        \ that SATCHMO-JS provides a statistically significant improvement in alignment\
+        \ accuracy over MUSCLE, Multiple Alignment using Fast Fourier Transform (MAFFT),\
+        \ ClustalW and the original SATCHMO algorithm. The SATCHMO-JS webserver is\
+        \ available at http://phylogenomics.berkeley.edu/satchmo-js. The datasets\
+        \ used in these experiments are available for download at http://phylogenomics.berkeley.edu/satchmo-js/supplementary/.\
+        \ \xA9 The Author(s) 2010. Published by Oxford University Press."
+      authors:
+        - name: Hagopian R.
+        - name: Davidson J.R.
+        - name: Datta R.S.
+        - name: Samad B.
+        - name: Jarvis G.R.
+        - name: Sjolander K.
+      citationCount: 19
+      date: '2010-04-29T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'SATCHMO-JS: A webserver for simultaneous protein multiple sequence alignment
+        and phylogenetic tree construction'
+    pmcid: null
+    pmid: '20430824'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Phylogenetics
+    uri: http://edamontology.org/topic_3293
+  - term: Phylogeny
+    uri: http://edamontology.org/topic_0084
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+validated: 1
+version: []

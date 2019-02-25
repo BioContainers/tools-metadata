@@ -1,0 +1,96 @@
+accessibility: []
+additionDate: '2017-08-03T18:36:25Z'
+biotoolsCURIE: biotools:aodpred
+biotoolsID: aodpred
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: Hao Lin
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://lin.uestc.edu.cn/
+description: This tool was developed to identify antioxidant proteins based on the
+  sequence information.
+documentation:
+  - note: null
+    type: General
+    url: http://lin.uestc.edu.cn/server/Aod/readme
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+      - term: Protein structure prediction
+        uri: http://edamontology.org/operation_0474
+    output: []
+homepage: http://lin.uestc.edu.cn/server/AntioxiPred
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:43Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/aodpred-identifying-antioxidant-proteins-by-using-optimal-dipeptide-compositions.html
+maturity: null
+name: AodPred
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015, International Association of Scientists in the Interdisciplinary\
+        \ Areas and Springer-Verlag Berlin Heidelberg. Antioxidant proteins are a\
+        \ kind of molecules that can terminate cellular and DNA damages caused by\
+        \ free radical intermediates. The use of antioxidant proteins for prevention\
+        \ of diseases has been intensively studied in recent years. Thus, accurate\
+        \ identification of antioxidant proteins is essential for understanding their\
+        \ roles in pharmacology. In this study, a support vector machine-based predictor\
+        \ called AodPred was developed for identifying antioxidant proteins. In this\
+        \ predictor, the sequence was formulated by using the optimal 3-gap dipeptides\
+        \ obtained by using feature selection method. It was observed by jackknife\
+        \ cross-validation test that AodPred can achieve an overall accuracy of 74.79\
+        \ % in identifying antioxidant proteins. As a user-friendly tool, AodPred\
+        \ is freely accessible at http://lin.uestc.edu.cn/server/AntioxiPred. To maximize\
+        \ the convenience of the vast majority of experimental scientists, a step-by-step\
+        \ guide is provided on how to use the web server to obtain the desired results."
+      authors:
+        - name: Feng P.
+        - name: Chen W.
+        - name: Lin H.
+      citationCount: 5
+      date: '2016-06-01T00:00:00Z'
+      journal: 'Interdisciplinary Sciences: Computational Life Sciences'
+      title: Identifying Antioxidant Proteins by Using Optimal Dipeptide Compositions
+    pmcid: null
+    pmid: '26345449'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

@@ -1,0 +1,82 @@
+accessibility: []
+additionDate: '2017-02-14T09:34:48Z'
+biotoolsCURIE: biotools:biolit
+biotoolsID: biolit
+collectionID: []
+cost: null
+credit: []
+description: Web sever resource that integrates scientific publications with existing
+  biological databases. To perform this link, it searches the full text of the article
+  for metadata such as database identifiers and ontology terms.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+      - term: Text annotation
+        uri: http://edamontology.org/operation_3778
+    output: []
+homepage: http://biolit.ucsd.edu
+homepage_status: 1
+language: []
+lastUpdate: '2018-12-10T12:58:40Z'
+license: null
+link: []
+maturity: null
+name: BioLit
+operatingSystem: []
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: BioLit is a web server which provides metadata describing the semantic
+        content of all open access, peer-reviewed articles which describe research
+        from the major life sciences literature archive, PubMed Central. Specifically,
+        these metadata include database identifiers and ontology terms found within
+        the full text of the article. BioLit delivers these metadata in the form of
+        XML-based article files and as a custom web-based article viewer that provides
+        context-specific functionality to the metadata. This resource aims to integrate
+        the traditional scientific publication directly into existing biological databases,
+        thus obviating the need for a user to search in multiple locations for information
+        relating to a specific item of interest, for example published experimental
+        results associated with a particular biological database entry. As an example
+        of a possible use of BioLit, we also present an instance of the Protein Data
+        Bank fully integrated with BioLit data. We expect that the community of life
+        scientists in general will be the primary end-users of the web-based viewer,
+        while biocurators will make use of the metadata-containing XML files and the
+        BioLit database of article data. BioLit is available at http://biolit.ucsd.edu.
+      authors:
+        - name: Fink J.L.
+        - name: Kushch S.
+        - name: Williams P.R.
+        - name: Bourne P.E.
+      citationCount: 26
+      date: '2008-01-01T00:00:00Z'
+      journal: Nucleic acids research
+      title: 'BioLit: integrating biological literature with databases.'
+    pmcid: null
+    pmid: '18515836'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
+  - term: Ontology and terminology
+    uri: http://edamontology.org/topic_0089
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+validated: 1
+version: []

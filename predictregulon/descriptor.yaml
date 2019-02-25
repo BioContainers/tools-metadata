@@ -1,0 +1,90 @@
+accessibility: []
+additionDate: '2017-02-10T11:35:32Z'
+biotoolsCURIE: biotools:predictregulon
+biotoolsID: predictregulon
+collectionID: []
+cost: null
+credit: []
+description: Tool that, for a given regulatory protein and prokaryotic genome, predicts
+  binding sites and operons. The user selects a prokaryote genome and provides an
+  ungapped multiple sequence alignment representing the binding site. The tool reports
+  back with predicted binding sites and downstream co-regulated genes.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Multiple sequence alignment
+        uri: http://edamontology.org/operation_0492
+      - term: Operon prediction
+        uri: http://edamontology.org/operation_0435
+      - term: Transcription factor binding site prediction
+        uri: http://edamontology.org/operation_0445
+      - term: Protein binding site prediction
+        uri: http://edamontology.org/operation_2575
+      - term: Regulatory element prediction
+        uri: http://edamontology.org/operation_0438
+    output: []
+homepage: http://www.cdfd.org.in/predictregulon/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:39Z'
+license: null
+link: []
+maturity: null
+name: PredictRegulon
+operatingSystem: []
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "An interactive web server is developed for predicting the potential\
+        \ binding sites and its target operons for a given regulatory protein in prokaryotic\
+        \ genomes. The program allows users to submit known or experimentally determined\
+        \ binding sites of a regulatory protein as ungapped multiple sequence alignments.\
+        \ It analyses the upstream regions of all genes in a user-selected prokaryote\
+        \ genome and returns the potential binding sites along with the downstream\
+        \ co-regulated genes (operons). The known binding sites of a regulatory protein\
+        \ can also be used to identify its orthologue binding sites in phylogeneticaly\
+        \ related genomes where the trans-acting regulator protein and cognate cis-acting\
+        \ DNA sequences could be conserved. PredictRegulon can be freely accessed\
+        \ from a link on our world wide web server: http://www.cdfd.org.in/predictregulon/.\
+        \ \xA9 Oxford University Press 2004; all rights reserved."
+      authors:
+        - name: Yellaboina S.
+        - name: Seshadri J.
+        - name: Kumar M.S.
+        - name: Ranjan A.
+      citationCount: 37
+      date: '2004-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'PredictRegulon: A web server for the prediction of the regulatory protein
+        in binding sites and operons in prokaryote genomes'
+    pmcid: null
+    pmid: '15215402'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Protein binding sites
+    uri: http://edamontology.org/topic_3534
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
+  - term: Nucleic acid sites, features and motifs
+    uri: http://edamontology.org/topic_3511
+  - term: DNA binding sites
+    uri: http://edamontology.org/topic_3125
+  - term: Model organisms
+    uri: http://edamontology.org/topic_0621
+validated: 1
+version: []

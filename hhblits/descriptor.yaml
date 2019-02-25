@@ -1,0 +1,96 @@
+accessibility: []
+additionDate: '2017-08-03T18:45:57Z'
+biotoolsCURIE: biotools:hhblits
+biotoolsID: hhblits
+collectionID: []
+cost: null
+credit:
+  - email: soeding@mpibpc.mpg.de
+    name: "Johannes S\xF6ding"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www.mpibpc.mpg.de/soeding
+description: The first iterative method based on the pairwise comparison of profile
+  Hidden Markov Models. In benchmarks it achieves better runtimes than other iterative
+  sequence search methods such as PSI-BLAST or HMMER3 by using a fast prefilter based
+  on profile-profile comparison. Furthermore, it greatly improves upon PSI-BLAST and
+  HMMER3 in terms of sensitivity/selectivity and alignment quality.
+documentation:
+  - note: Question mark icon
+    type: General
+    url: https://toolkit.tuebingen.mpg.de/#/tools/hhblits
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation: []
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output: []
+homepage: https://toolkit.tuebingen.mpg.de/#/tools/hhblits
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:43Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/hhblits-beta-homology-detection-iterative-hmm-hmm-comparison.html
+maturity: null
+name: HHblits
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Sequence-based protein function and structure prediction depends\
+        \ crucially on sequence-search sensitivity and accuracy of the resulting sequence\
+        \ alignments. We present an open-source, general-purpose tool that represents\
+        \ both query and database sequences by profile hidden Markov models (HMMs):\
+        \ 'HMM-HMM-based lightning-fast iterative sequence search' (HHblits; http://toolkit.genzentrum.lmu.de/hhblits/).\
+        \ Compared to the sequence-search tool PSI-BLAST, HHblits is faster owing\
+        \ to its discretized-profile prefilter, has 50-100% higher sensitivity and\
+        \ generates more accurate alignments. \xA9 2012 Nature America, Inc. All rights\
+        \ reserved."
+      authors:
+        - name: Remmert M.
+        - name: Biegert A.
+        - name: Hauser A.
+        - name: Soding J.
+      citationCount: 596
+      date: '2012-02-01T00:00:00Z'
+      journal: Nature Methods
+      title: 'HHblits: Lightning-fast iterative protein sequence searching by HMM-HMM
+        alignment'
+    pmcid: null
+    pmid: '22198341'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Sequence sites, features and motifs
+    uri: http://edamontology.org/topic_0160
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

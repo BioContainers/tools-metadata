@@ -1,0 +1,92 @@
+accessibility: []
+additionDate: '2017-08-03T18:36:59Z'
+biotoolsCURIE: biotools:bion
+biotoolsID: bion
+collectionID: []
+cost: null
+credit:
+  - email: tkimmet@clemson.edu
+    name: Emil Alexov
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://compbio.clemson.edu/
+description: This web server addresses the demand for tools of predicting surface
+  bound ions, for which specific interactions are not crucial; thus, they are difficult
+  to predict.
+documentation:
+  - note: null
+    type: General
+    url: http://compbio.clemson.edu/bion_server_ph/assets/tutorial.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein interaction prediction
+        uri: http://edamontology.org/operation_2492
+    output: []
+homepage: http://compbio.clemson.edu/bion_server_ph/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:43Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/bion-predicting-non-specifically-bound-surface-ions.html
+maturity: null
+name: BION
+operatingSystem: []
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015 Wiley Periodicals, Inc.Ions are engaged in multiple biological\
+        \ processes in cells. By binding to the macromolecules or being mobile in\
+        \ the solvent, they maintain the integrity of the structure of macromolecules;\
+        \ participate in their enzymatic activity; or screen electrostatic interactions.\
+        \ While experimental methods are not always able to assign the exact location\
+        \ of ions, computational methods are in demand. Although the majority of computational\
+        \ methods are successful in predicting the position of ions buried inside\
+        \ macromolecules, they are less effective in deciphering positions of surface\
+        \ bound ions. Here, we propose the new BION algorithm (http://compbio.clemson.edu/bion-server-ph/)\
+        \ that predicts the location of the surface bound ions. It is more efficient\
+        \ and accurate compared to the previous version since it uses more advanced\
+        \ clustering algorithm in combination with pairing rules. In addition, the\
+        \ BION webserver allows specifying the pH and the salt concentration in predicting\
+        \ ions positions."
+      authors:
+        - name: Petukh M.
+        - name: Zhang M.
+        - name: Alexov E.
+      citationCount: 7
+      date: '2015-12-15T00:00:00Z'
+      journal: Journal of Computational Chemistry
+      title: Statistical investigation of surface bound ions and further development
+        of BION server to include pH and salt dependence
+    pmcid: null
+    pmid: '26484964'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+validated: 1
+version: []

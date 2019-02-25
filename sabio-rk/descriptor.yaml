@@ -1,0 +1,164 @@
+accessibility: []
+additionDate: '2015-10-07T21:56:54Z'
+biotoolsCURIE: biotools:sabio-rk
+biotoolsID: sabio-rk
+collectionID:
+  - de.NBI
+cost: null
+credit:
+  - email: sabiork@h-its.org
+    name: HITS
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://sabiork.h-its.org/contactFormSabio
+description: Curated database that contains information about biochemical reactions,their
+  kinetic rate equations with parameters and experimental conditions.
+documentation:
+  - note: null
+    type: Terms of use
+    url: http://sabiork.h-its.org/layouts/content/termscondition.gsp
+  - note: null
+    type: General
+    url: http://sabio.h-its.org/layouts/content/documentation.gsp
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Reaction ID (SABIO-RK)
+          uri: http://edamontology.org/data_2309
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Reaction data
+          uri: http://edamontology.org/data_2978
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Reaction kinetics ID (SABIO-RK)
+          uri: http://edamontology.org/data_2648
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Enzyme kinetics data
+          uri: http://edamontology.org/data_2024
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: EC number
+          uri: http://edamontology.org/data_1011
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Data reference
+          uri: http://edamontology.org/data_2093
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+homepage: http://sabiork.h-its.org/
+homepage_status: 0
+language:
+  - Java
+  - Groovy
+lastUpdate: '2018-12-10T12:58:39Z'
+license: null
+link: []
+maturity: Mature
+name: 'SABIO-RK: reactions and their kinetics'
+operatingSystem:
+  - Linux
+otherID: []
+owner: HITS
+publication:
+  - doi: 10.1093/nar/gkr1046
+    metadata:
+      abstract: "SABIO-RK (http://sabio.h-its.org/) is a web-accessible database storing\
+        \ comprehensive information about biochemical reactions and their kinetic\
+        \ properties. SABIO-RK offers standardized data manually extracted from the\
+        \ literature and data directly submitted from lab experiments. The database\
+        \ content includes kinetic parameters in relation to biochemical reactions\
+        \ and their biological sources with no restriction on any particular set of\
+        \ organisms. Additionally, kinetic rate laws and corresponding equations as\
+        \ well as experimental conditions are represented. All the data are manually\
+        \ curated and annotated by biological experts, supported by automated consistency\
+        \ checks. SABIO-RK can be accessed via web-based user interfaces or automatically\
+        \ via web services that allow direct data access by other tools. Both interfaces\
+        \ support the export of the data together with its annotations in SBML (Systems\
+        \ Biology Markup Language), e.g. for import in modelling tools. \xA9 The Author(s)\
+        \ 2011."
+      authors:
+        - name: Wittig U.
+        - name: Kania R.
+        - name: Golebiewski M.
+        - name: Rey M.
+        - name: Shi L.
+        - name: Jong L.
+        - name: Algaa E.
+        - name: Weidemann A.
+        - name: Sauer-Danzwith H.
+        - name: Mir S.
+        - name: Krebs O.
+        - name: Bittkowski M.
+        - name: Wetsch E.
+        - name: Rojas I.
+        - name: Muller W.
+      citationCount: 100
+      date: '2012-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: SABIO-RK - Database for biochemical reaction kinetics
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
+  - term: Biochemistry
+    uri: http://edamontology.org/topic_3292
+  - term: Data mining
+    uri: http://edamontology.org/topic_3473
+  - term: Biology
+    uri: http://edamontology.org/topic_3070
+  - term: Biomedical science
+    uri: http://edamontology.org/topic_3344
+  - term: Enzymes
+    uri: http://edamontology.org/topic_0821
+validated: 1
+version: []

@@ -1,0 +1,87 @@
+accessibility: []
+additionDate: '2017-02-14T09:35:17Z'
+biotoolsCURIE: biotools:quicksnp
+biotoolsID: quicksnp
+collectionID: []
+cost: null
+credit: []
+description: Resource for the selection of tagSNPs in the human genome that includes
+  a gene-centric selection module.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genotyping
+        uri: http://edamontology.org/operation_3196
+    output: []
+homepage: http://bioinformoodics.jhmi.edu/quickSNP.pl
+homepage_status: 1
+language: []
+lastUpdate: '2018-12-10T12:58:40Z'
+license: null
+link: []
+maturity: null
+name: QuickSNP
+operatingSystem: []
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Although large-scale genetic association studies involving hundreds\
+        \ to thousands of SNPs have become feasible, the associated cost is substantial.\
+        \ Even with the increased efficiency introduced by the use of tagSNPs, researchers\
+        \ are often seeking ways to maximize resource utilization given a set of SNPbased\
+        \ gene-mapping goals. We have developed a web server named QuickSNP in order\
+        \ to provide cost-effective selection of SNPs, and to fill in some of the\
+        \ gaps in existing SNP selection tools. One useful feature of QuickSNP is\
+        \ the option to select only gene-centric SNPs from a chromosomal region in\
+        \ an automated fashion. Other useful features include automated selection\
+        \ of coding nonsynonymous SNPs, SNP filtering based on inter-SNP distances\
+        \ and information regarding the availability of genotyping assays for SNPs\
+        \ and whether they are present on whole genome chips. The program produces\
+        \ user-friendly summary tables and results, and a link to a UCSC Genome Browser\
+        \ track illustrating the position of the selected tagSNPs in relation to genes\
+        \ and other genomic features. We hope the unique combination of features of\
+        \ this server will be useful for researchers aiming to select markers for\
+        \ their genotyping studies. The server is freely available and can be accessed\
+        \ at the URL http://bioinformoodics. jhmi.edu/quickSNP.pl. \xA9 2007 The Author(s)."
+      authors:
+        - name: Grover D.
+        - name: Woodfield A.S.
+        - name: Verma R.
+        - name: Zandi P.P.
+        - name: Levinson D.F.
+        - name: Potash J.B.
+      citationCount: 18
+      date: '2007-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'QuickSNP: An automated web server for selection of tagSNPs'
+    pmcid: null
+    pmid: '17517769'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Humans
+    uri: http://edamontology.org/topic_2815
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+validated: 1
+version: []

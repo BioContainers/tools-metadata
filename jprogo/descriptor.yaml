@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2017-02-10T14:15:22Z'
+biotoolsCURIE: biotools:jprogo
+biotoolsID: jprogo
+collectionID: []
+cost: null
+credit: []
+description: Tool for the functional interpretation of prokaryotic microarray data
+  using Gene Ontology information.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Microarray data rendering
+        uri: http://edamontology.org/operation_0571
+      - term: Gene functional annotation
+        uri: http://edamontology.org/operation_3672
+      - term: Gene expression analysis
+        uri: http://edamontology.org/operation_2495
+    output: []
+homepage: http://www.jprogo.de/index.jsp
+homepage_status: 1
+language: []
+lastUpdate: '2018-12-10T12:58:40Z'
+license: null
+link: []
+maturity: null
+name: JProGO
+operatingSystem: []
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "A novel program suite was implemented for the functional interpretation\
+        \ of high-throughput gene expression data based on the identification of Gene\
+        \ Ontology (GO) nodes. The focus of the analysis lies on the interpretation\
+        \ of microarray data from prokaryotes. The three well established statistical\
+        \ methods of the threshold value-based Fisher's exact test, as well as the\
+        \ threshold value-independent Kolmogorov-Smirnov and Student's t-test were\
+        \ employed in order to identify the groups of genes with a significantly altered\
+        \ expression profile. Furthermore, we provide the application of the rankbased\
+        \ unpaired Wilcoxon's test for a GO-based microarray data interpretation.\
+        \ Further features of the program include recognition of the alternative gene\
+        \ names and the correction for multiple testing. Obtained results are visualized\
+        \ interactively both as a table and as a GO subgraph including all significant\
+        \ nodes. Currently, JProGO enables the analysis of microarray data from more\
+        \ than 20 different prokaryotic species, including all important model organisms,\
+        \ and thus constitutes a useful web service for the microbial research community.\
+        \ JProGO is freely accessible via the web at the following address: http://www.jprogo.de.\
+        \ \xA9 The Author 2006. Published by Oxford University Press. All rights reserved."
+      authors:
+        - name: Scheer M.
+        - name: Klawon F.
+        - name: Munch R.
+        - name: Grote A.
+        - name: Hiller K.
+        - name: Choi C.
+        - name: Koch I.
+        - name: Schobert M.
+        - name: Hartlig E.
+        - name: Klages U.
+        - name: Jahn D.
+      citationCount: 27
+      date: '2006-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'JProGO: A novel tool for the functional interpretation of prokaryotic
+        microarray data using Gene Ontology information'
+    pmcid: null
+    pmid: '16845060'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Microarray experiment
+    uri: http://edamontology.org/topic_3518
+  - term: Ontology and terminology
+    uri: http://edamontology.org/topic_0089
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Model organisms
+    uri: http://edamontology.org/topic_0621
+validated: 1
+version: []

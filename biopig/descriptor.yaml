@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2017-08-03T18:37:37Z'
+biotoolsCURIE: biotools:biopig
+biotoolsID: biopig
+collectionID: []
+cost: null
+credit:
+  - email: zhongwang@lbl.gov
+    name: Zhong Wang
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://jgi.doe.gov/our-science/scientists-jgi/genome-analysis/
+description: Framework for genomic data analysis using Apache Pig and Hadoop.
+documentation:
+  - note: null
+    type: General
+    url: https://sites.google.com/a/lbl.gov/biopig/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+    output: []
+homepage: https://sites.google.com/a/lbl.gov/biopig/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:43Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/biopig-hadoop-based-analytic-toolkit-for-large-scale-sequence-data.html
+maturity: null
+name: BioPig
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: The recent revolution in sequencing technologies has\
+        \ led to an exponential growth of sequence data. As a result, most of the\
+        \ current bioinformatics tools become obsolete as they fail to scale with\
+        \ data. To tackle this 'data deluge', here we introduce the BioPig sequence\
+        \ analysis toolkit as one of the solutions that scale to data and computation.\
+        \ Results: We built BioPig on the Apache's Hadoop MapReduce system and the\
+        \ Pig data flow language. Compared with traditional serial and MPI-based algorithms,\
+        \ BioPig has three major advantages: first, BioPig's programmability greatly\
+        \ reduces development time for parallel bioinformatics applications; second,\
+        \ testing BioPig with up to 500Gb sequences demonstrates that it scales automatically\
+        \ with size of data; and finally, BioPig can be ported without modification\
+        \ onmany Hadoop infrastructures, as tested with Magellan system at National\
+        \ Energy Research Scientific Computing Center and the Amazon Elastic Compute\
+        \ Cloud. In summary, BioPig represents a novel program framework with the\
+        \ potential to greatly accelerate data-intensive bioinformatics analysis.\
+        \ \xA9 The Author 2013. Published by Oxford University Press. All rights reserved."
+      authors:
+        - name: Nordberg H.
+        - name: Bhatia K.
+        - name: Wang K.
+        - name: Wang Z.
+      citationCount: 58
+      date: '2013-12-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'BioPig: A Hadoop-based analytic toolkit for large-scale sequence data'
+    pmcid: null
+    pmid: '24021384'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Data architecture, analysis and design
+    uri: http://edamontology.org/topic_3365
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+validated: 1
+version: []
