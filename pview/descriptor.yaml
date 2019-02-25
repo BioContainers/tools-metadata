@@ -1,0 +1,118 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:39Z'
+biotoolsCURIE: biotools:pview
+biotoolsID: pview
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: zkhan@princeton.edu
+    name: Z Khan
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Software tool for the analysis and visualization of high resolution LC-MS/MS
+  Data
+documentation:
+  - note: null
+    type: General
+    url: http://compbio.cs.princeton.edu/pview/
+download:
+  - note: null
+    type: Source code
+    url: http://compbio.cs.princeton.edu/pview/
+    version: null
+editPermission:
+  authors:
+    - ELIXIR-EE
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Spectral analysis
+        uri: http://edamontology.org/operation_3214
+      - term: Mass spectrum visualisation
+        uri: http://edamontology.org/operation_3694
+      - term: 3D profile generation
+        uri: http://edamontology.org/operation_0297
+    output: []
+homepage: https://github.com/zia1138/pview
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:54Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: PVIEW
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: Quantitative studies of protein abundance rarely span more than a
+        small number of experimental conditions and replicates. In contrast, quantitative
+        studies of transcript abundance often span hundreds of experimental conditions
+        and replicates. This situation exists, in part, because extracting quantitative
+        data from large proteomics datasets is significantly more difficult than reading
+        quantitative data from a gene expression microarray. To address this problem,
+        we introduce two algorithmic advances in the processing of quantitative proteomics
+        data. First, we use spacepartitioning data structures to handle the large
+        size of these datasets. Second, we introduce techniques that combine graphtheoretic
+        algorithms with space-partitioning data structures to collect relative protein
+        abundance data across hundreds of experimental conditions and replicates.
+        We validate these algorithmic techniques by analyzing several datasets and
+        computing both internal and external measures of quantification accuracy.
+        We demonstrate the scalability of these techniques by applying them to a large
+        dataset that comprises a total of 472 experimental conditions and replicates.
+      authors:
+        - name: Khan Z.
+        - name: Bloom J.S.
+        - name: Garci B.A.
+        - name: Singh M.
+        - name: Kruglyak L.
+      citationCount: 32
+      date: '2009-09-15T00:00:00Z'
+      journal: Proceedings of the National Academy of Sciences of the United States
+        of America
+      title: Protein quantification across hundreds of experimental conditions
+    pmcid: null
+    pmid: '19717460'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+validated: 1
+version: []

@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2017-10-04T13:42:21Z'
+biotoolsCURIE: biotools:snp2tfbs
+biotoolsID: snp2tfbs
+collectionID: []
+cost: null
+credit:
+  - email: giovanna.ambrosini@epfl.ch
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: The resource is based on a new 'in silico' approach for identifying regulatory
+  variants. The transcription factor (TF) binding score is computed in both the reference
+  (hg19) and alternate human genome assemblies. The alternate genome assembly is generated
+  by incorporating the alternate allele of common genetic variants (AF>=0.001) from
+  the 1000 Genomes Project. Interesting candidate variants are those SNPs that disrupt,
+  create or change the TF binding score/affinity between the two genomes.
+documentation:
+  - note: null
+    type: General
+    url: https://ccg.vital-it.ch/snp2tfbs/documents.php
+download:
+  - note: null
+    type: Biological data
+    url: ftp://ccg.vital-it.ch/snp2tfbs/
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Transcription factor binding site prediction
+        uri: http://edamontology.org/operation_0445
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output: []
+homepage: http://ccg.vital-it.ch/snp2tfbs/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:54Z'
+license: null
+link: []
+maturity: null
+name: SNP2TFBS
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: SIB
+publication:
+  - doi: 10.1093/nar/gkw1064
+    metadata:
+      abstract: "\xA9 2016 The Author(s). SNP2TFBS is a computational resource intended\
+        \ to support researchers investigating the molecular mechanisms underlying\
+        \ regulatory variation in the human genome. The database essentially consists\
+        \ of a collection of text files providing specific annotations for human single\
+        \ nucleotide polymorphisms (SNPs), namely whether they are predicted to abolish,\
+        \ create or change the affinity of one or several transcription factor (TF)\
+        \ binding sites. A SNP's effect on TF binding is estimated based on a position\
+        \ weight matrix (PWM) model for the binding specificity of the corresponding\
+        \ factor. These data files are regenerated at regular intervals by an automatic\
+        \ procedure that takes as input a reference genome, a comprehensive SNP catalogue\
+        \ and a collection of PWMs. SNP2TFBS is also accessible over a web interface,\
+        \ enabling users to view the information provided for an individual SNP, to\
+        \ extract SNPs based on various search criteria, to annotate uploaded sets\
+        \ of SNPs or to display statistics about the frequencies of binding sites\
+        \ affected by selected SNPs. Homepage: http://ccg.vital-it.ch/snp2tfbs/."
+      authors:
+        - name: Kumar S.
+        - name: Ambrosini G.
+        - name: Bucher P.
+      citationCount: 12
+      date: '2017-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: SNP2TFBS-a database of regulatory SNPs affecting predicted transcription
+        factor binding site affinity
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 1
+version: []

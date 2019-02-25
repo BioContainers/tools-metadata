@@ -1,0 +1,184 @@
+accessibility: []
+additionDate: '2016-08-11T13:31:51Z'
+biotoolsCURIE: biotools:disvis
+biotoolsID: disvis
+collectionID:
+  - BioExcel
+  - West-Life
+  - INSTRUCT
+cost: null
+credit:
+  - email: null
+    name: Utrecht University
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: EGI (www.egi.eu)
+    note: null
+    orcidid: null
+    typeEntity: Consortium
+    typeRole: []
+    url: null
+  - email: null
+    name: European FP7 e-Infrastructure grant, WeNMR, grant no. 261572
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Netherlands Organization for Scientific Research (NWO) , TOP-PUNT grant
+      no. 718.015.001
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Netherlands Organization for Scientific Research (NWO), VICI grant no. 700.96.442
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: European H2020 e-Infrastructure grant, West-Life VRE, grant no. 675858
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: European H2020 e-Infrastructure grant, INDICO-DataCloud, grant no. 653549
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: European H2020 e-Infrastructure grant, EGI-Engage, grant no. 654142
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: European H2020 e-Infrastructure grant, BioExcel, grant no. 675728
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Netherlands Organization for Scientific Research (NWO), ECHO grant no.711.011.009
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: uu.nl
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: disvis.server@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://ask.bioexcel.eu/c/disvis
+description: Visualize and quantify the information content of distance restraints
+  between macromolecular complexes. A full and systematic 6 dimensional search of
+  the three translational and rotational degrees of freedom to determine the number
+  of complexes consistent with the restraints. It outputs the percentage of restraints
+  being violated and a density that represents the center-of-mass position of the
+  scanning chain corresponding to the highest number of consistent restraints at every
+  position in space.
+documentation:
+  - note: null
+    type: Citation instructions
+    url: http://milou.science.uu.nl/cgi/services/DISVIS/disvis/
+  - note: null
+    type: General
+    url: http://milou.science.uu.nl/cgi/services/DISVIS/disvis/help
+download:
+  - note: null
+    type: Source code
+    url: https://github.com/haddocking/disvis
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: Visualisation of interaction space between two molecules
+    operation:
+      - term: Protein structure analysis
+        uri: http://edamontology.org/operation_2406
+    output: []
+homepage: http://milou.science.uu.nl/services/DISVIS
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Repository
+    url: https://github.com/haddocking/disvis
+maturity: Mature
+name: DisVis
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: m.e.trellet@uu.nl
+publication:
+  - doi: 10.1093/bioinformatics/btv333
+    metadata:
+      abstract: "\xA9 The Author 2015. Summary: We present DisVis, a Python package\
+        \ and command line tool to calculate the reduced accessible interaction space\
+        \ of distance-restrained binary protein complexes, allowing for direct visualization\
+        \ and quantification of the information content of the distance restraints.\
+        \ The approach is general and can also be used as a knowledge-based distance\
+        \ energy term in FFT-based docking directly during the sampling stage."
+      authors:
+        - name: Van Zundert G.C.P.
+        - name: Bonvin A.M.J.J.
+      citationCount: 8
+      date: '2015-10-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'DisVis: Quantifying and visualizing accessible interaction space of
+        distance-restrained biomolecular complexes'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+validated: 1
+version:
+  - '1.0'

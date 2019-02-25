@@ -1,0 +1,111 @@
+accessibility: []
+additionDate: '2017-03-24T11:45:07Z'
+biotoolsCURIE: biotools:prosa-web
+biotoolsID: prosa-web
+collectionID: []
+cost: null
+credit:
+  - email: prosa@came.sbg.ac.at
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: ProSA-web (Protein Structure Analysis) is an extension of the classic
+  ProSA program used for the refinement and validation of experimental protein structures
+  and in structure prediction and modeling.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein modelling
+        uri: http://edamontology.org/operation_0477
+      - term: Protein fold recognition
+        uri: http://edamontology.org/operation_0303
+      - term: Protein structure analysis
+        uri: http://edamontology.org/operation_2406
+      - term: Protein model validation
+        uri: http://edamontology.org/operation_0321
+      - term: Protein structure prediction
+        uri: http://edamontology.org/operation_0474
+    output: []
+homepage: https://prosa.services.came.sbg.ac.at/prosa.php
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link: []
+maturity: null
+name: ProSA-web
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "A major problem in the determination of the three\u2010dimensional\
+        \ structure of proteins concerns the quality of the structural models obtained\
+        \ from the interpretation of experimental data. New developments in X\u2010\
+        ray crystallography and nuclear magnetic resonance spectroscopy have acceleratedd\
+        \ the process of structure determination and the biological community is confronted\
+        \ with a steadily increasing number of experimentally determined protein folds.\
+        \ However, in the recent past several experimentally determined protein structures\
+        \ have been proven to contain major errors, indicating that in some cases\
+        \ the interpretation of experimental data is difficult and may yield incorrect\
+        \ models. Such problems can be avoided when computational methods are employed\
+        \ which complement experimental structure determinations. A prerequisite of\
+        \ such computational tools is that they are independent of the parameters\
+        \ obtained from a particular experiment. In addition such techniques are able\
+        \ to support and accelerate experimental structure determinations. Here we\
+        \ present techniques based on knowledge based mean fields which can be used\
+        \ to judge the quality of protein folds. The methods can be used to identify\
+        \ misfolded structures as well as faulty parts of structural models. The techniques\
+        \ are even applicable in cases where only the C\u03B1 trace of a protein conformation\
+        \ is available. The capabilities of the technique are demonstrated using correct\
+        \ and incorrect protein folds. \xA9 1993 Wiley\u2010Liss, Inc. Copyright \xA9\
+        \ 1993 Wiley\u2010Liss, Inc."
+      authors:
+        - name: Sippl M.J.
+      citationCount: 1443
+      date: '1993-01-01T00:00:00Z'
+      journal: 'Proteins: Structure, Function, and Bioinformatics'
+      title: "Recognition of errors in three\u2010dimensional structures of proteins"
+    pmcid: null
+    pmid: '8108378'
+    type: null
+    version: null
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '17517781'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+  - term: Protein folds and structural domains
+    uri: http://edamontology.org/topic_0736
+  - term: Structural biology
+    uri: http://edamontology.org/topic_1317
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+  - term: Protein folding, stability and design
+    uri: http://edamontology.org/topic_0130
+validated: 1
+version: []

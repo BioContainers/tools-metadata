@@ -1,0 +1,129 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:29Z'
+biotoolsCURIE: biotools:panalyzer
+biotoolsID: panalyzer
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: gorka.prieto@ehu.es
+    name: Gorka Prieto
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: A tool for rearranging peptide sequences from shotgun proteomics into
+  inferred proteins.
+documentation:
+  - note: null
+    type: General
+    url: https://code.google.com/archive/p/ehu-bio/wikis/PAnalyzer.wiki
+download: []
+editPermission:
+  authors:
+    - ELIXIR-EE
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence comparison
+        uri: http://edamontology.org/operation_2451
+      - term: Sequence generation (protein)
+        uri: http://edamontology.org/operation_2514
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+      - term: Protein identification
+        uri: http://edamontology.org/operation_3767
+    output: []
+homepage: http://code.google.com/p/ehu-bio/wiki/PAnalyzer
+homepage_status: 0
+language:
+  - C#
+lastUpdate: '2018-12-10T12:58:54Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: PAnalyzer
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: 10.1186/1471-2105-13-288
+    metadata:
+      abstract: "Background: Protein inference from peptide identifications in shotgun\
+        \ proteomics must deal with ambiguities that arise due to the presence of\
+        \ peptides shared between different proteins, which is common in higher eukaryotes.\
+        \ Recently data independent acquisition (DIA) approaches have emerged as an\
+        \ alternative to the traditional data dependent acquisition (DDA) in shotgun\
+        \ proteomics experiments. MSE is the term used to name one of the DIA approaches\
+        \ used in QTOF instruments. MSE data require specialized software to process\
+        \ acquired spectra and to perform peptide and protein identifications. However\
+        \ the software available at the moment does not group the identified proteins\
+        \ in a transparent way by taking into account peptide evidence categories.\
+        \ Furthermore the inspection, comparison and report of the obtained results\
+        \ require tedious manual intervention. Here we report a software tool to address\
+        \ these limitations for MSE data.Results: In this paper we present PAnalyzer,\
+        \ a software tool focused on the protein inference process of shotgun proteomics.\
+        \ Our approach considers all the identified proteins and groups them when\
+        \ necessary indicating their confidence using different evidence categories.\
+        \ PAnalyzer can read protein identification files in the XML output format\
+        \ of the ProteinLynx Global Server (PLGS) software provided by Waters Corporation\
+        \ for their MSE data, and also in the mzIdentML format recently standardized\
+        \ by HUPO-PSI. Multiple files can also be read simultaneously and are considered\
+        \ as technical replicates. Results are saved to CSV, HTML and mzIdentML (in\
+        \ the case of a single mzIdentML input file) files. An MSE analysis of a real\
+        \ sample is presented to compare the results of PAnalyzer and ProteinLynx\
+        \ Global Server.Conclusions: We present a software tool to deal with the ambiguities\
+        \ that arise in the protein inference process. Key contributions are support\
+        \ for MSE data analysis by ProteinLynx Global Server and technical replicates\
+        \ integration. PAnalyzer is an easy to use multiplatform and free software\
+        \ tool. \xA9 2012 Prieto et al.; licensee BioMed Central Ltd."
+      authors:
+        - name: Prieto G.
+        - name: Aloria K.
+        - name: Osinalde N.
+        - name: Fullaondo A.
+        - name: Arizmendi J.M.
+        - name: Matthiesen R.
+      citationCount: 14
+      date: '2012-11-05T00:00:00Z'
+      journal: BMC Bioinformatics
+      title: 'PAnalyzer: A software tool for protein inference in shotgun proteomics'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Data acquisition
+    uri: http://edamontology.org/topic_3077
+validated: 1
+version: []

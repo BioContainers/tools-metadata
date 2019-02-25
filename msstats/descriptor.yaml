@@ -1,0 +1,103 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:36Z'
+biotoolsCURIE: biotools:msstats
+biotoolsID: msstats
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: ovitek@purdue.edu
+    name: Ovitek
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Statistical tool for quantitative mass spectrometry-based proteomics.
+documentation:
+  - note: null
+    type: General
+    url: http://msstats.org/msstats-2/
+download:
+  - note: null
+    type: Source code
+    url: https://github.com/MeenaChoi/MSstats
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein quantification
+        uri: http://edamontology.org/operation_3630
+    output: []
+homepage: http://www.msstats.org/
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: MSstats
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "MSstats is an R package for statistical relative quantification of\
+        \ proteins and peptides in mass spectrometry-based proteomics. Version 2.0\
+        \ of MSstats supports label-free and labelbased experimental workflows and\
+        \ data-dependent, targeted and data-independent spectral acquisition. It takes\
+        \ as input identified and quantified spectral peaks, and outputs a list of\
+        \ differentially abundant peptides or proteins, or summaries of peptide or\
+        \ protein relative abundance. MSstats relies on a flexible family of linear\
+        \ mixed models. \xA9 The Author 2014. Published by Oxford University Press.\
+        \ All rights reserved."
+      authors:
+        - name: Choi M.
+        - name: Chang C.-Y.
+        - name: Clough T.
+        - name: Broudy D.
+        - name: Killeen T.
+        - name: MacLean B.
+        - name: Vitek O.
+      citationCount: 163
+      date: '2014-09-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'MSstats: An R package for statistical analysis of quantitative mass
+        spectrometry-based proteomic experiments'
+    pmcid: null
+    pmid: '24794931'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

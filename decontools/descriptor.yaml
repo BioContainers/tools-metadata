@@ -1,0 +1,106 @@
+accessibility: []
+additionDate: '2017-01-17T14:50:58Z'
+biotoolsCURIE: biotools:decontools
+biotoolsID: decontools
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Advanced peak picking of MS and LC-MS(/MS) data using THRASH and other
+  algorithms.
+documentation:
+  - note: null
+    type: General
+    url: https://omics.pnl.gov/software/decontools-decon2ls
+  - note: null
+    type: Manual
+    url: https://omics.pnl.gov/sites/default/files/software/DeconTools_Tutorial.pdf
+download:
+  - note: null
+    type: Source code
+    url: http://ncrr.pnl.gov/software/sourcecode_register.asp?id=18
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Deisotoping
+        uri: http://edamontology.org/operation_3629
+    output: []
+homepage: http://omics.pnl.gov/software/DeconTools.php
+homepage_status: 0
+language:
+  - C#
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: DeconTools
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Here a fully automated computer algorithm is applied to complex mass\
+        \ spectra of peptides and proteins. This method uses a subtractive peak finding\
+        \ routine to locate possible isotopic clusters in the spectrum, subjecting\
+        \ these to a combination of the previous Fourier transform/Patterson method\
+        \ for primary charge determination and the method for least-squares fitting\
+        \ to a theoretically derived isotopic abundance distribution for m/z determination\
+        \ of the most abundant isotopic peak, and the statistical reliability of this\
+        \ determination. If a predicted protein sequence is available, each such m/z\
+        \ value is checked for assignment as a sequence fragment. A new signal-to-noise\
+        \ calculation procedure has been devised for accurate determination of baseline\
+        \ and noise width for spectra with high peak density. In 2 h, the program\
+        \ identified 824 isotopic clusters representing 581 mass values in the spectrum\
+        \ of a GluC digest of a 191 kDa protein; this is >50% more than the number\
+        \ of mass values found by the extremely tedious operator-applied methodology\
+        \ used previously. The program should be generally applicable to classes of\
+        \ large molecules, including DNA and polymers. Thorough high resolution analysis\
+        \ of spectra by Horn (THRASH) is proposed as the program's verb. Copyright\
+        \ \xA9 2000 American Society for Mass Spectrometry."
+      authors:
+        - name: Horn D.M.
+        - name: Zubarev R.A.
+        - name: McLafferty F.W.
+      citationCount: 409
+      date: '2000-12-01T00:00:00Z'
+      journal: Journal of the American Society for Mass Spectrometry
+      title: Automated reduction and interpretation of high resolution electrospray
+        mass spectra of large molecules
+    pmcid: null
+    pmid: '10757168'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+  - Desktop application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

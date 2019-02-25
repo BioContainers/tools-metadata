@@ -1,0 +1,99 @@
+accessibility: []
+additionDate: '2017-03-25T13:09:40Z'
+biotoolsCURIE: biotools:zincpharmer
+biotoolsID: zincpharmer
+collectionID: []
+cost: null
+credit:
+  - email: dkoes+zincpharmer@pitt.edu
+    name: ZINCPharmer Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: ZINCPharmer is webserver for screening the purchasable subset of the
+  ZINC database (updates occur monthly). ZINCPharmer can import LigandScout and MOE
+  pharmacophore definitions, as well as identify pharmacophore features directly from
+  a molecular structure.
+documentation:
+  - note: null
+    type: General
+    url: http://zincpharmer.csb.pitt.edu/phorum/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+      - term: Protein structural motif recognition
+        uri: http://edamontology.org/operation_0245
+      - term: Structural similarity search
+        uri: http://edamontology.org/operation_0360
+      - term: Protein-ligand docking
+        uri: http://edamontology.org/operation_0482
+    output: []
+homepage: http://zincpharmer.csb.pitt.edu
+homepage_status: 0
+language:
+  - Javascript
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link: []
+maturity: null
+name: ZINCPharmer
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "ZINCPharmer (http://zincpharmer.csb.pitt.edu) is an online interface\
+        \ for searching the purchasable compounds of the ZINC database using the Pharmer\
+        \ pharmacophore search technology. A pharmacophore describes the spatial arrangement\
+        \ of the essential features of an interaction. Compounds that match a well-defined\
+        \ pharmacophore serve as potential lead compounds for drug discovery. ZINCPharmer\
+        \ provides tools for constructing and refining pharmacophore hypotheses directly\
+        \ from molecular structure. A search of 176 million conformers of 18.3 million\
+        \ compounds typically takes less than a minute. The results can be immediately\
+        \ viewed, or the aligned structures may be downloaded for off-line analysis.\
+        \ ZINCPharmer enables the rapid and interactive search of purchasable chemical\
+        \ space. \xA9 2012 The Author(s)."
+      authors:
+        - name: Koes D.R.
+        - name: Camacho C.J.
+      citationCount: 98
+      date: '2012-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'ZINCPharmer: Pharmacophore search of the ZINC database'
+    pmcid: null
+    pmid: '22553363'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Drug discovery
+    uri: http://edamontology.org/topic_3336
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+validated: 1
+version: []

@@ -1,0 +1,80 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:50Z'
+biotoolsCURIE: biotools:ms-digest
+biotoolsID: ms-digest
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Digests a protein sequence.
+documentation:
+  - note: null
+    type: General
+    url: http://prospector.ucsf.edu/prospector/cgi-bin/msform.cgi?form=msdigest
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: Raw sequence format
+            uri: http://edamontology.org/format_2571
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+    note: null
+    operation:
+      - term: Protein sequence cleavage
+        uri: http://edamontology.org/operation_0366
+    output:
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+homepage: http://prospector.ucsf.edu/prospector/cgi-bin/msform.cgi?form=msdigest
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:54Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: MS-Digest
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication: []
+toolType:
+  - Command-line tool
+  - Web application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

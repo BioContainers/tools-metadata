@@ -1,0 +1,103 @@
+accessibility: []
+additionDate: '2017-01-17T14:50:35Z'
+biotoolsCURIE: biotools:comspari
+biotoolsID: comspari
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Compares two datasets in netCDF or ASCII format.
+documentation:
+  - note: null
+    type: General
+    url: http://www.biomechanic.org/comspari/COMSPARI/README
+download:
+  - note: null
+    type: Source code
+    url: http://www.biomechanic.org/comspari/#download
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Loading
+        uri: http://edamontology.org/operation_1812
+    output: []
+homepage: http://www.biomechanic.org/comspari
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: COMSPARI
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: 10.1016/j.jasms.2003.12.011
+    metadata:
+      abstract: "In the rapidly growing field of metabolomics, it is common to analyze\
+        \ complex biological samples by chromatography coupled to mass spectrometry.\
+        \ While several techniques are available for the detection of significant\
+        \ peaks in individual samples, it is still difficult to determine small differences\
+        \ between similar samples. Using conventional software, visual inspections\
+        \ of individual chromatograms or individual mass spectra are often of little\
+        \ use because the differences in the composition of small molecules are too\
+        \ small to be recognizable. Thus, we developed a new approach to visualizing\
+        \ mass spectral datasets using a tool that allows one to easily detect these\
+        \ small differences between mass spectra and chromatograms derived from matched\
+        \ samples. Using these tools on extracts from wild-type and methyltransferase\
+        \ knockout strains of the yeast Saccharomyces cerevisiae, we were able to\
+        \ readily identify those mass spectra in our data sets that were different\
+        \ between the wild-type and the knockout extracts and to identify the molecules\
+        \ involved. The software was also successfully applied to a set of LC/MS data\
+        \ from peptide digests that were performed with identical substrates but different\
+        \ enzymes. We have named this visualization tool COMSPARI (COMparision of\
+        \ SPectrAl Retention Information) and are making the software publicly available\
+        \ via Internet at http://www. biomechanic.org/comspari/. \xA9 2004 American\
+        \ Society for Mass Spectrometry."
+      authors:
+        - name: Katz J.E.
+        - name: Dumlao D.S.
+        - name: Clarke S.
+        - name: Hau J.
+      citationCount: 24
+      date: '2004-04-01T00:00:00Z'
+      journal: Journal of the American Society for Mass Spectrometry
+      title: 'A new technique (COMSPARI) to facilitate the identification of minor
+        compounds in complex mixtures by GC/MS and LC/MS: Tools for the visualization
+        of matched datasets'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

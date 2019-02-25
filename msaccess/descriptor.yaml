@@ -1,0 +1,104 @@
+accessibility: []
+additionDate: '2017-01-17T14:50:37Z'
+biotoolsCURIE: biotools:msaccess
+biotoolsID: msaccess
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: support@proteowizard.org
+    name: Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Creates a pseudo-2D-gel representation.
+documentation:
+  - note: null
+    type: General
+    url: http://proteowizard.sourceforge.net/tools/msaccess.html
+download:
+  - note: null
+    type: Source code
+    url: http://proteowizard.sourceforge.net/downloads.shtml
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Mass spectrum visualisation
+        uri: http://edamontology.org/operation_3694
+      - term: Chromatogram visualisation
+        uri: http://edamontology.org/operation_3203
+    output: []
+homepage: http://proteowizard.sourceforge.net/tools/msaccess.html
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: msaccess
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "The ProteoWizard software project provides a modular and extensible\
+        \ set of open-source, cross-platform tools and libraries. The tools perform\
+        \ proteomics data analyses; the libraries enable rapid tool creation by providing\
+        \ a robust, pluggable development framework that simplifies and unifies data\
+        \ file access, and performs standard proteomics and LCMS dataset computations.\
+        \ The library contains readers and writers of the mzML data format, which\
+        \ has been written using modern C++ techniques and design principles and supports\
+        \ a variety of platforms with native compilers. The software has been specifically\
+        \ released under the Apache v2 license to ensure it can be used in both academic\
+        \ and commercial projects. In addition to the library, we also introduce a\
+        \ rapidly growing set of companion tools whose implementation helps to illustrate\
+        \ the simplicity of developing applications on top of the ProteoWizard library.\
+        \ \xA9 2008 The Author(s)."
+      authors:
+        - name: Kessner D.
+        - name: Chambers M.
+        - name: Burke R.
+        - name: Agus D.
+        - name: Mallick P.
+      citationCount: 645
+      date: '2008-11-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'ProteoWizard: Open source software for rapid proteomics tools development'
+    pmcid: null
+    pmid: '18606607'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

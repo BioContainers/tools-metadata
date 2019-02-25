@@ -1,0 +1,99 @@
+accessibility: []
+additionDate: '2017-01-17T14:50:36Z'
+biotoolsCURIE: biotools:mapquant
+biotoolsID: mapquant
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Image analysis" of LC-MS features, deconvolution etc.
+documentation:
+  - note: null
+    type: General
+    url: http://genepath.med.harvard.edu/mw/MapQuant_Release_Notes
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Mass spectrum visualisation
+        uri: http://edamontology.org/operation_3694
+      - term: Chromatogram visualisation
+        uri: http://edamontology.org/operation_3203
+    output: []
+homepage: http://arep.med.harvard.edu/MapQuant/index.html
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: MapQuant
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Whole-cell protein quantification using MS has proven to be a challenging\
+        \ task. Detection efficiency varies significantly from peptide to peptide,\
+        \ molecular identities are not evident a priori, and peptides are dispersed\
+        \ unevenly throughout the multidimensional data space. To overcome these challenges\
+        \ we developed an open-source software package, MapQuant, to quantify comprehensively\
+        \ organic species detected in large MS datasets. MapQuant treats an LC/MS\
+        \ experiment as an image and utilizes standard image processing techniques\
+        \ to perform noise filtering, watershed segmentation, peak finding, peak fitting,\
+        \ peak clustering, charge-state determination and carbon-content estimation.\
+        \ MapQuant reports abundance values that respond linearly with the amount\
+        \ of sample analyzed on both low- and high-resolution instruments (over a\
+        \ 1000-fold dynamic range). Background noise added to a sample, either as\
+        \ a medium-complexity peptide mixture or as a high-complexity trypsinized\
+        \ proteome, exerts negligible effects on the abundance values reported by\
+        \ MapQuant and with coefficients of variance comparable to other methods.\
+        \ Finally, MapQuant's ability to define accurate mass and retention time features\
+        \ of isotopic clusters on a high-resolution mass spectrometer can increase\
+        \ protein sequence coverage by assigning sequence identities to observed isotopic\
+        \ clusters without corresponding MS/MS data. \xA9 2006 Wiley-VCH Verlag GmbH\
+        \ & Co. KGaA."
+      authors:
+        - name: Leptos K.C.
+        - name: Sarracino D.A.
+        - name: Jaffe J.D.
+        - name: Krastins B.
+        - name: Church G.M.
+      citationCount: 84
+      date: '2006-03-01T00:00:00Z'
+      journal: Proteomics
+      title: 'MapQuant: Open-source software for large-scale protein quantification'
+    pmcid: null
+    pmid: '16470651'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

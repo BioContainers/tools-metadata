@@ -1,0 +1,105 @@
+accessibility: []
+additionDate: '2017-01-17T14:50:36Z'
+biotoolsCURIE: biotools:mmass
+biotoolsID: mmass
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: User-friendly and free software to view MS data in a range of formats.
+documentation:
+  - note: null
+    type: General
+    url: http://www.mmass.org/features/
+download:
+  - note: null
+    type: Source code
+    url: http://www.mmass.org/download/
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Mass spectrum visualisation
+        uri: http://edamontology.org/operation_3694
+    output: []
+homepage: http://www.mmass.org/
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: mMass
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "While tools for the automated analysis of MS and LC-MS/MS data are\
+        \ continuously improving, it is still often the case that at the end of an\
+        \ experiment, the mass spectrometrist will spend time carefully examining\
+        \ individual spectra. Current software support is mostly provided only by\
+        \ the instrument vendors, and the available software tools are often instrument-dependent.\
+        \ Here we present a new generation of mMass, a cross-platform environment\
+        \ for the precise analysis of individual mass spectra. The software covers\
+        \ a wide range of processing tasks such as import from various data formats,\
+        \ smoothing, baseline correction, peak picking, deisotoping, charge determination,\
+        \ and recalibration. Functions presented in the earlier versions such as in\
+        \ silico digestion and fragmentation were redesigned and improved. In addition\
+        \ to Mascot, an interface for ProFound has been implemented. A specific tool\
+        \ is available for isotopic pattern modeling to enable precise data validation.\
+        \ The largest available lipid database (from the LIPID MAPS Consortium) has\
+        \ been incorporated and together with the new compound search tool lipids\
+        \ can be rapidly identified. In addition, the user can define custom libraries\
+        \ of compounds and use them analogously. The new version of mMass is based\
+        \ on a stand-alone Python library, which provides the basic functionality\
+        \ for data processing and interpretation. This library can serve as a good\
+        \ starting point for other developers in their projects. Binary distributions\
+        \ of mMass, its source code, a detailed users guide, and video tutorials are\
+        \ freely available from www.mmass.org. \xA9 2010 American Chemical Society."
+      authors:
+        - name: Strohalm M.
+        - name: Kavan D.
+        - name: Novak P.
+        - name: Volny M.
+        - name: Havlicek V.
+      citationCount: 325
+      date: '2010-06-01T00:00:00Z'
+      journal: Analytical Chemistry
+      title: 'MMass 3: A cross-platform software environment for precise analysis
+        of mass spectrometric data'
+    pmcid: null
+    pmid: '20465224'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

@@ -1,0 +1,73 @@
+accessibility: []
+additionDate: '2017-01-17T14:50:50Z'
+biotoolsCURIE: biotools:msd_file_reader
+biotoolsID: msd_file_reader
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Read, display and save data from the original HP MSD based on the HP
+  Pascal Chemstation.
+documentation:
+  - note: null
+    type: General
+    url: http://www.quadtechassociates.com/freeware.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Spectral analysis
+        uri: http://edamontology.org/operation_3214
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output:
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
+homepage: http://www.quadtechassociates.com/freeware.html
+homepage_status: 0
+language:
+  - Pascal
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: MSD File Reader
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication: []
+toolType:
+  - Desktop application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

@@ -1,0 +1,87 @@
+accessibility: []
+additionDate: '2017-01-13T13:15:30Z'
+biotoolsCURIE: biotools:mom
+biotoolsID: mom
+collectionID: []
+cost: null
+credit:
+  - email: hleaves@vcu.edu
+    name: H. L. Eaves
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Short-read mapping
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/hugheaves/MOM/blob/master/README.txt
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Read mapping
+        uri: http://edamontology.org/operation_3198
+    output: []
+homepage: https://github.com/hugheaves/MOM
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link: []
+maturity: Legacy
+name: MOM
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Summary: Current short read mapping programs are based on the reasonable\
+        \ premise that most sequencing errors occur near the 3\u2032 end of the read.\
+        \ These programs map reads with either a small number of mismatches in the\
+        \ entire read, or a small number of mismatches in the segment remaining after\
+        \ trimming bases from the 3\u2032 end or a single base from the 5\u2032 end.\
+        \ Though multiple sequencing errors most likely occur near the 3\u2032 end\
+        \ of the reads, they can still occur at the 5\u2032 end of the reads. Trimming\
+        \ from the 3\u2032 end will not be able to map these reads. We have developed\
+        \ a program, Maximum Oligonucleotide Mapping (MOM), based on the concept of\
+        \ query matching that is designed to capture a maximal length match within\
+        \ the short read satisfying the user defined error parameters. This query\
+        \ matching approach thus accommodates multiple sequencing errors at both ends.\
+        \ We demonstrate that this technique achieves greater sensitivity and a higher\
+        \ percentage of uniquely mapped reads when compared to existing programs such\
+        \ as SOAP, MAQ and SHRiMP. \xA9 The Author 2009. Published by Oxford University\
+        \ Press. All rights reserved."
+      authors:
+        - name: Eaves H.L.
+        - name: Gao Y.
+      citationCount: 29
+      date: '2009-04-07T00:00:00Z'
+      journal: Bioinformatics
+      title: 'MOM: Maximum oligonucleotide mapping'
+    pmcid: null
+    pmid: '19228804'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 1
+version: []

@@ -1,0 +1,103 @@
+accessibility: []
+additionDate: '2017-08-31T10:57:55Z'
+biotoolsCURIE: biotools:normalyzer
+biotoolsID: normalyzer
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://quantitativeproteomics.org/normalyzer
+description: A tool for overviewing the effects of different normalisation methods
+  on omics data.
+documentation:
+  - note: null
+    type: General
+    url: http://quantitativeproteomics.org/normalyzer
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Gene expression matrix
+          uri: http://edamontology.org/data_3112
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+    note: null
+    operation:
+      - term: Standardisation and normalisation
+        uri: http://edamontology.org/operation_3435
+    output:
+      - data:
+          term: Matrix
+          uri: http://edamontology.org/data_2082
+        format: []
+      - data:
+          term: Report
+          uri: http://edamontology.org/data_2048
+        format:
+          - term: PDF
+            uri: http://edamontology.org/format_3508
+homepage: http://quantitativeproteomics.org/normalyzer
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link: []
+maturity: null
+name: Normalyzer
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: admin
+publication:
+  - doi: null
+    metadata:
+      abstract: "High-throughput omics data often contain systematic biases introduced\
+        \ during various steps of sample processing and data generation. As the source\
+        \ of these biases is usually unknown, it is difficult to select an optimal\
+        \ normalization method for a given data set. To facilitate this process, we\
+        \ introduce the open-source tool \"Normalyzer\". It normalizes the data with\
+        \ 12 different normalization methods and generates a report with several quantitative\
+        \ and qualitative plots for comparative evaluation of different methods. The\
+        \ usefulness of Normalyzer is demonstrated with three different case studies\
+        \ from quantitative proteomics and transcriptomics. The results from these\
+        \ case studies show that the choice of normalization method strongly influences\
+        \ the outcome of downstream quantitative comparisons. Normalyzer is an R package\
+        \ and can be used locally or through the online implementation at http://quantitativeproteomics.org/normalyzer.\
+        \ \xA9 2014 American Chemical Society."
+      authors:
+        - name: Chawade A.
+        - name: Alexandersson E.
+        - name: Levander F.
+      citationCount: 37
+      date: '2014-06-06T00:00:00Z'
+      journal: Journal of Proteome Research
+      title: 'Normalyzer: A tool for rapid evaluation of normalization methods for
+        omics data sets'
+    pmcid: null
+    pmid: '24766612'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+  - Web application
+topic:
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
+validated: 1
+version: []

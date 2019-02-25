@@ -1,0 +1,62 @@
+accessibility: []
+additionDate: '2017-12-18T00:15:44Z'
+biotoolsCURIE: biotools:tlcluster
+biotoolsID: tlcluster
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://genome.uiowa.edu/home/contact
+description: Used to perform clustering on fasta formatted sequences.
+documentation:
+  - note: null
+    type: Manual
+    url: https://genome.uiowa.edu/home.old/pubsoft/README.tlcluster.txt
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+    output: []
+homepage: https://genome.uiowa.edu/home.old/pubsoft/software.html
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/tlcluster-clustering-on-fasta-formatted-sequences.html
+maturity: null
+name: tlcluster
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
+validated: 1
+version:
+  - '1.0'

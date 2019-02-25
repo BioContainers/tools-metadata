@@ -1,0 +1,78 @@
+accessibility: []
+additionDate: '2017-05-16T12:28:13Z'
+biotoolsCURIE: biotools:evidence_finder
+biotoolsID: evidence_finder
+collectionID: []
+cost: null
+credit:
+  - email: nactem@manchester.ac.uk
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Search tool under development in the UKPMC project. It locates sentences
+  that present evidence in the text of research papers. Sentences from 1.5M papers
+  in the UPMC corpus are indexed based on linguistic analysis and NER. Initial search
+  results take the form of questions representing the most frequent types of relevant
+  evidence in the index. On selecting a question, the user may review details of the
+  documents containing the evidence, including the indexed sentences.
+documentation: []
+download: []
+editPermission:
+  authors:
+    - mcentyre
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Deposition
+        uri: http://edamontology.org/operation_3431
+      - term: Enrichment analysis
+        uri: http://edamontology.org/operation_3501
+      - term: Literature search
+        uri: http://edamontology.org/operation_0305
+      - term: Text mining
+        uri: http://edamontology.org/operation_0306
+    output: []
+homepage: http://www.nactem.ac.uk/UKPMCWS/EvidenceFinder.html
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link: []
+maturity: null
+name: Evidence Finder
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mcentyre
+publication:
+  - doi: null
+    metadata: null
+    pmcid: PMC4383902
+    pmid: null
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Literature and language
+    uri: http://edamontology.org/topic_3068
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
+  - term: Natural language processing
+    uri: http://edamontology.org/topic_0218
+  - term: Data mining
+    uri: http://edamontology.org/topic_3473
+validated: 1
+version: []

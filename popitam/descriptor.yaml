@@ -1,0 +1,106 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:13Z'
+biotoolsCURIE: biotools:popitam
+biotoolsID: popitam
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: patricia.hernandez@isb-sib.ch
+    name: Patricia Hernandez
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Searches for unknown post-translational modifications.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/chernan/popitam
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: de Novo sequencing
+        uri: http://edamontology.org/operation_3644
+    output: []
+homepage: https://github.com/chernan/popitam
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: Popitam
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: In recent years, proteomics research has gained importance due to
+        increasingly powerful techniques in protein purification, mass spectrometry
+        and identification, and due to the development of extensive protein and DNA
+        databases from various organisms. Nevertheless, current identification methods
+        from spectrometric data have difficulties in handling modifications or mutations
+        in the source peptide. Moreover, they have low performance when run on large
+        databases (such as genomic databases), or with low quality data, for example
+        due to bad calibration or low fragmentation of the source peptide. We present
+        a new algorithm dedicated to automated protein identification from tandem
+        mass spectrometry (MS/MS) data by searching a peptide sequence database. Our
+        identification approach shows promising properties for solving the specific
+        difficulties enumerated above. It consists of matching theoretical peptide
+        sequences issued from a database with a structured representation of the source
+        MS/MS spectrum. The representation is similar to the spectrum graphs commonly
+        used by de novo sequencing software. The identification process involves the
+        parsing of the graph in order to emphazise relevant sections for each theoretical
+        sequence, and leads to a list of peptides ranked by a correlation score. The
+        parsing of the graph, which can be a highly combinatorial task, is performed
+        by a bio-inspired algorithm called Ant Colony Optimization algorithm.
+      authors:
+        - name: Hernandez P.
+        - name: Gras R.
+        - name: Frey J.
+        - name: Appel R.D.
+      citationCount: 81
+      date: '2003-06-01T00:00:00Z'
+      journal: Proteomics
+      title: 'Popitam: Towards new heuristic strategies to improve protein identification
+        from tandem mass spectrometry data'
+    pmcid: null
+    pmid: '12833510'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

@@ -1,0 +1,107 @@
+accessibility: []
+additionDate: '2015-12-06T15:18:12Z'
+biotoolsCURIE: biotools:deltag_prediction
+biotoolsID: deltag_prediction
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: bils.se
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: gunnar@dbb.su.se
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Prediction of apparent free energy difference for a potential transmembrane
+  helix.
+documentation:
+  - note: null
+    type: General
+    url: http://dgpred.cbr.su.se/index.php?p=instructions
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Protein sequence
+          uri: http://edamontology.org/data_2976
+        format: []
+    note: null
+    operation:
+      - term: Prediction and recognition
+        uri: http://edamontology.org/operation_2423
+    output:
+      - data:
+          term: Protein features
+          uri: http://edamontology.org/data_1277
+        format: []
+homepage: http://dgpred.cbr.su.se/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link: []
+maturity: null
+name: DeltaG prediction
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mikael.borg@bils.se
+publication:
+  - doi: 10.1038/nature06387
+    metadata:
+      abstract: "Transmembrane \u03B1-helices in integral membrane proteins are recognized\
+        \ co-translationally and inserted into the membrane of the endoplasmic reticulum\
+        \ by the Sec61 translocon. A full quantitative description of this phenomenon,\
+        \ linking amino acid sequence to membrane insertion efficiency, is still lacking.\
+        \ Here, using in vitro translation of a model protein in the presence of dog\
+        \ pancreas rough microsomes to analyse a large number of systematically designed\
+        \ hydrophobic segments, we present a quantitative analysis of the position-dependent\
+        \ contribution of all 20 amino acids to membrane insertion efficiency, as\
+        \ well as of the effects of transmembrane segment length and flanking amino\
+        \ acids. The emerging picture of translocon-mediated transmembrane helix assembly\
+        \ is simple, with the critical sequence characteristics mirroring the physical\
+        \ properties of the lipid bilayer. \xA92007 Nature Publishing Group."
+      authors:
+        - name: Hessa T.
+        - name: Meindl-Beinker N.M.
+        - name: Bernsel A.
+        - name: Kim H.
+        - name: Sato Y.
+        - name: Lerch-Bader M.
+        - name: Nilsson I.
+        - name: White S.H.
+        - name: Von Heijne G.
+      citationCount: 411
+      date: '2007-12-13T00:00:00Z'
+      journal: Nature
+      title: Molecular code for transmembrane-helix recognition by the Sec61 translocon
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Protein folds and structural domains
+    uri: http://edamontology.org/topic_0736
+validated: 1
+version:
+  - '1'

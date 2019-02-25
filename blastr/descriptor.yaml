@@ -1,0 +1,99 @@
+accessibility: []
+additionDate: '2017-12-18T00:04:25Z'
+biotoolsCURIE: biotools:blastr
+biotoolsID: blastr
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.tcoffee.org/Projects/blastr/#CONTACT
+description: A new method for searching Non-Coding RNAs in databases. The strategy
+  we adopted relies on the use of the mutual information embedded in di-nucleotides.
+  We have shown that this approach has better sensitivity and specifity than other
+  softwares with comparable computational cost.
+documentation:
+  - note: null
+    type: General
+    url: http://www.tcoffee.org/Projects/blastr/#COMMANDS
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence database search
+        uri: http://edamontology.org/operation_0338
+    output: []
+homepage: http://www.tcoffee.org/Projects/blastr/
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:54Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/blastr-2-1-searching-clustering-rna.html
+maturity: null
+name: BlastR
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: 10.1093/nar/gkr335
+    metadata:
+      abstract: "We present and validate BlastR, a method for efficiently and accurately\
+        \ searching non-coding RNAs. Our approach relies on the comparison of di-nucleotides\
+        \ using BlosumR, a new log-odd substitution matrix. In order to use BlosumR\
+        \ for comparison, we recoded RNA sequences into protein-like sequences. We\
+        \ then showed that BlosumR can be used along with the BlastP algorithm in\
+        \ order to search non-coding RNA sequences. Using Rfam as a gold standard,\
+        \ we benchmarked this approach and show BlastR to be more sensitive than BlastN.\
+        \ We also show that BlastR is both faster and more sensitive than BlastP used\
+        \ with a single nucleotide log-odd substitution matrix. BlastR, when used\
+        \ in combination with WU-BlastP, is about 5 more accurate than WU-BlastN and\
+        \ about 50 times slower. The approach shown here is equally effective when\
+        \ combined with the NCBI-Blast package. The software is an open source freeware\
+        \ available from www.tcoffee.org/blastr.html. \xA9 2011 The Author(s)."
+      authors:
+        - name: Bussotti G.
+        - name: Raineri E.
+        - name: Erb I.
+        - name: Zytnicki M.
+        - name: Wilm A.
+        - name: Beaudoing E.
+        - name: Bucher P.
+        - name: Notredame C.
+      citationCount: 21
+      date: '2011-09-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: BlastR-fast and accurate database searches for non-coding RNAs
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Data identity and mapping
+    uri: http://edamontology.org/topic_3345
+  - term: Functional, regulatory and non-coding RNA
+    uri: http://edamontology.org/topic_0659
+validated: 1
+version:
+  - '2.2'

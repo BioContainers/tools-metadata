@@ -1,0 +1,93 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:22Z'
+biotoolsCURIE: biotools:ms-gf
+biotoolsID: ms-gf
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: A tool which performs peptide identification by scoring MS/MS spectra
+  against peptides derived from a protein sequence database.
+documentation:
+  - note: null
+    type: General
+    url: https://omics.pnl.gov/software/ms-gf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Blind peptide database search
+        uri: http://edamontology.org/operation_3647
+    output: []
+homepage: http://omics.pnl.gov/software/ms-gf
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: MS-GF+
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2014 Macmillan Publishers Limited. All rights reserved.Mass\
+        \ spectrometry (MS) instruments and experimental protocols are rapidly advancing,\
+        \ but the software tools to analyse tandem mass spectra are lagging behind.\
+        \ We present a database search tool MS-GF+ that is sensitive (it identifies\
+        \ more peptides than most other database search tools) and universal (it works\
+        \ well for diverse types of spectra, different configurations of MS instruments\
+        \ and different experimental protocols). We benchmark MS-GF+ using diverse\
+        \ spectral data sets: (i) spectra of varying fragmentation methods; (ii) spectra\
+        \ of multiple enzyme digests; (iii) spectra of phosphorylated peptides; and\
+        \ (iv) spectra of peptides with unusual fragmentation propensities produced\
+        \ by a novel alpha-lytic protease. For all these data sets, MS-GF+ significantly\
+        \ increases the number of identified peptides compared with commonly used\
+        \ methods for peptide identifications. We emphasize that although MS-GF+ is\
+        \ not specifically designed for any particular experimental set-up, it improves\
+        \ on the performance of tools specifically designed for these applications\
+        \ (for example, specialized tools for phosphoproteomics)."
+      authors:
+        - name: Kim S.
+        - name: Pevzner P.A.
+      citationCount: 235
+      date: '2014-10-31T00:00:00Z'
+      journal: Nature Communications
+      title: MS-GF+ makes progress towards a universal database search tool for proteomics
+    pmcid: null
+    pmid: '25358478'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

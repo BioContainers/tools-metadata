@@ -1,0 +1,105 @@
+accessibility: []
+additionDate: '2017-01-17T14:50:51Z'
+biotoolsCURIE: biotools:multiplierz
+biotoolsID: multiplierz
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Scriptable framework for access to manufacturers' formats via mzAPI.
+documentation:
+  - note: null
+    type: General
+    url: https://sourceforge.net/p/multiplierz/wiki/Home/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output: []
+homepage: http://sourceforge.net/projects/multiplierz/
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: multiplierz
+operatingSystem:
+  - Windows
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Background: Efficient analysis of results from mass spectrometry-based\
+        \ proteomics experiments requires access to disparate data types, including\
+        \ native mass spectrometry files, output from algorithms that assign peptide\
+        \ sequence to MS/MS spectra, and annotation for proteins and pathways from\
+        \ various database sources. Moreover, proteomics technologies and experimental\
+        \ methods are not yet standardized; hence a high degree of flexibility is\
+        \ necessary for efficient support of high- and low-throughput data analytic\
+        \ tasks. Development of a desktop environment that is sufficiently robust\
+        \ for deployment in data analytic pipelines, and simultaneously supports customization\
+        \ for programmers and non-programmers alike, has proven to be a significant\
+        \ challenge. Results: We describe multiplierz, a flexible and open-source\
+        \ desktop environment for comprehensive proteomics data analysis. We use this\
+        \ framework to expose a prototype version of our recently proposed common\
+        \ API (mzAPI) designed for direct access to proprietary mass spectrometry\
+        \ files. In addition to routine data analytic tasks, multiplierz supports\
+        \ generation of information rich, portable spreadsheet-based reports. Moreover,\
+        \ multiplierz is designed around a \"zero infrastructure\" philosophy, meaning\
+        \ that it can be deployed by end users with little or no system administration\
+        \ support. Finally, access to multiplierz functionality is provided via high-level\
+        \ Python scripts, resulting in a fully extensible data analytic environment\
+        \ for rapid development of custom algorithms and deployment of high-throughput\
+        \ data pipelines. Conclusion: Collectively, mzAPI and multiplierz facilitate\
+        \ a wide range of data analysis tasks, spanning technology development to\
+        \ biological annotation, for mass spectrometry-based proteomics research.\
+        \ \xA9 2009 Parikh et al; licensee BioMed Central Ltd."
+      authors:
+        - name: Parikh J.R.
+        - name: Askenazi M.
+        - name: Ficarro S.B.
+        - name: Cashorali T.
+        - name: Webber J.T.
+        - name: Blank N.C.
+        - name: Zhang Y.
+        - name: Marto J.A.
+      citationCount: 45
+      date: '2009-10-29T00:00:00Z'
+      journal: BMC Bioinformatics
+      title: 'Multiplierz: An extensible API based desktop environment for proteomics
+        data analysis'
+    pmcid: null
+    pmid: '19874609'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

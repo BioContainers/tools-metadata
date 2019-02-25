@@ -1,0 +1,106 @@
+accessibility: []
+additionDate: '2017-01-13T13:16:34Z'
+biotoolsCURIE: biotools:soapfusion
+biotoolsID: soapfusion
+collectionID: []
+cost: null
+credit:
+  - email: soap@genomics.org.cn
+    name: SOAP Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: "Tool for fusion discovery with paired-end RNA-Seq reads. The tool follows\
+  \ a different strategy by \u201Cfinding fusions directly and verifying them\u201D\
+  , differentiating it from all other existing tools by \u201Cfinding the candidate\
+  \ regions and searching for the fusions afterwards\u201D. This enables the fusion\
+  \ discovery process to be more effective and sensitive, also with a specular performance\
+  \ under low coverage of sequencing far more better than other tools.\nhttp://soap.genomics.org.cn/SOAPfusion.html"
+documentation:
+  - note: null
+    type: General
+    url: http://soap.genomics.org.cn/SOAPfusion.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genetic mapping
+        uri: http://edamontology.org/operation_0282
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output: []
+homepage: http://soap.genomics.org.cn/SOAPfusion.html
+homepage_status: 0
+language:
+  - C++
+  - Perl
+lastUpdate: '2018-12-10T12:58:54Z'
+license: null
+link: []
+maturity: Mature
+name: SOAPfusion
+operatingSystem:
+  - Linux
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: 10.1093/bioinformatics/btt522
+    metadata:
+      abstract: "Motivation: RNA-Seq provides a powerful approach to carry out ab\
+        \ initio investigation of fusion transcripts representing critical translocation\
+        \ and post-transcriptional events that recode hereditary information. Most\
+        \ of the existing computational fusion detection tools are challenged by the\
+        \ issues of accuracy and how to handlemultiplemappings. Results:We present\
+        \ a novel tool SOAPfusion for fusion discovery with paired-end RNA-Seq reads.\
+        \ SOAPfusion is accurate and efficient for fusion discovery with high sensitivity\
+        \ (\u226593%), low false-positive rate (\u22641.36%), even the coverage is\
+        \ as low as 10\xD7, highlighting its ability to detect fusions efficiently\
+        \ at low sequencing cost. From real data of Universal Human Reference RNA\
+        \ (UHRR) samples, SOAPfusion detected 7 novel fusion genes, more than other\
+        \ existing tools and all genes have been validated through reverse transcription-polymerase\
+        \ chain reaction followed by Sanger sequencing. SOAPfusion thus proves to\
+        \ be an effective method with precise applicability in search of fusion transcripts,\
+        \ which is advantageous to accelerate pathological and therapeutic cancer\
+        \ studies. \xA9 The Author 2013. Published by Oxford University Press. All\
+        \ rights reserved."
+      authors:
+        - name: Wu J.
+        - name: Zhang W.
+        - name: Huang S.
+        - name: He Z.
+        - name: Cheng Y.
+        - name: Wang J.
+        - name: Lam T.-W.
+        - name: Peng Z.
+        - name: Yiu S.-M.
+      citationCount: 13
+      date: '2013-12-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'SOAPfusion: A robust and effective computational fusion discovery tool
+        for RNA-seq reads'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Workflow
+topic:
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+  - term: RNA-Seq
+    uri: http://edamontology.org/topic_3170
+  - term: Gene structure
+    uri: http://edamontology.org/topic_0114
+validated: 1
+version: []

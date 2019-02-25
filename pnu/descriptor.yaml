@@ -1,0 +1,152 @@
+accessibility: []
+additionDate: '2016-02-05T06:57:46Z'
+biotoolsCURIE: biotools:pnu
+biotoolsID: pnu
+collectionID: []
+cost: Free of charge
+credit:
+  - email: null
+    name: Leibniz Institute DSMZ-German Collection of Microorganisms and Cell Cultures
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: bacdive
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: contact@bacdive.de
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Compilation of all names of Bacteria and Archaea which have been validly
+  published according to the Bacteriological Code since 1. Jan. 1980, and nomenclatural
+  changes which have been validly published since.
+documentation:
+  - note: null
+    type: Terms of use
+    url: https://www.dsmz.de/bacterial-diversity/prokaryotic-nomenclature-up-to-date.html
+  - note: null
+    type: Citation instructions
+    url: https://www.dsmz.de/bacterial-diversity/prokaryotic-nomenclature-up-to-date.html
+  - note: null
+    type: General
+    url: https://www.dsmz.de/bacterial-diversity/prokaryotic-nomenclature-up-to-date.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Species name
+          uri: http://edamontology.org/data_1045
+        format: []
+      - data:
+          term: Genus name
+          uri: http://edamontology.org/data_1870
+        format: []
+      - data:
+          term: Family name
+          uri: http://edamontology.org/data_2732
+        format: []
+      - data:
+          term: Taxon
+          uri: http://edamontology.org/data_1868
+        format: []
+      - data:
+          term: Strain accession
+          uri: http://edamontology.org/data_2912
+        format: []
+      - data:
+          term: Taxonomic classification
+          uri: http://edamontology.org/data_1872
+        format: []
+    note: class culture collection number reclassified taxonomy
+    operation:
+      - term: Data retrieval
+        uri: http://edamontology.org/operation_2422
+    output:
+      - data:
+          term: Taxonomic classification
+          uri: http://edamontology.org/data_1872
+        format:
+          - term: XML
+            uri: http://edamontology.org/format_2332
+          - term: JSON
+            uri: http://edamontology.org/format_3464
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+homepage: http://bacdive.dsmz.de/api/pnu/
+homepage_status: 0
+language:
+  - R
+  - Python
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link: []
+maturity: Mature
+name: Prokaryotic Nomenclature up-to-date (PNU)
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: bacdive
+publication:
+  - doi: 10.1093/nar/gkv983
+    metadata:
+      abstract: "\xA9 The Author(s) 2015. BacDive-the Bacterial Diversity Metadatabase\
+        \ (http://bacdive.dsmz.de) provides strain-linked information about bacterial\
+        \ and archaeal biodiversity. The range of data encompasses taxonomy, morphology,\
+        \ physiology, sampling and concomitant environmental conditions as well as\
+        \ molecular biology. The majority of data is manually annotated and curated.\
+        \ Currently (with release 9/2015), BacDive covers 53 978 strains. Newly implemented\
+        \ RESTful web services provide instant access to the content in machinereadable\
+        \ XML and JSON format. Besides an overall increase of data content, BacDive\
+        \ offers new data fields and features, e.g. the search for gene names, plasmids\
+        \ or 16S rRNA in the advanced search, as well as improved linkage of entries\
+        \ to external life science web resources."
+      authors:
+        - name: Sohngen C.
+        - name: Podstawka A.
+        - name: Bunk B.
+        - name: Gleim D.
+        - name: Vetcininova A.
+        - name: Reimer L.C.
+        - name: Ebeling C.
+        - name: Pendarovski C.
+        - name: Leibniz J.O.
+      citationCount: 16
+      date: '2016-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: BacDive - The Bacterial Diversity Metadatabase in 2016
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+  - Database portal
+topic:
+  - term: Taxonomy
+    uri: http://edamontology.org/topic_0637
+  - term: Microbiology
+    uri: http://edamontology.org/topic_3301
+  - term: Biodiversity
+    uri: http://edamontology.org/topic_3050
+validated: 1
+version: []

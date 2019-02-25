@@ -1,0 +1,179 @@
+accessibility: []
+additionDate: '2017-09-26T07:57:36Z'
+biotoolsCURIE: biotools:gnomad
+biotoolsID: gnomad
+collectionID:
+  - RD-connect
+  - Rare Disease
+cost: Free of charge
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://gnomad.broadinstitute.org/contact
+description: A browser that aggregates exome and whole-genome sequencing data from
+  a wide variety of large-scale sequencing projects. It enables search of genetic
+  variation information by gene, variant or region.
+documentation:
+  - note: null
+    type: General
+    url: http://gnomad.broadinstitute.org/faq
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+      - term: Data retrieval
+        uri: http://edamontology.org/operation_2422
+      - term: Aggregation
+        uri: http://edamontology.org/operation_3436
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output: []
+homepage: http://gnomad.broadinstitute.org/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:54Z'
+license: null
+link: []
+maturity: Mature
+name: gnomAD
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2016 Macmillan Publishers Limited. All rights reserved. Large-scale\
+        \ reference data sets of human genetic variation are critical for the medical\
+        \ and functional interpretation of DNA sequence changes. Here we describe\
+        \ the aggregation and analysis of high-quality exome (protein-coding region)\
+        \ DNA sequence data for 60,706 individuals of diverse ancestries generated\
+        \ as part of the Exome Aggregation Consortium (ExAC). This catalogue of human\
+        \ genetic diversity contains an average of one variant every eight bases of\
+        \ the exome, and provides direct evidence for the presence of widespread mutational\
+        \ recurrence. We have used this catalogue to calculate objective metrics of\
+        \ pathogenicity for sequence variants, and to identify genes subject to strong\
+        \ selection against various classes of mutation; identifying 3,230 genes with\
+        \ near-complete depletion of predicted protein-truncating variants, with 72%\
+        \ of these genes having no currently established human disease phenotype.\
+        \ Finally, we demonstrate that these data can be used for the efficient filtering\
+        \ of candidate disease-causing variants, and for the discovery of human 'knockout'\
+        \ variants in protein-coding genes."
+      authors:
+        - name: Lek M.
+        - name: Karczewski K.J.
+        - name: Minikel E.V.
+        - name: Samocha K.E.
+        - name: Banks E.
+        - name: Fennell T.
+        - name: O'Donnell-Luria A.H.
+        - name: Ware J.S.
+        - name: Hill A.J.
+        - name: Cummings B.B.
+        - name: Tukiainen T.
+        - name: Birnbaum D.P.
+        - name: Kosmicki J.A.
+        - name: Duncan L.E.
+        - name: Estrada K.
+        - name: Zhao F.
+        - name: Zou J.
+        - name: Pierce-Hoffman E.
+        - name: Berghout J.
+        - name: Cooper D.N.
+        - name: Deflaux N.
+        - name: DePristo M.
+        - name: Do R.
+        - name: Flannick J.
+        - name: Fromer M.
+        - name: Gauthier L.
+        - name: Goldstein J.
+        - name: Gupta N.
+        - name: Howrigan D.
+        - name: Kiezun A.
+        - name: Kurki M.I.
+        - name: Moonshine A.L.
+        - name: Natarajan P.
+        - name: Orozco L.
+        - name: Peloso G.M.
+        - name: Poplin R.
+        - name: Rivas M.A.
+        - name: Ruano-Rubio V.
+        - name: Rose S.A.
+        - name: Ruderfer D.M.
+        - name: Shakir K.
+        - name: Stenson P.D.
+        - name: Stevens C.
+        - name: Thomas B.P.
+        - name: Tiao G.
+        - name: Tusie-Luna M.T.
+        - name: Weisburd B.
+        - name: Won H.-H.
+        - name: Yu D.
+        - name: Altshuler D.M.
+        - name: Ardissino D.
+        - name: Boehnke M.
+        - name: Danesh J.
+        - name: Donnelly S.
+        - name: Elosua R.
+        - name: Florez J.C.
+        - name: Gabriel S.B.
+        - name: Getz G.
+        - name: Glatt S.J.
+        - name: Hultman C.M.
+        - name: Kathiresan S.
+        - name: Laakso M.
+        - name: McCarroll S.
+        - name: McCarthy M.I.
+        - name: McGovern D.
+        - name: McPherson R.
+        - name: Neale B.M.
+        - name: Palotie A.
+        - name: Purcell S.M.
+        - name: Saleheen D.
+        - name: Scharf J.M.
+        - name: Sklar P.
+        - name: Sullivan P.F.
+        - name: Tuomilehto J.
+        - name: Tsuang M.T.
+        - name: Watkins H.C.
+        - name: Wilson J.G.
+        - name: Daly M.J.
+        - name: MacArthur D.G.
+      citationCount: 1921
+      date: '2016-08-17T00:00:00Z'
+      journal: Nature
+      title: Analysis of protein-coding genetic variation in 60,706 humans
+    pmcid: null
+    pmid: '27535533'
+    type: null
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: Data acquisition
+    uri: http://edamontology.org/topic_3077
+  - term: Data integration and warehousing
+    uri: http://edamontology.org/topic_3366
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 1
+version: []

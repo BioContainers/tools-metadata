@@ -1,0 +1,105 @@
+accessibility: []
+additionDate: '2017-01-13T13:14:39Z'
+biotoolsCURIE: biotools:fusionanalyser
+biotoolsID: fusionanalyser
+collectionID: []
+cost: null
+credit:
+  - email: rocco.piazza@unimib.it
+    name: Rocco Piazza
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Graphical, event-driven tool dedicated to the identification of driver
+  fusion rearrangements in human cancer through the analysis of paired-end high-throughput
+  transcriptome sequencing data. Requires short, paired-end sequences.
+documentation:
+  - note: null
+    type: General
+    url: http://www.ngsbicocca.org/html/how_it_works_fa.html
+download: []
+editPermission:
+  authors:
+    - ELIXIR-EE
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Annotation
+        uri: http://edamontology.org/operation_0226
+      - term: Gene prediction
+        uri: http://edamontology.org/operation_2454
+      - term: Gene expression profiling
+        uri: http://edamontology.org/operation_0314
+      - term: Read mapping
+        uri: http://edamontology.org/operation_3198
+    output: []
+homepage: http://www.ngsbicocca.org/html/fusionanalyser.html
+homepage_status: 0
+language:
+  - C#
+lastUpdate: '2018-12-10T12:58:53Z'
+license: GPL-3.0
+link: []
+maturity: Mature
+name: FusionAnalyser
+operatingSystem:
+  - Linux
+  - Windows
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Gene fusions are common driver events in leukaemias and solid tumours;\
+        \ here we present FusionAnalyser, a tool dedicated to the identification of\
+        \ driver fusion rearrangements in human cancer through the analysis of paired-end\
+        \ high-throughput transcriptome sequencing data. We initially tested FusionAnalyser\
+        \ by using a set of in silico randomly generated sequencing data from 20 known\
+        \ human translocations occurring in cancer and subsequently using transcriptome\
+        \ data from three chronic and three acute myeloid leukaemia samples. in all\
+        \ the cases our tool was invariably able to detect the presence of the correct\
+        \ driver fusion event(s) with high specificity. In one of the acute myeloid\
+        \ leukaemia samples, FusionAnalyser identified a novel, cryptic, in-frame\
+        \ ETS2-ERG fusion. A fully event-driven graphical interface and a flexible\
+        \ filtering system allow complex analyses to be run in the absence of any\
+        \ a priori programming or scripting knowledge. Therefore, we propose FusionAnalyser\
+        \ as an efficient and robust graphical tool for the identification of functional\
+        \ rearrangements in the context of high-throughput transcriptome sequencing\
+        \ data. \xA9 2012 The Author(s)."
+      authors:
+        - name: Piazza R.
+        - name: Pirola A.
+        - name: Spinelli R.
+        - name: Valletta S.
+        - name: Redaelli S.
+        - name: Magistroni V.
+        - name: Gambacorti-Passerini C.
+      citationCount: 21
+      date: '2012-09-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'FusionAnalyser: A new graphical, event-driven tool for fusion rearrangements
+        discovery'
+    pmcid: null
+    pmid: '22570408'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Gene structure
+    uri: http://edamontology.org/topic_0114
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+validated: 1
+version: []

@@ -1,0 +1,123 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:04Z'
+biotoolsCURIE: biotools:msalign2
+biotoolsID: msalign2
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: magnus.palmblad@gmail.com
+    name: Magnus Palmblad
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
+  - email: e.nevedomskaya@lumc.nl
+    name: E. Nevedomskaya
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Aligns 2 CE-MS or LC-MS datasets using accurate mass information.
+documentation:
+  - note: null
+    type: General
+    url: http://www.ms-utils.org/msalign2/index.html
+download:
+  - note: null
+    type: Source code
+    url: http://www.ms-utils.org/msalign/msalign.c
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+    note: null
+    operation:
+      - term: Chromatographic alignment
+        uri: http://edamontology.org/operation_3628
+    output:
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+homepage: http://www.ms-utils.org/msalign2/index.html
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:53Z'
+license: GPL-3.0
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: msalign2
+operatingSystem:
+  - Linux
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Capillary electrophoresis-mass spectrometry (CE-MS) is a powerful\
+        \ technique for the analysis of small soluble compounds in biological fluids.\
+        \ A major drawback of CE is the poor migration time reproducibility, which\
+        \ makes it difficult to combine data from different experiments and correctly\
+        \ assign compounds. A number of alignment algorithms have been developed but\
+        \ not all of them can cope with large and irregular time shifts between CE-MS\
+        \ runs. Here we present a genetic algorithm designed for alignment of CE-MS\
+        \ data using accurate mass information. The utility of the algorithm was demonstrated\
+        \ on real data, and the results were compared with one of the existing packages.\
+        \ The new algorithm showed a significant reduction of elution time variation\
+        \ in the aligned datasets. The importance of mass accuracy for the performance\
+        \ of the algorithm was also demonstrated by comparing alignments of datasets\
+        \ from a standard time-of-flight (TOF) instrument with those from the new\
+        \ ultrahigh resolution TOF maXis (Bruker Daltonics). \xA9 2009 Springer-Verlag."
+      authors:
+        - name: Nevedomskaya E.
+        - name: Derks R.
+        - name: Deelder A.M.
+        - name: Mayboroda O.A.
+        - name: Palmblad M.
+      citationCount: 42
+      date: '2009-12-01T00:00:00Z'
+      journal: Analytical and Bioanalytical Chemistry
+      title: Alignment of capillary electrophoresis-mass spectrometry datasets using
+        accurate mass information
+    pmcid: null
+    pmid: '19826795'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

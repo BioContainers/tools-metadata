@@ -1,0 +1,119 @@
+accessibility: []
+additionDate: '2016-11-21T10:33:07Z'
+biotoolsCURIE: biotools:poseview
+biotoolsID: poseview
+collectionID:
+  - de.NBI
+cost: null
+credit:
+  - email: null
+    name: University of Hamburg - Center for Bioinformatics
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: rarey-office@zbh.uni-hamburg.de
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: This tool automatically creates two-dimensional diagrams which depict
+  the protein-ligand interactions and conform to chemical drawing conventions. Directed
+  interactions between protein and ligand are estimated by an integrated scoring scheme
+  and depicted as lines between detailed structure diagrams for both protein residues
+  and the ligand molecule.
+documentation:
+  - note: null
+    type: General
+    url: http://proteinsplus.zbh.uni-hamburg.de/help/index
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Protein structure
+          uri: http://edamontology.org/data_1460
+        format:
+          - term: PDB
+            uri: http://edamontology.org/format_1476
+    note: null
+    operation:
+      - term: Structure visualisation
+        uri: http://edamontology.org/operation_0570
+      - term: Pathway or network visualisation
+        uri: http://edamontology.org/operation_3083
+    output:
+      - data:
+          term: Image
+          uri: http://edamontology.org/data_2968
+        format:
+          - term: PDF
+            uri: http://edamontology.org/format_3508
+homepage: http://proteinsplus.zbh.uni-hamburg.de/#poseview
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link: []
+maturity: null
+name: PoseView
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: Bietz
+publication:
+  - doi: 10.1093/bioinformatics/btl150
+    metadata:
+      abstract: "Motivation: In this paper a new algorithmic approach is presented,\
+        \ which automatically generates structure diagrams of molecular complexes.\
+        \ A complex diagram contains the ligand, the amino acids of the protein interacting\
+        \ with the ligand and the hydrophilic interactions schematized as dashed lines\
+        \ between the corresponding atoms. The algorithm is based on a combinatorial\
+        \ optimization strategy which solves parts of the layout problem non-heuristically.\
+        \ The depicted molecules are represented as structure diagrams according to\
+        \ the chemical nomenclature. Due to the frequent usage of complex diagrams\
+        \ in the scientific literature as well as in text books dealing with structural\
+        \ biology, biochemistry and medicinal chemistry, the new algorithm is a key\
+        \ element for computer applications in these areas. Results: The method was\
+        \ implemented in the new software tool PoseView. It was tested on a representative\
+        \ dataset containing 305 protein - ligand complexes in total from the Brookhaven\
+        \ Protein Data Bank. PoseView was able to find collision-free layouts for\
+        \ more than three quarters of all complexes. In the following the layout generation\
+        \ algorithm is presented and, additional to the statistical results, representative\
+        \ test cases demonstrating the challenges of the layout generation will be\
+        \ discussed. \xA9 2006 Oxford University Press."
+      authors:
+        - name: Stierand K.
+        - name: Maass P.C.
+        - name: Rarey M.
+      citationCount: 113
+      date: '2006-07-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'Molecular complexes at a glance: Automated generation of two-dimensional
+        complex diagrams'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+validated: 1
+version: []

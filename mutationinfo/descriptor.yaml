@@ -1,0 +1,83 @@
+accessibility:
+  - Open access
+additionDate: '2017-08-11T13:36:26Z'
+biotoolsCURIE: biotools:mutationinfo
+biotoolsID: mutationinfo
+collectionID: []
+cost: Free of charge
+credit:
+  - email: alexandros.kanterakis@gmail.com
+    name: Alexandros Kanterakis
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: MutationInfo is a python package to extract the position, the reference
+  and the alternative sequence of a genomic variant. It accepts variants in dbSNP
+  rs format or in HGVS format.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence variation ID
+          uri: http://edamontology.org/data_2294
+        format: []
+    note: Input is in HGVS or dbSNP (rsID)
+    operation:
+      - term: SNP annotation
+        uri: http://edamontology.org/operation_3661
+    output:
+      - data:
+          term: Nucleic acid sequence record
+          uri: http://edamontology.org/data_2887
+        format: []
+homepage: https://www.epga.gr/MutationInfo/
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:53Z'
+license: MIT
+link:
+  - note: Running instance
+    type: Browser
+    url: https://www.epga.gr/MutationInfo/
+  - note: Documentation
+    type: Browser
+    url: http://mutationinfo.readthedocs.io/en/latest/
+  - note: Github source code repository
+    type: Repository
+    url: https://github.com/kantale/MutationInfo
+maturity: Mature
+name: MutationInfo
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: kantale
+publication:
+  - doi: 10.5281/zenodo.196291
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+  - Web application
+topic:
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 1
+version:
+  - '1.3'

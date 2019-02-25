@@ -1,0 +1,72 @@
+accessibility: []
+additionDate: '2015-12-06T15:18:07Z'
+biotoolsCURIE: biotools:autophylo
+biotoolsID: autophylo
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: bils.se
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: eriklund@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: An automatic pipeline for phylogenetic analysis.
+documentation:
+  - note: null
+    type: General
+    url: https://code.google.com/archive/p/autophylo/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Protein sequence record
+          uri: http://edamontology.org/data_2886
+        format: []
+    note: null
+    operation:
+      - term: Phylogenetic tree generation
+        uri: http://edamontology.org/operation_0323
+    output:
+      - data:
+          term: Phylogenetic tree
+          uri: http://edamontology.org/data_0872
+        format: []
+homepage: http://code.google.com/p/autophylo/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link: []
+maturity: null
+name: Autophylo
+operatingSystem:
+  - Linux
+otherID: []
+owner: mikael.borg@bils.se
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: Phylogenetics
+    uri: http://edamontology.org/topic_3293
+validated: 1
+version:
+  - '1'

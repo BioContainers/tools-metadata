@@ -1,0 +1,163 @@
+accessibility: []
+additionDate: '2016-01-19T16:16:51Z'
+biotoolsCURIE: biotools:seqan
+biotoolsID: seqan
+collectionID:
+  - KNIME
+  - de.NBI
+  - SeqAn
+cost: Free of charge
+credit:
+  - email: null
+    name: "Freie Universit\xE4t Berlin"
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: Center for Integrative Bioinformatics (CiBi)
+    note: null
+    orcidid: null
+    typeEntity: Consortium
+    typeRole: []
+    url: null
+  - email: null
+    name: cibi
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: seqan-dev@lists.fu-berlin.de
+    name: Mailing list answered by the developers
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Developer
+    url: null
+  - email: seqan-dev@lists.fu-berlin.de
+    name: Mailing list answered by the developers
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: An open source C++ library of efficient algorithms and data structures
+  for the analysis of sequences with the focus on biological data. Our library applies
+  a unique generic design that guarantees high performance, generality, extensibility,
+  and integration with other libraries. The library is easy to use and simplifies
+  the development of new software tools with a minimal loss of performance. Additionally,
+  it includes several ready-made command line tools for common tasks in sequence analysis.
+documentation:
+  - note: null
+    type: Citation instructions
+    url: http://www.seqan.de
+  - note: null
+    type: General
+    url: http://seqan.readthedocs.org/en/master/index.html
+download:
+  - note: null
+    type: Source code
+    url: http://packages.seqan.de/
+    version: null
+  - note: null
+    type: Binaries
+    url: http://packages.seqan.de/
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+      - term: Nucleic acid sequence analysis
+        uri: http://edamontology.org/operation_2478
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+      - term: Read mapping
+        uri: http://edamontology.org/operation_3198
+    output: []
+homepage: http://www.seqan.de
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:52Z'
+license: BSD-3-Clause
+link:
+  - note: null
+    type: Repository
+    url: https://github.com/seqan/seqan
+maturity: Mature
+name: SeqAn
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: cibi
+publication:
+  - doi: 10.1186/1471-2105-9-11
+    metadata:
+      abstract: "Background: The use of novel algorithmic techniques is pivotal to\
+        \ many important problems in life science. For example the sequencing of the\
+        \ human genome 1 would not have been possible without advanced assembly algorithms.\
+        \ However, owing to the high speed of technological progress and the urgent\
+        \ need for bioinformatics tools, there is a widening gap between state-of-the-art\
+        \ algorithmic techniques and the actual algorithmic components of tools that\
+        \ are in widespread use. Results: To remedy this trend we propose the use\
+        \ of SeqAn, a library of efficient data types and algorithms for sequence\
+        \ analysis in computational biology. SeqAn comprises implementations of existing,\
+        \ practical state-of-the-art algorithmic components to provide a sound basis\
+        \ for algorithm testing and development. In this paper we describe the design\
+        \ and content of SeqAn and demonstrate its use by giving two examples. In\
+        \ the first example we show an application of SeqAn as an experimental platform\
+        \ by comparing different exact string matching algorithms. The second example\
+        \ is a simple version of the well-known MUMmer tool rewritten in SeqAn. Results\
+        \ indicate that our implementation is very efficient and versatile to use.\
+        \ Conclusion: We anticipate that SeqAn greatly simplifies the rapid development\
+        \ of new bioinformatics tools by providing a collection of readily usable,\
+        \ well-designed algorithmic components which are fundamental for the field\
+        \ of sequence analysis. This leverages not only the implementation of new\
+        \ algorithms, but also enables a sound analysis and comparison of existing\
+        \ algorithms. \xA9 2008 D\xF6ring et al; licensee BioMed Central Ltd."
+      authors:
+        - name: Doring A.
+        - name: Weese D.
+        - name: Rausch T.
+        - name: Reinert K.
+      citationCount: 144
+      date: '2008-01-09T00:00:00Z'
+      journal: BMC Bioinformatics
+      title: SeqAn an efficient, generic C++ library for sequence analysis
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Workbench
+topic:
+  - term: Comparative genomics
+    uri: http://edamontology.org/topic_0797
+  - term: Metagenomics
+    uri: http://edamontology.org/topic_3174
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
+  - term: Software engineering
+    uri: http://edamontology.org/topic_3372
+validated: 1
+version:
+  - 2.0.1

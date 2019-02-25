@@ -1,0 +1,91 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:13Z'
+biotoolsCURIE: biotools:pepnovo
+biotoolsID: pepnovo
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: '"De novo" sequencing using probabilistic network modeling.'
+documentation:
+  - note: null
+    type: General
+    url: http://proteomics.ucsd.edu/Software/MSGFPlus/
+download:
+  - note: null
+    type: Source code
+    url: https://web.archive.org/web/20070706084404/http://peptide.ucsd.edu/downloads/PepNovo_src.zip
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: de Novo sequencing
+        uri: http://edamontology.org/operation_3644
+    output: []
+homepage: http://proteomics.ucsd.edu/ProteoSAFe/
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: PepNovo
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: We present a novel scoring method for de novo interpretation of peptides
+        from tandem mass spectrometty data. Our scoring method uses a probabilistic
+        network whose structure reflects the chemical and physical rules that govern
+        the peptide fragmentation. We use a likelihood ratio hypothesis test to determine
+        whether the peaks observed in the mass spectrum are more likely to have been
+        produced under our fragmentation model than under a model that treats peaks
+        as random events. We tested our de novo algorithm PepNovo on ion trap data
+        and achieved results that are superior to popular de novo peptide sequencing
+        algorithms. PepNovo can be accessed via the URL http://www-cse.ucsd.edu/groups/
+        bioinformatics/software.html.
+      authors:
+        - name: Frank A.
+        - name: Pevzner P.
+      citationCount: 412
+      date: '2005-02-15T00:00:00Z'
+      journal: Analytical Chemistry
+      title: 'PepNovo: De novo peptide sequencing via probabilistic network modeling'
+    pmcid: null
+    pmid: '15858974'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:21Z'
+biotoolsCURIE: biotools:masswiz
+biotoolsID: masswiz
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Peptide identification and FDR calculation.
+documentation:
+  - note: null
+    type: General
+    url: https://sourceforge.net/p/masswiz/wiki/Home/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Blind peptide database search
+        uri: http://edamontology.org/operation_3647
+    output: []
+homepage: http://sourceforge.net/projects/masswiz/
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: MassWiz
+operatingSystem:
+  - Linux
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Mass spectrometry has made rapid advances in the recent past and\
+        \ has become the preferred method for proteomics. Although many open source\
+        \ algorithms for peptide identification exist, such as X!Tandem and OMSSA,\
+        \ it has majorly been a domain of proprietary software. There is a need for\
+        \ better, freely available, and configurable algorithms that can help in identifying\
+        \ the correct peptides while keeping the false positives to a minimum. We\
+        \ have developed MassWiz, a novel empirical scoring function that gives appropriate\
+        \ weights to major ions, continuity of b-y ions, intensities, and the supporting\
+        \ neutral losses based on the instrument type. We tested MassWiz accuracy\
+        \ on 486,882 spectra from a standard mixture of 18 proteins generated on 6\
+        \ different instruments downloaded from the Seattle Proteome Center public\
+        \ repository. We compared the MassWiz algorithm with Mascot, Sequest, OMSSA,\
+        \ and X!Tandem at 1% FDR. MassWiz outperformed all in the largest data set\
+        \ (AGILENT XCT) and was second only to Mascot in the other data sets. MassWiz\
+        \ showed good performance in the analysis of high confidence peptides, i.e.,\
+        \ those identified by at least three algorithms. We also analyzed a yeast\
+        \ data set containing 106,133 spectra downloaded from the NCBI Peptidome repository\
+        \ and got similar results. The results demonstrate that MassWiz is an effective\
+        \ algorithm for high-confidence peptide identification without compromising\
+        \ on the number of assignments. MassWiz is open-source, versatile, and easily\
+        \ configurable. \xA9 2011 American Chemical Society."
+      authors:
+        - name: Yadav A.K.
+        - name: Kumar D.
+        - name: Dash D.
+      citationCount: 28
+      date: '2011-05-06T00:00:00Z'
+      journal: Journal of Proteome Research
+      title: 'MassWiz: A novel scoring algorithm with target-decoy based analysis
+        pipeline for tandem mass spectrometry'
+    pmcid: null
+    pmid: '21417338'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

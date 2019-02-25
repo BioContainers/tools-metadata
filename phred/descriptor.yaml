@@ -1,0 +1,102 @@
+accessibility: []
+additionDate: '2017-01-13T13:15:51Z'
+biotoolsCURIE: biotools:phred
+biotoolsID: phred
+collectionID: []
+cost: Free of charge
+credit:
+  - email: gordon@genome.washington.edu
+    name: D. Gordon
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: The software reads DNA sequencing trace files, calls bases, and assigns
+  a quality value to each called base.
+documentation:
+  - note: null
+    type: General
+    url: http://www.phrap.org/phredphrap/phred.html
+download: []
+editPermission:
+  authors:
+    - ELIXIR-EE
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequencing quality control
+        uri: http://edamontology.org/operation_3218
+      - term: Base-calling
+        uri: http://edamontology.org/operation_3185
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output: []
+homepage: http://www.phrap.org/phredphrapconsed.html
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link: []
+maturity: null
+name: Phred
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: 'The availability of massive amounts of DNA sequence information has
+        begun to revolutionize the practice of biology. As a result, current large-scale
+        sequencing output, while impressive, is not adequate to keep pace with growing
+        demand and, in particular, is far short of what will be required to obtain
+        the 3-billion-base human genome sequence by the target date of 2005. To reach
+        this goal, improved automation will be essential, and it is particularly important
+        that human involvement in sequence data processing be significantly reduced
+        or eliminated. Progress in this respect will require both improved accuracy
+        of the data processing software and reliable accuracy measures to reduce the
+        need for human involvement in error correction and make human review more
+        efficient. Here, we describe one step toward that goal: a base-calling program
+        for automated sequencer traces, phred, with improved accuracy. phred appears
+        to be the first base-calling program to achieve a lower error rate than the
+        ABI software, averaging 40%-50% fewer errors in the data sets examined independent
+        of position in read, machine running conditions, or sequencing chemistry.'
+      authors:
+        - name: Ewing B.
+        - name: Hillier L.
+        - name: Wendl M.C.
+        - name: Green P.
+      citationCount: 4388
+      date: '1998-01-01T00:00:00Z'
+      journal: Genome Research
+      title: Base-calling of automated sequencer traces using phred. I. Accuracy assessment
+    pmcid: null
+    pmid: '9521921'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Data mining
+    uri: http://edamontology.org/topic_3473
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 1
+version: []

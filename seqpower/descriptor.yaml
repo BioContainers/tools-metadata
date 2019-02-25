@@ -1,0 +1,97 @@
+accessibility: []
+additionDate: '2017-08-03T18:59:27Z'
+biotoolsCURIE: biotools:seqpower
+biotoolsID: seqpower
+collectionID: []
+cost: null
+credit:
+  - email: gaow@uchicago.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/gaow/SEQPower/issues
+description: A tool that provides statistical power analysis and sample size estimation
+  for sequence-based association studies.
+documentation:
+  - note: null
+    type: General
+    url: http://bioinformatics.org/spower/docs
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Nucleic acid sequence analysis
+        uri: http://edamontology.org/operation_2478
+    output: []
+homepage: http://bioinformatics.org/spower/
+homepage_status: 0
+language:
+  - C++
+  - Python
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/seqpower-3-14159-power-analysis-for-sequence-based-association-studies.html
+maturity: null
+name: SEQPower
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: Statistical methods have been developed to test for complex\
+        \ trait rare variant (RV) associations, in which variants are aggregated across\
+        \ a region, which is typically a gene. Power analysis and sample size estimation\
+        \ for sequence-based RV association studies are challenging because of the\
+        \ necessity to realistically model the underlying allelic architecture of\
+        \ complex diseases within a suitable analytical framework to assess the performance\
+        \ of a variety of RV association methods in an unbiased manner. Summary: We\
+        \ developed SEQPower, a software package to perform statistical power analysis\
+        \ for sequence-based association data under a variety of genetic variant and\
+        \ disease phenotype models. It aids epidemiologists in determining the best\
+        \ study design, sample size and statistical tests for sequence-based association\
+        \ studies. It also provides biostatisticians with a platform to fairly compare\
+        \ RV association methods and to validate and assess novel association tests.\
+        \ \xA9 The Author 2014."
+      authors:
+        - name: Wang G.T.
+        - name: Li B.
+        - name: Lyn Santos-Cortez R.P.
+        - name: Peng B.
+        - name: Leal S.M.
+      citationCount: 5
+      date: '2014-08-15T00:00:00Z'
+      journal: Bioinformatics
+      title: Power analysis and sample size estimation for sequence-based association
+        studies
+    pmcid: null
+    pmid: '24778108'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: GWAS study
+    uri: http://edamontology.org/topic_3517
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+validated: 1
+version: []

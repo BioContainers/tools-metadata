@@ -1,0 +1,95 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:17Z'
+biotoolsCURIE: biotools:profound
+biotoolsID: profound
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: Brian.Chait@rockefeller.edu
+    name: Brian Chait
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: A tool for searching a protein sequence collections with peptide mass
+  maps. A Bayesian algorithm is used to rank the protein sequences in the database
+  according to their probability of producing the peptide map.
+documentation:
+  - note: null
+    type: General
+    url: http://prowl.rockefeller.edu/prowl-cgi/profound.exe
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein fragment weight comparison
+        uri: http://edamontology.org/operation_2929
+    output: []
+homepage: http://prowl.rockefeller.edu/prowl-cgi/profound.exe
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: ProFound
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: 10.1021/ac991363o
+    metadata:
+      abstract: We describe the protein search engine 'ProFound', which employs a
+        Bayesian algorithm to identify proteins from protein databases using mass
+        spectrometric peptide mapping data. The algorithm ranks protein candidates
+        by taking into account individual properties of each protein in the database
+        as well as other information relevant to the peptide mapping experiment. The
+        program consistently identifies the correct protein(s) even when the data
+        quality is relatively low or when the sample consists of a simple mixture
+        of proteins. Illustrative examples of protein identifications are provided.
+      authors:
+        - name: Zhang W.
+        - name: Chait B.T.
+      citationCount: 531
+      date: '2000-06-01T00:00:00Z'
+      journal: Analytical Chemistry
+      title: 'ProFound: An expert system for protein identification using mass spectrometric
+        peptide mapping information'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

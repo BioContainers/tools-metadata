@@ -1,0 +1,102 @@
+accessibility: []
+additionDate: '2017-02-10T14:15:45Z'
+biotoolsCURIE: biotools:carmaweb
+biotoolsID: carmaweb
+collectionID: []
+cost: null
+credit:
+  - email: johannes.rainer@i-med.ac.at
+    name: Johannes Rainer
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Comprehensive R based Microarray Analysis web service (CARMAweb) is a
+  resource for the analyses of microarray data including data preprocessing, detection
+  for differentially expressed genes, cluster analysis, and GO analysis. Calculations
+  are performed in R using functions provided by BioConductor.
+documentation:
+  - note: null
+    type: General
+    url: https://carmaweb.genome.tugraz.at/carma/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Differential gene expression analysis
+        uri: http://edamontology.org/operation_3223
+      - term: Gene expression profiling
+        uri: http://edamontology.org/operation_0314
+      - term: Gene expression analysis
+        uri: http://edamontology.org/operation_2495
+    output: []
+homepage: https://carmaweb.genome.tugraz.at/carma/
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link: []
+maturity: null
+name: CARMAweb
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "CARMAweb (Comprehensive R-based Microarray Analysis web service)\
+        \ is a web application designed for the analysis of microarray data. CARMAweb\
+        \ performs data preprocessing (background correction, quality control and\
+        \ normalization), detection of differentially expressed genes, cluster analysis,\
+        \ dimension reduction and visualization, classification, and Gene Ontology-term\
+        \ analysis. This web application accepts raw data from a variety of imaging\
+        \ software tools for the most widely used microarray platforms: Affymetrix\
+        \ GeneChips, spotted two-color microarrays and Applied Biosystems (ABI) microarrays.\
+        \ R and packages from the Bioconductor project are used as an analytical engine\
+        \ in combination with the R function Sweave, which allows automatic generation\
+        \ of analysis reports. These report files contain all R commands used to perform\
+        \ the analysis and guarantee therefore a maximum transparency and reproducibility\
+        \ for each analysis. The web application is implemented in Java based on the\
+        \ latest J2EE (Java 2 Enterprise Edition) software technology. CARMAweb is\
+        \ freely available at https://carmaweb.genome.tugraz.at. \xA9 The Author 2006.\
+        \ Published by Oxford University Press. All rights reserved."
+      authors:
+        - name: Rainer J.
+        - name: Sanchez-Cabo F.
+        - name: Stocker G.
+        - name: Sturn A.
+        - name: Trajanoski Z.
+      citationCount: 159
+      date: '2006-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'CARMAweb: Comprehensive R- and bioconductor-based web service for microarray
+        data analysis'
+    pmcid: null
+    pmid: '16845058'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Microarray experiment
+    uri: http://edamontology.org/topic_3518
+  - term: Function analysis
+    uri: http://edamontology.org/topic_1775
+validated: 1
+version: []

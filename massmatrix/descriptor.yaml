@@ -1,0 +1,97 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:20Z'
+biotoolsCURIE: biotools:massmatrix
+biotoolsID: massmatrix
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Web based tools for peptide identification and quantitation.
+documentation:
+  - note: null
+    type: General
+    url: http://www.massmatrix.bio/product-information/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Blind peptide database search
+        uri: http://edamontology.org/operation_3647
+      - term: Protein structure analysis
+        uri: http://edamontology.org/operation_2406
+    output: []
+homepage: http://www.massmatrix.net
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: MassMatrix
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: 10.1002/pmic.200700322
+    metadata:
+      abstract: "MassMatrix is a program that matches tandem mass spectra with theoretical\
+        \ peptide sequences derived from a protein database. The program uses a mass\
+        \ accuracy sensitive probabilistic score model to rank peptide matches. The\
+        \ MS/MS search software was evaluated by use of a high mass accuracy dataset\
+        \ and its results compared with those from MASCOT, SEQUEST, X!Tandem, and\
+        \ OMSSA. For the high mass accuracy data, MassMatrix provided better sensitivity\
+        \ than MASCOT, SEQUEST, X!Tandem, and OMSSA for a given specificity and the\
+        \ percentage of false positives was 2%. More importantly all manually validated\
+        \ true positives corresponded to a unique peptide/spectrum match. The presence\
+        \ of decoy sequence and additional variable PTMs did not significantly affect\
+        \ the results from the high mass accuracy search. MassMatrix performs well\
+        \ when compared with MASCOT, SEQUEST, X!Tandem, and OMSSA with regard to search\
+        \ time. MassMatrix was also run on a distributed memory clusters and achieved\
+        \ search speeds of \u223C100 000 spectra per hour when searching against a\
+        \ complete human database with eight variable modifications. The algorithm\
+        \ is available for public searches at http://www.massmatrix.net. \xA9 2009\
+        \ Wiley-VCH Verlag GmbH & Co. KGaA."
+      authors:
+        - name: Xu H.
+        - name: Freitas M.A.
+      citationCount: 120
+      date: '2009-03-01T00:00:00Z'
+      journal: Proteomics
+      title: 'MassMatrix: A database search program for rapid characterization of
+        proteins and peptides from tandem mass spectrometry data'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+  - Desktop application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

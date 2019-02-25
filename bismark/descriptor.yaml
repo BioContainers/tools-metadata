@@ -1,0 +1,90 @@
+accessibility: []
+additionDate: '2017-01-13T13:13:50Z'
+biotoolsCURIE: biotools:bismark
+biotoolsID: bismark
+collectionID: []
+cost: null
+credit:
+  - email: simon.andrews@babraham.ac.uk
+    name: Simon Andrews
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Bismark is a tool to map bisulfite treated sequencing reads and perform
+  methylation calling in a quick and easy-to-use fashion.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/FelixKrueger/Bismark/tree/master/Docs
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Methylation analysis
+        uri: http://edamontology.org/operation_3204
+      - term: Read mapping
+        uri: http://edamontology.org/operation_3198
+      - term: Bisulfite mapping
+        uri: http://edamontology.org/operation_3186
+    output: []
+homepage: https://github.com/FelixKrueger/Bismark
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:53Z'
+license: GPL-3.0
+link: []
+maturity: Mature
+name: Bismark
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "A combination of bisulfite treatment of DNA and high- throughput\
+        \ sequencing (BS-Seq) can capture a snapshot of a cell's epigenomic state\
+        \ by revealing its genome-wide cytosine methylation at single base resolution.\
+        \ Bismark is a flexible tool for the time- efficient analysis of BS-Seq data\
+        \ which performs both read mapping and methylation calling in a single convenient\
+        \ step. Its output discriminates between cytosines in CpG, CHG and CHH context\
+        \ and enables bench scientists to visualize and interpret their methylation\
+        \ data soon after the sequencing run is completed. \xA9 The Author(s) 2011.\
+        \ Published by Oxford University Press."
+      authors:
+        - name: Krueger F.
+        - name: Andrews S.R.
+      citationCount: 841
+      date: '2011-06-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'Bismark: A flexible aligner and methylation caller for Bisulfite-Seq
+        applications'
+    pmcid: null
+    pmid: '21493656'
+    type: null
+    version: null
+toolType:
+  - Suite
+topic:
+  - term: Epigenomics
+    uri: http://edamontology.org/topic_3173
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Epigenetics
+    uri: http://edamontology.org/topic_3295
+validated: 1
+version: []

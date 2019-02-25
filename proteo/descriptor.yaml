@@ -1,0 +1,134 @@
+accessibility: []
+additionDate: '2016-04-25T12:59:22Z'
+biotoolsCURIE: biotools:proteo
+biotoolsID: proteo
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: CNIC
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: CNIO
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: cnio.es
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: mtress@cnio.es
+    name: Michael Tress
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Support
+    url: http://ubio.bioinfo.cnio.es/people/mtress/
+  - email: mtress@cnio.es
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: 'Peptides that were identified, in collaboration, by Spanish National
+  Cancer Research Centre (CNIO) and Centro Nacional de Investigaciones Cardiovasculares
+  (CNIC).
+
+
+  We interrogate peptides from eight large-scale human proteomics experiments and
+  databases, irrespective of tissue or cell type, for the vast majority of the protein-coding
+  genes in these experiments. The peptide has to be included in at least 2 experiments.'
+documentation:
+  - note: null
+    type: General
+    url: http://apprisws.bioinfo.cnio.es/trackHubPROTEO/docs/PROTEO.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Prediction and recognition
+        uri: http://edamontology.org/operation_2423
+    output: []
+homepage: http://proteo.bioinfo.cnio.es
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link: []
+maturity: null
+name: 'PROTEO: Peptide evidence for the human genome'
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: jmrodriguez@cnio.es
+publication:
+  - doi: 10.1021/pr501286b
+    metadata:
+      abstract: "\xA9 2015 American Chemical Society.Although eukaryotic cells express\
+        \ a wide range of alternatively spliced transcripts, it is not clear whether\
+        \ genes tend to express a range of transcripts simultaneously across cells,\
+        \ or produce dominant isoforms in a manner that is either tissue-specific\
+        \ or regardless of tissue. To date, large-scale investigations into the pattern\
+        \ of transcript expression across distinct tissues have produced contradictory\
+        \ results. Here, we attempt to determine whether genes express a dominant\
+        \ splice variant at the protein level. We interrogate peptides from eight\
+        \ large-scale human proteomics experiments and databases and find that there\
+        \ is a single dominant protein isoform, irrespective of tissue or cell type,\
+        \ for the vast majority of the protein-coding genes in these experiments,\
+        \ in partial agreement with the conclusions from the most recent large-scale\
+        \ RNAseq study. Remarkably, the dominant isoforms from the experimental proteomics\
+        \ analyses coincided overwhelmingly with the reference isoforms selected by\
+        \ two completely orthogonal sources, the consensus coding sequence variants,\
+        \ which are agreed upon by separate manual genome curation teams, and the\
+        \ principal isoforms from the APPRIS database, predicted automatically from\
+        \ the conservation of protein sequence, structure, and function."
+      authors:
+        - name: Ezkurdia I.
+        - name: Rodriguez J.M.
+        - name: Carrillo-De Santa Pau E.
+        - name: Vazquez J.
+        - name: Valencia A.
+        - name: Tress M.L.
+      citationCount: 28
+      date: '2015-01-01T00:00:00Z'
+      journal: Journal of Proteome Research
+      title: Most highly expressed protein-coding genes have a single dominant isoform
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web API
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+validated: 1
+version:
+  - '1'

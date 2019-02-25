@@ -1,0 +1,95 @@
+accessibility: []
+additionDate: '2017-01-17T14:50:31Z'
+biotoolsCURIE: biotools:proteomatic
+biotoolsID: proteomatic
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: michael.specht@uni-muenster.de
+    name: Michael Specht
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Platform for creating MS/MS data analysis workflows using scripts.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/specht/proteomatic
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Spectral analysis
+        uri: http://edamontology.org/operation_3214
+    output: []
+homepage: https://github.com/specht/proteomatic
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: Proteomatic
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Summary: We present Proteomatic, an operating system independent\
+        \ and user-friendly platform that enables the construction and execution of\
+        \ MS/MS data evaluation pipelines using free and commercial software. Required\
+        \ external programs such as for peptide identification are downloaded automatically\
+        \ in the case of free software. Due to a strict separation of functionality\
+        \ and presentation, and support for multiple scripting languages, new processing\
+        \ steps can be added easily. \xA9 The Author 2011. Published by Oxford University\
+        \ Press. All rights reserved."
+      authors:
+        - name: Specht M.
+        - name: Kuhlgert S.
+        - name: Fufezan C.
+        - name: Hippler M.
+      citationCount: 28
+      date: '2011-04-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'Proteomics to go: Proteomatic enables the user-friendly creation of
+        versatile MS/MS data evaluation workflows'
+    pmcid: null
+    pmid: '21325302'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

@@ -1,0 +1,121 @@
+accessibility: []
+additionDate: '2016-05-17T10:17:55Z'
+biotoolsCURIE: biotools:proteoformer
+biotoolsID: proteoformer
+collectionID:
+  - BIG N2N
+  - UGent
+cost: null
+credit:
+  - email: null
+    name: ugent.be
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: Gerben.Menschaert@ugent.be
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Genome-wide visualization of ribosome occupancy.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/Biobix/proteoformer/blob/master/Information/README.txt
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Protein sequence
+          uri: http://edamontology.org/data_2976
+        format:
+          - term: FASTQ-like format
+            uri: http://edamontology.org/format_2545
+    note: null
+    operation:
+      - term: Prediction and recognition
+        uri: http://edamontology.org/operation_2423
+    output:
+      - data:
+          term: Database search results
+          uri: http://edamontology.org/data_2080
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+homepage: http://www.biobix.be/proteoformer/
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link: []
+maturity: null
+name: PROTEOFORMER
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: Katrijn.Vannerum@ugent.be
+publication:
+  - doi: 10.1093/nar/gku1283
+    metadata:
+      abstract: "\xA9 The Author(s) 2014. An increasing amount of studies integrate\
+        \ mRNA sequencing data into MS-based proteomics to complement the translation\
+        \ product search space. However, several factors, including extensive regulation\
+        \ of mRNA translation and the need for threeor six-frame-translation, impede\
+        \ the use of mRNAseq data for the construction of a protein sequence search\
+        \ database.With that inmind, we developed the PROTEOFORMER tool that automatically\
+        \ processes data of the recently developed ribosome profiling method (sequencing\
+        \ of ribosome-protected mRNA fragments), resulting in genome-wide visualization\
+        \ of ribosome occupancy. Our tool also includes a translation initiation site\
+        \ calling algorithm allowing the delineation of the open reading frames (ORFs)\
+        \ of all translation products. A complete protein synthesisbased sequence\
+        \ database can thus be compiled for mass spectrometry-based identification.\
+        \ This approach increases the overall protein identification rates with 3%\
+        \ and 11% (improved and new identifications) for human and mouse, respectively,\
+        \ and enables proteome-wide detection of 5'-extended proteoforms, upstream\
+        \ ORF translation and near-cognate translation start sites. The PROTEOFORMER\
+        \ tool is available as a stand-alone pipeline and has been implemented in\
+        \ the galaxy framework for ease of use."
+      authors:
+        - name: Crappe J.
+        - name: Ndah E.
+        - name: Koch A.
+        - name: Steyaert S.
+        - name: Gawron D.
+        - name: De Keulenaer S.
+        - name: De Meester E.
+        - name: De Meyer T.
+        - name: Van Criekinge W.
+        - name: Van Damme P.
+        - name: Menschaert G.
+      citationCount: 52
+      date: '2015-03-11T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'PROTEOFORMER: Deep proteome coverage through ribosome profiling and
+        MS integration'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+validated: 1
+version:
+  - '1'

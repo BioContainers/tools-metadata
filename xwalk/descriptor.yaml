@@ -1,0 +1,107 @@
+accessibility: []
+additionDate: '2017-05-02T10:01:20Z'
+biotoolsCURIE: biotools:xwalk
+biotoolsID: xwalk
+collectionID: []
+cost: null
+credit:
+  - email: abdullah@imsb.biol.ethz.ch
+    name: Dr. Abdullah Kahraman
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: "Xwalk allows the predicting and validating of chemical cross-links on\
+  \ existing protein structures. It calculates and displays non-linear distances between\
+  \ amino acids on protein surfaces, while mimicking the flexibility and non-linearity\
+  \ of cross-linker molecules. It returns a \u201CSolvent Accessible Surface Distance\u201D\
+  , which corresponds to the length of the shortest path between two amino acids,\
+  \ where the path leads through solvent occupied space without penetrating the protein\
+  \ surface."
+documentation:
+  - note: null
+    type: General
+    url: http://www.xwalk.org/cgi-bin/about.cgi
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein model validation
+        uri: http://edamontology.org/operation_0321
+      - term: Accessible surface calculation
+        uri: http://edamontology.org/operation_0384
+      - term: Molecular surface calculation
+        uri: http://edamontology.org/operation_0387
+      - term: Protein property calculation
+        uri: http://edamontology.org/operation_0250
+      - term: Residue distance calculation
+        uri: http://edamontology.org/operation_2950
+    output: []
+homepage: http://www.xwalk.org
+homepage_status: 0
+language:
+  - Javascript
+  - Java
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link: []
+maturity: null
+name: Xwalk
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: Chemical cross-linking of proteins or protein complexes\
+        \ and the mass spectrometry-based localization of the cross-linked amino acids\
+        \ in peptide sequences is a powerful method for generating distance restraints\
+        \ on the substrate's topology. Results: Here, we introduce the algorithm Xwalk\
+        \ for predicting and validating these cross-links on existing protein structures.\
+        \ Xwalk calculates and displays non-linear distances between chemically cross-linked\
+        \ amino acids on protein surfaces, while mimicking the flexibility and non-linearity\
+        \ of cross-linker molecules. It returns a 'solvent accessible surface distance',\
+        \ which corresponds to the length of the shortest path between two amino acids,\
+        \ where the path leads through solvent occupied space without penetrating\
+        \ the protein surface. \xA9 The Author(s) 2011. Published by Oxford University\
+        \ Press."
+      authors:
+        - name: Kahraman A.
+        - name: Malmstrom L.
+        - name: Aebersold R.
+      citationCount: 58
+      date: '2011-08-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'Xwalk: Computing and visualizing distances in cross-linking experiments'
+    pmcid: null
+    pmid: '21666267'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+  - term: Protein folds and structural domains
+    uri: http://edamontology.org/topic_0736
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+validated: 1
+version: []

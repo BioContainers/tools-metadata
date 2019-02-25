@@ -1,0 +1,87 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:24Z'
+biotoolsCURIE: biotools:percolator
+biotoolsID: percolator
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Semi-supervised learning for peptide identification from MS/MS data.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/percolator/percolator/wiki/example
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Blind peptide database search
+        uri: http://edamontology.org/operation_3647
+    output: []
+homepage: http://noble.gs.washington.edu/proj/percolator/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: Percolator
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: Shotgun proteomics uses liquid chromatography-tandem mass spectrometry
+        to identify proteins in complex biological samples. We describe an algorithm,
+        called Percolator, for improving the rate of confident peptide identifications
+        from a collection of tandem mass spectra. Percolator uses semi-supervised
+        machine learning to discriminate between correct and decoy spectrum identifications,
+        correctly assigning peptides to 17% more spectra from a tryptic Saccharomyces
+        cerevisiae dataset, and up to 77% more spectra from non-tryptic digests, relative
+        to a fully supervised approach.
+      authors:
+        - name: Kall L.
+        - name: Canterbury J.D.
+        - name: Weston J.
+        - name: Noble W.S.
+        - name: MacCoss M.J.
+      citationCount: 684
+      date: '2007-11-01T00:00:00Z'
+      journal: Nature Methods
+      title: Semi-supervised learning for peptide identification from shotgun proteomics
+        datasets
+    pmcid: null
+    pmid: '17952086'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

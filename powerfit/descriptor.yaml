@@ -1,0 +1,196 @@
+accessibility: []
+additionDate: '2016-10-30T05:33:50Z'
+biotoolsCURIE: biotools:powerfit
+biotoolsID: powerfit
+collectionID:
+  - BioExcel
+  - WestLife
+  - INSTRUCT
+cost: null
+credit:
+  - email: null
+    name: Utrecht University
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: EGI (www.egi.eu)
+    note: null
+    orcidid: null
+    typeEntity: Consortium
+    typeRole: []
+    url: null
+  - email: null
+    name: European FP7 e-Infrastructure grant, WeNMR, grant no. 261572
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Netherlands Organization for Scientific Research (NWO) , TOP-PUNT grant
+      no. 718.015.001
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Netherlands Organization for Scientific Research (NWO), VICI grant no. 700.96.442
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: European H2020 e-Infrastructure grant, West-Life VRE, grant no. 675858
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: European H2020 e-Infrastructure grant, INDICO-DataCloud, grant no. 653549
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: European H2020 e-Infrastructure grant, EGI-Engage, grant no. 654142
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: European H2020 e-Infrastructure grant, BioExcel, grant no. 675728
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Netherlands Organization for Scientific Research (NWO), ECHO grant no.711.011.009
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: http://uu.nl
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: powerfit.server@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://ask.bioexcel.eu/c/powerfit
+description: Automatically fit high-resolution atomic structures into cryo-EM densities.
+  Perform a full-exhaustive 6-dimensional cross-correlation search between the atomic
+  structure and the density.
+documentation:
+  - note: null
+    type: Citation instructions
+    url: http://milou.science.uu.nl/cgi/services/POWERFIT/powerfit/
+  - note: null
+    type: General
+    url: http://milou.science.uu.nl/cgi/services/POWERFIT/powerfit/help
+download:
+  - note: null
+    type: Source code
+    url: https://github.com/haddocking/powerfit
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: Fit an atomic model with a electron density map.
+    operation:
+      - term: Protein structure analysis
+        uri: http://edamontology.org/operation_2406
+    output: []
+homepage: http://milou.science.uu.nl/services/POWERFIT
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Repository
+    url: https://github.com/haddocking/powerfit
+maturity: Mature
+name: PowerFit web portal
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: m.e.trellet@uu.nl
+publication:
+  - doi: 10.3934/biophy.2015.2.73
+    metadata:
+      abstract: "\xA9 2015, Alexandre M.J.J. Bonvin, et al. Cryo-EM is a rapidly developing\
+        \ method to investigate the three dimensional structure of large macromolecular\
+        \ complexes. In spite of all the advances in the field, the resolution of\
+        \ most cryo-EM density maps is too low for de novo model building. Therefore,\
+        \ the data are often complemented by fitting high-resolution subunits in the\
+        \ density to allow for an atomic interpretation. Typically, the first step\
+        \ in the modeling process is placing the subunits in the density as a rigid\
+        \ body. An objective method for automatic placement is full-exhaustive six\
+        \ dimensional cross correlation search between the model and the cryo-EM data,\
+        \ where the three translational and three rotational degrees of freedom are\
+        \ systematically sampled. In this article we present PowerFit, a Python package\
+        \ and program for fast and sensitive rigid body fitting. We introduce a novel,\
+        \ more sensitive scoring function, the core-weighted local cross correlation,\
+        \ and show how it can be calculated using FFTs for fast translational cross\
+        \ correlation scans. We further improved the search algorithm by using optimized\
+        \ rotational sets to reduce rotational redundancy and by limiting the cryo-EM\
+        \ data size through resampling and trimming the density. We demonstrate the\
+        \ superior scoring sensitivity of our scoring function on simulated data of\
+        \ the 80S D. melanogaster ribosome and on experimental data for four different\
+        \ cases. Through these advances, a fine-grained rotational search can now\
+        \ be performed within minutes on a CPU and seconds on a GPU. PowerFit is free\
+        \ software and can be downloaded from https://github.com/haddocking/powerfit."
+      authors:
+        - name: van Zundert G.C.P.
+        - name: Bonvin A.M.J.J.
+      citationCount: 8
+      date: '2015-01-01T00:00:00Z'
+      journal: AIMS Biophysics
+      title: Fast and sensitive rigid-body fitting into cryo-EM density maps with
+        PowerFit
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+validated: 1
+version:
+  - '2.0'

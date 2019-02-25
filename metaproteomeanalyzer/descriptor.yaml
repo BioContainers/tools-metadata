@@ -1,0 +1,111 @@
+accessibility: []
+additionDate: '2017-01-17T14:50:25Z'
+biotoolsCURIE: biotools:metaproteomeanalyzer
+biotoolsID: metaproteomeanalyzer
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Pipeline to analyze metaproteomics data, supporting MGF and X!Tandem,
+  OMSSA and Mascot.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/compomics/meta-proteome-analyzer
+download:
+  - note: null
+    type: Source code
+    url: https://code.google.com/p/meta-proteome-analyzer/source/checkout
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+    note: null
+    operation:
+      - term: Peptide database search
+        uri: http://edamontology.org/operation_3646
+    output: []
+homepage: https://code.google.com/p/meta-proteome-analyzer/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: MetaProteomeAnalyzer
+operatingSystem:
+  - Linux
+  - Windows
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015 American Chemical Society.The enormous challenges of mass\
+        \ spectrometry-based metaproteomics are primarily related to the analysis\
+        \ and interpretation of the acquired data. This includes reliable identification\
+        \ of mass spectra and the meaningful integration of taxonomic and functional\
+        \ meta-information from samples containing hundreds of unknown species. To\
+        \ ease these difficulties, we developed a dedicated software suite, the MetaProteomeAnalyzer,\
+        \ an intuitive open-source tool for metaproteomics data analysis and interpretation,\
+        \ which includes multiple search engines and the feature to decrease data\
+        \ redundancy by grouping protein hits to so-called meta-proteins. We also\
+        \ designed a graph database back-end for the MetaProteomeAnalyzer to allow\
+        \ seamless analysis of results. The functionality of the MetaProteomeAnalyzer\
+        \ is demonstrated using a sample of a microbial community taken from a biogas\
+        \ plant."
+      authors:
+        - name: Muth T.
+        - name: Behne A.
+        - name: Heyer R.
+        - name: Kohrs F.
+        - name: Benndorf D.
+        - name: Hoffmann M.
+        - name: Lehteva M.
+        - name: Reichl U.
+        - name: Martens L.
+        - name: Rapp E.
+      citationCount: 44
+      date: '2015-01-01T00:00:00Z'
+      journal: Journal of Proteome Research
+      title: 'The MetaProteomeAnalyzer: A powerful open-source software suite for
+        metaproteomics data analysis and interpretation'
+    pmcid: null
+    pmid: '25660940'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

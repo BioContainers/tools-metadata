@@ -1,0 +1,108 @@
+accessibility: []
+additionDate: '2017-01-13T13:16:28Z'
+biotoolsCURIE: biotools:shorty
+biotoolsID: shorty
+collectionID: []
+cost: null
+credit:
+  - email: balanagireddy.m@gmail.com
+    name: Bala Nagi Reddy M
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: chandubobby@gmail.com
+    name: Chandrakanth Reddy B
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: sagar4uonnet@gmail.com
+    name: Anand Sagar Kothapalli
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Targetted for de novo assembly of microreads with mate pair information
+  and sequencing errors. It has some novel approach and features in addressing the
+  short read assembly problem.
+documentation:
+  - note: null
+    type: General
+    url: http://www3.cs.stonybrook.edu/~skiena/shorty/improvements.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence assembly
+        uri: http://edamontology.org/operation_0310
+    output: []
+homepage: http://www.cs.sunysb.edu/%7Eskiena/shorty/
+homepage_status: 0
+language:
+  - C++
+  - Perl
+lastUpdate: '2018-12-10T12:58:54Z'
+license: null
+link: []
+maturity: Legacy
+name: SHORTY
+operatingSystem: []
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Background: New short-read sequencing technologies produce enormous\
+        \ volumes of 25-30 base paired-end reads. The resulting reads have vastly\
+        \ different characteristics than produced by Sanger sequencing, and require\
+        \ different approaches than the previous generation of sequence assemblers.\
+        \ In this paper, we present a short-read de novo assembler particularly targeted\
+        \ at the new ABI SOLiD sequencing technology. Results: This paper presents\
+        \ what we believe to be the first de novo sequence assembly results on real\
+        \ data from the emerging SOLiD platform, introduced by Applied Biosystems.\
+        \ Our assembler SHORTY augments short-paired reads using a trivially small\
+        \ number (5 - 10) of seeds of length 300 - 500 bp. These seeds enable us to\
+        \ produce significant assemblies using short-read coverage no more than 100\xD7\
+        , which can be obtained in a single run of these high-capacity sequencers.\
+        \ SHORTY exploits two ideas which we believe to be of interest to the short-read\
+        \ assembly community: (1) using single seed reads to crystallize assemblies,\
+        \ and (2) estimating intercontig distances accurately from multiple spanning\
+        \ paired-end reads. Conclusion: We demonstrate effective assemblies (N50 contig\
+        \ sizes \u223C40 kb) of three different bacterial species using simulated\
+        \ SOLiD data. Sequencing artifacts limit our performance on real data, however\
+        \ our results on this data are substantially better than those achieved by\
+        \ competing assemblers. \xA9 2009 Hossain et al; licensee BioMed Central Ltd."
+      authors:
+        - name: Hossain M.
+        - name: Azimi N.
+        - name: Skiena S.
+      citationCount: 26
+      date: '2009-01-30T00:00:00Z'
+      journal: BMC Bioinformatics
+      title: Crystallizing short-read assemblies around seeds
+    pmcid: null
+    pmid: '19208115'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+validated: 1
+version: []

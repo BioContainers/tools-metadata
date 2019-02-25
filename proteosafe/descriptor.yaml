@@ -1,0 +1,101 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:11Z'
+biotoolsCURIE: biotools:proteosafe
+biotoolsID: proteosafe
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Blind spectral search of tandem mass spectra of peptides.
+documentation:
+  - note: null
+    type: General
+    url: https://proteomics.ucsd.edu/ProteoSAFe/help.jsp
+download:
+  - note: null
+    type: Source code
+    url: https://web.archive.org/web/20070706084404/http://peptide.ucsd.edu/ftprepos.html
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: de Novo sequencing
+        uri: http://edamontology.org/operation_3644
+    output: []
+homepage: http://proteomics.ucsd.edu/ProteoSAFe/
+homepage_status: 0
+language:
+  - Python
+  - C
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: ProteoSAFe
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Filtration techniques in the form of rapid elimination of candidate\
+        \ sequences while retaining the true one are key ingredients of database searches\
+        \ in genomics. Although SEQUEST and Mascot perform a conceptually similar\
+        \ task to the tool BLAST, the key algorithmic idea of BLAST (filtration) was\
+        \ never implemented in these tools. As a result MS/MS protein identification\
+        \ tools are becoming too time-consuming for many applications including search\
+        \ for post-translationally modified peptides. Moreover, matching millions\
+        \ of spectra against all known proteins will soon make these tools too slow\
+        \ in the same way that \"genome vs genome\" comparisons instantly made BLAST\
+        \ too slow. We describe the development of filters for MS/MS database searches\
+        \ that dramatically reduce the running time and effectively remove the bottlenecks\
+        \ in searching the huge space of protein modifications. Our approach, based\
+        \ on a probability model for determining the accuracy of sequence tags, achieves\
+        \ superior results compared to GutenTag, a popular tag generation algorithm.\
+        \ Our tag generating algorithm along with our de novo sequencing algorithm\
+        \ PepNovo can be accessed via the URL http://peptide.ucsd.edu/. \xA9 2005\
+        \ American Chemical Society."
+      authors:
+        - name: Frank A.
+        - name: Tanner S.
+        - name: Bafna V.
+        - name: Pevzner P.
+      citationCount: 102
+      date: '2005-07-01T00:00:00Z'
+      journal: Journal of Proteome Research
+      title: Peptide sequence tags for fast database search in mass-spectrometry
+    pmcid: null
+    pmid: '16083278'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

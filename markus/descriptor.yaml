@@ -1,0 +1,101 @@
+accessibility: []
+additionDate: '2017-02-14T09:35:18Z'
+biotoolsCURIE: biotools:markus
+biotoolsID: markus
+collectionID: []
+cost: null
+credit:
+  - email: honig_software@c2b2.columbia.edu
+    name: Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: MarkUs is a web server for analysis and comparison of the structural
+  and functional properties of proteins.
+documentation:
+  - note: null
+    type: General
+    url: http://honig.c2b2.columbia.edu/markus
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein function comparison
+        uri: http://edamontology.org/operation_1778
+      - term: Protein structure comparison
+        uri: http://edamontology.org/operation_2487
+      - term: Structure comparison
+        uri: http://edamontology.org/operation_2483
+      - term: Protein property comparison
+        uri: http://edamontology.org/operation_2930
+    output: []
+homepage: http://wiki.c2b2.columbia.edu/honiglab_public/index.php/Software:Mark-Us
+homepage_status: 0
+language:
+  - SQL
+lastUpdate: '2018-12-10T12:58:54Z'
+license: null
+link: []
+maturity: null
+name: MarkUs
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "We describe MarkUs, a web server for analysis and comparison of the\
+        \ structural and functional properties of proteins. In contrast to a 'structure\
+        \ in/function out' approach to protein function annotation, the server is\
+        \ designed to be highly interactive and to allow flexibility in the examination\
+        \ of possible functions, suggested either automatically by various similarity\
+        \ measures or specified by a user directly. This is combined with tools that\
+        \ allow a user to assess independently whether or not a suggested function\
+        \ is consistent with the bioinformatic and biophysical properties of a given\
+        \ query structure, further allowing the user to generate testable hypotheses.\
+        \ The server is available at http://wiki.c2b2.columbia.edu/honiglab-public/index.php/\
+        \ Software:Mark-Us. \xA9 2011 The Author(s)."
+      authors:
+        - name: Fischer M.
+        - name: Zhang Q.C.
+        - name: Dey F.
+        - name: Chen B.Y.
+        - name: Honig B.
+        - name: Petrey D.
+      citationCount: 11
+      date: '2011-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'MarkUs: A server to navigate sequence-structure-function space'
+    pmcid: null
+    pmid: '21672961'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Protein properties
+    uri: http://edamontology.org/topic_0123
+  - term: Function analysis
+    uri: http://edamontology.org/topic_1775
+  - term: Structure analysis
+    uri: http://edamontology.org/topic_0081
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+validated: 1
+version: []

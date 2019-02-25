@@ -1,0 +1,87 @@
+accessibility: []
+additionDate: '2017-01-13T13:15:34Z'
+biotoolsCURIE: biotools:mu2a
+biotoolsID: mu2a
+collectionID: []
+cost: null
+credit:
+  - email: michael.krauthammer@yale.edu
+    name: Michael Krauthammer
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Genomic variant annotation tool
+documentation:
+  - note: null
+    type: General
+    url: https://code.google.com/archive/p/mu2a/wikis
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: SNP annotation
+        uri: http://edamontology.org/operation_3661
+    output: []
+homepage: https://code.google.com/archive/p/mu2a/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link: []
+maturity: Legacy
+name: MU2A
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: Next-generation sequencing technologies enable the identification\
+        \ of sequence variation in the genome and transcriptome. Differences between\
+        \ the reference genome and transcript libraries complicate the determination\
+        \ of the effect of genomic sequence variants on protein products; similarly,\
+        \ these differences complicate the mapping of sequence variants found in transcripts\
+        \ to their respective genomic position. We have developed MU2A, a publicly\
+        \ available web service for variant annotation that reconciles differences\
+        \ between the genome and transcriptome, enabling the rapid and accurate determination\
+        \ of the effects of genomic variants on protein products, and the mapping\
+        \ of variants detected in transcripts to genomic coordinates. The MU2A web\
+        \ service is available at http://krauthammerlab.med.yale.edu/mu2a. We have\
+        \ released MU2A as open source, available at http://code.google.com/p/mu2a/.\
+        \ \xA9 The Author(s) 2010. Published by Oxford University Press."
+      authors:
+        - name: Garla V.
+        - name: Kong Y.
+        - name: Szpakowski S.
+        - name: Krauthammer M.
+      citationCount: 5
+      date: '2011-02-01T00:00:00Z'
+      journal: Bioinformatics
+      title: MU2A-reconciling the genome and transcriptome to determine the effects
+        of base substitutions
+    pmcid: null
+    pmid: '21149339'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+validated: 1
+version: []

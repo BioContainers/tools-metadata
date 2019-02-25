@@ -1,0 +1,101 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:14Z'
+biotoolsCURIE: biotools:prosight_ptm
+biotoolsID: prosight_ptm
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Web portal for PTM search in top-down experiments.
+documentation:
+  - note: null
+    type: General
+    url: https://prosightptm.northwestern.edu/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: de Novo sequencing
+        uri: http://edamontology.org/operation_3644
+    output: []
+homepage: https://prosightptm.northwestern.edu/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: ProSight PTM
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "For the identification and characterization of proteins harboring\
+        \ posttranslational modifications (PTMs), a \"top down\" strategy using mass\
+        \ spectrometry has been forwarded recently but languishes without tailored\
+        \ software widely available. We describe a Web-based software and database\
+        \ suite called ProSight PTM constructed for large-scale proteome projects\
+        \ involving direct fragmentation of intact protein ions. Four main components\
+        \ of ProSight PTM are a database retrieval algorithm (Retriever), MySQL protein\
+        \ databases, a file/data manager, and a project tracker. Retriever performs\
+        \ probability-based identifications from absolute fragment ion masses, automatically\
+        \ compiled sequence tags, or a combination of the two, with graphical rendering\
+        \ and browsing of the results. The database structure allows known and putative\
+        \ protein forms to be searched, with prior or predicted PTM knowledge used\
+        \ during each search. Initial functionality is illustrated with a 36-kDa yeast\
+        \ protein identified from a processed cell extract after automated data acquisition\
+        \ using a quadrupole-FT hybrid mass spectrometer. A +142-Da \u0394m on glyceraldehyde-3-phosphate\
+        \ dehydrogenase was automatically localized between Asp90 and Asp192, consistent\
+        \ with its two cystine residues (149 and 153) alkylated by acrylamide (+71\
+        \ Da each) during the gel-based sample preparation. ProSight PTM is the first\
+        \ search engine and Web environment for identification of intact proteins\
+        \ (https://prosightptm.scs.uiuc.edu/)."
+      authors:
+        - name: Taylor G.K.
+        - name: Kim Y.-B.
+        - name: Forbes A.J.
+        - name: Meng F.
+        - name: McCarthy R.
+        - name: Kelleher N.L.
+      citationCount: 114
+      date: '2003-08-15T00:00:00Z'
+      journal: Analytical Chemistry
+      title: Web and database software for identification of intact proteins using
+        "top down" mass spectrometry
+    pmcid: null
+    pmid: '14632120'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

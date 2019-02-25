@@ -1,0 +1,126 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:12Z'
+biotoolsCURIE: biotools:peaks_de_novo
+biotoolsID: peaks_de_novo
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Integrated ''de novo'' peptide sequencing , PTM finder , and homology
+  search (demo available).
+documentation:
+  - note: null
+    type: General
+    url: http://www.bioinfor.com/de-novo-sequencing/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: de Novo sequencing
+        uri: http://edamontology.org/operation_3644
+    output: []
+homepage: http://www.bioinfor.com/peaks/features/denovo.html
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: PEAKS De Novo
+operatingSystem:
+  - Windows
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "A number of different approaches have been described to identify\
+        \ proteins from tandem mass spectrometry (MS/MS) data. The most common approaches\
+        \ rely on the available databases to match experimental MS/MS data. These\
+        \ methods suffer from several drawbacks and cannot be used for the identification\
+        \ of proteins from unknown genomes. In this communication, we describe a new\
+        \ de novo sequencing software package, PEAKS, to extract amino acid sequence\
+        \ information without the use of databases. PEAKS uses a new model and a new\
+        \ algorithm to efficiently compute the best peptide sequences whose fragment\
+        \ ions can best interpret the peaks in the MS/MS spectrum. The output of the\
+        \ software gives amino acid sequences with confidence scores for the entire\
+        \ sequences, as well as an additional novel positional scoring scheme for\
+        \ portions of the sequences. The performance of PEAKS is compared with Lutefisk,\
+        \ a well-known de novo sequencing software, using quadrupole-time-of-flight\
+        \ (Q-TOF) data obtained for several tryptic peptides from standard proteins.\
+        \ Copyright \xA9 2003 John Wiley & Sons, Ltd."
+      authors:
+        - name: Ma B.
+        - name: Zhang K.
+        - name: Hendrie C.
+        - name: Liang C.
+        - name: Li M.
+        - name: Doherty-Kirby A.
+        - name: Lajoie G.
+      citationCount: 636
+      date: '2003-01-01T00:00:00Z'
+      journal: Rapid Communications in Mass Spectrometry
+      title: 'PEAKS: Powerful software for peptide de novo sequencing by tandem mass
+        spectrometry'
+    pmcid: null
+    pmid: '14558135'
+    type: null
+    version: null
+  - doi: null
+    metadata:
+      abstract: "For the identification of novel proteins using MS/MS, de novo sequencing\
+        \ software computes one or several possible amino acid sequences (called sequence\
+        \ tags) for each MS/MS spectrum. Those tags are then used to match, accounting\
+        \ amino acid mutations, the sequences in a protein database. If the de novo\
+        \ sequencing gives correct tags, the homologs of the proteins can be identified\
+        \ by this approach and software such as MS-BLAST is available for the matching.\
+        \ However, de novo sequencing very often gives only partially correct tags.\
+        \ The most common error is that a segment of amino acids is replaced by another\
+        \ segment with approximately the same masses. We developed a new efficient\
+        \ algorithm to match sequence tags with errors to database sequences for the\
+        \ purpose of protein and peptide identification. A software package, SPIDER,\
+        \ was developed and made available on Internet for free public use. This paper\
+        \ describes the algorithms and features of the SPIDER software. \xA9 Imperial\
+        \ College Press."
+      authors:
+        - name: Han Y.
+        - name: Ma B.
+        - name: Zhang K.
+      citationCount: 134
+      date: '2005-06-01T00:00:00Z'
+      journal: Journal of Bioinformatics and Computational Biology
+      title: 'Spider: Software for protein identification from sequence tags with
+        de novo sequencing error'
+    pmcid: null
+    pmid: '16108090'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

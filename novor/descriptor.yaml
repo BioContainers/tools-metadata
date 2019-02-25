@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:12Z'
+biotoolsCURIE: biotools:novor
+biotoolsID: novor
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Fast, real-time peptide ''de novo'' sequencing engine.
+documentation:
+  - note: null
+    type: General
+    url: https://www.rapidnovor.com/download/
+download:
+  - note: null
+    type: Source code
+    url: http://www.rapidnovor.com/download/
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: de Novo sequencing
+        uri: http://edamontology.org/operation_3644
+    output: []
+homepage: http://cloud.rapidnovor.org/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: Novor
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015 The Author(s).(Figure Presented) De novo sequencing software\
+        \ has been widely used in proteomics to sequence new peptides from tandem\
+        \ mass spectrometry data. This study presents a new software tool, Novor,\
+        \ to greatly improve both the speed and accuracy of today's peptide de novo\
+        \ sequencing analyses. To improve the accuracy, Novor's scoring functions\
+        \ are based on two large decision trees built from a peptide spectral library\
+        \ with more than 300,000 spectra with machine learning. Important knowledge\
+        \ about peptide fragmentation is extracted automatically from the library\
+        \ and incorporated into the scoring functions. The decision tree model also\
+        \ enables efficient score calculation and contributes to the speed improvement.\
+        \ To further improve the speed, a two-stage algorithmic approach, namely dynamic\
+        \ programming and refinement, is used. The software program was also carefully\
+        \ optimized. On the testing datasets, Novor sequenced 7%-37% more correct\
+        \ residues than the state-of-the-art de novo sequencing tool, PEAKS, while\
+        \ being an order of magnitude faster. Novor can de novo sequence more than\
+        \ 300 MS/MS spectra per second on a laptop computer. The speed surpasses the\
+        \ acquisition speed of today's mass spectrometer and, therefore, opens a new\
+        \ possibility to de novo sequence in real time while the spectrometer is acquiring\
+        \ the spectral data."
+      authors:
+        - name: Ma B.
+      citationCount: 48
+      date: '2015-11-01T00:00:00Z'
+      journal: Journal of the American Society for Mass Spectrometry
+      title: 'Novor: Real-Time Peptide de Novo Sequencing Software'
+    pmcid: null
+    pmid: '26122521'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

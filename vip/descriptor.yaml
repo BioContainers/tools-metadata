@@ -1,0 +1,108 @@
+accessibility: []
+additionDate: '2017-01-13T13:17:01Z'
+biotoolsCURIE: biotools:vip
+biotoolsID: vip
+collectionID: []
+cost: null
+credit:
+  - email: yang_li89@outlook.com
+    name: Yang Li
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A complete package designed for next-generation diagnostics using 454
+  sequencing.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/keylabivdc/VIP/blob/master/README.md
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: SNP annotation
+        uri: http://edamontology.org/operation_3661
+      - term: SNP detection
+        uri: http://edamontology.org/operation_0484
+      - term: Mapping
+        uri: http://edamontology.org/operation_2429
+    output: []
+homepage: https://github.com/keylabivdc/VIP
+homepage_status: 0
+language:
+  - Perl
+  - Python
+lastUpdate: '2018-12-10T12:58:53Z'
+license: LGPL-2.1
+link: []
+maturity: null
+name: VIP
+operatingSystem:
+  - Linux
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Background: Next-generation amplicon sequencing enables high-throughput\
+        \ genetic diagnostics, sequencing multiple genes in several patients together\
+        \ in one sequencing run. Currently, no open-source out-of-the-box software\
+        \ solution exists that reliably reports detected genetic variations and that\
+        \ can be used to improve future sequencing effectiveness by analyzing the\
+        \ PCR reactions.Results: We developed an integrated database oriented software\
+        \ pipeline for analysis of 454/Roche GS-FLX amplicon resequencing experiments\
+        \ using Perl and a relational database. The pipeline enables variation detection,\
+        \ variation detection validation, and advanced data analysis, which provides\
+        \ information that can be used to optimize PCR efficiency using traditional\
+        \ means. The modular approach enables customization of the pipeline where\
+        \ needed and allows researchers to adopt their analysis pipeline to their\
+        \ experiments. Clear documentation and training data is available to test\
+        \ and validate the pipeline prior to using it on real sequencing data.Conclusions:\
+        \ We designed an open-source database oriented pipeline that enables advanced\
+        \ analysis of 454/Roche GS-FLX amplicon resequencing experiments using SQL-statements.\
+        \ This modular database approach allows easy coupling with other pipeline\
+        \ modules such as variant interpretation or a LIMS system. There is also a\
+        \ set of standard reporting scripts available. \xA9 2010 De Schrijver et al;\
+        \ licensee BioMed Central Ltd."
+      authors:
+        - name: De Schrijver J.M.
+        - name: De Leeneer K.
+        - name: Lefever S.
+        - name: Sabbe N.
+        - name: Pattyn F.
+        - name: Van Nieuwerburgh F.
+        - name: Coucke P.
+        - name: Deforce D.
+        - name: Vandesompele J.
+        - name: Bekaert S.
+        - name: Hellemans J.
+        - name: Van Criekinge W.
+      citationCount: 14
+      date: '2010-05-20T00:00:00Z'
+      journal: BMC Bioinformatics
+      title: Analysing 454 amplicon resequencing experiments using the modular and
+        database oriented Variant Identification Pipeline
+    pmcid: null
+    pmid: '20487544'
+    type: null
+    version: null
+toolType:
+  - Workflow
+topic:
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+validated: 1
+version: []

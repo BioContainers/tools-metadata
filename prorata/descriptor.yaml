@@ -1,0 +1,108 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:39Z'
+biotoolsCURIE: biotools:prorata
+biotoolsID: prorata
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Differential proteomics analysis using for various stable isotope labeling
+  schemes.
+documentation:
+  - note: null
+    type: General
+    url: https://code.google.com/archive/p/prorata/wikis/UsersManual.wiki
+download: []
+editPermission:
+  authors:
+    - ELIXIR-EE
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Peak calling
+        uri: http://edamontology.org/operation_3222
+      - term: Validation
+        uri: http://edamontology.org/operation_2428
+      - term: Protein quantification
+        uri: http://edamontology.org/operation_3630
+    output: []
+homepage: https://code.google.com/archive/p/prorata/
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: ProRata
+operatingSystem:
+  - Linux
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "A profile likelihood algorithm is proposed for quantitative shotgun\
+        \ proteomics to infer the abundance ratios of proteins from the abundance\
+        \ ratios of isotopically labeled peptides derived from proteolysis. Previously,\
+        \ we have shown that the estimation variability and bias of peptide abundance\
+        \ ratios can be predicted from their profile signal-to-noise ratios. Given\
+        \ multiple quantified peptides for a protein, the profile likelihood algorithm\
+        \ probabilistically weighs the peptide abundance ratios by their inferred\
+        \ estimation variability, accounts for their expected estimation bias, and\
+        \ suppresses contribution from outliers. This algorithm yields maximum likelihood\
+        \ point estimation and profile likelihood confidence interval estimation of\
+        \ protein abundance ratios. This point estimator is more accurate than an\
+        \ estimator based on the average of peptide abundance ratios. The confidence\
+        \ interval estimation provides an \"error bar\" for each protein abundance\
+        \ ratio that reflects its estimation precision and statistical uncertainty.\
+        \ The accuracy of the point estimation and the precision and confidence level\
+        \ of the interval estimation were benchmarked with standard mixtures of isotopically\
+        \ labeled proteomes. The profile likelihood algorithm was integrated into\
+        \ a quantitative proteomics program, called ProRata, freely available at www.MSProRata.org.\
+        \ \xA9 2006 American Chemical Society."
+      authors:
+        - name: Pan C.
+        - name: Kora G.
+        - name: McDonald W.H.
+        - name: Tabb D.L.
+        - name: VerBerkmoes N.C.
+        - name: Hurst G.B.
+        - name: Pelletier D.A.
+        - name: Samatova N.F.
+        - name: Hettich R.L.
+      citationCount: 81
+      date: '2006-10-15T00:00:00Z'
+      journal: Analytical Chemistry
+      title: 'ProRata: A quantitative proteomics program for accurate protein abundance
+        ratio estimation with confidence interval evaluation'
+    pmcid: null
+    pmid: '17037911'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

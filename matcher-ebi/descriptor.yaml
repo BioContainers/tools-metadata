@@ -1,0 +1,128 @@
+accessibility: []
+additionDate: '2015-01-29T15:47:33Z'
+biotoolsCURIE: biotools:matcher-ebi
+biotoolsID: matcher-ebi
+collectionID:
+  - EMBOSS at EBI Tools
+  - EBI Tools
+cost: null
+credit:
+  - email: null
+    name: EMBOSS
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Web Production
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: EMBL-EBI
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.ebi.ac.uk/support/
+  - email: es-request@ebi.ac.uk
+    name: Web Production
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Waterman-Eggert local alignment of two sequences.
+documentation:
+  - note: null
+    type: Terms of use
+    url: http://www.ebi.ac.uk/about/terms-of-use
+  - note: null
+    type: General
+    url: http://www.ebi.ac.uk/Tools/psa/emboss_matcher/
+download: []
+editPermission:
+  authors:
+    - biomadeira
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format: []
+    note: null
+    operation:
+      - term: Pairwise sequence alignment
+        uri: http://edamontology.org/operation_0491
+      - term: Local alignment
+        uri: http://edamontology.org/operation_0495
+    output:
+      - data:
+          term: Sequence alignment (pair)
+          uri: http://edamontology.org/data_1381
+        format: []
+homepage: http://www.ebi.ac.uk/Tools/psa/emboss_matcher/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Helpdesk
+    url: http://www.ebi.ac.uk/support/
+maturity: null
+name: matcher (EBI)
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: EMBL-EBI
+publication:
+  - doi: 10.1016/0196-8858(91)90017-D
+    metadata:
+      abstract: "Dynamic programming algorithms to determine similar regions of two\
+        \ sequences are useful for analyzing biosequence data. This paper presents\
+        \ a time-efficient algorithm that produces k best \"non-intersecting\" local\
+        \ alignments for any chosen k. The algorithm's main strength is that it needs\
+        \ only O(M + N + K) space, where M and N are the lengths of the given sequences\
+        \ and K is the total length of the computed alignments. \xA9 1991."
+      authors:
+        - name: Huang X.
+        - name: Miller W.
+      citationCount: 738
+      date: '1991-01-01T00:00:00Z'
+      journal: Advances in Applied Mathematics
+      title: A time-efficient, linear-space local similarity algorithm
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version:
+  - '1'

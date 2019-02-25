@@ -1,0 +1,113 @@
+accessibility: []
+additionDate: '2017-01-17T14:50:40Z'
+biotoolsCURIE: biotools:peppy
+biotoolsID: peppy
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: brian@geneffects.com
+    name: Brian
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: A software that identifies new proteins and aberrant protein forms withing
+  proteomic data.
+documentation:
+  - note: null
+    type: General
+    url: http://www.geneffects.com/peppy/
+download: []
+editPermission:
+  authors:
+    - ELIXIR-EE
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence feature detection
+        uri: http://edamontology.org/operation_0253
+      - term: Protein feature detection
+        uri: http://edamontology.org/operation_3092
+      - term: Protein identification
+        uri: http://edamontology.org/operation_3767
+    output: []
+homepage: http://www.geneffects.com/peppy/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: Peppy
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Proteogenomic searching is a useful method for identifying novel\
+        \ proteins, annotating genes and detecting peptides unique to an individual\
+        \ genome. The approach, however, can be laborious, as it often requires search\
+        \ segmentation and the use of several unintegrated tools. Furthermore, many\
+        \ proteogenomic efforts have been limited to small genomes, as large genomes\
+        \ can prove impractical due to the required amount of computer memory and\
+        \ computation time. We present Peppy, a software tool designed to perform\
+        \ every necessary task of proteogenomic searches quickly, accurately and automatically.\
+        \ The software generates a peptide database from a genome, tracks peptide\
+        \ loci, matches peptides to MS/MS spectra and assigns confidence values to\
+        \ those matches. Peppy automatically performs a decoy database generation,\
+        \ search and analysis to return identifications at the desired false discovery\
+        \ rate threshold. Written in Java for cross-platform execution, the software\
+        \ is fully multithreaded for enhanced speed. The program can run on regular\
+        \ desktop computers, opening the doors of proteogenomic searching to a wider\
+        \ audience of proteomics and genomics researchers. Peppy is available at http://geneffects.com/peppy.\
+        \ \xA9 2013 American Chemical Society."
+      authors:
+        - name: Risk B.A.
+        - name: Spitzer W.J.
+        - name: Giddings M.C.
+      citationCount: 49
+      date: '2013-07-01T00:00:00Z'
+      journal: Journal of Proteome Research
+      title: 'Peppy: Proteogenomic search software'
+    pmcid: null
+    pmid: '23614390'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+  - term: Oncology
+    uri: http://edamontology.org/topic_2640
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+validated: 1
+version: []

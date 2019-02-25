@@ -1,0 +1,103 @@
+accessibility: []
+additionDate: '2016-05-17T10:18:17Z'
+biotoolsCURIE: biotools:jsparklines
+biotoolsID: jsparklines
+collectionID:
+  - BIG N2N
+  - VIB
+  - Compomics
+  - UGent
+cost: null
+credit:
+  - email: null
+    name: ugent.be
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: lennart.martens@ugent.be
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Makes it straightforward to visualize numbers in Java tables by the use
+  of sparklines.
+documentation:
+  - note: null
+    type: General
+    url: http://compomics.github.io/projects/jsparklines/wiki/tutorial.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Visualisation
+        uri: http://edamontology.org/operation_0337
+    output:
+      - data:
+          term: Heat map
+          uri: http://edamontology.org/data_1636
+        format: []
+homepage: http://compomics.github.io/projects/jsparklines.html
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link: []
+maturity: null
+name: JSparklines
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: Katrijn.Vannerum@ugent.be
+publication:
+  - doi: 10.1002/pmic.201400356
+    metadata:
+      abstract: "\xA9 2014 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim.Perhaps the\
+        \ most common way of presenting proteomics data, and indeed life sciences\
+        \ data in general, is by using some form of tabular data. And while tables\
+        \ can be very informative and contain lots of information, the format can\
+        \ be challenging to interpret visually. An elegant and efficient solution\
+        \ is to extend the textual and numerical information with an additional visual\
+        \ layer, referred to as sparklines, making it intuitive to draw inferences\
+        \ about the properties of the underlying data. We here present a free and\
+        \ open source Java library called JSparklines (http://jsparklines.googlecode.com)\
+        \ that allows straightforward addition of a substantial list of customizable\
+        \ sparklines to tabular data representations, and we show examples of how\
+        \ these sparklines greatly simplify the interpretation of the tabular data."
+      authors:
+        - name: Barsnes H.
+        - name: Vaudel M.
+        - name: Martens L.
+      citationCount: 6
+      date: '2015-04-01T00:00:00Z'
+      journal: Proteomics
+      title: 'JSparklines: Making tabular proteomics data come alive'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+  - term: Omics
+    uri: http://edamontology.org/topic_3391
+validated: 1
+version:
+  - 1.0.6

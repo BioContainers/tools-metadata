@@ -1,0 +1,66 @@
+accessibility: []
+additionDate: '2017-01-17T14:50:54Z'
+biotoolsCURIE: biotools:readw
+biotoolsID: readw
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Converts Xcalibur native acquisition files to mzXML.
+documentation:
+  - note: null
+    type: General
+    url: http://tools.proteomecenter.org/wiki/index.php?title=Software:ReAdW
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output:
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+homepage: http://tools.proteomecenter.org/ReAdW.php
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: ReAdW
+operatingSystem:
+  - Windows
+otherID: []
+owner: msutils_import
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

@@ -1,0 +1,88 @@
+accessibility: []
+additionDate: '2017-01-17T14:50:52Z'
+biotoolsCURIE: biotools:msgfdb2pepxml
+biotoolsID: msgfdb2pepxml
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: magnus.palmblad@gmail.com
+    name: Magnus Palmblad
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Converter from MS-GFDB output to pepXML.
+documentation:
+  - note: null
+    type: General
+    url: http://ms-utils.org/msgfdb2pepxml/index.html
+download:
+  - note: null
+    type: Source code
+    url: http://ms-utils.org/msgfdb2pepxml/msgfdb2pepxml.py
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
+    note: null
+    operation:
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output:
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: pepXML
+            uri: http://edamontology.org/format_3655
+homepage: http://ms-utils.org/msgfdb2pepxml/index.html
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:53Z'
+license: GPL-3.0
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: msgfdb2pepxml
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

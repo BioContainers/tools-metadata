@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:13Z'
+biotoolsCURIE: biotools:postman
+biotoolsID: postman
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Post-translational modification software.
+documentation:
+  - note: null
+    type: General
+    url: http://www.uib.no/en/rg/probe/65847/postman
+download:
+  - note: null
+    type: Source code
+    url: http://org.uib.no/probe/POSTMan2_0a_sources.zip
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: de Novo sequencing
+        uri: http://edamontology.org/operation_3644
+    output: []
+homepage: http://www.uib.no/en/rg/probe/65847/postman
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: POSTMan
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Post-translationally modified peptides present in low concentrations\
+        \ are often not selected for CID, resulting in no sequence information for\
+        \ these peptides. We have developed a software POSTMan (POST-translational\
+        \ Modification analysis) allowing post-translationally modified peptides to\
+        \ be targeted for fragmentation. The software aligns LC-MS runs (MS1 data)\
+        \ between individual runs or within a single run and isolates pairs of peptides\
+        \ which differ by a user defined mass difference (post-translationally modified\
+        \ peptides). The method was validated for acetylated peptides and allowed\
+        \ an assessment of even the basal protein phosphorylation of phenylalanine\
+        \ hydroxylase (PHA) in intact cells. \xA9 2009 Wiley-VCH Verlag GmbH & Co.\
+        \ KGaA."
+      authors:
+        - name: Arntzen M.O.
+        - name: Osland C.L.
+        - name: Raa C.R.-O.
+        - name: Kopperud R.
+        - name: Doskeland S.-O.
+        - name: Lewis A.E.
+        - name: D'Santos C.S.
+      citationCount: 3
+      date: '2009-03-01T00:00:00Z'
+      journal: Proteomics
+      title: POSTMan (POST-translational modification analysis), a software application
+        for PTM discovery
+    pmcid: null
+    pmid: '19253288'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

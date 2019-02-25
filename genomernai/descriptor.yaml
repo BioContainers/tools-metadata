@@ -1,0 +1,207 @@
+accessibility: []
+additionDate: '2016-02-11T10:17:53Z'
+biotoolsCURIE: biotools:genomernai
+biotoolsID: genomernai
+collectionID:
+  - de.NBI
+cost: null
+credit:
+  - email: null
+    name: Esther Schmidt
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Benedikt Rauscher
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Oliver Pelz
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Michael Boutros
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: German Cancer Research Center
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: hdhub
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: contact@genomernai.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: This database makes available RNAi phenotype data extracted from the
+  literature, or submitted by data producers directly, for human and Drosophila. It
+  also provides RNAi reagent information, along with an assessment as to their efficiency
+  and specificity.
+documentation:
+  - note: null
+    type: Citation instructions
+    url: http://www.genomernai.org/About#
+  - note: null
+    type: General
+    url: http://rnai-screening-wiki.dkfz.de/confluence/display/genomernai/Home
+download:
+  - note: null
+    type: Source code
+    url: http://www.genomernai.org/DownloadAllExperimentsForm
+    version: null
+  - note: null
+    type: Binaries
+    url: http://www.genomernai.org/DownloadAllExperimentsForm
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: FlyBase ID
+          uri: http://edamontology.org/data_1089
+        format: []
+      - data:
+          term: Ensembl gene ID
+          uri: http://edamontology.org/data_1033
+        format: []
+      - data:
+          term: Gene symbol
+          uri: http://edamontology.org/data_1026
+        format: []
+      - data:
+          term: PubMed ID
+          uri: http://edamontology.org/data_1187
+        format: []
+      - data:
+          term: Person identifier
+          uri: http://edamontology.org/data_2118
+        format: []
+      - data:
+          term: Phenotype name
+          uri: http://edamontology.org/data_3275
+        format: []
+      - data:
+          term: Identifier
+          uri: http://edamontology.org/data_0842
+        format: []
+      - data:
+          term: Gene ID (NCBI)
+          uri: http://edamontology.org/data_1027
+        format: []
+    note: Last name of first author RNAi reagent identifier
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+      - term: Data retrieval
+        uri: http://edamontology.org/operation_2422
+      - term: Visualisation
+        uri: http://edamontology.org/operation_0337
+      - term: Literature search
+        uri: http://edamontology.org/operation_0305
+    output:
+      - data:
+          term: Database search results
+          uri: http://edamontology.org/data_2080
+        format: []
+      - data:
+          term: Plot
+          uri: http://edamontology.org/data_2884
+        format: []
+homepage: http://www.genomernai.org/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:52Z'
+license: null
+link:
+  - note: null
+    type: Repository
+    url: http://www.genomernai.org/DownloadAllExperimentsForm
+maturity: null
+name: GenomeRNAi
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: hdhub
+publication:
+  - doi: null
+    metadata:
+      abstract: "RNA interference (RNAi) represents a powerful method to systematically\
+        \ study loss-of-function phenotypes on a large scale with a wide variety of\
+        \ biological assays, constituting a rich source for the assignment of gene\
+        \ function. The GenomeRNAi database (http://www.genomernai.org) makes available\
+        \ RNAi phenotype data extracted from the literature for human and Drosophila.\
+        \ It also provides RNAi reagent information, along with an assessment as to\
+        \ their efficiency and specificity. This manuscript describes an update of\
+        \ the database previously featured in the NAR Database Issue. The new version\
+        \ has undergone a complete re-design of the user interface, providing an intuitive,\
+        \ flexible framework for additional functionalities. Screen information and\
+        \ gene-reagent-phenotype associations are now available for download. The\
+        \ integration with other resources has been improved by allowing in-links\
+        \ via GenomeRNAi screen IDs, or external gene or reagent identifiers. A distributed\
+        \ annotation system (DAS) server enables the visualization of the phenotypes\
+        \ and reagents in the context of a genome browser. We have added a page listing\
+        \ 'frequent hitters', i.e. genes that show a phenotype in many screens, which\
+        \ might guide on-going RNAi studies. Structured annotation guidelines have\
+        \ been established to facilitate consistent curation, and a submission template\
+        \ for direct submission by data producers is available for download. \xA9\
+        \ The Author(s) 2012."
+      authors:
+        - name: Schmidt E.E.
+        - name: Pelz O.
+        - name: Buhlmann S.
+        - name: Kerr G.
+        - name: Horn T.
+        - name: Boutros M.
+      citationCount: 71
+      date: '2013-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'GenomeRNAi: A database for cell-based and in vivo RNAi phenotypes, 2013
+        update'
+    pmcid: null
+    pmid: '23193271'
+    type: Primary
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: RNAi experiment
+    uri: http://edamontology.org/topic_3523
+validated: 1
+version: []

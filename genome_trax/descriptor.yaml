@@ -1,0 +1,91 @@
+accessibility: []
+additionDate: '2017-01-13T13:14:48Z'
+biotoolsCURIE: biotools:genome_trax
+biotoolsID: genome_trax
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www.qiagenbioinformatics.com/support/contact-support/
+description: A search tool for finding variants from specific chromosome coordinates.
+  It is possible to integrate the results in NGS pipeline.
+documentation:
+  - note: null
+    type: General
+    url: https://www.qiagenbioinformatics.com/products/genome-trax/
+download: []
+editPermission:
+  authors:
+    - ELIXIR-EE
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence coordinates
+          uri: http://edamontology.org/data_2012
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
+    note: null
+    operation:
+      - term: Data handling
+        uri: http://edamontology.org/operation_2409
+      - term: Sequence annotation
+        uri: http://edamontology.org/operation_0361
+      - term: Sequence database search
+        uri: http://edamontology.org/operation_0338
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output:
+      - data:
+          term: Sequence variations
+          uri: http://edamontology.org/data_3498
+        format: []
+      - data:
+          term: Ontology data
+          uri: http://edamontology.org/data_2353
+        format: []
+      - data:
+          term: Database search results
+          uri: http://edamontology.org/data_2080
+        format: []
+homepage: http://www.biobase-international.com/product/genome-trax
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:53Z'
+license: null
+link: []
+maturity: Mature
+name: Genome Trax
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication: []
+toolType:
+  - Database portal
+topic:
+  - term: DNA structural variation
+    uri: http://edamontology.org/topic_3175
+  - term: Gene regulation
+    uri: http://edamontology.org/topic_0204
+  - term: Function analysis
+    uri: http://edamontology.org/topic_1775
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Ontology and terminology
+    uri: http://edamontology.org/topic_0089
+validated: 1
+version: []
