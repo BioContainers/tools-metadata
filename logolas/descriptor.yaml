@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2018-07-11T12:07:47Z'
+biotoolsCURIE: biotools:logolas
+biotoolsID: logolas
+collectionID:
+- BioConductor
+cost: null
+credit:
+- email: kkdey@uchicago.edu
+  name: Kushal Dey
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Produces logo plots highlighting both enrichment and depletion of characters,
+  allows for plotting of string symbols, and performs scaling of position-weights
+  adaptively, along with several fun stylizations.
+documentation:
+- note: null
+  type: Manual
+  url: http://bioconductor.org/packages/release/bioc/manuals/Logolas/man/Logolas.pdf
+download:
+- note: null
+  type: Source package
+  url: http://bioconductor.org/packages/release/bioc/src/contrib/Logolas_1.4.0.tar.gz
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Alignment
+    uri: http://edamontology.org/operation_2928
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Sequence database search
+    uri: http://edamontology.org/operation_0338
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Visualisation
+    uri: http://edamontology.org/operation_0337
+  output: []
+homepage: http://bioconductor.org/packages/release/bioc/html/Logolas.html
+homepage_status: 0
+language:
+- R
+lastUpdate: '2018-12-10T12:59:00Z'
+license: GPL-2.0
+link:
+- note: null
+  type: Mirror
+  url: https://github.com/kkdey/Logolas
+- note: null
+  type: Issue tracker
+  url: http://github.com/kkdey/Logolas/issues
+- note: null
+  type: Repository
+  url: https://git.bioconductor.org/packages/Logolas
+- note: null
+  type: Mirror
+  url: http://bioconductor.org/packages/Logolas/
+maturity: null
+name: Logolas
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: shadi.m
+publication:
+- doi: 10.1101/226597
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Library
+topic:
+- term: Sequencing
+  uri: http://edamontology.org/topic_3168
+validated: 1
+version:
+- 1.4.0

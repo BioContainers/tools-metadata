@@ -1,0 +1,63 @@
+accessibility: []
+additionDate: '2017-01-13T13:16:49Z'
+biotoolsCURIE: biotools:tagdust
+biotoolsID: tagdust
+collectionID:
+- TagDust
+cost: null
+credit:
+- email: timolassmann@gmail.com
+  name: TagDust Support
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: TagDust, a program identifying artifactual sequences in large sequencing
+  runs. Given a user-defined cutoff for the false discovery rate (FDR), TagDust identifies
+  all reads explainable by combinations and partial matches to known sequences used
+  during library preparation.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Sequencing quality control
+    uri: http://edamontology.org/operation_3218
+  output: []
+homepage: http://genome.gsc.riken.jp/osc/english/software/
+homepage_status: 0
+language:
+- C
+lastUpdate: '2019-02-16T21:44:02Z'
+license: GPL-3.0
+link: []
+maturity: Mature
+name: TagDust
+operatingSystem:
+- Linux
+otherID: []
+owner: seqwiki_import
+publication:
+- doi: null
+  metadata: null
+  pmcid: null
+  pmid: '19737799'
+  type: null
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Data quality management
+  uri: http://edamontology.org/topic_3572
+validated: 0
+version: []

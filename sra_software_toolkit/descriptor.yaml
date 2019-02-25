@@ -1,0 +1,79 @@
+accessibility: []
+additionDate: '2017-08-03T19:00:30Z'
+biotoolsCURIE: biotools:sra_software_toolkit
+biotoolsID: sra_software_toolkit
+collectionID:
+- SRA
+cost: null
+credit:
+- email: sra-tools@ncbi.nlm.nih.gov
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: The SRA Toolkit and SDK from NCBI is a collection of tools and libraries
+  for using data in the INSDC Sequence Read Archives.
+documentation:
+- note: null
+  type: General
+  url: https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc&f=std
+- note: SRA tools wiki
+  type: General
+  url: https://github.com/ncbi/sra-tools/wiki
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: Raw sequence data storage
+  operation:
+  - term: Data handling
+    uri: http://edamontology.org/operation_2409
+  output: []
+homepage: https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc
+homepage_status: 0
+language:
+- Perl
+lastUpdate: '2019-02-16T21:31:43Z'
+license: null
+link:
+- note: null
+  type: Registry
+  url: http://www.mybiosoftware.com/sra-software-toolkit-2-3-1-sequence-read-archive-software-toolkit.html
+- note: null
+  type: Repository
+  url: https://github.com/ncbi/sra-tools/
+maturity: null
+name: SRA Software Toolkit
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: mbs_import
+publication:
+- doi: null
+  metadata: null
+  pmcid: null
+  pmid: '16381840'
+  type: null
+  version: null
+toolType:
+- Suite
+topic:
+- term: DNA
+  uri: http://edamontology.org/topic_0654
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+- term: Sequencing
+  uri: http://edamontology.org/topic_3168
+validated: 0
+version: []

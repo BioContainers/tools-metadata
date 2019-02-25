@@ -1,0 +1,157 @@
+accessibility: []
+additionDate: '2017-01-17T14:57:39Z'
+biotoolsCURIE: biotools:muscle
+biotoolsID: muscle
+collectionID:
+- MUSCLE
+- galaxyPasteur
+- BioConductor
+cost: null
+credit:
+- email: alex.t.kalinka@gmail.com
+  name: Alex T. Kalinka
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://www.ebi.ac.uk/support/
+description: This tool performs multiple sequence alignments of nucleotide or amino
+  acid sequences.
+documentation:
+- note: null
+  type: Manual
+  url: http://bioconductor.org/packages/release/bioc/html/muscle.html
+- note: null
+  type: General
+  url: http://www.ebi.ac.uk/Tools/webservices/services/msa/muscle_rest
+- note: null
+  type: API documentation
+  url: https://www.ebi.ac.uk/seqdb/confluence/display/WEBSERVICES/muscle_rest
+download:
+- note: null
+  type: Source code
+  url: http://bioconductor/packages/release/bioc/src/contrib/muscle_3.16.0.tar.gz
+  version: null
+- note: null
+  type: API specification
+  url: https://www.ebi.ac.uk/seqdb/confluence/display/WEBSERVICES/muscle_rest
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: DNA sequence
+      uri: http://edamontology.org/data_3494
+    format:
+    - term: nbrf/pir
+      uri: http://edamontology.org/format_1948
+    - term: FASTA
+      uri: http://edamontology.org/format_1929
+    - term: GCG
+      uri: http://edamontology.org/format_1935
+    - term: PHYLIP format
+      uri: http://edamontology.org/format_1997
+    - term: EMBL format
+      uri: http://edamontology.org/format_1927
+    - term: GenBank format
+      uri: http://edamontology.org/format_1936
+  - data:
+      term: RNA sequence
+      uri: http://edamontology.org/data_3495
+    format:
+    - term: nbrf/pir
+      uri: http://edamontology.org/format_1948
+    - term: FASTA
+      uri: http://edamontology.org/format_1929
+    - term: GCG
+      uri: http://edamontology.org/format_1935
+    - term: PHYLIP format
+      uri: http://edamontology.org/format_1997
+    - term: EMBL format
+      uri: http://edamontology.org/format_1927
+    - term: GenBank format
+      uri: http://edamontology.org/format_1936
+  note: null
+  operation:
+  - term: Multiple sequence alignment
+    uri: http://edamontology.org/operation_0492
+  output:
+  - data:
+      term: Sequence alignment
+      uri: http://edamontology.org/data_0863
+    format:
+    - term: ClustalW format
+      uri: http://edamontology.org/format_1982
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+    - term: PHYLIP format
+      uri: http://edamontology.org/format_1997
+    - term: GCG MSF
+      uri: http://edamontology.org/format_1947
+    - term: FASTA
+      uri: http://edamontology.org/format_1929
+homepage: https://www.bioconductor.org/packages/release/bioc/html/muscle.html
+homepage_status: 0
+language: []
+lastUpdate: '2019-02-14T22:41:32Z'
+license: null
+link:
+- note: null
+  type: Mirror
+  url: http://www.drive5.com/muscle/
+- note: null
+  type: Registry
+  url: https://www.biocatalogue.org/services/3135
+- note: null
+  type: Galaxy service
+  url: https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/oneclick_phylogeny/muscle/3.8.31.1
+maturity: null
+name: MUSCLE (BioConductor)
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: bioconductor_import
+publication:
+- doi: 10.1093/nar/gkh340
+  metadata: null
+  pmcid: PMC390337
+  pmid: '15034147'
+  type: Primary
+  version: null
+- doi: 10.7490/f1000research.1114334.1
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Other
+  version: null
+toolType:
+- Command-line tool
+- Library
+- Web API
+topic:
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+- term: Sequencing
+  uri: http://edamontology.org/topic_3168
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+validated: 0
+version:
+- 3.16.0

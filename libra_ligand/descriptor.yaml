@@ -1,0 +1,97 @@
+accessibility: []
+additionDate: '2017-08-03T18:48:03Z'
+biotoolsCURIE: biotools:libra_ligand
+biotoolsID: libra_ligand
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://www.computationalbiology.it/
+description: Ligand Binding site Recognition Application predicts the presence and
+  identity of active sites and/or ligand binding sites. The software is based on a
+  graph theory approach to find the largest subset of similar residues between an
+  input protein and a collection of known functional sites.
+documentation:
+- note: null
+  type: General
+  url: http://www.computationalbiology.it/research.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Prediction and recognition
+    uri: http://edamontology.org/operation_2423
+  output: []
+homepage: http://www.computationalbiology.it/software.html
+homepage_status: 0
+language:
+- Java
+lastUpdate: '2019-02-06T12:24:43Z'
+license: null
+link:
+- note: null
+  type: Registry
+  url: http://www.mybiosoftware.com/libra-ligand-binding-site-recognition-application.html
+maturity: null
+name: LIBRA
+operatingSystem:
+- Linux
+- Windows
+otherID: []
+owner: mbs_import
+publication:
+- doi: null
+  metadata:
+    abstract: '© The Author 2015. Published by Oxford University Press. All rights
+      reserved. Motivation: In recent years, structural genomics and ab initio molecular
+      modeling activities are leading to the availability of a large number of structural
+      models of proteins whose biochemical function is not known. The aim of this
+      study was the development of a novel software tool that, given a protein''s
+      structural model, predicts the presence and identity of active sites and/or
+      ligand binding sites. Results: The algorithm implemented by ligand binding site
+      recognition application (LIBRA) is based on a graph theory approach to find
+      the largest subset of similar residues between an input protein and a collection
+      of known functional sites. The algorithm makes use of two predefined databases
+      for active sites and ligand binding sites, respectively, derived from the Catalytic
+      Site Atlas and the Protein Data Bank. Tests indicate that LIBRA is able to identify
+      the correct binding/active site in 90% of the cases analyzed, 90% of which feature
+      the identified site as ranking first. As far as ligand binding site recognition
+      is concerned, LIBRA outperforms other structure-based ligand binding sites detection
+      tools with which it has been compared.'
+    authors:
+    - name: Viet Hung L.
+    - name: Caprari S.
+    - name: Bizai M.
+    - name: Toti D.
+    - name: Polticelli F.
+    citationCount: 8
+    date: '2015-07-03T00:00:00Z'
+    journal: Bioinformatics
+    title: 'LIBRA: LIgand Binding site Recognition Application'
+  pmcid: null
+  pmid: '26315904'
+  type: null
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Molecular modelling
+  uri: http://edamontology.org/topic_2275
+- term: Sequence sites, features and motifs
+  uri: http://edamontology.org/topic_0160
+validated: 1
+version: []

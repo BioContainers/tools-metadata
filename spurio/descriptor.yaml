@@ -1,0 +1,72 @@
+accessibility: []
+additionDate: '2018-07-25T16:51:07Z'
+biotoolsCURIE: biotools:spurio
+biotoolsID: spurio
+collectionID: []
+cost: null
+credit:
+- email: AGB@ebi.ac.uk
+  name: Alex Bateman
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Identify spurious protein predictions in prokaryotes. It searches the
+  query protein sequence against a prokaryotic nucleotide database using tblastn and
+  identifies homologous sequences. Features of the matches are used to score the query
+  sequences' likelihood to be a spurious protein prediction using a Gaussian process
+  model.
+documentation:
+- note: null
+  type: General
+  url: https://bitbucket.org/bateman-group/spurio
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Protein feature detection
+    uri: http://edamontology.org/operation_3092
+  output: []
+homepage: https://bitbucket.org/bateman-group/spurio
+homepage_status: 0
+language:
+- Python
+lastUpdate: '2018-12-10T12:59:00Z'
+license: MIT
+link: []
+maturity: null
+name: Spurio
+operatingSystem:
+- Linux
+otherID: []
+owner: d.gabrielaitis
+publication:
+- doi: 10.12688/f1000research.14050.1
+  metadata: null
+  pmcid: PMC5897793
+  pmid: '29721311'
+  type: null
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Gene expression
+  uri: http://edamontology.org/topic_0203
+- term: Proteins
+  uri: http://edamontology.org/topic_0078
+- term: Biochemistry
+  uri: http://edamontology.org/topic_3292
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

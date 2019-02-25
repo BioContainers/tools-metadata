@@ -1,0 +1,92 @@
+accessibility: []
+additionDate: '2018-08-13T11:52:54Z'
+biotoolsCURIE: biotools:chromnet
+biotoolsID: chromnet
+collectionID: []
+cost: null
+credit:
+- email: suinlee@uw.edu
+  name: Su-In Lee
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Displays the nodes and edges of the chromatin network using a real-time
+  force model.
+documentation:
+- note: null
+  type: General
+  url: http://chromnet.cs.washington.edu/#/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Peak calling
+    uri: http://edamontology.org/operation_3222
+  - term: Expression data visualisation
+    uri: http://edamontology.org/operation_0571
+  output: []
+homepage: http://chromnet.cs.washington.edu/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:59:01Z'
+license: null
+link: []
+maturity: null
+name: ChromNet
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: d.gabrielaitis
+publication:
+- doi: 10.1186/s13059-016-0925-0
+  metadata:
+    abstract: © 2016 Lundberg et al. A cell's epigenome arises from interactions among
+      regulatory factors-transcription factors and histone modifications-co-localized
+      at particular genomic regions. We developed a novel statistical method, ChromNet,
+      to infer a network of these interactions, the chromatin network, by inferring
+      conditional-dependence relationships among a large number of ChIP-seq data sets.
+      We applied ChromNet to all available 1451 ChIP-seq data sets from the ENCODE
+      Project, and showed that ChromNet revealed previously known physical interactions
+      better than alternative approaches. We experimentally validated one of the previously
+      unreported interactions, MYC-HCFC1. An interactive visualization tool is available
+      at http://chromnet.cs.washington.edu.
+    authors:
+    - name: Lundberg S.M.
+    - name: Tu W.B.
+    - name: Raught B.
+    - name: Penn L.Z.
+    - name: Hoffman M.M.
+    - name: Lee S.-I.
+    citationCount: 10
+    date: '2016-04-30T00:00:00Z'
+    journal: Genome Biology
+    title: 'ChromNet: Learning the human chromatin network from all ENCODE ChIP-seq
+      data'
+  pmcid: null
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Web application
+topic:
+- term: ChIP-seq
+  uri: http://edamontology.org/topic_3169
+- term: Data visualisation
+  uri: http://edamontology.org/topic_0092
+- term: Molecular interactions, pathways and networks
+  uri: http://edamontology.org/topic_0602
+validated: 1
+version: []

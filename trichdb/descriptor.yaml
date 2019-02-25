@@ -1,0 +1,84 @@
+accessibility: []
+additionDate: '2015-10-09T17:27:32Z'
+biotoolsCURIE: biotools:trichdb
+biotoolsID: trichdb
+collectionID:
+- DRCAT
+cost: null
+credit:
+- email: null
+  name: DRCAT
+  note: null
+  orcidid: null
+  typeEntity: Project
+  typeRole:
+  - Documentor
+  url: null
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://trichdb.org/trichdb/contact.do
+description: Genomic-scale datasets associated with the eukaryotic Trichomonas.
+documentation:
+- note: null
+  type: General
+  url: http://trichdb.org/trichdb/showXmlDataContent.do;jsessionid=267480DEFD8494B95F1589ED0FD7E1E0?name=XmlQuestions.Tutorials
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Gene ID
+      uri: http://edamontology.org/data_2295
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Gene report
+      uri: http://edamontology.org/data_0916
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+homepage: http://trichdb.org/trichdb/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-24T23:03:00Z'
+license: null
+link: []
+maturity: null
+name: Trichomonas genome resources (TrichDB)
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: DRCAT
+publication:
+- doi: 10.1093/nar/gkn631
+  metadata: null
+  pmcid: PMC2686445
+  pmid: '18824479'
+  type: Primary
+  version: null
+toolType:
+- Database portal
+topic:
+- term: Model organisms
+  uri: http://edamontology.org/topic_0621
+- term: Model organisms
+  uri: http://edamontology.org/topic_0621
+validated: 1
+version: []

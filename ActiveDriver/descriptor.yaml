@@ -1,0 +1,96 @@
+accessibility:
+- Open access
+additionDate: '2019-02-13T14:45:43Z'
+biotoolsCURIE: biotools:ActiveDriver
+biotoolsID: ActiveDriver
+collectionID: []
+cost: Free of charge
+credit:
+- email: juri.reimand@utoronto.ca
+  name: Jüri Reimand
+  note: null
+  orcidid: https://orcid.org/0000-0002-2299-2309
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: ActiveDriver is a computational method for identifying post-translational
+  modification (PTM) sites (i.e., active sites) in proteins that are significantly
+  mutated in cancer genomes. ActiveDriver provides signalling-related interpretation
+  of single nucleotide variants (SNVs) identified in cancer genome sequencing.
+documentation:
+- note: null
+  type: General
+  url: http://reimandlab.org/software/activedriver/
+- note: null
+  type: Manual
+  url: https://cran.r-project.org/web/packages/ActiveDriver/ActiveDriver.pdf
+download:
+- note: null
+  type: Source package
+  url: https://CRAN.R-project.org/package=ActiveDriver
+  version: null
+- note: null
+  type: Source code
+  url: https://github.com/reimandlab/ActiveDriver
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Protein folding analysis
+    uri: http://edamontology.org/operation_2415
+  - term: Gene prediction
+    uri: http://edamontology.org/operation_2454
+  - term: Variant pattern analysis
+    uri: http://edamontology.org/operation_3504
+  - term: Variant classification
+    uri: http://edamontology.org/operation_3225
+  - term: Genetic variation analysis
+    uri: http://edamontology.org/operation_3197
+  output: []
+homepage: http://reimandlab.org/software/activedriver/
+homepage_status: 0
+language:
+- R
+lastUpdate: '2019-02-13T15:58:01Z'
+license: GPL-3.0
+link: []
+maturity: Mature
+name: ActiveDriver
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: javi-gv94
+publication:
+- doi: 10.1038/msb.2012.68
+  metadata: null
+  pmcid: null
+  pmid: '23340843'
+  type: Primary
+  version: null
+toolType:
+- Library
+topic:
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+- term: Statistics and probability
+  uri: http://edamontology.org/topic_2269
+- term: Oncology
+  uri: http://edamontology.org/topic_2640
+- term: Bioinformatics
+  uri: http://edamontology.org/topic_0091
+- term: DNA structural variation
+  uri: http://edamontology.org/topic_3175
+validated: 0
+version:
+- 1.0.0

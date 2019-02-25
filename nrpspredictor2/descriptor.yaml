@@ -1,0 +1,83 @@
+accessibility: []
+additionDate: '2017-05-16T13:43:17Z'
+biotoolsCURIE: biotools:nrpspredictor2
+biotoolsID: nrpspredictor2
+collectionID: []
+cost: null
+credit:
+- email: roettig@informatik.uni-tuebingen.de
+  name: Marc Röttig
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: NRPSpredictor2 is a web server for predicting bacterial non-ribosomal
+  peptide synthetases (NRPS) adenylation domain specificity.
+documentation:
+- note: null
+  type: General
+  url: http://nrps.informatik.uni-tuebingen.de/Controller?cmd=Help
+download: []
+editPermission:
+  authors:
+  - szm
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Protein fold recognition
+    uri: http://edamontology.org/operation_0303
+  - term: Protein secondary structure prediction
+    uri: http://edamontology.org/operation_0267
+  - term: Protein feature detection
+    uri: http://edamontology.org/operation_3092
+  output: []
+homepage: http://nrps.informatik.uni-tuebingen.de/
+homepage_status: 0
+language: []
+lastUpdate: '2019-02-06T11:59:32Z'
+license: null
+link: []
+maturity: null
+name: NRPSpredictor2
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+- doi: 10.1093/nar/gkr323
+  metadata: null
+  pmcid: PMC3125756
+  pmid: null
+  type: Primary
+  version: null
+- doi: null
+  metadata: null
+  pmcid: PMC1253831
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Web application
+topic:
+- term: Small molecules
+  uri: http://edamontology.org/topic_0154
+- term: Protein folds and structural domains
+  uri: http://edamontology.org/topic_0736
+- term: Machine learning
+  uri: http://edamontology.org/topic_3474
+- term: Chemistry
+  uri: http://edamontology.org/topic_3314
+- term: Structure prediction
+  uri: http://edamontology.org/topic_0082
+validated: 1
+version: []

@@ -1,0 +1,71 @@
+accessibility: []
+additionDate: '2017-12-18T00:14:44Z'
+biotoolsCURIE: biotools:ebas
+biotoolsID: ebas
+collectionID: []
+cost: null
+credit:
+- email: yhuang@leland.stanford.edu
+  name: Jimmy Y. Huang
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://motif.stanford.edu/
+description: Analyze groups of proteins or entire proteomes for the presence of eMOTIFs
+  in batch fashion.
+documentation:
+- note: null
+  type: General
+  url: http://motif.stanford.edu/distributions/emotif/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Database search
+    uri: http://edamontology.org/operation_2421
+  output: []
+homepage: http://motif.stanford.edu/distributions/emotif/
+homepage_status: 0
+language: []
+lastUpdate: '2019-01-15T02:55:32Z'
+license: null
+link:
+- note: null
+  type: Registry
+  url: http://www.mybiosoftware.com/ebas-3-6-emotif-batch-analysis-suite.html
+maturity: null
+name: eBAS
+operatingSystem:
+- Linux
+- Mac
+otherID: []
+owner: mbs_import
+publication:
+- doi: null
+  metadata: null
+  pmcid: PMC29837
+  pmid: '11125091'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Sequences
+  uri: http://edamontology.org/topic_0080
+- term: Proteins
+  uri: http://edamontology.org/topic_0078
+- term: DNA
+  uri: http://edamontology.org/topic_0654
+validated: 1
+version:
+- '3.6'

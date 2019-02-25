@@ -1,0 +1,164 @@
+accessibility: []
+additionDate: '2015-12-01T16:27:10Z'
+biotoolsCURIE: biotools:bridgedb
+biotoolsID: bridgedb
+collectionID:
+- BIGCAT-UM
+- ELIXIR-NL
+- BridgeDb
+cost: Free of charge
+credit:
+- email: null
+  name: Gladstone Institutes
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: null
+  name: Maastricht University
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: null
+  name: Manchester University
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: null
+  name: Heroit Watt University
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: null
+  name: maastrichtuniversity.nl
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: https://groups.google.com/forum/#!forum/bridgedb-discuss
+description: BridgeDb is a framework to map identifiers between various databases.  It
+  includes a Java library that provides an API to work with identifier-identifier
+  mapping databases and resources.
+documentation:
+- note: null
+  type: General
+  url: https://www.bridgedb.org/bridgedb-framework/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode:
+- Netherlands
+elixirPlatform:
+- Interoperability
+elixir_badge: 4
+function:
+- cmd: null
+  input:
+  - data:
+      term: Gene identifier
+      uri: http://edamontology.org/data_1025
+    format: []
+  note: API for converting gene identifiers (Ensembl, Entrez) to identifiers from
+    another database. Depends on an identifier-identifier mapping database or service
+    supported by the API.
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Gene identifier
+      uri: http://edamontology.org/data_1025
+    format: []
+- cmd: null
+  input:
+  - data:
+      term: Protein identifier
+      uri: http://edamontology.org/data_0989
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Protein identifier
+      uri: http://edamontology.org/data_0989
+    format: []
+- cmd: null
+  input:
+  - data:
+      term: Compound identifier
+      uri: http://edamontology.org/data_1086
+    format: []
+  note: API for converting compound identifiers (HMDB, ChEBI, ChemSpider, PubChem,
+    etc) to identifiers from another database. Depends on an identifier-identifier
+    mapping database or service supported by the API.
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Compound identifier
+      uri: http://edamontology.org/data_1086
+    format: []
+homepage: http://www.bridgedb.org/
+homepage_status: 0
+language:
+- Java
+lastUpdate: '2019-02-15T10:23:58Z'
+license: Apache-2.0
+link: []
+maturity: Mature
+name: BridgeDb
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: egon.willighagen@maastrichtuni
+publication:
+- doi: 10.1186/1471-2105-11-5
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+- doi: 10.1007/978-3-319-11964-9_7
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Other
+  version: null
+toolType:
+- Library
+topic:
+- term: Metabolomics
+  uri: http://edamontology.org/topic_3172
+- term: Proteomics
+  uri: http://edamontology.org/topic_0121
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+validated: 0
+version:
+- '1'

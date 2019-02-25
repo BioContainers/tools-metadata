@@ -1,0 +1,145 @@
+accessibility: []
+additionDate: '2016-11-28T10:07:16Z'
+biotoolsCURIE: biotools:shaman
+biotoolsID: shaman
+collectionID: []
+cost: Free of charge
+credit:
+- email: null
+  name: Stevenn Volant
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Developer
+  url: https://research.pasteur.fr/en/member/stevenn-volant/
+- email: null
+  name: Hugo Varet
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Developer
+  url: https://research.pasteur.fr/en/member/hugo-varet/
+- email: null
+  name: Pierre Lechat
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Developer
+  url: https://research.pasteur.fr/en/member/pierre-lechat/
+- email: null
+  name: Amine Ghozlane
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Developer
+  url: https://research.pasteur.fr/en/member/amine-ghozlane/
+- email: null
+  name: Institut Pasteur
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: https://research.pasteur.fr
+- email: null
+  name: C3BI
+  note: null
+  orcidid: null
+  typeEntity: Division
+  typeRole: []
+  url: https://research.pasteur.fr/en/center/c3bi/
+- email: null
+  name: Bioinformatics and Biostatistics Hub
+  note: null
+  orcidid: null
+  typeEntity: Division
+  typeRole:
+  - Provider
+  url: https://research.pasteur.fr/en/team/bioinformatics-and-biostatistics-hub/
+- email: shaman@pasteur.fr
+  name: SHAMAN team
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: https://research.pasteur.fr/en/software/shaman-shiny-application-for-metagenomic-analysis/
+description: SHiny application for Metagenomic ANalysis including the normalization,
+  the differential analysis and mutiple visualization. It is based on DESeq2 R package
+  [Anders and Huber 2010] for the analysis of metagenomic data, as suggested in [McMurdie
+  and Holmes 2014, Jonsson2016]. It robustly identifies the differential abundant
+  genera with the Generalized Linear Model implemented in DESeq2 [Love 2014].
+documentation:
+- note: null
+  type: General
+  url: http://shaman.c3bi.pasteur.fr/
+download: []
+editPermission:
+  authors:
+  - hmenager
+  - khillion
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Report
+      uri: http://edamontology.org/data_2048
+    format:
+    - term: TSV
+      uri: http://edamontology.org/format_3475
+  note: Quantitative metagenomics Count table & taxonomy Diversity, barplot, boxplot,
+    scatterplot, rarefaction curves, heatmap
+  operation:
+  - term: Visualisation
+    uri: http://edamontology.org/operation_0337
+  - term: Standardisation and normalisation
+    uri: http://edamontology.org/operation_3435
+  - term: Differential gene expression analysis
+    uri: http://edamontology.org/operation_3223
+  - term: Species frequency estimation
+    uri: http://edamontology.org/operation_3221
+  output:
+  - data:
+      term: Plot
+      uri: http://edamontology.org/data_2884
+    format: []
+homepage: http://shaman.c3bi.pasteur.fr/
+homepage_status: 0
+language:
+- R
+lastUpdate: '2019-01-15T02:26:44Z'
+license: GPL-3.0
+link:
+- note: null
+  type: Repository
+  url: https://github.com/aghozlane/shaman
+maturity: Mature
+name: SHAMAN
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: aghozlane
+publication:
+- doi: 10.1073/pnas.1523899113
+  metadata: null
+  pmcid: PMC4878514
+  pmid: '27140611'
+  type: Primary
+  version: null
+toolType:
+- Web application
+topic:
+- term: Metagenomics
+  uri: http://edamontology.org/topic_3174
+validated: 1
+version: []

@@ -1,0 +1,101 @@
+accessibility: []
+additionDate: '2018-05-20T15:39:02Z'
+biotoolsCURIE: biotools:crysalis
+biotoolsID: crysalis
+collectionID: []
+cost: null
+credit:
+- email: whl080500422@sina.com
+  name: Huilin Wang
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: 20520140153971@stu.xmu.edu.cn
+  name: Huilin Wang
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Integrated crystallization analysis that builds on support-vector regression
+  (SVR) models to facilitate computational protein crystallization prediction, analysis,
+  and design.
+documentation:
+- note: null
+  type: Training material
+  url: http://nmrcen.xmu.edu.cn/crysalis/Datasets.html
+- note: Description of method
+  type: General
+  url: http://nmrcen.xmu.edu.cn/crysalis/Method.html
+- note: null
+  type: General
+  url: http://nmrcen.xmu.edu.cn/crysalis/FAQ.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Sequence record
+      uri: http://edamontology.org/data_0849
+    format:
+    - term: FASTA
+      uri: http://edamontology.org/format_1929
+  note: null
+  operation:
+  - term: Protein crystallizability prediction
+    uri: http://edamontology.org/operation_0410
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Regression analysis
+    uri: http://edamontology.org/operation_3659
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Protein secondary structure prediction
+    uri: http://edamontology.org/operation_0267
+  output: []
+homepage: http://nmrcen.xmu.edu.cn/crysalis/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-11T18:16:57Z'
+license: null
+link: []
+maturity: null
+name: Crysalis
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: migle_sur
+publication:
+- doi: 10.1038/srep21383
+  metadata: null
+  pmcid: PMC4764925
+  pmid: '26906024'
+  type: null
+  version: null
+toolType:
+- Web application
+topic:
+- term: Proteomics
+  uri: http://edamontology.org/topic_0121
+- term: Machine learning
+  uri: http://edamontology.org/topic_3474
+validated: 1
+version: []

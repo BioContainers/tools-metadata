@@ -1,0 +1,82 @@
+accessibility: []
+additionDate: '2015-06-11T13:36:28Z'
+biotoolsCURIE: biotools:uniparc
+biotoolsID: uniparc
+collectionID:
+- UniProt
+cost: null
+credit:
+- email: null
+  name: UniProt Consortium
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: http://www.uniprot.org/help/about
+- email: help@uniprot.org
+  name: Support
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Non-redundant archive of protein sequences extracted from public databases
+  UniProtKB/Swiss-Prot, UniProtKB/TrEMBL, PIR-PSD, EMBL, EMBL WGS, Ensembl, IPI, PDB,
+  PIR-PSD, RefSeq, FlyBase, WormBase, H-Invitational Database, TROME database, European
+  Patent Office proteins, United States Patent and Trademark Office proteins (USPTO)
+  and Japan Patent Office proteins.
+documentation:
+- note: null
+  type: General
+  url: http://www.uniprot.org/help/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Sequence record
+      uri: http://edamontology.org/data_0849
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+homepage: http://www.uniprot.org/uniparc/
+homepage_status: 0
+language: []
+lastUpdate: '2019-02-17T12:10:59Z'
+license: null
+link: []
+maturity: null
+name: UniProt Archive
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: EMBL-EBI_Databases
+publication:
+- doi: 10.1093/bioinformatics/bth191
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Database portal
+topic:
+- term: Database management
+  uri: http://edamontology.org/topic_3489
+validated: 0
+version: []

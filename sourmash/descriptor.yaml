@@ -1,0 +1,69 @@
+accessibility: []
+additionDate: '2018-06-27T22:03:41Z'
+biotoolsCURIE: biotools:sourmash
+biotoolsID: sourmash
+collectionID: []
+cost: Free of charge
+credit:
+- email: ctbrown@ucdavis.edu
+  name: C. Titus Brown
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://github.com/dib-lab/sourmash/
+description: Compute and compare MinHash signatures for DNA data sets.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Nucleic acid sequence (raw)
+      uri: http://edamontology.org/data_2975
+    format:
+    - term: FASTA-like (text)
+      uri: http://edamontology.org/format_2200
+  note: null
+  operation:
+  - term: Sequence similarity search
+    uri: http://edamontology.org/operation_0346
+  - term: Sequence distance matrix generation
+    uri: http://edamontology.org/operation_0289
+  output: []
+homepage: https://sourmash.readthedocs.io/en/latest/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:59:01Z'
+license: BSD-3-Clause
+link: []
+maturity: Emerging
+name: sourmash
+operatingSystem:
+- Linux
+- Mac
+otherID: []
+owner: diblab
+publication:
+- doi: 10.21105/joss.00027
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Command-line tool
+- Library
+topic:
+- term: Computational biology
+  uri: http://edamontology.org/topic_3307
+validated: 1
+version:
+- 2.0a8

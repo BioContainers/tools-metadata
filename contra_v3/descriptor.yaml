@@ -1,0 +1,77 @@
+accessibility: []
+additionDate: '2018-07-18T10:54:25Z'
+biotoolsCURIE: biotools:contra_v3
+biotoolsID: contra_v3
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://bioit2.irc.ugent.be/contra/v3/#/contact
+- email: null
+  name: Łukasz Kreft
+  note: null
+  orcidid: http://orcid.org/0000-0001-7620-4657
+  typeEntity: Person
+  typeRole:
+  - Contributor
+  url: null
+description: Visualization and exploration of predicted transcription factor binding
+  sites (TFBSs) in any genomic region surrounding coding or non-coding genes.
+documentation:
+- note: null
+  type: General
+  url: http://bioit2.irc.ugent.be/contra/v3/#/help
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Transcription factor binding site prediction
+    uri: http://edamontology.org/operation_0445
+  output: []
+homepage: http://bioit2.irc.ugent.be/contra/v3
+homepage_status: 0
+language:
+- R
+- JavaScript
+- Perl
+lastUpdate: '2019-01-15T01:50:25Z'
+license: null
+link: []
+maturity: null
+name: ConTra v3
+operatingSystem: []
+otherID: []
+owner: aotamendi.1
+publication:
+- doi: 10.1093/nar/gkx376
+  metadata: null
+  pmcid: PMC5570180
+  pmid: '28472390'
+  type: Primary
+  version: null
+toolType:
+- Web application
+topic:
+- term: Transcription factors and regulatory sites
+  uri: http://edamontology.org/topic_0749
+- term: Gene transcripts
+  uri: http://edamontology.org/topic_3512
+- term: Gene regulation
+  uri: http://edamontology.org/topic_0204
+validated: 1
+version:
+- v3

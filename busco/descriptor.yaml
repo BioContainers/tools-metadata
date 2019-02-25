@@ -1,0 +1,91 @@
+accessibility: []
+additionDate: '2016-10-10T07:21:30Z'
+biotoolsCURIE: biotools:busco
+biotoolsID: busco
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: SIB Swiss Institute of Bioinformatics
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: evgeny.zdobnov@unige.ch
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Provides measures for quantitative assessment of genome assembly, gene
+  set, and transcriptome completeness based on evolutionarily informed expectations
+  of gene content from near-universal single-copy orthologs.
+documentation:
+- note: null
+  type: Manual
+  url: http://gitlab.com/ezlab/busco/raw/master/BUSCO_v3_userguide.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode:
+- Switzerland
+elixirPlatform:
+- Tools
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Sequence set (nucleic acid)
+      uri: http://edamontology.org/data_1234
+    format:
+    - term: FASTA
+      uri: http://edamontology.org/format_1929
+  note: null
+  operation:
+  - term: Sequence assembly validation
+    uri: http://edamontology.org/operation_3180
+  output:
+  - data:
+      term: Sequence report
+      uri: http://edamontology.org/data_2955
+    format: []
+homepage: http://busco.ezlab.org/
+homepage_status: 0
+language:
+- Python
+lastUpdate: '2019-02-15T10:24:02Z'
+license: null
+link: []
+maturity: null
+name: BUSCO
+operatingSystem:
+- Linux
+otherID: []
+owner: SIB
+publication:
+- doi: 10.1093/bioinformatics/btv351
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Sequence assembly
+  uri: http://edamontology.org/topic_0196
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+- term: Transcriptomics
+  uri: http://edamontology.org/topic_3308
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+validated: 0
+version:
+- '1'

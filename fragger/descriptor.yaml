@@ -1,0 +1,69 @@
+accessibility: []
+additionDate: '2018-08-12T22:25:31Z'
+biotoolsCURIE: biotools:fragger
+biotoolsID: fragger
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: https://github.com/UnixJunkie/fragger/issues
+description: Protein fragment picker that allows protein fragment databases to be
+  created and queried. It can efficiently search a fragment database with a query
+  fragment and a distance threshold. Matching fragments are ranked by distance to
+  the query. It also incorporates a tool to compute the backbone RMSD of one versus
+  many fragments in high throughput.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Sequence comparison
+    uri: http://edamontology.org/operation_2451
+  - term: Data handling
+    uri: http://edamontology.org/operation_2409
+  - term: Indexing
+    uri: http://edamontology.org/operation_0227
+  - term: Protein comparison
+    uri: http://edamontology.org/operation_2997
+  output: []
+homepage: https://github.com/UnixJunkie/fragger
+homepage_status: 0
+language:
+- C++
+lastUpdate: '2018-12-10T12:59:01Z'
+license: LGPL-2.1
+link: []
+maturity: null
+name: Fragger
+operatingSystem:
+- Linux
+otherID: []
+owner: aotamendi.1
+publication:
+- doi: 10.12688/f1000research.12486.2
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Proteins
+  uri: http://edamontology.org/topic_0078
+validated: 1
+version: []

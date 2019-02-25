@@ -1,0 +1,104 @@
+accessibility: []
+additionDate: '2017-07-20T18:33:51Z'
+biotoolsCURIE: biotools:wikipathways_api
+biotoolsID: wikipathways_api
+collectionID:
+- RD-connect
+- Rare Disease
+- WikiPathways
+cost: null
+credit:
+- email: martina.kutmon@maastrichtuniversity.nl
+  name: Martina Kutmon
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://www.wikipathways.org/index.php/WikiPathways:About
+- email: apico@gladstone.ucsf.edu
+  name: Alexander R. Pico
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: WikiPathways is a database of biological pathways maintained by and for
+  the scientific community.
+documentation:
+- note: null
+  type: General
+  url: https://www.wikipathways.org/index.php/WikiPathways
+- note: null
+  type: API documentation
+  url: http://www.wikipathways.org/index.php/Help:WikiPathways_Webservice
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Identifier
+      uri: http://edamontology.org/data_0842
+    format: []
+  note: getPathway
+  operation:
+  - term: Data retrieval
+    uri: http://edamontology.org/operation_2422
+  - term: Pathway or network analysis
+    uri: http://edamontology.org/operation_2497
+  output:
+  - data:
+      term: Data
+      uri: http://edamontology.org/data_0006
+    format:
+    - term: XML
+      uri: http://edamontology.org/format_2332
+    - term: JSON
+      uri: http://edamontology.org/format_3464
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+homepage: http://www.wikipathways.org
+homepage_status: 0
+language:
+- JavaScript
+lastUpdate: '2019-02-16T12:45:23Z'
+license: null
+link:
+- note: null
+  type: Repository
+  url: https://github.com/wikipathways/pvjs
+maturity: null
+name: WikiPathways
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: jmelius
+publication:
+- doi: 10.1093/nar/gkv1024
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+- doi: 10.1371/journal.pone.0006447
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Web API
+topic:
+- term: Bioinformatics
+  uri: http://edamontology.org/topic_0091
+validated: 0
+version: []

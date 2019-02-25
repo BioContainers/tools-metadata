@@ -1,0 +1,87 @@
+accessibility: []
+additionDate: '2017-01-13T13:16:34Z'
+biotoolsCURIE: biotools:soap
+biotoolsID: soap
+collectionID:
+- Animal and Crop Genomics
+cost: null
+credit:
+- email: soap@genomics.org.cn
+  name: SOAP Support
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: rbluo@cs.hku.hk
+  name: Ruibang Luo
+  note: null
+  orcidid: http://orcid.org/0000-0001-9711-6533
+  typeEntity: Person
+  typeRole:
+  - Contributor
+  url: null
+description: Short Oligonucleotide Analysis Package. Efficient gapped and ungapped
+  alignment of short oligonucleotides onto reference sequences and full solution to
+  next generation sequencing data analysis.
+documentation:
+- note: null
+  type: General
+  url: http://soap.genomics.org.cn/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Read mapping
+    uri: http://edamontology.org/operation_3198
+  - term: Sequence alignment
+    uri: http://edamontology.org/operation_0292
+  output: []
+homepage: http://soap.genomics.org.cn/
+homepage_status: 0
+language:
+- C++
+lastUpdate: '2019-02-16T12:52:04Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: SOAP
+operatingSystem:
+- Linux
+otherID: []
+owner: seqwiki_import
+publication:
+- doi: 10.1093/bioinformatics/btn025
+  metadata: null
+  pmcid: null
+  pmid: '18227114'
+  type: Primary
+  version: null
+- doi: 10.1371/journal.pone.0065632
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+- doi: 10.1371/journal.pone.0065632
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Comparison
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Sequence assembly
+  uri: http://edamontology.org/topic_0196
+validated: 0
+version: []

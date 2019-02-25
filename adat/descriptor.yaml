@@ -1,0 +1,72 @@
+accessibility: []
+additionDate: '2018-07-24T14:59:44Z'
+biotoolsCURIE: biotools:adat
+biotoolsID: adat
+collectionID: []
+cost: null
+credit:
+- email: foo.cheung@nih.gov
+  name: Foo Cheung
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Web Tool for Navigating and Plotting SomaLogic ADAT Files.
+documentation:
+- note: null
+  type: General
+  url: https://foocheung.shinyapps.io/adat/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Principal component plotting
+    uri: http://edamontology.org/operation_2939
+  - term: Gene expression analysis
+    uri: http://edamontology.org/operation_2495
+  output: []
+homepage: https://foocheung.shinyapps.io/adat/
+homepage_status: 0
+language:
+- R
+- Javascript
+lastUpdate: '2018-12-10T12:59:00Z'
+license: Apache-2.0
+link: []
+maturity: null
+name: ADAT
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: d.gabrielaitis
+publication:
+- doi: 10.5334/jors.166
+  metadata: null
+  pmcid: PMC6017986
+  pmid: '29951204'
+  type: null
+  version: null
+toolType:
+- Command-line tool
+- Web application
+topic:
+- term: Proteomics
+  uri: http://edamontology.org/topic_0121
+- term: Data visualisation
+  uri: http://edamontology.org/topic_0092
+- term: Data management
+  uri: http://edamontology.org/topic_3071
+validated: 1
+version: []

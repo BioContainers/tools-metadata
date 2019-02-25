@@ -1,0 +1,169 @@
+accessibility: []
+additionDate: '2015-09-12T00:29:31Z'
+biotoolsCURIE: biotools:ecid
+biotoolsID: ecid
+collectionID:
+- DRCAT
+cost: null
+credit:
+- email: null
+  name: DRCAT
+  note: null
+  orcidid: null
+  typeEntity: Project
+  typeRole:
+  - Documentor
+  url: null
+- email: eandres@cnio.es
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Results of running an "in silico 2 hybrid system" for all the possible
+  pairs among E. coli proteins.
+documentation:
+- note: null
+  type: General
+  url: http://ecid.bioinfo.cnio.es/Php/Help.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Protein identifier
+      uri: http://edamontology.org/data_0989
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Data reference
+      uri: http://edamontology.org/data_2093
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+- cmd: null
+  input:
+  - data:
+      term: Protein identifier
+      uri: http://edamontology.org/data_0989
+    format: []
+  - data:
+      term: Protein ID (EcID)
+      uri: http://edamontology.org/data_2802
+    format: []
+  - data:
+      term: Gene symbol
+      uri: http://edamontology.org/data_1026
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Protein interaction data
+      uri: http://edamontology.org/data_0906
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+- cmd: null
+  input:
+  - data:
+      term: Protein identifier
+      uri: http://edamontology.org/data_0989
+    format: []
+  - data:
+      term: Protein ID (EcID)
+      uri: http://edamontology.org/data_2802
+    format: []
+  - data:
+      term: Gene symbol
+      uri: http://edamontology.org/data_1026
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Protein interaction data
+      uri: http://edamontology.org/data_0906
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+- cmd: null
+  input:
+  - data:
+      term: Protein identifier
+      uri: http://edamontology.org/data_0989
+    format: []
+  - data:
+      term: Protein ID (EcID)
+      uri: http://edamontology.org/data_2802
+    format: []
+  - data:
+      term: Gene symbol
+      uri: http://edamontology.org/data_1026
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Protein report
+      uri: http://edamontology.org/data_0896
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+homepage: http://ecid.bioinfo.cnio.es/index.php
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-16T12:35:38Z'
+license: null
+link: []
+maturity: null
+name: EcID
+operatingSystem: []
+otherID: []
+owner: DRCAT
+publication:
+- doi: 10.1016/S0959-440X(02)00333-0
+  metadata:
+    abstract: Establishing protein interaction networks is crucial for understanding
+      cellular operations. Detailed knowledge of the 'interactome', the full network
+      of protein-protein interactions, in model cellular systems should provide new
+      insights into the structure and properties of these systems. Parallel to the
+      first massive application of experimental techniques to the determination of
+      protein interaction networks and protein complexes, the first computational
+      methods, based on sequence and genomic information, have emerged.
+    authors:
+    - name: Valencia A.
+    - name: Pazos F.
+    citationCount: 261
+    date: '2002-06-01T00:00:00Z'
+    journal: Current Opinion in Structural Biology
+    title: Computational methods for the prediction of protein interactions
+  pmcid: null
+  pmid: '12127457'
+  type: Primary
+  version: null
+toolType:
+- Database portal
+topic:
+- term: Protein interactions
+  uri: http://edamontology.org/topic_0128
+validated: 1
+version: []

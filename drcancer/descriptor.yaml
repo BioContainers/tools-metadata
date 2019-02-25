@@ -1,0 +1,146 @@
+accessibility: []
+additionDate: '2017-03-01T13:49:11Z'
+biotoolsCURIE: biotools:drcancer
+biotoolsID: drcancer
+collectionID: []
+cost: Free of charge
+credit:
+- email: null
+  name: ELIXIR-ITA-BOLOGNA
+  note: null
+  orcidid: null
+  typeEntity: Division
+  typeRole:
+  - Support
+  url: http://www.biocomp.unibo.it
+- email: emidio.capriotti@gmail.com
+  name: Emidio Capriotti
+  note: null
+  orcidid: http://orcid.org/0000-0002-2323-0963
+  typeEntity: Person
+  typeRole:
+  - Developer
+  url: null
+- email: emidio.capriotti@gmail.com
+  name: Emidio Capriotti
+  note: null
+  orcidid: http://orcid.org/0000-0002-2323-0963
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: A machine learning-based predictor of cancer-causing SNPs.
+documentation:
+- note: null
+  type: General
+  url: http://snps.biofold.org/drcancer/pages/DrCancer_Help.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Protein sequence (raw)
+      uri: http://edamontology.org/data_2974
+    format:
+    - term: FASTA
+      uri: http://edamontology.org/format_1929
+  - data:
+      term: Sequence position
+      uri: http://edamontology.org/data_1016
+    format:
+    - term: Textual format
+      uri: http://edamontology.org/format_2330
+  - data:
+      term: Amino acid name (single letter)
+      uri: http://edamontology.org/data_2563
+    format:
+    - term: Textual format
+      uri: http://edamontology.org/format_2330
+  - data:
+      term: GO concept ID
+      uri: http://edamontology.org/data_1176
+    format: []
+  note: null
+  operation:
+  - term: Variant classification
+    uri: http://edamontology.org/operation_3225
+  output:
+  - data:
+      term: Disease report
+      uri: http://edamontology.org/data_1622
+    format:
+    - term: Textual format
+      uri: http://edamontology.org/format_2330
+- cmd: null
+  input:
+  - data:
+      term: UniProt accession
+      uri: http://edamontology.org/data_3021
+    format:
+    - term: Textual format
+      uri: http://edamontology.org/format_2330
+  - data:
+      term: Sequence position
+      uri: http://edamontology.org/data_1016
+    format:
+    - term: Textual format
+      uri: http://edamontology.org/format_2330
+  - data:
+      term: Amino acid name (single letter)
+      uri: http://edamontology.org/data_2563
+    format:
+    - term: Textual format
+      uri: http://edamontology.org/format_2330
+  - data:
+      term: GO concept ID
+      uri: http://edamontology.org/data_1176
+    format: []
+  note: null
+  operation:
+  - term: Variant classification
+    uri: http://edamontology.org/operation_3225
+  output:
+  - data:
+      term: Disease report
+      uri: http://edamontology.org/data_1622
+    format:
+    - term: Textual format
+      uri: http://edamontology.org/format_2330
+homepage: http://snps.biofold.org/drcancer
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-30T16:10:01Z'
+license: null
+link: []
+maturity: Mature
+name: DrCancer
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: ELIXIR-ITA-BOLOGNA
+publication:
+- doi: 10.1016/j.ygeno.2011.06.010
+  metadata: null
+  pmcid: PMC3371640
+  pmid: '21763417'
+  type: Primary
+  version: null
+toolType:
+- Web service
+topic:
+- term: Protein properties
+  uri: http://edamontology.org/topic_0123
+- term: Machine learning
+  uri: http://edamontology.org/topic_3474
+- term: Oncology
+  uri: http://edamontology.org/topic_2640
+validated: 1
+version: []

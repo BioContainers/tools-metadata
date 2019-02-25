@@ -1,0 +1,114 @@
+accessibility: []
+additionDate: '2015-01-29T15:47:31Z'
+biotoolsCURIE: biotools:muscle_ebi
+biotoolsID: muscle_ebi
+collectionID:
+- MUSCLE
+- EBI Tools
+cost: null
+credit:
+- email: null
+  name: Robert Edgar
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Developer
+  url: null
+- email: null
+  name: Web Production
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Developer
+  url: null
+- email: null
+  name: EMBL-EBI
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://www.ebi.ac.uk/support/
+- email: es-request@ebi.ac.uk
+  name: Web Production
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Sequence alignment using the Multiple Sequence Comparison by Log-Expectation
+  (MUSCLE) method
+documentation:
+- note: null
+  type: Terms of use
+  url: http://www.ebi.ac.uk/about/terms-of-use
+- note: null
+  type: General
+  url: http://www.ebi.ac.uk/Tools/msa/muscle/
+download: []
+editPermission:
+  authors:
+  - biomadeira
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Sequence
+      uri: http://edamontology.org/data_2044
+    format: []
+  note: null
+  operation:
+  - term: Multiple sequence alignment
+    uri: http://edamontology.org/operation_0492
+  output:
+  - data:
+      term: Sequence alignment
+      uri: http://edamontology.org/data_0863
+    format: []
+homepage: http://www.ebi.ac.uk/Tools/msa/muscle/
+homepage_status: 0
+language: []
+lastUpdate: '2019-02-12T21:31:11Z'
+license: null
+link:
+- note: null
+  type: Helpdesk
+  url: http://www.ebi.ac.uk/support/
+maturity: null
+name: MUSCLE (EBI)
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: EMBL-EBI
+publication:
+- doi: 10.1093/nar/gkh340
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Web application
+topic:
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+validated: 0
+version:
+- '1'

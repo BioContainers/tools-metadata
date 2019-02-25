@@ -1,0 +1,71 @@
+accessibility: []
+additionDate: '2018-08-14T01:48:59Z'
+biotoolsCURIE: biotools:prober-chem
+biotoolsID: prober-chem
+collectionID: []
+cost: null
+credit:
+- email: lpachter@caltech.edu
+  name: Lior Pachter
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://pachterlab.github.io/PROBer/contact/
+description: PROBer is a program to quantify chemical modification profiles for a
+  general set of sequencing-based ‘toeprinting’ assays, which aim at probing RNA structures
+  (DMS/SHAPE-seq), detecting RNA modifications (Pseudo-seq), and investigating RNA-protein
+  interactions (iCLIP).
+documentation:
+- note: null
+  type: Manual
+  url: http://pachterlab.github.io/PROBer/manual/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Transcriptome assembly
+    uri: http://edamontology.org/operation_3258
+  output: []
+homepage: http://pachterlab.github.io/PROBer/
+homepage_status: 0
+language:
+- R
+- Perl
+- Python
+lastUpdate: '2018-12-10T12:59:01Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: PROBer
+operatingSystem:
+- Linux
+- Mac
+otherID: []
+owner: daniel_stefan
+publication:
+- doi: 10.1016/j.cels.2017.04.007
+  metadata: null
+  pmcid: PMC5758053
+  pmid: '28501650'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Nucleic acid structure analysis
+  uri: http://edamontology.org/topic_0097
+- term: Transcriptomics
+  uri: http://edamontology.org/topic_3308
+validated: 1
+version:
+- 0.3.1

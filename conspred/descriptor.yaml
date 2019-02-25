@@ -1,0 +1,90 @@
+accessibility: []
+additionDate: '2017-03-27T07:49:20Z'
+biotoolsCURIE: biotools:conspred
+biotoolsID: conspred
+collectionID: []
+cost: null
+credit:
+- email: contact.cube@univie.ac.at
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://cube.univie.ac.at/contact
+- email: thomas.rattei@univie.ac.at
+  name: Thomas Rattei
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Prokaryotic genome annotation framework that performs various intrinsic
+  gene predictions, homology searches, predictions of non-coding genes, and complex
+  features and integrates all evidence into a consensus annotation. It achieves high-quality
+  and comprehensive annotations based on rules and priorities, similar to decision-making
+  in manual curation. Parameters controlling the annotation process are configurable
+  by the user.
+documentation:
+- note: null
+  type: General
+  url: http://cube.univie.ac.at/conspred
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Sequence record
+      uri: http://edamontology.org/data_0849
+    format: []
+  note: null
+  operation:
+  - term: Sequence annotation
+    uri: http://edamontology.org/operation_0361
+  output:
+  - data:
+      term: Feature table
+      uri: http://edamontology.org/data_1270
+    format: []
+homepage: https://sourceforge.net/projects/conspred/
+homepage_status: 0
+language:
+- Shell
+- Java
+- Perl
+lastUpdate: '2019-02-14T10:25:57Z'
+license: null
+link:
+- note: null
+  type: Repository
+  url: https://sourceforge.net/projects/conspred/
+maturity: null
+name: Conspred
+operatingSystem:
+- Linux
+- Mac
+otherID: []
+owner: thomas_nussbaumer
+publication:
+- doi: 10.1093/bioinformatics/btw393
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Systems biology
+  uri: http://edamontology.org/topic_2259
+validated: 0
+version:
+- '1.33'

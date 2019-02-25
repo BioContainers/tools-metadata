@@ -1,0 +1,71 @@
+accessibility: []
+additionDate: '2017-01-13T13:13:57Z'
+biotoolsCURIE: biotools:cangs
+biotoolsID: cangs
+collectionID: []
+cost: null
+credit:
+- email: christian.schloetterer@vetmeduni.ac.at
+  name: Schlötterer C.
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: CANGS is a flexible and user-friendly utility to trim sequences, filter
+  low quality sequences, and produce input files for further downstream analyses for
+  454 sequences. CANGS can be used to assign the taxonomic grouping based on similarity
+  with sequences from the NCBI database
+documentation:
+- note: null
+  type: General
+  url: http://i122server.vu-wien.ac.at/CANGS1.1/CANGSmanual-v1.1.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Primer removal
+    uri: http://edamontology.org/operation_3237
+  - term: Sequence trimming
+    uri: http://edamontology.org/operation_3192
+  - term: Sequencing quality control
+    uri: http://edamontology.org/operation_3218
+  output: []
+homepage: http://i122server.vu-wien.ac.at/CANGS1.1/
+homepage_status: 0
+language:
+- Perl
+lastUpdate: '2018-12-11T19:09:46Z'
+license: null
+link: []
+maturity: Mature
+name: CANGS
+operatingSystem:
+- Linux
+otherID: []
+owner: seqwiki_import
+publication:
+- doi: null
+  metadata: null
+  pmcid: null
+  pmid: '20180949'
+  type: null
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Metagenomics
+  uri: http://edamontology.org/topic_3174
+- term: Phylogenetics
+  uri: http://edamontology.org/topic_3293
+validated: 1
+version: []

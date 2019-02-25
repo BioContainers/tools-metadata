@@ -1,0 +1,229 @@
+accessibility: []
+additionDate: '2015-12-02T15:06:33Z'
+biotoolsCURIE: biotools:mole_pymol_plugin
+biotoolsID: mole_pymol_plugin
+collectionID:
+- LCC NCBR
+- Czech Republic
+- MOLE
+- ELIXIR-CZ
+cost: Free of charge
+credit:
+- email: null
+  name: Lukáš Pravda
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Developer
+  url: null
+- email: null
+  name: Masaryk University Brno, Czech Republic
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: null
+  name: Palacký University Olomouc, Czech Republic
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: null
+  name: ELIXIR-CZ
+  note: null
+  orcidid: null
+  typeEntity: Consortium
+  typeRole: []
+  url: null
+- email: null
+  name: CEITEC
+  note: null
+  orcidid: null
+  typeEntity: Consortium
+  typeRole: []
+  url: null
+- email: null
+  name: ELIXIR-CZ
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: webchemistryhelp@gmail.com
+  name: Primary Contact
+  note: null
+  orcidid: null
+  typeEntity: null
+  typeRole:
+  - Support
+  url: null
+- email: david.sehnal@gmail.com
+  name: David Sehnal
+  note: null
+  orcidid: null
+  typeEntity: null
+  typeRole:
+  - Support
+  url: null
+- email: xpravda@ncbr.muni.cz
+  name: Lukáš Pravda
+  note: null
+  orcidid: null
+  typeEntity: null
+  typeRole:
+  - Support
+  url: null
+- email: krapnik@gmail.com
+  name: Karel Berka
+  note: null
+  orcidid: null
+  typeEntity: null
+  typeRole:
+  - Support
+  url: null
+- email: webchemistryhelp@gmail.com
+  name: Primary Contact
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: david.sehnal@gmail.com
+  name: David Sehnal
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: xpravda@ncbr.muni.cz
+  name: Lukáš Pravda
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: krapnik@gmail.com
+  name: Karel Berka
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Plugin for MOLE 2.0 contains extended options for channel starting point
+  automatic detection, for filtering of obtained channels to select only the relevant
+  channels and allows estimation of basic physicochemical properties of channels.
+documentation:
+- note: null
+  type: Citation instructions
+  url: http://www.jcheminf.com/content/5/1/39/citation
+download:
+- note: null
+  type: Source code
+  url: http://webchem.ncbr.muni.cz/Platform/AppsBin/Mole/2.13.9.6/Mole2_manual.pdf
+  version: null
+- note: null
+  type: Binaries
+  url: http://mole.chemi.muni.cz
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Protein structure
+      uri: http://edamontology.org/data_1460
+    format:
+    - term: PDB
+      uri: http://edamontology.org/format_1476
+  - data:
+      term: PDB ID
+      uri: http://edamontology.org/data_1127
+    format:
+    - term: PDB
+      uri: http://edamontology.org/format_1476
+  note: Identification of channels, tunnels, voids and pores within PDB structure.
+    User-prepared PDB file Either PDB file or structural assemblies Interactive visualisation
+    Annotated PDB file with calculated channels
+  operation:
+  - term: Protein structural motif recognition
+    uri: http://edamontology.org/operation_0245
+  - term: Structure visualisation
+    uri: http://edamontology.org/operation_0570
+  - term: Protein property calculation
+    uri: http://edamontology.org/operation_0250
+  - term: Surface rendering
+    uri: http://edamontology.org/operation_1816
+  output:
+  - data:
+      term: Protein structural quality report
+      uri: http://edamontology.org/data_1539
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+  - data:
+      term: Protein structure
+      uri: http://edamontology.org/data_1460
+    format:
+    - term: PDB database entry format
+      uri: http://edamontology.org/format_1475
+    - term: PDB
+      uri: http://edamontology.org/format_1476
+homepage: http://webchem.ncbr.muni.cz/Platform/AppsBin/Mole/2.13.9.6/Mole2_pymol.zip
+homepage_status: 0
+language:
+- Python
+- C#
+lastUpdate: '2019-02-13T14:42:54Z'
+license: Other
+link:
+- note: null
+  type: Repository
+  url: http://webchem.ncbr.muni.cz/Platform/AppsBin/Mole/2.13.9.6/Mole2_manual.pdf
+maturity: Mature
+name: MOLE PyMOL plugin
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: ELIXIR-CZ
+publication:
+- doi: 10.1186/1758-2946-5-39
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Plug-in
+topic:
+- term: Protein properties
+  uri: http://edamontology.org/topic_0123
+- term: Protein interactions
+  uri: http://edamontology.org/topic_0128
+- term: Enzymes
+  uri: http://edamontology.org/topic_0821
+- term: Membrane and lipoproteins
+  uri: http://edamontology.org/topic_0820
+- term: Protein structural motifs and surfaces
+  uri: http://edamontology.org/topic_0166
+- term: Small molecules
+  uri: http://edamontology.org/topic_0154
+validated: 0
+version:
+- '2.0'

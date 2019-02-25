@@ -1,0 +1,75 @@
+accessibility: []
+additionDate: '2017-08-20T15:57:51Z'
+biotoolsCURIE: biotools:mach-admix
+biotoolsID: mach-admix
+collectionID:
+- Animal and Crop Genomics
+cost: null
+credit:
+- email: yunli@med.unc.edu
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Genotype imputation software that extends the capabilities of MaCH 1.0.
+  It has incorporated a novel piecewise reference selection method to create reference
+  panels tailored for target individual. This reference selection method generates
+  better imputation quality in shorter running time. It also separates model parameter
+  estimation from imputation. The separation allows users to perform imputation with
+  standard reference panels + pre-calibrated parameters in a data independent fashion.
+documentation:
+- note: null
+  type: General
+  url: http://www.unc.edu/~yunmli/MaCH-Admix/tutorial.php
+download: []
+editPermission:
+  authors:
+  - animalandcropgenomics
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Reference identification
+    uri: http://edamontology.org/operation_3703
+  - term: Imputation
+    uri: http://edamontology.org/operation_3557
+  - term: Haplotype mapping
+    uri: http://edamontology.org/operation_0487
+  output: []
+homepage: https://yunliweb.its.unc.edu//MaCH-Admix/index.php
+homepage_status: 0
+language:
+- C++
+lastUpdate: '2019-01-29T12:01:29Z'
+license: Unlicensed
+link: []
+maturity: null
+name: MaCH-Admix
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: vzn529@binf.ku.dk
+publication:
+- doi: 10.1002/gepi.21690
+  metadata: null
+  pmcid: PMC3524415
+  pmid: '23074066'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Population genetics
+  uri: http://edamontology.org/topic_3056
+validated: 1
+version: []

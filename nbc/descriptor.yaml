@@ -1,0 +1,89 @@
+accessibility: []
+additionDate: '2017-08-03T18:52:13Z'
+biotoolsCURIE: biotools:nbc
+biotoolsID: nbc
+collectionID: []
+cost: null
+credit:
+- email: gailr@gmail.com
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://www.ece.drexel.edu/gailr/EESI/
+description: Uses a method similar to that used in many email spam filters to score
+  a genetic sample against different genomes, to possibly identify the closest match.
+documentation:
+- note: null
+  type: General
+  url: https://github.com/EESI/nbc/blob/master/README
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Classification
+    uri: http://edamontology.org/operation_2990
+  output: []
+homepage: https://github.com/EESI/nbc
+homepage_status: 0
+language:
+- C
+lastUpdate: '2018-12-11T19:27:07Z'
+license: null
+link:
+- note: null
+  type: Registry
+  url: http://www.mybiosoftware.com/nbc-naive-bayes-classification-tool.html
+maturity: null
+name: NBC
+operatingSystem:
+- Linux
+otherID: []
+owner: mbs_import
+publication:
+- doi: null
+  metadata:
+    abstract: 'Motivation: Datasets from high-throughput sequencing technologies have
+      yielded a vast amount of data about organisms in environmental samples. Yet,
+      it is still a challenge to assess the exact organism content in these samples
+      because the task of taxonomic classification is too computationally complex
+      to annotate all reads in a dataset. An easy-to-use webserver is needed to process
+      these reads. While many methods exist, only a few are publicly available on
+      webservers, and out of those, most do not annotate all reads. Results: We introduce
+      a webserver that implements the naïve Bayes classifier (NBC) to classify all
+      metagenomic reads to their best taxonomic match. Results indicate that NBC can
+      assign next generation sequencing reads to their taxonomic classification and
+      can find significant populations of genera that other classifiers may miss.
+      © The Author(s) 2010. Published by Oxford University Press.'
+    authors:
+    - name: Rosen G.L.
+    - name: Reichenberger E.R.
+    - name: Rosenfeld A.M.
+    citationCount: 121
+    date: '2011-01-01T00:00:00Z'
+    journal: Bioinformatics
+    title: 'NBC: The naïve Bayes classification tool webserver for taxonomic classification
+      of metagenomic reads'
+  pmcid: null
+  pmid: '21062764'
+  type: null
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+- term: Genetics
+  uri: http://edamontology.org/topic_3053
+validated: 1
+version: []

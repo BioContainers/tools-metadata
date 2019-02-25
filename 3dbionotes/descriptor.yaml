@@ -1,0 +1,137 @@
+accessibility: []
+additionDate: '2016-07-11T10:42:10Z'
+biotoolsCURIE: biotools:3dbionotes
+biotoolsID: 3dbionotes
+collectionID:
+- INB
+- ELIXIR-ES
+- CNB-CSIC
+cost: null
+credit:
+- email: null
+  name: Joan Segura
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Developer
+  url: null
+- email: null
+  name: INB
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: null
+  name: ELIXIR-ES
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: null
+  name: cnb.csic.es
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: jsegura@cnb.csic.es
+  name: Joan Segura
+  note: null
+  orcidid: null
+  typeEntity: null
+  typeRole:
+  - Maintainer
+  url: http://3dbionotes.cnb.csic.es
+- email: jsegura@cnb.csic.es
+  name: Joan Segura
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://3dbionotes.cnb.csic.es
+description: Web based application designed to integrate protein structure, protein
+  sequence and protein annotations in a unique graphical environment. The current
+  version of the application offers a unified, enriched and interactive view of EMDB
+  volumes, PDB structures and Uniprot sequences where the protein annotations stored
+  in Uniprot, Immune Epitope DB, Phospho Site Plus, BioMuta and dSysMap can be explored
+  interactively at sequence and structural level.
+documentation:
+- note: null
+  type: General
+  url: http://3dbionotes.cnb.csic.es/ws/help
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode:
+- Spain
+elixirPlatform:
+- Interoperability
+elixir_badge: 4
+function:
+- cmd: null
+  input:
+  - data:
+      term: EMDB ID
+      uri: http://edamontology.org/data_1146
+    format: []
+  - data:
+      term: PDB ID
+      uri: http://edamontology.org/data_1127
+    format: []
+  - data:
+      term: UniProt accession
+      uri: http://edamontology.org/data_3021
+    format: []
+  note: Integration of protein structure, protein sequence and protein annotations
+    in a unique graphical environment.
+  operation:
+  - term: Data retrieval
+    uri: http://edamontology.org/operation_2422
+  - term: Structure visualisation
+    uri: http://edamontology.org/operation_0570
+  - term: Sequence visualisation
+    uri: http://edamontology.org/operation_0564
+  output: []
+homepage: http://3dbionotes.cnb.csic.es/ws
+homepage_status: 0
+language:
+- SQL
+lastUpdate: '2019-02-15T10:24:03Z'
+license: null
+link: []
+maturity: null
+name: 3DBIONOTES
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: jsegura@cnb.csic.es
+publication:
+- doi: 10.1016/j.jsb.2016.02.007
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Database portal
+topic:
+- term: Data integration and warehousing
+  uri: http://edamontology.org/topic_3366
+- term: Data submission, annotation and curation
+  uri: http://edamontology.org/topic_0219
+- term: Molecular biology
+  uri: http://edamontology.org/topic_3047
+- term: Proteins
+  uri: http://edamontology.org/topic_0078
+validated: 0
+version: []

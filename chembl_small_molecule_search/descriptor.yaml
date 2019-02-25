@@ -1,0 +1,104 @@
+accessibility: []
+additionDate: '2015-01-29T15:44:13Z'
+biotoolsCURIE: biotools:chembl_small_molecule_search
+biotoolsID: chembl_small_molecule_search
+collectionID:
+- ChEMBL Tools
+- ChEMBL
+- EBI Tools
+cost: null
+credit:
+- email: null
+  name: ChEMBL Team
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Developer
+  url: null
+- email: null
+  name: EMBL-EBI
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: chembl-help@ebi.ac.uk
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: mdavies@ebi.ac.uk
+  name: Mark Davies
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Search against small molecules stored in ChEMBL database.
+documentation:
+- note: null
+  type: Terms of use
+  url: http://www.ebi.ac.uk/about/terms-of-use
+- note: null
+  type: General
+  url: https://www.ebi.ac.uk/chembl/compound
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Chemical structure sketch
+      uri: http://edamontology.org/data_3490
+    format: []
+  note: null
+  operation:
+  - term: Structure database search
+    uri: http://edamontology.org/operation_0339
+  output:
+  - data:
+      term: Small molecule report
+      uri: http://edamontology.org/data_0962
+    format: []
+homepage: https://www.ebi.ac.uk/chembl/compound
+homepage_status: 0
+language: []
+lastUpdate: '2019-02-13T13:28:41Z'
+license: null
+link: []
+maturity: null
+name: ChEMBL Small Molecule Search
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: EMBL-EBI
+publication:
+- doi: 10.1093/nar/gkv1352
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Other
+  version: null
+toolType:
+- Web application
+topic:
+- term: Small molecules
+  uri: http://edamontology.org/topic_0154
+- term: Cheminformatics
+  uri: http://edamontology.org/topic_2258
+validated: 0
+version:
+- '1'

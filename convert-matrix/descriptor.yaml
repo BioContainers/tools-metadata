@@ -1,0 +1,115 @@
+accessibility: []
+additionDate: '2016-03-26T09:59:12Z'
+biotoolsCURIE: biotools:convert-matrix
+biotoolsID: convert-matrix
+collectionID:
+- Regulatory Sequence Analysis Tools (RSAT)
+cost: Free of charge
+credit:
+- email: null
+  name: RSAT
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: Jacques.van-Helden@univ-amu.fr
+  name: Jacques van Helden
+  note: null
+  orcidid: http://orcid.org/0000-0002-8799-8584
+  typeEntity: null
+  typeRole:
+  - Developer
+  url: null
+- email: Jacques.van-Helden@univ-amu.fr
+  name: Jacques van Helden
+  note: null
+  orcidid: http://orcid.org/0000-0002-8799-8584
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Inter-conversions between various formats of position-specific scoring
+  matrices (PSSM). The program also performs a statistical analysis of the original
+  matrix to provide different position-specific scores (weight, frequencies, information
+  contents), general statistics (marginal frequencies, total information content),
+  and synthetic descriptions (strict and degenerate consensus).
+documentation:
+- note: null
+  type: General
+  url: http://rsat.eu/
+download:
+- note: null
+  type: Source code
+  url: http://rsat.eu/
+  version: null
+- note: null
+  type: Binaries
+  url: http://rsat.eu/
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Sequence motif (nucleic acid)
+      uri: http://edamontology.org/data_2070
+    format:
+    - term: Sequence motif format
+      uri: http://edamontology.org/format_2068
+  note: "Sequence motif conversion\nPSSM conversion \nPSSM statistics TRANSFAC-motif,\
+    \ JASPAR-motif, tab-motif, AlignACE-motif, cis-bp-motif, cluster-buster-motif,\
+    \ consensus-motif,  homer-motif, meme-motif, motifsampler-motif, stamp-motif,\
+    \ yeastract-motif TRANSFAC-motif, cluster-buster-motif, jaspar-motif, patser-motif,\
+    \ stamp-motif, tab-motif, tomtom-motif"
+  operation:
+  - term: Sequence analysis
+    uri: http://edamontology.org/operation_2403
+  output:
+  - data:
+      term: Sequence motif (nucleic acid)
+      uri: http://edamontology.org/data_2070
+    format:
+    - term: Sequence motif format
+      uri: http://edamontology.org/format_2068
+homepage: http://rsat.eu/
+homepage_status: 0
+language:
+- Perl
+lastUpdate: '2018-12-24T22:42:03Z'
+license: null
+link:
+- note: null
+  type: Repository
+  url: http://rsat.eu/
+maturity: Mature
+name: convert-matrix
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: Jacques.van-Helden@univ-amu.fr
+publication:
+- doi: 10.1093/nar/gkn304
+  metadata: null
+  pmcid: PMC2447775
+  pmid: '18495751'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+- Web application
+- Web service
+topic:
+- term: Nucleic acid sites, features and motifs
+  uri: http://edamontology.org/topic_3511
+validated: 1
+version:
+- '1'

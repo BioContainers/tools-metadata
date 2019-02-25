@@ -1,0 +1,81 @@
+accessibility: []
+additionDate: '2017-12-18T00:09:49Z'
+biotoolsCURIE: biotools:nppred
+biotoolsID: nppred
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://www.imtech.res.in/raghava/nppred/aboutus.html
+- email: raghava@imtech.res.in
+  name: G. P. S. Raghava
+  note: null
+  orcidid: https://orcid.org/0000-0002-8902-2876
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: NpPred is a method developed for predicting nuclear proteins. This method
+  has been developed on a non-redundant dataset consists of 2710 nuclear and 7662
+  non-nuclear proteins.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Protein sequence analysis
+    uri: http://edamontology.org/operation_2479
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Prediction
+    uri: http://edamontology.org/operation_2423
+  output: []
+homepage: http://www.imtech.res.in/raghava/nppred/
+homepage_status: 0
+language:
+- Perl
+lastUpdate: '2019-01-17T12:51:40Z'
+license: null
+link:
+- note: null
+  type: Registry
+  url: http://www.mybiosoftware.com/nppred-prediction-of-nuclear-proteins.html
+maturity: null
+name: NpPred
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: mbs_import
+publication:
+- doi: 10.1186/1471-2105-10-22
+  metadata: null
+  pmcid: PMC2632991
+  pmid: '19152693'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Proteins
+  uri: http://edamontology.org/topic_0078
+validated: 1
+version: []

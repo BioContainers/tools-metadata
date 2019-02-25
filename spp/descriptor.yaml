@@ -1,0 +1,89 @@
+accessibility: []
+additionDate: '2017-01-13T13:16:39Z'
+biotoolsCURIE: biotools:spp
+biotoolsID: spp
+collectionID:
+- Animal and Crop Genomics
+cost: null
+credit:
+- email: peter_park@harvard.edu
+  name: Peter J. Park
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: R-scripts for ChIP-seq analysis.
+documentation:
+- note: null
+  type: General
+  url: https://sites.google.com/a/brown.edu/bioinformatics-in-biomed/spp-r-from-chip-seq
+download: []
+editPermission:
+  authors:
+  - animalandcropgenomics
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Peak calling
+    uri: http://edamontology.org/operation_3222
+  output: []
+homepage: https://sites.google.com/a/brown.edu/bioinformatics-in-biomed/spp-r-from-chip-seq
+homepage_status: 0
+language:
+- R
+lastUpdate: '2019-01-29T12:07:44Z'
+license: GPL-2.0
+link: []
+maturity: null
+name: SPP
+operatingSystem:
+- Linux
+otherID: []
+owner: seqwiki_import
+publication:
+- doi: 10.1038/nbt.1508
+  metadata:
+    abstract: Recent progress in massively parallel sequencing platforms has enabled
+      genome-wide characterization of DNA-associated proteins using the combination
+      of chromatin immunoprecipitation and sequencing (ChIP-seq). Although a variety
+      of methods exist for analysis of the established alternative ChIP microarray
+      (ChIP-chip), few approaches have been described for processing ChIP-seq data.
+      To fill this gap, we propose an analysis pipeline specifically designed to detect
+      protein-binding positions with high accuracy. Using previously reported data
+      sets for three transcription factors, we illustrate methods for improving tag
+      alignment and correcting for background signals. We compare the sensitivity
+      and spatial precision of three peak detection algorithms with published methods,
+      demonstrating gains in spatial precision when an asymmetric distribution of
+      tags on positive and negative strands is considered. We also analyze the relationship
+      between the depth of sequencing and characteristics of the detected binding
+      positions, and provide a method for estimating the sequencing depth necessary
+      for a desired coverage of protein binding sites. © 2008 Nature Publishing Group.
+    authors:
+    - name: Kharchenko P.V.
+    - name: Tolstorukov M.Y.
+    - name: Park P.J.
+    citationCount: 446
+    date: '2008-12-01T00:00:00Z'
+    journal: Nature Biotechnology
+    title: Design and analysis of ChIP-seq experiments for DNA-binding proteins
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Library
+topic:
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+- term: ChIP-seq
+  uri: http://edamontology.org/topic_3169
+validated: 1
+version: []

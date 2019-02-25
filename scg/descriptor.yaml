@@ -1,0 +1,99 @@
+accessibility: []
+additionDate: '2017-08-20T15:59:02Z'
+biotoolsCURIE: biotools:scg
+biotoolsID: scg
+collectionID:
+- Animal and Crop Genomics
+cost: null
+credit:
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: https://groups.google.com/forum/#!forum/single-cell-genotyper-user-group
+description: A new statistical model and machine learning inference algorithm designed
+  to determine the pattern of how DNA mutations are distributed in individual cells
+  of a tumour. The software provides implementation of several probabilistic models
+  for clustering single cell (nucleus) data and inferring clonal genotypes.
+documentation:
+- note: null
+  type: General
+  url: https://bitbucket.org/aroth85/scg/wiki/Usage
+download: []
+editPermission:
+  authors:
+  - animalandcropgenomics
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Variant pattern analysis
+    uri: http://edamontology.org/operation_3504
+  output: []
+homepage: http://shahlab.ca/projects/scg/
+homepage_status: 0
+language:
+- Python
+lastUpdate: '2019-01-29T12:04:37Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: Single Cell Genotyper (SCG)
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: vzn529@binf.ku.dk
+publication:
+- doi: 10.1038/nmeth.3867
+  metadata:
+    abstract: Single-cell DNA sequencing has great potential to reveal the clonal
+      genotypes and population structure of human cancers. However, single-cell data
+      suffer from missing values and biased allelic counts as well as false genotype
+      measurements owing to the sequencing of multiple cells. We describe the Single
+      Cell Genotyper (https://bitbucket.org/aroth85/scg), an open-source software
+      based on a statistical model coupled with a mean-field variational inference
+      method, which can be used to address these problems and robustly infer clonal
+      genotypes.
+    authors:
+    - name: Roth A.
+    - name: McPherson A.
+    - name: Laks E.
+    - name: Biele J.
+    - name: Yap D.
+    - name: Wan A.
+    - name: Smith M.A.
+    - name: Nielsen C.B.
+    - name: McAlpine J.N.
+    - name: Aparicio S.
+    - name: Bouchard-Cote A.
+    - name: Shah S.P.
+    citationCount: 24
+    date: '2016-06-29T00:00:00Z'
+    journal: Nature Methods
+    title: Clonal genotype and population structure inference from single-cell tumor
+      sequencing
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Library
+topic:
+- term: Oncology
+  uri: http://edamontology.org/topic_2640
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+- term: DNA mutation
+  uri: http://edamontology.org/topic_2533
+validated: 1
+version: []

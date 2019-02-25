@@ -1,0 +1,109 @@
+accessibility: []
+additionDate: '2017-12-18T00:12:11Z'
+biotoolsCURIE: biotools:rseqflow
+biotoolsID: rseqflow
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://www.cmb.usc.edu/people/tingchen/
+description: Workflow which can implement a set of RNA-Seq analysis, such as performing
+  quality control (QC) for sequencing data, generating signal tracks of mapped reads,
+  calculating expression levels, and identifying differentially expressed genes by
+  just providing sequencing RNA-Seq datasets.
+documentation:
+- note: null
+  type: General
+  url: https://code.google.com/archive/p/rseqflow/wikis/PipelineDescription.wiki
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: RNA-Seq analysis
+    uri: http://edamontology.org/operation_3680
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Quality control
+    uri: http://edamontology.org/operation_2428
+  output: []
+homepage: http://genomics.isi.edu/rnaseq
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-15T00:26:45Z'
+license: null
+link:
+- note: null
+  type: Registry
+  url: http://www.mybiosoftware.com/rseqflow-rna-seq-data-analysis-workflow.html
+maturity: null
+name: RseqFlow
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: mbs_import
+publication:
+- doi: 10.1093/bioinformatics/btr441
+  metadata:
+    abstract: 'Summary: We have developed an RNA-Seq analysis workflow for single-ended
+      Illumina reads, termed RseqFlow. This workflow includes a set of analytic functions,
+      such as quality control for sequencing data, signal tracks of mapped reads,
+      calculation of expression levels, identification of differentially expressed
+      genes and coding SNPs calling. This workflow is formalized and managed by the
+      Pegasus Workflow Management System, which maps the analysis modules onto available
+      computational resources, automatically executes the steps in the appropriate
+      order and supervises the whole running process. RseqFlow is available as a Virtual
+      Machine with all the necessary software, which eliminates any complex configuration
+      and installation steps. © The Author 2011. Published by Oxford University Press.
+      All rights reserved.'
+    authors:
+    - name: Wang Y.
+    - name: Mehta G.
+    - name: Mayani R.
+    - name: Lu J.
+    - name: Souaiaia T.
+    - name: Chen Y.
+    - name: Clark A.
+    - name: Yoon H.J.
+    - name: Wan L.
+    - name: Evgrafov O.V.
+    - name: Knowles J.A.
+    - name: Deelman E.
+    - name: Chen T.
+    citationCount: 12
+    date: '2011-09-01T00:00:00Z'
+    journal: Bioinformatics
+    title: 'RseqFlow: Workflows for RNA-Seq data analysis'
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: RNA
+  uri: http://edamontology.org/topic_0099
+- term: RNA-seq
+  uri: http://edamontology.org/topic_3170
+- term: Sequencing
+  uri: http://edamontology.org/topic_3168
+validated: 1
+version: []

@@ -1,0 +1,79 @@
+accessibility: []
+additionDate: '2017-01-17T15:08:21Z'
+biotoolsCURIE: biotools:fastx-toolkit
+biotoolsID: fastx-toolkit
+collectionID:
+- ELIXIR Trainer Tools
+- FASTX-Toolkit
+- Animal and Crop Genomics
+cost: null
+credit:
+- email: gordon@cshl.edu
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing.
+documentation:
+- note: null
+  type: General
+  url: http://hannonlab.cshl.edu/fastx_toolkit/galaxy.html
+download: []
+editPermission:
+  authors:
+  - animalandcropgenomics
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Read pre-processing
+    uri: http://edamontology.org/operation_3219
+  - term: Sequence editing
+    uri: http://edamontology.org/operation_0231
+  output: []
+homepage: http://hannonlab.cshl.edu/fastx_toolkit/
+homepage_status: 0
+language:
+- Shell
+- C++
+- C
+lastUpdate: '2019-02-12T09:38:41Z'
+license: AGPL-3.0
+link:
+- note: null
+  type: Repository
+  url: https://github.com/agordon/fastx_toolkit
+- note: null
+  type: Issue tracker
+  url: https://github.com/agordon/fastx_toolkit/issues
+maturity: null
+name: FASTX-Toolkit
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: training_go_import
+publication:
+- doi: 10.1006/geno.1997.4995
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Review
+  version: null
+toolType:
+- Web application
+- Suite
+topic:
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+validated: 0
+version: []

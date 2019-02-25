@@ -1,0 +1,148 @@
+accessibility: []
+additionDate: '2018-07-18T09:31:39Z'
+biotoolsCURIE: biotools:raven_toolbox
+biotoolsID: raven_toolbox
+collectionID: []
+cost: Free of charge
+credit:
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: https://gitter.im/SysBioChalmers/RAVEN?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+- email: hao.wang@chalmers.se
+  name: Hao Wang
+  note: null
+  orcidid: http://orcid.org/0000-0001-7475-0136
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: The RAVEN (Reconstruction, Analysis and Visualization of Metabolic Networks)
+  Toolbox 2 is a software suite for Matlab that allows for semi-automated reconstruction
+  of genome-scale models (GEMs). It makes use of published models and/or KEGG, MetaCyc
+  databases, coupled with extensive gap-filling and quality control features. The
+  software suite also contains methods for visualizing simulation results and omics
+  data, as well as a range of methods for performing simulations and analyzing the
+  results. The software is a useful tool for system-wide data analysis in a metabolic
+  context and for streamlined reconstruction of metabolic networks based on protein
+  homology.
+documentation:
+- note: GitHub Wiki
+  type: General
+  url: https://github.com/SysBioChalmers/RAVEN/wiki
+download:
+- note: Stabile releases
+  type: Binaries
+  url: https://github.com/SysBioChalmers/RAVEN/releases
+  version: null
+- note: Source code
+  type: Source code
+  url: https://github.com/SysBioChalmers/RAVEN
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Protein sequence
+      uri: http://edamontology.org/data_2976
+    format:
+    - term: protein
+      uri: http://edamontology.org/format_1208
+  - data:
+      term: Pathway or network
+      uri: http://edamontology.org/data_2600
+    format:
+    - term: SBML
+      uri: http://edamontology.org/format_2585
+    - term: xlsx
+      uri: http://edamontology.org/format_3620
+  - data:
+      term: Gene expression matrix
+      uri: http://edamontology.org/data_3112
+    format:
+    - term: CSV
+      uri: http://edamontology.org/format_3752
+  note: null
+  operation:
+  - term: Pathway or network prediction
+    uri: http://edamontology.org/operation_3439
+  - term: Metabolic network modelling
+    uri: http://edamontology.org/operation_3660
+  - term: Pathway or network analysis
+    uri: http://edamontology.org/operation_2497
+  output:
+  - data:
+      term: Pathway or network
+      uri: http://edamontology.org/data_2600
+    format:
+    - term: SBML
+      uri: http://edamontology.org/format_2585
+    - term: xlsx
+      uri: http://edamontology.org/format_3620
+    - term: YAML
+      uri: http://edamontology.org/format_3750
+  - data:
+      term: Physiology parameter
+      uri: http://edamontology.org/data_3722
+    format:
+    - term: raw
+      uri: http://edamontology.org/format_1957
+homepage: https://github.com/SysBioChalmers/RAVEN
+homepage_status: 0
+language:
+- MATLAB
+lastUpdate: '2019-01-17T22:32:07Z'
+license: GPL-3.0
+link:
+- note: Gitter chat room
+  type: Mailing list
+  url: https://gitter.im/SysBioChalmers/RAVEN
+- note: GitHub Issues
+  type: Issue tracker
+  url: https://github.com/SysBioChalmers/RAVEN/issues
+- note: GitHub Repository
+  type: Repository
+  url: https://github.com/SysBioChalmers/RAVEN
+- note: GitHub Wiki
+  type: Helpdesk
+  url: https://github.com/SysBioChalmers/RAVEN/wiki
+maturity: Mature
+name: RAVEN Toolbox
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: eduardk
+publication:
+- doi: 10.1101/321067
+  metadata: null
+  pmcid: PMC6207324
+  pmid: '30335785'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+- Script
+topic:
+- term: Computational biology
+  uri: http://edamontology.org/topic_3307
+- term: Systems biology
+  uri: http://edamontology.org/topic_2259
+- term: Molecular interactions, pathways and networks
+  uri: http://edamontology.org/topic_0602
+- term: Bioengineering
+  uri: http://edamontology.org/topic_3398
+validated: 1
+version:
+- '2.0'

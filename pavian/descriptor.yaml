@@ -1,0 +1,75 @@
+accessibility: []
+additionDate: '2017-08-20T16:34:27Z'
+biotoolsCURIE: biotools:pavian
+biotoolsID: pavian
+collectionID:
+- Animal and Crop Genomics
+cost: null
+credit:
+- email: fbreitw1@jhmi.edu
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Web application for exploring metagenomics classification results, with
+  a special focus on infectious disease diagnosis. Pinpointing pathogens in metagenomics
+  classification results is often complicated by host and laboratory contaminants
+  as well as many non-pathogenic microbiota. Researchers can analyze, display and
+  transform results from the Kraken and Centrifuge classifiers using interactive tables,
+  heatmaps and flow diagrams.
+documentation:
+- note: null
+  type: Manual
+  url: https://ccb.jhu.edu/software/pavian/index.shtml?t=manual
+download: []
+editPermission:
+  authors:
+  - animalandcropgenomics
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Annotation
+    uri: http://edamontology.org/operation_0226
+  - term: Taxonomic classification
+    uri: http://edamontology.org/operation_3460
+  output: []
+homepage: https://ccb.jhu.edu/software/pavian/
+homepage_status: 0
+language:
+- R
+lastUpdate: '2019-01-29T12:03:12Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: Pavian
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: vzn529@binf.ku.dk
+publication:
+- doi: 10.1101/084715
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Web application
+topic:
+- term: Metagenomics
+  uri: http://edamontology.org/topic_3174
+- term: Model organisms
+  uri: http://edamontology.org/topic_0621
+validated: 1
+version: []

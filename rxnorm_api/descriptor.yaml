@@ -1,0 +1,75 @@
+accessibility: []
+additionDate: '2015-08-03T09:36:39Z'
+biotoolsCURIE: biotools:rxnorm_api
+biotoolsID: rxnorm_api
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://rxnav.nlm.nih.gov/ContactUs.html
+description: RxNorm provides normalized names for clinical drugs and links its names
+  to many of the drug vocabularies commonly used in pharmacy management and drug interaction
+  software, including those of First Databank, Micromedex, Gold Standard Drug Database,
+  and Multum. By providing links between these vocabularies, RxNorm can mediate messages
+  between systems not using the same software and vocabulary.
+documentation:
+- note: RxNorm Overview
+  type: General
+  url: https://www.nlm.nih.gov/research/umls/rxnorm/overview.html
+- note: RxNorm technical documentation
+  type: General
+  url: https://www.nlm.nih.gov/research/umls/rxnorm/docs/index.html
+- note: null
+  type: API documentation
+  url: https://mor.nlm.nih.gov/download/rxnav/RxNormAPIs.html#
+download:
+- note: null
+  type: Biological data
+  url: https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Data retrieval
+    uri: http://edamontology.org/operation_2422
+  output: []
+homepage: https://www.nlm.nih.gov/research/umls/rxnorm/
+homepage_status: 0
+language: []
+lastUpdate: '2019-02-17T12:06:11Z'
+license: null
+link: []
+maturity: null
+name: RxNorm API
+operatingSystem: []
+otherID: []
+owner: BioCatalogue
+publication:
+- doi: 10.1109/MITP.2005.122
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Web service
+topic:
+- term: Data management
+  uri: http://edamontology.org/topic_3071
+validated: 0
+version:
+- '1'

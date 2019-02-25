@@ -1,0 +1,70 @@
+accessibility: []
+additionDate: '2017-08-20T16:27:42Z'
+biotoolsCURIE: biotools:ngs-snp
+biotoolsID: ngs-snp
+collectionID:
+- Animal and Crop Genomics
+cost: null
+credit:
+- email: stothard@ualberta.ca
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Collection of command-line scripts for providing annotations for SNPs
+  identified by the sequencing of transcripts or whole genomes from organisms with
+  reference sequences in Ensembl.
+documentation:
+- note: null
+  type: General
+  url: https://sites.ualberta.ca/~stothard/downloads/NGS-SNP/installation.html
+download: []
+editPermission:
+  authors:
+  - animalandcropgenomics
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Sequence annotation
+    uri: http://edamontology.org/operation_0361
+  - term: Genetic variation analysis
+    uri: http://edamontology.org/operation_3197
+  output: []
+homepage: https://sites.ualberta.ca/~stothard/downloads/NGS-SNP/
+homepage_status: 0
+language:
+- Perl
+lastUpdate: '2019-01-29T12:02:50Z'
+license: Unlicensed
+link: []
+maturity: null
+name: NGS-SNP
+operatingSystem:
+- Linux
+otherID: []
+owner: vzn529@binf.ku.dk
+publication:
+- doi: 10.1093/bioinformatics/btr372
+  metadata: null
+  pmcid: PMC3150039
+  pmid: '21697123'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+- term: Protein variants
+  uri: http://edamontology.org/topic_3120
+validated: 1
+version: []

@@ -1,0 +1,86 @@
+accessibility: []
+additionDate: '2017-08-20T14:56:32Z'
+biotoolsCURIE: biotools:adam
+biotoolsID: adam
+collectionID:
+- Animal and Crop Genomics
+cost: null
+credit:
+- email: AndersC.Sorensen@agrsci.dk
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Model selective breeding schemes for animals using stochastic simulation.
+  The program simulates a population of animals and traces the genetic changes in
+  the population under different selective breeding scenarios. It caters for different
+  population structures, genetic models, selection strategies, and mating designs.
+  It can be used to evaluate breeding schemes and generate genetic data to test statistical
+  tools.
+documentation:
+- note: null
+  type: Manual
+  url: http://adam.agrsci.dk/manual_website.htm
+download: []
+editPermission:
+  authors:
+  - animalandcropgenomics
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Modelling and simulation
+    uri: http://edamontology.org/operation_2426
+  output: []
+homepage: http://adam.agrsci.dk/
+homepage_status: 0
+language:
+- Fortran
+lastUpdate: '2019-01-29T11:57:39Z'
+license: Unlicensed
+link: []
+maturity: null
+name: ADAM
+operatingSystem:
+- Linux
+otherID: []
+owner: vzn529@binf.ku.dk
+publication:
+- doi: 10.1016/j.livsci.2008.06.028
+  metadata:
+    abstract: ADAM is a computer program that models selective breeding schemes for
+      animals using stochastic simulation. The program simulates a population of animals
+      and traces the genetic changes in the population under different selective breeding
+      scenarios. It caters to different population structures, genetic models, selection
+      strategies, and mating designs. ADAM can be used to evaluate breeding schemes
+      and generate genetic data to test statistical tools. © 2008 Elsevier B.V. All
+      rights reserved.
+    authors:
+    - name: Pedersen L.D.
+    - name: Sorensen A.C.
+    - name: Henryon M.
+    - name: Ansari-Mahyari S.
+    - name: Berg P.
+    citationCount: 26
+    date: '2009-04-01T00:00:00Z'
+    journal: Livestock Science
+    title: 'ADAM: A computer program to simulate selective breeding schemes for animals'
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Simulation experiment
+  uri: http://edamontology.org/topic_3524
+validated: 1
+version: []

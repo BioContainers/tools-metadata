@@ -1,0 +1,76 @@
+accessibility:
+- Open access
+additionDate: '2019-02-14T08:17:30Z'
+biotoolsCURIE: biotools:VarGenius
+biotoolsID: VarGenius
+collectionID: []
+cost: Free of charge
+credit:
+- email: f.musacchia@tigem.it
+  name: ELIXIR-ITA-TELETHON
+  note: null
+  orcidid: https://orcid.org/0000-0001-9440-1080
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: VarGenius is a platform for analysis of variants from DNA sequencing
+  data. Currently it can be used for WES and Panels. Starting from fastq files it
+  can execute the GATK Best Practices pipeline doing both single calling and joint
+  calling. Then it executes Annovar for variant annotation and generates a readable
+  output in tabular and XLS format. All the data extracted from the samples (variants,
+  genotypes, etc..) are uploaded into a Postgres database which can be used for further
+  downstream analyses.
+documentation:
+- note: null
+  type: Installation instructions
+  url: https://github.com/frankMusacchia/VarGenius/tree/master/GUIDE
+download:
+- note: null
+  type: Source code
+  url: https://github.com/frankMusacchia/VarGenius
+  version: '1.0'
+editPermission:
+  authors: []
+  type: private
+elixirNode:
+- Italy
+elixirPlatform:
+- Tools
+elixir_badge: 0
+function: []
+homepage: https://github.com/frankMusacchia/VarGenius
+homepage_status: 0
+language:
+- R
+- Perl
+lastUpdate: '2019-02-14T08:17:40Z'
+license: null
+link:
+- note: Scientific publication
+  type: Scientific benchmark
+  url: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2532-4
+- note: null
+  type: Helpdesk
+  url: https://groups.google.com/forum/#!forum/VarGenius
+maturity: Mature
+name: VarGenius
+operatingSystem:
+- Linux
+otherID: []
+owner: FrankMusacchia
+publication:
+- doi: 10.1186/s12859-018-2532-4
+  metadata: null
+  pmcid: PMC6291943
+  pmid: '30541431'
+  type: Primary
+  version: '1.0'
+toolType:
+- Command-line tool
+topic:
+- term: DNA mutation
+  uri: http://edamontology.org/topic_2533
+validated: 0
+version:
+- '1.0'

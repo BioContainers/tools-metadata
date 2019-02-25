@@ -1,0 +1,80 @@
+accessibility: []
+additionDate: '2018-11-27T08:16:27Z'
+biotoolsCURIE: biotools:empprior
+biotoolsID: empprior
+collectionID: []
+cost: null
+credit:
+- email: jjanders@us.ibm.com
+  name: John J. Andersen
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: jembrown@lsu.edu
+  name: Jeremy Brown
+  note: null
+  orcidid: http://orcid.org/0000-0002-1447-8633
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: EmpPrior facilitates the collection and incorporation of relevant, outside
+  information when setting branch-length priors for phylogenetics.
+documentation:
+- note: null
+  type: Manual
+  url: https://github.com/jembrown/EmpPrior/blob/master/EmpPrior.0.21_Manual_6.3.16.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Data retrieval
+    uri: http://edamontology.org/operation_2422
+  output: []
+homepage: https://github.com/jembrown/EmpPrior
+homepage_status: 0
+language:
+- R
+- Java
+lastUpdate: '2019-01-13T17:01:24Z'
+license: GPL-3.0
+link:
+- note: null
+  type: Issue tracker
+  url: https://github.com/jembrown/EmpPrior/issues
+maturity: null
+name: EmpPrior
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: daniel_stefan
+publication:
+- doi: 10.1186/s12859-016-1132-4
+  metadata: null
+  pmcid: PMC4919878
+  pmid: '27342194'
+  type: Primary
+  version: null
+toolType:
+- Desktop application
+topic:
+- term: Phylogenetics
+  uri: http://edamontology.org/topic_3293
+- term: Applied mathematics
+  uri: http://edamontology.org/topic_3569
+validated: 1
+version:
+- '0.21'

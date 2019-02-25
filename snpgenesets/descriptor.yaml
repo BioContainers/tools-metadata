@@ -1,0 +1,70 @@
+accessibility: []
+additionDate: '2018-10-20T00:23:48Z'
+biotoolsCURIE: biotools:snpgenesets
+biotoolsID: snpgenesets
+collectionID: []
+cost: null
+credit:
+- email: hmei@umc.edu
+  name: Hao Mei
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: snpGeneSets is a package that simplifies annotation and analysis of GWS
+  results. The package integrates local copies of knowledge bases for SNPs, genes,
+  and gene sets, and implements wrapper functions in the R language to enable transparent
+  access to low-level databases for efficient annotation of large genomic data.
+documentation:
+- note: null
+  type: Manual
+  url: https://www.umc.edu/SoPH/Departments-and-Faculty/Data-Science/files/files/snpgenesets_v1.12.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: SNP annotation
+    uri: http://edamontology.org/operation_3661
+  output: []
+homepage: https://www.umc.edu/SoPH/Departments-and-Faculty/Data-Science/Research/Services/Software.html
+homepage_status: 0
+language:
+- R
+lastUpdate: '2018-12-10T12:59:01Z'
+license: Other
+link: []
+maturity: null
+name: snpGeneSets
+operatingSystem:
+- Windows
+otherID: []
+owner: daniel_stefan
+publication:
+- doi: 10.1534/g3.116.034694
+  metadata: null
+  pmcid: PMC5144977
+  pmid: '27807048'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: GWAS study
+  uri: http://edamontology.org/topic_3517
+- term: Nucleic acid structure analysis
+  uri: http://edamontology.org/topic_0097
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+validated: 1
+version:
+- V1.12

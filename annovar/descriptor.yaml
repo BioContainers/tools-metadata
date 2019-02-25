@@ -1,0 +1,74 @@
+accessibility: []
+additionDate: '2017-01-13T13:13:33Z'
+biotoolsCURIE: biotools:annovar
+biotoolsID: annovar
+collectionID:
+- Rare Disease
+- ANNOVAR
+cost: null
+credit:
+- email: kai@openbioinformatics.org
+  name: Kai Wang
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: A tool for finding relevant genetic variants from high-throughput sequencing
+  data based on functional annotation.
+documentation:
+- note: null
+  type: General
+  url: http://annovar.openbioinformatics.org/en/latest/
+download: []
+editPermission:
+  authors:
+  - ELIXIR-EE
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Sequence analysis
+    uri: http://edamontology.org/operation_2403
+  - term: Variant prioritisation
+    uri: http://edamontology.org/operation_3226
+  - term: Gene functional annotation
+    uri: http://edamontology.org/operation_3672
+  output: []
+homepage: http://annovar.openbioinformatics.org/en/latest/
+homepage_status: 0
+language:
+- Perl
+lastUpdate: '2019-02-12T09:16:56Z'
+license: null
+link: []
+maturity: Mature
+name: ANNOVAR
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: seqwiki_import
+publication:
+- doi: null
+  metadata: null
+  pmcid: null
+  pmid: '20601685'
+  type: null
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Functional genomics
+  uri: http://edamontology.org/topic_0085
+- term: Genetic variation
+  uri: http://edamontology.org/topic_0199
+validated: 0
+version: []

@@ -1,0 +1,125 @@
+accessibility: []
+additionDate: '2018-02-22T19:13:08Z'
+biotoolsCURIE: biotools:arb
+biotoolsID: arb
+collectionID:
+- ARB
+cost: Free of charge
+credit:
+- email: arb@arb-home.de
+  name: ARB Users Mailing List
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: The ARB software is a graphically oriented package comprising various
+  tools for sequence database handling and data analysis. A central database of processed
+  (aligned) sequences and any type of additional data linked to the respective sequence
+  entries is structured according to phylogeny or other user defined criteria
+documentation: []
+download:
+- note: null
+  type: Binaries
+  url: http://download.arb-home.de/release/latest/
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Sequence set (nucleic acid)
+      uri: http://edamontology.org/data_1234
+    format:
+    - term: FASTA
+      uri: http://edamontology.org/format_1929
+  note: null
+  operation:
+  - term: Sequence similarity search
+    uri: http://edamontology.org/operation_0346
+  - term: Base position variability plotting
+    uri: http://edamontology.org/operation_0287
+  - term: Sequence alignment conversion
+    uri: http://edamontology.org/operation_0260
+  - term: Structure-based sequence alignment
+    uri: http://edamontology.org/operation_0294
+  - term: Phylogenetic tree visualisation
+    uri: http://edamontology.org/operation_0567
+  - term: Sequence alignment editing
+    uri: http://edamontology.org/operation_3081
+  - term: Phylogenetic tree editing
+    uri: http://edamontology.org/operation_0326
+  - term: Sequence distance matrix generation
+    uri: http://edamontology.org/operation_0289
+  - term: RNA secondary structure prediction
+    uri: http://edamontology.org/operation_0278
+  - term: Multiple sequence alignment
+    uri: http://edamontology.org/operation_0492
+  - term: Sequence alignment comparison
+    uri: http://edamontology.org/operation_0259
+  - term: Sequence masking
+    uri: http://edamontology.org/operation_0368
+  - term: Sequence clustering
+    uri: http://edamontology.org/operation_0291
+  - term: Sequence database search (by property)
+    uri: http://edamontology.org/operation_0349
+  - term: Global alignment
+    uri: http://edamontology.org/operation_0496
+  - term: Phylogenetic tree annotation
+    uri: http://edamontology.org/operation_0558
+  - term: Structure editing
+    uri: http://edamontology.org/operation_3080
+  - term: DNA translation
+    uri: http://edamontology.org/operation_0371
+  output: []
+homepage: http://arb-home.de
+homepage_status: 0
+language:
+- Shell
+- C++
+- Perl
+lastUpdate: '2019-02-14T00:33:34Z'
+license: Proprietary
+link:
+- note: null
+  type: Mailing list
+  url: https://groups.yahoo.com/neo/groups/arb_users/info
+- note: null
+  type: Issue tracker
+  url: http://bugs.arb-home.de/
+maturity: Mature
+name: ARB
+operatingSystem:
+- Linux
+- Mac
+otherID: []
+owner: epruesse
+publication:
+- doi: 10.1093/nar/gkh293
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+- doi: 10.1002/9781118010518.ch46
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Desktop application
+topic:
+- term: Phylogeny
+  uri: http://edamontology.org/topic_0084
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+validated: 0
+version:
+- 6.0.6

@@ -1,0 +1,75 @@
+accessibility: []
+additionDate: '2018-07-23T17:51:28Z'
+biotoolsCURIE: biotools:sccmecfinder
+biotoolsID: sccmecfinder
+collectionID: []
+cost: null
+credit:
+- email: arl@ssi.dk
+  name: Scientific Support
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: cgehelp@cbs.dtu.dk
+  name: Technical support
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: It identifies SCCmec elements in sequenced S. aureus isolates.
+documentation:
+- note: null
+  type: General
+  url: https://cge.cbs.dtu.dk/services/SCCmecFinder/instructions.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Sequence analysis
+    uri: http://edamontology.org/operation_2403
+  output: []
+homepage: https://cge.cbs.dtu.dk/services/SCCmecFinder/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:59:00Z'
+license: null
+link: []
+maturity: null
+name: SCCmecFinder
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: d.gabrielaitis
+publication:
+- doi: 10.1128/mSphere.00612-17
+  metadata: null
+  pmcid: PMC5812897
+  pmid: '29468193'
+  type: null
+  version: null
+toolType:
+- Web application
+topic:
+- term: Whole genome sequencing
+  uri: http://edamontology.org/topic_3673
+- term: Microbiology
+  uri: http://edamontology.org/topic_3301
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

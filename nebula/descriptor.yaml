@@ -1,0 +1,74 @@
+accessibility: []
+additionDate: '2017-08-03T18:52:40Z'
+biotoolsCURIE: biotools:nebula
+biotoolsID: nebula
+collectionID:
+- Nebula
+cost: null
+credit:
+- email: galaxy.contact@curie.fr
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://bioinfo-out.curie.fr/
+description: Web service powered by Galaxy which allows users (Bioinformaticians as
+  far as Biologists) to analyze their ChIP-seq data.
+documentation:
+- note: null
+  type: Manual
+  url: http://nebula.curie.fr/static/nebula_tutorial.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Protein-nucleic acid binding site analysis
+    uri: http://edamontology.org/operation_0389
+  output: []
+homepage: https://nebula.curie.fr/
+homepage_status: 0
+language:
+- R
+- Perl
+lastUpdate: '2019-02-12T15:52:36Z'
+license: null
+link:
+- note: null
+  type: Registry
+  url: http://www.mybiosoftware.com/nebula-20130627-chip-seq-data-analysis.html
+maturity: null
+name: Nebula
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: mbs_import
+publication:
+- doi: null
+  metadata: null
+  pmcid: null
+  pmid: '22829625'
+  type: null
+  version: null
+toolType:
+- Web application
+topic:
+- term: Data architecture, analysis and design
+  uri: http://edamontology.org/topic_3365
+- term: ChIP-seq
+  uri: http://edamontology.org/topic_3169
+- term: DNA binding sites
+  uri: http://edamontology.org/topic_3125
+validated: 0
+version: []

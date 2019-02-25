@@ -1,0 +1,108 @@
+accessibility: []
+additionDate: '2015-11-05T14:12:16Z'
+biotoolsCURIE: biotools:inga
+biotoolsID: inga
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: University of Padua, Department of Biomedical Sciences, BioComputing UP lab
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: null
+  name: ELIXIR-ITA-PADOVA
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: silvio.tosatto@unipd.it
+  name: Silvio C.E. Tosatto
+  note: null
+  orcidid: http://orcid.org/0000-0003-4525-7793
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://protein.bio.unipd.it
+description: Interaction Network GO Annotator protein function predictor.
+documentation:
+- note: null
+  type: General
+  url: http://protein.bio.unipd.it/inga/help
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Protein sequence
+      uri: http://edamontology.org/data_2976
+    format:
+    - term: FASTA
+      uri: http://edamontology.org/format_1929
+  - data:
+      term: UniProt accession
+      uri: http://edamontology.org/data_3021
+    format: []
+  note: 'INGA (Interaction Network GO Annotator) is a web server for the prediction
+    of protein function. INGA uses three different sources of information: sequence
+    similarity, domain recognition and protein interaction networks. JSON results
+    available through RESTful interface'
+  operation:
+  - term: Protein function prediction
+    uri: http://edamontology.org/operation_1777
+  output:
+  - data:
+      term: Ontology concept
+      uri: http://edamontology.org/data_2858
+    format:
+    - term: Protein report format
+      uri: http://edamontology.org/format_2062
+    - term: MHTML
+      uri: http://edamontology.org/format_3556
+  - data:
+      term: Ontology concept
+      uri: http://edamontology.org/data_2858
+    format:
+    - term: JSON
+      uri: http://edamontology.org/format_3464
+homepage: http://protein.bio.unipd.it/inga
+homepage_status: 0
+language: []
+lastUpdate: '2019-01-11T00:54:18Z'
+license: null
+link: []
+maturity: null
+name: INGA
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: ELIXIR-ITA-PADOVA
+publication:
+- doi: 10.1093/nar/gkv523
+  metadata: null
+  pmcid: PMC4489281
+  pmid: '26019177'
+  type: Primary
+  version: null
+toolType:
+- Web API
+- Web application
+topic:
+- term: Function analysis
+  uri: http://edamontology.org/topic_1775
+validated: 1
+version:
+- '1.1'

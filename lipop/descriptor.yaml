@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2015-06-29T10:17:14Z'
+biotoolsCURIE: biotools:lipop
+biotoolsID: lipop
+collectionID: []
+cost: Free of charge (with restrictions)
+credit:
+- email: null
+  name: CBS
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: ag@cbs.dtu.dk
+  name: Agnieszka S. Juncker
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: soren.brunak@cpr.ku.dk
+  name: Søren Brunak
+  note: null
+  orcidid: http://orcid.org/0000-0003-0316-5866
+  typeEntity: Person
+  typeRole: []
+  url: null
+description: Predictions of lipoproteins and discrimination between lipoprotein signal
+  peptides, other signal peptides and n-terminal membrane helices in Gram-negative
+  bacteria.
+documentation:
+- note: null
+  type: General
+  url: http://www.cbs.dtu.dk/services/LipoP/LipoP1.0server.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Sequence
+      uri: http://edamontology.org/data_2044
+    format:
+    - term: FASTA
+      uri: http://edamontology.org/format_1929
+  note: predictions of lipoproteins and discrimination between signal peptides
+  operation:
+  - term: Protein signal peptide detection
+    uri: http://edamontology.org/operation_0418
+  output:
+  - data:
+      term: Sequence report
+      uri: http://edamontology.org/data_2955
+    format:
+    - term: GFF
+      uri: http://edamontology.org/format_2305
+homepage: http://cbs.dtu.dk/services/LipoP
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-16T13:02:09Z'
+license: Other
+link:
+- note: null
+  type: Registry
+  url: http://cbs.dtu.dk/services
+maturity: Emerging
+name: LipoP
+operatingSystem:
+- Linux
+otherID: []
+owner: CBS
+publication:
+- doi: 10.1110/ps.0303703
+  metadata: null
+  pmcid: PMC2323952
+  pmid: '12876315'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+- Web application
+- Web service
+topic:
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+- term: Membrane and lipoproteins
+  uri: http://edamontology.org/topic_0820
+validated: 1
+version:
+- '1.0'

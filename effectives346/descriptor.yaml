@@ -1,0 +1,100 @@
+accessibility: []
+additionDate: '2015-11-05T15:28:55Z'
+biotoolsCURIE: biotools:effectives346
+biotoolsID: effectives346
+collectionID: []
+cost: Free of charge
+credit:
+- email: null
+  name: CUBE - Computational Systems Biology
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: null
+  name: AT-CUBE
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: contact.cube@univie.ac.at
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Prediction of intact secretion systems III, IV and VI in bacterial genomes
+  by using a Support Vector Machine (SVM) approach.
+documentation:
+- note: null
+  type: General
+  url: http://www.effectivedb.org/method/effectives346
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Protein sequence
+      uri: http://edamontology.org/data_2976
+    format:
+    - term: FASTA
+      uri: http://edamontology.org/format_1929
+  note: top-100 COGs/NOGs and top KEGG proteins linked to Type-III, Type-IV and Type-VI
+    secretion systems Intact Type-III, Type-IV, and Type-VI secretion systems
+  operation:
+  - term: Virulence prediction
+    uri: http://edamontology.org/operation_3461
+  output:
+  - data:
+      term: Protein report
+      uri: http://edamontology.org/data_0896
+    format:
+    - term: plain text format (unformatted)
+      uri: http://edamontology.org/format_1964
+  - data:
+      term: Genotype/phenotype report
+      uri: http://edamontology.org/data_0920
+    format: []
+homepage: http://www.effectivedb.org/method/effectives346
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-29T15:20:42Z'
+license: null
+link: []
+maturity: Mature
+name: EffectiveS346
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: AT-CUBE
+publication:
+- doi: 10.1093/nar/gkq1154
+  metadata: null
+  pmcid: PMC3013723
+  pmid: '21071416'
+  type: Primary
+  version: null
+toolType:
+- Web application
+- Database portal
+topic:
+- term: Metagenomics
+  uri: http://edamontology.org/topic_3174
+- term: Comparative genomics
+  uri: http://edamontology.org/topic_0797
+validated: 1
+version: []

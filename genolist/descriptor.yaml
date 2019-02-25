@@ -1,0 +1,118 @@
+accessibility: []
+additionDate: '2015-09-18T21:27:46Z'
+biotoolsCURIE: biotools:genolist
+biotoolsID: genolist
+collectionID:
+- DRCAT
+cost: null
+credit:
+- email: null
+  name: DRCAT
+  note: null
+  orcidid: null
+  typeEntity: Project
+  typeRole:
+  - Documentor
+  url: null
+- email: genolist@pasteur.fr
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: An integrated environment for the analysis of microbial genomes.
+documentation:
+- note: null
+  type: General
+  url: http://genodb.pasteur.fr/cgi-bin/WebObjects/GenoList
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Gene ID (Genolist)
+      uri: http://edamontology.org/data_2739
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Gene report
+      uri: http://edamontology.org/data_0916
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+- cmd: null
+  input:
+  - data:
+      term: Gene symbol
+      uri: http://edamontology.org/data_1026
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Gene report
+      uri: http://edamontology.org/data_0916
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+- cmd: null
+  input:
+  - data:
+      term: Taxon
+      uri: http://edamontology.org/data_1868
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Taxonomy
+      uri: http://edamontology.org/data_3028
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+homepage: http://genolist.pasteur.fr/GenoList
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-24T22:19:06Z'
+license: null
+link: []
+maturity: null
+name: GenoList comparative analysis of microbial genomes
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: DRCAT
+publication:
+- doi: 10.1093/nar/gkm1042
+  metadata: null
+  pmcid: PMC2238853
+  pmid: '18032431'
+  type: Primary
+  version: null
+toolType:
+- Database portal
+topic:
+- term: Model organisms
+  uri: http://edamontology.org/topic_0621
+- term: Comparative genomics
+  uri: http://edamontology.org/topic_0797
+validated: 1
+version: []

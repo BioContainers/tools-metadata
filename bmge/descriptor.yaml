@@ -1,0 +1,142 @@
+accessibility: []
+additionDate: '2015-12-05T21:59:49Z'
+biotoolsCURIE: biotools:bmge
+biotoolsID: bmge
+collectionID:
+- Institut Pasteur
+cost: Free of charge
+credit:
+- email: null
+  name: Simonetta Gribaldo
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Contributor
+  url: https://research.pasteur.fr/en/member/simonetta-gribaldo/
+- email: null
+  name: Institut Pasteur
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: https://research.pasteur.fr
+- email: null
+  name: C3BI
+  note: null
+  orcidid: null
+  typeEntity: Division
+  typeRole: []
+  url: https://research.pasteur.fr/en/center/c3bi/
+- email: null
+  name: Bioinformatics and Biostatistics Hub
+  note: null
+  orcidid: null
+  typeEntity: Division
+  typeRole:
+  - Provider
+  url: https://research.pasteur.fr/en/team/bioinformatics-and-biostatistics-hub/
+- email: alexis.criscuolo@pasteur.fr
+  name: Alexis Criscuolo
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Developer
+  url: null
+- email: alexis.criscuolo@pasteur.fr
+  name: Alexis Criscuolo
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Block Mapping and Gathering using Entropy.
+documentation:
+- note: null
+  type: General
+  url: https://research.pasteur.fr/en/software/bmge-block-mapping-and-gathering-with-entropy/
+download:
+- note: null
+  type: Source code
+  url: ftp://ftp.pasteur.fr/pub/gensoft/projects/BMGE/
+  version: null
+- note: null
+  type: Binaries
+  url: ftp://ftp.pasteur.fr/pub/gensoft/projects/BMGE/
+  version: null
+editPermission:
+  authors:
+  - hmenager
+  - khillion
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Sequence alignment
+      uri: http://edamontology.org/data_0863
+    format:
+    - term: PHYLIP sequential
+      uri: http://edamontology.org/format_1998
+    - term: FASTA-aln
+      uri: http://edamontology.org/format_1984
+  note: null
+  operation:
+  - term: Sequence alignment analysis
+    uri: http://edamontology.org/operation_0258
+  output:
+  - data:
+      term: Sequence alignment
+      uri: http://edamontology.org/data_0863
+    format:
+    - term: nexusnon
+      uri: http://edamontology.org/format_1973
+    - term: PHYLIP sequential
+      uri: http://edamontology.org/format_1998
+    - term: FASTA-aln
+      uri: http://edamontology.org/format_1984
+  - data:
+      term: Report
+      uri: http://edamontology.org/data_2048
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+homepage: https://research.pasteur.fr/en/software/bmge-block-mapping-and-gathering-with-entropy/
+homepage_status: 0
+language:
+- Java
+lastUpdate: '2018-12-29T14:50:01Z'
+license: GPL-2.0
+link:
+- note: null
+  type: Repository
+  url: ftp://ftp.pasteur.fr/pub/gensoft/projects/BMGE/
+maturity: Mature
+name: BMGE
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: Institut Pasteur
+publication:
+- doi: 10.1186/1471-2148-10-210
+  metadata: null
+  pmcid: PMC3017758
+  pmid: '20626897'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Phylogeny
+  uri: http://edamontology.org/topic_0084
+validated: 1
+version:
+- '1.12'

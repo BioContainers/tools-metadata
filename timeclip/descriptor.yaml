@@ -1,0 +1,79 @@
+accessibility: []
+additionDate: '2015-01-22T11:40:45Z'
+biotoolsCURIE: biotools:timeclip
+biotoolsID: timeclip
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: ELIXIR-ITA-PADOVA
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: chiara.romualdi@unipd.it
+  name: Chiara Romualdi
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://romualdi.bio.unipd.it/
+description: Topology based pathway analysis specifically tailored to long time series
+  without replicates. It combines dimension reduction techniques and graph decomposition
+  theory to explore and identify the portion of pathways that is most time-dependent.
+  In the first step, it selects the time-dependent pathways; in the second step, the
+  most time dependent portions of these pathways are highlighted.
+documentation:
+- note: null
+  type: General
+  url: http://romualdi.bio.unipd.it/software/pathway-based-methods
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: R package. It takes as input a gene expression matrix with a time course experimental
+    design and a list of graphs (pathways). Then it gives back the list of significantly
+    time dependent pathways with their portion mostly associated to time.
+  operation:
+  - term: Pathway or network analysis
+    uri: http://edamontology.org/operation_2497
+  output: []
+homepage: http://romualdi.bio.unipd.it/software/pathway-based-methods
+homepage_status: 0
+language:
+- R
+lastUpdate: '2019-01-10T15:21:25Z'
+license: AGPL-3.0
+link: []
+maturity: null
+name: timeClip
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: ELIXIR-ITA-PADOVA
+publication:
+- doi: 10.1186/1471-2105-15-S5-S3
+  metadata: null
+  pmcid: PMC4095003
+  pmid: '25077979'
+  type: Primary
+  version: null
+toolType:
+- Library
+topic:
+- term: Functional genomics
+  uri: http://edamontology.org/topic_0085
+validated: 1
+version:
+- 1.6.2

@@ -1,0 +1,132 @@
+accessibility:
+- Open access
+additionDate: '2017-01-13T13:14:59Z'
+biotoolsCURIE: biotools:gsnap
+biotoolsID: gsnap
+collectionID:
+- galaxyPasteur
+- gmap
+cost: null
+credit:
+- email: twu@gene.com
+  name: Thomas Wu
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: GSNAP can align both single-end and paired-end reads as short as 14 nt
+  and of arbitrarily long length. It can detect short- and long-distance splicing,
+  including interchromosomal splicing, in individual reads using probabilistic models
+  or a database of known splice sites. Our program also permits SNP-tolerant alignment
+  to a reference space of all possible combinations of major and minor alleles, and
+  can align reads from bisulfite treated DNA for the study of methylation state.
+documentation:
+- note: null
+  type: General
+  url: http://research-pub.gene.com/gmap/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Data
+      uri: http://edamontology.org/data_0006
+    format:
+    - term: FASTQ
+      uri: http://edamontology.org/format_1930
+  - data:
+      term: Sequence alignment
+      uri: http://edamontology.org/data_0863
+    format:
+    - term: FASTA
+      uri: http://edamontology.org/format_1929
+  - data:
+      term: Data
+      uri: http://edamontology.org/data_0006
+    format:
+    - term: Textual format
+      uri: http://edamontology.org/format_2330
+  note: null
+  operation:
+  - term: Genome alignment
+    uri: http://edamontology.org/operation_3182
+  output:
+  - data:
+      term: Data
+      uri: http://edamontology.org/data_0006
+    format:
+    - term: Textual format
+      uri: http://edamontology.org/format_2330
+  - data:
+      term: Data
+      uri: http://edamontology.org/data_0006
+    format:
+    - term: FASTQ
+      uri: http://edamontology.org/format_1930
+homepage: http://research-pub.gene.com/gmap/
+homepage_status: 0
+language:
+- Perl
+- C
+lastUpdate: '2019-02-15T12:51:14Z'
+license: null
+link: []
+maturity: Mature
+name: GSNAP
+operatingSystem:
+- Linux
+- Mac
+otherID: []
+owner: seqwiki_import
+publication:
+- doi: 10.1093/bioinformatics/btq057
+  metadata: null
+  pmcid: PMC2844994
+  pmid: '20147302'
+  type: Primary
+  version: null
+- doi: 10.1186/1471-2105-14-184
+  metadata: null
+  pmcid: PMC3694458
+  pmid: '23758764'
+  type: Comparison
+  version: null
+- doi: 10.1038/nmeth.4106
+  metadata: null
+  pmcid: PMC5792058
+  pmid: '27941783'
+  type: Comparison
+  version: null
+- doi: 10.1186/1471-2164-15-264
+  metadata: null
+  pmcid: PMC4051166
+  pmid: '24708189'
+  type: Primary
+  version: null
+- doi: 10.7490/f1000research.1114334.1
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Other
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Epigenetics
+  uri: http://edamontology.org/topic_3295
+- term: RNA-seq
+  uri: http://edamontology.org/topic_3170
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+validated: 0
+version: []

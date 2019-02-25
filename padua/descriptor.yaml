@@ -1,0 +1,77 @@
+accessibility: []
+additionDate: '2019-01-22T14:50:59Z'
+biotoolsCURIE: biotools:padua
+biotoolsID: padua
+collectionID: []
+cost: null
+credit: []
+description: A Python package for Proteomic Data Analysis, specifically analyzing
+  of the output of MaxQuant.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Experiment report
+      uri: http://edamontology.org/data_2531
+    format:
+    - term: CSV
+      uri: http://edamontology.org/format_3752
+  - data:
+      term: Expression data
+      uri: http://edamontology.org/data_2603
+    format:
+    - term: Textual format
+      uri: http://edamontology.org/format_2330
+  note: null
+  operation:
+  - term: Protein quantification
+    uri: http://edamontology.org/operation_3630
+  output:
+  - data:
+      term: Plot
+      uri: http://edamontology.org/data_2884
+    format:
+    - term: PDF
+      uri: http://edamontology.org/format_3508
+homepage: https://github.com/mfitzp/padua
+homepage_status: 0
+language:
+- Python
+lastUpdate: '2019-01-22T14:50:59Z'
+license: null
+link:
+- note: null
+  type: Repository
+  url: https://github.com/mfitzp/padua
+maturity: null
+name: PaDuA
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: n.m.palmblad@lumc.nl
+publication:
+- doi: 10.1021/acs.jproteome.8b00576
+  metadata: null
+  pmcid: null
+  pmid: '30525654'
+  type: Primary
+  version: null
+toolType:
+- Library
+topic:
+- term: Protein expression
+  uri: http://edamontology.org/topic_0108
+- term: Proteomics
+  uri: http://edamontology.org/topic_0121
+validated: 1
+version: []

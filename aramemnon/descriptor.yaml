@@ -1,0 +1,92 @@
+accessibility: []
+additionDate: '2015-09-11T19:32:00Z'
+biotoolsCURIE: biotools:aramemnon
+biotoolsID: aramemnon
+collectionID:
+- DRCAT
+cost: null
+credit:
+- email: null
+  name: Botanical Institute  University of Cologne
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: null
+  name: DRCAT
+  note: null
+  orcidid: null
+  typeEntity: Project
+  typeRole:
+  - Documentor
+  url: null
+- email: r.schwacke@fz-juelich.de
+  name: Rainer Schwacke
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Plant membrane proteins.
+documentation:
+- note: null
+  type: General
+  url: http://aramemnon.botanik.uni-koeln.de/proj_view.ep
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Locus ID (AGI)
+      uri: http://edamontology.org/data_1895
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Protein features
+      uri: http://edamontology.org/data_1277
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+homepage: http://aramemnon.botanik.uni-koeln.de/
+homepage_status: 0
+language: []
+lastUpdate: '2019-01-15T03:09:37Z'
+license: null
+link: []
+maturity: null
+name: ARAMEMNON database of plant membrane proteins
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: DRCAT
+publication:
+- doi: 10.1104/pp.011577
+  metadata: null
+  pmcid: PMC166783
+  pmid: '12529511'
+  type: Primary
+  version: null
+toolType:
+- Database portal
+topic:
+- term: Membrane and lipoproteins
+  uri: http://edamontology.org/topic_0820
+- term: Plant biology
+  uri: http://edamontology.org/topic_0780
+validated: 1
+version: []

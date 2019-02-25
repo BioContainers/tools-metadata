@@ -1,0 +1,75 @@
+accessibility: []
+additionDate: '2019-02-20T16:16:55Z'
+biotoolsCURIE: biotools:mzBruker
+biotoolsID: mzBruker
+collectionID:
+- ms-utils
+cost: null
+credit:
+- email: rhubley@systemsbiology.org
+  name: see publication
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Maintainer
+  url: null
+description: Converts analysis.baf files from Bruker into mzXML files. This software
+  requires the CDAL library from Bruker.
+documentation: []
+download:
+- note: null
+  type: Source code
+  url: https://sourceforge.net/projects/sashimi/files/OldFiles/mzBruker.tgz/download
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Mass spectrometry spectra
+      uri: http://edamontology.org/data_0943
+    format:
+    - term: Mass spectrometry data format
+      uri: http://edamontology.org/format_3245
+  note: null
+  operation:
+  - term: Formatting
+    uri: http://edamontology.org/operation_0335
+  output:
+  - data:
+      term: Mass spectrometry spectra
+      uri: http://edamontology.org/data_0943
+    format:
+    - term: mzXML
+      uri: http://edamontology.org/format_3654
+homepage: http://tools.proteomecenter.org/wiki/index.php?title=Software:mzBruker
+homepage_status: 0
+language:
+- C++
+lastUpdate: '2019-02-20T16:16:55Z'
+license: GPL-2.0
+link:
+- note: null
+  type: Registry
+  url: http://ms-utils.org
+maturity: null
+name: mzBruker
+operatingSystem: []
+otherID: []
+owner: vzn529@binf.ku.dk
+publication: []
+toolType:
+- Command-line tool
+topic:
+- term: Proteomics
+  uri: http://edamontology.org/topic_0121
+- term: Proteomics experiment
+  uri: http://edamontology.org/topic_3520
+validated: 0
+version: []

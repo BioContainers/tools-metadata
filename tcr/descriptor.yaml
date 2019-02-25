@@ -1,0 +1,87 @@
+accessibility: []
+additionDate: '2018-05-24T14:52:51Z'
+biotoolsCURIE: biotools:tcr
+biotoolsID: tcr
+collectionID: []
+cost: null
+credit:
+- email: vdm.nazarov@gmail.com
+  name: Vadim I. Nazarov
+  note: null
+  orcidid: http://orcid.org/0000-0003-3659-2709
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: TCR repertoire data analysis after preprocessing data with CDR3 extraction
+  and gene alignment software tools such as MiTCR, ImmunoSEQ and MiGEC.
+documentation:
+- note: null
+  type: Manual
+  url: http://imminfo.github.io/tcr/tcrvignette.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Rarefaction
+    uri: http://edamontology.org/operation_3797
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Standardisation and normalisation
+    uri: http://edamontology.org/operation_3435
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Visualisation
+    uri: http://edamontology.org/operation_0337
+  output: []
+homepage: http://imminfo.github.io/tcr/
+homepage_status: 0
+language:
+- R
+- C++
+lastUpdate: '2019-02-06T14:00:44Z'
+license: Apache-2.0
+link:
+- note: null
+  type: Repository
+  url: https://cran.r-project.org/package=tcR
+- note: null
+  type: Repository
+  url: https://github.com/imminfo/tcr
+maturity: null
+name: tcR
+operatingSystem: []
+otherID: []
+owner: aotamendi.1
+publication:
+- doi: 10.1186/s12859-015-0613-1
+  metadata: null
+  pmcid: PMC4445501
+  pmid: '26017500'
+  type: null
+  version: null
+toolType:
+- Command-line tool
+- Library
+topic:
+- term: Immunoproteins, genes and antigens
+  uri: http://edamontology.org/topic_2830
+- term: Sequencing
+  uri: http://edamontology.org/topic_3168
+validated: 1
+version:
+- 2.2.1.7

@@ -1,0 +1,105 @@
+accessibility: []
+additionDate: '2015-11-05T15:26:02Z'
+biotoolsCURIE: biotools:effectivet3
+biotoolsID: effectivet3
+collectionID: []
+cost: Free of charge
+credit:
+- email: null
+  name: AT-CUBE
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: contact.cube@univie.ac.at
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: r.arnold.2@bham.ac.uk
+  name: Roland Arnold
+  note: null
+  orcidid: http://orcid.org/0000-0002-7496-7578
+  typeEntity: Person
+  typeRole:
+  - Contributor
+  url: null
+description: Prediction of putative Type-III secreted proteins.
+documentation:
+- note: null
+  type: General
+  url: http://www.effectivedb.org/method/effectivet3
+download:
+- note: null
+  type: Source code
+  url: http://www.effectivedb.org/method/effectivet3
+  version: null
+- note: null
+  type: Binaries
+  url: http://www.effectivedb.org/method/effectivet3
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Protein sequence
+      uri: http://edamontology.org/data_2976
+    format:
+    - term: FASTA
+      uri: http://edamontology.org/format_1929
+  note: null
+  operation:
+  - term: Sequence classification
+    uri: http://edamontology.org/operation_2995
+  output:
+  - data:
+      term: Protein report
+      uri: http://edamontology.org/data_0896
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+homepage: http://www.effectivedb.org/method/effectivet3
+homepage_status: 0
+language:
+- Java
+lastUpdate: '2018-12-29T13:58:24Z'
+license: null
+link:
+- note: null
+  type: Repository
+  url: http://www.effectivedb.org/method/effectivet3
+maturity: Mature
+name: EffectiveT3
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: AT-CUBE
+publication:
+- doi: 10.1371/journal.ppat.1000376
+  metadata: null
+  pmcid: PMC2669295
+  pmid: '19390696'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+- Web application
+topic:
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+validated: 1
+version:
+- 2.0.1

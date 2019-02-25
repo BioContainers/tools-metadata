@@ -1,0 +1,145 @@
+accessibility: []
+additionDate: '2016-12-11T05:58:09Z'
+biotoolsCURIE: biotools:alientrimmer
+biotoolsID: alientrimmer
+collectionID:
+- Institut Pasteur
+- galaxyPasteur
+cost: Free of charge
+credit:
+- email: null
+  name: Institut Pasteur
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: https://research.pasteur.fr
+- email: null
+  name: C3BI
+  note: null
+  orcidid: null
+  typeEntity: Division
+  typeRole: []
+  url: https://research.pasteur.fr/en/center/c3bi/
+- email: null
+  name: Bioinformatics and Biostatistics Hub
+  note: null
+  orcidid: null
+  typeEntity: Division
+  typeRole:
+  - Provider
+  url: https://research.pasteur.fr/en/team/bioinformatics-and-biostatistics-hub/
+- email: alexis.criscuolo@pasteur.fr
+  name: Alexis Criscuolo
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Developer
+  url: null
+- email: alexis.criscuolo@pasteur.Fr
+  name: Alexis Criscuolo
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Trimming and clipping FASTQ-formatted read files.
+documentation:
+- note: null
+  type: General
+  url: https://research.pasteur.fr/en/software/alientrimmer/
+download:
+- note: null
+  type: Source code
+  url: ftp://ftp.pasteur.fr/pub/gensoft/projects/AlienTrimmer/
+  version: null
+- note: null
+  type: Binaries
+  url: ftp://ftp.pasteur.fr/pub/gensoft/projects/AlienTrimmer/
+  version: null
+editPermission:
+  authors:
+  - hmenager
+  - khillion
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: DNA sequence (raw)
+      uri: http://edamontology.org/data_3497
+    format:
+    - term: FASTQ
+      uri: http://edamontology.org/format_1930
+  - data:
+      term: DNA sequence (raw)
+      uri: http://edamontology.org/data_3497
+    format:
+    - term: FASTA
+      uri: http://edamontology.org/format_1929
+  note: Trimming and Clipping FASTQ-formatted read files list of alien sequences to
+    clip
+  operation:
+  - term: Nucleic acid sequence analysis
+    uri: http://edamontology.org/operation_2478
+  output:
+  - data:
+      term: DNA sequence (raw)
+      uri: http://edamontology.org/data_3497
+    format:
+    - term: FASTQ
+      uri: http://edamontology.org/format_1930
+homepage: https://research.pasteur.fr/en/software/alientrimmer/
+homepage_status: 0
+language:
+- Java
+lastUpdate: '2019-02-14T18:54:41Z'
+license: GPL-2.0
+link:
+- note: null
+  type: Repository
+  url: ftp://ftp.pasteur.fr/pub/gensoft/projects/AlienTrimmer/
+- note: null
+  type: Galaxy service
+  url: https://galaxy.pasteur.fr/?tool_id=toolshed.pasteur.fr%2Frepos%2Fodoppelt%2Falientrimmer%2FalienTrimmer
+maturity: Mature
+name: AlienTrimmer
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: criscuol
+publication:
+- doi: 10.1016/j.ygeno.2013.07.011
+  metadata: null
+  pmcid: null
+  pmid: '23912058'
+  type: Primary
+  version: null
+- doi: null
+  metadata: null
+  pmcid: null
+  pmid: '24860597'
+  type: Other
+  version: null
+- doi: 10.7490/f1000research.1114334.1
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Other
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+validated: 0
+version:
+- 0.4.0

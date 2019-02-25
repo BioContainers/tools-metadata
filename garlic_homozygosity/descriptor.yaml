@@ -1,0 +1,90 @@
+accessibility: []
+additionDate: '2018-06-05T13:51:44Z'
+biotoolsCURIE: biotools:garlic_homozygosity
+biotoolsID: garlic_homozygosity
+collectionID: []
+cost: null
+credit:
+- email: zachary.szpiech@ucsf.edu
+  name: Zachary Szpiech
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Genomic Autozygosity Regions Likelihood-based Inference and Classification
+  is a program for calling runs of homozygosity in genotype data.
+documentation:
+- note: null
+  type: General
+  url: https://github.com/szpiech/garlic
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Haplotype inference
+    uri: http://edamontology.org/operation_0487
+  output: []
+homepage: https://github.com/szpiech/garlic
+homepage_status: 0
+language:
+- C++
+lastUpdate: '2019-02-05T13:14:57Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: GARLIC
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: d.gabrielaitis
+publication:
+- doi: 10.1093/bioinformatics/btx102
+  metadata:
+    abstract: '© 2017 The Author. Runs of homozygosity (ROH) are important genomic
+      features that manifest when identical-by-descent haplotypes are inherited from
+      parents. Their length distributions and genomic locations are informative about
+      population history and they are useful for mapping recessive loci contributing
+      to both Mendelian and complex disease risk. Here, we present software implementing
+      a model-based method (Pemberton et al., 2012) for inferring ROH in genome-wide
+      SNP datasets that incorporates population-specific parameters and a genotyping
+      error rate as well as provides a length-based classification module to identify
+      biologically interesting classes of ROH. Using simulations, we evaluate the
+      performance of this method. Availability and Implementation: GARLIC is written
+      in C\+\+. Source code and pre-compiled binaries (Windows, OSX and Linux) are
+      hosted on GitHub (https://github.com/szpiech/garlic) under the GNU General Public
+      License version 3.'
+    authors:
+    - name: Szpiech Z.A.
+    - name: Blant A.
+    - name: Pemberton T.J.
+    citationCount: 3
+    date: '2017-07-01T00:00:00Z'
+    journal: Bioinformatics
+    title: 'GARLIC: Genomic Autozygosity Regions Likelihood-based Inference and Classification'
+  pmcid: null
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+- term: Genotyping experiment
+  uri: http://edamontology.org/topic_3516
+- term: Genotype and phenotype
+  uri: http://edamontology.org/topic_0625
+validated: 1
+version: []

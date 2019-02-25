@@ -1,0 +1,73 @@
+accessibility: []
+additionDate: '2018-07-19T16:13:14Z'
+biotoolsCURIE: biotools:masspix
+biotoolsID: masspix
+collectionID: []
+cost: null
+credit:
+- email: jlg40@cam.ac.uk
+  name: Julian L. Griffin
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Processes high resolution mass spectrometry imaging data, performs multivariate
+  statistics (PCA, clustering) and lipid identification.
+documentation:
+- note: null
+  type: General
+  url: https://github.com/hallz/massPix
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Spectral analysis
+    uri: http://edamontology.org/operation_3214
+  - term: Image analysis
+    uri: http://edamontology.org/operation_3443
+  output: []
+homepage: https://github.com/hallz/massPix
+homepage_status: 0
+language:
+- R
+lastUpdate: '2018-12-10T12:59:00Z'
+license: null
+link: []
+maturity: null
+name: massPix
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: d.gabrielaitis
+publication:
+- doi: 10.1007/s11306-017-1252-5
+  metadata: null
+  pmcid: PMC5608769
+  pmid: '28989334'
+  type: null
+  version: null
+toolType:
+- Library
+topic:
+- term: Mass spectrometry
+  uri: http://edamontology.org/topic_3520
+- term: Proteins
+  uri: http://edamontology.org/topic_0078
+- term: Statistics and probability
+  uri: http://edamontology.org/topic_2269
+- term: Imaging
+  uri: http://edamontology.org/topic_3382
+validated: 1
+version: []

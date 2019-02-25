@@ -1,0 +1,103 @@
+accessibility: []
+additionDate: '2017-01-17T14:58:04Z'
+biotoolsCURIE: biotools:clusterprofiler
+biotoolsID: clusterprofiler
+collectionID:
+- BioConductor
+cost: Free of charge
+credit:
+- email: guangchuangyu@gmail.com
+  name: Guangchuang Yu
+  note: null
+  orcidid: http://orcid.org/0000-0002-6485-8781
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: This package implements methods to analyze and visualize functional profiles
+  (GO and KEGG) of gene and gene clusters.
+documentation:
+- note: null
+  type: Manual
+  url: http://bioconductor.org/packages/release/bioc/html/clusterProfiler.html
+download:
+- note: null
+  type: Source code
+  url: http://bioconductor/packages/release/bioc/src/contrib/clusterProfiler_3.2.9.tar.gz
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Gene ID (NCBI)
+      uri: http://edamontology.org/data_1027
+    format:
+    - term: Textual format
+      uri: http://edamontology.org/format_2330
+  note: null
+  operation:
+  - term: Gene-set enrichment analysis
+    uri: http://edamontology.org/operation_2436
+  - term: Statistical calculation
+    uri: http://edamontology.org/operation_2238
+  output:
+  - data:
+      term: Plot
+      uri: http://edamontology.org/data_2884
+    format:
+    - term: Image format
+      uri: http://edamontology.org/format_3547
+  - data:
+      term: Dotplot
+      uri: http://edamontology.org/data_0862
+    format:
+    - term: Image format
+      uri: http://edamontology.org/format_3547
+  - data:
+      term: P-value
+      uri: http://edamontology.org/data_1669
+    format:
+    - term: Image format
+      uri: http://edamontology.org/format_3547
+homepage: http://bioconductor.org/packages/release/bioc/html/clusterProfiler.html
+homepage_status: 0
+language:
+- R
+lastUpdate: '2018-12-30T16:58:08Z'
+license: Artistic-2.0
+link:
+- note: null
+  type: Mirror
+  url: https://guangchuangyu.github.io/clusterProfiler
+maturity: null
+name: clusterProfiler
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: bioconductor_import
+publication:
+- doi: 10.1089/omi.2011.0118
+  metadata: null
+  pmcid: PMC3339379
+  pmid: '22455463'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+- Library
+topic:
+- term: Genetics
+  uri: http://edamontology.org/topic_3053
+- term: Data visualisation
+  uri: http://edamontology.org/topic_0092
+validated: 1
+version:
+- 3.2.9

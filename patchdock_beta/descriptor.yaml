@@ -1,0 +1,92 @@
+accessibility: []
+additionDate: '2017-12-18T00:10:46Z'
+biotoolsCURIE: biotools:patchdock_beta
+biotoolsID: patchdock_beta
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://bioinfo3d.cs.tau.ac.il/wk/index.php/Main_Page
+description: 'PatchDock is an algorithm for molecular docking. The input is two molecules
+  of any type: proteins, DNA, peptides, drugs. The output is a list of potential complexes
+  sorted by shape complementarity criteria.'
+documentation:
+- note: null
+  type: General
+  url: http://bioinfo3d.cs.tau.ac.il/PatchDock/help.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Molecular docking
+    uri: http://edamontology.org/operation_0478
+  output: []
+homepage: http://bioinfo3d.cs.tau.ac.il/PatchDock/
+homepage_status: 0
+language: []
+lastUpdate: '2019-02-08T09:54:15Z'
+license: null
+link:
+- note: null
+  type: Registry
+  url: http://www.mybiosoftware.com/patchdock-beta-1-3-rigid-unbound-docking-molecules.html
+maturity: Emerging
+name: PatchDock Beta
+operatingSystem:
+- Linux
+otherID: []
+owner: mbs_import
+publication:
+- doi: 10.1093/nar/gki481
+  metadata:
+    abstract: Here, we describe two freely available web servers for molecular docking.
+      The PatchDock method performs structure prediction of protein-protein and protein-small
+      molecule complexes. The SymmDock method predicts the structure of a homomultimer
+      with cyclic symmetry given the structure of the monomeric unit. The inputs to
+      the servers are either protein PDB codes or uploaded protein structures. The
+      services are available at http://bioinfo3d.cs.tau.ac.il. The methods behind
+      the servers are very efficient, allowing large-scale docking experiments. ©
+      2005 Oxford University Press.
+    authors:
+    - name: Schneidman-Duhovny D.
+    - name: Inbar Y.
+    - name: Nussinov R.
+    - name: Wolfson H.J.
+    citationCount: 1099
+    date: '2005-07-01T00:00:00Z'
+    journal: Nucleic Acids Research
+    title: 'PatchDock and SymmDock: Servers for rigid and symmetric docking'
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Proteins
+  uri: http://edamontology.org/topic_0078
+- term: Molecular modelling
+  uri: http://edamontology.org/topic_2275
+- term: Peptides
+  uri: http://edamontology.org/topic_0154
+- term: Molecular docking
+  uri: http://edamontology.org/topic_2275
+- term: DNA
+  uri: http://edamontology.org/topic_0654
+validated: 0
+version:
+- '1.3'

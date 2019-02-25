@@ -1,0 +1,68 @@
+accessibility: []
+additionDate: '2017-12-18T00:06:24Z'
+biotoolsCURIE: biotools:fstval
+biotoolsID: fstval
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://bioinfo.mju.ac.kr/fstval
+description: FSTVAL is an open access web tool to manage bulk flanking sequence tags
+  (FSTs).FSTVAL automatically evaluates the FSTs and finds the best mapping positions
+  of the FST against a known genome sequence.
+documentation:
+- note: null
+  type: General
+  url: http://bioinfo.mju.ac.kr/fstval/help/fstval/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Mapping
+    uri: http://edamontology.org/operation_2429
+  output: []
+homepage: http://bioinfo.mju.ac.kr/fstval/
+homepage_status: 0
+language: []
+lastUpdate: '2019-01-09T15:33:38Z'
+license: null
+link:
+- note: null
+  type: Registry
+  url: http://www.mybiosoftware.com/fstval-flanking-sequence-tag-validator.html
+maturity: null
+name: FSTVAL
+operatingSystem:
+- Linux
+otherID: []
+owner: mbs_import
+publication:
+- doi: 10.1186/1746-4811-8-19
+  metadata: null
+  pmcid: PMC3439307
+  pmid: '22709793'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Mapping
+  uri: http://edamontology.org/topic_0102
+- term: DNA
+  uri: http://edamontology.org/topic_0654
+validated: 1
+version: []

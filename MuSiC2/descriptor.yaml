@@ -1,0 +1,101 @@
+accessibility:
+- Open access
+additionDate: '2019-02-15T10:56:11Z'
+biotoolsCURIE: biotools:MuSiC2
+biotoolsID: MuSiC2
+collectionID: []
+cost: Free of charge
+credit:
+- email: lding@wustl.edu
+  name: Li Ding
+  note: null
+  orcidid: https://orcid.org/0000-0003-1517-2975
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: https://dinglab.wustl.edu/#ding-lab
+- email: bniu@sccas.cn
+  name: Beifang Niu
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole: []
+  url: null
+description: MuSiC2 ( Mutational Significance in Cancer) is a comprehensive mutational
+  analysis pipeline that uses standardized sequence-based inputs along with multiple
+  types of clinical data to establish correlations among mutation sites, affected
+  genes and pathways, and to ultimately separate the commonly abundant passenger mutations
+  from the truly significant events.
+documentation:
+- note: null
+  type: General
+  url: https://github.com/ding-lab/MuSiC2/blob/master/README.md
+- note: null
+  type: Manual
+  url: http://gmt.genome.wustl.edu/packages/genome-music/documentation.html
+download:
+- note: null
+  type: Source code
+  url: https://github.com/ding-lab/MuSiC2
+  version: '0.2'
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Genome annotation
+    uri: http://edamontology.org/operation_0362
+  - term: Gene prediction
+    uri: http://edamontology.org/operation_2454
+  - term: Variant pattern analysis
+    uri: http://edamontology.org/operation_3504
+  - term: Variant classification
+    uri: http://edamontology.org/operation_3225
+  - term: Genetic variation analysis
+    uri: http://edamontology.org/operation_3197
+  output: []
+homepage: http://gmt.genome.wustl.edu/packages/genome-music/index.html
+homepage_status: 0
+language:
+- R
+- Perl
+- Python
+lastUpdate: '2019-02-15T11:38:31Z'
+license: MIT
+link: []
+maturity: Mature
+name: MuSiC2
+operatingSystem:
+- Linux
+otherID: []
+owner: javi-gv94
+publication:
+- doi: 10.1101/gr.134635.111
+  metadata: null
+  pmcid: null
+  pmid: '22759861'
+  type: null
+  version: null
+toolType:
+- Command-line tool
+- Workflow
+topic:
+- term: Genetic variation
+  uri: http://edamontology.org/topic_0199
+- term: Bioinformatics
+  uri: http://edamontology.org/topic_0091
+- term: Statistics and probability
+  uri: http://edamontology.org/topic_2269
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+- term: Oncology
+  uri: http://edamontology.org/topic_2640
+validated: 0
+version:
+- '0.2'

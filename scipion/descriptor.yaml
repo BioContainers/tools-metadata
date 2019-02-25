@@ -1,0 +1,142 @@
+accessibility: []
+additionDate: '2016-05-11T17:07:08Z'
+biotoolsCURIE: biotools:scipion
+biotoolsID: scipion
+collectionID:
+- INB
+- CNB-CSIC
+cost: Free of charge
+credit:
+- email: null
+  name: National Centre for Biotechnology  CNB-CSIC
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: scipion@cnb.csic.es
+  name: Scipion
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: https://github.com/I2PC/scipion/wiki/Contact-Us
+description: A software framework for integrating several 3DEM software packages through
+  a workflow-based approach. Scipion allows the execution of reusable, standardized,
+  traceable and reproducible image-processing protocols. These protocols incorporate
+  tools from different programs while providing full interoperability among them.
+  Scipion is an open-source project that can be downloaded from http://scipion.cnb.csic.es.
+documentation:
+- note: null
+  type: General
+  url: https://github.com/I2PC/scipion/wiki
+download:
+- note: null
+  type: Source code
+  url: https://github.com/I2PC/scipion/wiki/How-to-Install
+  version: null
+- note: null
+  type: Binaries
+  url: https://github.com/I2PC/scipion/wiki/How-to-Install
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: 3D EM Mask
+      uri: http://edamontology.org/data_3806
+    format: []
+  note: Workflow for 3D cryo EM image processing. Integrates several image processing
+    software converting form one format to another.
+  operation:
+  - term: Microscope image visualisation
+    uri: http://edamontology.org/operation_3552
+  - term: Data handling
+    uri: http://edamontology.org/operation_2409
+  - term: Protein geometry validation
+    uri: http://edamontology.org/operation_1844
+  output:
+  - data:
+      term: Structural profile
+      uri: http://edamontology.org/data_0889
+    format: []
+homepage: http://scipion.cnb.csic.es/
+homepage_status: 0
+language:
+- Java
+- C++
+- Python
+lastUpdate: '2018-12-11T18:49:59Z'
+license: GPL-2.0
+link:
+- note: null
+  type: Repository
+  url: https://github.com/I2PC/scipion
+maturity: Mature
+name: Scipion
+operatingSystem:
+- Linux
+otherID: []
+owner: p.conesa.mingo@gmail.com
+publication:
+- doi: 10.1016/j.jsb.2016.04.010
+  metadata:
+    abstract: © 2016 Elsevier Inc. In the past few years, 3D electron microscopy (3DEM)
+      has undergone a revolution in instrumentation and methodology. One of the central
+      players in this wide-reaching change is the continuous development of image
+      processing software. Here we present Scipion, a software framework for integrating
+      several 3DEM software packages through a workflow-based approach. Scipion allows
+      the execution of reusable, standardized, traceable and reproducible image-processing
+      protocols. These protocols incorporate tools from different programs while providing
+      full interoperability among them. Scipion is an open-source project that can
+      be downloaded from http://scipion.cnb.csic.es.
+    authors:
+    - name: de la Rosa-Trevin J.M.
+    - name: Quintana A.
+    - name: del Cano L.
+    - name: Zaldivar A.
+    - name: Foche I.
+    - name: Gutierrez J.
+    - name: Gomez-Blanco J.
+    - name: Burguet-Castell J.
+    - name: Cuenca-Alba J.
+    - name: Abrishami V.
+    - name: Vargas J.
+    - name: Oton J.
+    - name: Sharov G.
+    - name: Vilas J.L.
+    - name: Navas J.
+    - name: Conesa P.
+    - name: Kazemi M.
+    - name: Marabini R.
+    - name: Sorzano C.O.S.
+    - name: Carazo J.M.
+    citationCount: 63
+    date: '2016-07-01T00:00:00Z'
+    journal: Journal of Structural Biology
+    title: 'Scipion: A software framework toward integration, reproducibility and
+      validation in 3D electron microscopy'
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+- Desktop application
+- Workbench
+topic:
+- term: Electron microscopy
+  uri: http://edamontology.org/topic_0611
+- term: Structure analysis
+  uri: http://edamontology.org/topic_0081
+validated: 1
+version:
+- '1'

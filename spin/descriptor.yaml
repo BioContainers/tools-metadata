@@ -1,0 +1,89 @@
+accessibility: []
+additionDate: '2016-06-27T15:50:14Z'
+biotoolsCURIE: biotools:spin
+biotoolsID: spin
+collectionID: []
+cost: Free of charge
+credit:
+- email: null
+  name: crg.eu
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: malapoczta@gmail.com
+  name: Anna Kedzierska
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: null
+  name: Marta Casanellas
+  note: null
+  orcidid: http://orcid.org/0000-0002-1724-8358
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Model selection in phylogenetics based on algebraic invariants.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Sequence alignment
+      uri: http://edamontology.org/data_0863
+    format:
+    - term: FASTA-like (text)
+      uri: http://edamontology.org/format_2200
+  note: Misspecification of the evolutionary model, which describes the substitution
+    processes along each edge of a phylogenetic tree, has important implications for
+    the analysis of phylogenetic data. Conventionally, however, the selection of a
+    suitable evolutionary model is based on heuristics or relies on the choice of
+    an approximate input tree. Moreover, there are no established methods that accommodate
+    phylogenetic mixture models, which are appropriate in settings where data consists
+    of regions with different patterns of evolution (e.g., concatenated genes or codon
+    specific position inference). We propose an approach that circumvents these issues
+    by using recent insights on linear invariants that characterize a model of evolution
+    in phylogenetic mixture models with any number of mixture components.
+  operation:
+  - term: Modelling and simulation
+    uri: http://edamontology.org/operation_2426
+  output: []
+homepage: http://genome.crg.es/cgi-bin/phylo_mod_sel/AlgModelSelection.pl
+homepage_status: 0
+language: []
+lastUpdate: '2019-01-15T02:45:08Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: SPIn
+operatingSystem: []
+otherID: []
+owner: francisco.camara@crg.eu
+publication:
+- doi: 10.1186/1748-7188-7-33
+  metadata: null
+  pmcid: PMC3608327
+  pmid: '23190710'
+  type: Primary
+  version: null
+toolType:
+- Web application
+topic:
+- term: Evolutionary biology
+  uri: http://edamontology.org/topic_3299
+validated: 1
+version:
+- '1'

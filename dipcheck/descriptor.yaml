@@ -1,0 +1,68 @@
+accessibility: []
+additionDate: '2018-10-02T12:21:58Z'
+biotoolsCURIE: biotools:dipcheck
+biotoolsID: dipcheck
+collectionID: []
+cost: Free of charge
+credit:
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://cluster.embl-hamburg.de/cgi-bin/dipcheck/dipcheck.cgi
+description: 'DipCheck is a validation tool for the evaluation of protein backbone
+  geometry, developed by Joana Pereira and Victor Lamzin at the EMBL Hamburg.
+
+
+  The tool uses a Euclidian 3D space (DipSpace) of the orthogonal descriptors of the
+  geometry of a 5-atom dipeptide unit: CAi-1-Oi-1-CAi-Oi-CAi+1. The DipSpace database
+  contains 1,024,000 data points derived from well-refined structures deposited in
+  the PDB.'
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Protein structure
+      uri: http://edamontology.org/data_1460
+    format: []
+  note: null
+  operation:
+  - term: Protein geometry validation
+    uri: http://edamontology.org/operation_1844
+  output: []
+homepage: http://cluster.embl-hamburg.de/cgi-bin/dipcheck/dipcheck.cgi
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-11T16:58:44Z'
+license: null
+link: []
+maturity: Mature
+name: Dipcheck
+operatingSystem: []
+otherID: []
+owner: Instruct
+publication:
+- doi: null
+  metadata: null
+  pmcid: null
+  pmid: '28989721'
+  type: null
+  version: null
+toolType:
+- Web service
+topic:
+- term: Structural biology
+  uri: http://edamontology.org/topic_1317
+validated: 1
+version: []

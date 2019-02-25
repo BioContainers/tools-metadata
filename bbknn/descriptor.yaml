@@ -1,0 +1,73 @@
+accessibility: []
+additionDate: '2019-02-03T19:38:18Z'
+biotoolsCURIE: biotools:bbknn
+biotoolsID: bbknn
+collectionID: []
+cost: Free of charge
+credit: []
+description: Batch effect removal tool for single cell RNA-Seq data that can be directly
+  used in the scanpy workflow.
+documentation:
+- note: null
+  type: Tutorial
+  url: https://github.com/Teichlab/bbknn
+download:
+- note: null
+  type: Source package
+  url: https://github.com/Teichlab/bbknn
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Gene expression matrix
+      uri: http://edamontology.org/data_3112
+    format: []
+  note: null
+  operation:
+  - term: Expression data visualisation
+    uri: http://edamontology.org/operation_0571
+  - term: Statistical calculation
+    uri: http://edamontology.org/operation_2238
+  output:
+  - data:
+      term: Gene expression matrix
+      uri: http://edamontology.org/data_3112
+    format: []
+homepage: https://github.com/Teichlab/bbknn
+homepage_status: 0
+language:
+- Python
+lastUpdate: '2019-02-03T19:38:18Z'
+license: MIT
+link: []
+maturity: Emerging
+name: BBKNN
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+- doi: 10.1101/397042
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Workflow
+topic:
+- term: Statistics and probability
+  uri: http://edamontology.org/topic_2269
+- term: Transcriptomics
+  uri: http://edamontology.org/topic_3308
+validated: 1
+version: []

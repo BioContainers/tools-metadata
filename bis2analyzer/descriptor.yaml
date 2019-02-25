@@ -1,0 +1,80 @@
+accessibility: []
+additionDate: '2018-07-24T10:20:04Z'
+biotoolsCURIE: biotools:bis2analyzer
+biotoolsID: bis2analyzer
+collectionID: []
+cost: null
+credit:
+- email: alessandra.carbone@lip6.fr
+  name: Alessandra Carbone
+  note: null
+  orcidid: http://orcid.org/0000-0003-2098-5743
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: francesco.oteri@upmc.fr
+  name: Francesco Oteri
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Analysis of co-evolving amino-acid pairs in protein alignments, especially
+  designed for vertebrate and viral protein families, which typically display a small
+  number of highly similar sequences. It is based on BIS2, a re-implemented fast version
+  of the co-evolution analysis tool Blocks in Sequences (BIS).
+documentation:
+- note: null
+  type: Training material
+  url: http://www.lcqb.upmc.fr/BIS2Analyzer/tutorial.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Sequence alignment analysis (conservation)
+    uri: http://edamontology.org/operation_0448
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Residue interaction prediction
+    uri: http://edamontology.org/operation_0272
+  output: []
+homepage: http://www.lcqb.upmc.fr/BIS2Analyzer/
+homepage_status: 0
+language: []
+lastUpdate: '2019-02-25T08:57:58Z'
+license: null
+link: []
+maturity: null
+name: BIS2Analyzer
+operatingSystem: []
+otherID: []
+owner: aotamendi.1
+publication:
+- doi: 10.1093/nar/gkx336
+  metadata: null
+  pmcid: PMC5570204
+  pmid: '28472458'
+  type: Primary
+  version: null
+toolType:
+- Web application
+topic:
+- term: Gene and protein families
+  uri: http://edamontology.org/topic_0623
+- term: Protein folding, stability and design
+  uri: http://edamontology.org/topic_0130
+validated: 0
+version: []

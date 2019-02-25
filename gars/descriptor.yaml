@@ -1,0 +1,88 @@
+accessibility: []
+additionDate: '2018-07-08T16:31:50Z'
+biotoolsCURIE: biotools:gars
+biotoolsID: gars
+collectionID:
+- BioConductor
+cost: null
+credit:
+- email: mattia.chiesa@hotmail.it
+  name: Mattia Chiesa
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Feature selection aims to identify and remove redundant, irrelevant and
+  noisy variables from high-dimensional datasets. Selecting informative features affects
+  the subsequent classification and regression analyses by improving their overall
+  performances. It is an innovative implementation of a genetic algorithm that selects
+  robust features in high-dimensional and challenging datasets.
+documentation:
+- note: null
+  type: Manual
+  url: http://bioconductor.org/packages/release/bioc/manuals/GARS/man/GARS.pdf
+download:
+- note: null
+  type: Source package
+  url: http://bioconductor.org/packages/release/bioc/src/contrib/GARS_1.0.0.tar.gz
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Classification
+    uri: http://edamontology.org/operation_2990
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Clustering
+    uri: http://edamontology.org/operation_3432
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Regression analysis
+    uri: http://edamontology.org/operation_3659
+  output: []
+homepage: http://bioconductor.org/packages/release/bioc/html/GARS.html
+homepage_status: 0
+language:
+- R
+lastUpdate: '2018-12-10T12:59:00Z'
+license: GPL-2.0
+link:
+- note: null
+  type: Mirror
+  url: http://bioconductor.org/packages/GARS/
+- note: null
+  type: Repository
+  url: https://git.bioconductor.org/packages/GARS
+maturity: null
+name: GARS
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: shadi.m
+publication: []
+toolType:
+- Library
+topic:
+- term: Gene structure
+  uri: http://edamontology.org/topic_0114
+validated: 1
+version:
+- 1.0.0

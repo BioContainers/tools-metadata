@@ -1,0 +1,63 @@
+accessibility: []
+additionDate: '2017-08-20T16:15:18Z'
+biotoolsCURIE: biotools:mach2dat
+biotoolsID: mach2dat
+collectionID:
+- Animal and Crop Genomics
+cost: null
+credit:
+- email: staff@hpc.nih.gov
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Performs logic regression, using imputed SNP dosage data and adjusting
+  for covariates.
+documentation:
+- note: null
+  type: General
+  url: https://hpc.nih.gov/apps/mach2dat.html#doc
+download: []
+editPermission:
+  authors:
+  - animalandcropgenomics
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Regression analysis
+    uri: http://edamontology.org/operation_3659
+  output: []
+homepage: https://www.nitrc.org/projects/mach2dat/
+homepage_status: 0
+language:
+- Shell
+lastUpdate: '2019-01-29T12:01:31Z'
+license: Unlicensed
+link: []
+maturity: null
+name: mach2dat
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: vzn529@binf.ku.dk
+publication: []
+toolType:
+- Command-line tool
+topic:
+- term: DNA polymorphism
+  uri: http://edamontology.org/topic_2885
+- term: Statistics and probability
+  uri: http://edamontology.org/topic_2269
+validated: 1
+version: []

@@ -1,0 +1,108 @@
+accessibility: []
+additionDate: '2017-08-20T15:49:15Z'
+biotoolsCURIE: biotools:genome_strip
+biotoolsID: genome_strip
+collectionID:
+- Animal and Crop Genomics
+cost: null
+credit:
+- email: handsake@broadinstitute.org
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://mccarrolllab.com/
+description: Discovering and genotyping structural variations using sequencing data.
+  The methods are designed to detect shared variation using data from multiple individuals.
+  It looks both across and within a set of sequenced genomes to detect variation.
+  The methods are adaptive and support heterogeneous data sets. A minimum of 20 to
+  30 genomes are required to get acceptable results, but the method gains power across
+  genomes and processing more genomes provide better results.
+documentation:
+- note: null
+  type: General
+  url: http://software.broadinstitute.org/software/genomestrip/documentation
+download: []
+editPermission:
+  authors:
+  - animalandcropgenomics
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Structural variation detection
+    uri: http://edamontology.org/operation_3228
+  - term: Genetic variation analysis
+    uri: http://edamontology.org/operation_3197
+  output: []
+homepage: http://software.broadinstitute.org/software/genomestrip/
+homepage_status: 0
+language:
+- R
+- Java
+lastUpdate: '2019-01-29T12:00:08Z'
+license: Unlicensed
+link: []
+maturity: null
+name: Genome STRiP
+operatingSystem:
+- Linux
+otherID: []
+owner: vzn529@binf.ku.dk
+publication:
+- doi: 10.1038/ng.3200
+  metadata:
+    abstract: © 2015 Nature America, Inc. All rights reserved.Thousands of genomic
+      segments appear to be present in widely varying copy numbers in different human
+      genomes. We developed ways to use increasingly abundant whole-genome sequence
+      data to identify the copy numbers, alleles and haplotypes present at most large
+      multiallelic CNVs (mCNVs). We analyzed 849 genomes sequenced by the 1000 Genomes
+      Project to identify most large (>5-kb) mCNVs, including 3,878 duplications,
+      of which 1,356 appear to have 3 or more segregating alleles. We find that mCNVs
+      give rise to most human variation in gene dosage - seven times the combined
+      contribution of deletions and biallelic duplications - and that this variation
+      in gene dosage generates abundant variation in gene expression. We describe
+      'runaway duplication haplotypes' in which genes, including HPR and ORM1, have
+      mutated to high copy number on specific haplotypes. We also describe partially
+      successful initial strategies for analyzing mCNVs via imputation and provide
+      an initial data resource to support such analyses.
+    authors:
+    - name: Handsaker R.E.
+    - name: Van Doren V.
+    - name: Berman J.R.
+    - name: Genovese G.
+    - name: Kashin S.
+    - name: Boettger L.M.
+    - name: Mccarroll S.A.
+    citationCount: 106
+    date: '2015-01-01T00:00:00Z'
+    journal: Nature Genetics
+    title: Large multiallelic copy number variations in humans
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: DNA structural variation
+  uri: http://edamontology.org/topic_3175
+- term: Genetic variation
+  uri: http://edamontology.org/topic_0199
+validated: 1
+version: []

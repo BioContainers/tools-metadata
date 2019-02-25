@@ -1,0 +1,119 @@
+accessibility: []
+additionDate: '2017-12-18T00:09:37Z'
+biotoolsCURIE: biotools:myminer
+biotoolsID: myminer
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://myminer.armi.monash.edu.au/feedback_form.php
+- email: null
+  name: David Salgado
+  note: null
+  orcidid: http://orcid.org/0000-0002-5905-3591
+  typeEntity: null
+  typeRole: []
+  url: null
+description: MyMiner is a free and user-friendly text annotation tool aimed to assist
+  in carrying out the main biocuration tasks and to provide labelled data for the
+  development of text mining systems.
+documentation:
+- note: null
+  type: General
+  url: http://myminer.armi.monash.edu.au/tutorial.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Text mining
+    uri: http://edamontology.org/operation_0306
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Annotation
+    uri: http://edamontology.org/operation_0226
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Text annotation
+    uri: http://edamontology.org/operation_3778
+  output: []
+homepage: http://myminer.armi.monash.edu.au/
+homepage_status: 0
+language:
+- PHP
+- Java
+lastUpdate: '2019-01-09T15:39:55Z'
+license: null
+link:
+- note: null
+  type: Registry
+  url: http://www.mybiosoftware.com/myminer-text-mining-tools-for-biology.html
+maturity: null
+name: MyMiner
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: mbs_import
+publication:
+- doi: 10.1093/bioinformatics/bts435
+  metadata:
+    abstract: 'Motivation: The exponential growth of scientific literature has resulted
+      in a massive amount of unstructured natural language data that cannot be directly
+      handled by means of bioinformatics tools. Such tools generally require structured
+      data, often generated through a cumbersome process of manual literature curation.
+      Herein, we present MyMiner, a free and user-friendly text annotation tool aimed
+      to assist in carrying out the main biocuration tasks and to provide labelled
+      data for the development of text mining systems. MyMiner allows easy classification
+      and labelling of textual data according to user-specified classes as well as
+      predefined biological entities. The usefulness and efficiency of this application
+      have been tested for a range of real-life annotation scenarios of various research
+      topics. © The Author 2012. Published by Oxford University Press. All rights
+      reserved.'
+    authors:
+    - name: Salgado D.
+    - name: Krallinger M.
+    - name: Depaule M.
+    - name: Drula E.
+    - name: Tendulkar A.V.
+    - name: Leitner F.
+    - name: Valencia A.
+    - name: Marcelle C.
+    citationCount: 18
+    date: '2012-09-01T00:00:00Z'
+    journal: Bioinformatics
+    title: 'MyMiner: A web application for computer-assisted biocuration and text
+      annotation'
+  pmcid: null
+  pmid: '22789588'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Biology
+  uri: http://edamontology.org/topic_3070
+- term: Data mining
+  uri: http://edamontology.org/topic_3473
+validated: 1
+version: []

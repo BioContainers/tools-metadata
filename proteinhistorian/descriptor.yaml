@@ -1,0 +1,86 @@
+accessibility: []
+additionDate: '2018-10-18T10:38:11Z'
+biotoolsCURIE: biotools:proteinhistorian
+biotoolsID: proteinhistorian
+collectionID: []
+cost: null
+credit:
+- email: proteinhistorian@gmail.com
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Identifies enrichment for proteins of different phylogenetic ages in
+  protein sets of interest. Over thirty eukaryotic species are currently supported
+  and other protein attributes can be uploaded to combine with the protein age analysis.
+documentation:
+- note: null
+  type: General
+  url: http://lighthouse.ucsf.edu/ProteinHistorian/faq.html
+download:
+- note: null
+  type: Source code
+  url: http://lighthouse.ucsf.edu/ProteinHistorian/downloads.html
+  version: null
+- note: null
+  type: Biological data
+  url: http://lighthouse.ucsf.edu/ProteinHistorian/downloads.html
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Enrichment analysis
+    uri: http://edamontology.org/operation_3501
+  - term: Phylogenetic tree analysis
+    uri: http://edamontology.org/operation_0324
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Ancestral reconstruction
+    uri: http://edamontology.org/operation_3745
+  output: []
+homepage: http://lighthouse.ucsf.edu/ProteinHistorian/
+homepage_status: 0
+language:
+- Javascript
+- R
+- Perl
+- Python
+lastUpdate: '2018-12-10T12:59:01Z'
+license: GPL-1.0
+link: []
+maturity: null
+name: ProteinHistorian
+operatingSystem: []
+otherID: []
+owner: aotamendi.1
+publication:
+- doi: 10.1371/JOURNAL.PCBI.1002567
+  metadata: null
+  pmcid: PMC3386163
+  pmid: '22761559'
+  type: Primary
+  version: null
+toolType:
+- Script
+- Web application
+topic:
+- term: Phylogenetics
+  uri: http://edamontology.org/topic_3293
+- term: Protein folds and structural domains
+  uri: http://edamontology.org/topic_0736
+validated: 1
+version: []

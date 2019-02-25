@@ -1,0 +1,97 @@
+accessibility: []
+additionDate: '2017-08-03T18:49:29Z'
+biotoolsCURIE: biotools:micc
+biotoolsID: micc
+collectionID: []
+cost: null
+credit:
+- email: xwwang@tsinghua.edu.cn
+  name: Wang X
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://bioinfo.au.tsinghua.edu.cn/
+- email: michael.zhang@utdallas.edu
+  name: Zhang MQ
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: R package which provides methods to detect chromatin interactions from
+  ChIA-PET data.
+documentation:
+- note: null
+  type: General
+  url: http://bioinfo.au.tsinghua.edu.cn/member/xwwang/MICCusage/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Nucleic acid structure analysis
+    uri: http://edamontology.org/operation_2481
+  output: []
+homepage: http://bioinfo.au.tsinghua.edu.cn/member/xwwang/MICCusage/
+homepage_status: 0
+language:
+- R
+lastUpdate: '2018-12-11T19:28:29Z'
+license: null
+link:
+- note: null
+  type: Registry
+  url: http://www.mybiosoftware.com/micc-model-based-interaction-calling-from-chia-pet-data.html
+maturity: null
+name: MICC
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: mbs_import
+publication:
+- doi: null
+  metadata:
+    abstract: © The Author 2015. Published by Oxford University Press. All rights
+      reserved. ChIA-PET is rapidly emerging as an important experimental approach
+      to detect chromatin long-range interactions at high resolution. Here, we present
+      Model based Interaction Calling from ChIA-PET data (MICC), an easy-to-use R
+      package to detect chromatin interactions from ChIA-PET sequencing data. By applying
+      a Bayesian mixture model to systematically remove random ligation and random
+      collision noise, MICC could identify chromatin interactions with a significantly
+      higher sensitivity than existing methods at the same false discovery rate.
+    authors:
+    - name: He C.
+    - name: Zhang M.Q.
+    - name: Wang X.
+    citationCount: 7
+    date: '2015-06-18T00:00:00Z'
+    journal: Bioinformatics
+    title: 'MICC: An R package for identifying chromatin interactions from ChIA-PET
+      data'
+  pmcid: null
+  pmid: '26231426'
+  type: null
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Molecular interactions, pathways and networks
+  uri: http://edamontology.org/topic_0602
+- term: DNA structural variation
+  uri: http://edamontology.org/topic_3175
+- term: Sequencing
+  uri: http://edamontology.org/topic_3168
+validated: 1
+version: []

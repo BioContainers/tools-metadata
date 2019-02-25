@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2017-01-13T13:14:05Z'
+biotoolsCURIE: biotools:clcbio_genomics_workbench
+biotoolsID: clcbio_genomics_workbench
+collectionID:
+- CLC Main Workbench
+cost: null
+credit:
+- email: null
+  name: Support
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: https://www.qiagenbioinformatics.com/support/contact-support/
+description: De novo and reference assembly SNP and small indel detection and annotation.
+documentation:
+- note: null
+  type: General
+  url: https://www.qiagenbioinformatics.com/products/clc-genomics-workbench
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Sequence assembly
+    uri: http://edamontology.org/operation_0310
+  - term: Read mapping
+    uri: http://edamontology.org/operation_3198
+  - term: Ab-initio gene prediction
+    uri: http://edamontology.org/operation_3662
+  - term: Sequence assembly validation
+    uri: http://edamontology.org/operation_3180
+  - term: Primer removal
+    uri: http://edamontology.org/operation_3237
+  - term: De-novo assembly
+    uri: http://edamontology.org/operation_0524
+  - term: Heat map generation
+    uri: http://edamontology.org/operation_0531
+  - term: SNP detection
+    uri: http://edamontology.org/operation_0484
+  - term: Sequence alignment
+    uri: http://edamontology.org/operation_0292
+  - term: Bisulfite mapping
+    uri: http://edamontology.org/operation_3186
+  output: []
+homepage: https://www.qiagenbioinformatics.com/products/clc-main-workbench/
+homepage_status: 0
+language:
+- Java
+- C++
+lastUpdate: '2019-02-12T09:22:29Z'
+license: null
+link: []
+maturity: Mature
+name: CLC Main Workbench
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: seqwiki_import
+publication:
+- doi: null
+  metadata: null
+  pmcid: null
+  pmid: '19181860'
+  type: null
+  version: null
+toolType:
+- Workbench
+topic:
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+- term: Whole genome sequencing
+  uri: http://edamontology.org/topic_3673
+- term: ChIP-seq
+  uri: http://edamontology.org/topic_3169
+- term: RNA-seq
+  uri: http://edamontology.org/topic_3170
+- term: Functional, regulatory and non-coding RNA
+  uri: http://edamontology.org/topic_0659
+- term: Transcriptomics
+  uri: http://edamontology.org/topic_3308
+- term: Mapping
+  uri: http://edamontology.org/topic_0102
+- term: Sequence assembly
+  uri: http://edamontology.org/topic_0196
+validated: 0
+version: []

@@ -1,0 +1,83 @@
+accessibility: []
+additionDate: '2017-12-18T00:06:36Z'
+biotoolsCURIE: biotools:frida
+biotoolsID: frida
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://tmalab.jhmi.edu/
+- email: null
+  name: Bora Gurel
+  note: null
+  orcidid: http://orcid.org/0000-0002-5018-8078
+  typeEntity: Person
+  typeRole:
+  - Contributor
+  url: null
+description: Frida (FRamework for Image Dataset Analysis) is image analysis software.
+  Frida was developed by the Johns Hopkins University Tissue Microarray Core Facility.
+  Frida is open source and written in 100% Java. Frida makes use of functionality
+  from the NIH’s ImageJ application.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Image analysis
+    uri: http://edamontology.org/operation_3443
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Analysis
+    uri: http://edamontology.org/operation_2945
+  output: []
+homepage: http://bui3.win.ad.jhu.edu/frida/
+homepage_status: 0
+language:
+- Java
+lastUpdate: '2018-12-24T22:47:41Z'
+license: null
+link:
+- note: null
+  type: Registry
+  url: http://www.mybiosoftware.com/frida-1-1-0-framework-image-dataset-analysis.html
+maturity: null
+name: Frida
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: mbs_import
+publication:
+- doi: 10.1038/modpathol.2008.111
+  metadata: null
+  pmcid: PMC3170853
+  pmid: '18567993'
+  type: Primary
+  version: null
+toolType:
+- Desktop application
+topic:
+- term: Tissue microarray
+  uri: http://edamontology.org/topic_3518
+validated: 1
+version:
+- 1.1.0

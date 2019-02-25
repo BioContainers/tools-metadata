@@ -1,0 +1,128 @@
+accessibility:
+- Open access
+additionDate: '2017-02-19T08:45:24Z'
+biotoolsCURIE: biotools:pmut
+biotoolsID: pmut
+collectionID:
+- IRB-BSC
+- ELIXIR-ES
+cost: Free of charge (with restrictions)
+credit:
+- email: victor.lopez.ferrando@bsc.es
+  name: Victor Lopez-Ferrando
+  note: null
+  orcidid: http://orcid.org/0000-0002-2035-7555
+  typeEntity: Person
+  typeRole:
+  - Maintainer
+  url: null
+- email: victor.lopez.ferrando@bsc.es
+  name: Victor Lopez-Ferrando
+  note: null
+  orcidid: http://orcid.org/0000-0002-2035-7555
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: gelpi@bsc.es
+  name: Jose Luis Gelpi
+  note: null
+  orcidid: http://orcid.org/0000-0002-0566-7723
+  typeEntity: Person
+  typeRole: []
+  url: null
+description: Web portal for the annotation of pathological protein variants.
+documentation:
+- note: null
+  type: General
+  url: http://mmb.irbbarcelona.org/pmut2017/help
+download:
+- note: null
+  type: Source package
+  url: http://mmb.irbbarcelona.org/pmut2017/static/PyMut.tar.gz
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Protein sequence (raw)
+      uri: http://edamontology.org/data_2974
+    format:
+    - term: FASTA-like (text)
+      uri: http://edamontology.org/format_2200
+  note: null
+  operation:
+  - term: SNP annotation
+    uri: http://edamontology.org/operation_3661
+  - term: Variant classification
+    uri: http://edamontology.org/operation_3225
+  output:
+  - data:
+      term: Protein features
+      uri: http://edamontology.org/data_1277
+    format:
+    - term: Textual format
+      uri: http://edamontology.org/format_2330
+homepage: http://mmb.irbbarcelona.org/PMut
+homepage_status: 0
+language:
+- Python
+lastUpdate: '2019-01-15T01:41:57Z'
+license: GPL-3.0
+link: []
+maturity: Mature
+name: PMut
+operatingSystem:
+- Linux
+otherID: []
+owner: gelpi@ub.edu
+publication:
+- doi: 10.1093/nar/gkx313
+  metadata: null
+  pmcid: PMC5793831
+  pmid: '28453649'
+  type: Primary
+  version: null
+- doi: 10.1093/bioinformatics/bti486
+  metadata:
+    abstract: 'Summary: PMUT allows the fast and accurate prediction (∼80% success
+      rate in humans) of the pathological character of single point amino acidic mutations
+      based on the use of neural networks. The program also allows the fast scanning
+      of mutational hot spots, which are obtained by three procedures: (1) alanine
+      scanning, (2) massive mutation and (3) genetically accessible mutations. A graphical
+      interface for Protein Data Bank (PDB) structures, when available, and a database
+      containing hot spot profiles for all non-redundant PDB structures are also accessible
+      from the PMUT server. © The Author 2005. Published by Oxford University Press.
+      All rights reserved.'
+    authors:
+    - name: Ferrer-Costa C.
+    - name: Gelpi J.L.
+    - name: Zamakola L.
+    - name: Parraga I.
+    - name: de la Cruz X.
+    - name: Orozco M.
+    citationCount: 347
+    date: '2005-07-15T00:00:00Z'
+    journal: Bioinformatics
+    title: 'PMUT: A web-based tool for the annotation of pathological mutations on
+      proteins'
+  pmcid: null
+  pmid: '15879453'
+  type: Primary
+  version: null
+toolType:
+- Web API
+- Web application
+- Command-line tool
+topic:
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+validated: 1
+version:
+- '2017'

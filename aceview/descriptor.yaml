@@ -1,0 +1,266 @@
+accessibility: []
+additionDate: '2015-09-11T18:19:23Z'
+biotoolsCURIE: biotools:aceview
+biotoolsID: aceview
+collectionID:
+- DRCAT
+cost: null
+credit:
+- email: null
+  name: NCBI
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: null
+  name: DRCAT
+  note: null
+  orcidid: null
+  typeEntity: Project
+  typeRole:
+  - Documentor
+  url: null
+- email: mieg@ncbi.nlm.nih.gov
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: A curated, comprehensive and non-redundant sequence representation of
+  all public mRNA sequences (mRNAs from GenBank or RefSeq, and single pass cDNA sequences
+  from dbEST and Trace).
+documentation:
+- note: null
+  type: General
+  url: http://www.ncbi.nlm.nih.gov/IEB/Research/Acembly/FAQandOverview/AboutAceView.htm#FAQ
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Species name
+      uri: http://edamontology.org/data_1045
+    format: []
+  - data:
+      term: Gene symbol
+      uri: http://edamontology.org/data_1026
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Gene report
+      uri: http://edamontology.org/data_0916
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+- cmd: null
+  input:
+  - data:
+      term: Species name
+      uri: http://edamontology.org/data_1045
+    format: []
+  - data:
+      term: Gene symbol
+      uri: http://edamontology.org/data_1026
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Gene report
+      uri: http://edamontology.org/data_0916
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+- cmd: null
+  input:
+  - data:
+      term: Species name
+      uri: http://edamontology.org/data_1045
+    format: []
+  - data:
+      term: Gene symbol
+      uri: http://edamontology.org/data_1026
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Gene report
+      uri: http://edamontology.org/data_0916
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+- cmd: null
+  input:
+  - data:
+      term: Species name
+      uri: http://edamontology.org/data_1045
+    format: []
+  - data:
+      term: Gene symbol
+      uri: http://edamontology.org/data_1026
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Nucleic acid features
+      uri: http://edamontology.org/data_1276
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+- cmd: null
+  input:
+  - data:
+      term: Species name
+      uri: http://edamontology.org/data_1045
+    format: []
+  - data:
+      term: Gene symbol
+      uri: http://edamontology.org/data_1026
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Nucleic acid features
+      uri: http://edamontology.org/data_1276
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+- cmd: null
+  input:
+  - data:
+      term: Species name
+      uri: http://edamontology.org/data_1045
+    format: []
+  - data:
+      term: Gene ID (NCBI)
+      uri: http://edamontology.org/data_1027
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Gene report
+      uri: http://edamontology.org/data_0916
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+- cmd: null
+  input:
+  - data:
+      term: Species name
+      uri: http://edamontology.org/data_1045
+    format: []
+  - data:
+      term: Clone ID (RefSeq)
+      uri: http://edamontology.org/data_2803
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Gene report
+      uri: http://edamontology.org/data_0916
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+- cmd: null
+  input:
+  - data:
+      term: Species name
+      uri: http://edamontology.org/data_1045
+    format: []
+  - data:
+      term: Clone ID (IMAGE)
+      uri: http://edamontology.org/data_2704
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Gene report
+      uri: http://edamontology.org/data_0916
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+- cmd: null
+  input:
+  - data:
+      term: Species name
+      uri: http://edamontology.org/data_1045
+    format: []
+  - data:
+      term: GenBank accession
+      uri: http://edamontology.org/data_2292
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Gene transcript report
+      uri: http://edamontology.org/data_3134
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+homepage: http://www.ncbi.nlm.nih.gov/IEB/Research/Acembly/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-29T14:27:31Z'
+license: null
+link: []
+maturity: null
+name: AceView genes database
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: DRCAT
+publication:
+- doi: 10.1016/j.immuni.2009.10.008
+  metadata: null
+  pmcid: PMC3272079
+  pmid: '20064451'
+  type: Primary
+  version: null
+toolType:
+- Database portal
+topic:
+- term: Gene transcripts
+  uri: http://edamontology.org/topic_3512
+- term: Gene and protein families
+  uri: http://edamontology.org/topic_0623
+validated: 1
+version: []

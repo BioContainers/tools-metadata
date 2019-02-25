@@ -1,0 +1,72 @@
+accessibility: []
+additionDate: '2017-01-13T13:14:15Z'
+biotoolsCURIE: biotools:curtain
+biotoolsID: curtain
+collectionID: []
+cost: null
+credit:
+- email: mhaimel.ebi@googlemail.com
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Curtain is a Java wrapper around next-generation assemblers such as Velvet
+  which allows the incremental introduction of read-pair information into the assembly
+  process. This enables the assembly of larger genomes than would otherwise be possible
+  within existing memory constraints.
+documentation:
+- note: null
+  type: General
+  url: https://code.google.com/archive/p/curtain/wikis
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: De-novo assembly
+    uri: http://edamontology.org/operation_0524
+  - term: Sequence assembly
+    uri: http://edamontology.org/operation_0310
+  output: []
+homepage: http://code.google.com/p/curtain/
+homepage_status: 0
+language:
+- Java
+lastUpdate: '2019-02-16T14:44:52Z'
+license: null
+link:
+- note: null
+  type: Registry
+  url: http://www.mybiosoftware.com/curtain-0-2-3-beta-assembling-large-genomes-short-read-sequences.html
+- note: Discussion forum
+  type: Issue tracker
+  url: https://groups.google.com/forum/#!forum/curtain-assembler
+maturity: Emerging
+name: Curtain
+operatingSystem: []
+otherID: []
+owner: seqwiki_import
+publication:
+- doi: 10.1186/2047-217X-2-10
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Comparison
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Sequence assembly
+  uri: http://edamontology.org/topic_0196
+validated: 0
+version: []

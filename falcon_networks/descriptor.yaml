@@ -1,0 +1,95 @@
+accessibility: []
+additionDate: '2018-06-14T14:48:33Z'
+biotoolsCURIE: biotools:falcon_networks
+biotoolsID: falcon_networks
+collectionID: []
+cost: null
+credit:
+- email: thomas.sauter@uni.lu
+  name: Thomas Sauter
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Toolbox for the fast contextualization of logical networks.
+documentation:
+- note: null
+  type: General
+  url: https://github.com/sysbiolux/FALCON/wiki/Running-FALCON
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Pathway or network analysis
+    uri: http://edamontology.org/operation_2497
+  output: []
+homepage: https://github.com/sysbiolux/FALCON
+homepage_status: 0
+language:
+- MATLAB
+lastUpdate: '2019-02-05T12:58:21Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: FALCON
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: d.gabrielaitis
+publication:
+- doi: 10.1093/bioinformatics/btx380
+  metadata:
+    abstract: '© The Author(s) 2017. Published by Oxford University Press.Motivation:
+      Mathematical modelling of regulatory networks allows for the discovery of knowledge
+      at the system level. However, existing modelling tools are often computation-heavy
+      and do not offer intuitive ways to explore the model, to test hypotheses or
+      to interpret the results biologically.Results: We have developed a computational
+      approach to contextualize logical models of regulatory networks with biological
+      measurements based on a probabilistic description of rule-based interactions
+      between the different molecules. Here, we propose a Matlab toolbox, FALCON,
+      to automatically and efficiently build and contextualize networks, which includes
+      a pipeline for conducting parameter analysis, knockouts and easy and fast model
+      investigation. The contextualized models could then provide qualitative and
+      quantitative information about the network and suggest hypotheses about biological
+      processes.Availability and implementation: FALCON is freely available for non-commercial
+      users on GitHub under the GPLv3 licence. The toolbox, installation instructions,
+      full documentation and test datasets are available at https://github.com/sysbiolux/FALCON.
+      FALCON runs under Matlab (MathWorks) and requires the Optimization Toolbox.Contact:
+      thomas.sauter@uni.lu.Supplementary information: Supplementary data are available
+      at Bioinformatics online.'
+    authors:
+    - name: De Landtsheer S.
+    - name: Trairatphisan P.
+    - name: Lucarelli P.
+    - name: Sauter T.
+    citationCount: 2
+    date: '2017-11-01T00:00:00Z'
+    journal: Bioinformatics (Oxford, England)
+    title: 'FALCON: a toolbox for the fast contextualization of logical networks'
+  pmcid: null
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Desktop application
+topic:
+- term: Molecular interactions, pathways and networks
+  uri: http://edamontology.org/topic_0602
+- term: Statistics and probability
+  uri: http://edamontology.org/topic_2269
+- term: Cell biology
+  uri: http://edamontology.org/topic_2229
+validated: 1
+version: []

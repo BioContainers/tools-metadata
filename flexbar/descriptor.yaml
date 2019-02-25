@@ -1,0 +1,84 @@
+accessibility: []
+additionDate: '2017-01-13T13:14:36Z'
+biotoolsCURIE: biotools:flexbar
+biotoolsID: flexbar
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: Johannes Roehr
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: https://github.com/jtroehr
+description: Flexible barcode and adapter removal. It demultiplexes barcoded runs
+  and removes adapter sequences. Several adapter removal presets for Illumina libraries
+  are included. Computes exact overlap alignments using SIMD and multicore parallelism.
+  Moreover, trimming and filtering features are provided. It increases read mapping
+  rates and improves genome as well as transcriptome assemblies.  The software supports
+  data in fasta and fastq format from multiple sequencing platforms.
+documentation:
+- note: null
+  type: Manual
+  url: https://github.com/seqan/flexbar/wiki
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Nucleic acid sequence
+      uri: http://edamontology.org/data_2977
+    format:
+    - term: FASTQ
+      uri: http://edamontology.org/format_1930
+    - term: FASTA
+      uri: http://edamontology.org/format_1929
+  note: null
+  operation:
+  - term: Read pre-processing
+    uri: http://edamontology.org/operation_3219
+  - term: Primer removal
+    uri: http://edamontology.org/operation_3237
+  - term: Validation
+    uri: http://edamontology.org/operation_2428
+  - term: Sequence trimming
+    uri: http://edamontology.org/operation_3192
+  output: []
+homepage: https://github.com/seqan/flexbar
+homepage_status: 0
+language:
+- C++
+lastUpdate: '2018-12-10T12:59:01Z'
+license: BSD-3-Clause
+link: []
+maturity: Mature
+name: Flexbar
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: jtroehr
+publication:
+- doi: null
+  metadata: null
+  pmcid: null
+  pmid: '24832523'
+  type: null
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+validated: 1
+version:
+- 3.4.0

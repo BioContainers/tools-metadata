@@ -1,0 +1,76 @@
+accessibility: []
+additionDate: '2019-02-20T16:17:15Z'
+biotoolsCURIE: biotools:isotop_r
+biotoolsID: isotop_r
+collectionID:
+- ms-utils
+cost: null
+credit:
+- email: magnus.palmblad@gmail.com
+  name: see publication
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Maintainer
+  url: null
+description: R code for calculating the isotopic distribution of a molecule.
+documentation: []
+download:
+- note: null
+  type: Source code
+  url: http://www.ms-utils.org/isotop.r
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Chemical formula
+      uri: http://edamontology.org/data_0846
+    format:
+    - term: Chemical formula format
+      uri: http://edamontology.org/format_2035
+  note: null
+  operation:
+  - term: Plotting
+    uri: http://edamontology.org/operation_3441
+  - term: Isotopic distributions calculation
+    uri: http://edamontology.org/operation_3632
+  output:
+  - data:
+      term: Plot
+      uri: http://edamontology.org/data_2884
+    format:
+    - term: png
+      uri: http://edamontology.org/format_3603
+homepage: http://www.ms-utils.org/isotop.r
+homepage_status: 0
+language:
+- R
+lastUpdate: '2019-02-20T16:17:15Z'
+license: null
+link:
+- note: null
+  type: Registry
+  url: http://ms-utils.org
+maturity: null
+name: isotop_r
+operatingSystem: []
+otherID: []
+owner: vzn529@binf.ku.dk
+publication: []
+toolType:
+- Command-line tool
+topic:
+- term: Proteomics
+  uri: http://edamontology.org/topic_0121
+- term: Proteomics experiment
+  uri: http://edamontology.org/topic_3520
+validated: 0
+version: []

@@ -1,0 +1,157 @@
+accessibility:
+- Open access
+additionDate: '2016-03-24T16:39:49Z'
+biotoolsCURIE: biotools:bowtie2
+biotoolsID: bowtie2
+collectionID:
+- galaxyPasteur
+cost: null
+credit:
+- email: null
+  name: Institut Français de Bioinformatique
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: null
+  name: Ben Langmead
+  note: null
+  orcidid: null
+  typeEntity: null
+  typeRole:
+  - Developer
+  url: http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
+- email: null
+  name: Ben Langmead
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
+description: 'Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing
+  reads to long reference sequences. It is particularly good at aligning reads of
+  about 50 up to 100s or 1,000s of characters, and particularly good at aligning to
+  relatively long (e.g. mammalian) genomes. Bowtie 2 indexes the genome with an FM
+  Index to keep its memory footprint small: for the human genome, its memory footprint
+  is typically around 3.2 GB. Bowtie 2 supports gapped, local, and paired-end alignment
+  modes.'
+documentation:
+- note: null
+  type: Manual
+  url: http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml
+- note: null
+  type: General
+  url: https://github.com/BenLangmead/bowtie2
+download:
+- note: null
+  type: CWL file
+  url: https://gitlab.com/sibyllewohlgemuth/cwl_files/raw/master/bowtie2.cwl
+  version: null
+- note: null
+  type: CWL file
+  url: https://gitlab.com/sibyllewohlgemuth/cwl_files/raw/master/bowtie2_build.cwl
+  version: null
+- note: null
+  type: Container file
+  url: https://docker-ui.genouest.org/app/#/container/bioconda/bowtie2
+  version: null
+- note: null
+  type: Container file
+  url: https://anaconda.org/bioconda/bowtie2
+  version: null
+editPermission:
+  authors:
+  - swohlgemuth
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Nucleic acid sequence
+      uri: http://edamontology.org/data_2977
+    format:
+    - term: FASTQ
+      uri: http://edamontology.org/format_1930
+  note: null
+  operation:
+  - term: Read mapping
+    uri: http://edamontology.org/operation_3198
+  output:
+  - data:
+      term: Sequence alignment (nucleic acid)
+      uri: http://edamontology.org/data_1383
+    format:
+    - term: BAM
+      uri: http://edamontology.org/format_2572
+    - term: SAM
+      uri: http://edamontology.org/format_2573
+homepage: http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
+homepage_status: 0
+language:
+- C++
+lastUpdate: '2019-02-14T19:38:20Z'
+license: GPL-3.0
+link:
+- note: null
+  type: Galaxy service
+  url: https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/bowtie2/bowtie2/2.2.6.2
+maturity: Mature
+name: Bowtie 2
+operatingSystem:
+- Linux
+otherID: []
+owner: swohlgemuth
+publication:
+- doi: 10.1038/nmeth.1923
+  metadata: null
+  pmcid: PMC3322381
+  pmid: '22388286'
+  type: Primary
+  version: null
+- doi: 10.1186/1471-2105-14-184
+  metadata: null
+  pmcid: PMC3694458
+  pmid: '23758764'
+  type: Comparison
+  version: null
+- doi: 10.1016/j.ygeno.2017.03.001
+  metadata: null
+  pmcid: null
+  pmid: '28286147'
+  type: Comparison
+  version: null
+- doi: 10.1186/1471-2164-15-264
+  metadata: null
+  pmcid: PMC4051166
+  pmid: '24708189'
+  type: Comparison
+  version: null
+- doi: 10.1093/bioinformatics/btu146
+  metadata: null
+  pmcid: null
+  pmid: '24626854'
+  type: Comparison
+  version: null
+- doi: 10.7490/f1000research.1114334.1
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Other
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Mapping
+  uri: http://edamontology.org/topic_0102
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+- term: Mapping
+  uri: http://edamontology.org/topic_0102
+validated: 0
+version: []

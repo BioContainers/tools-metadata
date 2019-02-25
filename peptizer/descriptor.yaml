@@ -1,0 +1,115 @@
+accessibility: []
+additionDate: '2016-05-17T10:18:20Z'
+biotoolsCURIE: biotools:peptizer
+biotoolsID: peptizer
+collectionID:
+- BIG N2N
+- VIB
+- Compomics
+- UGent
+cost: null
+credit:
+- email: null
+  name: ugent.be
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: lennart.martens@ugent.be
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Automating manual validation of MS/MS search results.
+documentation:
+- note: null
+  type: General
+  url: https://github.com/compomics/peptizer
+- note: null
+  type: Manual
+  url: https://github.com/compomics/peptizer/blob/master/manual/peptizer_manual.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Mass spectrometry data
+      uri: http://edamontology.org/data_2536
+    format: []
+  note: null
+  operation:
+  - term: Protein sequence analysis
+    uri: http://edamontology.org/operation_2479
+  output:
+  - data:
+      term: Mass spectrometry data
+      uri: http://edamontology.org/data_2536
+    format: []
+homepage: https://github.com/compomics/peptizer
+homepage_status: 0
+language:
+- Java
+lastUpdate: '2018-12-24T22:54:39Z'
+license: null
+link: []
+maturity: null
+name: Peptizer
+operatingSystem:
+- Linux
+- Mac
+otherID: []
+owner: Katrijn.Vannerum@ugent.be
+publication:
+- doi: 10.1074/mcp.M800082-MCP200
+  metadata:
+    abstract: False positive peptide identifications are a major concern in the field
+      of peptidecentric, mass spectrometry-driven gel-free proteomics. They occur
+      in regions where the score distributions of true positives and true negatives
+      overlap. Removal of these false positive identifications necessarily involves
+      a trade-off between sensitivity and specificity. Existing postprocessing tools
+      typically rely on a fixed or semifixed set of assumptions in their attempts
+      to optimize both the sensitivity and the specificity of peptide and protein
+      identification using MS/MS spectra. Because of the expanding diversity in available
+      proteomics technologies, however, these postprocessing tools often struggle
+      to adapt to emerging technology-specific peculiarity. Here we present a novel
+      tool named Peptizer that solves this adaptability issue by making use of pluggable
+      assumptions. This research-oriented postprocessing tool also includes a graphical
+      user interface to perform efficient manual validation of suspect identifications
+      for optimal sensitivity recovery. Peptizer is open source software under the
+      Apache2 license and is written in Java. © 2008 by The American Society for Biochemistry
+      and Molecular Biology, Inc.
+    authors:
+    - name: Helsens K.
+    - name: Timmermann E.
+    - name: Vandekerckhove J.
+    - name: Gevaert K.
+    - name: Martens L.
+    citationCount: 42
+    date: '2008-12-01T00:00:00Z'
+    journal: Molecular and Cellular Proteomics
+    title: Peptizer, a tool for assessing false positive peptide identifications and
+      manually validating selected results
+  pmcid: null
+  pmid: '18667410'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+- Desktop application
+topic:
+- term: Proteomics
+  uri: http://edamontology.org/topic_0121
+validated: 1
+version:
+- 1.8.4

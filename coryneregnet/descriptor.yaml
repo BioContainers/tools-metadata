@@ -1,0 +1,86 @@
+accessibility: []
+additionDate: '2015-08-04T11:24:13Z'
+biotoolsCURIE: biotools:coryneregnet
+biotoolsID: coryneregnet
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: bmb.sdu.dk
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: jbaumbac@imada.sdu.dk
+  name: Jan Baumbach
+  note: null
+  orcidid: http://orcid.org/0000-0002-0282-0462
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Reference database and analysis platform for corynebacterial transcription
+  factors and gene regulatory networks.
+documentation:
+- note: null
+  type: General
+  url: https://coryneregnet.compbio.sdu.dk/v6/info_predicted.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Pathway or network prediction
+    uri: http://edamontology.org/operation_3439
+  - term: Pathway or network analysis
+    uri: http://edamontology.org/operation_2497
+  - term: Sequence database search
+    uri: http://edamontology.org/operation_0338
+  output:
+  - data:
+      term: Sequence
+      uri: http://edamontology.org/data_2044
+    format: []
+  - data:
+      term: Identifier
+      uri: http://edamontology.org/data_0842
+    format: []
+homepage: http://www.coryneregnet.de
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-30T16:29:34Z'
+license: null
+link: []
+maturity: null
+name: CoryneRegNet
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: veits@bmb.sdu.dk
+publication:
+- doi: 10.1093/nar/gkr883
+  metadata: null
+  pmcid: PMC3245100
+  pmid: '22080556'
+  type: Primary
+  version: null
+toolType:
+- Database portal
+topic:
+- term: Molecular interactions, pathways and networks
+  uri: http://edamontology.org/topic_0602
+- term: Mapping
+  uri: http://edamontology.org/topic_0102
+validated: 1
+version: []

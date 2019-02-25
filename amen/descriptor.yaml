@@ -1,0 +1,90 @@
+accessibility: []
+additionDate: '2018-11-26T08:07:44Z'
+biotoolsCURIE: biotools:amen
+biotoolsID: amen
+collectionID: []
+cost: Free of charge
+credit:
+- email: frederic.chalmel@inserm.fr
+  name: Frederic Chalmel
+  note: null
+  orcidid: http://orcid.org/0000-0002-0535-3628
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: The Annotation, Mapping, Expression and Network (AMEN) software is a
+  stand-alone, unified suite of tools that enables biological and medical researchers
+  with basic bioinformatics training to manage and explore genome annotation, chromosomal
+  mapping, protein-protein interaction, expression profiling and proteomics data.
+  The current version provides modules for (i) uploading and pre-processing data from
+  microarray expression profiling experiments, (ii) detecting groups of significantly
+  co-expressed genes, and (iii) searching for enrichment of functional annotations
+  within those groups. Moreover, the user interface is designed to simultaneously
+  visualize several types of data such as protein-protein interaction networks in
+  conjunction with expression profiles and cellular co-localization patterns. We have
+  successfully applied the program to interpret expression profiling data from budding
+  yeast, rodents and human.
+documentation: []
+download:
+- note: null
+  type: Source code
+  url: https://sourceforge.net/projects/amen/
+  version: null
+editPermission:
+  authors: []
+  type: public
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Analysis
+    uri: http://edamontology.org/operation_2945
+  - term: Visualisation
+    uri: http://edamontology.org/operation_0337
+  - term: Correlation
+    uri: http://edamontology.org/operation_3465
+  - term: Data handling
+    uri: http://edamontology.org/operation_2409
+  - term: Conversion
+    uri: http://edamontology.org/operation_3434
+  - term: Annotation
+    uri: http://edamontology.org/operation_0226
+  - term: Clustering
+    uri: http://edamontology.org/operation_3432
+  - term: Comparison
+    uri: http://edamontology.org/operation_2424
+  - term: Classification
+    uri: http://edamontology.org/operation_2990
+  output: []
+homepage: https://sourceforge.net/projects/amen/
+homepage_status: 0
+language:
+- R
+lastUpdate: '2018-12-24T22:28:34Z'
+license: null
+link: []
+maturity: Mature
+name: AMEN
+operatingSystem: []
+otherID: []
+owner: fchalmel
+publication:
+- doi: 10.1186/1471-2105-9-86
+  metadata: null
+  pmcid: PMC18254954
+  pmid: '18254954'
+  type: Primary
+  version: null
+toolType:
+- Desktop application
+topic:
+- term: Omics
+  uri: http://edamontology.org/topic_3391
+validated: 1
+version:
+- 1.5.4

@@ -1,0 +1,100 @@
+accessibility: []
+additionDate: '2018-01-09T13:38:51Z'
+biotoolsCURIE: biotools:blockbuster
+biotoolsID: blockbuster
+collectionID: []
+cost: null
+credit:
+- email: david@bioinf.uni-leipzig.de
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: detect blocks of overlapping reads using a gaussian-distribution approach
+documentation:
+- note: null
+  type: General
+  url: http://hoffmann.bioinf.uni-leipzig.de/LIFE/blockbuster.html
+download:
+- note: null
+  type: Source code
+  url: http://www.bioinf.uni-leipzig.de/~david/LIFE/blockbuster.tar.gz
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Sequence coordinates
+      uri: http://edamontology.org/data_2012
+    format:
+    - term: BED
+      uri: http://edamontology.org/format_3003
+  note: null
+  operation:
+  - term: RNA-Seq analysis
+    uri: http://edamontology.org/operation_3680
+  output:
+  - data:
+      term: Sequence coordinates
+      uri: http://edamontology.org/data_2012
+    format:
+    - term: Textual format
+      uri: http://edamontology.org/format_2330
+homepage: http://hoffmann.bioinf.uni-leipzig.de/LIFE/blockbuster.html
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-29T14:12:02Z'
+license: null
+link:
+- note: null
+  type: Browser
+  url: http://hoffmann.bioinf.uni-leipzig.de/LIFE/blockbuster.html
+maturity: null
+name: blockbuster
+operatingSystem: []
+otherID: []
+owner: fall@bioinf.uni-leipzig.de
+publication:
+- doi: 10.1093/bioinformatics/btp419
+  metadata:
+    abstract: MicroRNA-offset-RNAs (moRNAs) were recently detected as highly abundant
+      class of small RNAs in a basal chordate. Using short read sequencing data, we
+      show here that moRNAs are also produced from human microRNA precursors, albeit
+      at quite low expression levels. The expression levels of moRNAs are unrelated
+      to those of the associated microRNAs. Surprisingly, microRNA precursors that
+      also show moRNAs are typically evolutionarily old, comprising more than half
+      of the microRNA families that were present in early Bilateria, while evidence
+      for moRNAs was found only for a relative small fraction of microRNA families
+      of recent origin. © The Author 2009. Published by Oxford University Press. All
+      rights reserved.
+    authors:
+    - name: Langenberger D.
+    - name: Bermudez-Santana C.
+    - name: Hertel J.
+    - name: Hoffmann S.
+    - name: Khaitovich P.
+    - name: Stadler P.F.
+    citationCount: 83
+    date: '2009-09-01T00:00:00Z'
+    journal: Bioinformatics
+    title: Evidence for human microRNA-offset RNAs in small RNA sequencing data
+  pmcid: null
+  pmid: '19584066'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+validated: 1
+version: []

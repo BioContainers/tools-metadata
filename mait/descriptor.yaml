@@ -1,0 +1,107 @@
+accessibility: []
+additionDate: '2017-01-17T14:56:12Z'
+biotoolsCURIE: biotools:mait
+biotoolsID: mait
+collectionID:
+- BioConductor
+cost: null
+credit:
+- email: francesc.fernandez.albert@upc.edu
+  name: Francesc Fernandez-Albert
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: This package contains functions to perform end-to-end statistical analysis
+  of LC/MS Metabolomic Data. Special emphasis is put on peak annotation and in modular
+  function design of the functions.
+documentation:
+- note: null
+  type: Manual
+  url: http://bioconductor.org/packages/release/bioc/html/MAIT.html
+download:
+- note: null
+  type: Source code
+  url: http://bioconductor/packages/release/bioc/src/contrib/MAIT_1.8.0.tar.gz
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Mass spectrometry data
+      uri: http://edamontology.org/data_2536
+    format:
+    - term: netCDF
+      uri: http://edamontology.org/format_3650
+  note: null
+  operation:
+  - term: Peak detection
+    uri: http://edamontology.org/operation_3215
+  - term: Statistical calculation
+    uri: http://edamontology.org/operation_2238
+  output:
+  - data:
+      term: Plot
+      uri: http://edamontology.org/data_2884
+    format:
+    - term: Textual format
+      uri: http://edamontology.org/format_2330
+    - term: Image format
+      uri: http://edamontology.org/format_3547
+  - data:
+      term: Report
+      uri: http://edamontology.org/data_2048
+    format:
+    - term: Textual format
+      uri: http://edamontology.org/format_2330
+    - term: Image format
+      uri: http://edamontology.org/format_3547
+  - data:
+      term: Heat map
+      uri: http://edamontology.org/data_1636
+    format:
+    - term: Textual format
+      uri: http://edamontology.org/format_2330
+    - term: Image format
+      uri: http://edamontology.org/format_3547
+homepage: http://bioconductor.org/packages/release/bioc/html/MAIT.html
+homepage_status: 0
+language:
+- R
+lastUpdate: '2019-01-10T05:09:40Z'
+license: GPL-2.0
+link: []
+maturity: null
+name: MAIT
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: bioconductor_import
+publication:
+- doi: 10.1093/bioinformatics/btu136
+  metadata: null
+  pmcid: PMC4071204
+  pmid: '24642061'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+- Library
+topic:
+- term: Metabolomics
+  uri: http://edamontology.org/topic_3172
+- term: Laboratory techniques
+  uri: http://edamontology.org/topic_3361
+validated: 1
+version:
+- 1.8.0

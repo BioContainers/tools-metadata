@@ -1,0 +1,125 @@
+accessibility: []
+additionDate: '2015-08-03T09:37:00Z'
+biotoolsCURIE: biotools:phmmer
+biotoolsID: phmmer
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: BioCatalogue
+  note: null
+  orcidid: null
+  typeEntity: Project
+  typeRole:
+  - Documentor
+  url: https://www.biocatalogue.org
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: https://www.ebi.ac.uk/support/hmmer
+- email: rdf@ebi.ac.uk
+  name: Robert Finn
+  note: null
+  orcidid: http://orcid.org/0000-0001-8626-2148
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Search a protein sequence against a protein database using HMMER.
+documentation:
+- note: null
+  type: General
+  url: http://hmmer.org/documentation.html
+download:
+- note: null
+  type: Source code
+  url: http://hmmer.org/download.html
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Text
+      uri: http://edamontology.org/data_3671
+    format:
+    - term: FASTA
+      uri: http://edamontology.org/format_1929
+  note: null
+  operation:
+  - term: Database search
+    uri: http://edamontology.org/operation_2421
+  - term: Taxonomic classification
+    uri: http://edamontology.org/operation_3460
+  - term: Sequence alignment
+    uri: http://edamontology.org/operation_0292
+  output:
+  - data:
+      term: Alignment score or penalty
+      uri: http://edamontology.org/data_1394
+    format: []
+  - data:
+      term: Taxonomy
+      uri: http://edamontology.org/data_3028
+    format: []
+  - data:
+      term: Structure report
+      uri: http://edamontology.org/data_2085
+    format: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output: []
+homepage: https://www.ebi.ac.uk/metagenomics/sequence-search/search/phmmer
+homepage_status: 0
+language:
+- C++
+lastUpdate: '2019-01-11T00:43:53Z'
+license: null
+link:
+- note: null
+  type: Repository
+  url: http://hmmer.org
+maturity: null
+name: PHMMER
+operatingSystem:
+- Linux
+- Mac
+otherID: []
+owner: BioCatalogue
+publication:
+- doi: 10.1093/nar/gkv397
+  metadata: null
+  pmcid: PMC4489315
+  pmid: '25943547'
+  type: Primary
+  version: null
+- doi: 10.1093/bioinformatics/btw305
+  metadata: null
+  pmcid: PMC5013910
+  pmid: '27256311'
+  type: Comparison
+  version: null
+toolType:
+- Command-line tool
+- Web service
+topic:
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+- term: Sequence sites, features and motifs
+  uri: http://edamontology.org/topic_0160
+validated: 1
+version:
+- 2.23.0

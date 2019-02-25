@@ -1,0 +1,80 @@
+accessibility: []
+additionDate: '2018-10-22T10:48:35Z'
+biotoolsCURIE: biotools:meneco
+biotoolsID: meneco
+collectionID: []
+cost: null
+credit:
+- email: anne.siegel@irisa.fr
+  name: Anne Siegel
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: prigent@chalmers.se
+  name: Sylvain Prigent
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Topological gap-filling of genome-scale draft metabolic networks.
+documentation: []
+download:
+- note: null
+  type: Source code
+  url: https://codeload.github.com/bioasp/meneco/zip/meneco-1.5.2
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Metabolic network modelling
+    uri: http://edamontology.org/operation_3660
+  - term: Metabolic labeling
+    uri: http://edamontology.org/operation_3715
+  - term: Natural product identification
+    uri: http://edamontology.org/operation_3803
+  output: []
+homepage: https://bioasp.github.io/meneco/
+homepage_status: 0
+language:
+- Python
+lastUpdate: '2018-12-10T12:59:01Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: meneco
+operatingSystem:
+- Linux
+- Mac
+otherID: []
+owner: aotamendi.1
+publication:
+- doi: 10.1371/JOURNAL.PCBI.1005276
+  metadata: null
+  pmcid: PMC5302834
+  pmid: '28129330'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+- Script
+topic:
+- term: Molecular interactions, pathways and networks
+  uri: http://edamontology.org/topic_0602
+- term: Endocrinology and metabolism
+  uri: http://edamontology.org/topic_3407
+validated: 1
+version:
+- '1.5'

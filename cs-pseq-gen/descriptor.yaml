@@ -1,0 +1,88 @@
+accessibility: []
+additionDate: '2017-12-18T00:04:57Z'
+biotoolsCURIE: biotools:cs-pseq-gen
+biotoolsID: cs-pseq-gen
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://bioserv.rpbs.univ-paris-diderot.fr/contact.html
+description: Its modifications are related to the aim of simulating the evolution
+  of protein sequences under the constraints of the information of a particular reconstructed
+  phylogeny. It will allow simulations to take such information into account and some
+  control on the simulated tree / branch lengths around an average value. Finally,
+  a particular category of applications for such simulations is the search for the
+  significant co-evolution of sites.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Protein sequence analysis
+    uri: http://edamontology.org/operation_2479
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Search
+    uri: http://edamontology.org/operation_2421
+  output: []
+homepage: http://bioserv.rpbs.univ-paris-diderot.fr/software.html#cspseqgen
+homepage_status: 0
+language:
+- Python
+- C
+lastUpdate: '2018-12-14T10:07:13Z'
+license: null
+link:
+- note: null
+  type: Registry
+  url: http://www.mybiosoftware.com/cs-pseq-gen-1-0-simulation-protein-sequences-constraints.html
+maturity: null
+name: CS-PSeq-Gen
+operatingSystem:
+- Linux
+otherID: []
+owner: mbs_import
+publication:
+- doi: 10.1093/bioinformatics/18.7.1015
+  metadata:
+    abstract: 'Summary: CS-PSeq-Gen is a program derived from PSeq-Gen, designed to
+      perform simulations of the evolution of protein sequences under the constraints
+      of a reconstructed phylogeny. It also provides a basis for the investigation
+      of the correlated evolution of sites.'
+    authors:
+    - name: Tuffery P.
+    citationCount: 5
+    date: '2002-01-01T00:00:00Z'
+    journal: Bioinformatics
+    title: 'CS-PSeq-Gen: Simulating the evolution of protein sequence under constraints'
+  pmcid: null
+  pmid: '12117802'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Sequences
+  uri: http://edamontology.org/topic_0080
+- term: Phylogeny
+  uri: http://edamontology.org/topic_0084
+validated: 1
+version:
+- '1.0'

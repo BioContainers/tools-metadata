@@ -1,0 +1,95 @@
+accessibility:
+- Open access
+additionDate: '2017-08-03T12:17:28Z'
+biotoolsCURIE: biotools:rnalien
+biotoolsID: rnalien
+collectionID: []
+cost: Free of charge
+credit:
+- email: egg@informatik.uni-freiburg.de
+  name: Florian Eggenhofer
+  note: null
+  orcidid: http://orcid.org/0000-0001-9564-7525
+  typeEntity: Person
+  typeRole:
+  - Developer
+  url: http://www.bioinf.uni-freiburg.de/~egg/
+- email: egg@informatik.uni-freiburg.de
+  name: Florian Eggenhofer
+  note: null
+  orcidid: http://orcid.org/0000-0001-9564-7525
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://www.bioinf.uni-freiburg.de/~egg/
+description: RNAlien is a tool for automatic construction of RNA family models from
+  a single sequence. Results include a covariance model, structural alignment and
+  consensus secondary structure.
+documentation:
+- note: Help page of the webservice
+  type: Manual
+  url: http://rna.tbi.univie.ac.at/rnalien/help
+download:
+- note: RNAlien version 1.3.7
+  type: Source package
+  url: https://github.com/eggzilla/RNAlien/archive/1.3.7.tar.gz
+  version: null
+editPermission:
+  authors: []
+  type: public
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: RNA sequence
+      uri: http://edamontology.org/data_3495
+    format:
+    - term: FASTA-like
+      uri: http://edamontology.org/format_2546
+  note: RNAlien results include a RNA family model in INFERNAL format, a structural
+    alignment in stockholm format.
+  operation:
+  - term: Multiple structure alignment
+    uri: http://edamontology.org/operation_0504
+  - term: RNA structure prediction
+    uri: http://edamontology.org/operation_2441
+  - term: Sequence database search
+    uri: http://edamontology.org/operation_0338
+  output: []
+homepage: https://github.com/eggzilla/RNAlien
+homepage_status: 0
+language:
+- Haskell
+lastUpdate: '2019-01-13T16:58:07Z'
+license: GPL-3.0
+link:
+- note: Git Hub repository
+  type: Repository
+  url: https://github.com/eggzilla/RNAlien
+- note: Webservice
+  type: Browser
+  url: http://rna.tbi.univie.ac.at/rnalien/
+maturity: Mature
+name: RNAlien
+operatingSystem:
+- Linux
+otherID: []
+owner: florian.eggenhofer@univie.ac.a
+publication:
+- doi: 10.1093/nar/gkw558
+  metadata: null
+  pmcid: PMC5041467
+  pmid: '27330139'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: RNA
+  uri: http://edamontology.org/topic_0099
+validated: 1
+version:
+- 1.3.7

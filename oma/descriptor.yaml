@@ -1,0 +1,103 @@
+accessibility: []
+additionDate: '2016-06-24T11:36:59Z'
+biotoolsCURIE: biotools:oma
+biotoolsID: oma
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: SIB
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: contact@omabrowser.org
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: Christophe.Dessimoz@unil.ch
+  name: Christophe Dessimoz
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Project that aims to identify orthologs among publicly available, complete
+  genomes. With many hundreds of genomes analyzed to date, it is one of the largest
+  projects of its kind.
+documentation:
+- note: null
+  type: General
+  url: https://omabrowser.org/oma/about/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode:
+- Switzerland
+elixirPlatform:
+- Data
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: UniProt accession
+      uri: http://edamontology.org/data_3021
+    format: []
+  - data:
+      term: Text
+      uri: http://edamontology.org/data_3671
+    format: []
+  - data:
+      term: Protein sequence (raw)
+      uri: http://edamontology.org/data_2974
+    format: []
+  - data:
+      term: Identifier
+      uri: http://edamontology.org/data_0842
+    format: []
+  note: orthology prediction and paralogy OMA group
+  operation:
+  - term: Prediction and recognition
+    uri: http://edamontology.org/operation_2423
+  output: []
+homepage: http://omabrowser.org/oma/home/
+homepage_status: 0
+language: []
+lastUpdate: '2019-02-15T10:23:58Z'
+license: null
+link: []
+maturity: null
+name: OMA
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: SIB
+publication:
+- doi: 10.1093/nar/gku1158
+  metadata: null
+  pmcid: PMC4383958
+  pmid: '25399418'
+  type: Primary
+  version: null
+toolType:
+- Web application
+- Database portal
+- Desktop application
+topic:
+- term: Evolutionary biology
+  uri: http://edamontology.org/topic_3299
+- term: Comparative genomics
+  uri: http://edamontology.org/topic_0797
+validated: 0
+version: []

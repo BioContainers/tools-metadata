@@ -1,0 +1,80 @@
+accessibility: []
+additionDate: '2017-01-13T13:13:50Z'
+biotoolsCURIE: biotools:blast
+biotoolsID: blast
+collectionID: []
+cost: Free of charge
+credit:
+- email: blast-help@ncbi.nlm.nih.gov
+  name: BLAST Support
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: A tool that finds regions of similarity between biological sequences.
+  The program compares nucleotide or protein sequences to sequence databases and calculates
+  the statistical significance.
+documentation:
+- note: null
+  type: General
+  url: https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs
+download: []
+editPermission:
+  authors:
+  - ELIXIR-EE
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Sequence similarity search
+    uri: http://edamontology.org/operation_0346
+  - term: Sequence alignment
+    uri: http://edamontology.org/operation_0292
+  output: []
+homepage: https://blast.ncbi.nlm.nih.gov/Blast.cgi
+homepage_status: 0
+language: []
+lastUpdate: '2019-02-13T11:18:20Z'
+license: null
+link: []
+maturity: Mature
+name: BLAST
+operatingSystem:
+- Linux
+- Mac
+otherID: []
+owner: seqwiki_import
+publication:
+- doi: 10.1016/S0022-2836(05)80360-2
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+- doi: 10.1093/bioinformatics/btw305
+  metadata: null
+  pmcid: PMC5013910
+  pmid: '27256311'
+  type: Comparison
+  version: null
+toolType:
+- Command-line tool
+- Web service
+topic:
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+- term: Molecular genetics
+  uri: http://edamontology.org/topic_3321
+- term: Statistics and probability
+  uri: http://edamontology.org/topic_2269
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+validated: 0
+version: []

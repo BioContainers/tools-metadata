@@ -1,0 +1,81 @@
+accessibility: []
+additionDate: '2018-07-16T10:50:18Z'
+biotoolsCURIE: biotools:phd-snpg
+biotoolsID: phd-snpg
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: https://github.com/biofold/PhD-SNPg/issues
+- email: emidio.capriotti@unibo.it
+  name: Emidio Capriotti
+  note: null
+  orcidid: http://orcid.org/0000-0002-2323-0963
+  typeEntity: Person
+  typeRole:
+  - Contributor
+  url: null
+description: A binary classifier for predicting pathogenic variants in coding and
+  non-coding regions.
+documentation:
+- note: null
+  type: General
+  url: http://snps.biofold.org/phd-snpg/help.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: SNP annotation
+    uri: http://edamontology.org/operation_3661
+  - term: Variant calling
+    uri: http://edamontology.org/operation_3227
+  output: []
+homepage: http://snps.biofold.org/phd-snpg
+homepage_status: 0
+language:
+- Shell
+- Python
+lastUpdate: '2019-01-15T01:56:25Z'
+license: null
+link:
+- note: null
+  type: Repository
+  url: https://github.com/biofold/PhD-SNPg
+maturity: null
+name: PhD-SNPg
+operatingSystem: []
+otherID: []
+owner: aotamendi.1
+publication:
+- doi: 10.1093/nar/gkx369
+  metadata: null
+  pmcid: PMC5570245
+  pmid: '28482034'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+- Web application
+topic:
+- term: DNA polymorphism
+  uri: http://edamontology.org/topic_2885
+- term: Machine learning
+  uri: http://edamontology.org/topic_3474
+- term: Sequence assembly
+  uri: http://edamontology.org/topic_0196
+validated: 1
+version: []

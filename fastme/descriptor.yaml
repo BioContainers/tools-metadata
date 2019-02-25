@@ -1,0 +1,117 @@
+accessibility:
+- Open access
+additionDate: '2016-03-25T13:24:42Z'
+biotoolsCURIE: biotools:fastme
+biotoolsID: fastme
+collectionID:
+- galaxyPasteur
+- FastME
+cost: Free of charge
+credit:
+- email: null
+  name: lirmm.fr
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: vincent.lefort@lirmm.fr
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: 'Distance algorithms to infer phylogenies. It''s based on balanced minimum
+  evolution, which is the very principle of NJ. It includes Nearest Neighbor Interchange
+  (NNI) and also Subtree Pruning and Regrafting (SPR), while remaining as fast as
+  NJ and providing a number of facilities: distance estimation for DNA and proteins
+  with various models and options, bootstrapping, and parallel computations.'
+documentation:
+- note: null
+  type: General
+  url: http://www.atgc-montpellier.fr/fastme/usersguide.php
+download:
+- note: null
+  type: Source code
+  url: http://www.atgc-montpellier.fr/download/sources/fastme/fastme-2.1.4.tar.gz
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Sequence
+      uri: http://edamontology.org/data_2044
+    format:
+    - term: Phylip distance matrix
+      uri: http://edamontology.org/format_1423
+    - term: PHYLIP format
+      uri: http://edamontology.org/format_1997
+  note: null
+  operation:
+  - term: Phylogenetic tree generation (from molecular sequences)
+    uri: http://edamontology.org/operation_0540
+  - term: Phylogenetic tree analysis
+    uri: http://edamontology.org/operation_0324
+  output:
+  - data:
+      term: Phylogenetic tree
+      uri: http://edamontology.org/data_0872
+    format:
+    - term: Phylip tree distance format
+      uri: http://edamontology.org/format_1445
+    - term: newick
+      uri: http://edamontology.org/format_1910
+homepage: http://www.atgc-montpellier.fr/fastme/
+homepage_status: 0
+language: []
+lastUpdate: '2019-02-15T10:53:45Z'
+license: GPL-3.0
+link:
+- note: null
+  type: Galaxy service
+  url: https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/fastme/fastme/2.1.5.1
+maturity: Mature
+name: FastME
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: correia@lirmm.fr
+publication:
+- doi: 10.1093/molbev/msv150
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+- doi: 10.1089/106652702761034136
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Other
+  version: null
+- doi: 10.7490/f1000research.1114334.1
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Other
+  version: null
+toolType:
+- Command-line tool
+- Web application
+topic:
+- term: Phylogenetics
+  uri: http://edamontology.org/topic_3293
+validated: 0
+version:
+- 2.1.4

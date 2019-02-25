@@ -1,0 +1,142 @@
+accessibility:
+- Open access
+additionDate: '2016-02-18T22:34:41Z'
+biotoolsCURIE: biotools:open_phacts_api
+biotoolsID: open_phacts_api
+collectionID: []
+cost: Free of charge
+credit:
+- email: null
+  name: Open PHACTS Foundation
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: null
+  name: OpenLink Software
+  note: null
+  orcidid: null
+  typeEntity: Consortium
+  typeRole: []
+  url: null
+- email: null
+  name: Innovative Medicines Initiative (IMI)
+  note: null
+  orcidid: null
+  typeEntity: Funding agency
+  typeRole:
+  - Contributor
+  url: null
+- email: null
+  name: cs.manchester.ac.uk
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: null
+  name: Open PHACTS contact
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: https://dev.openphacts.org/contact
+- email: support@openphacts.org
+  name: Open PHACTS support portal
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://support.openphacts.org/support/home
+description: Open PHACTS Discovery Platform brings together data from multiple publicly
+  available sources of pharmacological and physicochemical information, in order to
+  streamline research and drug discovery processes. The data is integrated into a
+  consolidated triple store, which can be accessed via applications or workflow tools
+  which make use of the Open PHACTS API.
+documentation:
+- note: null
+  type: Terms of use
+  url: https://www.openphacts.org/2/sci/data.html
+- note: null
+  type: Citation instructions
+  url: https://dev.openphacts.org/contact
+- note: null
+  type: General
+  url: https://dev.openphacts.org/docs/2.0
+download:
+- note: null
+  type: Source code
+  url: http://data.openphacts.org/
+  version: null
+- note: Docker Compose setup
+  type: Container file
+  url: https://github.com/openphacts/ops-docker
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Database search
+    uri: http://edamontology.org/operation_2421
+  - term: Data retrieval
+    uri: http://edamontology.org/operation_2422
+  - term: Structural similarity search
+    uri: http://edamontology.org/operation_0360
+  output: []
+homepage: https://dev.openphacts.org/docs/2.1
+homepage_status: 0
+language: []
+lastUpdate: '2019-02-16T11:17:26Z'
+license: CC-BY-3.0
+link:
+- note: null
+  type: Repository
+  url: http://github.com/openphacts/
+- note: null
+  type: Helpdesk
+  url: http://support.openphacts.org/support/home
+maturity: Mature
+name: Open PHACTS API
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: soiland-reyes@cs.manchester.ac
+publication:
+- doi: 10.3233/SW-2012-0088
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+- doi: 10.1016/j.drudis.2012.05.016
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Other
+  version: null
+toolType:
+- Web API
+topic:
+- term: Compound libraries and screening
+  uri: http://edamontology.org/topic_3343
+- term: Computational chemistry
+  uri: http://edamontology.org/topic_3332
+- term: Drug discovery
+  uri: http://edamontology.org/topic_3336
+validated: 0
+version:
+- '2.1'

@@ -1,0 +1,108 @@
+accessibility: []
+additionDate: '2015-01-29T15:44:17Z'
+biotoolsCURIE: biotools:identifiers.org
+biotoolsID: identifiers.org
+collectionID:
+- EBI Tools
+cost: null
+credit:
+- email: null
+  name: BioModels Team
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Developer
+  url: null
+- email: null
+  name: EMBL-EBI
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: biomodels-net-support@lists.sf.net
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: laibe@ebi.ac.uk
+  name: Camille Laibe
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Resolver of URIs.
+documentation:
+- note: null
+  type: Terms of use
+  url: http://www.ebi.ac.uk/about/terms-of-use
+- note: null
+  type: General
+  url: http://identifiers.org/help
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode:
+- EMBL
+elixirPlatform:
+- Interoperability
+elixir_badge: 4
+function:
+- cmd: null
+  input:
+  - data:
+      term: URI
+      uri: http://edamontology.org/data_1047
+    format: []
+  note: null
+  operation:
+  - term: Data retrieval
+    uri: http://edamontology.org/operation_2422
+  - term: ID mapping
+    uri: http://edamontology.org/operation_3282
+  output:
+  - data:
+      term: Database metadata
+      uri: http://edamontology.org/data_0957
+    format: []
+  - data:
+      term: Database entry metadata
+      uri: http://edamontology.org/data_2193
+    format: []
+homepage: http://identifiers.org/
+homepage_status: 0
+language: []
+lastUpdate: '2019-02-15T10:23:59Z'
+license: null
+link: []
+maturity: null
+name: Identifiers.org
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: EMBL-EBI
+publication:
+- doi: 10.1101/117812
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Other
+  version: null
+toolType:
+- Web application
+topic:
+- term: Data identity and mapping
+  uri: http://edamontology.org/topic_3345
+validated: 1
+version:
+- '1'

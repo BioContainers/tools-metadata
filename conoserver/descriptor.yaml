@@ -1,0 +1,121 @@
+accessibility: []
+additionDate: '2015-09-11T22:35:22Z'
+biotoolsCURIE: biotools:conoserver
+biotoolsID: conoserver
+collectionID:
+- DRCAT
+cost: null
+credit:
+- email: null
+  name: University of Queensland
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: null
+  name: DRCAT
+  note: null
+  orcidid: null
+  typeEntity: Project
+  typeRole:
+  - Documentor
+  url: null
+- email: d.craik@imb.uq.edu.au
+  name: David Craik
+  note: null
+  orcidid: http://orcid.org/0000-0003-0007-6796
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Database specializing in the sequence and structures of conopeptides,
+  which are peptides expressed by carnivorous marine cone snails.
+documentation:
+- note: null
+  type: General
+  url: http://www.conoserver.org/?page=help
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Protein ID (ConoServer)
+      uri: http://edamontology.org/data_2804
+    format: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output:
+  - data:
+      term: Protein report
+      uri: http://edamontology.org/data_0896
+    format:
+    - term: HTML
+      uri: http://edamontology.org/format_2331
+homepage: http://www.conoserver.org/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-30T16:27:44Z'
+license: null
+link: []
+maturity: null
+name: Cone snail toxin database ConoServer
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: DRCAT
+publication:
+- doi: 10.1093/bioinformatics/btm596
+  metadata: null
+  pmcid: PMC3245185
+  pmid: '22058133'
+  type: Primary
+  version: null
+- doi: null
+  metadata:
+    abstract: 'Summary: ConoServer is a new database dedicated to conopeptides, a
+      large family of peptides found in the venom of marine snails of the genus Conus.
+      These peptides have an exceptional diversity of sequences and chemical modifications
+      and their ability to block ion channels makes them important as drug leads and
+      tools for physiological studies. ConoServer uses standardized names and a genetic
+      and structural classification scheme to present data retrieved from SwissProt,
+      GenBank, the Protein DataBank and the literature. The ConoServer web site incorporates
+      specialized features like the graphic display of post-translational modifications
+      that are extensively present in conopeptides. Currently, ConoServer manages
+      1214 nucleic sequences (from 54 Conus species), 2258 proteic sequences (from
+      66 Conus species) and 99 3D structures. © The Author 2007. Published by Oxford
+      University Press. All rights reserved.'
+    authors:
+    - name: Kaas Q.
+    - name: Westermann J.-C.
+    - name: Halai R.
+    - name: Wang C.K.L.
+    - name: Craik D.J.
+    citationCount: 119
+    date: '2008-02-01T00:00:00Z'
+    journal: Bioinformatics
+    title: ConoServer, a database for conopeptide sequences and structures
+  pmcid: null
+  pmid: '18065428'
+  type: Primary
+  version: null
+toolType:
+- Database portal
+topic:
+- term: Small molecules
+  uri: http://edamontology.org/topic_0154
+- term: Database management
+  uri: http://edamontology.org/topic_3489
+validated: 1
+version: []

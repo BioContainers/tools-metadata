@@ -1,0 +1,73 @@
+accessibility: []
+additionDate: '2017-08-20T15:57:47Z'
+biotoolsCURIE: biotools:linkage
+biotoolsID: linkage
+collectionID:
+- Animal and Crop Genomics
+cost: null
+credit:
+- email: ott@rockefeller.edu
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: The core of this package is a series of programs for maximum likelihood
+  estimation of recombination rates, calculation of lod score tables, and analysis
+  of genetic risks. The analysis programs are divided into two groups. The first group
+  can be used for general pedigrees with marker and disease loci. Programs in the
+  second group are for three- generation families and codominant marker loci, and
+  are primarily intended for the construction of genetic maps from data on reference
+  families.
+documentation:
+- note: null
+  type: General
+  url: http://www.jurgott.org/linkage/LinkageUser.pdf
+download: []
+editPermission:
+  authors:
+  - animalandcropgenomics
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Genetic mapping
+    uri: http://edamontology.org/operation_0282
+  output: []
+homepage: http://www.jurgott.org/linkage/LinkagePC.html
+homepage_status: 0
+language:
+- Pascal
+lastUpdate: '2019-01-29T12:01:25Z'
+license: Unlicensed
+link: []
+maturity: null
+name: LINKAGE
+operatingSystem:
+- Linux
+- Windows
+otherID: []
+owner: vzn529@binf.ku.dk
+publication:
+- doi: null
+  metadata: null
+  pmcid: PMC345524
+  pmid: '6587361'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Mapping
+  uri: http://edamontology.org/topic_0102
+- term: Genetics
+  uri: http://edamontology.org/topic_3053
+validated: 1
+version: []

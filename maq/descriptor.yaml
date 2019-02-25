@@ -1,0 +1,72 @@
+accessibility: []
+additionDate: '2017-01-13T13:15:17Z'
+biotoolsCURIE: biotools:maq
+biotoolsID: maq
+collectionID: []
+cost: null
+credit:
+- email: lh3@sanger.ac.uk
+  name: Heng Li
+  note: null
+  orcidid: http://orcid.org/0000-0003-4874-2874
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Mapping and Assembly with Qualities (renamed from MAPASS2). Particularly
+  designed for Illumina-Solexa 1G Genetic Analyzer, and has preliminary functions
+  to handle ABI SOLiD data.
+documentation:
+- note: null
+  type: Manual
+  url: http://maq.sourceforge.net/maq-man.shtml
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Read mapping
+    uri: http://edamontology.org/operation_3198
+  output: []
+homepage: http://maq.sourceforge.net/
+homepage_status: 0
+language:
+- C++
+- Perl
+lastUpdate: '2018-12-24T22:57:04Z'
+license: GPL-3.0
+link: []
+maturity: Legacy
+name: MAQ
+operatingSystem:
+- Linux
+- Mac
+otherID: []
+owner: seqwiki_import
+publication:
+- doi: 10.1101/gr.078212.108
+  metadata: null
+  pmcid: PMC2577856
+  pmid: '18714091'
+  type: Primary
+  version: null
+- doi: 10.1186/1471-2105-14-184
+  metadata: null
+  pmcid: PMC3694458
+  pmid: '23758764'
+  type: Comparison
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+validated: 1
+version: []

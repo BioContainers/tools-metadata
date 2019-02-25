@@ -1,0 +1,95 @@
+accessibility: []
+additionDate: '2016-04-22T12:20:10Z'
+biotoolsCURIE: biotools:bips
+biotoolsID: bips
+collectionID: []
+cost: null
+credit:
+- email: javier.garciag@upf.edu
+  name: Javier Garcia-Garcia
+  note: null
+  orcidid: http://orcid.org/0000-0001-9539-2606
+  typeEntity: Person
+  typeRole:
+  - Developer
+  url: null
+- email: null
+  name: upf.edu
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: baldo.oliva@upf.edu
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: The web server where you can predict putative interactions between proteins
+  based on homologs found in Protein-Protein interaction databases. It relies on data
+  integrated in BIANA. You just need to insert your sequences of interest or list
+  of protein identifiers, and the tool will infer interactions based on homology.
+  Predicted partners can be restricted to proteins added in your list or to the complete
+  BIANA database.
+documentation:
+- note: null
+  type: General
+  url: http://sbi.imim.es/web/index.php/research/servers/bips
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Protein sequence (raw)
+      uri: http://edamontology.org/data_2974
+    format:
+    - term: unambiguous pure protein
+      uri: http://edamontology.org/format_1218
+  note: null
+  operation:
+  - term: Pathway or network prediction
+    uri: http://edamontology.org/operation_3439
+  output:
+  - data:
+      term: Pathway or network
+      uri: http://edamontology.org/data_2600
+    format: []
+homepage: http://sbi.imim.es/BIPS.php
+homepage_status: 0
+language: []
+lastUpdate: '2019-01-09T15:31:43Z'
+license: null
+link: []
+maturity: null
+name: BIPS
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: baldo.oliva@upf.edu
+publication:
+- doi: 10.1093/nar/gks553
+  metadata: null
+  pmcid: PMC3394316
+  pmid: '22689642'
+  type: Primary
+  version: null
+toolType:
+- Web API
+topic:
+- term: Systems biology
+  uri: http://edamontology.org/topic_2259
+validated: 1
+version:
+- '1'

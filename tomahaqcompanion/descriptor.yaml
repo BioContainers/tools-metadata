@@ -1,0 +1,81 @@
+accessibility: []
+additionDate: '2019-01-23T11:26:01Z'
+biotoolsCURIE: biotools:tomahaqcompanion
+biotoolsID: tomahaqcompanion
+collectionID: []
+cost: Free of charge
+credit: []
+description: Desktop application that enables rapid creation of TOMAHAQ methods and
+  analysis of TOMAHAQ data.
+documentation:
+- note: null
+  type: Manual
+  url: https://github.com/CMRose3355/TomahaqCompanionProgram/tree/master/StarterKit
+download:
+- note: null
+  type: Binary package
+  url: https://github.com/CMRose3355/TomahaqCompanionProgram
+  version: 1.0.2
+- note: null
+  type: Source package
+  url: https://github.com/CMRose3355/TomahaqCompanion
+  version: 1.0.2
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Protein sequence (raw)
+      uri: http://edamontology.org/data_2974
+    format:
+    - term: CSV
+      uri: http://edamontology.org/format_3752
+  - data:
+      term: Mass spectrometry spectra
+      uri: http://edamontology.org/data_0943
+    format:
+    - term: Thermo RAW
+      uri: http://edamontology.org/format_3712
+  note: TomahaqCompanion outputs isobaric label based multiplexed targeted assays
+    in a form readable by the mass spectrometer control software.
+  operation:
+  - term: Design
+    uri: http://edamontology.org/operation_2430
+  output:
+  - data:
+      term: Data
+      uri: http://edamontology.org/data_0006
+    format: []
+homepage: https://github.com/CMRose3355/TomahaqCompanionProgram
+homepage_status: 0
+language:
+- C#
+lastUpdate: '2019-01-23T11:32:03Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: TomahaqCompanion
+operatingSystem:
+- Windows
+otherID: []
+owner: n.m.palmblad@lumc.nl
+publication:
+- doi: 10.1021/acs.jproteome.8b00767
+  metadata: null
+  pmcid: null
+  pmid: '30501201'
+  type: Primary
+  version: 1.0.2
+toolType:
+- Desktop application
+topic:
+- term: Proteomics
+  uri: http://edamontology.org/topic_0121
+validated: 1
+version:
+- 1.0.2

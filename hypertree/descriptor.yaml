@@ -1,0 +1,80 @@
+accessibility: []
+additionDate: '2017-12-18T00:07:41Z'
+biotoolsCURIE: biotools:hypertree
+biotoolsID: hypertree
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://kinase.com/
+description: HYPERTREE is a Java phylogenetic tree viewer, with a hyperbolic (‘fish-eye’)
+  view and editing abilities that help in managing very large trees.
+documentation:
+- note: null
+  type: General
+  url: http://kinase.com/tools/HyperTree.html#usage
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Editing
+    uri: http://edamontology.org/operation_3096
+  output: []
+homepage: http://kinase.com/tools/HyperTree.html
+homepage_status: 0
+language:
+- Java
+lastUpdate: '2018-12-14T09:43:29Z'
+license: null
+link:
+- note: null
+  type: Registry
+  url: http://www.mybiosoftware.com/hypertree-1-2-2-java-phylogenetic-tree-viewer.html
+maturity: null
+name: HyperTree
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: mbs_import
+publication:
+- doi: 10.1093/bioinformatics/16.7.660
+  metadata:
+    abstract: 'Summary: HyperTree is an application to visualize and navigate large
+      trees in hyperbolic space. It includes color-coding, search mechanisms and navigational
+      aids, as well as focus+context viewing, allowing enormous trees to fit within
+      the fixed space of a computer screen or printed page.'
+    authors:
+    - name: Bingham J.
+    - name: Sudarsanam S.
+    citationCount: 75
+    date: '2000-01-01T00:00:00Z'
+    journal: Bioinformatics
+    title: Visualizing large hierarchical clusters in hyperbolic space
+  pmcid: null
+  pmid: '11038340'
+  type: Primary
+  version: null
+toolType:
+- Desktop application
+topic:
+- term: Phylogenetics
+  uri: http://edamontology.org/topic_3293
+validated: 1
+version:
+- 1.2.2

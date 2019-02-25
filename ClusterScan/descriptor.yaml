@@ -1,0 +1,72 @@
+accessibility: []
+additionDate: '2019-02-20T11:53:22Z'
+biotoolsCURIE: biotools:ClusterScan
+biotoolsID: ClusterScan
+collectionID: []
+cost: null
+credit: []
+description: ClusterScan is a tool to search for genomic clusters starting from genomic
+  feature locations and their annotations. It allows the user to scan an annotation
+  file (BED format with locations of specific features such as gene, transcripts,
+  regulatory regions or anything that can be mapped on a genome) and get clusters
+  coordinates in output. In order to build annotated clusters, ClusterScan needs an
+  additional two-columns file, storing the feature ids and the corresponding categorical
+  information (such as Gene Ontology classes, KEGG, Pfam accessions, etc).
+documentation: []
+download:
+- note: null
+  type: Downloads page
+  url: https://github.com/pyrevo/ClusterScan
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function: []
+homepage: https://github.com/pyrevo/ClusterScan
+homepage_status: 0
+language: []
+lastUpdate: '2019-02-20T11:54:25Z'
+license: null
+link: []
+maturity: null
+name: ClusterScan
+operatingSystem: []
+otherID: []
+owner: ELIXIR-ITA-STZOO
+publication:
+- doi: 10.1093/bioinformatics/bty486
+  metadata:
+    abstract: '© The Author 2018. Published by Oxford University Press. All rights
+      reserved. Summary Studies on gene clusters proved to be an excellent source
+      of information to understand genomes evolution and identifying specific metabolic
+      pathways or gene families. Improvements in sequencing methods have resulted
+      in a large increase of sequenced genomes for which cluster annotation could
+      be performed and standardized. Currently available programs are developed to
+      search for specific cluster types and none of them is suitable for a broad range
+      of user-based choices. We have developed ClusterScan which allows identifying
+      clusters of any kind of feature simply based on their genomic coordinates and
+      user-defined categorical annotations. Availability and implementation The tool
+      is written in Python, distributed under the GNU General Public License (GPL)
+      and available on Github at http://bit.ly/ClusterScan or as Docker image at sangeslab/clusterscan:
+      latest. It is supported through a mailing-list on http://bit.ly/ClusterScanSupport.
+      Supplementary informationSupplementary dataare available at Bioinformatics online.'
+    authors:
+    - name: Volpe M.
+    - name: Miralto M.
+    - name: Gustincich S.
+    - name: Sanges R.
+    citationCount: 0
+    date: '2018-11-15T00:00:00Z'
+    journal: Bioinformatics
+    title: 'ClusterScan: Simple and generalistic identification of genomic clusters'
+  pmcid: null
+  pmid: null
+  type: Method
+  version: null
+toolType: []
+topic: []
+validated: 0
+version: []

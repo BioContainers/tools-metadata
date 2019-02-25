@@ -1,0 +1,118 @@
+accessibility: []
+additionDate: '2015-04-20T14:32:05Z'
+biotoolsCURIE: biotools:transclust
+biotoolsID: transclust
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: bmb.sdu.dk
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: jbaumbac@imada.sdu.dk
+  name: Jan Baumbach
+  note: null
+  orcidid: http://orcid.org/0000-0002-0282-0462
+  typeEntity: null
+  typeRole:
+  - Developer
+  url: null
+- email: jbaumbac@imada.sdu.dk
+  name: Jan Baumbach
+  note: null
+  orcidid: http://orcid.org/0000-0002-0282-0462
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Comprehensive clustering tool that incorporates the hidden transitive
+  nature occuring e.g. within biomedical data sets. It is based on Weighted Transitive
+  Graph Projection problem.
+documentation:
+- note: null
+  type: General
+  url: https://transclust.compbio.sdu.dk/main_page/general_description.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: COGEME unisequence ID
+      uri: http://edamontology.org/data_2730
+    format:
+    - term: FASTA
+      uri: http://edamontology.org/format_1929
+  note: null
+  operation:
+  - term: Sequence clustering
+    uri: http://edamontology.org/operation_0291
+  output:
+  - data:
+      term: Alignment
+      uri: http://edamontology.org/data_1916
+    format:
+    - term: Textual format
+      uri: http://edamontology.org/format_2330
+  - data:
+      term: Sequence similarity plot
+      uri: http://edamontology.org/data_2161
+    format:
+    - term: Binary format
+      uri: http://edamontology.org/format_2333
+homepage: https://transclust.compbio.sdu.dk/main_page/index.php
+homepage_status: 0
+language:
+- Java
+lastUpdate: '2018-12-29T14:43:09Z'
+license: null
+link: []
+maturity: Mature
+name: TransClust
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: veits@bmb.sdu.dk
+publication:
+- doi: 10.1038/nmeth0610-419
+  metadata:
+    abstract: ''
+    authors:
+    - name: Wittkop T.
+    - name: Emig D.
+    - name: Lange S.
+    - name: Rahmann S.
+    - name: Albrecht M.
+    - name: Morris J.H.
+    - name: Bocker S.
+    - name: Stoye J.
+    - name: Baumbach J.
+    citationCount: 64
+    date: '2010-06-01T00:00:00Z'
+    journal: Nature Methods
+    title: Partitioning biological data with transitivity clustering
+  pmcid: null
+  pmid: '20508635'
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+- Web application
+- Desktop application
+topic:
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+validated: 1
+version:
+- '1'

@@ -1,0 +1,130 @@
+accessibility: []
+additionDate: '2017-03-30T21:27:45Z'
+biotoolsCURIE: biotools:biomodels
+biotoolsID: biomodels
+collectionID:
+- EBI Tools
+cost: null
+credit:
+- email: null
+  name: BioModels Team
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Developer
+  url: null
+- email: null
+  name: EMBL-EBI
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: biomodels-net-support@lists.sf.net
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: laibe@ebi.ac.uk
+  name: Camille Laibe
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Database of annotated published models is a data resource that allows
+  biologists to store, search and retrieve published mathematical models of biological
+  interests. Models present in this database are annotated and linked to relevant
+  data resources, such as publications, databases of compounds and controlled vocabularies,
+  and this modelling formats can be converted, with some of them being available online
+  to be used directly.
+documentation:
+- note: null
+  type: Terms of use
+  url: http://www.ebi.ac.uk/about/terms-of-use
+- note: null
+  type: General
+  url: http://www.ebi.ac.uk/compneur-srv/sbml/converters/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode:
+- EMBL
+elixirPlatform:
+- Data
+elixir_badge: 1
+function:
+- cmd: null
+  input:
+  - data:
+      term: Mathematical model
+      uri: http://edamontology.org/data_0950
+    format:
+    - term: SBML
+      uri: http://edamontology.org/format_2585
+  note: null
+  operation:
+  - term: Standardisation and normalisation
+    uri: http://edamontology.org/operation_3435
+  - term: Deposition
+    uri: http://edamontology.org/operation_3431
+  - term: Data retrieval
+    uri: http://edamontology.org/operation_2422
+  - term: Annotation
+    uri: http://edamontology.org/operation_0226
+  - term: Modelling and simulation
+    uri: http://edamontology.org/operation_2426
+  - term: Formatting
+    uri: http://edamontology.org/operation_0335
+  output:
+  - data:
+      term: Mathematical model
+      uri: http://edamontology.org/data_0950
+    format:
+    - term: SBML
+      uri: http://edamontology.org/format_2585
+    - term: BioPAX
+      uri: http://edamontology.org/format_3156
+homepage: http://www.ebi.ac.uk/biomodels
+homepage_status: 0
+language: []
+lastUpdate: '2019-02-15T10:24:01Z'
+license: null
+link: []
+maturity: null
+name: BioModels database
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+- doi: 10.1186/1752-0509-4-92
+  metadata: null
+  pmcid: PMC2909940
+  pmid: '20587024'
+  type: Primary
+  version: null
+- doi: 10.1093/nar/gkv1352
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Database portal
+topic:
+- term: Molecular interactions, pathways and networks
+  uri: http://edamontology.org/topic_0602
+- term: Systems biology
+  uri: http://edamontology.org/topic_2259
+validated: 0
+version: []

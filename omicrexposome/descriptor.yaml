@@ -1,0 +1,109 @@
+accessibility: []
+additionDate: '2018-07-24T09:43:16Z'
+biotoolsCURIE: biotools:omicrexposome
+biotoolsID: omicrexposome
+collectionID:
+- BioConductor
+cost: Free of charge
+credit:
+- email: carles.hernandez@isglobal.org
+  name: Carles Hernandez-Ferrer
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: It systematizes the association evaluation between exposures and omic
+  data, taking advantage of MultiDataSet for coordinated data management, rexposome
+  for exposome data definition and limma for association testing. Also to perform
+  data integration mixing exposome and omic data using multi co-inherent analysis
+  (omicade4) and multi-canonical correlation analysis (PMA).
+documentation:
+- note: null
+  type: Manual
+  url: http://bioconductor.org/packages/release/bioc/manuals/omicRexposome/man/omicRexposome.pdf
+download:
+- note: null
+  type: Source package
+  url: http://bioconductor.org/packages/release/bioc/src/contrib/omicRexposome_1.2.0.tar.gz
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Differential gene expression analysis
+    uri: http://edamontology.org/operation_3223
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Differentially-methylated region identification
+    uri: http://edamontology.org/operation_3809
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Comparison
+    uri: http://edamontology.org/operation_2424
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Regression analysis
+    uri: http://edamontology.org/operation_3659
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Visualisation
+    uri: http://edamontology.org/operation_0337
+  output: []
+homepage: http://bioconductor.org/packages/release/bioc/html/omicRexposome.html
+homepage_status: 0
+language:
+- R
+lastUpdate: '2018-12-10T12:59:00Z'
+license: MIT
+link:
+- note: null
+  type: Mirror
+  url: http://bioconductor.org/packages/omicRexposome/
+maturity: null
+name: omicRexposome
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: shadi.m
+publication: []
+toolType:
+- Library
+topic:
+- term: Epigenetics
+  uri: http://edamontology.org/topic_3295
+- term: Gene expression
+  uri: http://edamontology.org/topic_0203
+- term: Gene regulation
+  uri: http://edamontology.org/topic_0204
+- term: Proteomics
+  uri: http://edamontology.org/topic_0121
+- term: Statistics and probability
+  uri: http://edamontology.org/topic_2269
+- term: Transcriptomics
+  uri: http://edamontology.org/topic_3308
+validated: 1
+version:
+- 1.2.0

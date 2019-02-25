@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2016-10-10T14:31:29Z'
+biotoolsCURIE: biotools:cameo
+biotoolsID: cameo
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: SIB Swiss Institute of Bioinformatics
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole:
+  - Provider
+  url: null
+- email: torsten.schwede@unibas.ch
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Continuously evaluates the accuracy and reliability of protein structure
+  prediction methods in a fully automated manner. CAMEO currently assesses predictions
+  in two categories (3D protein structure modeling and protein structure model quality
+  predictions). The project is open to everyone and has been used by several method
+  developer groups to benchmark and monitor their servers and new developments.
+documentation:
+- note: null
+  type: General
+  url: https://www.cameo3d.org/cameong_help/
+download: []
+editPermission:
+  authors:
+  - juergenhaasSIB
+  type: group
+elixirNode:
+- Switzerland
+elixirPlatform:
+- Tools
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Protein structure
+      uri: http://edamontology.org/data_1460
+    format:
+    - term: PDB
+      uri: http://edamontology.org/format_1476
+  note: Analyze protein structure predictions with PDB experimental structures as
+    gold standard
+  operation:
+  - term: Protein model validation
+    uri: http://edamontology.org/operation_0321
+  output:
+  - data:
+      term: Protein structural quality report
+      uri: http://edamontology.org/data_1539
+    format:
+    - term: scores format
+      uri: http://edamontology.org/format_1999
+homepage: http://cameo3d.org/
+homepage_status: 0
+language: []
+lastUpdate: '2019-02-15T10:23:55Z'
+license: null
+link: []
+maturity: null
+name: CAMEO
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: SIB
+publication:
+- doi: 10.1093/database/bat031
+  metadata: null
+  pmcid: null
+  pmid: '23624946'
+  type: Primary
+  version: null
+toolType:
+- Web application
+topic:
+- term: Structure analysis
+  uri: http://edamontology.org/topic_0081
+- term: Proteins
+  uri: http://edamontology.org/topic_0078
+validated: 0
+version:
+- '1'

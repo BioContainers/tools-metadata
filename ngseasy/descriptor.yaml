@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2018-08-31T10:56:25Z'
+biotoolsCURIE: biotools:ngseasy
+biotoolsID: ngseasy
+collectionID: []
+cost: null
+credit:
+- email: stephen.j.newhouse@gmail.com
+  name: Dr Stephen J Newhouse
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: amosfolarin@gmail.com
+  name: Dr Amos Folarin
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: https://github.com/KHP-Informatics/ngseasy/issues
+description: Multicomponent pipeline for NGS using a set of versioned, modular and
+  reusable container building blocks.
+documentation:
+- note: null
+  type: General
+  url: https://github.com/KHP-Informatics/ngseasy
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Sequence analysis
+    uri: http://edamontology.org/operation_2403
+  - term: Variant calling
+    uri: http://edamontology.org/operation_3227
+  - term: Sequence annotation
+    uri: http://edamontology.org/operation_0361
+  - term: Sequence alignment
+    uri: http://edamontology.org/operation_0292
+  - term: Genetic variation analysis
+    uri: http://edamontology.org/operation_3197
+  output: []
+homepage: https://github.com/KHP-Informatics/ngseasy
+homepage_status: 0
+language:
+- Shell
+lastUpdate: '2018-12-10T12:59:01Z'
+license: GPL-2.0
+link:
+- note: null
+  type: Repository
+  url: https://hub.docker.com/u/compbio/
+maturity: null
+name: NGSeasy
+operatingSystem: []
+otherID: []
+owner: aotamendi.1
+publication:
+- doi: 10.12688/F1000RESEARCH.7104.1
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Workflow
+topic:
+- term: Workflows
+  uri: http://edamontology.org/topic_0769
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+- term: Sequencing
+  uri: http://edamontology.org/topic_3168
+validated: 1
+version:
+- 1.0-r001
