@@ -3,28 +3,28 @@ additionDate: '2017-01-17T15:03:31Z'
 biotoolsCURIE: biotools:sspa
 biotoolsID: sspa
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: mviterson@gmail.com
-  name: Maarten van Iterson
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: mviterson@gmail.com
+    name: Maarten van Iterson
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: General Sample size and power analysis for microarray and next-generation
   sequencing data.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/SSPA.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/SSPA.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/SSPA_2.14.0.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/SSPA_2.14.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -32,78 +32,78 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Statistical calculation
-    uri: http://edamontology.org/operation_2238
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Statistical calculation
+        uri: http://edamontology.org/operation_2238
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/SSPA.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-01-10T03:51:36Z'
 license: GPL-2.0
 link:
-- note: null
-  type: Mirror
-  url: http://www.humgen.nl/MicroarrayAnalysisGroup.html
+  - note: null
+    type: Mirror
+    url: http://www.humgen.nl/MicroarrayAnalysisGroup.html
 maturity: null
 name: SSPA
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1515/sagmb-2012-0046
-  metadata:
-    abstract: In the design of microarray or next-generation sequencing experiments
-      it is crucial to choose the appropriate number of biological replicates. As
-      often the number of differentially expressed genes and their effect sizes are
-      small and too few replicates will lead to insufficient power to detect these.
-      On the other hand, too many replicates unnecessary leads to high experimental
-      costs. Power and sample size analysis can guide experimentalist in choosing
-      the appropriate number of biological replicates. Several methods for power and
-      sample size analysis have recently been proposed for microarray data. However,
-      most of these are restricted to two group comparisons and require user-defined
-      effect sizes. Here we propose a pilot-data based method for power and sample
-      size analysis which can handle more general experimental designs and uses pilotdata
-      to obtain estimates of the effect sizes. The method can also handle?2 distributed
-      test statistics which enables power and sample size calculations for a much
-      wider class of models, including high-dimensional generalized linear models
-      which are used, e.g., for RNA-seq data analysis. The performance of the method
-      is evaluated using simulated and experimental data from several microarray and
-      next-generation sequencing experiments. Furthermore, we compare our proposed
-      method for estimation of the density of effect sizes from pilot data with a
-      recent proposed method specific for two group comparisons. © 2013 Walter de
-      Gruyter GmbH, Berlin/Boston.
-    authors:
-    - name: Van Iterson M.
-    - name: Van De Wiel M.A.
-    - name: Boer J.M.
-    - name: De Menezes R.X.
-    citationCount: 7
-    date: '2013-08-01T00:00:00Z'
-    journal: Statistical Applications in Genetics and Molecular Biology
-    title: General power and sample size calculations for high-dimensional genomic
-      data
-  pmcid: null
-  pmid: '23934609'
-  type: Primary
-  version: null
+  - doi: 10.1515/sagmb-2012-0046
+    metadata:
+      abstract: "In the design of microarray or next-generation sequencing experiments\
+        \ it is crucial to choose the appropriate number of biological replicates.\
+        \ As often the number of differentially expressed genes and their effect sizes\
+        \ are small and too few replicates will lead to insufficient power to detect\
+        \ these. On the other hand, too many replicates unnecessary leads to high\
+        \ experimental costs. Power and sample size analysis can guide experimentalist\
+        \ in choosing the appropriate number of biological replicates. Several methods\
+        \ for power and sample size analysis have recently been proposed for microarray\
+        \ data. However, most of these are restricted to two group comparisons and\
+        \ require user-defined effect sizes. Here we propose a pilot-data based method\
+        \ for power and sample size analysis which can handle more general experimental\
+        \ designs and uses pilotdata to obtain estimates of the effect sizes. The\
+        \ method can also handle?2 distributed test statistics which enables power\
+        \ and sample size calculations for a much wider class of models, including\
+        \ high-dimensional generalized linear models which are used, e.g., for RNA-seq\
+        \ data analysis. The performance of the method is evaluated using simulated\
+        \ and experimental data from several microarray and next-generation sequencing\
+        \ experiments. Furthermore, we compare our proposed method for estimation\
+        \ of the density of effect sizes from pilot data with a recent proposed method\
+        \ specific for two group comparisons. \xA9 2013 Walter de Gruyter GmbH, Berlin/Boston."
+      authors:
+        - name: Van Iterson M.
+        - name: Van De Wiel M.A.
+        - name: Boer J.M.
+        - name: De Menezes R.X.
+      citationCount: 7
+      date: '2013-08-01T00:00:00Z'
+      journal: Statistical Applications in Genetics and Molecular Biology
+      title: General power and sample size calculations for high-dimensional genomic
+        data
+    pmcid: null
+    pmid: '23934609'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: Gene expression
-  uri: http://edamontology.org/topic_0203
-- term: Microarray experiment
-  uri: http://edamontology.org/topic_3518
-- term: RNA-seq
-  uri: http://edamontology.org/topic_3170
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Microarray experiment
+    uri: http://edamontology.org/topic_3518
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
 validated: 1
 version:
-- 2.14.0
+  - 2.14.0

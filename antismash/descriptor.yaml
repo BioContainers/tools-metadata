@@ -5,36 +5,36 @@ biotoolsID: antismash
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: Contact form
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://antismash.secondarymetabolites.org/#!/contact
-- email: kblin@biosustain.dtu.dk
-  name: Kai Blin
-  note: null
-  orcidid: http://orcid.org/0000-0003-3764-6051
-  typeEntity: null
-  typeRole:
-  - Contributor
-  url: null
+  - email: null
+    name: Contact form
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://antismash.secondarymetabolites.org/#!/contact
+  - email: kblin@biosustain.dtu.dk
+    name: Kai Blin
+    note: null
+    orcidid: http://orcid.org/0000-0003-3764-6051
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
 description: Rapid genome-wide identification, annotation and analysis of secondary
   metabolite biosynthesis gene clusters in bacterial and fungal genomes. It integrates
   and cross-links with a large number of in silico secondary metabolite analysis tools
   that have been published earlier.
 documentation:
-- note: About antiSMASH
-  type: General
-  url: https://antismash.secondarymetabolites.org/#!/about
-- note: null
-  type: General
-  url: https://docs.antismash.secondarymetabolites.org/
-- note: null
-  type: Manual
-  url: https://docs.antismash.secondarymetabolites.org/PDFmanual/antiSMASH5manual.pdf
+  - note: About antiSMASH
+    type: General
+    url: https://antismash.secondarymetabolites.org/#!/about
+  - note: null
+    type: General
+    url: https://docs.antismash.secondarymetabolites.org/
+  - note: null
+    type: Manual
+    url: https://docs.antismash.secondarymetabolites.org/PDFmanual/antiSMASH5manual.pdf
 download: []
 editPermission:
   authors: []
@@ -43,69 +43,69 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence clustering
-    uri: http://edamontology.org/operation_0291
-  - term: Gene prediction
-    uri: http://edamontology.org/operation_2454
-  - term: Differential gene expression analysis
-    uri: http://edamontology.org/operation_3223
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence clustering
+        uri: http://edamontology.org/operation_0291
+      - term: Gene prediction
+        uri: http://edamontology.org/operation_2454
+      - term: Differential gene expression analysis
+        uri: http://edamontology.org/operation_3223
+    output: []
 homepage: http://antismash.secondarymetabolites.org
 homepage_status: 0
 language:
-- Python
+  - Python
 lastUpdate: '2019-02-16T22:07:00Z'
 license: null
 link:
-- note: null
-  type: Repository
-  url: https://bitbucket.org/antismash/antismash/
+  - note: null
+    type: Repository
+    url: https://bitbucket.org/antismash/antismash/
 maturity: null
 name: antiSMASH
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: kblin
 publication:
-- doi: null
-  metadata: null
-  pmcid: null
-  pmid: '21672958'
-  type: Primary
-  version: '1'
-- doi: null
-  metadata: null
-  pmcid: null
-  pmid: '23737449'
-  type: Primary
-  version: '2.0'
-- doi: 10.1093/nar/gkv437
-  metadata: null
-  pmcid: PMC4489286
-  pmid: '25948579'
-  type: Primary
-  version: '3.0'
-- doi: 10.1093/NAR/GKX319
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '21672958'
+    type: Primary
+    version: '1'
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '23737449'
+    type: Primary
+    version: '2.0'
+  - doi: 10.1093/nar/gkv437
+    metadata: null
+    pmcid: PMC4489286
+    pmid: '25948579'
+    type: Primary
+    version: '3.0'
+  - doi: 10.1093/NAR/GKX319
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
-- term: Gene and protein families
-  uri: http://edamontology.org/topic_0623
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Gene and protein families
+    uri: http://edamontology.org/topic_0623
 validated: 0
 version:
-- '1'
-- '2.0'
-- '3.0'
+  - '1'
+  - '2.0'
+  - '3.0'

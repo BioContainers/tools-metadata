@@ -5,23 +5,23 @@ biotoolsID: rseg_0.4.8_rc
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://smithlabresearch.org/
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://smithlabresearch.org/
 description: Analyzes ChIP-Seq data, especially for identifying genomic regions and
   their boundaries marked by diffusive histone modification markers, such as H3K36me3
   and H3K27me3. It can be used to find regions with differential histone modifications
   patterns, either comparsion between two cell types or between two kinds of histone
   modifications.
 documentation:
-- note: null
-  type: Manual
-  url: http://smithlabresearch.org/wp-content/uploads/rseg_manual-v0.4.9.pdf
+  - note: null
+    type: Manual
+    url: http://smithlabresearch.org/wp-content/uploads/rseg_manual-v0.4.9.pdf
 download: []
 editPermission:
   authors: []
@@ -30,43 +30,43 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Microarray data analysis
-    uri: http://edamontology.org/operation_2495
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Microarray data analysis
+        uri: http://edamontology.org/operation_2495
+    output: []
 homepage: http://smithlabresearch.org/software/rseg/
 homepage_status: 0
 language: []
 lastUpdate: '2019-02-16T12:58:02Z'
 license: null
 link:
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/rseg-0-4-4-identify-epigenomic-domains-chip-seq-data.html
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/rseg-0-4-4-identify-epigenomic-domains-chip-seq-data.html
 maturity: null
 name: RSEG
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: mbs_import
 publication:
-- doi: 10.1093/bioinformatics/btr030
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/btr030
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: ChiP
-  uri: http://edamontology.org/topic_3179
-- term: ChIP-seq
-  uri: http://edamontology.org/topic_3169
-- term: Histone modification
-  uri: http://edamontology.org/topic_3295
+  - term: ChiP
+    uri: http://edamontology.org/topic_3179
+  - term: ChIP-seq
+    uri: http://edamontology.org/topic_3169
+  - term: Histone modification
+    uri: http://edamontology.org/topic_3295
 validated: 0
 version: []

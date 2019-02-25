@@ -1,0 +1,97 @@
+accessibility: []
+additionDate: '2018-07-01T15:37:29Z'
+biotoolsCURIE: biotools:complexcontact
+biotoolsID: complexcontact
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://raptorx2.uchicago.edu/contact/
+description: Predicts the interfacial contacts between two potentially interacting
+  protein sequences (heterodimer only) using co-evolution and deep learning techniques.
+  It applies an ultra-deep learning model trained from single-chain proteins to predict
+  contacts for a pair of proteins. This deep learning method greatly outperforms the
+  latest co-evolution methods by learning contact occurrence patterns from solved
+  protein structures.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Residue interaction prediction
+    uri: http://edamontology.org/operation_0272
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Deposition
+    uri: http://edamontology.org/operation_3431
+  output: []
+homepage: http://raptorx2.uchicago.edu/ComplexContact/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:59Z'
+license: null
+link: []
+maturity: null
+name: ComplexContact
+operatingSystem: []
+otherID: []
+owner: aotamendi.1
+publication:
+- doi: 10.1093/nar/gky420
+  metadata:
+    abstract: © The Author(s) 2018. Published by Oxford University Press on behalf
+      of Nucleic Acids Research. ComplexContact (http://raptorx2.uchicago.edu/ComplexContact/)
+      is a web server for sequence-based interfacial residue-residue contact prediction
+      of a putative protein complex. Interfacial residue-residue contacts are critical
+      for understanding how proteins form complex and interact at residue level. When
+      receiving a pair of protein sequences, ComplexContact first searches for their
+      sequence homologs and builds two paired multiple sequence alignments (MSA),
+      then it applies co-evolution analysis and a CASP-winning deep learning (DL)
+      method to predict interfacial contacts from paired MSAs and visualizes the prediction
+      as an image. The DL method was originally developed for intra-protein contact
+      prediction and performed the best in CASP12. Our large-scale experimental test
+      further shows that ComplexContact greatly outperforms pure co-evolution methods
+      for inter-protein contact prediction, regardless of the species.
+    authors:
+    - name: Zeng H.
+    - name: Wang S.
+    - name: Zhou T.
+    - name: Zhao F.
+    - name: Li X.
+    - name: Wu Q.
+    - name: Xu J.
+    citationCount: 0
+    date: '2018-07-02T00:00:00Z'
+    journal: Nucleic Acids Research
+    title: 'ComplexContact: A web server for inter-protein contact prediction using
+      deep learning'
+  pmcid: null
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Web application
+topic:
+- term: Protein interactions
+  uri: http://edamontology.org/topic_0128
+- term: Structure prediction
+  uri: http://edamontology.org/topic_0082
+validated: 1
+version: []

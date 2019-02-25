@@ -1,0 +1,92 @@
+accessibility: []
+additionDate: '2018-07-16T14:26:13Z'
+biotoolsCURIE: biotools:biotmle
+biotoolsID: biotmle
+collectionID:
+- BioConductor
+cost: Free of charge
+credit:
+- email: nhejazi@berkeley.edu
+  name: Nima Hejazi
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: This package facilitates the discovery of biomarkers from biological
+  sequencing data based on the associations of potential biomarkers with exposure
+  and outcome variables by implementing an estimation procedure that combines a generalization
+  of moderated statistics with targeted minimum loss-based estimates (TMLE) of parameters
+  defined via causal inference whose estimators admit asymptotically linear representations.
+documentation:
+- note: null
+  type: Manual
+  url: http://bioconductor.org/packages/release/bioc/manuals/biotmle/man/biotmle.pdf
+download:
+- note: null
+  type: Source package
+  url: http://bioconductor.org/packages/release/bioc/src/contrib/biotmle_1.4.0.tar.gz
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Differential gene expression analysis
+    uri: http://edamontology.org/operation_3223
+  output: []
+homepage: http://bioconductor.org/packages/release/bioc/html/biotmle.html
+homepage_status: 0
+language:
+- R
+lastUpdate: '2018-12-10T12:59:00Z'
+license: Other
+link:
+- note: null
+  type: Mirror
+  url: https://github.com/nhejazi/biotmle
+- note: null
+  type: Issue tracker
+  url: https://github.com/nhejazi/biotmle/issues
+- note: null
+  type: Mirror
+  url: http://bioconductor.org/packages/biotmle/
+- note: null
+  type: Repository
+  url: https://git.bioconductor.org/packages/biotmle
+maturity: null
+name: biotmle
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: shadi.m
+publication:
+- doi: 10.21105/joss.00295
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Library
+topic:
+- term: Gene expression
+  uri: http://edamontology.org/topic_0203
+- term: Microarray experiment
+  uri: http://edamontology.org/topic_3518
+- term: Sequencing
+  uri: http://edamontology.org/topic_3168
+- term: RNA-seq
+  uri: http://edamontology.org/topic_3170
+validated: 1
+version:
+- 1.4.0

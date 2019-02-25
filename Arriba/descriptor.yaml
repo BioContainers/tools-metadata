@@ -1,5 +1,5 @@
 accessibility:
-- Open access
+  - Open access
 additionDate: '2019-02-08T22:48:19Z'
 biotoolsCURIE: biotools:Arriba
 biotoolsID: Arriba
@@ -11,14 +11,14 @@ description: Arriba is a command-line tool to detect gene fusions from RNA-Seq d
   / inversions and truncations of genes (i.e., breakpoints in introns and intergenic
   regions). Arriba is the winner of the DREAM SMC RNA Challenge.
 documentation:
-- note: null
-  type: Manual
-  url: https://arriba.readthedocs.io/
+  - note: null
+    type: Manual
+    url: https://arriba.readthedocs.io/
 download:
-- note: null
-  type: Binary package
-  url: https://github.com/suhrig/arriba/releases/download/v1.0.1/arriba_v1.0.1.tar.gz
-  version: 1.0.1
+  - note: null
+    type: Binary package
+    url: https://github.com/suhrig/arriba/releases/download/v1.0.1/arriba_v1.0.1.tar.gz
+    version: 1.0.1
 editPermission:
   authors: []
   type: private
@@ -26,53 +26,53 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: RNA sequence
-      uri: http://edamontology.org/data_3495
-    format:
-    - term: BAM
-      uri: http://edamontology.org/format_2572
-    - term: SAM
-      uri: http://edamontology.org/format_2573
-    - term: CRAM
-      uri: http://edamontology.org/format_3462
-    - term: FASTQ-illumina
-      uri: http://edamontology.org/format_1931
-  note: null
-  operation:
-  - term: Structural variation detection
-    uri: http://edamontology.org/operation_3228
-  output:
-  - data:
-      term: Sequence variations
-      uri: http://edamontology.org/data_3498
-    format:
-    - term: TSV
-      uri: http://edamontology.org/format_3475
+  - cmd: null
+    input:
+      - data:
+          term: RNA sequence
+          uri: http://edamontology.org/data_3495
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+          - term: SAM
+            uri: http://edamontology.org/format_2573
+          - term: CRAM
+            uri: http://edamontology.org/format_3462
+          - term: FASTQ-illumina
+            uri: http://edamontology.org/format_1931
+    note: null
+    operation:
+      - term: Structural variation detection
+        uri: http://edamontology.org/operation_3228
+    output:
+      - data:
+          term: Sequence variations
+          uri: http://edamontology.org/data_3498
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
 homepage: https://github.com/suhrig/arriba/
 homepage_status: 0
 language:
-- C++
+  - C++
 lastUpdate: '2019-02-08T22:48:19Z'
 license: MIT
 link: []
 maturity: Mature
 name: Arriba
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: suhrig
 publication: []
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Gene transcripts
-  uri: http://edamontology.org/topic_3512
-- term: RNA splicing
-  uri: http://edamontology.org/topic_3320
-- term: DNA structural variation
-  uri: http://edamontology.org/topic_3175
+  - term: Gene transcripts
+    uri: http://edamontology.org/topic_3512
+  - term: RNA splicing
+    uri: http://edamontology.org/topic_3320
+  - term: DNA structural variation
+    uri: http://edamontology.org/topic_3175
 validated: 0
 version: []

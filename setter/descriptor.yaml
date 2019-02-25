@@ -3,191 +3,191 @@ additionDate: '2015-11-25T19:04:17Z'
 biotoolsCURIE: biotools:setter
 biotoolsID: setter
 collectionID:
-- Czech Republic
-- ELIXIR-CZ
+  - Czech Republic
+  - ELIXIR-CZ
 cost: Free of charge
 credit:
-- email: null
-  name: Petr Čech
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: David Hoksza
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: Daniel Svozil
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: Daniel Svozil
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole:
-  - Contributor
-  url: null
-- email: null
-  name: Charles University in Prague, Czech Republic
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: University of Chemistry and Technology Prague, Czech Republic
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: ELIXIR-CZ
-  note: null
-  orcidid: null
-  typeEntity: Consortium
-  typeRole: []
-  url: null
-- email: null
-  name: Czech Science Foundation
-  note: null
-  orcidid: null
-  typeEntity: Funding agency
-  typeRole:
-  - Contributor
-  url: null
-- email: null
-  name: ELIXIR-CZ
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: svozild@vscht.cz
-  name: Daniel Svozil
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole:
-  - Support
-  url: null
-- email: david.hoksza@mff.cuni.cz
-  name: David Hoksza
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole:
-  - Support
-  url: null
-- email: svozild@vscht.cz
-  name: Daniel Svozil
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: david.hoksza@mff.cuni.cz
-  name: David Hoksza
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: "Petr \u010Cech"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: David Hoksza
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Daniel Svozil
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Daniel Svozil
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Charles University in Prague, Czech Republic
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: University of Chemistry and Technology Prague, Czech Republic
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: ELIXIR-CZ
+    note: null
+    orcidid: null
+    typeEntity: Consortium
+    typeRole: []
+    url: null
+  - email: null
+    name: Czech Science Foundation
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: ELIXIR-CZ
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: svozild@vscht.cz
+    name: Daniel Svozil
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Support
+    url: null
+  - email: david.hoksza@mff.cuni.cz
+    name: David Hoksza
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Support
+    url: null
+  - email: svozild@vscht.cz
+    name: Daniel Svozil
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: david.hoksza@mff.cuni.cz
+    name: David Hoksza
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: A web application for RNA structure comparison.
 documentation:
-- note: null
-  type: Citation instructions
-  url: http://setter.projekty.ms.mff.cuni.cz/help/index/
-- note: null
-  type: General
-  url: http://setter.projekty.ms.mff.cuni.cz/help/index/
+  - note: null
+    type: Citation instructions
+    url: http://setter.projekty.ms.mff.cuni.cz/help/index/
+  - note: null
+    type: General
+    url: http://setter.projekty.ms.mff.cuni.cz/help/index/
 download: []
 editPermission:
   authors: []
   type: private
 elixirNode:
-- Czech Republic
+  - Czech Republic
 elixirPlatform:
-- Tools
+  - Tools
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: PDB ID
-      uri: http://edamontology.org/data_1127
-    format:
-    - term: PDB
-      uri: http://edamontology.org/format_1476
-  note: Secondary-based RNA tertiary structure superposition either PDBID or user-prepared
-    PDB
-  operation:
-  - term: Nucleic acid structure analysis
-    uri: http://edamontology.org/operation_2481
-  - term: RNA secondary structure alignment
-    uri: http://edamontology.org/operation_0502
-  output:
-  - data:
-      term: Secondary structure alignment (RNA)
-      uri: http://edamontology.org/data_0881
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: PDB ID
+          uri: http://edamontology.org/data_1127
+        format:
+          - term: PDB
+            uri: http://edamontology.org/format_1476
+    note: Secondary-based RNA tertiary structure superposition either PDBID or user-prepared
+      PDB
+    operation:
+      - term: Nucleic acid structure analysis
+        uri: http://edamontology.org/operation_2481
+      - term: RNA secondary structure alignment
+        uri: http://edamontology.org/operation_0502
+    output:
+      - data:
+          term: Secondary structure alignment (RNA)
+          uri: http://edamontology.org/data_0881
+        format: []
 homepage: http://setter.projekty.ms.mff.cuni.cz/
 homepage_status: 0
 language:
-- C++
-- Python
+  - C++
+  - Python
 lastUpdate: '2019-02-15T10:23:56Z'
 license: null
 link: []
 maturity: Mature
 name: SETTER
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: ELIXIR-CZ
 publication:
-- doi: 10.1093/nar/gks560
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
-- doi: 10.1186/s12859-015-0696-8
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Other
-  version: null
-- doi: 10.1109/TCBB.2014.2351810
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Other
-  version: null
+  - doi: 10.1093/nar/gks560
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+  - doi: 10.1186/s12859-015-0696-8
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
+  - doi: 10.1109/TCBB.2014.2351810
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: RNA
-  uri: http://edamontology.org/topic_0099
-- term: Nucleic acid structure analysis
-  uri: http://edamontology.org/topic_0097
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Nucleic acid structure analysis
+    uri: http://edamontology.org/topic_0097
 validated: 0
 version:
-- '1.0'
+  - '1.0'

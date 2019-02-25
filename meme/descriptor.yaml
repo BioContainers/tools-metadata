@@ -3,26 +3,26 @@ additionDate: '2017-08-03T18:49:14Z'
 biotoolsCURIE: biotools:meme
 biotoolsID: meme
 collectionID:
-- MEME
+  - MEME
 cost: null
 credit:
-- email: william-noble@u.washington.edu
-  name: William Stafford Noble
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://meme-suite.org/doc/authors.html?man_type=web
+  - email: william-noble@u.washington.edu
+    name: William Stafford Noble
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://meme-suite.org/doc/authors.html?man_type=web
 description: Tool for discovering motifs in a group of related DNA or protein sequences.
   A motif is a sequence pattern that occurs repeatedly in a group of related protein
   or DNA sequences. This tool represents motifs as position-dependent letter-probability
   matrices which describe the probability of each possible letter at each position
   in the pattern.
 documentation:
-- note: null
-  type: Manual
-  url: http://meme-suite.org/doc/meme.html?man_type=web
+  - note: null
+    type: Manual
+    url: http://meme-suite.org/doc/meme.html?man_type=web
 download: []
 editPermission:
   authors: []
@@ -31,50 +31,50 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence analysis
-    uri: http://edamontology.org/operation_2403
-  - term: Sequence motif recognition
-    uri: http://edamontology.org/operation_0239
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+      - term: Sequence motif recognition
+        uri: http://edamontology.org/operation_0239
+    output: []
 homepage: http://meme-suite.org/tools/meme
 homepage_status: 0
 language:
-- Java
-- Perl
-- Python
+  - Java
+  - Perl
+  - Python
 lastUpdate: '2019-02-12T09:48:52Z'
 license: null
 link:
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/meme-4-7-0-discovering-motifs-sequences.html
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/meme-4-7-0-discovering-motifs-sequences.html
 maturity: null
 name: MEME
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: mbs_import
 publication:
-- doi: null
-  metadata: null
-  pmcid: null
-  pmid: '26704599'
-  type: null
-  version: null
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '26704599'
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Nucleic acid sites, features and motifs
-  uri: http://edamontology.org/topic_3511
-- term: DNA
-  uri: http://edamontology.org/topic_0654
-- term: Protein sites, features and motifs
-  uri: http://edamontology.org/topic_3510
+  - term: Nucleic acid sites, features and motifs
+    uri: http://edamontology.org/topic_3511
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Protein sites, features and motifs
+    uri: http://edamontology.org/topic_3510
 validated: 0
 version: []

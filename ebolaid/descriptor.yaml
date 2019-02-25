@@ -5,14 +5,14 @@ biotoolsID: ebolaid
 collectionID: []
 cost: null
 credit:
-- email: fpereirapt@gmail.com
-  name: Filipe Pereira
-  note: null
-  orcidid: http://orcid.org/0000-0001-8950-1036
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://ebolaid.portugene.com/EbolaID_contactsandsupport.html
+  - email: fpereirapt@gmail.com
+    name: Filipe Pereira
+    note: null
+    orcidid: http://orcid.org/0000-0001-8950-1036
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://ebolaid.portugene.com/EbolaID_contactsandsupport.html
 description: 'Provides a complete, quality checked and regularly updated list of oligonucleotides
   for the Ebola virus. The database describes the genetic diversity across the Ebola
   genome to facilitate the design of accurate diagnostic methods and therapeutic approaches.
@@ -21,9 +21,9 @@ description: 'Provides a complete, quality checked and regularly updated list of
   region obtained from multiple sequence alignments, allowing the selection of the
   most conserved oligonucleotides.'
 documentation:
-- note: null
-  type: General
-  url: http://ebolaid.portugene.com/cgi-bin/EbolaID_home.cgi
+  - note: null
+    type: General
+    url: http://ebolaid.portugene.com/cgi-bin/EbolaID_home.cgi
 download: []
 editPermission:
   authors: []
@@ -32,13 +32,13 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Primer and probe design
-    uri: http://edamontology.org/operation_2419
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Primer and probe design
+        uri: http://edamontology.org/operation_2419
+    output: []
 homepage: http://ebolaid.portugene.com
 homepage_status: 0
 language: []
@@ -48,22 +48,22 @@ link: []
 maturity: null
 name: EbolaID
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: Portugene
 publication:
-- doi: 10.1371/journal.pntd.0004757
-  metadata: null
-  pmcid: PMC4956216
-  pmid: '27441375'
-  type: Primary
-  version: null
+  - doi: 10.1371/journal.pntd.0004757
+    metadata: null
+    pmcid: PMC4956216
+    pmid: '27441375'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Probes and primers
-  uri: http://edamontology.org/topic_0632
+  - term: Probes and primers
+    uri: http://edamontology.org/topic_0632
 validated: 1
 version: []

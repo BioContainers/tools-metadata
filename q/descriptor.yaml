@@ -3,92 +3,94 @@ additionDate: '2017-08-20T15:58:47Z'
 biotoolsCURIE: biotools:q
 biotoolsID: q
 collectionID:
-- Animal and Crop Genomics
+  - Animal and Crop Genomics
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://charite.github.io/team_hansen.html
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://charite.github.io/team_hansen.html
 description: Saturation-based ChIP-seq and ChIP-nexus caller. Q works with the irreproducible
   discovery rate (IDR) procedure. Q can be run with or without data from a control
   experiment.
 documentation:
-- note: null
-  type: General
-  url: http://charite.github.io/Q/tutorial.html
+  - note: null
+    type: General
+    url: http://charite.github.io/Q/tutorial.html
 download: []
 editPermission:
   authors:
-  - animalandcropgenomics
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Peak detection
-    uri: http://edamontology.org/operation_3215
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Peak detection
+        uri: http://edamontology.org/operation_3215
+    output: []
 homepage: http://charite.github.io/Q/
 homepage_status: 0
 language:
-- C++
+  - C++
 lastUpdate: '2019-01-29T12:04:02Z'
 license: BSD-3-Clause
 link: []
 maturity: null
 name: Q
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: 10.1101/gr.189894.115
-  metadata:
-    abstract: © 2015 Hansen et al.Chromatin immunoprecipitation coupled with next-generation
-      sequencing (ChIP-seq) is a powerful technology to identify the genome-wide locations
-      of transcription factors and other DNA binding proteins. Computational ChIP-seq
-      peak calling infers the location of protein-DNA interactions based on various
-      measures of enrichment of sequence reads. In this work, we introduce an algorithm,
-      Q, that uses an assessment of the quadratic enrichment of reads to center candidate
-      peaks followed by statistical analysis of saturation of candidate peaks by 5′
-      ends of reads. We show that our method not only is substantially faster than
-      several competing methods but also demonstrates statistically significant advantages
-      with respect to reproducibility of results and in its ability to identify peaks
-      with reproducible binding site motifs. We show that Q has superior performance
-      in the delineation of double RNAPII and H3K4me3 peaks surrounding transcription
-      start sites related to a better ability to resolve individual peaks. The method
-      is implemented in C++ and is freely available under an open source license.
-    authors:
-    - name: Hansen P.
-    - name: Hecht J.
-    - name: Ibrahim D.M.
-    - name: Krannich A.
-    - name: Truss M.
-    - name: Robinson P.N.
-    citationCount: 12
-    date: '2015-09-01T00:00:00Z'
-    journal: Genome Research
-    title: Saturation analysis of ChIP-seq data for reproducible identification of
-      binding peaks
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1101/gr.189894.115
+    metadata:
+      abstract: "\xA9 2015 Hansen et al.Chromatin immunoprecipitation coupled with\
+        \ next-generation sequencing (ChIP-seq) is a powerful technology to identify\
+        \ the genome-wide locations of transcription factors and other DNA binding\
+        \ proteins. Computational ChIP-seq peak calling infers the location of protein-DNA\
+        \ interactions based on various measures of enrichment of sequence reads.\
+        \ In this work, we introduce an algorithm, Q, that uses an assessment of the\
+        \ quadratic enrichment of reads to center candidate peaks followed by statistical\
+        \ analysis of saturation of candidate peaks by 5\u2032 ends of reads. We show\
+        \ that our method not only is substantially faster than several competing\
+        \ methods but also demonstrates statistically significant advantages with\
+        \ respect to reproducibility of results and in its ability to identify peaks\
+        \ with reproducible binding site motifs. We show that Q has superior performance\
+        \ in the delineation of double RNAPII and H3K4me3 peaks surrounding transcription\
+        \ start sites related to a better ability to resolve individual peaks. The\
+        \ method is implemented in C++ and is freely available under an open source\
+        \ license."
+      authors:
+        - name: Hansen P.
+        - name: Hecht J.
+        - name: Ibrahim D.M.
+        - name: Krannich A.
+        - name: Truss M.
+        - name: Robinson P.N.
+      citationCount: 12
+      date: '2015-09-01T00:00:00Z'
+      journal: Genome Research
+      title: Saturation analysis of ChIP-seq data for reproducible identification
+        of binding peaks
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: ChIP-seq
-  uri: http://edamontology.org/topic_3169
-- term: DNA packaging
-  uri: http://edamontology.org/topic_3176
+  - term: ChIP-seq
+    uri: http://edamontology.org/topic_3169
+  - term: DNA packaging
+    uri: http://edamontology.org/topic_3176
 validated: 1
 version: []

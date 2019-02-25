@@ -1,124 +1,124 @@
 accessibility:
-- Open access
+  - Open access
 additionDate: '2017-05-16T13:43:40Z'
 biotoolsCURIE: biotools:piqmie
 biotoolsID: piqmie
 collectionID: []
 cost: Free of charge
 credit:
-- email: a.kuzniar@esciencecenter.nl
-  name: Arnold Kuzniar
-  note: null
-  orcidid: http://orcid.org/0000-0003-1711-7961
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://www.esciencecenter.nl
-- email: r.kanaar@erasmusmc.nl
-  name: Roland Kanaar
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://www.erasmusmc.nl
+  - email: a.kuzniar@esciencecenter.nl
+    name: Arnold Kuzniar
+    note: null
+    orcidid: http://orcid.org/0000-0003-1711-7961
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www.esciencecenter.nl
+  - email: r.kanaar@erasmusmc.nl
+    name: Roland Kanaar
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www.erasmusmc.nl
 description: Proteomics Identifications & Quantitations Data Management & Integration
   Service (PIQMIe) is a web server for semi-quantitative proteomics data management
   and analysis.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/arnikz/PIQMIe/blob/master/README.md
+  - note: null
+    type: General
+    url: https://github.com/arnikz/PIQMIe/blob/master/README.md
 download:
-- note: null
-  type: Source code
-  url: https://github.com/arnikz/PIQMIe
-  version: null
+  - note: null
+    type: Source code
+    url: https://github.com/arnikz/PIQMIe
+    version: null
 editPermission:
   authors:
-  - arnikz
+    - arnikz
   type: private
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Protein sequence
-      uri: http://edamontology.org/data_2976
-    format:
-    - term: FASTA
-      uri: http://edamontology.org/format_1929
-  - data:
-      term: Mass spectrometry data
-      uri: http://edamontology.org/data_2536
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  note: null
-  operation:
-  - term: Data handling
-    uri: http://edamontology.org/operation_2409
-  - term: Protein quantification
-    uri: http://edamontology.org/operation_3630
-  - term: Differential protein expression analysis
-    uri: http://edamontology.org/operation_3741
-  output:
-  - data:
-      term: Mass spectrometry data
-      uri: http://edamontology.org/data_2536
-    format:
-    - term: SQLite format
-      uri: http://edamontology.org/format_3621
+  - cmd: null
+    input:
+      - data:
+          term: Protein sequence
+          uri: http://edamontology.org/data_2976
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+    note: null
+    operation:
+      - term: Data handling
+        uri: http://edamontology.org/operation_2409
+      - term: Protein quantification
+        uri: http://edamontology.org/operation_3630
+      - term: Differential protein expression analysis
+        uri: http://edamontology.org/operation_3741
+    output:
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format:
+          - term: SQLite format
+            uri: http://edamontology.org/format_3621
 homepage: http://piqmie.biotools.nl/
 homepage_status: 0
 language:
-- JavaScript
-- Perl
-- SQL
-- Python
+  - JavaScript
+  - Perl
+  - SQL
+  - Python
 lastUpdate: '2019-01-15T01:25:07Z'
 license: GPL-3.0
 link: []
 maturity: Emerging
 name: PIQMIe
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: arnikz
 publication:
-- doi: 10.1093/nar/gku478
-  metadata: null
-  pmcid: PMC4086067
-  pmid: '24861615'
-  type: Other
-  version: null
-- doi: 10.1371/journal.pone.0170762
-  metadata: null
-  pmcid: PMC5325209
-  pmid: '28234898'
-  type: Primary
-  version: null
-- doi: 10.5281/zenodo.34090
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Other
-  version: null
+  - doi: 10.1093/nar/gku478
+    metadata: null
+    pmcid: PMC4086067
+    pmid: '24861615'
+    type: Other
+    version: null
+  - doi: 10.1371/journal.pone.0170762
+    metadata: null
+    pmcid: PMC5325209
+    pmid: '28234898'
+    type: Primary
+    version: null
+  - doi: 10.5281/zenodo.34090
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
-- term: Proteomics experiment
-  uri: http://edamontology.org/topic_3520
-- term: Database management
-  uri: http://edamontology.org/topic_3489
-- term: Data management
-  uri: http://edamontology.org/topic_3071
-- term: Data quality management
-  uri: http://edamontology.org/topic_3572
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
+  - term: Data quality management
+    uri: http://edamontology.org/topic_3572
 validated: 1
 version:
-- '1.0'
+  - '1.0'

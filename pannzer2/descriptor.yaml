@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2018-07-06T12:09:56Z'
+biotoolsCURIE: biotools:pannzer2
+biotoolsID: pannzer2
+collectionID: []
+cost: null
+credit:
+- email: liisa.holm@helsinki.fi
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: petri.toronen@helsinki.fi
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Protein ANNotation with Z-scoRE. Fully automated  functional annotation
+  of prokaryotic and eukaryotic proteins of unknown function. Designed to predict
+  the functional description (DE) and GO classes.
+documentation:
+- note: null
+  type: General
+  url: http://ekhidna2.biocenter.helsinki.fi/sanspanz/
+download:
+- note: null
+  type: Source package
+  url: http://ekhidna2.biocenter.helsinki.fi/sanspanz/SANSPANZ.3.tar.gz
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Text
+      uri: http://edamontology.org/data_3671
+    format:
+    - term: FASTA-like (text)
+      uri: http://edamontology.org/format_2200
+  note: null
+  operation:
+  - term: Annotation
+    uri: http://edamontology.org/operation_0226
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Enrichment analysis
+    uri: http://edamontology.org/operation_3501
+  output: []
+homepage: http://ekhidna2.biocenter.helsinki.fi/sanspanz/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:59Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: pannzer2
+operatingSystem: []
+otherID: []
+owner: aotamendi.1
+publication:
+- doi: 10.1093/nar/gky350
+  metadata: null
+  pmcid: null
+  pmid: '29741643'
+  type: null
+  version: null
+toolType:
+- Web application
+topic:
+- term: Proteomics
+  uri: http://edamontology.org/topic_0121
+validated: 1
+version: []

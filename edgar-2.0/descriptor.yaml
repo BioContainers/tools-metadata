@@ -3,34 +3,34 @@ additionDate: '2018-08-09T13:02:10Z'
 biotoolsCURIE: biotools:edgar-2.0
 biotoolsID: edgar-2.0
 collectionID:
-- de.NBI
-- de.NBI-BiGi
+  - de.NBI
+  - de.NBI-BiGi
 cost: Free of charge
 credit:
-- email: null
-  name: bigi
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: null
-  note: null
-  orcidid: http://orcid.org/0000-0001-6455-3622
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://edgar.computational.bio
-- email: jochen.blom@computational.bio.uni-giessen.de
-  name: Jochen Blom
-  note: null
-  orcidid: http://orcid.org/0000-0001-6455-3622
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: bigi
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: http://orcid.org/0000-0001-6455-3622
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://edgar.computational.bio
+  - email: jochen.blom@computational.bio.uni-giessen.de
+    name: Jochen Blom
+    note: null
+    orcidid: http://orcid.org/0000-0001-6455-3622
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: The introduction of next generation sequencing approaches has caused
   a rapid increase in the number of completely sequenced genomes. As one result of
   this development, it is now feasible to analyze large groups of related genomes
@@ -47,19 +47,19 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Nucleic acid sequence record
-      uri: http://edamontology.org/data_2887
-    format:
-    - term: GenBank format
-      uri: http://edamontology.org/format_1936
-  note: null
-  operation:
-  - term: Genome feature comparison
-    uri: http://edamontology.org/operation_3194
-  output: []
+  - cmd: null
+    input:
+      - data:
+          term: Nucleic acid sequence record
+          uri: http://edamontology.org/data_2887
+        format:
+          - term: GenBank format
+            uri: http://edamontology.org/format_1936
+    note: null
+    operation:
+      - term: Genome feature comparison
+        uri: http://edamontology.org/operation_3194
+    output: []
 homepage: http://edgar.computational.bio
 homepage_status: 0
 language: []
@@ -72,17 +72,17 @@ operatingSystem: []
 otherID: []
 owner: bigi
 publication:
-- doi: 10.1093/nar/gkw255
-  metadata: null
-  pmcid: PMC4987874
-  pmid: '27098043'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkw255
+    metadata: null
+    pmcid: PMC4987874
+    pmid: '27098043'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Comparative genomics
-  uri: http://edamontology.org/topic_0797
+  - term: Comparative genomics
+    uri: http://edamontology.org/topic_0797
 validated: 0
 version:
-- '2.0'
+  - '2.0'

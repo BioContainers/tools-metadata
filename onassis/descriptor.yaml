@@ -1,0 +1,86 @@
+accessibility: []
+additionDate: '2018-07-12T12:58:35Z'
+biotoolsCURIE: biotools:onassis
+biotoolsID: onassis
+collectionID:
+- BioConductor
+cost: null
+credit:
+- email: eugenia.galeota@gmail.com
+  name: Eugenia Galeota
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: A package that allows the annotation of text with ontology terms (mainly
+  from OBO ontologies) and the computation of semantic similarity measures based on
+  the structure of the ontology between different annotated samples.
+documentation:
+- note: null
+  type: Manual
+  url: http://bioconductor.org/packages/release/bioc/manuals/Onassis/man/Onassis.pdf
+download:
+- note: null
+  type: Source package
+  url: http://bioconductor.org/packages/release/bioc/src/contrib/Onassis_1.2.0.tar.gz
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Annotation
+    uri: http://edamontology.org/operation_0226
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Clustering
+    uri: http://edamontology.org/operation_3432
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Structural similarity search
+    uri: http://edamontology.org/operation_0360
+  output: []
+homepage: http://bioconductor.org/packages/release/bioc/html/Onassis.html
+homepage_status: 0
+language:
+- R
+lastUpdate: '2018-12-10T12:59:00Z'
+license: GPL-2.0
+link:
+- note: null
+  type: Mirror
+  url: http://bioconductor.org/packages/Onassis/
+- note: null
+  type: Repository
+  url: https://git.bioconductor.org/packages/Onassis
+maturity: null
+name: Onassis
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: shadi.m
+publication: []
+toolType:
+- Library
+topic:
+- term: Ontology and terminology
+  uri: http://edamontology.org/topic_0089
+validated: 1
+version:
+- 1.2.0

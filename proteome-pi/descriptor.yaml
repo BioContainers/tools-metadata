@@ -5,27 +5,27 @@ biotoolsID: proteome-pi
 collectionID: []
 cost: Free of charge
 credit:
-- email: lukasz.kozlowski@mpibpc.mpg.de
-  name: Lukasz Kozlowski
-  note: null
-  orcidid: http://orcid.org/0000-0001-8187-1980
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: lukasz.kozlowski@mpibpc.mpg.de
+    name: Lukasz Kozlowski
+    note: null
+    orcidid: http://orcid.org/0000-0001-8187-1980
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: The database of pre-computed isoelectric points for proteomes from different
   model organisms (5029 species). Goals of the database include making statistical
   comparisons of the various prediction methods (18 algorithms implemented) as well
   as facilitating biological investigation of protein isoelectric point space.
 documentation:
-- note: null
-  type: General
-  url: http://isoelectricpointdb.org/statistics.html
+  - note: null
+    type: General
+    url: http://isoelectricpointdb.org/statistics.html
 download:
-- note: null
-  type: Biological data
-  url: http://isoelectricpointdb.org/download.html
-  version: null
+  - note: null
+    type: Biological data
+    url: http://isoelectricpointdb.org/download.html
+    version: null
 editPermission:
   authors: []
   type: private
@@ -33,22 +33,22 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Sequence set (protein)
-      uri: http://edamontology.org/data_1233
-    format: []
-  note: Query full proteome to obtain proteins within given range of isoelectric point
-    and molecular weight
-  operation:
-  - term: Protein sequence analysis
-    uri: http://edamontology.org/operation_2479
-  output:
-  - data:
-      term: Protein isoelectric point
-      uri: http://edamontology.org/data_1528
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Sequence set (protein)
+          uri: http://edamontology.org/data_1233
+        format: []
+    note: Query full proteome to obtain proteins within given range of isoelectric
+      point and molecular weight
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output:
+      - data:
+          term: Protein isoelectric point
+          uri: http://edamontology.org/data_1528
+        format: []
 homepage: http://isoelectricpointdb.org/
 homepage_status: 0
 language: []
@@ -58,26 +58,26 @@ link: []
 maturity: Mature
 name: Proteome-pI
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: lukaskoz
 publication:
-- doi: 10.1093/nar/gkw978
-  metadata: null
-  pmcid: PMC5210655
-  pmid: '27789699'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkw978
+    metadata: null
+    pmcid: PMC5210655
+    pmid: '27789699'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
-- term: Proteomics experiment
-  uri: http://edamontology.org/topic_3520
-- term: Protein properties
-  uri: http://edamontology.org/topic_0123
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+  - term: Protein properties
+    uri: http://edamontology.org/topic_0123
 validated: 1
 version: []

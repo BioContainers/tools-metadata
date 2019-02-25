@@ -3,84 +3,84 @@ additionDate: '2017-01-13T13:16:12Z'
 biotoolsCURIE: biotools:samtools
 biotoolsID: samtools
 collectionID:
-- Rare Disease
-- Animal and Crop Genomics
-- SAMtools
+  - Rare Disease
+  - Animal and Crop Genomics
+  - SAMtools
 cost: null
 credit:
-- email: rd@sanger.ac.uk
-  name: Richard Durbin
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: rd@sanger.ac.uk
+    name: Richard Durbin
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: A software package with various utilities for processing alignments in
   the SAM format, including variant calling and alignment viewing.
 documentation:
-- note: HowTos for samtools
-  type: Other
-  url: http://www.htslib.org/doc/#howtos
-- note: null
-  type: Manual
-  url: http://www.htslib.org/doc/#manual-pages
+  - note: HowTos for samtools
+    type: Other
+    url: http://www.htslib.org/doc/#howtos
+  - note: null
+    type: Manual
+    url: http://www.htslib.org/doc/#manual-pages
 download: []
 editPermission:
   authors:
-  - ELIXIR-EE
-  - animalandcropgenomics
+    - ELIXIR-EE
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence assembly visualisation
-    uri: http://edamontology.org/operation_3184
-  - term: Modelling and simulation
-    uri: http://edamontology.org/operation_2426
-  - term: Sequence alignment
-    uri: http://edamontology.org/operation_0292
-  - term: Formatting
-    uri: http://edamontology.org/operation_0335
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence assembly visualisation
+        uri: http://edamontology.org/operation_3184
+      - term: Modelling and simulation
+        uri: http://edamontology.org/operation_2426
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output: []
 homepage: http://www.htslib.org/
 homepage_status: 0
 language:
-- C
+  - C
 lastUpdate: '2019-02-12T18:47:11Z'
 license: MIT
 link:
-- note: null
-  type: Repository
-  url: https://github.com/samtools/samtools
+  - note: null
+    type: Repository
+    url: https://github.com/samtools/samtools
 maturity: Mature
 name: SAMtools
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: seqwiki_import
 publication:
-- doi: null
-  metadata: null
-  pmcid: null
-  pmid: '19505943'
-  type: null
-  version: null
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '19505943'
+    type: null
+    version: null
 toolType:
-- Suite
+  - Suite
 topic:
-- term: Bioinformatics
-  uri: http://edamontology.org/topic_0091
-- term: Mapping
-  uri: http://edamontology.org/topic_0102
-- term: Data architecture, analysis and design
-  uri: http://edamontology.org/topic_3365
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+  - term: Data architecture, analysis and design
+    uri: http://edamontology.org/topic_3365
 validated: 0
 version: []

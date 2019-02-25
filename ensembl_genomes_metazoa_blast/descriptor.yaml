@@ -3,51 +3,51 @@ additionDate: '2015-01-29T15:47:59Z'
 biotoolsCURIE: biotools:ensembl_genomes_metazoa_blast
 biotoolsID: ensembl_genomes_metazoa_blast
 collectionID:
-- Ensembl Tools
-- Ensembl Genomes
-- EBI Tools
+  - Ensembl Tools
+  - Ensembl Genomes
+  - EBI Tools
 cost: null
 credit:
-- email: null
-  name: Ensembl team
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: EMBL-EBI
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: helpdesk@ensemblgenomes.org
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: eg-webteam@ebi.ac.uk
-  name: Ensembl Genomes webteam
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: Ensembl team
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: EMBL-EBI
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: helpdesk@ensemblgenomes.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: eg-webteam@ebi.ac.uk
+    name: Ensembl Genomes webteam
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Searches Ensembl Metazoa sequences using Exonerate.
 documentation:
-- note: null
-  type: Terms of use
-  url: http://www.ebi.ac.uk/about/terms-of-use
-- note: null
-  type: General
-  url: http://metazoa.ensembl.org/info/website/help/index.html
+  - note: null
+    type: Terms of use
+    url: http://www.ebi.ac.uk/about/terms-of-use
+  - note: null
+    type: General
+    url: http://metazoa.ensembl.org/info/website/help/index.html
 download: []
 editPermission:
   authors: []
@@ -56,27 +56,27 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Sequence
-      uri: http://edamontology.org/data_2044
-    format:
-    - term: FASTA
-      uri: http://edamontology.org/format_1929
-  note: null
-  operation:
-  - term: Sequence similarity search
-    uri: http://edamontology.org/operation_0346
-  output:
-  - data:
-      term: Sequence alignment
-      uri: http://edamontology.org/data_0863
-    format: []
-  - data:
-      term: Sequence search results
-      uri: http://edamontology.org/data_0857
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+    note: null
+    operation:
+      - term: Sequence similarity search
+        uri: http://edamontology.org/operation_0346
+    output:
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format: []
+      - data:
+          term: Sequence search results
+          uri: http://edamontology.org/data_0857
+        format: []
 homepage: http://metazoa.ensembl.org/Multi/blastview
 homepage_status: 0
 language: []
@@ -86,23 +86,23 @@ link: []
 maturity: null
 name: Ensembl Genomes Metazoa Blast
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: EMBL-EBI
 publication:
-- doi: 10.1093/nar/gkv1157
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Other
-  version: null
+  - doi: 10.1093/nar/gkv1157
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
 validated: 0
 version:
-- '1'
+  - '1'

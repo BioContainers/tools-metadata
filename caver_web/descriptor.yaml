@@ -3,88 +3,88 @@ additionDate: '2016-06-30T11:17:55Z'
 biotoolsCURIE: biotools:caver_web
 biotoolsID: caver_web
 collectionID:
-- Czech Republic
-- ELIXIR-CZ
-- CAVER
+  - Czech Republic
+  - ELIXIR-CZ
+  - CAVER
 cost: Free of charge (with restrictions)
 credit:
-- email: null
-  name: Jan Brezovsky
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: Jiri Damborsky
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: Jan Stourac
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: Antonin Pavelka
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole:
-  - Contributor
-  url: null
-- email: null
-  name: Masaryk University, Brno, Czech Republic
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: International Centre for Clinical Research, Brno, Czech Republic
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: Loschmidt Laboratories
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: ELIXIR-CZ
-  note: null
-  orcidid: null
-  typeEntity: Consortium
-  typeRole: []
-  url: null
-- email: caver@sci.muni.cz
-  name: CAVER Web team
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: Jan Brezovsky
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Jiri Damborsky
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Jan Stourac
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Antonin Pavelka
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Masaryk University, Brno, Czech Republic
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: International Centre for Clinical Research, Brno, Czech Republic
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: Loschmidt Laboratories
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: ELIXIR-CZ
+    note: null
+    orcidid: null
+    typeEntity: Consortium
+    typeRole: []
+    url: null
+  - email: caver@sci.muni.cz
+    name: CAVER Web team
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: A web interface for identification and analysis of tunnels and channels
   in static protein structures with automated starting point detection.
 documentation:
-- note: null
-  type: General
-  url: https://loschmidt.chemi.muni.cz/caverweb/
+  - note: null
+    type: General
+    url: https://loschmidt.chemi.muni.cz/caverweb/
 download: []
 editPermission:
   authors: []
@@ -93,57 +93,57 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Protein structure
-      uri: http://edamontology.org/data_1460
-    format:
-    - term: PDB
-      uri: http://edamontology.org/format_1476
-  note: identification of tunnels and pockets
-  operation:
-  - term: Protein property calculation
-    uri: http://edamontology.org/operation_0250
-  output:
-  - data:
-      term: Protein structure report
-      uri: http://edamontology.org/data_1537
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-    - term: PDB
-      uri: http://edamontology.org/format_1476
+  - cmd: null
+    input:
+      - data:
+          term: Protein structure
+          uri: http://edamontology.org/data_1460
+        format:
+          - term: PDB
+            uri: http://edamontology.org/format_1476
+    note: identification of tunnels and pockets
+    operation:
+      - term: Protein property calculation
+        uri: http://edamontology.org/operation_0250
+    output:
+      - data:
+          term: Protein structure report
+          uri: http://edamontology.org/data_1537
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+          - term: PDB
+            uri: http://edamontology.org/format_1476
 homepage: http://loschmidt.chemi.muni.cz/caverweb/
 homepage_status: 0
 language:
-- JavaScript
-- Java
+  - JavaScript
+  - Java
 lastUpdate: '2019-02-13T13:14:34Z'
 license: null
 link: []
 maturity: Emerging
 name: CAVER Web
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: Loschmidt Laboratories
 publication:
-- doi: 10.1371/journal.pcbi.1002708
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1371/journal.pcbi.1002708
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Protein structure analysis
-  uri: http://edamontology.org/topic_2814
-- term: Bioinformatics
-  uri: http://edamontology.org/topic_0091
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
 validated: 0
 version:
-- '0.2'
+  - '0.2'

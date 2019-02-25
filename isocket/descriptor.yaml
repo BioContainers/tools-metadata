@@ -1,0 +1,111 @@
+accessibility: []
+additionDate: '2018-05-31T14:59:04Z'
+biotoolsCURIE: biotools:isocket
+biotoolsID: isocket
+collectionID: []
+cost: null
+credit:
+- email: heal.jw@gmail.com
+  name: Jack W Heal
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: d.n.woolfson@bristol.ac.uk
+  name: Derek N Woolfson
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Interactive analysis of side-chain packing within proteins to identify
+  coiled coils automatically and with considerable user control.
+documentation:
+- note: null
+  type: General
+  url: https://github.com/woolfson-group/isocket
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Protein structure assignment
+    uri: http://edamontology.org/operation_0320
+  output: []
+homepage: https://github.com/woolfson-group/isocket
+homepage_status: 0
+language:
+- Python
+lastUpdate: '2018-12-10T12:58:59Z'
+license: null
+link: []
+maturity: null
+name: iSOCKET
+operatingSystem:
+- Linux
+- Mac
+otherID: []
+owner: d.gabrielaitis
+publication:
+- doi: 10.1093/bioinformatics/bty347
+  metadata:
+    abstract: 'Motivation: To understand protein structure, folding and function fully
+      and to design proteins de novo reliably, we must learn from natural protein
+      structures that have been characterized experimentally. The number of protein
+      structures available is large and growing exponentially, which makes this task
+      challenging. Indeed, computational resources are becoming increasingly important
+      for classifying and analyzing this resource. Here, we use tools from graph theory
+      to define an Atlas classification scheme for automatically categorizing certain
+      protein substructures. Results: Focusing on the α-helical coiled coils, which
+      are ubiquitous protein-structure and protein-protein interaction motifs, we
+      present a suite of computational resources designed for analyzing these assemblies.
+      iSOCKET enables interactive analysis of side-chain packing within proteins to
+      identify coiled coils automatically and with considerable user control. Applying
+      a graph theory-based Atlas classification scheme to structures identified by
+      iSOCKET gives the Atlas of Coiled Coils, a fully automated, updated overview
+      of extant coiled coils. The utility of this approach is illustrated with the
+      first formal classification of an emerging subclass of coiled coils called α-helical
+      barrels. Furthermore, in the Atlas, the known coiled-coil universe is presented
+      alongside a partial enumeration of the ''dark matter'' of coiled-coil structures;
+      i.e. those coiled-coil architectures that are theoretically possible but have
+      not been observed to date, and thus present defined targets for protein design.
+      Availability and implementation: iSOCKET is available as part of the open-source
+      GitHub repository associated with this work (https://github.com/woolfson-group/isocket).
+      This repository also contains all the data generated when classifying the protein
+      graphs. The Atlas of Coiled Coils is available at: http://coiledcoils.chm.bris.ac.uk/atlas/app.'
+    authors:
+    - name: Heal J.W.
+    - name: Bartlett G.J.
+    - name: Wood C.W.
+    - name: Thomson A.R.
+    - name: Woolfson D.N.
+    citationCount: 0
+    date: '2018-10-01T00:00:00Z'
+    journal: Bioinformatics (Oxford, England)
+    title: 'Applying graph theory to protein structures: an Atlas of coiled coils'
+  pmcid: null
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Proteins
+  uri: http://edamontology.org/topic_0078
+- term: Protein structure analysis
+  uri: http://edamontology.org/topic_2814
+- term: Protein sites, features and motifs
+  uri: http://edamontology.org/topic_3510
+validated: 1
+version:
+- 0.3.1

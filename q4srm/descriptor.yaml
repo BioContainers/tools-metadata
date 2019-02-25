@@ -9,17 +9,17 @@ description: A software tool that rapidly checks the signal from all heavy label
   peptides and flags those that fail quality control metrics in targeted proteomics
   experiments.
 documentation:
-- note: null
-  type: Tutorial
-  url: https://github.com/PNNL-Comp-Mass-Spec/Q4SRM/wiki/Tutorial
-- note: null
-  type: Installation instructions
-  url: https://github.com/PNNL-Comp-Mass-Spec/Q4SRM/wiki
+  - note: null
+    type: Tutorial
+    url: https://github.com/PNNL-Comp-Mass-Spec/Q4SRM/wiki/Tutorial
+  - note: null
+    type: Installation instructions
+    url: https://github.com/PNNL-Comp-Mass-Spec/Q4SRM/wiki
 download:
-- note: null
-  type: Source package
-  url: https://github.com/PNNL-Comp-Mass-Spec/Q4SRM
-  version: null
+  - note: null
+    type: Source package
+    url: https://github.com/PNNL-Comp-Mass-Spec/Q4SRM
+    version: null
 editPermission:
   authors: []
   type: private
@@ -27,55 +27,55 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Mass spectrometry spectra
-      uri: http://edamontology.org/data_0943
-    format:
-    - term: Thermo RAW
-      uri: http://edamontology.org/format_3712
-  note: null
-  operation:
-  - term: Validation
-    uri: http://edamontology.org/operation_2428
-  output:
-  - data:
-      term: Report
-      uri: http://edamontology.org/data_2048
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
+  - cmd: null
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: Thermo RAW
+            uri: http://edamontology.org/format_3712
+    note: null
+    operation:
+      - term: Validation
+        uri: http://edamontology.org/operation_2428
+    output:
+      - data:
+          term: Report
+          uri: http://edamontology.org/data_2048
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
 homepage: https://github.com/PNNL-Comp-Mass-Spec/Q4SRM
 homepage_status: 0
 language:
-- C#
+  - C#
 lastUpdate: '2019-01-22T17:27:59Z'
 license: null
 link:
-- note: null
-  type: Repository
-  url: https://github.com/PNNL-Comp-Mass-Spec/Q4SRM
+  - note: null
+    type: Repository
+    url: https://github.com/PNNL-Comp-Mass-Spec/Q4SRM
 maturity: null
 name: Q4SRM
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: n.m.palmblad@lumc.nl
 publication:
-- doi: 10.1021/acs.jproteome.8b00688
-  metadata: null
-  pmcid: null
-  pmid: '30525668'
-  type: Primary
-  version: null
+  - doi: 10.1021/acs.jproteome.8b00688
+    metadata: null
+    pmcid: null
+    pmid: '30525668'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Desktop application
+  - Command-line tool
+  - Desktop application
 topic:
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
 validated: 1
 version: []

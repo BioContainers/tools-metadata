@@ -3,25 +3,25 @@ additionDate: '2017-01-17T14:56:45Z'
 biotoolsCURIE: biotools:rcellminer
 biotoolsID: rcellminer
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: lunaa@cbio.mskcc.org
-  name: Augustin Luna
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: vinodh.rajapakse@nih.gov
-  name: Vinodh Rajapakse
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: lunaa@cbio.mskcc.org
+    name: Augustin Luna
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: vinodh.rajapakse@nih.gov
+    name: Vinodh Rajapakse
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: The NCI-60 cancer cell line panel has been used over the course of several
   decades as an anti-cancer drug screen. Thousands of compounds have been tested on
   the NCI-60, which have been extensively characterized by many platforms for gene
@@ -30,14 +30,14 @@ description: The NCI-60 cancer cell line panel has been used over the course of 
   to analyze the NCI-60 and to provide a powerful suite of tools for exploration of
   NCI-60 data.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/rcellminer.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/rcellminer.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/rcellminer_1.6.0.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/rcellminer_1.6.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -45,72 +45,72 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Compound name
-      uri: http://edamontology.org/data_0990
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  note: null
-  operation:
-  - term: Data retrieval
-    uri: http://edamontology.org/operation_2422
-  output:
-  - data:
-      term: Drug identifier
-      uri: http://edamontology.org/data_0993
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  - data:
-      term: Drug name
-      uri: http://edamontology.org/data_2899
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
+  - cmd: null
+    input:
+      - data:
+          term: Compound name
+          uri: http://edamontology.org/data_0990
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+    note: null
+    operation:
+      - term: Data retrieval
+        uri: http://edamontology.org/operation_2422
+    output:
+      - data:
+          term: Drug identifier
+          uri: http://edamontology.org/data_0993
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Drug name
+          uri: http://edamontology.org/data_2899
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
 homepage: http://bioconductor.org/packages/release/bioc/html/rcellminer.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-01-11T02:00:14Z'
 license: GPL-3.0
 link:
-- note: null
-  type: Mirror
-  url: http://discover.nci.nih.gov/cellminer/
+  - note: null
+    type: Mirror
+    url: http://discover.nci.nih.gov/cellminer/
 maturity: null
 name: rcellminer
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1093/bioinformatics/btv701
-  metadata: null
-  pmcid: PMC4907377
-  pmid: '26635141'
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/btv701
+    metadata: null
+    pmcid: PMC4907377
+    pmid: '26635141'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: Oncology
-  uri: http://edamontology.org/topic_2640
-- term: Drug development
-  uri: http://edamontology.org/topic_3373
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
-- term: Bioinformatics
-  uri: http://edamontology.org/topic_0091
-- term: Data architecture, analysis and design
-  uri: http://edamontology.org/topic_3365
-- term: Data integration and warehousing
-  uri: http://edamontology.org/topic_3366
+  - term: Oncology
+    uri: http://edamontology.org/topic_2640
+  - term: Drug development
+    uri: http://edamontology.org/topic_3373
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
+  - term: Data architecture, analysis and design
+    uri: http://edamontology.org/topic_3365
+  - term: Data integration and warehousing
+    uri: http://edamontology.org/topic_3366
 validated: 1
 version:
-- 1.6.0
+  - 1.6.0

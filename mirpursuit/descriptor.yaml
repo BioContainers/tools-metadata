@@ -5,19 +5,19 @@ biotoolsID: mirpursuit
 collectionID: []
 cost: Free of charge
 credit:
-- email: brunocosta@itqb.unl.pt
-  name: Bruno Costa
-  note: null
-  orcidid: http://orcid.org/0000-0002-3794-4262
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://github.com/forestbiotech-lab/miRPursuit/issues
+  - email: brunocosta@itqb.unl.pt
+    name: Bruno Costa
+    note: null
+    orcidid: http://orcid.org/0000-0002-3794-4262
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/forestbiotech-lab/miRPursuit/issues
 description: A pipeline for automated analyses of small RNAs in non-model plants
 documentation:
-- note: null
-  type: General
-  url: https://github.com/forestbiotech-lab/miRPursuit/blob/master/README.md
+  - note: null
+    type: General
+    url: https://github.com/forestbiotech-lab/miRPursuit/blob/master/README.md
 download: []
 editPermission:
   authors: []
@@ -26,86 +26,86 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: RNA sequence (raw)
-      uri: http://edamontology.org/data_3496
-    format:
-    - term: FASTQ
-      uri: http://edamontology.org/format_1930
-    - term: FASTA
-      uri: http://edamontology.org/format_1929
-  note: null
-  operation:
-  - term: Sequence annotation
-    uri: http://edamontology.org/operation_0361
-  - term: Comparison
-    uri: http://edamontology.org/operation_2424
-  output:
-  - data:
-      term: Report
-      uri: http://edamontology.org/data_2048
-    format:
-    - term: FASTA
-      uri: http://edamontology.org/format_1929
+  - cmd: null
+    input:
+      - data:
+          term: RNA sequence (raw)
+          uri: http://edamontology.org/data_3496
+        format:
+          - term: FASTQ
+            uri: http://edamontology.org/format_1930
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+    note: null
+    operation:
+      - term: Sequence annotation
+        uri: http://edamontology.org/operation_0361
+      - term: Comparison
+        uri: http://edamontology.org/operation_2424
+    output:
+      - data:
+          term: Report
+          uri: http://edamontology.org/data_2048
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
 homepage: https://github.com/forestbiotech-lab/miRPursuit
 homepage_status: 0
 language:
-- Shell
-- Java
-- Python
+  - Shell
+  - Java
+  - Python
 lastUpdate: '2019-01-15T02:12:37Z'
 license: null
 link: []
 maturity: Emerging
 name: miRPursuit
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: BrunoCosta
 publication:
-- doi: 10.1002/1873-3468.12746
-  metadata:
-    abstract: © 2017 Federation of European Biochemical SocietiesmiRPursuit is a pipeline
-      developed for running end-to-end analyses of high-throughput small RNA (sRNA)
-      sequence data in model and nonmodel plants, from raw data to identified and
-      annotated conserved and novel sequences. It consists of a series of UNIX shell
-      scripts, which connect open-source sRNA analysis software. The involved parameters
-      can be combined with convenient workflow management by users without advanced
-      computational skills. miRPursuit presents several advantages when compared to
-      other tools, including the possibility of processing several sRNA libraries
-      in parallel, thus easily allowing a comparison of the differences in sRNA read
-      accumulation among sRNA libraries. We validate miRPursuit by using datasets
-      from a model plant and discuss its performance with the analysis of sRNAs from
-      non-model species.
-    authors:
-    - name: Chaves I.
-    - name: Costa B.V.
-    - name: Rodrigues A.S.
-    - name: Bohn A.
-    - name: Miguel C.M.
-    citationCount: 0
-    date: '2017-08-01T00:00:00Z'
-    journal: FEBS Letters
-    title: miRPursuit—a pipeline for automated analyses of small RNAs in model and
-      nonmodel plants
-  pmcid: null
-  pmid: '28686301'
-  type: Primary
-  version: null
-- doi: null
-  metadata: null
-  pmcid: PMC3531190
-  pmid: null
-  type: Other
-  version: null
+  - doi: 10.1002/1873-3468.12746
+    metadata:
+      abstract: "\xA9 2017 Federation of European Biochemical SocietiesmiRPursuit\
+        \ is a pipeline developed for running end-to-end analyses of high-throughput\
+        \ small RNA (sRNA) sequence data in model and nonmodel plants, from raw data\
+        \ to identified and annotated conserved and novel sequences. It consists of\
+        \ a series of UNIX shell scripts, which connect open-source sRNA analysis\
+        \ software. The involved parameters can be combined with convenient workflow\
+        \ management by users without advanced computational skills. miRPursuit presents\
+        \ several advantages when compared to other tools, including the possibility\
+        \ of processing several sRNA libraries in parallel, thus easily allowing a\
+        \ comparison of the differences in sRNA read accumulation among sRNA libraries.\
+        \ We validate miRPursuit by using datasets from a model plant and discuss\
+        \ its performance with the analysis of sRNAs from non-model species."
+      authors:
+        - name: Chaves I.
+        - name: Costa B.V.
+        - name: Rodrigues A.S.
+        - name: Bohn A.
+        - name: Miguel C.M.
+      citationCount: 0
+      date: '2017-08-01T00:00:00Z'
+      journal: FEBS Letters
+      title: "miRPursuit\u2014a pipeline for automated analyses of small RNAs in model\
+        \ and nonmodel plants"
+    pmcid: null
+    pmid: '28686301'
+    type: Primary
+    version: null
+  - doi: null
+    metadata: null
+    pmcid: PMC3531190
+    pmid: null
+    type: Other
+    version: null
 toolType:
-- Workflow
+  - Workflow
 topic:
-- term: Functional, regulatory and non-coding RNA
-  uri: http://edamontology.org/topic_0659
+  - term: Functional, regulatory and non-coding RNA
+    uri: http://edamontology.org/topic_0659
 validated: 1
 version:
-- v1.0
+  - v1.0

@@ -3,33 +3,33 @@ additionDate: '2016-05-17T10:18:27Z'
 biotoolsCURIE: biotools:compomics-utilities
 biotoolsID: compomics-utilities
 collectionID:
-- BIG N2N
-- VIB
-- Compomics
-- UGent
+  - BIG N2N
+  - VIB
+  - Compomics
+  - UGent
 cost: null
 credit:
-- email: null
-  name: ugent.be
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: lennart.martens@ugent.be
-  name: Martens Lennart
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: ugent.be
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: lennart.martens@ugent.be
+    name: Martens Lennart
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Open-source java library for computational proteomics.
 documentation:
-- note: null
-  type: General
-  url: http://compomics.github.io/projects/compomics-utilities.html
+  - note: null
+    type: General
+    url: http://compomics.github.io/projects/compomics-utilities.html
 download: []
 editPermission:
   authors: []
@@ -38,54 +38,54 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Mass spectrometry data
-      uri: http://edamontology.org/data_2536
-    format: []
-  note: null
-  operation:
-  - term: Protein sequence analysis
-    uri: http://edamontology.org/operation_2479
-  output:
-  - data:
-      term: Image
-      uri: http://edamontology.org/data_2968
-    format: []
-  - data:
-      term: Mass spectrometry data
-      uri: http://edamontology.org/data_2536
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output:
+      - data:
+          term: Image
+          uri: http://edamontology.org/data_2968
+        format: []
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format: []
 homepage: http://compomics.github.io/projects/compomics-utilities.html
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2019-01-17T12:43:52Z'
 license: null
 link: []
 maturity: null
 name: Compomics-utilities
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: Katrijn.Vannerum@ugent.be
 publication:
-- doi: 10.1186/1471-2105-12-70
-  metadata: null
-  pmcid: PMC3060842
-  pmid: '21385435'
-  type: Primary
-  version: null
+  - doi: 10.1186/1471-2105-12-70
+    metadata: null
+    pmcid: PMC3060842
+    pmid: '21385435'
+    type: Primary
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
-- term: Proteins
-  uri: http://edamontology.org/topic_0078
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
 validated: 1
 version:
-- 4.3.18
+  - 4.3.18

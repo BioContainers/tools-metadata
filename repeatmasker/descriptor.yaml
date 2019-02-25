@@ -3,62 +3,62 @@ additionDate: '2017-08-20T17:21:27Z'
 biotoolsCURIE: biotools:repeatmasker
 biotoolsID: repeatmasker
 collectionID:
-- Animal and Crop Genomics
+  - Animal and Crop Genomics
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://www.repeatmasker.org/RMDownload.html
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.repeatmasker.org/RMDownload.html
 description: 'A program that screens DNA sequences for interspersed repeats and low
   complexity DNA sequences. The output of the program is a detailed annotation of
   the repeats that are present in the query sequence as well as a modified version
   of the query sequence in which all the annotated repeats have been masked (default:
   replaced by Ns).'
 documentation:
-- note: null
-  type: General
-  url: http://www.repeatmasker.org/webrepeatmaskerhelp.html
+  - note: null
+    type: General
+    url: http://www.repeatmasker.org/webrepeatmaskerhelp.html
 download: []
 editPermission:
   authors:
-  - animalandcropgenomics
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Genome annotation
-    uri: http://edamontology.org/operation_0362
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genome annotation
+        uri: http://edamontology.org/operation_0362
+    output: []
 homepage: http://www.repeatmasker.org/
 homepage_status: 0
 language:
-- Perl
+  - Perl
 lastUpdate: '2019-01-29T12:04:18Z'
 license: OSL-2.1
 link: []
 maturity: null
 name: RepeatMasker
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: vzn529@binf.ku.dk
 publication: []
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
-- term: Sequence composition, complexity and repeats
-  uri: http://edamontology.org/topic_0157
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Sequence composition, complexity and repeats
+    uri: http://edamontology.org/topic_0157
 validated: 1
 version: []

@@ -5,46 +5,46 @@ biotoolsID: pdbe
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: Contact form
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://www.ebi.ac.uk/support/pdbe
+  - email: null
+    name: Contact form
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www.ebi.ac.uk/support/pdbe
 description: The Protein Data Bank in Europe is the European resource for the collection,
   organisation and dissemination of data on biological macromolecular structures.
   The database infrastructure is based on the remediated PDB archive data and a specially
   designed database for storing information on interactions between proteins and bound
   molecules.
 documentation:
-- note: null
-  type: General
-  url: http://www.ebi.ac.uk/pdbe/documentation
+  - note: null
+    type: General
+    url: http://www.ebi.ac.uk/pdbe/documentation
 download: []
 editPermission:
   authors: []
   type: private
 elixirNode:
-- EMBL
+  - EMBL
 elixirPlatform:
-- Data
+  - Data
 elixir_badge: 3
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Deposition
-    uri: http://edamontology.org/operation_3431
-  - term: Design
-    uri: http://edamontology.org/operation_2430
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  - term: Protein structure analysis
-    uri: http://edamontology.org/operation_2406
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Deposition
+        uri: http://edamontology.org/operation_3431
+      - term: Design
+        uri: http://edamontology.org/operation_2430
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+      - term: Protein structure analysis
+        uri: http://edamontology.org/operation_2406
+    output: []
 homepage: http://www.ebi.ac.uk/pdbe/
 homepage_status: 0
 language: []
@@ -54,30 +54,30 @@ link: []
 maturity: null
 name: PDBe
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-EE
 publication:
-- doi: null
-  metadata: null
-  pmcid: null
-  pmid: '19858099'
-  type: null
-  version: null
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '19858099'
+    type: null
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: NMR
-  uri: http://edamontology.org/topic_0593
-- term: Imaging
-  uri: http://edamontology.org/topic_3382
-- term: X-ray diffraction
-  uri: http://edamontology.org/topic_2828
-- term: Proteins
-  uri: http://edamontology.org/topic_0078
-- term: Database management
-  uri: http://edamontology.org/topic_3489
+  - term: NMR
+    uri: http://edamontology.org/topic_0593
+  - term: Imaging
+    uri: http://edamontology.org/topic_3382
+  - term: X-ray diffraction
+    uri: http://edamontology.org/topic_2828
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
 validated: 0
 version: []

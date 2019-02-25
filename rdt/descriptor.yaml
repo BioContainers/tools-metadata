@@ -5,20 +5,20 @@ biotoolsID: rdt
 collectionID: []
 cost: null
 credit:
-- email: asad@ebi.ac.uk
-  name: Syed Asad Rahman
-  note: null
-  orcidid: http://orcid.org/0000-0002-7602-6675
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-description: Reaction Detection Tool (RDT) extracts chemical features like Atom–Atom
-  Mapping (AAM), Bond Changes (BCs) and Reaction Centres from biochemical reactions.
+  - email: asad@ebi.ac.uk
+    name: Syed Asad Rahman
+    note: null
+    orcidid: http://orcid.org/0000-0002-7602-6675
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: "Reaction Detection Tool (RDT) extracts chemical features like Atom\u2013\
+  Atom Mapping (AAM), Bond Changes (BCs) and Reaction Centres from biochemical reactions."
 documentation:
-- note: null
-  type: General
-  url: https://github.com/asad/ReactionDecoder/blob/master/README.md
+  - note: null
+    type: General
+    url: https://github.com/asad/ReactionDecoder/blob/master/README.md
 download: []
 editPermission:
   authors: []
@@ -27,44 +27,44 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Enzyme kinetics calculation
-    uri: http://edamontology.org/operation_0334
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Enzyme kinetics calculation
+        uri: http://edamontology.org/operation_0334
+    output: []
 homepage: https://github.com/asad/ReactionDecoder
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2019-01-13T01:19:29Z'
 license: GPL-3.0
 link:
-- note: null
-  type: Issue tracker
-  url: https://github.com/asad/ReactionDecoder/issues
+  - note: null
+    type: Issue tracker
+    url: https://github.com/asad/ReactionDecoder/issues
 maturity: null
 name: RDT
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: daniel_stefan
 publication:
-- doi: 10.1093/bioinformatics/btw096
-  metadata: null
-  pmcid: PMC4920114
-  pmid: '27153692'
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/btw096
+    metadata: null
+    pmcid: PMC4920114
+    pmid: '27153692'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Biochemistry
-  uri: http://edamontology.org/topic_3292
-- term: Enzymes
-  uri: http://edamontology.org/topic_0821
+  - term: Biochemistry
+    uri: http://edamontology.org/topic_3292
+  - term: Enzymes
+    uri: http://edamontology.org/topic_0821
 validated: 1
 version: []

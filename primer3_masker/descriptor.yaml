@@ -1,0 +1,86 @@
+accessibility: []
+additionDate: '2018-06-28T14:57:56Z'
+biotoolsCURIE: biotools:primer3_masker
+biotoolsID: primer3_masker
+collectionID: []
+cost: null
+credit:
+- email: maido.remm@ut.ee
+  name: Maido Remm
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: A sequence masking tool, both Primer3 integrated and standalone variants.
+documentation:
+- note: null
+  type: General
+  url: https://github.com/bioinfo-ut/primer3_masker
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: PCR primer design
+    uri: http://edamontology.org/operation_0308
+  output: []
+homepage: https://github.com/bioinfo-ut/primer3_masker
+homepage_status: 0
+language:
+- C
+lastUpdate: '2018-12-10T12:58:59Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: Primer3_masker
+operatingSystem:
+- Linux
+otherID: []
+owner: d.gabrielaitis
+publication:
+- doi: 10.1093/bioinformatics/bty036
+  metadata:
+    abstract: © The Author(s) 2018. Published by Oxford University Press. Designing
+      PCR primers for amplifying regions of eukaryotic genomes is a complicated task
+      because the genomes contain a large number of repeat sequences and other regions
+      unsuitable for amplification by PCR. We have developed a novel k-mer based masking
+      method that uses a statistical model to detect and mask failure-prone regions
+      on the DNA template prior to primer design. We implemented the software as a
+      standalone software primer3-masker and integrated it into the primer design
+      program Primer3.
+    authors:
+    - name: Koressaar T.
+    - name: Lepamets M.
+    - name: Kaplinski L.
+    - name: Raime K.
+    - name: Andreson R.
+    - name: Remm M.
+    citationCount: 1
+    date: '2018-06-01T00:00:00Z'
+    journal: Bioinformatics
+    title: 'Primer3-masker: Integrating masking of template sequence with primer design
+      software'
+  pmcid: null
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Probes and primers
+  uri: http://edamontology.org/topic_0632
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+- term: PCR experiment
+  uri: http://edamontology.org/topic_3519
+validated: 1
+version: []

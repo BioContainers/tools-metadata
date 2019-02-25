@@ -3,22 +3,22 @@ additionDate: '2017-03-24T09:34:04Z'
 biotoolsCURIE: biotools:clustalw
 biotoolsID: clustalw
 collectionID:
-- galaxyPasteur
+  - galaxyPasteur
 cost: null
 credit:
-- email: null
-  name: Contact Form
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://www.ebi.ac.uk/support/index.php
+  - email: null
+    name: Contact Form
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www.ebi.ac.uk/support/index.php
 description: Standard multiple sequence alignment.
 documentation:
-- note: null
-  type: General
-  url: https://www.ebi.ac.uk/services
+  - note: null
+    type: General
+    url: https://www.ebi.ac.uk/services
 download: []
 editPermission:
   authors: []
@@ -27,13 +27,13 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Multiple sequence alignment
-    uri: http://edamontology.org/operation_0492
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Multiple sequence alignment
+        uri: http://edamontology.org/operation_0492
+    output: []
 homepage: http://www.ebi.ac.uk/clustalw/
 homepage_status: 0
 language: []
@@ -43,36 +43,36 @@ link: []
 maturity: null
 name: ClustalW
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-EE
 publication:
-- doi: null
-  metadata: null
-  pmcid: null
-  pmid: '12824352'
-  type: Primary
-  version: null
-- doi: null
-  metadata: null
-  pmcid: null
-  pmid: '7984417'
-  type: Primary
-  version: null
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '12824352'
+    type: Primary
+    version: null
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '7984417'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
-- term: Nucleic acid structure analysis
-  uri: http://edamontology.org/topic_0097
-- term: Phylogeny
-  uri: http://edamontology.org/topic_0084
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
-- term: Sequence composition, complexity and repeats
-  uri: http://edamontology.org/topic_0157
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Nucleic acid structure analysis
+    uri: http://edamontology.org/topic_0097
+  - term: Phylogeny
+    uri: http://edamontology.org/topic_0084
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Sequence composition, complexity and repeats
+    uri: http://edamontology.org/topic_0157
 validated: 0
 version: []

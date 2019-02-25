@@ -3,331 +3,332 @@ additionDate: '2017-01-13T13:14:14Z'
 biotoolsCURIE: biotools:cufflinks
 biotoolsID: cufflinks
 collectionID:
-- galaxyPasteur
-- Animal and Crop Genomics
-- Cufflinks
+  - galaxyPasteur
+  - Animal and Crop Genomics
+  - Cufflinks
 cost: null
 credit:
-- email: coletrap@uw.edu
-  name: Cole Trapnell Lab
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://cole-trapnell-lab.github.io/
+  - email: coletrap@uw.edu
+    name: Cole Trapnell Lab
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://cole-trapnell-lab.github.io/
 description: Cufflinks assembles transcripts and estimates their abundances in RNA-Seq
   samples. It accepts aligned RNA-Seq reads and assembles the alignments into a parsimonious
   set of transcripts. Cufflinks then estimates the relative abundances of these transcripts
   based on how many reads support each one.
 documentation:
-- note: null
-  type: Manual
-  url: http://cole-trapnell-lab.github.io/cufflinks/manual/
-- note: null
-  type: General
-  url: http://cole-trapnell-lab.github.io/cufflinks/getting_started/
+  - note: null
+    type: Manual
+    url: http://cole-trapnell-lab.github.io/cufflinks/manual/
+  - note: null
+    type: General
+    url: http://cole-trapnell-lab.github.io/cufflinks/getting_started/
 download: []
 editPermission:
   authors:
-  - animalandcropgenomics
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Sequence alignment
-      uri: http://edamontology.org/data_0863
-    format:
-    - term: BAM
-      uri: http://edamontology.org/format_2572
-    - term: SAM
-      uri: http://edamontology.org/format_2573
-  note: Cufflinks the program assembles transcriptomes from RNA-Seq data and quantifies
-    their expression. aligned_reads.(sam/bam) This GTF file contains Cufflinks assembled
-    isoforms. This file contains the estimated isoform-level expression values in
-    the generic FPKM Tracking Format. This file contains the estimated gene-level
-    expression values in the generic FPKM Tracking Format.
-  operation:
-  - term: RNA-seq time series data analysis
-    uri: http://edamontology.org/operation_3565
-  - term: Transcriptome assembly
-    uri: http://edamontology.org/operation_3258
-  output:
-  - data:
-      term: Sequence assembly report
-      uri: http://edamontology.org/data_3181
-    format:
-    - term: GTF
-      uri: http://edamontology.org/format_2306
-  - data:
-      term: Gene transcript report
-      uri: http://edamontology.org/data_3134
-    format: []
-  - data:
-      term: Gene expression data
-      uri: http://edamontology.org/data_2603
-    format: []
-- cmd: null
-  input:
-  - data:
-      term: Sequence assembly report
-      uri: http://edamontology.org/data_3181
-    format:
-    - term: GTF
-      uri: http://edamontology.org/format_2306
-  note: After assembling a transcriptome from one or more samples, you'll probably
-    want to compare your assembly to known transcripts. Even if there is no "reference"
-    transcriptome for the organism you're studying, you may want to compare the transcriptomes
-    assembled from different RNA-Seq libraries. Cuffcompare helps you perform these
-    comparisons and assess the quality of your assembly. Cuffcompare takes Cufflinks
-    GTF output as input, and optionally can take a reference annotation (such as from
-    Ensembl) Cuffcompare reports various statistics related to the "accuracy" of the
-    transcripts in each sample when compared to the reference annotation data. Cuffcompare
-    reports a GTF file containing the "union" of all transfrags in each sample.
-  operation:
-  - term: Sequence comparison
-    uri: http://edamontology.org/operation_2451
-  - term: DNA transcription
-    uri: http://edamontology.org/operation_0372
-  output:
-  - data:
-      term: Statistical estimate score
-      uri: http://edamontology.org/data_0951
-    format: []
-  - data:
-      term: Report
-      uri: http://edamontology.org/data_2048
-    format:
-    - term: GTF
-      uri: http://edamontology.org/format_2306
-  - data:
-      term: Gene transcript report
-      uri: http://edamontology.org/data_3134
-    format: []
-  - data:
-      term: Gene transcript report
-      uri: http://edamontology.org/data_3134
-    format: []
-  - data:
-      term: Report
-      uri: http://edamontology.org/data_2048
-    format: []
-- cmd: null
-  input:
-  - data:
-      term: ID list
-      uri: http://edamontology.org/data_2872
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  note: When you have multiple RNA-Seq libraries and youve assembled transcriptomes
-    from each of them, we recommend that you merge these assemblies into a master
-    transcriptome. This step is required for a differential expression analysis of
-    the new transcripts youve assembled. Cuffmerge performs this merge step. Text
-    file manifest with a list (one per line) of GTF files that youd like to merge
-    together into a single GTF file. This file merges together the input assemblies.
-  operation:
-  - term: Aggregation
-    uri: http://edamontology.org/operation_3436
-  output:
-  - data:
-      term: Sequence assembly report
-      uri: http://edamontology.org/data_3181
-    format:
-    - term: GTF
-      uri: http://edamontology.org/format_2306
-- cmd: null
-  input:
-  - data:
-      term: Alignment
-      uri: http://edamontology.org/data_1916
-    format:
-    - term: BAM
-      uri: http://edamontology.org/format_2572
-    - term: SAM
-      uri: http://edamontology.org/format_2573
-  - data:
-      term: Annotation track
-      uri: http://edamontology.org/data_3002
-    format:
-    - term: GFF
-      uri: http://edamontology.org/format_2305
-    - term: GTF
-      uri: http://edamontology.org/format_2306
-  note: Quantifying gene and transcript expression in RNA-Seq samples can be computationally
-    expensive. Cuffquant allows you to compute the gene and transcript expression
-    profiles and save these profiles to files that you can analyze later with Cuffdiff
-    or Cuffnorm. This can help you distribute your computational load over a cluster
-    and is recommended for analyses involving more than a handful of libraries. A
-    file of RNA-Seq read alignments in the SAM format. SAM is a standard short read
-    alignment, that allows aligners to attach custom tags to individual alignments,
-    and Cuffquant requires that the alignments you supply have some of these tags.
-  operation:
-  - term: RNA-seq read count analysis
-    uri: http://edamontology.org/operation_3563
-  - term: Gene expression analysis
-    uri: http://edamontology.org/operation_2495
-  output:
-  - data:
-      term: Gene expression profile
-      uri: http://edamontology.org/data_0928
-    format: []
-- cmd: null
-  input:
-  - data:
-      term: Annotation track
-      uri: http://edamontology.org/data_3002
-    format:
-    - term: GFF
-      uri: http://edamontology.org/format_2305
-    - term: GTF
-      uri: http://edamontology.org/format_2306
-  - data:
-      term: Sequence alignment
-      uri: http://edamontology.org/data_0863
-    format:
-    - term: BAM
-      uri: http://edamontology.org/format_2572
-    - term: SAM
-      uri: http://edamontology.org/format_2573
-  note: Comparing expression levels of genes and transcripts in RNA-Seq experiments
-    is a hard problem. Cuffdiff is a highly accurate tool for performing these comparisons,
-    and can tell you not only which genes are up- or down-regulated between two or
-    more conditions, but also which genes are differentially spliced or are undergoing
-    other types of isoform-level regulation. A transcript annotation file produced
-    by cufflinks, cuffcompare, or other source. A SAM file of aligned RNA-Seq reads.
-    If more than two are provided, Cuffdiff tests for differential expression and
-    regulation between all pairs of samples. Cuffdiff calculates the FPKM of each
-    transcript, primary transcript, and gene in each sample. Cuffdiff estimates the
-    number of fragments that originated from each transcript, primary transcript,
-    and gene in each sample Cuffdiff calculates the expression and fragment count
-    for each transcript, primary transcript, and gene in each replicate.
-  operation:
-  - term: Gene expression comparison
-    uri: http://edamontology.org/operation_0315
-  output:
-  - data:
-      term: Gene report
-      uri: http://edamontology.org/data_0916
-    format: []
-  - data:
-      term: Report
-      uri: http://edamontology.org/data_2048
-    format: []
-  - data:
-      term: Report
-      uri: http://edamontology.org/data_2048
-    format: []
-  - data:
-      term: Report
-      uri: http://edamontology.org/data_2048
-    format: []
-- cmd: null
-  input:
-  - data:
-      term: Annotation track
-      uri: http://edamontology.org/data_3002
-    format:
-    - term: GFF
-      uri: http://edamontology.org/format_2305
-    - term: GTF
-      uri: http://edamontology.org/format_2306
-  - data:
-      term: Sequence alignment
-      uri: http://edamontology.org/data_0863
-    format:
-    - term: BAM
-      uri: http://edamontology.org/format_2572
-    - term: SAM
-      uri: http://edamontology.org/format_2573
-  note: Sometimes, all you want to do is normalize the expression levels from a set
-    of RNA-Seq libraries so that theyre all on the same scale, facilitating downstream
-    analyses such as clustering. Expression levels reported by Cufflinks in FPKM units
-    are usually comparable between samples, but in certain situations, applying an
-    extra level of normalization can remove sources of bias in the data. Cuffnorm
-    normalizes a set of samples to be on as similar scales as possible, which can
-    improve the results you obtain with other downstream tools. A transcript annotation
-    file produced by cufflinks, cuffcompare, or other source. A SAM file of aligned
-    RNA-Seq reads. If more than two are provided, Cuffdiff tests for differential
-    expression and regulation between all pairs of samples. Cuffnorm outputs a set
-    of files containing normalized expression levels for each gene, transcript, TSS
-    group, and CDS group in the experiment.
-  operation:
-  - term: Standardisation and normalisation
-    uri: http://edamontology.org/operation_3435
-  output:
-  - data:
-      term: Gene expression data
-      uri: http://edamontology.org/data_2603
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+          - term: SAM
+            uri: http://edamontology.org/format_2573
+    note: Cufflinks the program assembles transcriptomes from RNA-Seq data and quantifies
+      their expression. aligned_reads.(sam/bam) This GTF file contains Cufflinks assembled
+      isoforms. This file contains the estimated isoform-level expression values in
+      the generic FPKM Tracking Format. This file contains the estimated gene-level
+      expression values in the generic FPKM Tracking Format.
+    operation:
+      - term: RNA-seq time series data analysis
+        uri: http://edamontology.org/operation_3565
+      - term: Transcriptome assembly
+        uri: http://edamontology.org/operation_3258
+    output:
+      - data:
+          term: Sequence assembly report
+          uri: http://edamontology.org/data_3181
+        format:
+          - term: GTF
+            uri: http://edamontology.org/format_2306
+      - data:
+          term: Gene transcript report
+          uri: http://edamontology.org/data_3134
+        format: []
+      - data:
+          term: Gene expression data
+          uri: http://edamontology.org/data_2603
+        format: []
+  - cmd: null
+    input:
+      - data:
+          term: Sequence assembly report
+          uri: http://edamontology.org/data_3181
+        format:
+          - term: GTF
+            uri: http://edamontology.org/format_2306
+    note: After assembling a transcriptome from one or more samples, you'll probably
+      want to compare your assembly to known transcripts. Even if there is no "reference"
+      transcriptome for the organism you're studying, you may want to compare the
+      transcriptomes assembled from different RNA-Seq libraries. Cuffcompare helps
+      you perform these comparisons and assess the quality of your assembly. Cuffcompare
+      takes Cufflinks GTF output as input, and optionally can take a reference annotation
+      (such as from Ensembl) Cuffcompare reports various statistics related to the
+      "accuracy" of the transcripts in each sample when compared to the reference
+      annotation data. Cuffcompare reports a GTF file containing the "union" of all
+      transfrags in each sample.
+    operation:
+      - term: Sequence comparison
+        uri: http://edamontology.org/operation_2451
+      - term: DNA transcription
+        uri: http://edamontology.org/operation_0372
+    output:
+      - data:
+          term: Statistical estimate score
+          uri: http://edamontology.org/data_0951
+        format: []
+      - data:
+          term: Report
+          uri: http://edamontology.org/data_2048
+        format:
+          - term: GTF
+            uri: http://edamontology.org/format_2306
+      - data:
+          term: Gene transcript report
+          uri: http://edamontology.org/data_3134
+        format: []
+      - data:
+          term: Gene transcript report
+          uri: http://edamontology.org/data_3134
+        format: []
+      - data:
+          term: Report
+          uri: http://edamontology.org/data_2048
+        format: []
+  - cmd: null
+    input:
+      - data:
+          term: ID list
+          uri: http://edamontology.org/data_2872
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+    note: When you have multiple RNA-Seq libraries and youve assembled transcriptomes
+      from each of them, we recommend that you merge these assemblies into a master
+      transcriptome. This step is required for a differential expression analysis
+      of the new transcripts youve assembled. Cuffmerge performs this merge step.
+      Text file manifest with a list (one per line) of GTF files that youd like to
+      merge together into a single GTF file. This file merges together the input assemblies.
+    operation:
+      - term: Aggregation
+        uri: http://edamontology.org/operation_3436
+    output:
+      - data:
+          term: Sequence assembly report
+          uri: http://edamontology.org/data_3181
+        format:
+          - term: GTF
+            uri: http://edamontology.org/format_2306
+  - cmd: null
+    input:
+      - data:
+          term: Alignment
+          uri: http://edamontology.org/data_1916
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+          - term: SAM
+            uri: http://edamontology.org/format_2573
+      - data:
+          term: Annotation track
+          uri: http://edamontology.org/data_3002
+        format:
+          - term: GFF
+            uri: http://edamontology.org/format_2305
+          - term: GTF
+            uri: http://edamontology.org/format_2306
+    note: Quantifying gene and transcript expression in RNA-Seq samples can be computationally
+      expensive. Cuffquant allows you to compute the gene and transcript expression
+      profiles and save these profiles to files that you can analyze later with Cuffdiff
+      or Cuffnorm. This can help you distribute your computational load over a cluster
+      and is recommended for analyses involving more than a handful of libraries.
+      A file of RNA-Seq read alignments in the SAM format. SAM is a standard short
+      read alignment, that allows aligners to attach custom tags to individual alignments,
+      and Cuffquant requires that the alignments you supply have some of these tags.
+    operation:
+      - term: RNA-seq read count analysis
+        uri: http://edamontology.org/operation_3563
+      - term: Gene expression analysis
+        uri: http://edamontology.org/operation_2495
+    output:
+      - data:
+          term: Gene expression profile
+          uri: http://edamontology.org/data_0928
+        format: []
+  - cmd: null
+    input:
+      - data:
+          term: Annotation track
+          uri: http://edamontology.org/data_3002
+        format:
+          - term: GFF
+            uri: http://edamontology.org/format_2305
+          - term: GTF
+            uri: http://edamontology.org/format_2306
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+          - term: SAM
+            uri: http://edamontology.org/format_2573
+    note: Comparing expression levels of genes and transcripts in RNA-Seq experiments
+      is a hard problem. Cuffdiff is a highly accurate tool for performing these comparisons,
+      and can tell you not only which genes are up- or down-regulated between two
+      or more conditions, but also which genes are differentially spliced or are undergoing
+      other types of isoform-level regulation. A transcript annotation file produced
+      by cufflinks, cuffcompare, or other source. A SAM file of aligned RNA-Seq reads.
+      If more than two are provided, Cuffdiff tests for differential expression and
+      regulation between all pairs of samples. Cuffdiff calculates the FPKM of each
+      transcript, primary transcript, and gene in each sample. Cuffdiff estimates
+      the number of fragments that originated from each transcript, primary transcript,
+      and gene in each sample Cuffdiff calculates the expression and fragment count
+      for each transcript, primary transcript, and gene in each replicate.
+    operation:
+      - term: Gene expression comparison
+        uri: http://edamontology.org/operation_0315
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format: []
+      - data:
+          term: Report
+          uri: http://edamontology.org/data_2048
+        format: []
+      - data:
+          term: Report
+          uri: http://edamontology.org/data_2048
+        format: []
+      - data:
+          term: Report
+          uri: http://edamontology.org/data_2048
+        format: []
+  - cmd: null
+    input:
+      - data:
+          term: Annotation track
+          uri: http://edamontology.org/data_3002
+        format:
+          - term: GFF
+            uri: http://edamontology.org/format_2305
+          - term: GTF
+            uri: http://edamontology.org/format_2306
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+          - term: SAM
+            uri: http://edamontology.org/format_2573
+    note: Sometimes, all you want to do is normalize the expression levels from a
+      set of RNA-Seq libraries so that theyre all on the same scale, facilitating
+      downstream analyses such as clustering. Expression levels reported by Cufflinks
+      in FPKM units are usually comparable between samples, but in certain situations,
+      applying an extra level of normalization can remove sources of bias in the data.
+      Cuffnorm normalizes a set of samples to be on as similar scales as possible,
+      which can improve the results you obtain with other downstream tools. A transcript
+      annotation file produced by cufflinks, cuffcompare, or other source. A SAM file
+      of aligned RNA-Seq reads. If more than two are provided, Cuffdiff tests for
+      differential expression and regulation between all pairs of samples. Cuffnorm
+      outputs a set of files containing normalized expression levels for each gene,
+      transcript, TSS group, and CDS group in the experiment.
+    operation:
+      - term: Standardisation and normalisation
+        uri: http://edamontology.org/operation_3435
+    output:
+      - data:
+          term: Gene expression data
+          uri: http://edamontology.org/data_2603
+        format: []
 homepage: http://cole-trapnell-lab.github.io/cufflinks
 homepage_status: 0
 language:
-- C++
-- C
+  - C++
+  - C
 lastUpdate: '2019-02-15T10:36:12Z'
 license: BSL-1.0
 link:
-- note: null
-  type: Registry
-  url: https://github.com/cole-trapnell-lab/cufflinks
-- note: null
-  type: Issue tracker
-  url: https://github.com/cole-trapnell-lab/cufflinks/issues
-- note: null
-  type: Galaxy service
-  url: https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/cufflinks/cufflinks/2.2.1.0
+  - note: null
+    type: Registry
+    url: https://github.com/cole-trapnell-lab/cufflinks
+  - note: null
+    type: Issue tracker
+    url: https://github.com/cole-trapnell-lab/cufflinks/issues
+  - note: null
+    type: Galaxy service
+    url: https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/cufflinks/cufflinks/2.2.1.0
 maturity: Mature
 name: Cufflinks
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: seqwiki_import
 publication:
-- doi: 10.1038/nbt.1621
-  metadata: null
-  pmcid: null
-  pmid: '20436464'
-  type: null
-  version: null
-- doi: 10.1093/bioinformatics/btr355
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
-- doi: 10.1038/nbt.2450
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
-- doi: 10.1186/gb-2011-12-3-r22
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
-- doi: 10.7490/f1000research.1114334.1
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Other
-  version: null
+  - doi: 10.1038/nbt.1621
+    metadata: null
+    pmcid: null
+    pmid: '20436464'
+    type: null
+    version: null
+  - doi: 10.1093/bioinformatics/btr355
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
+  - doi: 10.1038/nbt.2450
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
+  - doi: 10.1186/gb-2011-12-3-r22
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
+  - doi: 10.7490/f1000research.1114334.1
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
 toolType:
-- Command-line tool
-- Suite
+  - Command-line tool
+  - Suite
 topic:
-- term: RNA splicing
-  uri: http://edamontology.org/topic_3320
-- term: Transcriptomics
-  uri: http://edamontology.org/topic_3308
-- term: RNA-seq
-  uri: http://edamontology.org/topic_3170
+  - term: RNA splicing
+    uri: http://edamontology.org/topic_3320
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
 validated: 0
 version: []

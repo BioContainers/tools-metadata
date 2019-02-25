@@ -3,31 +3,31 @@ additionDate: '2018-06-07T14:37:10Z'
 biotoolsCURIE: biotools:mircat2
 biotoolsID: mircat2
 collectionID:
-- MiRCat
+  - MiRCat
 cost: null
 credit:
-- email: v.moulton@uea.ac.uk
-  name: V. Moulton
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: s.moxon@uea.ac.uk
-  name: S. Moxon
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: v.moulton@uea.ac.uk
+    name: V. Moulton
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: s.moxon@uea.ac.uk
+    name: S. Moxon
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Accurate prediction of plant and animal microRNAs from next-generation
   sequencing datasets. Part of the UEA small RNA Workbench.
 documentation:
-- note: null
-  type: General
-  url: http://srna-workbench.cmp.uea.ac.uk/mircat-2/
+  - note: null
+    type: General
+    url: http://srna-workbench.cmp.uea.ac.uk/mircat-2/
 download: []
 editPermission:
   authors: []
@@ -36,13 +36,13 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: microRNA detection
-    uri: http://edamontology.org/operation_0463
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: microRNA detection
+        uri: http://edamontology.org/operation_0463
+    output: []
 homepage: http://srna-workbench.cmp.uea.ac.uk/mircat-2/
 homepage_status: 0
 language: []
@@ -52,28 +52,28 @@ link: []
 maturity: null
 name: miRCat2
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1093/bioinformatics/btx210
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1093/bioinformatics/btx210
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: NGS
-  uri: http://edamontology.org/topic_3168
-- term: Zoology
-  uri: http://edamontology.org/topic_3500
-- term: Plant biology
-  uri: http://edamontology.org/topic_0780
-- term: Functional, regulatory and non-coding RNA
-  uri: http://edamontology.org/topic_0659
+  - term: NGS
+    uri: http://edamontology.org/topic_3168
+  - term: Zoology
+    uri: http://edamontology.org/topic_3500
+  - term: Plant biology
+    uri: http://edamontology.org/topic_0780
+  - term: Functional, regulatory and non-coding RNA
+    uri: http://edamontology.org/topic_0659
 validated: 0
 version: []

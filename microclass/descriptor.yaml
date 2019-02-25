@@ -1,0 +1,90 @@
+accessibility: []
+additionDate: '2018-07-19T08:32:35Z'
+biotoolsCURIE: biotools:microclass
+biotoolsID: microclass
+collectionID: []
+cost: null
+credit:
+- email: lars.snipen@nmbu.no
+  name: Lars Snipen
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Methods for Taxonomic Classification of Prokaryotes.
+documentation:
+- note: null
+  type: Manual
+  url: https://cran.r-project.org/web/packages/microclass/microclass.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Taxonomic classification
+    uri: http://edamontology.org/operation_3460
+  output: []
+homepage: https://cran.r-project.org/web/packages/microclass/
+homepage_status: 0
+language:
+- R
+lastUpdate: '2018-12-10T12:59:00Z'
+license: GPL-2.0
+link: []
+maturity: null
+name: microclass
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: d.gabrielaitis
+publication:
+- doi: 10.1186/s12859-017-1583-2
+  metadata:
+    abstract: '© 2017 The Author(s). Background: Taxonomic classification based on
+      the 16S rRNA gene sequence is important for the profiling of microbial communities.
+      In addition to giving the best possible accuracy, it is also important to quantify
+      uncertainties in the classifications. Results: We present an R package with
+      tools for making such classifications, where the heavy computations are implemented
+      in C++ but operated through the standard R interface. The user may train classifiers
+      based on specialized data sets, but we also supply a ready-to-use function trained
+      on a comprehensive training data set designed specifically for this purpose.
+      This tool also includes some novel ways to quantify uncertainties in the classifications.
+      Conclusions: Based on input sequences of varying length and quality, we demonstrate
+      how the output from the classifications can be used to obtain high quality taxonomic
+      assignments from 16S sequences within the R computing environment. The package
+      is publicly available at the Comprehensive R Archive Network.'
+    authors:
+    - name: Liland K.H.
+    - name: Vinje H.
+    - name: Snipen L.
+    citationCount: 4
+    date: '2017-03-16T00:00:00Z'
+    journal: BMC Bioinformatics
+    title: 'microclass: An R-package for 16S taxonomy classification'
+  pmcid: null
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Library
+topic:
+- term: Taxonomy
+  uri: http://edamontology.org/topic_0637
+- term: Sequence sites, features and motifs
+  uri: http://edamontology.org/topic_0160
+- term: Sequencing
+  uri: http://edamontology.org/topic_3168
+validated: 1
+version:
+- '1.1'

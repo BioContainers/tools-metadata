@@ -5,35 +5,35 @@ biotoolsID: traitrateprop
 collectionID: []
 cost: null
 credit:
-- email: bioSequence@tauex.tau.ac.il
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: null
-  name: Eli Levy Karin
-  note: null
-  orcidid: http://orcid.org/0000-0002-5045-0857
-  typeEntity: Person
-  typeRole:
-  - Contributor
-  url: null
+  - email: bioSequence@tauex.tau.ac.il
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: null
+    name: Eli Levy Karin
+    note: null
+    orcidid: http://orcid.org/0000-0002-5045-0857
+    typeEntity: Person
+    typeRole:
+      - Contributor
+    url: null
 description: Detection of associations between sequence evolution rate and whole-organism
   phenotypes. By analyzing sequences and phenotypes of extant species in the context
   of their phylogeny, it identifies sequence sites in a gene/protein whose evolutionary
   rate is associated with shifts in the phenotype.
 documentation:
-- note: null
-  type: General
-  url: http://traitrate.tau.ac.il/prop/overview.php
+  - note: null
+    type: General
+    url: http://traitrate.tau.ac.il/prop/overview.php
 download:
-- note: null
-  type: Source code
-  url: http://traitrate.tau.ac.il/prop/source.php
-  version: null
+  - note: null
+    type: Source code
+    url: http://traitrate.tau.ac.il/prop/source.php
+    version: null
 editPermission:
   authors: []
   type: private
@@ -41,50 +41,50 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Genotyping
-    uri: http://edamontology.org/operation_3196
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Phylogenetic tree analysis (natural selection)
-    uri: http://edamontology.org/operation_0554
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genotyping
+        uri: http://edamontology.org/operation_3196
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Phylogenetic tree analysis (natural selection)
+        uri: http://edamontology.org/operation_0554
+    output: []
 homepage: http://traitrate.tau.ac.il/prop
 homepage_status: 0
 language:
-- C++
+  - C++
 lastUpdate: '2019-01-15T01:40:19Z'
 license: null
 link: []
 maturity: null
 name: TraitRateProp
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1093/NAR/GKX288
-  metadata: null
-  pmcid: PMC5570260
-  pmid: '28453644'
-  type: Primary
-  version: null
+  - doi: 10.1093/NAR/GKX288
+    metadata: null
+    pmcid: PMC5570260
+    pmid: '28453644'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Genotype and phenotype
-  uri: http://edamontology.org/topic_0625
-- term: Phylogeny
-  uri: http://edamontology.org/topic_0084
-- term: Plant biology
-  uri: http://edamontology.org/topic_0780
-- term: Evolutionary biology
-  uri: http://edamontology.org/topic_3299
+  - term: Genotype and phenotype
+    uri: http://edamontology.org/topic_0625
+  - term: Phylogeny
+    uri: http://edamontology.org/topic_0084
+  - term: Plant biology
+    uri: http://edamontology.org/topic_0780
+  - term: Evolutionary biology
+    uri: http://edamontology.org/topic_3299
 validated: 1
 version: []

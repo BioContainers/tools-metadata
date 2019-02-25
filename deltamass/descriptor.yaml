@@ -8,14 +8,14 @@ credit: []
 description: Automated detection and visualization of mass shifts in proteomic open
   search results.
 documentation:
-- note: null
-  type: Installation instructions
-  url: https://github.com/chhh/deltamass
+  - note: null
+    type: Installation instructions
+    url: https://github.com/chhh/deltamass
 download:
-- note: Windows binaries also available
-  type: Source package
-  url: https://github.com/chhh/deltamass
-  version: '1.0'
+  - note: Windows binaries also available
+    type: Source package
+    url: https://github.com/chhh/deltamass
+    version: '1.0'
 editPermission:
   authors: []
   type: private
@@ -23,63 +23,63 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Mass spectrometry spectra
-      uri: http://edamontology.org/data_0943
-    format:
-    - term: mzML
-      uri: http://edamontology.org/format_3244
-    - term: mzXML
-      uri: http://edamontology.org/format_3654
-  - data:
-      term: Peptide identification
-      uri: http://edamontology.org/data_0945
-    format:
-    - term: pepXML
-      uri: http://edamontology.org/format_3655
-    - term: mzIdentML
-      uri: http://edamontology.org/format_3247
-  note: null
-  operation:
-  - term: Peak detection
-    uri: http://edamontology.org/operation_3215
-  - term: Mass spectra calibration
-    uri: http://edamontology.org/operation_3627
-  output:
-  - data:
-      term: Molecular mass
-      uri: http://edamontology.org/data_0844
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: pepXML
+            uri: http://edamontology.org/format_3655
+          - term: mzIdentML
+            uri: http://edamontology.org/format_3247
+    note: null
+    operation:
+      - term: Peak detection
+        uri: http://edamontology.org/operation_3215
+      - term: Mass spectra calibration
+        uri: http://edamontology.org/operation_3627
+    output:
+      - data:
+          term: Molecular mass
+          uri: http://edamontology.org/data_0844
+        format: []
 homepage: https://github.com/chhh/deltamass
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2019-01-16T15:57:27Z'
 license: null
 link: []
 maturity: null
 name: DeltaMass
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: n.m.palmblad@lumc.nl
 publication:
-- doi: 10.1021/acs.jproteome.8b00728.
-  metadata: null
-  pmcid: null
-  pmid: '30523686'
-  type: Primary
-  version: '1.0'
+  - doi: 10.1021/acs.jproteome.8b00728.
+    metadata: null
+    pmcid: null
+    pmid: '30523686'
+    type: Primary
+    version: '1.0'
 toolType:
-- Command-line tool
-- Desktop application
+  - Command-line tool
+  - Desktop application
 topic:
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
 validated: 1
 version:
-- '1.0'
+  - '1.0'

@@ -5,30 +5,30 @@ biotoolsID: gips
 collectionID: []
 cost: null
 credit:
-- email: wwtwin@zju.edu.cn
-  name: Weitao Wang
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: xinchen@zju.edu.cn
-  name: Xin Chen
-  note: null
-  orcidid: http://orcid.org/0000-0002-1196-6826
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: wwtwin@zju.edu.cn
+    name: Weitao Wang
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: xinchen@zju.edu.cn
+    name: Xin Chen
+    note: null
+    orcidid: http://orcid.org/0000-0002-1196-6826
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Software which considers a range of experimental and analysis choices
   in sequencing-based forward genetics studies within an integrated probabilistic
   framework, which enables direct gene cloning from the sequencing of several unrelated
   mutants of the same phenotype without the need to create segregation populations.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/synergy-zju/gips/wiki
+  - note: null
+    type: General
+    url: https://github.com/synergy-zju/gips/wiki
 download: []
 editPermission:
   authors: []
@@ -37,48 +37,48 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Genotyping
-    uri: http://edamontology.org/operation_3196
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genotyping
+        uri: http://edamontology.org/operation_3196
+    output: []
 homepage: https://github.com/synergy-zju/gips/wiki
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2019-02-05T14:01:33Z'
 license: null
 link:
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/gips-gene-identification-via-phenotype-sequencing.html
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/gips-gene-identification-via-phenotype-sequencing.html
 maturity: null
 name: GIPS
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: mbs_import
 publication:
-- doi: 10.1104/pp.15.01327
-  metadata: null
-  pmcid: PMC4825123
-  pmid: '26842621'
-  type: Primary
-  version: null
+  - doi: 10.1104/pp.15.01327
+    metadata: null
+    pmcid: PMC4825123
+    pmid: '26842621'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
-- term: Genetics
-  uri: http://edamontology.org/topic_3053
-- term: Genotype and phenotype
-  uri: http://edamontology.org/topic_0625
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Genotype and phenotype
+    uri: http://edamontology.org/topic_0625
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
 validated: 1
 version: []

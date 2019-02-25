@@ -3,25 +3,25 @@ additionDate: '2019-02-20T16:16:57Z'
 biotoolsCURIE: biotools:mzXML2Search
 biotoolsID: mzXML2Search
 collectionID:
-- ms-utils
+  - ms-utils
 cost: null
 credit:
-- email: infoproteome@systemsbiology.org
-  name: see publication
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Maintainer
-  url: null
+  - email: infoproteome@systemsbiology.org
+    name: see publication
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
 description: Converts mzXML and mzML files to SEQUEST dta, MASCOT mgf, and Micromass
   pkl files. Comes with the current version of TPP.
 documentation: []
 download:
-- note: null
-  type: Source code
-  url: https://sourceforge.net/p/sashimi/
-  version: null
+  - note: null
+    type: Source code
+    url: https://sourceforge.net/p/sashimi/
+    version: null
 editPermission:
   authors: []
   type: private
@@ -29,43 +29,43 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Mass spectrometry spectra
-      uri: http://edamontology.org/data_0943
-    format:
-    - term: mzML
-      uri: http://edamontology.org/format_3244
-    - term: mzXML
-      uri: http://edamontology.org/format_3654
-  note: null
-  operation:
-  - term: Parsing
-    uri: http://edamontology.org/operation_1812
-  - term: Formatting
-    uri: http://edamontology.org/operation_0335
-  output:
-  - data:
-      term: Mass spectrometry spectra
-      uri: http://edamontology.org/data_0943
-    format:
-    - term: MGF
-      uri: http://edamontology.org/format_3651
-    - term: pkl
-      uri: http://edamontology.org/format_3653
-    - term: dta
-      uri: http://edamontology.org/format_3652
+  - cmd: null
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+    note: null
+    operation:
+      - term: Parsing
+        uri: http://edamontology.org/operation_1812
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+          - term: pkl
+            uri: http://edamontology.org/format_3653
+          - term: dta
+            uri: http://edamontology.org/format_3652
 homepage: http://tools.proteomecenter.org/wiki/index.php?title=Software:MzXML2Search
 homepage_status: 0
 language:
-- C++
+  - C++
 lastUpdate: '2019-02-20T16:16:57Z'
 license: LGPL-2.0
 link:
-- note: null
-  type: Registry
-  url: http://ms-utils.org
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
 maturity: null
 name: mzXML2Search
 operatingSystem: []
@@ -73,11 +73,11 @@ otherID: []
 owner: vzn529@binf.ku.dk
 publication: []
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
-- term: Proteomics experiment
-  uri: http://edamontology.org/topic_3520
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
 validated: 0
 version: []

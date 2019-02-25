@@ -3,85 +3,86 @@ additionDate: '2017-08-20T15:58:41Z'
 biotoolsCURIE: biotools:pest
 biotoolsID: pest
 collectionID:
-- Animal and Crop Genomics
+  - Animal and Crop Genomics
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://www.pesthomepage.org
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.pesthomepage.org
 description: Model-Independent Parameter Estimation and Uncertainty Analysis.
 documentation:
-- note: null
-  type: General
-  url: http://www.pesthomepage.org/Training.php
+  - note: null
+    type: General
+    url: http://www.pesthomepage.org/Training.php
 download: []
 editPermission:
   authors:
-  - animalandcropgenomics
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Modelling and simulation
-    uri: http://edamontology.org/operation_2426
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Modelling and simulation
+        uri: http://edamontology.org/operation_2426
+    output: []
 homepage: http://www.pesthomepage.org
 homepage_status: 0
 language:
-- C++
-- Fortran
+  - C++
+  - Fortran
 lastUpdate: '2019-01-29T12:03:24Z'
 license: Unlicensed
 link: []
 maturity: null
 name: PEST
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: 10.1016/j.envsoft.2018.06.009
-  metadata:
-    abstract: © 2018 Elsevier Ltd An open-source, scalable and model-independent (non-intrusive)
-      implementation of an iterative ensemble smoother has been developed to alleviate
-      the computational burden associated with history-matching and uncertainty quantification
-      of real-world-scale environmental models that have very high dimensional parameter
-      spaces. The tool, named pestpp-ies, implements the ensemble-smoother form of
-      the popular Gauss-Levenberg-Marquardt algorithm, uses the pest model-interface
-      protocols and includes a built-in parallel run manager, multiple lambda testing
-      and model run failure tolerance. As a demonstration of its capabilities, pestpp-ies
-      is applied to a synthetic groundwater model with thousands of parameters and
-      to a real-world groundwater flow and transport model with tens of thousands
-      of parameters. pestpp-ies is shown to efficiently and effectively condition
-      parameters in both cases and can provide means to estimate posterior forecast
-      uncertainty when the forecasts depend on large numbers of parameters.
-    authors:
-    - name: White J.T.
-    citationCount: 2
-    date: '2018-11-01T00:00:00Z'
-    journal: Environmental Modelling and Software
-    title: A model-independent iterative ensemble smoother for efficient history-matching
-      and uncertainty quantification in very high dimensions
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1016/j.envsoft.2018.06.009
+    metadata:
+      abstract: "\xA9 2018 Elsevier Ltd An open-source, scalable and model-independent\
+        \ (non-intrusive) implementation of an iterative ensemble smoother has been\
+        \ developed to alleviate the computational burden associated with history-matching\
+        \ and uncertainty quantification of real-world-scale environmental models\
+        \ that have very high dimensional parameter spaces. The tool, named pestpp-ies,\
+        \ implements the ensemble-smoother form of the popular Gauss-Levenberg-Marquardt\
+        \ algorithm, uses the pest model-interface protocols and includes a built-in\
+        \ parallel run manager, multiple lambda testing and model run failure tolerance.\
+        \ As a demonstration of its capabilities, pestpp-ies is applied to a synthetic\
+        \ groundwater model with thousands of parameters and to a real-world groundwater\
+        \ flow and transport model with tens of thousands of parameters. pestpp-ies\
+        \ is shown to efficiently and effectively condition parameters in both cases\
+        \ and can provide means to estimate posterior forecast uncertainty when the\
+        \ forecasts depend on large numbers of parameters."
+      authors:
+        - name: White J.T.
+      citationCount: 2
+      date: '2018-11-01T00:00:00Z'
+      journal: Environmental Modelling and Software
+      title: A model-independent iterative ensemble smoother for efficient history-matching
+        and uncertainty quantification in very high dimensions
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Systems biology
-  uri: http://edamontology.org/topic_2259
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
 validated: 1
 version: []

@@ -3,23 +3,23 @@ additionDate: '2017-01-13T13:15:26Z'
 biotoolsCURIE: biotools:mircat
 biotoolsID: mircat
 collectionID:
-- MiRCat
+  - MiRCat
 cost: null
 credit:
-- email: null
-  name: Forum
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://srna-workbench.cmp.uea.ac.uk/
+  - email: null
+    name: Forum
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://srna-workbench.cmp.uea.ac.uk/
 description: Predicts mature miRNAs and their precursors from an sRNA dataset and
   a genome.
 documentation:
-- note: null
-  type: General
-  url: http://srna-workbench.cmp.uea.ac.uk/tutorials/
+  - note: null
+    type: General
+    url: http://srna-workbench.cmp.uea.ac.uk/tutorials/
 download: []
 editPermission:
   authors: []
@@ -28,39 +28,39 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: microRNA detection
-    uri: http://edamontology.org/operation_0463
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: microRNA detection
+        uri: http://edamontology.org/operation_0463
+    output: []
 homepage: http://srna-workbench.cmp.uea.ac.uk
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2019-02-17T18:56:35Z'
 license: null
 link: []
 maturity: Mature
 name: MiRCat
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: seqwiki_import
 publication:
-- doi: 10.1093/bioinformatics/bts311
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/bts311
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Desktop application
+  - Desktop application
 topic:
-- term: Workflows
-  uri: http://edamontology.org/topic_0769
+  - term: Workflows
+    uri: http://edamontology.org/topic_0769
 validated: 0
 version: []

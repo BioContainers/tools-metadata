@@ -3,40 +3,40 @@ additionDate: '2017-08-20T15:59:04Z'
 biotoolsCURIE: biotools:snpdb
 biotoolsID: snpdb
 collectionID:
-- Animal and Crop Genomics
+  - Animal and Crop Genomics
 cost: null
 credit:
-- email: snp-admin@ncbi.nlm.nih.gov
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: snp-admin@ncbi.nlm.nih.gov
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Database of single nucleotide polymorphisms (SNPs) and multiple small-scale
   variations that include insertions/deletions, microsatellites, and non-polymorphic
   variants.
 documentation:
-- note: null
-  type: General
-  url: https://www.ncbi.nlm.nih.gov/snp
+  - note: null
+    type: General
+    url: https://www.ncbi.nlm.nih.gov/snp
 download: []
 editPermission:
   authors:
-  - animalandcropgenomics
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output: []
 homepage: https://www.ncbi.nlm.nih.gov/snp
 homepage_status: 0
 language: []
@@ -46,22 +46,22 @@ link: []
 maturity: null
 name: SNPdb
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: 10.1093/nar/29.1.308
-  metadata: null
-  pmcid: PMC29783
-  pmid: '11125122'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/29.1.308
+    metadata: null
+    pmcid: PMC29783
+    pmid: '11125122'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Genetic variation
-  uri: http://edamontology.org/topic_0199
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
 validated: 1
 version: []

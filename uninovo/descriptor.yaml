@@ -5,21 +5,21 @@ biotoolsID: uninovo
 collectionID: []
 cost: null
 credit:
-- email: kwj@ucsd.edu
-  name: K. Jeong
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: kwj@ucsd.edu
+    name: K. Jeong
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: A universal tool for de novo peptide sequencing.
 documentation: []
 download:
-- note: null
-  type: Source code
-  url: http://proteomics.ucsd.edu/Software/UniNovo/UniNovo.20130520.zip
-  version: null
+  - note: null
+    type: Source code
+    url: http://proteomics.ucsd.edu/Software/UniNovo/UniNovo.20130520.zip
+    version: null
 editPermission:
   authors: []
   type: private
@@ -27,17 +27,17 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Peptide identification
-    uri: http://edamontology.org/operation_3631
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
+    output: []
 homepage: http://proteomics.ucsd.edu/Software/UniNovo/
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2019-01-17T23:13:10Z'
 license: null
 link: []
@@ -47,16 +47,16 @@ operatingSystem: []
 otherID: []
 owner: jison
 publication:
-- doi: 10.1093/bioinformatics/btt338
-  metadata: null
-  pmcid: PMC3722526
-  pmid: '23766417'
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/btt338
+    metadata: null
+    pmcid: PMC3722526
+    pmid: '23766417'
+    type: Primary
+    version: null
 toolType:
-- Desktop application
+  - Desktop application
 topic:
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
 validated: 1
 version: []

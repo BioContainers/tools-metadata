@@ -5,14 +5,14 @@ biotoolsID: ipc
 collectionID: []
 cost: Free of charge (with restrictions)
 credit:
-- email: lukasz.kozlowski.lpk@gmail.com
-  name: Lukasz Kozlowski
-  note: null
-  orcidid: http://orcid.org/0000-0001-8187-1980
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: lukasz.kozlowski.lpk@gmail.com
+    name: Lukasz Kozlowski
+    note: null
+    orcidid: http://orcid.org/0000-0001-8187-1980
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Web service and standalone program for the estimation of protein and
   peptide pI using different sets of dissociation constant (pKa) values, including
   computationally optimized pKa sets. According to the benchmarks, the newly developed
@@ -20,14 +20,14 @@ description: Web service and standalone program for the estimation of protein an
   % for peptides (on average, 22.1 % and 59.6 %, respectively), which corresponds
   to an average error of the pI estimation of 0.87 and 0.25 pH units, respectively.
 documentation:
-- note: null
-  type: General
-  url: http://isoelectric.org/algorithms.html
+  - note: null
+    type: General
+    url: http://isoelectric.org/algorithms.html
 download:
-- note: null
-  type: Source package
-  url: http://isoelectric.ovh.org/ipc-1.0.zip
-  version: null
+  - note: null
+    type: Source package
+    url: http://isoelectric.ovh.org/ipc-1.0.zip
+    version: null
 editPermission:
   authors: []
   type: private
@@ -35,59 +35,59 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Protein sequence
-      uri: http://edamontology.org/data_2976
-    format: []
-  note: Isoelectric point, molecular weight
-  operation:
-  - term: Protein property calculation
-    uri: http://edamontology.org/operation_0250
-  output:
-  - data:
-      term: Protein isoelectric point
-      uri: http://edamontology.org/data_1528
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
+  - cmd: null
+    input:
+      - data:
+          term: Protein sequence
+          uri: http://edamontology.org/data_2976
+        format: []
+    note: Isoelectric point, molecular weight
+    operation:
+      - term: Protein property calculation
+        uri: http://edamontology.org/operation_0250
+    output:
+      - data:
+          term: Protein isoelectric point
+          uri: http://edamontology.org/data_1528
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
 homepage: http://isoelectric.ovh.org
 homepage_status: 0
 language:
-- Python
+  - Python
 lastUpdate: '2019-01-13T17:50:27Z'
 license: Other
 link: []
 maturity: Mature
 name: IPC
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: lukaskoz
 publication:
-- doi: 10.1186/s13062-016-0159-9
-  metadata: null
-  pmcid: PMC5075173
-  pmid: '27769290'
-  type: Primary
-  version: null
+  - doi: 10.1186/s13062-016-0159-9
+    metadata: null
+    pmcid: PMC5075173
+    pmid: '27769290'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Web service
+  - Command-line tool
+  - Web service
 topic:
-- term: Protein properties
-  uri: http://edamontology.org/topic_0123
-- term: Proteomics experiment
-  uri: http://edamontology.org/topic_3520
-- term: Molecular biology
-  uri: http://edamontology.org/topic_3047
-- term: Biochemistry
-  uri: http://edamontology.org/topic_3292
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
+  - term: Protein properties
+    uri: http://edamontology.org/topic_0123
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+  - term: Molecular biology
+    uri: http://edamontology.org/topic_3047
+  - term: Biochemistry
+    uri: http://edamontology.org/topic_3292
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
 validated: 1
 version:
-- '1.0'
+  - '1.0'

@@ -3,96 +3,97 @@ additionDate: '2017-08-20T15:49:18Z'
 biotoolsCURIE: biotools:ginkgo
 biotoolsID: ginkgo
 collectionID:
-- Animal and Crop Genomics
+  - Animal and Crop Genomics
 cost: null
 credit:
-- email: mschatz@cshl.edu
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: mschatz@cshl.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: User-friendly, open-source web platform for the analysis of single-cell
   copy-number variations (CNVs).
 documentation:
-- note: null
-  type: General
-  url: https://github.com/robertaboukhalil/ginkgo
+  - note: null
+    type: General
+    url: https://github.com/robertaboukhalil/ginkgo
 download: []
 editPermission:
   authors:
-  - animalandcropgenomics
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Copy number estimation
-    uri: http://edamontology.org/operation_3233
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Copy number estimation
+        uri: http://edamontology.org/operation_3233
+    output: []
 homepage: http://qb.cshl.edu/ginkgo
 homepage_status: 0
 language:
-- JavaScript
-- R
-- C++
-- PHP
-- Shell
+  - JavaScript
+  - R
+  - C++
+  - PHP
+  - Shell
 lastUpdate: '2019-01-29T12:00:15Z'
 license: BSD-2-Clause
 link:
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/ginkgo-cloud-based-single-cell-copy-number-variation-analysis-tool.html
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/ginkgo-cloud-based-single-cell-copy-number-variation-analysis-tool.html
 maturity: null
 name: Ginkgo
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: null
-  metadata:
-    abstract: © 2015 Nature America, Inc.We present Ginkgo (http://qb.cshl.edu/ginkgo),
-      a user-friendly, open-source web platform for the analysis of single-cell copy-number
-      variations (CNVs). Ginkgo automatically constructs copy-number profiles of cells
-      from mapped reads and constructs phylogenetic trees of related cells. We validated
-      Ginkgo by reproducing the results of five major studies. After comparing three
-      commonly used single-cell amplification techniques, we concluded that degenerate
-      oligonucleotide-primed PCR is the most consistent for CNV analysis.
-    authors:
-    - name: Garvin T.
-    - name: Aboukhalil R.
-    - name: Kendall J.
-    - name: Baslan T.
-    - name: Atwal G.S.
-    - name: Hicks J.
-    - name: Wigler M.
-    - name: Schatz M.C.
-    citationCount: 37
-    date: '2015-11-01T00:00:00Z'
-    journal: Nature Methods
-    title: Interactive analysis and assessment of single-cell copy-number variations
-  pmcid: null
-  pmid: '26344043'
-  type: null
-  version: null
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015 Nature America, Inc.We present Ginkgo (http://qb.cshl.edu/ginkgo),\
+        \ a user-friendly, open-source web platform for the analysis of single-cell\
+        \ copy-number variations (CNVs). Ginkgo automatically constructs copy-number\
+        \ profiles of cells from mapped reads and constructs phylogenetic trees of\
+        \ related cells. We validated Ginkgo by reproducing the results of five major\
+        \ studies. After comparing three commonly used single-cell amplification techniques,\
+        \ we concluded that degenerate oligonucleotide-primed PCR is the most consistent\
+        \ for CNV analysis."
+      authors:
+        - name: Garvin T.
+        - name: Aboukhalil R.
+        - name: Kendall J.
+        - name: Baslan T.
+        - name: Atwal G.S.
+        - name: Hicks J.
+        - name: Wigler M.
+        - name: Schatz M.C.
+      citationCount: 37
+      date: '2015-11-01T00:00:00Z'
+      journal: Nature Methods
+      title: Interactive analysis and assessment of single-cell copy-number variations
+    pmcid: null
+    pmid: '26344043'
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Genetics
-  uri: http://edamontology.org/topic_3053
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
-- term: DNA structural variation
-  uri: http://edamontology.org/topic_3175
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: DNA structural variation
+    uri: http://edamontology.org/topic_3175
 validated: 1
 version: []

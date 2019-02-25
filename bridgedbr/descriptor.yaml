@@ -3,28 +3,28 @@ additionDate: '2017-01-17T14:55:09Z'
 biotoolsCURIE: biotools:bridgedbr
 biotoolsID: bridgedbr
 collectionID:
-- BridgeDb
-- BioConductor
+  - BridgeDb
+  - BioConductor
 cost: null
 credit:
-- email: egon.willighagen@gmail.com
-  name: Egon Willighagen
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: egon.willighagen@gmail.com
+    name: Egon Willighagen
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Use BridgeDb functions and load identifier mapping databases in R.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/BridgeDbR.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/BridgeDbR.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/BridgeDbR_1.8.0.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/BridgeDbR_1.8.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -32,97 +32,97 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Gene identifier
-      uri: http://edamontology.org/data_1025
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  - data:
-      term: Reaction ID
-      uri: http://edamontology.org/data_2108
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  - data:
-      term: Protein identifier
-      uri: http://edamontology.org/data_0989
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  - data:
-      term: Compound identifier
-      uri: http://edamontology.org/data_1086
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  note: null
-  operation:
-  - term: Loading
-    uri: http://edamontology.org/operation_1812
-  - term: ID mapping
-    uri: http://edamontology.org/operation_3282
-  output:
-  - data:
-      term: Gene identifier
-      uri: http://edamontology.org/data_1025
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  - data:
-      term: Reaction ID
-      uri: http://edamontology.org/data_2108
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  - data:
-      term: Protein identifier
-      uri: http://edamontology.org/data_0989
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  - data:
-      term: Compound identifier
-      uri: http://edamontology.org/data_1086
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
+  - cmd: null
+    input:
+      - data:
+          term: Gene identifier
+          uri: http://edamontology.org/data_1025
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Reaction ID
+          uri: http://edamontology.org/data_2108
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Protein identifier
+          uri: http://edamontology.org/data_0989
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Compound identifier
+          uri: http://edamontology.org/data_1086
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+    note: null
+    operation:
+      - term: Loading
+        uri: http://edamontology.org/operation_1812
+      - term: ID mapping
+        uri: http://edamontology.org/operation_3282
+    output:
+      - data:
+          term: Gene identifier
+          uri: http://edamontology.org/data_1025
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Reaction ID
+          uri: http://edamontology.org/data_2108
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Protein identifier
+          uri: http://edamontology.org/data_0989
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Compound identifier
+          uri: http://edamontology.org/data_1086
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
 homepage: http://bioconductor.org/packages/release/bioc/html/BridgeDbR.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-02-13T12:57:38Z'
 license: GPL-3.0
 link:
-- note: null
-  type: Mirror
-  url: https://github.com/bridgedb/BridgeDb
-- note: null
-  type: Mirror
-  url: https://github.com/BiGCAT-UM/bridgedb-r
+  - note: null
+    type: Mirror
+    url: https://github.com/bridgedb/BridgeDb
+  - note: null
+    type: Mirror
+    url: https://github.com/BiGCAT-UM/bridgedb-r
 maturity: null
 name: BridgeDbR
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1186/s12859-015-0708-8
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Review
-  version: null
+  - doi: 10.1186/s12859-015-0708-8
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Review
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: Data identity and mapping
-  uri: http://edamontology.org/topic_3345
+  - term: Data identity and mapping
+    uri: http://edamontology.org/topic_3345
 validated: 0
 version:
-- 1.8.0
+  - 1.8.0

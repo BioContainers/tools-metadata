@@ -5,28 +5,28 @@ biotoolsID: selectome
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: SIB Swiss Institute of Bioinformatics
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: selectome@unil.ch
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: SIB Swiss Institute of Bioinformatics
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: selectome@unil.ch
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Database of positive selection based on a rigorous branch-site specific
   likelihood test.
 documentation:
-- note: null
-  type: Manual
-  url: https://selectome.unil.ch/cgi-bin/guide.cgi
+  - note: null
+    type: Manual
+    url: https://selectome.unil.ch/cgi-bin/guide.cgi
 download: []
 editPermission:
   authors: []
@@ -35,37 +35,37 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Identifier
-      uri: http://edamontology.org/data_0842
-    format: []
-  - data:
-      term: Protein family identifier
-      uri: http://edamontology.org/data_1075
-    format: []
-  - data:
-      term: Taxon
-      uri: http://edamontology.org/data_1868
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Phylogenetic tree
-      uri: http://edamontology.org/data_0872
-    format: []
-  - data:
-      term: Gene report
-      uri: http://edamontology.org/data_0916
-    format: []
-  - data:
-      term: Data reference
-      uri: http://edamontology.org/data_2093
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Identifier
+          uri: http://edamontology.org/data_0842
+        format: []
+      - data:
+          term: Protein family identifier
+          uri: http://edamontology.org/data_1075
+        format: []
+      - data:
+          term: Taxon
+          uri: http://edamontology.org/data_1868
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Phylogenetic tree
+          uri: http://edamontology.org/data_0872
+        format: []
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format: []
+      - data:
+          term: Data reference
+          uri: http://edamontology.org/data_2093
+        format: []
 homepage: http://selectome.unil.ch/
 homepage_status: 0
 language: []
@@ -75,22 +75,22 @@ link: []
 maturity: null
 name: Selectome
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: SIB
 publication:
-- doi: 10.1093/nar/gkt1065
-  metadata: null
-  pmcid: PMC3964977
-  pmid: '24225318'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkt1065
+    metadata: null
+    pmcid: PMC3964977
+    pmid: '24225318'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Phylogenetics
-  uri: http://edamontology.org/topic_3293
+  - term: Phylogenetics
+    uri: http://edamontology.org/topic_3293
 validated: 1
 version: []

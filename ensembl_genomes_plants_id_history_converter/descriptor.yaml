@@ -3,52 +3,52 @@ additionDate: '2015-01-29T15:48:19Z'
 biotoolsCURIE: biotools:ensembl_genomes_plants_id_history_converter
 biotoolsID: ensembl_genomes_plants_id_history_converter
 collectionID:
-- Ensembl Tools
-- Ensembl Genomes
-- EBI Tools
+  - Ensembl Tools
+  - Ensembl Genomes
+  - EBI Tools
 cost: null
 credit:
-- email: null
-  name: Ensembl team
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: EMBL-EBI
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: helpdesk@ensemblgenomes.org
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: eg-webteam@ebi.ac.uk
-  name: Ensembl Genomes webteam
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: Ensembl team
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: EMBL-EBI
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: helpdesk@ensemblgenomes.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: eg-webteam@ebi.ac.uk
+    name: Ensembl Genomes webteam
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Convert a set of Ensembl IDs from a previous release into their current
   equivalents.
 documentation:
-- note: null
-  type: Terms of use
-  url: http://www.ebi.ac.uk/about/terms-of-use
-- note: null
-  type: General
-  url: http://plants.ensembl.org/info/website/help/index.html
+  - note: null
+    type: Terms of use
+    url: http://www.ebi.ac.uk/about/terms-of-use
+  - note: null
+    type: General
+    url: http://plants.ensembl.org/info/website/help/index.html
 download: []
 editPermission:
   authors: []
@@ -57,21 +57,21 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Ensembl ID
-      uri: http://edamontology.org/data_2610
-    format: []
-  note: null
-  operation:
-  - term: ID mapping
-    uri: http://edamontology.org/operation_3282
-  output:
-  - data:
-      term: Ensembl ID
-      uri: http://edamontology.org/data_2610
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Ensembl ID
+          uri: http://edamontology.org/data_2610
+        format: []
+    note: null
+    operation:
+      - term: ID mapping
+        uri: http://edamontology.org/operation_3282
+    output:
+      - data:
+          term: Ensembl ID
+          uri: http://edamontology.org/data_2610
+        format: []
 homepage: http://plants.ensembl.org/tools.html
 homepage_status: 0
 language: []
@@ -81,23 +81,23 @@ link: []
 maturity: null
 name: Ensembl Genomes Plants ID history converter
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: EMBL-EBI
 publication:
-- doi: 10.1093/nar/gkv1157
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Other
-  version: null
+  - doi: 10.1093/nar/gkv1157
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Data identity and mapping
-  uri: http://edamontology.org/topic_3345
+  - term: Data identity and mapping
+    uri: http://edamontology.org/topic_3345
 validated: 0
 version:
-- '1'
+  - '1'

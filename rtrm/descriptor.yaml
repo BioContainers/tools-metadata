@@ -3,28 +3,28 @@ additionDate: '2017-01-17T15:03:36Z'
 biotoolsCURIE: biotools:rtrm
 biotoolsID: rtrm
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: diego10ruiz@gmail.com
-  name: Diego Diez
-  note: null
-  orcidid: http://orcid.org/0000-0002-2325-4893
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: diego10ruiz@gmail.com
+    name: Diego Diez
+    note: null
+    orcidid: http://orcid.org/0000-0002-2325-4893
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Identifies transcriptional regulatory modules (TRMs) from protein-protein
   interaction networks.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/rTRM.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/rTRM.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/rTRM_1.12.0.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/rTRM_1.12.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -32,44 +32,44 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Transcriptional regulatory element prediction
-    uri: http://edamontology.org/operation_0438
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Transcriptional regulatory element prediction
+        uri: http://edamontology.org/operation_0438
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/rTRM.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-01-10T04:15:34Z'
 license: GPL-3.0
 link:
-- note: null
-  type: Mirror
-  url: https://github.com/ddiez/rTRM
+  - note: null
+    type: Mirror
+    url: https://github.com/ddiez/rTRM
 maturity: null
 name: rTRM
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1093/nar/gkt913
-  metadata: null
-  pmcid: PMC3874207
-  pmid: '24137002'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkt913
+    metadata: null
+    pmcid: PMC3874207
+    pmid: '24137002'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: Protein interactions
-  uri: http://edamontology.org/topic_0128
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
 validated: 1
 version:
-- 1.12.0
+  - 1.12.0

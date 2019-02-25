@@ -5,20 +5,21 @@ biotoolsID: anglerfish
 collectionID: []
 cost: null
 credit:
-- email: b.wallace@mail.cryst.bbk.ac.uk
-  name: B. Wallace
-  note: null
-  orcidid: http://orcid.org/0000-0001-9649-5092
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-description: Method of determining the orientation of an α-helix relative to a defined
-  axis in a rotationally symmetric protein structure such as a membrane protein channel.
+  - email: b.wallace@mail.cryst.bbk.ac.uk
+    name: B. Wallace
+    note: null
+    orcidid: http://orcid.org/0000-0001-9649-5092
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: "Method of determining the orientation of an \u03B1-helix relative to\
+  \ a defined axis in a rotationally symmetric protein structure such as a membrane\
+  \ protein channel."
 documentation:
-- note: null
-  type: General
-  url: http://anglerfish.cryst.bbk.ac.uk/help.html
+  - note: null
+    type: General
+    url: http://anglerfish.cryst.bbk.ac.uk/help.html
 download: []
 editPermission:
   authors: []
@@ -27,15 +28,15 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Protein property calculation
-    uri: http://edamontology.org/operation_0250
-  - term: Protein structure prediction
-    uri: http://edamontology.org/operation_0474
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein property calculation
+        uri: http://edamontology.org/operation_0250
+      - term: Protein structure prediction
+        uri: http://edamontology.org/operation_0474
+    output: []
 homepage: http://anglerfish.cryst.bbk.ac.uk/
 homepage_status: 0
 language: []
@@ -45,24 +46,24 @@ link: []
 maturity: null
 name: AnglerFish
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: migle_sur
 publication:
-- doi: 10.1093/BIOINFORMATICS/BTW781
-  metadata: null
-  pmcid: PMC5860525
-  pmid: '28035031'
-  type: Primary
-  version: null
+  - doi: 10.1093/BIOINFORMATICS/BTW781
+    metadata: null
+    pmcid: PMC5860525
+    pmid: '28035031'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Protein structure analysis
-  uri: http://edamontology.org/topic_2814
-- term: Protein structural motifs and surfaces
-  uri: http://edamontology.org/topic_0166
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
 validated: 1
 version: []

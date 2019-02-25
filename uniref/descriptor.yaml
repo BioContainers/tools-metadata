@@ -3,34 +3,34 @@ additionDate: '2015-10-07T17:54:47Z'
 biotoolsCURIE: biotools:uniref
 biotoolsID: uniref
 collectionID:
-- UniProt
-- DRCAT
+  - UniProt
+  - DRCAT
 cost: null
 credit:
-- email: null
-  name: DRCAT
-  note: null
-  orcidid: null
-  typeEntity: Project
-  typeRole:
-  - Documentor
-  url: null
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://www.uniprot.org/contact
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.uniprot.org/contact
 description: Clustered sets of sequences from UniProt Knowledgebase (including splice
   variants and isoforms) and selected UniParc records, in order to obtain complete
   coverage of sequence space at several resolutions while hiding redundant sequences
   (but not their descriptions) from view.
 documentation:
-- note: null
-  type: General
-  url: http://www.uniprot.org/help/uniref
+  - note: null
+    type: General
+    url: http://www.uniprot.org/help/uniref
 download: []
 editPermission:
   authors: []
@@ -39,210 +39,210 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Sequence cluster ID (UniRef100)
-      uri: http://edamontology.org/data_2347
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Sequence cluster (protein)
-      uri: http://edamontology.org/data_1245
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-- cmd: null
-  input:
-  - data:
-      term: Sequence cluster ID (UniRef100)
-      uri: http://edamontology.org/data_2347
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Sequence cluster (protein)
-      uri: http://edamontology.org/data_1245
-    format:
-    - term: XML
-      uri: http://edamontology.org/format_2332
-- cmd: null
-  input:
-  - data:
-      term: Sequence cluster ID (UniRef100)
-      uri: http://edamontology.org/data_2347
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Sequence cluster (protein)
-      uri: http://edamontology.org/data_1245
-    format:
-    - term: RDF format
-      uri: http://edamontology.org/format_2376
-- cmd: null
-  input:
-  - data:
-      term: Sequence cluster ID (UniRef100)
-      uri: http://edamontology.org/data_2347
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Sequence cluster (protein)
-      uri: http://edamontology.org/data_1245
-    format:
-    - term: FASTA
-      uri: http://edamontology.org/format_1929
-- cmd: null
-  input:
-  - data:
-      term: Sequence cluster ID (UniRef90)
-      uri: http://edamontology.org/data_2348
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Sequence cluster (protein)
-      uri: http://edamontology.org/data_1245
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-- cmd: null
-  input:
-  - data:
-      term: Sequence cluster ID (UniRef90)
-      uri: http://edamontology.org/data_2348
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Sequence cluster (protein)
-      uri: http://edamontology.org/data_1245
-    format:
-    - term: XML
-      uri: http://edamontology.org/format_2332
-- cmd: null
-  input:
-  - data:
-      term: Sequence cluster ID (UniRef90)
-      uri: http://edamontology.org/data_2348
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Sequence cluster (protein)
-      uri: http://edamontology.org/data_1245
-    format:
-    - term: RDF format
-      uri: http://edamontology.org/format_2376
-- cmd: null
-  input:
-  - data:
-      term: Sequence cluster ID (UniRef90)
-      uri: http://edamontology.org/data_2348
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Sequence cluster (protein)
-      uri: http://edamontology.org/data_1245
-    format:
-    - term: FASTA
-      uri: http://edamontology.org/format_1929
-- cmd: null
-  input:
-  - data:
-      term: Sequence cluster ID (UniRef50)
-      uri: http://edamontology.org/data_2349
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Sequence cluster (protein)
-      uri: http://edamontology.org/data_1245
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-- cmd: null
-  input:
-  - data:
-      term: Sequence cluster ID (UniRef50)
-      uri: http://edamontology.org/data_2349
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Sequence cluster (protein)
-      uri: http://edamontology.org/data_1245
-    format:
-    - term: XML
-      uri: http://edamontology.org/format_2332
-- cmd: null
-  input:
-  - data:
-      term: Sequence cluster ID (UniRef50)
-      uri: http://edamontology.org/data_2349
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Sequence cluster (protein)
-      uri: http://edamontology.org/data_1245
-    format:
-    - term: RDF format
-      uri: http://edamontology.org/format_2376
-- cmd: null
-  input:
-  - data:
-      term: Sequence cluster ID (UniRef50)
-      uri: http://edamontology.org/data_2349
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Sequence cluster (protein)
-      uri: http://edamontology.org/data_1245
-    format:
-    - term: FASTA
-      uri: http://edamontology.org/format_1929
+  - cmd: null
+    input:
+      - data:
+          term: Sequence cluster ID (UniRef100)
+          uri: http://edamontology.org/data_2347
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence cluster (protein)
+          uri: http://edamontology.org/data_1245
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Sequence cluster ID (UniRef100)
+          uri: http://edamontology.org/data_2347
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence cluster (protein)
+          uri: http://edamontology.org/data_1245
+        format:
+          - term: XML
+            uri: http://edamontology.org/format_2332
+  - cmd: null
+    input:
+      - data:
+          term: Sequence cluster ID (UniRef100)
+          uri: http://edamontology.org/data_2347
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence cluster (protein)
+          uri: http://edamontology.org/data_1245
+        format:
+          - term: RDF format
+            uri: http://edamontology.org/format_2376
+  - cmd: null
+    input:
+      - data:
+          term: Sequence cluster ID (UniRef100)
+          uri: http://edamontology.org/data_2347
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence cluster (protein)
+          uri: http://edamontology.org/data_1245
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+  - cmd: null
+    input:
+      - data:
+          term: Sequence cluster ID (UniRef90)
+          uri: http://edamontology.org/data_2348
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence cluster (protein)
+          uri: http://edamontology.org/data_1245
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Sequence cluster ID (UniRef90)
+          uri: http://edamontology.org/data_2348
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence cluster (protein)
+          uri: http://edamontology.org/data_1245
+        format:
+          - term: XML
+            uri: http://edamontology.org/format_2332
+  - cmd: null
+    input:
+      - data:
+          term: Sequence cluster ID (UniRef90)
+          uri: http://edamontology.org/data_2348
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence cluster (protein)
+          uri: http://edamontology.org/data_1245
+        format:
+          - term: RDF format
+            uri: http://edamontology.org/format_2376
+  - cmd: null
+    input:
+      - data:
+          term: Sequence cluster ID (UniRef90)
+          uri: http://edamontology.org/data_2348
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence cluster (protein)
+          uri: http://edamontology.org/data_1245
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+  - cmd: null
+    input:
+      - data:
+          term: Sequence cluster ID (UniRef50)
+          uri: http://edamontology.org/data_2349
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence cluster (protein)
+          uri: http://edamontology.org/data_1245
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Sequence cluster ID (UniRef50)
+          uri: http://edamontology.org/data_2349
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence cluster (protein)
+          uri: http://edamontology.org/data_1245
+        format:
+          - term: XML
+            uri: http://edamontology.org/format_2332
+  - cmd: null
+    input:
+      - data:
+          term: Sequence cluster ID (UniRef50)
+          uri: http://edamontology.org/data_2349
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence cluster (protein)
+          uri: http://edamontology.org/data_1245
+        format:
+          - term: RDF format
+            uri: http://edamontology.org/format_2376
+  - cmd: null
+    input:
+      - data:
+          term: Sequence cluster ID (UniRef50)
+          uri: http://edamontology.org/data_2349
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence cluster (protein)
+          uri: http://edamontology.org/data_1245
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
 homepage: http://www.uniprot.org/uniref/
 homepage_status: 0
 language: []
@@ -252,24 +252,24 @@ link: []
 maturity: null
 name: UniProt Reference Clusters (UniRef)
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: DRCAT
 publication:
-- doi: 10.1093/bioinformatics/btu739
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/btu739
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
-- term: Gene structure
-  uri: http://edamontology.org/topic_0114
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Gene structure
+    uri: http://edamontology.org/topic_0114
 validated: 0
 version: []

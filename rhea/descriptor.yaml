@@ -5,80 +5,80 @@ biotoolsID: rhea
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: SIB Swiss Institute of Bioinformatics
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole: []
-  url: null
-- email: null
-  name: Contact Form
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://www.rhea-db.org/feedback
+  - email: null
+    name: SIB Swiss Institute of Bioinformatics
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole: []
+    url: null
+  - email: null
+    name: Contact Form
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.rhea-db.org/feedback
 description: Manually annotated database of biochemical reactions created in collaboration
   with the Swiss Institute of Bioinformatics (SIB).
 documentation:
-- note: null
-  type: General
-  url: https://www.rhea-db.org/documentation
+  - note: null
+    type: General
+    url: https://www.rhea-db.org/documentation
 download: []
 editPermission:
   authors: []
   type: private
 elixirNode:
-- Switzerland
+  - Switzerland
 elixirPlatform:
-- Data
+  - Data
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Haplotype mapping
-    uri: http://edamontology.org/operation_0487
-  - term: Metabolic network modelling
-    uri: http://edamontology.org/operation_3660
-  - term: Enzyme kinetics calculation
-    uri: http://edamontology.org/operation_0334
-  - term: Mapping
-    uri: http://edamontology.org/operation_2429
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Haplotype mapping
+        uri: http://edamontology.org/operation_0487
+      - term: Metabolic network modelling
+        uri: http://edamontology.org/operation_3660
+      - term: Enzyme kinetics calculation
+        uri: http://edamontology.org/operation_0334
+      - term: Mapping
+        uri: http://edamontology.org/operation_2429
+    output: []
 homepage: http://www.ebi.ac.uk/rhea/
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2019-02-15T10:24:00Z'
 license: null
 link: []
 maturity: null
 name: Rhea
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: SIB
 publication:
-- doi: null
-  metadata: null
-  pmcid: null
-  pmid: '22135291'
-  type: null
-  version: null
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '22135291'
+    type: null
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Enzymes
-  uri: http://edamontology.org/topic_0821
-- term: Chemistry
-  uri: http://edamontology.org/topic_3314
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
+  - term: Enzymes
+    uri: http://edamontology.org/topic_0821
+  - term: Chemistry
+    uri: http://edamontology.org/topic_3314
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
 validated: 0
 version: []

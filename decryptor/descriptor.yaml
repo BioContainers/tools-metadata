@@ -5,46 +5,46 @@ biotoolsID: decryptor
 collectionID: []
 cost: Free of charge (with restrictions)
 credit:
-- email: null
-  name: ELIXIR-CZ
-  note: null
-  orcidid: null
-  typeEntity: Consortium
-  typeRole:
-  - Support
-  url: https://www.elixir-czech.cz/
-- email: jana.vrbkova@upol.cz
-  name: Jana Vrbková
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Maintainer
-  url: null
-- email: null
-  name: Palacky University
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: http://www.upol.cz/
-- email: decryptor.imtm@gmail.com
-  name: Decryptor support
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: jana.vrbkova@upol.cz
-  name: Jana Vrbková
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: ELIXIR-CZ
+    note: null
+    orcidid: null
+    typeEntity: Consortium
+    typeRole:
+      - Support
+    url: https://www.elixir-czech.cz/
+  - email: jana.vrbkova@upol.cz
+    name: "Jana Vrbkov\xE1"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
+  - email: null
+    name: Palacky University
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: http://www.upol.cz/
+  - email: decryptor.imtm@gmail.com
+    name: Decryptor support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: jana.vrbkova@upol.cz
+    name: "Jana Vrbkov\xE1"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Tandem mass spectrometry data analysis of human proteome for presence
   of point alterations. Subsequently,  deduces DNA/mRNA alterations whenever possible.
 documentation: []
@@ -53,28 +53,28 @@ editPermission:
   authors: []
   type: private
 elixirNode:
-- Czech Republic
+  - Czech Republic
 elixirPlatform:
-- Tools
+  - Tools
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Mass spectrometry spectra
-      uri: http://edamontology.org/data_0943
-    format: []
-  note: null
-  operation:
-  - term: Sequence feature detection
-    uri: http://edamontology.org/operation_0253
-  - term: Protein identification
-    uri: http://edamontology.org/operation_3767
-  output:
-  - data:
-      term: Sequence signature report
-      uri: http://edamontology.org/data_2762
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format: []
+    note: null
+    operation:
+      - term: Sequence feature detection
+        uri: http://edamontology.org/operation_0253
+      - term: Protein identification
+        uri: http://edamontology.org/operation_3767
+    output:
+      - data:
+          term: Sequence signature report
+          uri: http://edamontology.org/data_2762
+        format: []
 homepage: http://decryptor.imtm.cz/
 homepage_status: 0
 language: []
@@ -84,19 +84,19 @@ link: []
 maturity: Emerging
 name: Decryptor
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-CZ
 publication: []
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Proteomics experiment
-  uri: http://edamontology.org/topic_3520
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
 validated: 1
 version:
-- '1.1'
+  - '1.1'

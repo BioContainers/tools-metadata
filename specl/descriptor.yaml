@@ -3,38 +3,38 @@ additionDate: '2017-01-17T15:04:53Z'
 biotoolsCURIE: biotools:specl
 biotoolsID: specl
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: cp@fgcz.ethz.ch
-  name: Christian Panse
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: wewolski@gmail.com
-  name: Witold E. Wolski
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: cp@fgcz.ethz.ch
+    name: Christian Panse
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: wewolski@gmail.com
+    name: Witold E. Wolski
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Provides a function for generating spectra libraries which can be used
   for MRM SRM MS workflows in proteomics. The package provides a BiblioSpec reader,
   a function which can add the protein information using a FASTA formatted amino acid
   file, and an export method for using the created library in the Spectronaut software.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/specL.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/specL.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/specL_1.8.0.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/specL_1.8.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -42,78 +42,79 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Spectral analysis
-    uri: http://edamontology.org/operation_3214
-  - term: Generation
-    uri: http://edamontology.org/operation_3429
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Spectral analysis
+        uri: http://edamontology.org/operation_3214
+      - term: Generation
+        uri: http://edamontology.org/operation_3429
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/specL.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-01-11T00:18:37Z'
 license: GPL-3.0
 link:
-- note: null
-  type: Mirror
-  url: https://github.com/fgcz/specL
+  - note: null
+    type: Mirror
+    url: https://github.com/fgcz/specL
 maturity: null
 name: specL
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1093/bioinformatics/btv105
-  metadata:
-    abstract: '© 2015 The Author 2015. Published by Oxford University Press. All rights
-      reserved.Motivation: Targeted data extraction methods are attractive ways to
-      obtain quantitative peptide information from a proteomics experiment. Sequential
-      Window Acquisition of all Theoretical Spectra (SWATH) and Data Independent Acquisition
-      (DIA) methods increase reproducibility of acquired data because the classical
-      precursor selection is omitted and all present precursors are fragmented. However,
-      especially for targeted data extraction, MS coordinates (retention time information
-      precursor and fragment masses) are required for the particular entities (peptide
-      ions). These coordinates are usually generated in a so-called discovery experiment
-      earlier on in the project if not available in public spectral library repositories.
-      The quality of the assay panel is crucial to ensure appropriate downstream analysis.
-      For that, a method is needed to create spectral libraries and to export customizable
-      assay panels. Results: Here, we present a versatile set of functions to generate
-      assay panels from spectral libraries for use in targeted data extraction methods
-      (SWATH/DIA) in the area of proteomics. Availability and implementation: specL
-      is implemented in the R language and available under an open-source license
-      (GPL-3) in Bioconductor since BioC 3.0 (R-3.1) http://www.bioconductor.org (Trachsel
-      et al., 2015). A vignette with a complete tutorial describing data import/export
-      and analysis is included in the package and can also be found as supplement
-      material of this article.'
-    authors:
-    - name: Panse C.
-    - name: Trachsel C.
-    - name: Grossmann J.
-    - name: Schlapbach R.
-    citationCount: 5
-    date: '2015-07-01T00:00:00Z'
-    journal: Bioinformatics
-    title: SpecL - An R/Bioconductor package to prepare peptide spectrum matches for
-      use in targeted proteomics
-  pmcid: null
-  pmid: '25712692'
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/btv105
+    metadata:
+      abstract: "\xA9 2015 The Author 2015. Published by Oxford University Press.\
+        \ All rights reserved.Motivation: Targeted data extraction methods are attractive\
+        \ ways to obtain quantitative peptide information from a proteomics experiment.\
+        \ Sequential Window Acquisition of all Theoretical Spectra (SWATH) and Data\
+        \ Independent Acquisition (DIA) methods increase reproducibility of acquired\
+        \ data because the classical precursor selection is omitted and all present\
+        \ precursors are fragmented. However, especially for targeted data extraction,\
+        \ MS coordinates (retention time information precursor and fragment masses)\
+        \ are required for the particular entities (peptide ions). These coordinates\
+        \ are usually generated in a so-called discovery experiment earlier on in\
+        \ the project if not available in public spectral library repositories. The\
+        \ quality of the assay panel is crucial to ensure appropriate downstream analysis.\
+        \ For that, a method is needed to create spectral libraries and to export\
+        \ customizable assay panels. Results: Here, we present a versatile set of\
+        \ functions to generate assay panels from spectral libraries for use in targeted\
+        \ data extraction methods (SWATH/DIA) in the area of proteomics. Availability\
+        \ and implementation: specL is implemented in the R language and available\
+        \ under an open-source license (GPL-3) in Bioconductor since BioC 3.0 (R-3.1)\
+        \ http://www.bioconductor.org (Trachsel et al., 2015). A vignette with a complete\
+        \ tutorial describing data import/export and analysis is included in the package\
+        \ and can also be found as supplement material of this article."
+      authors:
+        - name: Panse C.
+        - name: Trachsel C.
+        - name: Grossmann J.
+        - name: Schlapbach R.
+      citationCount: 5
+      date: '2015-07-01T00:00:00Z'
+      journal: Bioinformatics
+      title: SpecL - An R/Bioconductor package to prepare peptide spectrum matches
+        for use in targeted proteomics
+    pmcid: null
+    pmid: '25712692'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: Proteomics experiment
-  uri: http://edamontology.org/topic_3520
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
 validated: 1
 version:
-- 1.8.0
+  - 1.8.0

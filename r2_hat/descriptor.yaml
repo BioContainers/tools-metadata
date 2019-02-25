@@ -5,14 +5,14 @@ biotoolsID: r2_hat
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://www.unc.edu/~yunmli/
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.unc.edu/~yunmli/
 description: A software to calculate imputation quality estimate from dosage data.
 documentation: []
 download: []
@@ -23,37 +23,37 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Imputation
-    uri: http://edamontology.org/operation_3557
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Imputation
+        uri: http://edamontology.org/operation_3557
+    output: []
 homepage: https://yunliweb.its.unc.edu/software.html
 homepage_status: 0
 language:
-- Shell
+  - Shell
 lastUpdate: '2019-01-23T10:41:55Z'
 license: null
 link:
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/r2_hat-1-07-calculate-imputation-quality-estimate-r2_hat-dosage-data.html
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/r2_hat-1-07-calculate-imputation-quality-estimate-r2_hat-dosage-data.html
 maturity: null
 name: r2_hat
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: mbs_import
 publication: []
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: DNA
-  uri: http://edamontology.org/topic_0654
-- term: Statistics and probability
-  uri: http://edamontology.org/topic_2269
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
 validated: 1
 version:
-- '1.09'
+  - '1.09'

@@ -5,31 +5,31 @@ biotoolsID: gass-web
 collectionID: []
 cost: null
 credit:
-- email: sandroizidoro@gmail.com
-  name: Dr. Sandro C. Izidoro
-  note: null
-  orcidid: http://orcid.org/0000-0001-5555-3321
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: douglas.pires@cpqrr.fiocruz.br
-  name: Dr. Douglas E. V. Pires
-  note: null
-  orcidid: http://orcid.org/0000-0002-3004-2119
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: sandroizidoro@gmail.com
+    name: Dr. Sandro C. Izidoro
+    note: null
+    orcidid: http://orcid.org/0000-0001-5555-3321
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: douglas.pires@cpqrr.fiocruz.br
+    name: Dr. Douglas E. V. Pires
+    note: null
+    orcidid: http://orcid.org/0000-0002-3004-2119
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: 'Web version of GASS (Genetic Active Site Search). Method based on an
   evolutionary algorithm to search for similar active sites in proteins. GASS-WEB
   can be used under two different scenarios: (i) given a protein of interest, to match
   a set of specific active site templates; or (ii) given an active site template,
   looking for it in a database of protein structures.'
 documentation:
-- note: null
-  type: General
-  url: https://gass.unifei.edu.br/help
+  - note: null
+    type: General
+    url: https://gass.unifei.edu.br/help
 download: []
 editPermission:
   authors: []
@@ -38,18 +38,18 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Protein binding site prediction
-    uri: http://edamontology.org/operation_2575
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein binding site prediction
+        uri: http://edamontology.org/operation_2575
+    output: []
 homepage: http://gass.unifei.edu.br/
 homepage_status: 0
 language:
-- C++
-- Python
+  - C++
+  - Python
 lastUpdate: '2019-01-15T01:45:23Z'
 license: null
 link: []
@@ -59,20 +59,20 @@ operatingSystem: []
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1093/nar/gkx337
-  metadata: null
-  pmcid: PMC5570142
-  pmid: '28459991'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkx337
+    metadata: null
+    pmcid: PMC5570142
+    pmid: '28459991'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Protein binding sites
-  uri: http://edamontology.org/topic_3534
-- term: Enzymes
-  uri: http://edamontology.org/topic_0821
-- term: Structure prediction
-  uri: http://edamontology.org/topic_0082
+  - term: Protein binding sites
+    uri: http://edamontology.org/topic_3534
+  - term: Enzymes
+    uri: http://edamontology.org/topic_0821
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
 validated: 1
 version: []

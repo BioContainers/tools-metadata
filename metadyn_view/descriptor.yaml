@@ -3,173 +3,173 @@ additionDate: '2015-11-25T12:19:14Z'
 biotoolsCURIE: biotools:metadyn_view
 biotoolsID: metadyn_view
 collectionID:
-- Czech Republic
-- ELIXIR-CZ
+  - Czech Republic
+  - ELIXIR-CZ
 cost: Free of charge (with restrictions)
 credit:
-- email: null
-  name: Petr Hosek
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: Vojtech Spiwok
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: University of Chemistry and Technology Prague, Czech Republic
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: ELIXIR-CZ
-  note: null
-  orcidid: null
-  typeEntity: Consortium
-  typeRole: []
-  url: null
-- email: null
-  name: Czech Science Foundation 15-17269S
-  note: null
-  orcidid: null
-  typeEntity: Funding agency
-  typeRole:
-  - Contributor
-  url: null
-- email: null
-  name: ELIXIR-CZ
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: spiwokv@vscht.cz
-  name: Vojtech Spiwok
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole:
-  - Support
-  url: null
-- email: spiwokv@vscht.cz
-  name: Vojtech Spiwok
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: Petr Hosek
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Vojtech Spiwok
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: University of Chemistry and Technology Prague, Czech Republic
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: ELIXIR-CZ
+    note: null
+    orcidid: null
+    typeEntity: Consortium
+    typeRole: []
+    url: null
+  - email: null
+    name: Czech Science Foundation 15-17269S
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: ELIXIR-CZ
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: spiwokv@vscht.cz
+    name: Vojtech Spiwok
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Support
+    url: null
+  - email: spiwokv@vscht.cz
+    name: Vojtech Spiwok
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: An interactive web viewer of metadynamics results.
 documentation:
-- note: null
-  type: Terms of use
-  url: http://metadyn.vscht.cz
-- note: null
-  type: General
-  url: http://metadyn.vscht.cz
+  - note: null
+    type: Terms of use
+    url: http://metadyn.vscht.cz
+  - note: null
+    type: General
+    url: http://metadyn.vscht.cz
 download:
-- note: null
-  type: Source code
-  url: http://metadyn.vscht.cz
-  version: null
-- note: null
-  type: Binaries
-  url: http://metadyn.vscht.cz
-  version: null
+  - note: null
+    type: Source code
+    url: http://metadyn.vscht.cz
+    version: null
+  - note: null
+    type: Binaries
+    url: http://metadyn.vscht.cz
+    version: null
 editPermission:
   authors: []
   type: private
 elixirNode:
-- Czech Republic
+  - Czech Republic
 elixirPlatform:
-- Tools
+  - Tools
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Structural profile
-      uri: http://edamontology.org/data_0889
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  note: HILLS file from Plumed or compatible Collective variable visualization
-  operation:
-  - term: Molecular dynamics simulation
-    uri: http://edamontology.org/operation_2476
-  - term: Protein flexibility and motion analysis
-    uri: http://edamontology.org/operation_0244
-  output:
-  - data:
-      term: Heat map
-      uri: http://edamontology.org/data_1636
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Structural profile
+          uri: http://edamontology.org/data_0889
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+    note: HILLS file from Plumed or compatible Collective variable visualization
+    operation:
+      - term: Molecular dynamics simulation
+        uri: http://edamontology.org/operation_2476
+      - term: Protein flexibility and motion analysis
+        uri: http://edamontology.org/operation_0244
+    output:
+      - data:
+          term: Heat map
+          uri: http://edamontology.org/data_1636
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
 homepage: http://metadyn.vscht.cz
 homepage_status: 0
 language:
-- Javascript
+  - Javascript
 lastUpdate: '2019-02-15T10:23:56Z'
 license: null
 link:
-- note: null
-  type: Repository
-  url: http://metadyn.vscht.cz
-- note: null
-  type: Mirror
-  url: https://github.com/hosekp/metadyn_view
+  - note: null
+    type: Repository
+    url: http://metadyn.vscht.cz
+  - note: null
+    type: Mirror
+    url: https://github.com/hosekp/metadyn_view
 maturity: Mature
 name: Metadyn View
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: ELIXIR-CZ
 publication:
-- doi: 10.1016/j.cpc.2015.08.037
-  metadata:
-    abstract: ï¿½ 2015 Elsevier B.V. All rights reserved.Metadynamics is a highly
-      successful enhanced sampling technique for simulation of molecular processes
-      and prediction of their free energy surfaces. An in-depth analysis of data obtained
-      by this method is as important as the simulation itself. Although there are
-      several tools to compute free energy surfaces from metadynamics data, they usually
-      lack user friendliness and a build-in visualization part. Here we introduce
-      Metadyn View as a fast and user friendly viewer of bias potential/free energy
-      surfaces calculated by metadynamics in Plumed package. It is based on modern
-      web technologies including HTML5, JavaScript and Cascade Style Sheets (CSS).
-      It can be used by visiting the web site and uploading a HILLS file. It calculates
-      the bias potential/free energy surface on the client-side, so it can run online
-      or offline without necessity to install additional web engines. Moreover, it
-      includes tools for measurement of free energies and free energy differences
-      and data/image export.
-    authors:
-    - name: Hosek P.
-    - name: Spiwok V.
-    citationCount: 2
-    date: '2016-01-01T00:00:00Z'
-    journal: Computer Physics Communications
-    title: 'Metadyn View: Fast web-based viewer of free energy surfaces calculated
-      by metadynamics'
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1016/j.cpc.2015.08.037
+    metadata:
+      abstract: "\xEF\xBF\xBD 2015 Elsevier B.V. All rights reserved.Metadynamics\
+        \ is a highly successful enhanced sampling technique for simulation of molecular\
+        \ processes and prediction of their free energy surfaces. An in-depth analysis\
+        \ of data obtained by this method is as important as the simulation itself.\
+        \ Although there are several tools to compute free energy surfaces from metadynamics\
+        \ data, they usually lack user friendliness and a build-in visualization part.\
+        \ Here we introduce Metadyn View as a fast and user friendly viewer of bias\
+        \ potential/free energy surfaces calculated by metadynamics in Plumed package.\
+        \ It is based on modern web technologies including HTML5, JavaScript and Cascade\
+        \ Style Sheets (CSS). It can be used by visiting the web site and uploading\
+        \ a HILLS file. It calculates the bias potential/free energy surface on the\
+        \ client-side, so it can run online or offline without necessity to install\
+        \ additional web engines. Moreover, it includes tools for measurement of free\
+        \ energies and free energy differences and data/image export."
+      authors:
+        - name: Hosek P.
+        - name: Spiwok V.
+      citationCount: 2
+      date: '2016-01-01T00:00:00Z'
+      journal: Computer Physics Communications
+      title: 'Metadyn View: Fast web-based viewer of free energy surfaces calculated
+        by metadynamics'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Computational chemistry
-  uri: http://edamontology.org/topic_3332
+  - term: Computational chemistry
+    uri: http://edamontology.org/topic_3332
 validated: 1
 version:
-- '1.0'
+  - '1.0'

@@ -3,45 +3,45 @@ additionDate: '2017-08-20T15:49:09Z'
 biotoolsCURIE: biotools:fbat
 biotoolsID: fbat
 collectionID:
-- Animal and Crop Genomics
+  - Animal and Crop Genomics
 cost: null
 credit:
-- email: laird@hsph.harvard.edu
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: null
-  name: Xin Xu
-  note: null
-  orcidid: http://orcid.org/0000-0002-6324-5211
-  typeEntity: null
-  typeRole: []
-  url: null
+  - email: laird@hsph.harvard.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: null
+    name: Xin Xu
+    note: null
+    orcidid: http://orcid.org/0000-0002-6324-5211
+    typeEntity: null
+    typeRole: []
+    url: null
 description: Software for family based association tests
 documentation:
-- note: null
-  type: Manual
-  url: http://www.biostat.harvard.edu/fbat/FBAT_Manual_3-2014.pdf
+  - note: null
+    type: Manual
+    url: http://www.biostat.harvard.edu/fbat/FBAT_Manual_3-2014.pdf
 download: []
 editPermission:
   authors:
-  - animalandcropgenomics
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Statistical calculation
-    uri: http://edamontology.org/operation_2238
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Statistical calculation
+        uri: http://edamontology.org/operation_2238
+    output: []
 homepage: https://sites.google.com/view/fbat-web-page
 homepage_status: 0
 language: []
@@ -51,37 +51,37 @@ link: []
 maturity: null
 name: FBAT
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: null
-  metadata:
-    abstract: We describe a broad class of family-based association tests that are
-      adjusted for admixture; use either dichotomous or measured phenotypes; accommodate
-      phenotype-unknown subjects; use nuclear families, sibships or a combination
-      of the two, permit multiple nuclear families from a single pedigree; incorporate
-      dior multi-allelic marker data; allow additive, dominant or recessive models;
-      and permit adjustment for covariates and gene-by-environment interactions. The
-      test statistic is basically the covariance between a user-specified function
-      of the genotype and a user-specified function of the trait. The distribution
-      of the statistic is computed using the appropriate conditional distribution
-      of offspring genotypes that adjusts for admixture. (C) 2000 Wiley-Liss, Inc.
-    authors:
-    - name: Li H.
-    - name: Fan J.
-    citationCount: 711
-    date: '2000-10-19T00:00:00Z'
-    journal: Genetic Epidemiology
-    title: Implementing a unified approach to family-based tests of association
-  pmcid: null
-  pmid: '11055368'
-  type: Primary
-  version: null
+  - doi: null
+    metadata:
+      abstract: We describe a broad class of family-based association tests that are
+        adjusted for admixture; use either dichotomous or measured phenotypes; accommodate
+        phenotype-unknown subjects; use nuclear families, sibships or a combination
+        of the two, permit multiple nuclear families from a single pedigree; incorporate
+        dior multi-allelic marker data; allow additive, dominant or recessive models;
+        and permit adjustment for covariates and gene-by-environment interactions.
+        The test statistic is basically the covariance between a user-specified function
+        of the genotype and a user-specified function of the trait. The distribution
+        of the statistic is computed using the appropriate conditional distribution
+        of offspring genotypes that adjusts for admixture. (C) 2000 Wiley-Liss, Inc.
+      authors:
+        - name: Li H.
+        - name: Fan J.
+      citationCount: 711
+      date: '2000-10-19T00:00:00Z'
+      journal: Genetic Epidemiology
+      title: Implementing a unified approach to family-based tests of association
+    pmcid: null
+    pmid: '11055368'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: GWAS study
-  uri: http://edamontology.org/topic_3517
+  - term: GWAS study
+    uri: http://edamontology.org/topic_3517
 validated: 1
 version: []

@@ -3,17 +3,17 @@ additionDate: '2017-01-17T14:59:13Z'
 biotoolsCURIE: biotools:pigengene
 biotoolsID: pigengene
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: zare@txstate.edu
-  name: Habil Zare
-  note: null
-  orcidid: http://orcid.org/0000-0001-5902-6238
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: zare@txstate.edu
+    name: Habil Zare
+    note: null
+    orcidid: http://orcid.org/0000-0001-5902-6238
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: This package infers biological signatures from gene expression profiles
   using data from one platform, and evaluate them on a different one. It also identifies
   clusters of highly coexpressed genes using coexpression network analysis, summarizing
@@ -21,14 +21,14 @@ description: This package infers biological signatures from gene expression prof
   that models the probabilistic dependencies between modules, and building a decision
   tree based on the expression of eigengenes.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/Pigengene.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/Pigengene.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/Pigengene_1.0.0.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/Pigengene_1.0.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -36,45 +36,45 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Statistical inference
-    uri: http://edamontology.org/operation_3658
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Statistical inference
+        uri: http://edamontology.org/operation_3658
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/Pigengene.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-01-15T01:27:21Z'
 license: GPL-2.0
 link: []
 maturity: null
 name: Pigengene
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1186/s12920-017-0253-6
-  metadata: null
-  pmcid: PMC5353782
-  pmid: '28298217'
-  type: Primary
-  version: null
+  - doi: 10.1186/s12920-017-0253-6
+    metadata: null
+    pmcid: PMC5353782
+    pmid: '28298217'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: Gene expression
-  uri: http://edamontology.org/topic_0203
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
-- term: Statistics and probability
-  uri: http://edamontology.org/topic_2269
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
 validated: 1
 version:
-- 1.0.0
+  - 1.0.0

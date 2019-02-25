@@ -3,91 +3,92 @@ additionDate: '2017-08-20T15:59:10Z'
 biotoolsCURIE: biotools:survival_kit
 biotoolsID: survival_kit
 collectionID:
-- Animal and Crop Genomics
+  - Animal and Crop Genomics
 cost: null
 credit:
-- email: johann.soelkner@boku.ac.at
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: johann.soelkner@boku.ac.at
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Survival analysis methods were first developed in the biomedical field,
   which generally involves smaller file sizes and lower levels of effects than agronomic
   applications. The relative theory of random effects in survival analysis ("fragile"
   models) is not as advanced as with linear models and no freeware is available to
   use such models. The survival kit analyses large populations with complex models.
 documentation:
-- note: null
-  type: General
-  url: http://www.nas.boku.ac.at/fileadmin/data/H03000/H93000/H932-NUWI/Software/Survival/Survival_Kit_v6_12.zip
+  - note: null
+    type: General
+    url: http://www.nas.boku.ac.at/fileadmin/data/H03000/H93000/H932-NUWI/Software/Survival/Survival_Kit_v6_12.zip
 download: []
 editPermission:
   authors:
-  - animalandcropgenomics
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Statistical calculation
-    uri: http://edamontology.org/operation_2238
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Statistical calculation
+        uri: http://edamontology.org/operation_2238
+    output: []
 homepage: http://www.nas.boku.ac.at/nuwi/the-survival-kit/
 homepage_status: 0
 language:
-- Fortran
+  - Fortran
 lastUpdate: '2019-01-29T12:05:33Z'
 license: Unlicensed
 link: []
 maturity: null
 name: Survival kit
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: 10.1016/j.cmpb.2013.01.010
-  metadata:
-    abstract: The Survival Kit is a Fortran 90 Software intended for survival analysis
-      using proportional hazards models and their extension to frailty models with
-      a single response time. The hazard function is described as the product of a
-      baseline hazard function and a positive (exponential) function of possibly time-dependent
-      fixed and random covariates. Stratified Cox, grouped data and Weibull models
-      can be used. Random effects can be either log-gamma or normally distributed
-      and can account for a pedigree structure. Variance parameters are estimated
-      in a Bayesian context. It is possible to account for the correlated nature of
-      two random effects either by specifying a known correlation coefficient or estimating
-      it from the data. An R interface of the Survival Kit provides a user friendly
-      way to run the software. © 2013 Elsevier Ireland Ltd.
-    authors:
-    - name: Meszaros G.
-    - name: Solkner J.
-    - name: Ducrocq V.
-    citationCount: 26
-    date: '2013-06-01T00:00:00Z'
-    journal: Computer Methods and Programs in Biomedicine
-    title: 'The Survival Kit: Software to analyze survival data including possibly
-      correlated random effects'
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1016/j.cmpb.2013.01.010
+    metadata:
+      abstract: "The Survival Kit is a Fortran 90 Software intended for survival analysis\
+        \ using proportional hazards models and their extension to frailty models\
+        \ with a single response time. The hazard function is described as the product\
+        \ of a baseline hazard function and a positive (exponential) function of possibly\
+        \ time-dependent fixed and random covariates. Stratified Cox, grouped data\
+        \ and Weibull models can be used. Random effects can be either log-gamma or\
+        \ normally distributed and can account for a pedigree structure. Variance\
+        \ parameters are estimated in a Bayesian context. It is possible to account\
+        \ for the correlated nature of two random effects either by specifying a known\
+        \ correlation coefficient or estimating it from the data. An R interface of\
+        \ the Survival Kit provides a user friendly way to run the software. \xA9\
+        \ 2013 Elsevier Ireland Ltd."
+      authors:
+        - name: Meszaros G.
+        - name: Solkner J.
+        - name: Ducrocq V.
+      citationCount: 26
+      date: '2013-06-01T00:00:00Z'
+      journal: Computer Methods and Programs in Biomedicine
+      title: 'The Survival Kit: Software to analyze survival data including possibly
+        correlated random effects'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Desktop application
+  - Command-line tool
+  - Desktop application
 topic:
-- term: Quantitative genetics
-  uri: http://edamontology.org/topic_3055
-- term: Population genetics
-  uri: http://edamontology.org/topic_3056
-- term: Genetics
-  uri: http://edamontology.org/topic_3053
+  - term: Quantitative genetics
+    uri: http://edamontology.org/topic_3055
+  - term: Population genetics
+    uri: http://edamontology.org/topic_3056
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
 validated: 1
 version: []

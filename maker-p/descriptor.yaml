@@ -3,41 +3,41 @@ additionDate: '2017-08-20T16:16:22Z'
 biotoolsCURIE: biotools:maker-p
 biotoolsID: maker-p
 collectionID:
-- Animal and Crop Genomics
+  - Animal and Crop Genomics
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://weatherby.genetics.utah.edu/MAKER/wiki/index.php/Main_Page
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://weatherby.genetics.utah.edu/MAKER/wiki/index.php/Main_Page
 description: Pipeline designed to annotate novel plant genomes and is build on the
   MAKER annotation tool. The MAKER-P pipeline generates species-specific repeat libraries,
   as well as structural annotations of protein coding genes, non-coding RNAs, and
   pseudogenes.
 documentation:
-- note: null
-  type: General
-  url: http://weatherby.genetics.utah.edu/MAKER/wiki/index.php/Main_Page
+  - note: null
+    type: General
+    url: http://weatherby.genetics.utah.edu/MAKER/wiki/index.php/Main_Page
 download: []
 editPermission:
   authors:
-  - animalandcropgenomics
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Genome annotation
-    uri: http://edamontology.org/operation_0362
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genome annotation
+        uri: http://edamontology.org/operation_0362
+    output: []
 homepage: http://www.yandell-lab.org/software/maker-p.html
 homepage_status: 0
 language: []
@@ -47,16 +47,16 @@ link: []
 maturity: null
 name: MAKER-P
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: vzn529@binf.ku.dk
 publication: []
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
-- term: Data submission, annotation and curation
-  uri: http://edamontology.org/topic_0219
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Data submission, annotation and curation
+    uri: http://edamontology.org/topic_0219
 validated: 1
 version: []

@@ -1,0 +1,78 @@
+accessibility: []
+additionDate: '2017-12-18T00:04:27Z'
+biotoolsCURIE: biotools:brass
+biotoolsID: brass
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://millar.bio.ed.ac.uk/index.htm
+description: A MS Excel workbook for the analysis and display of rhythmic data series.
+  Many in the circadian biology community use the FFT NLLS suite of programs, to estimate
+  period and phase values from rhythmic experimental data. A user interface is developed
+  to act as a front end to these programs. It imports data from most of the data acquisition
+  packages commonly used in plant circadian research, and from a generic block of
+  data. Then it runs FFT-NLLS on this data, and import the results into MS Excel.
+documentation:
+- note: null
+  type: General
+  url: http://millar.bio.ed.ac.uk/PEBrown/BRASS/BrassPage.htm
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Statistical analysis
+    uri: http://edamontology.org/operation_2238
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Analysis
+    uri: http://edamontology.org/operation_2945
+  output: []
+homepage: http://millar.bio.ed.ac.uk/PEBrown/BRASS/BrassPage.htm
+homepage_status: 0
+language:
+- MATLAB
+lastUpdate: '2018-12-10T12:58:59Z'
+license: null
+link:
+- note: null
+  type: Registry
+  url: http://www.mybiosoftware.com/brass-3-0-biological-rhythms-analysis-software-system.html
+maturity: null
+name: Brass
+operatingSystem:
+- Windows
+otherID: []
+owner: mbs_import
+publication: []
+toolType:
+- Desktop application
+topic:
+- term: Data acquisition
+  uri: http://edamontology.org/topic_3077
+- term: Biology
+  uri: http://edamontology.org/topic_3070
+- term: Plant
+  uri: http://edamontology.org/topic_0780
+- term: Biological rhythms
+  uri: http://edamontology.org/topic_3070
+validated: 1
+version:
+- '3.0'

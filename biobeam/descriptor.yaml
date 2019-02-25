@@ -1,0 +1,90 @@
+accessibility: []
+additionDate: '2018-07-07T17:36:55Z'
+biotoolsCURIE: biotools:biobeam
+biotoolsID: biobeam
+collectionID: []
+cost: null
+credit:
+- email: kreysing@mpi-cbg.de
+  name: Moritz Kreysing
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Multiplexed wave-optical simulations of light-sheet microscopy.
+documentation:
+- note: null
+  type: Other
+  url: https://maweigert.github.io/biobeam/installing.html
+- note: null
+  type: Manual
+  url: https://maweigert.github.io/biobeam/basic.html
+- note: null
+  type: General
+  url: https://maweigert.github.io/biobeam/intro.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Image analysis
+    uri: http://edamontology.org/operation_3443
+  - term: Modelling and simulation
+    uri: http://edamontology.org/operation_2426
+  output: []
+homepage: https://maweigert.github.io/biobeam/
+homepage_status: 0
+language:
+- Python
+lastUpdate: '2018-12-10T12:58:59Z'
+license: null
+link: []
+maturity: null
+name: Biobeam
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: migle_sur
+publication:
+- doi: 10.1371/journal.pcbi.1006079
+  metadata:
+    abstract: © 2018 Weigert et al. Sample-induced image-degradation remains an intricate
+      wave-optical problem in light-sheet microscopy. Here we present biobeam, an
+      open-source software package that enables simulation of operational light-sheet
+      microscopes by combining data from 105–106multiplexed and GPU-accelerated point-spread-function
+      calculations. The wave-optical nature of these simulations leads to the faithful
+      reproduction of spatially varying aberrations, diffraction artifacts, geometric
+      image distortions, adaptive optics, and emergent wave-optical phenomena, and
+      renders image-formation in light-sheet microscopy computationally tractable.
+    authors:
+    - name: Weigert M.
+    - name: Subramanian K.
+    - name: Bundschuh S.T.
+    - name: Myers E.W.
+    - name: Kreysing M.
+    citationCount: 1
+    date: '2018-04-01T00:00:00Z'
+    journal: PLoS Computational Biology
+    title: Biobeam—Multiplexed wave-optical simulations of light-sheet microscopy
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Imaging
+  uri: http://edamontology.org/topic_3382
+validated: 1
+version: []

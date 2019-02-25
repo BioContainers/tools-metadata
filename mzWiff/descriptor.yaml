@@ -3,25 +3,25 @@ additionDate: '2019-02-20T16:16:56Z'
 biotoolsCURIE: biotools:mzWiff
 biotoolsID: mzWiff
 collectionID:
-- ms-utils
+  - ms-utils
 cost: null
 credit:
-- email: infoproteome@systemsbiology.org
-  name: see publication
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Maintainer
-  url: null
+  - email: infoproteome@systemsbiology.org
+    name: see publication
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
 description: mzWiff is a command-line program to convert Analyst native acquisition
   (.wiff) files to mzXML and mzML.
 documentation: []
 download:
-- note: null
-  type: Source code
-  url: https://sourceforge.net/p/sashimi/code/HEAD/tree/trunk/trans_proteomic_pipeline/src/mzXML/converters/mzWiff/
-  version: null
+  - note: null
+    type: Source code
+    url: https://sourceforge.net/p/sashimi/code/HEAD/tree/trunk/trans_proteomic_pipeline/src/mzXML/converters/mzWiff/
+    version: null
 editPermission:
   authors: []
   type: private
@@ -29,39 +29,39 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Mass spectrometry spectra
-      uri: http://edamontology.org/data_0943
-    format:
-    - term: WIFF format
-      uri: http://edamontology.org/format_3710
-  note: null
-  operation:
-  - term: Parsing
-    uri: http://edamontology.org/operation_1812
-  - term: Formatting
-    uri: http://edamontology.org/operation_0335
-  output:
-  - data:
-      term: Mass spectrometry spectra
-      uri: http://edamontology.org/data_0943
-    format:
-    - term: mzML
-      uri: http://edamontology.org/format_3244
-    - term: mzXML
-      uri: http://edamontology.org/format_3654
+  - cmd: null
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: WIFF format
+            uri: http://edamontology.org/format_3710
+    note: null
+    operation:
+      - term: Parsing
+        uri: http://edamontology.org/operation_1812
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
 homepage: http://tools.proteomecenter.org/wiki/index.php?title=Software:mzWiff
 homepage_status: 0
 language:
-- C++
+  - C++
 lastUpdate: '2019-02-20T16:16:56Z'
 license: LGPL-2.1
 link:
-- note: null
-  type: Registry
-  url: http://ms-utils.org
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
 maturity: null
 name: mzWiff
 operatingSystem: []
@@ -69,11 +69,11 @@ otherID: []
 owner: vzn529@binf.ku.dk
 publication: []
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
-- term: Proteomics experiment
-  uri: http://edamontology.org/topic_3520
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
 validated: 0
 version: []

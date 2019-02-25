@@ -3,79 +3,79 @@ additionDate: '2017-08-20T15:22:21Z'
 biotoolsCURIE: biotools:come
 biotoolsID: come
 collectionID:
-- Animal and Crop Genomics
+  - Animal and Crop Genomics
 cost: null
 credit:
-- email: zhilu@tsinghua.edu.cn
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: hulongptp@gmail.com
-  name: Long Hu
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: zhilu@tsinghua.edu.cn
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: hulongptp@gmail.com
+    name: Long Hu
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: A COding potential calculation tool based on Multiple fEatures integrates
   multiple sequence-derived and experiment-based features to identify and characterize
   novel lncRNAs in RNA sequencing data.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/lulab/COME/blob/master/README.md
+  - note: null
+    type: General
+    url: https://github.com/lulab/COME/blob/master/README.md
 download: []
 editPermission:
   authors:
-  - animalandcropgenomics
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence classification
-    uri: http://edamontology.org/operation_2995
-  - term: Nucleic acid sequence analysis
-    uri: http://edamontology.org/operation_2478
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence classification
+        uri: http://edamontology.org/operation_2995
+      - term: Nucleic acid sequence analysis
+        uri: http://edamontology.org/operation_2478
+    output: []
 homepage: https://github.com/lulab/COME
 homepage_status: 0
 language:
-- R
-- Shell
-- Perl
+  - R
+  - Shell
+  - Perl
 lastUpdate: '2019-01-29T11:58:59Z'
 license: Unlicensed
 link:
-- note: null
-  type: Issue tracker
-  url: https://github.com/lulab/COME/issues
+  - note: null
+    type: Issue tracker
+    url: https://github.com/lulab/COME/issues
 maturity: null
 name: COME
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: 10.1093/nar/gkw798
-  metadata: null
-  pmcid: PMC5224497
-  pmid: '27608726'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkw798
+    metadata: null
+    pmcid: PMC5224497
+    pmid: '27608726'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
 validated: 1
 version: []

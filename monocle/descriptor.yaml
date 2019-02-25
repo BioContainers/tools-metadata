@@ -1,20 +1,20 @@
 accessibility:
-- Open access
+  - Open access
 additionDate: '2017-01-17T15:00:47Z'
 biotoolsCURIE: biotools:monocle
 biotoolsID: monocle
 collectionID:
-- BioConductor
+  - BioConductor
 cost: Free of charge
 credit:
-- email: coletrap@uw.edu
-  name: Cole Trapnell
-  note: null
-  orcidid: http://orcid.org/0000-0002-8105-4347
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: coletrap@uw.edu
+    name: Cole Trapnell
+    note: null
+    orcidid: http://orcid.org/0000-0002-8105-4347
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: This tool performs differential expression and time-series analysis for
   single-cell expression experiments. It orders individual cells according to progress
   through a biological process, without knowing ahead of time which genes define progress
@@ -22,21 +22,21 @@ description: This tool performs differential expression and time-series analysis
   visualization, and other useful tasks on single cell expression data. It is designed
   to work with RNA-Seq and qPCR data, but could be used with other types as well.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/monocle.html
-- note: Updates for monocle release 2
-  type: General
-  url: http://cole-trapnell-lab.github.io/monocle-release/docs/#major-updates-in-monocle-2
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/monocle.html
+  - note: Updates for monocle release 2
+    type: General
+    url: http://cole-trapnell-lab.github.io/monocle-release/docs/#major-updates-in-monocle-2
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/monocle_2.2.0.tar.gz
-  version: null
-- note: null
-  type: Binary package
-  url: https://github.com/cole-trapnell-lab/monocle-release
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/monocle_2.2.0.tar.gz
+    version: null
+  - note: null
+    type: Binary package
+    url: https://github.com/cole-trapnell-lab/monocle-release
+    version: null
 editPermission:
   authors: []
   type: private
@@ -44,70 +44,70 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Gene expression data
-      uri: http://edamontology.org/data_2603
-    format:
-    - term: rna
-      uri: http://edamontology.org/format_1213
-  note: null
-  operation:
-  - term: Pathway or network prediction
-    uri: http://edamontology.org/operation_3439
-  - term: Network simulation
-    uri: http://edamontology.org/operation_3562
-  output:
-  - data:
-      term: Fate map
-      uri: http://edamontology.org/data_1713
-    format:
-    - term: Workflow format
-      uri: http://edamontology.org/format_2032
+  - cmd: null
+    input:
+      - data:
+          term: Gene expression data
+          uri: http://edamontology.org/data_2603
+        format:
+          - term: rna
+            uri: http://edamontology.org/format_1213
+    note: null
+    operation:
+      - term: Pathway or network prediction
+        uri: http://edamontology.org/operation_3439
+      - term: Network simulation
+        uri: http://edamontology.org/operation_3562
+    output:
+      - data:
+          term: Fate map
+          uri: http://edamontology.org/data_1713
+        format:
+          - term: Workflow format
+            uri: http://edamontology.org/format_2032
 homepage: http://bioconductor.org/packages/release/bioc/html/monocle.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-02-17T19:04:12Z'
 license: Artistic-2.0
 link:
-- note: null
-  type: Repository
-  url: https://github.com/cole-trapnell-lab/monocle-release
+  - note: null
+    type: Repository
+    url: https://github.com/cole-trapnell-lab/monocle-release
 maturity: Mature
 name: monocle
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1038/nmeth.4150
-  metadata: null
-  pmcid: PMC5330805
-  pmid: '28114287'
-  type: Primary
-  version: null
-- doi: 10.1038/nmeth.4402
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1038/nmeth.4150
+    metadata: null
+    pmcid: PMC5330805
+    pmid: '28114287'
+    type: Primary
+    version: null
+  - doi: 10.1038/nmeth.4402
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: Gene expression
-  uri: http://edamontology.org/topic_0203
-- term: RNA-seq
-  uri: http://edamontology.org/topic_3170
-- term: PCR experiment
-  uri: http://edamontology.org/topic_3519
-- term: Cell biology
-  uri: http://edamontology.org/topic_2229
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
+  - term: PCR experiment
+    uri: http://edamontology.org/topic_3519
+  - term: Cell biology
+    uri: http://edamontology.org/topic_2229
 validated: 0
 version:
-- 2.2.0
+  - 2.2.0

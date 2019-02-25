@@ -3,103 +3,103 @@ additionDate: '2017-01-13T13:15:53Z'
 biotoolsCURIE: biotools:pindel
 biotoolsID: pindel
 collectionID:
-- galaxyPasteur
-- Rare Disease
-- Pindel
+  - galaxyPasteur
+  - Rare Disease
+  - Pindel
 cost: null
 credit:
-- email: null
-  name: Support Forum
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://www.biostars.org/
-- email: kaiye@xjtu.edu.cn
-  name: Kai Ye
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  - Developer
-  url: null
+  - email: null
+    name: Support Forum
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www.biostars.org/
+  - email: kaiye@xjtu.edu.cn
+    name: Kai Ye
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+      - Developer
+    url: null
 description: A pattern growth approach to detect break points of large deletions and
   medium sized insertions from paired end short reads.
 documentation:
-- note: null
-  type: General
-  url: http://gmt.genome.wustl.edu/packages/pindel/
+  - note: null
+    type: General
+    url: http://gmt.genome.wustl.edu/packages/pindel/
 download: []
 editPermission:
   authors:
-  - ELIXIR-EE
+    - ELIXIR-EE
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Sequence trace
-      uri: http://edamontology.org/data_0924
-    format:
-    - term: BAM
-      uri: http://edamontology.org/format_2572
-  - data:
-      term: Sequence alignment
-      uri: http://edamontology.org/data_0863
-    format:
-    - term: FASTA
-      uri: http://edamontology.org/format_1929
-  note: null
-  operation:
-  - term: Sequence motif recognition
-    uri: http://edamontology.org/operation_0239
-  output:
-  - data:
-      term: Data
-      uri: http://edamontology.org/data_0006
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
+  - cmd: null
+    input:
+      - data:
+          term: Sequence trace
+          uri: http://edamontology.org/data_0924
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+    note: null
+    operation:
+      - term: Sequence motif recognition
+        uri: http://edamontology.org/operation_0239
+    output:
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
 homepage: http://gmt.genome.wustl.edu/packages/pindel/
 homepage_status: 0
 language:
-- C++
+  - C++
 lastUpdate: '2019-02-15T11:20:06Z'
 license: null
 link:
-- note: null
-  type: Repository
-  url: https://github.com/genome/pindel
-- note: null
-  type: Issue tracker
-  url: https://github.com/genome/pindel/issues
-- note: null
-  type: Galaxy service
-  url: https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/pindel/pindel/0.2.5a3
+  - note: null
+    type: Repository
+    url: https://github.com/genome/pindel
+  - note: null
+    type: Issue tracker
+    url: https://github.com/genome/pindel/issues
+  - note: null
+    type: Galaxy service
+    url: https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/pindel/pindel/0.2.5a3
 maturity: Mature
 name: Pindel
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: seqwiki_import
 publication:
-- doi: null
-  metadata: null
-  pmcid: null
-  pmid: '19561018'
-  type: null
-  version: null
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '19561018'
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: DNA structural variation
-  uri: http://edamontology.org/topic_3175
+  - term: DNA structural variation
+    uri: http://edamontology.org/topic_3175
 validated: 0
 version: []

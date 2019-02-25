@@ -3,88 +3,88 @@ additionDate: '2016-11-28T10:07:16Z'
 biotoolsCURIE: biotools:sartools
 biotoolsID: sartools
 collectionID:
-- SARTools
+  - SARTools
 cost: Free of charge
 credit:
-- email: null
-  name: Institut Pasteur
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: https://research.pasteur.fr
-- email: null
-  name: C3BI
-  note: null
-  orcidid: null
-  typeEntity: Division
-  typeRole: []
-  url: https://research.pasteur.fr/en/center/c3bi/
-- email: null
-  name: France Génomique
-  note: null
-  orcidid: null
-  typeEntity: Funding agency
-  typeRole:
-  - Contributor
-  url: https://www.france-genomique.org
-- email: null
-  name: Bioinformatics and Biostatistics Hub
-  note: null
-  orcidid: null
-  typeEntity: Division
-  typeRole:
-  - Provider
-  url: https://research.pasteur.fr/en/team/bioinformatics-and-biostatistics-hub/
-- email: hugo.varet@pasteur.fr
-  name: Hugo Varet
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: https://research.pasteur.fr/fr/member/hugo-varet/
-- email: marie-agnes.dillies@pasteur.fr
-  name: Marie-Agnès Dillies
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: https://research.pasteur.fr/fr/member/marie-agnes-dillies/
-- email: jean-yves.coppee@pasteur.fr
-  name: Jean-Yves Coppée
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Support
-  url: https://research.pasteur.fr/fr/member/jean-yves-coppee/
-- email: hugo.varet@pasteur.fr
-  name: Hugo Varet
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://research.pasteur.fr/fr/member/hugo-varet/
-- email: marie-agnes.dillies@pasteur.fr
-  name: Marie-Agnès Dillies
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://research.pasteur.fr/fr/member/marie-agnes-dillies/
-- email: jean-yves.coppee@pasteur.fr
-  name: Jean-Yves Coppée
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://research.pasteur.fr/fr/member/jean-yves-coppee/
+  - email: null
+    name: Institut Pasteur
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: https://research.pasteur.fr
+  - email: null
+    name: C3BI
+    note: null
+    orcidid: null
+    typeEntity: Division
+    typeRole: []
+    url: https://research.pasteur.fr/en/center/c3bi/
+  - email: null
+    name: "France G\xE9nomique"
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: https://www.france-genomique.org
+  - email: null
+    name: Bioinformatics and Biostatistics Hub
+    note: null
+    orcidid: null
+    typeEntity: Division
+    typeRole:
+      - Provider
+    url: https://research.pasteur.fr/en/team/bioinformatics-and-biostatistics-hub/
+  - email: hugo.varet@pasteur.fr
+    name: Hugo Varet
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: https://research.pasteur.fr/fr/member/hugo-varet/
+  - email: marie-agnes.dillies@pasteur.fr
+    name: "Marie-Agn\xE8s Dillies"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: https://research.pasteur.fr/fr/member/marie-agnes-dillies/
+  - email: jean-yves.coppee@pasteur.fr
+    name: "Jean-Yves Copp\xE9e"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Support
+    url: https://research.pasteur.fr/fr/member/jean-yves-coppee/
+  - email: hugo.varet@pasteur.fr
+    name: Hugo Varet
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://research.pasteur.fr/fr/member/hugo-varet/
+  - email: marie-agnes.dillies@pasteur.fr
+    name: "Marie-Agn\xE8s Dillies"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://research.pasteur.fr/fr/member/marie-agnes-dillies/
+  - email: jean-yves.coppee@pasteur.fr
+    name: "Jean-Yves Copp\xE9e"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://research.pasteur.fr/fr/member/jean-yves-coppee/
 description: R package dedicated to the differential analysis of RNA-seq data. It
   provides tools to generate descriptive and diagnostic graphs, to run the differential
   analysis with one of the well known DESeq2 or edgeR packages and to export the results
@@ -92,89 +92,89 @@ description: R package dedicated to the differential analysis of RNA-seq data. I
   a HTML report which displays all the figures produced, explains the statistical
   methods and gives the results of the differential analysis.
 documentation:
-- note: null
-  type: Citation instructions
-  url: https://dx.doi.org/10.1371/journal.pone.0157022
-- note: null
-  type: General
-  url: https://github.com/PF2-pasteur-fr/SARTools
+  - note: null
+    type: Citation instructions
+    url: https://dx.doi.org/10.1371/journal.pone.0157022
+  - note: null
+    type: General
+    url: https://github.com/PF2-pasteur-fr/SARTools
 download: []
 editPermission:
   authors:
-  - khillion
-  - hmenager
+    - khillion
+    - hmenager
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Gene expression data
-      uri: http://edamontology.org/data_2603
-    format:
-    - term: TSV
-      uri: http://edamontology.org/format_3475
-  note: One tab-delimited text file per sample with gene ids in the first column and
-    read counts in the second. Plots are exported in PNG. Results of the differential
-    analysis with gene ids, Fold-Changes, p-values, adjusted p-values, etc.
-  operation:
-  - term: Standardisation and normalisation
-    uri: http://edamontology.org/operation_3435
-  - term: RNA-seq read count analysis
-    uri: http://edamontology.org/operation_3563
-  - term: Differential gene expression analysis
-    uri: http://edamontology.org/operation_3223
-  output:
-  - data:
-      term: Plot
-      uri: http://edamontology.org/data_2884
-    format: []
-  - data:
-      term: Experiment report
-      uri: http://edamontology.org/data_2531
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-  - data:
-      term: Experiment report
-      uri: http://edamontology.org/data_2531
-    format:
-    - term: TSV
-      uri: http://edamontology.org/format_3475
+  - cmd: null
+    input:
+      - data:
+          term: Gene expression data
+          uri: http://edamontology.org/data_2603
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
+    note: One tab-delimited text file per sample with gene ids in the first column
+      and read counts in the second. Plots are exported in PNG. Results of the differential
+      analysis with gene ids, Fold-Changes, p-values, adjusted p-values, etc.
+    operation:
+      - term: Standardisation and normalisation
+        uri: http://edamontology.org/operation_3435
+      - term: RNA-seq read count analysis
+        uri: http://edamontology.org/operation_3563
+      - term: Differential gene expression analysis
+        uri: http://edamontology.org/operation_3223
+    output:
+      - data:
+          term: Plot
+          uri: http://edamontology.org/data_2884
+        format: []
+      - data:
+          term: Experiment report
+          uri: http://edamontology.org/data_2531
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+      - data:
+          term: Experiment report
+          uri: http://edamontology.org/data_2531
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
 homepage: https://github.com/PF2-pasteur-fr/SARTools
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-02-13T09:17:09Z'
 license: GPL-2.0
 link:
-- note: null
-  type: Repository
-  url: https://github.com/PF2-pasteur-fr/SARTools
+  - note: null
+    type: Repository
+    url: https://github.com/PF2-pasteur-fr/SARTools
 maturity: Mature
 name: SARTools
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: hvaret
 publication:
-- doi: 10.1371/journal.pone.0157022
-  metadata: null
-  pmcid: PMC4900645
-  pmid: '27280887'
-  type: Primary
-  version: null
+  - doi: 10.1371/journal.pone.0157022
+    metadata: null
+    pmcid: PMC4900645
+    pmid: '27280887'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Statistics and probability
-  uri: http://edamontology.org/topic_2269
-- term: Transcriptomics
-  uri: http://edamontology.org/topic_3308
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
 validated: 0
 version:
-- 1.4.0
+  - 1.4.0

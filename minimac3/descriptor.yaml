@@ -3,17 +3,17 @@ additionDate: '2017-08-20T15:58:01Z'
 biotoolsCURIE: biotools:minimac3
 biotoolsID: minimac3
 collectionID:
-- Animal and Crop Genomics
+  - Animal and Crop Genomics
 cost: null
 credit:
-- email: sayantan@umich.edu
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: sayantan@umich.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: It is designed to handle very large reference panels in a more computationally
   efficient way with no loss of accuracy. It accomplishes this by identifying repeat
   haplotype patterns and using these to simplify the underlying calculations, with
@@ -21,92 +21,93 @@ description: It is designed to handle very large reference panels in a more comp
   a compact form. M3VCF files can also store pre-calculated estimates of recombination
   fraction and error, which speeds up later rounds of imputation.
 documentation:
-- note: null
-  type: General
-  url: http://genome.sph.umich.edu/wiki/Minimac3
+  - note: null
+    type: General
+    url: http://genome.sph.umich.edu/wiki/Minimac3
 download: []
 editPermission:
   authors:
-  - animalandcropgenomics
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Imputation
-    uri: http://edamontology.org/operation_3557
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Imputation
+        uri: http://edamontology.org/operation_3557
+    output: []
 homepage: http://genome.sph.umich.edu/wiki/Minimac3
 homepage_status: 0
 language:
-- C++
-- C
+  - C++
+  - C
 lastUpdate: '2019-01-29T12:02:06Z'
 license: Unlicensed
 link:
-- note: null
-  type: Repository
-  url: https://github.com/Santy-8128/Minimac3
-- note: null
-  type: Issue tracker
-  url: https://github.com/Santy-8128/Minimac3/issues
+  - note: null
+    type: Repository
+    url: https://github.com/Santy-8128/Minimac3
+  - note: null
+    type: Issue tracker
+    url: https://github.com/Santy-8128/Minimac3/issues
 maturity: null
 name: Minimac3
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: 10.1038/ng.3656
-  metadata:
-    abstract: © 2016 Nature America, Inc. All rights reserved. Genotype imputation
-      is a key component of genetic association studies, where it increases power,
-      facilitates meta-analysis, and aids interpretation of signals. Genotype imputation
-      is computationally demanding and, with current tools, typically requires access
-      to a high-performance computing cluster and to a reference panel of sequenced
-      genomes. Here we describe improvements to imputation machinery that reduce computational
-      requirements by more than an order of magnitude with no loss of accuracy in
-      comparison to standard imputation tools. We also describe a new web-based service
-      for imputation that facilitates access to new reference panels and greatly improves
-      user experience and productivity.
-    authors:
-    - name: Das S.
-    - name: Forer L.
-    - name: Schonherr S.
-    - name: Sidore C.
-    - name: Locke A.E.
-    - name: Kwong A.
-    - name: Vrieze S.I.
-    - name: Chew E.Y.
-    - name: Levy S.
-    - name: McGue M.
-    - name: Schlessinger D.
-    - name: Stambolian D.
-    - name: Loh P.-R.
-    - name: Iacono W.G.
-    - name: Swaroop A.
-    - name: Scott L.J.
-    - name: Cucca F.
-    - name: Kronenberg F.
-    - name: Boehnke M.
-    - name: Abecasis G.R.
-    - name: Fuchsberger C.
-    citationCount: 173
-    date: '2016-10-01T00:00:00Z'
-    journal: Nature Genetics
-    title: Next-generation genotype imputation service and methods
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1038/ng.3656
+    metadata:
+      abstract: "\xA9 2016 Nature America, Inc. All rights reserved. Genotype imputation\
+        \ is a key component of genetic association studies, where it increases power,\
+        \ facilitates meta-analysis, and aids interpretation of signals. Genotype\
+        \ imputation is computationally demanding and, with current tools, typically\
+        \ requires access to a high-performance computing cluster and to a reference\
+        \ panel of sequenced genomes. Here we describe improvements to imputation\
+        \ machinery that reduce computational requirements by more than an order of\
+        \ magnitude with no loss of accuracy in comparison to standard imputation\
+        \ tools. We also describe a new web-based service for imputation that facilitates\
+        \ access to new reference panels and greatly improves user experience and\
+        \ productivity."
+      authors:
+        - name: Das S.
+        - name: Forer L.
+        - name: Schonherr S.
+        - name: Sidore C.
+        - name: Locke A.E.
+        - name: Kwong A.
+        - name: Vrieze S.I.
+        - name: Chew E.Y.
+        - name: Levy S.
+        - name: McGue M.
+        - name: Schlessinger D.
+        - name: Stambolian D.
+        - name: Loh P.-R.
+        - name: Iacono W.G.
+        - name: Swaroop A.
+        - name: Scott L.J.
+        - name: Cucca F.
+        - name: Kronenberg F.
+        - name: Boehnke M.
+        - name: Abecasis G.R.
+        - name: Fuchsberger C.
+      citationCount: 173
+      date: '2016-10-01T00:00:00Z'
+      journal: Nature Genetics
+      title: Next-generation genotype imputation service and methods
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Population genetics
-  uri: http://edamontology.org/topic_3056
+  - term: Population genetics
+    uri: http://edamontology.org/topic_3056
 validated: 1
 version: []

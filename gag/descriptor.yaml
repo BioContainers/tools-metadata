@@ -1,0 +1,68 @@
+accessibility: []
+additionDate: '2018-07-13T17:46:22Z'
+biotoolsCURIE: biotools:gag
+biotoolsID: gag
+collectionID: []
+cost: null
+credit:
+- email: scott.geib@ars.usda.gov
+  name: Scott M Geib
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Generates an NCBI .tbl file of annotations on a genome.
+documentation:
+- note: null
+  type: General
+  url: https://github.com/genomeannotation/GAG
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Genome annotation
+    uri: http://edamontology.org/operation_0362
+  output: []
+homepage: https://github.com/genomeannotation/GAG
+homepage_status: 0
+language:
+- Python
+lastUpdate: '2018-12-10T12:59:00Z'
+license: MIT
+link: []
+maturity: null
+name: GAG
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: d.gabrielaitis
+publication:
+- doi: 10.1093/gigascience/giy018
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+- term: Nucleic acids
+  uri: http://edamontology.org/topic_0077
+- term: Whole genome sequencing
+  uri: http://edamontology.org/topic_3673
+validated: 1
+version: []

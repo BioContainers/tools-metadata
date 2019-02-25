@@ -3,49 +3,49 @@ additionDate: '2017-08-20T17:37:42Z'
 biotoolsCURIE: biotools:x-mate
 biotoolsID: x-mate
 collectionID:
-- Animal and Crop Genomics
+  - Animal and Crop Genomics
 cost: null
 credit:
-- email: n.cloonan@uq.edu.au
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: s.grimmond@uq.edu.au
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: n.cloonan@uq.edu.au
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: s.grimmond@uq.edu.au
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: An updated version of RNA-MATE capable of mapping both RNAseq and DNA
   sequence data.
 documentation:
-- note: null
-  type: Manual
-  url: http://genomicbiology.org/supplementary_material/x-mate/X-MATE_user_manual_v1.0.pdf
+  - note: null
+    type: Manual
+    url: http://genomicbiology.org/supplementary_material/x-mate/X-MATE_user_manual_v1.0.pdf
 download: []
 editPermission:
   authors:
-  - animalandcropgenomics
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: DNA mapping
-    uri: http://edamontology.org/operation_2520
-  - term: Sequence alignment
-    uri: http://edamontology.org/operation_0292
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: DNA mapping
+        uri: http://edamontology.org/operation_2520
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output: []
 homepage: http://genomicbiology.org/2011/02/15/x-mate/
 homepage_status: 0
 language: []
@@ -58,37 +58,38 @@ operatingSystem: []
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: 10.1093/bioinformatics/btq698
-  metadata:
-    abstract: 'Summary: Accurate and complete mapping of short-read sequencing to
-      a reference genome greatly enhances the discovery of biological results and
-      improves statistical predictions. We recently presented RNA-MATE, a pipeline
-      for the recursive mapping of RNA-Seq datasets. With the rapid increase in genome
-      re-sequencing projects, progression of available mapping software and the evolution
-      of file formats, we now present X-MATE, an updated version of RNA-MATE, capable
-      of mapping both RNA-Seq and DNA datasets and with improved performance, output
-      file formats, configuration files, and flexibility in core mapping software.
-      © The Author(s) 2011. Published by Oxford University Press.'
-    authors:
-    - name: Wood D.L.A.
-    - name: Xu Q.
-    - name: Pearson J.V.
-    - name: Cloonan N.
-    - name: Grimmond S.M.
-    citationCount: 8
-    date: '2011-02-01T00:00:00Z'
-    journal: Bioinformatics
-    title: 'X-MATE: A flexible system for mapping short read data'
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/btq698
+    metadata:
+      abstract: "Summary: Accurate and complete mapping of short-read sequencing to\
+        \ a reference genome greatly enhances the discovery of biological results\
+        \ and improves statistical predictions. We recently presented RNA-MATE, a\
+        \ pipeline for the recursive mapping of RNA-Seq datasets. With the rapid increase\
+        \ in genome re-sequencing projects, progression of available mapping software\
+        \ and the evolution of file formats, we now present X-MATE, an updated version\
+        \ of RNA-MATE, capable of mapping both RNA-Seq and DNA datasets and with improved\
+        \ performance, output file formats, configuration files, and flexibility in\
+        \ core mapping software. \xA9 The Author(s) 2011. Published by Oxford University\
+        \ Press."
+      authors:
+        - name: Wood D.L.A.
+        - name: Xu Q.
+        - name: Pearson J.V.
+        - name: Cloonan N.
+        - name: Grimmond S.M.
+      citationCount: 8
+      date: '2011-02-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'X-MATE: A flexible system for mapping short read data'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: RNA
-  uri: http://edamontology.org/topic_0099
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
 validated: 1
 version: []

@@ -3,17 +3,17 @@ additionDate: '2017-01-17T15:02:08Z'
 biotoolsCURIE: biotools:edaseq
 biotoolsID: edaseq
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: risso.davide@gmail.com
-  name: Davide Risso
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: risso.davide@gmail.com
+    name: Davide Risso
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: 'Numerical and graphical summaries of RNA-Seq read data. Within-lane
   normalization procedures to adjust for GC-content effect (or other gene-level effects)
   on read counts: loess robust local regression, global-scaling, and full-quantile
@@ -21,14 +21,14 @@ description: 'Numerical and graphical summaries of RNA-Seq read data. Within-lan
   for distributional differences between lanes (e.g., sequencing depth): global-scaling
   and full-quantile normalization (Bullard et al., 2010).'
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/EDASeq.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/EDASeq.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/EDASeq_2.8.0.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/EDASeq_2.8.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -36,48 +36,48 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence visualisation
-    uri: http://edamontology.org/operation_0564
-  - term: RNA-Seq analysis
-    uri: http://edamontology.org/operation_3680
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence visualisation
+        uri: http://edamontology.org/operation_0564
+      - term: RNA-Seq analysis
+        uri: http://edamontology.org/operation_3680
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/EDASeq.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-01-10T15:11:08Z'
 license: Artistic-2.0
 link:
-- note: null
-  type: Mirror
-  url: https://github.com/drisso/EDASeq
+  - note: null
+    type: Mirror
+    url: https://github.com/drisso/EDASeq
 maturity: null
 name: EDASeq
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1186/1471-2105-15-188
-  metadata: null
-  pmcid: PMC4067528
-  pmid: '24929920'
-  type: Primary
-  version: null
+  - doi: 10.1186/1471-2105-15-188
+    metadata: null
+    pmcid: PMC4067528
+    pmid: '24929920'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: RNA-seq
-  uri: http://edamontology.org/topic_3170
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
 validated: 1
 version:
-- 2.8.0
+  - 2.8.0

@@ -3,60 +3,60 @@ additionDate: '2015-10-09T17:06:07Z'
 biotoolsCURIE: biotools:imgt
 biotoolsID: imgt
 collectionID:
-- DRCAT
+  - DRCAT
 cost: null
 credit:
-- email: null
-  name: DRCAT
-  note: null
-  orcidid: null
-  typeEntity: Project
-  typeRole:
-  - Documentor
-  url: null
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://www.imgt.org/IMGTinformation/Contact.php
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.imgt.org/IMGTinformation/Contact.php
 description: Database for the immunoglobulins (IG), T cell receptors (TR), major histocompatibility
   complex (MHC), immunoglobulin superfamily (IgSF), major histocompatibility complex
   superfamily (MhcSF) and related proteins of the immune system (RPI) of human and
   other vertebrate species.
 documentation:
-- note: null
-  type: General
-  url: http://www.imgt.org/FAQ/
+  - note: null
+    type: General
+    url: http://www.imgt.org/FAQ/
 download: []
 editPermission:
   authors: []
   type: private
 elixirNode:
-- France
+  - France
 elixirPlatform:
-- Tools
+  - Tools
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: IMGT/HLA ID
-      uri: http://edamontology.org/data_2773
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Sequence record
-      uri: http://edamontology.org/data_0849
-    format:
-    - term: EMBL format
-      uri: http://edamontology.org/format_1927
+  - cmd: null
+    input:
+      - data:
+          term: IMGT/HLA ID
+          uri: http://edamontology.org/data_2773
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence record
+          uri: http://edamontology.org/data_0849
+        format:
+          - term: EMBL format
+            uri: http://edamontology.org/format_1927
 homepage: http://www.imgt.org/
 homepage_status: 0
 language: []
@@ -66,22 +66,22 @@ link: []
 maturity: null
 name: The international immunogenetics database (IMGT)
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: DRCAT
 publication:
-- doi: 10.1093/nar/gkn838
-  metadata: null
-  pmcid: PMC2686541
-  pmid: '18978023'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkn838
+    metadata: null
+    pmcid: PMC2686541
+    pmid: '18978023'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Immunoproteins, genes and antigens
-  uri: http://edamontology.org/topic_2830
+  - term: Immunoproteins, genes and antigens
+    uri: http://edamontology.org/topic_2830
 validated: 1
 version: []

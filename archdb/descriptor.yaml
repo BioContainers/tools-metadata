@@ -5,35 +5,35 @@ biotoolsID: archdb
 collectionID: []
 cost: null
 credit:
-- email: jaume.bonet@epfl.ch
-  name: Jaume Bonet
-  note: null
-  orcidid: http://orcid.org/0000-0001-5210-4387
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: upf.edu
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: baldo.oliva@upf.edu
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: jaume.bonet@epfl.ch
+    name: Jaume Bonet
+    note: null
+    orcidid: http://orcid.org/0000-0001-5210-4387
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: upf.edu
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: baldo.oliva@upf.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Structural classification of loops extracted from known protein structures.
 documentation:
-- note: null
-  type: General
-  url: http://sbi.imim.es/archdb/faq/
+  - note: null
+    type: General
+    url: http://sbi.imim.es/archdb/faq/
 download: []
 editPermission:
   authors: []
@@ -42,14 +42,14 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: ArchDB is a structural classification of loops extracted from known protein
-    structures.
-  operation:
-  - term: Protein architecture recognition
-    uri: http://edamontology.org/operation_2475
-  output: []
+  - cmd: null
+    input: []
+    note: ArchDB is a structural classification of loops extracted from known protein
+      structures.
+    operation:
+      - term: Protein architecture recognition
+        uri: http://edamontology.org/operation_2475
+    output: []
 homepage: http://sbi.imim.es/archdb/
 homepage_status: 0
 language: []
@@ -59,22 +59,22 @@ link: []
 maturity: null
 name: ArchDB14
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: baldo.oliva@upf.edu
 publication:
-- doi: 10.1093/nar/gkt1189
-  metadata: null
-  pmcid: PMC3964960
-  pmid: '24265221'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkt1189
+    metadata: null
+    pmcid: PMC3964960
+    pmid: '24265221'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Protein structural motifs and surfaces
-  uri: http://edamontology.org/topic_0166
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
 validated: 1
 version: []

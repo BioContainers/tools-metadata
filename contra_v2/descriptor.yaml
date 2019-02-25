@@ -3,32 +3,32 @@ additionDate: '2016-05-17T10:18:39Z'
 biotoolsCURIE: biotools:contra_v2
 biotoolsID: contra_v2
 collectionID:
-- BIG N2N
-- VIB
-- UGent
+  - BIG N2N
+  - VIB
+  - UGent
 cost: null
 credit:
-- email: null
-  name: ugent.be
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: pieter.debleser@ugent.be
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: ugent.be
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: pieter.debleser@ugent.be
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: A tool to identify transcription factor binding sites across species.
 documentation:
-- note: null
-  type: General
-  url: http://bioit2.irc.ugent.be/contra/v3/#/help
+  - note: null
+    type: General
+    url: http://bioit2.irc.ugent.be/contra/v3/#/help
 download: []
 editPermission:
   authors: []
@@ -37,21 +37,21 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Nucleic acid sequence
-      uri: http://edamontology.org/data_2977
-    format: []
-  note: null
-  operation:
-  - term: Transcriptional regulatory element prediction
-    uri: http://edamontology.org/operation_0438
-  output:
-  - data:
-      term: Sequence motif (nucleic acid)
-      uri: http://edamontology.org/data_2070
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Nucleic acid sequence
+          uri: http://edamontology.org/data_2977
+        format: []
+    note: null
+    operation:
+      - term: Transcriptional regulatory element prediction
+        uri: http://edamontology.org/operation_0438
+    output:
+      - data:
+          term: Sequence motif (nucleic acid)
+          uri: http://edamontology.org/data_2070
+        format: []
 homepage: http://bioit.irc.ugent.be/contrav2/index.php?v2
 homepage_status: 0
 language: []
@@ -61,23 +61,23 @@ link: []
 maturity: null
 name: ConTrav2
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: Katrijn.Vannerum@ugent.be
 publication:
-- doi: 10.1093/nar/gkr355
-  metadata: null
-  pmcid: PMC3125763
-  pmid: '21576231'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkr355
+    metadata: null
+    pmcid: PMC3125763
+    pmid: '21576231'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Nucleic acid sites, features and motifs
-  uri: http://edamontology.org/topic_3511
+  - term: Nucleic acid sites, features and motifs
+    uri: http://edamontology.org/topic_3511
 validated: 1
 version:
-- '2.0'
+  - '2.0'

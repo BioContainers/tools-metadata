@@ -5,30 +5,30 @@ biotoolsID: micrographite
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: ELIXIR-ITA-PADOVA
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: chiara.romualdi@unipd.it
-  name: Chiara Romualdi
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://romualdi.bio.unipd.it/
+  - email: null
+    name: ELIXIR-ITA-PADOVA
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: chiara.romualdi@unipd.it
+    name: Chiara Romualdi
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://romualdi.bio.unipd.it/
 description: R package for topological pathway analysis integrating gene and miRNA
   expression profiles using validated and/or predicted miRNA-target interactions.
   It is based on updated versions of graphite and CliPPER Bioconductor packages dedicated
   to pathway analyses recently proposed by our group.
 documentation:
-- note: null
-  type: General
-  url: http://romualdi.bio.unipd.it/micrographite
+  - note: null
+    type: General
+    url: http://romualdi.bio.unipd.it/micrographite
 download: []
 editPermission:
   authors: []
@@ -37,44 +37,44 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: R package. It provides a list of functions to integrate validated and predicted
-    miRNAs into graphite pathway topologies. It takes as input an expression matrix
-    with matched miRNA and gene expression data (divided into two classes of samples)
-    and a list of graphs (pathways). Then it performs a recursive topological pathway
-    analysis, giving back the circuit associated the most to the phenotype
-  operation:
-  - term: Pathway or network analysis
-    uri: http://edamontology.org/operation_2497
-  output: []
+  - cmd: null
+    input: []
+    note: R package. It provides a list of functions to integrate validated and predicted
+      miRNAs into graphite pathway topologies. It takes as input an expression matrix
+      with matched miRNA and gene expression data (divided into two classes of samples)
+      and a list of graphs (pathways). Then it performs a recursive topological pathway
+      analysis, giving back the circuit associated the most to the phenotype
+    operation:
+      - term: Pathway or network analysis
+        uri: http://edamontology.org/operation_2497
+    output: []
 homepage: http://romualdi.bio.unipd.it/micrographite
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-01-10T05:26:02Z'
 license: AGPL-3.0
 link: []
 maturity: null
 name: micrographite
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-ITA-PADOVA
 publication:
-- doi: 10.1093/nar/gku354
-  metadata: null
-  pmcid: PMC4066781
-  pmid: '24803669'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gku354
+    metadata: null
+    pmcid: PMC4066781
+    pmid: '24803669'
+    type: Primary
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: Functional genomics
-  uri: http://edamontology.org/topic_0085
+  - term: Functional genomics
+    uri: http://edamontology.org/topic_0085
 validated: 1
 version:
-- '4.0'
+  - '4.0'

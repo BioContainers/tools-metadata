@@ -3,113 +3,114 @@ additionDate: '2017-08-20T16:50:34Z'
 biotoolsCURIE: biotools:penncnv
 biotoolsID: penncnv
 collectionID:
-- Animal and Crop Genomics
+  - Animal and Crop Genomics
 cost: null
 credit:
-- email: kai@openbioinformatics.org
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://wglab.org/extra/contact
+  - email: kai@openbioinformatics.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://wglab.org/extra/contact
 description: Free software tool for Copy Number Variation (CNV) detection from SNP
   genotyping arrays. Currently it can handle signal intensity data from Illumina and
   Affymetrix arrays. With appropriate preparation of file format, it can also handle
   other types of SNP arrays and oligonucleotide arrays.
 documentation:
-- note: null
-  type: General
-  url: http://penncnv.openbioinformatics.org/en/latest/
+  - note: null
+    type: General
+    url: http://penncnv.openbioinformatics.org/en/latest/
 download: []
 editPermission:
   authors:
-  - animalandcropgenomics
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Genetic variation analysis
-    uri: http://edamontology.org/operation_3197
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output: []
 homepage: http://penncnv.openbioinformatics.org/en/latest/
 homepage_status: 0
 language:
-- C++
-- Perl
+  - C++
+  - Perl
 lastUpdate: '2019-01-29T12:03:19Z'
 license: Unlicensed
 link:
-- note: null
-  type: Repository
-  url: https://github.com/WGLab/PennCNV/releases
-- note: null
-  type: Issue tracker
-  url: https://github.com/WGLab/PennCNV/issues
+  - note: null
+    type: Repository
+    url: https://github.com/WGLab/PennCNV/releases
+  - note: null
+    type: Issue tracker
+    url: https://github.com/WGLab/PennCNV/issues
 maturity: null
 name: PennCNV
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: 10.1101/gr.6861907
-  metadata:
-    abstract: Comprehensive identification and cataloging of copy number variations
-      (CNVs) is required to provide a complete view of human genetic variation. The
-      resolution of CNV detection in previous experimental designs has been limited
-      to tens or hundreds of kilobases. Here we present PennCNV, a hidden Markov model
-      (HMM) based approach, for kilobase-resolution detection of CNVs from Illumina
-      high-density SNP genotyping data. This algorithm incorporates multiple sources
-      of information, including total signal intensity and allelic intensity ratio
-      at each SNP marker, the distance between neighboring SNPs, the allele frequency
-      of SNPs, and the pedigree information where available. We applied PennCNV to
-      genotyping data generated for 112 HapMap individuals; on average, we detected
-      ∼27 CNVs for each individual with a median size of ∼12 kb. Excluding common
-      rearrangements in lymphoblastoid cell lines, the fraction of CNVs in offspring
-      not detected in parents (CNV-NDPs) was 3.3%. Our results demonstrate the feasibility
-      of whole-genome fine-mapping of CNVs via high-density SNP genotyping. ©2007
-      by Cold Spring Harbor Laboratory Press.
-    authors:
-    - name: Wang K.
-    - name: Li M.
-    - name: Hadley D.
-    - name: Liu R.
-    - name: Glessner J.
-    - name: Grant S.F.A.
-    - name: Hakonarson H.
-    - name: Bucan M.
-    citationCount: 957
-    date: '2007-11-01T00:00:00Z'
-    journal: Genome Research
-    title: 'PennCNV: An integrated hidden Markov model designed for high-resolution
-      copy number variation detection in whole-genome SNP genotyping data'
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1101/gr.6861907
+    metadata:
+      abstract: "Comprehensive identification and cataloging of copy number variations\
+        \ (CNVs) is required to provide a complete view of human genetic variation.\
+        \ The resolution of CNV detection in previous experimental designs has been\
+        \ limited to tens or hundreds of kilobases. Here we present PennCNV, a hidden\
+        \ Markov model (HMM) based approach, for kilobase-resolution detection of\
+        \ CNVs from Illumina high-density SNP genotyping data. This algorithm incorporates\
+        \ multiple sources of information, including total signal intensity and allelic\
+        \ intensity ratio at each SNP marker, the distance between neighboring SNPs,\
+        \ the allele frequency of SNPs, and the pedigree information where available.\
+        \ We applied PennCNV to genotyping data generated for 112 HapMap individuals;\
+        \ on average, we detected \u223C27 CNVs for each individual with a median\
+        \ size of \u223C12 kb. Excluding common rearrangements in lymphoblastoid cell\
+        \ lines, the fraction of CNVs in offspring not detected in parents (CNV-NDPs)\
+        \ was 3.3%. Our results demonstrate the feasibility of whole-genome fine-mapping\
+        \ of CNVs via high-density SNP genotyping. \xA92007 by Cold Spring Harbor\
+        \ Laboratory Press."
+      authors:
+        - name: Wang K.
+        - name: Li M.
+        - name: Hadley D.
+        - name: Liu R.
+        - name: Glessner J.
+        - name: Grant S.F.A.
+        - name: Hakonarson H.
+        - name: Bucan M.
+      citationCount: 957
+      date: '2007-11-01T00:00:00Z'
+      journal: Genome Research
+      title: 'PennCNV: An integrated hidden Markov model designed for high-resolution
+        copy number variation detection in whole-genome SNP genotyping data'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: DNA structural variation
-  uri: http://edamontology.org/topic_3175
-- term: Genetic variation
-  uri: http://edamontology.org/topic_0199
-- term: DNA polymorphism
-  uri: http://edamontology.org/topic_2885
+  - term: DNA structural variation
+    uri: http://edamontology.org/topic_3175
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
 validated: 1
 version: []

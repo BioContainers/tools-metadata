@@ -5,242 +5,242 @@ biotoolsID: pfam
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: Identifiers.org
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: http://identifiers.org
-- email: null
-  name: EMBL-EBI Databases
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole: []
-  url: http://www.ebi.ac.uk/
-- email: null
-  name: Sean Eddy
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole: []
-  url: null
-- email: null
-  name: Pfam group
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole: []
-  url: null
-- email: null
-  name: Sanger Institute
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole: []
-  url: null
-- email: null
-  name: HHMI
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole: []
-  url: null
-- email: pfam-help@ebi.ac.uk
-  name: Pfam central helpdesk
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: null
-  name: How to contact Pfam
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://pfam.xfam.org/help#tabview=tab16
+  - email: null
+    name: Identifiers.org
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: http://identifiers.org
+  - email: null
+    name: EMBL-EBI Databases
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole: []
+    url: http://www.ebi.ac.uk/
+  - email: null
+    name: Sean Eddy
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole: []
+    url: null
+  - email: null
+    name: Pfam group
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole: []
+    url: null
+  - email: null
+    name: Sanger Institute
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole: []
+    url: null
+  - email: null
+    name: HHMI
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole: []
+    url: null
+  - email: pfam-help@ebi.ac.uk
+    name: Pfam central helpdesk
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: null
+    name: How to contact Pfam
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://pfam.xfam.org/help#tabview=tab16
 description: Database which contains information about protein domains and families.
   For each entry a protein sequence alignment and a Hidden Markov Model is stored.
 documentation:
-- note: null
-  type: General
-  url: http://www.ebi.ac.uk/about/terms-of-use
+  - note: null
+    type: General
+    url: http://www.ebi.ac.uk/about/terms-of-use
 download: []
 editPermission:
   authors: []
   type: private
 elixirNode:
-- EMBL
+  - EMBL
 elixirPlatform:
-- Data
+  - Data
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Pfam accession number
-      uri: http://edamontology.org/data_1138
-    format: []
-  note: 'Data retrieval from http://pfam.xfam.org Pfam Identifier for records of Pfam,
-    following the regular expression: ^PF\d{5}$.'
-  operation:
-  - term: Data retrieval
-    uri: http://edamontology.org/operation_2422
-  output:
-  - data:
-      term: Protein sequence
-      uri: http://edamontology.org/data_2976
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-- cmd: null
-  input:
-  - data:
-      term: Sequence accession (protein)
-      uri: http://edamontology.org/data_1096
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Protein family report
-      uri: http://edamontology.org/data_0907
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-- cmd: null
-  input:
-  - data:
-      term: Pfam accession number
-      uri: http://edamontology.org/data_1138
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Protein family report
-      uri: http://edamontology.org/data_0907
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-- cmd: null
-  input:
-  - data:
-      term: Pfam clan ID
-      uri: http://edamontology.org/data_2758
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Protein family report
-      uri: http://edamontology.org/data_0907
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-- cmd: null
-  input:
-  - data:
-      term: NCBI taxonomy ID
-      uri: http://edamontology.org/data_1179
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Protein family report
-      uri: http://edamontology.org/data_0907
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-- cmd: null
-  input:
-  - data:
-      term: Protein sequence
-      uri: http://edamontology.org/data_2976
-    format: []
-  note: null
-  operation:
-  - term: Sequence feature detection
-    uri: http://edamontology.org/operation_0253
-  - term: Protein feature detection
-    uri: http://edamontology.org/operation_3092
-  output:
-  - data:
-      term: Sequence signature matches
-      uri: http://edamontology.org/data_0858
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Pfam accession number
+          uri: http://edamontology.org/data_1138
+        format: []
+    note: 'Data retrieval from http://pfam.xfam.org Pfam Identifier for records of
+      Pfam, following the regular expression: ^PF\d{5}$.'
+    operation:
+      - term: Data retrieval
+        uri: http://edamontology.org/operation_2422
+    output:
+      - data:
+          term: Protein sequence
+          uri: http://edamontology.org/data_2976
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Sequence accession (protein)
+          uri: http://edamontology.org/data_1096
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Protein family report
+          uri: http://edamontology.org/data_0907
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Pfam accession number
+          uri: http://edamontology.org/data_1138
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Protein family report
+          uri: http://edamontology.org/data_0907
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Pfam clan ID
+          uri: http://edamontology.org/data_2758
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Protein family report
+          uri: http://edamontology.org/data_0907
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: NCBI taxonomy ID
+          uri: http://edamontology.org/data_1179
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Protein family report
+          uri: http://edamontology.org/data_0907
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Protein sequence
+          uri: http://edamontology.org/data_2976
+        format: []
+    note: null
+    operation:
+      - term: Sequence feature detection
+        uri: http://edamontology.org/operation_0253
+      - term: Protein feature detection
+        uri: http://edamontology.org/operation_3092
+    output:
+      - data:
+          term: Sequence signature matches
+          uri: http://edamontology.org/data_0858
+        format: []
 homepage: http://pfam.xfam.org/
 homepage_status: 0
 language: []
 lastUpdate: '2019-02-13T15:11:07Z'
 license: CC0-1.0
 link:
-- note: null
-  type: Mirror
-  url: http://pfam.sbc.su.se/
-- note: null
-  type: Mirror
-  url: http://pfam.jouy.inra.fr/
-- note: null
-  type: Mirror
-  url: http://pfam.sanger.ac.uk/
-- note: null
-  type: Mirror
-  url: http://pfam.ccbb.re.kr/index.shtml
-- note: null
-  type: Mirror
-  url: http://pfam.janelia.org/
+  - note: null
+    type: Mirror
+    url: http://pfam.sbc.su.se/
+  - note: null
+    type: Mirror
+    url: http://pfam.jouy.inra.fr/
+  - note: null
+    type: Mirror
+    url: http://pfam.sanger.ac.uk/
+  - note: null
+    type: Mirror
+    url: http://pfam.ccbb.re.kr/index.shtml
+  - note: null
+    type: Mirror
+    url: http://pfam.janelia.org/
 maturity: null
 name: Pfam
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: rdf@ebi.ac.uk
 publication:
-- doi: null
-  metadata: null
-  pmcid: null
-  pmid: '9223186'
-  type: Primary
-  version: null
-- doi: 10.1007/springerreference_36286
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Other
-  version: null
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '9223186'
+    type: Primary
+    version: null
+  - doi: 10.1007/springerreference_36286
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
 toolType:
-- Web API
-- Web application
-- Database portal
+  - Web API
+  - Web application
+  - Database portal
 topic:
-- term: Proteins
-  uri: http://edamontology.org/topic_0078
-- term: Gene and protein families
-  uri: http://edamontology.org/topic_0623
-- term: Protein folds and structural domains
-  uri: http://edamontology.org/topic_0736
-- term: Sequence sites, features and motifs
-  uri: http://edamontology.org/topic_0160
-- term: Sequence composition, complexity and repeats
-  uri: http://edamontology.org/topic_0157
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Gene and protein families
+    uri: http://edamontology.org/topic_0623
+  - term: Protein folds and structural domains
+    uri: http://edamontology.org/topic_0736
+  - term: Sequence sites, features and motifs
+    uri: http://edamontology.org/topic_0160
+  - term: Sequence composition, complexity and repeats
+    uri: http://edamontology.org/topic_0157
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
 validated: 0
 version: []

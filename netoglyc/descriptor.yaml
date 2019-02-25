@@ -5,28 +5,28 @@ biotoolsID: netoglyc
 collectionID: []
 cost: Free of charge (with restrictions)
 credit:
-- email: null
-  name: CBS
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: hirenj@cbs.dtu.dk
-  name: Hiren Joshi
-  note: null
-  orcidid: http://orcid.org/0000-0002-8192-2829
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: CBS
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: hirenj@cbs.dtu.dk
+    name: Hiren Joshi
+    note: null
+    orcidid: http://orcid.org/0000-0002-8192-2829
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Produce neural network predictions of mucin type GalNAc O-glycosylation
   sites in mammalian proteins.
 documentation:
-- note: null
-  type: General
-  url: http://www.cbs.dtu.dk/services/NetOGlyc-4.0/instructions.php
+  - note: null
+    type: General
+    url: http://www.cbs.dtu.dk/services/NetOGlyc-4.0/instructions.php
 download: []
 editPermission:
   authors: []
@@ -35,54 +35,54 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Sequence
-      uri: http://edamontology.org/data_2044
-    format:
-    - term: FASTA
-      uri: http://edamontology.org/format_1929
-  note: Produces neural network predictions of mucin type GalNAc O-glycosylation sites
-    in mammalian proteins
-  operation:
-  - term: Post-translation modification site prediction
-    uri: http://edamontology.org/operation_0417
-  output:
-  - data:
-      term: Protein features
-      uri: http://edamontology.org/data_1277
-    format:
-    - term: GFF2
-      uri: http://edamontology.org/format_1974
+  - cmd: null
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+    note: Produces neural network predictions of mucin type GalNAc O-glycosylation
+      sites in mammalian proteins
+    operation:
+      - term: Post-translation modification site prediction
+        uri: http://edamontology.org/operation_0417
+    output:
+      - data:
+          term: Protein features
+          uri: http://edamontology.org/data_1277
+        format:
+          - term: GFF2
+            uri: http://edamontology.org/format_1974
 homepage: http://www.cbs.dtu.dk/services/NetOGlyc/
 homepage_status: 0
 language: []
 lastUpdate: '2019-01-09T16:49:35Z'
 license: Other
 link:
-- note: null
-  type: Registry
-  url: http://www.cbs.dtu.dk/services
+  - note: null
+    type: Registry
+    url: http://www.cbs.dtu.dk/services
 maturity: Emerging
 name: NetOGlyc
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: CBS
 publication:
-- doi: 10.1038/emboj.2013.79
-  metadata: null
-  pmcid: PMC3655468
-  pmid: '23584533'
-  type: Primary
-  version: null
+  - doi: 10.1038/emboj.2013.79
+    metadata: null
+    pmcid: PMC3655468
+    pmid: '23584533'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Web application
+  - Command-line tool
+  - Web application
 topic:
-- term: Protein modifications
-  uri: http://edamontology.org/topic_0601
+  - term: Protein modifications
+    uri: http://edamontology.org/topic_0601
 validated: 1
 version:
-- '4.0'
+  - '4.0'

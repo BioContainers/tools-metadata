@@ -5,87 +5,87 @@ biotoolsID: rfam
 collectionID: []
 cost: Free of charge
 credit:
-- email: rfam-help@ebi.ac.uk
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: rfam-help@ebi.ac.uk
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Rfam database is a collection of RNA families, each represented by multiple
   sequence alignments, consensus secondary structures and covariance models (CMs)
 documentation:
-- note: null
-  type: General
-  url: http://rfam.readthedocs.org
+  - note: null
+    type: General
+    url: http://rfam.readthedocs.org
 download:
-- note: null
-  type: Biological data
-  url: ftp://ftp.ebi.ac.uk/pub/databases/Rfam/CURRENT
-  version: null
+  - note: null
+    type: Biological data
+    url: ftp://ftp.ebi.ac.uk/pub/databases/Rfam/CURRENT
+    version: null
 editPermission:
   authors: []
   type: public
 elixirNode:
-- EMBL
+  - EMBL
 elixirPlatform:
-- Data
+  - Data
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Structure-based sequence alignment
-    uri: http://edamontology.org/operation_0294
-  - term: Genome annotation
-    uri: http://edamontology.org/operation_0362
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Structure-based sequence alignment
+        uri: http://edamontology.org/operation_0294
+      - term: Genome annotation
+        uri: http://edamontology.org/operation_0362
+    output: []
 homepage: http://rfam.org
 homepage_status: 0
 language:
-- JavaScript
-- Python
+  - JavaScript
+  - Python
 lastUpdate: '2019-02-15T10:24:00Z'
 license: null
 link:
-- note: null
-  type: Repository
-  url: http://github.com/rfam
+  - note: null
+    type: Repository
+    url: http://github.com/rfam
 maturity: Mature
 name: Rfam
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: rdf@ebi.ac.uk
 publication:
-- doi: 10.1093/nar/gkx1038
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
-- doi: 10.1093/nar/gku1063
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1093/nar/gkx1038
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+  - doi: 10.1093/nar/gku1063
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Web API
-- Web application
-- Database portal
+  - Web API
+  - Web application
+  - Database portal
 topic:
-- term: Bioinformatics
-  uri: http://edamontology.org/topic_0091
-- term: Functional, regulatory and non-coding RNA
-  uri: http://edamontology.org/topic_0659
-- term: Gene and protein families
-  uri: http://edamontology.org/topic_0623
-- term: RNA
-  uri: http://edamontology.org/topic_0099
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
+  - term: Functional, regulatory and non-coding RNA
+    uri: http://edamontology.org/topic_0659
+  - term: Gene and protein families
+    uri: http://edamontology.org/topic_0623
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
 validated: 0
 version: []

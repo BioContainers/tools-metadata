@@ -1,0 +1,108 @@
+accessibility:
+- Open access
+additionDate: '2018-06-11T10:35:47Z'
+biotoolsCURIE: biotools:sccaller
+biotoolsID: sccaller
+collectionID: []
+cost: Free of charge
+credit:
+- email: xiao.dong@einstein.yu.edu
+  name: Xiao Dong
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: A tool for Identifying single nucleotide variations (SNVs) and short
+  insertions and deletions (INDELs) from single cell sequencing data.
+documentation:
+- note: null
+  type: General
+  url: https://github.com/biosinodx/SCcaller/
+download:
+- note: null
+  type: Source code
+  url: https://github.com/biosinodx/SCcaller/
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Sequence
+      uri: http://edamontology.org/data_2044
+    format:
+    - term: BAM
+      uri: http://edamontology.org/format_2572
+  note: null
+  operation:
+  - term: Indel detection
+    uri: http://edamontology.org/operation_0452
+  - term: Variant calling
+    uri: http://edamontology.org/operation_3227
+  - term: SNP detection
+    uri: http://edamontology.org/operation_0484
+  output:
+  - data:
+      term: Sequence variations
+      uri: http://edamontology.org/data_3498
+    format:
+    - term: BED
+      uri: http://edamontology.org/format_3003
+homepage: https://github.com/biosinodx/SCcaller/
+homepage_status: 0
+language:
+- Python
+lastUpdate: '2018-12-10T12:58:59Z'
+license: AGPL-3.0
+link: []
+maturity: Mature
+name: SCcaller
+operatingSystem: []
+otherID: []
+owner: ELIXIR-EE
+publication:
+- doi: 10.1038/nmeth.4227
+  metadata:
+    abstract: © 2017 Nature America, Inc. part of Springer Nature. All rights reserved.Mutation
+      analysis in single-cell genomes is prone to artifacts associated with cell lysis
+      and whole-genome amplification. Here we addressed these issues by developing
+      single-cell multiple displacement amplification (SCMDA) and a general-purpose
+      single-cell-variant caller, SCcaller (https://github.com/biosinodx/SCcaller/).
+      By comparing SCMDA-amplified single cells with unamplified clones from the same
+      population, we validated the procedure as a firm foundation for standardized
+      somatic-mutation analysis in single-cell genomics.
+    authors:
+    - name: Dong X.
+    - name: Zhang L.
+    - name: Milholland B.
+    - name: Lee M.
+    - name: Maslov A.Y.
+    - name: Wang T.
+    - name: Vijg J.
+    citationCount: 20
+    date: '2017-04-27T00:00:00Z'
+    journal: Nature Methods
+    title: Accurate identification of single-nucleotide variants in whole-genome-amplified
+      single cells
+  pmcid: null
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Genetic variation
+  uri: http://edamontology.org/topic_0199
+- term: Whole genome sequencing
+  uri: http://edamontology.org/topic_3673
+- term: Bioinformatics
+  uri: http://edamontology.org/topic_0091
+validated: 1
+version: []

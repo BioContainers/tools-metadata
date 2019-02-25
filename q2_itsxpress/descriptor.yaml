@@ -1,0 +1,93 @@
+accessibility:
+- Open access
+additionDate: '2018-07-13T20:26:51Z'
+biotoolsCURIE: biotools:q2_itsxpress
+biotoolsID: q2_itsxpress
+collectionID: []
+cost: Free of charge
+credit:
+- email: adam.rivers@ars.usda.gov
+  name: Adam Rivers
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Developer
+  url: null
+- email: kweber1@uf.edu
+  name: Kyle Weber
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Developer
+  url: null
+- email: null
+  name: Adam Rivers
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: https://tinyecology.com
+description: 'q2_ITSxpress: a Qiime2 plugin for ITSxpress, software to rapidly trim
+  the Internally transcribed spacer (ITS) region of FASTQ files'
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Nucleic acid sequence (raw)
+      uri: http://edamontology.org/data_2975
+    format:
+    - term: FASTQ-like format (text)
+      uri: http://edamontology.org/format_2182
+  note: null
+  operation:
+  - term: Sequence trimming
+    uri: http://edamontology.org/operation_3192
+  output:
+  - data:
+      term: Nucleic acid sequence (raw)
+      uri: http://edamontology.org/data_2975
+    format:
+    - term: FASTQ-like format (text)
+      uri: http://edamontology.org/format_2182
+homepage: https://github.com/USDA-ARS-GBRU/q2_itsxpress
+homepage_status: 0
+language:
+- Python
+lastUpdate: '2018-12-10T12:59:00Z'
+license: CC0-1.0
+link:
+- note: null
+  type: Repository
+  url: https://github.com/USDA-ARS-GBRU/q2_itsxpress
+- note: null
+  type: Repository
+  url: https://pypi.org/project/q2_itsxpress/
+maturity: Emerging
+name: q2_ITSxpress
+operatingSystem:
+- Linux
+- Mac
+otherID: []
+owner: arivers
+publication: []
+toolType:
+- Command-line tool
+topic:
+- term: Metagenomics
+  uri: http://edamontology.org/topic_3174
+- term: Microbial ecology
+  uri: http://edamontology.org/topic_3697
+validated: 1
+version:
+- v1.6.0

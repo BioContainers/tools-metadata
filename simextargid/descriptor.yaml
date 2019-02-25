@@ -1,0 +1,96 @@
+accessibility: []
+additionDate: '2018-07-03T16:15:57Z'
+biotoolsCURIE: biotools:simextargid
+biotoolsID: simextargid
+collectionID: []
+cost: null
+credit:
+- email: josie.hayes@berkeley.edu
+  name: Josie Hayes
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Comprehensive package for real-time LC-MS data acquisition and analysis.
+documentation:
+- note: null
+  type: General
+  url: http://htmlpreview.github.io/?https://raw.githubusercontent.com/WMBEdmands/simExTargId/master/inst/doc/simExTargId.html?token=AEhLqF0JIrgmE2ZmDRN_eU0RjbhV8kYYks5ZRC8twA%3D%3D
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Loading
+    uri: http://edamontology.org/operation_1812
+  - term: Spectral analysis
+    uri: http://edamontology.org/operation_3214
+  output: []
+homepage: https://github.com/JosieLHayes/simExTargId
+homepage_status: 0
+language:
+- R
+lastUpdate: '2018-12-10T12:58:59Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: SimExTargId
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: d.gabrielaitis
+publication:
+- doi: 10.1093/bioinformatics/bty218
+  metadata:
+    abstract: 'Summary: Liquid chromatography mass spectrometry (LC-MS) is the favored
+      method for untargeted metabolomic analysis of small molecules in biofluids.
+      Here we present SimExTargId, an open-source R package for autonomous analysis
+      of metabolomic data and real-time observation of experimental runs. This simultaneous,
+      fully automated and multi-threaded (optional) package is a wrapper for vendor-independent
+      format conversion (ProteoWizard), xcms- and CAMERA- based peak-picking, MetMSLine-based
+      pre-processing and covariate-based statistical analysis. Users are notified
+      of detrimental instrument drift or errors by email. Also included are two shiny
+      applications, targetId for real-time MS2 target identification, and peakMonitor
+      to monitor targeted metabolites. Availability and implementation: SimExTargId
+      is publicly available under GNU LGPL v3.0 license at https://github.com/JosieLHayes/simExTargId,
+      which includes a vignette with example data. SimExTargId should be installed
+      on a dedicated data-processing workstation or server that is networked to the
+      LC-MS platform to facilitate MS1 profiling of metabolomic data. Supplementary
+      information: Supplementary data are available at Bioinformatics online.'
+    authors:
+    - name: Edmands W.M.B.
+    - name: Hayes J.
+    - name: Rappaport S.M.
+    citationCount: 0
+    date: '2018-10-15T00:00:00Z'
+    journal: Bioinformatics (Oxford, England)
+    title: 'SimExTargId: a comprehensive package for real-time LC-MS data acquisition
+      and analysis'
+  pmcid: null
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Library
+topic:
+- term: Metabolomics
+  uri: http://edamontology.org/topic_3172
+- term: Mass spectrometry
+  uri: http://edamontology.org/topic_3520
+- term: Structural biology
+  uri: http://edamontology.org/topic_1317
+- term: Data acquisition
+  uri: http://edamontology.org/topic_3077
+validated: 1
+version: []

@@ -5,21 +5,21 @@ biotoolsID: soap2
 collectionID: []
 cost: null
 credit:
-- email: soap@genomics.org.cn
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: soap@genomics.org.cn
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Program for faster and efficient alignment for short oligonucleotide
   onto reference sequences. SOAPaligner/soap2 is compatible with numerous applications,
   including single-read or pair-end resequencing.
 documentation:
-- note: null
-  type: Manual
-  url: http://soap.genomics.org.cn/soapaligner.html#commopt2
+  - note: null
+    type: Manual
+    url: http://soap.genomics.org.cn/soapaligner.html#commopt2
 download: []
 editPermission:
   authors: []
@@ -28,13 +28,13 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence alignment
-    uri: http://edamontology.org/operation_0292
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output: []
 homepage: http://soap.genomics.org.cn/soapaligner.html
 homepage_status: 0
 language: []
@@ -44,34 +44,34 @@ link: []
 maturity: null
 name: SOAP2
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1093/bioinformatics/btp336
-  metadata: null
-  pmcid: null
-  pmid: '19497933'
-  type: Primary
-  version: null
-- doi: 10.1093/bioinformatics/btp336
-  metadata: null
-  pmcid: null
-  pmid: '19497933'
-  type: Comparison
-  version: null
-- doi: 10.1186/1471-2105-14-184
-  metadata: null
-  pmcid: PMC3694458
-  pmid: '23758764'
-  type: Comparison
-  version: null
+  - doi: 10.1093/bioinformatics/btp336
+    metadata: null
+    pmcid: null
+    pmid: '19497933'
+    type: Primary
+    version: null
+  - doi: 10.1093/bioinformatics/btp336
+    metadata: null
+    pmcid: null
+    pmid: '19497933'
+    type: Comparison
+    version: null
+  - doi: 10.1186/1471-2105-14-184
+    metadata: null
+    pmcid: PMC3694458
+    pmid: '23758764'
+    type: Comparison
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Sequence assembly
-  uri: http://edamontology.org/topic_0196
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
 validated: 0
 version:
-- '2.21'
+  - '2.21'

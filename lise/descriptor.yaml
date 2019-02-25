@@ -5,28 +5,28 @@ biotoolsID: lise
 collectionID: []
 cost: null
 credit:
-- email: amianxie@gmail.com
-  name: LISE Support
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: mjhwang@ibms.sinica.edu.tw
-  name: LISE Support
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: amianxie@gmail.com
+    name: LISE Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: mjhwang@ibms.sinica.edu.tw
+    name: LISE Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: LISE is a web server for a novel method of predicting small molecule
   binding sites on proteins.
 documentation:
-- note: null
-  type: General
-  url: http://lise.ibms.sinica.edu.tw./pages/tutorial.jsp
+  - note: null
+    type: General
+    url: http://lise.ibms.sinica.edu.tw./pages/tutorial.jsp
 download: []
 editPermission:
   authors: []
@@ -35,19 +35,19 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Protein feature detection
-    uri: http://edamontology.org/operation_3092
-  - term: Transcription factor binding site prediction
-    uri: http://edamontology.org/operation_0445
-  - term: Protein binding site prediction
-    uri: http://edamontology.org/operation_2575
-  - term: Molecular docking
-    uri: http://edamontology.org/operation_0478
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein feature detection
+        uri: http://edamontology.org/operation_3092
+      - term: Transcription factor binding site prediction
+        uri: http://edamontology.org/operation_0445
+      - term: Protein binding site prediction
+        uri: http://edamontology.org/operation_2575
+      - term: Molecular docking
+        uri: http://edamontology.org/operation_0478
+    output: []
 homepage: http://lise.ibms.sinica.edu.tw
 homepage_status: 0
 language: []
@@ -57,30 +57,30 @@ link: []
 maturity: null
 name: LISE
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-EE
 publication:
-- doi: null
-  metadata: null
-  pmcid: null
-  pmid: '23609546'
-  type: null
-  version: null
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '23609546'
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Small molecules
-  uri: http://edamontology.org/topic_0154
-- term: Protein binding sites
-  uri: http://edamontology.org/topic_3534
-- term: Protein structural motifs and surfaces
-  uri: http://edamontology.org/topic_0166
-- term: Structure prediction
-  uri: http://edamontology.org/topic_0082
-- term: Nucleic acid sites, features and motifs
-  uri: http://edamontology.org/topic_3511
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+  - term: Protein binding sites
+    uri: http://edamontology.org/topic_3534
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+  - term: Nucleic acid sites, features and motifs
+    uri: http://edamontology.org/topic_3511
 validated: 0
 version: []

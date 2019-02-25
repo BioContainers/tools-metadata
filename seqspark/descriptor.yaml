@@ -5,20 +5,20 @@ biotoolsID: seqspark
 collectionID: []
 cost: null
 credit:
-- email: sleal@bcm.edu
-  name: Suzanne M. Leal
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: sleal@bcm.edu
+    name: Suzanne M. Leal
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Analysis tool for large-scale rare variant association studies using
   whole-genome and exome sequence data.
 documentation:
-- note: null
-  type: Manual
-  url: https://statgenetics.github.io/seqspark/
+  - note: null
+    type: Manual
+    url: https://statgenetics.github.io/seqspark/
 download: []
 editPermission:
   authors: []
@@ -27,47 +27,47 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Genetic variation analysis
-    uri: http://edamontology.org/operation_3197
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output: []
 homepage: https://github.com/statgenetics/seqspark
 homepage_status: 0
 language:
-- Java
-- Scala
-- Perl
+  - Java
+  - Scala
+  - Perl
 lastUpdate: '2019-01-15T02:11:30Z'
 license: Apache-2.0
 link:
-- note: null
-  type: Issue tracker
-  url: https://github.com/statgenetics/seqspark/issues
+  - note: null
+    type: Issue tracker
+    url: https://github.com/statgenetics/seqspark/issues
 maturity: null
 name: SEQSpark
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: daniel_stefan
 publication:
-- doi: 10.1016/j.ajhg.2017.05.017
-  metadata: null
-  pmcid: PMC5501866
-  pmid: '28669402'
-  type: Primary
-  version: null
+  - doi: 10.1016/j.ajhg.2017.05.017
+    metadata: null
+    pmcid: PMC5501866
+    pmid: '28669402'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Genetic variation
-  uri: http://edamontology.org/topic_0199
-- term: Exome sequencing
-  uri: http://edamontology.org/topic_3676
-- term: Whole genome sequencing
-  uri: http://edamontology.org/topic_3673
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: Exome sequencing
+    uri: http://edamontology.org/topic_3676
+  - term: Whole genome sequencing
+    uri: http://edamontology.org/topic_3673
 validated: 1
 version: []

@@ -1,38 +1,38 @@
 accessibility:
-- Open access
+  - Open access
 additionDate: '2019-02-14T14:51:35Z'
 biotoolsCURIE: biotools:CompositeDriver
 biotoolsID: CompositeDriver
 collectionID: []
 cost: Free of charge
 credit:
-- email: mil2041@med.cornell.edu
-  name: Eric Minwei Liu
-  note: null
-  orcidid: https://orcid.org/0000-0002-3594-6678
-  typeEntity: Person
-  typeRole:
-  - Maintainer
-  - Primary contact
-  url: https://ericmliu.com/
-- email: ekk2003@med.cornell.edu
-  name: Ekta Khurana
-  note: null
-  orcidid: https://orcid.org/0000-0002-4351-7566
-  typeEntity: Person
-  typeRole: []
-  url: http://khuranalab.med.cornell.edu/
+  - email: mil2041@med.cornell.edu
+    name: Eric Minwei Liu
+    note: null
+    orcidid: https://orcid.org/0000-0002-3594-6678
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+      - Primary contact
+    url: https://ericmliu.com/
+  - email: ekk2003@med.cornell.edu
+    name: Ekta Khurana
+    note: null
+    orcidid: https://orcid.org/0000-0002-4351-7566
+    typeEntity: Person
+    typeRole: []
+    url: http://khuranalab.med.cornell.edu/
 description: CompositeDriver combined mutation recurrence and functional impact to
   identify coding and non-coding cancer drivers
 documentation:
-- note: null
-  type: General
-  url: https://github.com/khuranalab/CompositeDriver/blob/master/README.md
+  - note: null
+    type: General
+    url: https://github.com/khuranalab/CompositeDriver/blob/master/README.md
 download:
-- note: null
-  type: Source code
-  url: https://github.com/khuranalab/CompositeDriver
-  version: '0.2'
+  - note: null
+    type: Source code
+    url: https://github.com/khuranalab/CompositeDriver
+    version: '0.2'
 editPermission:
   authors: []
   type: private
@@ -40,52 +40,52 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Gene prediction
-    uri: http://edamontology.org/operation_2454
-  - term: Variant pattern analysis
-    uri: http://edamontology.org/operation_3504
-  - term: Variant classification
-    uri: http://edamontology.org/operation_3225
-  - term: Genetic variation analysis
-    uri: http://edamontology.org/operation_3197
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Gene prediction
+        uri: http://edamontology.org/operation_2454
+      - term: Variant pattern analysis
+        uri: http://edamontology.org/operation_3504
+      - term: Variant classification
+        uri: http://edamontology.org/operation_3225
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output: []
 homepage: https://github.com/khuranalab/CompositeDriver
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-02-15T09:16:28Z'
 license: CC-BY-4.0
 link: []
 maturity: Mature
 name: CompositeDriver
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: javi-gv94
 publication:
-- doi: 10.1016/j.cell.2018.02.060
-  metadata: null
-  pmcid: null
-  pmid: '29625053'
-  type: Primary
-  version: null
+  - doi: 10.1016/j.cell.2018.02.060
+    metadata: null
+    pmcid: null
+    pmid: '29625053'
+    type: Primary
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
-- term: Oncology
-  uri: http://edamontology.org/topic_2640
-- term: Bioinformatics
-  uri: http://edamontology.org/topic_0091
-- term: DNA polymorphism
-  uri: http://edamontology.org/topic_2885
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Oncology
+    uri: http://edamontology.org/topic_2640
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
 validated: 0
 version:
-- '0.2'
+  - '0.2'

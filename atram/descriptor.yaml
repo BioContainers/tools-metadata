@@ -5,27 +5,27 @@ biotoolsID: atram
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://github.com/juliema/aTRAM
-- email: daisie.huang@botany.ubc.ca
-  name: Daisie Iris Huang
-  note: null
-  orcidid: http://orcid.org/0000-0002-1497-1284
-  typeEntity: Person
-  typeRole:
-  - Contributor
-  url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/juliema/aTRAM
+  - email: daisie.huang@botany.ubc.ca
+    name: Daisie Iris Huang
+    note: null
+    orcidid: http://orcid.org/0000-0002-1497-1284
+    typeEntity: Person
+    typeRole:
+      - Contributor
+    url: null
 description: Performs targeted de novo assembly of loci from paired-end Illumina runs.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/juliema/aTRAM
+  - note: null
+    type: General
+    url: https://github.com/juliema/aTRAM
 download: []
 editPermission:
   authors: []
@@ -34,44 +34,44 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence assembly
-    uri: http://edamontology.org/operation_0310
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence assembly
+        uri: http://edamontology.org/operation_0310
+    output: []
 homepage: https://github.com/juliema/aTRAM
 homepage_status: 0
 language:
-- Python
+  - Python
 lastUpdate: '2019-01-11T00:38:42Z'
 license: null
 link:
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/atram-automated-target-restricted-assembly-method.html
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/atram-automated-target-restricted-assembly-method.html
 maturity: null
 name: aTRAM
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: mbs_import
 publication:
-- doi: 10.1186/S12859-015-0515-2
-  metadata: null
-  pmcid: PMC4380108
-  pmid: '25887972'
-  type: Primary
-  version: null
+  - doi: 10.1186/S12859-015-0515-2
+    metadata: null
+    pmcid: PMC4380108
+    pmid: '25887972'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Sequence assembly
-  uri: http://edamontology.org/topic_0196
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
 validated: 1
 version:
-- '1.04'
+  - '1.04'

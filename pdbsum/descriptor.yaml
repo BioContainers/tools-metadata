@@ -3,32 +3,32 @@ additionDate: '2015-10-07T18:39:28Z'
 biotoolsCURIE: biotools:pdbsum
 biotoolsID: pdbsum
 collectionID:
-- DRCAT
+  - DRCAT
 cost: null
 credit:
-- email: null
-  name: DRCAT
-  note: null
-  orcidid: null
-  typeEntity: Project
-  typeRole:
-  - Documentor
-  url: null
-- email: roman@ebi.ac.uk
-  name: Roman Laskowski
-  note: null
-  orcidid: http://orcid.org/0000-0001-5528-0087
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://www.ebi.ac.uk/~roman/
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: roman@ebi.ac.uk
+    name: Roman Laskowski
+    note: null
+    orcidid: http://orcid.org/0000-0001-5528-0087
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.ebi.ac.uk/~roman/
 description: At-a-glance overview of every macromolecular structure deposited in the
   Protein Data Bank (PDB), giving schematic diagrams of the molecules in each structure
   and of the interactions between them.
 documentation:
-- note: null
-  type: General
-  url: https://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/pdbsum/GetPage.pl?pdbcode=n/a&template=doc_about.html
+  - note: null
+    type: General
+    url: https://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/pdbsum/GetPage.pl?pdbcode=n/a&template=doc_about.html
 download: []
 editPermission:
   authors: []
@@ -37,23 +37,23 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: PDB ID
-      uri: http://edamontology.org/data_1127
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Structure report
-      uri: http://edamontology.org/data_2085
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: PDB ID
+          uri: http://edamontology.org/data_1127
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Structure report
+          uri: http://edamontology.org/data_2085
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
 homepage: https://www.ebi.ac.uk/pdbsum/
 homepage_status: 0
 language: []
@@ -63,22 +63,22 @@ link: []
 maturity: null
 name: PDBsum overview of macromolecular structures
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: DRCAT
 publication:
-- doi: 10.1093/nar/gkt940
-  metadata: null
-  pmcid: PMC3965036
-  pmid: '24153109'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkt940
+    metadata: null
+    pmcid: PMC3965036
+    pmid: '24153109'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Protein structure analysis
-  uri: http://edamontology.org/topic_2814
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
 validated: 1
 version: []

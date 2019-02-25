@@ -3,38 +3,38 @@ additionDate: '2017-01-17T14:55:01Z'
 biotoolsCURIE: biotools:anaquin
 biotoolsID: anaquin
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: t.wong@garvan.org.au
-  name: Ted Wong
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: null
-  name: Simon Hardwick
-  note: null
-  orcidid: http://orcid.org/0000-0002-2748-5496
-  typeEntity: Person
-  typeRole:
-  - Contributor
-  url: null
+  - email: t.wong@garvan.org.au
+    name: Ted Wong
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: null
+    name: Simon Hardwick
+    note: null
+    orcidid: http://orcid.org/0000-0002-2748-5496
+    typeEntity: Person
+    typeRole:
+      - Contributor
+    url: null
 description: The project is intended to support the use of sequins (synthetic sequencing
   spike-in controls) owned and made available by the Garvan Institute of Medical Research.
   The goal is to provide a standard open source library for quantitative analysis,
   modelling and visualization of spike-in controls.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/Anaquin.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/Anaquin.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/Anaquin_1.0.0.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/Anaquin_1.0.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -42,80 +42,81 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Deposition
-    uri: http://edamontology.org/operation_3431
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Deposition
+        uri: http://edamontology.org/operation_3431
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/Anaquin.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-01-13T17:12:29Z'
 license: BSD-4-Clause
 link:
-- note: null
-  type: Mirror
-  url: http://www.sequin.xyz
+  - note: null
+    type: Mirror
+    url: http://www.sequin.xyz
 maturity: null
 name: Anaquin
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1038/nmeth.3958
-  metadata:
-    abstract: © 2016 Nature America, Inc. All rights reserved. RNA sequencing (RNA-seq)
-      can be used to assemble spliced isoforms, quantify expressed genes and provide
-      a global profile of the transcriptome. However, the size and diversity of the
-      transcriptome, the wide dynamic range in gene expression and inherent technical
-      biases confound RNA-seq analysis. We have developed a set of spike-in RNA standards,
-      termed 'sequins' (sequencing spike-ins), that represent full-length spliced
-      mRNA isoforms. Sequins have an entirely artificial sequence with no homology
-      to natural reference genomes, but they align to gene loci encoded on an artificial
-      in silico chromosome. The combination of multiple sequins across a range of
-      concentrations emulates alternative splicing and differential gene expression,
-      and it provides scaling factors for normalization between samples. We demonstrate
-      the use of sequins in RNA-seq experiments to measure sample-specific biases
-      and determine the limits of reliable transcript assembly and quantification
-      in accompanying human RNA samples. In addition, we have designed a complementary
-      set of sequins that represent fusion genes arising from rearrangements of the
-      in silico chromosome to aid in cancer diagnosis. RNA sequins provide a qualitative
-      and quantitative reference with which to navigate the complexity of the human
-      transcriptome.
-    authors:
-    - name: Hardwick S.A.
-    - name: Chen W.Y.
-    - name: Wong T.
-    - name: Deveson I.W.
-    - name: Blackburn J.
-    - name: Andersen S.B.
-    - name: Nielsen L.K.
-    - name: Mattick J.S.
-    - name: Mercer T.R.
-    citationCount: 22
-    date: '2016-08-30T00:00:00Z'
-    journal: Nature Methods
-    title: Spliced synthetic genes as internal controls in RNA sequencing experiments
-  pmcid: null
-  pmid: '27502218'
-  type: Primary
-  version: null
+  - doi: 10.1038/nmeth.3958
+    metadata:
+      abstract: "\xA9 2016 Nature America, Inc. All rights reserved. RNA sequencing\
+        \ (RNA-seq) can be used to assemble spliced isoforms, quantify expressed genes\
+        \ and provide a global profile of the transcriptome. However, the size and\
+        \ diversity of the transcriptome, the wide dynamic range in gene expression\
+        \ and inherent technical biases confound RNA-seq analysis. We have developed\
+        \ a set of spike-in RNA standards, termed 'sequins' (sequencing spike-ins),\
+        \ that represent full-length spliced mRNA isoforms. Sequins have an entirely\
+        \ artificial sequence with no homology to natural reference genomes, but they\
+        \ align to gene loci encoded on an artificial in silico chromosome. The combination\
+        \ of multiple sequins across a range of concentrations emulates alternative\
+        \ splicing and differential gene expression, and it provides scaling factors\
+        \ for normalization between samples. We demonstrate the use of sequins in\
+        \ RNA-seq experiments to measure sample-specific biases and determine the\
+        \ limits of reliable transcript assembly and quantification in accompanying\
+        \ human RNA samples. In addition, we have designed a complementary set of\
+        \ sequins that represent fusion genes arising from rearrangements of the in\
+        \ silico chromosome to aid in cancer diagnosis. RNA sequins provide a qualitative\
+        \ and quantitative reference with which to navigate the complexity of the\
+        \ human transcriptome."
+      authors:
+        - name: Hardwick S.A.
+        - name: Chen W.Y.
+        - name: Wong T.
+        - name: Deveson I.W.
+        - name: Blackburn J.
+        - name: Andersen S.B.
+        - name: Nielsen L.K.
+        - name: Mattick J.S.
+        - name: Mercer T.R.
+      citationCount: 22
+      date: '2016-08-30T00:00:00Z'
+      journal: Nature Methods
+      title: Spliced synthetic genes as internal controls in RNA sequencing experiments
+    pmcid: null
+    pmid: '27502218'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
-- term: Data visualisation
-  uri: http://edamontology.org/topic_0092
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
 validated: 1
 version:
-- 1.0.0
+  - 1.0.0

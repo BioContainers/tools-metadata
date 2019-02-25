@@ -1,111 +1,111 @@
 accessibility:
-- Open access
+  - Open access
 additionDate: '2015-01-22T11:28:35Z'
 biotoolsCURIE: biotools:phyml
 biotoolsID: phyml
 collectionID:
-- PhyML
-- galaxyPasteur
+  - PhyML
+  - galaxyPasteur
 cost: null
 credit:
-- email: null
-  name: IFB ELIXIR-FR
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: gascuel@lirmm.fr
-  name: Olivier Gascuel
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: IFB ELIXIR-FR
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: gascuel@lirmm.fr
+    name: Olivier Gascuel
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Phylogeny software based on the maximum-likelihood principle.
 documentation:
-- note: null
-  type: General
-  url: http://www.atgc-montpellier.fr/phyml/
+  - note: null
+    type: General
+    url: http://www.atgc-montpellier.fr/phyml/
 download: []
 editPermission:
   authors: []
   type: private
 elixirNode:
-- France
+  - France
 elixirPlatform:
-- Tools
+  - Tools
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Data
-      uri: http://edamontology.org/data_0006
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  note: null
-  operation:
-  - term: Phylogenetic tree generation (maximum likelihood and Bayesian methods)
-    uri: http://edamontology.org/operation_0547
-  output:
-  - data:
-      term: Data
-      uri: http://edamontology.org/data_0006
-    format:
-    - term: newick
-      uri: http://edamontology.org/format_1910
-  - data:
-      term: Data
-      uri: http://edamontology.org/data_0006
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  - data:
-      term: Data
-      uri: http://edamontology.org/data_0006
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
+  - cmd: null
+    input:
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+    note: null
+    operation:
+      - term: Phylogenetic tree generation (maximum likelihood and Bayesian methods)
+        uri: http://edamontology.org/operation_0547
+    output:
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: newick
+            uri: http://edamontology.org/format_1910
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
 homepage: http://www.atgc-montpellier.fr/phyml/
 homepage_status: 0
 language: []
 lastUpdate: '2019-02-15T11:16:14Z'
 license: null
 link:
-- note: null
-  type: Galaxy service
-  url: https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/phyml/phyml/3.1
+  - note: null
+    type: Galaxy service
+    url: https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/phyml/phyml/3.1
 maturity: Mature
 name: PhyML
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-FR
 publication:
-- doi: 10.1093/sysbio/syq010
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
-- doi: 10.7490/f1000research.1114334.1
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Other
-  version: null
+  - doi: 10.1093/sysbio/syq010
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+  - doi: 10.7490/f1000research.1114334.1
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
 toolType:
-- Command-line tool
-- Web application
+  - Command-line tool
+  - Web application
 topic:
-- term: Phylogeny
-  uri: http://edamontology.org/topic_0084
+  - term: Phylogeny
+    uri: http://edamontology.org/topic_0084
 validated: 0
 version:
-- '3.0'
+  - '3.0'

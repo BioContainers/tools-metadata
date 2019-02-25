@@ -1,0 +1,94 @@
+accessibility:
+- Open access
+additionDate: '2018-05-07T15:52:18Z'
+biotoolsCURIE: biotools:unicycler
+biotoolsID: unicycler
+collectionID: []
+cost: Free of charge
+credit:
+- email: rrwick@gmail.com
+  name: Ryan R. Wick
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: A tool for assembling bacterial genomes from a combination of short (2nd
+  generation) and long (3rd generation) sequencing reads.
+documentation:
+- note: null
+  type: General
+  url: https://github.com/rrwick/Unicycler
+download:
+- note: null
+  type: Command-line specification
+  url: https://github.com/rrwick/Unicycler
+  version: null
+editPermission:
+  authors:
+  - ELIXIR-EE
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input:
+  - data:
+      term: Raw sequence
+      uri: http://edamontology.org/data_0848
+    format:
+    - term: Raw sequence format
+      uri: http://edamontology.org/format_2571
+  note: null
+  operation:
+  - term: Genome assembly
+    uri: http://edamontology.org/operation_0525
+  - term: Aggregation
+    uri: http://edamontology.org/operation_3436
+  output:
+  - data:
+      term: Sequence assembly
+      uri: http://edamontology.org/data_0925
+    format:
+    - term: Graph format
+      uri: http://edamontology.org/format_3617
+    - term: FASTA
+      uri: http://edamontology.org/format_1929
+homepage: https://github.com/rrwick/Unicycler
+homepage_status: 0
+language:
+- Java
+- C++
+- Python
+lastUpdate: '2018-12-10T12:59:00Z'
+license: GPL-3.0
+link: []
+maturity: Mature
+name: Unicycler
+operatingSystem:
+- Linux
+- Mac
+otherID: []
+owner: d.gabrielaitis
+publication:
+- doi: 10.1371/JOURNAL.PCBI.1005595
+  metadata: null
+  pmcid: PMC5481147
+  pmid: '28594827'
+  type: null
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Microbiology
+  uri: http://edamontology.org/topic_3301
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+- term: Sequencing
+  uri: http://edamontology.org/topic_3168
+- term: Sequence assembly
+  uri: http://edamontology.org/topic_0196
+validated: 1
+version: []

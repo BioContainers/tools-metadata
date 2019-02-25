@@ -1,0 +1,75 @@
+accessibility: []
+additionDate: '2018-07-30T09:47:05Z'
+biotoolsCURIE: biotools:gepia
+biotoolsID: gepia
+collectionID: []
+cost: null
+credit:
+- email: tangzefang@pku.edu.cn
+  name: null
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Gene Expression Profiling Interactive Analysis. Interactive and customizable
+  functions including differential expression analysis, profiling plotting, correlation
+  analysis, patient survival analysis, similar gene detection and dimensionality reduction
+  analysis.
+documentation:
+- note: null
+  type: General
+  url: http://gepia.cancer-pku.cn/help.html
+download:
+- note: null
+  type: API specification
+  url: http://gepia.cancer-pku.cn/api.html
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Gene expression clustering
+    uri: http://edamontology.org/operation_0313
+  - term: Gene expression profiling
+    uri: http://edamontology.org/operation_0314
+  - term: Gene expression correlation
+    uri: http://edamontology.org/operation_3463
+  output: []
+homepage: http://gepia.cancer-pku.cn/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:59:00Z'
+license: null
+link: []
+maturity: null
+name: GEPIA
+operatingSystem: []
+otherID: []
+owner: aotamendi.1
+publication:
+- doi: 10.1093/NAR/GKX247
+  metadata: null
+  pmcid: PMC5570223
+  pmid: '28407145'
+  type: Primary
+  version: null
+toolType:
+- Web application
+topic:
+- term: Microarray experiment
+  uri: http://edamontology.org/topic_3518
+- term: Gene expression
+  uri: http://edamontology.org/topic_0203
+- term: Oncology
+  uri: http://edamontology.org/topic_2640
+validated: 1
+version: []

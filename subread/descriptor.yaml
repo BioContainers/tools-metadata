@@ -1,0 +1,80 @@
+accessibility: []
+additionDate: '2017-01-13T13:16:45Z'
+biotoolsCURIE: biotools:subread
+biotoolsID: subread
+collectionID: []
+cost: null
+credit:
+- email: shi@wehi.edu.au
+  name: Dr Wei Shi
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Subread is a general-purpose read aligner which can be used to map both
+  genomic DNA-seq reads and RNA-seq reads. It uses a new mapping paradigm called "seed-and-vote"
+  to achieve fast, accurate and scalable read mapping. It automatically determines
+  if a read should be globally or locally aligned, therefore particularly powerful
+  in mapping RNA-seq reads. It supports indel detection and can map reads with both
+  fixed and variable lengths.
+documentation:
+- note: null
+  type: General
+  url: http://bioinf.wehi.edu.au/subread-package/SubreadUsersGuide.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Read mapping
+    uri: http://edamontology.org/operation_3198
+  output: []
+homepage: http://subread.sourceforge.net/
+homepage_status: 0
+language:
+- C
+lastUpdate: '2018-12-10T12:58:59Z'
+license: GPL-3.0
+link: []
+maturity: Mature
+name: Subread
+operatingSystem:
+- Linux
+- Mac
+otherID: []
+owner: seqwiki_import
+publication:
+- doi: 10.1093/nar/gkt214
+  metadata: null
+  pmcid: PMC3664803
+  pmid: '23558742'
+  type: Primary
+  version: null
+- doi: 10.1038/nmeth.4106
+  metadata: null
+  pmcid: PMC5792058
+  pmid: '27941783'
+  type: Comparison
+  version: null
+toolType:
+- Suite
+topic:
+- term: Sequencing
+  uri: http://edamontology.org/topic_3168
+- term: Mapping
+  uri: http://edamontology.org/topic_0102
+- term: Whole genome sequencing
+  uri: http://edamontology.org/topic_3673
+- term: RNA-seq
+  uri: http://edamontology.org/topic_3170
+validated: 1
+version: []

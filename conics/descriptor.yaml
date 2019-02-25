@@ -1,0 +1,72 @@
+accessibility: []
+additionDate: '2018-06-01T15:54:41Z'
+biotoolsCURIE: biotools:conics
+biotoolsID: conics
+collectionID: []
+cost: null
+credit:
+- email: aaron.diaz@ucsf.edu
+  name: Aaron Diaz
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Integrates scRNA-seq with DNA sequencing to map gene expression to tumor
+  sub-clones.
+documentation:
+- note: null
+  type: General
+  url: https://github.com/diazlab/CONICS
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: DNA mapping
+    uri: http://edamontology.org/operation_2520
+  - term: Copy number estimation
+    uri: http://edamontology.org/operation_3233
+  output: []
+homepage: https://github.com/diazlab/CONICS
+homepage_status: 0
+language:
+- R
+- Perl
+- Python
+lastUpdate: '2018-12-10T12:58:59Z'
+license: null
+link: []
+maturity: null
+name: CONICS
+operatingSystem:
+- Linux
+- Mac
+otherID: []
+owner: d.gabrielaitis
+publication:
+- doi: 10.1093/bioinformatics/bty316
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: RNA-seq
+  uri: http://edamontology.org/topic_3170
+- term: DNA structural variation
+  uri: http://edamontology.org/topic_3175
+- term: Genetic variation
+  uri: http://edamontology.org/topic_0199
+validated: 1
+version: []

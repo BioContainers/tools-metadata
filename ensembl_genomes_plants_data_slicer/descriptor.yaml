@@ -3,51 +3,51 @@ additionDate: '2015-01-29T15:46:52Z'
 biotoolsCURIE: biotools:ensembl_genomes_plants_data_slicer
 biotoolsID: ensembl_genomes_plants_data_slicer
 collectionID:
-- Ensembl Tools
-- Ensembl Genomes
-- EBI Tools
+  - Ensembl Tools
+  - Ensembl Genomes
+  - EBI Tools
 cost: null
 credit:
-- email: null
-  name: Ensembl Genomes team
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: EMBL-EBI
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: helpdesk@ensemblgenomes.org
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: eg-webteam@ebi.ac.uk
-  name: Ensembl Genomes webteam
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: Ensembl Genomes team
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: EMBL-EBI
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: helpdesk@ensemblgenomes.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: eg-webteam@ebi.ac.uk
+    name: Ensembl Genomes webteam
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Get a subset of data from a BAM | VCF file.
 documentation:
-- note: null
-  type: Terms of use
-  url: http://www.ebi.ac.uk/about/terms-of-use
-- note: null
-  type: General
-  url: http://plants.ensembl.org/info/website/help/index.html
+  - note: null
+    type: Terms of use
+    url: http://www.ebi.ac.uk/about/terms-of-use
+  - note: null
+    type: General
+    url: http://plants.ensembl.org/info/website/help/index.html
 download: []
 editPermission:
   authors: []
@@ -56,37 +56,37 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Sequence alignment
-      uri: http://edamontology.org/data_0863
-    format:
-    - term: BAM
-      uri: http://edamontology.org/format_2572
-    - term: VCF
-      uri: http://edamontology.org/format_3016
-  - data:
-      term: Sequence variations
-      uri: http://edamontology.org/data_3498
-    format:
-    - term: BAM
-      uri: http://edamontology.org/format_2572
-    - term: VCF
-      uri: http://edamontology.org/format_3016
-  - data:
-      term: Sequence coordinates
-      uri: http://edamontology.org/data_2012
-    format:
-    - term: BAM
-      uri: http://edamontology.org/format_2572
-    - term: VCF
-      uri: http://edamontology.org/format_3016
-  note: null
-  operation:
-  - term: Sequence file editing
-    uri: http://edamontology.org/operation_2121
-  output: []
+  - cmd: null
+    input:
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+          - term: VCF
+            uri: http://edamontology.org/format_3016
+      - data:
+          term: Sequence variations
+          uri: http://edamontology.org/data_3498
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+          - term: VCF
+            uri: http://edamontology.org/format_3016
+      - data:
+          term: Sequence coordinates
+          uri: http://edamontology.org/data_2012
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+          - term: VCF
+            uri: http://edamontology.org/format_3016
+    note: null
+    operation:
+      - term: Sequence file editing
+        uri: http://edamontology.org/operation_2121
+    output: []
 homepage: http://plants.ensembl.org/tools.html
 homepage_status: 0
 language: []
@@ -96,23 +96,23 @@ link: []
 maturity: null
 name: Ensembl Genomes Plants data slicer
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: EMBL-EBI
 publication:
-- doi: 10.1093/nar/gkv1157
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Other
-  version: null
+  - doi: 10.1093/nar/gkv1157
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Data management
-  uri: http://edamontology.org/topic_3071
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
 validated: 0
 version:
-- '1'
+  - '1'

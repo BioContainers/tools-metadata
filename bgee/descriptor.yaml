@@ -5,22 +5,22 @@ biotoolsID: bgee
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: SIB Swiss Institute of Bioinformatics
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: bgee@isb-sib.ch
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://expasy.org/support
+  - email: null
+    name: SIB Swiss Institute of Bioinformatics
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: bgee@isb-sib.ch
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://expasy.org/support
 description: A database to retrieve and compare gene expression patterns between animal
   species.  Bgee first maps heterogeneous expression data (currently EST, Affymetrix,
   and in situ hybridization data) on anatomical and developmental ontologies.  Then,
@@ -28,50 +28,50 @@ description: A database to retrieve and compare gene expression patterns between
   across anatomical ontologies, and comparison criteria between developmental ontologies,
   are designed.
 documentation:
-- note: null
-  type: Manual
-  url: https://bgee.org/?page=doc&action=access
+  - note: null
+    type: Manual
+    url: https://bgee.org/?page=doc&action=access
 download: []
 editPermission:
   authors: []
   type: private
 elixirNode:
-- Switzerland
+  - Switzerland
 elixirPlatform:
-- Data
+  - Data
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: UniProt accession
-      uri: http://edamontology.org/data_3021
-    format: []
-  - data:
-      term: Ensembl gene ID
-      uri: http://edamontology.org/data_1033
-    format: []
-  - data:
-      term: Gene name
-      uri: http://edamontology.org/data_2299
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Gene report
-      uri: http://edamontology.org/data_0916
-    format: []
-  - data:
-      term: Gene expression profile
-      uri: http://edamontology.org/data_0928
-    format: []
-  - data:
-      term: Gene expression data
-      uri: http://edamontology.org/data_2603
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: UniProt accession
+          uri: http://edamontology.org/data_3021
+        format: []
+      - data:
+          term: Ensembl gene ID
+          uri: http://edamontology.org/data_1033
+        format: []
+      - data:
+          term: Gene name
+          uri: http://edamontology.org/data_2299
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format: []
+      - data:
+          term: Gene expression profile
+          uri: http://edamontology.org/data_0928
+        format: []
+      - data:
+          term: Gene expression data
+          uri: http://edamontology.org/data_2603
+        format: []
 homepage: http://bgee.org
 homepage_status: 0
 language: []
@@ -81,26 +81,26 @@ link: []
 maturity: null
 name: Bgee
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: SIB
 publication:
-- doi: 10.1007/978-3-540-69828-9_12
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1007/978-3-540-69828-9_12
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Transcriptomics
-  uri: http://edamontology.org/topic_3308
-- term: Comparative genomics
-  uri: http://edamontology.org/topic_0797
-- term: Functional genomics
-  uri: http://edamontology.org/topic_0085
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+  - term: Comparative genomics
+    uri: http://edamontology.org/topic_0797
+  - term: Functional genomics
+    uri: http://edamontology.org/topic_0085
 validated: 0
 version: []

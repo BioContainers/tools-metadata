@@ -1,0 +1,81 @@
+accessibility: []
+additionDate: '2018-07-30T11:26:44Z'
+biotoolsCURIE: biotools:mcsm_na
+biotoolsID: mcsm_na
+collectionID: []
+cost: null
+credit:
+- email: douglas.pires@cpqrr.fiocruz.br
+  name: Dr. Douglas E. V. Pires
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: david.ascher@unimelb.edu.au
+  name: Dr. David B. Ascher
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Quantitatively predict the effects of mutations in protein coding regions
+  on nucleic acid binding affinities.
+documentation:
+- note: null
+  type: General
+  url: http://biosig.unimelb.edu.au/mcsm_na/help
+download:
+- note: null
+  type: Biological data
+  url: http://biosig.unimelb.edu.au/mcsm_na/data
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Protein-nucleic acid binding prediction
+    uri: http://edamontology.org/operation_0420
+  - term: Protein modelling (mutation)
+    uri: http://edamontology.org/operation_0331
+  - term: Nucleic acid folding analysis
+    uri: http://edamontology.org/operation_0279
+  output: []
+homepage: http://structure.bioc.cam.ac.uk/mcsm_na
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:59:00Z'
+license: null
+link: []
+maturity: null
+name: mCSM_NA
+operatingSystem: []
+otherID: []
+owner: aotamendi.1
+publication:
+- doi: 10.1093/NAR/GKX236
+  metadata: null
+  pmcid: PMC5570212
+  pmid: '28383703'
+  type: null
+  version: null
+toolType:
+- Web application
+topic:
+- term: Protein interactions
+  uri: http://edamontology.org/topic_0128
+- term: Nucleic acid structure analysis
+  uri: http://edamontology.org/topic_0097
+- term: Nucleic acid sites, features and motifs
+  uri: http://edamontology.org/topic_3511
+validated: 1
+version: []

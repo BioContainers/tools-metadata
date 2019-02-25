@@ -5,37 +5,37 @@ biotoolsID: glycodigest
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: ExPASy helpdesk
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://www.expasy.org/support
-- email: matthew.campbell@mq.edu.au
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: frederique.lisacek@isb-sib.ch
-  name: Frederique Lisacek
-  note: null
-  orcidid: http://orcid.org/0000-0002-0948-4537
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: ExPASy helpdesk
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www.expasy.org/support
+  - email: matthew.campbell@mq.edu.au
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: frederique.lisacek@isb-sib.ch
+    name: Frederique Lisacek
+    note: null
+    orcidid: http://orcid.org/0000-0002-0948-4537
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Tool that simulates the action of these exoglycosidases on released oligosaccharides.
   It assists glycobiologists in designing enzyme mixtures that can be used to guide
   the precise determination of glycan structures.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/alternativeTime/unicarb_static/wiki/GlycoDigest-Guide-(UniCarbKB)
+  - note: null
+    type: General
+    url: https://github.com/alternativeTime/unicarb_static/wiki/GlycoDigest-Guide-(UniCarbKB)
 download: []
 editPermission:
   authors: []
@@ -44,64 +44,64 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Protein post-translation modification site prediction
-    uri: http://edamontology.org/operation_0417
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Molecular dynamics
-    uri: http://edamontology.org/operation_2476
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Analysis
-    uri: http://edamontology.org/operation_2945
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein post-translation modification site prediction
+        uri: http://edamontology.org/operation_0417
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Molecular dynamics
+        uri: http://edamontology.org/operation_2476
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Analysis
+        uri: http://edamontology.org/operation_2945
+    output: []
 homepage: http://www.glycodigest.org/
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2019-01-10T15:15:35Z'
 license: null
 link:
-- note: null
-  type: Mirror
-  url: https://glycoproteome.expasy.org/glycodigest/
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/glycodigest-20140409-a-tool-for-exoglycosidase-digestions.html
+  - note: null
+    type: Mirror
+    url: https://glycoproteome.expasy.org/glycodigest/
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/glycodigest-20140409-a-tool-for-exoglycosidase-digestions.html
 maturity: null
 name: GlycoDigest
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: 10.1093/bioinformatics/btu425
-  metadata: null
-  pmcid: PMC4609004
-  pmid: '25015990'
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/btu425
+    metadata: null
+    pmcid: PMC4609004
+    pmid: '25015990'
+    type: Primary
+    version: null
 toolType:
-- Web application
-- Desktop application
+  - Web application
+  - Desktop application
 topic:
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
-- term: Enzymes
-  uri: http://edamontology.org/topic_0821
-- term: Small molecules
-  uri: http://edamontology.org/topic_0154
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Enzymes
+    uri: http://edamontology.org/topic_0821
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
 validated: 1
 version: []

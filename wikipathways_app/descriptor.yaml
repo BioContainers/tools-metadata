@@ -3,25 +3,25 @@ additionDate: '2018-09-04T10:24:29Z'
 biotoolsCURIE: biotools:wikipathways_app
 biotoolsID: wikipathways_app
 collectionID:
-- RD-connect
-- Rare Disease
-- WikiPathways
-- Cytoscape
+  - RD-connect
+  - Rare Disease
+  - WikiPathways
+  - Cytoscape
 cost: null
 credit:
-- email: mkutmon@gmail.com
-  name: Martina Kutmon
-  note: null
-  orcidid: http://orcid.org/0000-0002-7699-8191
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: mkutmon@gmail.com
+    name: Martina Kutmon
+    note: null
+    orcidid: http://orcid.org/0000-0002-7699-8191
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Easy access to pathway content at WikiPathways.org from Cytoscape.
 documentation:
-- note: null
-  type: Training material
-  url: http://wikipathways.org/index.php/Help:DataVisualizationInCytoscape
+  - note: null
+    type: Training material
+    url: http://wikipathways.org/index.php/Help:DataVisualizationInCytoscape
 download: []
 editPermission:
   authors: []
@@ -30,59 +30,59 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Pathway or network prediction
-    uri: http://edamontology.org/operation_3439
-  - term: Pathway or network comparison
-    uri: http://edamontology.org/operation_0277
-  - term: Network simulation
-    uri: http://edamontology.org/operation_3562
-  - term: Pathway or network visualisation
-    uri: http://edamontology.org/operation_3083
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Pathway or network prediction
+        uri: http://edamontology.org/operation_3439
+      - term: Pathway or network comparison
+        uri: http://edamontology.org/operation_0277
+      - term: Network simulation
+        uri: http://edamontology.org/operation_3562
+      - term: Pathway or network visualisation
+        uri: http://edamontology.org/operation_3083
+    output: []
 homepage: http://apps.cytoscape.org/apps/wikipathways
 homepage_status: 0
 language:
-- Shell
-- Java
+  - Shell
+  - Java
 lastUpdate: '2019-02-16T12:38:11Z'
 license: Apache-2.0
 link:
-- note: null
-  type: Repository
-  url: https://github.com/wikipathways/cytoscape-wikipathways-app
-- note: null
-  type: Helpdesk
-  url: https://wikipathways.slack.com/?redir=%2Fmessages%2Fwikipathways-helpdesk%2F
+  - note: null
+    type: Repository
+    url: https://github.com/wikipathways/cytoscape-wikipathways-app
+  - note: null
+    type: Helpdesk
+    url: https://wikipathways.slack.com/?redir=%2Fmessages%2Fwikipathways-helpdesk%2F
 maturity: null
 name: WikiPathways App
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.12688/F1000RESEARCH.4254.2
-  metadata: null
-  pmcid: PMC4168754
-  pmid: '25254103'
-  type: Primary
-  version: null
-- doi: 10.1371/journal.pone.0006447
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.12688/F1000RESEARCH.4254.2
+    metadata: null
+    pmcid: PMC4168754
+    pmid: '25254103'
+    type: Primary
+    version: null
+  - doi: 10.1371/journal.pone.0006447
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Plug-in
+  - Plug-in
 topic:
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
 validated: 0
 version:
-- 3.3.1
+  - 3.3.1

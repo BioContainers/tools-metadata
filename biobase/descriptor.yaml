@@ -3,35 +3,35 @@ additionDate: '2017-01-17T15:04:26Z'
 biotoolsCURIE: biotools:biobase
 biotoolsID: biobase
 collectionID:
-- BioConductor
+  - BioConductor
 cost: Free of charge
 credit:
-- email: maintainer@bioconductor.org
-  name: BioConductor Package Maintainer
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: wolfgang.huber@embl.de
-  name: Wolfgang Huber
-  note: null
-  orcidid: http://orcid.org/0000-0002-0474-2218
-  typeEntity: Person
-  typeRole:
-  - Contributor
-  url: null
+  - email: maintainer@bioconductor.org
+    name: BioConductor Package Maintainer
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: wolfgang.huber@embl.de
+    name: Wolfgang Huber
+    note: null
+    orcidid: http://orcid.org/0000-0002-0474-2218
+    typeEntity: Person
+    typeRole:
+      - Contributor
+    url: null
 description: Functions that are needed by many other packages or which replace R functions.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/Biobase.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/Biobase.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/Biobase_2.34.0.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/Biobase_2.34.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -39,45 +39,45 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Deposition
-    uri: http://edamontology.org/operation_3431
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Deposition
+        uri: http://edamontology.org/operation_3431
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/Biobase.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-01-11T00:10:46Z'
 license: Artistic-2.0
 link: []
 maturity: null
 name: Biobase
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1038/nmeth.3252
-  metadata: null
-  pmcid: PMC4509590
-  pmid: '25633503'
-  type: Primary
-  version: null
+  - doi: 10.1038/nmeth.3252
+    metadata: null
+    pmcid: PMC4509590
+    pmid: '25633503'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: Database management
-  uri: http://edamontology.org/topic_3489
-- term: Statistics and probability
-  uri: http://edamontology.org/topic_2269
-- term: Data management
-  uri: http://edamontology.org/topic_3071
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
 validated: 1
 version:
-- 2.34.0
+  - 2.34.0

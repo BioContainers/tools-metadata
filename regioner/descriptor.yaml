@@ -3,75 +3,75 @@ additionDate: '2017-01-17T15:00:03Z'
 biotoolsCURIE: biotools:regioner
 biotoolsID: regioner
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: bgel@imppc.org
-  name: Bernat Gel
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: bgel@imppc.org
+    name: Bernat Gel
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Offers a statistical framework based on customizable permutation tests
   to assess the association between genomic region sets and other genomic features.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/regioneR.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/regioneR.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/regioneR_1.6.0.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/regioneR_1.6.0.tar.gz
+    version: null
 editPermission:
   authors:
-  - bernatgel
+    - bernatgel
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Genome comparison
-    uri: http://edamontology.org/operation_3209
-  - term: Genome feature comparison
-    uri: http://edamontology.org/operation_3194
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genome comparison
+        uri: http://edamontology.org/operation_3209
+      - term: Genome feature comparison
+        uri: http://edamontology.org/operation_3194
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/regioneR.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-02-08T07:42:51Z'
 license: Artistic-2.0
 link: []
 maturity: null
 name: regioneR
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bernatgel
 publication:
-- doi: 10.1093/bioinformatics/btv562
-  metadata: null
-  pmcid: PMC4708104
-  pmid: '26424858'
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/btv562
+    metadata: null
+    pmcid: PMC4708104
+    pmid: '26424858'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
-- term: GWAS study
-  uri: http://edamontology.org/topic_3517
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: GWAS study
+    uri: http://edamontology.org/topic_3517
 validated: 1
 version:
-- 1.6.0
+  - 1.6.0

@@ -3,41 +3,41 @@ additionDate: '2017-08-20T16:24:30Z'
 biotoolsCURIE: biotools:mutationtaster
 biotoolsID: mutationtaster
 collectionID:
-- Animal and Crop Genomics
+  - Animal and Crop Genomics
 cost: null
 credit:
-- email: jana-marie.schwarz@charite.de
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: jana-marie.schwarz@charite.de
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Employs a Bayes classifier to eventually predict the disease potential
   of an alteration. The Bayes classifier is fed with the outcome of all tests and
   the features of the alterations and calculates probabilities for the alteration
   to be either a disease mutation or a harmless polymorphism.
 documentation:
-- note: null
-  type: General
-  url: http://www.mutationtaster.org/info/documentation.html
+  - note: null
+    type: General
+    url: http://www.mutationtaster.org/info/documentation.html
 download: []
 editPermission:
   authors:
-  - animalandcropgenomics
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence feature detection
-    uri: http://edamontology.org/operation_0253
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence feature detection
+        uri: http://edamontology.org/operation_0253
+    output: []
 homepage: http://www.mutationtaster.org/
 homepage_status: 0
 language: []
@@ -47,34 +47,34 @@ link: []
 maturity: null
 name: MutationTaster
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: 10.1038/nmeth.2890
-  metadata:
-    abstract: ''
-    authors:
-    - name: Schwarz J.M.
-    - name: Cooper D.N.
-    - name: Schuelke M.
-    - name: Seelow D.
-    citationCount: 881
-    date: '2014-01-01T00:00:00Z'
-    journal: Nature Methods
-    title: 'Mutationtaster2: Mutation prediction for the deep-sequencing age'
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1038/nmeth.2890
+    metadata:
+      abstract: ''
+      authors:
+        - name: Schwarz J.M.
+        - name: Cooper D.N.
+        - name: Schuelke M.
+        - name: Seelow D.
+      citationCount: 881
+      date: '2014-01-01T00:00:00Z'
+      journal: Nature Methods
+      title: 'Mutationtaster2: Mutation prediction for the deep-sequencing age'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Genetic variation
-  uri: http://edamontology.org/topic_0199
-- term: Function analysis
-  uri: http://edamontology.org/topic_1775
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: Function analysis
+    uri: http://edamontology.org/topic_1775
 validated: 1
 version: []

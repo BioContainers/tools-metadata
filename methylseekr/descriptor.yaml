@@ -3,28 +3,28 @@ additionDate: '2017-01-17T15:02:57Z'
 biotoolsCURIE: biotools:methylseekr
 biotoolsID: methylseekr
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: Lukas.Burger@fmi.ch
-  name: Lukas Burger
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: Lukas.Burger@fmi.ch
+    name: Lukas Burger
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: This is a package for the discovery of regulatory regions from Bis-seq
   data.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/MethylSeekR.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/MethylSeekR.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/MethylSeekR_1.14.0.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/MethylSeekR_1.14.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -32,45 +32,45 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Bisulfite mapping
-    uri: http://edamontology.org/operation_3186
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Bisulfite mapping
+        uri: http://edamontology.org/operation_3186
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/MethylSeekR.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-01-09T17:12:16Z'
 license: GPL-2.0
 link: []
 maturity: null
 name: MethylSeekR
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1093/nar/gkt599
-  metadata: null
-  pmcid: PMC3763559
-  pmid: '23828043'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkt599
+    metadata: null
+    pmcid: PMC3763559
+    pmid: '23828043'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: Transcription factors and regulatory sites
-  uri: http://edamontology.org/topic_0749
-- term: DNA
-  uri: http://edamontology.org/topic_0654
-- term: Epigenetics
-  uri: http://edamontology.org/topic_3295
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Epigenetics
+    uri: http://edamontology.org/topic_3295
 validated: 1
 version:
-- 1.14.0
+  - 1.14.0

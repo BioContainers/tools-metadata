@@ -3,102 +3,102 @@ additionDate: '2017-01-17T14:55:59Z'
 biotoolsCURIE: biotools:gtrellis
 biotoolsID: gtrellis
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: z.gu@dkfz.de
-  name: Zuguang Gu
-  note: null
-  orcidid: http://orcid.org/0000-0002-7395-8709
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: z.gu@dkfz.de
-  name: Zuguang Gu
-  note: null
-  orcidid: http://orcid.org/0000-0002-7395-8709
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: z.gu@dkfz.de
+    name: Zuguang Gu
+    note: null
+    orcidid: http://orcid.org/0000-0002-7395-8709
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: z.gu@dkfz.de
+    name: Zuguang Gu
+    note: null
+    orcidid: http://orcid.org/0000-0002-7395-8709
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Visualize genomic data conditioned by genomic categories (e.g. chromosomes).
   For each genomic category, multiple dimensional data which are represented as tracks
   describe different features from different aspects. This package provides high flexibility
   to arrange genomic categories and to add self-defined graphics in the plot.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/gtrellis.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/gtrellis.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/gtrellis_1.6.0.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/gtrellis_1.6.0.tar.gz
+    version: null
 editPermission:
   authors:
-  - guang920
+    - guang920
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Sequence range
-      uri: http://edamontology.org/data_1017
-    format:
-    - term: Sequence range format
-      uri: http://edamontology.org/format_2078
-  note: null
-  operation:
-  - term: Genome visualisation
-    uri: http://edamontology.org/operation_3208
-  - term: Genome annotation
-    uri: http://edamontology.org/operation_0362
-  output:
-  - data:
-      term: Annotation track
-      uri: http://edamontology.org/data_3002
-    format:
-    - term: Sequence annotation track format
-      uri: http://edamontology.org/format_2919
+  - cmd: null
+    input:
+      - data:
+          term: Sequence range
+          uri: http://edamontology.org/data_1017
+        format:
+          - term: Sequence range format
+            uri: http://edamontology.org/format_2078
+    note: null
+    operation:
+      - term: Genome visualisation
+        uri: http://edamontology.org/operation_3208
+      - term: Genome annotation
+        uri: http://edamontology.org/operation_0362
+    output:
+      - data:
+          term: Annotation track
+          uri: http://edamontology.org/data_3002
+        format:
+          - term: Sequence annotation track format
+            uri: http://edamontology.org/format_2919
 homepage: http://bioconductor.org/packages/release/bioc/html/gtrellis.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-01-13T01:04:47Z'
 license: GPL-2.0
 link:
-- note: null
-  type: Mirror
-  url: https://github.com/jokergoo/gtrellis
+  - note: null
+    type: Mirror
+    url: https://github.com/jokergoo/gtrellis
 maturity: null
 name: gtrellis
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: guang920
 publication:
-- doi: 10.1186/s12859-016-1051-4
-  metadata: null
-  pmcid: PMC4835841
-  pmid: '27089965'
-  type: Primary
-  version: null
+  - doi: 10.1186/s12859-016-1051-4
+    metadata: null
+    pmcid: PMC4835841
+    pmid: '27089965'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: Omics
-  uri: http://edamontology.org/topic_3391
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
+  - term: Omics
+    uri: http://edamontology.org/topic_3391
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
 validated: 1
 version:
-- 1.6.0
+  - 1.6.0

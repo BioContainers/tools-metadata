@@ -5,20 +5,20 @@ biotoolsID: hicplotter
 collectionID: []
 cost: null
 credit:
-- email: kcakedemir@mdanderson.org
-  name: Kadir Akdemir
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://twitter.com/canerakdemir
+  - email: kcakedemir@mdanderson.org
+    name: Kadir Akdemir
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://twitter.com/canerakdemir
 description: Python data visualization tool for integrating different data types with
   interaction matrixes.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/kcakdemir/HiCPlotter/blob/master/README.md
+  - note: null
+    type: General
+    url: https://github.com/kcakdemir/HiCPlotter/blob/master/README.md
 download: []
 editPermission:
   authors: []
@@ -27,63 +27,64 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Visualisation
-    uri: http://edamontology.org/operation_0337
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Visualisation
+        uri: http://edamontology.org/operation_0337
+    output: []
 homepage: https://github.com/kcakdemir/HiCPlotter
 homepage_status: 0
 language:
-- Python
+  - Python
 lastUpdate: '2019-02-08T09:52:24Z'
 license: null
 link:
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/hicplotter-integrating-hic-data-with-genomic-datasets.html
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/hicplotter-integrating-hic-data-with-genomic-datasets.html
 maturity: Emerging
 name: HiCPlotter Beta
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: mbs_import
 publication:
-- doi: null
-  metadata:
-    abstract: © 2015 Akdemir and Chin.Metazoan genomic material is folded into stable
-      non-randomly arranged chromosomal structures that are tightly associated with
-      transcriptional regulation and DNA replication. Various factors including regulators
-      of pluripotency, long non-coding RNAs, or the presence of architectural proteins
-      have been implicated in regulation and assembly of the chromatin architecture.
-      Therefore, comprehensive visualization of this multi-faceted structure is important
-      to unravel the connections between nuclear architecture and transcriptional
-      regulation. Here, we present an easy-to-use open-source visualization tool,
-      HiCPlotter, to facilitate juxtaposition of Hi-C matrices with diverse genomic
-      assay outputs, as well as to compare interaction matrices between various conditions.
-    authors:
-    - name: Akdemir K.C.
-    - name: Chin L.
-    citationCount: 23
-    date: '2015-09-21T00:00:00Z'
-    journal: Genome Biology
-    title: HiCPlotter integrates genomic data with interaction matrices
-  pmcid: null
-  pmid: '26392354'
-  type: null
-  version: null
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015 Akdemir and Chin.Metazoan genomic material is folded into\
+        \ stable non-randomly arranged chromosomal structures that are tightly associated\
+        \ with transcriptional regulation and DNA replication. Various factors including\
+        \ regulators of pluripotency, long non-coding RNAs, or the presence of architectural\
+        \ proteins have been implicated in regulation and assembly of the chromatin\
+        \ architecture. Therefore, comprehensive visualization of this multi-faceted\
+        \ structure is important to unravel the connections between nuclear architecture\
+        \ and transcriptional regulation. Here, we present an easy-to-use open-source\
+        \ visualization tool, HiCPlotter, to facilitate juxtaposition of Hi-C matrices\
+        \ with diverse genomic assay outputs, as well as to compare interaction matrices\
+        \ between various conditions."
+      authors:
+        - name: Akdemir K.C.
+        - name: Chin L.
+      citationCount: 23
+      date: '2015-09-21T00:00:00Z'
+      journal: Genome Biology
+      title: HiCPlotter integrates genomic data with interaction matrices
+    pmcid: null
+    pmid: '26392354'
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Data visualisation
-  uri: http://edamontology.org/topic_0092
-- term: Statistics and probability
-  uri: http://edamontology.org/topic_2269
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
 validated: 1
 version: []

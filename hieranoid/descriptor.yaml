@@ -1,0 +1,117 @@
+accessibility:
+- Open access
+additionDate: '2018-05-22T10:49:31Z'
+biotoolsCURIE: biotools:hieranoid
+biotoolsID: hieranoid
+collectionID: []
+cost: Free of charge
+credit:
+- email: null
+  name: Stockholm Bioinformatics Centre
+  note: null
+  orcidid: null
+  typeEntity: Institute
+  typeRole: []
+  url: http://www.sbc.su.se/
+- email: mateusz.kaduk@scilifelab.se
+  name: Mateusz Kaduk
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Orthology inference method using a hierarchical approach. Hieranoid performs
+  pairwise orthology analysis using InParanoid at each node in a guide tree as it
+  progresses from its leaves to the root. This concept reduces the total runtime complexity
+  from a quadratic to a linear function of the number of species. The tree hierarchy
+  provides a natural structure in multi-species ortholog groups, and the aggregation
+  of multiple sequences allows for multiple alignment similarity searching techniques.
+documentation: []
+download:
+- note: null
+  type: Biological data
+  url: http://hieranoid.sbc.su.se/download/H2/
+  version: null
+- note: null
+  type: Source code
+  url: http://software.sbc.su.se/cgi-bin/request.cgi?project=hieranoid2
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Database search
+    uri: http://edamontology.org/operation_2421
+  - term: Prediction and recognition
+    uri: http://edamontology.org/operation_2423
+  output: []
+homepage: http://hieranoidb.sbc.su.se/
+homepage_status: 0
+language:
+- Perl
+lastUpdate: '2018-12-10T12:58:59Z'
+license: null
+link: []
+maturity: null
+name: Hieranoid
+operatingSystem:
+- Linux
+otherID: []
+owner: javi-gv94
+publication:
+- doi: 10.1093/bioinformatics/btw774
+  metadata:
+    abstract: '© 2017 The Author. Published by Oxford University Press. All rights
+      reserved. Motivation: The initial step in many orthology inference methods is
+      the computationally demanding establishment of all pairwise protein similarities
+      across all analysed proteomes. The quadratic scaling with proteomes has become
+      a major bottleneck. A remedy is offered by the Hieranoid algorithm which reduces
+      the complexity to linear by hierarchically aggregating ortholog groups from
+      InParanoid along a species tree. Results: We have further developed the Hieranoid
+      algorithm in many ways. Major improvements have been made to the construction
+      of multiple sequence alignments and consensus sequences. Hieranoid version 2
+      was evaluated with standard benchmarks that reveal a dramatic increase in the
+      coverage/accuracy tradeoff over version 1, such that it now compares favourably
+      with the best methods. The new parallelized cluster mode allows Hieranoid to
+      be run on large data sets in a much shorter timespan than InParanoid, yet at
+      similar accuracy.'
+    authors:
+    - name: Kaduk M.
+    - name: Sonnhammer E.
+    citationCount: 1
+    date: '2017-04-15T00:00:00Z'
+    journal: Bioinformatics
+    title: Improved orthology inference with Hieranoid 2
+  pmcid: null
+  pmid: '28096085'
+  type: null
+  version: null
+- doi: 10.1093/nar/gkw923
+  metadata: null
+  pmcid: PMC5210627
+  pmid: '27742821'
+  type: null
+  version: null
+toolType:
+- Command-line tool
+- Database portal
+topic:
+- term: Evolutionary biology
+  uri: http://edamontology.org/topic_3299
+- term: Phylogenetics
+  uri: http://edamontology.org/topic_3293
+- term: Function analysis
+  uri: http://edamontology.org/topic_1775
+- term: Comparative genomics
+  uri: http://edamontology.org/topic_0797
+validated: 1
+version:
+- '2'

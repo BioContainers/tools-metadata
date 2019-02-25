@@ -5,22 +5,22 @@ biotoolsID: pagit
 collectionID: []
 cost: null
 credit:
-- email: tdo@sanger.ac.uk
-  name: Thomas Otto
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: tdo@sanger.ac.uk
+    name: Thomas Otto
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Tools to generate automatically high quality sequence by ordering contigs,
   closing gaps, correcting sequence errors and transferring annotation. With the advent
   of next generation sequencing a software for mapping or aligning short reads and
   performing genome assembly was developed.
 documentation:
-- note: null
-  type: General
-  url: http://www.sanger.ac.uk/science/tools/pagit
+  - note: null
+    type: General
+    url: http://www.sanger.ac.uk/science/tools/pagit
 download: []
 editPermission:
   authors: []
@@ -29,13 +29,13 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence assembly validation
-    uri: http://edamontology.org/operation_3180
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence assembly validation
+        uri: http://edamontology.org/operation_3180
+    output: []
 homepage: http://www.sanger.ac.uk/science/tools/pagit
 homepage_status: 0
 language: []
@@ -45,20 +45,20 @@ link: []
 maturity: Mature
 name: Post Assembly Genome Improvement Toolkit
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: seqwiki_import
 publication:
-- doi: 10.1038/nprot.2012.068
-  metadata: null
-  pmcid: PMC3648784
-  pmid: '22678431'
-  type: Primary
-  version: null
+  - doi: 10.1038/nprot.2012.068
+    metadata: null
+    pmcid: PMC3648784
+    pmid: '22678431'
+    type: Primary
+    version: null
 toolType:
-- Suite
+  - Suite
 topic:
-- term: Sequence assembly
-  uri: http://edamontology.org/topic_0196
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
 validated: 1
 version: []

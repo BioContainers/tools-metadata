@@ -3,96 +3,96 @@ additionDate: '2015-12-02T14:59:46Z'
 biotoolsCURIE: biotools:iresite
 biotoolsID: iresite
 collectionID:
-- Czech Republic
-- ELIXIR-CZ
+  - Czech Republic
+  - ELIXIR-CZ
 cost: Free of charge
 credit:
-- email: null
-  name: ELIXIR-CZ
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: ires@iresite.org
-  name: Martin Pospisek
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://web.natur.cuni.cz/~pospisek/
+  - email: null
+    name: ELIXIR-CZ
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: ires@iresite.org
+    name: Martin Pospisek
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://web.natur.cuni.cz/~pospisek/
 description: Our database presents experimental evidence of many eukaryotic viral
   and cellular internal ribosome entry site (IRES) regions.
 documentation:
-- note: null
-  type: Citation instructions
-  url: http://iresite.org/IRESite_web.php?page=about
-- note: null
-  type: General
-  url: http://iresite.org/IRESite_web.php?page=introduction
+  - note: null
+    type: Citation instructions
+    url: http://iresite.org/IRESite_web.php?page=about
+  - note: null
+    type: General
+    url: http://iresite.org/IRESite_web.php?page=introduction
 download: []
 editPermission:
   authors: []
   type: private
 elixirNode:
-- Czech Republic
+  - Czech Republic
 elixirPlatform:
-- Tools
+  - Tools
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Nucleic acid sequence
-      uri: http://edamontology.org/data_2977
-    format:
-    - term: BLAST results
-      uri: http://edamontology.org/format_1333
-    - term: FASTA-like (text)
-      uri: http://edamontology.org/format_2200
-  note: null
-  operation:
-  - term: Sequence database search (by property)
-    uri: http://edamontology.org/operation_0349
-  - term: Sequence database search
-    uri: http://edamontology.org/operation_0338
-  output:
-  - data:
-      term: Nucleic acid report
-      uri: http://edamontology.org/data_2084
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Nucleic acid sequence
+          uri: http://edamontology.org/data_2977
+        format:
+          - term: BLAST results
+            uri: http://edamontology.org/format_1333
+          - term: FASTA-like (text)
+            uri: http://edamontology.org/format_2200
+    note: null
+    operation:
+      - term: Sequence database search (by property)
+        uri: http://edamontology.org/operation_0349
+      - term: Sequence database search
+        uri: http://edamontology.org/operation_0338
+    output:
+      - data:
+          term: Nucleic acid report
+          uri: http://edamontology.org/data_2084
+        format: []
 homepage: http://iresite.org/
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2019-02-15T10:23:57Z'
 license: null
 link: []
 maturity: Mature
 name: IRESite
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-CZ
 publication:
-- doi: 10.1093/nar/gkp981
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkp981
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: RNA
-  uri: http://edamontology.org/topic_0099
-- term: Structural biology
-  uri: http://edamontology.org/topic_1317
-- term: Sequence sites, features and motifs
-  uri: http://edamontology.org/topic_0160
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Structural biology
+    uri: http://edamontology.org/topic_1317
+  - term: Sequence sites, features and motifs
+    uri: http://edamontology.org/topic_0160
 validated: 0
 version: []

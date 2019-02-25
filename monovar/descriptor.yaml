@@ -3,83 +3,83 @@ additionDate: '2017-08-20T15:58:05Z'
 biotoolsCURIE: biotools:monovar
 biotoolsID: monovar
 collectionID:
-- Animal and Crop Genomics
+  - Animal and Crop Genomics
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://bitbucket.org/hamimzafar/
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://bitbucket.org/hamimzafar/
 description: single nucleotide variant (SNV) detection and genotyping algorithm for
   single-cell DNA sequencing data. It takes a list of bam files as input and outputs
   a vcf file containing the detected SNVs.
 documentation:
-- note: null
-  type: General
-  url: https://bitbucket.org/hamimzafar/monovar
+  - note: null
+    type: General
+    url: https://bitbucket.org/hamimzafar/monovar
 download: []
 editPermission:
   authors:
-  - animalandcropgenomics
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: SNP detection
-    uri: http://edamontology.org/operation_0484
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: SNP detection
+        uri: http://edamontology.org/operation_0484
+    output: []
 homepage: https://bitbucket.org/hamimzafar/monovar
 homepage_status: 0
 language:
-- Python
+  - Python
 lastUpdate: '2019-01-29T12:02:10Z'
 license: Unlicensed
 link: []
 maturity: null
 name: Monovar
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: 10.1038/nmeth.3835
-  metadata:
-    abstract: © 2016 Nature America, Inc. Current variant callers are not suitable
-      for single-cell DNA sequencing, as they do not account for allelic dropout,
-      false-positive errors and coverage nonuniformity. We developed Monovar (https://bitbucket.org/hamimzafar/monovar),
-      a statistical method for detecting and genotyping single-nucleotide variants
-      in single-cell data. Monovar exhibited superior performance over standard algorithms
-      on benchmarks and in identifying driver mutations and delineating clonal substructure
-      in three different human tumor data sets.
-    authors:
-    - name: Zafar H.
-    - name: Wang Y.
-    - name: Nakhleh L.
-    - name: Navin N.
-    - name: Chen K.
-    citationCount: 23
-    date: '2016-06-01T00:00:00Z'
-    journal: Nature Methods
-    title: 'Monovar: Single-nucleotide variant detection in single cells'
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1038/nmeth.3835
+    metadata:
+      abstract: "\xA9 2016 Nature America, Inc. Current variant callers are not suitable\
+        \ for single-cell DNA sequencing, as they do not account for allelic dropout,\
+        \ false-positive errors and coverage nonuniformity. We developed Monovar (https://bitbucket.org/hamimzafar/monovar),\
+        \ a statistical method for detecting and genotyping single-nucleotide variants\
+        \ in single-cell data. Monovar exhibited superior performance over standard\
+        \ algorithms on benchmarks and in identifying driver mutations and delineating\
+        \ clonal substructure in three different human tumor data sets."
+      authors:
+        - name: Zafar H.
+        - name: Wang Y.
+        - name: Nakhleh L.
+        - name: Navin N.
+        - name: Chen K.
+      citationCount: 23
+      date: '2016-06-01T00:00:00Z'
+      journal: Nature Methods
+      title: 'Monovar: Single-nucleotide variant detection in single cells'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
-- term: Genetic variation
-  uri: http://edamontology.org/topic_0199
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
 validated: 1
 version: []

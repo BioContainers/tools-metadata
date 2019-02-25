@@ -3,51 +3,51 @@ additionDate: '2015-01-29T15:44:15Z'
 biotoolsCURIE: biotools:chembl_blast_search
 biotoolsID: chembl_blast_search
 collectionID:
-- ChEMBL Tools
-- ChEMBL
-- EBI Tools
+  - ChEMBL Tools
+  - ChEMBL
+  - EBI Tools
 cost: null
 credit:
-- email: null
-  name: ChEMBL Team
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: EMBL-EBI
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: chembl-help@ebi.ac.uk
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: mdavies@ebi.ac.uk
-  name: Mark Davies
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: ChEMBL Team
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: EMBL-EBI
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: chembl-help@ebi.ac.uk
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: mdavies@ebi.ac.uk
+    name: Mark Davies
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: BLAST search against protein targets stored in ChEMBL database.
 documentation:
-- note: null
-  type: Terms of use
-  url: http://www.ebi.ac.uk/about/terms-of-use
-- note: null
-  type: General
-  url: https://www.ebi.ac.uk/chembl/target
+  - note: null
+    type: Terms of use
+    url: http://www.ebi.ac.uk/about/terms-of-use
+  - note: null
+    type: General
+    url: https://www.ebi.ac.uk/chembl/target
 download: []
 editPermission:
   authors: []
@@ -56,23 +56,23 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Protein sequence
-      uri: http://edamontology.org/data_2976
-    format:
-    - term: FASTA
-      uri: http://edamontology.org/format_1929
-  note: null
-  operation:
-  - term: Sequence similarity search
-    uri: http://edamontology.org/operation_0346
-  output:
-  - data:
-      term: Small molecule report
-      uri: http://edamontology.org/data_0962
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Protein sequence
+          uri: http://edamontology.org/data_2976
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+    note: null
+    operation:
+      - term: Sequence similarity search
+        uri: http://edamontology.org/operation_0346
+    output:
+      - data:
+          term: Small molecule report
+          uri: http://edamontology.org/data_0962
+        format: []
 homepage: https://www.ebi.ac.uk/chembl/target
 homepage_status: 0
 language: []
@@ -82,27 +82,27 @@ link: []
 maturity: null
 name: ChEMBL BLAST Search
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: EMBL-EBI
 publication:
-- doi: 10.1093/nar/gkw1074
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkw1074
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
-- term: Small molecules
-  uri: http://edamontology.org/topic_0154
-- term: Cheminformatics
-  uri: http://edamontology.org/topic_2258
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+  - term: Cheminformatics
+    uri: http://edamontology.org/topic_2258
 validated: 0
 version:
-- '1'
+  - '1'

@@ -5,32 +5,32 @@ biotoolsID: hybridcheck
 collectionID: []
 cost: null
 credit:
-- email: b.ward@uea.ac.uk
-  name: Ben J. Ward
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://ward9250.github.io/HybridCheck/contact.html
-- email: C.Van-Oosterhout@uea.ac.uk
-  name: Dr. Cock van Oosterhout
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://ward9250.github.io/HybridCheck/contact.html
+  - email: b.ward@uea.ac.uk
+    name: Ben J. Ward
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://ward9250.github.io/HybridCheck/contact.html
+  - email: C.Van-Oosterhout@uea.ac.uk
+    name: Dr. Cock van Oosterhout
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://ward9250.github.io/HybridCheck/contact.html
 description: Software package to visualise the recombination signal in large DNA sequence
   dataset, and it can be used to analyse recombination, genetic introgression, hybridisation
   and horizontal gene transfer.
 documentation:
-- note: null
-  type: General
-  url: http://ward9250.github.io/HybridCheck/about.html
-- note: null
-  type: Manual
-  url: http://ward9250.github.io/HybridCheck/manual.html
+  - note: null
+    type: General
+    url: http://ward9250.github.io/HybridCheck/about.html
+  - note: null
+    type: Manual
+    url: http://ward9250.github.io/HybridCheck/manual.html
 download: []
 editPermission:
   authors: []
@@ -39,57 +39,57 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence visualisation
-    uri: http://edamontology.org/operation_0564
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Visualisation
-    uri: http://edamontology.org/operation_0337
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence visualisation
+        uri: http://edamontology.org/operation_0564
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Visualisation
+        uri: http://edamontology.org/operation_0337
+    output: []
 homepage: https://github.com/BenJWard/HybridCheck
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-02-14T11:05:27Z'
 license: null
 link:
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/hybridcheck-hybridisation-recombination-and-introgression-detection-and-dating.html
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/hybridcheck-hybridisation-recombination-and-introgression-detection-and-dating.html
 maturity: null
 name: HybridCheck
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: mbs_import
 publication:
-- doi: null
-  metadata: null
-  pmcid: null
-  pmid: '26394708'
-  type: null
-  version: null
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '26394708'
+    type: null
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: Genetics
-  uri: http://edamontology.org/topic_3053
-- term: DNA
-  uri: http://edamontology.org/topic_0654
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
-- term: DNA replication and recombination
-  uri: http://edamontology.org/topic_3127
-- term: Data visualisation
-  uri: http://edamontology.org/topic_0092
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: DNA replication and recombination
+    uri: http://edamontology.org/topic_3127
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
 validated: 0
 version: []

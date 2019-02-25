@@ -1,0 +1,90 @@
+accessibility: []
+additionDate: '2018-07-01T13:15:39Z'
+biotoolsCURIE: biotools:bestsel
+biotoolsID: bestsel
+collectionID: []
+cost: null
+credit:
+- email: kardos@elte.hu
+  name: József Kardos
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: micsonai@ttk.elte.hu
+  name: András Micsonai
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Beta Structure Selection. Novel method for the secondary structure determination
+  and fold recognition from protein circular dichroism spectra.
+documentation:
+- note: null
+  type: Training material
+  url: http://bestsel.elte.hu/BeStSel_tutorial.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Protein fold recognition
+    uri: http://edamontology.org/operation_0303
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Protein secondary structure prediction
+    uri: http://edamontology.org/operation_0267
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Protein secondary structure comparison
+    uri: http://edamontology.org/operation_2488
+  output: []
+homepage: http://bestsel.elte.hu/information.php
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:59Z'
+license: null
+link: []
+maturity: null
+name: BeStSel
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: aotamendi.1
+publication:
+- doi: 10.1093/nar/gky497
+  metadata: null
+  pmcid: null
+  pmid: '29893907'
+  type: null
+  version: null
+toolType:
+- Web application
+topic:
+- term: Structure prediction
+  uri: http://edamontology.org/topic_0082
+- term: Protein folds and structural domains
+  uri: http://edamontology.org/topic_0736
+- term: Protein secondary structure
+  uri: http://edamontology.org/topic_3542
+validated: 1
+version: []

@@ -3,33 +3,33 @@ additionDate: '2018-07-09T23:06:59Z'
 biotoolsCURIE: biotools:metexplore2
 biotoolsID: metexplore2
 collectionID:
-- EBI Training Tools
+  - EBI Training Tools
 cost: null
 credit:
-- email: fabien.jourdan@inra.fr
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: ludovic.cottret@inra.fr
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: metexplore@oulouse.inra.fr
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: fabien.jourdan@inra.fr
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: ludovic.cottret@inra.fr
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: metexplore@oulouse.inra.fr
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Metabolic network curation, network exploration and omics data analysis.
   In particular, it is possible to curate and annotate metabolic networks in a collaborative
   environment.
@@ -42,22 +42,22 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Metabolic network modelling
-    uri: http://edamontology.org/operation_3660
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Pathway or network comparison
-    uri: http://edamontology.org/operation_0277
-  - term: Pathway or network visualisation
-    uri: http://edamontology.org/operation_3083
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Metabolic network modelling
+        uri: http://edamontology.org/operation_3660
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Pathway or network comparison
+        uri: http://edamontology.org/operation_0277
+      - term: Pathway or network visualisation
+        uri: http://edamontology.org/operation_3083
+    output: []
 homepage: http://www.metexplore.fr/
 homepage_status: 0
 language: []
@@ -67,31 +67,31 @@ link: []
 maturity: null
 name: MetExplore2
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1093/nar/gky301
-  metadata: null
-  pmcid: null
-  pmid: '29718355'
-  type: Primary
-  version: null
-- doi: 10.1093/nar/gkq312
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gky301
+    metadata: null
+    pmcid: null
+    pmid: '29718355'
+    type: Primary
+    version: null
+  - doi: 10.1093/nar/gkq312
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
-- term: Metagenomics
-  uri: http://edamontology.org/topic_3174
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Metagenomics
+    uri: http://edamontology.org/topic_3174
 validated: 0
 version:
-- 2.13.25
+  - 2.13.25

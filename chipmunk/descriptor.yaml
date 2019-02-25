@@ -3,24 +3,24 @@ additionDate: '2017-01-13T13:14:00Z'
 biotoolsCURIE: biotools:chipmunk
 biotoolsID: chipmunk
 collectionID:
-- ChIPMunk
+  - ChIPMunk
 cost: null
 credit:
-- email: ivan.kulakovskiy@gmail.com
-  name: Ivan Kulakovskiy
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: ivan.kulakovskiy@gmail.com
+    name: Ivan Kulakovskiy
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: ChIPMunk is a fast heuristic DNA motif digger based a on greedy approach
   accompanied by bootstrapping. ChIPMunk identifies the strong motif with the maximum
   Kullback Discrete Information Content in a given set of DNA sequences.
 documentation:
-- note: null
-  type: General
-  url: http://autosome.ru/ChIPMunk/userguide.pdf
+  - note: null
+    type: General
+    url: http://autosome.ru/ChIPMunk/userguide.pdf
 download: []
 editPermission:
   authors: []
@@ -29,43 +29,43 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence motif discovery
-    uri: http://edamontology.org/operation_0238
-  - term: Sequence motif comparison
-    uri: http://edamontology.org/operation_0240
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence motif discovery
+        uri: http://edamontology.org/operation_0238
+      - term: Sequence motif comparison
+        uri: http://edamontology.org/operation_0240
+    output: []
 homepage: http://autosome.ru/ChIPMunk/
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2019-02-12T16:56:57Z'
 license: null
 link: []
 maturity: Mature
 name: ChIPMunk
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: seqwiki_import
 publication:
-- doi: null
-  metadata: null
-  pmcid: null
-  pmid: '20067172'
-  type: null
-  version: null
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '20067172'
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: ChIP-seq
-  uri: http://edamontology.org/topic_3169
-- term: Sequence sites, features and motifs
-  uri: http://edamontology.org/topic_0160
+  - term: ChIP-seq
+    uri: http://edamontology.org/topic_3169
+  - term: Sequence sites, features and motifs
+    uri: http://edamontology.org/topic_0160
 validated: 0
 version: []

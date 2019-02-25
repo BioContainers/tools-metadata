@@ -1,0 +1,106 @@
+accessibility: []
+additionDate: '2018-06-04T15:53:37Z'
+biotoolsCURIE: biotools:ntcard
+biotoolsID: ntcard
+collectionID: []
+cost: null
+credit:
+- email: hmohamadi@bcgsc.ca
+  name: Hamid Mohamadi
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: ibirol@bcgsc.ca
+  name: Inanc Birol
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Streaming algorithm for cardinality estimation in genomics data.
+documentation:
+- note: null
+  type: General
+  url: https://github.com/bcgsc/ntCard
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: k-mer counting
+    uri: http://edamontology.org/operation_3472
+  output: []
+homepage: https://github.com/bcgsc/ntCard
+homepage_status: 0
+language:
+- C++
+lastUpdate: '2018-12-10T12:58:59Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: ntCard
+operatingSystem:
+- Linux
+- Mac
+otherID: []
+owner: d.gabrielaitis
+publication:
+- doi: 10.1093/bioinformatics/btw832
+  metadata:
+    abstract: '© The Author 2017. Published by Oxford University Press. Motivation:
+      Many bioinformatics algorithms are designed for the analysis of sequences of
+      some uniform length, conventionally referred to as/c-mers. These include de
+      Bruijn graph assembly methods and sequence alignment tools. An efficient algorithm
+      to enumerate the number of unique/c-mers, or even better, to build a histogram
+      of/c-mer frequencies would be desirable for these tools and their downstream
+      analysis pipelines. Among other applications, estimated frequencies can be used
+      to predict genome sizes, measure sequencing error rates, and tune runtime parameters
+      for analysis tools. However, calculating a/c-mer histogram from large volumes
+      of sequencing data is a challenging task. Results: Here, we present ntCard,
+      a streaming algorithm for estimating the frequencies of/c-mers in genomics datasets.
+      At its core, ntCard uses the ntHash algorithm to efficiently compute hash values
+      for streamed sequences. It then samples the calculated hash values to build
+      a reduced representation multiplicity table describing the sample distribution.
+      Finally, it uses a statistical model to reconstruct the population distribution
+      from the sample distribution. We have compared the performance of ntCard and
+      other cardinality estimation algorithms. We used three datasets of 480 GB, 500
+      GB and 2.4 TB in size, where the first two representing whole genome shotgun
+      sequencing experiments on the human genome and the last one on the white spruce
+      genome. Results show ntCard estimates/c-mer coverage frequencies >15× faster
+      than the state-of-the-art algorithms, using similar amount of memory, and with
+      higher accuracy rates. Thus, our benchmarks demonstrate ntCard as a potentially
+      enabling technology for large-scale genomics applications.'
+    authors:
+    - name: Mohamadi H.
+    - name: Khan H.
+    - name: Birol I.
+    citationCount: 4
+    date: '2017-05-01T00:00:00Z'
+    journal: Bioinformatics
+    title: 'ntCard: A streaming algorithm for cardinality estimation in genomics data'
+  pmcid: null
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Command-line tool
+topic:
+- term: Genomics
+  uri: http://edamontology.org/topic_0622
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+- term: Sequencing
+  uri: http://edamontology.org/topic_3168
+validated: 1
+version: []

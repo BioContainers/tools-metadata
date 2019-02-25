@@ -3,96 +3,97 @@ additionDate: '2017-08-03T18:44:07Z'
 biotoolsCURIE: biotools:gemma_algorithm
 biotoolsID: gemma_algorithm
 collectionID:
-- Animal and Crop Genomics
+  - Animal and Crop Genomics
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://www.xzlab.org/contact.html
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.xzlab.org/contact.html
 description: Test for association in genome-wide association studies (GWAS) using
   a standard linear mixed model to account for population stratification and sample
   structure. It calculates exact Wald or likelihood ratio test statistics and p-values,
   and is computationally efficient for large GWAS.
 documentation:
-- note: null
-  type: Manual
-  url: http://www.xzlab.org/software/GEMMAmanual.pdf
+  - note: null
+    type: Manual
+    url: http://www.xzlab.org/software/GEMMAmanual.pdf
 download:
-- note: null
-  type: Binary package
-  url: https://github.com/genetics-statistics/GEMMA/releases
-  version: null
+  - note: null
+    type: Binary package
+    url: https://github.com/genetics-statistics/GEMMA/releases
+    version: null
 editPermission:
   authors:
-  - animalandcropgenomics
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Nucleic acid sequence analysis
-    uri: http://edamontology.org/operation_2478
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Nucleic acid sequence analysis
+        uri: http://edamontology.org/operation_2478
+    output: []
 homepage: http://www.xzlab.org/software.html
 homepage_status: 0
 language:
-- C++
+  - C++
 lastUpdate: '2019-01-29T12:08:52Z'
 license: GPL-3.0
 link:
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/gemma-0-91-genome-wide-efficient-mixed-model-association.html
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/gemma-0-91-genome-wide-efficient-mixed-model-association.html
 maturity: null
 name: GEMMA
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: mbs_import
 publication:
-- doi: null
-  metadata:
-    abstract: Linear mixed models have attracted considerable attention recently as
-      a powerful and effective tool for accounting for population stratification and
-      relatedness in genetic association tests. However, existing methods for exact
-      computation of standard test statistics are computationally impractical for
-      even moderate-sized genome-wide association studies. To address this issue,
-      several approximate methods have been proposed. Here, we present an efficient
-      exact method, which we refer to as genome-wide efficient mixed-model association
-      (GEMMA), that makes approximations unnecessary in many contexts. This method
-      is approximately n times faster than the widely used exact method known as efficient
-      mixed-model association (EMMA), where n is the sample size, making exact genome-wide
-      association analysis computationally practical for large numbers of individuals.
-      © 2012 Nature America, Inc. All rights reserved.
-    authors:
-    - name: Zhou X.
-    - name: Stephens M.
-    citationCount: 551
-    date: '2012-07-01T00:00:00Z'
-    journal: Nature Genetics
-    title: Genome-wide efficient mixed-model analysis for association studies
-  pmcid: null
-  pmid: '22706312'
-  type: null
-  version: null
+  - doi: null
+    metadata:
+      abstract: "Linear mixed models have attracted considerable attention recently\
+        \ as a powerful and effective tool for accounting for population stratification\
+        \ and relatedness in genetic association tests. However, existing methods\
+        \ for exact computation of standard test statistics are computationally impractical\
+        \ for even moderate-sized genome-wide association studies. To address this\
+        \ issue, several approximate methods have been proposed. Here, we present\
+        \ an efficient exact method, which we refer to as genome-wide efficient mixed-model\
+        \ association (GEMMA), that makes approximations unnecessary in many contexts.\
+        \ This method is approximately n times faster than the widely used exact method\
+        \ known as efficient mixed-model association (EMMA), where n is the sample\
+        \ size, making exact genome-wide association analysis computationally practical\
+        \ for large numbers of individuals. \xA9 2012 Nature America, Inc. All rights\
+        \ reserved."
+      authors:
+        - name: Zhou X.
+        - name: Stephens M.
+      citationCount: 551
+      date: '2012-07-01T00:00:00Z'
+      journal: Nature Genetics
+      title: Genome-wide efficient mixed-model analysis for association studies
+    pmcid: null
+    pmid: '22706312'
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Statistics and probability
-  uri: http://edamontology.org/topic_2269
-- term: Genetics
-  uri: http://edamontology.org/topic_3053
-- term: Genotype and phenotype
-  uri: http://edamontology.org/topic_0625
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Genotype and phenotype
+    uri: http://edamontology.org/topic_0625
 validated: 1
 version: []

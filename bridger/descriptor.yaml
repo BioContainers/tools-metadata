@@ -3,17 +3,17 @@ additionDate: '2017-08-20T15:17:35Z'
 biotoolsCURIE: biotools:bridger
 biotoolsID: bridger
 collectionID:
-- Animal and Crop Genomics
+  - Animal and Crop Genomics
 cost: null
 credit:
-- email: xhuang@astate.edu
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: xhuang@astate.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: 'De novo transcriptome assembler for RNA-Seq data. It uses RNA-Seq reads
   as input in fasta or fastq format, outputs all transcripts in fasta format, without
   using a reference genome. It works in two steps: First, Bridger partitions the sequence
@@ -21,52 +21,52 @@ description: 'De novo transcriptome assembler for RNA-Seq data. It uses RNA-Seq 
   complexity at a given gene or no more than a few genes. Then, it uses a rigorous
   mathematical model called minimum path cover to search an optimal set of paths.'
 documentation:
-- note: null
-  type: General
-  url: https://sourceforge.net/projects/rnaseqassembly/
+  - note: null
+    type: General
+    url: https://sourceforge.net/projects/rnaseqassembly/
 download: []
 editPermission:
   authors:
-  - animalandcropgenomics
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Transcriptome assembly
-    uri: http://edamontology.org/operation_3258
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Transcriptome assembly
+        uri: http://edamontology.org/operation_3258
+    output: []
 homepage: https://sourceforge.net/projects/rnaseqassembly/files/?source=navbar
 homepage_status: 0
 language:
-- C++
-- Perl
+  - C++
+  - Perl
 lastUpdate: '2019-01-29T11:58:44Z'
 license: BSL-1.0
 link: []
 maturity: null
 name: Bridger
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: 10.1186/s13059-015-0596-2
-  metadata: null
-  pmcid: PMC4342890
-  pmid: '25723335'
-  type: Primary
-  version: null
+  - doi: 10.1186/s13059-015-0596-2
+    metadata: null
+    pmcid: PMC4342890
+    pmid: '25723335'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Transcriptomics
-  uri: http://edamontology.org/topic_3308
-- term: Sequence assembly
-  uri: http://edamontology.org/topic_0196
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
 validated: 1
 version: []

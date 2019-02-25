@@ -1,0 +1,108 @@
+accessibility: []
+additionDate: '2018-07-10T10:44:44Z'
+biotoolsCURIE: biotools:interest
+biotoolsID: interest
+collectionID:
+- BioConductor
+cost: null
+credit:
+- email: Ali.Oghabian@Helsinki.Fi
+  name: Ali Oghabian
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: Mikko.Frilander@helsinki.fi
+  name: Mikko Frilander
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: This package performs Intron-Exon Retention analysis on RNA-seq data
+  (.bam files).
+documentation:
+- note: null
+  type: Manual
+  url: http://bioconductor.org/packages/release/bioc/manuals/IntEREst/man/IntEREst.pdf
+download:
+- note: null
+  type: Source package
+  url: http://bioconductor.org/packages/release/bioc/src/contrib/IntEREst_1.4.1.tar.gz
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Alignment
+    uri: http://edamontology.org/operation_2928
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Splicing model analysis
+    uri: http://edamontology.org/operation_2499
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Differential protein expression analysis
+    uri: http://edamontology.org/operation_3741
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Standardisation and normalisation
+    uri: http://edamontology.org/operation_3435
+  output: []
+homepage: http://bioconductor.org/packages/release/bioc/html/IntEREst.html
+homepage_status: 0
+language:
+- R
+lastUpdate: '2018-12-10T12:59:00Z'
+license: GPL-2.0
+link:
+- note: null
+  type: Mirror
+  url: http://bioconductor.org/packages/IntEREst/
+- note: null
+  type: Repository
+  url: https://git.bioconductor.org/packages/IntEREst
+maturity: null
+name: IntEREst
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: shadi.m
+publication:
+- doi: 10.1186/s12859-018-2122-5
+  metadata: null
+  pmcid: null
+  pmid: null
+  type: Primary
+  version: null
+toolType:
+- Library
+topic:
+- term: RNA-seq
+  uri: http://edamontology.org/topic_3170
+- term: Sequencing
+  uri: http://edamontology.org/topic_3168
+validated: 1
+version:
+- 1.4.1

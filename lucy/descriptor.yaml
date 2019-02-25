@@ -3,98 +3,98 @@ additionDate: '2017-02-02T14:44:38Z'
 biotoolsCURIE: biotools:lucy
 biotoolsID: lucy
 collectionID:
-- Animal and Crop Genomics
+  - Animal and Crop Genomics
 cost: null
 credit:
-- email: mholmes@tigr.org
-  name: Michael Holmes
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: hhchou@iastate.edu
-  name: Hui-Hsien Chou
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: mholmes@tigr.org
+    name: Michael Holmes
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: hhchou@iastate.edu
+    name: Hui-Hsien Chou
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: A program for DNA sequence quality trimming and vector removal. Its purpose
   is to process DNA sequence data acquired from DNA sequencers to prepare the data
   for downstream processing applications such as genome assembly.
 documentation:
-- note: null
-  type: Other
-  url: http://lucy.sourceforge.net/
+  - note: null
+    type: Other
+    url: http://lucy.sourceforge.net/
 download: []
 editPermission:
   authors:
-  - animalandcropgenomics
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: DNA sequence (raw)
-      uri: http://edamontology.org/data_3497
-    format: []
-  note: null
-  operation:
-  - term: Read pre-processing
-    uri: http://edamontology.org/operation_3219
-  - term: Sequence trimming
-    uri: http://edamontology.org/operation_3192
-  output:
-  - data:
-      term: DNA sequence
-      uri: http://edamontology.org/data_3494
-    format: []
-- cmd: null
-  input:
-  - data:
-      term: DNA sequence (raw)
-      uri: http://edamontology.org/data_3497
-    format: []
-  note: null
-  operation:
-  - term: Sequencing quality control
-    uri: http://edamontology.org/operation_3218
-  output:
-  - data:
-      term: Score
-      uri: http://edamontology.org/data_1772
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: DNA sequence (raw)
+          uri: http://edamontology.org/data_3497
+        format: []
+    note: null
+    operation:
+      - term: Read pre-processing
+        uri: http://edamontology.org/operation_3219
+      - term: Sequence trimming
+        uri: http://edamontology.org/operation_3192
+    output:
+      - data:
+          term: DNA sequence
+          uri: http://edamontology.org/data_3494
+        format: []
+  - cmd: null
+    input:
+      - data:
+          term: DNA sequence (raw)
+          uri: http://edamontology.org/data_3497
+        format: []
+    note: null
+    operation:
+      - term: Sequencing quality control
+        uri: http://edamontology.org/operation_3218
+    output:
+      - data:
+          term: Score
+          uri: http://edamontology.org/data_1772
+        format: []
 homepage: https://sourceforge.net/projects/lucy/
 homepage_status: 0
 language:
-- C
+  - C
 lastUpdate: '2019-01-29T12:07:30Z'
 license: GPL-2.0
 link: []
 maturity: null
 name: Lucy
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: 10.1093/bioinformatics/17.12.1093
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1093/bioinformatics/17.12.1093
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Data quality management
-  uri: http://edamontology.org/topic_3572
+  - term: Data quality management
+    uri: http://edamontology.org/topic_3572
 validated: 1
 version:
-- '1.2'
+  - '1.2'

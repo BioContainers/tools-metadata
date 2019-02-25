@@ -3,130 +3,130 @@ additionDate: '2015-01-21T13:30:04Z'
 biotoolsCURIE: biotools:uniprotkb
 biotoolsID: uniprotkb
 collectionID:
-- UniProt
+  - UniProt
 cost: Free of charge
 credit:
-- email: null
-  name: UniProt Consortium
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole:
-  - Contributor
-  url: http://www.uniprot.org/help/about
-- email: null
-  name: SIB Swiss Institute of Bioinformatics
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: https://www.sib.swiss
-- email: help@uniprot.org
-  name: UniProt Helpdesk
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: UniProt Consortium
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: http://www.uniprot.org/help/about
+  - email: null
+    name: SIB Swiss Institute of Bioinformatics
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: https://www.sib.swiss
+  - email: help@uniprot.org
+    name: UniProt Helpdesk
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: 'The central hub for the collection of functional information on proteins
   with accurate, consistent and rich annotation. It consists of: UniProtKB/Swiss-Prot
   (manually-annotated records and curator-evaluated computational analysis) and UniProtKB/TrEMBL
   (computationally analyzed records awaiting manual annotation).'
 documentation:
-- note: null
-  type: Citation instructions
-  url: http://www.uniprot.org/help/publications
-- note: null
-  type: General
-  url: http://www.uniprot.org/help
+  - note: null
+    type: Citation instructions
+    url: http://www.uniprot.org/help/publications
+  - note: null
+    type: General
+    url: http://www.uniprot.org/help
 download:
-- note: null
-  type: Source code
-  url: http://www.uniprot.org/downloads
-  version: null
-- note: null
-  type: Binaries
-  url: http://www.uniprot.org/downloads
-  version: null
+  - note: null
+    type: Source code
+    url: http://www.uniprot.org/downloads
+    version: null
+  - note: null
+    type: Binaries
+    url: http://www.uniprot.org/downloads
+    version: null
 editPermission:
   authors: []
   type: private
 elixirNode:
-- Switzerland
+  - Switzerland
 elixirPlatform:
-- Data
+  - Data
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Protein function analysis
-    uri: http://edamontology.org/operation_2414
-  - term: Protein domain recognition
-    uri: http://edamontology.org/operation_0246
-  - term: Post-translation modification site prediction
-    uri: http://edamontology.org/operation_0417
-  - term: Protein sequence analysis
-    uri: http://edamontology.org/operation_2479
-  - term: Transmembrane protein analysis
-    uri: http://edamontology.org/operation_0270
-  - term: Gene functional annotation
-    uri: http://edamontology.org/operation_3672
-  - term: Protein structure analysis
-    uri: http://edamontology.org/operation_2406
-  - term: Protein secondary structure analysis
-    uri: http://edamontology.org/operation_2416
-  - term: Protein quaternary structure prediction
-    uri: http://edamontology.org/operation_3350
-  output: []
-- cmd: null
-  input: []
-  note: Query and retrieval of protein-related data
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein function analysis
+        uri: http://edamontology.org/operation_2414
+      - term: Protein domain recognition
+        uri: http://edamontology.org/operation_0246
+      - term: Post-translation modification site prediction
+        uri: http://edamontology.org/operation_0417
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+      - term: Transmembrane protein analysis
+        uri: http://edamontology.org/operation_0270
+      - term: Gene functional annotation
+        uri: http://edamontology.org/operation_3672
+      - term: Protein structure analysis
+        uri: http://edamontology.org/operation_2406
+      - term: Protein secondary structure analysis
+        uri: http://edamontology.org/operation_2416
+      - term: Protein quaternary structure prediction
+        uri: http://edamontology.org/operation_3350
+    output: []
+  - cmd: null
+    input: []
+    note: Query and retrieval of protein-related data
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output: []
 homepage: http://www.uniprot.org/uniprot/
 homepage_status: 0
 language: []
 lastUpdate: '2019-02-17T12:10:48Z'
 license: CC-BY-ND-3.0
 link:
-- note: null
-  type: Repository
-  url: http://www.uniprot.org/downloads
+  - note: null
+    type: Repository
+    url: http://www.uniprot.org/downloads
 maturity: Mature
 name: UniProtKB
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: SIB
 publication:
-- doi: 10.1093/nar/gkt1140
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
-- doi: 10.1093/nar/gku989
-  metadata: null
-  pmcid: PMC4384041
-  pmid: '25348405'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkt1140
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+  - doi: 10.1093/nar/gku989
+    metadata: null
+    pmcid: PMC4384041
+    pmid: '25348405'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
-- term: Proteins
-  uri: http://edamontology.org/topic_0078
-- term: Enzymes
-  uri: http://edamontology.org/topic_0821
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Enzymes
+    uri: http://edamontology.org/topic_0821
 validated: 0
 version: []

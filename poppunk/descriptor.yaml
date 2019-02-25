@@ -5,19 +5,19 @@ biotoolsID: poppunk
 collectionID: []
 cost: Free of charge
 credit: []
-description: Fast k-mer distance estimation enabled by mash to calculate core and
-  accessory distances between all pairs of isolates of bacteria in a collection. By
-  clustering these distances into ‘within-strain’ and ‘between-strain’ distances a
-  network of within-strain comparisons can be constructed.
+description: "Fast k-mer distance estimation enabled by mash to calculate core and\
+  \ accessory distances between all pairs of isolates of bacteria in a collection.\
+  \ By clustering these distances into \u2018within-strain\u2019 and \u2018between-strain\u2019\
+  \ distances a network of within-strain comparisons can be constructed."
 documentation:
-- note: null
-  type: General
-  url: https://poppunk.readthedocs.io/en/latest/
+  - note: null
+    type: General
+    url: https://poppunk.readthedocs.io/en/latest/
 download:
-- note: null
-  type: Source code
-  url: https://github.com/johnlees/PopPUNK
-  version: null
+  - note: null
+    type: Source code
+    url: https://github.com/johnlees/PopPUNK
+    version: null
 editPermission:
   authors: []
   type: private
@@ -25,39 +25,39 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence clustering
-    uri: http://edamontology.org/operation_0291
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence clustering
+        uri: http://edamontology.org/operation_0291
+    output: []
 homepage: https://github.com/johnlees/PopPUNK
 homepage_status: 0
 language:
-- Python
+  - Python
 lastUpdate: '2019-01-30T08:48:28Z'
 license: Apache-2.0
 link: []
 maturity: Mature
 name: PopPUNK
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: mbs_import
 publication:
-- doi: 10.1101/gr.241455.118
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1101/gr.241455.118
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Statistics and probability
-  uri: http://edamontology.org/topic_2269
-- term: Population genetics
-  uri: http://edamontology.org/topic_3056
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+  - term: Population genetics
+    uri: http://edamontology.org/topic_3056
 validated: 1
 version: []

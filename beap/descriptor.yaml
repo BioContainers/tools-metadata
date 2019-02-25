@@ -5,24 +5,25 @@ biotoolsID: beap
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: Con
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://www.animalgenome.org/helpdesk?subj=/bioinfo/tools/beap/index.php
-description: BEAP uses a short starting DNA fragment, often a EST or partial gene
-  segment, as “primer”, to recursively blast nucleotide databases in an attempt to
-  obtain all sequences that overlaps, directly or indirectly, with the “primer” therefore
-  help to “extend” the length of the original sequence for constructing a “full length”
-  sequence for functional analysis, or at least to obtain neighboring regions of the
-  segment for SNP discovery and linkage disequilibrium analysis.
+  - email: null
+    name: Con
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www.animalgenome.org/helpdesk?subj=/bioinfo/tools/beap/index.php
+description: "BEAP uses a short starting DNA fragment, often a EST or partial gene\
+  \ segment, as \u201Cprimer\u201D, to recursively blast nucleotide databases in an\
+  \ attempt to obtain all sequences that overlaps, directly or indirectly, with the\
+  \ \u201Cprimer\u201D therefore help to \u201Cextend\u201D the length of the original\
+  \ sequence for constructing a \u201Cfull length\u201D sequence for functional analysis,\
+  \ or at least to obtain neighboring regions of the segment for SNP discovery and\
+  \ linkage disequilibrium analysis."
 documentation:
-- note: null
-  type: Manual
-  url: https://www.animalgenome.org/bioinfo/tools/beap/userguide.html
+  - note: null
+    type: Manual
+    url: https://www.animalgenome.org/bioinfo/tools/beap/userguide.html
 download: []
 editPermission:
   authors: []
@@ -31,52 +32,52 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Linkage disequilibrium calculation
-    uri: http://edamontology.org/operation_0488
-  - term: SNP detection
-    uri: http://edamontology.org/operation_0484
-  - term: Read mapping
-    uri: http://edamontology.org/operation_3198
-  - term: Sequence alignment
-    uri: http://edamontology.org/operation_0292
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Linkage disequilibrium calculation
+        uri: http://edamontology.org/operation_0488
+      - term: SNP detection
+        uri: http://edamontology.org/operation_0484
+      - term: Read mapping
+        uri: http://edamontology.org/operation_3198
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output: []
 homepage: http://www.animalgenome.org/bioinfo/tools/beap/
 homepage_status: 0
 language:
-- Java
-- Perl
+  - Java
+  - Perl
 lastUpdate: '2019-02-16T11:10:18Z'
 license: null
 link: []
 maturity: null
 name: BEAP
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: seqwiki_import
 publication:
-- doi: null
-  metadata: null
-  pmcid: null
-  pmid: '19159488'
-  type: null
-  version: null
-- doi: 10.1186/1756-0500-2-11
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '19159488'
+    type: null
+    version: null
+  - doi: 10.1186/1756-0500-2-11
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Desktop application
+  - Desktop application
 topic:
-- term: Sequence assembly
-  uri: http://edamontology.org/topic_0196
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
 validated: 0
 version: []

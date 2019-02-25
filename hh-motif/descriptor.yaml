@@ -5,39 +5,39 @@ biotoolsID: hh-motif
 collectionID: []
 cost: null
 credit:
-- email: volkmer@biochem.mpg.de
-  name: Michael Volkmer
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: prytuliak@biochem.mpg.de
-  name: Roman Prytuliak
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: Bianca.HABERMANN@univ-amu.fr
-  name: Bianca Habermann
-  note: null
-  orcidid: http://orcid.org/0000-0002-2457-7504
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: volkmer@biochem.mpg.de
+    name: Michael Volkmer
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: prytuliak@biochem.mpg.de
+    name: Roman Prytuliak
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: Bianca.HABERMANN@univ-amu.fr
+    name: Bianca Habermann
+    note: null
+    orcidid: http://orcid.org/0000-0002-2457-7504
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Protein motif discovery method that combines hidden Markov model (HH-)
   comparisons with a hierarchical representation of identified SLiMs in motif trees.
 documentation:
-- note: null
-  type: General
-  url: http://hh-motif.ibdm.univ-mrs.fr/guide/
-- note: null
-  type: General
-  url: http://hh-motif.ibdm.univ-mrs.fr/about/
+  - note: null
+    type: General
+    url: http://hh-motif.ibdm.univ-mrs.fr/guide/
+  - note: null
+    type: General
+    url: http://hh-motif.ibdm.univ-mrs.fr/about/
 download: []
 editPermission:
   authors: []
@@ -46,27 +46,27 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Ab initio structure prediction
-    uri: http://edamontology.org/operation_0476
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: de Novo sequencing
-    uri: http://edamontology.org/operation_3644
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence motif discovery
-    uri: http://edamontology.org/operation_0238
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Ab initio structure prediction
+        uri: http://edamontology.org/operation_0476
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: de Novo sequencing
+        uri: http://edamontology.org/operation_3644
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence motif discovery
+        uri: http://edamontology.org/operation_0238
+    output: []
 homepage: http://hh-motif.ibdm.univ-mrs.fr/
 homepage_status: 0
 language: []
@@ -76,24 +76,24 @@ link: []
 maturity: null
 name: HH-MOTiF
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1093/NAR/GKX341
-  metadata: null
-  pmcid: PMC5570144
-  pmid: '28460141'
-  type: Primary
-  version: null
+  - doi: 10.1093/NAR/GKX341
+    metadata: null
+    pmcid: PMC5570144
+    pmid: '28460141'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Sequence sites, features and motifs
-  uri: http://edamontology.org/topic_0160
-- term: Protein structural motifs and surfaces
-  uri: http://edamontology.org/topic_0166
+  - term: Sequence sites, features and motifs
+    uri: http://edamontology.org/topic_0160
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
 validated: 1
 version: []

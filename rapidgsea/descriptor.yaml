@@ -5,23 +5,23 @@ biotoolsID: rapidgsea
 collectionID: []
 cost: null
 credit:
-- email: hundt@uni-mainz.de
-  name: Christian Hundt
-  note: null
-  orcidid: http://orcid.org/0000-0002-7995-1858
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-description: 'We present rapidGSEA – a software suite consisting of two tools for
-  facilitating permutation-based gene set enrichment analysis(GSEA): cudaGSEA and
-  ompGSEA. cudaGSEA is a CUDA-accelerated tool using fine-grained parallelization
-  schemes on massively parallel architectures while ompGSEA is a coarse-grained multi-threaded
-  tool for multi-core CPUs.'
+  - email: hundt@uni-mainz.de
+    name: Christian Hundt
+    note: null
+    orcidid: http://orcid.org/0000-0002-7995-1858
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: "We present rapidGSEA \u2013 a software suite consisting of two tools\
+  \ for facilitating permutation-based gene set enrichment analysis(GSEA): cudaGSEA\
+  \ and ompGSEA. cudaGSEA is a CUDA-accelerated tool using fine-grained parallelization\
+  \ schemes on massively parallel architectures while ompGSEA is a coarse-grained\
+  \ multi-threaded tool for multi-core CPUs."
 documentation:
-- note: null
-  type: General
-  url: https://github.com/gravitino/cudaGSEA/blob/master/README.md
+  - note: null
+    type: General
+    url: https://github.com/gravitino/cudaGSEA/blob/master/README.md
 download: []
 editPermission:
   authors: []
@@ -30,44 +30,44 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence analysis
-    uri: http://edamontology.org/operation_2403
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+    output: []
 homepage: https://github.com/gravitino/cudaGSEA
 homepage_status: 0
 language:
-- C++
+  - C++
 lastUpdate: '2019-01-13T17:31:31Z'
 license: Unlicense
 link:
-- note: null
-  type: Issue tracker
-  url: https://github.com/gravitino/cudaGSEA/issues
+  - note: null
+    type: Issue tracker
+    url: https://github.com/gravitino/cudaGSEA/issues
 maturity: null
 name: rapidGSEA
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: daniel_stefan
 publication:
-- doi: 10.1186/s12859-016-1244-x
-  metadata: null
-  pmcid: PMC5035472
-  pmid: '27663265'
-  type: Primary
-  version: null
+  - doi: 10.1186/s12859-016-1244-x
+    metadata: null
+    pmcid: PMC5035472
+    pmid: '27663265'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Gene expression
-  uri: http://edamontology.org/topic_0203
-- term: Statistics and probability
-  uri: http://edamontology.org/topic_2269
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
 validated: 1
 version: []

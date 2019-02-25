@@ -3,81 +3,81 @@ additionDate: '2015-06-11T13:36:34Z'
 biotoolsCURIE: biotools:ensembl
 biotoolsID: ensembl
 collectionID:
-- RD-connect
-- Rare Disease
+  - RD-connect
+  - Rare Disease
 cost: null
 credit:
-- email: null
-  name: EMBL-EBI Databases
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: flicek@ebi.ac.uk
-  name: Paul Flicek
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://www.ensembl.org/info/about/contact/index.html
+  - email: null
+    name: EMBL-EBI Databases
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: flicek@ebi.ac.uk
+    name: Paul Flicek
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.ensembl.org/info/about/contact/index.html
 description: Genome databases for vertebrates genomes.
 documentation:
-- note: null
-  type: General
-  url: http://www.ensembl.org/info/index.html
+  - note: null
+    type: General
+    url: http://www.ensembl.org/info/index.html
 download: []
 editPermission:
   authors:
-  - ELIXIR-EE
+    - ELIXIR-EE
   type: group
 elixirNode:
-- EMBL
+  - EMBL
 elixirPlatform:
-- Data
+  - Data
 elixir_badge: 2
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Deposition
-    uri: http://edamontology.org/operation_3431
-  - term: Service invocation
-    uri: http://edamontology.org/operation_3763
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  - term: Aggregation
-    uri: http://edamontology.org/operation_3436
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Deposition
+        uri: http://edamontology.org/operation_3431
+      - term: Service invocation
+        uri: http://edamontology.org/operation_3763
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+      - term: Aggregation
+        uri: http://edamontology.org/operation_3436
+    output: []
 homepage: http://www.ensembl.org/
 homepage_status: 0
 language:
-- SQL
+  - SQL
 lastUpdate: '2019-02-15T10:24:04Z'
 license: null
 link: []
 maturity: null
 name: Ensembl
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: EMBL-EBI_Databases
 publication:
-- doi: 10.1093/nar/gku1010
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gku1010
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
 validated: 0
 version: []

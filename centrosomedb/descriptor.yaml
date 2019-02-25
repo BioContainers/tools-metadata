@@ -3,36 +3,36 @@ additionDate: '2016-09-01T13:04:28Z'
 biotoolsCURIE: biotools:centrosomedb
 biotoolsID: centrosomedb
 collectionID:
-- INB
-- ELIXIR-ES
-- CNB-CSIC
+  - INB
+  - ELIXIR-ES
+  - CNB-CSIC
 cost: null
 credit:
-- email: null
-  name: cnb.csic.es
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: jsegura@cnb.csic.es
-  name: Joan Segura
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://centrosome.cnb.csic.es
+  - email: null
+    name: cnb.csic.es
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: jsegura@cnb.csic.es
+    name: Joan Segura
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://centrosome.cnb.csic.es
 description: Set of human and fly genes encoding proteins that are localized in the
   centrosome, either as centrosome constituents or as centrosome visitors. Genes have
   been considered as centrosomal on the basis of different kinds of evidences including
   high-throughput proteomics assays, annotations in public databases and orthology
   relationships to centrosomal genes in closely related species (e.g. mouse).
 documentation:
-- note: null
-  type: General
-  url: http://centrosome.cnb.csic.es/human/centrosome/help
+  - note: null
+    type: General
+    url: http://centrosome.cnb.csic.es/human/centrosome/help
 download: []
 editPermission:
   authors: []
@@ -41,21 +41,21 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Ensembl gene ID
-      uri: http://edamontology.org/data_1033
-    format: []
-  - data:
-      term: Gene symbol
-      uri: http://edamontology.org/data_1026
-    format: []
-  note: null
-  operation:
-  - term: Database search
-    uri: http://edamontology.org/operation_2421
-  output: []
+  - cmd: null
+    input:
+      - data:
+          term: Ensembl gene ID
+          uri: http://edamontology.org/data_1033
+        format: []
+      - data:
+          term: Gene symbol
+          uri: http://edamontology.org/data_1026
+        format: []
+    note: null
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+    output: []
 homepage: http://centrosome.cnb.csic.es/human/centrosome
 homepage_status: 0
 language: []
@@ -65,22 +65,22 @@ link: []
 maturity: null
 name: CentrosomeDB
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: jsegura@cnb.csic.es
 publication:
-- doi: 10.1093/nar/gkt1126
-  metadata: null
-  pmcid: PMC3964966
-  pmid: '24270791'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkt1126
+    metadata: null
+    pmcid: PMC3964966
+    pmid: '24270791'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Molecular biology
-  uri: http://edamontology.org/topic_3047
+  - term: Molecular biology
+    uri: http://edamontology.org/topic_3047
 validated: 1
 version: []

@@ -5,38 +5,38 @@ biotoolsID: dorina
 collectionID: []
 cost: Free of charge
 credit:
-- email: null
-  name: Max Delbrück Centre for Molecular Medicine
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: rnateam
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: Altuna.Akalin@mdc-berlin.de
-  name: Altuna Akalin
-  note: null
-  orcidid: http://orcid.org/0000-0002-0468-0117
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://bioinformatics.mdc-berlin.de/team.html#altuna-akalin-phd
+  - email: null
+    name: "Max Delbr\xFCck Centre for Molecular Medicine"
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: rnateam
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: Altuna.Akalin@mdc-berlin.de
+    name: Altuna Akalin
+    note: null
+    orcidid: http://orcid.org/0000-0002-0468-0117
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://bioinformatics.mdc-berlin.de/team.html#altuna-akalin-phd
 description: A database of RNA interactions in post-transcriptional regulation.
 documentation:
-- note: null
-  type: Citation instructions
-  url: http://dorina.mdc-berlin.de/acknowledgements
-- note: null
-  type: General
-  url: http://dorina.mdc-berlin.de/tutorials
+  - note: null
+    type: Citation instructions
+    url: http://dorina.mdc-berlin.de/acknowledgements
+  - note: null
+    type: General
+    url: http://dorina.mdc-berlin.de/tutorials
 download: []
 editPermission:
   authors: []
@@ -45,32 +45,32 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Name
-      uri: http://edamontology.org/data_2099
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-  note: A database framework with short query response times for complex searches
-    (e.g. asking for all targets of a particular combination of regulators). Users
-    are free to take a target (mRNA) or regulator (RBP and/or miRNA) centric view
-    on the data. All search results can be browsed, inspected and analyzed in conjunction
-    with a huge selection of other genome-wide data, because our database is directly
-    linked to a local copy of the UCSC genome browser. At the time of writing, doRiNA
-    encompasses RBP data for the human, mouse and worm genomes. For computational
-    miRNA target site predictions, we provide an update of PicTar predictions.
-  operation:
-  - term: Database search
-    uri: http://edamontology.org/operation_2421
-  output:
-  - data:
-      term: Database search results
-      uri: http://edamontology.org/data_2080
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Name
+          uri: http://edamontology.org/data_2099
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+    note: A database framework with short query response times for complex searches
+      (e.g. asking for all targets of a particular combination of regulators). Users
+      are free to take a target (mRNA) or regulator (RBP and/or miRNA) centric view
+      on the data. All search results can be browsed, inspected and analyzed in conjunction
+      with a huge selection of other genome-wide data, because our database is directly
+      linked to a local copy of the UCSC genome browser. At the time of writing, doRiNA
+      encompasses RBP data for the human, mouse and worm genomes. For computational
+      miRNA target site predictions, we provide an update of PicTar predictions.
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+    output:
+      - data:
+          term: Database search results
+          uri: http://edamontology.org/data_2080
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
 homepage: http://dorina.mdc-berlin.de/
 homepage_status: 0
 language: []
@@ -80,22 +80,22 @@ link: []
 maturity: null
 name: doRiNA
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: rnateam
 publication:
-- doi: 10.1093/nar/gku1180
-  metadata: null
-  pmcid: PMC4383974
-  pmid: '25416797'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gku1180
+    metadata: null
+    pmcid: PMC4383974
+    pmid: '25416797'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Bioinformatics
-  uri: http://edamontology.org/topic_0091
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
 validated: 1
 version: []

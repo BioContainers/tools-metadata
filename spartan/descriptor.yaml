@@ -5,14 +5,14 @@ biotoolsID: spartan
 collectionID: []
 cost: null
 credit:
-- email: kieran.alden@gmail.com
-  name: Kieran Alden
-  note: null
-  orcidid: http://orcid.org/0000-0003-4411-1776
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: kieran.alden@gmail.com
+    name: Kieran Alden
+    note: null
+    orcidid: http://orcid.org/0000-0003-4411-1776
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Simulation Parameter Analysis R Toolkit ApplicatioN. Statistical techniques
   specifically designed to understand integration of computer simulation with wet-lab
   research and provide novel biological insight.
@@ -25,46 +25,46 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Standardisation and normalisation
-    uri: http://edamontology.org/operation_3435
-  - term: Enrichment analysis
-    uri: http://edamontology.org/operation_3501
-  - term: Modelling and simulation
-    uri: http://edamontology.org/operation_2426
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Standardisation and normalisation
+        uri: http://edamontology.org/operation_3435
+      - term: Enrichment analysis
+        uri: http://edamontology.org/operation_3501
+      - term: Modelling and simulation
+        uri: http://edamontology.org/operation_2426
+    output: []
 homepage: https://www.york.ac.uk/computational-immunology/software/spartan/
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-01-15T02:42:47Z'
 license: GPL-2.0
 link: []
 maturity: null
 name: SPARTAN
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1371/ANNOTATION/CFCAFFB6-8515-4595-B6CC-85B84703D7D5
-  metadata: null
-  pmcid: PMC3779260
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1371/ANNOTATION/CFCAFFB6-8515-4595-B6CC-85B84703D7D5
+    metadata: null
+    pmcid: PMC3779260
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
-- term: Systems biology
-  uri: http://edamontology.org/topic_2259
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
 validated: 1
 version:
-- '3.0'
+  - '3.0'

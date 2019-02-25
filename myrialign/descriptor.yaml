@@ -1,0 +1,63 @@
+accessibility: []
+additionDate: '2017-01-13T13:15:37Z'
+biotoolsCURIE: biotools:myrialign
+biotoolsID: myrialign
+collectionID: []
+cost: null
+credit:
+- email: null
+  name: Paul Harrison
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: http://savannah.nongnu.org/users/pfh
+description: 'Software to align short reads produced by a short read genome sequencer
+  to a reference genome. It performs brute force alignment using a variant on the
+  "bitap" algorithm that aligns several thousand reads to a reference in parallel.
+  It uses bit-parallelism, multiple processors, and Cell SPUs if available.
+
+  It will find alignments with any number of errors up to a user specified cutoff.
+  The emphasis is on doing a 100% accurate search as fast as is possible.'
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Sequence alignment
+    uri: http://edamontology.org/operation_0292
+  - term: Read mapping
+    uri: http://edamontology.org/operation_3198
+  output: []
+homepage: http://savannah.nongnu.org/projects/myrialign
+homepage_status: 0
+language:
+- Python
+lastUpdate: '2018-12-10T12:58:59Z'
+license: null
+link: []
+maturity: Legacy
+name: Myrialign
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: seqwiki_import
+publication: []
+toolType:
+- Command-line tool
+topic:
+- term: Mapping
+  uri: http://edamontology.org/topic_0102
+validated: 1
+version: []

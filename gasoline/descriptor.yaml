@@ -3,30 +3,30 @@ additionDate: '2018-09-04T09:39:59Z'
 biotoolsCURIE: biotools:gasoline
 biotoolsID: gasoline
 collectionID:
-- Cytoscape
+  - Cytoscape
 cost: null
 credit:
-- email: gmicale@dmi.unict.it
-  name: Giovanni Micale
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://github.com/GMicale/GASOLINE/issues
+  - email: gmicale@dmi.unict.it
+    name: Giovanni Micale
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/GMicale/GASOLINE/issues
 description: Multiple local alignments of PPI (protein-protein interaction) networks.
   It is based on the homonymous greedy and stochastic algorithm. It  starts with the
   identification of sets of similar nodes, called seeds of the alignment and then
   alignments are then extended in a greedy manner and finally refined.
 documentation:
-- note: null
-  type: General
-  url: https://alpha.dmi.unict.it/~gmicale/gasoline/Files/Documentation_GASOLINE.pdf
+  - note: null
+    type: General
+    url: https://alpha.dmi.unict.it/~gmicale/gasoline/Files/Documentation_GASOLINE.pdf
 download:
-- note: null
-  type: Biological data
-  url: https://alpha.dmi.unict.it/~gmicale/gasoline/#download
-  version: null
+  - note: null
+    type: Biological data
+    url: https://alpha.dmi.unict.it/~gmicale/gasoline/#download
+    version: null
 editPermission:
   authors: []
   type: private
@@ -34,47 +34,47 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Local alignment
-    uri: http://edamontology.org/operation_0495
-  - term: Pathway or network comparison
-    uri: http://edamontology.org/operation_0277
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Local alignment
+        uri: http://edamontology.org/operation_0495
+      - term: Pathway or network comparison
+        uri: http://edamontology.org/operation_0277
+    output: []
 homepage: https://github.com/GMicale/GASOLINE
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2019-01-10T15:40:58Z'
 license: null
 link:
-- note: Cytoscape AppStore
-  type: Repository
-  url: http://apps.cytoscape.org/apps/gasoline
+  - note: Cytoscape AppStore
+    type: Repository
+    url: http://apps.cytoscape.org/apps/gasoline
 maturity: null
 name: GASOLINE
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.12688/F1000RESEARCH.4537.2
-  metadata: null
-  pmcid: PMC4197741
-  pmid: '25324964'
-  type: Primary
-  version: null
+  - doi: 10.12688/F1000RESEARCH.4537.2
+    metadata: null
+    pmcid: PMC4197741
+    pmid: '25324964'
+    type: Primary
+    version: null
 toolType:
-- Plug-in
+  - Plug-in
 topic:
-- term: Protein interactions
-  uri: http://edamontology.org/topic_0128
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
 validated: 1
 version:
-- '2.0'
+  - '2.0'

@@ -5,53 +5,53 @@ biotoolsID: virusmentha
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: Alberto Calderone
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: Molecular Genetic Group, University of Rome "Tor Vergata", Rome, Italy
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: ELIXIR-ITA-TORVERGATA
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: sinnefa@gmail.com
-  name: Alberto Calderone
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: luana.licata@gmail.com
-  name: Luana Licata
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: Alberto Calderone
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Molecular Genetic Group, University of Rome "Tor Vergata", Rome, Italy
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: ELIXIR-ITA-TORVERGATA
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: sinnefa@gmail.com
+    name: Alberto Calderone
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: luana.licata@gmail.com
+    name: Luana Licata
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: This tool archives evidence about viral interactions collected from different
   manually curated protein-protein interaction databases that have adhered to the
   IMEx consortium.
 documentation:
-- note: null
-  type: General
-  url: http://virusmentha.uniroma2.it/about.php#userguide
+  - note: null
+    type: General
+    url: http://virusmentha.uniroma2.it/about.php#userguide
 download: []
 editPermission:
   authors: []
@@ -60,21 +60,21 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: Protein interactions
-  operation:
-  - term: Database search
-    uri: http://edamontology.org/operation_2421
-  - term: Pathway or network visualisation
-    uri: http://edamontology.org/operation_3083
-  output:
-  - data:
-      term: Protein interaction data
-      uri: http://edamontology.org/data_0906
-    format:
-    - term: PSI MI XML (MIF)
-      uri: http://edamontology.org/format_3158
+  - cmd: null
+    input: []
+    note: Protein interactions
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+      - term: Pathway or network visualisation
+        uri: http://edamontology.org/operation_3083
+    output:
+      - data:
+          term: Protein interaction data
+          uri: http://edamontology.org/data_0906
+        format:
+          - term: PSI MI XML (MIF)
+            uri: http://edamontology.org/format_3158
 homepage: http://virusmentha.uniroma2.it/
 homepage_status: 0
 language: []
@@ -84,25 +84,25 @@ link: []
 maturity: null
 name: VirusMentha
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-ITA-TORVERGATA
 publication:
-- doi: 10.1093/nar/gku830
-  metadata: null
-  pmcid: PMC4384001
-  pmid: '25217587'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gku830
+    metadata: null
+    pmcid: PMC4384001
+    pmid: '25217587'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Protein interactions
-  uri: http://edamontology.org/topic_0128
-- term: Virology
-  uri: http://edamontology.org/topic_0781
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+  - term: Virology
+    uri: http://edamontology.org/topic_0781
 validated: 1
 version:
-- '1'
+  - '1'

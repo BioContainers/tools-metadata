@@ -1,0 +1,104 @@
+accessibility: []
+additionDate: '2018-06-26T17:13:01Z'
+biotoolsCURIE: biotools:jaspar_restful_api
+biotoolsID: jaspar_restful_api
+collectionID: []
+cost: null
+credit:
+- email: anthony.mathelier@ncmm.uio.no
+  name: Anthony Mathelier
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: aziz.khan@ncmm.uio.no
+  name: Aziz Khan
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Widely used open-access database of curated, non-redundant transcription
+  factor binding profiles. Currently, data from JASPAR can be retrieved as flat files
+  or by using programming language-specific interfaces. Here, we present a programming
+  language-independent application programming interface (API) to access JASPAR data
+  using the Representational State Transfer (REST) architecture.
+documentation:
+- note: null
+  type: General
+  url: http://jaspar.genereg.net/api/v1/docs/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Query and retrieval
+    uri: http://edamontology.org/operation_0224
+  output: []
+homepage: http://jaspar.genereg.net/api/
+homepage_status: 0
+language:
+- Python
+lastUpdate: '2018-12-10T12:58:59Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: JASPAR RESTful API
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: d.gabrielaitis
+publication:
+- doi: 10.1093/bioinformatics/btx804
+  metadata:
+    abstract: '© The Author(s) 2017. Published by Oxford University Press. All rights
+      reserved. For Permissions, please e-mail: journals.permissions@oup.com. JASPAR
+      is a widely used open-access database of curated, non-redundant transcription
+      factor binding profiles. Currently, data from JASPAR can be retrieved as flat
+      files or by using programming language-specific interfaces. Here, we present
+      a programming language-independent application programming interface (API) to
+      access JASPAR data using the Representational State Transfer (REST) architecture.
+      The REST API enables programmatic access to JASPAR by most programming languages
+      and returns data in eight widely used formats. Several endpoints are available
+      to access the data and an endpoint is available to infer the TF binding profile(s)
+      likely bound by a given DNA binding domain protein sequence. Additionally, it
+      provides an interactive browsable interface for bioinformatics tool developers.
+      Availability and implementation This REST API is implemented in Python using
+      the Django REST Framework. It is accessible at http://jaspar.genereg.net/api/
+      and the source code is freely available at https://bitbucket.org/CBGR/jaspar
+      under GPL v3 license. Contact aziz.khan@ncmm.uio.no or anthony.mathelier@ncmm.uio.no
+      Supplementary informationSupplementary dataare available at Bioinformatics online.'
+    authors:
+    - name: Khan A.
+    - name: Mathelier A.
+    citationCount: 0
+    date: '2018-05-01T00:00:00Z'
+    journal: Bioinformatics
+    title: 'JASPAR RESTful API: Accessing JASPAR data from any programming language'
+  pmcid: null
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Web API
+topic:
+- term: Data acquisition
+  uri: http://edamontology.org/topic_3077
+- term: DNA
+  uri: http://edamontology.org/topic_0654
+- term: Protein interactions
+  uri: http://edamontology.org/topic_0128
+validated: 0
+version: []

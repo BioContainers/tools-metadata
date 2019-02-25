@@ -1,0 +1,104 @@
+accessibility: []
+additionDate: '2018-07-04T15:58:15Z'
+biotoolsCURIE: biotools:guidescan
+biotoolsID: guidescan
+collectionID: []
+cost: null
+credit:
+- email: cleslie@cbio.mskcc.org
+  name: Christina Leslie
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: venturaa@mskcc.org
+  name: Andrea Ventura
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: guidescan2017@gmail.com
+  name: Developers
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: A generalized CRISPR guideRNA design tool.
+documentation:
+- note: null
+  type: General
+  url: http://www.guidescan.com/help
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Nucleic acid design
+    uri: http://edamontology.org/operation_3095
+  output: []
+homepage: http://www.guidescan.com/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:59Z'
+license: null
+link: []
+maturity: null
+name: GuideScan
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: d.gabrielaitis
+publication:
+- doi: 10.1038/nbt.3804
+  metadata:
+    abstract: © 2017 Nature America, Inc., part of Springer Nature. All rights reserved.We
+      present GuideScan software for the design of CRISPR guide RNA libraries that
+      can be used to edit coding and noncoding genomic regions. GuideScan produces
+      high-density sets of guide RNAs (gRNAs) for single- A nd paired-gRNA genome-wide
+      screens. We also show that the trie data structure of GuideScan enables the
+      design of gRNAs that are more specific than those designed by existing tools.
+    authors:
+    - name: Perez A.R.
+    - name: Pritykin Y.
+    - name: Vidigal J.A.
+    - name: Chhangawala S.
+    - name: Zamparo L.
+    - name: Leslie C.S.
+    - name: Ventura A.
+    citationCount: 18
+    date: '2017-04-01T00:00:00Z'
+    journal: Nature Biotechnology
+    title: GuideScan software for improved single and paired CRISPR guide RNA design
+  pmcid: null
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Web application
+topic:
+- term: RNA
+  uri: http://edamontology.org/topic_0099
+- term: Synthetic chemistry
+  uri: http://edamontology.org/topic_3371
+- term: Biotechnology
+  uri: http://edamontology.org/topic_3297
+- term: Functional genomics
+  uri: http://edamontology.org/topic_0085
+validated: 1
+version:
+- '1.0'

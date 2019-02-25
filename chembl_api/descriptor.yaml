@@ -3,40 +3,40 @@ additionDate: '2015-08-03T09:35:32Z'
 biotoolsCURIE: biotools:chembl_api
 biotoolsID: chembl_api
 collectionID:
-- ChEMBL
+  - ChEMBL
 cost: null
 credit:
-- email: null
-  name: BioCatalogue
-  note: null
-  orcidid: null
-  typeEntity: Project
-  typeRole:
-  - Documentor
-  url: https://www.biocatalogue.org
-- email: chembl-help@ebi.ac.uk
-  name: ChEMBL Help
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: jpo@md.catapult.org.uk
-  name: John P. Overington
-  note: null
-  orcidid: http://orcid.org/0000-0002-5859-1064
-  typeEntity: Person
-  typeRole:
-  - Contributor
-  url: null
+  - email: null
+    name: BioCatalogue
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: https://www.biocatalogue.org
+  - email: chembl-help@ebi.ac.uk
+    name: ChEMBL Help
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: jpo@md.catapult.org.uk
+    name: John P. Overington
+    note: null
+    orcidid: http://orcid.org/0000-0002-5859-1064
+    typeEntity: Person
+    typeRole:
+      - Contributor
+    url: null
 description: Web service API that provides the functionality to support programmatic
   retrieval of ChEMBLdb (https://www.ebi.ac.uk/chembldb/) compound, target, assay,
   and bioactivity data (binding constants, pharmacology and ADMET, etc).
 documentation:
-- note: null
-  type: General
-  url: https://www.ebi.ac.uk/chembldb/index.php/ws/
+  - note: null
+    type: General
+    url: https://www.ebi.ac.uk/chembldb/index.php/ws/
 download: []
 editPermission:
   authors: []
@@ -45,64 +45,64 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Compound ID (ChEMBL)
-      uri: http://edamontology.org/data_2646
-    format: []
-  note: 'Data retrieval from ChEMBL compound database at EBI (European Bioinformatics
-    Institute, United Kingdom) Identifier for records of ChEMBL compound, following
-    the regular expression: ^CHEMBL\d+$.'
-  operation:
-  - term: Data retrieval
-    uri: http://edamontology.org/operation_2422
-  output:
-  - data:
-      term: Small molecule report
-      uri: http://edamontology.org/data_0962
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Compound ID (ChEMBL)
+          uri: http://edamontology.org/data_2646
+        format: []
+    note: 'Data retrieval from ChEMBL compound database at EBI (European Bioinformatics
+      Institute, United Kingdom) Identifier for records of ChEMBL compound, following
+      the regular expression: ^CHEMBL\d+$.'
+    operation:
+      - term: Data retrieval
+        uri: http://edamontology.org/operation_2422
+    output:
+      - data:
+          term: Small molecule report
+          uri: http://edamontology.org/data_0962
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
 homepage: https://www.ebi.ac.uk/chembldb/index.php/ws/
 homepage_status: 0
 language: []
 lastUpdate: '2019-02-13T13:28:11Z'
 license: null
 link:
-- note: https://github.com/egonw/chembl.rdf
-  type: Registry
-  url: https://www.biocatalogue.org/services/2797
+  - note: https://github.com/egonw/chembl.rdf
+    type: Registry
+    url: https://www.biocatalogue.org/services/2797
 maturity: null
 name: ChEMBL RESTful Web Service
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: BioCatalogue
 publication:
-- doi: 10.1007/s10822-009-9260-9
-  metadata: null
-  pmcid: null
-  pmid: '19194660'
-  type: Primary
-  version: null
-- doi: 10.1093/nar/gkv1352
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Other
-  version: null
+  - doi: 10.1007/s10822-009-9260-9
+    metadata: null
+    pmcid: null
+    pmid: '19194660'
+    type: Primary
+    version: null
+  - doi: 10.1093/nar/gkv1352
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
 toolType:
-- Web API
+  - Web API
 topic:
-- term: Cheminformatics
-  uri: http://edamontology.org/topic_2258
-- term: Data management
-  uri: http://edamontology.org/topic_3071
-- term: Small molecules
-  uri: http://edamontology.org/topic_0154
+  - term: Cheminformatics
+    uri: http://edamontology.org/topic_2258
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
 validated: 0
 version:
-- '1'
+  - '1'

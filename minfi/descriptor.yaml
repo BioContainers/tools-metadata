@@ -3,27 +3,27 @@ additionDate: '2017-01-17T15:01:31Z'
 biotoolsCURIE: biotools:minfi
 biotoolsID: minfi
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: kasperdanielhansen@gmail.com
-  name: Kasper Daniel Hansen
-  note: null
-  orcidid: http://orcid.org/0000-0003-0086-0687
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: kasperdanielhansen@gmail.com
+    name: Kasper Daniel Hansen
+    note: null
+    orcidid: http://orcid.org/0000-0003-0086-0687
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Tools to analyze & visualize Illumina Infinium methylation arrays.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/minfi.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/minfi.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/minfi_1.20.2.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/minfi_1.20.2.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -31,53 +31,53 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Analysis
-    uri: http://edamontology.org/operation_2945
-  - term: Visualisation
-    uri: http://edamontology.org/operation_0337
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Analysis
+        uri: http://edamontology.org/operation_2945
+      - term: Visualisation
+        uri: http://edamontology.org/operation_0337
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/minfi.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-01-13T18:25:45Z'
 license: Artistic-2.0
 link:
-- note: null
-  type: Mirror
-  url: https://github.com/kasperdanielhansen/minfi
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/minfi-1-10-2-analyze-illuminas-450k-methylation-arrays.html
+  - note: null
+    type: Mirror
+    url: https://github.com/kasperdanielhansen/minfi
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/minfi-1-10-2-analyze-illuminas-450k-methylation-arrays.html
 maturity: null
 name: minfi
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1093/bioinformatics/btw691
-  metadata: null
-  pmcid: PMC5408810
-  pmid: '28035024'
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/btw691
+    metadata: null
+    pmcid: PMC5408810
+    pmid: '28035024'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: Epigenetics
-  uri: http://edamontology.org/topic_3295
-- term: Microarray experiment
-  uri: http://edamontology.org/topic_3518
-- term: DNA
-  uri: http://edamontology.org/topic_0654
+  - term: Epigenetics
+    uri: http://edamontology.org/topic_3295
+  - term: Microarray experiment
+    uri: http://edamontology.org/topic_3518
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
 validated: 1
 version:
-- 1.20.2
+  - 1.20.2

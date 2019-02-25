@@ -5,30 +5,30 @@ biotoolsID: hamap
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: SIB Swiss Institute of Bioinformatics
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: hamap@expasy.org
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://hamap.expasy.org
-- email: null
-  name: Alan Bridge
-  note: null
-  orcidid: http://orcid.org/0000-0003-2148-9135
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: SIB Swiss Institute of Bioinformatics
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: hamap@expasy.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://hamap.expasy.org
+  - email: null
+    name: Alan Bridge
+    note: null
+    orcidid: http://orcid.org/0000-0003-2148-9135
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: A system for the classification and annotation of protein sequences.
   It consists of a collection of manually curated family profiles for protein classification,
   and associated, manually created annotation rules that specify annotations that
@@ -36,70 +36,70 @@ description: A system for the classification and annotation of protein sequences
   proteins and used to annotate records in UniProtKB via UniProt's automatic annotation
   pipeline.
 documentation:
-- note: null
-  type: General
-  url: https://hamap.expasy.org/hamap_doc.html
+  - note: null
+    type: General
+    url: https://hamap.expasy.org/hamap_doc.html
 download: []
 editPermission:
   authors: []
   type: private
 elixirNode:
-- Switzerland
+  - Switzerland
 elixirPlatform:
-- Tools
+  - Tools
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Protein sequence (raw)
-      uri: http://edamontology.org/data_2974
-    format:
-    - term: UniProtKB format
-      uri: http://edamontology.org/format_1963
-  note: Protein family classification and annotation
-  operation:
-  - term: Sequence classification
-    uri: http://edamontology.org/operation_2995
-  - term: Sequence annotation
-    uri: http://edamontology.org/operation_0361
-  - term: Sequence database search
-    uri: http://edamontology.org/operation_0338
-  output: []
+  - cmd: null
+    input:
+      - data:
+          term: Protein sequence (raw)
+          uri: http://edamontology.org/data_2974
+        format:
+          - term: UniProtKB format
+            uri: http://edamontology.org/format_1963
+    note: Protein family classification and annotation
+    operation:
+      - term: Sequence classification
+        uri: http://edamontology.org/operation_2995
+      - term: Sequence annotation
+        uri: http://edamontology.org/operation_0361
+      - term: Sequence database search
+        uri: http://edamontology.org/operation_0338
+    output: []
 homepage: http://hamap.expasy.org
 homepage_status: 0
 language: []
 lastUpdate: '2019-02-15T10:23:59Z'
 license: null
 link:
-- note: null
-  type: Registry
-  url: http://expasy.org/
+  - note: null
+    type: Registry
+    url: http://expasy.org/
 maturity: Mature
 name: HAMAP
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: SIB
 publication:
-- doi: 10.1093/nar/gku1002
-  metadata: null
-  pmcid: PMC4383873
-  pmid: '25348399'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gku1002
+    metadata: null
+    pmcid: PMC4383873
+    pmid: '25348399'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Microbiology
-  uri: http://edamontology.org/topic_3301
-- term: Gene and protein families
-  uri: http://edamontology.org/topic_0623
-- term: Bioinformatics
-  uri: http://edamontology.org/topic_0091
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
+  - term: Microbiology
+    uri: http://edamontology.org/topic_3301
+  - term: Gene and protein families
+    uri: http://edamontology.org/topic_0623
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
 validated: 1
 version: []

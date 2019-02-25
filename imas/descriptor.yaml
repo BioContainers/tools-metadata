@@ -1,0 +1,95 @@
+accessibility: []
+additionDate: '2018-07-09T18:00:38Z'
+biotoolsCURIE: biotools:imas
+biotoolsID: imas
+collectionID:
+- BioConductor
+cost: null
+credit:
+- email: hangost@ssu.ac.kr
+  name: Seonggyun Han
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Integrative analysis of Multi-omics data for Alternative splicing.
+documentation:
+- note: null
+  type: Manual
+  url: http://bioconductor.org/packages/release/bioc/manuals/IMAS/man/IMAS.pdf
+download:
+- note: null
+  type: Source package
+  url: http://bioconductor.org/packages/release/bioc/src/contrib/IMAS_1.4.0.tar.gz
+  version: null
+- note: null
+  type: Source code
+  url: http://bioconductor.org/packages/release/bioc/vignettes/IMAS/inst/doc/IMAS.pdf
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Differential gene expression analysis
+    uri: http://edamontology.org/operation_3223
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Regression analysis
+    uri: http://edamontology.org/operation_3659
+  output: []
+homepage: http://bioconductor.org/packages/release/bioc/html/IMAS.html
+homepage_status: 0
+language:
+- R
+lastUpdate: '2018-12-10T12:59:00Z'
+license: GPL-2.0
+link:
+- note: null
+  type: Mirror
+  url: http://bioconductor.org/packages/IMAS/
+- note: null
+  type: Repository
+  url: https://git.bioconductor.org/packages/IMAS
+maturity: null
+name: IMAS
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: shadi.m
+publication: []
+toolType:
+- Library
+topic:
+- term: RNA splicing
+  uri: http://edamontology.org/topic_3320
+- term: Gene expression
+  uri: http://edamontology.org/topic_0203
+- term: Gene regulation
+  uri: http://edamontology.org/topic_0204
+- term: Sequencing
+  uri: http://edamontology.org/topic_3168
+- term: RNA-seq
+  uri: http://edamontology.org/topic_3170
+- term: DNA polymorphism
+  uri: http://edamontology.org/topic_2885
+- term: Sequencing
+  uri: http://edamontology.org/topic_3168
+- term: Gene expression
+  uri: http://edamontology.org/topic_0203
+validated: 1
+version:
+- 1.4.0

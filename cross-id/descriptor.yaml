@@ -16,49 +16,49 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Text data
-      uri: http://edamontology.org/data_2526
-    format: []
-  note: null
-  operation:
-  - term: Structure visualisation
-    uri: http://edamontology.org/operation_0570
-  output:
-  - data:
-      term: Protein interaction raw data
-      uri: http://edamontology.org/data_0905
-    format:
-    - term: TSV
-      uri: http://edamontology.org/format_3475
-    - term: PDF
-      uri: http://edamontology.org/format_3508
+  - cmd: null
+    input:
+      - data:
+          term: Text data
+          uri: http://edamontology.org/data_2526
+        format: []
+    note: null
+    operation:
+      - term: Structure visualisation
+        uri: http://edamontology.org/operation_0570
+    output:
+      - data:
+          term: Protein interaction raw data
+          uri: http://edamontology.org/data_0905
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
+          - term: PDF
+            uri: http://edamontology.org/format_3508
 homepage: https://www.hecklab.com/software/xlinkx/
 homepage_status: 0
 language:
-- C#
+  - C#
 lastUpdate: '2019-01-16T15:09:41Z'
 license: null
 link: []
 maturity: null
 name: Cross-ID
 operatingSystem:
-- Windows
+  - Windows
 otherID: []
 owner: n.m.palmblad@lumc.nl
 publication:
-- doi: 10.1021/acs.jproteome.8b00725
-  metadata: null
-  pmcid: null
-  pmid: '30575379'
-  type: Primary
-  version: null
+  - doi: 10.1021/acs.jproteome.8b00725
+    metadata: null
+    pmcid: null
+    pmid: '30575379'
+    type: Primary
+    version: null
 toolType:
-- Desktop application
+  - Desktop application
 topic:
-- term: Protein structure analysis
-  uri: http://edamontology.org/topic_2814
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
 validated: 1
 version: []

@@ -3,77 +3,77 @@ additionDate: '2017-08-20T16:49:50Z'
 biotoolsCURIE: biotools:penncnv2
 biotoolsID: penncnv2
 collectionID:
-- Animal and Crop Genomics
+  - Animal and Crop Genomics
 cost: null
 credit:
-- email: kai@openbioinformatics.org
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://wglab.org/extra/contact
+  - email: kai@openbioinformatics.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://wglab.org/extra/contact
 description: A C++ software package for detection of copy number alterations on tumor
   samples from SNP arrays and NGS data.
 documentation:
-- note: null
-  type: General
-  url: http://penncnv2.readthedocs.io/en/latest/
+  - note: null
+    type: General
+    url: http://penncnv2.readthedocs.io/en/latest/
 download: []
 editPermission:
   authors:
-  - animalandcropgenomics
+    - animalandcropgenomics
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Structure analysis
-    uri: http://edamontology.org/operation_2480
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Structure analysis
+        uri: http://edamontology.org/operation_2480
+    output: []
 homepage: https://github.com/WGLab/PennCNV2/
 homepage_status: 0
 language:
-- C++
-- Perl
-- C
+  - C++
+  - Perl
+  - C
 lastUpdate: '2019-01-29T12:03:22Z'
 license: Unlicensed
 link: []
 maturity: null
 name: PennCNV2
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: 10.1093/bioinformatics/btt521
-  metadata: null
-  pmcid: PMC3834792
-  pmid: '24021380'
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/btt521
+    metadata: null
+    pmcid: PMC3834792
+    pmid: '24021380'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: DNA structural variation
-  uri: http://edamontology.org/topic_3175
-- term: Medical informatics
-  uri: http://edamontology.org/topic_3063
-- term: DNA polymorphism
-  uri: http://edamontology.org/topic_2885
+  - term: DNA structural variation
+    uri: http://edamontology.org/topic_3175
+  - term: Medical informatics
+    uri: http://edamontology.org/topic_3063
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
 validated: 1
 version: []

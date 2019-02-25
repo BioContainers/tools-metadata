@@ -1,26 +1,26 @@
 accessibility:
-- Open access
+  - Open access
 additionDate: '2016-12-19T14:27:03Z'
 biotoolsCURIE: biotools:bedtools_intersectbed-ip
 biotoolsID: bedtools_intersectbed
 collectionID:
-- galaxyPasteur
-- bedtools
+  - galaxyPasteur
+  - bedtools
 cost: null
 credit:
-- email: galaxy@pasteur.fr
-  name: Galaxy Support Team
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: galaxy@pasteur.fr
+    name: Galaxy Support Team
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Report overlaps between two feature files.
 documentation:
-- note: null
-  type: Manual
-  url: http://quinlanlab.org/tutorials/bedtools/bedtools.html
+  - note: null
+    type: Manual
+    url: http://quinlanlab.org/tutorials/bedtools/bedtools.html
 download: []
 editPermission:
   authors: []
@@ -29,130 +29,131 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Sequence trace
-      uri: http://edamontology.org/data_0924
-    format:
-    - term: BAM
-      uri: http://edamontology.org/format_2572
-  - data:
-      term: Annotation track
-      uri: http://edamontology.org/data_3002
-    format:
-    - term: BED
-      uri: http://edamontology.org/format_3003
-  - data:
-      term: Sequence variations
-      uri: http://edamontology.org/data_3498
-    format:
-    - term: VCF
-      uri: http://edamontology.org/format_3016
-  - data:
-      term: Data
-      uri: http://edamontology.org/data_0006
-    format:
-    - term: GFF
-      uri: http://edamontology.org/format_2305
-  - data:
-      term: Annotation track
-      uri: http://edamontology.org/data_3002
-    format:
-    - term: BED
-      uri: http://edamontology.org/format_3003
-  - data:
-      term: Sequence variations
-      uri: http://edamontology.org/data_3498
-    format:
-    - term: VCF
-      uri: http://edamontology.org/format_3016
-  - data:
-      term: Data
-      uri: http://edamontology.org/data_0006
-    format:
-    - term: GFF
-      uri: http://edamontology.org/format_2305
-  note: null
-  operation:
-  - term: Sequence merging
-    uri: http://edamontology.org/operation_0232
-  output:
-  - data:
-      term: Sequence trace
-      uri: http://edamontology.org/data_0924
-    format:
-    - term: BAM
-      uri: http://edamontology.org/format_2572
-  - data:
-      term: Annotation track
-      uri: http://edamontology.org/data_3002
-    format:
-    - term: BED
-      uri: http://edamontology.org/format_3003
-  - data:
-      term: Data
-      uri: http://edamontology.org/data_0006
-    format:
-    - term: GFF
-      uri: http://edamontology.org/format_2305
-  - data:
-      term: Sequence variations
-      uri: http://edamontology.org/data_3498
-    format:
-    - term: VCF
-      uri: http://edamontology.org/format_3016
+  - cmd: null
+    input:
+      - data:
+          term: Sequence trace
+          uri: http://edamontology.org/data_0924
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+      - data:
+          term: Annotation track
+          uri: http://edamontology.org/data_3002
+        format:
+          - term: BED
+            uri: http://edamontology.org/format_3003
+      - data:
+          term: Sequence variations
+          uri: http://edamontology.org/data_3498
+        format:
+          - term: VCF
+            uri: http://edamontology.org/format_3016
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: GFF
+            uri: http://edamontology.org/format_2305
+      - data:
+          term: Annotation track
+          uri: http://edamontology.org/data_3002
+        format:
+          - term: BED
+            uri: http://edamontology.org/format_3003
+      - data:
+          term: Sequence variations
+          uri: http://edamontology.org/data_3498
+        format:
+          - term: VCF
+            uri: http://edamontology.org/format_3016
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: GFF
+            uri: http://edamontology.org/format_2305
+    note: null
+    operation:
+      - term: Sequence merging
+        uri: http://edamontology.org/operation_0232
+    output:
+      - data:
+          term: Sequence trace
+          uri: http://edamontology.org/data_0924
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+      - data:
+          term: Annotation track
+          uri: http://edamontology.org/data_3002
+        format:
+          - term: BED
+            uri: http://edamontology.org/format_3003
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: GFF
+            uri: http://edamontology.org/format_2305
+      - data:
+          term: Sequence variations
+          uri: http://edamontology.org/data_3498
+        format:
+          - term: VCF
+            uri: http://edamontology.org/format_3016
 homepage: https://github.com/arq5x/bedtools6
 homepage_status: 0
 language:
-- Shell
+  - Shell
 lastUpdate: '2019-02-20T08:24:06Z'
 license: null
 link:
-- note: null
-  type: Galaxy service
-  url: https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/bedtools_intersectbed/bedtools_intersectBed/v2.10.0
+  - note: null
+    type: Galaxy service
+    url: https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/bedtools_intersectbed/bedtools_intersectBed/v2.10.0
 maturity: Mature
 name: bedtools_intersectbed
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: hmenager
 publication:
-- doi: 10.1002/0471250953.bi1112s47
-  metadata:
-    abstract: © 2014 John Wiley & Sons, Inc. Technological advances have enabled the
-      use of DNA sequencing as a flexible tool to characterize genetic variation and
-      to measure the activity of diverse cellular phenomena such as gene isoform expression
-      and transcription factor binding. Extracting biological insight from the experiments
-      enabled by these advances demands the analysis of large, multi-dimensional datasets.
-      This unit describes the use of the BEDTools toolkit for the exploration of high-throughput
-      genomics datasets. Several protocols are presented for common genomic analyses,
-      demonstrating how simple BEDTools operations may be combined to create bespoke
-      pipelines addressing complex questions.
-    authors:
-    - name: Quinlan A.R.
-    citationCount: 176
-    date: '2014-01-01T00:00:00Z'
-    journal: Current Protocols in Bioinformatics
-    title: 'BEDTools: The Swiss-Army tool for genome feature analysis'
-  pmcid: null
-  pmid: null
-  type: Other
-  version: null
-- doi: 10.7490/f1000research.1114334.1
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Other
-  version: null
+  - doi: 10.1002/0471250953.bi1112s47
+    metadata:
+      abstract: "\xA9 2014 John Wiley & Sons, Inc. Technological advances have enabled\
+        \ the use of DNA sequencing as a flexible tool to characterize genetic variation\
+        \ and to measure the activity of diverse cellular phenomena such as gene isoform\
+        \ expression and transcription factor binding. Extracting biological insight\
+        \ from the experiments enabled by these advances demands the analysis of large,\
+        \ multi-dimensional datasets. This unit describes the use of the BEDTools\
+        \ toolkit for the exploration of high-throughput genomics datasets. Several\
+        \ protocols are presented for common genomic analyses, demonstrating how simple\
+        \ BEDTools operations may be combined to create bespoke pipelines addressing\
+        \ complex questions."
+      authors:
+        - name: Quinlan A.R.
+      citationCount: 176
+      date: '2014-01-01T00:00:00Z'
+      journal: Current Protocols in Bioinformatics
+      title: 'BEDTools: The Swiss-Army tool for genome feature analysis'
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
+  - doi: 10.7490/f1000research.1114334.1
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
 validated: 1
 version:
-- v2.10.0
+  - v2.10.0

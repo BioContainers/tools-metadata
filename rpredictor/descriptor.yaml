@@ -3,94 +3,94 @@ additionDate: '2015-12-02T14:55:21Z'
 biotoolsCURIE: biotools:rpredictor
 biotoolsID: rpredictor
 collectionID:
-- Czech Republic
-- ELIXIR-CZ
+  - Czech Republic
+  - ELIXIR-CZ
 cost: null
 credit:
-- email: null
-  name: ELIXIR-CZ
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: david.hoksza@gmail.com
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: panek@biomed.cas.cz
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: ELIXIR-CZ
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: david.hoksza@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: panek@biomed.cas.cz
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: A web database for prediction, analysis and storage of secondary structures
   of RNAs.
 documentation:
-- note: null
-  type: General
-  url: http://rpredictor.ms.mff.cuni.cz/documentation/
+  - note: null
+    type: General
+    url: http://rpredictor.ms.mff.cuni.cz/documentation/
 download: []
 editPermission:
   authors: []
   type: private
 elixirNode:
-- Czech Republic
+  - Czech Republic
 elixirPlatform:
-- Tools
+  - Tools
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Nucleic acid sequence record
-      uri: http://edamontology.org/data_2887
-    format: []
-  note: null
-  operation:
-  - term: Prediction and recognition
-    uri: http://edamontology.org/operation_2423
-  output:
-  - data:
-      term: RNA secondary structure
-      uri: http://edamontology.org/data_0880
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Nucleic acid sequence record
+          uri: http://edamontology.org/data_2887
+        format: []
+    note: null
+    operation:
+      - term: Prediction and recognition
+        uri: http://edamontology.org/operation_2423
+    output:
+      - data:
+          term: RNA secondary structure
+          uri: http://edamontology.org/data_0880
+        format: []
 homepage: http://rpredictor.ms.mff.cuni.cz/
 homepage_status: 0
 language:
-- Python
+  - Python
 lastUpdate: '2019-02-15T10:23:59Z'
 license: null
 link: []
 maturity: Mature
 name: rPredictor
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-CZ
 publication:
-- doi: 10.1109/BIBM.2014.6999394
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1109/BIBM.2014.6999394
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Nucleic acid structure analysis
-  uri: http://edamontology.org/topic_0097
-- term: RNA
-  uri: http://edamontology.org/topic_0099
+  - term: Nucleic acid structure analysis
+    uri: http://edamontology.org/topic_0097
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
 validated: 0
 version:
-- '1.0'
+  - '1.0'

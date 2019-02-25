@@ -3,31 +3,31 @@ additionDate: '2016-09-01T08:45:34Z'
 biotoolsCURIE: biotools:explora
 biotoolsID: explora
 collectionID:
-- BIG N2N
-- UGent
+  - BIG N2N
+  - UGent
 cost: null
 credit:
-- email: null
-  name: ugent.be
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: kathleen.marchal@intec.ugent.be
-  name: Kathleen Marchal
-  note: null
-  orcidid: http://orcid.org/0000-0002-2169-4588
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: ugent.be
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: kathleen.marchal@intec.ugent.be
+    name: Kathleen Marchal
+    note: null
+    orcidid: http://orcid.org/0000-0002-2169-4588
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Linkage analysis of quantitative trait loci using bulk segregant analysis.
 documentation:
-- note: null
-  type: General
-  url: http://bioinformatics.intec.ugent.be/explora-web/help
+  - note: null
+    type: General
+    url: http://bioinformatics.intec.ugent.be/explora-web/help
 download: []
 editPermission:
   authors: []
@@ -36,23 +36,23 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Sequence variation ID
-      uri: http://edamontology.org/data_2294
-    format:
-    - term: VCF
-      uri: http://edamontology.org/format_3016
-  note: null
-  operation:
-  - term: Recombination detection
-    uri: http://edamontology.org/operation_0451
-  output:
-  - data:
-      term: Image
-      uri: http://edamontology.org/data_2968
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Sequence variation ID
+          uri: http://edamontology.org/data_2294
+        format:
+          - term: VCF
+            uri: http://edamontology.org/format_3016
+    note: null
+    operation:
+      - term: Recombination detection
+        uri: http://edamontology.org/operation_0451
+    output:
+      - data:
+          term: Image
+          uri: http://edamontology.org/data_2968
+        format: []
 homepage: http://bioinformatics.intec.ugent.be/explora-web/
 homepage_status: 0
 language: []
@@ -62,23 +62,23 @@ link: []
 maturity: null
 name: EXPLoRA
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: Katrijn.Vannerum@ugent.be
 publication:
-- doi: 10.1093/nar/gkw298
-  metadata: null
-  pmcid: PMC4987886
-  pmid: '27105844'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkw298
+    metadata: null
+    pmcid: PMC4987886
+    pmid: '27105844'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
 validated: 1
 version:
-- '1'
+  - '1'

@@ -1,0 +1,86 @@
+accessibility: []
+additionDate: '2018-06-06T20:32:14Z'
+biotoolsCURIE: biotools:chainy
+biotoolsID: chainy
+collectionID: []
+cost: null
+credit:
+- email: imallona@igtp.cat
+  name: Izaskun Mallona
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Universal tool for standardized relative quantification in real-time
+  PCR.
+documentation:
+- note: null
+  type: General
+  url: http://maplab.imppc.org/chainy/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Virtual PCR
+    uri: http://edamontology.org/operation_0307
+  output: []
+homepage: http://maplab.imppc.org/chainy/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:59Z'
+license: null
+link: []
+maturity: null
+name: Chainy
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: d.gabrielaitis
+publication:
+- doi: 10.1093/bioinformatics/btw839
+  metadata:
+    abstract: © The Author 2017. Published by Oxford University Press. All rights
+      reserved. Chainy is a cross-platform web tool providing systematic pipelines
+      and steady criteria to process real-time PCR data, including the calculation
+      of efficiencies from raw data by kinetic methods, evaluation of the suitability
+      of multiple references, standardized normalization using one or more references,
+      and group-wise relative quantification statistical testing. We illustrate the
+      utility of Chainy for differential expression and chromatin immunoprecipitation
+      enrichment (ChIP-QPCR) analysis.
+    authors:
+    - name: Mallona I.
+    - name: Diez-Villanueva A.
+    - name: Martin B.
+    - name: Peinado M.A.
+    citationCount: 3
+    date: '2017-05-01T00:00:00Z'
+    journal: Bioinformatics
+    title: 'Chainy: An universal tool for standardized relative quantification in
+      real-time PCR'
+  pmcid: null
+  pmid: null
+  type: null
+  version: null
+toolType:
+- Web application
+topic:
+- term: PCR experiment
+  uri: http://edamontology.org/topic_3519
+- term: Gene expression
+  uri: http://edamontology.org/topic_0203
+- term: Protein binding sites
+  uri: http://edamontology.org/topic_3534
+validated: 1
+version: []

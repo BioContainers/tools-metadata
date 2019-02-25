@@ -3,17 +3,17 @@ additionDate: '2019-02-20T16:16:59Z'
 biotoolsCURIE: biotools:MASCOT
 biotoolsID: MASCOT
 collectionID:
-- ms-utils
+  - ms-utils
 cost: null
 credit:
-- email: info@matrixscience.com
-  name: see publication
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Maintainer
-  url: null
+  - email: info@matrixscience.com
+    name: see publication
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
 description: Mascot is a powerful search engine which uses mass spectrometry data
   to identify proteins from primary sequence databases.
 documentation: []
@@ -25,106 +25,106 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Peptide mass fingerprint
-      uri: http://edamontology.org/data_0944
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-    - term: MGF
-      uri: http://edamontology.org/format_3651
-    - term: pkl
-      uri: http://edamontology.org/format_3653
-    - term: dta
-      uri: http://edamontology.org/format_3652
-    - term: mzML
-      uri: http://edamontology.org/format_3244
-  note: null
-  operation:
-  - term: Protein fragment weight comparison
-    uri: http://edamontology.org/operation_2929
-  - term: Protein identification
-    uri: http://edamontology.org/operation_3767
-  - term: Blind peptide database search
-    uri: http://edamontology.org/operation_3647
-  - term: Peptide database search
-    uri: http://edamontology.org/operation_3646
-  - term: Tag-based peptide identification
-    uri: http://edamontology.org/operation_3643
-  - term: Peptide identification
-    uri: http://edamontology.org/operation_3631
-  - term: Target-Decoy
-    uri: http://edamontology.org/operation_3649
-  output:
-  - data:
-      term: Peptide identification
-      uri: http://edamontology.org/data_0945
-    format:
-    - term: Mascot .dat file
-      uri: http://edamontology.org/format_3713
-    - term: XML
-      uri: http://edamontology.org/format_2332
-    - term: CSV
-      uri: http://edamontology.org/format_3752
-    - term: mzTab
-      uri: http://edamontology.org/format_3681
-    - term: MGF
-      uri: http://edamontology.org/format_3651
-    - term: mzIdentML
-      uri: http://edamontology.org/format_3247
+  - cmd: null
+    input:
+      - data:
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+          - term: pkl
+            uri: http://edamontology.org/format_3653
+          - term: dta
+            uri: http://edamontology.org/format_3652
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+    note: null
+    operation:
+      - term: Protein fragment weight comparison
+        uri: http://edamontology.org/operation_2929
+      - term: Protein identification
+        uri: http://edamontology.org/operation_3767
+      - term: Blind peptide database search
+        uri: http://edamontology.org/operation_3647
+      - term: Peptide database search
+        uri: http://edamontology.org/operation_3646
+      - term: Tag-based peptide identification
+        uri: http://edamontology.org/operation_3643
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
+      - term: Target-Decoy
+        uri: http://edamontology.org/operation_3649
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: Mascot .dat file
+            uri: http://edamontology.org/format_3713
+          - term: XML
+            uri: http://edamontology.org/format_2332
+          - term: CSV
+            uri: http://edamontology.org/format_3752
+          - term: mzTab
+            uri: http://edamontology.org/format_3681
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+          - term: mzIdentML
+            uri: http://edamontology.org/format_3247
 homepage: http://www.matrixscience.com
 homepage_status: 0
 language: []
 lastUpdate: '2019-02-20T16:16:59Z'
 license: Proprietary
 link:
-- note: null
-  type: Registry
-  url: http://ms-utils.org
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
 maturity: null
 name: MASCOT
 operatingSystem: []
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: null
-  metadata:
-    abstract: 'Several algorithms have been described in the literature for protein
-      identification by searching a sequence database using mass spectrometry data.
-      In some approaches, the experimental data are peptide molecular weights from
-      the digestion of a protein by an enzyme. Other approaches use tandem mass spectrometry
-      (MS/MS) data from one or more peptides. Still others combine mass data with
-      amino acid sequence data. We present results from a new computer program, Mascot,
-      which integrates all three types of search. The scoring algorithm is probability
-      based, which has a number of advantages: (i) A simple rule can be used to judge
-      whether a result is significant or not. This is particularly useful in guarding
-      against false positives. (ii) Scores can be compared with those from other types
-      of search, such as sequence homology. (iii) Search parameters can be readily
-      optimised by iteration. The strengths and limitations of probability-based scoring
-      are discussed, particularly in the context of high throughput, fully automated
-      protein identification.'
-    authors:
-    - name: Perkins D.N.
-    - name: Pappin D.J.C.
-    - name: Creasy D.M.
-    - name: Cottrell J.S.
-    citationCount: 5894
-    date: '1999-01-01T00:00:00Z'
-    journal: Electrophoresis
-    title: Probability-based protein identification by searching sequence databases
-      using mass spectrometry data
-  pmcid: null
-  pmid: '10612281'
-  type: null
-  version: null
+  - doi: null
+    metadata:
+      abstract: 'Several algorithms have been described in the literature for protein
+        identification by searching a sequence database using mass spectrometry data.
+        In some approaches, the experimental data are peptide molecular weights from
+        the digestion of a protein by an enzyme. Other approaches use tandem mass
+        spectrometry (MS/MS) data from one or more peptides. Still others combine
+        mass data with amino acid sequence data. We present results from a new computer
+        program, Mascot, which integrates all three types of search. The scoring algorithm
+        is probability based, which has a number of advantages: (i) A simple rule
+        can be used to judge whether a result is significant or not. This is particularly
+        useful in guarding against false positives. (ii) Scores can be compared with
+        those from other types of search, such as sequence homology. (iii) Search
+        parameters can be readily optimised by iteration. The strengths and limitations
+        of probability-based scoring are discussed, particularly in the context of
+        high throughput, fully automated protein identification.'
+      authors:
+        - name: Perkins D.N.
+        - name: Pappin D.J.C.
+        - name: Creasy D.M.
+        - name: Cottrell J.S.
+      citationCount: 5894
+      date: '1999-01-01T00:00:00Z'
+      journal: Electrophoresis
+      title: Probability-based protein identification by searching sequence databases
+        using mass spectrometry data
+    pmcid: null
+    pmid: '10612281'
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
-- term: Proteomics experiment
-  uri: http://edamontology.org/topic_3520
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
 validated: 0
 version: []

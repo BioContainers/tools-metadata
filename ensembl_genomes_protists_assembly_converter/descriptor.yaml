@@ -3,51 +3,51 @@ additionDate: '2015-01-29T15:47:10Z'
 biotoolsCURIE: biotools:ensembl_genomes_protists_assembly_converter
 biotoolsID: ensembl_genomes_protists_assembly_converter
 collectionID:
-- Ensembl Tools
-- Ensembl Genomes
-- EBI Tools
+  - Ensembl Tools
+  - Ensembl Genomes
+  - EBI Tools
 cost: null
 credit:
-- email: null
-  name: Ensembl team
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: EMBL-EBI
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: helpdesk@ensemblgenomes.org
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: eg-webteam@ebi.ac.uk
-  name: Ensembl Genomes webteam
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: Ensembl team
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: EMBL-EBI
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: helpdesk@ensemblgenomes.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: eg-webteam@ebi.ac.uk
+    name: Ensembl Genomes webteam
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Map your data to the current assembly.
 documentation:
-- note: null
-  type: Terms of use
-  url: http://www.ebi.ac.uk/about/terms-of-use
-- note: null
-  type: General
-  url: http://protists.ensembl.org/info/website/help/index.html
+  - note: null
+    type: Terms of use
+    url: http://www.ebi.ac.uk/about/terms-of-use
+  - note: null
+    type: General
+    url: http://protists.ensembl.org/info/website/help/index.html
 download: []
 editPermission:
   authors: []
@@ -56,25 +56,25 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Nucleic acid features
-      uri: http://edamontology.org/data_1276
-    format:
-    - term: GFF
-      uri: http://edamontology.org/format_2305
-    - term: BED
-      uri: http://edamontology.org/format_3003
-    - term: PSL
-      uri: http://edamontology.org/format_3007
-    - term: GTF
-      uri: http://edamontology.org/format_2306
-  note: null
-  operation:
-  - term: Physical mapping
-    uri: http://edamontology.org/operation_2944
-  output: []
+  - cmd: null
+    input:
+      - data:
+          term: Nucleic acid features
+          uri: http://edamontology.org/data_1276
+        format:
+          - term: GFF
+            uri: http://edamontology.org/format_2305
+          - term: BED
+            uri: http://edamontology.org/format_3003
+          - term: PSL
+            uri: http://edamontology.org/format_3007
+          - term: GTF
+            uri: http://edamontology.org/format_2306
+    note: null
+    operation:
+      - term: Physical mapping
+        uri: http://edamontology.org/operation_2944
+    output: []
 homepage: http://protists.ensembl.org/tools.html
 homepage_status: 0
 language: []
@@ -84,23 +84,23 @@ link: []
 maturity: null
 name: Ensembl Genomes Protists assembly converter
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: EMBL-EBI
 publication:
-- doi: 10.1093/nar/gkv1157
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Other
-  version: null
+  - doi: 10.1093/nar/gkv1157
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Mapping
-  uri: http://edamontology.org/topic_0102
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
 validated: 0
 version:
-- '1'
+  - '1'

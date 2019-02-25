@@ -1,0 +1,82 @@
+accessibility: []
+additionDate: '2018-07-08T13:27:17Z'
+biotoolsCURIE: biotools:delayedarray
+biotoolsID: delayedarray
+collectionID:
+- BioConductor
+cost: null
+credit:
+- email: hpages@fredhutch.org
+  name: Hervé Pagès
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: Wrapping an array-like object in a DelayedArray object allows one to
+  perform common array operations on it without loading the object in memory. In order
+  to reduce memory usage and optimize performance, operations on the object are either
+  delayed or executed using a block processing mechanism. Note that this also works
+  on in-memory array-like objects like DataFrame objects, Matrix objects, and ordinary
+  arrays and data frames.
+documentation:
+- note: null
+  type: Manual
+  url: http://bioconductor.org/packages/release/bioc/manuals/DelayedArray/man/DelayedArray.pdf
+download:
+- note: null
+  type: Source package
+  url: http://bioconductor.org/packages/release/bioc/src/contrib/DelayedArray_0.6.1.tar.gz
+  version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Annotation
+    uri: http://edamontology.org/operation_0226
+  output: []
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Genome annotation
+    uri: http://edamontology.org/operation_0362
+  output: []
+homepage: http://bioconductor.org/packages/release/bioc/html/DelayedArray.html
+homepage_status: 0
+language:
+- R
+lastUpdate: '2018-12-10T12:59:00Z'
+license: Artistic-2.0
+link:
+- note: null
+  type: Mirror
+  url: http://bioconductor.org/packages/DelayedArray/
+- note: null
+  type: Repository
+  url: https://git.bioconductor.org/packages/DelayedArray
+maturity: null
+name: DelayedArray
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: shadi.m
+publication: []
+toolType:
+- Library
+topic:
+- term: Data management
+  uri: http://edamontology.org/topic_3071
+validated: 1
+version:
+- 0.6.1

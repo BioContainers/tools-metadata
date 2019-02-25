@@ -5,29 +5,29 @@ biotoolsID: skelesim
 collectionID: []
 cost: null
 credit:
-- email: stranda@gmail.com
-  name: Allan Strand
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: null
-  name: Christian Parobek
-  note: null
-  orcidid: http://orcid.org/0000-0002-4511-3493
-  typeEntity: Person
-  typeRole:
-  - Contributor
-  url: null
+  - email: stranda@gmail.com
+    name: Allan Strand
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: null
+    name: Christian Parobek
+    note: null
+    orcidid: http://orcid.org/0000-0002-4511-3493
+    typeEntity: Person
+    typeRole:
+      - Contributor
+    url: null
 description: skeleSim guides users in choosing appropriate simulations, setting parameters,
   calculating genetic summary statistics, and organizing data output, in a reproducible
   pipeline within the R environment.
 documentation:
-- note: null
-  type: Manual
-  url: https://cran.r-project.org/web/packages/skeleSim/skeleSim.pdf
+  - note: null
+    type: Manual
+    url: https://cran.r-project.org/web/packages/skeleSim/skeleSim.pdf
 download: []
 editPermission:
   authors: []
@@ -36,46 +36,46 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Statistical modelling
-    uri: http://edamontology.org/operation_3664
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Statistical modelling
+        uri: http://edamontology.org/operation_3664
+    output: []
 homepage: https://cran.r-project.org/web/packages/skeleSim/index.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-01-13T17:48:12Z'
 license: GPL-2.0
 link:
-- note: null
-  type: Repository
-  url: https://github.com/christianparobek/skeleSim
-- note: null
-  type: Issue tracker
-  url: https://github.com/christianparobek/skeleSim/issues
+  - note: null
+    type: Repository
+    url: https://github.com/christianparobek/skeleSim
+  - note: null
+    type: Issue tracker
+    url: https://github.com/christianparobek/skeleSim/issues
 maturity: null
 name: skeleSim
 operatingSystem:
-- Windows
-- Mac
+  - Windows
+  - Mac
 otherID: []
 owner: daniel_stefan
 publication:
-- doi: 10.1111/1755-0998.12607
-  metadata: null
-  pmcid: PMC5161633
-  pmid: '27736016'
-  type: Primary
-  version: null
+  - doi: 10.1111/1755-0998.12607
+    metadata: null
+    pmcid: PMC5161633
+    pmid: '27736016'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Population genetics
-  uri: http://edamontology.org/topic_3056
-- term: Statistics and probability
-  uri: http://edamontology.org/topic_2269
+  - term: Population genetics
+    uri: http://edamontology.org/topic_3056
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
 validated: 1
 version: []

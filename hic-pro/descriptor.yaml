@@ -5,38 +5,38 @@ biotoolsID: hic-pro
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: Nicolas Servant
-  note: null
-  orcidid: http://orcid.org/0000-0003-1678-7410
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: Institut Curie
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: curie.fr
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: nicolas.servant@curie.fr
-  name: Nicolas Servant
-  note: null
-  orcidid: http://orcid.org/0000-0003-1678-7410
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: Nicolas Servant
+    note: null
+    orcidid: http://orcid.org/0000-0003-1678-7410
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Institut Curie
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: curie.fr
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: nicolas.servant@curie.fr
+    name: Nicolas Servant
+    note: null
+    orcidid: http://orcid.org/0000-0003-1678-7410
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: This tool was designed to process Hi-C data, from raw fastq files (paired-end
   Illumina data) to the normalized contact maps. Since version 2.7.0, it can analyze
   data from digestion protocols as well as data from protocols that do not require
@@ -44,15 +44,15 @@ description: This tool was designed to process Hi-C data, from raw fastq files (
   It can operate either on a single laptop or on a computational cluster using the
   PBS-Torque scheduler.
 documentation:
-- note: null
-  type: Terms of use
-  url: https://github.com/nservant/HiC-Pro/blob/master/LICENSE
-- note: null
-  type: Citation instructions
-  url: https://github.com/nservant/HiC-Pro/blob/master/README.rst
-- note: null
-  type: General
-  url: http://nservant.github.io/HiC-Pro/
+  - note: null
+    type: Terms of use
+    url: https://github.com/nservant/HiC-Pro/blob/master/LICENSE
+  - note: null
+    type: Citation instructions
+    url: https://github.com/nservant/HiC-Pro/blob/master/README.rst
+  - note: null
+    type: General
+    url: http://nservant.github.io/HiC-Pro/
 download: []
 editPermission:
   authors: []
@@ -61,58 +61,58 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Sequence
-      uri: http://edamontology.org/data_2044
-    format: []
-  note: 'HiC-Pro was designed to process Hi-C data, from raw fastq files (paired-end
-    Illumina data) to the normalized contact maps. Since version 2.7.0, HiC-Pro can
-    analyse data from digestion protocols as well as data from protocols that do not
-    require restriction enzyme such as DNase Hi-C.
+  - cmd: null
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format: []
+    note: 'HiC-Pro was designed to process Hi-C data, from raw fastq files (paired-end
+      Illumina data) to the normalized contact maps. Since version 2.7.0, HiC-Pro
+      can analyse data from digestion protocols as well as data from protocols that
+      do not require restriction enzyme such as DNase Hi-C.
 
-    The pipeline is flexible, scalable and optimized. It can operate either on a single
-    laptop or on a computational cluster. HiC-Pro is sequential and each step of the
-    workflow can be run independantly.
+      The pipeline is flexible, scalable and optimized. It can operate either on a
+      single laptop or on a computational cluster. HiC-Pro is sequential and each
+      step of the workflow can be run independantly.
 
-    HiC-Pro includes a fast implementatation of the ICE normalization method (see
-    the iced python library for more information). In addition, HiC-Pro can use phasing
-    data to build allele specific contact maps.'
-  operation:
-  - term: Analysis
-    uri: http://edamontology.org/operation_2945
-  output: []
+      HiC-Pro includes a fast implementatation of the ICE normalization method (see
+      the iced python library for more information). In addition, HiC-Pro can use
+      phasing data to build allele specific contact maps.'
+    operation:
+      - term: Analysis
+        uri: http://edamontology.org/operation_2945
+    output: []
 homepage: https://github.com/nservant/HiC-Pro
 homepage_status: 0
 language:
-- R
-- Python
+  - R
+  - Python
 lastUpdate: '2019-01-11T01:58:50Z'
 license: null
 link:
-- note: null
-  type: Repository
-  url: https://github.com/nservant/HiC-Pro
+  - note: null
+    type: Repository
+    url: https://github.com/nservant/HiC-Pro
 maturity: null
 name: HiC-Pro
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: nicolas.servant@curie.fr
 publication:
-- doi: 10.1186/s13059-015-0831-x
-  metadata: null
-  pmcid: PMC4665391
-  pmid: '26619908'
-  type: Primary
-  version: null
+  - doi: 10.1186/s13059-015-0831-x
+    metadata: null
+    pmcid: PMC4665391
+    pmid: '26619908'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Biology
-  uri: http://edamontology.org/topic_3070
+  - term: Biology
+    uri: http://edamontology.org/topic_3070
 validated: 1
 version:
-- 2.7.8
+  - 2.7.8

@@ -3,29 +3,29 @@ additionDate: '2017-01-17T14:57:12Z'
 biotoolsCURIE: biotools:topaseq
 biotoolsID: topaseq
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: ihnatova@iba.muni.cz
-  name: Ivana Ihnatova
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: ihnatova@iba.muni.cz
+    name: Ivana Ihnatova
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: 'Implementation of seven methods for topology-based pathway analysis
   of both RNASeq and microarray data: SPIA, DEGraph, TopologyGSA, TAPPA, PRS, PWEA
   and a visualization tool for a single pathway.'
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/ToPASeq.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/ToPASeq.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/ToPASeq_1.8.0.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/ToPASeq_1.8.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -33,73 +33,73 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Gene expression data
-      uri: http://edamontology.org/data_2603
-    format:
-    - term: Gene expression report format
-      uri: http://edamontology.org/format_2058
-    - term: Biological pathway or network format
-      uri: http://edamontology.org/format_2013
-  - data:
-      term: Pathway or network
-      uri: http://edamontology.org/data_2600
-    format:
-    - term: Gene expression report format
-      uri: http://edamontology.org/format_2058
-    - term: Biological pathway or network format
-      uri: http://edamontology.org/format_2013
-  note: null
-  operation:
-  - term: Pathway or network analysis
-    uri: http://edamontology.org/operation_2497
-  output:
-  - data:
-      term: Statistical estimate score
-      uri: http://edamontology.org/data_0951
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  - data:
-      term: Plot
-      uri: http://edamontology.org/data_2884
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
+  - cmd: null
+    input:
+      - data:
+          term: Gene expression data
+          uri: http://edamontology.org/data_2603
+        format:
+          - term: Gene expression report format
+            uri: http://edamontology.org/format_2058
+          - term: Biological pathway or network format
+            uri: http://edamontology.org/format_2013
+      - data:
+          term: Pathway or network
+          uri: http://edamontology.org/data_2600
+        format:
+          - term: Gene expression report format
+            uri: http://edamontology.org/format_2058
+          - term: Biological pathway or network format
+            uri: http://edamontology.org/format_2013
+    note: null
+    operation:
+      - term: Pathway or network analysis
+        uri: http://edamontology.org/operation_2497
+    output:
+      - data:
+          term: Statistical estimate score
+          uri: http://edamontology.org/data_0951
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Plot
+          uri: http://edamontology.org/data_2884
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
 homepage: http://bioconductor.org/packages/release/bioc/html/ToPASeq.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-01-17T22:40:53Z'
 license: GPL-3.0
 link: []
 maturity: null
 name: ToPASeq
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1186/s12859-015-0763-1
-  metadata: null
-  pmcid: PMC4625615
-  pmid: '26514335'
-  type: Primary
-  version: null
+  - doi: 10.1186/s12859-015-0763-1
+    metadata: null
+    pmcid: PMC4625615
+    pmid: '26514335'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: Transcriptomics
-  uri: http://edamontology.org/topic_3308
-- term: RNA-seq
-  uri: http://edamontology.org/topic_3170
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
 validated: 1
 version:
-- 1.8.0
+  - 1.8.0

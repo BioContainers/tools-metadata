@@ -5,14 +5,14 @@ biotoolsID: regionalhapmapextractor
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://www.unc.edu/~yunmli/
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.unc.edu/~yunmli/
 description: Software to extract a region from hapMapII for MaCH imputation.
 documentation: []
 download: []
@@ -23,40 +23,40 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Imputation
-    uri: http://edamontology.org/operation_3557
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Imputation
+        uri: http://edamontology.org/operation_3557
+    output: []
 homepage: https://yunliweb.its.unc.edu/software.html
 homepage_status: 0
 language:
-- Perl
+  - Perl
 lastUpdate: '2019-01-23T10:42:38Z'
 license: null
 link:
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/regionalhapmapextractor-extract-region-hapmapii-mach-imputation.html
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/regionalhapmapextractor-extract-region-hapmapii-mach-imputation.html
 maturity: null
 name: RegionalHapMapExtractor
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: mbs_import
 publication: []
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Genetics
-  uri: http://edamontology.org/topic_3053
-- term: DNA
-  uri: http://edamontology.org/topic_0654
-- term: DNA polymorphism
-  uri: http://edamontology.org/topic_2885
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
 validated: 1
 version: []

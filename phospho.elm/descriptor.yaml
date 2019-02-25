@@ -1,0 +1,117 @@
+accessibility: []
+additionDate: '2017-03-30T22:04:29Z'
+biotoolsCURIE: biotools:phospho.elm
+biotoolsID: phospho.elm
+collectionID: []
+cost: null
+credit:
+- email: toby.gibson@embl.de
+  name: Toby Gibson - project coordinator
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: diella@embl.de
+  name: Francesca Diella - database curator, web design
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+- email: phospho@elm.eu.org
+  name: Holger Dinkel - software development, web design
+  note: null
+  orcidid: null
+  typeEntity: Person
+  typeRole:
+  - Primary contact
+  url: null
+description: 'It is a relational database designed to store in vivo and in vitro phosphorylation
+  data extracted from the scientific literature and phosphoproteomic analyses. The
+  resource comprises serine, threonine and tyrosine non-redundant phosphorylation
+  sites. New features include: structural disorder/order and accessibility information
+  and a conservation score. Additionally, the conservation of the phosphosites can
+  be visualized directly on the multiple sequence alignment used for the score calculation.'
+documentation:
+- note: null
+  type: General
+  url: http://phospho.elm.eu.org/help.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+- cmd: null
+  input: []
+  note: null
+  operation:
+  - term: Sequence alignment analysis (conservation)
+    uri: http://edamontology.org/operation_0448
+  - term: Multiple sequence alignment
+    uri: http://edamontology.org/operation_0492
+  output: []
+homepage: http://phospho.elm.eu.org
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:59Z'
+license: null
+link: []
+maturity: null
+name: Phospho.ELM
+operatingSystem:
+- Linux
+- Windows
+- Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+- doi: null
+  metadata:
+    abstract: The Phospho.ELM resource (http://phospho.elm.eu.org) is a relational
+      database designed to store in vivo and in vitro phosphorylation data extracted
+      from the scientific literature and phosphoproteomicanalyses. The resource has
+      been actively developed for more than 7 years and currently comprises 42 574
+      serine, threonine and tyrosine non-redundant phosphorylation sites. Several
+      new features have been implemented, such as structural disorder/ order and accessibility
+      information and a conservation score. Additionally, the conservation of the
+      phosphosites can now be visualized directly on the multiple sequence alignment
+      used for the score calculation. Finally, special emphasis has been put on linking
+      to external resources such as interaction networks and other databases. © The
+      Author(s) 2010.
+    authors:
+    - name: Dinkel H.
+    - name: Chica C.
+    - name: Via A.
+    - name: Gould C.M.
+    - name: Jensen L.J.
+    - name: Gibson T.J.
+    - name: Diella F.
+    citationCount: 305
+    date: '2011-01-01T00:00:00Z'
+    journal: Nucleic Acids Research
+    title: 'Phospho.ELM: A database of phosphorylation sites-update 2011'
+  pmcid: null
+  pmid: '21062810'
+  type: null
+  version: null
+toolType:
+- Database portal
+topic:
+- term: Database management
+  uri: http://edamontology.org/topic_3489
+- term: Literature and language
+  uri: http://edamontology.org/topic_3068
+- term: Sequence analysis
+  uri: http://edamontology.org/topic_0080
+- term: Molecular interactions, pathways and networks
+  uri: http://edamontology.org/topic_0602
+- term: Structure analysis
+  uri: http://edamontology.org/topic_0081
+validated: 1
+version: []

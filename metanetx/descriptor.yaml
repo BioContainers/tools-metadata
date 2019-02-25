@@ -5,14 +5,14 @@ biotoolsID: metanetx
 collectionID: []
 cost: null
 credit:
-- email: help@metanetx.org
-  name: MetaNetX Support
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: help@metanetx.org
+    name: MetaNetX Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: MetaNetX.org allows to access, analyse and manipulate genome-scale metabolic
   networks as well as biochemical pathways. It consistently integrates data from various
   public resources and makes the data accessible in a standardized format using a
@@ -20,26 +20,26 @@ description: MetaNetX.org allows to access, analyse and manipulate genome-scale 
   of dead-end metabolites/reactions, flux balance analysis or simulation of reaction/gene
   knockouts), manipulated and exported. Users can upload their own metabolic models.
 documentation:
-- note: null
-  type: General
-  url: https://www.metanetx.org/mnxdoc/help.html
+  - note: null
+    type: General
+    url: https://www.metanetx.org/mnxdoc/help.html
 download: []
 editPermission:
   authors: []
   type: private
 elixirNode:
-- Switzerland
+  - Switzerland
 elixirPlatform:
-- Tools
+  - Tools
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Deposition
-    uri: http://edamontology.org/operation_3431
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Deposition
+        uri: http://edamontology.org/operation_3431
+    output: []
 homepage: http://metanetx.org/
 homepage_status: 0
 language: []
@@ -49,33 +49,33 @@ link: []
 maturity: null
 name: MetaNetX
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: 10.1093/nar/gkv1117
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkv1117
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Web application
-- Database portal
+  - Web application
+  - Database portal
 topic:
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
-- term: Function analysis
-  uri: http://edamontology.org/topic_1775
-- term: Cheminformatics
-  uri: http://edamontology.org/topic_2258
-- term: Systems biology
-  uri: http://edamontology.org/topic_2259
-- term: Metabolomics
-  uri: http://edamontology.org/topic_3172
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Function analysis
+    uri: http://edamontology.org/topic_1775
+  - term: Cheminformatics
+    uri: http://edamontology.org/topic_2258
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
+  - term: Metabolomics
+    uri: http://edamontology.org/topic_3172
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
 validated: 0
 version: []

@@ -3,31 +3,31 @@ additionDate: '2017-01-17T14:57:48Z'
 biotoolsCURIE: biotools:drimseq
 biotoolsID: drimseq
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: gosia.nowicka@uzh.ch
-  name: Malgorzata Nowicka
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: gosia.nowicka@uzh.ch
+    name: Malgorzata Nowicka
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: The package provides two frameworks. One for the differential splicing
   analysis between different conditions and one for the sQTL analysis. Both are based
   on modeling the counts of genomic features (i.e., transcripts, exons or exonic bins)
   with Dirichlet-multinomial distribution. The package also makes available functions
   for visualization and exploration of the data and results.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/DRIMSeq.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/DRIMSeq.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/DRIMSeq_1.2.0.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/DRIMSeq_1.2.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -35,45 +35,45 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Gene expression QTL analysis
-    uri: http://edamontology.org/operation_3232
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Gene expression QTL analysis
+        uri: http://edamontology.org/operation_3232
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/DRIMSeq.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-01-13T18:35:38Z'
 license: GPL-3.0
 link: []
 maturity: null
 name: DRIMSeq
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.12688/f1000research.8900.2
-  metadata: null
-  pmcid: PMC5200948
-  pmid: '28105305'
-  type: Primary
-  version: null
+  - doi: 10.12688/f1000research.8900.2
+    metadata: null
+    pmcid: PMC5200948
+    pmid: '28105305'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: RNA-seq
-  uri: http://edamontology.org/topic_3170
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
-- term: Transcription factors and regulatory sites
-  uri: http://edamontology.org/topic_0749
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
 validated: 1
 version:
-- 1.2.0
+  - 1.2.0

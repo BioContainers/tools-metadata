@@ -5,126 +5,126 @@ biotoolsID: ismara
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: SIB Swiss Institute of Bioinformatics
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: Erik.Vannimwegen@unibas.ch
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: SIB Swiss Institute of Bioinformatics
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: Erik.Vannimwegen@unibas.ch
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Models genome-wide expression data in terms of our genome-wide annotations
   of regulatory sites. For a given expression data-set it infers the key transcription
   regulators, their sample-dependent activities, and their genome-wide targets.
 documentation:
-- note: null
-  type: General
-  url: https://ismara.unibas.ch/fcgi/mara
+  - note: null
+    type: General
+    url: https://ismara.unibas.ch/fcgi/mara
 download: []
 editPermission:
   authors: []
   type: private
 elixirNode:
-- Switzerland
+  - Switzerland
 elixirPlatform:
-- Tools
+  - Tools
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Raw microarray data
-      uri: http://edamontology.org/data_3110
-    format:
-    - term: Microarray experiment data format
-      uri: http://edamontology.org/format_2056
-  - data:
-      term: Experimental measurement
-      uri: http://edamontology.org/data_3108
-    format:
-    - term: BAM
-      uri: http://edamontology.org/format_2572
-    - term: BED
-      uri: http://edamontology.org/format_3003
-    - term: SAM
-      uri: http://edamontology.org/format_2573
-  - data:
-      term: Experimental measurement
-      uri: http://edamontology.org/data_3108
-    format:
-    - term: BAM
-      uri: http://edamontology.org/format_2572
-    - term: BED
-      uri: http://edamontology.org/format_3003
-    - term: SAM
-      uri: http://edamontology.org/format_2573
-  note: RNA-seq expression data ChIP-seq data
-  operation:
-  - term: Gene expression analysis
-    uri: http://edamontology.org/operation_2495
-  output:
-  - data:
-      term: Report
-      uri: http://edamontology.org/data_2048
-    format: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Phylogenetic tree generation (maximum likelihood and Bayesian methods)
-    uri: http://edamontology.org/operation_0547
-  output: []
+  - cmd: null
+    input:
+      - data:
+          term: Raw microarray data
+          uri: http://edamontology.org/data_3110
+        format:
+          - term: Microarray experiment data format
+            uri: http://edamontology.org/format_2056
+      - data:
+          term: Experimental measurement
+          uri: http://edamontology.org/data_3108
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+          - term: BED
+            uri: http://edamontology.org/format_3003
+          - term: SAM
+            uri: http://edamontology.org/format_2573
+      - data:
+          term: Experimental measurement
+          uri: http://edamontology.org/data_3108
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+          - term: BED
+            uri: http://edamontology.org/format_3003
+          - term: SAM
+            uri: http://edamontology.org/format_2573
+    note: RNA-seq expression data ChIP-seq data
+    operation:
+      - term: Gene expression analysis
+        uri: http://edamontology.org/operation_2495
+    output:
+      - data:
+          term: Report
+          uri: http://edamontology.org/data_2048
+        format: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Phylogenetic tree generation (maximum likelihood and Bayesian methods)
+        uri: http://edamontology.org/operation_0547
+    output: []
 homepage: https://ismara.unibas.ch/mara/
 homepage_status: 0
 language: []
 lastUpdate: '2019-02-15T10:24:04Z'
 license: null
 link:
-- note: null
-  type: Registry
-  url: http://expasy.org
+  - note: null
+    type: Registry
+    url: http://expasy.org
 maturity: null
 name: ISMARA
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: SIB
 publication:
-- doi: 10.1101/gr.169508.113
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1101/gr.169508.113
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Functional genomics
-  uri: http://edamontology.org/topic_0085
-- term: Systems biology
-  uri: http://edamontology.org/topic_2259
-- term: Transcriptomics
-  uri: http://edamontology.org/topic_3308
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
-- term: Protein expression
-  uri: http://edamontology.org/topic_0108
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
-- term: Transcription factors and regulatory sites
-  uri: http://edamontology.org/topic_0749
-- term: Gene transcripts
-  uri: http://edamontology.org/topic_3512
+  - term: Functional genomics
+    uri: http://edamontology.org/topic_0085
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Protein expression
+    uri: http://edamontology.org/topic_0108
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
+  - term: Gene transcripts
+    uri: http://edamontology.org/topic_3512
 validated: 0
 version:
-- '1'
+  - '1'

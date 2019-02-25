@@ -5,33 +5,33 @@ biotoolsID: allopred
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: hotmail.co.uk
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: joe.greener13@imperial.ac.uk
-  name: Joe Greener
-  note: null
-  orcidid: http://orcid.org/0000-0002-5154-1929
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: hotmail.co.uk
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: joe.greener13@imperial.ac.uk
+    name: Joe Greener
+    note: null
+    orcidid: http://orcid.org/0000-0002-5154-1929
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Web server uses normal mode analysis and pocket features to predict allosteric
   pockets on proteins.
 documentation:
-- note: null
-  type: General
-  url: http://www.sbg.bio.ic.ac.uk/allopred/tutorial
+  - note: null
+    type: General
+    url: http://www.sbg.bio.ic.ac.uk/allopred/tutorial
 download:
-- note: null
-  type: Source code
-  url: https://github.com/jgreener64/allopred
-  version: null
+  - note: null
+    type: Source code
+    url: https://github.com/jgreener64/allopred
+    version: null
 editPermission:
   authors: []
   type: private
@@ -39,43 +39,43 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Protein binding site prediction
-    uri: http://edamontology.org/operation_2575
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein binding site prediction
+        uri: http://edamontology.org/operation_2575
+    output: []
 homepage: http://www.sbg.bio.ic.ac.uk/allopred/home
 homepage_status: 0
 language: []
 lastUpdate: '2019-01-11T01:45:21Z'
 license: MIT
 link:
-- note: null
-  type: Repository
-  url: https://github.com/jgreener64/allopred
+  - note: null
+    type: Repository
+    url: https://github.com/jgreener64/allopred
 maturity: null
 name: AlloPred
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: jgreener@hotmail.co.uk
 publication:
-- doi: 10.1186/s12859-015-0771-1
-  metadata: null
-  pmcid: PMC4619270
-  pmid: '26493317'
-  type: Primary
-  version: null
+  - doi: 10.1186/s12859-015-0771-1
+    metadata: null
+    pmcid: PMC4619270
+    pmid: '26493317'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Web application
+  - Command-line tool
+  - Web application
 topic:
-- term: Protein binding sites
-  uri: http://edamontology.org/topic_3534
+  - term: Protein binding sites
+    uri: http://edamontology.org/topic_3534
 validated: 1
 version:
-- '1'
+  - '1'

@@ -5,130 +5,131 @@ biotoolsID: nextprot
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: SIB Swiss Institute of Bioinformatics
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: support@nextprot.org
-  name: Support
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: null
-  name: Pascale Gaudet
-  note: null
-  orcidid: http://orcid.org/0000-0003-1813-6857
-  typeEntity: Person
-  typeRole:
-  - Contributor
-  url: null
+  - email: null
+    name: SIB Swiss Institute of Bioinformatics
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: support@nextprot.org
+    name: Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: null
+    name: Pascale Gaudet
+    note: null
+    orcidid: http://orcid.org/0000-0003-1813-6857
+    typeEntity: Person
+    typeRole:
+      - Contributor
+    url: null
 description: neXtProt is an innovative knowledge platform dedicated to human proteins.
   This resource contains a wealth of high-quality data on all the human proteins that
   are produced by the 20'000 protein-coding genes found in the human genome. The content
   of neXtProt is continuously extended so as to provide many more carefully selected
   data sets and analysis tools.
 documentation:
-- note: null
-  type: General
-  url: https://www.nextprot.org/help/simple-search
+  - note: null
+    type: General
+    url: https://www.nextprot.org/help/simple-search
 download: []
 editPermission:
   authors: []
   type: private
 elixirNode:
-- Switzerland
+  - Switzerland
 elixirPlatform:
-- Data
+  - Data
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Protein sequence analysis
-    uri: http://edamontology.org/operation_2479
-  - term: Visualisation
-    uri: http://edamontology.org/operation_0337
-  - term: Protein structure analysis
-    uri: http://edamontology.org/operation_2406
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+      - term: Visualisation
+        uri: http://edamontology.org/operation_0337
+      - term: Protein structure analysis
+        uri: http://edamontology.org/operation_2406
+    output: []
 homepage: http://www.nextprot.org
 homepage_status: 0
 language: []
 lastUpdate: '2019-02-15T10:24:02Z'
 license: null
 link:
-- note: null
-  type: Registry
-  url: http://expasy.org
+  - note: null
+    type: Registry
+    url: http://expasy.org
 maturity: null
 name: neXtProt
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: SIB
 publication:
-- doi: 10.1021/pr300830v
-  metadata:
-    abstract: 'About 5000 (25%) of the ∼20400 human protein-coding genes currently
-      lack any experimental evidence at the protein level. For many others, there
-      is only little information relative to their abundance, distribution, subcellular
-      localization, interactions, or cellular functions. The aim of the HUPO Human
-      Proteome Project (HPP, www.thehpp. org) is to collect this information for every
-      human protein. HPP is based on three major pillars: mass spectrometry (MS),
-      antibody/affinity capture reagents (Ab), and bioinformaticsdriven knowledge
-      base (KB). To meet this objective, the Chromosome-Centric Human Proteome Project
-      (C-HPP) proposes to build this catalog chromosome-by-chromosome (www.c-hpp.org)
-      by focusing primarily on proteins that currently lack MS evidence or Ab detection.
-      These are termed missing proteins by the HPP consortium. The lack of observation
-      of a protein can be due to various factors including incorrect and incomplete
-      gene annotation, low or restricted expression, or instability. neXtProt (www.nextprot.org)
-      is a new web-based knowledge platform specific for human proteins that aims
-      to complement UniProtKB/Swiss-Prot (www.uniprot.org) with detailed information
-      obtained from carefully selected highthroughput experiments on genomic variation,
-      post-translational modifications, as well as protein expression in tissues and
-      cells. This article describes how neXtProt contributes to prioritize C-HPP efforts
-      and integrates C-HPP results with other research efforts to create a complete
-      human proteome catalog. © 2012 American Chemical Society.'
-    authors:
-    - name: Gaudet P.
-    - name: Argoud-Puy G.
-    - name: Cusin I.
-    - name: Duek P.
-    - name: Evalet O.
-    - name: Gateau A.
-    - name: Gleizes A.
-    - name: Pereira M.
-    - name: Zahn-Zabal M.
-    - name: Zwahlen C.
-    - name: Bairoch A.
-    - name: Lane L.
-    citationCount: 97
-    date: '2013-01-04T00:00:00Z'
-    journal: Journal of Proteome Research
-    title: 'NeXtProt: Organizing protein knowledge in the context of human proteome
-      projects'
-  pmcid: null
-  pmid: '23205526'
-  type: Primary
-  version: null
+  - doi: 10.1021/pr300830v
+    metadata:
+      abstract: "About 5000 (25%) of the \u223C20400 human protein-coding genes currently\
+        \ lack any experimental evidence at the protein level. For many others, there\
+        \ is only little information relative to their abundance, distribution, subcellular\
+        \ localization, interactions, or cellular functions. The aim of the HUPO Human\
+        \ Proteome Project (HPP, www.thehpp. org) is to collect this information for\
+        \ every human protein. HPP is based on three major pillars: mass spectrometry\
+        \ (MS), antibody/affinity capture reagents (Ab), and bioinformaticsdriven\
+        \ knowledge base (KB). To meet this objective, the Chromosome-Centric Human\
+        \ Proteome Project (C-HPP) proposes to build this catalog chromosome-by-chromosome\
+        \ (www.c-hpp.org) by focusing primarily on proteins that currently lack MS\
+        \ evidence or Ab detection. These are termed missing proteins by the HPP consortium.\
+        \ The lack of observation of a protein can be due to various factors including\
+        \ incorrect and incomplete gene annotation, low or restricted expression,\
+        \ or instability. neXtProt (www.nextprot.org) is a new web-based knowledge\
+        \ platform specific for human proteins that aims to complement UniProtKB/Swiss-Prot\
+        \ (www.uniprot.org) with detailed information obtained from carefully selected\
+        \ highthroughput experiments on genomic variation, post-translational modifications,\
+        \ as well as protein expression in tissues and cells. This article describes\
+        \ how neXtProt contributes to prioritize C-HPP efforts and integrates C-HPP\
+        \ results with other research efforts to create a complete human proteome\
+        \ catalog. \xA9 2012 American Chemical Society."
+      authors:
+        - name: Gaudet P.
+        - name: Argoud-Puy G.
+        - name: Cusin I.
+        - name: Duek P.
+        - name: Evalet O.
+        - name: Gateau A.
+        - name: Gleizes A.
+        - name: Pereira M.
+        - name: Zahn-Zabal M.
+        - name: Zwahlen C.
+        - name: Bairoch A.
+        - name: Lane L.
+      citationCount: 97
+      date: '2013-01-04T00:00:00Z'
+      journal: Journal of Proteome Research
+      title: 'NeXtProt: Organizing protein knowledge in the context of human proteome
+        projects'
+    pmcid: null
+    pmid: '23205526'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Model organisms
-  uri: http://edamontology.org/topic_0621
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
-- term: Proteins
-  uri: http://edamontology.org/topic_0078
+  - term: Model organisms
+    uri: http://edamontology.org/topic_0621
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
 validated: 1
 version: []
