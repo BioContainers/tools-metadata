@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2017-08-03T18:59:20Z'
+biotoolsCURIE: biotools:sdse
+biotoolsID: sdse
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://bioinfo2.ugr.es:8080/oliver/contact-us/
+description: "An \_algorithm \_to \_simulate \_DNA \_sequence \_evolution \_under\
+  \ \_a \_general \_stochastic \_model, \_including \_as \_particular \_cases \_all\
+  \ \_the \_previously \_used \_schemes \_of \_nucleotide \_substitution."
+documentation:
+  - note: null
+    type: General
+    url: http://bioinfo2.ugr.es:8080/oliver/sdse/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Modelling and simulation
+        uri: http://edamontology.org/operation_2426
+    output: []
+homepage: http://bioinfo2.ugr.es:8080/oliver/sdse/
+homepage_status: 0
+language:
+  - Fortran
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/sdse-2-0-simulation-dna-sequence-evolution.html
+maturity: null
+name: SDSE
+operatingSystem:
+  - Windows
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "An algorithm to simulate DNA sequence evolution under a general stochastic\
+        \ model, including as particular cases all the previously used schemes of\
+        \ nucleotide substitution, is described. The simulation is carried out on\
+        \ finite, variable length, DNA sequences through a strict stochastic process,\
+        \ according to the particular substitution rates imposed by each scheme. Five\
+        \ FORTRAN programs, running on an IBM PC and compatibles, carry out all the\
+        \ tasks needed for the simulation. They are menu driven and interfaced to\
+        \ the system through a principal menu. All sequence data files used and generated\
+        \ by the SDSE package conform to the standard GenBank database format, thus\
+        \ allowing the use of any sequence retrieved from this databank, as well as\
+        \ the application of other packages to analyse, manipulate or retrieve simulated\
+        \ sequences. \xA9 1989 IRL Press Limited."
+      authors:
+        - name: Oliver J.L.
+        - name: Marin A.
+        - name: Medina J.R.
+      citationCount: 8
+      date: '1989-02-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'SDSE: A software package to simulate the evolution of a pair of DNA
+        sequences'
+    pmcid: null
+    pmid: '2924171'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Evolutionary biology
+    uri: http://edamontology.org/topic_3299
+  - term: Simulation experiment
+    uri: http://edamontology.org/topic_3524
+validated: 1
+version: []

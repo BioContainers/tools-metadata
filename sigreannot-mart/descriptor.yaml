@@ -1,0 +1,105 @@
+accessibility: []
+additionDate: '2017-04-22T17:35:27Z'
+biotoolsCURIE: biotools:sigreannot-mart
+biotoolsID: sigreannot-mart
+collectionID: []
+cost: null
+credit:
+  - email: fmoreews@irisa.fr
+    name: "Fran\xE7ois Moreews"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Re-annotating oligo sets used for expression microarrays is essential
+  to supply biologists with up-to-date annotations. The tool is a query environment
+  populated with regularly updated annotations for different oligo sets. It permits
+  easy extraction in different formats using filters. It is used to compare probe
+  sets on different criteria, to choose the set for a given experiment to mix probe
+  sets in order to create a new one.
+documentation:
+  - note: null
+    type: General
+    url: http://sigreannot-mart.toulouse.inra.fr/biomart/mview/faqs.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Filtering
+        uri: http://edamontology.org/operation_3695
+      - term: Primer and probe design
+        uri: http://edamontology.org/operation_2419
+      - term: Microarray probe design
+        uri: http://edamontology.org/operation_0309
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output: []
+homepage: http://sigreannot-mart.toulouse.inra.fr/biomart/martview/430b028768948e41c781761b26ba2cc6
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link: []
+maturity: null
+name: SigReannot-mart
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Expression microarrays are commonly used to study transcriptomes.\
+        \ Most of the arrays are now based on oligo-nucleotide probes. Probe design\
+        \ being a tedious task, it often takes place once at the beginning of the\
+        \ project. The oligo set is then used for several years. During this time\
+        \ period, the knowledge gathered by the community on the genome and the transcriptome\
+        \ increases and gets more precise. Therefore re-annotating the set is essential\
+        \ to supply the biologists with up-to-date annotations. SigReannot-mart is\
+        \ a query environment populated with regularly updated annotations for different\
+        \ oligo sets. It stores the results of the SigReannot pipeline that has mainly\
+        \ been used on farm and aquaculture species. It permits easy extraction in\
+        \ different formats using filters. It is used to compare probe sets on different\
+        \ criteria, to choose the set for a given experiment to mix probe sets in\
+        \ order to create a new one. \xA9 The Author(s) 2011."
+      authors:
+        - name: Moreews F.
+        - name: Rauffet G.
+        - name: Dehais P.
+        - name: Klopp C.
+      citationCount: 6
+      date: '2011-12-01T00:00:00Z'
+      journal: Database
+      title: 'SigReannot-mart: A query environment for expression microarray probe
+        re-annotations'
+    pmcid: null
+    pmid: '21930501'
+    type: null
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Probes and primers
+    uri: http://edamontology.org/topic_0632
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+  - term: Microarray experiment
+    uri: http://edamontology.org/topic_3518
+  - term: Zoology
+    uri: http://edamontology.org/topic_3500
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+validated: 1
+version: []

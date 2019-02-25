@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2017-08-03T18:43:38Z'
+biotoolsCURIE: biotools:foldhandedness
+biotoolsID: foldhandedness
+collectionID: []
+cost: null
+credit:
+  - email: ogalzit@vega.protres.ru
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: "Calculate angles between helices in the set of 3 \u03B1-helices from\
+  \ the same chain and the torsion angle (and handedness) of this set of helices."
+documentation:
+  - note: null
+    type: General
+    url: http://bioinfo.protres.ru/foldhandedness/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein property calculation
+        uri: http://edamontology.org/operation_0250
+    output: []
+homepage: http://bioinfo.protres.ru/foldhandedness/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: "http://www.mybiosoftware.com/foldhandedness-the-determination-of-the-handedness-of-\u03B1\
+      -helices.html"
+maturity: null
+name: FoldHandedness
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2014. Published by Oxford University Press. All rights\
+        \ reserved. Summary: We have created a new server FoldHandedness. Using this\
+        \ server it is possible: (i) to define the regions of helices from two issues\
+        \ (from the PDB file and using the last version of the DSSP program), (ii)\
+        \ to determine the handedness for any chosen three helices and (iii) to calculate\
+        \ the angle and sign between the chosen pairs of the helices for large proteins\
+        \ and complexes of proteins with DNA or RNA. Availability and implementation:\
+        \ The FoldHandedness server is available for users at http://bioinfo.protres.ru/foldhandedness."
+      authors:
+        - name: Pereyaslavets L.B.
+        - name: Glyakina A.V.
+        - name: Dovidchenko N.V.
+        - name: Sokolovskiy I.V.
+        - name: Galzitskaya O.V.
+      citationCount: 0
+      date: '2015-03-15T00:00:00Z'
+      journal: Bioinformatics
+      title: What handedness and angles between helices has the studied three-helical
+        protein domain?
+    pmcid: null
+    pmid: '25388147'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+validated: 1
+version: []

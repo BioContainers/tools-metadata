@@ -1,0 +1,99 @@
+accessibility: []
+additionDate: '2017-08-03T18:52:14Z'
+biotoolsCURIE: biotools:nbspred
+biotoolsID: nbspred
+collectionID: []
+cost: null
+credit:
+  - email: sandeep.kushwaha@biol.lu.se
+    name: Sandeep Kushwaha
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://soilecology.biol.lu.se/nbs/index.php?page=contact
+description: Support vector machine-based high throughput pipeline for plant resistance
+  protein NBSLRR (nucleotide binding site-leucine-rich repeats) prediction.
+documentation:
+  - note: null
+    type: General
+    url: http://soilecology.biol.lu.se/nbs/index.php?page=home
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+      - term: Protein binding site prediction
+        uri: http://edamontology.org/operation_2575
+    output: []
+homepage: http://soilecology.biol.lu.se/nbs/
+homepage_status: 0
+language:
+  - PHP
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/nbspred-high-throughput-identification-of-nbslrr-proteins.html
+maturity: null
+name: NBSPred
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015 The Author. All rights reserved.The nucleotide binding\
+        \ site leucine-rich repeats (NBSLRRs) belong to one of the largest known families\
+        \ of disease resistance genes that encode resistance proteins (R-protein)\
+        \ against the pathogens of plants. Various defence mechanisms have explained\
+        \ the regulation of plant immunity, but still, we have limited understanding\
+        \ about plant defence against different pathogens. Identification of R-proteins\
+        \ and proteins having R-protein-like features across the genome, transcriptome\
+        \ and proteome would be highly useful to develop the global understanding\
+        \ of plant defence mechanisms, but it is laborious and time-consuming task.\
+        \ Therefore, we have developed a support vector machine-based high-throughput\
+        \ pipeline called NBSPred to differentiate NBSLRR and NBSLRR-like protein\
+        \ from Non-NBSLRR proteins from genome, transcriptome and protein sequences.\
+        \ The pipeline was tested and validated with input sequences from three dicot\
+        \ and two monocot plants including Arabidopsis thaliana, Boechera stricta,\
+        \ Brachypodium distachyon Solanum lycopersicum and Zea mays."
+      authors:
+        - name: Kushwaha S.K.
+        - name: Chauhan P.
+        - name: Hedlund K.
+        - name: Ahren D.
+      citationCount: 5
+      date: '2016-04-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'NBSPred: A support vector machine-based high-throughput pipeline for
+        plant resistance protein NBSLRR prediction'
+    pmcid: null
+    pmid: '26656003'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Plant biology
+    uri: http://edamontology.org/topic_0780
+  - term: Protein binding sites
+    uri: http://edamontology.org/topic_3534
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+validated: 1
+version: []

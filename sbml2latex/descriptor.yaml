@@ -1,0 +1,106 @@
+accessibility: []
+additionDate: '2017-08-03T18:59:09Z'
+biotoolsCURIE: biotools:sbml2latex
+biotoolsID: sbml2latex
+collectionID: []
+cost: null
+credit:
+  - email: andraeger@eng.ucsd.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.zbit.uni-tuebingen.de/
+description: A tool to convert files in the System Biology Markup Language (SBML)
+  format into LATEX files.
+documentation:
+  - note: null
+    type: General
+    url: https://sourceforge.net/projects/sbml2latex/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Conversion
+        uri: http://edamontology.org/operation_3434
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output: []
+homepage: http://sourceforge.net/projects/sbml2latex/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/sbml2latex-0-9-9-conversion-sbml-files-human-readable-reports.html
+maturity: null
+name: SBML2LATEX
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Summary: The XML-based Systems Biology Markup Language (SBML) has\
+        \ emerged as a standard for storage, communication and interchange of models\
+        \ in systems biology. As a machine-readable format XML is difficult for humans\
+        \ to read and understand. Many tools are available that visualize the reaction\
+        \ pathways stored in SBML files, but many components, e.g. unit declarations,\
+        \ complex kinetic equations or links to MIRIAM resources, are often not made\
+        \ visible in these diagrams. For a broader understanding of the models, support\
+        \ in scientific writing and error detection, a human-readable report of the\
+        \ complete model is needed. We present SBML2LTEX, a Java-based stand-alone\
+        \ program to fill this gap. A convenient web service allows users to directly\
+        \ convert SBML to various formats, including DVI, LATEX and PDF, and provides\
+        \ many settings for customization. \xA9 The Author 2009. Published by Oxford\
+        \ University Press. All rights reserved."
+      authors:
+        - name: Drager A.
+        - name: Planatscher H.
+        - name: Motsou Wouamba D.
+        - name: Schroder A.
+        - name: Hucka M.
+        - name: Endler L.
+        - name: Golebiewski M.
+        - name: Muller W.
+        - name: Zell A.
+      citationCount: 14
+      date: '2009-06-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'SBML2LATEX: Conversion of SBML files into human-readable reports'
+    pmcid: null
+    pmid: '19307240'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Biology
+    uri: http://edamontology.org/topic_3070
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
+  - term: Literature and language
+    uri: http://edamontology.org/topic_3068
+validated: 1
+version: []

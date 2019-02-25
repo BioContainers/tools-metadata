@@ -1,0 +1,97 @@
+accessibility: []
+additionDate: '2017-08-03T18:44:06Z'
+biotoolsCURIE: biotools:geiger
+biotoolsID: geiger
+collectionID: []
+cost: null
+credit:
+  - email: mwpennell@gmail.com
+    name: Matt Pennell
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: R package for the comparative analysis of evolutionary radiations.
+documentation:
+  - note: null
+    type: General
+    url: https://cran.r-project.org/web/packages/geiger/geiger.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Phylogenetic tree generation
+        uri: http://edamontology.org/operation_0323
+    output: []
+homepage: https://cran.r-project.org/web/packages/geiger/
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/geiger-2-0-3-analysis-of-evolutionary-diversification.html
+maturity: null
+name: GEIGER
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Summary:Phylogenetic comparative methods are essential for addressing\
+        \ evolutionary hypotheses with interspecific data. The scale and scope of\
+        \ such data have increased dramatically in the past few years. Many existing\
+        \ approaches are either computationally infeasible or inappropriate for data\
+        \ of this size. To address both of these problems, we present geiger v2.0,\
+        \ a complete overhaul of the popular R package geiger. We have reimplemented\
+        \ existing methods with more efficient algorithms and have developed several\
+        \ new approaches for accomodating heterogeneous models and data types. Availability\
+        \ and implementation:This R package is available on the CRAN repository http://cran.r-project.org/web/packages/geiger/.\
+        \ All source code is also available on github http://github.com/mwpennell/geiger-v2.\
+        \ geiger v2.0 depends on the ape package. Supplementary information:Supplementary\
+        \ data are available at Bioinformatics online \xA9 The Author 2014."
+      authors:
+        - name: Pennell M.W.
+        - name: Eastman J.M.
+        - name: Slater G.J.
+        - name: Brown J.W.
+        - name: Uyeda J.C.
+        - name: Fitzjohn R.G.
+        - name: Alfaro M.E.
+        - name: Harmon L.J.
+      citationCount: 88
+      date: '2014-08-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'Geiger v2.0: An expanded suite of methods for fitting macroevolutionary
+        models to phylogenetic trees'
+    pmcid: null
+    pmid: '24728855'
+    type: null
+    version: null
+toolType:
+  - Library
+topic:
+  - term: Phylogenetics
+    uri: http://edamontology.org/topic_3293
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+  - term: Evolutionary biology
+    uri: http://edamontology.org/topic_3299
+validated: 1
+version: []

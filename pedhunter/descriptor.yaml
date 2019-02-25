@@ -1,0 +1,100 @@
+accessibility: []
+additionDate: '2017-08-03T18:55:23Z'
+biotoolsCURIE: biotools:pedhunter
+biotoolsID: pedhunter
+collectionID: []
+cost: null
+credit:
+  - email: richa@helix.nih.gov
+    name: Richa Agarwala
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: schaffer@helix.nih.gov
+    name: "Alejandro Sch\xE4ffer"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Software package that facilitates creation and verification of pedigrees
+  within large genealogies.
+documentation:
+  - note: null
+    type: General
+    url: https://www.ncbi.nlm.nih.gov/CBBresearch/Schaffer/pedhunter.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Linkage analysis
+        uri: http://edamontology.org/operation_0283
+    output: []
+homepage: http://www.ncbi.nlm.nih.gov/CBBresearch/Schaffer/pedhunter.html
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/pedhunter-2-0-creation-verification-pedigrees-large-genealogies.html
+maturity: null
+name: PedHunter
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: This paper describes PedHunter, a software package that facilitates
+        creation and verification of pedigrees within large genealogies. A frequent
+        problem in medical genetics is to connect distant relatives with a pedigree.
+        PedHunter uses methods from graph theory to solve two versions of the pedigree
+        connection problem for genealogies as well as other pedigree analysis problems.
+        The pedigrees are produced by PedHunter as files in LINKAGE format ready for
+        linkage analysis. PedHunter uses a relational database of genealogy data,
+        with tables in specified format, for all calculations. The functionality and
+        utility of PedHunter are illustrated by examples using the Amish Genealogy
+        Database (AGDB), which was created for the Old Order Amish community of Lancaster
+        County, Pennsylvania.
+      authors:
+        - name: Agarwala R.
+        - name: Biesecker L.G.
+        - name: Hopkins K.A.
+        - name: Francomano C.A.
+        - name: Schaffer A.A.
+      citationCount: 87
+      date: '1998-01-01T00:00:00Z'
+      journal: Genome Research
+      title: Software for constructing and verifying pedigrees within large genealogies
+        and an application to the Old Older Amish of Lancaster County
+    pmcid: null
+    pmid: '9521925'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Population genetics
+    uri: http://edamontology.org/topic_3056
+  - term: Human genetics
+    uri: http://edamontology.org/topic_3574
+validated: 1
+version: []

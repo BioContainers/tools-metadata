@@ -1,0 +1,116 @@
+accessibility: []
+additionDate: '2017-08-24T03:38:28Z'
+biotoolsCURIE: biotools:litemol
+biotoolsID: litemol
+collectionID:
+  - LCC NCBR
+  - ELIXIR-CZ
+cost: Free of charge
+credit:
+  - email: david.sehnal@ceitec.muni.cz
+    name: David Sehnal
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: https://www.ceitec.cz/rndr-david-sehnal-ph-d/u47752?institution=1#publikace
+  - email: david.sehnal@gmail.com
+    name: David Sehnal
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www.ceitec.cz/rndr-david-sehnal-ph-d/u47752?institution=1
+description: An HTML5 web application for very fast 3D visualization of molecules
+  and other related data. Very fast even for extremely large protein structures.
+documentation:
+  - note: null
+    type: Manual
+    url: https://webchem.ncbr.muni.cz/Wiki/LiteMol:UserManual
+download:
+  - note: null
+    type: Source code
+    url: https://github.com/dsehnal/LiteMol
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: PDB ID
+          uri: http://edamontology.org/data_1127
+        format: []
+      - data:
+          term: Electron microscopy volume map
+          uri: http://edamontology.org/data_0940
+        format:
+          - term: Binary format
+            uri: http://edamontology.org/format_2333
+      - data:
+          term: Protein structure
+          uri: http://edamontology.org/data_1460
+        format:
+          - term: mmCIF
+            uri: http://edamontology.org/format_1477
+    note: null
+    operation:
+      - term: Data retrieval
+        uri: http://edamontology.org/operation_2422
+    output:
+      - data:
+          term: Protein structure image
+          uri: http://edamontology.org/data_2992
+        format: []
+homepage: https://www.litemol.org
+homepage_status: 0
+language:
+  - Javascript
+lastUpdate: '2018-12-10T12:58:51Z'
+license: Apache-2.0
+link: []
+maturity: Mature
+name: LiteMol
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-CZ
+publication:
+  - doi: 10.1038/nmeth.4499
+    metadata:
+      abstract: ''
+      authors:
+        - name: Sehnal D.
+        - name: Deshpande M.
+        - name: Varekova R.S.
+        - name: Mir S.
+        - name: Berka K.
+        - name: Midlik A.
+        - name: Pravda L.
+        - name: Velankar S.
+        - name: Koca J.
+      citationCount: 8
+      date: '2017-12-01T00:00:00Z'
+      journal: Nature Methods
+      title: 'LiteMol suite: Interactive web-based visualization of large-scale macromolecular
+        structure data'
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+validated: 1
+version:
+  - 1.6.5
