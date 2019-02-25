@@ -5,22 +5,22 @@ biotoolsID: psychoprot
 collectionID: []
 cost: null
 credit:
-- email: luciano_abriata@yahoo.com
-  name: Luciano Abriata
-  note: null
-  orcidid: http://orcid.org/0000-0003-3087-8677
-  typeEntity: null
-  typeRole:
-  - Support
-  url: http://lucianoabriata.altervista.org
-- email: luciano_abriata@yahoo.com
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://lucianoabriata.altervista.org
+  - email: luciano_abriata@yahoo.com
+    name: Luciano Abriata
+    note: null
+    orcidid: http://orcid.org/0000-0003-3087-8677
+    typeEntity: null
+    typeRole:
+      - Support
+    url: http://lucianoabriata.altervista.org
+  - email: luciano_abriata@yahoo.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://lucianoabriata.altervista.org
 description: Finds which amino acid descriptors explain the amino acid variability
   observed throughout an alignment or upon deep-sequencing of mutational libraries.
 documentation: []
@@ -32,43 +32,43 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Sequence alignment
-      uri: http://edamontology.org/data_0863
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  - data:
-      term: Protein alignment
-      uri: http://edamontology.org/data_3154
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  note: null
-  operation:
-  - term: Sequence analysis
-    uri: http://edamontology.org/operation_2403
-  - term: Correlation
-    uri: http://edamontology.org/operation_3465
-  - term: Structure analysis
-    uri: http://edamontology.org/operation_2480
-  - term: Sequence alignment
-    uri: http://edamontology.org/operation_0292
-  output:
-  - data:
-      term: Mathematical model
-      uri: http://edamontology.org/data_0950
-    format: []
-  - data:
-      term: Molecular property
-      uri: http://edamontology.org/data_2087
-    format: []
-  - data:
-      term: Plot
-      uri: http://edamontology.org/data_2884
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Protein alignment
+          uri: http://edamontology.org/data_3154
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+      - term: Correlation
+        uri: http://edamontology.org/operation_3465
+      - term: Structure analysis
+        uri: http://edamontology.org/operation_2480
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output:
+      - data:
+          term: Mathematical model
+          uri: http://edamontology.org/data_0950
+        format: []
+      - data:
+          term: Molecular property
+          uri: http://edamontology.org/data_2087
+        format: []
+      - data:
+          term: Plot
+          uri: http://edamontology.org/data_2884
+        format: []
 homepage: http://psychoprot.epfl.ch
 homepage_status: 0
 language: []
@@ -81,24 +81,24 @@ operatingSystem: []
 otherID: []
 owner: luciano_abriata@yahoo.com
 publication:
-- doi: 10.1371/journal.pone.0118684
-  metadata: null
-  pmcid: PMC4338278
-  pmid: '25706742'
-  type: Usage
-  version: null
+  - doi: 10.1371/journal.pone.0118684
+    metadata: null
+    pmcid: PMC4338278
+    pmid: '25706742'
+    type: Usage
+    version: null
 toolType:
-- Web API
-- Web application
+  - Web API
+  - Web application
 topic:
-- term: Structure analysis
-  uri: http://edamontology.org/topic_0081
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
-- term: Structural biology
-  uri: http://edamontology.org/topic_1317
-- term: Biophysics
-  uri: http://edamontology.org/topic_3306
+  - term: Structure analysis
+    uri: http://edamontology.org/topic_0081
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Structural biology
+    uri: http://edamontology.org/topic_1317
+  - term: Biophysics
+    uri: http://edamontology.org/topic_3306
 validated: 1
 version:
-- '1'
+  - '1'

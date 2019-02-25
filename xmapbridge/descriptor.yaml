@@ -3,28 +3,28 @@ additionDate: '2017-01-17T14:58:39Z'
 biotoolsCURIE: biotools:xmapbridge
 biotoolsID: xmapbridge
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: Christopher.Wirth@cruk.manchester.ac.uk
-  name: Chris Wirth
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: Christopher.Wirth@cruk.manchester.ac.uk
+    name: Chris Wirth
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: This package can plot graphs in the X:Map genome browser. It exports
   plotting files in a suitable format.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/xmapbridge.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/xmapbridge.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/xmapbridge_1.32.0.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/xmapbridge_1.32.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -32,59 +32,59 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Nucleic acid sequence record
-      uri: http://edamontology.org/data_2887
-    format:
-    - term: MAGE-ML
-      uri: http://edamontology.org/format_3161
-  note: null
-  operation:
-  - term: Genome visualisation
-    uri: http://edamontology.org/operation_3208
-  output:
-  - data:
-      term: Sequence composition plot
-      uri: http://edamontology.org/data_2166
-    format:
-    - term: Graph format
-      uri: http://edamontology.org/format_3617
+  - cmd: null
+    input:
+      - data:
+          term: Nucleic acid sequence record
+          uri: http://edamontology.org/data_2887
+        format:
+          - term: MAGE-ML
+            uri: http://edamontology.org/format_3161
+    note: null
+    operation:
+      - term: Genome visualisation
+        uri: http://edamontology.org/operation_3208
+    output:
+      - data:
+          term: Sequence composition plot
+          uri: http://edamontology.org/data_2166
+        format:
+          - term: Graph format
+            uri: http://edamontology.org/format_3617
 homepage: http://bioconductor.org/packages/release/bioc/html/xmapbridge.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-24T22:11:54Z'
 license: GPL-3.0
 link:
-- note: null
-  type: Mirror
-  url: http://xmap.picr.man.ac.uk
-- note: null
-  type: Mirror
-  url: http://www.bioconductor.org
+  - note: null
+    type: Mirror
+    url: http://xmap.picr.man.ac.uk
+  - note: null
+    type: Mirror
+    url: http://www.bioconductor.org
 maturity: null
 name: xmapbridge
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1093/nar/gkm779
-  metadata: null
-  pmcid: PMC2238884
-  pmid: '17932061'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkm779
+    metadata: null
+    pmcid: PMC2238884
+    pmid: '17932061'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: Mapping
-  uri: http://edamontology.org/topic_0102
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
 validated: 1
 version:
-- 1.32.0
+  - 1.32.0

@@ -3,89 +3,89 @@ additionDate: '2017-05-16T12:28:22Z'
 biotoolsCURIE: biotools:biq_analyzer_himod
 biotoolsID: biq_analyzer_himod
 collectionID:
-- de.NBI
-- HD-Hub
+  - de.NBI
+  - HD-Hub
 cost: null
 credit:
-- email: plutsik@mpi-inf.mpg.de
-  name: Pavlo Lutsik
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://bioinf.mpi-inf.mpg.de/homepage/index.php?&account=plutsik
-- email: ag3-adm@mpi-inf.mpg.de
-  name: Web-site problems
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: plutsik@mpi-inf.mpg.de
+    name: Pavlo Lutsik
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://bioinf.mpi-inf.mpg.de/homepage/index.php?&account=plutsik
+  - email: ag3-adm@mpi-inf.mpg.de
+    name: Web-site problems
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: 'BiQ Analyzer HiMod: an interactive software tool for high-throughput
   locus-specific analysis of 5-methylcytosine and its oxidized derivatives'
 documentation:
-- note: null
-  type: General
-  url: http://biq-analyzer-himod.bioinf.mpi-inf.mpg.de/documentation.php
+  - note: null
+    type: General
+    url: http://biq-analyzer-himod.bioinf.mpi-inf.mpg.de/documentation.php
 download:
-- note: null
-  type: Binary package
-  url: https://biq-analyzer-himod.bioinf.mpi-inf.mpg.de/download/install_BiQ_Analyzer_HiMod.zip
-  version: null
+  - note: null
+    type: Binary package
+    url: https://biq-analyzer-himod.bioinf.mpi-inf.mpg.de/download/install_BiQ_Analyzer_HiMod.zip
+    version: null
 editPermission:
   authors:
-  - Karl_JV
+    - Karl_JV
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence trimming
-    uri: http://edamontology.org/operation_3192
-  - term: Methylation analysis
-    uri: http://edamontology.org/operation_3204
-  - term: Bisulfite mapping
-    uri: http://edamontology.org/operation_3186
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence trimming
+        uri: http://edamontology.org/operation_3192
+      - term: Methylation analysis
+        uri: http://edamontology.org/operation_3204
+      - term: Bisulfite mapping
+        uri: http://edamontology.org/operation_3186
+    output: []
 homepage: http://biq-analyzer-himod.bioinf.mpi-inf.mpg.de/
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2018-12-10T12:59:01Z'
 license: null
 link: []
 maturity: null
 name: BiQ Analyzer HiMod
 operatingSystem:
-- Windows
-- Mac
+  - Windows
+  - Mac
 otherID: []
 owner: hdhub
 publication:
-- doi: null
-  metadata: null
-  pmcid: PMC4086109
-  pmid: null
-  type: null
-  version: null
+  - doi: null
+    metadata: null
+    pmcid: PMC4086109
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Epigenetics
-  uri: http://edamontology.org/topic_3295
-- term: Methylated DNA immunoprecipitation
-  uri: http://edamontology.org/topic_3674
-- term: DNA
-  uri: http://edamontology.org/topic_0654
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
+  - term: Epigenetics
+    uri: http://edamontology.org/topic_3295
+  - term: Methylated DNA immunoprecipitation
+    uri: http://edamontology.org/topic_3674
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
 validated: 1
 version: []

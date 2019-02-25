@@ -3,31 +3,31 @@ additionDate: '2017-01-17T15:03:27Z'
 biotoolsCURIE: biotools:pcagopromoter
 biotoolsID: pcagopromoter
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: mhansen@sund.ku.dk
-  name: Morten Hansen
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: mhansen@sund.ku.dk
+    name: Morten Hansen
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: This package contains functions to ease the analyses of DNA micro arrays.
   It utilizes principal component analysis as the initial multivariate analysis, followed
   by functional interpretation of the principal component dimensions with overrepresentation
   analysis for GO terms and regulatory interpretations using overrepresentation analysis
   of predicted transcription factor binding sites with the primo algorithm.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/pcaGoPromoter.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/pcaGoPromoter.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/pcaGoPromoter_1.18.0.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/pcaGoPromoter_1.18.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -35,46 +35,46 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence analysis
-    uri: http://edamontology.org/operation_2403
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/pcaGoPromoter.html
 homepage_status: 0
 language:
-- R
-- C++
+  - R
+  - C++
 lastUpdate: '2018-12-30T16:50:20Z'
 license: GPL-2.0
 link: []
 maturity: null
 name: pcaGoPromoter
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1371/journal.pone.0032394
-  metadata: null
-  pmcid: PMC3288097
-  pmid: '22384239'
-  type: Primary
-  version: null
+  - doi: 10.1371/journal.pone.0032394
+    metadata: null
+    pmcid: PMC3288097
+    pmid: '22384239'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: DNA
-  uri: http://edamontology.org/topic_0654
-- term: Microarray experiment
-  uri: http://edamontology.org/topic_3518
-- term: DNA binding sites
-  uri: http://edamontology.org/topic_3125
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Microarray experiment
+    uri: http://edamontology.org/topic_3518
+  - term: DNA binding sites
+    uri: http://edamontology.org/topic_3125
 validated: 1
 version:
-- 1.18.0
+  - 1.18.0

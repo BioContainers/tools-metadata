@@ -5,32 +5,32 @@ biotoolsID: wise
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://www.ebi.ac.uk/support/index.php
-- email: birney@ebi.ac.uk
-  name: Ewan Birney
-  note: null
-  orcidid: http://orcid.org/0000-0001-8314-8497
-  typeEntity: null
-  typeRole: []
-  url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www.ebi.ac.uk/support/index.php
+  - email: birney@ebi.ac.uk
+    name: Ewan Birney
+    note: null
+    orcidid: http://orcid.org/0000-0001-8314-8497
+    typeEntity: null
+    typeRole: []
+    url: null
 description: Compare a protein sequences or protein HMMs to a genomic DNA sequence,
   allowing for introns and frameshifting errors.
 documentation:
-- note: null
-  type: General
-  url: https://www.ebi.ac.uk/seqdb/confluence/display/THD/GeneWise
+  - note: null
+    type: General
+    url: https://www.ebi.ac.uk/seqdb/confluence/display/THD/GeneWise
 download:
-- note: null
-  type: Binary package
-  url: https://www.ebi.ac.uk/~birney/wise2/wise2.4.1.tar.gz
-  version: null
+  - note: null
+    type: Binary package
+    url: https://www.ebi.ac.uk/~birney/wise2/wise2.4.1.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -38,72 +38,72 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Protein sequence analysis
-    uri: http://edamontology.org/operation_2479
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence alignment
-    uri: http://edamontology.org/operation_0292
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output: []
 homepage: http://www.ebi.ac.uk/Tools/Wise2/
 homepage_status: 0
 language:
-- Perl
+  - Perl
 lastUpdate: '2018-12-14T09:37:52Z'
 license: null
 link:
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/wise-2-2-0-compare-protein-sequence-genomic-dna-sequence.html
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/wise-2-2-0-compare-protein-sequence-genomic-dna-sequence.html
 maturity: null
 name: Wise2.4
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: mbs_import
 publication:
-- doi: 10.1101/gr.10.4.547
-  metadata: null
-  pmcid: PMC310858
-  pmid: '10779496'
-  type: Primary
-  version: null
-- doi: null
-  metadata:
-    abstract: 'We present two algorithms in this paper: GeneWise, which predicts gene
-      structure using similar protein sequences, and Genomewise, which provides a
-      gene structure final parse across cDNA- and EST-defined spliced structure. Both
-      algorithms are heavily used by the Ensembl annotation system. The GeneWise algorithm
-      was developed from a principled combination of hidden Markov models (HMMs).
-      Both algorithms are highly accurate and can provide both accurate and complete
-      gene structures when used with the correct evidence. ©2004 by Cold Spring Harbor
-      Laboratory Press.'
-    authors:
-    - name: Birney E.
-    - name: Clamp M.
-    - name: Durbin R.
-    citationCount: 859
-    date: '2004-05-01T00:00:00Z'
-    journal: Genome Research
-    title: GeneWise and Genomewise
-  pmcid: null
-  pmid: '15123596'
-  type: Primary
-  version: null
+  - doi: 10.1101/gr.10.4.547
+    metadata: null
+    pmcid: PMC310858
+    pmid: '10779496'
+    type: Primary
+    version: null
+  - doi: null
+    metadata:
+      abstract: "We present two algorithms in this paper: GeneWise, which predicts\
+        \ gene structure using similar protein sequences, and Genomewise, which provides\
+        \ a gene structure final parse across cDNA- and EST-defined spliced structure.\
+        \ Both algorithms are heavily used by the Ensembl annotation system. The GeneWise\
+        \ algorithm was developed from a principled combination of hidden Markov models\
+        \ (HMMs). Both algorithms are highly accurate and can provide both accurate\
+        \ and complete gene structures when used with the correct evidence. \xA92004\
+        \ by Cold Spring Harbor Laboratory Press."
+      authors:
+        - name: Birney E.
+        - name: Clamp M.
+        - name: Durbin R.
+      citationCount: 859
+      date: '2004-05-01T00:00:00Z'
+      journal: Genome Research
+      title: GeneWise and Genomewise
+    pmcid: null
+    pmid: '15123596'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: HMMs
-  uri: http://edamontology.org/topic_0160
-- term: DNA
-  uri: http://edamontology.org/topic_0654
+  - term: HMMs
+    uri: http://edamontology.org/topic_0160
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
 validated: 1
 version:
-- 2.4.1
+  - 2.4.1

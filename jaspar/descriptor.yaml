@@ -5,35 +5,35 @@ biotoolsID: jaspar
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: binf.ku.dk
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: http://www.binf.ku.dk/
-- email: albin@binf.ku.dk
-  name: Albin Sandelin
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://people.binf.ku.dk/albin
-- email: b.lenhard@imperial.ac.uk
-  name: Boris Lenhard
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: binf.ku.dk
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: http://www.binf.ku.dk/
+  - email: albin@binf.ku.dk
+    name: Albin Sandelin
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://people.binf.ku.dk/albin
+  - email: b.lenhard@imperial.ac.uk
+    name: Boris Lenhard
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: The high-quality transcription factor binding profile database.
 documentation:
-- note: null
-  type: General
-  url: http://jaspar.binf.ku.dk/html/TEMPLATES/help.html
+  - note: null
+    type: General
+    url: http://jaspar.binf.ku.dk/html/TEMPLATES/help.html
 download: []
 editPermission:
   authors: []
@@ -42,15 +42,15 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Database search
-    uri: http://edamontology.org/operation_2421
-  - term: DNA transcription
-    uri: http://edamontology.org/operation_0372
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+      - term: DNA transcription
+        uri: http://edamontology.org/operation_0372
+    output: []
 homepage: http://jaspar.genereg.net/
 homepage_status: 0
 language: []
@@ -60,71 +60,72 @@ link: []
 maturity: null
 name: JASPAR
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: 10.1093/nar/gkt997
-  metadata:
-    abstract: JASPAR (http://jaspar.genereg.net) is the largest open-access database
-      of matrix-based nucleotide profiles describing the binding preference of transcription
-      factors from multiple species. The fifth major release greatly expands the heart
-      of JASPAR - the JASPAR CORE subcollection, which contains curated, non-redundant
-      profiles - with 135 new curated profiles (74 in vertebrates, 8 in Drosophila
-      melanogaster, 10 in Caenorhabditis elegans and 43 in Arabidopsis thaliana; a
-      30% increase in total) and 43 older updated profiles (36 in vertebrates, 3 in
-      D. melanogaster and 4 in A. thaliana; a 9% update in total). The new and updated
-      profiles are mainly derived from published chromatin immunoprecipitation-seq
-      experimental datasets. In addition, the web interface has been enhanced with
-      advanced capabilities in browsing, searching and subsetting. Finally, the new
-      JASPAR release is accompanied by a new BioPython package, a new R tool package
-      and a new R/Bioconductor data package to facilitate access for both manual and
-      automated methods. © 2013 The Author(s). Published by Oxford University Press.
-    authors:
-    - name: Mathelier A.
-    - name: Zhao X.
-    - name: Zhang A.W.
-    - name: Parcy F.
-    - name: Worsley-Hunt R.
-    - name: Arenillas D.J.
-    - name: Buchman S.
-    - name: Chen C.-Y.
-    - name: Chou A.
-    - name: Ienasescu H.
-    - name: Lim J.
-    - name: Shyr C.
-    - name: Tan G.
-    - name: Zhou M.
-    - name: Lenhard B.
-    - name: Sandelin A.
-    - name: Wasserman W.W.
-    citationCount: 590
-    date: '2014-01-01T00:00:00Z'
-    journal: Nucleic Acids Research
-    title: 'JASPAR 2014: An extensively expanded and updated open-access database
-      of transcription factor binding profiles'
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
-- doi: 10.1093/nar/gkh012
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Other
-  version: null
+  - doi: 10.1093/nar/gkt997
+    metadata:
+      abstract: "JASPAR (http://jaspar.genereg.net) is the largest open-access database\
+        \ of matrix-based nucleotide profiles describing the binding preference of\
+        \ transcription factors from multiple species. The fifth major release greatly\
+        \ expands the heart of JASPAR - the JASPAR CORE subcollection, which contains\
+        \ curated, non-redundant profiles - with 135 new curated profiles (74 in vertebrates,\
+        \ 8 in Drosophila melanogaster, 10 in Caenorhabditis elegans and 43 in Arabidopsis\
+        \ thaliana; a 30% increase in total) and 43 older updated profiles (36 in\
+        \ vertebrates, 3 in D. melanogaster and 4 in A. thaliana; a 9% update in total).\
+        \ The new and updated profiles are mainly derived from published chromatin\
+        \ immunoprecipitation-seq experimental datasets. In addition, the web interface\
+        \ has been enhanced with advanced capabilities in browsing, searching and\
+        \ subsetting. Finally, the new JASPAR release is accompanied by a new BioPython\
+        \ package, a new R tool package and a new R/Bioconductor data package to facilitate\
+        \ access for both manual and automated methods. \xA9 2013 The Author(s). Published\
+        \ by Oxford University Press."
+      authors:
+        - name: Mathelier A.
+        - name: Zhao X.
+        - name: Zhang A.W.
+        - name: Parcy F.
+        - name: Worsley-Hunt R.
+        - name: Arenillas D.J.
+        - name: Buchman S.
+        - name: Chen C.-Y.
+        - name: Chou A.
+        - name: Ienasescu H.
+        - name: Lim J.
+        - name: Shyr C.
+        - name: Tan G.
+        - name: Zhou M.
+        - name: Lenhard B.
+        - name: Sandelin A.
+        - name: Wasserman W.W.
+      citationCount: 590
+      date: '2014-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'JASPAR 2014: An extensively expanded and updated open-access database
+        of transcription factor binding profiles'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+  - doi: 10.1093/nar/gkh012
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
-- term: Transcription factors and regulatory sites
-  uri: http://edamontology.org/topic_0749
-- term: Database management
-  uri: http://edamontology.org/topic_3489
-- term: Gene regulation
-  uri: http://edamontology.org/topic_0204
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
+  - term: Gene regulation
+    uri: http://edamontology.org/topic_0204
 validated: 1
 version: []

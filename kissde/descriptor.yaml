@@ -3,32 +3,32 @@ additionDate: '2018-07-20T20:10:13Z'
 biotoolsCURIE: biotools:kissde
 biotoolsID: kissde
 collectionID:
-- BioConductor
+  - BioConductor
 cost: Free of charge
 credit:
-- email: aurelie.siberchicot@univ-lyon1.fr
-  name: Aurélie Siberchicot
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: aurelie.siberchicot@univ-lyon1.fr
+    name: "Aur\xE9lie Siberchicot"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Retrieves condition-specific variants in RNA-seq data (SNVs, alternative-splicings,
   indels). It has been developed as a post-treatment of 'KisSplice' but can also be
   used with user's own data.
 documentation:
-- note: null
-  type: General
-  url: http://bioconductor.org/packages/release/bioc/vignettes/kissDE/inst/doc/kissDE.pdf
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/manuals/kissDE/man/kissDE.pdf
+  - note: null
+    type: General
+    url: http://bioconductor.org/packages/release/bioc/vignettes/kissDE/inst/doc/kissDE.pdf
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/manuals/kissDE/man/kissDE.pdf
 download:
-- note: null
-  type: Source package
-  url: http://bioconductor.org/packages/release/bioc/src/contrib/kissDE_1.0.0.tar.gz
-  version: null
+  - note: null
+    type: Source package
+    url: http://bioconductor.org/packages/release/bioc/src/contrib/kissDE_1.0.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -36,43 +36,43 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Splicing model analysis
-    uri: http://edamontology.org/operation_2499
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Splicing model analysis
+        uri: http://edamontology.org/operation_2499
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/kissDE.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: GPL-2.0
 link:
-- note: null
-  type: Mirror
-  url: http://bioconductor.org/packages/kissDE/
+  - note: null
+    type: Mirror
+    url: http://bioconductor.org/packages/kissDE/
 maturity: null
 name: kissDE
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication: []
 toolType:
-- Library
+  - Library
 topic:
-- term: RNA splicing
-  uri: http://edamontology.org/topic_3320
-- term: DNA structural variation
-  uri: http://edamontology.org/topic_3175
-- term: RNA-seq
-  uri: http://edamontology.org/topic_3170
-- term: Transcriptomics
-  uri: http://edamontology.org/topic_3308
+  - term: RNA splicing
+    uri: http://edamontology.org/topic_3320
+  - term: DNA structural variation
+    uri: http://edamontology.org/topic_3175
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
 validated: 1
 version:
-- 1.0.0
+  - 1.0.0

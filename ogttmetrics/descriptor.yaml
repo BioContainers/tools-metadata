@@ -5,14 +5,14 @@ biotoolsID: ogttmetrics
 collectionID: []
 cost: null
 credit:
-- email: stvjc@channing.harvard.edu
-  name: VJ Carey
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: stvjc@channing.harvard.edu
+    name: VJ Carey
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Management and analysis of large numbers of oral glucose tolerance test
   series. Computes diverse measures of glucose metabolism derived from oral glucose
   tolerance tests (OGTTs).
@@ -25,17 +25,17 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Operation
-    uri: http://edamontology.org/operation_0004
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Operation
+        uri: http://edamontology.org/operation_0004
+    output: []
 homepage: https://github.com/vjcitn/ogttMetrics
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:01Z'
 license: GPL-3.0
 link: []
@@ -45,43 +45,43 @@ operatingSystem: []
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.12688/f1000research.11317.1
-  metadata:
-    abstract: © 2017 Stubbs BJ et al. We describe an open source software package,
-      ogttMetrics, to compute diverse measures of glucose metabolism derived from
-      oral glucose tolerance tests (OGTTs). Tools are provided to organize, visualize
-      and compare OGTT data from large cohorts. Numerical difficulties in estimation
-      of parameters of the Bergman minimal model are described, and in one large clinical
-      trial, the simpler closed form index of Matsuda is observed to lead to similar
-      rankings of individuals with respect to insulin sensitivity, and similar inferences
-      concerning effects of modifications to carbohydrate content and glycemic index
-      of experimental diets.
-    authors:
-    - name: Stubbs B.J.
-    - name: Frankston K.
-    - name: Ramos M.
-    - name: Laranjo N.
-    - name: Sacks F.M.
-    - name: Carey V.J.
-    citationCount: 0
-    date: '2017-01-01T00:00:00Z'
-    journal: F1000Research
-    title: 'ogttMetrics: Data structures and algorithms for oral glucose tolerance
-      tests'
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.12688/f1000research.11317.1
+    metadata:
+      abstract: "\xA9 2017 Stubbs BJ et al. We describe an open source software package,\
+        \ ogttMetrics, to compute diverse measures of glucose metabolism derived from\
+        \ oral glucose tolerance tests (OGTTs). Tools are provided to organize, visualize\
+        \ and compare OGTT data from large cohorts. Numerical difficulties in estimation\
+        \ of parameters of the Bergman minimal model are described, and in one large\
+        \ clinical trial, the simpler closed form index of Matsuda is observed to\
+        \ lead to similar rankings of individuals with respect to insulin sensitivity,\
+        \ and similar inferences concerning effects of modifications to carbohydrate\
+        \ content and glycemic index of experimental diets."
+      authors:
+        - name: Stubbs B.J.
+        - name: Frankston K.
+        - name: Ramos M.
+        - name: Laranjo N.
+        - name: Sacks F.M.
+        - name: Carey V.J.
+      citationCount: 0
+      date: '2017-01-01T00:00:00Z'
+      journal: F1000Research
+      title: 'ogttMetrics: Data structures and algorithms for oral glucose tolerance
+        tests'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: Endocrinology and metabolism
-  uri: http://edamontology.org/topic_3407
-- term: Preclinical and clinical studies
-  uri: http://edamontology.org/topic_3379
-- term: Biomarkers
-  uri: http://edamontology.org/topic_3360
-- term: Carbohydrates
-  uri: http://edamontology.org/topic_0152
+  - term: Endocrinology and metabolism
+    uri: http://edamontology.org/topic_3407
+  - term: Preclinical and clinical studies
+    uri: http://edamontology.org/topic_3379
+  - term: Biomarkers
+    uri: http://edamontology.org/topic_3360
+  - term: Carbohydrates
+    uri: http://edamontology.org/topic_0152
 validated: 1
 version: []

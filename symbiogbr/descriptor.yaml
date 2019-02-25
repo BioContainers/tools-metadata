@@ -5,29 +5,29 @@ biotoolsID: symbiogbr
 collectionID: []
 cost: null
 credit:
-- email: l.tonk@uq.edu.au
-  name: Linda Tonk
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: pim@uq.edu.au
-  name: Pim Bongaerts
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: l.tonk@uq.edu.au
+    name: Linda Tonk
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: pim@uq.edu.au
+    name: Pim Bongaerts
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Database of all currently available Symbiodinium sequences and associated
   host information of data collected from the Great Barrier Reef into a single relational
   database.
 documentation:
-- note: null
-  type: General
-  url: http://www.symbiogbr.org/introduction
+  - note: null
+    type: General
+    url: http://www.symbiogbr.org/introduction
 download: []
 editPermission:
   authors: []
@@ -36,44 +36,44 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Data handling
-    uri: http://edamontology.org/operation_2409
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Data handling
+        uri: http://edamontology.org/operation_2409
+    output: []
 homepage: http://www.symbiogbr.org
 homepage_status: 0
 language:
-- Ruby
-- SQL
+  - Ruby
+  - SQL
 lastUpdate: '2018-12-11T17:20:14Z'
 license: null
 link: []
 maturity: null
 name: SymbioGBR
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1186/1472-6785-13-7
-  metadata: null
-  pmcid: PMC3616961
-  pmid: '23497177'
-  type: null
-  version: null
+  - doi: 10.1186/1472-6785-13-7
+    metadata: null
+    pmcid: PMC3616961
+    pmid: '23497177'
+    type: null
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: DNA polymorphism
-  uri: http://edamontology.org/topic_2885
-- term: Phylogeny
-  uri: http://edamontology.org/topic_0084
-- term: Ecology
-  uri: http://edamontology.org/topic_0610
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+  - term: Phylogeny
+    uri: http://edamontology.org/topic_0084
+  - term: Ecology
+    uri: http://edamontology.org/topic_0610
 validated: 1
 version: []

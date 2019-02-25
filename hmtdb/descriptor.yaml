@@ -3,45 +3,45 @@ additionDate: '2018-02-08T12:10:44Z'
 biotoolsCURIE: biotools:hmtdb
 biotoolsID: hmtdb
 collectionID:
-- RD-connect
-- Rare Disease
+  - RD-connect
+  - Rare Disease
 cost: null
 credit:
-- email: null
-  name: ELIXIR-ITA-BARI
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: hmtdb.update@uniba.it
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://www.hmtdb.uniba.it/hmdb/contacts
+  - email: null
+    name: ELIXIR-ITA-BARI
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: hmtdb.update@uniba.it
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.hmtdb.uniba.it/hmdb/contacts
 description: Database of human mitochondrial genomes from primary INSDC databases,
   personal submissions and application of MtoolBox to NGS data.
 documentation: []
 download: []
 editPermission:
   authors:
-  - lmatalonga
+    - lmatalonga
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence database search
-    uri: http://edamontology.org/operation_0338
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence database search
+        uri: http://edamontology.org/operation_0338
+    output: []
 homepage: http://www.hmtdb.uniba.it/
 homepage_status: 0
 language: []
@@ -54,28 +54,28 @@ operatingSystem: []
 otherID: []
 owner: roberto.preste
 publication:
-- doi: 10.1093/nar/gkw1066
-  metadata: null
-  pmcid: PMC5210550
-  pmid: '27899581'
-  type: Primary
-  version: null
-- doi: 10.1093/nar/gkr1086
-  metadata: null
-  pmcid: PMC3245114
-  pmid: '22139932'
-  type: Other
-  version: null
-- doi: 10.1186/1471-2105-6-S4-S4
-  metadata: null
-  pmcid: PMC1866381
-  pmid: '16351753'
-  type: Other
-  version: null
+  - doi: 10.1093/nar/gkw1066
+    metadata: null
+    pmcid: PMC5210550
+    pmid: '27899581'
+    type: Primary
+    version: null
+  - doi: 10.1093/nar/gkr1086
+    metadata: null
+    pmcid: PMC3245114
+    pmid: '22139932'
+    type: Other
+    version: null
+  - doi: 10.1186/1471-2105-6-S4-S4
+    metadata: null
+    pmcid: PMC1866381
+    pmid: '16351753'
+    type: Other
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: DNA
-  uri: http://edamontology.org/topic_0654
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
 validated: 1
 version: []

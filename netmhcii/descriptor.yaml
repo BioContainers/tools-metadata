@@ -5,28 +5,28 @@ biotoolsID: netmhcii
 collectionID: []
 cost: Free of charge (with restrictions)
 credit:
-- email: null
-  name: CBS
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: mniel@cbs.dtu.dk
-  name: Morten Nielsen
-  note: null
-  orcidid: http://orcid.org/0000-0001-7885-4311
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: CBS
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: mniel@cbs.dtu.dk
+    name: Morten Nielsen
+    note: null
+    orcidid: http://orcid.org/0000-0001-7885-4311
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Predict binding of peptides to HLA-DR, HLA-DQ, HLA-DP and mouse MHC class
   II alleles using articial neuron networks.
 documentation:
-- note: null
-  type: General
-  url: http://www.cbs.dtu.dk/services/NetMHCII/instructions.php
+  - note: null
+    type: General
+    url: http://www.cbs.dtu.dk/services/NetMHCII/instructions.php
 download: []
 editPermission:
   authors: []
@@ -35,57 +35,57 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Sequence
-      uri: http://edamontology.org/data_2044
-    format:
-    - term: FASTA
-      uri: http://edamontology.org/format_1929
-  note: Predicts binding of peptides to HLA-DR, HLA-DQ, HLA-DP and mouse MHC class
-    II alleles
-  operation:
-  - term: Epitope mapping
-    uri: http://edamontology.org/operation_0416
-  - term: Protein binding site prediction
-    uri: http://edamontology.org/operation_2575
-  output:
-  - data:
-      term: Protein features
-      uri: http://edamontology.org/data_1277
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+    note: Predicts binding of peptides to HLA-DR, HLA-DQ, HLA-DP and mouse MHC class
+      II alleles
+    operation:
+      - term: Epitope mapping
+        uri: http://edamontology.org/operation_0416
+      - term: Protein binding site prediction
+        uri: http://edamontology.org/operation_2575
+    output:
+      - data:
+          term: Protein features
+          uri: http://edamontology.org/data_1277
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
 homepage: http://www.cbs.dtu.dk/services/NetMHCII/
 homepage_status: 0
 language: []
 lastUpdate: '2018-12-29T14:17:14Z'
 license: Other
 link:
-- note: null
-  type: Registry
-  url: http://www.cbs.dtu.dk/services
+  - note: null
+    type: Registry
+    url: http://www.cbs.dtu.dk/services
 maturity: Emerging
 name: NetMHCII
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: CBS
 publication:
-- doi: 10.1186/1471-2105-10-296
-  metadata: null
-  pmcid: PMC2753847
-  pmid: '19765293'
-  type: Primary
-  version: null
+  - doi: 10.1186/1471-2105-10-296
+    metadata: null
+    pmcid: PMC2753847
+    pmid: '19765293'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Web application
+  - Command-line tool
+  - Web application
 topic:
-- term: Protein binding sites
-  uri: http://edamontology.org/topic_3534
+  - term: Protein binding sites
+    uri: http://edamontology.org/topic_3534
 validated: 1
 version:
-- '2.2'
+  - '2.2'

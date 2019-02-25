@@ -3,17 +3,17 @@ additionDate: '2018-02-16T10:11:10Z'
 biotoolsCURIE: biotools:varsome
 biotoolsID: varsome
 collectionID:
-- RD-connect
+  - RD-connect
 cost: null
 credit:
-- email: info@saphetor.com
-  name: Saphetor SA
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: info@saphetor.com
+    name: Saphetor SA
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: A search engine for human genomic variants.
 documentation: []
 download: []
@@ -24,19 +24,19 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Database search
-    uri: http://edamontology.org/operation_2421
-  - term: Service discovery
-    uri: http://edamontology.org/operation_3761
-  - term: Aggregation
-    uri: http://edamontology.org/operation_3436
-  - term: Genetic variation analysis
-    uri: http://edamontology.org/operation_3197
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+      - term: Service discovery
+        uri: http://edamontology.org/operation_3761
+      - term: Aggregation
+        uri: http://edamontology.org/operation_3436
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output: []
 homepage: https://varsome.com/
 homepage_status: 0
 language: []
@@ -49,20 +49,20 @@ operatingSystem: []
 otherID: []
 owner: tomas.kucera
 publication:
-- doi: 10.1101/367359
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1101/367359
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Genetic variation
-  uri: http://edamontology.org/topic_0199
-- term: Human genetics
-  uri: http://edamontology.org/topic_3574
-- term: Data integration and warehousing
-  uri: http://edamontology.org/topic_3366
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: Human genetics
+    uri: http://edamontology.org/topic_3574
+  - term: Data integration and warehousing
+    uri: http://edamontology.org/topic_3366
 validated: 1
 version: []

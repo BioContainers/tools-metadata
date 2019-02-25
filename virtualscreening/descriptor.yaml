@@ -1,111 +1,111 @@
 accessibility:
-- Open access
+  - Open access
 additionDate: '2018-10-18T14:31:58Z'
 biotoolsCURIE: biotools:virtualscreening
 biotoolsID: virtualscreening
 collectionID:
-- BioExcel
+  - BioExcel
 cost: Free of charge
 credit:
-- email: null
-  name: BioExcel Center of Excellence for Computational Biomolecular Research
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole: []
-  url: https://bioexcel.eu
-- email: pau.andrio@bsc.es
-  name: Pau Andrio
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://github.com/bioexcel/virtualscreening
+  - email: null
+    name: BioExcel Center of Excellence for Computational Biomolecular Research
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole: []
+    url: https://bioexcel.eu
+  - email: pau.andrio@bsc.es
+    name: Pau Andrio
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/bioexcel/virtualscreening
 description: VirtualScreening is a Python package inheriting from pymdsetup to perform
   virtual screening on a set of predefined targets.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/bioexcel/virtualscreening/blob/master/README.md
+  - note: null
+    type: General
+    url: https://github.com/bioexcel/virtualscreening/blob/master/README.md
 download:
-- note: VirtualScreening is a Python package inheriting from pymdsetup to perform
-    virtual screening on a set of predefined targets
-  type: Source code
-  url: https://github.com/bioexcel/virtualscreening
-  version: null
+  - note: VirtualScreening is a Python package inheriting from pymdsetup to perform
+      virtual screening on a set of predefined targets
+    type: Source code
+    url: https://github.com/bioexcel/virtualscreening
+    version: null
 editPermission:
   authors:
-  - gelpi@ub.edu
+    - gelpi@ub.edu
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Protein structure
-      uri: http://edamontology.org/data_1460
-    format:
-    - term: PDB
-      uri: http://edamontology.org/format_1476
-  - data:
-      term: Structure
-      uri: http://edamontology.org/data_0883
-    format:
-    - term: Mol2
-      uri: http://edamontology.org/format_3816
-  note: null
-  operation:
-  - term: Prediction and recognition
-    uri: http://edamontology.org/operation_2423
-  - term: Optimisation and refinement
-    uri: http://edamontology.org/operation_2425
-  - term: Modelling and simulation
-    uri: http://edamontology.org/operation_2426
-  output:
-  - data:
-      term: Protein structure
-      uri: http://edamontology.org/data_1460
-    format:
-    - term: PDB
-      uri: http://edamontology.org/format_1476
+  - cmd: null
+    input:
+      - data:
+          term: Protein structure
+          uri: http://edamontology.org/data_1460
+        format:
+          - term: PDB
+            uri: http://edamontology.org/format_1476
+      - data:
+          term: Structure
+          uri: http://edamontology.org/data_0883
+        format:
+          - term: Mol2
+            uri: http://edamontology.org/format_3816
+    note: null
+    operation:
+      - term: Prediction and recognition
+        uri: http://edamontology.org/operation_2423
+      - term: Optimisation and refinement
+        uri: http://edamontology.org/operation_2425
+      - term: Modelling and simulation
+        uri: http://edamontology.org/operation_2426
+    output:
+      - data:
+          term: Protein structure
+          uri: http://edamontology.org/data_1460
+        format:
+          - term: PDB
+            uri: http://edamontology.org/format_1476
 homepage: https://github.com/bioexcel/virtualscreening
 homepage_status: 0
 language:
-- Python
+  - Python
 lastUpdate: '2018-12-10T12:59:01Z'
 license: Apache-2.0
 link:
-- note: VirtualScreening is a Python package inheriting from pymdsetup to perform
-    virtual screening on a set of predefined targets
-  type: Repository
-  url: https://github.com/bioexcel/virtualscreening
+  - note: VirtualScreening is a Python package inheriting from pymdsetup to perform
+      virtual screening on a set of predefined targets
+    type: Repository
+    url: https://github.com/bioexcel/virtualscreening
 maturity: Emerging
 name: BioExcel Virtual Screening pipeline
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: adam.hospital@irbbarcelona.org
 publication:
-- doi: 10.5281/zenodo.263965
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Other
-  version: null
+  - doi: 10.5281/zenodo.263965
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
 toolType:
-- Workflow
+  - Workflow
 topic:
-- term: Computational biology
-  uri: http://edamontology.org/topic_3307
-- term: Chemistry
-  uri: http://edamontology.org/topic_3314
-- term: Biomedical science
-  uri: http://edamontology.org/topic_3344
+  - term: Computational biology
+    uri: http://edamontology.org/topic_3307
+  - term: Chemistry
+    uri: http://edamontology.org/topic_3314
+  - term: Biomedical science
+    uri: http://edamontology.org/topic_3344
 validated: 1
 version:
-- Alpha
+  - Alpha

@@ -5,14 +5,14 @@ biotoolsID: oritfinder
 collectionID: []
 cost: null
 credit:
-- email: hyou@sjtu.edu.cn
-  name: Hong-Yu OU
-  note: null
-  orcidid: https://orcid.org/0000-0001-9439-1660
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: hyou@sjtu.edu.cn
+    name: Hong-Yu OU
+    note: null
+    orcidid: https://orcid.org/0000-0001-9439-1660
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Rapid identification of the origin of transfer site (oriT) of a conjugative
   plasmid or chromosome-borne integrative and conjugative element. With a combination
   of similarity searches for the oriTDB-archived oriT nucleotide sequences and the
@@ -20,14 +20,14 @@ description: Rapid identification of the origin of transfer site (oriT) of a con
   the oriT region with high accuracy in the DNA sequence of a bacterial plasmid or
   chromosome in minutes.
 documentation:
-- note: null
-  type: Training material
-  url: http://202.120.12.134/oriTfinder/tutorial.html
+  - note: null
+    type: Training material
+    url: http://202.120.12.134/oriTfinder/tutorial.html
 download:
-- note: Only runs on Linux
-  type: Source package
-  url: http://202.120.12.134/oriTfinder/oriTfinder_linux.tar.gz
-  version: null
+  - note: Only runs on Linux
+    type: Source package
+    url: http://202.120.12.134/oriTfinder/oriTfinder_linux.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -35,44 +35,44 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Antimicrobial resistance prediction
-    uri: http://edamontology.org/operation_3482
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Antimicrobial resistance prediction
+        uri: http://edamontology.org/operation_3482
+    output: []
 homepage: http://bioinfo-mml.sjtu.edu.cn/oriTfinder
 homepage_status: 0
 language:
-- JavaScript
-- Perl
+  - JavaScript
+  - Perl
 lastUpdate: '2018-12-16T16:14:19Z'
 license: null
 link: []
 maturity: null
 name: oriTfinder
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1093/nar/gky352
-  metadata: null
-  pmcid: null
-  pmid: '29733379'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gky352
+    metadata: null
+    pmcid: null
+    pmid: '29733379'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Web application
+  - Command-line tool
+  - Web application
 topic:
-- term: Mobile genetic elements
-  uri: http://edamontology.org/topic_0798
-- term: Transcription factors and regulatory sites
-  uri: http://edamontology.org/topic_0749
+  - term: Mobile genetic elements
+    uri: http://edamontology.org/topic_0798
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
 validated: 1
 version:
-- '1.1'
+  - '1.1'

@@ -3,38 +3,38 @@ additionDate: '2015-10-07T21:23:47Z'
 biotoolsCURIE: biotools:pseudocap
 biotoolsID: pseudocap
 collectionID:
-- DRCAT
+  - DRCAT
 cost: null
 credit:
-- email: null
-  name: DRCAT
-  note: null
-  orcidid: null
-  typeEntity: Project
-  typeRole:
-  - Documentor
-  url: null
-- email: pseudocap-mail@sfu.ca
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: null
-  name: Geoffrey Winsor
-  note: null
-  orcidid: http://orcid.org/0000-0001-6848-1638
-  typeEntity: Person
-  typeRole:
-  - Contributor
-  url: null
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: pseudocap-mail@sfu.ca
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: null
+    name: Geoffrey Winsor
+    note: null
+    orcidid: http://orcid.org/0000-0001-6848-1638
+    typeEntity: Person
+    typeRole:
+      - Contributor
+    url: null
 description: Pseudomonas genome database.
 documentation:
-- note: null
-  type: General
-  url: http://www.pseudomonas.com/pseudocap
+  - note: null
+    type: General
+    url: http://www.pseudomonas.com/pseudocap
 download: []
 editPermission:
   authors: []
@@ -43,40 +43,40 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Locus ID (PseudoCAP)
-      uri: http://edamontology.org/data_2744
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Gene report
-      uri: http://edamontology.org/data_0916
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-- cmd: null
-  input:
-  - data:
-      term: gi number
-      uri: http://edamontology.org/data_2314
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Gene report
-      uri: http://edamontology.org/data_0916
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Locus ID (PseudoCAP)
+          uri: http://edamontology.org/data_2744
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: gi number
+          uri: http://edamontology.org/data_2314
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
 homepage: http://www.pseudomonas.com/
 homepage_status: 0
 language: []
@@ -86,22 +86,22 @@ link: []
 maturity: null
 name: PseudoCAP pseudomonas genome database
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: DRCAT
 publication:
-- doi: 10.1093/nar/gkq869
-  metadata: null
-  pmcid: PMC3013766
-  pmid: '20929876'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkq869
+    metadata: null
+    pmcid: PMC3013766
+    pmid: '20929876'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Model organisms
-  uri: http://edamontology.org/topic_0621
+  - term: Model organisms
+    uri: http://edamontology.org/topic_0621
 validated: 1
 version: []

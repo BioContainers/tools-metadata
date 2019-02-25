@@ -5,24 +5,24 @@ biotoolsID: vasp
 collectionID: []
 cost: null
 credit:
-- email: vasp.materialphysik@univie.ac.at
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: vasp.materialphysik@univie.ac.at
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Vienna Ab initio Simulation Package. Tool for comparison of binding sites
   in aligned protein structures. Uses solid volumes to represent protein shape and
   the shape of surface cavities, clefts and tunnels that are defined with other methods.
 documentation:
-- note: null
-  type: General
-  url: http://cms.mpi.univie.ac.at/wiki/index.php/The_VASP_Manual
-- note: null
-  type: Manual
-  url: https://www.vasp.at/index.php/documentation
+  - note: null
+    type: General
+    url: http://cms.mpi.univie.ac.at/wiki/index.php/The_VASP_Manual
+  - note: null
+    type: Manual
+    url: https://www.vasp.at/index.php/documentation
 download: []
 editPermission:
   authors: []
@@ -31,45 +31,45 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Molecular surface calculation
-    uri: http://edamontology.org/operation_0387
-  - term: Scaffolding
-    uri: http://edamontology.org/operation_3216
-  - term: Protein-ligand docking
-    uri: http://edamontology.org/operation_0482
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Molecular surface calculation
+        uri: http://edamontology.org/operation_0387
+      - term: Scaffolding
+        uri: http://edamontology.org/operation_3216
+      - term: Protein-ligand docking
+        uri: http://edamontology.org/operation_0482
+    output: []
 homepage: https://www.vasp.at
 homepage_status: 0
 language:
-- C++
-- C
+  - C++
+  - C
 lastUpdate: '2018-12-10T12:59:01Z'
 license: null
 link: []
 maturity: null
 name: VASP
 operatingSystem:
-- Windows
+  - Windows
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1371/JOURNAL.PCBI.1000881
-  metadata: null
-  pmcid: PMC2930297
-  pmid: '20814581'
-  type: Primary
-  version: null
+  - doi: 10.1371/JOURNAL.PCBI.1000881
+    metadata: null
+    pmcid: PMC2930297
+    pmid: '20814581'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Protein structural motifs and surfaces
-  uri: http://edamontology.org/topic_0166
-- term: Protein folds and structural domains
-  uri: http://edamontology.org/topic_0736
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+  - term: Protein folds and structural domains
+    uri: http://edamontology.org/topic_0736
 validated: 1
 version:
-- 5.4.4
+  - 5.4.4

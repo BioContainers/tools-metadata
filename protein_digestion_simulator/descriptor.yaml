@@ -5,21 +5,21 @@ biotoolsID: protein_digestion_simulator
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://omics.pnl.gov/
-- email: null
-  name: Richard D. Smith
-  note: null
-  orcidid: http://orcid.org/0000-0002-2381-2349
-  typeEntity: Person
-  typeRole: []
-  url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://omics.pnl.gov/
+  - email: null
+    name: Richard D. Smith
+    note: null
+    orcidid: http://orcid.org/0000-0002-2381-2349
+    typeEntity: Person
+    typeRole: []
+    url: null
 description: The Protein Digestion Simulator can be used to read a text file containing
   protein or peptide sequences (FASTA format or delimited text) then output the data
   to a tab-delimited file. It can optionally digest the input sequences using trypsin,
@@ -34,45 +34,45 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Protein sequence analysis
-    uri: http://edamontology.org/operation_2479
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
 homepage: http://omics.pnl.gov/software/protein-digestion-simulator
 homepage_status: 0
 language:
-- Visual Basic
+  - Visual Basic
 lastUpdate: '2018-12-16T14:47:44Z'
 license: null
 link:
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/protein-digestion-simulator-2-2-4486-read-text-file-protein-sequences-output-data-tab-delimited-file.html
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/protein-digestion-simulator-2-2-4486-read-text-file-protein-sequences-output-data-tab-delimited-file.html
 maturity: null
 name: Protein Digestion Simulator
 operatingSystem:
-- Windows
+  - Windows
 otherID: []
 owner: mbs_import
 publication:
-- doi: 10.1021/ac060143p
-  metadata: null
-  pmcid: PMC1924966
-  pmid: '16841926'
-  type: Primary
-  version: null
+  - doi: 10.1021/ac060143p
+    metadata: null
+    pmcid: PMC1924966
+    pmid: '16841926'
+    type: Primary
+    version: null
 toolType:
-- Desktop application
+  - Desktop application
 topic:
-- term: Sequences
-  uri: http://edamontology.org/topic_0080
-- term: Peptides
-  uri: http://edamontology.org/topic_0154
-- term: Enzymes
-  uri: http://edamontology.org/topic_0821
+  - term: Sequences
+    uri: http://edamontology.org/topic_0080
+  - term: Peptides
+    uri: http://edamontology.org/topic_0154
+  - term: Enzymes
+    uri: http://edamontology.org/topic_0821
 validated: 1
 version:
-- 2.2.5679
+  - 2.2.5679

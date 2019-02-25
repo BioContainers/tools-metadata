@@ -5,20 +5,20 @@ biotoolsID: mdsine
 collectionID: []
 cost: null
 credit:
-- email: ggerber@bwh.harvard.edu
-  name: Georg K. GerberEmail author
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: ggerber@bwh.harvard.edu
+    name: Georg K. GerberEmail author
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Microbial Dynamical Systems INference Engine for microbiome time-series
   analyses.
 documentation:
-- note: null
-  type: General
-  url: https://bitbucket.org/MDSINE/mdsine/src/a5384a34f4c75402aee9bdb8b90db3d70052ac73/README.md?at=master&fileviewer=file-view-default
+  - note: null
+    type: General
+    url: https://bitbucket.org/MDSINE/mdsine/src/a5384a34f4c75402aee9bdb8b90db3d70052ac73/README.md?at=master&fileviewer=file-view-default
 download: []
 editPermission:
   authors: []
@@ -27,13 +27,13 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Statistical inference
-    uri: http://edamontology.org/operation_3658
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Statistical inference
+        uri: http://edamontology.org/operation_3658
+    output: []
 homepage: https://bitbucket.org/MDSINE/mdsine/
 homepage_status: 0
 language: []
@@ -43,57 +43,57 @@ link: []
 maturity: null
 name: MDSINE
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1186/s13059-016-0980-6
-  metadata:
-    abstract: © 2016 Bucci et al. Predicting dynamics of host-microbial ecosystems
-      is crucial for the rational design of bacteriotherapies. We present MDSINE,
-      a suite of algorithms for inferring dynamical systems models from microbiome
-      time-series data and predicting temporal behaviors. Using simulated data, we
-      demonstrate that MDSINE significantly outperforms the existing inference method.
-      We then show MDSINE's utility on two new gnotobiotic mice datasets, investigating
-      infection with Clostridium difficile and an immune-modulatory probiotic. Using
-      these datasets, we demonstrate new capabilities, including accurate forecasting
-      of microbial dynamics, prediction of stable sub-communities that inhibit pathogen
-      growth, and identification of bacteria most crucial to community integrity in
-      response to perturbations.
-    authors:
-    - name: Bucci V.
-    - name: Tzen B.
-    - name: Li N.
-    - name: Simmons M.
-    - name: Tanoue T.
-    - name: Bogart E.
-    - name: Deng L.
-    - name: Yeliseyev V.
-    - name: Delaney M.L.
-    - name: Liu Q.
-    - name: Olle B.
-    - name: Stein R.R.
-    - name: Honda K.
-    - name: Bry L.
-    - name: Gerber G.K.
-    citationCount: 29
-    date: '2016-06-03T00:00:00Z'
-    journal: Genome Biology
-    title: 'MDSINE: Microbial Dynamical Systems INference Engine for microbiome time-series
-      analyses'
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1186/s13059-016-0980-6
+    metadata:
+      abstract: "\xA9 2016 Bucci et al. Predicting dynamics of host-microbial ecosystems\
+        \ is crucial for the rational design of bacteriotherapies. We present MDSINE,\
+        \ a suite of algorithms for inferring dynamical systems models from microbiome\
+        \ time-series data and predicting temporal behaviors. Using simulated data,\
+        \ we demonstrate that MDSINE significantly outperforms the existing inference\
+        \ method. We then show MDSINE's utility on two new gnotobiotic mice datasets,\
+        \ investigating infection with Clostridium difficile and an immune-modulatory\
+        \ probiotic. Using these datasets, we demonstrate new capabilities, including\
+        \ accurate forecasting of microbial dynamics, prediction of stable sub-communities\
+        \ that inhibit pathogen growth, and identification of bacteria most crucial\
+        \ to community integrity in response to perturbations."
+      authors:
+        - name: Bucci V.
+        - name: Tzen B.
+        - name: Li N.
+        - name: Simmons M.
+        - name: Tanoue T.
+        - name: Bogart E.
+        - name: Deng L.
+        - name: Yeliseyev V.
+        - name: Delaney M.L.
+        - name: Liu Q.
+        - name: Olle B.
+        - name: Stein R.R.
+        - name: Honda K.
+        - name: Bry L.
+        - name: Gerber G.K.
+      citationCount: 29
+      date: '2016-06-03T00:00:00Z'
+      journal: Genome Biology
+      title: 'MDSINE: Microbial Dynamical Systems INference Engine for microbiome
+        time-series analyses'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Microbial ecology
-  uri: http://edamontology.org/topic_3697
-- term: Population genetics
-  uri: http://edamontology.org/topic_3056
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
+  - term: Microbial ecology
+    uri: http://edamontology.org/topic_3697
+  - term: Population genetics
+    uri: http://edamontology.org/topic_3056
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
 validated: 1
 version: []

@@ -5,32 +5,32 @@ biotoolsID: mutationdistiller
 collectionID: []
 cost: null
 credit:
-- email: daniela.hombach@charite.de
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: dominik.seelow@charite.de
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: daniela.hombach@charite.de
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: dominik.seelow@charite.de
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: 'Make the analysis of Next-Generation Sequencing data simple. Depending
   on your background and interest, it offers various modes with optimised settings:
   Clinical (HPO), Clinical (Gene Panels), Gene Function and Basic Search.'
 documentation:
-- note: null
-  type: Manual
-  url: https://www.mutationdistiller.org/MutationDistiller/info/documentation.html
-- note: null
-  type: Training material
-  url: https://www.mutationdistiller.org/MutationDistiller/info/tutorial.html
+  - note: null
+    type: Manual
+    url: https://www.mutationdistiller.org/MutationDistiller/info/documentation.html
+  - note: null
+    type: Training material
+    url: https://www.mutationdistiller.org/MutationDistiller/info/tutorial.html
 download: []
 editPermission:
   authors: []
@@ -39,23 +39,23 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Sequence set
-      uri: http://edamontology.org/data_0850
-    format:
-    - term: VCF
-      uri: http://edamontology.org/format_3016
-  note: null
-  operation:
-  - term: Enrichment analysis
-    uri: http://edamontology.org/operation_3501
-  - term: Variant calling
-    uri: http://edamontology.org/operation_3227
-  - term: Expression analysis
-    uri: http://edamontology.org/operation_2495
-  output: []
+  - cmd: null
+    input:
+      - data:
+          term: Sequence set
+          uri: http://edamontology.org/data_0850
+        format:
+          - term: VCF
+            uri: http://edamontology.org/format_3016
+    note: null
+    operation:
+      - term: Enrichment analysis
+        uri: http://edamontology.org/operation_3501
+      - term: Variant calling
+        uri: http://edamontology.org/operation_3227
+      - term: Expression analysis
+        uri: http://edamontology.org/operation_2495
+    output: []
 homepage: https://www.mutationdistiller.org/
 homepage_status: 0
 language: []
@@ -65,21 +65,21 @@ link: []
 maturity: null
 name: MutationDistiller
 operatingSystem:
-- Windows
-- Mac
+  - Windows
+  - Mac
 otherID: []
 owner: aotamendi.1
 publication: []
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
-- term: Genetic variation
-  uri: http://edamontology.org/topic_0199
-- term: Gene expression
-  uri: http://edamontology.org/topic_0203
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
 validated: 1
 version: []

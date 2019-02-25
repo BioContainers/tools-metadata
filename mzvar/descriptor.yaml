@@ -5,21 +5,21 @@ biotoolsID: mzvar
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: SIB Swiss Institute of Bioinformatics
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole: []
-  url: null
-- email: Thibault.Robin@sib.swiss
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: SIB Swiss Institute of Bioinformatics
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole: []
+    url: null
+  - email: Thibault.Robin@sib.swiss
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: MzVar is a Java tool allowing the compilation of customized variant protein
   and peptide databases in the FASTA format for database searching of MS/MS data,
   using a VCF file as variant input and a FASTA file as transcript input. The tool
@@ -34,41 +34,41 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Nucleic acid features
-      uri: http://edamontology.org/data_1276
-    format:
-    - term: VCF
-      uri: http://edamontology.org/format_3016
-  - data:
-      term: Sequence set (nucleic acid)
-      uri: http://edamontology.org/data_1234
-    format:
-    - term: FASTA
-      uri: http://edamontology.org/format_1929
-  note: null
-  operation:
-  - term: Spectral analysis
-    uri: http://edamontology.org/operation_3214
-  - term: Protein identification
-    uri: http://edamontology.org/operation_3767
-  - term: Protein sequence analysis
-    uri: http://edamontology.org/operation_2479
-  - term: Genetic variation analysis
-    uri: http://edamontology.org/operation_3197
-  output:
-  - data:
-      term: Sequence set
-      uri: http://edamontology.org/data_0850
-    format:
-    - term: FASTA
-      uri: http://edamontology.org/format_1929
+  - cmd: null
+    input:
+      - data:
+          term: Nucleic acid features
+          uri: http://edamontology.org/data_1276
+        format:
+          - term: VCF
+            uri: http://edamontology.org/format_3016
+      - data:
+          term: Sequence set (nucleic acid)
+          uri: http://edamontology.org/data_1234
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+    note: null
+    operation:
+      - term: Spectral analysis
+        uri: http://edamontology.org/operation_3214
+      - term: Protein identification
+        uri: http://edamontology.org/operation_3767
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output:
+      - data:
+          term: Sequence set
+          uri: http://edamontology.org/data_0850
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
 homepage: https://bitbucket.org/sib-pig/mzvar-public/src/master/
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2018-12-10T12:59:01Z'
 license: null
 link: []
@@ -78,19 +78,19 @@ operatingSystem: []
 otherID: []
 owner: SIB
 publication:
-- doi: null
-  metadata: null
-  pmcid: null
-  pmid: '30175587'
-  type: null
-  version: null
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '30175587'
+    type: null
+    version: null
 toolType:
-- Command-line tool
-- Web application
+  - Command-line tool
+  - Web application
 topic:
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
 validated: 1
 version: []

@@ -5,27 +5,27 @@ biotoolsID: lobo
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: ELIXIR-ITA-PADOVA
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: silvio.tosatto@unipd.it
-  name: Silvio Tosatto
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://protein.bio.unipd.it/lobo/
+  - email: null
+    name: ELIXIR-ITA-PADOVA
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: silvio.tosatto@unipd.it
+    name: Silvio Tosatto
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://protein.bio.unipd.it/lobo/
 description: Loop modelling server for protein structures.
 documentation:
-- note: null
-  type: General
-  url: http://protein.cribi.unipd.it/lobo/help.html
+  - note: null
+    type: General
+    url: http://protein.cribi.unipd.it/lobo/help.html
 download: []
 editPermission:
   authors: []
@@ -34,13 +34,13 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Protein modelling (loops)
-    uri: http://edamontology.org/operation_0481
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein modelling (loops)
+        uri: http://edamontology.org/operation_0481
+    output: []
 homepage: http://protein.bio.unipd.it/lobo/
 homepage_status: 0
 language: []
@@ -50,43 +50,44 @@ link: []
 maturity: null
 name: LOBO
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-ITA-PADOVA
 publication:
-- doi: 10.1093/protein/15.4.279
-  metadata:
-    abstract: We describe a fast ab initio method for modeling local segments in protein
-      structures. The algorithm is based on a divide and conquer approach and uses
-      a database of precalculated look-up tables, which represent a large set of possible
-      conformations for loop segments of variable length. The target loop is recursively
-      decomposed until the resulting conformations are small enough to be compiled
-      analytically. The algorithm, which is not restricted to any specific loop length,
-      generates a ranked set of loop conformations in 20-180 s on a desktop PC. The
-      prediction quality is evaluated in terms of global RMSD. Depending on loop length
-      the top prediction varies between 1.06 Å RMSD for three-residue loops and 3.72
-      Å RMSD for eight-residue loops. Due to its speed the method may also be useful
-      to generate alternative starting conformations for complex simulations.
-    authors:
-    - name: Tosatto S.C.E.
-    - name: Bindewald E.
-    - name: Hesser J.
-    - name: Manner R.
-    citationCount: 61
-    date: '2002-05-30T00:00:00Z'
-    journal: Protein Engineering
-    title: A divide and conquer approach to fast loop modeling
-  pmcid: null
-  pmid: '11983928'
-  type: Primary
-  version: null
+  - doi: 10.1093/protein/15.4.279
+    metadata:
+      abstract: "We describe a fast ab initio method for modeling local segments in\
+        \ protein structures. The algorithm is based on a divide and conquer approach\
+        \ and uses a database of precalculated look-up tables, which represent a large\
+        \ set of possible conformations for loop segments of variable length. The\
+        \ target loop is recursively decomposed until the resulting conformations\
+        \ are small enough to be compiled analytically. The algorithm, which is not\
+        \ restricted to any specific loop length, generates a ranked set of loop conformations\
+        \ in 20-180 s on a desktop PC. The prediction quality is evaluated in terms\
+        \ of global RMSD. Depending on loop length the top prediction varies between\
+        \ 1.06 \xC5 RMSD for three-residue loops and 3.72 \xC5 RMSD for eight-residue\
+        \ loops. Due to its speed the method may also be useful to generate alternative\
+        \ starting conformations for complex simulations."
+      authors:
+        - name: Tosatto S.C.E.
+        - name: Bindewald E.
+        - name: Hesser J.
+        - name: Manner R.
+      citationCount: 61
+      date: '2002-05-30T00:00:00Z'
+      journal: Protein Engineering
+      title: A divide and conquer approach to fast loop modeling
+    pmcid: null
+    pmid: '11983928'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Structure prediction
-  uri: http://edamontology.org/topic_0082
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
 validated: 1
 version:
-- '1.2'
+  - '1.2'

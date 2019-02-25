@@ -5,22 +5,22 @@ biotoolsID: microscope
 collectionID: []
 cost: null
 credit:
-- email: b.khomtchouk@med.miami.edu
-  name: Bohdan B. Khomtchouk
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: b.khomtchouk@med.miami.edu
+    name: Bohdan B. Khomtchouk
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: MicroScope is a user-friendly ChIP-seq and RNA-seq software suite for
   the interactive visualization and analysis of genomic data and includes integrated
   features to support differential expression analysis, interactive heatmap production,
   principal component analysis, gene ontology analysis, and dynamic network analysis.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/Bohdan-Khomtchouk/Microscope/blob/master/README.md
+  - note: null
+    type: General
+    url: https://github.com/Bohdan-Khomtchouk/Microscope/blob/master/README.md
 download: []
 editPermission:
   authors: []
@@ -29,47 +29,47 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence analysis
-    uri: http://edamontology.org/operation_2403
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+    output: []
 homepage: http://microscopebioinformatics.org/
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:01Z'
 license: GPL-3.0
 link:
-- note: null
-  type: Repository
-  url: https://github.com/Bohdan-Khomtchouk/Microscope
-- note: null
-  type: Issue tracker
-  url: https://github.com/Bohdan-Khomtchouk/Microscope/issues
+  - note: null
+    type: Repository
+    url: https://github.com/Bohdan-Khomtchouk/Microscope
+  - note: null
+    type: Issue tracker
+    url: https://github.com/Bohdan-Khomtchouk/Microscope/issues
 maturity: null
 name: MicroScope
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: daniel_stefan
 publication:
-- doi: 10.1186/s12859-016-1260-x
-  metadata: null
-  pmcid: PMC5034416
-  pmid: '27659774'
-  type: Primary
-  version: null
+  - doi: 10.1186/s12859-016-1260-x
+    metadata: null
+    pmcid: PMC5034416
+    pmid: '27659774'
+    type: Primary
+    version: null
 toolType:
-- Suite
+  - Suite
 topic:
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
-- term: RNA
-  uri: http://edamontology.org/topic_0099
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
 validated: 1
 version: []

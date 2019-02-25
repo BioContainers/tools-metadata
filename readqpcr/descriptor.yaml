@@ -3,28 +3,28 @@ additionDate: '2017-01-17T15:01:38Z'
 biotoolsCURIE: biotools:readqpcr
 biotoolsID: readqpcr
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: j.perkins@ucl.ac.uk
-  name: James Perkins
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: j.perkins@ucl.ac.uk
+    name: James Perkins
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: The package provides functions to read raw RT-qPCR data of different
   platforms.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/ReadqPCR.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/ReadqPCR.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/ReadqPCR_1.20.0.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/ReadqPCR_1.20.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -32,44 +32,44 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Loading
-    uri: http://edamontology.org/operation_1812
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Loading
+        uri: http://edamontology.org/operation_1812
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/ReadqPCR.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-01-09T15:36:34Z'
 license: GPL-3.0
 link:
-- note: null
-  type: Mirror
-  url: http://www.bioconductor.org/packages/release/bioc/html/ReadqPCR.html
+  - note: null
+    type: Mirror
+    url: http://www.bioconductor.org/packages/release/bioc/html/ReadqPCR.html
 maturity: null
 name: ReadqPCR
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1186/1471-2164-13-296
-  metadata: null
-  pmcid: PMC3443438
-  pmid: '22748112'
-  type: Primary
-  version: null
+  - doi: 10.1186/1471-2164-13-296
+    metadata: null
+    pmcid: PMC3443438
+    pmid: '22748112'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: PCR experiment
-  uri: http://edamontology.org/topic_3519
+  - term: PCR experiment
+    uri: http://edamontology.org/topic_3519
 validated: 1
 version:
-- 1.20.0
+  - 1.20.0

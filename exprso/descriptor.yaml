@@ -3,36 +3,36 @@ additionDate: '2018-08-12T22:39:44Z'
 biotoolsCURIE: biotools:exprso
 biotoolsID: exprso
 collectionID:
-- CRAN
+  - CRAN
 cost: null
 credit:
-- email: contacttomquinn@gmail.com
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: contacttomquinn@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Rapidly build and deploy supervised machine learning in a high-throughput
   manner. It provides a user-friendly interface that empowers investigators to execute
   state-of-the-art binary and multi-class classification, as well as regression, with
   minimal programming experience necessary.
 documentation:
-- note: null
-  type: Manual
-  url: https://cran.r-project.org/web/packages/exprso/exprso.pdf
-- note: null
-  type: General
-  url: https://cran.r-project.org/web/packages/exprso/vignettes/a_introduction-vignette.html
-- note: null
-  type: General
-  url: https://cran.r-project.org/web/packages/exprso/vignettes/b_advanced-vignette.html
+  - note: null
+    type: Manual
+    url: https://cran.r-project.org/web/packages/exprso/exprso.pdf
+  - note: null
+    type: General
+    url: https://cran.r-project.org/web/packages/exprso/vignettes/a_introduction-vignette.html
+  - note: null
+    type: General
+    url: https://cran.r-project.org/web/packages/exprso/vignettes/b_advanced-vignette.html
 download:
-- note: null
-  type: Source package
-  url: https://cran.r-project.org/src/contrib/exprso_0.4.0.tar.gz
-  version: null
+  - note: null
+    type: Source package
+    url: https://cran.r-project.org/src/contrib/exprso_0.4.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -40,69 +40,70 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Expression data
-      uri: http://edamontology.org/data_2603
-    format: []
-  note: null
-  operation:
-  - term: Classification
-    uri: http://edamontology.org/operation_2990
-  - term: Regression analysis
-    uri: http://edamontology.org/operation_3659
-  output: []
+  - cmd: null
+    input:
+      - data:
+          term: Expression data
+          uri: http://edamontology.org/data_2603
+        format: []
+    note: null
+    operation:
+      - term: Classification
+        uri: http://edamontology.org/operation_2990
+      - term: Regression analysis
+        uri: http://edamontology.org/operation_3659
+    output: []
 homepage: http://github.com/tpq/exprso
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:01Z'
 license: GPL-2.0
 link:
-- note: null
-  type: Repository
-  url: https://cran.r-project.org/web/packages/exprso/
+  - note: null
+    type: Repository
+    url: https://cran.r-project.org/web/packages/exprso/
 maturity: null
 name: exprso
 operatingSystem: []
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.12688/f1000research.9893.2
-  metadata:
-    abstract: © 2017 Quinn T et al. Machine learning plays a major role in many scientific
-      investigations. However, non-expert programmers may struggle to implement the
-      elaborate pipelines necessary to build highly accurate and generalizable models.
-      We introduce exprso, a new R package that is an intuitive machine learning suite
-      designed specifically for non-expert programmers. Built initially for the classification
-      of high-dimensional data, exprso uses an object-oriented framework to encapsulate
-      a number of common analytical methods into a series of interchangeable modules.
-      This includes modules for feature selection, classification, high-throughput
-      parameter grid-searching, elaborate cross-validation schemes (e.g., Monte Carlo
-      and nested cross-validation), ensemble classification, and prediction. In addition,
-      exprso also supports multi-class classification (through the 1-vs-all generalization
-      of binary classifiers) and the prediction of continuous outcomes.
-    authors:
-    - name: Quinn T.
-    - name: Tylee D.
-    - name: Glatt S.
-    citationCount: 3
-    date: '2017-01-01T00:00:00Z'
-    journal: F1000Research
-    title: 'Exprso: An R-package for the rapid implementation of machine learning
-      algorithms'
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.12688/f1000research.9893.2
+    metadata:
+      abstract: "\xA9 2017 Quinn T et al. Machine learning plays a major role in many\
+        \ scientific investigations. However, non-expert programmers may struggle\
+        \ to implement the elaborate pipelines necessary to build highly accurate\
+        \ and generalizable models. We introduce exprso, a new R package that is an\
+        \ intuitive machine learning suite designed specifically for non-expert programmers.\
+        \ Built initially for the classification of high-dimensional data, exprso\
+        \ uses an object-oriented framework to encapsulate a number of common analytical\
+        \ methods into a series of interchangeable modules. This includes modules\
+        \ for feature selection, classification, high-throughput parameter grid-searching,\
+        \ elaborate cross-validation schemes (e.g., Monte Carlo and nested cross-validation),\
+        \ ensemble classification, and prediction. In addition, exprso also supports\
+        \ multi-class classification (through the 1-vs-all generalization of binary\
+        \ classifiers) and the prediction of continuous outcomes."
+      authors:
+        - name: Quinn T.
+        - name: Tylee D.
+        - name: Glatt S.
+      citationCount: 3
+      date: '2017-01-01T00:00:00Z'
+      journal: F1000Research
+      title: 'Exprso: An R-package for the rapid implementation of machine learning
+        algorithms'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: Machine learning
-  uri: http://edamontology.org/topic_3474
-- term: Gene expression
-  uri: http://edamontology.org/topic_0203
+  - term: Machine learning
+    uri: http://edamontology.org/topic_3474
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
 validated: 1
 version:
-- 0.4.0
+  - 0.4.0

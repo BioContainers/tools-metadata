@@ -5,36 +5,36 @@ biotoolsID: rilogo
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: binf.ku.dk
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: pmenzel@gmail.com
-  name: Peter Menzel
-  note: null
-  orcidid: http://orcid.org/0000-0003-4964-0685
-  typeEntity: null
-  typeRole:
-  - Developer
-  url: null
-- email: pmenzel@gmail.com
-  name: Peter Menzel
-  note: null
-  orcidid: http://orcid.org/0000-0003-4964-0685
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: binf.ku.dk
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: pmenzel@gmail.com
+    name: Peter Menzel
+    note: null
+    orcidid: http://orcid.org/0000-0003-4964-0685
+    typeEntity: null
+    typeRole:
+      - Developer
+    url: null
+  - email: pmenzel@gmail.com
+    name: Peter Menzel
+    note: null
+    orcidid: http://orcid.org/0000-0003-4964-0685
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Command line program and web server to create an RNA-RNA interaction
   logo from a pair of RNA sequences or alignments.
 documentation:
-- note: null
-  type: General
-  url: https://rth.dk/resources/rilogo/
+  - note: null
+    type: General
+    url: https://rth.dk/resources/rilogo/
 download: []
 editPermission:
   authors: []
@@ -43,73 +43,73 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Secondary structure alignment (RNA)
-      uri: http://edamontology.org/data_0881
-    format: []
-  note: Visualisation of RNA-RNA interactions SVG image
-  operation:
-  - term: Sequence visualisation
-    uri: http://edamontology.org/operation_0564
-  - term: Structure visualisation
-    uri: http://edamontology.org/operation_0570
-  output:
-  - data:
-      term: RNA secondary structure image
-      uri: http://edamontology.org/data_1708
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Secondary structure alignment (RNA)
+          uri: http://edamontology.org/data_0881
+        format: []
+    note: Visualisation of RNA-RNA interactions SVG image
+    operation:
+      - term: Sequence visualisation
+        uri: http://edamontology.org/operation_0564
+      - term: Structure visualisation
+        uri: http://edamontology.org/operation_0570
+    output:
+      - data:
+          term: RNA secondary structure image
+          uri: http://edamontology.org/data_1708
+        format: []
 homepage: http://rth.dk/resources/rilogo/
 homepage_status: 0
 language:
-- C++
+  - C++
 lastUpdate: '2019-01-09T15:43:43Z'
 license: LGPL-2.1
 link: []
 maturity: null
 name: RILogo
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ptr@binf.ku.dk
 publication:
-- doi: 10.1093/bioinformatics/bts461
-  metadata:
-    abstract: With the increasing amount of newly discovered non-coding RNAs, the
-      interactions between RNA molecules become an increasingly important aspect for
-      characterizing their functionality. Many computational tools have been developed
-      to predict the formation of duplexes between two RNAs, either based on single
-      sequences or alignments of homologous sequences. Here, we present RILogo, a
-      program to visualize inter- and intramolecular base pairing between two RNA
-      molecules. The input for RILogo is a pair of structure-annotated sequences or
-      alignments. In the latter case, RILogo displays the alignments in the form of
-      sequence logos, including the mutual information of base paired columns. We
-      also introduce two novel mutual information based measures that weigh the covariance
-      information by the evolutionary distances of the aligned sequences. We show
-      that the new measures have an increased accuracy compared with previous mutual
-      information measures. © The Author 2012. Published by Oxford University Press.
-      All rights reserved.
-    authors:
-    - name: Menzel P.
-    - name: Seemann S.E.
-    - name: Gorodkin J.
-    citationCount: 8
-    date: '2012-10-01T00:00:00Z'
-    journal: Bioinformatics
-    title: 'RILogo: Visualizing RNA-RNA interactions'
-  pmcid: null
-  pmid: '22826541'
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/bts461
+    metadata:
+      abstract: "With the increasing amount of newly discovered non-coding RNAs, the\
+        \ interactions between RNA molecules become an increasingly important aspect\
+        \ for characterizing their functionality. Many computational tools have been\
+        \ developed to predict the formation of duplexes between two RNAs, either\
+        \ based on single sequences or alignments of homologous sequences. Here, we\
+        \ present RILogo, a program to visualize inter- and intramolecular base pairing\
+        \ between two RNA molecules. The input for RILogo is a pair of structure-annotated\
+        \ sequences or alignments. In the latter case, RILogo displays the alignments\
+        \ in the form of sequence logos, including the mutual information of base\
+        \ paired columns. We also introduce two novel mutual information based measures\
+        \ that weigh the covariance information by the evolutionary distances of the\
+        \ aligned sequences. We show that the new measures have an increased accuracy\
+        \ compared with previous mutual information measures. \xA9 The Author 2012.\
+        \ Published by Oxford University Press. All rights reserved."
+      authors:
+        - name: Menzel P.
+        - name: Seemann S.E.
+        - name: Gorodkin J.
+      citationCount: 8
+      date: '2012-10-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'RILogo: Visualizing RNA-RNA interactions'
+    pmcid: null
+    pmid: '22826541'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Web application
+  - Command-line tool
+  - Web application
 topic:
-- term: Bioinformatics
-  uri: http://edamontology.org/topic_0091
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
 validated: 1
 version:
-- '1.0'
+  - '1.0'

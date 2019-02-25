@@ -5,29 +5,29 @@ biotoolsID: binat
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://dmb.iasi.cnr.it/about_us.php
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://dmb.iasi.cnr.it/about_us.php
 description: Perform network analysis and discover the most significant nodes and
   structures in a network.
 documentation:
-- note: null
-  type: Training material
-  url: http://dmb.iasi.cnr.it/Downloads/BINAT/step-by-step_exercise_files.zip
+  - note: null
+    type: Training material
+    url: http://dmb.iasi.cnr.it/Downloads/BINAT/step-by-step_exercise_files.zip
 download:
-- note: null
-  type: Source package
-  url: http://dmb.iasi.cnr.it/Downloads/BINAT/binat-1.0-src.rar
-  version: null
-- note: null
-  type: Source package
-  url: http://dmb.iasi.cnr.it/Downloads/BINAT/binat-1.0-desktop-client.rar
-  version: null
+  - note: null
+    type: Source package
+    url: http://dmb.iasi.cnr.it/Downloads/BINAT/binat-1.0-src.rar
+    version: null
+  - note: null
+    type: Source package
+    url: http://dmb.iasi.cnr.it/Downloads/BINAT/binat-1.0-desktop-client.rar
+    version: null
 editPermission:
   authors: []
   type: private
@@ -35,17 +35,17 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Enrichment analysis
-    uri: http://edamontology.org/operation_3501
-  - term: Pathway or network analysis
-    uri: http://edamontology.org/operation_2497
-  - term: Network simulation
-    uri: http://edamontology.org/operation_3562
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Enrichment analysis
+        uri: http://edamontology.org/operation_3501
+      - term: Pathway or network analysis
+        uri: http://edamontology.org/operation_2497
+      - term: Network simulation
+        uri: http://edamontology.org/operation_3562
+    output: []
 homepage: http://dmb.iasi.cnr.it/binat.php
 homepage_status: 0
 language: []
@@ -55,21 +55,21 @@ link: []
 maturity: null
 name: BiNAT
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.12688/F1000RESEARCH.5753.1
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.12688/F1000RESEARCH.5753.1
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Plug-in
+  - Plug-in
 topic:
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
 validated: 1
 version: []

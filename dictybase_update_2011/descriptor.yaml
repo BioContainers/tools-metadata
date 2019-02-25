@@ -3,33 +3,33 @@ additionDate: '2017-03-27T08:35:05Z'
 biotoolsCURIE: biotools:dictybase_update_2011
 biotoolsID: dictybase_update_2011
 collectionID:
-- DRCAT
+  - DRCAT
 cost: null
 credit:
-- email: null
-  name: Center for Genetic Medicine, Northwestern University
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: DRCAT
-  note: null
-  orcidid: null
-  typeEntity: Project
-  typeRole:
-  - Documentor
-  url: null
-- email: dictybase@northwestern.edu
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://dictybase.org/db/cgi-bin/dictyBase/suggestion
+  - email: null
+    name: Center for Genetic Medicine, Northwestern University
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: dictybase@northwestern.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://dictybase.org/db/cgi-bin/dictyBase/suggestion
 description: Database for the biology and genomics of the social amoeba Dictyostelium
   discoideum. It provides well integrated, high quality data and tools for Dictyostelium
   discoideum and related species. It houses the complete genome sequence, ESTs, and
@@ -37,9 +37,9 @@ description: Database for the biology and genomics of the social amoeba Dictyost
   to provide accurate gene models and functional annotations, with the goal of fully
   annotating the genome to provide a reference genome in the Amoebozoa clade.
 documentation:
-- note: null
-  type: General
-  url: http://dictybase.org/tutorial/
+  - note: null
+    type: General
+    url: http://dictybase.org/tutorial/
 download: []
 editPermission:
   authors: []
@@ -48,31 +48,31 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Gene ID
-      uri: http://edamontology.org/data_2295
-    format: []
-  note: null
-  operation:
-  - term: Annotation
-    uri: http://edamontology.org/operation_0226
-  - term: Text annotation
-    uri: http://edamontology.org/operation_3778
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  - term: Gene functional annotation
-    uri: http://edamontology.org/operation_3672
-  - term: Genome annotation
-    uri: http://edamontology.org/operation_0362
-  output:
-  - data:
-      term: Gene report
-      uri: http://edamontology.org/data_0916
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Gene ID
+          uri: http://edamontology.org/data_2295
+        format: []
+    note: null
+    operation:
+      - term: Annotation
+        uri: http://edamontology.org/operation_0226
+      - term: Text annotation
+        uri: http://edamontology.org/operation_3778
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+      - term: Gene functional annotation
+        uri: http://edamontology.org/operation_3672
+      - term: Genome annotation
+        uri: http://edamontology.org/operation_0362
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
 homepage: http://www.dictybase.org
 homepage_status: 0
 language: []
@@ -82,36 +82,36 @@ link: []
 maturity: null
 name: dictyBase update 2011
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-EE
 publication:
-- doi: 10.1093/nar/gkq1103
-  metadata: null
-  pmcid: PMC3013695
-  pmid: '21087999'
-  type: Primary
-  version: null
-- doi: 10.1007/978-1-62703-302-2_4
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Other
-  version: null
+  - doi: 10.1093/nar/gkq1103
+    metadata: null
+    pmcid: PMC3013695
+    pmid: '21087999'
+    type: Primary
+    version: null
+  - doi: 10.1007/978-1-62703-302-2_4
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Gene transcripts
-  uri: http://edamontology.org/topic_3512
-- term: Model organisms
-  uri: http://edamontology.org/topic_0621
-- term: Database management
-  uri: http://edamontology.org/topic_3489
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
+  - term: Gene transcripts
+    uri: http://edamontology.org/topic_3512
+  - term: Model organisms
+    uri: http://edamontology.org/topic_0621
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
 validated: 1
 version: []

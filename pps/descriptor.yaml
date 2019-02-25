@@ -5,27 +5,27 @@ biotoolsID: pps
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://www.biocuckoo.org/
-- email: s.cameron@abertay.ac.uk
-  name: Scott Cameron
-  note: null
-  orcidid: http://orcid.org/0000-0002-6600-1298
-  typeEntity: Person
-  typeRole: []
-  url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.biocuckoo.org/
+  - email: s.cameron@abertay.ac.uk
+    name: Scott Cameron
+    note: null
+    orcidid: http://orcid.org/0000-0002-6600-1298
+    typeEntity: Person
+    typeRole: []
+    url: null
 description: PPS (PTMs Peptide Scanner) is a novel software to reveal known or highly
   potential PTM sites in eukaryotic proteins.
 documentation:
-- note: null
-  type: General
-  url: http://pps.biocuckoo.org/faq.php
+  - note: null
+    type: General
+    url: http://pps.biocuckoo.org/faq.php
 download: []
 editPermission:
   authors: []
@@ -34,73 +34,74 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Protein sequence analysis
-    uri: http://edamontology.org/operation_2479
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
 homepage: http://pps.biocuckoo.org/
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2018-12-16T13:33:35Z'
 license: null
 link:
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/pps-1-0-ptms-peptide-scanner.html
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/pps-1-0-ptms-peptide-scanner.html
 maturity: null
 name: PPS
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: mbs_import
 publication:
-- doi: 10.1186/1471-2105-5-79
-  metadata: null
-  pmcid: PMC449700
-  pmid: '15212693'
-  type: Primary
-  version: null
-- doi: null
-  metadata:
-    abstract: 'Phospho.ELM is a manually curated database of eukaryotic phosphorylation
-      sites. The resource includes data collected from published literature as well
-      as high-throughput data sets. The current release of Phospho.ELM (version 7.0,
-      July 2007) contains 4078 phospho-protein sequences covering 12 025 phospho-serine,
-      2362 phospho-threonine and 2083 phospho-tyrosine sites. The entries provide
-      information about the phosphorylated proteins and the exact position of known
-      phosphorylated instances, the kinases responsible for the modification (where
-      known) and links to bibliographic references. The database entries have hyperlinks
-      to easily access further information from UniProt, PubMed, SMART, ELM, MSD as
-      well as links to the protein interaction databases MINT and STRING. A new BLAST
-      search tool, complementary to retrieval by keyword and UniProt accession number,
-      allows users to submit a protein query (by sequence or UniProt accession) to
-      search against the curated data set of phosphorylated peptides. Phospho.ELM
-      is available on line at: http://phospho.elm.eu.org. © 2007 The Author(s).'
-    authors:
-    - name: Diella F.
-    - name: Gould C.M.
-    - name: Chica C.
-    - name: Via A.
-    - name: Gibson T.J.
-    citationCount: 188
-    date: '2008-01-01T00:00:00Z'
-    journal: Nucleic Acids Research
-    title: 'Phospho.ELM: A database of phosphorylation sites - Update 2008'
-  pmcid: null
-  pmid: '17962309'
-  type: null
-  version: null
+  - doi: 10.1186/1471-2105-5-79
+    metadata: null
+    pmcid: PMC449700
+    pmid: '15212693'
+    type: Primary
+    version: null
+  - doi: null
+    metadata:
+      abstract: "Phospho.ELM is a manually curated database of eukaryotic phosphorylation\
+        \ sites. The resource includes data collected from published literature as\
+        \ well as high-throughput data sets. The current release of Phospho.ELM (version\
+        \ 7.0, July 2007) contains 4078 phospho-protein sequences covering 12 025\
+        \ phospho-serine, 2362 phospho-threonine and 2083 phospho-tyrosine sites.\
+        \ The entries provide information about the phosphorylated proteins and the\
+        \ exact position of known phosphorylated instances, the kinases responsible\
+        \ for the modification (where known) and links to bibliographic references.\
+        \ The database entries have hyperlinks to easily access further information\
+        \ from UniProt, PubMed, SMART, ELM, MSD as well as links to the protein interaction\
+        \ databases MINT and STRING. A new BLAST search tool, complementary to retrieval\
+        \ by keyword and UniProt accession number, allows users to submit a protein\
+        \ query (by sequence or UniProt accession) to search against the curated data\
+        \ set of phosphorylated peptides. Phospho.ELM is available on line at: http://phospho.elm.eu.org.\
+        \ \xA9 2007 The Author(s)."
+      authors:
+        - name: Diella F.
+        - name: Gould C.M.
+        - name: Chica C.
+        - name: Via A.
+        - name: Gibson T.J.
+      citationCount: 188
+      date: '2008-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'Phospho.ELM: A database of phosphorylation sites - Update 2008'
+    pmcid: null
+    pmid: '17962309'
+    type: null
+    version: null
 toolType:
-- Desktop application
+  - Desktop application
 topic:
-- term: Proteins
-  uri: http://edamontology.org/topic_0078
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
 validated: 1
 version:
-- '1.0'
+  - '1.0'

@@ -5,22 +5,22 @@ biotoolsID: bat
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://www.bioinf.uni-leipzig.de/Software/BAT/contact/
-- email: helene@bioinf.uni-leipzig.de
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.bioinf.uni-leipzig.de/Software/BAT/contact/
+  - email: helene@bioinf.uni-leipzig.de
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Bisulfite Analysis Toolkit. It facilitates the analysis of bisulfite
   sequencing data. It covers the essential analysis steps of read alignment, quality
   control, extraction of methylation information, and calling of differentially methylated
@@ -29,10 +29,10 @@ description: Bisulfite Analysis Toolkit. It facilitates the analysis of bisulfit
   site annotation.
 documentation: []
 download:
-- note: null
-  type: Source code
-  url: http://www.bioinf.uni-leipzig.de/Software/BAT/download/
-  version: null
+  - note: null
+    type: Source code
+    url: http://www.bioinf.uni-leipzig.de/Software/BAT/download/
+    version: null
 editPermission:
   authors: []
   type: private
@@ -40,66 +40,66 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence analysis
-    uri: http://edamontology.org/operation_2403
-  - term: Mapping
-    uri: http://edamontology.org/operation_2429
-  - term: Variant calling
-    uri: http://edamontology.org/operation_3227
-  - term: Sequence annotation
-    uri: http://edamontology.org/operation_0361
-  - term: Bisulfite mapping
-    uri: http://edamontology.org/operation_3186
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+      - term: Mapping
+        uri: http://edamontology.org/operation_2429
+      - term: Variant calling
+        uri: http://edamontology.org/operation_3227
+      - term: Sequence annotation
+        uri: http://edamontology.org/operation_0361
+      - term: Bisulfite mapping
+        uri: http://edamontology.org/operation_3186
+    output: []
 homepage: http://www.bioinf.uni-leipzig.de/Software/BAT/
 homepage_status: 0
 language:
-- R
-- Shell
-- Perl
+  - R
+  - Shell
+  - Perl
 lastUpdate: '2018-12-10T12:59:01Z'
 license: MIT
 link:
-- note: null
-  type: Repository
-  url: http://www.bioinf.uni-leipzig.de/Software/BAT/install.md/#docker
+  - note: null
+    type: Repository
+    url: http://www.bioinf.uni-leipzig.de/Software/BAT/install.md/#docker
 maturity: null
 name: BAT
 operatingSystem: []
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.12688/f1000research.12302.1
-  metadata:
-    abstract: © 2017 Kretzmer H et al. Here, we present BAT, a modular bisulfite analysis
-      toolkit, that facilitates the analysis of bisulfite sequencing data. It covers
-      the essential analysis steps of read alignment, quality control, extraction
-      of methylation information, and calling of differentially methylated regions,
-      as well as biologically relevant downstream analyses, such as data integration
-      with gene expression, histone modification data, or transcription factor binding
-      site annotation.
-    authors:
-    - name: Hoffmann S.
-    - name: Kretzmer H.
-    - name: Otto C.
-    citationCount: 0
-    date: '2017-01-01T00:00:00Z'
-    journal: F1000Research
-    title: 'BAT: Bisulfite Analysis Toolkit'
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.12688/f1000research.12302.1
+    metadata:
+      abstract: "\xA9 2017 Kretzmer H et al. Here, we present BAT, a modular bisulfite\
+        \ analysis toolkit, that facilitates the analysis of bisulfite sequencing\
+        \ data. It covers the essential analysis steps of read alignment, quality\
+        \ control, extraction of methylation information, and calling of differentially\
+        \ methylated regions, as well as biologically relevant downstream analyses,\
+        \ such as data integration with gene expression, histone modification data,\
+        \ or transcription factor binding site annotation."
+      authors:
+        - name: Hoffmann S.
+        - name: Kretzmer H.
+        - name: Otto C.
+      citationCount: 0
+      date: '2017-01-01T00:00:00Z'
+      journal: F1000Research
+      title: 'BAT: Bisulfite Analysis Toolkit'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Script
-- Workflow
-- Suite
+  - Script
+  - Workflow
+  - Suite
 topic:
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
 validated: 1
 version: []

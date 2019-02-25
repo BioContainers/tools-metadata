@@ -5,34 +5,34 @@ biotoolsID: genskew
 collectionID: []
 cost: Free of charge
 credit:
-- email: null
-  name: AT-CUBE
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: contact.cube@univie.ac.at
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: m.muensterkoetter@uni-sopron.hu
-  name: Martin Münsterkötter
-  note: null
-  orcidid: http://orcid.org/0000-0002-0044-2381
-  typeEntity: Person
-  typeRole: []
-  url: null
+  - email: null
+    name: AT-CUBE
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: contact.cube@univie.ac.at
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: m.muensterkoetter@uni-sopron.hu
+    name: "Martin M\xFCnsterk\xF6tter"
+    note: null
+    orcidid: http://orcid.org/0000-0002-0044-2381
+    typeEntity: Person
+    typeRole: []
+    url: null
 description: G+C skew plot of microbial genomes.
 documentation:
-- note: null
-  type: General
-  url: http://genskew.csb.univie.ac.at/
+  - note: null
+    type: General
+    url: http://genskew.csb.univie.ac.at/
 download: []
 editPermission:
   authors: []
@@ -41,53 +41,53 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: DNA sequence (raw)
-      uri: http://edamontology.org/data_3497
-    format: []
-  note: Nucleotide skew plot oriC and ter coordinates
-  operation:
-  - term: Genome visualisation
-    uri: http://edamontology.org/operation_3208
-  output:
-  - data:
-      term: Image
-      uri: http://edamontology.org/data_2968
-    format: []
-  - data:
-      term: Sequence features
-      uri: http://edamontology.org/data_1255
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: DNA sequence (raw)
+          uri: http://edamontology.org/data_3497
+        format: []
+    note: Nucleotide skew plot oriC and ter coordinates
+    operation:
+      - term: Genome visualisation
+        uri: http://edamontology.org/operation_3208
+    output:
+      - data:
+          term: Image
+          uri: http://edamontology.org/data_2968
+        format: []
+      - data:
+          term: Sequence features
+          uri: http://edamontology.org/data_1255
+        format: []
 homepage: http://genskew.csb.univie.ac.at/
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2018-12-16T14:26:03Z'
 license: null
 link: []
 maturity: Mature
 name: GenSkew
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: AT-CUBE
 publication:
-- doi: 10.1093/nar/gkj148
-  metadata: null
-  pmcid: PMC1347510
-  pmid: '16381839'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkj148
+    metadata: null
+    pmcid: PMC1347510
+    pmid: '16381839'
+    type: Primary
+    version: null
 toolType:
-- Web application
-- Desktop application
+  - Web application
+  - Desktop application
 topic:
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
 validated: 1
 version:
-- '1'
+  - '1'

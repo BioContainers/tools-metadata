@@ -3,31 +3,31 @@ additionDate: '2015-10-07T17:47:40Z'
 biotoolsCURIE: biotools:nextbio
 biotoolsID: nextbio
 collectionID:
-- DRCAT
+  - DRCAT
 cost: null
 credit:
-- email: null
-  name: DRCAT
-  note: null
-  orcidid: null
-  typeEntity: Project
-  typeRole:
-  - Documentor
-  url: null
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://www.nextbio.com/b/corp/contact.nb
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.nextbio.com/b/corp/contact.nb
 description: The platform enables biologists to examine a gene, protein, compound
   or disease of interest in a global, biological, or clinical context.
 documentation:
-- note: null
-  type: General
-  url: https://www.nextbio.com/b/authentication/login.nb
+  - note: null
+    type: General
+    url: https://www.nextbio.com/b/authentication/login.nb
 download: []
 editPermission:
   authors: []
@@ -36,23 +36,23 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Identifier
-      uri: http://edamontology.org/data_0842
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Gene report
-      uri: http://edamontology.org/data_0916
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Identifier
+          uri: http://edamontology.org/data_0842
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
 homepage: http://www.nextbio.com/
 homepage_status: 0
 language: []
@@ -62,24 +62,24 @@ link: []
 maturity: null
 name: NextBio gene-centric data
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: DRCAT
 publication:
-- doi: 10.1371/journal.pone.0013066
-  metadata: null
-  pmcid: PMC2947508
-  pmid: '20927376'
-  type: Primary
-  version: null
+  - doi: 10.1371/journal.pone.0013066
+    metadata: null
+    pmcid: PMC2947508
+    pmid: '20927376'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Model organisms
-  uri: http://edamontology.org/topic_0621
-- term: Comparative genomics
-  uri: http://edamontology.org/topic_0797
+  - term: Model organisms
+    uri: http://edamontology.org/topic_0621
+  - term: Comparative genomics
+    uri: http://edamontology.org/topic_0797
 validated: 1
 version: []

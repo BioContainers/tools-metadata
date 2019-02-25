@@ -5,23 +5,23 @@ biotoolsID: faas
 collectionID: []
 cost: null
 credit:
-- email: matthew.berginski@gmail.com
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: matthew.berginski@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Focal Adhesion Analysis Server. Implements a set of computer vision algorithms
   designed to automatically process time-lapse images of fluorescently labeled focal
   adhesion proteins in motile cells.
 documentation: []
 download:
-- note: null
-  type: Test data
-  url: http://faas.bme.unc.edu/sample/Paxillin_test_set.tif
-  version: null
+  - note: null
+    type: Test data
+    url: http://faas.bme.unc.edu/sample/Paxillin_test_set.tif
+    version: null
 editPermission:
   authors: []
   type: private
@@ -29,42 +29,42 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Image analysis
-    uri: http://edamontology.org/operation_3443
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Image analysis
+        uri: http://edamontology.org/operation_3443
+    output: []
 homepage: http://faas.bme.unc.edu
 homepage_status: 0
 language:
-- Javascript
-- R
-- MATLAB
-- Perl
+  - Javascript
+  - R
+  - MATLAB
+  - Perl
 lastUpdate: '2018-12-10T12:59:01Z'
 license: null
 link:
-- note: null
-  type: Repository
-  url: https://github.com/mbergins/focal_adhesions
+  - note: null
+    type: Repository
+    url: https://github.com/mbergins/focal_adhesions
 maturity: null
 name: FAAS
 operatingSystem: []
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.12688/F1000RESEARCH.2-68.V1
-  metadata: null
-  pmcid: PMC3752736
-  pmid: '24358855'
-  type: Primary
-  version: null
+  - doi: 10.12688/F1000RESEARCH.2-68.V1
+    metadata: null
+    pmcid: PMC3752736
+    pmid: '24358855'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Imaging
-  uri: http://edamontology.org/topic_3382
+  - term: Imaging
+    uri: http://edamontology.org/topic_3382
 validated: 1
 version: []

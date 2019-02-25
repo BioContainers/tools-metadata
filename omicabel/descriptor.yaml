@@ -5,26 +5,26 @@ biotoolsID: omicabel
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://r-forge.r-project.org/tracker/index.php?group_id=505&atid=2058
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://r-forge.r-project.org/tracker/index.php?group_id=505&atid=2058
 description: It allows rapid mixed-model based genome-wide association analysis; it
   efficiently handles large datasets, and both single trait and multiple trait ("omics")
   analysis.
 documentation:
-- note: null
-  type: Training material
-  url: http://www.genabel.org/sites/default/files/tutorials/OmicABEL/exampleOfUse.html
+  - note: null
+    type: Training material
+    url: http://www.genabel.org/sites/default/files/tutorials/OmicABEL/exampleOfUse.html
 download:
-- note: null
-  type: Binaries
-  url: http://www.genabel.org/sites/default/files/OmicABEL-0.8.0-Linux-bin.tgz
-  version: null
+  - note: null
+    type: Binaries
+    url: http://www.genabel.org/sites/default/files/OmicABEL-0.8.0-Linux-bin.tgz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -32,15 +32,15 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Imputation
-    uri: http://edamontology.org/operation_3557
-  - term: Genotyping
-    uri: http://edamontology.org/operation_3196
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Imputation
+        uri: http://edamontology.org/operation_3557
+      - term: Genotyping
+        uri: http://edamontology.org/operation_3196
+    output: []
 homepage: http://www.genabel.org/packages/OmicABEL
 homepage_status: 0
 language: []
@@ -50,20 +50,20 @@ link: []
 maturity: null
 name: OmicABEL
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.12688/F1000RESEARCH.4867.1
-  metadata: null
-  pmcid: PMC4329600
-  pmid: '25717363'
-  type: Primary
-  version: null
+  - doi: 10.12688/F1000RESEARCH.4867.1
+    metadata: null
+    pmcid: PMC4329600
+    pmid: '25717363'
+    type: Primary
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: GWAS study
-  uri: http://edamontology.org/topic_3517
+  - term: GWAS study
+    uri: http://edamontology.org/topic_3517
 validated: 1
 version: []

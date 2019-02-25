@@ -5,28 +5,28 @@ biotoolsID: feedr
 collectionID: []
 cost: null
 credit:
-- email: slazerte@tru.ca
-  name: Stefanie E. LaZerte
-  note: null
-  orcidid: https://orcid.org/0000-0002-7690-8360
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: null
-  name: David Hill
-  note: null
-  orcidid: https://orcid.org/0000-0002-4530-3131
-  typeEntity: Person
-  typeRole: []
-  url: null
-description: feedr is an R package developed for loading, transforming, and visualizing
-  time‐stamped, georeferenced data, such as RFID data collected from static logger
-  stations.
+  - email: slazerte@tru.ca
+    name: Stefanie E. LaZerte
+    note: null
+    orcidid: https://orcid.org/0000-0002-7690-8360
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: null
+    name: David Hill
+    note: null
+    orcidid: https://orcid.org/0000-0002-4530-3131
+    typeEntity: Person
+    typeRole: []
+    url: null
+description: "feedr is an R package developed for loading, transforming, and visualizing\
+  \ time\u2010stamped, georeferenced data, such as RFID data collected from static\
+  \ logger stations."
 documentation:
-- note: null
-  type: Manual
-  url: https://animalnexus.github.io/feedr/index.html
+  - note: null
+    type: Manual
+    url: https://animalnexus.github.io/feedr/index.html
 download: []
 editPermission:
   authors: []
@@ -35,43 +35,43 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Aggregation
-    uri: http://edamontology.org/operation_3436
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Aggregation
+        uri: http://edamontology.org/operation_3436
+    output: []
 homepage: https://github.com/animalnexus/feedr
 homepage_status: 0
 language: []
 lastUpdate: '2018-12-16T16:51:21Z'
 license: GPL-3.0
 link:
-- note: null
-  type: Issue tracker
-  url: https://github.com/animalnexus/feedr/issues
+  - note: null
+    type: Issue tracker
+    url: https://github.com/animalnexus/feedr/issues
 maturity: null
 name: feedr
 operatingSystem:
-- Linux
-- Windows
+  - Linux
+  - Windows
 otherID: []
 owner: daniel_stefan
 publication:
-- doi: 10.1002/ece3.3240
-  metadata: null
-  pmcid: PMC5632613
-  pmid: '29043042'
-  type: Primary
-  version: null
+  - doi: 10.1002/ece3.3240
+    metadata: null
+    pmcid: PMC5632613
+    pmid: '29043042'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Ecology
-  uri: http://edamontology.org/topic_0610
-- term: Evolutionary biology
-  uri: http://edamontology.org/topic_3299
+  - term: Ecology
+    uri: http://edamontology.org/topic_0610
+  - term: Evolutionary biology
+    uri: http://edamontology.org/topic_3299
 validated: 1
 version:
-- 0.10.0
+  - 0.10.0

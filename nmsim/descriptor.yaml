@@ -5,22 +5,22 @@ biotoolsID: nmsim
 collectionID: []
 cost: null
 credit:
-- email: support@nmsim.de
-  name: Support
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: support@nmsim.de
+    name: Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Webserver for modeling biologically relevant protein conformational changes.
   The approach has been shown to reproduce experimentally observed conformational
   variabilities in the case of domain and loop motions and is able to generate meaningful
   pathways of conformational transitions.
 documentation:
-- note: null
-  type: General
-  url: http://cpclab.uni-duesseldorf.de/nmsim/faq.html
+  - note: null
+    type: General
+    url: http://cpclab.uni-duesseldorf.de/nmsim/faq.html
 download: []
 editPermission:
   authors: []
@@ -29,21 +29,21 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Molecular dynamics simulation
-    uri: http://edamontology.org/operation_2476
-  - term: Protein modelling (loops)
-    uri: http://edamontology.org/operation_0481
-  - term: Protein modelling (side chains)
-    uri: http://edamontology.org/operation_0480
-  - term: Molecular docking
-    uri: http://edamontology.org/operation_0478
-  - term: Protein flexibility and motion analysis
-    uri: http://edamontology.org/operation_0244
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Molecular dynamics simulation
+        uri: http://edamontology.org/operation_2476
+      - term: Protein modelling (loops)
+        uri: http://edamontology.org/operation_0481
+      - term: Protein modelling (side chains)
+        uri: http://edamontology.org/operation_0480
+      - term: Molecular docking
+        uri: http://edamontology.org/operation_0478
+      - term: Protein flexibility and motion analysis
+        uri: http://edamontology.org/operation_0244
+    output: []
 homepage: http://www.nmsim.de
 homepage_status: 0
 language: []
@@ -53,58 +53,59 @@ link: []
 maturity: null
 name: NMSim
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-EE
 publication:
-- doi: null
-  metadata:
-    abstract: 'The NMSim web server implements a three-step approach for multiscale
-      modeling of protein conformational changes. First, the protein structure is
-      coarse-grained using the FIRST software. Second, a rigid cluster normal-mode
-      analysis provides low-frequency normal modes. Third, these modes are used to
-      extend the recently introduced idea of constrained geometric simulations by
-      biasing backbone motions of the protein, whereas side chain motions are biased
-      toward favorable rotamer states (NMSim). The generated structures are iteratively
-      corrected regarding steric clashes and stereochemical constraint violations.
-      The approach allows performing three simulation types: unbiased exploration
-      of conformational space; pathway generation by a targeted simulation; and radius
-      of gyration-guided simulation. On a data set of proteins with experimentally
-      observed conformational changes, the NMSim approach has been shown to be a computationally
-      efficient alternative to molecular dynamics simulations for conformational sampling
-      of proteins. The generated conformations and pathways of conformational transitions
-      can serve as input to docking approaches or more sophisticated sampling techniques.
-      The web server output is a trajectory of generated conformations, Jmol representations
-      of the coarse-graining and a subset of the trajectory and data plots of structural
-      analyses. The NMSim webserver, accessible at http://www.nmsim.de, is free and
-      open to all users with no login requirement. © 2012 The Author(s).'
-    authors:
-    - name: Kruger D.M.
-    - name: Ahmed A.
-    - name: Gohlke H.
-    citationCount: 43
-    date: '2012-07-01T00:00:00Z'
-    journal: Nucleic Acids Research
-    title: 'NMSim web server: Integrated approach for normal mode-based geometric
-      simulations of biologically relevant conformational transitions in proteins'
-  pmcid: null
-  pmid: '22669906'
-  type: null
-  version: null
+  - doi: null
+    metadata:
+      abstract: "The NMSim web server implements a three-step approach for multiscale\
+        \ modeling of protein conformational changes. First, the protein structure\
+        \ is coarse-grained using the FIRST software. Second, a rigid cluster normal-mode\
+        \ analysis provides low-frequency normal modes. Third, these modes are used\
+        \ to extend the recently introduced idea of constrained geometric simulations\
+        \ by biasing backbone motions of the protein, whereas side chain motions are\
+        \ biased toward favorable rotamer states (NMSim). The generated structures\
+        \ are iteratively corrected regarding steric clashes and stereochemical constraint\
+        \ violations. The approach allows performing three simulation types: unbiased\
+        \ exploration of conformational space; pathway generation by a targeted simulation;\
+        \ and radius of gyration-guided simulation. On a data set of proteins with\
+        \ experimentally observed conformational changes, the NMSim approach has been\
+        \ shown to be a computationally efficient alternative to molecular dynamics\
+        \ simulations for conformational sampling of proteins. The generated conformations\
+        \ and pathways of conformational transitions can serve as input to docking\
+        \ approaches or more sophisticated sampling techniques. The web server output\
+        \ is a trajectory of generated conformations, Jmol representations of the\
+        \ coarse-graining and a subset of the trajectory and data plots of structural\
+        \ analyses. The NMSim webserver, accessible at http://www.nmsim.de, is free\
+        \ and open to all users with no login requirement. \xA9 2012 The Author(s)."
+      authors:
+        - name: Kruger D.M.
+        - name: Ahmed A.
+        - name: Gohlke H.
+      citationCount: 43
+      date: '2012-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'NMSim web server: Integrated approach for normal mode-based geometric
+        simulations of biologically relevant conformational transitions in proteins'
+    pmcid: null
+    pmid: '22669906'
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Molecular dynamics
-  uri: http://edamontology.org/topic_0176
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
-- term: Protein folds and structural domains
-  uri: http://edamontology.org/topic_0736
-- term: Protein structural motifs and surfaces
-  uri: http://edamontology.org/topic_0166
-- term: Molecular modelling
-  uri: http://edamontology.org/topic_2275
+  - term: Molecular dynamics
+    uri: http://edamontology.org/topic_0176
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Protein folds and structural domains
+    uri: http://edamontology.org/topic_0736
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
 validated: 1
 version: []

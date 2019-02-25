@@ -3,25 +3,25 @@ additionDate: '2015-09-30T12:09:30Z'
 biotoolsCURIE: biotools:rnavirusdb
 biotoolsID: rnavirusdb
 collectionID:
-- DRCAT
+  - DRCAT
 cost: null
 credit:
-- email: null
-  name: DRCAT
-  note: null
-  orcidid: null
-  typeEntity: Project
-  typeRole:
-  - Documentor
-  url: null
-- email: deoliveira@ukzn.ac.za
-  name: Tulio de Oliveira
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://www.bioafrica.net/people.php?surname=de%20Oliveira
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: deoliveira@ukzn.ac.za
+    name: Tulio de Oliveira
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.bioafrica.net/people.php?surname=de%20Oliveira
 description: RNA virus genome database.
 documentation: []
 download: []
@@ -32,23 +32,23 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: RNAVirusDB ID
-      uri: http://edamontology.org/data_2784
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Organism report
-      uri: http://edamontology.org/data_2530
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: RNAVirusDB ID
+          uri: http://edamontology.org/data_2784
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Organism report
+          uri: http://edamontology.org/data_2530
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
 homepage: http://bioafrica.mrc.ac.za/rnavirusdb/
 homepage_status: 0
 language: []
@@ -58,22 +58,22 @@ link: []
 maturity: null
 name: RNA virus genome database (RNAVirusDB)
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: DRCAT
 publication:
-- doi: null
-  metadata: null
-  pmcid: PMC2686580
-  pmid: null
-  type: Other
-  version: null
+  - doi: null
+    metadata: null
+    pmcid: PMC2686580
+    pmid: null
+    type: Other
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Virology
-  uri: http://edamontology.org/topic_0781
+  - term: Virology
+    uri: http://edamontology.org/topic_0781
 validated: 1
 version: []

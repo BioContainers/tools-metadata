@@ -5,75 +5,75 @@ biotoolsID: hupho
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: Alberto Calderone
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: Susanna Liberti
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: Marta Iannuccelli
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole:
-  - Contributor
-  url: null
-- email: null
-  name: Francesca Sacco
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole:
-  - Contributor
-  url: null
-- email: null
-  name: Livia Perfetto
-  note: null
-  orcidid: http://orcid.org/0000-0003-4392-8725
-  typeEntity: null
-  typeRole:
-  - Contributor
-  url: null
-- email: null
-  name: Molecular Genetic Group, University of Rome "Tor Vergata", Rome, Italy
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: ELIXIR-ITA-TORVERGATA
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: cesareni@uniroma2.it
-  name: Gianni Cesareni
-  note: null
-  orcidid: https://orcid.org/0000-0002-9528-6018
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: Alberto Calderone
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Susanna Liberti
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Marta Iannuccelli
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Francesca Sacco
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Livia Perfetto
+    note: null
+    orcidid: http://orcid.org/0000-0003-4392-8725
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Molecular Genetic Group, University of Rome "Tor Vergata", Rome, Italy
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: ELIXIR-ITA-TORVERGATA
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: cesareni@uniroma2.it
+    name: Gianni Cesareni
+    note: null
+    orcidid: https://orcid.org/0000-0002-9528-6018
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Online web resource for recovering information about human phosphatases.
 documentation:
-- note: null
-  type: General
-  url: http://hupho.uniroma2.it/DBinfo.php
+  - note: null
+    type: General
+    url: http://hupho.uniroma2.it/DBinfo.php
 download: []
 editPermission:
   authors: []
@@ -82,13 +82,13 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: Biological databases and data management
-  operation:
-  - term: Database search
-    uri: http://edamontology.org/operation_2421
-  output: []
+  - cmd: null
+    input: []
+    note: Biological databases and data management
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+    output: []
 homepage: http://hupho.uniroma2.it
 homepage_status: 0
 language: []
@@ -98,55 +98,56 @@ link: []
 maturity: null
 name: Hupho
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-ITA-TORVERGATA
 publication:
-- doi: 10.1111/j.1742-4658.2012.08712.x
-  metadata:
-    abstract: Phosphatases and kinases contribute to the regulation of protein phosphorylation
-      homeostasis in the cell. Phosphorylation is a key post-translational modification
-      underlying the regulation of many cellular processes. Thus, a comprehensive
-      picture of phosphatase function and the identification of their target substrates
-      would aid a systematic approach to a mechanistic description of cell signalling.
-      Here we present a website designed to facilitate the retrieval of information
-      about human protein phosphatases. To this end we developed a search engine to
-      recover and integrate information annotated in several publicly available web
-      resources. In addition we present a text-mining-assisted annotation effort aimed
-      at extracting phosphatase related data reported in the scientific literature.
-      The HuPho (human phosphatases) website can be accessed at http://hupho.uniroma2.it.
-      © 2012 The Authors Journal compilation © 2012 FEBS.
-    authors:
-    - name: Liberti S.
-    - name: Sacco F.
-    - name: Calderone A.
-    - name: Perfetto L.
-    - name: Iannuccelli M.
-    - name: Panni S.
-    - name: Santonico E.
-    - name: Palma A.
-    - name: Nardozza A.P.
-    - name: Castagnoli L.
-    - name: Cesareni G.
-    citationCount: 24
-    date: '2013-01-01T00:00:00Z'
-    journal: FEBS Journal
-    title: 'HuPho: The human phosphatase portal'
-  pmcid: null
-  pmid: '22804825'
-  type: Primary
-  version: null
+  - doi: 10.1111/j.1742-4658.2012.08712.x
+    metadata:
+      abstract: "Phosphatases and kinases contribute to the regulation of protein\
+        \ phosphorylation homeostasis in the cell. Phosphorylation is a key post-translational\
+        \ modification underlying the regulation of many cellular processes. Thus,\
+        \ a comprehensive picture of phosphatase function and the identification of\
+        \ their target substrates would aid a systematic approach to a mechanistic\
+        \ description of cell signalling. Here we present a website designed to facilitate\
+        \ the retrieval of information about human protein phosphatases. To this end\
+        \ we developed a search engine to recover and integrate information annotated\
+        \ in several publicly available web resources. In addition we present a text-mining-assisted\
+        \ annotation effort aimed at extracting phosphatase related data reported\
+        \ in the scientific literature. The HuPho (human phosphatases) website can\
+        \ be accessed at http://hupho.uniroma2.it. \xA9 2012 The Authors Journal compilation\
+        \ \xA9 2012 FEBS."
+      authors:
+        - name: Liberti S.
+        - name: Sacco F.
+        - name: Calderone A.
+        - name: Perfetto L.
+        - name: Iannuccelli M.
+        - name: Panni S.
+        - name: Santonico E.
+        - name: Palma A.
+        - name: Nardozza A.P.
+        - name: Castagnoli L.
+        - name: Cesareni G.
+      citationCount: 24
+      date: '2013-01-01T00:00:00Z'
+      journal: FEBS Journal
+      title: 'HuPho: The human phosphatase portal'
+    pmcid: null
+    pmid: '22804825'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Enzymes
-  uri: http://edamontology.org/topic_0821
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
-- term: Data management
-  uri: http://edamontology.org/topic_3071
+  - term: Enzymes
+    uri: http://edamontology.org/topic_0821
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
 validated: 1
 version:
-- '1'
+  - '1'

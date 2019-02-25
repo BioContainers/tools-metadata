@@ -3,30 +3,30 @@ additionDate: '2017-01-17T15:02:31Z'
 biotoolsCURIE: biotools:piano
 biotoolsID: piano
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: piano.rpkg@gmail.com
-  name: Leif Varemo
-  note: null
-  orcidid: http://orcid.org/0000-0003-4153-5354
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: piano.rpkg@gmail.com
+    name: Leif Varemo
+    note: null
+    orcidid: http://orcid.org/0000-0003-4153-5354
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Performs gene set analysis using various statistical methods, from different
   gene level statistics and a wide range of gene-set collections. Furthermore, this
   package contains functions for combining the results of multiple runs of gene set
   analyses.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/piano.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/piano.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/piano_1.14.4.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/piano_1.14.4.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -34,46 +34,46 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Gene set testing
-    uri: http://edamontology.org/operation_3224
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Gene set testing
+        uri: http://edamontology.org/operation_3224
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/piano.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-01-09T16:37:58Z'
 license: GPL-2.0
 link:
-- note: null
-  type: Mirror
-  url: http://www.sysbio.se/piano
+  - note: null
+    type: Mirror
+    url: http://www.sysbio.se/piano
 maturity: null
 name: piano
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1093/nar/gkt111
-  metadata: null
-  pmcid: PMC3632109
-  pmid: '23444143'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkt111
+    metadata: null
+    pmcid: PMC3632109
+    pmid: '23444143'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: Genetics
-  uri: http://edamontology.org/topic_3053
-- term: Gene and protein families
-  uri: http://edamontology.org/topic_0623
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Gene and protein families
+    uri: http://edamontology.org/topic_0623
 validated: 1
 version:
-- 1.14.4
+  - 1.14.4

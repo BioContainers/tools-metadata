@@ -5,19 +5,19 @@ biotoolsID: chemdis-mixture
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: Chun-Wei Tung
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://www.nature.com/articles/s41598-018-28361-6/email/correspondent/c1/new
+  - email: null
+    name: Chun-Wei Tung
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www.nature.com/articles/s41598-018-28361-6/email/correspondent/c1/new
 description: Analyzing potential interaction effects of chemical mixtures.
 documentation:
-- note: null
-  type: General
-  url: https://chun-weitung.gitbooks.io/chemdis/content/
+  - note: null
+    type: General
+    url: https://chun-weitung.gitbooks.io/chemdis/content/
 download: []
 editPermission:
   authors: []
@@ -26,13 +26,13 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Pathway or network analysis
-    uri: http://edamontology.org/operation_2497
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Pathway or network analysis
+        uri: http://edamontology.org/operation_2497
+    output: []
 homepage: https://cwtung.kmu.edu.tw/chemdis/mixture
 homepage_status: 0
 language: []
@@ -42,51 +42,52 @@ link: []
 maturity: null
 name: ChemDIS-Mixture
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1038/s41598-018-28361-6
-  metadata:
-    abstract: © 2018 The Author(s). The assessment of bioactivity and toxicity for
-      mixtures remains a challenging work. Although several computational models have
-      been developed to accelerate the evaluation of chemical-chemical interaction,
-      a specific biological endpoint should be defined before applying the models
-      that usually relies on clinical and experimental data. The development of computational
-      methods is desirable for identifying potential biological endpoints of mixture
-      interactions. To facilitate the identification of potential effects of mixture
-      interactions, a novel online system named ChemDIS-Mixture is proposed to analyze
-      the shared target proteins, and common enriched functions, pathways, and diseases
-      affected by multiple chemicals. Venn diagram tools have been implemented for
-      easy analysis and visualization of interaction targets and effects. Case studies
-      have been provided to demonstrate the capability of ChemDIS-Mixture for identifying
-      potential effects of mixture interactions in clinical studies. ChemDIS-Mixture
-      provides useful functions for the identification of potential effects of coexposure
-      to multiple chemicals. ChemDIS-Mixture is freely accessible at http://cwtung.kmu.edu.tw/chemdis/mixture.
-    authors:
-    - name: Tung C.-W.
-    - name: Wang C.-C.
-    - name: Wang S.-S.
-    - name: Lin P.
-    citationCount: 0
-    date: '2018-12-01T00:00:00Z'
-    journal: Scientific Reports
-    title: 'ChemDIS-Mixture: An online tool for analyzing potential interaction effects
-      of chemical mixtures'
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1038/s41598-018-28361-6
+    metadata:
+      abstract: "\xA9 2018 The Author(s). The assessment of bioactivity and toxicity\
+        \ for mixtures remains a challenging work. Although several computational\
+        \ models have been developed to accelerate the evaluation of chemical-chemical\
+        \ interaction, a specific biological endpoint should be defined before applying\
+        \ the models that usually relies on clinical and experimental data. The development\
+        \ of computational methods is desirable for identifying potential biological\
+        \ endpoints of mixture interactions. To facilitate the identification of potential\
+        \ effects of mixture interactions, a novel online system named ChemDIS-Mixture\
+        \ is proposed to analyze the shared target proteins, and common enriched functions,\
+        \ pathways, and diseases affected by multiple chemicals. Venn diagram tools\
+        \ have been implemented for easy analysis and visualization of interaction\
+        \ targets and effects. Case studies have been provided to demonstrate the\
+        \ capability of ChemDIS-Mixture for identifying potential effects of mixture\
+        \ interactions in clinical studies. ChemDIS-Mixture provides useful functions\
+        \ for the identification of potential effects of coexposure to multiple chemicals.\
+        \ ChemDIS-Mixture is freely accessible at http://cwtung.kmu.edu.tw/chemdis/mixture."
+      authors:
+        - name: Tung C.-W.
+        - name: Wang C.-C.
+        - name: Wang S.-S.
+        - name: Lin P.
+      citationCount: 0
+      date: '2018-12-01T00:00:00Z'
+      journal: Scientific Reports
+      title: 'ChemDIS-Mixture: An online tool for analyzing potential interaction
+        effects of chemical mixtures'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Protein interactions
-  uri: http://edamontology.org/topic_0128
-- term: Pharmacology
-  uri: http://edamontology.org/topic_0202
-- term: Simulation experiment
-  uri: http://edamontology.org/topic_3524
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+  - term: Pharmacology
+    uri: http://edamontology.org/topic_0202
+  - term: Simulation experiment
+    uri: http://edamontology.org/topic_3524
 validated: 1
 version: []

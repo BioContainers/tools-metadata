@@ -3,36 +3,36 @@ additionDate: '2017-01-17T15:00:03Z'
 biotoolsCURIE: biotools:pics
 biotoolsID: pics
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: rsautera@fhcrc.org
-  name: Renan Sauteraud
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: xuekui@uvic.ca
-  name: Xuekui Zhang
-  note: null
-  orcidid: http://orcid.org/0000-0003-4728-2343
-  typeEntity: Person
-  typeRole:
-  - Contributor
-  url: null
+  - email: rsautera@fhcrc.org
+    name: Renan Sauteraud
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: xuekui@uvic.ca
+    name: Xuekui Zhang
+    note: null
+    orcidid: http://orcid.org/0000-0003-4728-2343
+    typeEntity: Person
+    typeRole:
+      - Contributor
+    url: null
 description: Probabilistic inference of ChIP-Seq using an empirical Bayes mixture
   model approach.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/PICS.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/PICS.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/PICS_2.18.0.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/PICS_2.18.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -40,80 +40,82 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Statistical inference
-    uri: http://edamontology.org/operation_3658
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Statistical inference
+        uri: http://edamontology.org/operation_3658
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/PICS.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-29T14:46:53Z'
 license: Artistic-2.0
 link: []
 maturity: null
 name: PICS
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1111/j.1541-0420.2010.01441.x
-  metadata:
-    abstract: ChIP-seq combines chromatin immunoprecipitation with massively parallel
-      short-read sequencing. While it can profile genome-wide in vivo transcription
-      factor-DNA association with higher sensitivity, specificity, and spatial resolution
-      than ChIP-chip, it poses new challenges for statistical analysis that derive
-      from the complexity of the biological systems characterized and from variability
-      and biases in its sequence data. We propose a method called PICS (Probabilistic
-      Inference for ChIP-seq) for identifying regions bound by transcription factors
-      from aligned reads. PICS identifies binding event locations by modeling local
-      concentrations of directional reads, and uses DNA fragment length prior information
-      to discriminate closely adjacent binding events via a Bayesian hierarchicalt-mixture
-      model. It uses precalculated, whole-genome read mappability profiles and a truncatedt-distribution
-      to adjust binding event models for reads that are missing due to local genome
-      repetitiveness. It estimates uncertainties in model parameters that can be used
-      to define confidence regions on binding event locations and to filter estimates.
-      Finally, PICS calculates a per-event enrichment score relative to a control
-      sample, and can use a control sample to estimate a false discovery rate. Using
-      published GABP and FOXA1 data from human cell lines, we show that PICS' predicted
-      binding sites were more consistent with computationally predicted binding motifs
-      than the alternative methods MACS, QuEST, CisGenome, and USeq. We then use a
-      simulation study to confirm that PICS compares favorably to these methods and
-      is robust to model misspecification. © 2010, The International Biometric Society.
-    authors:
-    - name: Zhang X.
-    - name: Robertson G.
-    - name: Krzywinski M.
-    - name: Ning K.
-    - name: Droit A.
-    - name: Jones S.
-    - name: Gottardo R.
-    citationCount: 38
-    date: '2011-03-01T00:00:00Z'
-    journal: Biometrics
-    title: 'PICS: Probabilistic Inference for ChIP-seq'
-  pmcid: null
-  pmid: '20528864'
-  type: Primary
-  version: null
+  - doi: 10.1111/j.1541-0420.2010.01441.x
+    metadata:
+      abstract: "ChIP-seq combines chromatin immunoprecipitation with massively parallel\
+        \ short-read sequencing. While it can profile genome-wide in vivo transcription\
+        \ factor-DNA association with higher sensitivity, specificity, and spatial\
+        \ resolution than ChIP-chip, it poses new challenges for statistical analysis\
+        \ that derive from the complexity of the biological systems characterized\
+        \ and from variability and biases in its sequence data. We propose a method\
+        \ called PICS (Probabilistic Inference for ChIP-seq) for identifying regions\
+        \ bound by transcription factors from aligned reads. PICS identifies binding\
+        \ event locations by modeling local concentrations of directional reads, and\
+        \ uses DNA fragment length prior information to discriminate closely adjacent\
+        \ binding events via a Bayesian hierarchicalt-mixture model. It uses precalculated,\
+        \ whole-genome read mappability profiles and a truncatedt-distribution to\
+        \ adjust binding event models for reads that are missing due to local genome\
+        \ repetitiveness. It estimates uncertainties in model parameters that can\
+        \ be used to define confidence regions on binding event locations and to filter\
+        \ estimates. Finally, PICS calculates a per-event enrichment score relative\
+        \ to a control sample, and can use a control sample to estimate a false discovery\
+        \ rate. Using published GABP and FOXA1 data from human cell lines, we show\
+        \ that PICS' predicted binding sites were more consistent with computationally\
+        \ predicted binding motifs than the alternative methods MACS, QuEST, CisGenome,\
+        \ and USeq. We then use a simulation study to confirm that PICS compares favorably\
+        \ to these methods and is robust to model misspecification. \xA9 2010, The\
+        \ International Biometric Society."
+      authors:
+        - name: Zhang X.
+        - name: Robertson G.
+        - name: Krzywinski M.
+        - name: Ning K.
+        - name: Droit A.
+        - name: Jones S.
+        - name: Gottardo R.
+      citationCount: 38
+      date: '2011-03-01T00:00:00Z'
+      journal: Biometrics
+      title: 'PICS: Probabilistic Inference for ChIP-seq'
+    pmcid: null
+    pmid: '20528864'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: ChIP-seq
-  uri: http://edamontology.org/topic_3169
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
-- term: DNA binding sites
-  uri: http://edamontology.org/topic_3125
-- term: Sequence sites, features and motifs
-  uri: http://edamontology.org/topic_0160
+  - term: ChIP-seq
+    uri: http://edamontology.org/topic_3169
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: DNA binding sites
+    uri: http://edamontology.org/topic_3125
+  - term: Sequence sites, features and motifs
+    uri: http://edamontology.org/topic_0160
 validated: 1
 version:
-- 2.18.0
+  - 2.18.0

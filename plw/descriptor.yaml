@@ -3,28 +3,28 @@ additionDate: '2017-01-17T15:02:33Z'
 biotoolsCURIE: biotools:plw
 biotoolsID: plw
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: magnus.astrand@astrazeneca.com
-  name: Magnus Astrand
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: magnus.astrand@astrazeneca.com
+    name: Magnus Astrand
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Probe level Locally moderated Weighted median-t and Locally Moderated
   Weighted-t.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/plw.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/plw.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/plw_1.34.0.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/plw_1.34.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -32,43 +32,43 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Statistical calculation
-    uri: http://edamontology.org/operation_2238
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Statistical calculation
+        uri: http://edamontology.org/operation_2238
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/plw.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-24T22:37:00Z'
 license: GPL-2.0
 link: []
 maturity: null
 name: plw
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1186/1471-2105-9-156
-  metadata: null
-  pmcid: PMC2358895
-  pmid: '18366694'
-  type: Primary
-  version: null
+  - doi: 10.1186/1471-2105-9-156
+    metadata: null
+    pmcid: PMC2358895
+    pmid: '18366694'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: Probes and primers
-  uri: http://edamontology.org/topic_0632
-- term: Statistics and probability
-  uri: http://edamontology.org/topic_2269
+  - term: Probes and primers
+    uri: http://edamontology.org/topic_0632
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
 validated: 1
 version:
-- 1.34.0
+  - 1.34.0

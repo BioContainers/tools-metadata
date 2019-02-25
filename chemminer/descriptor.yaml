@@ -3,17 +3,17 @@ additionDate: '2017-01-17T14:59:06Z'
 biotoolsCURIE: biotools:chemminer
 biotoolsID: chemminer
 collectionID:
-- BioConductor
+  - BioConductor
 cost: Free of charge
 credit:
-- email: thomas.girke@ucr.edu
-  name: Thomas Girke
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: thomas.girke@ucr.edu
+    name: Thomas Girke
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Cheminformatics package for analyzing drug-like small molecule data in
   R. Its latest version contains functions for efficient processing of large numbers
   of molecules, physicochemical/structural property predictions, structural similarity
@@ -21,14 +21,14 @@ description: Cheminformatics package for analyzing drug-like small molecule data
   of algorithms. In addition, it offers visualization functions for compound clustering
   results and chemical structures.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/ChemmineR.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/ChemmineR.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/ChemmineR_2.26.1.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/ChemmineR_2.26.1.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -36,84 +36,84 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Small molecule structure
-      uri: http://edamontology.org/data_1463
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  - data:
-      term: Molecular property (general)
-      uri: http://edamontology.org/data_2050
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  note: null
-  operation:
-  - term: Database search
-    uri: http://edamontology.org/operation_2421
-  - term: Analysis
-    uri: http://edamontology.org/operation_2945
-  - term: Visualisation
-    uri: http://edamontology.org/operation_0337
-  - term: Calculation
-    uri: http://edamontology.org/operation_3438
-  - term: Optimisation and refinement
-    uri: http://edamontology.org/operation_2425
-  - term: Clustering
-    uri: http://edamontology.org/operation_3432
-  - term: Comparison
-    uri: http://edamontology.org/operation_2424
-  - term: Generation
-    uri: http://edamontology.org/operation_3429
-  - term: Formatting
-    uri: http://edamontology.org/operation_0335
-  output:
-  - data:
-      term: Small molecule structure
-      uri: http://edamontology.org/data_1463
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  - data:
-      term: Molecular property (general)
-      uri: http://edamontology.org/data_2050
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
+  - cmd: null
+    input:
+      - data:
+          term: Small molecule structure
+          uri: http://edamontology.org/data_1463
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Molecular property (general)
+          uri: http://edamontology.org/data_2050
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+    note: null
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+      - term: Analysis
+        uri: http://edamontology.org/operation_2945
+      - term: Visualisation
+        uri: http://edamontology.org/operation_0337
+      - term: Calculation
+        uri: http://edamontology.org/operation_3438
+      - term: Optimisation and refinement
+        uri: http://edamontology.org/operation_2425
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+      - term: Comparison
+        uri: http://edamontology.org/operation_2424
+      - term: Generation
+        uri: http://edamontology.org/operation_3429
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output:
+      - data:
+          term: Small molecule structure
+          uri: http://edamontology.org/data_1463
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Molecular property (general)
+          uri: http://edamontology.org/data_2050
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
 homepage: http://bioconductor.org/packages/release/bioc/html/ChemmineR.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-24T22:48:31Z'
 license: Artistic-2.0
 link:
-- note: null
-  type: Mirror
-  url: https://github.com/girke-lab/ChemmineR
+  - note: null
+    type: Mirror
+    url: https://github.com/girke-lab/ChemmineR
 maturity: null
 name: ChemmineR
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1093/bioinformatics/btn307
-  metadata: null
-  pmcid: PMC2638865
-  pmid: '18596077'
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/btn307
+    metadata: null
+    pmcid: PMC2638865
+    pmid: '18596077'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: Cheminformatics
-  uri: http://edamontology.org/topic_2258
+  - term: Cheminformatics
+    uri: http://edamontology.org/topic_2258
 validated: 1
 version:
-- 2.26.1
+  - 2.26.1

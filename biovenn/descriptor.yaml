@@ -3,19 +3,19 @@ additionDate: '2018-10-03T07:58:20Z'
 biotoolsCURIE: biotools:biovenn
 biotoolsID: biovenn
 collectionID:
-- overlap
-- combinatorics
-- visualization
+  - overlap
+  - combinatorics
+  - visualization
 cost: null
 credit:
-- email: tim.hulsen@philips.com
-  name: Tim Hulsen
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: tim.hulsen@philips.com
+    name: Tim Hulsen
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: BioVenn is an easy-to-use web application to generate area-proportional
   Venn diagrams from lists of biological identifiers. It supports a wide range of
   identifiers from the most used biological databases currently available. Its implementation
@@ -31,38 +31,38 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Visualisation
-    uri: http://edamontology.org/operation_0337
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Visualisation
+        uri: http://edamontology.org/operation_0337
+    output: []
 homepage: http://www.biovenn.nl
 homepage_status: 0
 language: []
 lastUpdate: '2018-12-10T12:59:01Z'
 license: null
 link:
-- note: null
-  type: Browser
-  url: http://www.biovenn.nl
+  - note: null
+    type: Browser
+    url: http://www.biovenn.nl
 maturity: null
 name: BioVenn
 operatingSystem: []
 otherID: []
 owner: thulsen
 publication:
-- doi: 10.1186/1471-2164-9-488
-  metadata: null
-  pmcid: PMC2584113
-  pmid: '18925949'
-  type: Primary
-  version: null
+  - doi: 10.1186/1471-2164-9-488
+    metadata: null
+    pmcid: PMC2584113
+    pmid: '18925949'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Bioinformatics
-  uri: http://edamontology.org/topic_0091
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
 validated: 1
 version: []

@@ -3,29 +3,29 @@ additionDate: '2017-10-18T09:29:08Z'
 biotoolsCURIE: biotools:unipept_visualizations
 biotoolsID: unipept_visualizations
 collectionID:
-- unipept
+  - unipept
 cost: Free of charge
 credit:
-- email: null
-  name: Ghent University
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole: []
-  url: null
-- email: unipept@ugent.be
-  name: Bart Mesuere
-  note: null
-  orcidid: http://orcid.org/0000-0003-0610-3441
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: Ghent University
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole: []
+    url: null
+  - email: unipept@ugent.be
+    name: Bart Mesuere
+    note: null
+    orcidid: http://orcid.org/0000-0003-0610-3441
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: A visualisation library based on the visualisations in unipept.
 documentation:
-- note: null
-  type: API documentation
-  url: https://github.com/unipept/unipept-visualizations/blob/master/README.md
+  - note: null
+    type: API documentation
+    url: https://github.com/unipept/unipept-visualizations/blob/master/README.md
 download: []
 editPermission:
   authors: []
@@ -34,116 +34,117 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Hierarchy
-      uri: http://edamontology.org/data_2589
-    format:
-    - term: JSON
-      uri: http://edamontology.org/format_3464
-  - data:
-      term: Taxonomy
-      uri: http://edamontology.org/data_3028
-    format:
-    - term: JSON
-      uri: http://edamontology.org/format_3464
-  note: null
-  operation:
-  - term: Phylogenetic tree visualisation
-    uri: http://edamontology.org/operation_0567
-  - term: Dendrogram visualisation
-    uri: http://edamontology.org/operation_2938
-  - term: Mass spectrum visualisation
-    uri: http://edamontology.org/operation_3694
-  output:
-  - data:
-      term: Image
-      uri: http://edamontology.org/data_2968
-    format:
-    - term: png
-      uri: http://edamontology.org/format_3603
-    - term: svg
-      uri: http://edamontology.org/format_3604
+  - cmd: null
+    input:
+      - data:
+          term: Hierarchy
+          uri: http://edamontology.org/data_2589
+        format:
+          - term: JSON
+            uri: http://edamontology.org/format_3464
+      - data:
+          term: Taxonomy
+          uri: http://edamontology.org/data_3028
+        format:
+          - term: JSON
+            uri: http://edamontology.org/format_3464
+    note: null
+    operation:
+      - term: Phylogenetic tree visualisation
+        uri: http://edamontology.org/operation_0567
+      - term: Dendrogram visualisation
+        uri: http://edamontology.org/operation_2938
+      - term: Mass spectrum visualisation
+        uri: http://edamontology.org/operation_3694
+    output:
+      - data:
+          term: Image
+          uri: http://edamontology.org/data_2968
+        format:
+          - term: png
+            uri: http://edamontology.org/format_3603
+          - term: svg
+            uri: http://edamontology.org/format_3604
 homepage: https://github.com/unipept/unipept-visualizations
 homepage_status: 0
 language:
-- JavaScript
+  - JavaScript
 lastUpdate: '2019-01-09T16:08:17Z'
 license: MIT
 link: []
 maturity: Emerging
 name: Unipept visualizations
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bmesuere
 publication:
-- doi: 10.1021/pr300576s
-  metadata:
-    abstract: The Unipept web application (http://unipept.ugent.be) supports biodiversity
-      analysis of large and complex metaproteome samples using tryptic peptide information
-      obtained from shotgun MS/MS experiments. Its underlying index structure is designed
-      to quickly retrieve all occurrences of a tryptic peptide in UniProtKB records.
-      Taxon-specificity of the tryptic peptide is successively derived from these
-      occurrences using a novel lowest common ancestor approach that is robust against
-      taxonomic misarrangements, misidentifications, and inaccuracies. Not taking
-      into account this identification noise would otherwise result in drastic loss
-      of information. Dynamic treemaps visualize the biodiversity of metaproteome
-      samples, which eases the exploration of samples with highly complex compositions.
-      The potential of Unipept to gain novel insights into the biodiversity of a sample
-      is evaluated by reanalyzing publicly available metaproteome data sets taken
-      from the bacterial phyllosphere and the human gut. © 2012 American Chemical
-      Society.
-    authors:
-    - name: Mesuere B.
-    - name: Devreese B.
-    - name: Debyser G.
-    - name: Aerts M.
-    - name: Vandamme P.
-    - name: Dawyndt P.
-    citationCount: 52
-    date: '2012-12-07T00:00:00Z'
-    journal: Journal of Proteome Research
-    title: 'Unipept: Tryptic peptide-based biodiversity analysis of metaproteome samples'
-  pmcid: null
-  pmid: '23153116'
-  type: Primary
-  version: null
-- doi: null
-  metadata:
-    abstract: © 2014 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim. Unipept (http://unipept.ugent.be)
-      is a web application that offers a user-friendly way to explore the biodiversity
-      of complex metaproteome samples by providing interactive visualizations. In
-      this article, the updates and changes to Unipept since its initial release are
-      presented. This includes the addition of interactive sunburst and treeview visualizations
-      to the multipeptide analysis, the foundations of an application programming
-      interface (API) and a command line interface, updated data sources, and the
-      open-sourcing of the entire application under the MIT license.
-    authors:
-    - name: Mesuere B.
-    - name: Debyser G.
-    - name: Aerts M.
-    - name: Devreese B.
-    - name: Vandamme P.
-    - name: Dawyndt P.
-    citationCount: 40
-    date: '2015-04-01T00:00:00Z'
-    journal: Proteomics
-    title: The Unipept metaproteomics analysis pipeline
-  pmcid: null
-  pmid: '25477242'
-  type: null
-  version: null
+  - doi: 10.1021/pr300576s
+    metadata:
+      abstract: "The Unipept web application (http://unipept.ugent.be) supports biodiversity\
+        \ analysis of large and complex metaproteome samples using tryptic peptide\
+        \ information obtained from shotgun MS/MS experiments. Its underlying index\
+        \ structure is designed to quickly retrieve all occurrences of a tryptic peptide\
+        \ in UniProtKB records. Taxon-specificity of the tryptic peptide is successively\
+        \ derived from these occurrences using a novel lowest common ancestor approach\
+        \ that is robust against taxonomic misarrangements, misidentifications, and\
+        \ inaccuracies. Not taking into account this identification noise would otherwise\
+        \ result in drastic loss of information. Dynamic treemaps visualize the biodiversity\
+        \ of metaproteome samples, which eases the exploration of samples with highly\
+        \ complex compositions. The potential of Unipept to gain novel insights into\
+        \ the biodiversity of a sample is evaluated by reanalyzing publicly available\
+        \ metaproteome data sets taken from the bacterial phyllosphere and the human\
+        \ gut. \xA9 2012 American Chemical Society."
+      authors:
+        - name: Mesuere B.
+        - name: Devreese B.
+        - name: Debyser G.
+        - name: Aerts M.
+        - name: Vandamme P.
+        - name: Dawyndt P.
+      citationCount: 52
+      date: '2012-12-07T00:00:00Z'
+      journal: Journal of Proteome Research
+      title: 'Unipept: Tryptic peptide-based biodiversity analysis of metaproteome
+        samples'
+    pmcid: null
+    pmid: '23153116'
+    type: Primary
+    version: null
+  - doi: null
+    metadata:
+      abstract: "\xA9 2014 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim. Unipept (http://unipept.ugent.be)\
+        \ is a web application that offers a user-friendly way to explore the biodiversity\
+        \ of complex metaproteome samples by providing interactive visualizations.\
+        \ In this article, the updates and changes to Unipept since its initial release\
+        \ are presented. This includes the addition of interactive sunburst and treeview\
+        \ visualizations to the multipeptide analysis, the foundations of an application\
+        \ programming interface (API) and a command line interface, updated data sources,\
+        \ and the open-sourcing of the entire application under the MIT license."
+      authors:
+        - name: Mesuere B.
+        - name: Debyser G.
+        - name: Aerts M.
+        - name: Devreese B.
+        - name: Vandamme P.
+        - name: Dawyndt P.
+      citationCount: 40
+      date: '2015-04-01T00:00:00Z'
+      journal: Proteomics
+      title: The Unipept metaproteomics analysis pipeline
+    pmcid: null
+    pmid: '25477242'
+    type: null
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: Taxonomy
-  uri: http://edamontology.org/topic_0637
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
+  - term: Taxonomy
+    uri: http://edamontology.org/topic_0637
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
 validated: 1
 version:
-- 1.5.0
+  - 1.5.0

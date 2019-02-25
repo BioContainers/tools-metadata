@@ -3,105 +3,105 @@ additionDate: '2015-07-29T12:55:25Z'
 biotoolsCURIE: biotools:hypercldb
 biotoolsID: hypercldb
 collectionID:
-- CLDB
+  - CLDB
 cost: Free of charge
 credit:
-- email: null
-  name: Domenico Marra
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: Beatrice Iannotta
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: Massimiliano Armento
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: Tiziana Ruzzon
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole:
-  - Contributor
-  url: null
-- email: null
-  name: Ottavia Aresu
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole:
-  - Contributor
-  url: null
-- email: null
-  name: Leonardo Santi
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole:
-  - Contributor
-  url: null
-- email: null
-  name: Barbara Parodi
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole:
-  - Contributor
-  url: null
-- email: null
-  name: USMI
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: paolo.romano@hsanmartino.it
-  name: Paolo Romano
-  note: null
-  orcidid: http://orcid.org/0000-0003-4694-3883
-  typeEntity: null
-  typeRole:
-  - Developer
-  url: http://www.nettab.org/promano/
-- email: mariaassunta.manniello@hsanmartino.it
-  name: Maria Assunta Manniello
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole:
-  - Support
-  url: null
-- email: paolo.romano@hsanmartino.it
-  name: Paolo Romano
-  note: null
-  orcidid: http://orcid.org/0000-0003-4694-3883
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://www.nettab.org/promano/
-- email: mariaassunta.manniello@hsanmartino.it
-  name: Maria Assunta Manniello
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: Domenico Marra
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Beatrice Iannotta
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Massimiliano Armento
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Tiziana Ruzzon
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Ottavia Aresu
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Leonardo Santi
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Barbara Parodi
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: USMI
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: paolo.romano@hsanmartino.it
+    name: Paolo Romano
+    note: null
+    orcidid: http://orcid.org/0000-0003-4694-3883
+    typeEntity: null
+    typeRole:
+      - Developer
+    url: http://www.nettab.org/promano/
+  - email: mariaassunta.manniello@hsanmartino.it
+    name: Maria Assunta Manniello
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Support
+    url: null
+  - email: paolo.romano@hsanmartino.it
+    name: Paolo Romano
+    note: null
+    orcidid: http://orcid.org/0000-0003-4694-3883
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.nettab.org/promano/
+  - email: mariaassunta.manniello@hsanmartino.it
+    name: Maria Assunta Manniello
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: The hypertextual version of the Cell Line Database (CLDB), which is not
   directly accessible, a collection of information on human and animal cell lines
   available from some of the main European cell banks and many Italian research laboratories
@@ -109,128 +109,128 @@ documentation: []
 download: []
 editPermission:
   authors:
-  - ELIXIR-EE
+    - ELIXIR-EE
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: Access to human and animal cell lines data through the index of cell line
-    names
-  operation:
-  - term: Deposition
-    uri: http://edamontology.org/operation_3431
-  - term: Service invocation
-    uri: http://edamontology.org/operation_3763
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  - term: Formatting
-    uri: http://edamontology.org/operation_0335
-  output: []
-- cmd: null
-  input: []
-  note: Access to human and animal cell lines data through the index of species and
-    strains of origin
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output: []
-- cmd: null
-  input: []
-  note: Access to human and animal cell lines data through the index of tissues of
-    origin
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output: []
-- cmd: null
-  input: []
-  note: Access to human and animal cell lines data through the index of tumors
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output: []
-- cmd: null
-  input: []
-  note: Access to human and animal cell lines data through the index of pathologies
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output: []
-- cmd: null
-  input: []
-  note: Access to human and animal cell lines data through the index of transforming
-    agents
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output: []
-- cmd: null
-  input: []
-  note: Access to human and animal cell lines data through the index of species and
-    strains of origin
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output: []
+  - cmd: null
+    input: []
+    note: Access to human and animal cell lines data through the index of cell line
+      names
+    operation:
+      - term: Deposition
+        uri: http://edamontology.org/operation_3431
+      - term: Service invocation
+        uri: http://edamontology.org/operation_3763
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output: []
+  - cmd: null
+    input: []
+    note: Access to human and animal cell lines data through the index of species
+      and strains of origin
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output: []
+  - cmd: null
+    input: []
+    note: Access to human and animal cell lines data through the index of tissues
+      of origin
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output: []
+  - cmd: null
+    input: []
+    note: Access to human and animal cell lines data through the index of tumors
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output: []
+  - cmd: null
+    input: []
+    note: Access to human and animal cell lines data through the index of pathologies
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output: []
+  - cmd: null
+    input: []
+    note: Access to human and animal cell lines data through the index of transforming
+      agents
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output: []
+  - cmd: null
+    input: []
+    note: Access to human and animal cell lines data through the index of species
+      and strains of origin
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output: []
 homepage: http://bioinformatics.hsanmartino.it/hypercldb/
 homepage_status: 0
 language:
-- PHP
+  - PHP
 lastUpdate: '2018-12-29T13:29:32Z'
 license: null
 link: []
 maturity: Mature
 name: HyperCLDB
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: USMI
 publication:
-- doi: 10.1093/nar/gkn730
-  metadata: null
-  pmcid: PMC2686526
-  pmid: '18927105'
-  type: Primary
-  version: null
-- doi: null
-  metadata:
-    abstract: The Cell Line Data Base (CLDB), set up within the Interlab Project,
-      is a relational database containing data on 2650 Human and animal cell lines
-      which are available in labs and cell banks all over Europe. The second edition
-      of the catalogue, directly generated from the database, has been produced, and
-      will be published in the first months of 1993. Furthermore, the electronic catalogue
-      is available for IBM-compatible personal computers and the version for MacIntosh
-      is under preparation. © 1993 Kluwer Academic Publishers.
-    authors:
-    - name: Manniello A.
-    - name: Aresu O.
-    - name: Parodi B.
-    - name: Romano P.
-    - name: Iannotta B.
-    - name: Rondanina G.
-    - name: Viegi L.
-    - name: Ruzzon T.
-    citationCount: 2
-    date: '1993-01-01T00:00:00Z'
-    journal: Cytotechnology
-    title: 'The cell line data base and the new catalogue: Detailed information on
-      2650 human and animal cell lines'
-  pmcid: null
-  pmid: '7763741'
-  type: Other
-  version: null
+  - doi: 10.1093/nar/gkn730
+    metadata: null
+    pmcid: PMC2686526
+    pmid: '18927105'
+    type: Primary
+    version: null
+  - doi: null
+    metadata:
+      abstract: "The Cell Line Data Base (CLDB), set up within the Interlab Project,\
+        \ is a relational database containing data on 2650 Human and animal cell lines\
+        \ which are available in labs and cell banks all over Europe. The second edition\
+        \ of the catalogue, directly generated from the database, has been produced,\
+        \ and will be published in the first months of 1993. Furthermore, the electronic\
+        \ catalogue is available for IBM-compatible personal computers and the version\
+        \ for MacIntosh is under preparation. \xA9 1993 Kluwer Academic Publishers."
+      authors:
+        - name: Manniello A.
+        - name: Aresu O.
+        - name: Parodi B.
+        - name: Romano P.
+        - name: Iannotta B.
+        - name: Rondanina G.
+        - name: Viegi L.
+        - name: Ruzzon T.
+      citationCount: 2
+      date: '1993-01-01T00:00:00Z'
+      journal: Cytotechnology
+      title: 'The cell line data base and the new catalogue: Detailed information
+        on 2650 human and animal cell lines'
+    pmcid: null
+    pmid: '7763741'
+    type: Other
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Cell culture collection
-  uri: http://edamontology.org/topic_3340
-- term: Database management
-  uri: http://edamontology.org/topic_3489
-- term: Data acquisition
-  uri: http://edamontology.org/topic_3077
+  - term: Cell culture collection
+    uri: http://edamontology.org/topic_3340
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
+  - term: Data acquisition
+    uri: http://edamontology.org/topic_3077
 validated: 1
 version:
-- 4.0.201503
+  - 4.0.201503

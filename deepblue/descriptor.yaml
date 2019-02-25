@@ -3,66 +3,66 @@ additionDate: '2016-02-03T13:33:26Z'
 biotoolsCURIE: biotools:deepblue
 biotoolsID: deepblue
 collectionID:
-- de.NBI
-- HD-Hub
+  - de.NBI
+  - HD-Hub
 cost: Free of charge
 credit:
-- email: null
-  name: Felipe Albrecht
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: Max Planck Institute for Informatics
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: EU grant No. HEALTH-F5-2011-282510 (BLUEPRINT project)
-  note: null
-  orcidid: null
-  typeEntity: Funding agency
-  typeRole:
-  - Contributor
-  url: null
-- email: null
-  name: German Science Ministry Grant No.01KU1216A (DEEP project)
-  note: null
-  orcidid: null
-  typeEntity: Funding agency
-  typeRole:
-  - Contributor
-  url: null
-- email: null
-  name: mpi-inf.mpg.de
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: felipe.albrecht@mpi-inf.mpg.de
-  name: Felipe Albrecht
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole:
-  - Support
-  url: null
-- email: felipe.albrecht@mpi-inf.mpg.de
-  name: Felipe Albrecht
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: Felipe Albrecht
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Max Planck Institute for Informatics
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: EU grant No. HEALTH-F5-2011-282510 (BLUEPRINT project)
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: German Science Ministry Grant No.01KU1216A (DEEP project)
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: mpi-inf.mpg.de
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: felipe.albrecht@mpi-inf.mpg.de
+    name: Felipe Albrecht
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Support
+    url: null
+  - email: felipe.albrecht@mpi-inf.mpg.de
+    name: Felipe Albrecht
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Provides a central data access hub for large collections of epigenomic
   data. It organizes the data from different sources using controlled vocabularies
   and ontologies. The data is stored in our server, where the users can access the
@@ -70,63 +70,63 @@ description: Provides a central data access hub for large collections of epigeno
   to perform operations on the epigenomic data. Users can execute all operations in
   a pipeline fashion in the server and transfer only meaningful data.
 documentation:
-- note: null
-  type: General
-  url: http://deepblue.mpi-inf.mpg.de/
+  - note: null
+    type: General
+    url: http://deepblue.mpi-inf.mpg.de/
 download: []
 editPermission:
   authors:
-  - anupkumar
-  - Karl_JV
-  - hdhub
+    - anupkumar
+    - Karl_JV
+    - hdhub
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  - term: Aggregation
-    uri: http://edamontology.org/operation_3436
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+      - term: Aggregation
+        uri: http://edamontology.org/operation_3436
+    output: []
 homepage: http://deepblue.mpi-inf.mpg.de/
 homepage_status: 0
 language:
-- R
-- PHP
-- Java
-- Python
-- C++
-- Javascript
-- Perl
+  - R
+  - PHP
+  - Java
+  - Python
+  - C++
+  - Javascript
+  - Perl
 lastUpdate: '2018-12-10T12:59:01Z'
 license: GPL-3.0
 link: []
 maturity: Mature
 name: DeepBlue Epigenomic Data Server
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: felipe.albrecht@mpi-inf.mpg.de
 publication:
-- doi: 10.1093/nar/gkw211
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkw211
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Web API
-- Web application
-- Database portal
+  - Web API
+  - Web application
+  - Database portal
 topic:
-- term: Epigenomics
-  uri: http://edamontology.org/topic_3173
+  - term: Epigenomics
+    uri: http://edamontology.org/topic_3173
 validated: 1
 version: []

@@ -3,34 +3,34 @@ additionDate: '2016-10-20T10:30:43Z'
 biotoolsCURIE: biotools:icelogo
 biotoolsID: icelogo
 collectionID:
-- de.NBI
+  - de.NBI
 cost: null
 credit:
-- email: null
-  name: BioInfra.Prot
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: dominik.kopczynski@isas.de
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: BioInfra.Prot
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: dominik.kopczynski@isas.de
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Visualize significant conserved sequence patterns in multiple peptide
   sequence alignments against background (reference) sequence sets that can be tailored
   to the studied system and the used protocol. The unique advantages compared to other
   sequence logo creating tools is that this tool has a more dynamic nature and is
   more correct and complete in the analysis of conserved sequence patterns.
 documentation:
-- note: null
-  type: Manual
-  url: http://genesis.ugent.be/uvpublicdata/icelogo/iceLogo.pdf
+  - note: null
+    type: Manual
+    url: http://genesis.ugent.be/uvpublicdata/icelogo/iceLogo.pdf
 download: []
 editPermission:
   authors: []
@@ -39,59 +39,59 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Sequence cluster (protein)
-      uri: http://edamontology.org/data_1245
-    format: []
-  note: Visualizing significant conserved sequence patterns in multiple peptide sequence
-    alignments against background (reference) sequence sets.
-  operation:
-  - term: Sequence visualisation
-    uri: http://edamontology.org/operation_0564
-  output:
-  - data:
-      term: Sequence alignment image
-      uri: http://edamontology.org/data_1711
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Sequence cluster (protein)
+          uri: http://edamontology.org/data_1245
+        format: []
+    note: Visualizing significant conserved sequence patterns in multiple peptide
+      sequence alignments against background (reference) sequence sets.
+    operation:
+      - term: Sequence visualisation
+        uri: http://edamontology.org/operation_0564
+    output:
+      - data:
+          term: Sequence alignment image
+          uri: http://edamontology.org/data_1711
+        format: []
 homepage: http://compomics.github.io/projects/icelogo.html
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2018-12-29T14:20:59Z'
 license: null
 link: []
 maturity: null
 name: iceLogo
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: BioInfra.Prot
 publication:
-- doi: 10.1038/nmeth1109-786
-  metadata:
-    abstract: ''
-    authors:
-    - name: Colaert N.
-    - name: Helsens K.
-    - name: Martens L.
-    - name: Vandekerckhove J.
-    - name: Gevaert K.
-    citationCount: 319
-    date: '2009-11-10T00:00:00Z'
-    journal: Nature Methods
-    title: Improved visualization of protein consensus sequences by iceLogo
-  pmcid: null
-  pmid: '19876014'
-  type: Primary
-  version: null
+  - doi: 10.1038/nmeth1109-786
+    metadata:
+      abstract: ''
+      authors:
+        - name: Colaert N.
+        - name: Helsens K.
+        - name: Martens L.
+        - name: Vandekerckhove J.
+        - name: Gevaert K.
+      citationCount: 319
+      date: '2009-11-10T00:00:00Z'
+      journal: Nature Methods
+      title: Improved visualization of protein consensus sequences by iceLogo
+    pmcid: null
+    pmid: '19876014'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
 validated: 1
 version:
-- '1'
+  - '1'

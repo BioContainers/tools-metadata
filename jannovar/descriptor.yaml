@@ -5,20 +5,20 @@ biotoolsID: jannovar
 collectionID: []
 cost: null
 credit:
-- email: compbio@charite.de
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://charite.github.io/
+  - email: compbio@charite.de
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://charite.github.io/
 description: Stand-alone Java application as well as a Java library designed to be
   used in larger software frameworks for exome analysis.
 documentation:
-- note: null
-  type: Manual
-  url: http://jannovar.readthedocs.io/en/master/
+  - note: null
+    type: Manual
+    url: http://jannovar.readthedocs.io/en/master/
 download: []
 editPermission:
   authors: []
@@ -27,83 +27,84 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence annotation
-    uri: http://edamontology.org/operation_0361
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Exome assembly
-    uri: http://edamontology.org/operation_3229
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence annotation
+        uri: http://edamontology.org/operation_0361
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Exome assembly
+        uri: http://edamontology.org/operation_3229
+    output: []
 homepage: http://charite.github.io/software-jannovar.html
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2018-12-11T19:08:33Z'
 license: null
 link:
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/jannovar-0-5-a-java-library-for-exome-annotation.html
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/jannovar-0-5-a-java-library-for-exome-annotation.html
 maturity: null
 name: Jannovar
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: mbs_import
 publication:
-- doi: null
-  metadata:
-    abstract: Transcript-based annotation and pedigree analysis are two basic steps
-      in the computational analysis of whole-exome sequencing experiments in genetic
-      diagnostics and disease-gene discovery projects. Here, we present Jannovar,
-      a stand-alone Java application as well as a Java library designed to be used
-      in larger software frameworks for exome and genome analysis. Jannovar uses an
-      interval tree to identify all transcripts affected by a given variant, and provides
-      Human Genome Variation Society-compliant annotations both for variants affecting
-      coding sequences and splice junctions as well as untranslated regions and noncoding
-      RNA transcripts. Jannovar can also perform family-based pedigree analysis with
-      Variant Call Format (VCF) files with data from members of a family segregating
-      a Mendelian disorder. Using a desktop computer, Jannovar requires a few seconds
-      to annotate a typical VCF file with exome data. Jannovar is freely available
-      under the BSD2 license. Source code as well as the Java application and library
-      file can be downloaded from http://compbio.charite.de (with tutorial) and https://github.com/charite/jannovar.
-      © 2014 WILEY PERIODICALS, INC.
-    authors:
-    - name: Jager M.
-    - name: Wang K.
-    - name: Bauer S.
-    - name: Smedley D.
-    - name: Krawitz P.
-    - name: Robinson P.N.
-    citationCount: 23
-    date: '2014-01-01T00:00:00Z'
-    journal: Human Mutation
-    title: 'Jannovar: A Java Library for Exome Annotation'
-  pmcid: null
-  pmid: '24677618'
-  type: null
-  version: null
+  - doi: null
+    metadata:
+      abstract: "Transcript-based annotation and pedigree analysis are two basic steps\
+        \ in the computational analysis of whole-exome sequencing experiments in genetic\
+        \ diagnostics and disease-gene discovery projects. Here, we present Jannovar,\
+        \ a stand-alone Java application as well as a Java library designed to be\
+        \ used in larger software frameworks for exome and genome analysis. Jannovar\
+        \ uses an interval tree to identify all transcripts affected by a given variant,\
+        \ and provides Human Genome Variation Society-compliant annotations both for\
+        \ variants affecting coding sequences and splice junctions as well as untranslated\
+        \ regions and noncoding RNA transcripts. Jannovar can also perform family-based\
+        \ pedigree analysis with Variant Call Format (VCF) files with data from members\
+        \ of a family segregating a Mendelian disorder. Using a desktop computer,\
+        \ Jannovar requires a few seconds to annotate a typical VCF file with exome\
+        \ data. Jannovar is freely available under the BSD2 license. Source code as\
+        \ well as the Java application and library file can be downloaded from http://compbio.charite.de\
+        \ (with tutorial) and https://github.com/charite/jannovar. \xA9 2014 WILEY\
+        \ PERIODICALS, INC."
+      authors:
+        - name: Jager M.
+        - name: Wang K.
+        - name: Bauer S.
+        - name: Smedley D.
+        - name: Krawitz P.
+        - name: Robinson P.N.
+      citationCount: 23
+      date: '2014-01-01T00:00:00Z'
+      journal: Human Mutation
+      title: 'Jannovar: A Java Library for Exome Annotation'
+    pmcid: null
+    pmid: '24677618'
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: RNA
-  uri: http://edamontology.org/topic_0099
-- term: Exome sequencing
-  uri: http://edamontology.org/topic_3676
-- term: Functional, regulatory and non-coding RNA
-  uri: http://edamontology.org/topic_0659
-- term: Gene transcripts
-  uri: http://edamontology.org/topic_3512
-- term: Pathology
-  uri: http://edamontology.org/topic_0634
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Exome sequencing
+    uri: http://edamontology.org/topic_3676
+  - term: Functional, regulatory and non-coding RNA
+    uri: http://edamontology.org/topic_0659
+  - term: Gene transcripts
+    uri: http://edamontology.org/topic_3512
+  - term: Pathology
+    uri: http://edamontology.org/topic_0634
 validated: 1
 version: []

@@ -5,20 +5,20 @@ biotoolsID: 3omics
 collectionID: []
 cost: null
 credit:
-- email: yjtseng@csie.ntu.edu.tw
-  name: Yufeng Jane Tseng
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: yjtseng@csie.ntu.edu.tw
+    name: Yufeng Jane Tseng
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: A web based systems biology visualization tool for integrating human
   transcriptomic, proteomic and metabolomic data.
 documentation:
-- note: null
-  type: General
-  url: https://3omics.cmdm.tw/help.php
+  - note: null
+    type: General
+    url: https://3omics.cmdm.tw/help.php
 download: []
 editPermission:
   authors: []
@@ -27,91 +27,92 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence analysis
-    uri: http://edamontology.org/operation_2403
-  - term: Genome visualisation
-    uri: http://edamontology.org/operation_3208
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+      - term: Genome visualisation
+        uri: http://edamontology.org/operation_3208
+    output: []
 homepage: https://3omics.cmdm.tw/
 homepage_status: 0
 language:
-- PHP
-- Perl
+  - PHP
+  - Perl
 lastUpdate: '2018-12-10T12:59:01Z'
 license: null
 link: []
 maturity: null
 name: 3Omics
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1186/1752-0509-7-64
-  metadata:
-    abstract: 'Background: Integrative and comparative analyses of multiple transcriptomics,
-      proteomics and metabolomics datasets require an intensive knowledge of tools
-      and background concepts. Thus, it is challenging for users to perform such analyses,
-      highlighting the need for a single tool for such purposes. The 3Omics one-click
-      web tool was developed to visualize and rapidly integrate multiple human inter-
-      or intra-transcriptomic, proteomic, and metabolomic data by combining five commonly
-      used analyses: correlation networking, coexpression, phenotyping, pathway enrichment,
-      and GO (Gene Ontology) enrichment.Results: 3Omics generates inter-omic correlation
-      networks to visualize relationships in data with respect to time or experimental
-      conditions for all transcripts, proteins and metabolites. If only two of three
-      omics datasets are input, then 3Omics supplements the missing transcript, protein
-      or metabolite information related to the input data by text-mining the PubMed
-      database. 3Omics'' coexpression analysis assists in revealing functions shared
-      among different omics datasets. 3Omics'' phenotype analysis integrates Online
-      Mendelian Inheritance in Man with available transcript or protein data. Pathway
-      enrichment analysis on metabolomics data by 3Omics reveals enriched pathways
-      in the KEGG/HumanCyc database. 3Omics performs statistical Gene Ontology-based
-      functional enrichment analyses to display significantly overrepresented GO terms
-      in transcriptomic experiments. Although the principal application of 3Omics
-      is the integration of multiple omics datasets, it is also capable of analyzing
-      individual omics datasets. The information obtained from the analyses of 3Omics
-      in Case Studies 1 and 2 are also in accordance with comprehensive findings in
-      the literature.Conclusions: 3Omics incorporates the advantages and functionality
-      of existing software into a single platform, thereby simplifying data analysis
-      and enabling the user to perform a one-click integrated analysis. Visualization
-      and analysis results are downloadable for further user customization and analysis.
-      The 3Omics software can be freely accessed at http://3omics.cmdm.tw. © 2013
-      Kuo et al.; licensee BioMed Central Ltd.'
-    authors:
-    - name: Kuo T.-C.
-    - name: Tian T.-F.
-    - name: Tseng Y.J.
-    citationCount: 46
-    date: '2013-07-13T00:00:00Z'
-    journal: BMC Systems Biology
-    title: '3Omics: A web-based systems biology tool for analysis, integration and
-      visualization of human transcriptomic, proteomic and metabolomic data'
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1186/1752-0509-7-64
+    metadata:
+      abstract: "Background: Integrative and comparative analyses of multiple transcriptomics,\
+        \ proteomics and metabolomics datasets require an intensive knowledge of tools\
+        \ and background concepts. Thus, it is challenging for users to perform such\
+        \ analyses, highlighting the need for a single tool for such purposes. The\
+        \ 3Omics one-click web tool was developed to visualize and rapidly integrate\
+        \ multiple human inter- or intra-transcriptomic, proteomic, and metabolomic\
+        \ data by combining five commonly used analyses: correlation networking, coexpression,\
+        \ phenotyping, pathway enrichment, and GO (Gene Ontology) enrichment.Results:\
+        \ 3Omics generates inter-omic correlation networks to visualize relationships\
+        \ in data with respect to time or experimental conditions for all transcripts,\
+        \ proteins and metabolites. If only two of three omics datasets are input,\
+        \ then 3Omics supplements the missing transcript, protein or metabolite information\
+        \ related to the input data by text-mining the PubMed database. 3Omics' coexpression\
+        \ analysis assists in revealing functions shared among different omics datasets.\
+        \ 3Omics' phenotype analysis integrates Online Mendelian Inheritance in Man\
+        \ with available transcript or protein data. Pathway enrichment analysis on\
+        \ metabolomics data by 3Omics reveals enriched pathways in the KEGG/HumanCyc\
+        \ database. 3Omics performs statistical Gene Ontology-based functional enrichment\
+        \ analyses to display significantly overrepresented GO terms in transcriptomic\
+        \ experiments. Although the principal application of 3Omics is the integration\
+        \ of multiple omics datasets, it is also capable of analyzing individual omics\
+        \ datasets. The information obtained from the analyses of 3Omics in Case Studies\
+        \ 1 and 2 are also in accordance with comprehensive findings in the literature.Conclusions:\
+        \ 3Omics incorporates the advantages and functionality of existing software\
+        \ into a single platform, thereby simplifying data analysis and enabling the\
+        \ user to perform a one-click integrated analysis. Visualization and analysis\
+        \ results are downloadable for further user customization and analysis. The\
+        \ 3Omics software can be freely accessed at http://3omics.cmdm.tw. \xA9 2013\
+        \ Kuo et al.; licensee BioMed Central Ltd."
+      authors:
+        - name: Kuo T.-C.
+        - name: Tian T.-F.
+        - name: Tseng Y.J.
+      citationCount: 46
+      date: '2013-07-13T00:00:00Z'
+      journal: BMC Systems Biology
+      title: '3Omics: A web-based systems biology tool for analysis, integration and
+        visualization of human transcriptomic, proteomic and metabolomic data'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Systems biology
-  uri: http://edamontology.org/topic_2259
-- term: Transcriptomics
-  uri: http://edamontology.org/topic_3308
-- term: Human biology
-  uri: http://edamontology.org/topic_2815
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
-- term: Metabolomics
-  uri: http://edamontology.org/topic_3172
-- term: Data visualisation
-  uri: http://edamontology.org/topic_0092
-- term: Data visualisation
-  uri: http://edamontology.org/topic_0092
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+  - term: Human biology
+    uri: http://edamontology.org/topic_2815
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Metabolomics
+    uri: http://edamontology.org/topic_3172
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
 validated: 1
 version: []

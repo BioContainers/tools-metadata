@@ -3,25 +3,25 @@ additionDate: '2017-01-25T12:19:06Z'
 biotoolsCURIE: biotools:cellnetanalyzer
 biotoolsID: cellnetanalyzer
 collectionID:
-- de.NBI
-- denbi-sysbio
+  - de.NBI
+  - denbi-sysbio
 cost: null
 credit:
-- email: klamt@mpi-magdeburg.mpg.de
-  name: Steffen Klamt
-  note: null
-  orcidid: http://orcid.org/0000-0003-2563-7561
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://www2.mpi-magdeburg.mpg.de/projects/cna/cna.html
+  - email: klamt@mpi-magdeburg.mpg.de
+    name: Steffen Klamt
+    note: null
+    orcidid: http://orcid.org/0000-0003-2563-7561
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www2.mpi-magdeburg.mpg.de/projects/cna/cna.html
 description: Provides various computational methods for analyzing structure and function
   of metabolic, signaling, and regulatory networks. For metabolic networks, CNA supports
   a variety of stoichiometric and constraint-based modeling techniques.
 documentation:
-- note: null
-  type: Manual
-  url: https://www2.mpi-magdeburg.mpg.de/projects/cna/manual_cellnetanalyzer.pdf
+  - note: null
+    type: Manual
+    url: https://www2.mpi-magdeburg.mpg.de/projects/cna/manual_cellnetanalyzer.pdf
 download: []
 editPermission:
   authors: []
@@ -30,97 +30,98 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Mathematical model
-      uri: http://edamontology.org/data_0950
-    format:
-    - term: SBML
-      uri: http://edamontology.org/format_2585
-  note: Stoichiometric and constraint-based modeling, Boolean modeling, interaction
-    graphs
-  operation:
-  - term: Pathway or network analysis
-    uri: http://edamontology.org/operation_2497
-  - term: Network simulation
-    uri: http://edamontology.org/operation_3562
-  - term: Metabolic network modelling
-    uri: http://edamontology.org/operation_3660
-  - term: Gene regulatory network analysis
-    uri: http://edamontology.org/operation_1781
-  - term: Pathway or network visualisation
-    uri: http://edamontology.org/operation_3083
-  - term: Modelling and simulation
-    uri: http://edamontology.org/operation_2426
-  output:
-  - data:
-      term: Mathematical model
-      uri: http://edamontology.org/data_0950
-    format:
-    - term: SBML
-      uri: http://edamontology.org/format_2585
+  - cmd: null
+    input:
+      - data:
+          term: Mathematical model
+          uri: http://edamontology.org/data_0950
+        format:
+          - term: SBML
+            uri: http://edamontology.org/format_2585
+    note: Stoichiometric and constraint-based modeling, Boolean modeling, interaction
+      graphs
+    operation:
+      - term: Pathway or network analysis
+        uri: http://edamontology.org/operation_2497
+      - term: Network simulation
+        uri: http://edamontology.org/operation_3562
+      - term: Metabolic network modelling
+        uri: http://edamontology.org/operation_3660
+      - term: Gene regulatory network analysis
+        uri: http://edamontology.org/operation_1781
+      - term: Pathway or network visualisation
+        uri: http://edamontology.org/operation_3083
+      - term: Modelling and simulation
+        uri: http://edamontology.org/operation_2426
+    output:
+      - data:
+          term: Mathematical model
+          uri: http://edamontology.org/data_0950
+        format:
+          - term: SBML
+            uri: http://edamontology.org/format_2585
 homepage: https://www2.mpi-magdeburg.mpg.de/projects/cna/cna.html
 homepage_status: 0
 language:
-- MATLAB
+  - MATLAB
 lastUpdate: '2018-12-24T21:42:55Z'
 license: null
 link: []
 maturity: null
 name: CellNetAnalyzer
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: klamt
 publication:
-- doi: 10.1186/1752-0509-1-2
-  metadata: null
-  pmcid: PMC1847467
-  pmid: '17408509'
-  type: Primary
-  version: null
-- doi: null
-  metadata:
-    abstract: CellNetAnalyzer (CNA) is a MATLAB toolbox providing computational methods
-      for studying structure and function of metabolic and cellular signaling networks.
-      In order to allow non-experts to use these methods easily, CNA provides GUI-based
-      interactive network maps as a means of parameter input and result visualization.
-      However, with the availability of high-throughput data, there is a need to make
-      CNA's functionality also accessible in batch mode for automatic data processing.
-      Furthermore, as some algorithms of CNA are of general relevance for network
-      analysis it would be desirable if they could be called as sub-routines by other
-      applications. For this purpose, we developed an API (application programming
-      interface) for CNA allowing users (i) to access the content of network models
-      in CNA, (ii) to use CNA's network analysis capabilities independent of the GUI,
-      and (iii) to interact with the GUI to facilitate the development of graphical
-      plugins.Here we describe the organization of network projects in CNA and the
-      application of the new API functions to these projects. This includes the creation
-      of network projects from scratch, loading and saving of projects and scenarios,
-      and the application of the actual analysis methods. Furthermore, API functions
-      for the import/export of metabolic models in SBML format and for accessing the
-      GUI are described. Lastly, two example applications demonstrate the use and
-      versatile applicability of CNA's API. CNA is freely available for academic use
-      and can be downloaded from http://www.mpi-magdeburg.mpg.de/projects/cna/cna.html.
-      © 2011 Elsevier Ireland Ltd.
-    authors:
-    - name: Klamt S.
-    - name: von Kamp A.
-    citationCount: 31
-    date: '2011-08-01T00:00:00Z'
-    journal: BioSystems
-    title: An application programming interface for CellNetAnalyzer
-  pmcid: null
-  pmid: '21315797'
-  type: Primary
-  version: null
+  - doi: 10.1186/1752-0509-1-2
+    metadata: null
+    pmcid: PMC1847467
+    pmid: '17408509'
+    type: Primary
+    version: null
+  - doi: null
+    metadata:
+      abstract: "CellNetAnalyzer (CNA) is a MATLAB toolbox providing computational\
+        \ methods for studying structure and function of metabolic and cellular signaling\
+        \ networks. In order to allow non-experts to use these methods easily, CNA\
+        \ provides GUI-based interactive network maps as a means of parameter input\
+        \ and result visualization. However, with the availability of high-throughput\
+        \ data, there is a need to make CNA's functionality also accessible in batch\
+        \ mode for automatic data processing. Furthermore, as some algorithms of CNA\
+        \ are of general relevance for network analysis it would be desirable if they\
+        \ could be called as sub-routines by other applications. For this purpose,\
+        \ we developed an API (application programming interface) for CNA allowing\
+        \ users (i) to access the content of network models in CNA, (ii) to use CNA's\
+        \ network analysis capabilities independent of the GUI, and (iii) to interact\
+        \ with the GUI to facilitate the development of graphical plugins.Here we\
+        \ describe the organization of network projects in CNA and the application\
+        \ of the new API functions to these projects. This includes the creation of\
+        \ network projects from scratch, loading and saving of projects and scenarios,\
+        \ and the application of the actual analysis methods. Furthermore, API functions\
+        \ for the import/export of metabolic models in SBML format and for accessing\
+        \ the GUI are described. Lastly, two example applications demonstrate the\
+        \ use and versatile applicability of CNA's API. CNA is freely available for\
+        \ academic use and can be downloaded from http://www.mpi-magdeburg.mpg.de/projects/cna/cna.html.\
+        \ \xA9 2011 Elsevier Ireland Ltd."
+      authors:
+        - name: Klamt S.
+        - name: von Kamp A.
+      citationCount: 31
+      date: '2011-08-01T00:00:00Z'
+      journal: BioSystems
+      title: An application programming interface for CellNetAnalyzer
+    pmcid: null
+    pmid: '21315797'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Desktop application
+  - Command-line tool
+  - Desktop application
 topic:
-- term: Computational biology
-  uri: http://edamontology.org/topic_3307
+  - term: Computational biology
+    uri: http://edamontology.org/topic_3307
 validated: 1
 version: []

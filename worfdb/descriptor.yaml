@@ -3,30 +3,30 @@ additionDate: '2015-10-09T16:59:50Z'
 biotoolsCURIE: biotools:worfdb
 biotoolsID: worfdb
 collectionID:
-- DRCAT
+  - DRCAT
 cost: null
 credit:
-- email: null
-  name: DRCAT
-  note: null
-  orcidid: null
-  typeEntity: Project
-  typeRole:
-  - Documentor
-  url: null
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://worfdb.dfci.harvard.edu/index.php?page=contact
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://worfdb.dfci.harvard.edu/index.php?page=contact
 description: The Caenorhabditis elegans ORFeome cloning project.
 documentation:
-- note: null
-  type: General
-  url: http://worfdb.dfci.harvard.edu/index.php?page=race
+  - note: null
+    type: General
+    url: http://worfdb.dfci.harvard.edu/index.php?page=race
 download: []
 editPermission:
   authors: []
@@ -35,23 +35,23 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: ORF name
-      uri: http://edamontology.org/data_1807
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Gene report
-      uri: http://edamontology.org/data_0916
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: ORF name
+          uri: http://edamontology.org/data_1807
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
 homepage: http://worfdb.dfci.harvard.edu/
 homepage_status: 0
 language: []
@@ -61,22 +61,22 @@ link: []
 maturity: null
 name: WORFDB
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: DRCAT
 publication:
-- doi: 10.1101/gr.2496804
-  metadata: null
-  pmcid: PMC528921
-  pmid: '15489327'
-  type: Primary
-  version: null
+  - doi: 10.1101/gr.2496804
+    metadata: null
+    pmcid: PMC528921
+    pmid: '15489327'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Model organisms
-  uri: http://edamontology.org/topic_0621
+  - term: Model organisms
+    uri: http://edamontology.org/topic_0621
 validated: 1
 version: []

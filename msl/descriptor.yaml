@@ -5,14 +5,14 @@ biotoolsID: msl
 collectionID: []
 cost: null
 credit:
-- email: zahmed@uchc.edu
-  name: Zeeshan Ahmed
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: zahmed@uchc.edu
+    name: Zeeshan Ahmed
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Mining Scientific Literature. Automatic and physical analysis of published
   scientific literature in PDF format  It allows the extraction of text and images
   by interpreting all kinds of published PDF files using advanced data mining and
@@ -29,69 +29,71 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Image analysis
-    uri: http://edamontology.org/operation_3443
-  - term: Text mining
-    uri: http://edamontology.org/operation_0306
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Image analysis
+        uri: http://edamontology.org/operation_3443
+      - term: Text mining
+        uri: http://edamontology.org/operation_0306
+    output: []
 homepage: https://zenodo.org/record/30941#.W3FRsC1kjfZ
 homepage_status: 0
 language:
-- C#
+  - C#
 lastUpdate: '2018-12-10T12:59:01Z'
 license: AFL-3.0
 link: []
 maturity: null
 name: MSL
 operatingSystem:
-- Windows
+  - Windows
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.12688/f1000research.7329.3
-  metadata:
-    abstract: © 2018 Ahmed Z and Dandekar T. Published scientific literature contains
-      millions of figures, including information about the results obtained from different
-      scientific experiments e.g. PCR-ELISA data, microarray analysis, gel electrophoresis,
-      mass spectrometry data, DNA/RNA sequencing, diagnostic imaging (CT/MRI and ultrasound
-      scans), and medicinal imaging like electroencephalography (EEG), magnetoencephalography
-      (MEG), echocardiography (ECG), positron-emission tomography (PET) images. The
-      importance of biomedical figures has been widely recognized in scientific and
-      medicine communities, as they play a vital role in providing major original
-      data, experimental and computational results in concise form. One major challenge
-      for implementing a system for scientific literature analysis is extracting and
-      analyzing text and figures from published PDF files by physical and logical
-      document analysis. Here we present a product line architecture based bioinformatics
-      tool 'Mining Scientific Literature (MSL)', which supports the extraction of
-      text and images by interpreting all kinds of published PDF files using advanced
-      data mining and image processing techniques. It provides modules for the marginalization
-      of extracted text based on different coordinates and keywords, visualization
-      of extracted figures and extraction of embedded text from all kinds of biological
-      and biomedical figures using applied Optimal Character Recognition (OCR). Moreover,
-      for further analysis and usage, it generates the system's output in different
-      formats including text, PDF, XML and images files. Hence, MSL is an easy to
-      install and use analysis tool to interpret published scientific literature in
-      PDF format.
-    authors:
-    - name: Ahmed Z.
-    - name: Dandekar T.
-    citationCount: 0
-    date: '2018-01-01T00:00:00Z'
-    journal: F1000Research
-    title: 'MSL: Facilitating automatic and physical analysis of published scientific
-      literature in PDF format [version 3; referees: 1 approved, 3 approved with reservations]'
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.12688/f1000research.7329.3
+    metadata:
+      abstract: "\xA9 2018 Ahmed Z and Dandekar T. Published scientific literature\
+        \ contains millions of figures, including information about the results obtained\
+        \ from different scientific experiments e.g. PCR-ELISA data, microarray analysis,\
+        \ gel electrophoresis, mass spectrometry data, DNA/RNA sequencing, diagnostic\
+        \ imaging (CT/MRI and ultrasound scans), and medicinal imaging like electroencephalography\
+        \ (EEG), magnetoencephalography (MEG), echocardiography (ECG), positron-emission\
+        \ tomography (PET) images. The importance of biomedical figures has been widely\
+        \ recognized in scientific and medicine communities, as they play a vital\
+        \ role in providing major original data, experimental and computational results\
+        \ in concise form. One major challenge for implementing a system for scientific\
+        \ literature analysis is extracting and analyzing text and figures from published\
+        \ PDF files by physical and logical document analysis. Here we present a product\
+        \ line architecture based bioinformatics tool 'Mining Scientific Literature\
+        \ (MSL)', which supports the extraction of text and images by interpreting\
+        \ all kinds of published PDF files using advanced data mining and image processing\
+        \ techniques. It provides modules for the marginalization of extracted text\
+        \ based on different coordinates and keywords, visualization of extracted\
+        \ figures and extraction of embedded text from all kinds of biological and\
+        \ biomedical figures using applied Optimal Character Recognition (OCR). Moreover,\
+        \ for further analysis and usage, it generates the system's output in different\
+        \ formats including text, PDF, XML and images files. Hence, MSL is an easy\
+        \ to install and use analysis tool to interpret published scientific literature\
+        \ in PDF format."
+      authors:
+        - name: Ahmed Z.
+        - name: Dandekar T.
+      citationCount: 0
+      date: '2018-01-01T00:00:00Z'
+      journal: F1000Research
+      title: 'MSL: Facilitating automatic and physical analysis of published scientific
+        literature in PDF format [version 3; referees: 1 approved, 3 approved with
+        reservations]'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Desktop application
+  - Desktop application
 topic:
-- term: Literature and language
-  uri: http://edamontology.org/topic_3068
+  - term: Literature and language
+    uri: http://edamontology.org/topic_3068
 validated: 1
 version: []

@@ -3,41 +3,41 @@ additionDate: '2015-09-11T17:52:47Z'
 biotoolsCURIE: biotools:4dxpress
 biotoolsID: 4dxpress
 collectionID:
-- DRCAT
+  - DRCAT
 cost: null
 credit:
-- email: null
-  name: EMBL
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: DRCAT
-  note: null
-  orcidid: null
-  typeEntity: Project
-  typeRole:
-  - Documentor
-  url: null
-- email: yannick.haudry@embl.de
-  name: Yannick Haudry
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: EMBL
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: yannick.haudry@embl.de
+    name: Yannick Haudry
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: A platform to query and compare gene expression data during the development
   of the major model animals (zebrafish, drosophila, medaka, mouse). The high resolution
   expression data was acquired through whole mount in situ hybridsation-, antibody-
   or transgenic experiments.
 documentation:
-- note: null
-  type: General
-  url: http://4dx.embl.de/4DXpress/reg/all/help.do
+  - note: null
+    type: General
+    url: http://4dx.embl.de/4DXpress/reg/all/help.do
 download: []
 editPermission:
   authors: []
@@ -46,31 +46,31 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Ensembl gene ID
-      uri: http://edamontology.org/data_1033
-    format: []
-  - data:
-      term: Gene ID (FlyBase)
-      uri: http://edamontology.org/data_1796
-    format: []
-  - data:
-      term: Gene symbol
-      uri: http://edamontology.org/data_1026
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Gene report
-      uri: http://edamontology.org/data_0916
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Ensembl gene ID
+          uri: http://edamontology.org/data_1033
+        format: []
+      - data:
+          term: Gene ID (FlyBase)
+          uri: http://edamontology.org/data_1796
+        format: []
+      - data:
+          term: Gene symbol
+          uri: http://edamontology.org/data_1026
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
 homepage: http://4dx.embl.de/4DXpress
 homepage_status: 0
 language: []
@@ -80,22 +80,22 @@ link: []
 maturity: null
 name: 4DXpress
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: DRCAT
 publication:
-- doi: 10.1093/nar/gkm797
-  metadata: null
-  pmcid: PMC2238840
-  pmid: '17916571'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkm797
+    metadata: null
+    pmcid: PMC2238840
+    pmid: '17916571'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Gene and protein families
-  uri: http://edamontology.org/topic_0623
+  - term: Gene and protein families
+    uri: http://edamontology.org/topic_0623
 validated: 1
 version: []

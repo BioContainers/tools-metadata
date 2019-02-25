@@ -3,17 +3,17 @@ additionDate: '2017-01-17T15:04:35Z'
 biotoolsCURIE: biotools:ggbio
 biotoolsID: ggbio
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: lawrence.michael@gene.com
-  name: Michael Lawrence
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: lawrence.michael@gene.com
+    name: Michael Lawrence
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: The package extends and specializes the grammar of graphics for biological
   data. The graphics are designed to answer common scientific questions, those often
   asked of high throughput genomics data. All core BioConductor appropriate data structures
@@ -21,14 +21,14 @@ description: The package extends and specializes the grammar of graphics for bio
   overviews. High-level plots include sequence fragment length, edge-linked interval
   to data view, mismatch pileup, and several splicing summaries.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/html/ggbio.html
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/ggbio.html
 download:
-- note: null
-  type: Source code
-  url: http://bioconductor/packages/release/bioc/src/contrib/ggbio_1.22.3.tar.gz
-  version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/ggbio_1.22.3.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -36,46 +36,46 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Genome visualisation
-    uri: http://edamontology.org/operation_3208
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genome visualisation
+        uri: http://edamontology.org/operation_3208
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/ggbio.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2019-01-09T15:50:18Z'
 license: Artistic-2.0
 link:
-- note: null
-  type: Mirror
-  url: http://tengfei.github.com/ggbio/
+  - note: null
+    type: Mirror
+    url: http://tengfei.github.com/ggbio/
 maturity: null
 name: ggbio
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: bioconductor_import
 publication:
-- doi: 10.1186/gb-2012-13-8-r77
-  metadata: null
-  pmcid: PMC4053745
-  pmid: '22937822'
-  type: Primary
-  version: null
+  - doi: 10.1186/gb-2012-13-8-r77
+    metadata: null
+    pmcid: PMC4053745
+    pmid: '22937822'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Library
+  - Command-line tool
+  - Library
 topic:
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
-- term: Data visualisation
-  uri: http://edamontology.org/topic_0092
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
 validated: 1
 version:
-- 1.22.3
+  - 1.22.3

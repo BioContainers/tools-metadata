@@ -3,31 +3,31 @@ additionDate: '2015-01-21T13:57:18Z'
 biotoolsCURIE: biotools:pubmeth
 biotoolsID: pubmeth
 collectionID:
-- DRCAT
+  - DRCAT
 cost: null
 credit:
-- email: null
-  name: DRCAT
-  note: null
-  orcidid: null
-  typeEntity: Project
-  typeRole:
-  - Documentor
-  url: null
-- email: mate.ongenaert@UGent.be
-  name: Pubmeth Support
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: mate.ongenaert@UGent.be
+    name: Pubmeth Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: An annotated and reviewed database of methylation in cancer. It is based
   on automated textmining of literature and is afterwards manually curated and annotated.
 documentation:
-- note: null
-  type: General
-  url: http://www.pubmeth.org
+  - note: null
+    type: General
+    url: http://www.pubmeth.org
 download: []
 editPermission:
   authors: []
@@ -36,44 +36,44 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Gene symbol
-      uri: http://edamontology.org/data_1026
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Gene report
-      uri: http://edamontology.org/data_0916
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-- cmd: null
-  input:
-  - data:
-      term: Gene symbol
-      uri: http://edamontology.org/data_1026
-    format: []
-  - data:
-      term: Identifier (by type of data)
-      uri: http://edamontology.org/data_0976
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Gene report
-      uri: http://edamontology.org/data_0916
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Gene symbol
+          uri: http://edamontology.org/data_1026
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Gene symbol
+          uri: http://edamontology.org/data_1026
+        format: []
+      - data:
+          term: Identifier (by type of data)
+          uri: http://edamontology.org/data_0976
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
 homepage: http://www.pubmeth.org
 homepage_status: 0
 language: []
@@ -83,53 +83,54 @@ link: []
 maturity: null
 name: PubMeth reviewed methylation database in cancer
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: DRCAT
 publication:
-- doi: 10.1093/nar/gkm788
-  metadata:
-    abstract: Epigenetics, and more specifically DNA methylation is a fast evolving
-      research area. In almost every cancer type, each month new publications confirm
-      the differentiated regulation of specific genes due to methylation and mention
-      the discovery of novel methylation markers. Therefore, it would be extremely
-      useful to have an annotated, reviewed, sorted and summarized overview of all
-      available data. PubMeth is a cancer methylation database that includes genes
-      that are reported to be methylated in various cancer types. A query can be based
-      either on genes (to check in which cancer types the genes are reported as being
-      methylated) or on cancer types (which genes are reported to be methylated in
-      the cancer (sub) types of interest). The database is freely accessible at http://www.pubmeth.org.
-      PubMeth is based on text-mining of Medline/PubMed abstracts, combined with manual
-      reading and annotation of preselected abstracts. The text-mining approach results
-      in increased speed and selectivity (as for instance many different aliases of
-      a gene are searched at once), while the manual screening significantly raises
-      the specificity and quality of the database. The summarized overview of the
-      results is very useful in case more genes or cancer types are searched at the
-      same time. © 2007 The Author(s).
-    authors:
-    - name: Ongenaert M.
-    - name: Van Neste L.
-    - name: De Meyer T.
-    - name: Menschaert G.
-    - name: Bekaert S.
-    - name: Van Criekinge W.
-    citationCount: 115
-    date: '2008-01-01T00:00:00Z'
-    journal: Nucleic Acids Research
-    title: 'PubMeth: A cancer methylation database combining text-mining and expert
-      annotation'
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkm788
+    metadata:
+      abstract: "Epigenetics, and more specifically DNA methylation is a fast evolving\
+        \ research area. In almost every cancer type, each month new publications\
+        \ confirm the differentiated regulation of specific genes due to methylation\
+        \ and mention the discovery of novel methylation markers. Therefore, it would\
+        \ be extremely useful to have an annotated, reviewed, sorted and summarized\
+        \ overview of all available data. PubMeth is a cancer methylation database\
+        \ that includes genes that are reported to be methylated in various cancer\
+        \ types. A query can be based either on genes (to check in which cancer types\
+        \ the genes are reported as being methylated) or on cancer types (which genes\
+        \ are reported to be methylated in the cancer (sub) types of interest). The\
+        \ database is freely accessible at http://www.pubmeth.org. PubMeth is based\
+        \ on text-mining of Medline/PubMed abstracts, combined with manual reading\
+        \ and annotation of preselected abstracts. The text-mining approach results\
+        \ in increased speed and selectivity (as for instance many different aliases\
+        \ of a gene are searched at once), while the manual screening significantly\
+        \ raises the specificity and quality of the database. The summarized overview\
+        \ of the results is very useful in case more genes or cancer types are searched\
+        \ at the same time. \xA9 2007 The Author(s)."
+      authors:
+        - name: Ongenaert M.
+        - name: Van Neste L.
+        - name: De Meyer T.
+        - name: Menschaert G.
+        - name: Bekaert S.
+        - name: Van Criekinge W.
+      citationCount: 115
+      date: '2008-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'PubMeth: A cancer methylation database combining text-mining and expert
+        annotation'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Oncology
-  uri: http://edamontology.org/topic_2640
-- term: DNA
-  uri: http://edamontology.org/topic_0654
+  - term: Oncology
+    uri: http://edamontology.org/topic_2640
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
 validated: 1
 version: []

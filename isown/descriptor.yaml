@@ -5,20 +5,20 @@ biotoolsID: isown
 collectionID: []
 cost: null
 credit:
-- email: ikalats@gmail.com
-  name: Irina Kalatskaya
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: ikalats@gmail.com
+    name: Irina Kalatskaya
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Accurate somatic mutation identification in the absence of normal tissue
   controls.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/ikalatskaya/ISOWN
+  - note: null
+    type: General
+    url: https://github.com/ikalatskaya/ISOWN
 download: []
 editPermission:
   authors: []
@@ -27,43 +27,43 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Genetic variation analysis
-    uri: http://edamontology.org/operation_3197
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output: []
 homepage: https://github.com/ikalatskaya/ISOWN
 homepage_status: 0
 language:
-- Java
-- Perl
+  - Java
+  - Perl
 lastUpdate: '2018-12-10T12:59:01Z'
 license: APSL-2.0
 link: []
 maturity: null
 name: ISOWN
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1186/s13073-017-0446-9
-  metadata: null
-  pmcid: PMC5490163
-  pmid: '28659176'
-  type: null
-  version: null
+  - doi: 10.1186/s13073-017-0446-9
+    metadata: null
+    pmcid: PMC5490163
+    pmid: '28659176'
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
-- term: Oncology
-  uri: http://edamontology.org/topic_2640
-- term: DNA polymorphism
-  uri: http://edamontology.org/topic_2885
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Oncology
+    uri: http://edamontology.org/topic_2640
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
 validated: 1
 version: []

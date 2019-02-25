@@ -5,20 +5,20 @@ biotoolsID: phyleasprog
 collectionID: []
 cost: null
 credit:
-- email: phyl-easpro-g@inra.fr
-  name: PhyleasProg Support
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: phyl-easpro-g@inra.fr
+    name: PhyleasProg Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: PhyleasProg is a web server for evolutionary analyses. Users input a
   list of Ensembl protein IDs and a list of species as inputs.
 documentation:
-- note: null
-  type: General
-  url: http://phyleasprog.inra.fr/cgi-bin/v3.1/static.pl?rqst=&file=help/quick_guide.html
+  - note: null
+    type: General
+    url: http://phyleasprog.inra.fr/cgi-bin/v3.1/static.pl?rqst=&file=help/quick_guide.html
 download: []
 editPermission:
   authors: []
@@ -27,19 +27,19 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Protein modelling
-    uri: http://edamontology.org/operation_0477
-  - term: DNA substitution modelling
-    uri: http://edamontology.org/operation_0550
-  - term: Protein sequence analysis
-    uri: http://edamontology.org/operation_2479
-  - term: Phylogenetic tree analysis (natural selection)
-    uri: http://edamontology.org/operation_0554
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein modelling
+        uri: http://edamontology.org/operation_0477
+      - term: DNA substitution modelling
+        uri: http://edamontology.org/operation_0550
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+      - term: Phylogenetic tree analysis (natural selection)
+        uri: http://edamontology.org/operation_0554
+    output: []
 homepage: http://phyleasprog.inra.fr
 homepage_status: 0
 language: []
@@ -49,55 +49,56 @@ link: []
 maturity: null
 name: PhyleasProg
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-EE
 publication:
-- doi: null
-  metadata:
-    abstract: Evolutionary analyses of biological data are becoming a prerequisite
-      in many fields of biology. At a time of high-throughput data analysis, phylogenetics
-      is often a necessary complementary tool for biologists to understand, compare
-      and identify the functions of sequences. But available bioinformatics tools
-      are frequently not easy for non-specialists to use. We developed PhyleasProg
-      (http://phyleasprog.inra.fr), a user-friendly web server as a turnkey tool dedicated
-      to evolutionary analyses. PhyleasProg can help biologists with little experience
-      in evolutionary methodologies by analysing their data in a simple and robust
-      way, using methods corresponding to robust standards. Via a very intuitive web
-      interface, users only need to enter a list of Ensembl protein IDs and a list
-      of species as inputs. After dynamic computations, users have access to phylogenetic
-      trees, positive/purifying selection data (on site and branch-site models), with
-      a display of these results on the protein sequence and on a 3D structure model,
-      and the synteny environment of related genes. This connection between different
-      domains of phylogenetics opens the way to new biological analyses for the discovery
-      of the function and structure of proteins. © 2011 The Author(s).
-    authors:
-    - name: Busset J.
-    - name: Cabau C.
-    - name: Meslin C.
-    - name: Pascal G.
-    citationCount: 12
-    date: '2011-07-01T00:00:00Z'
-    journal: Nucleic Acids Research
-    title: 'PhyleasProg: A user-oriented web server for wide evolutionary analyses'
-  pmcid: null
-  pmid: '21531699'
-  type: null
-  version: null
+  - doi: null
+    metadata:
+      abstract: "Evolutionary analyses of biological data are becoming a prerequisite\
+        \ in many fields of biology. At a time of high-throughput data analysis, phylogenetics\
+        \ is often a necessary complementary tool for biologists to understand, compare\
+        \ and identify the functions of sequences. But available bioinformatics tools\
+        \ are frequently not easy for non-specialists to use. We developed PhyleasProg\
+        \ (http://phyleasprog.inra.fr), a user-friendly web server as a turnkey tool\
+        \ dedicated to evolutionary analyses. PhyleasProg can help biologists with\
+        \ little experience in evolutionary methodologies by analysing their data\
+        \ in a simple and robust way, using methods corresponding to robust standards.\
+        \ Via a very intuitive web interface, users only need to enter a list of Ensembl\
+        \ protein IDs and a list of species as inputs. After dynamic computations,\
+        \ users have access to phylogenetic trees, positive/purifying selection data\
+        \ (on site and branch-site models), with a display of these results on the\
+        \ protein sequence and on a 3D structure model, and the synteny environment\
+        \ of related genes. This connection between different domains of phylogenetics\
+        \ opens the way to new biological analyses for the discovery of the function\
+        \ and structure of proteins. \xA9 2011 The Author(s)."
+      authors:
+        - name: Busset J.
+        - name: Cabau C.
+        - name: Meslin C.
+        - name: Pascal G.
+      citationCount: 12
+      date: '2011-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'PhyleasProg: A user-oriented web server for wide evolutionary analyses'
+    pmcid: null
+    pmid: '21531699'
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Mapping
-  uri: http://edamontology.org/topic_0102
-- term: Phylogenetics
-  uri: http://edamontology.org/topic_3293
-- term: Phylogeny
-  uri: http://edamontology.org/topic_0084
-- term: Proteins
-  uri: http://edamontology.org/topic_0078
-- term: Evolutionary biology
-  uri: http://edamontology.org/topic_3299
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+  - term: Phylogenetics
+    uri: http://edamontology.org/topic_3293
+  - term: Phylogeny
+    uri: http://edamontology.org/topic_0084
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Evolutionary biology
+    uri: http://edamontology.org/topic_3299
 validated: 1
 version: []

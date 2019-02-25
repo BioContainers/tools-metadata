@@ -5,21 +5,21 @@ biotoolsID: pedigreequery
 collectionID: []
 cost: null
 credit:
-- email: kianvl@mail.ru
-  name: Kirichenko AV.
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://mga.bionet.nsc.ru/
+  - email: kianvl@mail.ru
+    name: Kirichenko AV.
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://mga.bionet.nsc.ru/
 description: Program for working with large pedigrees. Some times it is required to
   get chart only of some shapes of such pedigrees. This tool was made for drawing
   shapes of pedigrees using step-by-step algorithm.
 documentation:
-- note: null
-  type: General
-  url: http://mga.bionet.nsc.ru/soft/pedquery/pedigreequery.html
+  - note: null
+    type: General
+    url: http://mga.bionet.nsc.ru/soft/pedquery/pedigreequery.html
 download: []
 editPermission:
   authors: []
@@ -28,59 +28,60 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Generation
-    uri: http://edamontology.org/operation_3429
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Generation
+        uri: http://edamontology.org/operation_3429
+    output: []
 homepage: http://mga.bionet.nsc.ru/soft/pedquery/pedigreequery.html
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2018-12-11T19:27:41Z'
 license: null
 link:
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/pedigreequery-20080410-drawing-pedigrees-step-by-step.html
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/pedigreequery-20080410-drawing-pedigrees-step-by-step.html
 maturity: null
 name: PedigreeQuery
 operatingSystem:
-- Linux
-- Windows
+  - Linux
+  - Windows
 otherID: []
 owner: mbs_import
 publication:
-- doi: null
-  metadata:
-    abstract: An algorithm for drawing large, complex pedigrees containing inbred
-      loops and multiple-mate families is presented. The algorithm is based on a step-by-step
-      approach to imaging, when the researcher determines the direction of further
-      extension of the scheme. The algorithm is implemented as the PedigreeQuery software
-      package written in Java. The software has a convenient graphical interface.
-      The software package permits constructing not only whole pedigrees, but also
-      their fragments that are particularly interesting for research. It also allows
-      for adding new information on the phenotypes and genotypes of pedigree members.
-    authors:
-    - name: Kirichenko A.V.
-    citationCount: 2
-    date: '2004-12-01T00:00:00Z'
-    journal: Genetika
-    title: An algorithm of step-by-step pedigree drawing
-  pmcid: null
-  pmid: '15575512'
-  type: null
-  version: null
+  - doi: null
+    metadata:
+      abstract: An algorithm for drawing large, complex pedigrees containing inbred
+        loops and multiple-mate families is presented. The algorithm is based on a
+        step-by-step approach to imaging, when the researcher determines the direction
+        of further extension of the scheme. The algorithm is implemented as the PedigreeQuery
+        software package written in Java. The software has a convenient graphical
+        interface. The software package permits constructing not only whole pedigrees,
+        but also their fragments that are particularly interesting for research. It
+        also allows for adding new information on the phenotypes and genotypes of
+        pedigree members.
+      authors:
+        - name: Kirichenko A.V.
+      citationCount: 2
+      date: '2004-12-01T00:00:00Z'
+      journal: Genetika
+      title: An algorithm of step-by-step pedigree drawing
+    pmcid: null
+    pmid: '15575512'
+    type: null
+    version: null
 toolType:
-- Desktop application
+  - Desktop application
 topic:
-- term: Genetics
-  uri: http://edamontology.org/topic_3053
-- term: Population genetics
-  uri: http://edamontology.org/topic_3056
-- term: Evolutionary biology
-  uri: http://edamontology.org/topic_3299
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Population genetics
+    uri: http://edamontology.org/topic_3056
+  - term: Evolutionary biology
+    uri: http://edamontology.org/topic_3299
 validated: 1
 version: []

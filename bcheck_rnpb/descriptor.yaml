@@ -5,65 +5,65 @@ biotoolsID: bcheck_rnpb
 collectionID: []
 cost: Free of charge
 credit:
-- email: dilmurat.yusuf@gmail.com
-  name: Dilmurat Yusuf
-  note: null
-  orcidid: http://orcid.org/0000-0001-8683-7845
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: http://bioinformatics.mdc-berlin.de/team.html#dilmurat-yusuf-phd
-- email: null
-  name: Ivo Hofacker
-  note: null
-  orcidid: http://orcid.org/0000-0001-7132-0800
-  typeEntity: null
-  typeRole:
-  - Contributor
-  url: null
-- email: null
-  name: Institute for Theoretical Chemistry
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: Austrian GEN-AU projects "bioinformatics integration network III"
-  note: null
-  orcidid: null
-  typeEntity: Funding agency
-  typeRole:
-  - Contributor
-  url: null
-- email: null
-  name: rnateam
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: dilmurat.yusuf@gmail.com
-  name: Dilmurat Yusuf
-  note: null
-  orcidid: http://orcid.org/0000-0001-8683-7845
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://bioinformatics.mdc-berlin.de/team.html#dilmurat-yusuf-phd
+  - email: dilmurat.yusuf@gmail.com
+    name: Dilmurat Yusuf
+    note: null
+    orcidid: http://orcid.org/0000-0001-8683-7845
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: http://bioinformatics.mdc-berlin.de/team.html#dilmurat-yusuf-phd
+  - email: null
+    name: Ivo Hofacker
+    note: null
+    orcidid: http://orcid.org/0000-0001-7132-0800
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Institute for Theoretical Chemistry
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: Austrian GEN-AU projects "bioinformatics integration network III"
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: rnateam
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: dilmurat.yusuf@gmail.com
+    name: Dilmurat Yusuf
+    note: null
+    orcidid: http://orcid.org/0000-0001-8683-7845
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://bioinformatics.mdc-berlin.de/team.html#dilmurat-yusuf-phd
 description: Wrapper tool for rnpB gene prediction by combining speed of rnabob descriptor
   model and sensitivity of infernal covariance model.
 documentation:
-- note: null
-  type: General
-  url: http://rna.tbi.univie.ac.at/bcheck/help.html
+  - note: null
+    type: General
+    url: http://rna.tbi.univie.ac.at/bcheck/help.html
 download:
-- note: null
-  type: Source code
-  url: http://rna.tbi.univie.ac.at/bcheck/Bcheck.tgz
-  version: null
+  - note: null
+    type: Source code
+    url: http://rna.tbi.univie.ac.at/bcheck/Bcheck.tgz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -71,60 +71,60 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: DNA sequence (raw)
-      uri: http://edamontology.org/data_3497
-    format:
-    - term: FASTA
-      uri: http://edamontology.org/format_1929
-  note: 'Services on Bcheck rnpB server:  Online rnpB gene prediction with Bcheck;
-    Database comprising rnpB genes predicted by Bcheck;  BLAST search our database
-    Genomic or any DNA sequences in FASTA format. Output provides RNAse P RNA (rnpB)
-    sequences in fasta format.'
-  operation:
-  - term: Sequence similarity search
-    uri: http://edamontology.org/operation_0346
-  - term: Sequence database search (by property)
-    uri: http://edamontology.org/operation_0349
-  - term: Genetic code prediction
-    uri: http://edamontology.org/operation_0489
-  - term: Genome annotation
-    uri: http://edamontology.org/operation_0362
-  output:
-  - data:
-      term: RNA sequence (raw)
-      uri: http://edamontology.org/data_3496
-    format:
-    - term: FASTA
-      uri: http://edamontology.org/format_1929
+  - cmd: null
+    input:
+      - data:
+          term: DNA sequence (raw)
+          uri: http://edamontology.org/data_3497
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+    note: 'Services on Bcheck rnpB server:  Online rnpB gene prediction with Bcheck;
+      Database comprising rnpB genes predicted by Bcheck;  BLAST search our database
+      Genomic or any DNA sequences in FASTA format. Output provides RNAse P RNA (rnpB)
+      sequences in fasta format.'
+    operation:
+      - term: Sequence similarity search
+        uri: http://edamontology.org/operation_0346
+      - term: Sequence database search (by property)
+        uri: http://edamontology.org/operation_0349
+      - term: Genetic code prediction
+        uri: http://edamontology.org/operation_0489
+      - term: Genome annotation
+        uri: http://edamontology.org/operation_0362
+    output:
+      - data:
+          term: RNA sequence (raw)
+          uri: http://edamontology.org/data_3496
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
 homepage: http://rna.tbi.univie.ac.at/bcheck/index.html
 homepage_status: 0
 language:
-- Python
+  - Python
 lastUpdate: '2018-12-29T14:51:21Z'
 license: null
 link: []
 maturity: Mature
 name: Bcheck rnpB server
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: rnateam
 publication:
-- doi: 10.1186/1471-2164-11-432
-  metadata: null
-  pmcid: PMC2996960
-  pmid: '20626900'
-  type: Primary
-  version: null
+  - doi: 10.1186/1471-2164-11-432
+    metadata: null
+    pmcid: PMC2996960
+    pmid: '20626900'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Web application
-- Database portal
+  - Command-line tool
+  - Web application
+  - Database portal
 topic:
-- term: Bioinformatics
-  uri: http://edamontology.org/topic_0091
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
 validated: 1
 version: []

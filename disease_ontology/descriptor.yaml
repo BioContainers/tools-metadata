@@ -3,25 +3,25 @@ additionDate: '2017-04-23T15:16:31Z'
 biotoolsCURIE: biotools:disease_ontology
 biotoolsID: disease_ontology
 collectionID:
-- Rare Disease
+  - Rare Disease
 cost: null
 credit:
-- email: null
-  name: Contact Form
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://disease-ontology.org/contact/
+  - email: null
+    name: Contact Form
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://disease-ontology.org/contact/
 description: The Disease Ontology has been developed as a standardized ontology for
   human disease with the purpose of providing the biomedical community with consistent,
   reusable and sustainable descriptions of human disease terms, phenotype characteristics
   and related medical vocabulary disease concepts.
 documentation:
-- note: null
-  type: General
-  url: http://disease-ontology.org/about/
+  - note: null
+    type: General
+    url: http://disease-ontology.org/about/
 download: []
 editPermission:
   authors: []
@@ -30,19 +30,19 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Annotation
-    uri: http://edamontology.org/operation_0226
-  - term: Ontology comparison
-    uri: http://edamontology.org/operation_3352
-  - term: Ontology visualisation
-    uri: http://edamontology.org/operation_3559
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Annotation
+        uri: http://edamontology.org/operation_0226
+      - term: Ontology comparison
+        uri: http://edamontology.org/operation_3352
+      - term: Ontology visualisation
+        uri: http://edamontology.org/operation_3559
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output: []
 homepage: http://disease-ontology.org/
 homepage_status: 0
 language: []
@@ -52,62 +52,63 @@ link: []
 maturity: null
 name: Human Disease Ontology (DOID)
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-EE
 publication:
-- doi: null
-  metadata:
-    abstract: The Disease Ontology (DO) database (http:// disease-ontology.org) represents
-      a comprehensive knowledge base of 8043 inherited, developmental and acquired
-      human diseases (DO version 3, revision 2510). The DO web browser has been designed
-      for speed, efficiency and robustness through the use of a graph database. Full-text
-      contextual searching functionality using Lucene allows the querying of name,
-      synonym, definition, DOID and cross-reference (xrefs) with complex Boolean search
-      strings. The DO semantically integrates disease and medical vocabularies through
-      extensive cross mapping and integration of MeSH, ICD, NCIâ€™s thesaurus, SNOMED
-      CT and OMIM disease-specific terms and identifiers. The DO is utilized for disease
-      annotation by major biomedical databases (e.g. Array Express, NIF, IEDB), as
-      a standard representation of human disease in biomedical ontologies (e.g. IDO,
-      Cell line ontology, NIFSTD ontology, Experimental Factor Ontology, Influenza
-      Ontology), and as an ontological cross mappings resource between DO, MeSH and
-      OMIM (e.g. GeneWiki). The DO project (http://diseaseontology.sf.net) has been
-      incorporated into open source tools (e.g. Gene Answers, FunDO) to connect gene
-      and disease biomedical data through the lens of human disease. The next iteration
-      of the DO web browser will integrate DOâ€™s extended relations and logical definition
-      representation along with these biomedical resource cross-mappings. © The Author(s)
-      2011.
-    authors:
-    - name: Schriml L.M.
-    - name: Arze C.
-    - name: Nadendla S.
-    - name: Chang Y.-W.W.
-    - name: Mazaitis M.
-    - name: Felix V.
-    - name: Feng G.
-    - name: Kibbe W.A.
-    citationCount: 318
-    date: '2012-01-01T00:00:00Z'
-    journal: Nucleic Acids Research
-    title: 'Disease ontology: A backbone for disease semantic integration'
-  pmcid: null
-  pmid: '22080554'
-  type: null
-  version: null
+  - doi: null
+    metadata:
+      abstract: "The Disease Ontology (DO) database (http:// disease-ontology.org)\
+        \ represents a comprehensive knowledge base of 8043 inherited, developmental\
+        \ and acquired human diseases (DO version 3, revision 2510). The DO web browser\
+        \ has been designed for speed, efficiency and robustness through the use of\
+        \ a graph database. Full-text contextual searching functionality using Lucene\
+        \ allows the querying of name, synonym, definition, DOID and cross-reference\
+        \ (xrefs) with complex Boolean search strings. The DO semantically integrates\
+        \ disease and medical vocabularies through extensive cross mapping and integration\
+        \ of MeSH, ICD, NCI\xE2\u20AC\u2122s thesaurus, SNOMED CT and OMIM disease-specific\
+        \ terms and identifiers. The DO is utilized for disease annotation by major\
+        \ biomedical databases (e.g. Array Express, NIF, IEDB), as a standard representation\
+        \ of human disease in biomedical ontologies (e.g. IDO, Cell line ontology,\
+        \ NIFSTD ontology, Experimental Factor Ontology, Influenza Ontology), and\
+        \ as an ontological cross mappings resource between DO, MeSH and OMIM (e.g.\
+        \ GeneWiki). The DO project (http://diseaseontology.sf.net) has been incorporated\
+        \ into open source tools (e.g. Gene Answers, FunDO) to connect gene and disease\
+        \ biomedical data through the lens of human disease. The next iteration of\
+        \ the DO web browser will integrate DO\xE2\u20AC\u2122s extended relations\
+        \ and logical definition representation along with these biomedical resource\
+        \ cross-mappings. \xA9 The Author(s) 2011."
+      authors:
+        - name: Schriml L.M.
+        - name: Arze C.
+        - name: Nadendla S.
+        - name: Chang Y.-W.W.
+        - name: Mazaitis M.
+        - name: Felix V.
+        - name: Feng G.
+        - name: Kibbe W.A.
+      citationCount: 318
+      date: '2012-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'Disease ontology: A backbone for disease semantic integration'
+    pmcid: null
+    pmid: '22080554'
+    type: null
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Pathology
-  uri: http://edamontology.org/topic_0634
-- term: Ontology and terminology
-  uri: http://edamontology.org/topic_0089
-- term: Medical informatics
-  uri: http://edamontology.org/topic_3063
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
-- term: Rare diseases
-  uri: http://edamontology.org/topic_3325
+  - term: Pathology
+    uri: http://edamontology.org/topic_0634
+  - term: Ontology and terminology
+    uri: http://edamontology.org/topic_0089
+  - term: Medical informatics
+    uri: http://edamontology.org/topic_3063
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Rare diseases
+    uri: http://edamontology.org/topic_3325
 validated: 1
 version: []

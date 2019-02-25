@@ -5,22 +5,22 @@ biotoolsID: give
 collectionID: []
 cost: null
 credit:
-- email: szhong@ucsd.edu
-  name: Sheng Zhong
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: szhong@ucsd.edu
+    name: Sheng Zhong
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Open source programming library that allows anyone without much programming
   experience to build custom genome browser websites or apps. With a few lines of
   codes, one can set up GIVE service on a local machine, manage custom data and build
   an interactive genome browser.
 documentation:
-- note: null
-  type: Manual
-  url: https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/tree/master/manuals
+  - note: null
+    type: Manual
+    url: https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/tree/master/manuals
 download: []
 editPermission:
   authors: []
@@ -29,13 +29,13 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output: []
 homepage: https://zhong-lab-ucsd.github.io/GIVE_homepage/
 homepage_status: 0
 language: []
@@ -45,46 +45,47 @@ link: []
 maturity: null
 name: GIVE
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1186/s13059-018-1465-6
-  metadata:
-    abstract: '© 2018 The Author(s). Growing popularity and diversity of genomic data
-      demand portable and versatile genome browsers. Here, we present an open source
-      programming library called GIVE that facilitates the creation of personalized
-      genome browsers without requiring a system administrator. By inserting HTML
-      tags, one can add to a personal webpage interactive visualization of multiple
-      types of genomics data, including genome annotation, "linear" quantitative data,
-      and genome interaction data. GIVE includes a graphical interface called HUG
-      (HTML Universal Generator) that automatically generates HTML code for displaying
-      user chosen data, which can be copy-pasted into user''s personal website or
-      saved and shared with collaborators. GIVE is available at: https://www.givengine.org/.'
-    authors:
-    - name: Cao X.
-    - name: Yan Z.
-    - name: Wu Q.
-    - name: Zheng A.
-    - name: Zhong S.
-    citationCount: 1
-    date: '2018-07-18T00:00:00Z'
-    journal: Genome Biology
-    title: 'GIVE: Portable genome browsers for personal websites'
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1186/s13059-018-1465-6
+    metadata:
+      abstract: "\xA9 2018 The Author(s). Growing popularity and diversity of genomic\
+        \ data demand portable and versatile genome browsers. Here, we present an\
+        \ open source programming library called GIVE that facilitates the creation\
+        \ of personalized genome browsers without requiring a system administrator.\
+        \ By inserting HTML tags, one can add to a personal webpage interactive visualization\
+        \ of multiple types of genomics data, including genome annotation, \"linear\"\
+        \ quantitative data, and genome interaction data. GIVE includes a graphical\
+        \ interface called HUG (HTML Universal Generator) that automatically generates\
+        \ HTML code for displaying user chosen data, which can be copy-pasted into\
+        \ user's personal website or saved and shared with collaborators. GIVE is\
+        \ available at: https://www.givengine.org/."
+      authors:
+        - name: Cao X.
+        - name: Yan Z.
+        - name: Wu Q.
+        - name: Zheng A.
+        - name: Zhong S.
+      citationCount: 1
+      date: '2018-07-18T00:00:00Z'
+      journal: Genome Biology
+      title: 'GIVE: Portable genome browsers for personal websites'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Data visualisation
-  uri: http://edamontology.org/topic_0092
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
-- term: Data management
-  uri: http://edamontology.org/topic_3071
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
 validated: 1
 version: []

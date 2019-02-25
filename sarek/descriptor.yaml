@@ -1,30 +1,30 @@
 accessibility:
-- Open access
+  - Open access
 additionDate: '2017-05-24T12:15:33Z'
 biotoolsCURIE: biotools:sarek
 biotoolsID: sarek
 collectionID: []
 cost: null
 credit:
-- email: maxime.garcia@scilifelab.se
-  name: Maxime Garcia
-  note: null
-  orcidid: https://orcid.org/0000-0003-2827-9261
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://ngisweden.scilifelab.se/
+  - email: maxime.garcia@scilifelab.se
+    name: Maxime Garcia
+    note: null
+    orcidid: https://orcid.org/0000-0003-2827-9261
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://ngisweden.scilifelab.se/
 description: Detect germline or somatic variants from normal or tumour/normal whole-genome
   or targeted sequencing
 documentation:
-- note: null
-  type: General
-  url: https://github.com/SciLifeLab/Sarek/blob/master/README.md
+  - note: null
+    type: General
+    url: https://github.com/SciLifeLab/Sarek/blob/master/README.md
 download:
-- note: GitHub Releases
-  type: Source code
-  url: https://github.com/SciLifeLab/Sarek/releases
-  version: 2.2.2
+  - note: GitHub Releases
+    type: Source code
+    url: https://github.com/SciLifeLab/Sarek/releases
+    version: 2.2.2
 editPermission:
   authors: []
   type: private
@@ -32,69 +32,69 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: DNA sequence (raw)
-      uri: http://edamontology.org/data_3497
-    format:
-    - term: FASTQ
-      uri: http://edamontology.org/format_1930
-  - data:
-      term: DNA sequence
-      uri: http://edamontology.org/data_3494
-    format:
-    - term: BAM
-      uri: http://edamontology.org/format_2572
-  note: null
-  operation:
-  - term: Sample comparison
-    uri: http://edamontology.org/operation_3731
-  - term: Sequence annotation
-    uri: http://edamontology.org/operation_0361
-  - term: Variant calling
-    uri: http://edamontology.org/operation_3227
-  output:
-  - data:
-      term: Sequence variations
-      uri: http://edamontology.org/data_3498
-    format:
-    - term: VCF
-      uri: http://edamontology.org/format_3016
+  - cmd: null
+    input:
+      - data:
+          term: DNA sequence (raw)
+          uri: http://edamontology.org/data_3497
+        format:
+          - term: FASTQ
+            uri: http://edamontology.org/format_1930
+      - data:
+          term: DNA sequence
+          uri: http://edamontology.org/data_3494
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+    note: null
+    operation:
+      - term: Sample comparison
+        uri: http://edamontology.org/operation_3731
+      - term: Sequence annotation
+        uri: http://edamontology.org/operation_0361
+      - term: Variant calling
+        uri: http://edamontology.org/operation_3227
+    output:
+      - data:
+          term: Sequence variations
+          uri: http://edamontology.org/data_3498
+        format:
+          - term: VCF
+            uri: http://edamontology.org/format_3016
 homepage: http://sarek.scilifelab.se/
 homepage_status: 0
 language:
-- Groovy
+  - Groovy
 lastUpdate: '2018-12-20T10:11:44Z'
 license: MIT
 link:
-- note: Github Repository
-  type: Repository
-  url: https://github.com/SciLifeLab/Sarek
-- note: Gitter channel
-  type: Social media
-  url: https://gitter.im/SciLifeLab/Sarek
+  - note: Github Repository
+    type: Repository
+    url: https://github.com/SciLifeLab/Sarek
+  - note: Gitter channel
+    type: Social media
+    url: https://gitter.im/SciLifeLab/Sarek
 maturity: Mature
 name: Sarek
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: MaxUlysse
 publication: []
 toolType:
-- Command-line tool
-- Workflow
+  - Command-line tool
+  - Workflow
 topic:
-- term: Oncology
-  uri: http://edamontology.org/topic_2640
-- term: Bioinformatics
-  uri: http://edamontology.org/topic_0091
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
+  - term: Oncology
+    uri: http://edamontology.org/topic_2640
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
 validated: 1
 version:
-- 2.0.0
-- 2.1.0
-- 2.2.0
-- 2.2.1
-- 2.2.2
+  - 2.0.0
+  - 2.1.0
+  - 2.2.0
+  - 2.2.1
+  - 2.2.2

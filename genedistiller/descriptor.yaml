@@ -5,30 +5,30 @@ biotoolsID: genedistiller
 collectionID: []
 cost: null
 credit:
-- email: markus.schuelke@charite.de
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: dominik.seelow@charite.de
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: markus.schuelke@charite.de
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: dominik.seelow@charite.de
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Provides knowledge-driven, fully interactive and intuitive access to
   multiple data sources. It displays maximum relevant information, while saving the
   user from drowning in the flood of data. Thus, allowing an interactive and explorative
   approach to the hunt for the candidate gene.
 documentation:
-- note: null
-  type: Manual
-  url: http://www.genedistiller.org/info/index.html
+  - note: null
+    type: Manual
+    url: http://www.genedistiller.org/info/index.html
 download: []
 editPermission:
   authors: []
@@ -37,44 +37,44 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence analysis
-    uri: http://edamontology.org/operation_2403
-  - term: Data handling
-    uri: http://edamontology.org/operation_2409
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+      - term: Data handling
+        uri: http://edamontology.org/operation_2409
+    output: []
 homepage: http://www.genedistiller.org
 homepage_status: 0
 language:
-- SQL
-- Perl
+  - SQL
+  - Perl
 lastUpdate: '2018-12-10T12:59:02Z'
 license: null
 link: []
 maturity: null
 name: GeneDistiller
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1371/journal.pone.0003874
-  metadata: null
-  pmcid: PMC2587712
-  pmid: '19057649'
-  type: Primary
-  version: null
+  - doi: 10.1371/journal.pone.0003874
+    metadata: null
+    pmcid: PMC2587712
+    pmid: '19057649'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
-- term: Medical informatics
-  uri: http://edamontology.org/topic_3063
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Medical informatics
+    uri: http://edamontology.org/topic_3063
 validated: 1
 version: []

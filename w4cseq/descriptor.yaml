@@ -5,21 +5,21 @@ biotoolsID: w4cseq
 collectionID: []
 cost: null
 credit:
-- email: caim@usc.edu
-  name: Mingyang Cai
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: caim@usc.edu
+    name: Mingyang Cai
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: w4CSeq is a software package that applies a computational and statistical
   approach to analyze 4C-Seq data generated from both enzyme digestion and sonication
   fragmentation-based methods.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/WGLab/w4CSeq/blob/master/README.md
+  - note: null
+    type: General
+    url: https://github.com/WGLab/w4CSeq/blob/master/README.md
 download: []
 editPermission:
   authors: []
@@ -28,48 +28,48 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence analysis
-    uri: http://edamontology.org/operation_2403
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+    output: []
 homepage: http://w4cseq.wglab.org/
 homepage_status: 0
 language:
-- R
-- Javascript
-- Perl
+  - R
+  - Javascript
+  - Perl
 lastUpdate: '2018-12-10T12:59:01Z'
 license: null
 link:
-- note: null
-  type: Issue tracker
-  url: https://github.com/WGLab/w4CSeq/issues
-- note: null
-  type: Repository
-  url: https://github.com/WGLab/w4CSeq
+  - note: null
+    type: Issue tracker
+    url: https://github.com/WGLab/w4CSeq/issues
+  - note: null
+    type: Repository
+    url: https://github.com/WGLab/w4CSeq
 maturity: null
 name: w4CSeq
 operatingSystem:
-- Windows
+  - Windows
 otherID: []
 owner: daniel_stefan
 publication:
-- doi: 10.1093/bioinformatics/btw408
-  metadata: null
-  pmcid: PMC5079477
-  pmid: '27378289'
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/btw408
+    metadata: null
+    pmcid: PMC5079477
+    pmid: '27378289'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Web application
+  - Command-line tool
+  - Web application
 topic:
-- term: DNA structural variation
-  uri: http://edamontology.org/topic_3175
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
+  - term: DNA structural variation
+    uri: http://edamontology.org/topic_3175
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
 validated: 1
 version: []

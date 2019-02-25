@@ -5,20 +5,20 @@ biotoolsID: cit
 collectionID: []
 cost: null
 credit:
-- email: joshua.millstein@usc.edu
-  name: Joshua Millstein
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: joshua.millstein@usc.edu
+    name: Joshua Millstein
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: cit is a software package that provides P-values and optionally permutation-based
   FDR estimates (q-values) for potential mediators.
 documentation:
-- note: null
-  type: Manual
-  url: https://cran.r-project.org/web/packages/cit/cit.pdf
+  - note: null
+    type: Manual
+    url: https://cran.r-project.org/web/packages/cit/cit.pdf
 download: []
 editPermission:
   authors: []
@@ -27,13 +27,13 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence alignment analysis (site correlation)
-    uri: http://edamontology.org/operation_0449
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence alignment analysis (site correlation)
+        uri: http://edamontology.org/operation_0449
+    output: []
 homepage: https://cran.r-project.org/web/packages/cit/index.html
 homepage_status: 0
 language: []
@@ -43,26 +43,26 @@ link: []
 maturity: null
 name: cit
 operatingSystem:
-- Windows
-- Mac
+  - Windows
+  - Mac
 otherID: []
 owner: daniel_stefan
 publication:
-- doi: 10.1093/bioinformatics/btw135
-  metadata: null
-  pmcid: PMC4965632
-  pmid: '27153715'
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/btw135
+    metadata: null
+    pmcid: PMC4965632
+    pmid: '27153715'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Statistics and probability
-  uri: http://edamontology.org/topic_2269
-- term: Phenomics
-  uri: http://edamontology.org/topic_3298
-- term: GWAS study
-  uri: http://edamontology.org/topic_3517
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+  - term: Phenomics
+    uri: http://edamontology.org/topic_3298
+  - term: GWAS study
+    uri: http://edamontology.org/topic_3517
 validated: 1
 version:
-- '2.2'
+  - '2.2'

@@ -3,46 +3,46 @@ additionDate: '2015-09-30T13:41:12Z'
 biotoolsCURIE: biotools:legiolist
 biotoolsID: legiolist
 collectionID:
-- DRCAT
+  - DRCAT
 cost: null
 credit:
-- email: null
-  name: Institut Pasteur
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: DRCAT
-  note: null
-  orcidid: null
-  typeEntity: Project
-  typeRole:
-  - Documentor
-  url: null
-- email: cbuch@pasteur.fr
-  name: Carmen Buchrieser
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: adanchin@pasteur.fr
-  name: Antoine Danchin
-  note: null
-  orcidid: http://orcid.org/0000-0002-6350-5001
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: Institut Pasteur
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: cbuch@pasteur.fr
+    name: Carmen Buchrieser
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: adanchin@pasteur.fr
+    name: Antoine Danchin
+    note: null
+    orcidid: http://orcid.org/0000-0002-6350-5001
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Legionella pneumophila genome database.
 documentation:
-- note: null
-  type: General
-  url: http://genolist.pasteur.fr/LegioList/help/infos.html
+  - note: null
+    type: General
+    url: http://genolist.pasteur.fr/LegioList/help/infos.html
 download: []
 editPermission:
   authors: []
@@ -51,40 +51,40 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Sequence accession (nucleic acid)
-      uri: http://edamontology.org/data_1097
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Gene report
-      uri: http://edamontology.org/data_0916
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-- cmd: null
-  input:
-  - data:
-      term: Gene symbol
-      uri: http://edamontology.org/data_1026
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Gene report
-      uri: http://edamontology.org/data_0916
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Sequence accession (nucleic acid)
+          uri: http://edamontology.org/data_1097
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Gene symbol
+          uri: http://edamontology.org/data_1026
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
 homepage: http://genolist.pasteur.fr/LegioList/
 homepage_status: 0
 language: []
@@ -94,48 +94,48 @@ link: []
 maturity: null
 name: Legionella pneumophila genome database
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: DRCAT
 publication:
-- doi: null
-  metadata:
-    abstract: 'In the framework of the international collaborative project aiming
-      to sequence the whole Bacillus subtilis chromosome, we have created a relational
-      database for managing and analysing information associated with the molecular
-      genetics of this bacterium: SubtiList. It allows recovery of non-redundant DNA
-      sequences of the B. subtilis genome, as well as related information, i.e. genes,
-      proteins, etc. A logical structure has been designed with appropriate links
-      between the different objects, and a set of procedures has been implemented
-      for data updating and management. The database is organized around a core constituted
-      by all known contigs of B. subtilis, i.e. sets of non-redundant sequences created
-      from original entries in the EMBL data library. A user-friendly interface has
-      been developed to make the database easy to consult. Sequence analysis tools
-      have been integrated into the database, such as a program for rapid similarity
-      searching of protein data banks, and a powerful DNA pattern searching program.
-      Thanks to the consistency of SubtiList, we have performed a codon usage analysis
-      by Factorial Correspondence Analysis, and a study of the distribution of the
-      isoelectric points of known proteins of B. subtilis. The SubtiList database
-      is available through anonymous ftp (address ''ftp.pasteur.fr'' or IP number
-      157.99.64.12,directory''/pub/GenomeDB/SubtiList'').'
-    authors:
-    - name: Moszer I.
-    - name: Glaser P.
-    - name: Danchin A.
-    citationCount: 163
-    date: '1995-01-01T00:00:00Z'
-    journal: Microbiology
-    title: 'SubtiList: A relational database for the Bacillus subtilis genome'
-  pmcid: null
-  pmid: '7704253'
-  type: Primary
-  version: null
+  - doi: null
+    metadata:
+      abstract: 'In the framework of the international collaborative project aiming
+        to sequence the whole Bacillus subtilis chromosome, we have created a relational
+        database for managing and analysing information associated with the molecular
+        genetics of this bacterium: SubtiList. It allows recovery of non-redundant
+        DNA sequences of the B. subtilis genome, as well as related information, i.e.
+        genes, proteins, etc. A logical structure has been designed with appropriate
+        links between the different objects, and a set of procedures has been implemented
+        for data updating and management. The database is organized around a core
+        constituted by all known contigs of B. subtilis, i.e. sets of non-redundant
+        sequences created from original entries in the EMBL data library. A user-friendly
+        interface has been developed to make the database easy to consult. Sequence
+        analysis tools have been integrated into the database, such as a program for
+        rapid similarity searching of protein data banks, and a powerful DNA pattern
+        searching program. Thanks to the consistency of SubtiList, we have performed
+        a codon usage analysis by Factorial Correspondence Analysis, and a study of
+        the distribution of the isoelectric points of known proteins of B. subtilis.
+        The SubtiList database is available through anonymous ftp (address ''ftp.pasteur.fr''
+        or IP number 157.99.64.12,directory''/pub/GenomeDB/SubtiList'').'
+      authors:
+        - name: Moszer I.
+        - name: Glaser P.
+        - name: Danchin A.
+      citationCount: 163
+      date: '1995-01-01T00:00:00Z'
+      journal: Microbiology
+      title: 'SubtiList: A relational database for the Bacillus subtilis genome'
+    pmcid: null
+    pmid: '7704253'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Model organisms
-  uri: http://edamontology.org/topic_0621
+  - term: Model organisms
+    uri: http://edamontology.org/topic_0621
 validated: 1
 version: []

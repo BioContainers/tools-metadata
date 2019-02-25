@@ -1,50 +1,50 @@
 accessibility:
-- Open access
+  - Open access
 additionDate: '2018-09-20T15:39:38Z'
 biotoolsCURIE: biotools:pandrugs
 biotoolsID: pandrugs
 collectionID: []
 cost: Free of charge
 credit:
-- email: falshahrour@cnio.es
-  name: Fatima Al-Shahrour
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://www.bioinformatics.cnio.es/
-- email: epineiro@cnio.es
-  name: Elena Piñeiro
-  note: null
-  orcidid: https://orcid.org/0000-0003-2773-2343
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://www.bioinformatics.cnio.es/
-- email: null
-  name: Gonzalo Gómez López
-  note: null
-  orcidid: https://orcid.org/0000-0002-4146-0551
-  typeEntity: null
-  typeRole: []
-  url: null
+  - email: falshahrour@cnio.es
+    name: Fatima Al-Shahrour
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www.bioinformatics.cnio.es/
+  - email: epineiro@cnio.es
+    name: "Elena Pi\xF1eiro"
+    note: null
+    orcidid: https://orcid.org/0000-0003-2773-2343
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www.bioinformatics.cnio.es/
+  - email: null
+    name: "Gonzalo G\xF3mez L\xF3pez"
+    note: null
+    orcidid: https://orcid.org/0000-0002-4146-0551
+    typeEntity: null
+    typeRole: []
+    url: null
 description: PanDrugs is a method to prioritize anticancer drug treatments according
   to individual genomic data. PanDrugs current version integrates data from 24 primary
   sources and supports 56297 drug-target associations obtained from 4804 genes and
   9092 unique compounds.
 documentation:
-- note: null
-  type: Manual
-  url: https://pandrugs.org/#!/help
-- note: null
-  type: API documentation
-  url: https://pandrugs.org/pandrugs-backend/
+  - note: null
+    type: Manual
+    url: https://pandrugs.org/#!/help
+  - note: null
+    type: API documentation
+    url: https://pandrugs.org/pandrugs-backend/
 download:
-- note: PanDrugs docker
-  type: Container file
-  url: https://github.com/sing-group/pandrugs-docker
-  version: null
+  - note: PanDrugs docker
+    type: Container file
+    url: https://github.com/sing-group/pandrugs-docker
+    version: null
 editPermission:
   authors: []
   type: public
@@ -52,61 +52,61 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Gene name
-      uri: http://edamontology.org/data_2299
-    format:
-    - term: VCF
-      uri: http://edamontology.org/format_3016
-  note: PanDrugs provide in silico drug prescription from cancer genomics data using
-    standard VCF file, RNK file, gene lists and drug queries.
-  operation:
-  - term: Variant prioritisation
-    uri: http://edamontology.org/operation_3226
-  output:
-  - data:
-      term: Pharmacogenomic test report
-      uri: http://edamontology.org/data_1621
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Gene name
+          uri: http://edamontology.org/data_2299
+        format:
+          - term: VCF
+            uri: http://edamontology.org/format_3016
+    note: PanDrugs provide in silico drug prescription from cancer genomics data using
+      standard VCF file, RNK file, gene lists and drug queries.
+    operation:
+      - term: Variant prioritisation
+        uri: http://edamontology.org/operation_3226
+    output:
+      - data:
+          term: Pharmacogenomic test report
+          uri: http://edamontology.org/data_1621
+        format: []
 homepage: https://www.pandrugs.org/
 homepage_status: 0
 language: []
 lastUpdate: '2018-12-11T15:59:47Z'
 license: GPL-3.0
 link:
-- note: PanDrugs web server
-  type: Browser
-  url: https://www.pandrugs.org/
-- note: PanDrugs twitter
-  type: Social media
-  url: https://twitter.com/PanDrugs_CNIO?lang=es
+  - note: PanDrugs web server
+    type: Browser
+    url: https://www.pandrugs.org/
+  - note: PanDrugs twitter
+    type: Social media
+    url: https://twitter.com/PanDrugs_CNIO?lang=es
 maturity: Mature
 name: PanDrugs
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ggomez
 publication:
-- doi: null
-  metadata: null
-  pmcid: PMC5977747
-  pmid: '29848362'
-  type: Primary
-  version: null
+  - doi: null
+    metadata: null
+    pmcid: PMC5977747
+    pmid: '29848362'
+    type: Primary
+    version: null
 toolType:
-- Web API
-- Database portal
+  - Web API
+  - Database portal
 topic:
-- term: Oncology
-  uri: http://edamontology.org/topic_2640
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
-- term: DNA mutation
-  uri: http://edamontology.org/topic_2533
+  - term: Oncology
+    uri: http://edamontology.org/topic_2640
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: DNA mutation
+    uri: http://edamontology.org/topic_2533
 validated: 1
 version:
-- 2018.06.18
+  - 2018.06.18

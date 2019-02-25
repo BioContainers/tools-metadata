@@ -3,51 +3,51 @@ additionDate: '2017-06-22T13:21:47Z'
 biotoolsCURIE: biotools:biomart
 biotoolsID: biomart
 collectionID:
-- de.NBI
-- Bioconductor
+  - de.NBI
+  - Bioconductor
 cost: Free of charge
 credit:
-- email: biomartdev@gmail.com
-  name: Steffen Durinck
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: msmith@embl.de
-  name: Mike Smith
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Maintainer
-  url: null
-- email: null
-  name: Wolfgang Huber
-  note: null
-  orcidid: http://orcid.org/0000-0002-0474-2218
-  typeEntity: Person
-  typeRole:
-  - Contributor
-  url: null
-- email: null
-  name: Mike Smith
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://github.com/grimbough/biomaRt
+  - email: biomartdev@gmail.com
+    name: Steffen Durinck
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: msmith@embl.de
+    name: Mike Smith
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
+  - email: null
+    name: Wolfgang Huber
+    note: null
+    orcidid: http://orcid.org/0000-0002-0474-2218
+    typeEntity: Person
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Mike Smith
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/grimbough/biomaRt
 description: Provides an interface  to a growing collection of databases implementing
   the BioMart software suite, that is a database portal formed by dozens of biological
   databases spanning genomics, protemics, model organisms, cancer data, ontology information
   and more. The package enables retrieval of large amounts of data in a uniform way
   without the need to know the underlying database schemas or write complex SQL queries.
 documentation:
-- note: null
-  type: Manual
-  url: https://bioconductor.org/packages/release/bioc/vignettes/biomaRt/inst/doc/biomaRt.html
+  - note: null
+    type: Manual
+    url: https://bioconductor.org/packages/release/bioc/vignettes/biomaRt/inst/doc/biomaRt.html
 download: []
 editPermission:
   authors: []
@@ -56,106 +56,106 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Database search
-    uri: http://edamontology.org/operation_2421
-  - term: Data retrieval
-    uri: http://edamontology.org/operation_2422
-  - term: Structural similarity search
-    uri: http://edamontology.org/operation_0360
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+      - term: Data retrieval
+        uri: http://edamontology.org/operation_2422
+      - term: Structural similarity search
+        uri: http://edamontology.org/operation_0360
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output: []
 homepage: https://bioconductor.org/packages/biomaRt/
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-29T14:14:07Z'
 license: Artistic-2.0
 link: []
 maturity: Mature
 name: biomaRt
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: hdhub
 publication:
-- doi: 10.1038/nprot.2009.97
-  metadata: null
-  pmcid: PMC3159387
-  pmid: '19617889'
-  type: Primary
-  version: null
-- doi: 10.1093/bioinformatics/bti525
-  metadata:
-    abstract: 'Summary: biomaRt is a new Bioconductor package that integrates BioMart
-      data resources with data analysis software in Bioconductor. It can annotate
-      a wide range of gene or gene product identifiers (e.g. Entrez-Gene and Affymetrix
-      probe identifiers) with information such as gene symbol, chromosomal coordinates,
-      Gene Ontology and OMIM annotation. Furthermore biomaRt enables retrieval of
-      genomic sequences and single nucleotide polymorphism information, which can
-      be used in data analysis. Fast and up-to-date data retrieval is possible as
-      the package executes direct SQL queries to the BioMart databases (e.g. Ensembl).
-      The biomaRt package provides a tight integration of large, public or locally
-      installed BioMart databases with data analysis in Bioconductor creating a powerful
-      environment for biological data mining. © The Author 2005. Published by Oxford
-      University Press. All rights reserved.'
-    authors:
-    - name: Durinck S.
-    - name: Moreau Y.
-    - name: Kasprzyk A.
-    - name: Davis S.
-    - name: De Moor B.
-    - name: Brazma A.
-    - name: Huber W.
-    citationCount: 464
-    date: '2005-08-15T00:00:00Z'
-    journal: Bioinformatics
-    title: 'BioMart and Bioconductor: A powerful link between biological databases
-      and microarray data analysis'
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
-- doi: null
-  metadata:
-    abstract: The paper is concerned with clinicomorphological characteristics of
-      endemic, immune and epidemic (AIDS-associated) forms of Kaposi's sarcoma (KS).
-      Recent experimental and clinical evidence suggests pathogenic contribution to
-      KS of virus-induced depression of sex-linked genes and immunosuppression. Combined
-      action of these factors should be regarded when specifying current presentation
-      of KS.
-    authors:
-    - name: Rytik P.G.
-    - name: Khmara M.E.
-    - name: Protas I.I.
-    - name: Nedz'ved' M.K.
-    citationCount: 0
-    date: '1992-01-01T00:00:00Z'
-    journal: Klinicheskaya Meditsina
-    title: The clinico-pathogenetic characteristics of Kaposi's sarcoma Kliniko-patogeneticheskie
-      osobennosti sarkomy Kaposhi.
-  pmcid: null
-  pmid: '1608201'
-  type: null
-  version: null
+  - doi: 10.1038/nprot.2009.97
+    metadata: null
+    pmcid: PMC3159387
+    pmid: '19617889'
+    type: Primary
+    version: null
+  - doi: 10.1093/bioinformatics/bti525
+    metadata:
+      abstract: "Summary: biomaRt is a new Bioconductor package that integrates BioMart\
+        \ data resources with data analysis software in Bioconductor. It can annotate\
+        \ a wide range of gene or gene product identifiers (e.g. Entrez-Gene and Affymetrix\
+        \ probe identifiers) with information such as gene symbol, chromosomal coordinates,\
+        \ Gene Ontology and OMIM annotation. Furthermore biomaRt enables retrieval\
+        \ of genomic sequences and single nucleotide polymorphism information, which\
+        \ can be used in data analysis. Fast and up-to-date data retrieval is possible\
+        \ as the package executes direct SQL queries to the BioMart databases (e.g.\
+        \ Ensembl). The biomaRt package provides a tight integration of large, public\
+        \ or locally installed BioMart databases with data analysis in Bioconductor\
+        \ creating a powerful environment for biological data mining. \xA9 The Author\
+        \ 2005. Published by Oxford University Press. All rights reserved."
+      authors:
+        - name: Durinck S.
+        - name: Moreau Y.
+        - name: Kasprzyk A.
+        - name: Davis S.
+        - name: De Moor B.
+        - name: Brazma A.
+        - name: Huber W.
+      citationCount: 464
+      date: '2005-08-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'BioMart and Bioconductor: A powerful link between biological databases
+        and microarray data analysis'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
+  - doi: null
+    metadata:
+      abstract: The paper is concerned with clinicomorphological characteristics of
+        endemic, immune and epidemic (AIDS-associated) forms of Kaposi's sarcoma (KS).
+        Recent experimental and clinical evidence suggests pathogenic contribution
+        to KS of virus-induced depression of sex-linked genes and immunosuppression.
+        Combined action of these factors should be regarded when specifying current
+        presentation of KS.
+      authors:
+        - name: Rytik P.G.
+        - name: Khmara M.E.
+        - name: Protas I.I.
+        - name: Nedz'ved' M.K.
+      citationCount: 0
+      date: '1992-01-01T00:00:00Z'
+      journal: Klinicheskaya Meditsina
+      title: The clinico-pathogenetic characteristics of Kaposi's sarcoma Kliniko-patogeneticheskie
+        osobennosti sarkomy Kaposhi.
+    pmcid: null
+    pmid: '1608201'
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Data acquisition
-  uri: http://edamontology.org/topic_3077
-- term: Database management
-  uri: http://edamontology.org/topic_3489
-- term: Model organisms
-  uri: http://edamontology.org/topic_0621
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
-- term: Zoology
-  uri: http://edamontology.org/topic_3500
+  - term: Data acquisition
+    uri: http://edamontology.org/topic_3077
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
+  - term: Model organisms
+    uri: http://edamontology.org/topic_0621
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Zoology
+    uri: http://edamontology.org/topic_3500
 validated: 1
 version: []

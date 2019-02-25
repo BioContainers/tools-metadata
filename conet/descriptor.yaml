@@ -5,93 +5,93 @@ biotoolsID: conet
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: Karoline Faust
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: Gipsi Lima-Mendez
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole:
-  - Contributor
-  url: null
-- email: null
-  name: Jean-Sebastien Lerat
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole:
-  - Contributor
-  url: null
-- email: null
-  name: VUB
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: KU Leuven
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: VIB
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: vib-kuleuven.be
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: karoline.faust@vib-kuleuven.be
-  name: Karoline Faust
-  note: null
-  orcidid: null
-  typeEntity: null
-  typeRole:
-  - Support
-  url: http://www.raeslab.org
-- email: karoline.faust@vib-kuleuven.be
-  name: Karoline Faust
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://www.raeslab.org
+  - email: null
+    name: Karoline Faust
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Gipsi Lima-Mendez
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Jean-Sebastien Lerat
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: VUB
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: KU Leuven
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: VIB
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: vib-kuleuven.be
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: karoline.faust@vib-kuleuven.be
+    name: Karoline Faust
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Support
+    url: http://www.raeslab.org
+  - email: karoline.faust@vib-kuleuven.be
+    name: Karoline Faust
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.raeslab.org
 description: Tool that detects significant non-random patterns of co-occurrence (copresence
   and mutual exclusion) in incidence and abundance data.
 documentation:
-- note: null
-  type: General
-  url: http://psbweb05.psb.ugent.be/conet/documentation.php
+  - note: null
+    type: General
+    url: http://psbweb05.psb.ugent.be/conet/documentation.php
 download:
-- note: null
-  type: Source code
-  url: http://psbweb05.psb.ugent.be/conet/documents/CoNetDoc.pdf
-  version: null
-- note: null
-  type: Binaries
-  url: http://psbweb05.psb.ugent.be/conet/documents/CoNetDoc.pdf
-  version: null
+  - note: null
+    type: Source code
+    url: http://psbweb05.psb.ugent.be/conet/documents/CoNetDoc.pdf
+    version: null
+  - note: null
+    type: Binaries
+    url: http://psbweb05.psb.ugent.be/conet/documents/CoNetDoc.pdf
+    version: null
 editPermission:
   authors: []
   type: private
@@ -99,65 +99,66 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: CoNet is a similarity-based network inference tool.
-  operation:
-  - term: Pathway or network prediction
-    uri: http://edamontology.org/operation_3439
-  output: []
+  - cmd: null
+    input: []
+    note: CoNet is a similarity-based network inference tool.
+    operation:
+      - term: Pathway or network prediction
+        uri: http://edamontology.org/operation_3439
+    output: []
 homepage: http://www.raeslab.org/software/conet.html
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2019-01-09T15:42:52Z'
 license: null
 link:
-- note: null
-  type: Repository
-  url: http://psbweb05.psb.ugent.be/conet/documents/CoNetDoc.pdf
+  - note: null
+    type: Repository
+    url: http://psbweb05.psb.ugent.be/conet/documents/CoNetDoc.pdf
 maturity: Mature
 name: CoNet
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: karoline.faust@vib-kuleuven.be
 publication:
-- doi: 10.1371/journal.pcbi.1002606
-  metadata: null
-  pmcid: PMC3395616
-  pmid: '22807668'
-  type: Primary
-  version: null
-- doi: null
-  metadata:
-    abstract: Metagenomics and 16S pyrosequencing have enabled the study of ecosystem
-      structure and dynamics to great depth and accuracy. Co-occurrence and correlation
-      patterns found in these data sets are increasingly used for the prediction of
-      species interactions in environments ranging from the oceans to the human microbiome.
-      In addition, parallelized co-culture assays and combinatorial labelling experiments
-      allow high-throughput discovery of cooperative and competitive relationships
-      between species. In this Review, we describe how these techniques are opening
-      the way towards global ecosystem network prediction and the development of ecosystem-wide
-      dynamic models. © 2012 Macmillan Publishers Limited. All rights reserved.
-    authors:
-    - name: Faust K.
-    - name: Raes J.
-    citationCount: 534
-    date: '2012-08-01T00:00:00Z'
-    journal: Nature Reviews Microbiology
-    title: 'Microbial interactions: From networks to models'
-  pmcid: null
-  pmid: '22796884'
-  type: Other
-  version: null
+  - doi: 10.1371/journal.pcbi.1002606
+    metadata: null
+    pmcid: PMC3395616
+    pmid: '22807668'
+    type: Primary
+    version: null
+  - doi: null
+    metadata:
+      abstract: "Metagenomics and 16S pyrosequencing have enabled the study of ecosystem\
+        \ structure and dynamics to great depth and accuracy. Co-occurrence and correlation\
+        \ patterns found in these data sets are increasingly used for the prediction\
+        \ of species interactions in environments ranging from the oceans to the human\
+        \ microbiome. In addition, parallelized co-culture assays and combinatorial\
+        \ labelling experiments allow high-throughput discovery of cooperative and\
+        \ competitive relationships between species. In this Review, we describe how\
+        \ these techniques are opening the way towards global ecosystem network prediction\
+        \ and the development of ecosystem-wide dynamic models. \xA9 2012 Macmillan\
+        \ Publishers Limited. All rights reserved."
+      authors:
+        - name: Faust K.
+        - name: Raes J.
+      citationCount: 534
+      date: '2012-08-01T00:00:00Z'
+      journal: Nature Reviews Microbiology
+      title: 'Microbial interactions: From networks to models'
+    pmcid: null
+    pmid: '22796884'
+    type: Other
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Systems biology
-  uri: http://edamontology.org/topic_2259
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
 validated: 1
 version:
-- '1'
+  - '1'

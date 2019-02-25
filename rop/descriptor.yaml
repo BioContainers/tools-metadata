@@ -5,19 +5,19 @@ biotoolsID: rop
 collectionID: []
 cost: null
 credit:
-- email: smangul@ucla.edu
-  name: Support
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: smangul@ucla.edu
+    name: Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Discovering the source of all reads originating from complex RNA molecules.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/smangul1/rop/wiki
+  - note: null
+    type: General
+    url: https://github.com/smangul1/rop/wiki
 download: []
 editPermission:
   authors: []
@@ -26,81 +26,82 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Read mapping
-    uri: http://edamontology.org/operation_3198
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Read mapping
+        uri: http://edamontology.org/operation_3198
+    output: []
 homepage: https://github.com/smangul1/rop/wiki
 homepage_status: 0
 language:
-- Python
+  - Python
 lastUpdate: '2018-12-10T12:59:01Z'
 license: GPL-3.0
 link: []
 maturity: null
 name: ROP
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1186/s13059-018-1403-7
-  metadata:
-    abstract: © 2018 The Author(s). High-throughput RNA-sequencing (RNA-seq) technologies
-      provide an unprecedented opportunity to explore the individual transcriptome.
-      Unmapped reads are a large and often overlooked output of standard RNA-seq analyses.
-      Here, we present Read Origin Protocol (ROP), a tool for discovering the source
-      of all reads originating from complex RNA molecules. We apply ROP to samples
-      across 2630 individuals from 54 diverse human tissues. Our approach can account
-      for 99.9% of 1 trillion reads of various read length. Additionally, we use ROP
-      to investigate the functional mechanisms underlying connections between the
-      immune system, microbiome, and disease. ROP is freely available at https://github.com/smangul1/rop/wiki.
-    authors:
-    - name: Mangul S.
-    - name: Yang H.T.
-    - name: Strauli N.
-    - name: Gruhl F.
-    - name: Porath H.T.
-    - name: Hsieh K.
-    - name: Chen L.
-    - name: Daley T.
-    - name: Christenson S.
-    - name: Wesolowska-Andersen A.
-    - name: Spreafico R.
-    - name: Rios C.
-    - name: Eng C.
-    - name: Smith A.D.
-    - name: Hernandez R.D.
-    - name: Ophoff R.A.
-    - name: Santana J.R.
-    - name: Levanon E.Y.
-    - name: Woodruff P.G.
-    - name: Burchard E.
-    - name: Seibold M.A.
-    - name: Shifman S.
-    - name: Eskin E.
-    - name: Zaitlen N.
-    citationCount: 1
-    date: '2018-02-15T00:00:00Z'
-    journal: Genome Biology
-    title: 'ROP: Dumpster diving in RNA-sequencing to find the source of 1 trillion
-      reads across diverse adult human tissues'
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1186/s13059-018-1403-7
+    metadata:
+      abstract: "\xA9 2018 The Author(s). High-throughput RNA-sequencing (RNA-seq)\
+        \ technologies provide an unprecedented opportunity to explore the individual\
+        \ transcriptome. Unmapped reads are a large and often overlooked output of\
+        \ standard RNA-seq analyses. Here, we present Read Origin Protocol (ROP),\
+        \ a tool for discovering the source of all reads originating from complex\
+        \ RNA molecules. We apply ROP to samples across 2630 individuals from 54 diverse\
+        \ human tissues. Our approach can account for 99.9% of 1 trillion reads of\
+        \ various read length. Additionally, we use ROP to investigate the functional\
+        \ mechanisms underlying connections between the immune system, microbiome,\
+        \ and disease. ROP is freely available at https://github.com/smangul1/rop/wiki."
+      authors:
+        - name: Mangul S.
+        - name: Yang H.T.
+        - name: Strauli N.
+        - name: Gruhl F.
+        - name: Porath H.T.
+        - name: Hsieh K.
+        - name: Chen L.
+        - name: Daley T.
+        - name: Christenson S.
+        - name: Wesolowska-Andersen A.
+        - name: Spreafico R.
+        - name: Rios C.
+        - name: Eng C.
+        - name: Smith A.D.
+        - name: Hernandez R.D.
+        - name: Ophoff R.A.
+        - name: Santana J.R.
+        - name: Levanon E.Y.
+        - name: Woodruff P.G.
+        - name: Burchard E.
+        - name: Seibold M.A.
+        - name: Shifman S.
+        - name: Eskin E.
+        - name: Zaitlen N.
+      citationCount: 1
+      date: '2018-02-15T00:00:00Z'
+      journal: Genome Biology
+      title: 'ROP: Dumpster diving in RNA-sequencing to find the source of 1 trillion
+        reads across diverse adult human tissues'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Functional, regulatory and non-coding RNA
-  uri: http://edamontology.org/topic_0659
-- term: Mapping
-  uri: http://edamontology.org/topic_0102
-- term: RNA-seq
-  uri: http://edamontology.org/topic_3170
+  - term: Functional, regulatory and non-coding RNA
+    uri: http://edamontology.org/topic_0659
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
 validated: 1
 version: []

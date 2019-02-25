@@ -5,21 +5,21 @@ biotoolsID: erdf_analyser
 collectionID: []
 cost: null
 credit:
-- email: shanmugamjanaki+eRDF@gmail.com
-  name: Janaki Shanmugam
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: shanmugamjanaki+eRDF@gmail.com
+    name: Janaki Shanmugam
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: eRDF Analyser is an interactive MATLAB GUI for reduced density function
   (RDF) or pair distribution function (PDF) analysis of amorphous and polycrystalline
   materials to study their local structure.
 documentation:
-- note: null
-  type: Manual
-  url: https://erdfanalyser.github.io/MATLABv1/
+  - note: null
+    type: Manual
+    url: https://erdfanalyser.github.io/MATLABv1/
 download: []
 editPermission:
   authors: []
@@ -28,62 +28,63 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Molecular dynamics
-    uri: http://edamontology.org/operation_2476
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Molecular dynamics
+        uri: http://edamontology.org/operation_2476
+    output: []
 homepage: https://github.com/ElsevierSoftwareX/SOFTX-D-17-00005
 homepage_status: 0
 language:
-- MATLAB
+  - MATLAB
 lastUpdate: '2018-12-10T12:59:01Z'
 license: GPL-3.0
 link: []
 maturity: null
 name: eRDF Analyser
 operatingSystem:
-- Windows
+  - Windows
 otherID: []
 owner: daniel_stefan
 publication:
-- doi: 10.1016/j.softx.2017.07.001
-  metadata:
-    abstract: © 2017 The AuthorseRDF Analyser is an interactive MATLAB GUI for reduced
-      density function (RDF) or pair distribution function (PDF) analysis of amorphous
-      and polycrystalline materials to study their local structure. It is developed
-      as an integrated tool with an easy-to-use interface that offers a streamlined
-      approach to extract RDF from electron diffraction data without the need for
-      external routines. The software incorporates recent developments in scattering
-      factor parameterisation and an automated fitting routine for the atomic scattering
-      curve. It also features an automated optimisation routine for determination
-      of the position of the centre of diffraction patterns recorded using both central
-      and off-centre locations of the incident beam. It is available in both open
-      source code (MATLAB m-file) and executable form.
-    authors:
-    - name: Shanmugam J.
-    - name: Borisenko K.B.
-    - name: Chou Y.-J.
-    - name: Kirkland A.I.
-    citationCount: 0
-    date: '2017-01-01T00:00:00Z'
-    journal: SoftwareX
-    title: 'eRDF Analyser: An interactive GUI for electron reduced density function
-      analysis'
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1016/j.softx.2017.07.001
+    metadata:
+      abstract: "\xA9 2017 The AuthorseRDF Analyser is an interactive MATLAB GUI for\
+        \ reduced density function (RDF) or pair distribution function (PDF) analysis\
+        \ of amorphous and polycrystalline materials to study their local structure.\
+        \ It is developed as an integrated tool with an easy-to-use interface that\
+        \ offers a streamlined approach to extract RDF from electron diffraction data\
+        \ without the need for external routines. The software incorporates recent\
+        \ developments in scattering factor parameterisation and an automated fitting\
+        \ routine for the atomic scattering curve. It also features an automated optimisation\
+        \ routine for determination of the position of the centre of diffraction patterns\
+        \ recorded using both central and off-centre locations of the incident beam.\
+        \ It is available in both open source code (MATLAB m-file) and executable\
+        \ form."
+      authors:
+        - name: Shanmugam J.
+        - name: Borisenko K.B.
+        - name: Chou Y.-J.
+        - name: Kirkland A.I.
+      citationCount: 0
+      date: '2017-01-01T00:00:00Z'
+      journal: SoftwareX
+      title: 'eRDF Analyser: An interactive GUI for electron reduced density function
+        analysis'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Plug-in
-- Desktop application
+  - Plug-in
+  - Desktop application
 topic:
-- term: Computational chemistry
-  uri: http://edamontology.org/topic_3332
-- term: Electron microscopy
-  uri: http://edamontology.org/topic_0611
+  - term: Computational chemistry
+    uri: http://edamontology.org/topic_3332
+  - term: Electron microscopy
+    uri: http://edamontology.org/topic_0611
 validated: 1
 version:
-- v1.0
+  - v1.0

@@ -3,30 +3,30 @@ additionDate: '2015-09-11T19:55:07Z'
 biotoolsCURIE: biotools:aftol
 biotoolsID: aftol
 collectionID:
-- DRCAT
+  - DRCAT
 cost: null
 credit:
-- email: null
-  name: DRCAT
-  note: null
-  orcidid: null
-  typeEntity: Project
-  typeRole:
-  - Documentor
-  url: null
-- email: spatafoj@science.oregonstate.edu
-  name: Dr. Joseph Spatafora
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: spatafoj@science.oregonstate.edu
+    name: Dr. Joseph Spatafora
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Fungal structural and biochemical database.
 documentation:
-- note: null
-  type: General
-  url: http://www.aftol.org/resources.php
+  - note: null
+    type: General
+    url: http://www.aftol.org/resources.php
 download: []
 editPermission:
   authors: []
@@ -35,27 +35,27 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Genus name
-      uri: http://edamontology.org/data_1870
-    format: []
-  - data:
-      term: Species name
-      uri: http://edamontology.org/data_1045
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Organism report
-      uri: http://edamontology.org/data_2530
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Genus name
+          uri: http://edamontology.org/data_1870
+        format: []
+      - data:
+          term: Species name
+          uri: http://edamontology.org/data_1045
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Organism report
+          uri: http://edamontology.org/data_2530
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
 homepage: http://www.aftol.org/index.php
 homepage_status: 0
 language: []
@@ -65,22 +65,22 @@ link: []
 maturity: null
 name: Assembling the Fungal Tree of Life (AFTOL)
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: DRCAT
 publication:
-- doi: 10.3732/ajb.91.10.1446
-  metadata: null
-  pmcid: null
-  pmid: '21652303'
-  type: Primary
-  version: null
+  - doi: 10.3732/ajb.91.10.1446
+    metadata: null
+    pmcid: null
+    pmid: '21652303'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Model organisms
-  uri: http://edamontology.org/topic_0621
+  - term: Model organisms
+    uri: http://edamontology.org/topic_0621
 validated: 1
 version: []

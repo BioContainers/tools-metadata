@@ -5,23 +5,23 @@ biotoolsID: hgca
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: Ioannis Michalopoulos
-  note: null
-  orcidid: http://orcid.org/0000-0001-8991-8712
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://www.bioacademy.gr/faculty-details/Gc0/ioannis?lang=en
+  - email: null
+    name: Ioannis Michalopoulos
+    note: null
+    orcidid: http://orcid.org/0000-0001-8991-8712
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.bioacademy.gr/faculty-details/Gc0/ioannis?lang=en
 description: Tool based on the Pearson Correlation Coefficient (r-value) between the
   calculated and normalised by MAS 5.0 signal values of the 54613 Probe Sets of Affymetrix
   Human Genome U133 Plus 2.0 Array Chip from 1959 microarray data sets. Statistical
   Significance is estimated with Student's t-test and Bonferroni correction is used
   for multiple testing.
 documentation:
-- note: null
-  type: General
-  url: http://biobank-informatics.bioacademy.gr/coexpression/FAQ.php
+  - note: null
+    type: General
+    url: http://biobank-informatics.bioacademy.gr/coexpression/FAQ.php
 download: []
 editPermission:
   authors: []
@@ -30,47 +30,47 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Gene ID (HGNC)
-      uri: http://edamontology.org/data_2298
-    format: []
-  note: null
-  operation:
-  - term: Dendrogram visualisation
-    uri: http://edamontology.org/operation_2938
-  output:
-  - data:
-      term: Gene tree
-      uri: http://edamontology.org/data_3271
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Gene ID (HGNC)
+          uri: http://edamontology.org/data_2298
+        format: []
+    note: null
+    operation:
+      - term: Dendrogram visualisation
+        uri: http://edamontology.org/operation_2938
+    output:
+      - data:
+          term: Gene tree
+          uri: http://edamontology.org/data_3271
+        format: []
 homepage: http://biobank-informatics.bioacademy.gr/coexpression/
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2019-01-09T15:28:48Z'
 license: null
 link: []
 maturity: null
 name: Human Gene Correlation Analysis (HGCA)
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: imichalop@bioacademy.gr
 publication:
-- doi: 10.1186/1756-0500-5-265
-  metadata: null
-  pmcid: PMC3441226
-  pmid: '22672625'
-  type: Primary
-  version: null
+  - doi: 10.1186/1756-0500-5-265
+    metadata: null
+    pmcid: PMC3441226
+    pmid: '22672625'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Microarray experiment
-  uri: http://edamontology.org/topic_3518
+  - term: Microarray experiment
+    uri: http://edamontology.org/topic_3518
 validated: 1
 version: []

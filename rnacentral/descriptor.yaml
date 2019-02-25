@@ -5,25 +5,25 @@ biotoolsID: rnacentral
 collectionID: []
 cost: Free of charge
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://rnacentral.org/contact
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://rnacentral.org/contact
 description: RNAcentral is a comprehensive database of non-coding RNA sequences that
   represents all types of ncRNA from a broad range of organisms
 documentation:
-- note: null
-  type: General
-  url: http://rnacentral.org/help
+  - note: null
+    type: General
+    url: http://rnacentral.org/help
 download:
-- note: null
-  type: Biological data
-  url: ftp://ftp.ebi.ac.uk/pub/databases/RNAcentral/current_release
-  version: null
+  - note: null
+    type: Biological data
+    url: ftp://ftp.ebi.ac.uk/pub/databases/RNAcentral/current_release
+    version: null
 editPermission:
   authors: []
   type: public
@@ -31,145 +31,147 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence similarity search
-    uri: http://edamontology.org/operation_0346
-  - term: Database comparison
-    uri: http://edamontology.org/operation_3561
-  - term: Filtering
-    uri: http://edamontology.org/operation_3695
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence similarity search
+        uri: http://edamontology.org/operation_0346
+      - term: Database comparison
+        uri: http://edamontology.org/operation_3561
+      - term: Filtering
+        uri: http://edamontology.org/operation_3695
+    output: []
 homepage: http://rnacentral.org
 homepage_status: 0
 language:
-- Python
+  - Python
 lastUpdate: '2018-12-20T10:41:57Z'
 license: null
 link:
-- note: null
-  type: Repository
-  url: http://github.com/rnacentral
-- note: null
-  type: Social media
-  url: https://twitter.com/rnacentral
+  - note: null
+    type: Repository
+    url: http://github.com/rnacentral
+  - note: null
+    type: Social media
+    url: https://twitter.com/rnacentral
 maturity: Emerging
 name: RNAcentral
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: apetrov@ebi.ac.uk
 publication:
-- doi: null
-  metadata:
-    abstract: © The Author(s) 2016. RNAcentral is a database of non-coding RNA (ncRNA)
-      sequences that aggregates data from specialised ncRNA resources and provides
-      a single entry point for accessing ncRNA sequences of all ncRNA types from all
-      organisms. Since its launch in 2014, RNAcentral has integrated twelve new resources,
-      taking the total number of collaborating database to 22, and began importing
-      new types of data, such as modified nucleotides from MODOMICS and PDB. We created
-      new species-specific identifiers that refer to unique RNA sequences within a
-      context of single species. The website has been subject to continuous improvements
-      focusing on text and sequence similarity searches as well as genome browsing
-      functionality. All RNAcentral data is provided for free and is available for
-      browsing, bulk downloads, and programmatic access at http://rnacentral.org/.
-    authors:
-    - name: Petrov A.I.
-    - name: Kay S.J.E.
-    - name: Kalvari I.
-    - name: Howe K.L.
-    - name: Gray K.A.
-    - name: Bruford E.A.
-    - name: Kersey P.J.
-    - name: Cochrane G.
-    - name: Finn R.D.
-    - name: Bateman A.
-    - name: Kozomara A.
-    - name: Griffiths-Jones S.
-    - name: Frankish A.
-    - name: Zwieb C.W.
-    - name: Lau B.Y.
-    - name: Williams K.P.
-    - name: Chan P.P.
-    - name: Lowe T.M.
-    - name: Cannone J.J.
-    - name: Gutell R.R.
-    - name: Machnicka M.A.
-    - name: Bujnicki J.M.
-    - name: Yoshihama M.
-    - name: Kenmochi N.
-    - name: Chai B.
-    - name: Cole J.R.
-    - name: Szymanski M.
-    - name: Karlowski W.M.
-    - name: Wood V.
-    - name: Huala E.
-    - name: Berardini T.Z.
-    - name: Zhao Y.
-    - name: Chen R.
-    - name: Zhu W.
-    - name: Paraskevopoulou M.D.
-    - name: Vlachos I.S.
-    - name: Hatzigeorgiou A.G.
-    - name: Ma L.
-    - name: Zhang Z.
-    - name: Puetz J.
-    - name: Stadler P.F.
-    - name: McDonald D.
-    - name: Basu S.
-    - name: Fey P.
-    - name: Engel S.R.
-    - name: Cherry J.M.
-    - name: Volders P.-J.
-    - name: Mestdagh P.
-    - name: Wower J.
-    - name: Clark M.
-    - name: Quek X.C.
-    - name: Dinger M.E.
-    citationCount: 26
-    date: '2017-01-01T00:00:00Z'
-    journal: Nucleic Acids Research
-    title: 'RNAcentral: A comprehensive database of non-coding RNA sequences'
-  pmcid: null
-  pmid: '27794554'
-  type: null
-  version: null
-- doi: null
-  metadata:
-    abstract: © The Author(s) 2014. Published by Oxford University Press on behalf
-      of Nucleic Acids Research. The field of non-coding RNA biology has been hampered
-      by the lack of availability of a comprehensive, up-to-date collection of accessioned
-      RNA sequences. Here we present the first release of RNAcentral, a database that
-      collates and integrates information from an international consortium of established
-      RNA sequence databases. The initial release contains over 8.1 million sequences,
-      including representatives of all major functional classes. A web portal (http://rnacentral.org)
-      provides free access to data, search functionality, cross-references, source
-      code and an integrated genome browser for selected species.
-    authors: []
-    citationCount: 42
-    date: '2015-01-01T00:00:00Z'
-    journal: Nucleic acids research
-    title: 'RNAcentral: an international database of ncRNA sequences'
-  pmcid: null
-  pmid: '25352543'
-  type: null
-  version: null
-- doi: null
-  metadata: null
-  pmcid: null
-  pmid: '30395267'
-  type: null
-  version: null
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author(s) 2016. RNAcentral is a database of non-coding RNA\
+        \ (ncRNA) sequences that aggregates data from specialised ncRNA resources\
+        \ and provides a single entry point for accessing ncRNA sequences of all ncRNA\
+        \ types from all organisms. Since its launch in 2014, RNAcentral has integrated\
+        \ twelve new resources, taking the total number of collaborating database\
+        \ to 22, and began importing new types of data, such as modified nucleotides\
+        \ from MODOMICS and PDB. We created new species-specific identifiers that\
+        \ refer to unique RNA sequences within a context of single species. The website\
+        \ has been subject to continuous improvements focusing on text and sequence\
+        \ similarity searches as well as genome browsing functionality. All RNAcentral\
+        \ data is provided for free and is available for browsing, bulk downloads,\
+        \ and programmatic access at http://rnacentral.org/."
+      authors:
+        - name: Petrov A.I.
+        - name: Kay S.J.E.
+        - name: Kalvari I.
+        - name: Howe K.L.
+        - name: Gray K.A.
+        - name: Bruford E.A.
+        - name: Kersey P.J.
+        - name: Cochrane G.
+        - name: Finn R.D.
+        - name: Bateman A.
+        - name: Kozomara A.
+        - name: Griffiths-Jones S.
+        - name: Frankish A.
+        - name: Zwieb C.W.
+        - name: Lau B.Y.
+        - name: Williams K.P.
+        - name: Chan P.P.
+        - name: Lowe T.M.
+        - name: Cannone J.J.
+        - name: Gutell R.R.
+        - name: Machnicka M.A.
+        - name: Bujnicki J.M.
+        - name: Yoshihama M.
+        - name: Kenmochi N.
+        - name: Chai B.
+        - name: Cole J.R.
+        - name: Szymanski M.
+        - name: Karlowski W.M.
+        - name: Wood V.
+        - name: Huala E.
+        - name: Berardini T.Z.
+        - name: Zhao Y.
+        - name: Chen R.
+        - name: Zhu W.
+        - name: Paraskevopoulou M.D.
+        - name: Vlachos I.S.
+        - name: Hatzigeorgiou A.G.
+        - name: Ma L.
+        - name: Zhang Z.
+        - name: Puetz J.
+        - name: Stadler P.F.
+        - name: McDonald D.
+        - name: Basu S.
+        - name: Fey P.
+        - name: Engel S.R.
+        - name: Cherry J.M.
+        - name: Volders P.-J.
+        - name: Mestdagh P.
+        - name: Wower J.
+        - name: Clark M.
+        - name: Quek X.C.
+        - name: Dinger M.E.
+      citationCount: 26
+      date: '2017-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'RNAcentral: A comprehensive database of non-coding RNA sequences'
+    pmcid: null
+    pmid: '27794554'
+    type: null
+    version: null
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author(s) 2014. Published by Oxford University Press on\
+        \ behalf of Nucleic Acids Research. The field of non-coding RNA biology has\
+        \ been hampered by the lack of availability of a comprehensive, up-to-date\
+        \ collection of accessioned RNA sequences. Here we present the first release\
+        \ of RNAcentral, a database that collates and integrates information from\
+        \ an international consortium of established RNA sequence databases. The initial\
+        \ release contains over 8.1 million sequences, including representatives of\
+        \ all major functional classes. A web portal (http://rnacentral.org) provides\
+        \ free access to data, search functionality, cross-references, source code\
+        \ and an integrated genome browser for selected species."
+      authors: []
+      citationCount: 42
+      date: '2015-01-01T00:00:00Z'
+      journal: Nucleic acids research
+      title: 'RNAcentral: an international database of ncRNA sequences'
+    pmcid: null
+    pmid: '25352543'
+    type: null
+    version: null
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '30395267'
+    type: null
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Functional, regulatory and non-coding RNA
-  uri: http://edamontology.org/topic_0659
-- term: Bioinformatics
-  uri: http://edamontology.org/topic_0091
+  - term: Functional, regulatory and non-coding RNA
+    uri: http://edamontology.org/topic_0659
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
 validated: 1
 version: []

@@ -5,19 +5,19 @@ biotoolsID: three_to_one
 collectionID: []
 cost: null
 credit:
-- email: stothard@ualberta.ca
-  name: Paul Stothard
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: stothard@ualberta.ca
+    name: Paul Stothard
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Three to One converts three letter translations to single letter translations
 documentation:
-- note: null
-  type: General
-  url: http://bioinformatics.org/sms2/browser_compat.html
+  - note: null
+    type: General
+    url: http://bioinformatics.org/sms2/browser_compat.html
 download: []
 editPermission:
   authors: []
@@ -26,13 +26,13 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Conversion
-    uri: http://edamontology.org/operation_3434
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Conversion
+        uri: http://edamontology.org/operation_3434
+    output: []
 homepage: http://bioinformatics.org/sms2/three_to_one.html
 homepage_status: 0
 language: []
@@ -42,30 +42,30 @@ link: []
 maturity: null
 name: Three to One
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: vzn529@binf.ku.dk
 publication:
-- doi: 10.2144/00286ir01
-  metadata:
-    abstract: ''
-    authors:
-    - name: Stothard P.
-    citationCount: 491
-    date: '2000-06-01T00:00:00Z'
-    journal: BioTechniques
-    title: 'The sequence manipulation suite: JavaScript programs for analyzing and
-      formatting protein and DNA sequences.'
-  pmcid: null
-  pmid: '10868275'
-  type: Primary
-  version: null
+  - doi: 10.2144/00286ir01
+    metadata:
+      abstract: ''
+      authors:
+        - name: Stothard P.
+      citationCount: 491
+      date: '2000-06-01T00:00:00Z'
+      journal: BioTechniques
+      title: 'The sequence manipulation suite: JavaScript programs for analyzing and
+        formatting protein and DNA sequences.'
+    pmcid: null
+    pmid: '10868275'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
 validated: 1
 version: []

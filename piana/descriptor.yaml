@@ -5,38 +5,38 @@ biotoolsID: piana
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: Ramon Aragüés
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Developer
-  url: null
-- email: null
-  name: upf.edu
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: baldo.oliva@upf.edu
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: "Ramon Arag\xFC\xE9s"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: upf.edu
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: baldo.oliva@upf.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Software framework that facilitates the work with protein interaction
   networks by 1) integrating data from multiple sources in a centralized database,
   2) providing a library that handles all operations related with the network and
   3) automating the analysis of protein-protein interactions networks.
 documentation:
-- note: null
-  type: General
-  url: http://sbi.imim.es/piana/
+  - note: null
+    type: General
+    url: http://sbi.imim.es/piana/
 download: []
 editPermission:
   authors: []
@@ -45,13 +45,13 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Pathway or network analysis
-    uri: http://edamontology.org/operation_2497
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Pathway or network analysis
+        uri: http://edamontology.org/operation_2497
+    output: []
 homepage: http://sbi.imim.es/piana/
 homepage_status: 0
 language: []
@@ -61,39 +61,40 @@ link: []
 maturity: null
 name: PIANA
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: baldo.oliva@upf.edu
 publication:
-- doi: 10.1093/bioinformatics/btl072
-  metadata:
-    abstract: 'Summary: We present a software framework and tool called Protein Interactions
-      And Network Analysis (PIANA) that facilitates working with protein interaction
-      networks by (1) integrating data from multiple sources, (2) providing a library
-      that handles graph-related tasks and (3) automating the analysis of protein-protein
-      interaction networks. PIANA can also be used as a stand-alone application to
-      create protein interaction networks and perform tasks such as predicting protein
-      interactions and helping to identify spots in a 2D electrophoresis gel. © 2006
-      Oxford University Press.'
-    authors:
-    - name: Aragues R.
-    - name: Jaeggi D.
-    - name: Oliva B.
-    citationCount: 44
-    date: '2006-04-01T00:00:00Z'
-    journal: Bioinformatics
-    title: 'PIANA: Protein interactions and network analysis'
-  pmcid: null
-  pmid: '16510498'
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/btl072
+    metadata:
+      abstract: "Summary: We present a software framework and tool called Protein\
+        \ Interactions And Network Analysis (PIANA) that facilitates working with\
+        \ protein interaction networks by (1) integrating data from multiple sources,\
+        \ (2) providing a library that handles graph-related tasks and (3) automating\
+        \ the analysis of protein-protein interaction networks. PIANA can also be\
+        \ used as a stand-alone application to create protein interaction networks\
+        \ and perform tasks such as predicting protein interactions and helping to\
+        \ identify spots in a 2D electrophoresis gel. \xA9 2006 Oxford University\
+        \ Press."
+      authors:
+        - name: Aragues R.
+        - name: Jaeggi D.
+        - name: Oliva B.
+      citationCount: 44
+      date: '2006-04-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'PIANA: Protein interactions and network analysis'
+    pmcid: null
+    pmid: '16510498'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Systems biology
-  uri: http://edamontology.org/topic_2259
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
 validated: 1
 version:
-- '1'
+  - '1'

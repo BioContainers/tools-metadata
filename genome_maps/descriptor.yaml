@@ -3,52 +3,52 @@ additionDate: '2016-07-21T13:47:49Z'
 biotoolsCURIE: biotools:genome_maps
 biotoolsID: genome_maps
 collectionID:
-- ELIXIR-ES
+  - ELIXIR-ES
 cost: null
 credit:
-- email: null
-  name: Computational Genomics Department. Prince Felipe Research Center (CIPF)
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: http://bioinfo.cipf.es
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: cipf.es
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: babelomics@cipf.es
-  name: babelomics@cipf.es  (Francisco García)
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: Computational Genomics Department. Prince Felipe Research Center (CIPF)
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: http://bioinfo.cipf.es
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: cipf.es
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: babelomics@cipf.es
+    name: "babelomics@cipf.es  (Francisco Garc\xEDa)"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Open source and high-performance HTML5 web-based genome browser. It allows
   to browse several genomes and annotations by fetching data from CellBase high-performance
   REST web services. Custom data (BAMs, VCFs, ...) can also be loaded from remote
   servers and local disk by using OpenCGA server.
 documentation:
-- note: null
-  type: Citation instructions
-  url: https://github.com/opencb/genome-maps/wiki#citing-genome-maps
-- note: null
-  type: General
-  url: https://github.com/opencb/genome-maps/wiki
+  - note: null
+    type: Citation instructions
+    url: https://github.com/opencb/genome-maps/wiki#citing-genome-maps
+  - note: null
+    type: General
+    url: https://github.com/opencb/genome-maps/wiki
 download: []
 editPermission:
   authors: []
@@ -57,80 +57,81 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Genome visualisation
-    uri: http://edamontology.org/operation_3208
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genome visualisation
+        uri: http://edamontology.org/operation_3208
+    output: []
 homepage: http://www.genomemaps.org/
 homepage_status: 0
 language: []
 lastUpdate: '2018-12-14T10:50:55Z'
 license: null
 link:
-- note: null
-  type: Repository
-  url: https://github.com/opencb/genome-maps/
+  - note: null
+    type: Repository
+    url: https://github.com/opencb/genome-maps/
 maturity: null
 name: Genome Maps
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: fgarcia@cipf.es
 publication:
-- doi: 10.1093/nar/gkt530
-  metadata:
-    abstract: 'Genome browsers have gained importance as more genomes and related
-      genomic information become available. However, the increase of information brought
-      about by new generation sequencing technologies is, at the same time, causing
-      a subtle but continuous decrease in the efficiency of conventional genome browsers.
-      Here, we present Genome Maps, a genome browser that implements an innovative
-      model of data transfer and management. The program uses highly efficient technologies
-      from the new HTML5 standard, such as scalable vector graphics, that optimize
-      workloads at both server and client sides and ensure future scalability. Thus,
-      data management and representation are entirely carried out by the browser,
-      without the need of any Java Applet, Flash or other plug-in technology installation.
-      Relevant biological data on genes, transcripts, exons, regulatory features,
-      single-nucleotide polymorphisms, karyotype and so forth, are imported from web
-      services and are available as tracks. In addition, several DAS servers are already
-      included in Genome Maps. As a novelty, this web-based genome browser allows
-      the local upload of huge genomic data files (e.g. VCF or BAM) that can be dynamically
-      visualized in real time at the client side, thus facilitating the management
-      of medical data affected by privacy restrictions. Finally, Genome Maps can easily
-      be integrated in any web application by including only a few lines of code.
-      Genome Maps is an open source collaborative initiative available in the GitHub
-      repository (https://github.com/compbio-bigdata-viz/genome-maps). Genome Maps
-      is available at: http://www.genomemaps.org.'
-    authors:
-    - name: Medina I.
-    - name: Salavert F.
-    - name: Sanchez R.
-    - name: de Maria A.
-    - name: Alonso R.
-    - name: Escobar P.
-    - name: Bleda M.
-    - name: Dopazo J.
-    citationCount: 15
-    date: '2013-07-01T00:00:00Z'
-    journal: Nucleic acids research
-    title: Genome Maps, a new generation genome browser.
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkt530
+    metadata:
+      abstract: 'Genome browsers have gained importance as more genomes and related
+        genomic information become available. However, the increase of information
+        brought about by new generation sequencing technologies is, at the same time,
+        causing a subtle but continuous decrease in the efficiency of conventional
+        genome browsers. Here, we present Genome Maps, a genome browser that implements
+        an innovative model of data transfer and management. The program uses highly
+        efficient technologies from the new HTML5 standard, such as scalable vector
+        graphics, that optimize workloads at both server and client sides and ensure
+        future scalability. Thus, data management and representation are entirely
+        carried out by the browser, without the need of any Java Applet, Flash or
+        other plug-in technology installation. Relevant biological data on genes,
+        transcripts, exons, regulatory features, single-nucleotide polymorphisms,
+        karyotype and so forth, are imported from web services and are available as
+        tracks. In addition, several DAS servers are already included in Genome Maps.
+        As a novelty, this web-based genome browser allows the local upload of huge
+        genomic data files (e.g. VCF or BAM) that can be dynamically visualized in
+        real time at the client side, thus facilitating the management of medical
+        data affected by privacy restrictions. Finally, Genome Maps can easily be
+        integrated in any web application by including only a few lines of code. Genome
+        Maps is an open source collaborative initiative available in the GitHub repository
+        (https://github.com/compbio-bigdata-viz/genome-maps). Genome Maps is available
+        at: http://www.genomemaps.org.'
+      authors:
+        - name: Medina I.
+        - name: Salavert F.
+        - name: Sanchez R.
+        - name: de Maria A.
+        - name: Alonso R.
+        - name: Escobar P.
+        - name: Bleda M.
+        - name: Dopazo J.
+      citationCount: 15
+      date: '2013-07-01T00:00:00Z'
+      journal: Nucleic acids research
+      title: Genome Maps, a new generation genome browser.
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Omics
-  uri: http://edamontology.org/topic_3391
-- term: Systems biology
-  uri: http://edamontology.org/topic_2259
-- term: Data visualisation
-  uri: http://edamontology.org/topic_0092
+  - term: Omics
+    uri: http://edamontology.org/topic_3391
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
 validated: 1
 version:
-- '3'
+  - '3'

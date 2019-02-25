@@ -3,30 +3,30 @@ additionDate: '2015-10-07T18:53:12Z'
 biotoolsCURIE: biotools:phosphoelm
 biotoolsID: phosphoelm
 collectionID:
-- DRCAT
+  - DRCAT
 cost: null
 credit:
-- email: null
-  name: DRCAT
-  note: null
-  orcidid: null
-  typeEntity: Project
-  typeRole:
-  - Documentor
-  url: null
-- email: toby.gibson@embl.de
-  name: Toby Gibson
-  note: null
-  orcidid: http://orcid.org/0000-0003-0657-5166
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: toby.gibson@embl.de
+    name: Toby Gibson
+    note: null
+    orcidid: http://orcid.org/0000-0003-0657-5166
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Experimentally verified phosphorylation sites in eukaryotic proteins.
 documentation:
-- note: null
-  type: General
-  url: http://phospho.elm.eu.org/help.html
+  - note: null
+    type: General
+    url: http://phospho.elm.eu.org/help.html
 download: []
 editPermission:
   authors: []
@@ -35,57 +35,57 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Protein name
-      uri: http://edamontology.org/data_1009
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Sequence motif (protein)
-      uri: http://edamontology.org/data_2071
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-- cmd: null
-  input:
-  - data:
-      term: Sequence accession (protein)
-      uri: http://edamontology.org/data_1096
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Sequence motif (protein)
-      uri: http://edamontology.org/data_2071
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-- cmd: null
-  input:
-  - data:
-      term: Kinase name
-      uri: http://edamontology.org/data_2775
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Sequence motif (protein)
-      uri: http://edamontology.org/data_2071
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Protein name
+          uri: http://edamontology.org/data_1009
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence motif (protein)
+          uri: http://edamontology.org/data_2071
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Sequence accession (protein)
+          uri: http://edamontology.org/data_1096
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence motif (protein)
+          uri: http://edamontology.org/data_2071
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Kinase name
+          uri: http://edamontology.org/data_2775
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence motif (protein)
+          uri: http://edamontology.org/data_2071
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
 homepage: http://phospho.elm.eu.org/
 homepage_status: 0
 language: []
@@ -95,22 +95,22 @@ link: []
 maturity: null
 name: PhosphoELM database
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: DRCAT
 publication:
-- doi: 10.1093/nar/gkq1104
-  metadata: null
-  pmcid: PMC3013696
-  pmid: '21062810'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkq1104
+    metadata: null
+    pmcid: PMC3013696
+    pmid: '21062810'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Protein modifications
-  uri: http://edamontology.org/topic_0601
+  - term: Protein modifications
+    uri: http://edamontology.org/topic_0601
 validated: 1
 version: []

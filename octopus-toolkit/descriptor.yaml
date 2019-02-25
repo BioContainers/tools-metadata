@@ -5,24 +5,24 @@ biotoolsID: octopus-toolkit
 collectionID: []
 cost: null
 credit:
-- email: Octopustoolkit@gmail.com
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: Octopustoolkit@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Retrieve and process large sets of next-generation sequencing (NGS) data
   with a single step. Automated set-up-and-analysis pipeline utilizing the Aspera,
   SRA Toolkit, bwtool, Samtools FastQC, Trimmomatic, HISAT2, STAR, and HOMER applications.
 documentation:
-- note: null
-  type: General
-  url: http://octopus-toolkit2.readthedocs.io/en/latest/guide.html
-- note: null
-  type: Training material
-  url: http://octopus-toolkit2.readthedocs.io/en/latest/tutorial.html
+  - note: null
+    type: General
+    url: http://octopus-toolkit2.readthedocs.io/en/latest/guide.html
+  - note: null
+    type: Training material
+    url: http://octopus-toolkit2.readthedocs.io/en/latest/tutorial.html
 download: []
 editPermission:
   authors: []
@@ -31,48 +31,48 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence analysis
-    uri: http://edamontology.org/operation_2403
-  - term: Data retrieval
-    uri: http://edamontology.org/operation_2422
-  - term: Sequence motif recognition
-    uri: http://edamontology.org/operation_0239
-  - term: Protein binding site prediction
-    uri: http://edamontology.org/operation_2575
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+      - term: Data retrieval
+        uri: http://edamontology.org/operation_2422
+      - term: Sequence motif recognition
+        uri: http://edamontology.org/operation_0239
+      - term: Protein binding site prediction
+        uri: http://edamontology.org/operation_2575
+    output: []
 homepage: http://octopus-toolkit2.readthedocs.io/en/latest/
 homepage_status: 0
 language:
-- R
-- Java
+  - R
+  - Java
 lastUpdate: '2018-12-10T12:59:01Z'
 license: GPL-3.0
 link: []
 maturity: null
 name: OCTOPUS-toolkit
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1093/nar/gky083
-  metadata: null
-  pmcid: PMC5961211
-  pmid: '29420797'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gky083
+    metadata: null
+    pmcid: PMC5961211
+    pmid: '29420797'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
 validated: 1
 version:
-- 2.1.1
+  - 2.1.1

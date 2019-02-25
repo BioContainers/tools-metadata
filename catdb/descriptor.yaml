@@ -3,40 +3,40 @@ additionDate: '2015-09-11T22:03:09Z'
 biotoolsCURIE: biotools:catdb
 biotoolsID: catdb
 collectionID:
-- DRCAT
+  - DRCAT
 cost: null
 credit:
-- email: null
-  name: Unité de Recherche en Génomique Végétale
-  note: null
-  orcidid: null
-  typeEntity: Institute
-  typeRole:
-  - Provider
-  url: null
-- email: null
-  name: DRCAT
-  note: null
-  orcidid: null
-  typeEntity: Project
-  typeRole:
-  - Documentor
-  url: null
-- email: catdbstaff@evry.inra.fr
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: null
+    name: "Unit\xE9 de Recherche en G\xE9nomique V\xE9g\xE9tale"
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: catdbstaff@evry.inra.fr
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: This database contains data on 105 Arabidopsis transcriptome projects
   (3262 hybridized samples) in public access out of a total of 172 projects (~6440
   hybridized samples).
 documentation:
-- note: null
-  type: General
-  url: http://urgv.evry.inra.fr/cgi-bin/projects/CATdb/catdb_help.pl?docInfo=CATdb_explore.txt&title=Consult
+  - note: null
+    type: General
+    url: http://urgv.evry.inra.fr/cgi-bin/projects/CATdb/catdb_help.pl?docInfo=CATdb_explore.txt&title=Consult
 download: []
 editPermission:
   authors: []
@@ -45,108 +45,108 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: TAIR accession (At gene)
-      uri: http://edamontology.org/data_2388
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Gene report
-      uri: http://edamontology.org/data_0916
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-- cmd: null
-  input:
-  - data:
-      term: TAIR accession (At gene)
-      uri: http://edamontology.org/data_2388
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Gene report
-      uri: http://edamontology.org/data_0916
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-- cmd: null
-  input:
-  - data:
-      term: Identifier
-      uri: http://edamontology.org/data_0842
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Data reference
-      uri: http://edamontology.org/data_2093
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-- cmd: null
-  input:
-  - data:
-      term: TAIR accession (At gene)
-      uri: http://edamontology.org/data_2388
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Gene report
-      uri: http://edamontology.org/data_0916
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-- cmd: null
-  input:
-  - data:
-      term: TAIR accession (At gene)
-      uri: http://edamontology.org/data_2388
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Gene report
-      uri: http://edamontology.org/data_0916
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
-- cmd: null
-  input:
-  - data:
-      term: Identifier
-      uri: http://edamontology.org/data_0842
-    format: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output:
-  - data:
-      term: Data reference
-      uri: http://edamontology.org/data_2093
-    format:
-    - term: HTML
-      uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: TAIR accession (At gene)
+          uri: http://edamontology.org/data_2388
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: TAIR accession (At gene)
+          uri: http://edamontology.org/data_2388
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Identifier
+          uri: http://edamontology.org/data_0842
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Data reference
+          uri: http://edamontology.org/data_2093
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: TAIR accession (At gene)
+          uri: http://edamontology.org/data_2388
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: TAIR accession (At gene)
+          uri: http://edamontology.org/data_2388
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Identifier
+          uri: http://edamontology.org/data_0842
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Data reference
+          uri: http://edamontology.org/data_2093
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
 homepage: http://urgv.evry.inra.fr/CATdb
 homepage_status: 0
 language: []
@@ -156,24 +156,24 @@ link: []
 maturity: null
 name: Complete Arabidopsis transcriptome database
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: DRCAT
 publication:
-- doi: 10.1093/nar/gkm757
-  metadata: null
-  pmcid: PMC2238931
-  pmid: '17940091'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkm757
+    metadata: null
+    pmcid: PMC2238931
+    pmid: '17940091'
+    type: Primary
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Gene and protein families
-  uri: http://edamontology.org/topic_0623
-- term: Plant biology
-  uri: http://edamontology.org/topic_0780
+  - term: Gene and protein families
+    uri: http://edamontology.org/topic_0623
+  - term: Plant biology
+    uri: http://edamontology.org/topic_0780
 validated: 1
 version: []

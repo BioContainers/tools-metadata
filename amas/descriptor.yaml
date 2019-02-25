@@ -5,21 +5,21 @@ biotoolsID: amas
 collectionID: []
 cost: null
 credit:
-- email: mlborowiec@ucdavis.edu
-  name: Marek L. Borowiec
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: mlborowiec@ucdavis.edu
+    name: Marek L. Borowiec
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: AMAS (Alignment Manipulation And Summary), a tool that works on amino
   acid and nucleotide alignments and combines capabilities of sequence manipulation
   with a function that calculates basic statistics.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/marekborowiec/AMAS/blob/master/README.md
+  - note: null
+    type: General
+    url: https://github.com/marekborowiec/AMAS/blob/master/README.md
 download: []
 editPermission:
   authors: []
@@ -28,50 +28,50 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Nucleic acid sequence analysis
-    uri: http://edamontology.org/operation_2478
-  - term: Protein sequence analysis
-    uri: http://edamontology.org/operation_2479
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Nucleic acid sequence analysis
+        uri: http://edamontology.org/operation_2478
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
 homepage: https://github.com/marekborowiec/AMAS
 homepage_status: 0
 language:
-- Python
+  - Python
 lastUpdate: '2018-12-10T12:59:01Z'
 license: GPL-3.0
 link:
-- note: null
-  type: Issue tracker
-  url: https://github.com/marekborowiec/AMAS/issues
+  - note: null
+    type: Issue tracker
+    url: https://github.com/marekborowiec/AMAS/issues
 maturity: null
 name: AMAS
 operatingSystem:
-- Linux
-- Windows
+  - Linux
+  - Windows
 otherID: []
 owner: daniel_stefan
 publication:
-- doi: 10.7717/peerj.1660
-  metadata: null
-  pmcid: PMC4734057
-  pmid: '26835189'
-  type: Primary
-  version: null
+  - doi: 10.7717/peerj.1660
+    metadata: null
+    pmcid: PMC4734057
+    pmid: '26835189'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Plug-in
+  - Command-line tool
+  - Plug-in
 topic:
-- term: Phylogenomics
-  uri: http://edamontology.org/topic_0194
-- term: Phylogenetics
-  uri: http://edamontology.org/topic_3293
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
-- term: Statistics and probability
-  uri: http://edamontology.org/topic_2269
+  - term: Phylogenomics
+    uri: http://edamontology.org/topic_0194
+  - term: Phylogenetics
+    uri: http://edamontology.org/topic_3293
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
 validated: 1
 version: []

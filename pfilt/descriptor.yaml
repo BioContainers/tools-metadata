@@ -5,21 +5,21 @@ biotoolsID: pfilt
 collectionID: []
 cost: null
 credit:
-- email: d.jones@cs.ucl.ac.uk
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: d.jones@cs.ucl.ac.uk
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Mask out (i.e. replace amino acid characters with Xs) regions of low
   complexity, coiled-coil regions and regions with extremely biased amino acid compositions.
   For compositional biased regions,only the overrepresented amino acids are masked.
 documentation:
-- note: null
-  type: General
-  url: http://bioinfadmin.cs.ucl.ac.uk/downloads/pfilt/README
+  - note: null
+    type: General
+    url: http://bioinfadmin.cs.ucl.ac.uk/downloads/pfilt/README
 download: []
 editPermission:
   authors: []
@@ -28,68 +28,68 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence filtering
-    uri: http://edamontology.org/operation_3695
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Filtering
-    uri: http://edamontology.org/operation_3695
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Protein sequence analysis
-    uri: http://edamontology.org/operation_2479
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence filtering
+        uri: http://edamontology.org/operation_3695
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Filtering
+        uri: http://edamontology.org/operation_3695
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
 homepage: http://bioinfadmin.cs.ucl.ac.uk/downloads/pfilt/
 homepage_status: 0
 language: []
 lastUpdate: '2018-12-14T10:02:22Z'
 license: null
 link:
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/pfilt-sequence-filtering-low-complexity-coiled-coil-biased-amino-acid-regions.html
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/pfilt-sequence-filtering-low-complexity-coiled-coil-biased-amino-acid-regions.html
 maturity: null
 name: pfilt
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: mbs_import
 publication:
-- doi: 10.1016/S0968-0004(01)02039-4
-  metadata:
-    abstract: Most biologists now conduct sequence searches as a matter of course.
-      But how do we know that a relationship predicted by a homology search is a true,
-      rather than false, hit with the same score? Many biologists design their own
-      experiments with exquisite care yet still assume that results from programs
-      with more than 20 adjustable parameters are 100% reliable. This article explains
-      some of the key steps in getting the most from PSI-Blast, one of the most popular
-      and powerful homology search programs currently available.
-    authors:
-    - name: Jones D.T.
-    - name: Swindells M.B.
-    citationCount: 99
-    date: '2002-03-01T00:00:00Z'
-    journal: Trends in Biochemical Sciences
-    title: Getting the most from PSI-BLAST
-  pmcid: null
-  pmid: '11893514'
-  type: Primary
-  version: null
+  - doi: 10.1016/S0968-0004(01)02039-4
+    metadata:
+      abstract: Most biologists now conduct sequence searches as a matter of course.
+        But how do we know that a relationship predicted by a homology search is a
+        true, rather than false, hit with the same score? Many biologists design their
+        own experiments with exquisite care yet still assume that results from programs
+        with more than 20 adjustable parameters are 100% reliable. This article explains
+        some of the key steps in getting the most from PSI-Blast, one of the most
+        popular and powerful homology search programs currently available.
+      authors:
+        - name: Jones D.T.
+        - name: Swindells M.B.
+      citationCount: 99
+      date: '2002-03-01T00:00:00Z'
+      journal: Trends in Biochemical Sciences
+      title: Getting the most from PSI-BLAST
+    pmcid: null
+    pmid: '11893514'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Amino acids
-  uri: http://edamontology.org/topic_0154
+  - term: Amino acids
+    uri: http://edamontology.org/topic_0154
 validated: 1
 version:
-- '1.5'
+  - '1.5'

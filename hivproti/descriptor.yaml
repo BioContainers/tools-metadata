@@ -5,21 +5,21 @@ biotoolsID: hivproti
 collectionID: []
 cost: null
 credit:
-- email: manojk@imtech.res.in
-  name: Dr. Manoj Kumar
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: manojk@imtech.res.in
+    name: Dr. Manoj Kumar
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: In this server, user can predict the IC50/Percent inhibition of given
   compounds against three HIV proteins namely reverse transcriptase, protease and
   integrase.
 documentation:
-- note: null
-  type: General
-  url: http://bioinfo.imtech.res.in/manojk/hivproti/help.php
+  - note: null
+    type: General
+    url: http://bioinfo.imtech.res.in/manojk/hivproti/help.php
 download: []
 editPermission:
   authors: []
@@ -28,75 +28,76 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Protein interaction prediction
-    uri: http://edamontology.org/operation_2492
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein interaction prediction
+        uri: http://edamontology.org/operation_2492
+    output: []
 homepage: http://bioinfo.imtech.res.in/manojk/hivproti/
 homepage_status: 0
 language:
-- Javascript
-- PHP
-- Perl
+  - Javascript
+  - PHP
+  - Perl
 lastUpdate: '2018-12-10T12:59:01Z'
 license: GPL-3.0
 link: []
 maturity: null
 name: HIVprotI
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1186/s13321-018-0266-y
-  metadata:
-    abstract: © 2018, The Author(s). A number of anti-retroviral drugs are being used
-      for treating Human Immunodeficiency Virus (HIV) infection. Due to emergence
-      of drug resistant strains, there is a constant quest to discover more effective
-      anti-HIV compounds. In this endeavor, computational tools have proven useful
-      in accelerating drug discovery. Although methods were published to design a
-      class of compounds against a specific HIV protein, but an integrated web server
-      for the same is lacking. Therefore, we have developed support vector machine
-      based regression models using experimentally validated data from ChEMBL repository.
-      Quantitative structure activity relationship based features were selected for
-      predicting inhibition activity of a compound against HIV proteins namely protease
-      (PR), reverse transcriptase (RT) and integrase (IN). The models presented a
-      maximum Pearson correlation coefficient of 0.78, 0.76, 0.74 and 0.76, 0.68,
-      0.72 during tenfold cross-validation on IC50 and percent inhibition datasets
-      of PR, RT, IN respectively. These models performed equally well on the independent
-      datasets. Chemical space mapping, applicability domain analyses and other statistical
-      tests further support robustness of the predictive models. Currently, we have
-      identified a number of chemical descriptors that are imperative in predicting
-      the compound inhibition potential. HIVprotI platform (http://bioinfo.imtech.res.in/manojk/hivproti)
-      would be useful in virtual screening of inhibitors as well as designing of new
-      molecules against the important HIV proteins for therapeutics development.
-    authors:
-    - name: Qureshi A.
-    - name: Rajput A.
-    - name: Kaur G.
-    - name: Kumar M.
-    citationCount: 0
-    date: '2018-12-01T00:00:00Z'
-    journal: Journal of Cheminformatics
-    title: 'HIVprotI: an integrated web based platform for prediction and design of
-      HIV proteins inhibitors'
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1186/s13321-018-0266-y
+    metadata:
+      abstract: "\xA9 2018, The Author(s). A number of anti-retroviral drugs are being\
+        \ used for treating Human Immunodeficiency Virus (HIV) infection. Due to emergence\
+        \ of drug resistant strains, there is a constant quest to discover more effective\
+        \ anti-HIV compounds. In this endeavor, computational tools have proven useful\
+        \ in accelerating drug discovery. Although methods were published to design\
+        \ a class of compounds against a specific HIV protein, but an integrated web\
+        \ server for the same is lacking. Therefore, we have developed support vector\
+        \ machine based regression models using experimentally validated data from\
+        \ ChEMBL repository. Quantitative structure activity relationship based features\
+        \ were selected for predicting inhibition activity of a compound against HIV\
+        \ proteins namely protease (PR), reverse transcriptase (RT) and integrase\
+        \ (IN). The models presented a maximum Pearson correlation coefficient of\
+        \ 0.78, 0.76, 0.74 and 0.76, 0.68, 0.72 during tenfold cross-validation on\
+        \ IC50 and percent inhibition datasets of PR, RT, IN respectively. These models\
+        \ performed equally well on the independent datasets. Chemical space mapping,\
+        \ applicability domain analyses and other statistical tests further support\
+        \ robustness of the predictive models. Currently, we have identified a number\
+        \ of chemical descriptors that are imperative in predicting the compound inhibition\
+        \ potential. HIVprotI platform (http://bioinfo.imtech.res.in/manojk/hivproti)\
+        \ would be useful in virtual screening of inhibitors as well as designing\
+        \ of new molecules against the important HIV proteins for therapeutics development."
+      authors:
+        - name: Qureshi A.
+        - name: Rajput A.
+        - name: Kaur G.
+        - name: Kumar M.
+      citationCount: 0
+      date: '2018-12-01T00:00:00Z'
+      journal: Journal of Cheminformatics
+      title: 'HIVprotI: an integrated web based platform for prediction and design
+        of HIV proteins inhibitors'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Cheminformatics
-  uri: http://edamontology.org/topic_2258
-- term: Enzymes
-  uri: http://edamontology.org/topic_0821
-- term: Protein interactions
-  uri: http://edamontology.org/topic_0128
+  - term: Cheminformatics
+    uri: http://edamontology.org/topic_2258
+  - term: Enzymes
+    uri: http://edamontology.org/topic_0821
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
 validated: 1
 version: []

@@ -5,29 +5,29 @@ biotoolsID: conan
 collectionID: []
 cost: null
 credit:
-- email: csaba.daday@h-its.org
-  name: Csaba Daday
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: null
-  name: Davide Mercadante
-  note: null
-  orcidid: https://orcid.org/0000-0001-6792-7706
-  typeEntity: Person
-  typeRole: []
-  url: null
+  - email: csaba.daday@h-its.org
+    name: Csaba Daday
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: null
+    name: Davide Mercadante
+    note: null
+    orcidid: https://orcid.org/0000-0001-6792-7706
+    typeEntity: Person
+    typeRole: []
+    url: null
 description: Using molecular dynamics trajectories, analyzes inter-residue contacts,
   creates videos of time-resolved contact maps, and performs correlation, principal
   component, and cluster analysis, revealing how specific contacts relate to functionally
   relevant states sampled by molecular dynamics.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/HITS-MBM/conan/blob/master/README.md
+  - note: null
+    type: General
+    url: https://github.com/HITS-MBM/conan/blob/master/README.md
 download: []
 editPermission:
   authors: []
@@ -36,41 +36,41 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Molecular dynamics
-    uri: http://edamontology.org/operation_2476
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Molecular dynamics
+        uri: http://edamontology.org/operation_2476
+    output: []
 homepage: https://github.com/HITS-MBM/conan
 homepage_status: 0
 language:
-- Python
+  - Python
 lastUpdate: '2018-12-16T16:18:14Z'
 license: GPL-3.0
 link: []
 maturity: null
 name: CONAN
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: daniel_stefan
 publication:
-- doi: 10.1016/j.bpj.2018.01.033
-  metadata: null
-  pmcid: null
-  pmid: '29590584'
-  type: Primary
-  version: null
+  - doi: 10.1016/j.bpj.2018.01.033
+    metadata: null
+    pmcid: null
+    pmid: '29590584'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
-- term: Molecular dynamics
-  uri: http://edamontology.org/topic_0176
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Molecular dynamics
+    uri: http://edamontology.org/topic_0176
 validated: 1
 version: []
