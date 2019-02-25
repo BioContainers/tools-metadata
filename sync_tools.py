@@ -40,15 +40,14 @@ def sync_tool(tool):
         if not os.path.exists(id):
             os.mkdir(id)
         tools_url = BIO_TOOLS_TOOL_API.replace("%s", id)
-        response = call_api(tools_url)
-        with open(id + '/descriptor.yaml', 'w') as stream:
-           # f.write(response.content)
-           json_data = json.loads(response.content.decode('utf-8'))
-           # yaml = ruamel.yaml.YAML()
-           # data = yaml.load(str(response.content))
-           # yaml.dump(data, stream)
-           yaml.dump(json_data, stream, Dumper=MyDumper, default_flow_style=False)
-           print("Processing -- " + id)
+        try:
+            response = call_api(tools_url)
+            with open(id + '/descriptor.yaml', 'w') as stream:
+               json_data = json.loads(response.content.decode('utf-8'))
+               yaml.dump(json_data, stream, Dumper=MyDumper, default_flow_style=False)
+               print("Processing -- " + id)
+        except Exception:
+            print("Error processing -- " + id)
 
 
 def main():
