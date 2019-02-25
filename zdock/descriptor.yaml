@@ -1,0 +1,100 @@
+accessibility: []
+additionDate: '2017-08-03T19:04:48Z'
+biotoolsCURIE: biotools:zdock
+biotoolsID: zdock
+collectionID: []
+cost: null
+credit:
+  - email: support-us@accelrys.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://zlab.umassmed.edu/zdock/contact.shtml
+description: The tool performs a full rigid-body search of docking orientations between
+  two proteins, it includes performance optimization and a novel pairwise statistical
+  energy potential.
+documentation:
+  - note: null
+    type: General
+    url: https://zlab.umassmed.edu/zdock/index.shtml
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Molecular docking
+        uri: http://edamontology.org/operation_0478
+    output: []
+homepage: http://zlab.umassmed.edu/zdock/index.shtml
+homepage_status: 0
+language:
+  - Javascript
+  - PHP
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/zdock-3-0-2-m-zdock-protein-docking.html
+maturity: null
+name: ZDOCK
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Protein-protein interactions are essential to cellular and immune\
+        \ function, and in many cases, because of the absence of an experimentally\
+        \ determined structure of the complex, these interactions must be modeled\
+        \ to obtain an understanding of their molecular basis. We present a user-friendly\
+        \ protein docking server, based on the rigid-body docking programs ZDOCK and\
+        \ M-ZDOCK, to predict structures of protein-protein complexes and symmetric\
+        \ multimers. With a goal of providing an accessible and intuitive interface,\
+        \ we provide options for users to guide the scoring and the selection of output\
+        \ models, in addition to dynamic visualization of input structures and output\
+        \ docking models. This server enables the research community to easily and\
+        \ quickly produce structural models of protein-protein complexes and symmetric\
+        \ multimers for their own analysis. \xA9 2014 The Author. Published by Oxford\
+        \ University Press. All rights reserved."
+      authors:
+        - name: Pierce B.G.
+        - name: Wiehe K.
+        - name: Hwang H.
+        - name: Kim B.-H.
+        - name: Vreven T.
+        - name: Weng Z.
+      citationCount: 339
+      date: '2014-06-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'ZDOCK server: Interactive docking prediction of protein-protein complexes
+        and symmetric multimers'
+    pmcid: null
+    pmid: '24532726'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+validated: 1
+version: []

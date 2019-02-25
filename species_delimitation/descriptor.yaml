@@ -1,0 +1,91 @@
+accessibility: []
+additionDate: '2017-08-03T19:01:54Z'
+biotoolsCURIE: biotools:species_delimitation
+biotoolsID: species_delimitation
+collectionID: []
+cost: null
+credit:
+  - email: h.ross@auckland.ac.nz
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.fos.auckland.ac.nz/~howardross/
+description: This plugin for the Geneious bioinformatics software is an exploratory
+  tool that allows users to assess putative species in phylogenetic trees.
+documentation:
+  - note: null
+    type: General
+    url: http://www.fos.auckland.ac.nz/~howardross/Software/SpDelim/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Phylogenetic tree analysis
+        uri: http://edamontology.org/operation_0324
+    output: []
+homepage: http://www.fos.auckland.ac.nz/~howardross/software.html
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/species-delimitation-1-03-geneious-plugin-exploration-species-boundaries.html
+maturity: null
+name: Species Delimitation
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Species Delimitation is a plugin to the Geneious software to support\
+        \ the exploration of species boundaries in a gene tree. The user assigns taxa\
+        \ to putative species and the plugin computes statistics relating to the probability\
+        \ of the observed monophyly or exclusivity having occurred by chance in a\
+        \ coalescent process. It also assesses the within and between species genetic\
+        \ distances to infer the probability with which members of a putative species\
+        \ might be identified successfully with tree-based methods. \xA9 2010 Blackwell\
+        \ Publishing Ltd."
+      authors:
+        - name: Masters B.C.
+        - name: Fan V.
+        - name: Ross H.A.
+      citationCount: 118
+      date: '2011-01-01T00:00:00Z'
+      journal: Molecular Ecology Resources
+      title: Species delimitation-a geneious plugin for the exploration of species
+        boundaries
+    pmcid: null
+    pmid: '21429114'
+    type: null
+    version: null
+toolType:
+  - Plug-in
+topic:
+  - term: Phylogenetics
+    uri: http://edamontology.org/topic_3293
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
+  - term: Evolutionary biology
+    uri: http://edamontology.org/topic_3299
+  - term: Taxonomy
+    uri: http://edamontology.org/topic_0637
+validated: 1
+version: []

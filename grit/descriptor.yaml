@@ -1,0 +1,121 @@
+accessibility: []
+additionDate: '2017-08-03T18:44:43Z'
+biotoolsCURIE: biotools:grit
+biotoolsID: grit
+collectionID: []
+cost: null
+credit:
+  - email: npboley@gmail.com
+    name: Nathan Boley
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: celniker@fruitfly.org
+    name: Susan E Celniker
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Tool for transcript discovery and quantification via the integrated analysis
+  of CAGE, RAMPAGE, RNAseq, and poly(A)-seq data
+documentation:
+  - note: null
+    type: General
+    url: http://www.statmap-bio.org/SERVER_README
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence assembly
+        uri: http://edamontology.org/operation_0310
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Alignment
+        uri: http://edamontology.org/operation_2928
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Analysis
+        uri: http://edamontology.org/operation_2945
+    output: []
+homepage: http://www.statmap-bio.org/
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/statmap-0-3-1-fast-alignment-tool-mapping-short-reads-reference-genome.html
+maturity: null
+name: GRIT
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "The identification of full length transcripts entirely from short-read\
+        \ RNA sequencing data (RNA-seq) remains a challenge in the annotation of genomes.\
+        \ Here we describe an automated pipeline for genome annotation that integrates\
+        \ RNA-seq and gene-boundary data sets, which we call Generalized RNA Integration\
+        \ Tool, or GRIT. Applying GRIT to Drosophila melanogaster short-read RNA-seq,\
+        \ cap analysis of gene expression (CAGE) and poly(A)-site-seq data collected\
+        \ for the modENCODE project, we recovered the vast majority of previously\
+        \ annotated transcripts and doubled the total number of transcripts cataloged.\
+        \ We found that 20% of protein coding genes encode multiple protein-localization\
+        \ signals and that, in 20-d-old adult fly heads, genes with multiple polyadenylation\
+        \ sites are more common than genes with alternative splicing or alternative\
+        \ promoters. GRIT demonstrates 30% higher precision and recall than the most\
+        \ widely used transcript assembly tools. GRIT will facilitate the automated\
+        \ generation of high-quality genome annotations without the need for extensive\
+        \ manual annotation. \xA9 2014 Nature America, Inc. All rights reserved."
+      authors:
+        - name: Boley N.
+        - name: Stoiber M.H.
+        - name: Booth B.W.
+        - name: Wan K.H.
+        - name: Hoskins R.A.
+        - name: Bickel P.J.
+        - name: Celniker S.E.
+        - name: Brown J.B.
+      citationCount: 27
+      date: '2014-01-01T00:00:00Z'
+      journal: Nature Biotechnology
+      title: Genome-guided transcript assembly by integrative analysis of RNA sequence
+        data
+    pmcid: null
+    pmid: '24633242'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+  - term: RNA-Seq
+    uri: http://edamontology.org/topic_3170
+  - term: Gene transcripts
+    uri: http://edamontology.org/topic_3512
+validated: 1
+version: []

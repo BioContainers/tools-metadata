@@ -1,0 +1,102 @@
+accessibility: []
+additionDate: '2017-08-03T19:08:15Z'
+biotoolsCURIE: biotools:sclvm
+biotoolsID: sclvm
+collectionID: []
+cost: null
+credit:
+  - email: scLVM-dev@ebi.ac.uk
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.helmholtz-muenchen.de/icb/index.html
+description: Modelling framework for single-cell RNA-seq data that can be used to
+  dissect the observed heterogeneity into different sources, thereby allowing for
+  the correction of confounding sources of variation.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/PMBio/scLVM
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: RNA-Seq analysis
+        uri: http://edamontology.org/operation_3680
+    output: []
+homepage: https://github.com/PMBio/scLVM
+homepage_status: 0
+language:
+  - R
+  - Python
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/sclvm-modelling-framework-for-single-cell-rna-seq-data.html
+maturity: null
+name: scLVM
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015 Nature America, Inc. All rights reserved.Recent technical\
+        \ developments have enabled the transcriptomes of hundreds of cells to be\
+        \ assayed in an unbiased manner, opening up the possibility that new subpopulations\
+        \ of cells can be found. However, the effects of potential confounding factors,\
+        \ such as the cell cycle, on the heterogeneity of gene expression and therefore\
+        \ on the ability to robustly identify subpopulations remain unclear. We present\
+        \ and validate a computational approach that uses latent variable models to\
+        \ account for such hidden factors. We show that our single-cell latent variable\
+        \ model (scLVM) allows the identification of otherwise undetectable subpopulations\
+        \ of cells that correspond to different stages during the differentiation\
+        \ of naive T cells into T helper 2 cells. Our approach can be used not only\
+        \ to identify cellular subpopulations but also to tease apart different sources\
+        \ of gene expression heterogeneity in single-cell transcriptomes."
+      authors:
+        - name: Buettner F.
+        - name: Natarajan K.N.
+        - name: Casale F.P.
+        - name: Proserpio V.
+        - name: Scialdone A.
+        - name: Theis F.J.
+        - name: Teichmann S.A.
+        - name: Marioni J.C.
+        - name: Stegle O.
+      citationCount: 288
+      date: '2015-01-01T00:00:00Z'
+      journal: Nature Biotechnology
+      title: Computational analysis of cell-to-cell heterogeneity in single-cell RNA-sequencing
+        data reveals hidden subpopulations of cells
+    pmcid: null
+    pmid: '25599176'
+    type: null
+    version: null
+toolType:
+  - Library
+topic:
+  - term: RNA-Seq
+    uri: http://edamontology.org/topic_3170
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+validated: 1
+version: []

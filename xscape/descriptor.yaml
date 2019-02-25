@@ -1,0 +1,101 @@
+accessibility: []
+additionDate: '2017-08-03T19:04:45Z'
+biotoolsCURIE: biotools:xscape
+biotoolsID: xscape
+collectionID: []
+cost: null
+credit:
+  - email: ran@cs.hmc.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.cs.hmc.edu/~hadas/
+description: Set of Python tools for maximum parsimony phylogenetic event-based tree
+  reconciliation in undated trees using the DTL (duplication-loss-transfer) model
+  with applications to gene trees and species trees; parasite trees and host trees;
+  and species trees and area cladograms.
+documentation:
+  - note: null
+    type: General
+    url: https://www.cs.hmc.edu/xscape/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Phylogenetic tree analysis
+        uri: http://edamontology.org/operation_0324
+    output: []
+homepage: http://www.cs.hmc.edu/~hadas/xscape/
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/xscape-tools-for-maximum-parsimony-phylogenetic-tree-reconciliation-over-the-event-cost-landscape.html
+maturity: null
+name: Xscape
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: Phylogenetic tree reconciliation is a widely used method\
+        \ for reconstructing the evolutionary histories of gene families and species,\
+        \ hosts and parasites and other dependent pairs of entities. Reconciliation\
+        \ is typically performed using maximum parsimony, in which each evolutionary\
+        \ event type is assigned a cost and the objective is to find a reconciliation\
+        \ of minimum total cost. It is generally understood that reconciliations are\
+        \ sensitive to event costs, but little is understood about the relationship\
+        \ between event costs and solutions. Moreover, choosing appropriate event\
+        \ costs is a notoriously difficult problem. Results: We address this problem\
+        \ by giving an efficient algorithm for computing Pareto-optimal sets of reconciliations,\
+        \ thus providing the first systematic method for understanding the relationship\
+        \ between event costs and reconciliations. This, in turn, results in new techniques\
+        \ for computing event support values and, for cophylogenetic analyses, performing\
+        \ robust statistical tests. We provide new software tools and demonstrate\
+        \ their use on a number of datasets from evolutionary genomic and cophylogenetic\
+        \ studies. \xA9 2014 The Author. Published by Oxford University Press. All\
+        \ rights reserved."
+      authors:
+        - name: Libeskind-Hadas R.
+        - name: Wu Y.-C.
+        - name: Bansal M.S.
+        - name: Kellis M.
+      citationCount: 21
+      date: '2014-06-15T00:00:00Z'
+      journal: Bioinformatics
+      title: Pareto-optimal phylogenetic tree reconciliation
+    pmcid: null
+    pmid: '24932009'
+    type: null
+    version: null
+toolType:
+  - Library
+  - Web application
+topic:
+  - term: Phylogenetics
+    uri: http://edamontology.org/topic_3293
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Phylogeny
+    uri: http://edamontology.org/topic_0084
+validated: 1
+version: []

@@ -1,0 +1,99 @@
+accessibility: []
+additionDate: '2017-08-03T19:01:32Z'
+biotoolsCURIE: biotools:simflu
+biotoolsID: simflu
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://lcbb.snu.ac.kr/simflu/
+description: This tool performs the sequence simulations using the codon variation
+  patterns of influenza A viruses over time.
+documentation:
+  - note: null
+    type: General
+    url: http://lcbb.snu.ac.kr/simflu/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Simulated gene expression data generation
+        uri: http://edamontology.org/operation_3566
+    output: []
+homepage: http://lcbb.snu.ac.kr/simflu/
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/simflu-1-0-simulation-tool-for-predicting-the-variation-pattern-of-influenza-a-virus.html
+maturity: null
+name: SimFlu
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Since the first pandemic outbreak of avian influenza A virus (H5N1\
+        \ subtype) in 1997, the National Center for Biotechnology Information (NCBI)\
+        \ has provided a large number of influenza virus sequences with well-organized\
+        \ annotations. Using the time-series sequences of influenza A viruses, we\
+        \ developed a simulation tool for influenza virus, named SimFlu, to predict\
+        \ possible future variants of influenza viruses. SimFlu can create variants\
+        \ from a seed nucleotide sequence of influenza A virus using the codon variation\
+        \ parameters included in the SimFlu package. The SimFlu library provides pre-calculated\
+        \ codon variation parameters for the H1N1, H3N2, and H5N1 subtypes of influenza\
+        \ A virus isolated from 2000 to 2011, allowing the users to simulate their\
+        \ own nucleotide sequences by selecting their preferred parameter options.\
+        \ SimFlu supports three operating systems - Windows, Linux, and Mac OS X.\
+        \ SimFlu is publicly available at http://lcbb.snu.ac.kr/simflu. \xA9 2014\
+        \ The Authors."
+      authors:
+        - name: Ahn I.
+        - name: Kim H.-Y.
+        - name: Jung S.
+        - name: Lee J.-H.
+        - name: Son H.S.
+      citationCount: 1
+      date: '2014-09-01T00:00:00Z'
+      journal: Computers in Biology and Medicine
+      title: 'SimFlu: A simulation tool for predicting the variation pattern of influenza
+        A virus'
+    pmcid: null
+    pmid: '24995426'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Virology
+    uri: http://edamontology.org/topic_0781
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Evolutionary biology
+    uri: http://edamontology.org/topic_3299
+  - term: Simulation experiment
+    uri: http://edamontology.org/topic_3524
+validated: 1
+version: []

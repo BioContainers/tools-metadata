@@ -1,0 +1,91 @@
+accessibility: []
+additionDate: '2017-08-03T19:01:55Z'
+biotoolsCURIE: biotools:spectraltdf
+biotoolsID: spectraltdf
+collectionID: []
+cost: null
+credit:
+  - email: yss@berkeley.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.eecs.berkeley.edu/~yss/
+description: "A program for computing the transition density function (TDF) of the\
+  \ diffusion approximation of the Wright-Fisher process with general diploid selection\
+  \ and\_recurrent mutation."
+documentation:
+  - note: null
+    type: General
+    url: https://sourceforge.net/projects/spectraltdf/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence mutation and randomisation
+        uri: http://edamontology.org/operation_0367
+    output: []
+homepage: http://sourceforge.net/projects/spectraltdf/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/spectraltdf-spectral-representation-of-transition-density-functions.html
+maturity: null
+name: SpectralTDF
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2015. Published by Oxford University Press.Motivation:\
+        \ In the Wright-Fisher diffusion, the transition density function describes\
+        \ the time evolution of the population-wide frequency of an allele. This function\
+        \ has several practical applications in population genetics and computing\
+        \ it for biologically realistic scenarios with selection and demography is\
+        \ an important problem. Results: We develop an efficient method for finding\
+        \ a spectral representation of the transition density function for a general\
+        \ model where the effective population size, selection coefficients and mutation\
+        \ parameters vary over time in a piecewise constant manner."
+      authors:
+        - name: Steinrucken M.
+        - name: Jewett E.M.
+        - name: Song Y.S.
+      citationCount: 4
+      date: '2015-05-08T00:00:00Z'
+      journal: Bioinformatics
+      title: 'SpectralTDF: Transition densities of diffusion processes with time-varying
+        selection parameters, mutation rates and effective population sizes'
+    pmcid: null
+    pmid: '26556388'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: DNA mutation
+    uri: http://edamontology.org/topic_2533
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Phylogenetics
+    uri: http://edamontology.org/topic_3293
+validated: 1
+version: []

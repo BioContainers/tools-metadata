@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2017-08-03T19:01:42Z'
+biotoolsCURIE: biotools:sitesampler
+biotoolsID: sitesampler
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/simon-ho
+description: Java application that can sample the sites of a sequence alignment to
+  produce replicate data sets.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/simon-ho/sitesampler/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence alignment analysis (site correlation)
+        uri: http://edamontology.org/operation_0449
+    output: []
+homepage: https://github.com/simon-ho/sitesampler/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/sitesampler-1-1-sample-sites-of-sequence-alignment-to-produce-replicate-data-sets.html
+maturity: null
+name: SiteSampler
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Background and aims. There is extensive variation in substitution\
+        \ rates among metazoan mitochondrial genomes, including differences among\
+        \ lineages and among sites. Differences in substitution rates among lineages\
+        \ are routinely taken into account in molecular phylogenetic and dating analyses.\
+        \ However, this is rarely the case for differences in the lineage-specific\
+        \ patterns of rate variation among sites.Materials and methods. We analysed\
+        \ an alignment of 32 cetacean mitogenomes using a partitioned relaxed-clock\
+        \ approach, in which a separate relaxed-clock model was applied to each of\
+        \ the three codon positions of the protein-coding genes.Results. By comparing\
+        \ Bayes factors, we found overwhelming support for this model compared with\
+        \ a strict-clock model and less-complex models comprising fewer relaxed clocks.\
+        \ Our analyses reveal the presence of substantial rate heterogeneity among\
+        \ cetacean lineages, and that these patterns of variation differ between codon\
+        \ positions. However, we find no evidence of mitochondrial rate autocorrelation\
+        \ throughout the cetacean phylogeny.Conclusions. Our study confirms the feasibility\
+        \ of applying a partitioned relaxed-clock model to mitogenomic data, and suggests\
+        \ that molecular phylogenetic and dating analyses may be improved by the application\
+        \ of these models. \xA9 2010 Informa UK, Ltd."
+      authors:
+        - name: Ho S.Y.W.
+        - name: Lanfear R.
+      citationCount: 49
+      date: '2010-06-01T00:00:00Z'
+      journal: Mitochondrial DNA
+      title: Improved characterisation of among-lineage rate variation in cetacean
+        mitogenomes using codon-partitioned relaxed clocks
+    pmcid: null
+    pmid: '20795783'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Sequence sites, features and motifs
+    uri: http://edamontology.org/topic_0160
+validated: 1
+version: []

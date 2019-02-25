@@ -1,0 +1,103 @@
+accessibility: []
+additionDate: '2017-08-03T19:01:58Z'
+biotoolsCURIE: biotools:splicejumper
+biotoolsID: splicejumper
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.engr.uconn.edu/~ywu/
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/Reedwarbler
+description: A classification based approach for calling splicing junctions from RNA-seq
+  data
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/Reedwarbler/SpliceJumper
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Splice site prediction
+        uri: http://edamontology.org/operation_0433
+    output: []
+homepage: https://github.com/Reedwarbler/SpliceJumper
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/splicejumper-splicing-junction-calling-from-rna-seq-data.html
+maturity: null
+name: SpliceJumper
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015 Chu et al. Background: Next-generation RNA sequencing technologies\
+        \ have been widely applied in transcriptome profiling. This facilitates further\
+        \ studies of gene structure and expression on the genome wide scale. It is\
+        \ an important step to align reads to the reference genome and call out splicing\
+        \ junctions for the following analysis, such as the analysis of alternative\
+        \ splicing and isoform construction. However, because of the existence of\
+        \ introns, when RNA-seq reads are aligned to the reference genome, reads can\
+        \ not be fully mapped at splicing sites. Thus, it is challenging to align\
+        \ reads and call out splicing junctions accurately. Results: In this paper,\
+        \ we present a classification based approach for calling splicing junctions\
+        \ from RNA-seq data, which is implemented in the program SpliceJumper. SpliceJumper\
+        \ uses a machine learning approach which combines multiple features extracted\
+        \ from RNA-seq data. We compare SpliceJumper with two existing RNA-seq analysis\
+        \ approaches, TopHat2 and MapSplice2, on both simulated and real data. Our\
+        \ results show that SpliceJumper outperforms TopHat2 and MapSplice2 in accuracy.\
+        \ The program SpliceJumper can be downloaded at https://github.com/Reedwarbler/SpliceJumper."
+      authors:
+        - name: Chu C.
+        - name: Li X.
+        - name: Wu Y.
+      citationCount: 0
+      date: '2015-12-07T00:00:00Z'
+      journal: BMC Bioinformatics
+      title: 'SpliceJumper: A classification-based approach for calling splicing junctions
+        from RNA-seq data'
+    pmcid: null
+    pmid: '26678515'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: RNA-Seq
+    uri: http://edamontology.org/topic_3170
+  - term: Nucleic acid sites, features and motifs
+    uri: http://edamontology.org/topic_3511
+  - term: RNA splicing
+    uri: http://edamontology.org/topic_3320
+validated: 1
+version: []

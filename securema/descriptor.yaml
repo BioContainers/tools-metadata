@@ -1,0 +1,100 @@
+accessibility: []
+additionDate: '2017-08-03T19:01:09Z'
+biotoolsCURIE: biotools:securema
+biotoolsID: securema
+collectionID: []
+cost: null
+credit:
+  - email: XieConnect@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A secure framework for performing multi-site genetic association studies
+  across large consortia, without violating privacy/confidentiality of individual
+  participants or substudy sites. It aims at addressing various attacks on genomic
+  privacy, and provides comprehensive protection over genomic data without impeding
+  scientific endeavor.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/XieConnect/SecureMA
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence feature detection
+        uri: http://edamontology.org/operation_0253
+    output: []
+homepage: https://github.com/XieConnect/SecureMA
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/securema-0-2-secure-meta-analysis-for-genetic-association-studies.html
+maturity: null
+name: SecureMA
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2014. Published by Oxford University Press. All rights\
+        \ reserved.Motivation: Sharing genomic data is crucial to support scientific\
+        \ investigation such as genome-wide association studies. However, recent investigations\
+        \ suggest the privacy of the individual participants in these studies can\
+        \ be compromised, leading to serious concerns and consequences, such as overly\
+        \ restricted access to data. Results: We introduce a novel cryptographic strategy\
+        \ to securely perform meta-analysis for genetic association studies in large\
+        \ consortia. Our methodology is useful for supporting joint studies among\
+        \ disparate data sites, where privacy or confidentiality is of concern. We\
+        \ validate our method using three multisite association studies. Our research\
+        \ shows that genetic associations can be analyzed efficiently and accurately\
+        \ across substudy sites, without leaking information on individual participants\
+        \ and site-level association summaries."
+      authors:
+        - name: Xie W.
+        - name: Kantarcioglu M.
+        - name: Bush W.S.
+        - name: Crawford D.
+        - name: Denny J.C.
+        - name: Heatherly R.
+        - name: Malin B.A.
+      citationCount: 15
+      date: '2014-01-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'SecureMA: Protecting participant privacy in genetic association meta-analysis'
+    pmcid: null
+    pmid: '25147357'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: GWAS study
+    uri: http://edamontology.org/topic_3517
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 1
+version: []

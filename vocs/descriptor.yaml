@@ -1,0 +1,92 @@
+accessibility: []
+additionDate: '2017-08-03T19:03:57Z'
+biotoolsCURIE: biotools:vocs
+biotoolsID: vocs
+collectionID: []
+cost: null
+credit:
+  - email: cupton@uvic.ca
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://athena.bioc.uvic.ca/about-us/
+description: An easy-to-use Java GUI used to access the VBRC genome databases.
+documentation:
+  - note: null
+    type: General
+    url: https://virology.uvic.ca/virology-ca-tools/vocs/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence database search
+        uri: http://edamontology.org/operation_0338
+    output: []
+homepage: https://virology.uvic.ca/virology-ca-tools/vocs/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/vocs-2-0-viral-orthologous-clusters.html
+maturity: null
+name: VOCS
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Poxvirus Orthologous Clusters (POCs) is a JAVA client-server application\
+        \ which accesses an updated database containing all complete poxvirus genomes;\
+        \ it automatically groups orthologous genes into families based on BLASTP\
+        \ scores for assessment by a human database curator. POCs has a user-friendly\
+        \ interface permitting complex SQL queries to retrieve interesting groups\
+        \ of DNA and protein sequences as well as gene families for subsequent interrogation\
+        \ by a variety of integrated tools: BLASTP, BLASTX, TBLASTN, Jalview (multiple\
+        \ alignment), Dotlet (Dotplot), Laj (local alignment), and NAP (nucleotide\
+        \ to amino acid alignment). \xA9 Oxford University Press 2002."
+      authors:
+        - name: Ehlers A.
+        - name: Osborne J.
+        - name: Slack S.
+        - name: Roper R.L.
+        - name: Upton C.
+      citationCount: 47
+      date: '2002-11-01T00:00:00Z'
+      journal: Bioinformatics
+      title: Poxvirus Orthologous Clusters (POCs)
+    pmcid: null
+    pmid: '12424130'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
+validated: 1
+version: []

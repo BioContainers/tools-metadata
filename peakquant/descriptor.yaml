@@ -1,0 +1,104 @@
+accessibility: []
+additionDate: '2017-08-03T18:55:21Z'
+biotoolsCURIE: biotools:peakquant
+biotoolsID: peakquant
+collectionID: []
+cost: null
+credit:
+  - email: martin.eisenacher@ruhr-uni-bochum.de
+    name: Martin Eisenacher
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.ruhr-uni-bochum.de/mpc/index.html.en
+description: Serves as an integrated platform for several Proteomics tools and provides
+  an easily operated graphical user interface.
+documentation:
+  - note: null
+    type: General
+    url: http://www.ruhr-uni-bochum.de/mpc/software/PeakQuant/index.html.de
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Spectral counting
+        uri: http://edamontology.org/operation_3637
+      - term: Protein quantification
+        uri: http://edamontology.org/operation_3630
+    output: []
+homepage: http://www.ruhr-uni-bochum.de/mpc/software/PeakQuant/index.html.de
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/peakquant-proteomics-software-suit.html
+maturity: null
+name: PeakQuant
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Accurate quantification of proteins is one of the major tasks in\
+        \ current proteomics research. To address this issue, a wide range of stable\
+        \ isotope labeling techniques have been developed, allowing one to quantitatively\
+        \ study thousands of proteins by means of mass spectrometry. In this article,\
+        \ the FindPairs module of the PeakQuant software suite is detailed. It facilitates\
+        \ the automatic determination of protein abundance ratios based on the automated\
+        \ analysis of stable isotope-coded mass spectrometric data. Furthermore, it\
+        \ implements statistical methods to determine outliers due to biological as\
+        \ well as technical variance of proteome data obtained in replicate experiments.\
+        \ This provides an important means to evaluate the significance in obtained\
+        \ protein expression data. For demonstrating the high applicability of FindPairs,\
+        \ we focused on the quantitative analysis of proteome data acquired in 14N/15N\
+        \ labeling experiments. We further provide a comprehensive overview of the\
+        \ features of the FindPairs software, and compare these with existing quantification\
+        \ packages. The software presented here supports a wide range of proteomics\
+        \ applications, allowing one to quantitatively assess data derived from different\
+        \ stable isotope labeling approaches, such as 14N/15N labeling, SILAC, and\
+        \ iTRAQ. The software is publicly available at http://www.medizinisches-proteom-center.de/software\
+        \ and free for academic use. \xA9 Copyright 2012, Mary Ann Liebert, Inc. 2012."
+      authors:
+        - name: Eisenacher M.
+        - name: Kohl M.
+        - name: Wiese S.
+        - name: Hebeler R.
+        - name: Meyer H.E.
+        - name: Warscheid B.
+        - name: Stephan C.
+      citationCount: 1
+      date: '2012-09-01T00:00:00Z'
+      journal: OMICS A Journal of Integrative Biology
+      title: 'Find Pairs: The module for protein quantification of the peakquant software
+        suite'
+    pmcid: null
+    pmid: '22909347'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

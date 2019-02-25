@@ -1,0 +1,107 @@
+accessibility: []
+additionDate: '2015-01-29T15:47:01Z'
+biotoolsCURIE: biotools:survcurve
+biotoolsID: survcurve
+collectionID:
+  - Thornton Tools
+  - EBI Tools
+cost: null
+credit:
+  - email: null
+    name: EMBL-EBI
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.ebi.ac.uk/support/
+  - email: roman@ebi.ac.uk
+    name: Roman Laskowski
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Survival and other incident curves.
+documentation:
+  - note: null
+    type: Terms of use
+    url: http://www.ebi.ac.uk/about/terms-of-use
+  - note: null
+    type: General
+    url: https://www.ebi.ac.uk/thornton-srv/databases/SurvCurv/analyse.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Incident curve plotting
+        uri: http://edamontology.org/operation_3503
+    output: []
+homepage: https://www.ebi.ac.uk/thornton-srv/databases/SurvCurv/analyse.php
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Helpdesk
+    url: http://www.ebi.ac.uk/support/
+maturity: null
+name: SurvCurve
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: EMBL-EBI
+publication:
+  - doi: 10.1093/bioinformatics/btv463
+    metadata:
+      abstract: "\xA9 The Author 2015. Published by Oxford University Press. All rights\
+        \ reserved.Understanding the biology of ageing is an important and complex\
+        \ challenge. Survival experiments are one of the primary approaches for measuring\
+        \ changes in ageing. Here, we present a major update to SurvCurv, a database\
+        \ and online resource for survival data in animals. As well as a substantial\
+        \ increase in data and additions to existing graphical and statistical survival\
+        \ analysis features, SurvCurv now includes extended mathematical mortality\
+        \ modelling functions and survival density plots for more advanced representation\
+        \ of groups of survival cohorts."
+      authors:
+        - name: Ziehm M.
+        - name: Ivanov D.K.
+        - name: Bhat A.
+        - name: Partridge L.
+        - name: Thornton J.M.
+      citationCount: 6
+      date: '2015-06-18T00:00:00Z'
+      journal: Bioinformatics
+      title: SurvCurv database and online survival analysis platform update
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Biology
+    uri: http://edamontology.org/topic_3070
+validated: 1
+version:
+  - '1'

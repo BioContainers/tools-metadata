@@ -1,0 +1,105 @@
+accessibility: []
+additionDate: '2015-01-22T11:49:00Z'
+biotoolsCURIE: biotools:digit
+biotoolsID: digit
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: ELIXIR-ITA-SAPIENZA
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: paolo.marcatili@gmail.com
+    name: Paolo Marcatili
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A database of immunoglobulin variable domain sequences and related search
+  and modelling tools.
+documentation:
+  - note: null
+    type: General
+    url: http://circe.med.uniroma1.it/digit/about.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Protein sequence
+          uri: http://edamontology.org/data_2976
+        format: []
+    note: A database of immunoglobulin variable domain sequences and related search
+      and modelling tools
+    operation:
+      - term: Prediction and recognition
+        uri: http://edamontology.org/operation_2423
+      - term: Sequence annotation
+        uri: http://edamontology.org/operation_0361
+    output:
+      - data:
+          term: Protein report
+          uri: http://edamontology.org/data_0896
+        format: []
+homepage: http://www.biocomputing.it/digit/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link: []
+maturity: null
+name: DIGIT
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-ITA-SAPIENZA
+publication:
+  - doi: 10.1093/nar/gkr806
+    metadata:
+      abstract: "The DIGIT (Database of ImmunoGlobulins with Integrated Tools) database\
+        \ (http://biocomputing.it/ digit) is an integrated resource storing sequences\
+        \ of annotated immunoglobulin variable domains and enriched with tools for\
+        \ searching and analyzing them. The annotations in the database include information\
+        \ on the type of antigen, the respective germ-line sequences and on pairing\
+        \ information between light and heavy chains. Other annotations, such as the\
+        \ identification of the complementarity determining regions, assignment of\
+        \ their structural class and identification of mutations with respect to the\
+        \ germline, are computed on the fly and can also be obtained for user-submitted\
+        \ sequences. The system allows customized BLAST searches and automatic building\
+        \ of 3D models of the domains to be performed. \xA9 The Author(s) 2011. Published\
+        \ by Oxford University Press."
+      authors:
+        - name: Chailyan A.
+        - name: Tramontano A.
+        - name: Marcatili P.
+      citationCount: 25
+      date: '2012-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'A database of immunoglobulins with integrated tools: DIGIT'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+validated: 1
+version: []

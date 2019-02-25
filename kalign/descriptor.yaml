@@ -1,0 +1,145 @@
+accessibility: []
+additionDate: '2015-01-29T15:44:06Z'
+biotoolsCURIE: biotools:kalign
+biotoolsID: kalign
+collectionID:
+  - EBI Tools
+cost: null
+credit:
+  - email: null
+    name: Erik Sonnhammer
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Web Production
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Stockholm Bioinformatics Center
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: EMBL-EBI
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.ebi.ac.uk/support/
+  - email: es-request@ebi.ac.uk
+    name: Web Production
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Fast and accurate multiple sequence alignment which handles large sequences.
+documentation:
+  - note: null
+    type: Terms of use
+    url: http://www.ebi.ac.uk/about/terms-of-use
+  - note: null
+    type: General
+    url: http://www.ebi.ac.uk/Tools/msa/kalign/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format: []
+    note: null
+    operation:
+      - term: Multiple sequence alignment
+        uri: http://edamontology.org/operation_0492
+    output:
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format: []
+homepage: http://www.ebi.ac.uk/Tools/msa/kalign/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Helpdesk
+    url: http://www.ebi.ac.uk/support/
+maturity: null
+name: Kalign
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: EMBL-EBI
+publication:
+  - doi: 10.1186/1471-2105-6-298
+    metadata:
+      abstract: "Background: The alignment of multiple protein sequences is a fundamental\
+        \ step in the analysis of biological data. It has traditionally been applied\
+        \ to analyzing protein families for conserved motifs, phylogeny, structural\
+        \ properties, and to improve sensitivity in homology searching. The availability\
+        \ of complete genome sequences has increased the demands on multiple sequence\
+        \ alignment (MSA) programs. Current MSA methods suffer from being either too\
+        \ inaccurate or too computationally expensive to be applied effectively in\
+        \ large-scale comparative genomics. Results: We developed Kalign, a method\
+        \ employing the Wu-Manber string-matching algorithm, to improve both the accuracy\
+        \ and speed of multiple sequence alignment. We compared the speed and accuracy\
+        \ of Kalign to other popular methods using Balibase, Prefab, and a new large\
+        \ test set. Kalign was as accurate as the best other methods on small alignments,\
+        \ but significantly more accurate when aligning large and distantly related\
+        \ sets of sequences. In our comparisons, Kalign was about 10 times faster\
+        \ than ClustalW and, depending on the alignment size, up to 50 times faster\
+        \ than popular iterative methods. Conclusions: Kalign is a fast and robust\
+        \ alignment method. It is especially well suited for the increasingly important\
+        \ task of aligning large numbers of sequences. \xA9 2005 Lassmann and Sonnhammer,\
+        \ licensee BioMed Central Ltd."
+      authors:
+        - name: Lassmann T.
+        - name: Sonnhammer E.L.L.
+      citationCount: 384
+      date: '2005-12-12T00:00:00Z'
+      journal: BMC Bioinformatics
+      title: Kalign - An accurate and fast multiple sequence alignment algorithm
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version:
+  - '1'

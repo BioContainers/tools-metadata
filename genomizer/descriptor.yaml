@@ -1,0 +1,110 @@
+accessibility: []
+additionDate: '2017-08-03T18:45:27Z'
+biotoolsCURIE: biotools:genomizer
+biotoolsID: genomizer
+collectionID: []
+cost: null
+credit:
+  - email: sekretariat@mucosa.de
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: "Platform independent Java program for the analysis of genome wide association\
+  \ experiments. The software implements the workflow of an association experiment,\
+  \ including data management, single-point and haplotype analysis, \u201Clead\u201D\
+  \ definition, and data visualization."
+documentation:
+  - note: null
+    type: General
+    url: http://www.ikmb.uni-kiel.de/resources/download-tools/software/genomizer
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+      - term: Genome visualisation
+        uri: http://edamontology.org/operation_3208
+    output: []
+homepage: http://www.ikmb.uni-kiel.de/resources/download-tools/software/genomizer
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/genomizer-1-2-0-analysis-genome-wide-association-experiments.html
+maturity: null
+name: Genomizer
+operatingSystem:
+  - Linux
+  - Windows
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Genome-wide association analysis appears to be a promising way to\
+        \ identify heritable susceptibility factors for complex human disorders. However,\
+        \ the feasibility of large-scale genotyping experiments is currently limited\
+        \ by an incomplete marker coverage of the genome, a restricted understanding\
+        \ of the functional role of given genomic regions, and the small sample sizes\
+        \ used. Thus, genome-wide association analysis will be a screening tool to\
+        \ facilitate subsequent gene discovery rather than a means to completely resolve\
+        \ individual genetic risk profiles. The validation of association findings\
+        \ will continue to rely upon the replication of \"leads\" in independent samples\
+        \ from either the same or different populations. Even under such pragmatic\
+        \ conditions, the timely analysis of the large data sets in question poses\
+        \ serious technical challenges. We have therefore developed public-domain\
+        \ software, GENOMIZER, that implements the workflow of an association experiment,\
+        \ including data management, single-point and haplotype analysis, \"lead\"\
+        \ definition, and data visualization. GENOMIZER (www.ikmb.uni-kiel.de/genomizer)\
+        \ comes with a complete user manual, and is open-source software licensed\
+        \ under the GNU Lesser General Public License. We suggest that the use of\
+        \ this software will facilitate the handling and interpretation of the currently\
+        \ emerging genome-wide association data. \xA9 2006 Wiley-Liss, Inc."
+      authors:
+        - name: Franke A.
+        - name: Wollstein A.
+        - name: Teuber M.
+        - name: Wittig M.
+        - name: Lu T.
+        - name: Hoffmann K.
+        - name: Nurnberg P.
+        - name: Krawczak M.
+        - name: Schreiber S.
+        - name: Hampe J.
+      citationCount: 16
+      date: '2006-06-01T00:00:00Z'
+      journal: Human Mutation
+      title: 'GENOMIZER: An integrated analysis system for genome-wide association
+        data'
+    pmcid: null
+    pmid: '16652332'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
+  - term: GWAS study
+    uri: http://edamontology.org/topic_3517
+validated: 1
+version: []

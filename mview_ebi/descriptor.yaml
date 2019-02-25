@@ -1,0 +1,143 @@
+accessibility: []
+additionDate: '2015-01-29T15:46:49Z'
+biotoolsCURIE: biotools:mview_ebi
+biotoolsID: mview_ebi
+collectionID:
+  - EBI Tools
+cost: null
+credit:
+  - email: null
+    name: Web Production
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Nigel Brown
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: EMBL-EBI
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.ebi.ac.uk/support/
+  - email: es-request@ebi.ac.uk
+    name: Web Production
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Reformat the results of a sequence database search (BLAST, FASTA) or
+  a multiple alignment adding optional HTML markup to control colouring and web page
+  layout.
+documentation:
+  - note: null
+    type: Terms of use
+    url: http://www.ebi.ac.uk/about/terms-of-use
+  - note: null
+    type: General
+    url: http://www.ebi.ac.uk/Tools/msa/mview/
+download: []
+editPermission:
+  authors:
+    - biomadeira
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format:
+          - term: nbrf/pir
+            uri: http://edamontology.org/format_1948
+          - term: ClustalW format
+            uri: http://edamontology.org/format_1982
+      - data:
+          term: Sequence search results
+          uri: http://edamontology.org/data_0857
+        format:
+          - term: nbrf/pir
+            uri: http://edamontology.org/format_1948
+          - term: ClustalW format
+            uri: http://edamontology.org/format_1982
+    note: null
+    operation:
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output:
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format: []
+homepage: http://www.ebi.ac.uk/Tools/msa/mview/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Helpdesk
+    url: http://www.ebi.ac.uk/support/
+maturity: null
+name: MView (EBI)
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: EMBL-EBI
+publication:
+  - doi: 10.1093/bioinformatics/14.4.380
+    metadata:
+      abstract: 'Summary: MView is a tool for converting the results of a sequence
+        database search into the form of a coloured multiple alignment of hits stacked
+        against the query. Alternatively, an existing multiple alignment can be processed.
+        In either case, the output is simply HTML, so the result is platform independent
+        and does not require a separate application or applet to be loaded. Availability:
+        Free from http://www.sander.ebi.ac.uk/mview/ subject to copyright restrictions.
+        Contact: brown@@@ebi.ac.uk.'
+      authors:
+        - name: Brown N.P.
+        - name: Leroy C.
+        - name: Sander C.
+      citationCount: 143
+      date: '1998-01-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'MView: A web-compatible database search or multiple alignment viewer'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+validated: 1
+version:
+  - '1'

@@ -1,0 +1,135 @@
+accessibility: []
+additionDate: '2017-08-03T18:55:11Z'
+biotoolsCURIE: biotools:pathrnet
+biotoolsID: pathrnet
+collectionID: []
+cost: null
+credit:
+  - email: yufei.huang@utsa.edu
+    name: yufei.huang@utsa.edu
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://compgenomics.utsa.edu/tvnet.html
+  - email: dtn220@my.utsa.edu
+    name: Jia Meng
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: gaos@uthscsa.edu
+    name: Shou-Jiang Gao
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: ChenY8@uthscsa.edu
+    name: Yidong Chen
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A novel network model and a reconstruction approach PATTERN are proposed
+  for reconstructing the context specific time varying regulatory networks by integrating
+  microarray gene expression profiles and existing knowledge of pathways and transcription
+  factors.
+documentation:
+  - note: null
+    type: General
+    url: http://compgenomics.utsa.edu/tvnet.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Pathway or network prediction
+        uri: http://edamontology.org/operation_3439
+    output: []
+homepage: http://compgenomics.utsa.edu/tvnet.html
+homepage_status: 0
+language:
+  - MATLAB
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/pathrnet-robust-inference-of-the-context-specific-structure-and-temporal-dynamics-of-gene-regulatory-network.html
+maturity: null
+name: PathRNet
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Background: Response of cells to changing endogenous or exogenous\
+        \ conditions is governed by intricate molecular interactions, or regulatory\
+        \ networks. To lead to appropriate responses, regulatory network should be\
+        \ 1) context-specific, i.e., its constituents and topology depend on the phonotypical\
+        \ and experimental context including tissue types and cell conditions, such\
+        \ as damage, stress, macroenvironments of cell, etc. and 2) time varying,\
+        \ i.e., network elements and their regulatory roles change actively over time\
+        \ to control the endogenous cell states e.g. different stages in a cell cycle.Results:\
+        \ A novel network model PathRNet and a reconstruction approach PATTERN are\
+        \ proposed for reconstructing the context specific time varying regulatory\
+        \ networks by integrating microarray gene expression profiles and existing\
+        \ knowledge of pathways and transcription factors. The nodes of the PathRNet\
+        \ are Transcription Factors (TFs) and pathways, and edges represent the regulation\
+        \ between pathways and TFs. The reconstructed PathRNet for Kaposi's sarcoma-associated\
+        \ herpesvirus infection of human endothelial cells reveals the complicated\
+        \ dynamics of the underlying regulatory mechanisms that govern this intricate\
+        \ process. All the related materials including source code are available at\
+        \ http://compgenomics.utsa.edu/tvnet.html.Conclusions: The proposed PathRNet\
+        \ provides a system level landscape of the dynamics of gene regulatory circuitry.\
+        \ The inference approach PATTERN enables robust reconstruction of the temporal\
+        \ dynamics of pathway-centric regulatory networks. The proposed approach for\
+        \ the first time provides a dynamic perspective of pathway, TF regulations,\
+        \ and their interaction related to specific endogenous and exogenous conditions.\
+        \ \xA9 2010 Huang et al; licensee BioMed Central Ltd."
+      authors:
+        - name: Meng J.
+        - name: Lu M.
+        - name: Chen Y.
+        - name: Gao S.-J.
+        - name: Huang Y.
+      citationCount: 2
+      date: '2010-12-01T00:00:00Z'
+      journal: BMC Genomics
+      title: Robust inference of the context specific structure and temporal dynamics
+        of gene regulatory network
+    pmcid: null
+    pmid: '21143778'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
+  - term: Microarray experiment
+    uri: http://edamontology.org/topic_3518
+validated: 1
+version: []

@@ -1,0 +1,105 @@
+accessibility: []
+additionDate: '2017-08-03T18:44:11Z'
+biotoolsCURIE: biotools:germline
+biotoolsID: germline
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www1.cs.columbia.edu/~gusev/
+description: Program for discovering long shared segments of Identity by Descent (IBD)
+  between pairs of individuals in a large population. It takes as input genotype or
+  haplotype marker data for individuals (as well as an optional known pedigree) and
+  generates a list of all pairwise segmental sharing.
+documentation:
+  - note: null
+    type: General
+    url: http://www1.cs.columbia.edu/~gusev/germline/#usage_binoutput
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Nucleic acid sequence analysis
+        uri: http://edamontology.org/operation_2478
+    output: []
+homepage: http://www1.cs.columbia.edu/~gusev/germline/
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/germline-1-5-discovery-long-shared-segments-identity-descent-ibd-large-populations.html
+maturity: null
+name: GERMLINE
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "We present GERMLINE, a robust algorithm for identifying segmental\
+        \ sharing indicative of recent common ancestry between pairs of individuals.\
+        \ Unlike methods with comparable objectives, GERMLINE scales linearly with\
+        \ the number of samples, enabling analysis of whole-genome data in large cohorts.\
+        \ Our approach is based on a dictionary of haplotypes that is used to efficiently\
+        \ discover short exact matches between individuals. We then expand these matches\
+        \ using dynamic programming to identify long, nearly identical segmental sharing\
+        \ that is indicative of relatedness. We use GERMLINE to comprehensively survey\
+        \ hidden relatedness both in the HapMap as well as in a densely typed island\
+        \ population of 3000 individuals. We verify that GERMLINE is in concordance\
+        \ with other methods when they can process the data, and also facilitates\
+        \ analysis of larger scale studies. We bolster these results by demonstrating\
+        \ novel applications of precise analysis of hidden relatedness for (1) identification\
+        \ and resolution of phasing errors and (2) exposing polymorphic deletions\
+        \ that are otherwise challenging to detect. This finding is supported by concordance\
+        \ of detected deletions with other evidence from independent databases and\
+        \ statistical analyses of fluorescence intensity not used by GERMLINE. \xA9\
+        \ 2009 by Cold Spring Harbor Laboratory Press."
+      authors:
+        - name: Gusev A.
+        - name: Lowe J.K.
+        - name: Stoffel M.
+        - name: Daly M.J.
+        - name: Altshuler D.
+        - name: Breslow J.L.
+        - name: Friedman J.M.
+        - name: Pe'Er I.
+      citationCount: 206
+      date: '2009-02-01T00:00:00Z'
+      journal: Genome Research
+      title: Whole population, genome-wide mapping of hidden relatedness
+    pmcid: null
+    pmid: '18971310'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Evolutionary biology
+    uri: http://edamontology.org/topic_3299
+  - term: Genotype and phenotype
+    uri: http://edamontology.org/topic_0625
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

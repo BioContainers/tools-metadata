@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2017-08-03T19:07:32Z'
+biotoolsCURIE: biotools:ngstools
+biotoolsID: ngstools
+collectionID: []
+cost: null
+credit:
+  - email: m.fumagalli@imperial.ac.uk
+    name: Matteo Fumagalli
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/mfumagalli
+description: Collection of programs for population genetics analyses from NGS data,
+  taking into account its statistical uncertainty. The methods implemented in these
+  programs do not rely on SNP or genotype calling, and are particularly suitable for
+  low sequencing depth data.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/mfumagalli/ngsTools/blob/master/README.md
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Nucleic acid sequence analysis
+        uri: http://edamontology.org/operation_2478
+    output: []
+homepage: https://github.com/mfumagalli/ngsTools
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/ngstools-programs-to-analyze-ngs-data-for-population-genetics-purposes.html
+maturity: null
+name: ngsTools
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Summary: Next-generation sequencing technologies produce short reads\
+        \ that are either de novo assembled or mapped to a reference genome. Genotypes\
+        \ and/or single-nucleotide polymorphisms are then determined from the read\
+        \ composition at each site, which become the basis for many downstream analyses.\
+        \ However, for low sequencing depths, e.g., there is considerable statistical\
+        \ uncertainty in the assignment of genotypes because of random sampling of\
+        \ homologous base pairs in heterozygotes and sequencing or alignment errors.\
+        \ Recently, several probabilistic methods have been proposed to account for\
+        \ this uncertainty and make accurate inferences from low quality and/or coverage\
+        \ sequencing data. We present ngsTools, a collection of programs to perform\
+        \ population genetics analyses from next-generation sequencing data. The methods\
+        \ implemented in these programs do not rely on single-nucleotide polymorphism\
+        \ or genotype calling and are particularly suitable for low sequencing depth\
+        \ data. \xA9 The Author 2014."
+      authors:
+        - name: Fumagalli M.
+        - name: Vieira F.G.
+        - name: Linderoth T.
+        - name: Nielsen R.
+      citationCount: 60
+      date: '2014-05-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'NgsTools: Methods for population genetics analyses from next-generation
+        sequencing data'
+    pmcid: null
+    pmid: '24458950'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Population genetics
+    uri: http://edamontology.org/topic_3056
+validated: 1
+version: []

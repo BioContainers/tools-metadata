@@ -1,0 +1,125 @@
+accessibility: []
+additionDate: '2015-01-29T15:47:35Z'
+biotoolsCURIE: biotools:stretcher-ebi
+biotoolsID: stretcher-ebi
+collectionID:
+  - EMBOSS at EBI Tools
+  - EBI Tools
+cost: null
+credit:
+  - email: null
+    name: EMBOSS
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Web Production
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: EMBL-EBI
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.ebi.ac.uk/support/
+  - email: es-request@ebi.ac.uk
+    name: Web Production
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Improved version of the Needleman-Wunsch algorithm that allows rapid
+  global alignment of two larger sequences.
+documentation:
+  - note: null
+    type: Terms of use
+    url: http://www.ebi.ac.uk/about/terms-of-use
+  - note: null
+    type: General
+    url: http://www.ebi.ac.uk/Tools/psa/emboss_stretcher/
+download: []
+editPermission:
+  authors:
+    - biomadeira
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format: []
+    note: null
+    operation:
+      - term: Pairwise sequence alignment
+        uri: http://edamontology.org/operation_0491
+      - term: Global alignment
+        uri: http://edamontology.org/operation_0496
+    output:
+      - data:
+          term: Sequence alignment (pair)
+          uri: http://edamontology.org/data_1381
+        format: []
+homepage: http://www.ebi.ac.uk/Tools/psa/emboss_stretcher/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Helpdesk
+    url: http://www.ebi.ac.uk/support/
+maturity: null
+name: stretcher (EBI)
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: EMBL-EBI
+publication:
+  - doi: 10.1016/S0168-9525(00)02024-2
+    metadata:
+      abstract: ''
+      authors:
+        - name: Rice P.
+        - name: Longden L.
+        - name: Bleasby A.
+      citationCount: 4662
+      date: '2000-06-01T00:00:00Z'
+      journal: Trends in Genetics
+      title: 'EMBOSS: The European Molecular Biology Open Software Suite'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version:
+  - '1'

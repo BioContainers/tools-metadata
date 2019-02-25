@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2017-08-03T19:06:40Z'
+biotoolsCURIE: biotools:linkcomm
+biotoolsID: linkcomm
+collectionID: []
+cost: null
+credit:
+  - email: alex.t.kalinka@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://cran.r-project.org/web/packages/linkcomm/index.html
+description: An R package for the generation, visualization, and analysis of link
+  communities in networks of arbitrary size and type.
+documentation:
+  - note: null
+    type: General
+    url: https://cran.r-project.org/web/packages/linkcomm/NEWS
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Pathway or network analysis
+        uri: http://edamontology.org/operation_2497
+    output: []
+homepage: https://cran.r-project.org/web/packages/linkcomm/index.html
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/linkcomm-tools-for-generating-visualizing-and-analysing-link-communities-in-networks.html
+maturity: null
+name: linkcomm
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Summary: An essential element when analysing the structure, function,\
+        \ and dynamics of biological networks is the identification of communities\
+        \ of related nodes. An algorithm proposed recently enhances this process by\
+        \ clustering the links between nodes, rather than the nodes themselves, thereby\
+        \ allowing each node to belong to multiple overlapping or nested communities.\
+        \ The R package 'linkcomm' implements this algorithm and extends it in several\
+        \ aspects: (i) the clustering algorithm handles networks that are weighted,\
+        \ directed, or both weighted and directed; (ii) several visualization methods\
+        \ are implemented that facilitate the representation of the link communities\
+        \ and their relationships; (iii) a suite of functions are included for the\
+        \ downstream analysis of the link communities including novel community-based\
+        \ measures of node centrality; (iv) the main algorithm is written in C++ and\
+        \ designed to handle networks of any size; and (v) several clustering methods\
+        \ are available for networks that can be handled in memory, and the number\
+        \ of communities can be adjusted by the user. \xA9 The Author(s) 2011. Published\
+        \ by Oxford University Press."
+      authors:
+        - name: Kalinka A.T.
+        - name: Tomancak P.
+      citationCount: 43
+      date: '2011-07-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'linkcomm: An R package for the generation, visualization, and analysis
+        of link communities in networks of arbitrary size and type'
+    pmcid: null
+    pmid: '21596792'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+validated: 1
+version: []

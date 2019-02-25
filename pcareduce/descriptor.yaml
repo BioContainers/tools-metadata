@@ -1,0 +1,103 @@
+accessibility: []
+additionDate: '2017-08-03T19:07:47Z'
+biotoolsCURIE: biotools:pcareduce
+biotoolsID: pcareduce
+collectionID: []
+cost: null
+credit:
+  - email: cyau@well.ox.ac.uk
+    name: Christopher Yau
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/JustinaZ/pcaReduce
+description: Novel agglomerative clustering method to generate a cell state hierarchy
+  where each cluster branch is associated with a principal component of variation
+  that can be used to differentiate two cell states.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/JustinaZ/pcaReduce/blob/master/README.txt
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+    output: []
+homepage: https://github.com/JustinaZ/pcaReduce
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/pcareduce-hierarchical-clustering-of-single-cell-transcriptional-profiles.html
+maturity: null
+name: pcaReduce
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2016 \u017Eurauskiene and Yau. Background: Advances in single\
+        \ cell genomics provide a way of routinely generating transcriptomics data\
+        \ at the single cell level. A frequent requirement of single cell expression\
+        \ analysis is the identification of novel patterns of heterogeneity across\
+        \ single cells that might explain complex cellular states or tissue composition.\
+        \ To date, classical statistical analysis tools have being routinely applied,\
+        \ but there is considerable scope for the development of novel statistical\
+        \ approaches that are better adapted to the challenges of inferring cellular\
+        \ hierarchies. Results: We have developed a novel agglomerative clustering\
+        \ method that we call pcaReduce to generate a cell state hierarchy where each\
+        \ cluster branch is associated with a principal component of variation that\
+        \ can be used to differentiate two cell states. Using two real single cell\
+        \ datasets, we compared our approach to other commonly used statistical techniques,\
+        \ such as K-means and hierarchical clustering. We found that pcaReduce was\
+        \ able to give more consistent clustering structures when compared to broad\
+        \ and detailed cell type labels. Conclusions: Our novel integration of principal\
+        \ components analysis and hierarchical clustering establishes a connection\
+        \ between the representation of the expression data and the number of cell\
+        \ types that can be discovered. In doing so we found that pcaReduce performs\
+        \ better than either technique in isolation in terms of characterising putative\
+        \ cell states. Our methodology is complimentary to other single cell clustering\
+        \ techniques and adds to a growing palette of single cell bioinformatics tools\
+        \ for profiling heterogeneous cell populations."
+      authors:
+        - name: zurauskiene J.
+        - name: Yau C.
+      citationCount: 26
+      date: '2016-03-22T00:00:00Z'
+      journal: BMC Bioinformatics
+      title: 'pcaReduce: Hierarchical clustering of single cell transcriptional profiles'
+    pmcid: null
+    pmid: '27005807'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: RNA-Seq
+    uri: http://edamontology.org/topic_3170
+validated: 1
+version: []

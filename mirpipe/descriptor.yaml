@@ -1,0 +1,89 @@
+accessibility: []
+additionDate: '2017-08-03T18:49:37Z'
+biotoolsCURIE: biotools:mirpipe
+biotoolsID: mirpipe
+collectionID: []
+cost: null
+credit:
+  - email: jens.preussner@mpi-bn.mpg.de
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://bioinformatics.mpi-bn.mpg.de/help.html
+description: Enables rapid and simple browser-based miRNA homology detection and quantification.
+documentation:
+  - note: null
+    type: General
+    url: https://bioinformatics.mpi-bn.mpg.de/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Prediction and recognition
+        uri: http://edamontology.org/operation_2423
+    output: []
+homepage: https://bioinformatics.mpi-bn.mpg.de/
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/mirpipe-1-1-mirna-detection-and-quantification-pipeline.html
+maturity: null
+name: MIRPIPE
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2014. Published by Oxford University Press. Summary:\
+        \ MicroRNAs (miRNAs) represent an important class of small non-coding RNAs\
+        \ regulating gene expression in eukaryotes. Present algorithms typically rely\
+        \ on genomic data to identify miRNAs and require extensive installation procedures.\
+        \ Niche model organisms lacking genomic sequences cannot be analyzed by such\
+        \ tools. Here we introduce the MIRPIPE application enabling rapid and simple\
+        \ browser-based miRNA homology detection and quantification. MIRPIPE features\
+        \ automatic trimming of raw RNA-Seq reads originating from various sequencing\
+        \ instruments, processing of isomiRs and quantification of detected miRNAs\
+        \ versus public- or user-uploaded reference databases."
+      authors:
+        - name: Kuenne C.
+        - name: Preussner J.
+        - name: Herzog M.
+        - name: Braun T.
+        - name: Looso M.
+      citationCount: 8
+      date: '2014-01-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'MIRPIPE: Quantification of microRNAs in niche model organisms'
+    pmcid: null
+    pmid: '25165094'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Functional, regulatory and non-coding RNA
+    uri: http://edamontology.org/topic_0659
+validated: 1
+version: []

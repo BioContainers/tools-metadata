@@ -1,0 +1,101 @@
+accessibility: []
+additionDate: '2017-08-03T18:43:09Z'
+biotoolsCURIE: biotools:fromp
+biotoolsID: fromp
+collectionID: []
+cost: null
+credit:
+  - email: Dhwani.Desai@Dal.Ca
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Software for mapping and visualizing enzyme annotations onto the Kyoto
+  Encyclopedia of Genes and Genomes (KEGG) metabolic pathways or custom-made pathways
+  and comparing the samples in terms of their Pathway Completeness Scores, their relative
+  Activity Scores or enzyme enrichment odds ratios.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/LaRocheLab/FROMP/blob/master/README.txt
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Metabolic network modelling
+        uri: http://edamontology.org/operation_3660
+    output: []
+homepage: https://github.com/LaRocheLab/FROMP
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/fromp-1-0-fragment-recruitment-metabolic-pathways.html
+maturity: null
+name: FROMP
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: The sheer scale of the metagenomic and metatranscriptomic\
+        \ datasets that are now available warrants the development of automated protocols\
+        \ for organizing, annotating and comparing the samples in terms of their metabolic\
+        \ profiles. We describe a user-friendly java program FROMP (Fragment Recruitment\
+        \ on Metabolic Pathways) for mapping and visualizing enzyme annotations onto\
+        \ the Kyoto Encyclopedia of Genes and Genomes (KEGG) metabolic pathways or\
+        \ custom-made pathways and comparing the samples in terms of their Pathway\
+        \ Completeness Scores, their relative Activity Scores or enzyme enrichment\
+        \ odds ratios. This program along with our fully configurable PERL-based annotation\
+        \ organization pipeline Meta2Pro (METAbolic PROfiling of META-omic data) offers\
+        \ a quick and accurate standalone solution for metabolic profiling of environmental\
+        \ samples or cultures from different treatments. Apart from pictorial comparisons,\
+        \ FROMP can also generate score matrices for multiple meta-omics samples,\
+        \ which can be used directly by other statistical programs. \xA9 The Author\
+        \ 2013."
+      authors:
+        - name: Desai D.K.
+        - name: Schunck H.
+        - name: Loser J.W.
+        - name: Laroche J.
+      citationCount: 3
+      date: '2013-03-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'Fragment recruitment on metabolic pathways: Comparative metabolic profiling
+        of metagenomes and metatranscriptomes'
+    pmcid: null
+    pmid: '23303511'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Metabolomics
+    uri: http://edamontology.org/topic_3172
+validated: 1
+version: []

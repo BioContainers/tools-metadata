@@ -1,0 +1,146 @@
+accessibility: []
+additionDate: '2015-06-15T07:16:12Z'
+biotoolsCURIE: biotools:angsd
+biotoolsID: angsd
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: binf.ku.dk
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: thorfinn@binf.ku.dk
+    name: Thorfinn Korneliussen
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: albrecht@binf.ku.dk
+    name: Anders Albrechtsen
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://popgen.dk/albrecht/web/WelcomePage.html
+description: Software for analyzing next generation sequencing data. The software
+  can handle a number of different input types from mapped reads to imputed genotype
+  probabilities. Most methods take genotype uncertainty into account instead of basing
+  the analysis on called genotypes. This is especially useful for low and medium depth
+  data.
+documentation:
+  - note: null
+    type: Citation instructions
+    url: http://www.popgen.dk/angsd/index.php/Citing_angsd
+  - note: null
+    type: General
+    url: http://www.popgen.dk/angsd
+download:
+  - note: null
+    type: Source code
+    url: https://github.com/ANGSD/angsd
+    version: null
+  - note: null
+    type: Binaries
+    url: https://github.com/ANGSD/angsd
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+          - term: VCF
+            uri: http://edamontology.org/format_3016
+          - term: CRAM
+            uri: http://edamontology.org/format_3462
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+      - term: Genotyping
+        uri: http://edamontology.org/operation_3196
+      - term: Statistical calculation
+        uri: http://edamontology.org/operation_2238
+    output:
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+          - term: MAF
+            uri: http://edamontology.org/format_3008
+homepage: http://www.popgen.dk/angsd
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:50Z'
+license: GPL-2.0
+link:
+  - note: null
+    type: Repository
+    url: https://github.com/ANGSD/angsd
+maturity: null
+name: ANGSD
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: vzn529@binf.ku.dk
+publication:
+  - doi: 10.1186/s12859-014-0356-4
+    metadata:
+      abstract: "\xA9 2014 Korneliussen et al. Background: High-throughput DNA sequencing\
+        \ technologies are generating vast amounts of data. Fast, flexible and memory\
+        \ efficient implementations are needed in order to facilitate analyses of\
+        \ thousands of samples simultaneously. Results: We present a multithreaded\
+        \ program suite called ANGSD. This program can calculate various summary statistics,\
+        \ and perform association mapping and population genetic analyses utilizing\
+        \ the full information in next generation sequencing data by working directly\
+        \ on the raw sequencing data or by using genotype likelihoods. Conclusions:\
+        \ The open source c/c++ program ANGSD is available at . The program is tested\
+        \ and validated on GNU/Linux systems. The program facilitates multiple input\
+        \ formats including BAM and imputed beagle genotype probability files. The\
+        \ program allow the user to choose between combinations of existing methods\
+        \ and can perform analysis that is not implemented elsewhere."
+      authors:
+        - name: Korneliussen T.S.
+        - name: Albrechtsen A.
+        - name: Nielsen R.
+      citationCount: 220
+      date: '2014-11-25T00:00:00Z'
+      journal: BMC Bioinformatics
+      title: 'ANGSD: Analysis of Next Generation Sequencing Data'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
+  - term: Population genetics
+    uri: http://edamontology.org/topic_3056
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+validated: 1
+version:
+  - '0.901'

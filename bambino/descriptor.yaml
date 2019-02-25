@@ -1,0 +1,83 @@
+accessibility: []
+additionDate: '2017-01-13T13:13:36Z'
+biotoolsCURIE: biotools:bambino
+biotoolsID: bambino
+collectionID: []
+cost: Free of charge
+credit: []
+description: Variant detector and graphical alignment viewer for SAM/BAM format data.
+documentation: []
+download: []
+editPermission:
+  authors:
+    - ELIXIR-EE
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence assembly visualisation
+        uri: http://edamontology.org/operation_3184
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+      - term: Variant calling
+        uri: http://edamontology.org/operation_3227
+      - term: Sequence annotation
+        uri: http://edamontology.org/operation_0361
+    output: []
+homepage: https://cgwb.nci.nih.gov/goldenPath/bamview/documentation/index.html
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link: []
+maturity: null
+name: Bambino
+operatingSystem: []
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: 'Summary: Bambino is a variant detector and graphical alignment viewer
+        for next-generation sequencing data in the SAM/BAM format, which is capable
+        of pooling data from multiple source files. The variant detector takes advantage
+        of SAM-specific annotations, and produces detailed output suitable for genotyping
+        and identification of somatic mutations. The assembly viewer can display reads
+        in the context of either a user-provided or automatically generated reference
+        sequence, retrieve genome annotation features from a UCSC genome annotation
+        database, display histograms of nonreference allele frequencies, and predict
+        protein-coding changes caused by SNPs. Published by Oxford University Press
+        on behalf of the US Government 2011.'
+      authors:
+        - name: Edmonson M.N.
+        - name: Zhang J.
+        - name: Yan C.
+        - name: Finney R.P.
+        - name: Meerzaman D.M.
+        - name: Buetow K.H.
+      citationCount: 44
+      date: '2011-03-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'Bambino: A variant detector and alignment viewer for next-generation
+        sequencing data in the SAM/BAM format'
+    pmcid: null
+    pmid: '21278191'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+validated: 1
+version: []

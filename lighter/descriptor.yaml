@@ -1,0 +1,92 @@
+accessibility: []
+additionDate: '2017-08-03T18:48:26Z'
+biotoolsCURIE: biotools:lighter
+biotoolsID: lighter
+collectionID: []
+cost: null
+credit:
+  - email: lsong10@jhu.edu
+    name: Li Song
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://ccb.jhu.edu/people/lsong/
+description: Kmer-based error correction method for whole genome sequencing data.
+  Lighter uses sampling (rather than counting) to obtain a set of kmers that are likely
+  from the genome. Using this information, Lighter can correct the reads containing
+  sequence errors.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/mourisl/Lighter/blob/master/README.md
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequencing error detection
+        uri: http://edamontology.org/operation_3195
+    output: []
+homepage: https://github.com/mourisl/Lighter
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/lighter-fast-and-memory-efficient-sequencing-error-correction-without-counting.html
+maturity: null
+name: Lighter
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: Lighter is a fast, memory-efficient tool for correcting sequencing
+        errors. Lighter avoids counting k-mers. Instead, it uses a pair of Bloom filters,
+        one holding a sample of the input k-mers and the other holding k-mers likely
+        to be correct. As long as the sampling fraction is adjusted in inverse proportion
+        to the depth of sequencing, Bloom filter size can be held constant while maintaining
+        near-constant accuracy. Lighter is parallelized, uses no secondary storage,
+        and is both faster and more memory-efficient than competing approaches while
+        achieving comparable accuracy.
+      authors:
+        - name: Song L.
+        - name: Florea L.
+        - name: Langmead B.
+      citationCount: 58
+      date: '2014-01-01T00:00:00Z'
+      journal: Genome biology
+      title: 'Lighter: fast and memory-efficient sequencing error correction without
+        counting'
+    pmcid: null
+    pmid: '25398208'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Whole genome sequencing
+    uri: http://edamontology.org/topic_3673
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 1
+version: []

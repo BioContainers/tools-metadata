@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2017-08-03T18:58:16Z'
+biotoolsCURIE: biotools:rtanalyzer-retro
+biotoolsID: rtanalyzer-retro
+collectionID: []
+cost: null
+credit:
+  - email: riboclub@riboclub.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.riboclub.org/cgi-bin/RiboWeb/index.pl?page=index_en
+description: "It looks for a target site duplication, a polyA in 3\u2032 and an endonuclease\
+  \ cleavage site in 5\u2032 to calculate an overall score of retrotransposition.\
+  \ The tool will be useful for indepth analysis of non-autonomous retrotransposons\
+  \ in sequenced mammals to help us understand retrotransosition in our evolutionary\
+  \ tree."
+documentation:
+  - note: null
+    type: General
+    url: http://biotools.riboclub.org/cgi-bin/RTAnalyzer/index.pl?page=help#SECTION1
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Transposon prediction
+        uri: http://edamontology.org/operation_0427
+    output: []
+homepage: http://biotools.riboclub.org/cgi-bin/RTAnalyzer/index.pl
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/rtanalyzer-searche-retro-transposition-elements-human-genome.html
+maturity: null
+name: RTanalyzer
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Mobile genetic elements have significantly contributed to the shaping\
+        \ of mammalian genomes. The RTAnalyzer software tracks sequences of retrotransposed\
+        \ origin by scoring the signature results from an L1-mediated insertion within\
+        \ a genome. More specifically, a sequence of interest is searched for in genomic\
+        \ databases using BLAST. Each hit, along with additional 50 and 30 sequences\
+        \ of pre-defined lengths, is saved. RTAnalyzer searches for specific L1 retrotransposition\
+        \ signatures (i.e. target site duplication, endonuclease cleavage site and\
+        \ poly(A)), and then calculates an overall retrotransposition score. This\
+        \ score represents the likelihood of a given sequence originating from a retrotransposition\
+        \ event involving the L1 machinery. RTAnalyzer may be used under GNU public\
+        \ license, and is available at http://www. riboclub.org/ rtanalyzer. \xA9\
+        \ 2007 The Author(s)."
+      authors:
+        - name: Lucier J.-F.
+        - name: Perreault J.
+        - name: Noel J.-F.
+        - name: Boire G.
+        - name: Perreault J.-P.
+      citationCount: 10
+      date: '2007-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'RTAnalyzer: A web application for finding new retrotransposons and detecting
+        L1 retrotransposition signatures'
+    pmcid: null
+    pmid: '17545202'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Mobile genetic elements
+    uri: http://edamontology.org/topic_0798
+validated: 1
+version: []

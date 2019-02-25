@@ -1,0 +1,82 @@
+accessibility: []
+additionDate: '2015-03-05T10:47:59Z'
+biotoolsCURIE: biotools:autoassign
+biotoolsID: autoassign
+collectionID:
+  - Instruct
+cost: Free of charge
+credit:
+  - email: null
+    name: Instruct
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: ccisb@stfc.ac.uk
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Using this software, complete backbone resonance assignments are now
+  routinely made within hours of completing the final data acquisition.
+documentation:
+  - note: null
+    type: General
+    url: http://www-nmr.cabm.rutgers.edu/NMRsoftware/nmr_software.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: AutoAssign is a constraint-based expert system designed to determine backbone
+      HN, Ha, 13C', 13Ca, 15N, and 13Cb resonance assignments from peak lists derived
+      from a set of triple resonance spectra with common HN-15N resonance correlations
+      for small proteins. Using the AutoAssign software, complete backbone resonance
+      assignments are now routinely made within hours of completing the final data
+      acquisition.
+    operation:
+      - term: Structure analysis
+        uri: http://edamontology.org/operation_2480
+    output: []
+homepage: http://www-nmr.cabm.rutgers.edu/NMRsoftware/nmr_software.html
+homepage_status: 0
+language:
+  - Java
+  - C++
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link: []
+maturity: null
+name: AUTOASSIGN
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: Instruct
+publication:
+  - doi: 10.1007/0-306-47084-5_3
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Structural biology
+    uri: http://edamontology.org/topic_1317
+  - term: NMR
+    uri: http://edamontology.org/topic_0593
+validated: 1
+version:
+  - '1'

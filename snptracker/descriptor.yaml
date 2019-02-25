@@ -1,0 +1,102 @@
+accessibility: []
+additionDate: '2017-08-03T19:01:46Z'
+biotoolsCURIE: biotools:snptracker
+biotoolsID: snptracker
+collectionID: []
+cost: null
+credit:
+  - email: limx54@yahoo.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://statgenpro.psychiatry.hku.hk/limx/homepage/
+  - email: silviakt@hku.hk
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A small tool to extract the latest version rsID and genomic coordinates
+  of SNPs given any version of rs ID(s).
+documentation:
+  - note: null
+    type: General
+    url: http://grass.cgs.hku.hk/limx/snptracker/#options
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Data retrieval
+        uri: http://edamontology.org/operation_2422
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output: []
+homepage: http://statgenpro.psychiatry.hku.hk/limx/snptracker/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/snptracker-0-1-extract-latest-version-rsid-genomic-coordinates-snps-version-rs-ids.html
+maturity: null
+name: SnpTracker
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2016 Deng et al.The reference single nucleotide polymorphism\
+        \ (rs) ID in dbSNP (http://www.ncbi.nlm.nih.gov/ SNP/) is a key resource identifier,\
+        \ which is widely used in human genetics and genomics studies. However, its\
+        \ application is often complicated by the varied IDs of different versions.\
+        \ Here, we developed a user- friendly tool, SNPTracker, for comprehensively\
+        \ tracking and unifying the rs IDs and genomic coordinates of massive sequence\
+        \ variants at a time. It worked perfectly, and had much higher accuracy and\
+        \ capacity than two alternative utilities in our proof-of-principle examples.\
+        \ SNPTracker will greatly facilitate genetic data exchange and integration\
+        \ in the postgenome-wide association study era."
+      authors:
+        - name: Deng J.-E.
+        - name: Sham P.C.
+        - name: Li M.-X.
+      citationCount: 1
+      date: '2016-01-01T00:00:00Z'
+      journal: 'G3: Genes, Genomes, Genetics'
+      title: 'SNPTracker: A swift tool for comprehensive tracking and unifying dbSNP
+        rs IDs and genomic coordinates of massive sequence variants'
+    pmcid: null
+    pmid: '26585827'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+  - Web application
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+validated: 1
+version: []

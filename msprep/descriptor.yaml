@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2017-08-03T18:50:12Z'
+biotoolsCURIE: biotools:msprep
+biotoolsID: msprep
+collectionID: []
+cost: null
+credit:
+  - email: grant.hughes@ucdenver.edu
+    name: Grant Hughes
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://csph.ucdenver.edu/Sites/Kechris/index.html
+description: R package for post processing of metabolomic data. Performs summarization
+  of replicates, filtering, imputation, normalization, generates diagnostic plots
+  and outputs final analytic datasets for downstream analysis.
+documentation:
+  - note: null
+    type: General
+    url: https://sourceforge.net/projects/msprep/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Spectral analysis
+        uri: http://edamontology.org/operation_3214
+    output: []
+homepage: http://sourceforge.net/projects/msprep/
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/msprep-post-processing-of-metabolomic-data.html
+maturity: null
+name: MSPrep
+operatingSystem:
+  - Linux
+  - Windows
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: Although R packages exist for the pre-processing of metabolomic\
+        \ data, they currently do not incorporate additional analysis steps of summarization,\
+        \ filtering and normalization of aligned data. We developed the MSPrep R package\
+        \ to complement other packages by providing these additional steps, implementing\
+        \ a selection of popular normalization algorithms and generating diagnostics\
+        \ to help guide investigators in their analyses. Availability: http://www.sourceforge.net/projects/msprepContact:\
+        \ Supplementary Information: Supplementary materials are available at Bioinformatics\
+        \ online. \xA9 2013 The Author ."
+      authors:
+        - name: Hughes G.
+        - name: Cruickshank-Quinn C.
+        - name: Reisdorph R.
+        - name: Lutz S.
+        - name: Petrache I.
+        - name: Reisdorph N.
+        - name: Bowler R.
+        - name: Kechris K.
+      citationCount: 20
+      date: '2014-01-01T00:00:00Z'
+      journal: Bioinformatics
+      title: MSPrep-Summarization, normalization and diagnostics for processing of
+        mass spectrometry-based metabolomic data
+    pmcid: null
+    pmid: '24174567'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Metabolomics
+    uri: http://edamontology.org/topic_3172
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
+validated: 1
+version: []

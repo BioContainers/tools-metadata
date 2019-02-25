@@ -1,0 +1,115 @@
+accessibility: []
+additionDate: '2015-07-28T11:14:46Z'
+biotoolsCURIE: biotools:war
+biotoolsID: war
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: binf.ku.dk
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: stinus@binf.ku.dk
+    name: Stinus Lindgreen
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Easy-to-use webserver that makes it possible to simultaneously use the
+  best methods for aligning and predicting the consensus secondary structure for a
+  set of non-coding RNA sequences.
+documentation:
+  - note: null
+    type: General
+    url: http://genome.ku.dk/resources/war/pages/about.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: RNA sequence
+          uri: http://edamontology.org/data_3495
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format:
+          - term: Stockholm format
+            uri: http://edamontology.org/format_1961
+    note: null
+    operation:
+      - term: RNA secondary structure prediction
+        uri: http://edamontology.org/operation_0278
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output:
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format:
+          - term: ClustalW format
+            uri: http://edamontology.org/format_1982
+          - term: Stockholm format
+            uri: http://edamontology.org/format_1961
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+homepage: http://genome.ku.dk/resources/war/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link: []
+maturity: null
+name: WAR
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: vzn529@binf.ku.dk
+publication:
+  - doi: 10.1093/nar/gkn275
+    metadata:
+      abstract: 'We present an easy-to-use webserver that makes it possible to simultaneously
+        use a number of state of the art methods for performing multiple alignment
+        and secondary structure prediction for noncoding RNA sequences. This makes
+        it possible to use the programs without having to download the code and get
+        the programs to run. The results of all the programs are presented on a webpage
+        and can easily be downloaded for further analysis. Additional measures are
+        calculated for each program to make it easier to judge the individual predictions,
+        and a consensus prediction taking all the programs into account is also calculated.
+        This website is free and open to all users and there is no login requirement.
+        The webserver can be found at: http://genome.ku.dk/resources/war.'
+      authors:
+        - name: Torarinsson E.
+        - name: Lindgreen S.
+      citationCount: 32
+      date: '2008-07-01T00:00:00Z'
+      journal: Nucleic acids research
+      title: 'WAR: Webserver for aligning structural RNAs.'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version:
+  - '1'

@@ -1,0 +1,136 @@
+accessibility: []
+additionDate: '2015-01-29T15:47:29Z'
+biotoolsCURIE: biotools:clustal_omega_ebi
+biotoolsID: clustal_omega_ebi
+collectionID:
+  - EBI Tools
+cost: null
+credit:
+  - email: null
+    name: Web Production
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Des Higgins
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: EMBL-EBI
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: University College Dublin
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.ebi.ac.uk/support/
+  - email: es-request@ebi.ac.uk
+    name: Web Production
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Multiple sequence alignment using guide trees and HMM profile-profile
+  techniques.
+documentation:
+  - note: null
+    type: Terms of use
+    url: http://www.ebi.ac.uk/about/terms-of-use
+  - note: null
+    type: General
+    url: http://www.ebi.ac.uk/Tools/msa/clustalo/
+download: []
+editPermission:
+  authors:
+    - biomadeira
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format: []
+    note: null
+    operation:
+      - term: Tree-based sequence alignment
+        uri: http://edamontology.org/operation_0499
+    output:
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format: []
+homepage: http://www.ebi.ac.uk/Tools/msa/clustalo/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Helpdesk
+    url: http://www.ebi.ac.uk/support/
+maturity: null
+name: Clustal Omega (EBI)
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: EMBL-EBI
+publication:
+  - doi: 10.1002/0471250953.bi0313s48
+    metadata:
+      abstract: "\xA9 2014 by John Wiley & Sons, Inc. Clustal Omega is a package for\
+        \ making multiple sequence alignments of amino acid or nucleotide sequences,\
+        \ quickly and accurately. It is a complete upgrade and rewrite of earlier\
+        \ Clustal programs. This unit describes how to run Clustal Omega interactively\
+        \ from a command line, although it can also be run online from several sites.\
+        \ The unit describes a basic protocol for taking a set of unaligned sequences\
+        \ and producing a full alignment. There are also protocols for using an external\
+        \ HMM or iteration to help improve an alignment."
+      authors:
+        - name: Sievers F.
+        - name: Higgins D.G.
+      citationCount: 54
+      date: '2014-01-01T00:00:00Z'
+      journal: Current Protocols in Bioinformatics
+      title: Clustal Omega
+    pmcid: null
+    pmid: null
+    type: Review
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version:
+  - '1'

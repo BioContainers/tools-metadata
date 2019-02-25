@@ -1,0 +1,102 @@
+accessibility: []
+additionDate: '2017-08-03T18:48:35Z'
+biotoolsCURIE: biotools:lymanalyzer
+biotoolsID: lymanalyzer
+collectionID: []
+cost: null
+credit:
+  - email: cathal.seoighe@nuigalway.ie
+    name: cathal.seoighe@nuigalway.ie
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://sourceforge.net/projects/lymanalyzer/
+description: Tool for comprehensive analysis of next generation sequencing data of
+  T cell receptors and immunoglobulins.
+documentation:
+  - note: null
+    type: General
+    url: https://sourceforge.net/projects/lymanalyzer/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Representative sequence identification
+        uri: http://edamontology.org/operation_2233
+    output: []
+homepage: http://sourceforge.net/projects/lymanalyzer/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/lymanalyzer-analysis-tcrig-repertoire-from-high-throughput-sequencing-reads.html
+maturity: null
+name: LymAnalyzer
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2016 The Author(s) 2015. Published by Oxford University Press\
+        \ on behalf of Nucleic Acids Research. The adaptive immune system includes\
+        \ populations of B and T cells capable of binding foreign epitopes via antigen\
+        \ specific receptors, called immunoglobulin (IG) for B cells and the T cell\
+        \ receptor (TCR) for T cells. In order to provide protection from a wide range\
+        \ of pathogens, these cells display highly diverse repertoires of IGs and\
+        \ TCRs. This is achieved through combinatorial rearrangement of multiple gene\
+        \ segments in addition, for B cells, to somatic hypermutation. Deep sequencing\
+        \ technologies have revolutionized analysis of the diversity of these repertoires;\
+        \ however, accurate TCR/IG diversity profiling requires specialist bioinformatics\
+        \ tools. Here we present LymAnalzyer, a software package that significantly\
+        \ improves the completeness and accuracy of TCR/IG profiling from deep sequence\
+        \ data and includes procedures to identify novel alleles of gene segments.\
+        \ On real and simulated data sets LymAnalyzer produces highly accurate and\
+        \ complete results. Although, to date we have applied it to TCR/IG data from\
+        \ human and mouse, it can be applied to data from any species for which an\
+        \ appropriate database of reference genes is available. Implemented in Java,\
+        \ it includes both a command line version and a graphical user interface and\
+        \ is freely available at https://sourceforge.net/projects/lymanalyzer/."
+      authors:
+        - name: Yu Y.
+        - name: Ceredig R.
+        - name: Seoighe C.
+      citationCount: 12
+      date: '2015-09-25T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'LymAnalyzer: A tool for comprehensive analysis of next generation sequencing
+        data of T cell receptors and immunoglobulins'
+    pmcid: null
+    pmid: '26446988'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Immunology
+    uri: http://edamontology.org/topic_0804
+  - term: Immunoproteins, genes and antigens
+    uri: http://edamontology.org/topic_2830
+validated: 1
+version: []

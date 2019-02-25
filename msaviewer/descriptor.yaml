@@ -1,0 +1,216 @@
+accessibility: []
+additionDate: '2016-06-02T02:53:41Z'
+biotoolsCURIE: biotools:msaviewer
+biotoolsID: msaviewer
+collectionID:
+  - Rostlab tools
+  - BioJS
+cost: Free of charge
+credit:
+  - email: null
+    name: Sebastian Wilzbach
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Ian Sillitoe
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Guy Yachdav
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Benedikt Rauscher
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: Tatyana Goldberg
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: "Technische Universit\xE4t M\xFCnchen"
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: Google Summer of Code (GSoC) 2014
+    note: null
+    orcidid: null
+    typeEntity: Funding agency
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: BioJS
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://github.com/wilzbach/msa
+description: Large MSAs visualization interactively on the web.
+documentation:
+  - note: null
+    type: Terms of use
+    url: https://github.com/wilzbach/msa/blob/master/LICENSE
+  - note: null
+    type: General
+    url: http://msa.biojs.net
+download:
+  - note: null
+    type: Source code
+    url: https://github.com/wilzbach/msa
+    version: null
+  - note: null
+    type: Binaries
+    url: https://cdn.bio.sh/
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format:
+          - term: ClustalW format
+            uri: http://edamontology.org/format_1982
+          - term: FASTA-aln
+            uri: http://edamontology.org/format_1984
+    note: 'Visualizes multiple sequence alignment, calculates conservation, shows
+      sequence logo, applies multiple color schemes A multiple sequence alignment
+      (ClustalW, FASTA, ...) Exports selected sequences and regions from the alignment
+      Images are exported in PNG Export sequences in FASTA format Export features
+      in GFF
+
+      NOTE: Actually, all these output types of data should instead be under separate
+      "constant" operations, while the visualisation should be an unary operation,
+      perhaps without an output.'
+    operation:
+      - term: Sequence visualisation
+        uri: http://edamontology.org/operation_0564
+    output:
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format:
+          - term: FASTA-aln
+            uri: http://edamontology.org/format_1984
+      - data:
+          term: Sequence alignment image
+          uri: http://edamontology.org/data_1711
+        format:
+          - term: Image format
+            uri: http://edamontology.org/format_3547
+      - data:
+          term: Sequence set
+          uri: http://edamontology.org/data_0850
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+      - data:
+          term: Feature table
+          uri: http://edamontology.org/data_1270
+        format:
+          - term: GFF
+            uri: http://edamontology.org/format_2305
+homepage: http://msa.biojs.net
+homepage_status: 0
+language:
+  - Javascript
+lastUpdate: '2018-12-10T12:58:50Z'
+license: Apache-2.0
+link:
+  - note: null
+    type: Repository
+    url: https://github.com/wilzbach/msa
+  - note: null
+    type: Registry
+    url: http://biojs.io/
+  - note: null
+    type: Helpdesk
+    url: http://github.com/wilzbach/msa
+maturity: Mature
+name: MSAViewer
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: BioJS
+publication:
+  - doi: 10.1093/bioinformatics/btw474
+    metadata:
+      abstract: "\xA9 2016 The Author Published by Oxford University Press. The MSAViewer\
+        \ is a quick and easy visualization and analysis JavaScript component for\
+        \ Multiple Sequence Alignment data of any size. Core features include interactive\
+        \ navigation through the alignment, application of popular color schemes,\
+        \ sorting, selecting and filtering. The MSAViewer is 'web ready': written\
+        \ entirely in JavaScript, compatible with modern web browsers and does not\
+        \ require any specialized software. The MSAViewer is part of the BioJS collection\
+        \ of components."
+      authors:
+        - name: Yachdav G.
+        - name: Wilzbach S.
+        - name: Rauscher B.
+        - name: Sheridan R.
+        - name: Sillitoe I.
+        - name: Procter J.
+        - name: Lewis S.E.
+        - name: Rost B.
+        - name: Goldberg T.
+      citationCount: 24
+      date: '2016-11-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'MSAViewer: Interactive JavaScript visualization of multiple sequence
+        alignments'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Library
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Sequence sites, features and motifs
+    uri: http://edamontology.org/topic_0160
+validated: 1
+version:
+  - 1.0.0

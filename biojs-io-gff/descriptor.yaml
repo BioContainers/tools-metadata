@@ -1,0 +1,118 @@
+accessibility: []
+additionDate: '2015-09-27T19:27:09Z'
+biotoolsCURIE: biotools:biojs-io-gff
+biotoolsID: biojs-io-gff
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: BioJS
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: mrgreenify@gmail.com
+    name: greenify
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/greenify
+description: A GFF (general feature format) parser.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/greenify/biojs-io-gff#documentation
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence features
+          uri: http://edamontology.org/data_1255
+        format:
+          - term: GFF3
+            uri: http://edamontology.org/format_1975
+    note: Parse GFF format to JSON.
+    operation:
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output:
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: JSON
+            uri: http://edamontology.org/format_3464
+homepage: https://github.com/greenify/biojs-io-gff
+homepage_status: 0
+language:
+  - Javascript
+lastUpdate: '2018-12-10T12:58:50Z'
+license: Apache-2.0
+link: []
+maturity: null
+name: biojs-io-gff
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: BioJS
+publication:
+  - doi: 10.7554/eLife.07009
+    metadata:
+      abstract: BioJS is an open source software project that develops visualization
+        tools for different types of biological data. Here we report on the factors
+        that influenced the growth of the BioJS user and developer community, and
+        outline our strategy for building on this growth. The lessons we have learned
+        on BioJS may also be relevant to other open source software projects.
+      authors:
+        - name: Yachdav G.
+        - name: Goldberg T.
+        - name: Wilzbach S.
+        - name: Dao D.
+        - name: Shih I.
+        - name: Choudhary S.
+        - name: Crouch S.
+        - name: Franz M.
+        - name: Garcia A.
+        - name: Garcia L.J.
+        - name: Gruning B.A.
+        - name: Inupakutika D.
+        - name: Sillitoe I.
+        - name: Thanki A.S.
+        - name: Vieira B.
+        - name: Villaveces J.M.
+        - name: Schneider M.V.
+        - name: Lewis S.
+        - name: Pettifer S.
+        - name: Rost B.
+        - name: Corpas M.
+      citationCount: 1
+      date: '2015-07-08T00:00:00Z'
+      journal: eLife
+      title: Anatomy of BioJS, an open source community for the life sciences
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
+toolType:
+  - Library
+topic:
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
+validated: 1
+version:
+  - 0.1.10

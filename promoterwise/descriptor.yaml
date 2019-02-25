@@ -1,0 +1,116 @@
+accessibility: []
+additionDate: '2015-01-29T15:47:40Z'
+biotoolsCURIE: biotools:promoterwise
+biotoolsID: promoterwise
+collectionID:
+  - EBI Tools
+cost: null
+credit:
+  - email: null
+    name: Web Production
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Ewan Birney
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: EMBL-EBI
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.ebi.ac.uk/support/
+  - email: es-request@ebi.ac.uk
+    name: Web Production
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Compare two DNA sequences allowing for inversions and translocations,
+  ideal for promoters.
+documentation:
+  - note: null
+    type: Terms of use
+    url: http://www.ebi.ac.uk/about/terms-of-use
+  - note: null
+    type: General
+    url: http://www.ebi.ac.uk/Tools/psa/promoterwise/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: DNA sequence
+          uri: http://edamontology.org/data_3494
+        format: []
+    note: null
+    operation:
+      - term: Pairwise sequence alignment
+        uri: http://edamontology.org/operation_0491
+      - term: Local alignment
+        uri: http://edamontology.org/operation_0495
+    output:
+      - data:
+          term: Sequence alignment (pair)
+          uri: http://edamontology.org/data_1381
+        format: []
+homepage: http://www.ebi.ac.uk/Tools/psa/promoterwise/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Helpdesk
+    url: http://www.ebi.ac.uk/support/
+maturity: null
+name: PromoterWise
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: EMBL-EBI
+publication:
+  - doi: 10.1186/gb-2005-6-12-r104
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
+validated: 1
+version:
+  - '1'

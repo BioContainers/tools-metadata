@@ -1,0 +1,100 @@
+accessibility: []
+additionDate: '2017-08-03T18:52:55Z'
+biotoolsCURIE: biotools:ocg
+biotoolsID: ocg
+collectionID: []
+cost: null
+credit:
+  - email: brun@tagc.univ-mrs.fr
+    name: Brun C
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://tagc.univ-mrs.fr/tagc/
+description: Creates an overlapping class system from an unweighted simple graph G
+  = (V,E).OCG is essentially a hierarchical ascending algorithm. By default, it will
+  fuse the initial classes until further fusions do not increase the modularity but
+  other options are available.
+documentation:
+  - note: null
+    type: General
+    url: http://tagc.univ-mrs.fr/tagc/index.php/software/17
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+    output: []
+homepage: http://tagc.univ-mrs.fr/tagc/index.php/software/17
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/ocg-create-overlapping-class-system.html
+maturity: null
+name: OCG
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: Multifunctional proteins perform several functions. They\
+        \ are expected to interact specifically with distinct sets of partners, simultaneously\
+        \ or not, depending on the function performed. Current graph clustering methods\
+        \ usually allow a protein to belong to only one cluster, therefore impeding\
+        \ a realistic assignment of multifunctional proteins to clusters. Results:\
+        \ Here, we present Overlapping Cluster Generator (OCG), a novel clustering\
+        \ method which decomposes a network into overlapping clusters and which is,\
+        \ therefore, capable of correct assignment of multifunctional proteins. The\
+        \ principle of OCG is to cover the graph with initial overlapping classes\
+        \ that are iteratively fused into a hierarchy according to an extension of\
+        \ Newman's modularity function. By applying OCG to a human protein-protein\
+        \ interaction network, we show that multifunctional proteins are revealed\
+        \ at the intersection of clusters and demonstrate that the method outperforms\
+        \ other existing methods on simulated graphs and PPI networks. \xA9 The Author(s)\
+        \ 2011. Published by Oxford University Press. All rights reserved."
+      authors:
+        - name: Becker E.
+        - name: Robisson B.
+        - name: Chapple C.E.
+        - name: Guenoche A.
+        - name: Brun C.
+      citationCount: 75
+      date: '2012-01-01T00:00:00Z'
+      journal: Bioinformatics
+      title: Multifunctional proteins revealed by overlapping clustering in protein
+        interaction network
+    pmcid: null
+    pmid: '22080466'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Function analysis
+    uri: http://edamontology.org/topic_1775
+validated: 1
+version: []

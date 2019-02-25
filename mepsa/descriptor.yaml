@@ -1,0 +1,107 @@
+accessibility: []
+additionDate: '2017-08-03T18:49:16Z'
+biotoolsCURIE: biotools:mepsa
+biotoolsID: mepsa
+collectionID: []
+cost: null
+credit:
+  - email: pagomez@cbm.csic.es
+    name: "Paulino G\xB4omez-Puertas"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://bioweb.cbm.uam.es/index.html
+  - email: imarcos@cbm.csic.es
+    name: Inigo Marcos-Alcalde
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://bioweb.cbm.uam.es/index.html
+description: Cross-platform user friendly tool for the analysis of energy landscapes
+  from a transition state theory perspective.
+documentation:
+  - note: null
+    type: Manual
+    url: http://bioweb.cbm.uam.es/software/MEPSA/mepsa_manual_1.1.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Modelling and simulation
+        uri: http://edamontology.org/operation_2426
+    output: []
+homepage: http://bioweb.cbm.uam.es/software/MEPSA/
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/mepsa-minimum-energy-pathway-analysis-for-energy-landscapes.html
+maturity: null
+name: MEPSA
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2015. Published by Oxford University Press. All rights\
+        \ reserved. From conformational studies to atomistic descriptions of enzymatic\
+        \ reactions, potential and free energy landscapes can be used to describe\
+        \ biomolecular systems in detail. However, extracting the relevant data of\
+        \ complex 3D energy surfaces can sometimes be laborious. In this article,\
+        \ we present MEPSA (Minimum Energy Path Surface Analysis), a cross-platform\
+        \ user friendly tool for the analysis of energy landscapes from a transition\
+        \ state theory perspective. Some of its most relevant features are: identification\
+        \ of all the barriers and minima of the landscape at once, description of\
+        \ maxima edge profiles, detection of the lowest energy path connecting two\
+        \ minima and generation of transition state theory diagrams along these paths.\
+        \ In addition to a built-in plotting system, MEPSA can save most of the generated\
+        \ data into easily parseable text files, allowing more versatile uses of MEPSA's\
+        \ output such as the generation of molecular dynamics restraints from a calculated\
+        \ path."
+      authors:
+        - name: Marcos-Alcalde I.
+        - name: Setoain J.
+        - name: Mendieta-Moreno J.I.
+        - name: Mendieta J.
+        - name: Gomez-Puertas P.
+      citationCount: 9
+      date: '2015-06-18T00:00:00Z'
+      journal: Bioinformatics
+      title: 'MEPSA: Minimum energy pathway analysis for energy landscapes'
+    pmcid: null
+    pmid: '26231428'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Molecular biology
+    uri: http://edamontology.org/topic_3047
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
+  - term: Enzymes
+    uri: http://edamontology.org/topic_0821
+validated: 1
+version: []

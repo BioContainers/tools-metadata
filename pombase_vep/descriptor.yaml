@@ -1,0 +1,133 @@
+accessibility: []
+additionDate: '2015-01-29T15:48:11Z'
+biotoolsCURIE: biotools:pombase_vep
+biotoolsID: pombase_vep
+collectionID:
+  - Ensembl Tools
+  - EBI Tools
+cost: null
+credit:
+  - email: null
+    name: Ensembl team
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: EMBL-EBI
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: helpdesk@pombase.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: eg-webteam@ebi.ac.uk
+    name: Ensembl Genomes webteam
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Upload a set of SNPs in our standard format and export a file containing
+  consequence types.
+documentation:
+  - note: null
+    type: Terms of use
+    url: http://www.ebi.ac.uk/about/terms-of-use
+  - note: null
+    type: General
+    url: http://www.pombase.org/documentation
+download: []
+editPermission:
+  authors:
+    - Fiona
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence variations
+          uri: http://edamontology.org/data_3498
+        format:
+          - term: VCF
+            uri: http://edamontology.org/format_3016
+          - term: Ensembl variation file format
+            uri: http://edamontology.org/format_3499
+    note: The output is a table view of the SNPs, or a graphical presentation of the
+      features in Ensembl Genomes browser
+    operation:
+      - term: Variant classification
+        uri: http://edamontology.org/operation_3225
+    output:
+      - data:
+          term: Report
+          uri: http://edamontology.org/data_2048
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+homepage: http://genomebrowser.pombase.org/tools.html
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link: []
+maturity: null
+name: PomBase VEP
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: EMBL-EBI
+publication:
+  - doi: 10.1186/s13059-016-0974-4
+    metadata:
+      abstract: "\xA9 2016 McLaren et al. The Ensembl Variant Effect Predictor is\
+        \ a powerful toolset for the analysis, annotation, and prioritization of genomic\
+        \ variants in coding and non-coding regions. It provides access to an extensive\
+        \ collection of genomic annotation, with a variety of interfaces to suit different\
+        \ requirements, and simple options for configuring and extending analysis.\
+        \ It is open source, free to use, and supports full reproducibility of results.\
+        \ The Ensembl Variant Effect Predictor can simplify and accelerate variant\
+        \ interpretation in a wide range of study designs."
+      authors:
+        - name: McLaren W.
+        - name: Gil L.
+        - name: Hunt S.E.
+        - name: Riat H.S.
+        - name: Ritchie G.R.S.
+        - name: Thormann A.
+        - name: Flicek P.
+        - name: Cunningham F.
+      citationCount: 310
+      date: '2016-06-06T00:00:00Z'
+      journal: Genome Biology
+      title: The Ensembl Variant Effect Predictor
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+validated: 1
+version:
+  - '1'

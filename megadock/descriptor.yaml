@@ -1,0 +1,93 @@
+accessibility: []
+additionDate: '2017-08-03T18:49:13Z'
+biotoolsCURIE: biotools:megadock
+biotoolsID: megadock
+collectionID: []
+cost: null
+credit:
+  - email: megadock@bi.cs.titech.ac.jp
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Fft-based protein-protein docking system for all-to-all protein-protein
+  interaction predictions.
+documentation:
+  - note: null
+    type: Terms of use
+    url: http://www.bi.cs.titech.ac.jp/megadock/usage.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Molecular docking
+        uri: http://edamontology.org/operation_0478
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein-protein interaction prediction
+        uri: http://edamontology.org/operation_2464
+    output: []
+homepage: http://www.bi.cs.titech.ac.jp/megadock/
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/megadock-2-6-megadock-k-3-0-megadock-gpu-1-0-protein-protein-interaction-prediction-system.html
+maturity: null
+name: MEGADOCK
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2014. Published by Oxford University Press. The application\
+        \ of protein-protein docking in large-scale interactome analysis is a major\
+        \ challenge in structural bioinformatics and requires huge computing resources.\
+        \ In this work, we present MEGADOCK 4.0, an FFT-based docking software that\
+        \ makes extensive use of recent heterogeneous supercomputers and shows powerful,\
+        \ scalable performance of >97% strong scaling."
+      authors:
+        - name: Ohue M.
+        - name: Shimoda T.
+        - name: Suzuki S.
+        - name: Matsuzaki Y.
+        - name: Ishida T.
+        - name: Akiyama Y.
+      citationCount: 14
+      date: '2014-01-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'MEGADOCK 4.0: An ultra-high-performance protein-protein docking software
+        for heterogeneous supercomputers'
+    pmcid: null
+    pmid: '25100686'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+validated: 1
+version: []

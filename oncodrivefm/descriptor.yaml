@@ -1,0 +1,100 @@
+accessibility: []
+additionDate: '2017-08-03T18:53:16Z'
+biotoolsCURIE: biotools:oncodrivefm
+biotoolsID: oncodrivefm
+collectionID: []
+cost: null
+credit:
+  - email: bbglab@irbbarcelona.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://bg.upf.edu/
+description: Detects candidate cancer driver genes and pathways from catalogs of somatic
+  mutations in a cohort of tumors by computing the bias towards the accumulation of
+  functional mutations (FM bias).
+documentation:
+  - note: null
+    type: General
+    url: http://bg.upf.edu/group/projects/oncodrive-fm.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Prediction and recognition
+        uri: http://edamontology.org/operation_2423
+    output: []
+homepage: http://bg.upf.edu/group/projects/oncodrive-fm.php
+homepage_status: 0
+language:
+  - R
+  - Perl
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/oncodrivefm-0-0-1-uncover-driver-genes-gene-modules.html
+maturity: null
+name: OncodriveFM
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Identifying cancer driver genes and pathways among all somatic mutations\
+        \ detected in a cohort of tumors is a key challenge in cancer genomics. Traditionally,\
+        \ this is done by prioritizing genes according to the recurrence of alterations\
+        \ that they bear. However, this approach has some known limitations, such\
+        \ as the difficulty to correctly estimate the background mutation rate, and\
+        \ the fact that it cannot identify lowly recurrently mutated driver genes.\
+        \ Here we present a novel approach, Oncodrive-fm, to detect candidate cancer\
+        \ drivers which does not rely on recurrence. First, we hypothesized that any\
+        \ bias toward the accumulation of variants with high functional impact observed\
+        \ in a gene or group of genes may be an indication of positive selection and\
+        \ can thus be used to detect candidate driver genes or gene modules. Next,\
+        \ we developed a method to measure this bias (FM bias) and applied it to three\
+        \ datasets of tumor somatic variants. As a proof of concept of our hypothesis\
+        \ we show that most of the highly recurrent and well-known cancer genes exhibit\
+        \ a clear FM bias. Moreover, this novel approach avoids some known limitations\
+        \ of recurrence-based approaches, and can successfully identify lowly recurrent\
+        \ candidate cancer drivers. \xA9 2012 The Author(s)."
+      authors:
+        - name: Gonzalez-Perez A.
+        - name: Lopez-Bigas N.
+      citationCount: 128
+      date: '2012-11-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: Functional impact bias reveals cancer drivers
+    pmcid: null
+    pmid: '22904074'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Oncology
+    uri: http://edamontology.org/topic_2640
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: DNA mutation
+    uri: http://edamontology.org/topic_2533
+validated: 1
+version: []

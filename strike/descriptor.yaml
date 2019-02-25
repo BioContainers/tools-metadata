@@ -1,0 +1,97 @@
+accessibility: []
+additionDate: '2017-08-03T19:00:46Z'
+biotoolsCURIE: biotools:strike
+biotoolsID: strike
+collectionID: []
+cost: null
+credit:
+  - email: cedric.notredame@europe.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.tcoffee.org/homepage.html
+description: A program to evaluate protein multiple sequence alignments using a single
+  protein structure.
+documentation:
+  - note: A detailed description is given in the incorporated Readme.
+    type: General
+    url: http://www.tcoffee.org/Projects/strike/index.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Multiple sequence alignment
+        uri: http://edamontology.org/operation_0492
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+homepage: http://www.tcoffee.org/Projects/strike/index.html
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/strike-1-2-sequence-alignment-scoring-tool.html
+maturity: null
+name: STRIKE
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: Evaluating alternative multiple protein sequence alignments\
+        \ is an important unsolved problem in Biology. The most accurate way of doing\
+        \ this is to use structural information. Unfortunately, most methods require\
+        \ at least two structures to be embedded in the alignment, a condition rarely\
+        \ met when dealing with standard datasets. Result: We developed STRIKE, a\
+        \ method that determines the relative accuracy of two alternative alignments\
+        \ of the same sequences using a single structure. We validated our methodology\
+        \ on three commonly used reference datasets (BAliBASE, Homestrad and Prefab).\
+        \ Given two alignments, STRIKE manages to identify the most accurate one in\
+        \ 70% of the cases on average. This figure increases to 79% when considering\
+        \ very challenging datasets like the RV11 category of BAliBASE. This discrimination\
+        \ capacity is significantly higher than that reported for other metrics such\
+        \ as Contact Accepted mutation or Blosum. We show that this increased performance\
+        \ results both from a refined definition of the contacts and from the use\
+        \ of an improved contact substitution score. \xA9 The Author(s) 2011. Published\
+        \ by Oxford University Press."
+      authors:
+        - name: Kemena C.
+        - name: Taly J.
+        - name: Kleinjung J.
+        - name: Notredame C.
+      citationCount: 13
+      date: '2011-12-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'Strike: Evaluation of protein MSAs using a single 3D structure'
+    pmcid: null
+    pmid: '22039207'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Nucleic acid structure analysis
+    uri: http://edamontology.org/topic_0097
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+validated: 1
+version: []

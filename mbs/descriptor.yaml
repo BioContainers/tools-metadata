@@ -1,0 +1,99 @@
+accessibility: []
+additionDate: '2017-08-03T19:06:51Z'
+biotoolsCURIE: biotools:mbs
+biotoolsID: mbs
+collectionID: []
+cost: null
+credit:
+  - email: kteshima@soken.ac.jp
+    name: Kosuke M Teshima
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.sendou.soken.ac.jp/esb/innan/InnanLab/
+description: "Simulation program to generate patterns of single nucleotide polymorphism\
+  \ (SNP) data in a region that is linked to a biallelic site targeted by selection.\
+  \ The software was developed by modifying the commonly used Hudson\u2019s ms simulator"
+documentation:
+  - note: null
+    type: General
+    url: http://www.sendou.soken.ac.jp/esb/innan/InnanLab/software.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Modelling and simulation
+        uri: http://edamontology.org/operation_2426
+    output: []
+homepage: http://www.sendou.soken.ac.jp/esb/innan/InnanLab/software.html
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/mbs-2-generating-samples-dna-sequences-biallelic-site-selection.html
+maturity: null
+name: mbs
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Background: The pattern of single nucleotide polymorphisms, or SNPs,\
+        \ contains a tremendous amount of information with respect to the mechanisms\
+        \ of the micro-evolutionary process of a species. The inference of the roles\
+        \ of these mechanisms, including natural selection, relies heavily on computer\
+        \ simulations. A coalescent simulation is extremely powerful in generating\
+        \ a large number of samples of DNA sequences from a population (species) when\
+        \ all mutations are neutral, and Hudson's ms software is frequently used for\
+        \ this purpose. However, it has been difficult to incorporate natural selection\
+        \ into the coalescent framework. Results: We herein present a software applicationto\
+        \ generate samples of DNA sequences when there is a biallelic site targeted\
+        \ by selection. This software application, referred to as mbs, is developed\
+        \ by modifying Hudson's ms. The mbs software is so flexible that it can incorporate\
+        \ any arbitrary histories of population size changes and any mode of selection\
+        \ as long as selection is operating on a biallelic site. Conclusion: mbs provides\
+        \ opportunities to investigate the effect of any mode of selection on the\
+        \ pattern of SNPs under various demography. \xA9 2009 Teshima and Innan; licensee\
+        \ BioMed Central Ltd."
+      authors:
+        - name: Teshima K.M.
+        - name: Innan H.
+      citationCount: 23
+      date: '2009-05-30T00:00:00Z'
+      journal: BMC Bioinformatics
+      title: 'Mbs: Modifying Hudson''s ms software to generate samples of DNA sequences
+        with a biallelic site under selection'
+    pmcid: null
+    pmid: '19480708'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Evolutionary biology
+    uri: http://edamontology.org/topic_3299
+validated: 1
+version: []

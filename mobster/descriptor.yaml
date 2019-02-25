@@ -1,0 +1,95 @@
+accessibility: []
+additionDate: '2017-08-03T18:51:41Z'
+biotoolsCURIE: biotools:mobster
+biotoolsID: mobster
+collectionID: []
+cost: null
+credit:
+  - email: Jayne.Hehir-Kwa@radboudumc.nl
+    name: Jayne Y Hehir-Kwa
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://sourceforge.net/projects/mobster/
+description: Used to detect novel (non-reference) Mobile Element Insertion (MEI) events
+  in BAM files and uses both a discordant read pair method and a split-read method.
+documentation:
+  - note: null
+    type: General
+    url: https://sourceforge.net/projects/mobster/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence feature detection
+        uri: http://edamontology.org/operation_0253
+    output: []
+homepage: http://sourceforge.net/projects/mobster/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/mobster-accurate-detection-of-mobile-element-insertions-meis.html
+maturity: null
+name: Mobster
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: Mobile elements are major drivers in changing genomic architecture
+        and can cause disease. The detection of mobile elements is hindered due to
+        the low mappability of their highly repetitive sequences. We have developed
+        an algorithm, called Mobster, to detect non-reference mobile element insertions
+        in next generation sequencing data from both whole genome and whole exome
+        studies. Mobster uses discordant read pairs and clipped reads in combination
+        with consensus sequences of known active mobile elements. Mobster has a low
+        false discovery rateand high recall rate for both L1 and Alu elements. Mobster
+        is available at http://sourceforge.net/projects/mobster.
+      authors:
+        - name: Thung D.T.
+        - name: de Ligt J.
+        - name: Vissers L.E.
+        - name: Steehouwer M.
+        - name: Kroon M.
+        - name: de Vries P.
+        - name: Slagboom E.P.
+        - name: Ye K.
+        - name: Veltman J.A.
+        - name: Hehir-Kwa J.Y.
+      citationCount: 25
+      date: '2014-01-01T00:00:00Z'
+      journal: Genome biology
+      title: 'Mobster: accurate detection of mobile element insertions in next generation
+        sequencing data'
+    pmcid: null
+    pmid: '25348035'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Nucleic acid sites, features and motifs
+    uri: http://edamontology.org/topic_3511
+validated: 1
+version: []

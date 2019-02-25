@@ -1,0 +1,103 @@
+accessibility: []
+additionDate: '2017-08-03T18:43:51Z'
+biotoolsCURIE: biotools:g-blastn
+biotoolsID: g-blastn
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.comp.hkbu.edu.hk/~chxw/software/contact.html
+description: GPU-accelerated nucleotide alignment tool based on the widely used NCBI-BLAST.
+documentation:
+  - note: null
+    type: General
+    url: http://www.comp.hkbu.edu.hk/~chxw/software/installation.html
+  - note: null
+    type: Manual
+    url: http://www.comp.hkbu.edu.hk/~chxw/software/example.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output: []
+homepage: http://www.comp.hkbu.edu.hk/~chxw/software/G-BLASTN.html
+homepage_status: 0
+language:
+  - C++
+  - C
+lastUpdate: '2018-12-10T12:58:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/g-blastn-1-1-gpu-accelerated-nucleotide-alignment-tool.html
+maturity: null
+name: G-BLASTN
+operatingSystem:
+  - Linux
+  - Windows
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: Since 1990, the basic local alignment search tool (BLAST)\
+        \ has become one of the most popular and fundamental bioinformatics tools\
+        \ for sequence similarity searching, receiving extensive attention from the\
+        \ research community. The two pioneering papers on BLAST have received over\
+        \ 96 000 citations. Given the huge population of BLAST users and the increasing\
+        \ size of sequence databases, an urgent topic of study is how to improve the\
+        \ speed. Recently, graphics processing units (GPUs) have been widely used\
+        \ as low-cost, high-performance computing platforms. The existing GPU-BLAST\
+        \ is a promising software tool that uses a GPU to accelerate protein sequence\
+        \ alignment. Unfortunately, there is still no GPU-accelerated software tool\
+        \ for BLAST-based nucleotide sequence alignment. Results: We developed G-BLASTN,\
+        \ a GPU-accelerated nucleotide alignment tool based on the widely used NCBI-BLAST.\
+        \ G-BLASTN can produce exactly the same results as NCBI-BLAST, and it has\
+        \ very similar user commands. Compared with the sequential NCBI-BLAST, G-BLASTN\
+        \ can achieve an overall speedup of 14.80X under 'megablast' mode. More impressively,\
+        \ it achieves an overall speedup of 7.15X over the multithreaded NCBI-BLAST\
+        \ running on 4 CPU cores. When running under 'blastn' mode, the overall speedups\
+        \ are 4.32X (against 1-core) and 1.56X (against 4-core). G-BLASTN also supports\
+        \ a pipeline mode that further improves the overall performance by up to 44%\
+        \ when handling a batch of queries as a whole. Currently G-BLASTN is best\
+        \ optimized for databases with long sequences. We plan to optimize its performance\
+        \ on short database sequences in our future work. \xA9 The Author 2014."
+      authors:
+        - name: Zhao K.
+        - name: Chu X.
+      citationCount: 35
+      date: '2014-05-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'G-BLASTN: Accelerating nucleotide alignment by graphics processors'
+    pmcid: null
+    pmid: '24463183'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Nucleic acids
+    uri: http://edamontology.org/topic_0077
+validated: 1
+version: []

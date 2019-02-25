@@ -1,0 +1,77 @@
+accessibility: []
+additionDate: '2017-08-03T18:58:03Z'
+biotoolsCURIE: biotools:rnagraphdist
+biotoolsID: rnagraphdist
+collectionID: []
+cost: null
+credit:
+  - email: markus.fricke2@uni-jena.de
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.rna.uni-jena.de/en/
+description: The tool calculates the equilibrium distribution of graph-distances between
+  arbitrary pair of nucleotides in an RNA molecule. The program reads RNA structures
+  generated from RNAsubopt, calculates their equilibrium distribution and outputs
+  the graph-distances in a tab delimited list or in the terminal.
+documentation:
+  - note: null
+    type: Other
+    url: http://www.rna.uni-jena.de/supplements/RNAgraphdist/supplement.pdf
+  - note: null
+    type: General
+    url: http://www.rna.uni-jena.de/en/software/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: RNA secondary structure prediction
+        uri: http://edamontology.org/operation_0278
+      - term: Nucleic acid property calculation
+        uri: http://edamontology.org/operation_0262
+    output: []
+homepage: http://www.rna.uni-jena.de/en/software/
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:50Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/rnagraphdist-calculation-of-graph-distance-distribution-of-the-boltzmann-ensemble-of-rna-secondary-structures.html
+maturity: null
+name: RNAgraphdist
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '25285153'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Nucleic acid structure analysis
+    uri: http://edamontology.org/topic_0097
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+validated: 1
+version: []
