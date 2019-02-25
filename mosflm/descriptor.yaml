@@ -1,0 +1,100 @@
+accessibility: []
+additionDate: '2015-03-26T22:04:29Z'
+biotoolsCURIE: biotools:mosflm
+biotoolsID: mosflm
+collectionID:
+  - Instruct CCP4
+  - Instruct
+cost: Free of charge
+credit:
+  - email: null
+    name: Instruct
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: ccisb@stfc.ac.uk
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: andrew@mrc-lmb.cam.ac.uk
+    name: Andrew G.W. Leslie
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.mrc-lmb.cam.ac.uk/harry/mosflm/index.html
+description: Program for integrating single crystal diffraction data from area detectors.
+  It is assumed that the experiment was conducted using the Arndt-Wonacott oscillation
+  method, and also that monochromatic radiation was used.
+documentation:
+  - note: null
+    type: Manual
+    url: http://www.mrc-lmb.cam.ac.uk/harry/mosflm/mosflm_user_guide.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Protein X-ray crystallographic data
+          uri: http://edamontology.org/data_0937
+        format: []
+    note: Mosflm is a program for integrating single crystal diffraction data from
+      area detectors. It is assumed that the experiment was conducted using the Arndt-Wonacott
+      oscillation method, and also that monochromatic radiation was used. Mosflm can
+      process data from a wide variety of modern area detectors, e.g. from Mar Research,
+      Rigaku/MSC, ADSC, DIP etc. See iMosFLM for a UI.
+    operation:
+      - term: Diffraction data integration
+        uri: http://edamontology.org/operation_3453
+    output: []
+homepage: http://www.mrc-lmb.cam.ac.uk/harry/mosflm/index.html
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:44Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/mosflm-7-0-7-imosflm-1-0-5-integration-macromolecular-diffraction-data.html
+maturity: null
+name: Mosflm
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: Instruct
+publication:
+  - doi: 10.1007/978-1-4020-6316-9_4
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+  - Desktop application
+topic:
+  - term: Structural biology
+    uri: http://edamontology.org/topic_1317
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+  - term: Imaging
+    uri: http://edamontology.org/topic_3382
+validated: 1
+version:
+  - '7'

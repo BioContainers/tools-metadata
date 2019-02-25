@@ -1,0 +1,102 @@
+accessibility: []
+additionDate: '2015-01-21T15:12:23Z'
+biotoolsCURIE: biotools:crispi
+biotoolsID: crispi
+collectionID: []
+cost: Free of charge
+credit:
+  - email: null
+    name: GenOuest
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: support@genouest.org
+    name: GenOuest platform
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.genouest.org
+description: A CRISPR Interactive database.
+documentation:
+  - note: null
+    type: General
+    url: http://genoweb1.irisa.fr/Serveur-GPO/outils/repeatsAnalysis/CRISPR/help/crispri.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+    note: A CRISPR Interactive database
+    operation:
+      - term: Sequence database search
+        uri: http://edamontology.org/operation_0338
+    output:
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+homepage: http://crispi.genouest.org/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link: []
+maturity: Mature
+name: Crispi
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: GenOuest
+publication:
+  - doi: 10.1093/bioinformatics/btp586
+    metadata:
+      abstract: "The CRISPR genomic structures (Clustered Regularly Interspaced Short\
+        \ Palindromic Repeats) form a family of repeats that is largely present in\
+        \ archaea and frequent in bacteria. On the basis of a formal model of CRISPR\
+        \ using very few parameters, a systematic study of all their occurrences in\
+        \ all available genomes of Archaea and Bacteria has been carried out. This\
+        \ has resulted in a relational database, CRISPI, which also includes a complete\
+        \ repertory of associated CRISPR-associated genes (CAS). A user-friendly web\
+        \ interface with many graphical tools and functions allows users to extract\
+        \ results, find CRISPR in personal sequences or calculate sequence similarity\
+        \ with spacers. \xA9 The Author(s) 2009. Published by Oxford University Press."
+      authors:
+        - name: Rousseau C.
+        - name: Gonnet M.
+        - name: Le Romancer M.
+        - name: Nicolas J.
+      citationCount: 68
+      date: '2009-10-21T00:00:00Z'
+      journal: Bioinformatics
+      title: 'CRISPI: A CRISPR interactive database'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Sequence sites, features and motifs
+    uri: http://edamontology.org/topic_0160
+validated: 1
+version: []

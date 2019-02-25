@@ -1,0 +1,100 @@
+accessibility: []
+additionDate: '2017-08-03T18:49:40Z'
+biotoolsCURIE: biotools:mitoprot_ii
+biotoolsID: mitoprot_ii
+collectionID: []
+cost: null
+credit:
+  - email: claros@uma.es
+    name: Manuel G. Claros
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://ihg.gsf.de/ihg/index_engl.html
+  - email: vincens@biologie.ens.fr
+    name: Pierre Vincens
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Calculates the N-terminal protein region that can support a Mitochondrial
+  Targeting Sequence and the cleavage site.
+documentation:
+  - note: null
+    type: General
+    url: https://ihg.gsf.de/ihg/mitoprot.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+homepage: http://ihg.gsf.de/ihg/mitoprot.html
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:45Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/mitoprot-ii-1-101-prediction-of-mitochondrial-targeting-sequences.html
+maturity: null
+name: MITOPROT II
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: Most of the proteins that are used in mitochondria are imported through
+        the double membrane of the oganelle. The information that guides the protein
+        to mitochondria is contained in its sequence and structure, although no direct
+        evidence can be obtained. In this article, discriminant analysis has been
+        performed with 47 parameters and a large set of mitochondrial proteins extracted
+        from the SwissProt database. A computational method that facilitates the analysis
+        and objective prediction of mitochondrially imported proteins has been developed.
+        If only the amino acid sequence is considered, 75-97% of the mitochondrial
+        proteins studied have been predicted to be imported into mitochondria. Moreover,
+        the existence of mitochondrial-targeting sequences is predicted in 76-94%
+        of the analyzed mitochondrial precursor proteins. As a practical application,
+        the number of unknown yeast open reading frames that might be mitochondrial
+        proteins has been predicted, which revealed that many of them are clustered.
+      authors:
+        - name: Claros M.G.
+        - name: Vincens P.
+      citationCount: 1164
+      date: '1996-01-01T00:00:00Z'
+      journal: European Journal of Biochemistry
+      title: Computational method to predict mitochondrially imported proteins and
+        their targeting sequences
+    pmcid: null
+    pmid: '8944766'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Nucleic acids
+    uri: http://edamontology.org/topic_0077
+  - term: Cell biology
+    uri: http://edamontology.org/topic_2229
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+validated: 1
+version: []

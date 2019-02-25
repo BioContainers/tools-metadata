@@ -1,0 +1,92 @@
+accessibility: []
+additionDate: '2017-08-03T18:58:58Z'
+biotoolsCURIE: biotools:samblaster
+biotoolsID: samblaster
+collectionID: []
+cost: null
+credit:
+  - email: gf4ea@virginia.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A tool to mark duplicates and extract discordant and split reads from
+  SAM files.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/GregoryFaust/samblaster
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Split read mapping
+        uri: http://edamontology.org/operation_3199
+    output: []
+homepage: https://github.com/GregoryFaust/samblaster
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:44Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/samblaster-0-1-15-duplicate-marking-and-structural-variant-read-extraction.html
+maturity: null
+name: SAMBLASTER
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: Illumina DNA sequencing is now the predominant source\
+        \ of raw genomic data, and data volumes are growing rapidly. Bioinformatic\
+        \ analysis pipelines are having trouble keeping pace. A common bottleneck\
+        \ in such pipelines is the requirement to read, write, sort and compress large\
+        \ BAM files multiple times. Results: We present SAMBLASTER, a tool that reduces\
+        \ the number of times such costly operations are performed. SAMBLASTER is\
+        \ designed to mark duplicates in read-sorted SAM files as a piped postpass\
+        \ on DNA aligner output before it is compressed to BAM. In addition, it can\
+        \ simultaneously output into separate files the discordant read-pairs and/or\
+        \ split-read mappings used for structural variant calling. As an alignment\
+        \ post-pass, its own runtime overhead is negligible, while dramatically reducing\
+        \ overall pipeline complexity and runtime. As a stand-Alone duplicate marking\
+        \ tool, it performs significantly better than PICARD or SAMBAMBA in terms\
+        \ of both speed and memory usage, while achieving nearly identical results.\
+        \ \xA9 The Author(s) 2014."
+      authors:
+        - name: Faust G.G.
+        - name: Hall I.M.
+      citationCount: 72
+      date: '2014-09-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'SAMBLASTER: Fast duplicate marking and structural variant read extraction'
+    pmcid: null
+    pmid: '24812344'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+validated: 1
+version: []

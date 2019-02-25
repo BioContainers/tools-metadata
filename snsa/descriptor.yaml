@@ -1,0 +1,86 @@
+accessibility: []
+additionDate: '2017-08-03T19:00:11Z'
+biotoolsCURIE: biotools:snsa
+biotoolsID: snsa
+collectionID: []
+cost: null
+credit:
+  - email: bsinfo@ipm.ir
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://bs.ipm.ac.ir/
+description: A method to construct a supernetwork from partial trees based on simulated
+  annealing.
+documentation:
+  - note: null
+    type: General
+    url: http://bs.ipm.ir/softwares/snsa/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Phylogenetic tree generation
+        uri: http://edamontology.org/operation_0323
+    output: []
+homepage: http://bs.ipm.ir/softwares/snsa/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:44Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/snsa-construct-supernetwork-from-partial-trees-based-on-simulated-annealing.html
+maturity: null
+name: SNSA
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Different partial phylogenetic trees can be derived from different\
+        \ sources of evidence and different methods. One important problem is to summarize\
+        \ these partial phylogenetic trees using a supernetwork. We propose a novel\
+        \ simulated annealing based method called SNSA which uses an optimization\
+        \ function to produce a simple network that still retains a great deal of\
+        \ phylogenetic information. We report the performance of this new method on\
+        \ real and simulated datasets. \xA9 2012 Elsevier Inc."
+      authors:
+        - name: Hassanzadeh R.
+        - name: Eslahchi C.
+        - name: Sung W.-K.
+      citationCount: 1
+      date: '2012-06-01T00:00:00Z'
+      journal: Molecular Phylogenetics and Evolution
+      title: Constructing phylogenetic supernetworks based on simulated annealing
+    pmcid: null
+    pmid: '22426435'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Phylogenetics
+    uri: http://edamontology.org/topic_3293
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
+  - term: Simulation experiment
+    uri: http://edamontology.org/topic_3524
+validated: 1
+version: []

@@ -1,0 +1,105 @@
+accessibility: []
+additionDate: '2017-03-25T22:23:29Z'
+biotoolsCURIE: biotools:prism
+biotoolsID: prism
+collectionID: []
+cost: null
+credit:
+  - email: prism_support-group@ku.edu.tr
+    name: Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://wiki.c2b2.columbia.edu/honiglab_public/index.php/Main_Page
+description: PrISM (Protein Informatics System for Modeling) is an integrated computational
+  system where computational tools are implemented for protein sequence and structure
+  analysis and modeling.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Analysis
+        uri: http://edamontology.org/operation_2945
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Structure analysis
+        uri: http://edamontology.org/operation_2480
+    output: []
+homepage: http://wiki.c2b2.columbia.edu/honiglab_public/index.php/Software:PrISM
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:44Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/prism-protein-informatics-system-modeling.html
+maturity: null
+name: PrISM
+operatingSystem:
+  - Linux
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: PriSM (Protein Informatics System for Modeling) is a protein analysis
+        and modeling system in which informatics, alignment, modeling, and assessment
+        modules are integrated in a computational environment where protein analysis
+        and modeling protocols can be designed and assessed interactively. It can
+        then be used automatically and repetitively in response to a variety of protein
+        analysis and modeling problems. PRISM was used to predict a single model for
+        each of the 43 targets in the CASP3 experiment. In this paper, we present
+        results for 13 target sequences, which we consider to be comparative modeling
+        targets with clearly related structural templates. We emphasize the problem
+        of aligning a target sequence to a template structure with various alignment
+        methods. When more than one alignment method and/or parameter set are applied,
+        the final alignment is chosen on the basis of a model ranking system also
+        used in PrISM's fold recognition module. Advanced sequence- template alignment
+        procedures in PriSM are useful in some cases when standard pairwise dynamic
+        programming algorithm fail to make any reasonable global alignment. The same
+        procedures, however, failed in other cases, corresponding to remotely related
+        query-template pairs that involved extensive insertions and deletions.
+      authors:
+        - name: Yang A.-S.
+        - name: Honig B.
+      citationCount: 50
+      date: '1999-01-01T00:00:00Z'
+      journal: 'Proteins: Structure, Function and Genetics'
+      title: Sequence to structure alignment in comparative modeling using PrISM
+    pmcid: null
+    pmid: '10526354'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Structure analysis
+    uri: http://edamontology.org/topic_0081
+  - term: Informatics
+    uri: http://edamontology.org/topic_0605
+validated: 1
+version: []

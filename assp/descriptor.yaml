@@ -1,0 +1,82 @@
+accessibility: []
+additionDate: '2017-08-03T19:05:01Z'
+biotoolsCURIE: biotools:assp
+biotoolsID: assp
+collectionID: []
+cost: null
+credit:
+  - email: geoff@compbio.dundee.ac.uk
+    name: Geoff Barton
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.compbio.dundee.ac.uk/
+description: "Assess \_Secondary Structure Prediction takes a multiple protein sequence\
+  \ alignment and estimates the range in accuracy that one can expect for a \u201C\
+  perfect\u201D secondary structure prediction made using the alignment."
+documentation:
+  - note: null
+    type: General
+    url: http://www.compbio.dundee.ac.uk/downloads/assp/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein structure prediction
+        uri: http://edamontology.org/operation_0474
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein secondary structure prediction
+        uri: http://edamontology.org/operation_0267
+    output: []
+homepage: http://www.compbio.dundee.ac.uk/downloads/assp/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:44Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/assp-1-2-assess-protein-secondary-structure-prediction-accuracy.html
+maturity: null
+name: assp
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '8263941'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+  - term: Protein secondary structure
+    uri: http://edamontology.org/topic_3542
+validated: 1
+version: []

@@ -1,0 +1,103 @@
+accessibility: []
+additionDate: '2017-08-03T19:06:35Z'
+biotoolsCURIE: biotools:kmacs
+biotoolsID: kmacs
+collectionID: []
+cost: null
+credit:
+  - email: lhahn@biologie.uni-goettingen.de
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://gobics.de/department/
+  - email: chris.leimeister@stud.uni-goettingen.de
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: New approach to alignment-free sequence comparison. While most alignment-free
+  methods rely on exact word matches, it uses a distance measure based on inexact
+  substing matches.
+documentation:
+  - note: null
+    type: General
+    url: http://kmacs.gobics.de/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Polymorphism detection
+        uri: http://edamontology.org/operation_3202
+    output: []
+homepage: http://kmacs.gobics.de/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:43Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/kmacs-the-k-mismatch-average-common-substring-approach-to-alignment-free-sequence-comparison.html
+maturity: null
+name: kmacs
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: Alignment-based methods for sequence analysis have various\
+        \ limitations if large data sets are to be analysed. Therefore, alignment-free\
+        \ approaches have become popular in recent years. One of the best known alignment-free\
+        \ methods is the average common substring (ACS) approach that defines a distance\
+        \ measure on sequences based on the average length of longest common words\
+        \ between them. Herein, we generalize this approach by considering longest\
+        \ common substrings with k mismatches. We present a greedy heuristic to approximate\
+        \ the length of such k-mismatch substrings and we describe kmacs, an efficient\
+        \ implementation of this idea based on generalized enhanced suffix arrays.\
+        \ Results: To evaluate the performance of our approach, we applied it to phylogeny\
+        \ reconstruction using a large number of DNA and protein sequence sets. In\
+        \ most cases, phylogenetic trees calculated with kmacs were more accurate\
+        \ than trees produced with established alignment-free methods which are based\
+        \ on exact word matches. Especially on protein sequences, our method seems\
+        \ to be superior. On simulated protein families, kmacs even outperformed a\
+        \ classical approach to phylogeny reconstruction using multiple alignment\
+        \ and maximum likelihood. \xA9 2014 The Author 2014."
+      authors:
+        - name: Leimeister C.-A.
+        - name: Morgenstern B.
+      citationCount: 47
+      date: '2014-07-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'Kmacs: The k-mismatch average common substring approach to alignment-free
+        sequence comparison'
+    pmcid: null
+    pmid: '24828656'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: DNA mutation
+    uri: http://edamontology.org/topic_2533
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+validated: 1
+version: []

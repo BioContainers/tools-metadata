@@ -1,0 +1,99 @@
+accessibility: []
+additionDate: '2017-08-03T19:01:25Z'
+biotoolsCURIE: biotools:sheep
+biotoolsID: sheep
+collectionID: []
+cost: null
+credit:
+  - email: evaksianov@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: "The tool displays schemes of \u03B2-sheet called, draws \u03B2-sheet\
+  \ maps."
+documentation:
+  - note: null
+    type: General
+    url: http://mouse.belozersky.msu.ru/~evgeniy/cgi-bin/proton/proton.php?subproj=sheep
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein structure prediction
+        uri: http://edamontology.org/operation_0474
+    output: []
+homepage: http://mouse.belozersky.msu.ru/~evgeniy/cgi-bin/proton/proton.php?subproj=sheep
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:44Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: "http://www.mybiosoftware.com/sheep-2-1-description-of-\u03B2-sheets-in-protein-3d-structures.html"
+maturity: null
+name: SheeP
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "The description of a protein fold is a hard problem due to significant\
+        \ variability of main structural units, \u03B2-sheets and \u03B1-helixes,\
+        \ and their mutual arrangements. An adequate description of the structural\
+        \ units is an important step in objective protein structure classification,\
+        \ which to date is based on expert judgment in a number of cases. Explicit\
+        \ determination and description of structural units is more complicated for\
+        \ \u03B2-sheets than for \u03B1-helixes due to \u03B2-sheets variability both\
+        \ in composition and geometry. We have developed an algorithm that can significantly\
+        \ modify \u03B2-sheets detected by commonly used DSSP and Stride algorithms\
+        \ and represent the result as a \"\u03B2-sheet map,\" a table describing certain\
+        \ \u03B2-sheet features. In our approach, \u03B2-sheets (rather than \u03B2\
+        -strands) are considered as holistic objects. Both hydrogen bonds and geometrical\
+        \ restrains are explored for the determination of \u03B2-sheets. The algorithm\
+        \ is implemented in SheeP program. It was tested for prediction architectures\
+        \ of domains from 93 well-defined all-\u03B2 and \u03B1/\u03B2 SCOP protein\
+        \ domain families, and showed 93% of correct results. The Web-service allows\
+        \ to detect \u03B2-sheets in a given protein structure, visualize \u03B2-sheet\
+        \ maps, as well as input three-dimensional structures with highlighted \u03B2\
+        -sheets and their structural features. \xA9 2012 Imperial College Press."
+      authors:
+        - name: Aksianov E.
+        - name: Alexeevski A.
+      citationCount: 2
+      date: '2012-04-01T00:00:00Z'
+      journal: Journal of Bioinformatics and Computational Biology
+      title: "Sheep: A tool for description of \u03B2-sheets in protein 3D structures"
+    pmcid: null
+    pmid: '22809339'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+  - term: Protein folds and structural domains
+    uri: http://edamontology.org/topic_0736
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+validated: 1
+version: []

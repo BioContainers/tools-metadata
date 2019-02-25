@@ -1,0 +1,99 @@
+accessibility: []
+additionDate: '2017-08-03T18:36:27Z'
+biotoolsCURIE: biotools:archki
+biotoolsID: archki
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://sbi.imim.es/cgi-bin/archdb/loops.pl?con=1
+description: This tool performs a structural classification of kinase loops with information
+  of functional residues to find relationships between structure and function of classified
+  kinase-loops.
+documentation:
+  - note: null
+    type: General
+    url: http://bioinf.uab.es/cgi-bin/archki/loops.pl?class=all
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation: []
+    output: []
+homepage: http://bioinf.uab.es/cgi-bin/archki/loops.pl?class=all&set=ArchKI
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:43Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/archki-classification-common-functional-loops-kinase-super-families.html
+maturity: null
+name: ArchKI
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "A structural classification of loops has been obtained from a set\
+        \ of 141 protein structures classified as kinases. A total of 1813 loops was\
+        \ classified into 133 subclasses (9 \u03B2\u03B2links, 15 \u03B2\u03B2 hairpins,\
+        \ 31 \u03B1-\u03B1, 46 \u03B1-\u03B2 and 32 \u03B2-\u03B1). Functional information\
+        \ and specific features relating subclasses and function were included in\
+        \ the classification. Functional loops such as the P-loop (shared by different\
+        \ folds) or the Gly-rich-loop, among others, were classified into structural\
+        \ motifs. As a result, a common mechanism of catalysis and substrate binding\
+        \ was proved for most kinases. Additionally, the multiple-alignment of loop\
+        \ sequences made within each subclass was shown to be useful for comparative\
+        \ modeling of kinase loops. \xA9 2004 Wiley-Liss, Inc."
+      authors:
+        - name: Fernandez-Fuentes N.
+        - name: Hermoso A.
+        - name: Espadaler J.
+        - name: Querol E.
+        - name: Aviles F.X.
+        - name: Oliva B.
+      citationCount: 18
+      date: '2004-08-15T00:00:00Z'
+      journal: 'Proteins: Structure, Function and Genetics'
+      title: Classification of common functional loops of kinase super-families
+    pmcid: null
+    pmid: '15229886'
+    type: null
+    version: null
+toolType:
+  - Web service
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Gene and protein families
+    uri: http://edamontology.org/topic_0623
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+validated: 1
+version: []

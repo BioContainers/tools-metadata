@@ -1,0 +1,108 @@
+accessibility: []
+additionDate: '2017-08-03T18:43:09Z'
+biotoolsCURIE: biotools:frodock
+biotoolsID: frodock
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://chaconlab.org/contact
+description: "Generate very efficiently many potential predictions of how \_two proteins\
+  \ could interact. This approximation effectively address the complexity and sampling\
+  \ requirements of the initial 6D docking exhaustive search by combining the projection\
+  \ of the interaction terms into 3D grid-based potentials with the efficiency of\
+  \ spherical harmonics approximations."
+documentation:
+  - note: null
+    type: General
+    url: http://chaconlab.org/modeling/frodock/frodock-intro
+  - note: null
+    type: Manual
+    url: http://chaconlab.org/modeling/frodock/frodock-tutorial
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein-protein interaction prediction
+        uri: http://edamontology.org/operation_2464
+    output: []
+homepage: http://chaconlab.org/frodock/index.html
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:45Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/frodock-1-04-fast-rotational-docking-tool.html
+maturity: null
+name: FRODOCK
+operatingSystem:
+  - Linux
+  - Windows
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: Prediction of protein-protein complexes from the coordinates\
+        \ of their unbound components usually starts by generating many potential\
+        \ predictions from a rigid-body 6D search followed by a second stage that\
+        \ aims to refine such predictions. Here, we present and evaluate a new method\
+        \ to effectively address the complexity and sampling requirements of the initial\
+        \ exhaustive search. In this approach we combine the projection of the interaction\
+        \ terms into 3D grid-based potentials with the efficiency of spherical harmonics\
+        \ approximations to accelerate the search. The binding energy upon complex\
+        \ formation is approximated as a correlation function composed of van der\
+        \ Waals, electrostatics and desolvation potential terms. The interaction-energy\
+        \ minima are identified by a novel, fast and exhaustive rotational docking\
+        \ search combined with a simple translational scanning. Results obtained on\
+        \ standard protein-protein benchmarks demonstrate its general applicability\
+        \ and robustness. The accuracy is comparable to that of existing state-of-the-art\
+        \ initial exhaustive rigid-body docking tools, but achieving superior efficiency.\
+        \ Moreover, a parallel version of the method performs the docking search in\
+        \ just a few minutes, opening new application opportunities in the current\
+        \ 'omics' world. \xA9 The Author 2009. Published by Oxford University Press.\
+        \ All rights reserved."
+      authors:
+        - name: Garzon J.I.
+        - name: Lopez-Blanco J.R.
+        - name: Pons C.
+        - name: Kovacs J.
+        - name: Abagyan R.
+        - name: Fernandez-Recio J.
+        - name: Chacon P.
+      citationCount: 65
+      date: '2009-10-16T00:00:00Z'
+      journal: Bioinformatics
+      title: 'FRODOCK: A new approach for fast rotational protein-protein docking'
+    pmcid: null
+    pmid: '19620099'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+validated: 1
+version:
+  - '2.1'

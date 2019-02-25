@@ -1,0 +1,64 @@
+accessibility: []
+additionDate: '2017-01-13T13:13:38Z'
+biotoolsCURIE: biotools:barracuda
+biotoolsID: barracuda
+collectionID: []
+cost: null
+credit:
+  - email: yhbl2@cam.ac.uk
+    name: Klus P.
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Barracuda is a high-speed sequence aligner based on BWA and uses the
+  latest Nvidia CUDA architecture for accelerating alignments of sequence reads generated
+  by the next-generation sequencers.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Read mapping
+        uri: http://edamontology.org/operation_3198
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output: []
+homepage: http://seqbarracuda.sourceforge.net/
+homepage_status: 0
+language:
+  - C++
+  - C
+lastUpdate: '2018-12-10T12:58:46Z'
+license: MIT
+link: []
+maturity: Mature
+name: BarraCUDA
+operatingSystem:
+  - Linux
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '22244497'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

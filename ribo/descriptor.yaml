@@ -1,0 +1,89 @@
+accessibility: []
+additionDate: '2017-08-03T18:58:42Z'
+biotoolsCURIE: biotools:ribo
+biotoolsID: ribo
+collectionID: []
+cost: null
+credit:
+  - email: jerome.waldispuhl@mcgill.ca
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.ucbioinformatics.org/
+description: Human-computing game that aims to improve the accuracy of RNA alignments
+  already stored in Rfam.
+documentation:
+  - note: null
+    type: General
+    url: http://ribo.cs.mcgill.ca/#tutorial
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output: []
+homepage: http://ribo.cs.mcgill.ca/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:45Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/ribo-an-rna-alignment-game.html
+maturity: null
+name: Ribo
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: The annotation and classification of ncRNAs is essential to decipher
+        molecular mechanisms of gene regulation in normal and disease states. A database
+        such as Rfam maintains alignments, consensus secondary structures, and corresponding
+        annotations for RNA families. Its primary purpose is the automated, accurate
+        annotation of non-coding RNAs in genomic sequences. However, the alignment
+        of RNAs is computationally challenging, and the data stored in this database
+        are often subject to improvements. Here, we design and evaluate Ribo, a human-computing
+        game that aims to improve the accuracy of RNA alignments already stored in
+        Rfam. We demonstrate the potential of our techniques and discuss the feasibility
+        of large scale collaborative annotation and classification of RNA families.
+      authors:
+        - name: Waldispuhl J.
+        - name: Kam A.
+        - name: Gardner P.P.
+      citationCount: 4
+      date: '2015-01-01T00:00:00Z'
+      journal: 20th Pacific Symposium on Biocomputing, PSB 2015
+      title: Crowdsourcing RNA structural alignments with an online computer game
+    pmcid: null
+    pmid: '25592593'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Nucleic acid structure analysis
+    uri: http://edamontology.org/topic_0097
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

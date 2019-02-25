@@ -1,0 +1,93 @@
+accessibility: []
+additionDate: '2017-05-02T07:18:22Z'
+biotoolsCURIE: biotools:mcpromoter
+biotoolsID: mcpromoter
+collectionID: []
+cost: null
+credit:
+  - email: cburge@mit.edu
+    name: Chris Burge
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: The Markov Chain Promoter Prediction Server (McPromoter) uses statistics
+  to predict eukaryotic DNA transcription start sites.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein modelling
+        uri: http://edamontology.org/operation_0477
+      - term: DNA substitution modelling
+        uri: http://edamontology.org/operation_0550
+      - term: DNA transcription
+        uri: http://edamontology.org/operation_0372
+      - term: Promoter prediction
+        uri: http://edamontology.org/operation_0440
+    output: []
+homepage: http://genes.mit.edu/McPromoter.html
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:44Z'
+license: null
+link: []
+maturity: null
+name: McPromoter
+operatingSystem: []
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "We present an approach to integrate physical properties of DNA, such\
+        \ as DNA bendability or GC content, into our probabilistic promoter recognition\
+        \ system MCPROMOTER. In the new model, a promoter is represented as a sequence\
+        \ of consecutive segments represented by joint likelihoods for DNA sequence\
+        \ and profiles of physical properties. Sequence likelihoods are modeled with\
+        \ interpolated Markov chains, physical properties with Gaussian distributions.\
+        \ The background uses two joint sequence/profile models for coding and non-coding\
+        \ sequences, each consisting of a mixture of a sense and an anti-sense sub-model.\
+        \ On a large Dmsophila test set, we achieved a reduction of about 30% of false\
+        \ positives when compared with a model solely based on sequence likelihoods.\
+        \ \xA9 Oxford University Press 2001."
+      authors:
+        - name: Ohler U.
+        - name: Niemann H.
+        - name: Liao G.-C.
+        - name: Rubin G.M.
+      citationCount: 102
+      date: '2001-01-01T00:00:00Z'
+      journal: Bioinformatics
+      title: Joint modeling of DNA sequence and physical properties to improve eukaryotic
+        promoter recognition
+    pmcid: null
+    pmid: '11473010'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Physics
+    uri: http://edamontology.org/topic_3318
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Chemistry
+    uri: http://edamontology.org/topic_3314
+validated: 1
+version: []

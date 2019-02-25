@@ -1,0 +1,108 @@
+accessibility: []
+additionDate: '2017-08-03T18:46:22Z'
+biotoolsCURIE: biotools:haploclusters
+biotoolsID: haploclusters
+collectionID: []
+cost: null
+credit:
+  - email: bahlo@wehi.edu.au
+    name: Melanie Bahlo
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://bioinf.wehi.edu.au/
+description: Program designed to detect excess haplotypes sharing in datasets consisting
+  of case and control haplotypes. Excess haplotype sharing can be seen around disease
+  loci in case samples since LD persists longer here than in the controls where LD
+  is persisting only according to the relatedness of the individuals in the population,
+  i.e. the age of the population. This LD is often referred to as background LD.
+documentation:
+  - note: Download includes documentation
+    type: General
+    url: http://bioinf.wehi.edu.au/folders/melanie/haploclusters.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Haplotype mapping
+        uri: http://edamontology.org/operation_0487
+    output: []
+homepage: http://bioinf.wehi.edu.au/folders/melanie/haploclusters.html
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:43Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/haploclusters-detect-excess-haplotypes-sharing.html
+maturity: null
+name: Haploclusters
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Genome wide association studies using high throughput technology\
+        \ are already being conducted despite the significant hurdles that need to\
+        \ be overcome (Nat Rev Genet 6:95-108, 2005; Nat Rev Genet 6:109-118, 2005).\
+        \ Methods for detecting haplotype association signals in genome wide haplotype\
+        \ datasets are as yet very limited. Much methodological research has already\
+        \ been devoted to linkage disequilibrium (LD) fine mapping where the focus\
+        \ is the identification of the disease locus rather than the detection of\
+        \ a disease signal. Applications of these approaches to genome wide scanning\
+        \ are limited by the strong model assumptions of the sharing process, which\
+        \ lead to computational complexity. We describe a new algorithm for the initial\
+        \ identification of disease susceptibility loci in genome wide haplotype association\
+        \ studies. Excess sharing of ancestral haplotypes, which indicates the presence\
+        \ of a disease locus, is detected with a simple, easy to interpret, \u03C7\
+        2 based statistic. The method allows genome wide scanning for qualitative\
+        \ traits within reasonable computational timeframes and can serve as a first\
+        \ pass analysis prior to the usage of likelihood based methods, providing\
+        \ candidate regions and inferred susceptibility haplotypes. Our method makes\
+        \ no assumptions regarding the population history or the pattern of background\
+        \ LD. Statistical significance is evaluated with permutation tests. The method\
+        \ is illustrated on simulated and real data where it is applied to simple\
+        \ (cystic fibrosis) and complex disease (multiple sclerosis) examples. The\
+        \ statistic has low type I error and greater power to map disease loci over\
+        \ conventional single marker tests for low to moderate levels of LD. \xA9\
+        \ Springer-Verlag 2005."
+      authors:
+        - name: Bahlo M.
+        - name: Stankovich J.
+        - name: Speed T.P.
+        - name: Rubio J.P.
+        - name: Burfoot R.K.
+        - name: Foote S.J.
+      citationCount: 11
+      date: '2006-03-01T00:00:00Z'
+      journal: Human Genetics
+      title: Detecting genome wide haplotype sharing using SNP or microsatellite haplotype
+        data
+    pmcid: null
+    pmid: '16362347'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Pathology
+    uri: http://edamontology.org/topic_0634
+  - term: Population genetics
+    uri: http://edamontology.org/topic_3056
+  - term: Genotype and phenotype
+    uri: http://edamontology.org/topic_0625
+validated: 1
+version: []

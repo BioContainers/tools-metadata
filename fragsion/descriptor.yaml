@@ -1,0 +1,108 @@
+accessibility: []
+additionDate: '2017-08-03T18:43:07Z'
+biotoolsCURIE: biotools:fragsion
+biotoolsID: fragsion
+collectionID: []
+cost: null
+credit:
+  - email: chengji@missouri.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Database-free method to efficiently generate protein fragment library
+  by sampling from an Input-Output Hidden Markov Model.
+documentation:
+  - note: null
+    type: Manual
+    url: http://sysbio.rnet.missouri.edu/FRAGSION/MANUAL
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein secondary structure prediction
+        uri: http://edamontology.org/operation_0267
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+homepage: http://sysbio.rnet.missouri.edu/FRAGSION/
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/fragsion-protein-fragment-library-generation.html
+maturity: null
+name: FRAGSION
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2016. Motivation: Speed, accuracy and robustness\
+        \ of building protein fragment library have important implications in de novo\
+        \ protein structure prediction since fragment-based methods are one of the\
+        \ most successful approaches in template-free modeling (FM). Majority of the\
+        \ existing fragment detection methods rely on database-driven search strategies\
+        \ to identify candidate fragments, which are inherently time-consuming and\
+        \ often hinder the possibility to locate longer fragments due to the limited\
+        \ sizes of databases. Also, it is difficult to alleviate the effect of noisy\
+        \ sequencebased predicted features such as secondary structures on the quality\
+        \ of fragment. Results: Here, we present FRAGSION, a database-free method\
+        \ to efficiently generate protein fragment library by sampling from an Input-Output\
+        \ Hidden Markov Model. FRAGSION offers some unique features compared to existing\
+        \ approaches in that it (i) is lightning-fast, consuming only few seconds\
+        \ of CPU time to generate fragment library for a protein of typical length\
+        \ (300 residues); (ii) can generate dynamic-size fragments of any length (even\
+        \ for the whole protein sequence) and (iii) offers ways to handle noise in\
+        \ predicted secondary structure during fragment sampling. On a FM dataset\
+        \ from the most recent Critical Assessment of Structure Prediction, we demonstrate\
+        \ that FGRAGSION provides advantages over the state-of-the-art fragment picking\
+        \ protocol of ROSETTA suite by speeding up computation by several orders of\
+        \ magnitude while achieving comparable performance in fragment quality."
+      authors:
+        - name: Bhattacharya D.
+        - name: Adhikari B.
+        - name: Li J.
+        - name: Cheng J.
+      citationCount: 2
+      date: '2016-07-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'FRAGSION: Ultra-fast protein fragment library generation by IOHMM sampling'
+    pmcid: null
+    pmid: '27153697'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+  - term: Machine learning
+    uri: http://edamontology.org/topic_3474
+validated: 1
+version: []

@@ -1,0 +1,82 @@
+accessibility: []
+additionDate: '2015-10-09T16:17:33Z'
+biotoolsCURIE: biotools:seattlesnps
+biotoolsID: seattlesnps
+collectionID:
+  - DRCAT
+cost: null
+credit:
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: codavis@uw.edu
+    name: Colleen Davis
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Database for identifying, genotyping, and modelling the associations
+  between single nucleotide polymorphisms (SNPs) in candidate genes and pathways that
+  underlie inflammatory responses in humans.
+documentation:
+  - note: null
+    type: General
+    url: http://pga.gs.washington.edu/protocols.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Gene symbol
+          uri: http://edamontology.org/data_1026
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+homepage: http://pga.gs.washington.edu/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link: []
+maturity: null
+name: SeattleSNPs variation discovery resource
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: DRCAT
+publication: []
+toolType:
+  - Database portal
+topic:
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Genotype and phenotype
+    uri: http://edamontology.org/topic_0625
+validated: 1
+version: []

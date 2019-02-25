@@ -1,0 +1,92 @@
+accessibility: []
+additionDate: '2017-08-03T18:43:43Z'
+biotoolsCURIE: biotools:fragrus
+biotoolsID: fragrus
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.bioinsilico.org/contact.html
+description: Web application designed to sample alternative protein backbone conformations
+  in loop regions using the geometrical constrains of smotifs.
+documentation:
+  - note: null
+    type: General
+    url: http://www.bioinsilico.org/FRAGRUS/help.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+      - term: Protein structure prediction
+        uri: http://edamontology.org/operation_0474
+    output: []
+homepage: http://www.bioinsilico.org/FRAGRUS/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:44Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/fragrus-extract-and-characterize-supersecondary-or-smotifs-from-protein-structures.html
+maturity: null
+name: Frag r Us
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation The remodeling of short fragment(s) of the protein backbone\
+        \ to accommodate new function(s), fine-tune binding specificities or change/create\
+        \ novel protein interactions is a common task in structure-based computational\
+        \ design. Alternative backbone conformations can be generated de novo or by\
+        \ redeploying existing fragments extracted from protein structures i.e. knowledge-based.\
+        \ We present Frag'r'Us, a web server designed to sample alternative protein\
+        \ backbone conformations in loop regions. The method relies on a database\
+        \ of super secondary structural motifs called smotifs. Thus, sampling of conformations\
+        \ reflects structurally feasible fragments compiled from existing protein\
+        \ structures. \xA9 The Author 2014."
+      authors:
+        - name: Bonet J.
+        - name: Segura J.
+        - name: Planas-Iglesias J.
+        - name: Oliva B.
+        - name: Fernandez-Fuentes N.
+      citationCount: 6
+      date: '2014-07-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'Frag''r''Us: Knowledge-based sampling of protein backbone conformations
+        for de novo structure-based protein design'
+    pmcid: null
+    pmid: '24603983'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+validated: 1
+version: []

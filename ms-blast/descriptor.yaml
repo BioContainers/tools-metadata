@@ -1,0 +1,97 @@
+accessibility: []
+additionDate: '2017-08-03T18:50:07Z'
+biotoolsCURIE: biotools:ms-blast
+biotoolsID: ms-blast
+collectionID: []
+cost: null
+credit:
+  - email: iadzhubey@rics.bwh.harvard.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://genetics.bwh.harvard.edu/genetics/labs/Sunyaev/index.html
+description: "Specialised BLAST \u2013based protocol developed for identification\
+  \ of proteins by sequence similarity searches using peptide sequences produced by\
+  \ the interpretation of tandem mass spectra."
+documentation:
+  - note: null
+    type: Manual
+    url: http://genetics.bwh.harvard.edu/msblast/MS_BLAST_TIPS.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Local alignment
+        uri: http://edamontology.org/operation_0495
+    output: []
+homepage: http://genetics.bwh.harvard.edu/msblast/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:45Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/ms-blast-mass-spectrometry-driven-blast.html
+maturity: null
+name: MS-BLAST
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: MALDI-quadrupole time-of-flight mass spectrometry was applied to identify
+        proteins from organisms whose genomes are still unknown. The identification
+        was carried out by successively searching a sequence database - first with
+        a peptide mass fingerprint, then with a packet of noninterpreted MS/MS spectra,
+        and finally with peptide sequences obtained by automated interpretation of
+        the MS/MS spectra. A "MS BLAST" homology searching protocol was developed
+        to overcome specific limitations imposed by mass spectrometric data, such
+        as the limited accuracy of de novo sequence predictions. This approach was
+        tested in a small-scale proteomic project involving the identification of
+        15 bands of gel-separated proteins from the methylotrophic yeast Pichia pastoris,
+        whose genome has not yet been sequenced and which is only distantly related
+        to other fungi.
+      authors:
+        - name: Shevchenko A.
+        - name: Sunyaev S.
+        - name: Loboda A.
+        - name: Shevchenko A.
+        - name: Bork P.
+        - name: Ens W.
+        - name: Standing K.G.
+      citationCount: 490
+      date: '2001-05-01T00:00:00Z'
+      journal: Analytical Chemistry
+      title: Charting the proteomes of organisms with unsequenced genomes by MALDI-quadrupole
+        time-of-flight mass spectrometry and BLAST homology searching
+    pmcid: null
+    pmid: '11354471'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
+validated: 1
+version: []

@@ -1,0 +1,77 @@
+accessibility: []
+additionDate: '2017-05-16T13:01:20Z'
+biotoolsCURIE: biotools:h_plus_plus_3.0
+biotoolsID: h_plus_plus_3.0
+collectionID: []
+cost: null
+credit:
+  - email: ramu@vt.edu
+    name: Ramu Anandakrishnan
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: H++ is an automated system that computes pK values of ionizable groups
+  in macromolecules and adds missing hydrogen atoms according to the specified pH
+  of the environment. Given a (PDB) structure file on input, H++ outputs the completed
+  structure in several common formats (PDB, PQR, AMBER inpcrd/prmtop) and provides
+  a set of tools for analysis of electrostatic-related molecular properties.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Molecular dynamics simulation
+        uri: http://edamontology.org/operation_2476
+      - term: Nucleic acid structure prediction
+        uri: http://edamontology.org/operation_0475
+      - term: Protein modelling (side chains)
+        uri: http://edamontology.org/operation_0480
+      - term: Protein model validation
+        uri: http://edamontology.org/operation_0321
+      - term: Modelling and simulation
+        uri: http://edamontology.org/operation_2426
+    output: []
+homepage: http://biophysics.cs.vt.edu/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:43Z'
+license: null
+link: []
+maturity: null
+name: H plus plus
+operatingSystem: []
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata: null
+    pmcid: PMC3394296
+    pmid: null
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Molecular dynamics
+    uri: http://edamontology.org/topic_0176
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+  - term: Nucleic acid structure analysis
+    uri: http://edamontology.org/topic_0097
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+validated: 0
+version: []

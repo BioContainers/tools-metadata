@@ -1,0 +1,92 @@
+accessibility: []
+additionDate: '2017-08-03T18:56:06Z'
+biotoolsCURIE: biotools:possum-cis
+biotoolsID: possum-cis
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://zlab.bu.edu/zlab/people.shtml
+description: Predict cis-elements in DNA sequences using the standard method of Position
+  Specific Scoring Matrices. It measures the resemblance of every sequence fragment
+  to the chosen cis-element matrices by calculating log-likelihood ratio scores (base
+  e), and returns high-scoring sequence fragments.
+documentation:
+  - note: null
+    type: General
+    url: https://zlab.bu.edu/~mfrith/possum/#instructions
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Nucleic acid feature detection
+        uri: http://edamontology.org/operation_0415
+    output: []
+homepage: http://zlab.bu.edu/~mfrith/possum/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:44Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/possum-detect-cis-elements-dna-sequences.html
+maturity: null
+name: Possum
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Detecting overrepresented known transcription factor binding motifs\
+        \ in a set of promoter sequences of co-regulated genes has become an important\
+        \ approach to deciphering transcriptional regulatory mechanisms. In this paper,\
+        \ we present an interactive web server, MotifViz, for three motif discovery\
+        \ programs, Clover, Rover and Motifish, covering most available flavors of\
+        \ algorithms for achieving this goal. For comparison, we have also implemented\
+        \ the simple motif-matching program Possum. MotifViz provides uniform and\
+        \ intuitive input and output formats for all four programs. It can be accessed\
+        \ at http://biowulf.bu.edu/MotifViz. \xA9 Oxford University Press 2004; all\
+        \ rights reserved."
+      authors:
+        - name: Fu Y.
+        - name: Frith M.C.
+        - name: Haverty P.M.
+        - name: Weng Z.
+      citationCount: 30
+      date: '2004-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'MotifViz: An analysis and visualization tool for motif discovery'
+    pmcid: null
+    pmid: '15215422'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
+validated: 1
+version: []

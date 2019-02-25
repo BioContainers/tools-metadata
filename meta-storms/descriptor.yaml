@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2017-08-03T18:50:59Z'
+biotoolsCURIE: biotools:meta-storms
+biotoolsID: meta-storms
+collectionID: []
+cost: null
+credit:
+  - email: suxq@qibebt.ac.cn
+    name: Su, Xiaoquan
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://computationalbioenergy.org/index.html
+description: Metagenomic database system toolkit to systematically and efficiently
+  organize and search metagenomic data.
+documentation:
+  - note: null
+    type: General
+    url: http://computationalbioenergy.org/meta-storms.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+    output: []
+homepage: http://computationalbioenergy.org/meta-storms.html
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/meta-storms-1-2-a-metagenomic-database-system-toolkit.html
+maturity: null
+name: Meta-Storms
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: The number of microbial community samples is increasing\
+        \ with exponential speed. Data-mining among microbial community samples could\
+        \ facilitate the discovery of valuable biological information that is still\
+        \ hidden in the massive data. However, current methods for the comparison\
+        \ among microbial communities are limited by their ability to process large\
+        \ amount of samples each with complex community structure.Summary: We have\
+        \ developed an optimized GPU-based software, GPU-Meta-Storms, to efficiently\
+        \ measure the quantitative phylogenetic similarity among massive amount of\
+        \ microbial community samples. Our results have shown that GPU-Meta-Storms\
+        \ would be able to compute the pair-wise similarity scores for 10 240 samples\
+        \ within 20 min, which gained a speed-up of >17 000 times compared with single-core\
+        \ CPU, and >2600 times compared with 16-core CPU. Therefore, the high-performance\
+        \ of GPU-Meta-Storms could facilitate in-depth data mining among massive microbial\
+        \ community samples, and make the real-time analysis and monitoring of temporal\
+        \ or conditional changes for microbial communities possible. \xA9 2013 The\
+        \ Author 2013. Published by Oxford University Press. All rights reserved."
+      authors:
+        - name: Su X.
+        - name: Wang X.
+        - name: Jing G.
+        - name: Ning K.
+      citationCount: 3
+      date: '2014-04-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'GPU-Meta-Storms: Computing the structure similarities among massive
+        amount of microbial community samples using GPU'
+    pmcid: null
+    pmid: '24363375'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Metagenomics
+    uri: http://edamontology.org/topic_3174
+  - term: Ecology
+    uri: http://edamontology.org/topic_0610
+  - term: Phylogeny
+    uri: http://edamontology.org/topic_0084
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
+validated: 1
+version: []

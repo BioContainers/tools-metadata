@@ -1,0 +1,117 @@
+accessibility: []
+additionDate: '2017-08-03T18:47:12Z'
+biotoolsCURIE: biotools:iongap
+biotoolsID: iongap
+collectionID: []
+cost: null
+credit:
+  - email: iongap.adm@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://iongap.hpc.iter.es/iongap
+description: Publicly available integrated pipeline designed for the assembly and
+  subsequent analysis of Ion Torrent bacterial sequence data. Both its components
+  and their configuration are based on a research process aimed to discover the optimal
+  combination of tools for obtaining good results from single-end reads generated
+  by the Ion Torrent PGM sequencer.
+documentation:
+  - note: null
+    type: Manual
+    url: http://iongap.hpc.iter.es/iongap/manual
+  - note: null
+    type: General
+    url: http://iongap.hpc.iter.es/iongap/features
+  - note: null
+    type: General
+    url: http://iongap.hpc.iter.es/iongap/about
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genome assembly
+        uri: http://edamontology.org/operation_0525
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence comparison
+        uri: http://edamontology.org/operation_2451
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Taxonomic classification
+        uri: http://edamontology.org/operation_3460
+    output: []
+homepage: http://iongap.hpc.iter.es/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:43Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/iongap-integrated-genome-analysis-platform-for-ion-torrent-sequence-data.html
+maturity: null
+name: IonGAP
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2015. Published by Oxford University Press. Summary:\
+        \ We introduce IonGAP, a publicly available Web platform designed for the\
+        \ analysis of whole bacterial genomes using Ion Torrent sequence data. Besides\
+        \ assembly, it integrates a variety of comparative genomics, annotation and\
+        \ bacterial classification routines, based on the widely used FASTQ, BAM and\
+        \ SRA file formats. Benchmarking with different datasets evidenced that IonGAP\
+        \ is a fast, powerful and simple-to-use bioinformatics tool. By releasing\
+        \ this platform, we aim to translate low-cost bacterial genome analysis for\
+        \ microbiological prevention and control in healthcare, agroalimentary and\
+        \ pharmaceutical industry applications."
+      authors:
+        - name: Baez-Ortega A.
+        - name: Lorenzo-Diaz F.
+        - name: Hernandez M.
+        - name: Gonzalez-Vila C.I.
+        - name: Roda-Garcia J.L.
+        - name: Colebrook M.
+        - name: Flores C.
+      citationCount: 7
+      date: '2015-02-06T00:00:00Z'
+      journal: Bioinformatics
+      title: 'IonGAP: Integrative bacterial genome analysis for Ion Torrent sequence
+        data'
+    pmcid: null
+    pmid: '25953799'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+  - term: Microbiology
+    uri: http://edamontology.org/topic_3301
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 1
+version: []

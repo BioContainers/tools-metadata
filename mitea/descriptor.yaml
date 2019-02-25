@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2017-08-03T19:07:07Z'
+biotoolsCURIE: biotools:mitea
+biotoolsID: mitea
+collectionID: []
+cost: null
+credit:
+  - email: rnavon@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://bioinfo.cs.technion.ac.il/
+description: Tool for identifying and visualizing enriched miRNA targets in ranked
+  lists of genes.
+documentation:
+  - note: null
+    type: Manual
+    url: http://cbl-gorilla.cs.technion.ac.il/miTEA/help.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Enrichment analysis
+        uri: http://edamontology.org/operation_3501
+    output: []
+homepage: http://cbl-gorilla.cs.technion.ac.il/miTEA/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:46Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/mitea-mirna-target-enrichment-analysis.html
+maturity: null
+name: miTEA
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "microRNAs (miRNAs) are short non-coding regulatory RNA molecules.\
+        \ The activity of a miRNA in a biological process can often be reflected in\
+        \ the expression program that characterizes the outcome of the activity. We\
+        \ introduce a computational approach that infers such activity from high-throughput\
+        \ data using a novel statistical methodology, called minimum-mHG (mmHG), that\
+        \ examines mutual enrichment in two ranked lists. Based on this methodology,\
+        \ we provide a user-friendly web application that supports the statistical\
+        \ assessment of miRNA target enrichment analysis (miTEA) in the top of a ranked\
+        \ list of genes or proteins. Using miTEA, we analyze several target prediction\
+        \ tools by examining performance on public miRNA constitutive expression data.\
+        \ We also apply miTEA to analyze several integrative biology data sets, including\
+        \ a novel matched miRNA/mRNA data set covering nine human tissue types. Our\
+        \ novel findings include proposed direct activity of miR-519 in placenta,\
+        \ a direct activity of the oncogenic miR-15 in different healthy tissue types\
+        \ and a direct activity of the poorly characterized miR-768 in both healthy\
+        \ tissue types and cancer cell lines. \xA9 2012 The Author(s) 2012. Published\
+        \ by Oxford University Press."
+      authors:
+        - name: Steinfeld I.
+        - name: Navon R.
+        - name: Ach R.
+        - name: Yakhini Z.
+      citationCount: 29
+      date: '2013-02-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: MiRNA target enrichment analysis reveals directly active miRNAs in health
+        and disease
+    pmcid: null
+    pmid: '23209027'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Functional, regulatory and non-coding RNA
+    uri: http://edamontology.org/topic_0659
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+validated: 1
+version: []

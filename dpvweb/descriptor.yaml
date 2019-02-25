@@ -1,0 +1,127 @@
+accessibility: []
+additionDate: '2015-09-12T00:08:41Z'
+biotoolsCURIE: biotools:dpvweb
+biotoolsID: dpvweb
+collectionID:
+  - DRCAT
+cost: null
+credit:
+  - email: null
+    name: Rothamsted Research
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: mike.adams@rothamsted.ac.uk
+    name: Mike Adams
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Information about viruses, viroids and satellites of plants, fungi and
+  protozoa, with some additional data on related animal viruses.
+documentation:
+  - note: null
+    type: General
+    url: http://www.dpvweb.net/notes/index.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: DPVweb ID
+          uri: http://edamontology.org/data_2836
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Organism report
+          uri: http://edamontology.org/data_2530
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Family name
+          uri: http://edamontology.org/data_2732
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Organism report
+          uri: http://edamontology.org/data_2530
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Genus name
+          uri: http://edamontology.org/data_1870
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Organism report
+          uri: http://edamontology.org/data_2530
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+homepage: http://www.dpvweb.net/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link: []
+maturity: null
+name: DPVweb database of plant viruses
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: DRCAT
+publication:
+  - doi: 10.1093/nar/gkj023
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Virology
+    uri: http://edamontology.org/topic_0781
+  - term: Plant biology
+    uri: http://edamontology.org/topic_0780
+validated: 1
+version: []

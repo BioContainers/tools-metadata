@@ -1,0 +1,110 @@
+accessibility: []
+additionDate: '2017-08-03T18:45:12Z'
+biotoolsCURIE: biotools:genestitch
+biotoolsID: genestitch
+collectionID: []
+cost: null
+credit:
+  - email: yuwwu@indiana.edu
+    name: Yu-Wei Wu
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://mendel.informatics.indiana.edu/~yye/lab/index.php
+  - email: yye@indiana.edu
+    name: Yuzhen Ye
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Tool to assemble genes using network matching algorithm. Given an already-assembled
+  dataset, it is capable of assembling contigs together to form more complete genes
+  with the help of a reference gene set. Currently the assembly software that is supported
+  SOAPdenovo.
+documentation:
+  - note: null
+    type: General
+    url: http://omics.informatics.indiana.edu/GeneStitch/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genome assembly
+        uri: http://edamontology.org/operation_0525
+    output: []
+homepage: http://omics.informatics.indiana.edu/GeneStitch/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:45Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/genestitch-1-0-network-matching-algorithm-gene-assembly.html
+maturity: null
+name: GeneStitch
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: One of the difficulties in metagenomic assembly is that\
+        \ homologous genes from evolutionarily closely related species may behave\
+        \ like repeats and confuse assemblers. As a result, small contigs, each representing\
+        \ a short gene fragment, instead of complete genes, may be reported by an\
+        \ assembler. This further complicates annotation of metagenomic datasets,\
+        \ as annotation tools (such as gene predictors or similarity search tools)\
+        \ typically perform poorly on configs encoding short gene fragments. Results:\
+        \ We present a novel way of using the de Bruijn graph assembly of metagenomes\
+        \ to improve the assembly of genes. A network matching algorithm is proposed\
+        \ for matching the de Bruijn graph of contigs against reference genes, to\
+        \ derive 'gene paths' in the graph (sequences of contigs containing gene fragments)\
+        \ that have the highest similarities to known genes, allowing gene fragments\
+        \ contained in multiple contigs to be connected to form more complete (or\
+        \ intact) genes. Tests on simulated and real datasets show that our approach\
+        \ (called GeneStitch) is able to significantly improve the assembly of genes\
+        \ from metagenomic sequences, by connecting contigs with the guidance of homologous\
+        \ genes-information that is orthogonal to the sequencing reads. We note that\
+        \ the improvement of gene assembly can be observed even when only distantly\
+        \ related genes are available as the reference. We further propose to use\
+        \ 'gene graphs' to represent the assembly of reads from homologous genes and\
+        \ discuss potential applications of gene graphs to improving functional annotation\
+        \ for metagenomics. \xA9 The Author(s) 2012. Published by Oxford University\
+        \ Press."
+      authors:
+        - name: Wu Y.-W.
+        - name: Rho M.
+        - name: Doak T.G.
+        - name: Ye Y.
+      citationCount: 8
+      date: '2012-09-01T00:00:00Z'
+      journal: Bioinformatics
+      title: Stitching gene fragments with a network matching algorithm improves gene
+        assembly for metagenomics
+    pmcid: null
+    pmid: '22962453'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+validated: 1
+version: []

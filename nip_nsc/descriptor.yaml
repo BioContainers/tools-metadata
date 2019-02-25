@@ -1,0 +1,92 @@
+accessibility: []
+additionDate: '2017-08-03T18:52:22Z'
+biotoolsCURIE: biotools:nip_nsc
+biotoolsID: nip_nsc
+collectionID: []
+cost: null
+credit:
+  - email: dpal@serc.iisc.ernet.in
+    name: Debnath Pal
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Software to identify the NIP (normalized interface packing) and NSc (normalized
+  surface complementarity) at the protein-protein contacts. The software has shows
+  demonstrated performance in discriminating biological interfaces from non-biological
+  one. The time efficient performance of the software allows the integration in the
+  large scale screening of protein-protein contacts.
+documentation:
+  - note: null
+    type: General
+    url: http://pallab.serc.iisc.ernet.in/nip_nsc.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein-protein interaction prediction
+        uri: http://edamontology.org/operation_2464
+    output: []
+homepage: http://pallab.serc.iisc.ernet.in/nip_nsc.html
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:45Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/nip_nsc-dentify-compactness-protein-protein-contacts.html
+maturity: null
+name: NIP_NSc
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "A number of methods exist that use different approaches to assess\
+        \ geometric properties like the surface complementarity and atom packing at\
+        \ the protein-protein interface. We have developed two new and conceptually\
+        \ different measures using the Delaunay tessellation and interface slice selection\
+        \ to compute the surface complementarity and atom packing at the protein-protein\
+        \ interface in a straightforward manner. Our measures show a strong correlation\
+        \ among themselves and with other existing measures, and can be calculated\
+        \ in a highly time-efficient manner. The measures are discriminative for evaluating\
+        \ biological, as well as non-biological protein-protein contacts, especially\
+        \ from large protein complexes and large-scale structural studies (http://pallab.serc.iisc.ernet.in/nip_nsc).\
+        \ \xA9 2010 Federation of European Biochemical Societies."
+      authors:
+        - name: Mitra P.
+        - name: Pal D.
+      citationCount: 13
+      date: '2010-03-01T00:00:00Z'
+      journal: FEBS Letters
+      title: New measures for estimating surface complementarity and packing at protein-protein
+        interfaces
+    pmcid: null
+    pmid: '20153323'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+validated: 1
+version: []

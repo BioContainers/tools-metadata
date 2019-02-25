@@ -1,0 +1,172 @@
+accessibility: []
+additionDate: '2015-10-07T18:41:53Z'
+biotoolsCURIE: biotools:peptideatlas
+biotoolsID: peptideatlas
+collectionID:
+  - DRCAT
+cost: null
+credit:
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.peptideatlas.org/contacts.php
+description: A multi-organism compendium of peptides identified in a large set of
+  tandem mass spectrometry proteomics experiments. Mass spectrometer output files
+  are collected for human, mouse, yeast, and several other organisms, and searched
+  using the latest search engines and protein sequences.
+documentation:
+  - note: null
+    type: General
+    url: http://www.peptideatlas.org/overview.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Ensembl protein ID
+          uri: http://edamontology.org/data_2398
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Ensembl protein ID
+          uri: http://edamontology.org/data_2398
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: XML
+            uri: http://edamontology.org/format_2332
+  - cmd: null
+    input:
+      - data:
+          term: Ensembl protein ID
+          uri: http://edamontology.org/data_2398
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+  - cmd: null
+    input:
+      - data:
+          term: Ensembl protein ID
+          uri: http://edamontology.org/data_2398
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: IPI protein ID
+          uri: http://edamontology.org/data_2384
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Protein report
+          uri: http://edamontology.org/data_0896
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Protein identifier
+          uri: http://edamontology.org/data_0989
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Protein report
+          uri: http://edamontology.org/data_0896
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+homepage: http://www.peptideatlas.org
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link: []
+maturity: null
+name: PeptideAtlas peptide database
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: DRCAT
+publication:
+  - doi: 10.1093/nar/gkj040
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+validated: 1
+version: []

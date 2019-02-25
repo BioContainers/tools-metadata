@@ -1,0 +1,254 @@
+accessibility: []
+additionDate: '2015-09-11T23:18:16Z'
+biotoolsCURIE: biotools:dbest
+biotoolsID: dbest
+collectionID:
+  - DRCAT
+cost: null
+credit:
+  - email: null
+    name: NCBI
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.ncbi.nlm.nih.gov/sites/ehelp?&Ncbi_App=simple-ssi-site-page&Page=static&
+description: Division of GenBank that contains sequence data and other information
+  on "single-pass" cDNA sequences, or "Expressed Sequence Tags", from a number of
+  organisms.
+documentation:
+  - note: null
+    type: General
+    url: https://www.ncbi.nlm.nih.gov/dbEST/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: dbEST accession
+          uri: http://edamontology.org/data_1105
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence record
+          uri: http://edamontology.org/data_0849
+        format:
+          - term: GenBank-HTML
+            uri: http://edamontology.org/format_2532
+  - cmd: null
+    input:
+      - data:
+          term: dbEST accession
+          uri: http://edamontology.org/data_1105
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence record
+          uri: http://edamontology.org/data_0849
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: dbEST accession
+          uri: http://edamontology.org/data_1105
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence record
+          uri: http://edamontology.org/data_0849
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: dbEST accession
+          uri: http://edamontology.org/data_1105
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence record
+          uri: http://edamontology.org/data_0849
+        format:
+          - term: FASTA-HTML
+            uri: http://edamontology.org/format_2310
+  - cmd: null
+    input:
+      - data:
+          term: dbEST accession
+          uri: http://edamontology.org/data_1105
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence record
+          uri: http://edamontology.org/data_0849
+        format:
+          - term: GenBank-HTML
+            uri: http://edamontology.org/format_2532
+  - cmd: null
+    input:
+      - data:
+          term: GI number
+          uri: http://edamontology.org/data_2314
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence record
+          uri: http://edamontology.org/data_0849
+        format:
+          - term: GenBank-HTML
+            uri: http://edamontology.org/format_2532
+  - cmd: null
+    input:
+      - data:
+          term: GI number
+          uri: http://edamontology.org/data_2314
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence record
+          uri: http://edamontology.org/data_0849
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: GI number
+          uri: http://edamontology.org/data_2314
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence record
+          uri: http://edamontology.org/data_0849
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: GI number
+          uri: http://edamontology.org/data_2314
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence record
+          uri: http://edamontology.org/data_0849
+        format:
+          - term: FASTA-HTML
+            uri: http://edamontology.org/format_2310
+  - cmd: null
+    input:
+      - data:
+          term: GI number
+          uri: http://edamontology.org/data_2314
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence record
+          uri: http://edamontology.org/data_0849
+        format:
+          - term: GenBank-HTML
+            uri: http://edamontology.org/format_2532
+homepage: http://www.ncbi.nlm.nih.gov/dbEST/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link: []
+maturity: null
+name: dbEST database of EST sequences
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: DRCAT
+publication:
+  - doi: null
+    metadata:
+      abstract: ''
+      authors:
+        - name: Boguski M.S.
+        - name: Lowe T.M.J.
+        - name: Tolstoshev C.M.
+      citationCount: 1078
+      date: '1993-01-01T00:00:00Z'
+      journal: Nature Genetics
+      title: "dbEST \u2014 database for \u201Cexpressed sequence tags\u201D"
+    pmcid: null
+    pmid: '8401577'
+    type: Primary
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Gene transcripts
+    uri: http://edamontology.org/topic_3512
+validated: 1
+version: []

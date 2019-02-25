@@ -1,0 +1,91 @@
+accessibility: []
+additionDate: '2017-08-03T18:48:41Z'
+biotoolsCURIE: biotools:maestro
+biotoolsID: maestro
+collectionID: []
+cost: null
+credit:
+  - email: Peter.Lackner@sbg.ac.at
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://biwww.che.sbg.ac.at/
+description: Multi AgEnt STability pRedictiOn tool for changes in unfolding free energy
+  upon point mutation.
+documentation:
+  - note: null
+    type: General
+    url: https://biwww.che.sbg.ac.at/?page_id=416
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Prediction and recognition
+        uri: http://edamontology.org/operation_2423
+    output: []
+homepage: https://biwww.che.sbg.ac.at/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:45Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/maestro-multi-agent-stability-prediction-upon-point-mutations.html
+maturity: null
+name: MAESTRO
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2016. Published by Oxford University Press. Summary:\
+        \ The prediction of change in stability upon point mutations in proteins has\
+        \ many applications in protein analysis and engineering. We recently adjoined\
+        \ a new structure-based method called MAESTRO, which is distributed as command\
+        \ line program. We now provide access to the most important features of MAESTRO\
+        \ by an easy to use web service. MAESTROweb allows the prediction of change\
+        \ in stability for user-defined mutations, provides a scan functionality for\
+        \ the most (de)stabilizing n-point mutations for a maximum of n = 5, creates\
+        \ mutation sensitivity profiles and evaluates potential disulfide bonds. MAESTROweb\
+        \ operates on monomers, multimers and biological assemblies as defined by\
+        \ PDB."
+      authors:
+        - name: Laimer J.
+        - name: Hiebl-Flach J.
+        - name: Lengauer D.
+        - name: Lackner P.
+      citationCount: 15
+      date: '2016-05-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'MAESTROweb: A web server for structure-based protein stability prediction'
+    pmcid: null
+    pmid: '26743508'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: DNA mutation
+    uri: http://edamontology.org/topic_2533
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+validated: 1
+version: []

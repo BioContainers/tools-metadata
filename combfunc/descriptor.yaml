@@ -1,0 +1,92 @@
+accessibility: []
+additionDate: '2017-03-25T16:29:46Z'
+biotoolsCURIE: biotools:combfunc
+biotoolsID: combfunc
+collectionID: []
+cost: null
+credit:
+  - email: comfunc@imperial.ac.uk
+    name: Mark Wass
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Automated method for the prediction of protein function. Users can either
+  submit a sequence or use a uniprot identifier.
+documentation:
+  - note: null
+    type: General
+    url: http://www.sbg.bio.ic.ac.uk/~mwass/combfunc/about.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein function prediction
+        uri: http://edamontology.org/operation_1777
+    output: []
+homepage: http://www.sbg.bio.ic.ac.uk/~mwass/combfunc/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:47Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/combfunc-protein-function-prediction-server.html
+maturity: null
+name: CombFunc
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Only a small fraction of known proteins have been functionally characterized,\
+        \ making protein function prediction essential to propose annotations for\
+        \ uncharacterized proteins. In recent years many function prediction methods\
+        \ have been developed using various sources of biological data from protein\
+        \ sequence and structure to gene expression data. Here we present the CombFunc\
+        \ web server, which makes Gene Ontology (GO)-based protein function predictions.\
+        \ CombFunc incorporates ConFunc, our existing function prediction method,\
+        \ with other approaches for function prediction that use protein sequence,\
+        \ gene expression and protein-protein interaction data. In benchmarking on\
+        \ a set of 1686 proteins CombFunc obtains precision and recall of 0.71 and\
+        \ 0.64 respectively for gene ontology molecular function terms. For biological\
+        \ process GO terms precision of 0.74 and recall of 0.41 is obtained. CombFunc\
+        \ is available at http://www.sbg.bio.ic.ac.uk/combfunc. \xA9 2012 The Author(s)."
+      authors:
+        - name: Wass M.N.
+        - name: Barton G.
+        - name: Sternberg M.J.E.
+      citationCount: 29
+      date: '2012-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'CombFunc: Predicting protein function using heterogeneous data sources'
+    pmcid: null
+    pmid: '22641853'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Function analysis
+    uri: http://edamontology.org/topic_1775
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+validated: 1
+version: []

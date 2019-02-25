@@ -1,0 +1,83 @@
+accessibility: []
+additionDate: '2017-04-21T12:12:27Z'
+biotoolsCURIE: biotools:repro
+biotoolsID: repro
+collectionID: []
+cost: null
+credit:
+  - email: heringa@few.vu.nl
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.ibi.vu.nl/
+description: The web application is able to recognise distant repeats in a single
+  query sequence. The technique relies on a variation of the Smith-Waterman local
+  alignment strategy to find non-overlapping top-scoring local alignments, followed
+  by a graph-based iterative clustering procedure to delineate the repeat set(s) based
+  on consistency of the pairwise top-alignments.
+documentation:
+  - note: null
+    type: General
+    url: http://www.ibi.vu.nl/programs/reprowww/info.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Repeat sequence detection
+        uri: http://edamontology.org/operation_0379
+      - term: Local alignment
+        uri: http://edamontology.org/operation_0495
+    output: []
+homepage: http://www.ibi.vu.nl/programs/reprowww/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:44Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/repro-protein-repeats-analysis.html
+maturity: null
+name: REPRO
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: ''
+      authors:
+        - name: George R.A.
+        - name: Heringa J.
+      citationCount: 49
+      date: '2000-10-01T00:00:00Z'
+      journal: Trends in Biochemical Sciences
+      title: 'The REPRO server: Finding protein internal sequence repeats through
+        the Web'
+    pmcid: null
+    pmid: '11203383'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Sequence composition, complexity and repeats
+    uri: http://edamontology.org/topic_0157
+  - term: Nucleic acid structure analysis
+    uri: http://edamontology.org/topic_0097
+validated: 1
+version: []

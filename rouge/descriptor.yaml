@@ -1,0 +1,87 @@
+accessibility: []
+additionDate: '2015-10-07T22:17:55Z'
+biotoolsCURIE: biotools:rouge
+biotoolsID: rouge
+collectionID:
+  - DRCAT
+cost: null
+credit:
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: rouge@kazusa.or.jp
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A sister database of HUGE protein database which has accumulated the
+  results of comprehensive sequence analysis of human long cDNAs (KIAA cDNAs). The
+  database has been created to publicize the information obtained from mouse homologues
+  of the KIAA cDNAs (mKIAA cDNAs).
+documentation:
+  - note: null
+    type: General
+    url: http://www.kazusa.or.jp/rouge/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: mFLJ/mKIAA number
+          uri: http://edamontology.org/data_2393
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+homepage: http://www.kazusa.or.jp/rouge/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link: []
+maturity: null
+name: Rouge
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: DRCAT
+publication:
+  - doi: 10.1093/nar/gkh035
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Model organisms
+    uri: http://edamontology.org/topic_0621
+validated: 1
+version: []

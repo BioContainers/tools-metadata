@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2017-08-03T18:44:28Z'
+biotoolsCURIE: biotools:gnat
+biotoolsID: gnat
+collectionID: []
+cost: null
+credit:
+  - email: gangliu@buffalo.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Open source MATLAB-based toolbox. It provides functions for reading,
+  writing, manipulation, visualization and simulation of glycan structures and glycosylation
+  reaction networks.
+documentation:
+  - note: null
+    type: General
+    url: https://sourceforge.net/projects/gnatmatlab/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Pathway or network prediction
+        uri: http://edamontology.org/operation_3439
+    output: []
+homepage: http://sourceforge.net/projects/gnatmatlab/
+homepage_status: 0
+language:
+  - Java
+  - MATLAB
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/gnat-20121115-glycosylation-network-analysis-toolbox.html
+maturity: null
+name: GNAT
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Summary: Systems glycobiology studies the interaction of various\
+        \ pathways that regulate glycan biosynthesis and function. Software tools\
+        \ for the construction and analysis of such pathways are not yet available.\
+        \ We present GNAT, a platform-independent, user-extensible MATLAB-based toolbox\
+        \ that provides an integrated computational environment to construct, manipulate\
+        \ and simulate glycans and their networks. It enables integration of XML-based\
+        \ glycan structure data into SBML (Systems Biology Markup Language) files\
+        \ that describe glycosylation reaction networks. Curation and manipulation\
+        \ of networks is facilitated using class definitions and glycomics database\
+        \ query tools. High quality visualization of networks and their steady-state\
+        \ and dynamic simulation are also supported.Availability: The software package\
+        \ including source code, help documentation and demonstrations are available\
+        \ at http://sourceforge.net/ projects/gnatmatlab/files/. \xA9 2012 The Author."
+      authors:
+        - name: Liu G.
+        - name: Puri A.
+        - name: Neelamegham S.
+      citationCount: 12
+      date: '2013-02-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'Glycosylation Network Analysis Toolbox: A MATLAB-based environment for
+        systems glycobiology'
+    pmcid: null
+    pmid: '23230149'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+validated: 1
+version: []

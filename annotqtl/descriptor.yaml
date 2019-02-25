@@ -1,0 +1,113 @@
+accessibility: []
+additionDate: '2015-01-21T15:12:26Z'
+biotoolsCURIE: biotools:annotqtl
+biotoolsID: annotqtl
+collectionID: []
+cost: Free of charge
+credit:
+  - email: null
+    name: GenOuest
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: support@genouest.org
+    name: GenOuest
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Tool designed to gather the functional annotation of genes from several
+  institutional databases for a specific chromosomal region.
+documentation:
+  - note: null
+    type: General
+    url: http://annotqtl.genouest.org/tutorial
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence coordinates
+          uri: http://edamontology.org/data_2012
+        format: []
+    note: Gathering of the functional annotation of genes from several institutional
+      databases for a specific chromosomal region
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+    output:
+      - data:
+          term: Nucleic acid features
+          uri: http://edamontology.org/data_1276
+        format: []
+homepage: http://annotqtl.genouest.org/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link: []
+maturity: Mature
+name: AnnotQTL
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: GenOuest
+publication:
+  - doi: 10.1093/nar/gkr361
+    metadata:
+      abstract: "AnnotQTL is a web tool designed to aggregate functional annotations\
+        \ from different prominent web sites by minimizing the redundancy of information.\
+        \ Although thousands of QTL regions have been identified in livestock species,\
+        \ most of them are large and contain many genes. This tool was therefore designed\
+        \ to assist the characterization of genes in a QTL interval region as a step\
+        \ towards selecting the best candidate genes. It localizes the gene to a specific\
+        \ region (using NCBI and Ensembl data) and adds the functional annotations\
+        \ available from other databases (Gene Ontology, Mammalian Phenotype, HGNC\
+        \ and Pubmed). Both human genome and mouse genome can be aligned with the\
+        \ studied region to detect synteny and segment conservation, which is useful\
+        \ for running inter-species comparisons of QTL locations. Finally, custom\
+        \ marker lists can be included in the results display to select the genes\
+        \ that are closest to your most significant markers. We use examples to demonstrate\
+        \ that in just a couple of hours, AnnotQTL is able to identify all the genes\
+        \ located in regions identified by a full genome scan, with some highlighted\
+        \ based on both location and function, thus considerably increasing the chances\
+        \ of finding good candidate genes. AnnotQTL is available at http://annotqtl.genouest.org.\
+        \ \xA9 2011 The Author(s)."
+      authors:
+        - name: Lecerf F.
+        - name: Bretaudeau A.
+        - name: Sallou O.
+        - name: Desert C.
+        - name: Blum Y.
+        - name: Lagarrigue S.
+        - name: Demeure O.
+      citationCount: 7
+      date: '2011-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'AnnotQTL: A new tool to gather functional and comparative information
+        on a genomic region'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Functional genomics
+    uri: http://edamontology.org/topic_0085
+validated: 1
+version:
+  - '1'

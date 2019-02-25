@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2017-08-03T19:03:39Z'
+biotoolsCURIE: biotools:tumorhpd
+biotoolsID: tumorhpd
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://crdd.osdd.net/raghava/tumorhpd/developers.php
+description: Web server for predicting and designing tumor homing peptides. This server
+  is extremely useful for the researchers working in the field of therapeutic peptides.
+documentation:
+  - note: null
+    type: General
+    url: http://crdd.osdd.net/raghava/tumorhpd/help.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+      - term: Protein feature detection
+        uri: http://edamontology.org/operation_3092
+    output: []
+homepage: http://crdd.osdd.net/raghava/tumorhpd/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:45Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/tumorhpd-designing-of-tumor-homing-peptides.html
+maturity: null
+name: TumorHPD
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: Tumor homing peptides are small peptides that home specifically to
+        tumor and tumor associated microenvironment i.e. tumor vasculature, after
+        systemic delivery. Keeping in mind the huge therapeutic importance of these
+        peptides, we have made an attempt to analyze and predict tumor homing peptides.
+        It was observed that certain types of residues are preferred in tumor homing
+        peptides. Therefore, we developed support vector machine based models for
+        predicting tumor homing peptides using amino acid composition and binary profiles
+        of peptides. Amino acid composition, dipeptide composition and binary profile-based
+        models achieved a maximum accuracy of 86.56%, 82.03%, and 84.19% respectively.
+        These methods have been implemented in a user-friendly web server, TumorHPD.
+        We anticipate that this method will be helpful to design novel tumor homing
+        peptides. TumorHPD web server is freely accessible at http://crdd.osdd.net/raghava/tumorhpd/.
+      authors:
+        - name: Sharma A.
+        - name: Kapoor P.
+        - name: Gautam A.
+        - name: Chaudhary K.
+        - name: Kumar R.
+        - name: Chauhan J.S.
+        - name: Tyagi A.
+        - name: Raghava G.P.S.
+      citationCount: 24
+      date: '2013-04-05T00:00:00Z'
+      journal: Scientific Reports
+      title: Computational approach for designing tumor homing peptides
+    pmcid: null
+    pmid: '23558316'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Oncology
+    uri: http://edamontology.org/topic_2640
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+validated: 1
+version: []

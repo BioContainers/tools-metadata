@@ -1,0 +1,111 @@
+accessibility: []
+additionDate: '2017-08-03T18:56:22Z'
+biotoolsCURIE: biotools:proda
+biotoolsID: proda
+collectionID: []
+cost: null
+credit:
+  - email: phuongtm@ptit.edu.vn
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://ai.stanford.edu/~chuongdo
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://ai.stanford.edu/~serafim
+description: Protein multiple aligner that automatically finds domain structures of
+  sequences with shuffled and repeated domain architectures.
+documentation:
+  - note: null
+    type: General
+    url: http://proda.stanford.edu/manual.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+homepage: http://proda.stanford.edu/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:43Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/proda-1-0-protein-multiple-aligner.html
+maturity: null
+name: ProDA
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Multiple sequence alignments are the usual starting point for analyses\
+        \ of protein structure and evolution. For proteins with repeated, shuffled\
+        \ and missing domains, however, traditional multiple sequence alignment algorithms\
+        \ fail to provide an accurate view of homology between related proteins, because\
+        \ they either assume that the input sequences are globally alignable or require\
+        \ locally alignable regions to appear in the same order in all sequences.\
+        \ In this paper, we present ProDA, a novel system for automated detection\
+        \ and alignment of homologous regions in collections of proteins with arbitrary\
+        \ domain architectures. Given an input set of unaligned sequences, ProDA identifies\
+        \ all homologous regions appearing in one or more sequences, and returns a\
+        \ collection of local multiple alignments for these regions. On a subset of\
+        \ the BAliBASE benchmarking suite containing curated alignments of proteins\
+        \ with complicated domain architectures, ProDA performs well in detecting\
+        \ conserved domain boundaries and clustering domain segments, achieving the\
+        \ highest accuracy to date for this task. We conclude that ProDA is a practical\
+        \ tool for automated alignment of protein sequences with repeats and rearrangements\
+        \ in their domain architecture. \xA9 2006 Oxford University Press."
+      authors:
+        - name: Phuong T.M.
+        - name: Do C.B.
+        - name: Edgar R.C.
+        - name: Batzoglou S.
+      citationCount: 33
+      date: '2006-11-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: Multiple alignment of protein sequences with repeats and rearrangements
+    pmcid: null
+    pmid: '17068081'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+  - term: Protein folds and structural domains
+    uri: http://edamontology.org/topic_0736
+validated: 1
+version: []

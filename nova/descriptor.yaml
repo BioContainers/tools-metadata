@@ -1,0 +1,103 @@
+accessibility: []
+additionDate: '2017-08-03T18:52:27Z'
+biotoolsCURIE: biotools:nova
+biotoolsID: nova
+collectionID: []
+cost: null
+credit:
+  - email: ina.koch@bioinformatik.uni-frankfurt.de
+    name: Ina Koch
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.bioinformatik.uni-frankfurt.de/tools/nova/index.php?go=contact
+  - email: h.giese@bioinformatik.uni-frankfurt.de
+    name: Heiko Giese
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.bioinformatik.uni-frankfurt.de/tools/nova/index.php?go=contact
+description: Program designed to analysis complexome profiling data.
+documentation:
+  - note: null
+    type: General
+    url: http://www.bioinformatik.uni-frankfurt.de/tools/nova/index.php
+  - note: null
+    type: Manual
+    url: http://www.bioinformatik.uni-frankfurt.de/tools/nova/index.php?go=tutorials
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+      - term: Data handling
+        uri: http://edamontology.org/operation_2409
+    output: []
+homepage: http://www.bioinformatik.uni-frankfurt.de/tools/nova/index.php
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/nova-visualization-and-analysis-of-complexome-profiling-data.html
+maturity: null
+name: NOVA
+operatingSystem:
+  - Windows
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2014. Published by Oxford University Press. All rights\
+        \ reserved.We introduce nova, a software for the analysis of complexome profiling\
+        \ data. nova supports the investigation of the composition of complexes, cluster\
+        \ analysis of the experimental data, visual inspection and comparison of experiments\
+        \ and many other features. Availability and implementation: nova is licensed\
+        \ under the Artistic License 2.0. It is freely available at http://www.bioinformatik.uni-frankfurt.de.\
+        \ nova requires at least Java 7 and runs under Linux, Microsoft Windows and\
+        \ Mac OS."
+      authors:
+        - name: Giese H.
+        - name: Ackermann J.
+        - name: Heide H.
+        - name: Bleier L.
+        - name: Drose S.
+        - name: Wittig I.
+        - name: Brandt U.
+        - name: Koch I.
+      citationCount: 16
+      date: '2015-07-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'NOVA: A software to analyze complexome profiling data'
+    pmcid: null
+    pmid: '25301849'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Omics
+    uri: http://edamontology.org/topic_3391
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+validated: 1
+version: []

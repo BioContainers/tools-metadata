@@ -1,0 +1,89 @@
+accessibility: []
+additionDate: '2017-01-13T13:14:07Z'
+biotoolsCURIE: biotools:cnd
+biotoolsID: cnd
+collectionID: []
+cost: null
+credit:
+  - email: webmaster@sanger.ac.uk
+    name: Webmaster of CnD
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Program to detect copy number variation in inbred mouse strains.
+documentation: []
+download: []
+editPermission:
+  authors:
+    - ELIXIR-EE
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Operation
+        uri: http://edamontology.org/operation_0004
+    output: []
+homepage: http://www.sanger.ac.uk/science/tools/cnd
+homepage_status: 0
+language:
+  - D
+lastUpdate: '2018-12-10T12:58:47Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: CnD
+operatingSystem: []
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Summary: We have developed an algorithm to detect copy number variants\
+        \ (CNVs) in homozygous organisms, such as inbred laboratory strains of mice,\
+        \ from short read sequence data. Our novel approach exploits the fact that\
+        \ inbred mice are homozygous at virtually every position in the genome to\
+        \ detect CNVs using a hidden Markov model (HMM). This HMM uses both the density\
+        \ of sequence reads mapped to the genome, and the rate of apparent heterozygous\
+        \ single nucleotide polymorphisms, to determine genomic copy number. We tested\
+        \ our algorithm on short read sequence data generated from re-sequencing chromosome\
+        \ 17 of the mouse strains A/J and CAST/EiJ with the Illumina platform. In\
+        \ total, we identified 118 copy number variants (43 for A/J and 75 for CAST/EiJ).\
+        \ We investigated the performance of our algorithm through comparison to CNVs\
+        \ previously identified by array-comparative genomic hybridization (array\
+        \ CGH). We performed quantitative-PCR validation on a subset of the calls\
+        \ that differed from the array CGH data sets. Availability: The software described\
+        \ in this manuscript, named cnD for copy number detector, is free and released\
+        \ under the GPL. The program is implemented in the D programming language\
+        \ using the Tango library. Source code and pre-compiled binaries are available\
+        \ at http://www.sanger.ac.uk/resources/software/cnd.html. Contact: rd@sanger.ac.uk\
+        \ Supplementary information: Supplementary data are available at Bioinformatics\
+        \ online. \xA9 The Author(s) 2009. Published by Oxford University Press."
+      authors:
+        - name: Simpson J.T.
+        - name: McIntyre R.E.
+        - name: Adams D.J.
+        - name: Durbin R.
+      citationCount: 34
+      date: '2009-12-18T00:00:00Z'
+      journal: Bioinformatics
+      title: Copy number variant detection in inbred strains from short read sequence
+        data
+    pmcid: null
+    pmid: '20022973'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Topic
+    uri: http://edamontology.org/topic_0003
+validated: 1
+version: []

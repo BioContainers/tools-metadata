@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2017-05-16T12:57:21Z'
+biotoolsCURIE: biotools:genomescan
+biotoolsID: genomescan
+collectionID: []
+cost: null
+credit:
+  - email: cburge@mit.edu
+    name: Chris Burge
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: 'Program for identifying the exon-intron structures of genes in genomic
+  DNA sequences from a variety of organisms, with a focus on human and other vertebrates.  The
+  algorithm combines two principal sources of information: 1) models of exon-intron
+  and splice signal composition; and 2) sequence similarity information such as BLASTX
+  hits.'
+documentation:
+  - note: null
+    type: General
+    url: http://genes.mit.edu/genomescan/Documentation
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Splicing model analysis
+        uri: http://edamontology.org/operation_2499
+    output: []
+homepage: http://genes.mit.edu/genomescan/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:44Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/genomescan-1-0-prediction-gene-structures-genomic-sequences.html
+maturity: null
+name: GenomeScan
+operatingSystem:
+  - Linux
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: With the human genome sequence approaching completion, a major challenge
+        is to identify the locations and encoded protein sequences of all human genes.
+        To address this problem we have developed a new gene identification algorithm,
+        GenomeScan, which combines exon-intron and splice signal models with similarity
+        to known protein sequences in an integrated model. Extensive testing shows
+        that GenomeScan can accurately identify the exon-intron structures of genes
+        in finished or draft human genome sequence with a low rate of false-positives.
+        Application of GenomeScan to 2.7 billion bases of human genomic DNA identified
+        at least 20,000-25,000 human genes out of an estimated 30,000-40,000 present
+        in the genome. The results show an accurate and efficient automated approach
+        for identifying genes in higher eukaryotic genomes and provide a first-level
+        annotation of the draft human genome.
+      authors:
+        - name: Yeh R.-F.
+        - name: Lim L.P.
+        - name: Burge C.B.
+      citationCount: 247
+      date: '2001-05-01T00:00:00Z'
+      journal: Genome Research
+      title: Computational inference of homologous gene structures in the human genome
+    pmcid: null
+    pmid: '11337476'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: RNA splicing
+    uri: http://edamontology.org/topic_3320
+  - term: Gene structure
+    uri: http://edamontology.org/topic_0114
+validated: 1
+version: []

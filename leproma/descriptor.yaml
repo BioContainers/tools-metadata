@@ -1,0 +1,93 @@
+accessibility: []
+additionDate: '2015-09-30T15:58:09Z'
+biotoolsCURIE: biotools:leproma
+biotoolsID: leproma
+collectionID:
+  - DRCAT
+cost: null
+credit:
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: lmj@pasteur.fr
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Mycobacterium leprae genome database.
+documentation:
+  - note: null
+    type: General
+    url: http://genolist.pasteur.fr/Leproma/help/general.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence accession (nucleic acid)
+          uri: http://edamontology.org/data_1097
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Gene symbol
+          uri: http://edamontology.org/data_1026
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+homepage: http://genolist.pasteur.fr/Leproma/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link: []
+maturity: null
+name: Mycobacterium leprae genome database
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: DRCAT
+publication: []
+toolType:
+  - Database portal
+topic:
+  - term: Model organisms
+    uri: http://edamontology.org/topic_0621
+validated: 1
+version: []

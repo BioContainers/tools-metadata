@@ -1,0 +1,84 @@
+accessibility: []
+additionDate: '2017-01-13T13:16:42Z'
+biotoolsCURIE: biotools:sspace
+biotoolsID: sspace
+collectionID: []
+cost: null
+credit:
+  - email: info@baseclear.com
+    name: SSPACE Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Stand-alone scaffolder of pre-assembled contigs using paired-read data.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Scaffolding
+        uri: http://edamontology.org/operation_3216
+    output: []
+homepage: https://www.baseclear.com/genomics/bioinformatics/basetools/SSPACE
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:44Z'
+license: null
+link: []
+maturity: Mature
+name: SSPACE
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Summary: De novo assembly tools play a main role in reconstructing\
+        \ genomes from next-generation sequencing (NGS) data and usually yield a number\
+        \ of contigs. Using paired-read sequencing data it is possible to assess the\
+        \ order, distance and orientation of contigs and combine them into so-called\
+        \ scaffolds. Although the latter process is a crucial step in finishing genomes,\
+        \ scaffolding algorithms are often built-in functions in de novo assembly\
+        \ tools and cannot be independently controlled. We here present a new tool,\
+        \ called SSPACE, which is a stand-alone scaffolder of pre-assembled contigs\
+        \ using paired-read data. Main features are: a short runtime, multiple library\
+        \ input of paired-end and/or mate pair datasets and possible contig extension\
+        \ with unmapped sequence reads. SSPACE shows promising results on both prokaryote\
+        \ and eukaryote genomic testsets where the amount of initial contigs was reduced\
+        \ by at least 75%. \xA9 The Author 2010. Published by Oxford University Press."
+      authors:
+        - name: Boetzer M.
+        - name: Henkel C.V.
+        - name: Jansen H.J.
+        - name: Butler D.
+        - name: Pirovano W.
+      citationCount: 978
+      date: '2011-02-01T00:00:00Z'
+      journal: Bioinformatics
+      title: Scaffolding pre-assembled contigs using SSPACE
+    pmcid: null
+    pmid: '21149342'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 1
+version: []

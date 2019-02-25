@@ -1,0 +1,101 @@
+accessibility: []
+additionDate: '2017-08-03T18:48:28Z'
+biotoolsCURIE: biotools:lnctar
+biotoolsID: lnctar
+collectionID: []
+cost: null
+credit:
+  - email: cuiqinghua@hsc.pku.edu.cn
+    name: Dr. Qinghua Cui
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.cuilab.cn/
+description: Efficient tool for predicting RNA targets of lncRNAs (Long noncoding
+  RNAs)
+documentation:
+  - note: null
+    type: Manual
+    url: http://www.cuilab.cn/lnctar#help
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Prediction and recognition
+        uri: http://edamontology.org/operation_2423
+    output: []
+homepage: http://www.cuilab.cn/lnctar
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:45Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/lnctar-1-0-predicting-rna-targets-of-lncrnas.html
+maturity: null
+name: LncTar
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2014. Published by Oxford University Press. Long\
+        \ noncoding RNAs (lncRNAs) represent a big category of noncoding RNA molecules,\
+        \ and increasing studies have shown that they play important roles in various\
+        \ critical biological processes. They show a diversity of functions through\
+        \ diverse mechanisms, among which regulating RNA molecules is one of the most\
+        \ popular ones. Given the big number of lncRNAs, it becomes urgent and important\
+        \ to predict the RNA targets of lncRNAs in a large scale for the comprehensive\
+        \ understanding of lncRNA functions and action mechanisms. Although several\
+        \ methods have been developed to predict RNA-RNA interactions, none of them\
+        \ can be used to predict the RNA targets of lncRNAs in a large scale. Here\
+        \ we presented a tool, LncTar, which shows the ability to efficiently predict\
+        \ the RNA targets of lncRNAs in a large scale. To test the accuracy of LncTar,\
+        \ we applied it to 10 experimentally supported lncRNA-mRNA interactions. As\
+        \ a result, LncTar successfully predicted 8 (80%) of the 10 lncRNA-mRNA pairs,\
+        \ suggesting that LncTar has a reliable accuracy. Finally, we believe that\
+        \ LncTar could be an efficient tool for the fast identification of the RNA\
+        \ targets of lncRNAs. LncTar is freely available at http://www.cuilab.cn/lnctar."
+      authors:
+        - name: Li J.
+        - name: Ma W.
+        - name: Zeng P.
+        - name: Wang J.
+        - name: Geng B.
+        - name: Yang J.
+        - name: Cui Q.
+      citationCount: 42
+      date: '2014-01-01T00:00:00Z'
+      journal: Briefings in Bioinformatics
+      title: 'LncTar: A tool for predicting the RNA targets of long noncoding RNAs'
+    pmcid: null
+    pmid: '25524864'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+  - Web application
+topic:
+  - term: Functional, regulatory and non-coding RNA
+    uri: http://edamontology.org/topic_0659
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+validated: 1
+version: []

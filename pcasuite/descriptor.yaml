@@ -1,0 +1,136 @@
+accessibility: []
+additionDate: '2016-10-03T14:08:36Z'
+biotoolsCURIE: biotools:pcasuite
+biotoolsID: pcasuite
+collectionID:
+  - BioExcel
+  - ELIXIR-ES
+cost: Free of charge
+credit:
+  - email: adam.hospital@irbbarcelona.org
+    name: Institute for Research in Biomedicine Barcelona
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: ysharma3@gatech.edu
+    name: Y. Sharma
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://mmb.irbbarcelona.org/
+  - email: hussain.raza@gatech.edu
+    name: S. H. Raza
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Allows the user to compress Molecular Dynamics (MD) trajectories using
+  Principal Component Analysis (PCA) algorithms. This technique offers a good compression
+  ratio at the expense of losing some precision in the trajectory.
+documentation:
+  - note: null
+    type: General
+    url: http://mmb.pcb.ub.es/software/pcasuite/pcasuite.html
+download:
+  - note: null
+    type: Binaries
+    url: http://mmb.pcb.ub.es/software/pcasuite/
+    version: null
+editPermission:
+  authors:
+    - adam.hospital@irbbarcelona.org
+    - gelpi@ub.edu
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Structure
+          uri: http://edamontology.org/data_0883
+        format: []
+    note: null
+    operation:
+      - term: Protein flexibility and motion analysis
+        uri: http://edamontology.org/operation_0244
+    output:
+      - data:
+          term: Structure
+          uri: http://edamontology.org/data_0883
+        format: []
+      - data:
+          term: Report
+          uri: http://edamontology.org/data_2048
+        format: []
+homepage: http://mmb.pcb.ub.edu/software/pcasuite/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:44Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/pcasuite-tool-for-trajectory-compression.html
+maturity: Mature
+name: PCASuite
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: jdianes
+publication:
+  - doi: null
+    metadata:
+      abstract: "We present a generalized tool to mark and preprocess cancerous regions\
+        \ in an image. Currently, tissue biopsies are analyzed and graded manually\
+        \ by expert pathologists and thus can be time consuming and challenging due\
+        \ to variations in tissue morphology, inconsistencies in preparation of tissue\
+        \ specimen and errors in the image acquisition process. Our tool is designed\
+        \ to automatically standardize the variations in different images due to changing\
+        \ illumination and experimental conditions. Segregating cancerous regions\
+        \ from non-cancerous areas is a mandatory step before extracting relevant\
+        \ information from cancer images such as the number and size of nuclei and\
+        \ subsequently using it for classification and quantitative analysis. We tested\
+        \ our tool for two completely different cancers: Head and Neck Cancer (HNC)\
+        \ and Renal Cell Carcinoma (RCC). The tool enables the user to successfully\
+        \ segment the cancerous areas for both types of cancers and our results match\
+        \ with the manual validation by a pathologist. \xA92008 IEEE."
+      authors:
+        - name: Sharma Y.
+        - name: Raza S.H.
+        - name: Kong K.Y.
+        - name: Chaudry Q.
+        - name: Muller S.
+        - name: Young A.N.
+        - name: Chen Z.
+        - name: Wang M.D.
+      citationCount: 0
+      date: '2008-12-01T00:00:00Z'
+      journal: Proceedings of the 30th Annual International Conference of the IEEE
+        Engineering in Medicine and Biology Society, EMBS'08 - "Personalized Healthcare
+        through Technology"
+      title: 'PASuite: A preprocessing algorithm suite for cellular and molecular
+        image classification in cancer diagnosis and treatment'
+    pmcid: null
+    pmid: '19163366'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Molecular dynamics
+    uri: http://edamontology.org/topic_0176
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+validated: 1
+version: []

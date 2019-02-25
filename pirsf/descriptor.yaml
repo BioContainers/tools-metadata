@@ -1,0 +1,88 @@
+accessibility: []
+additionDate: '2015-10-07T18:59:16Z'
+biotoolsCURIE: biotools:pirsf
+biotoolsID: pirsf
+collectionID:
+  - DRCAT
+cost: null
+credit:
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: pirmail@georgetown.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Non-overlapping clustering of UniProtKB sequences into a hierarchical
+  order to reflect their evolutionary relationships. The classification system is
+  based on whole proteins rather than on the component domains therefore, it allows
+  annotation of generic biochemical and specific biological functions, as well as
+  classification of proteins without well-defined domains.
+documentation:
+  - note: null
+    type: General
+    url: http://pir.georgetown.edu/pirwww/support/help.shtml
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: PIRSF ID
+          uri: http://edamontology.org/data_1136
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Protein family report
+          uri: http://edamontology.org/data_0907
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+homepage: http://pir.georgetown.edu/pirwww/dbinfo/pirsf.shtml
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link: []
+maturity: null
+name: PIRSF whole-protein classification database
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: DRCAT
+publication:
+  - doi: 10.1093/nar/gkh097
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Gene and protein families
+    uri: http://edamontology.org/topic_0623
+validated: 1
+version: []

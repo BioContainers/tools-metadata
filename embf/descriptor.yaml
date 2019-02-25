@@ -1,0 +1,81 @@
+accessibility: []
+additionDate: '2017-01-13T13:14:27Z'
+biotoolsCURIE: biotools:embf
+biotoolsID: embf
+collectionID: []
+cost: null
+credit: []
+description: "Frequency-based, de novo short-read clustering method that organizes\
+  \ erroneous short sequences originating in a single abundant sequence into a tree\
+  \ structure; in this structure, each \u201Cchild\u201D sequence is considered to\
+  \ be stochastically derived from its more abundant \u201Cparent\u201D sequence with\
+  \ one mutation through sequencing errors."
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Mapping
+        uri: http://edamontology.org/operation_2429
+    output: []
+homepage: http://seqanswers.com/wiki/SEQanswers
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link: []
+maturity: null
+name: EMBF
+operatingSystem: []
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Background: The emerging next-generation sequencing method based\
+        \ on PCR technology boosts genome sequencing speed considerably, the expense\
+        \ is also get decreased. It has been utilized to address a broad range of\
+        \ bioinformatics problems. Limited by reliable output sequence length of next-generation\
+        \ sequencing technologies, we are confined to study gene fragments with 30\u223C\
+        50 bps in general and it is relatively shorter than traditional gene fragment\
+        \ length. Anchoring gene fragments in long reference sequence is an essential\
+        \ and prerequisite step for further assembly and analysis works. Due to the\
+        \ sheer number of fragments produced by next-generation sequencing technologies\
+        \ and the huge size of reference sequences, anchoring would rapidly becoming\
+        \ a computational bottleneck. Results and discussion: We compared algorithm\
+        \ efficiency on BLAT, SOAP and EMBF. The efficiency is defined as the count\
+        \ of total output results divided by time consumed to retrieve them. The data\
+        \ show that our algorithm EMBF have 3\u223C4 times efficiency advantage over\
+        \ SOAP, and at least 150 times over BLAT. Moreover, when the reference sequence\
+        \ size is increased, the efficiency of SOAP will get degraded as far as 30%,\
+        \ while EMBF have preferable increasing tendency. Conclusion: In conclusion,\
+        \ wedeem that EMBF is more suitable for short fragment anchoring problem where\
+        \ result completeness and accuracy is predominant and the reference sequences\
+        \ are relatively large. \xA9 2009 Wang et al; licensee BioMed Central Ltd."
+      authors:
+        - name: Wang W.
+        - name: Zhang P.
+        - name: Liu X.
+      citationCount: 8
+      date: '2009-01-30T00:00:00Z'
+      journal: BMC Bioinformatics
+      title: Short read DNA fragment anchoring algorithm
+    pmcid: null
+    pmid: '19208116'
+    type: null
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+validated: 1
+version: []

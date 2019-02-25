@@ -1,0 +1,90 @@
+accessibility: []
+additionDate: '2017-01-13T13:16:07Z'
+biotoolsCURIE: biotools:ribopicker
+biotoolsID: ribopicker
+collectionID: []
+cost: null
+credit:
+  - email: redwards@mail.sdsu.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://edwards.sdsu.edu/research/
+description: A tool to automatically identify and efficiently remove rRNA-like sequences
+  from metatranscriptomic datasets. The tool was designed to process longer-read datasets
+  (150+bp read length), but works on 100+bp reads too.
+documentation:
+  - note: null
+    type: Manual
+    url: http://ribopicker.sourceforge.net/manual.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Filtering
+        uri: http://edamontology.org/operation_3695
+    output: []
+homepage: http://ribopicker.sourceforge.net/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:44Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/ribopicker-0-4-3-identification-removal-rrna-like-sequences.html
+maturity: null
+name: riboPicker
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Here, we present riboPicker, a robust framework for the rapid, automated\
+        \ identification and removal of ribosomal RNA sequences from metatranscriptomic\
+        \ datasets. The results can be exported for subsequent analysis, and the databases\
+        \ used for the web-based version are updated on a regular basis. riboPicker\
+        \ categorizes rRNA-like sequences and provides graphical visualizations and\
+        \ tabular outputs of ribosomal coverage, alignment results and taxonomic classifications.\
+        \ \xA9 The Author(s) 2011. Published by Oxford University Press. All rights\
+        \ reserved."
+      authors:
+        - name: Schmieder R.
+        - name: Lim Y.W.
+        - name: Edwards R.
+      citationCount: 76
+      date: '2012-02-01T00:00:00Z'
+      journal: Bioinformatics
+      title: Identification and removal of ribosomal RNA sequences from metatranscriptomes
+    pmcid: null
+    pmid: '22155869'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Metagenomics
+    uri: http://edamontology.org/topic_3174
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+validated: 1
+version: []

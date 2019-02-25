@@ -1,0 +1,113 @@
+accessibility: []
+additionDate: '2017-08-03T18:45:42Z'
+biotoolsCURIE: biotools:gxgscan
+biotoolsID: gxgscan
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: Department of Biostatistics USC
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://keck.usc.edu/preventive-medicine/contact-us/
+description: Performs the two-step GxG test to detect GxG interactions in a genome-wide
+  association study
+documentation:
+  - note: null
+    type: General
+    url: http://biostats.usc.edu/DownloadGxGScan.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Nucleic acid sequence analysis
+        uri: http://edamontology.org/operation_2478
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence annotation
+        uri: http://edamontology.org/operation_0361
+    output: []
+homepage: http://biostats.usc.edu/software
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:44Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/gxgscan-20130418-detect-gxg-interactions-in-a-genome-wide-association-study.html
+maturity: null
+name: GxGscan
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Exhaustive testing of all possible SNP pairs in a genome-wide association\
+        \ study (GWAS) generally yields low power to detect gene-gene (G \xD7 G) interactions\
+        \ because of small effect sizes and stringent requirements for multiple-testing\
+        \ correction. We introduce a new two-step procedure for testing G \xD7 G interactions\
+        \ in case-control GWAS to detect interacting single nucleotide polymorphisms\
+        \ (SNPs) regardless of their marginal effects. In an initial screening step,\
+        \ all SNP pairs are tested for gene-gene association in the combined sample\
+        \ of cases and controls. In the second step, the pairs that pass the screening\
+        \ are followed up with a traditional test for G \xD7 G interaction. We show\
+        \ that the two-step method is substantially more powerful to detect G \xD7\
+        \ G interactions than the exhaustive testing approach. For example, with 2,000\
+        \ cases and 2,000 controls, the two-step method can have more than 90% power\
+        \ to detect an interaction odds ratio of 2.0 compared to less than 50% power\
+        \ for the exhaustive testing approach. Moreover, we show that a hybrid two-step\
+        \ approach that combines our newly proposed two-step test and the two-step\
+        \ test that screens for marginal effects retains the best power properties\
+        \ of both. The two-step procedures we introduce have the potential to uncover\
+        \ genetic signals that have not been previously identified in an initial single-SNP\
+        \ GWAS. We demonstrate the computational feasibility of the two-step G \xD7\
+        \ G procedure by performing a G \xD7 G scan in the asthma GWAS of the University\
+        \ of Southern California Children's Health Study. \xA9 2013 WILEY PERIODICALS,\
+        \ INC."
+      authors:
+        - name: Lewinger J.P.
+        - name: Morrison J.L.
+        - name: Thomas D.C.
+        - name: Murcray C.E.
+        - name: Conti D.V.
+        - name: Li D.
+        - name: Gauderman W.J.
+      citationCount: 12
+      date: '2013-07-01T00:00:00Z'
+      journal: Genetic Epidemiology
+      title: Efficient Two-Step Testing of Gene-Gene Interactions in Genome-Wide Association
+        Studies
+    pmcid: null
+    pmid: '23633124'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+validated: 1
+version: []

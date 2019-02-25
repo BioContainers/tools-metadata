@@ -1,0 +1,91 @@
+accessibility: []
+additionDate: '2017-08-03T18:48:34Z'
+biotoolsCURIE: biotools:luciphor2
+biotoolsID: luciphor2
+collectionID: []
+cost: null
+credit:
+  - email: nesvi@umich.edu
+    name: Alexey I. Nesvizhskii
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.nesvilab.org/
+description: Site localization tool for generic post-translational modifications (PTMs)
+  using tandem mass spectrometry data.
+documentation:
+  - note: null
+    type: General
+    url: http://luciphor2.sourceforge.net/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: PTM localisation
+        uri: http://edamontology.org/operation_3755
+    output: []
+homepage: http://luciphor2.sourceforge.net/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/luciphor2-ptm-site-localization-on-msms-data.html
+maturity: null
+name: Luciphor2
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2014. We present LuciPHOr2, a site localization tool\
+        \ for generic post-translational modifications (PTMs) using tandem mass spectrometry\
+        \ data. As an extension of the original LuciPHOr (version 1) for phosphorylation\
+        \ site localization, the new software provides a site-level localization score\
+        \ for generic PTMs and associated false discovery rate called the false localization\
+        \ rate. We describe several novel features such as operating system independence\
+        \ and reduced computation time through multiple threading. We also discuss\
+        \ optimal parameters for different types of data and illustrate the new tool\
+        \ on a human skeletal muscle dataset for lysine-acetylation."
+      authors:
+        - name: Fermin D.
+        - name: Avtonomov D.
+        - name: Choi H.
+        - name: Nesvizhskii A.I.
+      citationCount: 9
+      date: '2015-04-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'LuciPHOr2: Site localization of generic post-translational modifications
+        from tandem mass spectrometry data'
+    pmcid: null
+    pmid: '25429062'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+  - term: Protein modifications
+    uri: http://edamontology.org/topic_0601
+validated: 1
+version: []

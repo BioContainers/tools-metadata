@@ -1,0 +1,99 @@
+accessibility: []
+additionDate: '2017-08-03T18:50:47Z'
+biotoolsCURIE: biotools:maxflow
+biotoolsID: maxflow
+collectionID: []
+cost: null
+credit:
+  - email: andreas.heger@anat.ox.ac.uk
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://ekhidna.biocenter.helsinki.fi/
+description: A greedy algorithm, using a novel consistency score to estimate the relative
+  likelihood of alternative paths of transitive alignment. In contrast to traditional
+  profile models of amino acid preferences, MaxFlow models the probability that two
+  positions are structurally equivalent and retains high information content across
+  large distances in sequence space.
+documentation:
+  - note: null
+    type: General
+    url: http://ekhidna.biocenter.helsinki.fi/downloads/maxflow
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+homepage: http://ekhidna.biocenter.helsinki.fi/gtg/start
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:44Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/maxflow-0-1-1-alignment-protein-sequences-based-pairwise-consistency.html
+maturity: null
+name: Maxflow
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: Protein sequence alignments are more reliable the shorter the evolutionary
+        distance. Here, we align distantly related proteins using many closely spaced
+        intermediate sequences as stepping stones. Such transitive alignments can
+        be generated between any two proteins in a connected set, whether they are
+        direct or indirect sequence neighbors in the underlying library of pairwise
+        alignments. We have implemented a greedy algorithm, MaxFlow, using a novel
+        consistency score to estimate the relative likelihood of alternative paths
+        of transitive alignment. In contrast to traditional profile models of amino
+        acid preferences, MaxFlow models the probability that two positions are structurally
+        equivalent and retains high information content across large distances in
+        sequence space. Thus, MaxFlow is able to identify sparse and narrow active-site
+        sequence signatures which are embedded in high-entropy sequence segments in
+        the structure based multiple alignment of large diverse enzyme superfamilies.
+        In a challenging benchmark based on the urease superfamily, MaxFlow yields
+        better reliability and double coverage compared to available sequence alignment
+        software. This promises to increase information returns from functional and
+        structural genomics, where reliable sequence alignment is a bottleneck to
+        transferring the functional or structural characterization of model proteins
+        to entire protein superfamilies.
+      authors:
+        - name: Heger A.
+        - name: Lappe M.
+        - name: Holm L.
+      citationCount: 16
+      date: '2004-11-23T00:00:00Z'
+      journal: Journal of Computational Biology
+      title: Accurate detection of very sparse sequence motifs
+    pmcid: null
+    pmid: '15700405'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

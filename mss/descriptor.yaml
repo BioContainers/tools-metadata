@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2017-08-03T18:50:14Z'
+biotoolsCURIE: biotools:mss
+biotoolsID: mss
+collectionID: []
+cost: null
+credit:
+  - email: sheena@iis.sinica.edu.tw
+    name: Cathy S. J. Fann
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.csjfann.ibms.sinica.edu.tw/
+description: R program for the analysis of genome-wide association data.
+documentation:
+  - note: null
+    type: General
+    url: http://www.csjfann.ibms.sinica.edu.tw/eag/programlist/MSS/MSS.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Analysis
+        uri: http://edamontology.org/operation_2945
+    output: []
+homepage: http://www.csjfann.ibms.sinica.edu.tw/eag/programlist/MSS/MSS.html
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/mss-v1-analysis-genome-wide-association-data.html
+maturity: null
+name: MSS
+operatingSystem:
+  - Windows
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Genome-wide association studies (GWAS) have become the method of\
+        \ choice for identifying disease susceptibility genes in common disease genetics\
+        \ research. Despite successes in these studies, much of the heritability remains\
+        \ unexplained due to lack of power and low resolution. High-density genotyping\
+        \ arrays can now screen more than 5 million genetic markers. As a result,\
+        \ multiple comparison has become an important issue especially in the era\
+        \ of next-generation sequencing. We propose to use a two-stage maximal segmental\
+        \ score procedure (MSS) which uses region-specific empirical P-values to identify\
+        \ genomic segments most likely harboring the disease gene. We develop scoring\
+        \ systems based on Fisher's P-value combining method to convert locus-specific\
+        \ significance levels into region-specific scores. Through simulations, our\
+        \ result indicated that MSS increased the power to detect genetic association\
+        \ as compared with conventional methods provided type I error was at 5%. We\
+        \ demonstrated the application of MSS on a publicly available case-control\
+        \ dataset of Parkinson's disease and replicated the findings in the literature.\
+        \ MSS provides an efficient exploratory tool for high-density association\
+        \ data in the current era of next-generation sequencing. R source codes to\
+        \ implement the MSS procedure are freely available at http://www.csjfann.ibms.sinica.edu.tw/EAG/program/programlist.htm.\
+        \ \xA9 2012 Wiley Periodicals, Inc."
+      authors:
+        - name: Lin Y.-C.
+        - name: Hsiao C.-L.
+        - name: Hsieh A.-R.
+        - name: Lian I.-B.
+        - name: Fann C.S.
+      citationCount: 2
+      date: '2012-09-01T00:00:00Z'
+      journal: Genetic Epidemiology
+      title: Using Maximal Segmental Score in Genome-Wide Association Studies
+    pmcid: null
+    pmid: '22807216'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: GWAS study
+    uri: http://edamontology.org/topic_3517
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 1
+version: []

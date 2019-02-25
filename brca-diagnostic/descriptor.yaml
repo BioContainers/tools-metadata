@@ -1,0 +1,85 @@
+accessibility: []
+additionDate: '2017-01-13T13:13:53Z'
+biotoolsCURIE: biotools:brca-diagnostic
+biotoolsID: brca-diagnostic
+collectionID: []
+cost: Free of charge
+credit:
+  - email: info-cbcb@umiacs.umd.edu
+    name: Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A software for testing known mutations in BRCA1 and BRCA2 genes from
+  a whole genome sequencing data.
+documentation: []
+download: []
+editPermission:
+  authors:
+    - ELIXIR-EE
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Polymorphism detection
+        uri: http://edamontology.org/operation_3202
+      - term: Sequence annotation
+        uri: http://edamontology.org/operation_0361
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output: []
+homepage: http://www.cbcb.umd.edu/software/BRCA-diagnostic/
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link: []
+maturity: null
+name: BRCA-diagnostic
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "We developed a computational screen that tests an individual's genome\
+        \ for mutations in the BRCA genes, despite the fact that both are currently\
+        \ protected by patents. \xA9 2010 BioMed Central Ltd."
+      authors:
+        - name: Salzberg S.L.
+        - name: Pertea M.
+      citationCount: 12
+      date: '2010-10-07T00:00:00Z'
+      journal: Genome Biology
+      title: Do-it-yourself genetic testing
+    pmcid: null
+    pmid: '20932271'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Personalised medicine
+    uri: http://edamontology.org/topic_3577
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: Oncology
+    uri: http://edamontology.org/topic_2640
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

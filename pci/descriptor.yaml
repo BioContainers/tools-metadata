@@ -1,0 +1,122 @@
+accessibility: []
+additionDate: '2017-08-03T18:53:46Z'
+biotoolsCURIE: biotools:pci
+biotoolsID: pci
+collectionID: []
+cost: null
+credit:
+  - email: spouge@ncbi.nlm.nih.gov
+    name: John L. Spouge
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.ncbi.nlm.nih.gov/CBBresearch/Spouge/html_ncbi/html/index/group.html
+description: Calculates the barcode gap probability of correct identification (PCI)
+  of species.
+documentation:
+  - note: null
+    type: General
+    url: https://www.ncbi.nlm.nih.gov/CBBresearch/Spouge/html_ncbi/html/barcode_pci/pci.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Species frequency estimation
+        uri: http://edamontology.org/operation_3221
+    output: []
+homepage: http://www.ncbi.nlm.nih.gov/CBBresearch/Spouge/html_ncbi/html/software/program.html?uid=17
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/pci-1-0-calculate-barcode-gap-probability-correct-identification-species.html
+maturity: null
+name: PCI
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: Thailand, a part of the Indo-Burma biodiversity hotspot, has many
+        endemic animals and plants. Some of its fungal species are difficult to recognize
+        and separate, complicating assessments of biodiversity. We assessed species
+        diversity within the fungal genera Annulohypoxylon and Hypoxylon, which produce
+        biologically active and potentially therapeutic compounds, by applying classical
+        taxonomic methods to 552 teleomorphs collected from across Thailand. Using
+        probability of correct identification (PCI), we also assessed the efficacy
+        of automated species identification with a fungal barcode marker, ITS, in
+        the model system of Annulohypoxylon and Hypoxylon. The 552 teleomorphs yielded
+        137 ITS sequences; in addition, we examined 128 GenBank ITS sequences, to
+        assess biases in evaluating a DNA barcode with GenBank data. The use of multiple
+        sequence alignment in a barcode database like BOLD raises some concerns about
+        non-protein barcode markers like ITS, so we also compared species identification
+        using different alignment methods. Our results suggest the following. (1)
+        Multiple sequence alignment of ITS sequences is competitive with pairwise
+        alignment when identifying species, so BOLD should be able to preserve its
+        present bioinformatics workflow for species identification for ITS, and possibly
+        therefore with at least some other non-protein barcode markers. (2) Automated
+        species identification is insensitive to a specific choice of evolutionary
+        distance, contributing to resolution of a current debate in DNA barcoding.
+        (3) Statistical methods are available to address, at least partially, the
+        possibility of expert misidentification of species. Phylogenetic trees discovered
+        a cryptic species and strongly supported monophyletic clades for many Annulohypoxylon
+        and Hypoxylon species, suggesting that ITS can contribute usefully to a barcode
+        for these fungi. The PCIs here, derived solely from ITS, suggest that a fungal
+        barcode will require secondary markers in Annulohypoxylon and Hypoxylon, however.
+        The URL http://tinyurl.com/spouge-barcode contains computer programs and other
+        supplementary material relevant to this article.
+      authors:
+        - name: Suwannasai N.
+        - name: Martin M.P.
+        - name: Phosri C.
+        - name: Sihanonth P.
+        - name: Whalley A.J.S.
+        - name: Spouge J.L.
+      citationCount: 13
+      date: '2013-02-04T00:00:00Z'
+      journal: PLoS ONE
+      title: 'Fungi in Thailand: A Case Study of the Efficacy of an ITS Barcode for
+        Automatically Identifying Species within the Annulohypoxylon and Hypoxylon
+        Genera'
+    pmcid: null
+    pmid: '23390499'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Evolutionary biology
+    uri: http://edamontology.org/topic_3299
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Biodiversity
+    uri: http://edamontology.org/topic_3050
+  - term: Ecology
+    uri: http://edamontology.org/topic_0610
+validated: 1
+version: []

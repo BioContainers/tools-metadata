@@ -1,0 +1,73 @@
+accessibility: []
+additionDate: '2017-08-03T18:56:36Z'
+biotoolsCURIE: biotools:protdes
+biotoolsID: protdes
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://jaramillolab.issb.genopole.fr/display/sbsite/Contact
+description: Open-source software able to automatically mutate any residue positions
+  and find the best amino acids in an arbitrary protein structure without requiring
+  pairwise approximations. It is based on CHARMM and it searches automatically for
+  mutations optimizing a protein folding free energy.
+documentation:
+  - note: null
+    type: General
+    url: http://jaramillolab.issb.genopole.fr/display/sbsite/Download
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein structure prediction
+        uri: http://edamontology.org/operation_0474
+    output: []
+homepage: http://jaramillolab.issb.genopole.fr/display/sbsite/Download
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:43Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/protdes-computational-protein-design-package-macro-for-charmm.html
+maturity: null
+name: ProtDes
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '19572216'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+  - term: Protein folding, stability and design
+    uri: http://edamontology.org/topic_0130
+validated: 1
+version: []

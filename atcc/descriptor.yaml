@@ -1,0 +1,86 @@
+accessibility: []
+additionDate: '2015-09-11T18:49:07Z'
+biotoolsCURIE: biotools:atcc
+biotoolsID: atcc
+collectionID:
+  - DRCAT
+cost: null
+credit:
+  - email: null
+    name: ATCC
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: atcc@lgcstandards.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Global biological materials resource and standards organization whose
+  mission focuses on the acquisition, authentication, production, preservation, development,
+  and distribution of standard reference microorganisms, cell lines, and other materials.
+documentation:
+  - note: null
+    type: General
+    url: https://www.lgcstandards-atcc.org/en/Support/FAQs.aspx
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Identifier
+          uri: http://edamontology.org/data_0842
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Cell line report
+          uri: http://edamontology.org/data_0963
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+homepage: http://www.lgcstandards-atcc.org/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link: []
+maturity: null
+name: American Type Culture Collection (ATCC)
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: DRCAT
+publication: []
+toolType:
+  - Database portal
+topic:
+  - term: Cell biology
+    uri: http://edamontology.org/topic_2229
+validated: 1
+version: []

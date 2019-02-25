@@ -1,0 +1,80 @@
+accessibility: []
+additionDate: '2017-01-13T13:14:47Z'
+biotoolsCURIE: biotools:geneprof
+biotoolsID: geneprof
+collectionID: []
+cost: null
+credit:
+  - email: simon.tomlinson@ed.ac.uk
+    name: Simon Tomlinson
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Web-based, graphical software suite and database resource for high-throughput-sequencing
+  experiments (RNA-seq and ChIP-seq).
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Peak calling
+        uri: http://edamontology.org/operation_3222
+      - term: Visualisation
+        uri: http://edamontology.org/operation_0337
+      - term: Read mapping
+        uri: http://edamontology.org/operation_3198
+      - term: Sequencing quality control
+        uri: http://edamontology.org/operation_3218
+    output: []
+homepage: http://www.geneprof.org/GeneProf/
+homepage_status: 0
+language:
+  - Javascript
+  - Java
+lastUpdate: '2018-12-10T12:58:48Z'
+license: null
+link: []
+maturity: Mature
+name: GeneProf
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: ''
+      authors:
+        - name: Halbritter F.
+        - name: Vaidya H.J.
+        - name: Tomlinson S.R.
+      citationCount: 57
+      date: '2012-01-01T00:00:00Z'
+      journal: Nature Methods
+      title: 'GeneProf: Analysis of high-throughput sequencing experiments'
+    pmcid: null
+    pmid: '22205509'
+    type: null
+    version: null
+toolType:
+  - Web service
+topic:
+  - term: RNA-Seq
+    uri: http://edamontology.org/topic_3170
+  - term: ChIP-seq
+    uri: http://edamontology.org/topic_3169
+validated: 1
+version: []

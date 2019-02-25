@@ -1,0 +1,100 @@
+accessibility: []
+additionDate: '2017-03-25T16:31:30Z'
+biotoolsCURIE: biotools:ogdraw
+biotoolsID: ogdraw
+collectionID: []
+cost: null
+credit:
+  - email: rbock@mpimp-golm.mpg.de
+    name: Ralph Bock
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.mpimp-golm.mpg.de/2168/en
+description: Tool that enables the user to quickly generate high-quality graphical
+  maps of circular DNA sequences. Though especially designed and optimized for the
+  display of small organelle genomes like the chloroplast or mitochondrial genome,
+  it is applicable to all circular DNA sequences. The input data can be provided as
+  GenBank files or GenBank accession numbers.
+documentation:
+  - note: null
+    type: General
+    url: http://ogdraw.mpimp-golm.mpg.de/ssi_faqs.shtml
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: DNA mapping
+        uri: http://edamontology.org/operation_2520
+    output: []
+homepage: http://ogdraw.mpimp-golm.mpg.de/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:44Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/ogdraw-1-1-1-generate-high-quality-graphical-maps-circular-dna-sequences.html
+maturity: null
+name: OGdraw
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Mitochondria and plastids are DNA-containing cell organelles whose\
+        \ genomes occur at high copy numbers per cell. Organellar genomes vary greatly\
+        \ in size ranging from approximately 15 kb for some animal mitochondrial genomes\
+        \ to more than 2 Mb for some plant mitochondrial genomes. The vast majority\
+        \ of organellar genomes map as circular molecules that are difficult to illustrate\
+        \ by available commercial or free software tools. Thus, published genome maps\
+        \ are extremely heterogeneous in design, often tediously drawn semi-manually\
+        \ and lack any consensus in display. Here, we present a new web-based tool,\
+        \ OrganellarGenomeDRAW (OGDRAW), which produces high-resolution custom graphical\
+        \ maps of DNA sequences as stored in standard GenBank format entries. GenBank\
+        \ data can be provided as either file uploads or accession numbers. The program\
+        \ is specially optimized for the display of chloroplast and mitochondrial\
+        \ genomes but can also be used to depict other circular DNA sequences. The\
+        \ design of the program core as a Perl module with an object-oriented interface\
+        \ allows easy integration into custom scripts. \xA9 Springer-Verlag 2007."
+      authors:
+        - name: Lohse M.
+        - name: Drechsel O.
+        - name: Bock R.
+      citationCount: 371
+      date: '2007-11-01T00:00:00Z'
+      journal: Current Genetics
+      title: 'OrganellarGenomeDRAW (OGDRAW): A tool for the easy generation of high-quality
+        custom graphical maps of plastid and mitochondrial genomes'
+    pmcid: null
+    pmid: '17957369'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Cell biology
+    uri: http://edamontology.org/topic_2229
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 1
+version: []

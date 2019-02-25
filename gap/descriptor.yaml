@@ -1,0 +1,107 @@
+accessibility: []
+additionDate: '2017-08-03T18:43:57Z'
+biotoolsCURIE: biotools:gap
+biotoolsID: gap
+collectionID: []
+cost: null
+credit:
+  - email: gromiha@iitm.ac.in
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: "Distinguish between amyloid fibril-forming and amorphous \xDF-aggregating\
+  \ hexapeptides with almost 100 percent accuracies in validation tests performed\
+  \ using non-redundant datasets."
+documentation:
+  - note: null
+    type: General
+    url: https://www.iitm.ac.in/bioinfo/GAP/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein structure prediction
+        uri: http://edamontology.org/operation_0474
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+homepage: http://www.iitm.ac.in/bioinfo/GAP/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:45Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: "http://www.mybiosoftware.com/gap-distinguishing-between-amyloid-fibril-forming-and-amorphous-\xDF\
+      -aggregating-aggregation-prone-regions.html"
+maturity: null
+name: GAP
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: Distinguishing between amyloid fibril-forming and amorphous\
+        \ \u03B2-aggregating aggregation-prone regions (APRs) in proteins and peptides\
+        \ is crucial for designing novel biomaterials and improved aggregation inhibitors\
+        \ for biotechnological and therapeutic purposes. Results: Adjacent and alternate\
+        \ position residue pairs in hexapeptides show distinct preferences for occurrence\
+        \ in amyloid fibrils and amorphous \u03B2-aggregates. These observations were\
+        \ converted into energy potentials that were, in turn, machine learned. The\
+        \ resulting tool, called Generalized Aggregation Proneness (GAP), could successfully\
+        \ distinguish between amyloid fibril-forming and amorphous \u03B2-aggregating\
+        \ hexapeptides with almost 100 percent accuracies in validation tests performed\
+        \ using non-redundant datasets. Conclusion: Accuracies of the predictions\
+        \ made by GAP are significantly improved compared with other methods capable\
+        \ of predicting either general \u03B2-aggregation or amyloid fibril-forming\
+        \ APRs. This work demonstrates that amino acid side chains play important\
+        \ roles in determining the morphological fate of \u03B2-mediated aggregates\
+        \ formed by short peptides. \xA9 2014 The Author 2014."
+      authors:
+        - name: Thangakani A.M.
+        - name: Kumar S.
+        - name: Nagarajan R.
+        - name: Velmurugan D.
+        - name: Gromiha M.M.
+      citationCount: 17
+      date: '2014-07-15T00:00:00Z'
+      journal: Bioinformatics
+      title: "GAP: Towards almost 100 percent prediction for \u03B2-strand-mediated\
+        \ aggregating peptides with distinct morphologies"
+    pmcid: null
+    pmid: '24681906'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

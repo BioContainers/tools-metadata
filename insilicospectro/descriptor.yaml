@@ -1,0 +1,95 @@
+accessibility: []
+additionDate: '2017-08-03T18:47:04Z'
+biotoolsCURIE: biotools:insilicospectro
+biotoolsID: insilicospectro
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: Alexandre Masselot
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://alexandre-masselot.blogspot.com
+description: Proteomics open-source project, aimed at implementing recurrent computations
+  that are necessary for proteomics data analysis.
+documentation:
+  - note: null
+    type: General
+    url: http://cpansearch.perl.org/src/ALEXMASS/InSilicoSpectro-1.3.24/README
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+homepage: http://search.cpan.org/~alexmass/InSilicoSpectro/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:44Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/insilicospectro-1-3-24-open-source-proteomics-library.html
+maturity: null
+name: InSilicoSpectro
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "We present a new proteomics open-source project, InSilicoSpectro,\
+        \ aimed at implementing recurrent computations that are necessary for proteomics\
+        \ data analysis. Illustrative examples are mass list file format conversions,\
+        \ protein sequence digestion, theoretical peptide and fragment mass computations,\
+        \ graphical display, matching with experimental data, isoelectric point estimation,\
+        \ and peptide retention time prediction. The project library is written in\
+        \ Perl, a widely used scripting language in bioinformatics, and it offers\
+        \ a unique framework of integrated objects to implement complex proteomics\
+        \ data analyses. For instance, only a few lines of code are required to digest\
+        \ a protein with fixed and variable modifications, label peptides with 18O,\
+        \ compute the fragmentation spectra and display their match with experimental\
+        \ spectra. We believe that InSilicoSpectro will be of great help to bioinformaticians,\
+        \ without detailed knowledge of proteomics specifics, and to mass spectrometrists\
+        \ with computer programming interest as well. \xA9 2006 American Chemical\
+        \ Society."
+      authors:
+        - name: Colinge J.
+        - name: Masselot A.
+        - name: Carbonell P.
+        - name: Appel R.D.
+      citationCount: 21
+      date: '2006-03-01T00:00:00Z'
+      journal: Journal of Proteome Research
+      title: 'InSilicoSpectro: An open-source proteomics library'
+    pmcid: null
+    pmid: '16512677'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Data architecture, analysis and design
+    uri: http://edamontology.org/topic_3365
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+validated: 1
+version: []

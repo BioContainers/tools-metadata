@@ -1,0 +1,160 @@
+accessibility: []
+additionDate: '2015-09-30T15:48:46Z'
+biotoolsCURIE: biotools:modbase
+biotoolsID: modbase
+collectionID:
+  - DRCAT
+cost: null
+credit:
+  - email: null
+    name: DRCAT
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: null
+  - email: modbase@salilab.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Three-dimensional protein models calculated by comparative modelling.
+documentation:
+  - note: null
+    type: General
+    url: http://modbase.compbio.ucsf.edu/modbase-cgi/display.cgi?type=help&server=modbase
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: UniProt accession
+          uri: http://edamontology.org/data_3021
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Protein structure report
+          uri: http://edamontology.org/data_1537
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: UniProt accession
+          uri: http://edamontology.org/data_3021
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence variations
+          uri: http://edamontology.org/data_3498
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: UniProt accession
+          uri: http://edamontology.org/data_3021
+        format: []
+      - data:
+          term: dbSNP ID
+          uri: http://edamontology.org/data_1106
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Sequence variations
+          uri: http://edamontology.org/data_3498
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+homepage: http://modbase.compbio.ucsf.edu/modbase-cgi/index.cgi
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:49Z'
+license: null
+link: []
+maturity: null
+name: ModBase
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: DRCAT
+publication:
+  - doi: 10.1093/nar/gkt1144
+    metadata:
+      abstract: "ModBase (http://salilab.org/modbase) is a database of annotated comparative\
+        \ protein structure models. The models are calculated by ModPipe, an automated\
+        \ modeling pipeline that relies primarily on Modeller for fold assignment,\
+        \ sequence-structure alignment, model building and model assessment (http://salilab.org/modeller/).\
+        \ ModBase currently contains almost 30 million reliable models for domains\
+        \ in 4.7 million unique protein sequences. ModBase allows users to compute\
+        \ or update comparative models on demand, through an interface to the ModWeb\
+        \ modeling server (http://salilab.org/modweb). ModBase models are also available\
+        \ through the Protein Model Portal (http://www. proteinmodelportal.org/).\
+        \ Recently developed associated resources include the AllosMod server for\
+        \ modeling ligand-induced protein dynamics (http://salilab.org/allosmod),\
+        \ the AllosMod-FoXS server for predicting a structural ensemble that fits\
+        \ an SAXS profile (http://salilab.org/allosmod-foxs) , the FoXSDock server\
+        \ for protein-protein docking filtered by an SAXS profile (http://salilab.org/foxsdock),\
+        \ the SAXS Merge server for automatic merging of SAXS profiles (http://salilab.org/saxsmerge)\
+        \ and the Pose & Rank server for scoring protein-ligand complexes (http://salilab.org/poseandrank).\
+        \ In this update, we also highlight two applications of ModBase: a PSI:Biology\
+        \ initiative to maximize the structural coverage of the human alpha-helical\
+        \ transmembrane proteome and a determination of structural determinants of\
+        \ human immunodeficiency virus-1 protease specificity. \xA9 2013 The Author(s).\
+        \ Published by Oxford University Press."
+      authors:
+        - name: Pieper U.
+        - name: Webb B.M.
+        - name: Dong G.Q.
+        - name: Schneidman-Duhovny D.
+        - name: Fan H.
+        - name: Kim S.J.
+        - name: Khuri N.
+        - name: Spill Y.G.
+        - name: Weinkam P.
+        - name: Hammel M.
+        - name: Tainer J.A.
+        - name: Nilges M.
+        - name: Sali A.
+      citationCount: 97
+      date: '2014-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: ModBase, a database of annotated comparative protein structure models
+        and associated resources
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+validated: 1
+version: []

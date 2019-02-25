@@ -1,0 +1,113 @@
+accessibility: []
+additionDate: '2015-01-21T13:29:23Z'
+biotoolsCURIE: biotools:rnammer
+biotoolsID: rnammer
+collectionID: []
+cost: Free of charge (with restrictions)
+credit:
+  - email: null
+    name: CBS
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: hhs@cbs.dtu.dk
+    name: Hans-Henrik Staerfeldt
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Prediction of 5S/8S, 16S/18S, and 23S/28S ribosomal RNA in full genome
+  sequences.
+documentation:
+  - note: null
+    type: General
+    url: http://www.cbs.dtu.dk/services/RNAmmer/instructions.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+    note: predicts 5s/8s, 16s/18s, and 23s/28s ribosomal RNA in full genome sequences
+    operation:
+      - term: Nucleic acid feature detection
+        uri: http://edamontology.org/operation_0415
+    output:
+      - data:
+          term: Protein features
+          uri: http://edamontology.org/data_1277
+        format:
+          - term: GFF
+            uri: http://edamontology.org/format_2305
+homepage: http://cbs.dtu.dk/services/RNAmmer/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:49Z'
+license: Other
+link:
+  - note: null
+    type: Registry
+    url: http://cbs.dtu.dk/services
+maturity: Emerging
+name: RNAmmer
+operatingSystem:
+  - Linux
+otherID: []
+owner: CBS
+publication:
+  - doi: 10.1093/nar/gkm160
+    metadata:
+      abstract: "The publication of a complete genome sequence is usually accompanied\
+        \ by annotations of its genes. In contrast to protein coding genes, genes\
+        \ for ribosomal RNA (rRNA) are often poorly or inconsistently annotated. This\
+        \ makes comparative studies based on rRNA genes difficult. We have therefore\
+        \ created computational predictors for the major rRNA species from all kingdoms\
+        \ of life and compiled them into a program called RNAmmer. The program uses\
+        \ hidden Markov models trained on data from the 5S ribosomal RNA database\
+        \ and the European ribosomal RNA database project. A pre-screening step makes\
+        \ the method fast with little loss of sensitivity, enabling the analysis of\
+        \ a complete bacterial genome in less than a minute. Results from running\
+        \ RNAmmer on a large set of genomes indicate that the location of rRNAs can\
+        \ be predicted with a very high level of accuracy. Novel, unannotated rRNAs\
+        \ are also predicted in many genomes. The software as well as the genome analysis\
+        \ results are available at the CBS web server. \xA9 2007 The Author(s)."
+      authors:
+        - name: Lagesen K.
+        - name: Hallin P.
+        - name: Rodland E.A.
+        - name: Staerfeldt H.-H.
+        - name: Rognes T.
+        - name: Ussery D.W.
+      citationCount: 2493
+      date: '2007-05-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'RNAmmer: Consistent and rapid annotation of ribosomal RNA genes'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+  - Web application
+  - Web service
+topic:
+  - term: Sequence sites, features and motifs
+    uri: http://edamontology.org/topic_0160
+validated: 1
+version:
+  - '1.2'
