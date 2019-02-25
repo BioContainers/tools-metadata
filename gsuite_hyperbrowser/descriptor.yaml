@@ -5,21 +5,21 @@ biotoolsID: gsuite_hyperbrowser
 collectionID: []
 cost: null
 credit:
-- email: hyperbrowser-bugs@usit.uio.no
-  name: Support
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: hyperbrowser-bugs@usit.uio.no
+    name: Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Includes a range of tools to handle acquisition, processing and analysis
   of collections of genomic tracks, represented in a simple tabular format, GSuite.
   Please proceed in either basic or advanced mode.
 documentation:
-- note: null
-  type: General
-  url: https://hyperbrowser.uio.no/hb/#!mode=basic
+  - note: null
+    type: General
+    url: https://hyperbrowser.uio.no/hb/#!mode=basic
 download: []
 editPermission:
   authors: []
@@ -28,98 +28,99 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence analysis
-    uri: http://edamontology.org/operation_2403
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+    output: []
 homepage: https://hyperbrowser.uio.no/hb/#!mode=basic
 homepage_status: 0
 language:
-- Python
+  - Python
 lastUpdate: '2018-12-10T12:59:00Z'
 license: GPL-3.0
 link: []
 maturity: null
 name: GSuite HyperBrowser
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1093/gigascience/gix032
-  metadata:
-    abstract: '© The Author 2017. Published by Oxford University Press. Background:
-      Recent large-scale undertakings such as ENCODE and Roadmap Epigenomics have
-      generated experimental data mapped to the human reference genome (as genomic
-      tracks) representing a variety of functional elements across a large number
-      of cell types. Despite the high potential value of these publicly available
-      data for a broad variety of investigations, little attention has been given
-      to the analytical methodology necessary for their widespread utilisation. Findings:
-      We here present a first principled treatment of the analysis of collections
-      of genomic tracks. We have developed novel computational and statistical methodology
-      to permit comparative and confirmatory analyses across multiple and disparate
-      data sources. We delineate a set of generic questions that are useful across
-      a broad range of investigations and discuss the implications of choosing different
-      statistical measures and null models. Examples include contrasting analyses
-      across different tissues or diseases. The methodology has been implemented in
-      a comprehensive open-source software system, the GSuite HyperBrowser. To make
-      the functionality accessible to biologists, and to facilitate reproducible analysis,
-      we have also developed a web-based interface providing an expertly guided and
-      customizable way of utilizing the methodology. With this system, many novel
-      biological questions can flexibly be posed and rapidly answered. Conclusions:
-      Through a combination of streamlined data acquisition, interoperable representation
-      of dataset collections, and customizable statistical analysis with guided setup
-      and interpretation, the GSuite HyperBrowser represents a first comprehensive
-      solution for integrative analysis of track collections across the genome and
-      epigenome.'
-    authors:
-    - name: Simovski B.
-    - name: Vodak D.
-    - name: Gundersen S.
-    - name: Domanska D.
-    - name: Azab A.
-    - name: Holden L.
-    - name: Holden M.
-    - name: Grytten I.
-    - name: Rand K.
-    - name: Drablos F.
-    - name: Johansen M.
-    - name: Mora A.
-    - name: Lund-Andersen C.
-    - name: Fromm B.
-    - name: Eskeland R.
-    - name: Gabrielsen O.S.
-    - name: Ferkingstad E.
-    - name: Nakken S.
-    - name: Bengtsen M.
-    - name: Nederbragt A.J.
-    - name: Thorarensen H.S.
-    - name: Akse J.A.
-    - name: Glad I.
-    - name: Hovig E.
-    - name: Sandve G.K.
-    citationCount: 5
-    date: '2017-07-01T00:00:00Z'
-    journal: GigaScience
-    title: 'GSuite HyperBrowser: Integrative analysis of dataset collections across
-      the genome and epigenome'
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1093/gigascience/gix032
+    metadata:
+      abstract: "\xA9 The Author 2017. Published by Oxford University Press. Background:\
+        \ Recent large-scale undertakings such as ENCODE and Roadmap Epigenomics have\
+        \ generated experimental data mapped to the human reference genome (as genomic\
+        \ tracks) representing a variety of functional elements across a large number\
+        \ of cell types. Despite the high potential value of these publicly available\
+        \ data for a broad variety of investigations, little attention has been given\
+        \ to the analytical methodology necessary for their widespread utilisation.\
+        \ Findings: We here present a first principled treatment of the analysis of\
+        \ collections of genomic tracks. We have developed novel computational and\
+        \ statistical methodology to permit comparative and confirmatory analyses\
+        \ across multiple and disparate data sources. We delineate a set of generic\
+        \ questions that are useful across a broad range of investigations and discuss\
+        \ the implications of choosing different statistical measures and null models.\
+        \ Examples include contrasting analyses across different tissues or diseases.\
+        \ The methodology has been implemented in a comprehensive open-source software\
+        \ system, the GSuite HyperBrowser. To make the functionality accessible to\
+        \ biologists, and to facilitate reproducible analysis, we have also developed\
+        \ a web-based interface providing an expertly guided and customizable way\
+        \ of utilizing the methodology. With this system, many novel biological questions\
+        \ can flexibly be posed and rapidly answered. Conclusions: Through a combination\
+        \ of streamlined data acquisition, interoperable representation of dataset\
+        \ collections, and customizable statistical analysis with guided setup and\
+        \ interpretation, the GSuite HyperBrowser represents a first comprehensive\
+        \ solution for integrative analysis of track collections across the genome\
+        \ and epigenome."
+      authors:
+        - name: Simovski B.
+        - name: Vodak D.
+        - name: Gundersen S.
+        - name: Domanska D.
+        - name: Azab A.
+        - name: Holden L.
+        - name: Holden M.
+        - name: Grytten I.
+        - name: Rand K.
+        - name: Drablos F.
+        - name: Johansen M.
+        - name: Mora A.
+        - name: Lund-Andersen C.
+        - name: Fromm B.
+        - name: Eskeland R.
+        - name: Gabrielsen O.S.
+        - name: Ferkingstad E.
+        - name: Nakken S.
+        - name: Bengtsen M.
+        - name: Nederbragt A.J.
+        - name: Thorarensen H.S.
+        - name: Akse J.A.
+        - name: Glad I.
+        - name: Hovig E.
+        - name: Sandve G.K.
+      citationCount: 5
+      date: '2017-07-01T00:00:00Z'
+      journal: GigaScience
+      title: 'GSuite HyperBrowser: Integrative analysis of dataset collections across
+        the genome and epigenome'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
-- term: DNA
-  uri: http://edamontology.org/topic_0654
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
 validated: 1
 version: []

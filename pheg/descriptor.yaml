@@ -5,20 +5,20 @@ biotoolsID: pheg
 collectionID: []
 cost: null
 credit:
-- email: fbguo@uestc.edu.cn
-  name: Feng-Biao Guo
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: fbguo@uestc.edu.cn
+    name: Feng-Biao Guo
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Accurate prediction of human essential genes using only nucleotide composition
   and association information.
 documentation:
-- note: null
-  type: General
-  url: http://cefg.uestc.edu.cn/Pheg/supplement_info/
+  - note: null
+    type: General
+    url: http://cefg.uestc.edu.cn/Pheg/supplement_info/
 download: []
 editPermission:
   authors: []
@@ -27,13 +27,13 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Gene prediction
-    uri: http://edamontology.org/operation_2454
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Gene prediction
+        uri: http://edamontology.org/operation_2454
+    output: []
 homepage: http://cefg.uestc.edu.cn/Pheg/
 homepage_status: 0
 language: []
@@ -43,59 +43,61 @@ link: []
 maturity: null
 name: Pheg
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1093/bioinformatics/btx055
-  metadata:
-    abstract: '© The Author 2017. Published by Oxford University Press. All rights
-      reserved. Motivation: Previously constructed classifiers in predicting eukaryotic
-      essential genes integrated a variety of features including experimental ones.
-      If we can obtain satisfactory prediction using only nucleotide (sequence) information,
-      it would be more promising. Three groups recently identified essential genes
-      in human cancer cell lines using wet experiments and it provided wonderful opportunity
-      to accomplish our idea. Here we improved the Z curve method into the λ-interval
-      form to denote nucleotide composition and association information and used it
-      to construct the SVM classifying model. Results: Our model accurately predicted
-      human gene essentiality with an AUC higher than 0.88 both for 5-fold cross-validation
-      and jackknife tests. These results demonstrated that the essentiality of human
-      genes could be reliably reflected by only sequence information. We re-predicted
-      the negative dataset by our Pheg server and 118 genes were additionally predicted
-      as essential. Among them, 20 were found to be homologues in mouse essential
-      genes, indicating that some of the 118 genes were indeed essential, however
-      previous experiments overlooked them. As the first available server, Pheg could
-      predict essentiality for anonymous gene sequences of human. It is also hoped
-      the λ-interval Z curve method could be effectively extended to classification
-      issues of other DNA elements. Availability and Implementation: http://cefg.uestc.edu.cn/Pheg.'
-    authors:
-    - name: Guo F.-B.
-    - name: Dong C.
-    - name: Hua H.-L.
-    - name: Liu S.
-    - name: Luo H.
-    - name: Zhang H.-W.
-    - name: Jin Y.-T.
-    - name: Zhang K.-Y.
-    citationCount: 5
-    date: '2017-06-15T00:00:00Z'
-    journal: Bioinformatics
-    title: Accurate prediction of human essential genes using only nucleotide composition
-      and association information
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1093/bioinformatics/btx055
+    metadata:
+      abstract: "\xA9 The Author 2017. Published by Oxford University Press. All rights\
+        \ reserved. Motivation: Previously constructed classifiers in predicting eukaryotic\
+        \ essential genes integrated a variety of features including experimental\
+        \ ones. If we can obtain satisfactory prediction using only nucleotide (sequence)\
+        \ information, it would be more promising. Three groups recently identified\
+        \ essential genes in human cancer cell lines using wet experiments and it\
+        \ provided wonderful opportunity to accomplish our idea. Here we improved\
+        \ the Z curve method into the \u03BB-interval form to denote nucleotide composition\
+        \ and association information and used it to construct the SVM classifying\
+        \ model. Results: Our model accurately predicted human gene essentiality with\
+        \ an AUC higher than 0.88 both for 5-fold cross-validation and jackknife tests.\
+        \ These results demonstrated that the essentiality of human genes could be\
+        \ reliably reflected by only sequence information. We re-predicted the negative\
+        \ dataset by our Pheg server and 118 genes were additionally predicted as\
+        \ essential. Among them, 20 were found to be homologues in mouse essential\
+        \ genes, indicating that some of the 118 genes were indeed essential, however\
+        \ previous experiments overlooked them. As the first available server, Pheg\
+        \ could predict essentiality for anonymous gene sequences of human. It is\
+        \ also hoped the \u03BB-interval Z curve method could be effectively extended\
+        \ to classification issues of other DNA elements. Availability and Implementation:\
+        \ http://cefg.uestc.edu.cn/Pheg."
+      authors:
+        - name: Guo F.-B.
+        - name: Dong C.
+        - name: Hua H.-L.
+        - name: Liu S.
+        - name: Luo H.
+        - name: Zhang H.-W.
+        - name: Jin Y.-T.
+        - name: Zhang K.-Y.
+      citationCount: 5
+      date: '2017-06-15T00:00:00Z'
+      journal: Bioinformatics
+      title: Accurate prediction of human essential genes using only nucleotide composition
+        and association information
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Human biology
-  uri: http://edamontology.org/topic_2815
-- term: Genetics
-  uri: http://edamontology.org/topic_3053
-- term: Molecular biology
-  uri: http://edamontology.org/topic_3047
+  - term: Human biology
+    uri: http://edamontology.org/topic_2815
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Molecular biology
+    uri: http://edamontology.org/topic_3047
 validated: 1
 version: []

@@ -1,0 +1,119 @@
+accessibility: []
+additionDate: '2017-12-18T00:12:59Z'
+biotoolsCURIE: biotools:sesaw
+biotoolsID: sesaw
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.ifrec.osaka-u.ac.jp/en/laboratory/systemsimmunology/index.php
+description: Identifying functionally or evolutionarily conserved motifs in protein
+  structures by locating sequence and structural similarities, and quantifying these
+  at the level of individual residues. Results can be visualized in 2D, as annotated
+  alignments, or in 3D, as structural superpositions.
+documentation:
+  - note: null
+    type: General
+    url: https://sysimm.ifrec.osaka-u.ac.jp/sesaw.2.0/about.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Functional mapping
+        uri: http://edamontology.org/operation_0282
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Mapping
+        uri: http://edamontology.org/operation_2429
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Alignment
+        uri: http://edamontology.org/operation_2928
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Query
+        uri: http://edamontology.org/operation_0224
+    output: []
+homepage: http://sysimm.ifrec.osaka-u.ac.jp/sesaw.2.0/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:58Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/sesaw-functional-mapping-sequence-derived-structural-alignment-weights.html
+maturity: null
+name: SeSAW
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: 10.1093/bioinformatics/btq116
+    metadata:
+      abstract: "Motivation: Functional similarity between proteins is evident at\
+        \ both the sequence and structure levels. SeSAW is a web-based program for\
+        \ identifying functionally or evolutionarily conserved motifs in protein structures\
+        \ by locating sequence and structural similarities, and quantifying these\
+        \ at the level of individual residues. Results can be visualized in 2D, as\
+        \ annotated alignments, or in 3D, as structural superpositions. An example\
+        \ is given for both an experimentally determined query structure and a homology\
+        \ model. Availability and Implementation: The web server is located at http://www.pdbj.org/SeSAW/.\
+        \ Contact: standley@ifrec.osaka-u.ac.jp. \xA9 The Author(s) 2010. Published\
+        \ by Oxford University Press."
+      authors:
+        - name: Standley D.M.
+        - name: Yamashita R.
+        - name: Kinjo A.R.
+        - name: Toh H.
+        - name: Nakamura H.
+      citationCount: 9
+      date: '2010-03-17T00:00:00Z'
+      journal: Bioinformatics
+      title: 'SeSAW: Balancing sequence and structural information in protein functional
+        mapping'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+validated: 1
+version:
+  - '2.0'

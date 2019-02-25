@@ -5,22 +5,22 @@ biotoolsID: mendelianrandomization
 collectionID: []
 cost: null
 credit:
-- email: sb452@medschl.cam.ac.uk
-  name: Stephen Burgess
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: sb452@medschl.cam.ac.uk
+    name: Stephen Burgess
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Encodes several methods for performing Mendelian randomization analyses
   with summarized data. Summarized data on genetic associations with the exposure
   and with the outcome can be obtained from large consortia. These data can be used
   for obtaining causal estimates using instrumental variable methods.
 documentation:
-- note: null
-  type: General
-  url: https://cran.r-project.org/web/packages/MendelianRandomization/MendelianRandomization.pdf
+  - note: null
+    type: General
+    url: https://cran.r-project.org/web/packages/MendelianRandomization/MendelianRandomization.pdf
 download: []
 editPermission:
   authors: []
@@ -29,43 +29,43 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Statistical calculation
-    uri: http://edamontology.org/operation_2238
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Statistical calculation
+        uri: http://edamontology.org/operation_2238
+    output: []
 homepage: https://cran.r-project.org/web/packages/MendelianRandomization/
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: null
 link: []
 maturity: null
 name: MendelianRandomization
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1093/ije/dyx034
-  metadata: null
-  pmcid: PMC5510723
-  pmid: '28398548'
-  type: null
-  version: null
+  - doi: 10.1093/ije/dyx034
+    metadata: null
+    pmcid: PMC5510723
+    pmid: '28398548'
+    type: null
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: Genetics
-  uri: http://edamontology.org/topic_3053
-- term: Statistics and probability
-  uri: http://edamontology.org/topic_2269
-- term: Gene expression
-  uri: http://edamontology.org/topic_0203
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
 validated: 1
 version: []

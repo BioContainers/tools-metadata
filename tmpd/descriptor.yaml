@@ -5,19 +5,19 @@ biotoolsID: tmpd
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: Support
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://biodb.sdau.edu.cn/tmpd/contact.html
+  - email: null
+    name: Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://biodb.sdau.edu.cn/tmpd/contact.html
 description: The Tobacco Markers & Primers Database.
 documentation:
-- note: null
-  type: General
-  url: http://biodb.sdau.edu.cn/tmpd/statics.html
+  - note: null
+    type: General
+    url: http://biodb.sdau.edu.cn/tmpd/statics.html
 download: []
 editPermission:
   authors: []
@@ -26,13 +26,13 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Data retrieval
-    uri: http://edamontology.org/operation_2422
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Data retrieval
+        uri: http://edamontology.org/operation_2422
+    output: []
 homepage: http://biodb.sdau.edu.cn/tmpd/index.html
 homepage_status: 0
 language: []
@@ -42,28 +42,28 @@ link: []
 maturity: null
 name: TMPD
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1186/s12864-018-4878-4
-  metadata: null
-  pmcid: PMC6020451
-  pmid: '29945549'
-  type: null
-  version: null
+  - doi: 10.1186/s12864-018-4878-4
+    metadata: null
+    pmcid: PMC6020451
+    pmid: '29945549'
+    type: null
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Data management
-  uri: http://edamontology.org/topic_3071
-- term: Plant biology
-  uri: http://edamontology.org/topic_0780
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
-- term: Sequence sites, features and motifs
-  uri: http://edamontology.org/topic_0160
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
+  - term: Plant biology
+    uri: http://edamontology.org/topic_0780
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Sequence sites, features and motifs
+    uri: http://edamontology.org/topic_0160
 validated: 1
 version: []

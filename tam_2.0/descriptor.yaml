@@ -5,43 +5,43 @@ biotoolsID: tam_2.0
 collectionID: []
 cost: null
 credit:
-- email: lijianwei@hebut.edu.cn
-  name: Dr. Jianwei Li
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: soontide6825@163.com
-  name: Dr. Yuan Zhou
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: cuiqinghua@hsc.pku.edu.cn
-  name: Dr. Qinghua Cui
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: lijianwei@hebut.edu.cn
+    name: Dr. Jianwei Li
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: soontide6825@163.com
+    name: Dr. Yuan Zhou
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: cuiqinghua@hsc.pku.edu.cn
+    name: Dr. Qinghua Cui
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: MicroRNA set analysis. Test the functional and disease annotations of
   miRNAs by overrepresentation analysis, compare the input de-regulated miRNAs with
   those de-regulated in other disease conditions via correlation analysis. Also miRNA
   set query and result visualization are also enabled.
 documentation:
-- note: null
-  type: Training material
-  url: http://www.scse.hebut.edu.cn/tam/#fragment-7
+  - note: null
+    type: Training material
+    url: http://www.scse.hebut.edu.cn/tam/#fragment-7
 download:
-- note: null
-  type: Source code
-  url: http://www.scse.hebut.edu.cn/tam2/Public/static/data/tam_v2.rar
-  version: null
+  - note: null
+    type: Source code
+    url: http://www.scse.hebut.edu.cn/tam2/Public/static/data/tam_v2.rar
+    version: null
 editPermission:
   authors: []
   type: private
@@ -49,27 +49,27 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Enrichment analysis
-    uri: http://edamontology.org/operation_3501
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: microRNA detection
-    uri: http://edamontology.org/operation_0463
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: miRNA expression analysis
-    uri: http://edamontology.org/operation_3792
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Enrichment analysis
+        uri: http://edamontology.org/operation_3501
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: microRNA detection
+        uri: http://edamontology.org/operation_0463
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: miRNA expression analysis
+        uri: http://edamontology.org/operation_3792
+    output: []
 homepage: http://www.scse.hebut.edu.cn/tam/
 homepage_status: 0
 language: []
@@ -82,20 +82,20 @@ operatingSystem: []
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1093/nar/gky509
-  metadata: null
-  pmcid: null
-  pmid: '29878154'
-  type: null
-  version: null
+  - doi: 10.1093/nar/gky509
+    metadata: null
+    pmcid: null
+    pmid: '29878154'
+    type: null
+    version: null
 toolType:
-- Web service
+  - Web service
 topic:
-- term: Functional, regulatory and non-coding RNA
-  uri: http://edamontology.org/topic_0659
-- term: Microarray experiment
-  uri: http://edamontology.org/topic_3518
-- term: Pathology
-  uri: http://edamontology.org/topic_0634
+  - term: Functional, regulatory and non-coding RNA
+    uri: http://edamontology.org/topic_0659
+  - term: Microarray experiment
+    uri: http://edamontology.org/topic_3518
+  - term: Pathology
+    uri: http://edamontology.org/topic_0634
 validated: 1
 version: []

@@ -1,0 +1,97 @@
+accessibility: []
+additionDate: '2017-08-03T18:56:32Z'
+biotoolsCURIE: biotools:probrna
+biotoolsID: probrna
+collectionID: []
+cost: null
+credit:
+  - email: huxihao@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Produce features found to be related to both the secondary and tertiary
+  structures of the RNAs.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/huxihao/ProbRNA
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: RNA structure prediction
+        uri: http://edamontology.org/operation_2441
+    output: []
+homepage: http://hkbic.cuhk.edu.hk/software/probrna
+homepage_status: 0
+language:
+  - R
+  - Perl
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/probrna-1-0-modeling-rna-structure-probing-data.html
+maturity: null
+name: ProbRNA
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: High-throughput sequencing has been used to probe RNA\
+        \ structures, by treating RNAs with reagents that preferentially cleave or\
+        \ mark certain nucleotides according to their local structures, followed by\
+        \ sequencing of the resulting fragments. The data produced contain valuable\
+        \ information for studying various RNA properties.Results: We developed methods\
+        \ for statistically modeling these structure-probing data and extracting structural\
+        \ features from them. We show that the extracted features can be used to predict\
+        \ RNA 'zipcodes' in yeast, regions bound by the She complex in asymmetric\
+        \ localization. The prediction accuracy was better than using raw RNA probing\
+        \ data or sequence features. We further demonstrate the use of the extracted\
+        \ features in identifying binding sites of RNA binding proteins from whole-transcriptome\
+        \ global photoactivatable-ribonucleoside-enhanced cross-linking and immunopurification\
+        \ (gPAR-CLIP) data. \xA9 2014 The Author."
+      authors:
+        - name: Hu X.
+        - name: Wong T.K.F.
+        - name: Lu Z.J.
+        - name: Chan T.F.
+        - name: Lau T.C.K.
+        - name: Yiu S.M.
+        - name: Yip K.Y.
+      citationCount: 2
+      date: '2014-01-01T00:00:00Z'
+      journal: Bioinformatics
+      title: Computational identification of protein binding sites on RNAs using high-throughput
+        RNA structure-probing data
+    pmcid: null
+    pmid: '24376038'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+validated: 1
+version: []

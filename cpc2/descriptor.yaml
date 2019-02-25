@@ -5,25 +5,25 @@ biotoolsID: cpc2
 collectionID: []
 cost: null
 credit:
-- email: cpc@mail.cbi.pku.edu.cn
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: cpc@mail.cbi.pku.edu.cn
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Coding Potential Calculator. Fast and accurate coding potential calculator
   based on sequence intrinsic features.
 documentation:
-- note: null
-  type: General
-  url: http://cpc2.cbi.pku.edu.cn/help.php
+  - note: null
+    type: General
+    url: http://cpc2.cbi.pku.edu.cn/help.php
 download:
-- note: null
-  type: Command-line specification
-  url: http://cpc2.cbi.pku.edu.cn/data/CPC2-beta.tar.gz
-  version: null
+  - note: null
+    type: Command-line specification
+    url: http://cpc2.cbi.pku.edu.cn/data/CPC2-beta.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -31,29 +31,29 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: RNA sequence (raw)
-      uri: http://edamontology.org/data_3496
-    format:
-    - term: BED
-      uri: http://edamontology.org/format_3003
-    - term: GTF
-      uri: http://edamontology.org/format_2306
-    - term: FASTA
-      uri: http://edamontology.org/format_1929
-  note: null
-  operation:
-  - term: Sequence ambiguity calculation
-    uri: http://edamontology.org/operation_0235
-  - term: Sequence feature comparison
-    uri: http://edamontology.org/operation_0256
-  - term: Gene expression profiling
-    uri: http://edamontology.org/operation_0314
-  - term: Sequence feature detection
-    uri: http://edamontology.org/operation_0253
-  output: []
+  - cmd: null
+    input:
+      - data:
+          term: RNA sequence (raw)
+          uri: http://edamontology.org/data_3496
+        format:
+          - term: BED
+            uri: http://edamontology.org/format_3003
+          - term: GTF
+            uri: http://edamontology.org/format_2306
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+    note: null
+    operation:
+      - term: Sequence ambiguity calculation
+        uri: http://edamontology.org/operation_0235
+      - term: Sequence feature comparison
+        uri: http://edamontology.org/operation_0256
+      - term: Gene expression profiling
+        uri: http://edamontology.org/operation_0314
+      - term: Sequence feature detection
+        uri: http://edamontology.org/operation_0253
+    output: []
 homepage: http://cpc2.cbi.pku.edu.cn/
 homepage_status: 0
 language: []
@@ -66,24 +66,24 @@ operatingSystem: []
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1093/nar/gkx428
-  metadata: null
-  pmcid: PMC5793834
-  pmid: '28521017'
-  type: null
-  version: null
+  - doi: 10.1093/nar/gkx428
+    metadata: null
+    pmcid: PMC5793834
+    pmid: '28521017'
+    type: null
+    version: null
 toolType:
-- Command-line tool
-- Web application
+  - Command-line tool
+  - Web application
 topic:
-- term: Functional, regulatory and non-coding RNA
-  uri: http://edamontology.org/topic_0659
-- term: Gene expression
-  uri: http://edamontology.org/topic_0203
-- term: Gene transcripts
-  uri: http://edamontology.org/topic_3512
-- term: RNA
-  uri: http://edamontology.org/topic_0099
+  - term: Functional, regulatory and non-coding RNA
+    uri: http://edamontology.org/topic_0659
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Gene transcripts
+    uri: http://edamontology.org/topic_3512
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
 validated: 1
 version:
-- '2.0'
+  - '2.0'

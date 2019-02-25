@@ -3,30 +3,30 @@ additionDate: '2018-07-17T15:50:10Z'
 biotoolsCURIE: biotools:diffcyt
 biotoolsID: diffcyt
 collectionID:
-- BioConductor
+  - BioConductor
 cost: Free of charge
 credit:
-- email: lukmweber@gmail.com
-  name: Lukas M. Weber
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: lukmweber@gmail.com
+    name: Lukas M. Weber
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Statistical methods for differential discovery analyses in high-dimensional
   cytometry data (including flow cytometry, mass cytometry or CyTOF, and oligonucleotide-tagged
   cytometry), based on (i) high-resolution clustering and (ii) empirical Bayes moderated
   tests adapted from transcriptomics.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/manuals/diffcyt/man/diffcyt.pdf
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/manuals/diffcyt/man/diffcyt.pdf
 download:
-- note: null
-  type: Source package
-  url: http://bioconductor.org/packages/release/bioc/src/contrib/diffcyt_1.0.6.tar.gz
-  version: null
+  - note: null
+    type: Source package
+    url: http://bioconductor.org/packages/release/bioc/src/contrib/diffcyt_1.0.6.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -34,54 +34,54 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Clustering
-    uri: http://edamontology.org/operation_3432
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/diffcyt.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: MIT
 link:
-- note: null
-  type: Mirror
-  url: https://github.com/lmweber/diffcyt
-- note: null
-  type: Issue tracker
-  url: https://github.com/lmweber/diffcyt/issues
-- note: null
-  type: Mirror
-  url: http://bioconductor.org/packages/diffcyt/
-- note: null
-  type: Repository
-  url: https://git.bioconductor.org/packages/diffcyt
+  - note: null
+    type: Mirror
+    url: https://github.com/lmweber/diffcyt
+  - note: null
+    type: Issue tracker
+    url: https://github.com/lmweber/diffcyt/issues
+  - note: null
+    type: Mirror
+    url: http://bioconductor.org/packages/diffcyt/
+  - note: null
+    type: Repository
+    url: https://git.bioconductor.org/packages/diffcyt
 maturity: null
 name: diffcyt
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication:
-- doi: 10.1101/349738
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1101/349738
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: Cell biology
-  uri: http://edamontology.org/topic_2229
-- term: Proteomics
-  uri: http://edamontology.org/topic_0121
+  - term: Cell biology
+    uri: http://edamontology.org/topic_2229
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
 validated: 1
 version:
-- 1.0.6
+  - 1.0.6

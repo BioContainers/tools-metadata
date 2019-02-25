@@ -3,29 +3,29 @@ additionDate: '2018-06-25T06:51:34Z'
 biotoolsCURIE: biotools:annotationfilter
 biotoolsID: annotationfilter
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: maintainer@bioconductor.org
-  name: Bioconductor Maintainer
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: maintainer@bioconductor.org
+    name: Bioconductor Maintainer
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: It provides class and other infrastructure to implement filters for manipulating
   Bioconductor annotation resources. The filters will be used by ensembldb, Organism.dplyr,
   and other packages.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/manuals/AnnotationFilter/man/AnnotationFilter.pdf
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/manuals/AnnotationFilter/man/AnnotationFilter.pdf
 download:
-- note: null
-  type: Source package
-  url: http://bioconductor.org/packages/release/bioc/src/contrib/AnnotationFilter_1.4.0.tar.gz
-  version: null
+  - note: null
+    type: Source package
+    url: http://bioconductor.org/packages/release/bioc/src/contrib/AnnotationFilter_1.4.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -33,40 +33,40 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Annotation
-    uri: http://edamontology.org/operation_0226
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Annotation
+        uri: http://edamontology.org/operation_0226
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/AnnotationFilter.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: Artistic-2.0
 link:
-- note: null
-  type: Repository
-  url: https://github.com/Bioconductor/AnnotationFilter
-- note: null
-  type: Mirror
-  url: http://bioconductor.org/packages/AnnotationFilter/
+  - note: null
+    type: Repository
+    url: https://github.com/Bioconductor/AnnotationFilter
+  - note: null
+    type: Mirror
+    url: http://bioconductor.org/packages/AnnotationFilter/
 maturity: null
 name: AnnotationFilter
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication: []
 toolType:
-- Library
+  - Library
 topic:
-- term: Data submission, annotation and curation
-  uri: http://edamontology.org/topic_0219
+  - term: Data submission, annotation and curation
+    uri: http://edamontology.org/topic_0219
 validated: 1
 version:
-- 1.4.0
+  - 1.4.0

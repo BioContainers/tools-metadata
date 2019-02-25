@@ -5,14 +5,14 @@ biotoolsID: easeq
 collectionID: []
 cost: null
 credit:
-- email: mads.lerdrup@bric.ku.dk
-  name: Mads Lerdrup
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: mads.lerdrup@bric.ku.dk
+    name: Mads Lerdrup
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: 'Developed for user-friendly exploration, visualization and analysis
   of genome-wide single-read sequencing data.
 
@@ -23,9 +23,9 @@ description: 'Developed for user-friendly exploration, visualization and analysi
   legends and descriptions of the handling and can store plots together with underlying
   data and these descriptions as a single compact session file.'
 documentation:
-- note: null
-  type: General
-  url: https://easeq.net/about/
+  - note: null
+    type: General
+    url: https://easeq.net/about/
 download: []
 editPermission:
   authors: []
@@ -34,33 +34,33 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Peak calling
-    uri: http://edamontology.org/operation_3222
-  - term: Visualisation
-    uri: http://edamontology.org/operation_0337
-  - term: Regression analysis
-    uri: http://edamontology.org/operation_3659
-  - term: Genome visualisation
-    uri: http://edamontology.org/operation_3208
-  - term: Gene-set enrichment analysis
-    uri: http://edamontology.org/operation_2436
-  - term: Genome comparison
-    uri: http://edamontology.org/operation_3209
-  - term: Clustering
-    uri: http://edamontology.org/operation_3432
-  - term: Filtering
-    uri: http://edamontology.org/operation_3695
-  - term: Sequencing quality control
-    uri: http://edamontology.org/operation_3218
-  - term: Read summarisation
-    uri: http://edamontology.org/operation_3793
-  - term: Formatting
-    uri: http://edamontology.org/operation_0335
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Peak calling
+        uri: http://edamontology.org/operation_3222
+      - term: Visualisation
+        uri: http://edamontology.org/operation_0337
+      - term: Regression analysis
+        uri: http://edamontology.org/operation_3659
+      - term: Genome visualisation
+        uri: http://edamontology.org/operation_3208
+      - term: Gene-set enrichment analysis
+        uri: http://edamontology.org/operation_2436
+      - term: Genome comparison
+        uri: http://edamontology.org/operation_3209
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+      - term: Filtering
+        uri: http://edamontology.org/operation_3695
+      - term: Sequencing quality control
+        uri: http://edamontology.org/operation_3218
+      - term: Read summarisation
+        uri: http://edamontology.org/operation_3793
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output: []
 homepage: http://easeq.net
 homepage_status: 0
 language: []
@@ -70,45 +70,45 @@ link: []
 maturity: Mature
 name: EaSeq
 operatingSystem:
-- Windows
+  - Windows
 otherID: []
 owner: seqwiki_import
 publication:
-- doi: null
-  metadata:
-    abstract: © 2016 Nature America, Inc. All rights reserved. To empower experimentalists
-      with a means for fast and comprehensive chromatin immunoprecipitation sequencing
-      (ChIP-seq) data analyses, we introduce an integrated computational environment,
-      EaSeq. The software combines the exploratory power of genome browsers with an
-      extensive set of interactive and user-friendly tools for genome-wide abstraction
-      and visualization. It enables experimentalists to easily extract information
-      and generate hypotheses from their own data and public genome-wide datasets.
-      For demonstration purposes, we performed meta-analyses of public Polycomb ChIP-seq
-      data and established a new screening approach to analyze more than 900 datasets
-      from mouse embryonic stem cells for factors potentially associated with Polycomb
-      recruitment. EaSeq, which is freely available and works on a standard personal
-      computer, can substantially increase the throughput of many analysis workflows,
-      facilitate transparency and reproducibility by automatically documenting and
-      organizing analyses, and enable a broader group of scientists to gain insights
-      from ChIP-seq data.
-    authors:
-    - name: Lerdrup M.
-    - name: Johansen J.V.
-    - name: Agrawal-Singh S.
-    - name: Hansen K.
-    citationCount: 32
-    date: '2016-04-05T00:00:00Z'
-    journal: Nature Structural and Molecular Biology
-    title: An interactive environment for agile analysis and visualization of ChIP-sequencing
-      data
-  pmcid: null
-  pmid: '26926434'
-  type: null
-  version: null
+  - doi: null
+    metadata:
+      abstract: "\xA9 2016 Nature America, Inc. All rights reserved. To empower experimentalists\
+        \ with a means for fast and comprehensive chromatin immunoprecipitation sequencing\
+        \ (ChIP-seq) data analyses, we introduce an integrated computational environment,\
+        \ EaSeq. The software combines the exploratory power of genome browsers with\
+        \ an extensive set of interactive and user-friendly tools for genome-wide\
+        \ abstraction and visualization. It enables experimentalists to easily extract\
+        \ information and generate hypotheses from their own data and public genome-wide\
+        \ datasets. For demonstration purposes, we performed meta-analyses of public\
+        \ Polycomb ChIP-seq data and established a new screening approach to analyze\
+        \ more than 900 datasets from mouse embryonic stem cells for factors potentially\
+        \ associated with Polycomb recruitment. EaSeq, which is freely available and\
+        \ works on a standard personal computer, can substantially increase the throughput\
+        \ of many analysis workflows, facilitate transparency and reproducibility\
+        \ by automatically documenting and organizing analyses, and enable a broader\
+        \ group of scientists to gain insights from ChIP-seq data."
+      authors:
+        - name: Lerdrup M.
+        - name: Johansen J.V.
+        - name: Agrawal-Singh S.
+        - name: Hansen K.
+      citationCount: 32
+      date: '2016-04-05T00:00:00Z'
+      journal: Nature Structural and Molecular Biology
+      title: An interactive environment for agile analysis and visualization of ChIP-sequencing
+        data
+    pmcid: null
+    pmid: '26926434'
+    type: null
+    version: null
 toolType:
-- Desktop application
+  - Desktop application
 topic:
-- term: ChIP-seq
-  uri: http://edamontology.org/topic_3169
+  - term: ChIP-seq
+    uri: http://edamontology.org/topic_3169
 validated: 1
 version: []

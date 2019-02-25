@@ -1,0 +1,90 @@
+accessibility: []
+additionDate: '2017-08-03T18:35:37Z'
+biotoolsCURIE: biotools:aim
+biotoolsID: aim
+collectionID: []
+cost: null
+credit: []
+description: The Automatic Image Processing for Microarrays tool is designed for uncalibrated
+  microarray gridding and quantitative image analysis. Uncalibrated microarray image
+  analysis supports integration of expression data from different sources and can
+  improve reproducibility.
+documentation:
+  - note: null
+    type: General
+    url: https://bibiserv.cebitec.uni-bielefeld.de/aim
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Image analysis
+        uri: http://edamontology.org/operation_3443
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Expression data rendering
+        uri: http://edamontology.org/operation_0571
+    output: []
+homepage: http://bibiserv.techfak.uni-bielefeld.de/aim/
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/aim-0-82-automatic-image-processing-microarrays.html
+maturity: null
+name: AIM
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: This paper describes image processing methods for automatic spotted
+        microarray image analysis. Automatic gridding is important to achieve constant
+        data quality and is, therefore, especially interesting for large-scale experiments
+        as well as for integration of microarray expression data from different sources.
+        We propose a Markov random field (MRF) based approach to high-level grid segmentation,
+        which is robust to common problems encountered with array images and does
+        not require calibration. We also propose an active contour method for single-spot
+        segmentation. Active contour models describe objects in images by properties
+        of their boundaries. Both MRFs and active contour models have been used in
+        various other computer vision applications. The traditional active contour
+        model must be generalized for successful application to microarray spot segmentation.
+        Our active contour model is employed for spot detection in the MRF score functions
+        as well as for spot signal segmentation in quantitative array image analysis.
+        An evaluation using several image series from different sources shows the
+        robustness of our methods.
+      authors:
+        - name: Katzer M.
+        - name: Kummert F.
+        - name: Sagerer G.
+      citationCount: 61
+      date: '2003-01-01T00:00:00Z'
+      journal: IEEE Transactions on Nanobioscience
+      title: Methods for automatic microarray image segmentation
+    pmcid: null
+    pmid: '15376910'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Microarray experiment
+    uri: http://edamontology.org/topic_3518
+validated: 1
+version: []

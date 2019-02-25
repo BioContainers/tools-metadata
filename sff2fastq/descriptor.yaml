@@ -1,0 +1,69 @@
+accessibility: []
+additionDate: '2017-01-13T13:16:25Z'
+biotoolsCURIE: biotools:sff2fastq
+biotoolsID: sff2fastq
+collectionID: []
+cost: null
+credit:
+  - email: indraniel@gmail.com
+    name: Indraniel Das
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: idas@wustl.edu
+    name: Indraniel Das
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: The program extracts read information from a SFF file, produced by the
+  454 genome sequencer, and outputs the sequences and quality scores in a FASTQ format.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/indraniel/sff2fastq/blob/master/README.md
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence assembly
+        uri: http://edamontology.org/operation_0310
+    output: []
+homepage: https://github.com/indraniel/sff2fastq
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:58Z'
+license: null
+link: []
+maturity: Mature
+name: Sff2fastq
+operatingSystem:
+  - Linux
+otherID: []
+owner: seqwiki_import
+publication: []
+toolType:
+  - Script
+topic:
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

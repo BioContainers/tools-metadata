@@ -5,21 +5,21 @@ biotoolsID: tripal_elasticsearch
 collectionID: []
 cost: null
 credit:
-- email: mstaton1@utk.edu
-  name: Margaret Staton
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: mstaton1@utk.edu
+    name: Margaret Staton
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: The module allows you to easily manage the indexing and display of Elasticsearch
   on your Tripal website. It also easily enables Cross-Site Querying, allowing you
   to connect to other Tripal sites and provide additional search results to your users.
 documentation:
-- note: null
-  type: Manual
-  url: https://github.com/tripal/tripal_elasticsearch/blob/master/docs/README.md
+  - note: null
+    type: Manual
+    url: https://github.com/tripal/tripal_elasticsearch/blob/master/docs/README.md
 download: []
 editPermission:
   authors: []
@@ -28,41 +28,41 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Service composition
-    uri: http://edamontology.org/operation_3762
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Service composition
+        uri: http://edamontology.org/operation_3762
+    output: []
 homepage: https://github.com/tripal/tripal_elasticsearch
 homepage_status: 0
 language:
-- Javascript
+  - Javascript
 lastUpdate: '2018-12-10T12:59:00Z'
 license: GPL-3.0
 link: []
 maturity: null
 name: Tripal Elasticsearch
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1093/database/bax052
-  metadata: null
-  pmcid: PMC5532966
-  pmid: '29220446'
-  type: null
-  version: null
+  - doi: 10.1093/database/bax052
+    metadata: null
+    pmcid: PMC5532966
+    pmid: '29220446'
+    type: null
+    version: null
 toolType:
-- Plug-in
+  - Plug-in
 topic:
-- term: Data management
-  uri: http://edamontology.org/topic_3071
-- term: Database management
-  uri: http://edamontology.org/topic_3489
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
 validated: 0
 version: []

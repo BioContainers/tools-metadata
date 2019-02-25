@@ -1,0 +1,102 @@
+accessibility: []
+additionDate: '2017-08-03T18:37:11Z'
+biotoolsCURIE: biotools:bstools
+biotoolsID: bstools
+collectionID: []
+cost: null
+credit:
+  - email: wang.zheng@yale.edu
+    name: Zheng Wang
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://mysbfiles.stonybrook.edu/~xuefenwang/
+description: Sequential trimming-and-retrieving alignment approach for investigating
+  DNA methylation patterns, which significantly improves the number of mapped reads
+  and covered CpG sites.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/xfwang/BStools
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence trimming
+        uri: http://edamontology.org/operation_3192
+    output: []
+homepage: https://github.com/xfwang/BStools
+homepage_status: 0
+language:
+  - Shell
+  - C++
+  - Perl
+  - Python
+  - C
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/bstools-bisulfite-sequencing-tools.html
+maturity: null
+name: BStools
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2015. Published by Oxford University Press. Summary:\
+        \ Currently available bisulfite sequencing tools frequently suffer from low\
+        \ mapping rates and low methylation calls, especially for data generated from\
+        \ the Illumina sequencer, NextSeq. Here, we introduce a sequential trimming-and-retrieving\
+        \ alignment approach for investigating DNA methylation patterns, which significantly\
+        \ improves the number of mapped reads and covered CpG sites. The method is\
+        \ implemented in an automated analysis toolkit for processing bisulfite sequencing\
+        \ reads."
+      authors:
+        - name: Wang X.
+        - name: Yu X.
+        - name: Zhu W.
+        - name: Mccombie W.R.
+        - name: Antoniou E.
+        - name: Powers R.S.
+        - name: Davidson N.O.
+        - name: Li E.
+        - name: Williams J.
+      citationCount: 2
+      date: '2015-06-15T00:00:00Z'
+      journal: Bioinformatics
+      title: A trimming-and-retrieving alignment scheme for reduced representation
+        bisulfite sequencing
+    pmcid: null
+    pmid: '25681254'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Methylated DNA immunoprecipitation
+    uri: http://edamontology.org/topic_3674
+  - term: Epigenetics
+    uri: http://edamontology.org/topic_3295
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+validated: 1
+version: []

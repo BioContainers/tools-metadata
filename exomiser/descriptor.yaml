@@ -1,0 +1,122 @@
+accessibility: []
+additionDate: '2017-03-04T22:39:28Z'
+biotoolsCURIE: biotools:exomiser
+biotoolsID: exomiser
+collectionID:
+  - RD-connect
+  - Rare Disease
+cost: null
+credit:
+  - email: ds5@sanger.ac.uk
+    name: Dr Damian Smedley
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: jules.jacobsen@sanger.ac.uk
+    name: Dr Jules Jacobsen
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A program that finds potential disease-causing variants from whole-exome
+  or whole-genome sequencing data. Starting from a VCF file and a set of phenotypes
+  encoded using the Human Phenotype Ontology (HPO) it will annotate, filter and prioritise
+  likely causative variants. The program does this based on user-defined criteria.
+documentation:
+  - note: null
+    type: Manual
+    url: http://exomiser.github.io/Exomiser/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+      - term: Variant prioritisation
+        uri: http://edamontology.org/operation_3226
+      - term: Filtering
+        uri: http://edamontology.org/operation_3695
+      - term: Aggregation
+        uri: http://edamontology.org/operation_3436
+    output: []
+homepage: http://www.sanger.ac.uk/science/tools/exomiser
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:59Z'
+license: null
+link: []
+maturity: null
+name: Exomiser
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015 Nature America, Inc. All rights reserved.Exomiser is an\
+        \ application that prioritizes genes and variants in next-generation sequencing\
+        \ (NGS) projects for novel disease-gene discovery or differential diagnostics\
+        \ of Mendelian disease. Exomiser comprises a suite of algorithms for prioritizing\
+        \ exome sequences using random-walk analysis of protein interaction networks,\
+        \ clinical relevance and cross-species phenotype comparisons, as well as a\
+        \ wide range of other computational filters for variant frequency, predicted\
+        \ pathogenicity and pedigree analysis. In this protocol, we provide a detailed\
+        \ explanation of how to install Exomiser and use it to prioritize exome sequences\
+        \ in a number of scenarios. Exomiser requires \u223C3 GB of RAM and roughly\
+        \ 15-90 s of computing time on a standard desktop computer to analyze a variant\
+        \ call format (VCF) file. Exomiser is freely available for academic use from\
+        \ http://www.sanger.ac.uk/science/tools/exomiser."
+      authors:
+        - name: Smedley D.
+        - name: Jacobsen J.O.B.
+        - name: Jager M.
+        - name: Kohler S.
+        - name: Holtgrewe M.
+        - name: Schubach M.
+        - name: Siragusa E.
+        - name: Zemojtel T.
+        - name: Buske O.J.
+        - name: Washington N.L.
+        - name: Bone W.P.
+        - name: Haendel M.A.
+        - name: Robinson P.N.
+      citationCount: 37
+      date: '2015-01-01T00:00:00Z'
+      journal: Nature Protocols
+      title: Next-generation diagnostics and disease-gene discovery with the Exomiser
+    pmcid: null
+    pmid: '26562621'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Genotype and phenotype
+    uri: http://edamontology.org/topic_0625
+  - term: Medical informatics
+    uri: http://edamontology.org/topic_3063
+  - term: Data mining
+    uri: http://edamontology.org/topic_3473
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

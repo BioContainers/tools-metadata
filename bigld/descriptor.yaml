@@ -5,28 +5,28 @@ biotoolsID: bigld
 collectionID: []
 cost: null
 credit:
-- email: yyoo@snu.ac.kr
-  name: Yun Joo Yoo
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: sunny03@snu.ac.kr
-  name: Sunah Kim
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: yyoo@snu.ac.kr
+    name: Yun Joo Yoo
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: sunny03@snu.ac.kr
+    name: Sunah Kim
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Haplotype block detection method for dense genome sequencing data based
   on interval graph modeling of clusters of highly correlated SNPs.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/sunnyeesl/BigLD
+  - note: null
+    type: General
+    url: https://github.com/sunnyeesl/BigLD
 download: []
 editPermission:
   authors: []
@@ -35,76 +35,77 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence feature detection
-    uri: http://edamontology.org/operation_0253
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence feature detection
+        uri: http://edamontology.org/operation_0253
+    output: []
 homepage: https://github.com/sunnyeesl/BigLD
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:58:59Z'
 license: GPL-2.0
 link: []
 maturity: null
 name: BigLD
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1093/bioinformatics/btx609
-  metadata:
-    abstract: © The Author 2017. Motivation Linkage disequilibrium (LD) block construction
-      is required for research in population genetics and genetic epidemiology, including
-      specification of sets of single nucleotide polymorphisms (SNPs) for analysis
-      of multi-SNP based association and identification of haplotype blocks in high
-      density sequencing data. Existing methods based on a narrow sense definition
-      do not allow intermediate regions of low LD between strongly associated SNP
-      pairs and tend to split high density SNP data into small blocks having high
-      between-block correlation. Results We present Big-LD, a block partition method
-      based on interval graph modeling of LD bins which are clusters of strong pairwise
-      LD SNPs, not necessarily physically consecutive. Big-LD uses an agglomerative
-      approach that starts by identifying small communities of SNPs, i.e.The SNPs
-      in each LD bin region, and proceeds by merging these communities. We determine
-      the number of blocks using a method to find maximum-weight independent set.
-      Big-LD produces larger LD blocks compared to existing methods such as MATILDE,
-      Haploview, MIG ++, or S-MIG ++ and the LD blocks better agree with recombination
-      hotspot locations determined by sperm-Typing experiments. The observed average
-      runtime of Big-LD for 13 288 240 non-monomorphic SNPs from 1000 Genomes Project
-      autosome data (286 East Asians) is about 5.83 h, which is a significant improvement
-      over the existing methods.
-    authors:
-    - name: Kim S.A.
-    - name: Cho C.-S.
-    - name: Kim S.-R.
-    - name: Bull S.B.
-    - name: Yoo Y.J.
-    citationCount: 0
-    date: '2018-02-01T00:00:00Z'
-    journal: Bioinformatics
-    title: A new haplotype block detection method for dense genome sequencing data
-      based on interval graph modeling of clusters of highly correlated SNPs
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1093/bioinformatics/btx609
+    metadata:
+      abstract: "\xA9 The Author 2017. Motivation Linkage disequilibrium (LD) block\
+        \ construction is required for research in population genetics and genetic\
+        \ epidemiology, including specification of sets of single nucleotide polymorphisms\
+        \ (SNPs) for analysis of multi-SNP based association and identification of\
+        \ haplotype blocks in high density sequencing data. Existing methods based\
+        \ on a narrow sense definition do not allow intermediate regions of low LD\
+        \ between strongly associated SNP pairs and tend to split high density SNP\
+        \ data into small blocks having high between-block correlation. Results We\
+        \ present Big-LD, a block partition method based on interval graph modeling\
+        \ of LD bins which are clusters of strong pairwise LD SNPs, not necessarily\
+        \ physically consecutive. Big-LD uses an agglomerative approach that starts\
+        \ by identifying small communities of SNPs, i.e.The SNPs in each LD bin region,\
+        \ and proceeds by merging these communities. We determine the number of blocks\
+        \ using a method to find maximum-weight independent set. Big-LD produces larger\
+        \ LD blocks compared to existing methods such as MATILDE, Haploview, MIG ++,\
+        \ or S-MIG ++ and the LD blocks better agree with recombination hotspot locations\
+        \ determined by sperm-Typing experiments. The observed average runtime of\
+        \ Big-LD for 13 288 240 non-monomorphic SNPs from 1000 Genomes Project autosome\
+        \ data (286 East Asians) is about 5.83 h, which is a significant improvement\
+        \ over the existing methods."
+      authors:
+        - name: Kim S.A.
+        - name: Cho C.-S.
+        - name: Kim S.-R.
+        - name: Bull S.B.
+        - name: Yoo Y.J.
+      citationCount: 0
+      date: '2018-02-01T00:00:00Z'
+      journal: Bioinformatics
+      title: A new haplotype block detection method for dense genome sequencing data
+        based on interval graph modeling of clusters of highly correlated SNPs
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
-- term: Genetic variation
-  uri: http://edamontology.org/topic_0199
-- term: DNA polymorphism
-  uri: http://edamontology.org/topic_2885
-- term: Data visualisation
-  uri: http://edamontology.org/topic_0092
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
 validated: 1
 version: []

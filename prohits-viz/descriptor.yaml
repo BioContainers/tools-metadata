@@ -1,25 +1,25 @@
 accessibility:
-- Open access
+  - Open access
 additionDate: '2018-06-04T15:38:10Z'
 biotoolsCURIE: biotools:prohits-viz
 biotoolsID: prohits-viz
 collectionID: []
 cost: Free of charge
 credit:
-- email: jknight@lunenfeld.ca
-  name: James D R Knight
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: jknight@lunenfeld.ca
+    name: James D R Knight
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: A suite of web-based tools for visualizing and analyzing protein interaction
   data.
 documentation:
-- note: null
-  type: General
-  url: https://prohits-viz.lunenfeld.ca/
+  - note: null
+    type: General
+    url: https://prohits-viz.lunenfeld.ca/
 download: []
 editPermission:
   authors: []
@@ -28,29 +28,29 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Protein interaction raw data
-      uri: http://edamontology.org/data_0905
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  note: null
-  operation:
-  - term: Service invocation
-    uri: http://edamontology.org/operation_3763
-  - term: Protein interaction analysis
-    uri: http://edamontology.org/operation_2949
-  - term: Pathway or network visualisation
-    uri: http://edamontology.org/operation_3083
-  output:
-  - data:
-      term: Image
-      uri: http://edamontology.org/data_2968
-    format:
-    - term: Image format
-      uri: http://edamontology.org/format_3547
+  - cmd: null
+    input:
+      - data:
+          term: Protein interaction raw data
+          uri: http://edamontology.org/data_0905
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+    note: null
+    operation:
+      - term: Service invocation
+        uri: http://edamontology.org/operation_3763
+      - term: Protein interaction analysis
+        uri: http://edamontology.org/operation_2949
+      - term: Pathway or network visualisation
+        uri: http://edamontology.org/operation_3083
+    output:
+      - data:
+          term: Image
+          uri: http://edamontology.org/data_2968
+        format:
+          - term: Image format
+            uri: http://edamontology.org/format_3547
 homepage: https://prohits-viz.lunenfeld.ca/
 homepage_status: 0
 language: []
@@ -60,41 +60,41 @@ link: []
 maturity: Mature
 name: ProHits-viz
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-EE
 publication:
-- doi: 10.1038/nmeth.4330
-  metadata:
-    abstract: ''
-    authors:
-    - name: Knight J.D.R.
-    - name: Choi H.
-    - name: Gupta G.D.
-    - name: Pelletier L.
-    - name: Raught B.
-    - name: Nesvizhskii A.I.
-    - name: Gingras A.-C.
-    citationCount: 5
-    date: '2017-06-29T00:00:00Z'
-    journal: Nature Methods
-    title: 'ProHits-viz: A suite of web tools for visualizing interaction proteomics
-      data'
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1038/nmeth.4330
+    metadata:
+      abstract: ''
+      authors:
+        - name: Knight J.D.R.
+        - name: Choi H.
+        - name: Gupta G.D.
+        - name: Pelletier L.
+        - name: Raught B.
+        - name: Nesvizhskii A.I.
+        - name: Gingras A.-C.
+      citationCount: 5
+      date: '2017-06-29T00:00:00Z'
+      journal: Nature Methods
+      title: 'ProHits-viz: A suite of web tools for visualizing interaction proteomics
+        data'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Web application
-- Suite
+  - Web application
+  - Suite
 topic:
-- term: Data visualisation
-  uri: http://edamontology.org/topic_0092
-- term: Protein interactions
-  uri: http://edamontology.org/topic_0128
-- term: Molecular biology
-  uri: http://edamontology.org/topic_3047
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+  - term: Molecular biology
+    uri: http://edamontology.org/topic_3047
 validated: 1
 version: []

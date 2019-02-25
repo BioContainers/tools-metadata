@@ -5,27 +5,27 @@ biotoolsID: necklace
 collectionID: []
 cost: null
 credit:
-- email: alicia.oshlack@mcri.edu.au
-  name: Alicia Oshlack
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: nadia.davidson@mcri.edu.au
-  name: Nadia M Davidson
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: alicia.oshlack@mcri.edu.au
+    name: Alicia Oshlack
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: nadia.davidson@mcri.edu.au
+    name: Nadia M Davidson
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Combine reference and assembled transcriptomes for RNA-Seq analysis.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/Oshlack/necklace/wiki
+  - note: null
+    type: General
+    url: https://github.com/Oshlack/necklace/wiki
 download: []
 editPermission:
   authors: []
@@ -34,43 +34,43 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: RNA-Seq analysis
-    uri: http://edamontology.org/operation_3680
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: RNA-Seq analysis
+        uri: http://edamontology.org/operation_3680
+    output: []
 homepage: https://github.com/Oshlack/necklace/wiki
 homepage_status: 0
 language:
-- C++
-- Groovy
-- C
+  - C++
+  - Groovy
+  - C
 lastUpdate: '2018-12-10T12:59:00Z'
 license: GPL-3.0
 link: []
 maturity: null
 name: Necklace
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1093/gigascience/giy045
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1093/gigascience/giy045
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Transcriptomics
-  uri: http://edamontology.org/topic_3308
-- term: Transcription factors and regulatory sites
-  uri: http://edamontology.org/topic_0749
-- term: RNA-seq
-  uri: http://edamontology.org/topic_3170
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
 validated: 1
 version: []

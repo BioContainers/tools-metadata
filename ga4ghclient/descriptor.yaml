@@ -3,29 +3,29 @@ additionDate: '2018-07-08T16:13:55Z'
 biotoolsCURIE: biotools:ga4ghclient
 biotoolsID: ga4ghclient
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: well309@gmail.com
-  name: Welliton Souza
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: well309@gmail.com
+    name: Welliton Souza
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: It provides an easy way to access public data servers through Global
   Alliance for Genomics and Health (GA4GH) genomics API. It provides low-level access
   to GA4GH API and translates response data into Bioconductor-based class objects.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/manuals/GA4GHclient/man/GA4GHclient.pdf
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/manuals/GA4GHclient/man/GA4GHclient.pdf
 download:
-- note: null
-  type: Source package
-  url: http://bioconductor.org/packages/release/bioc/src/contrib/GA4GHclient_1.4.0.tar.gz
-  version: null
+  - note: null
+    type: Source package
+    url: http://bioconductor.org/packages/release/bioc/src/contrib/GA4GHclient_1.4.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -33,43 +33,43 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Data handling
-    uri: http://edamontology.org/operation_2409
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Data handling
+        uri: http://edamontology.org/operation_2409
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/GA4GHclient.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: GPL-2.0
 link:
-- note: null
-  type: Mirror
-  url: https://github.com/labbcb/GA4GHclient
-- note: null
-  type: Mirror
-  url: http://bioconductor.org/packages/GA4GHclient/
-- note: null
-  type: Repository
-  url: https://git.bioconductor.org/packages/GA4GHclient
+  - note: null
+    type: Mirror
+    url: https://github.com/labbcb/GA4GHclient
+  - note: null
+    type: Mirror
+    url: http://bioconductor.org/packages/GA4GHclient/
+  - note: null
+    type: Repository
+    url: https://git.bioconductor.org/packages/GA4GHclient
 maturity: null
 name: GA4GHclient
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication: []
 toolType:
-- Library
+  - Library
 topic:
-- term: Data management
-  uri: http://edamontology.org/topic_3071
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
 validated: 1
 version:
-- 1.4.0
+  - 1.4.0

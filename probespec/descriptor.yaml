@@ -1,0 +1,79 @@
+accessibility: []
+additionDate: '2017-12-18T00:11:15Z'
+biotoolsCURIE: biotools:probespec
+biotoolsID: probespec
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.cs.technion.ac.il/labs/cbl/
+description: ProbeSpec is a utility for mapping the specificity of all candidate probes
+  for a given sequence (e.g. transcript) against a background containing a large set
+  of sequences (e.g. a transcriptome). Probe specificity is determined by the subsequence
+  in the background that is most similar to its target, the specificity being set
+  as the number of mismatches between the probe and the closest non-specific background
+  sequence.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Mapping
+        uri: http://edamontology.org/operation_2429
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: PCR primer design
+        uri: http://edamontology.org/operation_0308
+    output: []
+homepage: http://www.cs.technion.ac.il/labs/cbl/probespec/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:58Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/probespec-map-specificity-candidate-probes-sequence.html
+maturity: null
+name: ProbeSpec
+operatingSystem:
+  - Windows
+otherID: []
+owner: mbs_import
+publication:
+  - doi: 10.1007/3-540-45784-4_38
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Sequences
+    uri: http://edamontology.org/topic_0080
+  - term: Probes
+    uri: http://edamontology.org/topic_0632
+  - term: Transcriptome
+    uri: http://edamontology.org/topic_3308
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+validated: 1
+version: []

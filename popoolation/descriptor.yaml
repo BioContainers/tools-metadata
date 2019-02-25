@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2017-01-13T13:15:55Z'
+biotoolsCURIE: biotools:popoolation
+biotoolsID: popoolation
+collectionID: []
+cost: null
+credit:
+  - email: rokofler@gmail.com
+    name: Robert Kofler
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Toolbox specifically designed for the population genetic analysis of
+  sequence data from pooled individuals.
+documentation:
+  - note: null
+    type: General
+    url: https://sourceforge.net/p/popoolation/wiki/browse_pages/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output: []
+homepage: https://sourceforge.net/projects/popoolation/
+homepage_status: 0
+language:
+  - R
+  - Perl
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: PoPoolation
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Recent statistical analyses suggest that sequencing of pooled samples\
+        \ provides a cost effective approach to determine genome-wide population genetic\
+        \ parameters. Here we introduce PoPoolation, a toolbox specifically designed\
+        \ for the population genetic analysis of sequence data from pooled individuals.\
+        \ PoPoolation calculates estimates of \u03B8Watterson, \u03B8 \u03C0, and\
+        \ Tajima's D that account for the bias introduced by pooling and sequencing\
+        \ errors, as well as divergence between species. Results of genome-wide analyses\
+        \ can be graphically displayed in a sliding window plot. PoPoolation is written\
+        \ in Perl and R and it builds on commonly used data formats. Its source code\
+        \ can be downloaded from http://code.google.com/p/popoolation/. Furthermore,\
+        \ we evaluate the influence of mapping algorithms, sequencing errors, and\
+        \ read coverage on the accuracy of population genetic parameter estimates\
+        \ from pooled data \xA9 2011 Kofler et al."
+      authors:
+        - name: Kofler R.
+        - name: Orozco-terWengel P.
+        - name: de Maio N.
+        - name: Pandey R.V.
+        - name: Nolte V.
+        - name: Futschik A.
+        - name: Kosiol C.
+        - name: Schlotterer C.
+      citationCount: 190
+      date: '2011-02-01T00:00:00Z'
+      journal: PLoS ONE
+      title: 'Popoolation: A toolbox for population genetic analysis of next generation
+        sequencing data from pooled individuals'
+    pmcid: null
+    pmid: '21253599'
+    type: null
+    version: null
+toolType:
+  - Workflow
+topic:
+  - term: Population genetics
+    uri: http://edamontology.org/topic_3056
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+validated: 1
+version: []

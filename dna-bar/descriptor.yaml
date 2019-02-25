@@ -1,0 +1,91 @@
+accessibility: []
+additionDate: '2017-12-18T00:05:38Z'
+biotoolsCURIE: biotools:dna-bar
+biotoolsID: dna-bar
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://dna.engr.uconn.edu/
+description: DNA-BAR is a software package for selecting DNA probes (henceforth referred
+  to as distinguishers) that can be used in genomic-based identification of microorganisms.
+  Given the genomic sequences of the microorganisms, DNA-BAR finds a near-minimum
+  number of distinguishers yielding a distinct hybridization pattern for each microorganism.
+  Selected distinguishers satisfy user specified bounds on length, melting temperature
+  and GC content, as well as redundancy and cross-hybridization constraints.
+documentation:
+  - note: null
+    type: General
+    url: http://dna.engr.uconn.edu/%7Esoftware/DNA-BAR/README.txt
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: PCR primer design
+        uri: http://edamontology.org/operation_0308
+    output: []
+homepage: http://dna.engr.uconn.edu/?page_id=23
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/dna-bar-select-dna-probes.html
+maturity: null
+name: DNA-BAR
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: 10.1093/bioinformatics/bti547
+    metadata:
+      abstract: "Summary: DNA-BAR is a software package for selecting DNA probes (henceforth\
+        \ referred to as distinguishers) that can be used in genomic-based identification\
+        \ of microorganisms. Given the genomic sequences of the microorganisms, DNA-BAR\
+        \ finds a near-minimum number of distinguishers yielding a distinct hybridization\
+        \ pattern for each microorganism. Selected distinguishers satisfy user specified\
+        \ bounds on length, melting temperature and GC content, as well as redundancy\
+        \ and cross-hybridization constraints. \xA9 The Author 2005. Published by\
+        \ Oxford University Press. All rights reserved."
+      authors:
+        - name: DasGupta B.
+        - name: Konwar K.M.
+        - name: Mandoiu I.I.
+        - name: Shvartsman A.A.
+      citationCount: 34
+      date: '2005-08-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'DNA-BAR: Distinguisher selection for DNA barcoding'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequences
+    uri: http://edamontology.org/topic_0080
+  - term: Probes
+    uri: http://edamontology.org/topic_0632
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+validated: 1
+version: []

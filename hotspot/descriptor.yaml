@@ -1,0 +1,104 @@
+accessibility: []
+additionDate: '2017-12-18T00:07:40Z'
+biotoolsCURIE: biotools:hotspot
+biotoolsID: hotspot
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://sfb.kaust.edu.sa/Pages/Home.aspx
+description: HotSpot is a software of prediction of hot spot residues through physicochemical
+  characteristics of amino acid sequences
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Prediction
+        uri: http://edamontology.org/operation_2423
+    output: []
+homepage: http://sfb.kaust.edu.sa/Pages/Software.aspx
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/hotspot-hot-spot-residues-prediction.html
+maturity: null
+name: HotSpot
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: 10.1002/prot.24278
+    metadata:
+      abstract: "Hot spot residues of proteins are fundamental interface residues\
+        \ that help proteins perform their functions. Detecting hot spots by experimental\
+        \ methods is costly and time-consuming. Sequential and structural information\
+        \ has been widely used in the computational prediction of hot spots. However,\
+        \ structural information is not always available. In this article, we investigated\
+        \ the problem of identifying hot spots using only physicochemical characteristics\
+        \ extracted from amino acid sequences. We first extracted 132 relatively independent\
+        \ physicochemical features from a set of the 544 properties in AAindex1, an\
+        \ amino acid index database. Each feature was utilized to train a classification\
+        \ model with a novel encoding schema for hot spot prediction by the IBk algorithm,\
+        \ an extension of the K-nearest neighbor algorithm. The combinations of the\
+        \ individual classifiers were explored and the classifiers that appeared frequently\
+        \ in the top performing combinations were selected. The hot spot predictor\
+        \ was built based on an ensemble of these classifiers and to work in a voting\
+        \ manner. Experimental results demonstrated that our method effectively exploited\
+        \ the feature space and allowed flexible weights of features for different\
+        \ queries. On the commonly used hot spot benchmark sets, our method significantly\
+        \ outperformed other machine learning algorithms and state-of-the-art hot\
+        \ spot predictors. The program is available at http://sfb.kaust.edu.sa/pages/software.aspx.\
+        \ \xA9 2013 Wiley Periodicals, Inc."
+      authors:
+        - name: Chen P.
+        - name: Li J.
+        - name: Wong L.
+        - name: Kuwahara H.
+        - name: Huang J.Z.
+        - name: Gao X.
+      citationCount: 26
+      date: '2013-08-01T00:00:00Z'
+      journal: 'Proteins: Structure, Function and Bioinformatics'
+      title: Accurate prediction of hot spot residues through physicochemical characteristics
+        of amino acid sequences
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequences
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

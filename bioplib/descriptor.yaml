@@ -1,0 +1,87 @@
+accessibility: []
+additionDate: '2017-08-03T18:37:44Z'
+biotoolsCURIE: biotools:bioplib
+biotoolsID: bioplib
+collectionID: []
+cost: null
+credit:
+  - email: andrew@bioinf.org.uk
+    name: Dr. Andrew C.R. Martin
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.bioinf.org.uk/
+description: Library of C routines for general programming and handling protein structure
+documentation:
+  - note: null
+    type: General
+    url: http://www.bioinf.org.uk/software/bioplib/bioplib/doc/html/pages.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+homepage: http://www.bioinf.org.uk/software/bioplib/index.html
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/bioptools-1-1-a-set-of-command-line-tools-for-manipulating-protein-structure.html
+maturity: null
+name: BiopLib
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2015. Published by Oxford University Press. All rights\
+        \ reserved. We describe BiopLib, a mature C programming library for manipulating\
+        \ protein structure, and BiopTools, a set of command-line tools which exploit\
+        \ BiopLib. The library also provides a small number of functions for handling\
+        \ protein sequence and general purpose programming and mathematics. BiopLib\
+        \ transparently handles PDBML (XML) format and standard PDB files. BiopTools\
+        \ provides facilities ranging from renumbering atoms and residues to calculation\
+        \ of solvent accessibility."
+      authors:
+        - name: Porter C.T.
+        - name: Martin A.C.R.
+      citationCount: 3
+      date: '2015-07-03T00:00:00Z'
+      journal: Bioinformatics
+      title: BiopLib and BiopTools - A C programming library and toolset for manipulating
+        protein structure
+    pmcid: null
+    pmid: '26323716'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+validated: 1
+version: []

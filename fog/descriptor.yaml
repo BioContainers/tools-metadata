@@ -1,0 +1,100 @@
+accessibility: []
+additionDate: '2017-12-18T00:06:21Z'
+biotoolsCURIE: biotools:fog
+biotoolsID: fog
+collectionID: []
+cost: null
+credit:
+  - email: sonika.tyagi@qimr.edu.au
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: FOG can help mapping important genomic features to the latest version
+  of the human genome and also to annotate new features. such as miRNAs, microarray
+  primers or probes, Chip-on-Chip data, CpG islands and SNPs to name a few.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Mapping
+        uri: http://edamontology.org/operation_2429
+    output: []
+homepage: http://www.bioinformatics.org/webfog/wiki/
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/fog-1-0-webfog-tool-map-genomic-features-genes.html
+maturity: null
+name: FOG
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: 10.1016/j.bbrc.2010.09.077
+    metadata:
+      abstract: "A large number of new genomic features are being discovered using\
+        \ high throughput techniques. The next challenge is to automatically map them\
+        \ to the reference genome for further analysis and functional annotation.\
+        \ We have developed a tool that can be used to map important genomic features\
+        \ to the latest version of the human genome and also to annotate new features.\
+        \ These genomic features could be of many different source types, including\
+        \ miRNAs, microarray primers or probes, Chip-on-Chip data, CpG islands and\
+        \ SNPs to name a few. A standalone version and web interface for the tool\
+        \ can be accessed through: http://populationhealth.qimr.edu.au/cgi-bin/webFOG/index.cgi.\
+        \ The project details and source code is also available at http://www.bioinformatics.org/webfog.\
+        \ \xA9 2010 Elsevier Inc."
+      authors:
+        - name: Tyagi S.
+        - name: Stark M.S.
+        - name: Hayward N.K.
+        - name: Whiteman D.C.
+        - name: Nancarrow D.J.
+      citationCount: 0
+      date: '2010-10-22T00:00:00Z'
+      journal: Biochemical and Biophysical Research Communications
+      title: 'WebFOG: A web tool to map genomic features onto genes'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: ChiP
+    uri: http://edamontology.org/topic_3179
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+  - term: ChIP-on-chip
+    uri: http://edamontology.org/topic_3179
+  - term: Probes
+    uri: http://edamontology.org/topic_0632
+  - term: CpG islands
+    uri: http://edamontology.org/topic_0749
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Primers
+    uri: http://edamontology.org/topic_0632
+validated: 1
+version:
+  - '1.0'

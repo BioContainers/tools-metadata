@@ -1,0 +1,81 @@
+accessibility: []
+additionDate: '2017-11-30T17:40:17Z'
+biotoolsCURIE: biotools:ptmprophet
+biotoolsID: ptmprophet
+collectionID: []
+cost: null
+credit:
+  - email: David.Shteynberg@systemsbiology.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Tool to model the confidence with which mass modifications are correctly
+  localized for each peptide. PTMProphet considers all of the possible configurations
+  for localization, and applies a statistical model to predict which modification
+  sites are most probable based on the spectrum evidence.
+documentation:
+  - note: null
+    type: General
+    url: http://tools.proteomecenter.org/wiki/index.php?title=Software:TPP#Overview
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: pepXML
+            uri: http://edamontology.org/format_3655
+    note: null
+    operation:
+      - term: PTM localisation
+        uri: http://edamontology.org/operation_3755
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: pepXML
+            uri: http://edamontology.org/format_3655
+homepage: http://tools.proteomecenter.org/wiki/index.php?title=Software:TPP
+homepage_status: 0
+language:
+  - C++
+  - Perl
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: PTMProphet
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: veits@bmb.sdu.dk
+publication:
+  - doi: null
+    metadata: null
+    pmcid: PMC4506239
+    pmid: null
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+validated: 1
+version:
+  - '5.0'

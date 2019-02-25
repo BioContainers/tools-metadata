@@ -5,22 +5,22 @@ biotoolsID: prism_3
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://magarveylab.ca/prism/#!/about
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://magarveylab.ca/prism/#!/about
 description: PRediction Informatics for Secondary Metabolomes. Prediction of genetically
   encoded natural product structures based on microbial genomes. It takes a microbial
   genome sequence as input, identifies biosynthetic gene clusters, and generates combinatorial
   libraries of structure predictions.
 documentation:
-- note: null
-  type: General
-  url: https://magarveylab.ca/prism/#!/help
+  - note: null
+    type: General
+    url: https://magarveylab.ca/prism/#!/help
 download: []
 editPermission:
   authors: []
@@ -29,27 +29,27 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Natural product identification
-    uri: http://edamontology.org/operation_3803
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Scaffolding
-    uri: http://edamontology.org/operation_3216
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Coding region prediction
-    uri: http://edamontology.org/operation_0436
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Natural product identification
+        uri: http://edamontology.org/operation_3803
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Scaffolding
+        uri: http://edamontology.org/operation_3216
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Coding region prediction
+        uri: http://edamontology.org/operation_0436
+    output: []
 homepage: http://magarveylab.ca/prism/
 homepage_status: 0
 language: []
@@ -62,20 +62,20 @@ operatingSystem: []
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1093/NAR/GKX320
-  metadata: null
-  pmcid: PMC5570231
-  pmid: '28460067'
-  type: null
-  version: null
+  - doi: 10.1093/NAR/GKX320
+    metadata: null
+    pmcid: PMC5570231
+    pmid: '28460067'
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Metabolomics
-  uri: http://edamontology.org/topic_3172
-- term: Cheminformatics
-  uri: http://edamontology.org/topic_2258
-- term: Structure prediction
-  uri: http://edamontology.org/topic_0082
+  - term: Metabolomics
+    uri: http://edamontology.org/topic_3172
+  - term: Cheminformatics
+    uri: http://edamontology.org/topic_2258
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
 validated: 1
 version: []

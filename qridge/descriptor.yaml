@@ -1,0 +1,62 @@
+accessibility: []
+additionDate: '2017-01-13T13:15:59Z'
+biotoolsCURIE: biotools:qridge
+biotoolsID: qridge
+collectionID: []
+cost: null
+credit:
+  - email: renxwise@gmail.com
+    name: Xianwen Ren
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Given a set of RNA-Seq data, this tool assembles the short reads into
+  long full-length transcripts.
+documentation: []
+download: []
+editPermission:
+  authors:
+    - ELIXIR-EE
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Transcriptome assembly
+        uri: http://edamontology.org/operation_3258
+      - term: RNA-Seq analysis
+        uri: http://edamontology.org/operation_3680
+    output: []
+homepage: http://zhangroup.aporc.org/QRidgeWalker
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:58Z'
+license: null
+link: []
+maturity: null
+name: QRidge
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+validated: 1
+version: []

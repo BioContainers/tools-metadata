@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2017-12-18T00:13:10Z'
+biotoolsCURIE: biotools:smallgenometools
+biotoolsID: smallgenometools
+collectionID: []
+cost: null
+credit:
+  - email: Trevor.Bell@wits.ac.za
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Processing, analysis and curation of DNA sequence data. Most of these
+  tools are genome-agnostic, with two tools specifically designed for hepatitis B
+  virus sequence data.
+documentation:
+  - note: null
+    type: General
+    url: http://hvdr.bioinf.wits.ac.za/SmallGenomeTools/ToolsREADME.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Processing
+        uri: http://edamontology.org/operation_2409
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Analysis
+        uri: http://edamontology.org/operation_2945
+    output: []
+homepage: http://hvdr.bioinf.wits.ac.za/SmallGenomeTools/
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:58Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/smallgenometools-hvdr-small-genome-tools.html
+maturity: null
+name: SmallGenomeTools
+operatingSystem:
+  - Linux
+  - Windows
+otherID: []
+owner: mbs_import
+publication:
+  - doi: 10.3390/v7020781
+    metadata:
+      abstract: 2015 by the authors; licensee MDPI, Basel, Switzerland.DNA sequence
+        analysis is undertaken in many biological research laboratories. The workflow
+        consists of several steps involving the bioinformatic processing of biological
+        data. We have developed a suite of web-based online bioinformatic tools to
+        assist with processing, analysis and curation of DNA sequence data. Most of
+        these tools are genome-agnostic, with two tools specifically designed for
+        hepatitis B virus sequence data. Tools in the suite are able to process sequence
+        data from Sanger sequencing, ultra-deep amplicon resequencing (pyrosequencing)
+        and chromatograph (trace files), as appropriate. The tools are available online
+        at no cost and are aimed at researchers without specialist technical computer
+        knowledge. The tools can be accessed at http://hvdr.bioinf.wits.ac.za/SmallGenomeTools,
+        and the source code is available online at https://github.com/DrTrevorBell/SmallGenomeTools.
+      authors:
+        - name: Bell T.G.
+        - name: Kramvis A.
+      citationCount: 9
+      date: '2015-02-16T00:00:00Z'
+      journal: Viruses
+      title: Bioinformatics tools for small genomes, such as hepatitis B virus
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+validated: 1
+version: []

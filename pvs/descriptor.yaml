@@ -1,0 +1,105 @@
+accessibility: []
+additionDate: '2017-02-14T09:34:47Z'
+biotoolsCURIE: biotools:pvs
+biotoolsID: pvs
+collectionID: []
+cost: null
+credit:
+  - email: parecheg@med.ucm.es
+    name: PVS Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Protein Sequence Variability (PVS) is a web server for the prediction
+  of conserved T-cell epitopes. Several variability metrics are used to compute the
+  absolute site variability in multiple protein sequence alignments.
+documentation:
+  - note: null
+    type: General
+    url: http://imed.med.ucm.es/PVS/pvs-help.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Epitope mapping
+        uri: http://edamontology.org/operation_0416
+      - term: Sequence alignment analysis (conservation)
+        uri: http://edamontology.org/operation_0448
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+      - term: Multiple sequence alignment
+        uri: http://edamontology.org/operation_0492
+    output: []
+homepage: http://imed.med.ucm.es/PVS/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: PVS
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: 'We have developed PVS (Protein Variability Server), a web-based tool
+        that uses several variability metrics to compute the absolute site variability
+        in multiple protein-sequence alignments (MSAs). The variability is then assigned
+        to a user-selected reference sequence consisting of either the first sequence
+        in the alignment or a consensus sequence. Subsequently, PVS performs tasks
+        that are relevant for structure-function studies, such as plotting and visualizing
+        the variability in a relevant 3D-structure. Neatly, PVS also implements some
+        other tasks that are thought to facilitate the design of epitope discovery-driven
+        vaccines against pathogens where sequence variability largely contributes
+        to immune evasion. Thus, PVS can return the conserved fragments in the MSA-as
+        defined by a user-provided variability threshold-and locate them in a relevant
+        3D-structure. Furthermore, PVS can return a variability-masked sequence, which
+        can be directly submitted to the RANKPEP server for the prediction of conserved
+        T-cell epitopes. PVS is freely available at: http://imed.med.ucm.es/PVS/.'
+      authors:
+        - name: Garcia-Boronat M.
+        - name: Diez-Rivero C.M.
+        - name: Reinherz E.L.
+        - name: Reche P.A.
+      citationCount: 68
+      date: '2008-07-01T00:00:00Z'
+      journal: Nucleic acids research
+      title: 'PVS: a web server for protein sequence variability analysis tuned to
+        facilitate conserved epitope discovery.'
+    pmcid: null
+    pmid: '18442995'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Protein sites, features and motifs
+    uri: http://edamontology.org/topic_3510
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Gene and protein families
+    uri: http://edamontology.org/topic_0623
+  - term: Sequence composition, complexity and repeats
+    uri: http://edamontology.org/topic_0157
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

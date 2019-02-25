@@ -1,0 +1,113 @@
+accessibility: []
+additionDate: '2018-05-28T11:24:30Z'
+biotoolsCURIE: biotools:netcooperate
+biotoolsID: netcooperate
+collectionID: []
+cost: null
+credit:
+  - email: roie@uw.edu
+    name: Roie Levy
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: rogan@uw.edu
+    name: Rogan Carr
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: anat.kreimer@berkeley.edu
+    name: Anat Kreimer
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: shiri@agri.gov.il
+    name: Shiri Freilich
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: elbo@uw.edu
+    name: Elhanan Borenstein
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: "Determining host-microbe and microbe-microbe cooperative potential.\
+  \ It specifically calculates two previously developed and validated metrics for\
+  \ species interaction: the Biosynthetic Support Score which quantifies the ability\
+  \ of a host species to supply the nutritional requirements of a parasitic or a commensal\
+  \ species, and the Metabolic Complementarity Index which quantifies the complementarity\
+  \ of a pair of microbial organisms\u2019 niches."
+documentation:
+  - note: null
+    type: Manual
+    url: http://elbo.gs.washington.edu/software_netcooperate/NetCooperateManual.pdf
+  - note: null
+    type: Training material
+    url: http://elbo.gs.washington.edu/software_netcooperate_examples.html
+download:
+  - note: Python module to add NetCooperate's functionality to your custom analysis
+      programs.
+    type: Source package
+    url: http://elbo.gs.washington.edu/software_netcooperate/NetCooperatePython.zip
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Metabolic network modelling
+        uri: http://edamontology.org/operation_3660
+    output: []
+homepage: http://elbo.gs.washington.edu/software_netcooperate.html
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:58Z'
+license: GPL-2.0
+link: []
+maturity: null
+name: NetCooperate
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: aotamendi.1
+publication:
+  - doi: 10.1186/s12859-015-0588-y
+    metadata: null
+    pmcid: PMC4434858
+    pmid: '25980407'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+  - Library
+  - Web application
+topic:
+  - term: Microbial ecology
+    uri: http://edamontology.org/topic_3697
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+validated: 1
+version: []

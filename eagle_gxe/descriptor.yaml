@@ -1,27 +1,27 @@
 accessibility:
-- Open access
+  - Open access
 additionDate: '2018-06-05T17:57:38Z'
 biotoolsCURIE: biotools:eagle_gxe
 biotoolsID: eagle_gxe
 collectionID: []
 cost: Free of charge
 credit:
-- email: david.arthur.knowles@gmail.com
-  name: David A Knowles
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: david.arthur.knowles@gmail.com
+    name: David A Knowles
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: An R package for detecting Gene-by-Environment (GxE) interaction effects
   on the transcriptome using Allele Specific Expression (ASE) quantified from RNA-seq
 documentation: []
 download:
-- note: null
-  type: Command-line specification
-  url: https://github.com/davidaknowles/eagle
-  version: null
+  - note: null
+    type: Command-line specification
+    url: https://github.com/davidaknowles/eagle
+    version: null
 editPermission:
   authors: []
   type: private
@@ -29,90 +29,91 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Gene expression data
-      uri: http://edamontology.org/data_2603
-    format:
-    - term: rna
-      uri: http://edamontology.org/format_1213
-  - data:
-      term: Data reference
-      uri: http://edamontology.org/data_2093
-    format: []
-  note: null
-  operation:
-  - term: RNA-Seq quantification
-    uri: http://edamontology.org/operation_3800
-  - term: Pathway or network analysis
-    uri: http://edamontology.org/operation_2497
-  - term: Gene functional annotation
-    uri: http://edamontology.org/operation_3672
-  output:
-  - data:
-      term: Report
-      uri: http://edamontology.org/data_2048
-    format:
-    - term: Workflow format
-      uri: http://edamontology.org/format_2032
+  - cmd: null
+    input:
+      - data:
+          term: Gene expression data
+          uri: http://edamontology.org/data_2603
+        format:
+          - term: rna
+            uri: http://edamontology.org/format_1213
+      - data:
+          term: Data reference
+          uri: http://edamontology.org/data_2093
+        format: []
+    note: null
+    operation:
+      - term: RNA-Seq quantification
+        uri: http://edamontology.org/operation_3800
+      - term: Pathway or network analysis
+        uri: http://edamontology.org/operation_2497
+      - term: Gene functional annotation
+        uri: http://edamontology.org/operation_3672
+    output:
+      - data:
+          term: Report
+          uri: http://edamontology.org/data_2048
+        format:
+          - term: Workflow format
+            uri: http://edamontology.org/format_2032
 homepage: https://github.com/davidaknowles/eagle
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:58:59Z'
 license: null
 link: []
 maturity: Mature
 name: EAGLE
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: ELIXIR-EE
 publication:
-- doi: 10.1038/nmeth.4298
-  metadata:
-    abstract: © 2017 Nature America, Inc., part of Springer Nature. All rights reserved.
-      Identifying interactions between genetics and the environment (GxE) remains
-      challenging. We have developed EAGLE, a hierarchical Bayesian model for identifying
-      GxE interactions based on associations between environmental variables and allele-specific
-      expression. Combining whole-blood RNA-seq with extensive environmental annotations
-      collected from 922 human individuals, we identified 35 GxE interactions, compared
-      with only four using standard GxE interaction testing. EAGLE provides new opportunities
-      for researchers to identify GxE interactions using functional genomic data.
-    authors:
-    - name: Knowles D.A.
-    - name: Davis J.R.
-    - name: Edgington H.
-    - name: Raj A.
-    - name: Fave M.-J.
-    - name: Zhu X.
-    - name: Potash J.B.
-    - name: Weissman M.M.
-    - name: Shi J.
-    - name: Levinson D.F.
-    - name: Awadalla P.
-    - name: Mostafavi S.
-    - name: Montgomery S.B.
-    - name: Battle A.
-    citationCount: 13
-    date: '2017-06-29T00:00:00Z'
-    journal: Nature Methods
-    title: Allele-specific expression reveals interactions between genetic variation
-      and environment
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1038/nmeth.4298
+    metadata:
+      abstract: "\xA9 2017 Nature America, Inc., part of Springer Nature. All rights\
+        \ reserved. Identifying interactions between genetics and the environment\
+        \ (GxE) remains challenging. We have developed EAGLE, a hierarchical Bayesian\
+        \ model for identifying GxE interactions based on associations between environmental\
+        \ variables and allele-specific expression. Combining whole-blood RNA-seq\
+        \ with extensive environmental annotations collected from 922 human individuals,\
+        \ we identified 35 GxE interactions, compared with only four using standard\
+        \ GxE interaction testing. EAGLE provides new opportunities for researchers\
+        \ to identify GxE interactions using functional genomic data."
+      authors:
+        - name: Knowles D.A.
+        - name: Davis J.R.
+        - name: Edgington H.
+        - name: Raj A.
+        - name: Fave M.-J.
+        - name: Zhu X.
+        - name: Potash J.B.
+        - name: Weissman M.M.
+        - name: Shi J.
+        - name: Levinson D.F.
+        - name: Awadalla P.
+        - name: Mostafavi S.
+        - name: Montgomery S.B.
+        - name: Battle A.
+      citationCount: 13
+      date: '2017-06-29T00:00:00Z'
+      journal: Nature Methods
+      title: Allele-specific expression reveals interactions between genetic variation
+        and environment
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Plug-in
+  - Plug-in
 topic:
-- term: Genotype and phenotype
-  uri: http://edamontology.org/topic_0625
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
-- term: RNA-seq
-  uri: http://edamontology.org/topic_3170
+  - term: Genotype and phenotype
+    uri: http://edamontology.org/topic_0625
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
 validated: 1
 version: []

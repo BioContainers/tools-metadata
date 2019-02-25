@@ -5,23 +5,23 @@ biotoolsID: prep
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://chirimoyo.ac.uma.es/bitlab/
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://chirimoyo.ac.uma.es/bitlab/
 description: It is a standalone full-interactive graphical suite for the pre-processing
   of gene expression data that aims at identify and remove sources of systematic and
   random variation in the measured data, other than differential expression. It integrates
   a variety of analytical tools that in some cases can be applied in any context.
   Other techniques require some specific conditions.
 documentation:
-- note: null
-  type: Manual
-  url: http://chirimoyo.ac.uma.es/prep/documents/PreP-Uman.pdf
+  - note: null
+    type: Manual
+    url: http://chirimoyo.ac.uma.es/prep/documents/PreP-Uman.pdf
 download: []
 editPermission:
   authors: []
@@ -30,57 +30,57 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Microarray data analysis
-    uri: http://edamontology.org/operation_2495
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Processing
-    uri: http://edamontology.org/operation_2409
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Microarray data analysis
+        uri: http://edamontology.org/operation_2495
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Processing
+        uri: http://edamontology.org/operation_2409
+    output: []
 homepage: http://chirimoyo.ac.uma.es/prep/index.html
 homepage_status: 0
 language: []
 lastUpdate: '2018-12-10T12:58:59Z'
 license: null
 link:
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/prep-07-gene-expression-data-pre-processing-tool.html
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/prep-07-gene-expression-data-pre-processing-tool.html
 maturity: null
 name: PreP
 operatingSystem:
-- Windows
+  - Windows
 otherID: []
 owner: mbs_import
 publication:
-- doi: 10.1093/bioinformatics/btg318
-  metadata:
-    abstract: 'Summary: PreP is a versatile, powerful, standalone application that
-      aims at pre-processing gene expression data.'
-    authors:
-    - name: Garcia de la Nava J.
-    - name: van Hijum S.
-    - name: Trelles O.
-    citationCount: 23
-    date: '2003-11-22T00:00:00Z'
-    journal: Bioinformatics
-    title: 'PreP: Gene expression data pre-processing'
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/btg318
+    metadata:
+      abstract: 'Summary: PreP is a versatile, powerful, standalone application that
+        aims at pre-processing gene expression data.'
+      authors:
+        - name: Garcia de la Nava J.
+        - name: van Hijum S.
+        - name: Trelles O.
+      citationCount: 23
+      date: '2003-11-22T00:00:00Z'
+      journal: Bioinformatics
+      title: 'PreP: Gene expression data pre-processing'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Desktop application
+  - Desktop application
 topic:
-- term: Gene expression
-  uri: http://edamontology.org/topic_0203
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
 validated: 1
 version:
-- '7'
+  - '7'

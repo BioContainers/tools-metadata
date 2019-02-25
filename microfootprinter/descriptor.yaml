@@ -1,0 +1,162 @@
+accessibility: []
+additionDate: '2017-02-10T14:15:33Z'
+biotoolsCURIE: biotools:microfootprinter
+biotoolsID: microfootprinter
+collectionID: []
+cost: null
+credit:
+  - email: tompa@cs.washington.edu
+    name: Martin Tompa
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Identify the conserved motifs in regulatory regions of prokaryotic genomes
+  using the phylogenetic footprinting program FootPrinter.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence motif discovery
+        uri: http://edamontology.org/operation_0238
+      - term: Phylogenetic footprinting / shadowing
+        uri: http://edamontology.org/operation_0327
+      - term: Transcriptional regulatory element prediction
+        uri: http://edamontology.org/operation_0438
+      - term: Regulatory element prediction
+        uri: http://edamontology.org/operation_0438
+    output: []
+homepage: http://bio.cs.washington.edu/MicroFootPrinter.html
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link: []
+maturity: null
+name: MicroFootPrinter
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: Phylogenetic footprinting is a method for the discovery of regulatory
+        elements in a set of homologous regulatory regions, usually collected from
+        multiple species. It does so by identifying the best conserved motifs in those
+        homologous regions. This note describes web software that has been designed
+        specifically for this purpose, making use of the phylogenetic relationships
+        among the homologous sequences in order to make more accurate predictions.
+        The software is called FootPrinter and is available at http://bio.cs.washington.edu/software.html.
+      authors:
+        - name: Blanchette M.
+        - name: Tompa M.
+      citationCount: 132
+      date: '2003-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'FootPrinter: A program designed for phylogenetic footprinting'
+    pmcid: null
+    pmid: '12824433'
+    type: null
+    version: null
+  - doi: null
+    metadata:
+      abstract: Phylogenetic footprinting is a technique that identifies regulatory
+        elements by finding unusually well conserved regions in a set of orthologous
+        noncoding DNA sequences from multiple species. We introduce a new motif-finding
+        problem, the Substring Parsimony Problem, which is a formalization of the
+        ideas behind phylogenetic footprinting, and we present an exact dynamic programming
+        algorithm to solve it. We then present a number of algorithmic optimizations
+        that allow our program to run quickly on most biologically interesting datasets.
+        We show how to handle data sets in which only an unknown subset of the sequences
+        contains the regulatory element. Finally, we describe how to empirically assess
+        the statistical significance of the motifs found. Each technique is implemented
+        and successfully identifies a number of known binding sites, as well as several
+        highly conserved but uncharacterized regions. The program is available at
+        http://bio.cs.washington.edu/software.html.
+      authors:
+        - name: Blanchette M.
+        - name: Schwikowski B.
+        - name: Tompa M.
+      citationCount: 103
+      date: '2002-06-03T00:00:00Z'
+      journal: Journal of Computational Biology
+      title: Algorithms for phylogenetic footprinting
+    pmcid: null
+    pmid: '12015878'
+    type: null
+    version: null
+  - doi: null
+    metadata:
+      abstract: "Phylogenetic footprinting is a method for the discovery of regulatory\
+        \ elements in a set of homologous regulatory regions, usually collected from\
+        \ multiple species. It does so by identifying the most conserved motifs in\
+        \ those homologous regions. This note describes web software that has been\
+        \ designed specifically for this purpose in prokaryotic genomes, making use\
+        \ of the phylogenetic relationships among the homologous sequences in order\
+        \ to make more accurate predictions. The software is called MicroFootPrinter\
+        \ and is available at http://bio.cs.washington.edu/software.html. \xA9 The\
+        \ Author 2006. Published by Oxford University Press. All rights reserved."
+      authors:
+        - name: Neph S.
+        - name: Tompa M.
+      citationCount: 19
+      date: '2006-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'MicroFootPrinter: A tool for phylogenetic footprinting in prokaryotic
+        genomes'
+    pmcid: null
+    pmid: '16845027'
+    type: null
+    version: null
+  - doi: null
+    metadata:
+      abstract: Phylogenetic footprinting is a method for the discovery of regulatory
+        elements in a set of orthologous regulatory regions from multiple species.
+        It does so by identifying the best conserved motifs in those orthologous regions.
+        We describe a computer algorithm designed specifically for this purpose, making
+        use of the phylogenetic relationships among the sequences under study to make
+        more accurate predictions. The program is guaranteed to report all sets of
+        motifs with the lowest parsimony scores, calculated with respect to the phylogenetic
+        tree relating the input species. We report the results of this algorithm on
+        several data sets of interest. A large number of known functional binding
+        sites are identified by our method, but we also find several highly conserved
+        motifs for which no function is yet known.
+      authors:
+        - name: Blanchette M.
+        - name: Tompa M.
+      citationCount: 227
+      date: '2002-06-03T00:00:00Z'
+      journal: Genome Research
+      title: Discovery of regulatory elements by a computational method for phylogenetic
+        footprinting
+    pmcid: null
+    pmid: '11997340'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Phylogenetics
+    uri: http://edamontology.org/topic_3293
+  - term: Gene regulation
+    uri: http://edamontology.org/topic_0204
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
+  - term: Sequence sites, features and motifs
+    uri: http://edamontology.org/topic_0160
+validated: 1
+version: []

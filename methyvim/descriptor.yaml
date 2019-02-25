@@ -3,31 +3,31 @@ additionDate: '2018-07-21T18:31:56Z'
 biotoolsCURIE: biotools:methyvim
 biotoolsID: methyvim
 collectionID:
-- BioConductor
+  - BioConductor
 cost: Free of charge
 credit:
-- email: nhejazi@berkeley.edu
-  name: Nima Hejazi
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: nhejazi@berkeley.edu
+    name: Nima Hejazi
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: This package provides facilities for differential methylation analysis
   based on variable importance measures (VIMs), a class of statistical target parameters
   that arise in causal inference. The estimation and inference procedures provided
   are nonparametric, relying on ensemble machine learning to flexibly assess functional
   relationships among covariates and the outcome of interest.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/manuals/methyvim/man/methyvim.pdf
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/manuals/methyvim/man/methyvim.pdf
 download:
-- note: null
-  type: Source package
-  url: http://bioconductor.org/packages/release/bioc/src/contrib/methyvim_1.2.0.tar.gz
-  version: null
+  - note: null
+    type: Source package
+    url: http://bioconductor.org/packages/release/bioc/src/contrib/methyvim_1.2.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -35,49 +35,49 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Clustering
-    uri: http://edamontology.org/operation_3432
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Differentially-methylated region identification
-    uri: http://edamontology.org/operation_3809
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Differentially-methylated region identification
+        uri: http://edamontology.org/operation_3809
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/methyvim.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: Other
 link:
-- note: null
-  type: Mirror
-  url: https://github.com/nhejazi/methyvim
-- note: null
-  type: Issue tracker
-  url: https://github.com/nhejazi/methyvim/issues
+  - note: null
+    type: Mirror
+    url: https://github.com/nhejazi/methyvim
+  - note: null
+    type: Issue tracker
+    url: https://github.com/nhejazi/methyvim/issues
 maturity: null
 name: methyvim
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication: []
 toolType:
-- Library
+  - Library
 topic:
-- term: Epigenetics
-  uri: http://edamontology.org/topic_3295
-- term: Methylated DNA immunoprecipitation
-  uri: http://edamontology.org/topic_3674
+  - term: Epigenetics
+    uri: http://edamontology.org/topic_3295
+  - term: Methylated DNA immunoprecipitation
+    uri: http://edamontology.org/topic_3674
 validated: 1
 version:
-- 1.2.0
+  - 1.2.0

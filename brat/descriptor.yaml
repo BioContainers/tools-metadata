@@ -1,0 +1,106 @@
+accessibility: []
+additionDate: '2017-01-13T13:13:52Z'
+biotoolsCURIE: biotools:brat
+biotoolsID: brat
+collectionID: []
+cost: null
+credit:
+  - email: pontus@u-tokyo.jp
+    name: Pontus Stenetorp
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: smp@u-tokyo.jp
+    name: Sampo Pyysalo
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: goran@u-tokyo.jp
+    name: "Goran Topi\u0107"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: accurate and efficient tool for mapping short reads obtained from the
+  Illumina Genome Analyzer following sodium bisulfite conversion.  Both single and
+  paired ends are supported.
+documentation:
+  - note: null
+    type: Manual
+    url: http://brat.nlplab.org/manual.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Mapping
+        uri: http://edamontology.org/operation_2429
+      - term: Bisulfite mapping
+        uri: http://edamontology.org/operation_3186
+    output: []
+homepage: http://brat.nlplab.org/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:56Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: BRAT
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "We present a new, accurate and efficient tool for mapping short reads\
+        \ obtained from the Illumina Genome Analyzer following sodium bisulfite conversion.\
+        \ Our tool, BRAT, supports single and paired-end reads and handles input files\
+        \ containing reads and mates of different lengths. BRAT is faster, maps more\
+        \ unique paired-end reads and has higher accuracy than existing programs.\
+        \ The software package includes tools to end-trim low-quality bases of the\
+        \ reads and to report nucleotide counts for mapped reads on the reference\
+        \ genome. Availability: The source code is freely available for download at\
+        \ http://compbio.cs.ucr.edu/brat/ and is distributed as Open Source software\
+        \ under the GPLv3.0. Contact: elenah@cs.ucr.edu Contact: elenah@cs.ucr.edu\
+        \ \xA9 The Author 2009. Published by Oxford University Press."
+      authors:
+        - name: Harris E.Y.
+        - name: Ponts N.
+        - name: Levchuk A.
+        - name: Le Roch K.
+        - name: Lonardi S.
+      citationCount: 47
+      date: '2009-12-22T00:00:00Z'
+      journal: Bioinformatics
+      title: 'BRAT: Bisulfite-treated reads analysis tool'
+    pmcid: null
+    pmid: '20031974'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Epigenomics
+    uri: http://edamontology.org/topic_3173
+  - term: Epigenetics
+    uri: http://edamontology.org/topic_3295
+validated: 1
+version: []

@@ -1,0 +1,89 @@
+accessibility: []
+additionDate: '2017-08-03T18:49:12Z'
+biotoolsCURIE: biotools:medusa_pcr
+biotoolsID: medusa_pcr
+collectionID: []
+cost: null
+credit:
+  - email: Erik.Sonnhammer@cgr.ki.se
+    name: Erik Shonhammer
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Tool for automatic selection and visual assessment of PCR primer pairs,
+  developed to assist large scale gene expression analysis projects.
+documentation:
+  - note: null
+    type: General
+    url: http://sonnhammer.sbc.su.se/download/software/medusa/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: PCR primer design
+        uri: http://edamontology.org/operation_0308
+    output: []
+homepage: http://sonnhammer.sbc.su.se/download/software/medusa/
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:58Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/medusa-selection-visual-assessment-pcr-primer-pair.html
+maturity: null
+name: medusa
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: MEDUSA is a tool for automatic selection and visual assessment of
+        PCR primer pairs, developed to assist large scale gene expression analysis
+        projects. The system allows specification of constraints of the location and
+        distances between the primers in a pair. For instance, primers in coding,
+        non-coding, exon/intron-spanning regions might be selected. Medusa applies
+        these constraints as a filter to primers predicted by three external programs,
+        and displays the resulting primer pairs graphically in the Blixem (Sonnhammer
+        and Durbin, Comput. Appl. Biosci. 10, 301-307, 1994; http://www.cgr.ki.se/cgr/groups/sonnhammer/
+        Blixem.html) viewer.
+      authors:
+        - name: Podowski R.M.
+        - name: Sonnhammer E.L.L.
+      citationCount: 8
+      date: '2001-01-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'MEDUSA: Large scale automatic selection and visual assessment of PCR
+        primer pairs'
+    pmcid: null
+    pmid: '11448885'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: PCR experiment
+    uri: http://edamontology.org/topic_3519
+  - term: Probes and primers
+    uri: http://edamontology.org/topic_0632
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+validated: 1
+version: []

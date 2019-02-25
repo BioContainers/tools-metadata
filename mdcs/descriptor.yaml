@@ -1,0 +1,101 @@
+accessibility: []
+additionDate: '2017-12-18T00:08:40Z'
+biotoolsCURIE: biotools:mdcs
+biotoolsID: mdcs
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://mips.helmholtz-muenchen.de/proj/mdcs/developers.html
+description: The MDCS provides maximal margin Linear Programming method (Antonov et
+  al., 2004) for classification of tumor samples based on microarray data. This procedure
+  detects groups of genes and constructs models (features) that strongly correlate
+  with particular tumor types. The detected features include genes whose functional
+  relations are changed for particular cancer types.
+documentation:
+  - note: null
+    type: General
+    url: http://mips.helmholtz-muenchen.de/proj/mdcs/help.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Microarray data analysis
+        uri: http://edamontology.org/operation_2495
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Classification
+        uri: http://edamontology.org/operation_2990
+    output: []
+homepage: http://mips.helmholtz-muenchen.de/proj/mdcs/
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/mdcs-microarray-data-classification-server.html
+maturity: null
+name: MDCS
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: 10.1093/bioinformatics/bth376
+    metadata:
+      abstract: "Summary: The Maximal Margin (MAMA) linear programming classification\
+        \ algorithm has recently been proposed and tested for cancer classification\
+        \ based on expression data. It demonstrated sound performance on publicly\
+        \ available expression datasets. We developed a web interface to allow potential\
+        \ users easy access to the MAMA classification tool. Basic and advanced options\
+        \ provide flexibility in exploitation. The input data format is the same as\
+        \ that used in most publicly available datasets. This makes the web resource\
+        \ particularly convenient for non-expert machine learning users working in\
+        \ the field of expression data analysis. \xA9 Oxford University Press 2004;\
+        \ all rights reserved."
+      authors:
+        - name: Antonov A.V.
+        - name: Tetko I.V.
+        - name: Prokopenko V.V.
+        - name: Kosykh D.
+        - name: Mewes H.W.
+      citationCount: 2
+      date: '2004-11-22T00:00:00Z'
+      journal: Bioinformatics
+      title: A web portal for classification of expression data using maximal margin
+        linear programming
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Cancer
+    uri: http://edamontology.org/topic_2640
+  - term: samples
+    uri: http://edamontology.org/topic_3277
+validated: 1
+version: []

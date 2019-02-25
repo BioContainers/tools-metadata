@@ -1,0 +1,110 @@
+accessibility: []
+additionDate: '2017-02-10T14:14:06Z'
+biotoolsCURIE: biotools:transfold
+biotoolsID: transfold
+collectionID: []
+cost: null
+credit:
+  - email: waldispu@lix.polytechnique.fr
+    name: "J\xE9r\xF4me Waldisp\xFChl"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: transFold predicts the super-secondary structure of transmembrane beta-barrel
+  (TMB) proteins including side-chain orientation and topology of transmembrane segments.
+documentation:
+  - note: null
+    type: General
+    url: http://bioinformatics.bc.edu/clotelab/transFold/instructions.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein super-secondary structure prediction
+        uri: http://edamontology.org/operation_0268
+      - term: Transmembrane protein analysis
+        uri: http://edamontology.org/operation_0270
+      - term: Transmembrane protein prediction
+        uri: http://edamontology.org/operation_0269
+      - term: Protein secondary structure prediction
+        uri: http://edamontology.org/operation_0267
+      - term: Protein structure prediction
+        uri: http://edamontology.org/operation_0474
+    output: []
+homepage: http://bioinformatics.bc.edu/clotelab/transFold
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link: []
+maturity: null
+name: transFold
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Transmembrane \u03B2-barrel (TMB) proteins are embedded in the outer\
+        \ membrane of Gram-negative bacteria, mitochondria and chloroplasts. The cellular\
+        \ location and functional diversity of \u03B2-barrel outer membrane proteins\
+        \ makes them an important protein class. At the present time, very few non-homologous\
+        \ TMB structures have been determined by X-ray diffraction because of the\
+        \ experimental difficulty encountered in crystallizing transmembrane (TM)\
+        \ proteins. The transFold web server uses pairwise inter-strand residue statistical\
+        \ potentials derived from globular (non-outer-membrane) proteins to predict\
+        \ the supersecondary structure of TMB. Unlike all previous approaches, transFold\
+        \ does notuse machine learning methods such as hidden Markov models or neural\
+        \ networks; instead, transFold employs multi-tape S-attribute grammars to\
+        \ describe all potential conformations, and then applies dynamic programming\
+        \ to determine the global minimum energy supersecondary structure. The transFold\
+        \ web server not only predicts secondary structure and TMB topology, but is\
+        \ the only method which additionally predicts the side-chain orientation of\
+        \ transmembrane \u03B2-strand residues, inter-strand residue contacts and\
+        \ TM \u03B2-strand inclination with respect to the membrane. The program transFold\
+        \ currently outperforms all other methods for accuracy of \u03B2-barrel structure\
+        \ prediction. \xA9 The Author 2006. Published by Oxford University Press.\
+        \ All rights reserved."
+      authors:
+        - name: Waldispuhl J.
+        - name: Berger B.
+        - name: Clote P.
+        - name: Steyaert J.-M.
+      citationCount: 24
+      date: '2006-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'transFold: A web server for predicting the structureand residue contacts
+        of transmembrane beta-barrels'
+    pmcid: null
+    pmid: '16844989'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Protein secondary structure
+    uri: http://edamontology.org/topic_3542
+  - term: Protein folds and structural domains
+    uri: http://edamontology.org/topic_0736
+  - term: Membrane and lipoproteins
+    uri: http://edamontology.org/topic_0820
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+validated: 1
+version: []

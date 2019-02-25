@@ -5,30 +5,30 @@ biotoolsID: trawlerweb
 collectionID: []
 cost: null
 credit:
-- email: mirana.ramialison@monash.edu
-  name: Mirana Ramialison
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: louis.dang@monash.edu
-  name: Louis Dang
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: mirana.ramialison@monash.edu
+    name: Mirana Ramialison
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: louis.dang@monash.edu
+    name: Louis Dang
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: De novo motif discovery tool for next-generation sequencing datasets.
 documentation:
-- note: null
-  type: General
-  url: https://trawler.erc.monash.edu.au/help/
-- note: Source code
-  type: General
-  url: https://github.com/Ramialison-Lab-ARMI/Trawler-2.0
+  - note: null
+    type: General
+    url: https://trawler.erc.monash.edu.au/help/
+  - note: Source code
+    type: General
+    url: https://github.com/Ramialison-Lab-ARMI/Trawler-2.0
 download: []
 editPermission:
   authors: []
@@ -37,45 +37,45 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence motif discovery
-    uri: http://edamontology.org/operation_0238
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence motif discovery
+        uri: http://edamontology.org/operation_0238
+    output: []
 homepage: https://trawler.erc.monash.edu.au/
 homepage_status: 0
 language:
-- Java
-- Perl
+  - Java
+  - Perl
 lastUpdate: '2018-12-10T12:59:00Z'
 license: GPL-3.0
 link: []
 maturity: null
 name: TrawlerWeb
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1186/s12864-018-4630-0
-  metadata: null
-  pmcid: PMC5887194
-  pmid: '29621972'
-  type: null
-  version: null
+  - doi: 10.1186/s12864-018-4630-0
+    metadata: null
+    pmcid: PMC5887194
+    pmid: '29621972'
+    type: null
+    version: null
 toolType:
-- Command-line tool
-- Web application
+  - Command-line tool
+  - Web application
 topic:
-- term: NGS
-  uri: http://edamontology.org/topic_3168
-- term: Nucleic acid sites, features and motifs
-  uri: http://edamontology.org/topic_3511
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
+  - term: NGS
+    uri: http://edamontology.org/topic_3168
+  - term: Nucleic acid sites, features and motifs
+    uri: http://edamontology.org/topic_3511
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
 validated: 1
 version: []

@@ -5,20 +5,20 @@ biotoolsID: rnapdbee
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: Contact form
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://rnapdbee.cs.put.poznan.pl/contactForm
+  - email: null
+    name: Contact form
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://rnapdbee.cs.put.poznan.pl/contactForm
 description: Web server for deriving secondary structures from PDB files of knotted
   and unknotted RNAs.
 documentation:
-- note: null
-  type: General
-  url: http://rnapdbee.cs.put.poznan.pl/help
+  - note: null
+    type: General
+    url: http://rnapdbee.cs.put.poznan.pl/help
 download: []
 editPermission:
   authors: []
@@ -27,53 +27,53 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: RNA secondary structure prediction
-    uri: http://edamontology.org/operation_0278
-  - term: Structure visualisation
-    uri: http://edamontology.org/operation_0570
-  - term: RNA secondary structure alignment
-    uri: http://edamontology.org/operation_0502
-  - term: RNA secondary structure analysis
-    uri: http://edamontology.org/operation_2439
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: RNA secondary structure prediction
+        uri: http://edamontology.org/operation_0278
+      - term: Structure visualisation
+        uri: http://edamontology.org/operation_0570
+      - term: RNA secondary structure alignment
+        uri: http://edamontology.org/operation_0502
+      - term: RNA secondary structure analysis
+        uri: http://edamontology.org/operation_2439
+    output: []
 homepage: http://rnapdbee.cs.put.poznan.pl/
 homepage_status: 0
 language:
-- Java
+  - Java
 lastUpdate: '2018-12-10T12:58:59Z'
 license: null
 link: []
 maturity: null
 name: RNApdbee
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-EE
 publication:
-- doi: 10.1093/bioinformatics/btx783
-  metadata: null
-  pmcid: PMC4086112
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1093/bioinformatics/btx783
+    metadata: null
+    pmcid: PMC4086112
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Nucleic acid structure analysis
-  uri: http://edamontology.org/topic_0097
-- term: Structure prediction
-  uri: http://edamontology.org/topic_0082
-- term: RNA
-  uri: http://edamontology.org/topic_0099
-- term: Protein secondary structure
-  uri: http://edamontology.org/topic_3542
-- term: Protein structural motifs and surfaces
-  uri: http://edamontology.org/topic_0166
+  - term: Nucleic acid structure analysis
+    uri: http://edamontology.org/topic_0097
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Protein secondary structure
+    uri: http://edamontology.org/topic_3542
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
 validated: 1
 version: []

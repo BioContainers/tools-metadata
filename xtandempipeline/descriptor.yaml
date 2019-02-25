@@ -1,0 +1,102 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:31Z'
+biotoolsCURIE: biotools:xtandempipeline
+biotoolsID: xtandempipeline
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: 'X!TandemPipeline: Filter, edit and group peptide/protein identifications
+  from X!Tandem (and MASCOT).'
+documentation:
+  - note: null
+    type: General
+    url: http://pappso.inra.fr/bioinfo/xtandempipeline/documentation.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Filtering
+        uri: http://edamontology.org/operation_3695
+    output: []
+homepage: http://pappso.inra.fr/bioinfo/xtandempipeline/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: XTandemPipeline
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: 10.1021/acs.jproteome.6b00632
+    metadata:
+      abstract: "\xA9 2016 American Chemical Society. X!TandemPipeline is a software\
+        \ designed to perform protein inference and to manage redundancy in the results\
+        \ of phosphosite identification by database search. It provides the minimal\
+        \ list of proteins or phosphosites that are present in a set of samples using\
+        \ grouping algorithms based on the principle of parsimony. Regarding proteins,\
+        \ a two-level classification is performed, where groups gather proteins sharing\
+        \ at least one peptide and subgroups gather proteins that are not distinguishable\
+        \ according to the identified peptides. Regarding phosphosites, an innovative\
+        \ approach based on the concept of phosphoisland is used to gather overlapping\
+        \ phosphopeptides. The graphical interface of X!TandemPipeline allows the\
+        \ users to launch X!tandem identification, to inspect spectra and to manually\
+        \ validate their assignment to peptides, to launch the grouping program, and\
+        \ to visualize elementary data as well as grouping and redundancy information.\
+        \ Identification results obtained from other search engines can also be processed.\
+        \ X!TandemPipeline results can be exported as ready-to-use tabulated files\
+        \ or as XML files that can be directly used by the PROTICdb database or by\
+        \ the MassChroQ quantification software. X!TandemPipeline runs fast, is easy\
+        \ to use, and can process hundreds of samples simultaneously. It is freely\
+        \ available under the GNU General Public License v3.0 at http://pappso.inra.fr/bioinfo/xtandempipeline/."
+      authors:
+        - name: Langella O.
+        - name: Valot B.
+        - name: Balliau T.
+        - name: Blein-Nicolas M.
+        - name: Bonhomme L.
+        - name: Zivy M.
+      citationCount: 23
+      date: '2017-02-03T00:00:00Z'
+      journal: Journal of Proteome Research
+      title: 'X!TandemPipeline: A Tool to Manage Sequence Redundancy for Protein Inference
+        and Phosphosite Identification'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

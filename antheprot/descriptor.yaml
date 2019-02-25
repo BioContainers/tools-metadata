@@ -1,0 +1,109 @@
+accessibility: []
+additionDate: '2017-08-03T18:35:51Z'
+biotoolsCURIE: biotools:antheprot
+biotoolsID: antheprot
+collectionID: []
+cost: null
+credit:
+  - email: gilbert.deleage@ibcp.fr
+    name: "Gilbert Del\xE9age"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://pbil.ibcp.fr/~gdeleage/fr/index.php
+description: Interactive program with a graphical user interface that allows handling
+  of protein sequence and data in a very interactive and convenient manner. It provides
+  many methods and tools, which are integrated into a graphical user interface.
+documentation:
+  - note: null
+    type: General
+    url: http://antheprot-pbil.ibcp.fr/anthe_histo.php?evene=3D%20viewer
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Molecular dynamics simulation
+        uri: http://edamontology.org/operation_2476
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+    output: []
+homepage: http://antheprot-pbil.ibcp.fr/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/antheprot-6-0-protein-sequence-analysis.html
+maturity: null
+name: ANTHEPROT
+operatingSystem:
+  - Windows
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Programs devoted to the analysis of protein sequences exist either\
+        \ as stand-alone programs or as Web servers. However, stand-alone programs\
+        \ can hardly accommodate for the analysis that involves comparisons on databanks,\
+        \ which require regular updates. Moreover, Web servers cannot be as efficient\
+        \ as stand-alone programs when dealing with real-time graphic display. We\
+        \ describe here a stand-alone software program called ANTHEPROT, which is\
+        \ intended to perform protein sequence analysis with a high integration level\
+        \ and clients/server capabilities. It is an interactive program with a graphical\
+        \ user interface that allows handling of protein sequence and data in a very\
+        \ interactive and convenient manner. It provides many methods and tools, which\
+        \ are integrated into a graphical user interface. ANTHEPROT is available for\
+        \ Windows-based systems. It is able to connect to a Web server in order to\
+        \ perform large-scale sequence comparison on up-to-date databanks. ANTHEPROT\
+        \ is freely available to academic users and may be downloaded at http://pbil.ibcp.fr/ANTHEPROT.\
+        \ \xA9 2001 Elsevier Science Ltd."
+      authors:
+        - name: Deleage G.
+        - name: Combet C.
+        - name: Blanchet C.
+        - name: Geourjon C.
+      citationCount: 107
+      date: '2001-05-08T00:00:00Z'
+      journal: Computers in Biology and Medicine
+      title: 'ANTHEPROT: An integrated protein sequence analysis software with client/server
+        capabilities'
+    pmcid: null
+    pmid: '11334635'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Molecular dynamics
+    uri: http://edamontology.org/topic_0176
+validated: 1
+version: []

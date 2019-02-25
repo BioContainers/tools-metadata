@@ -1,0 +1,74 @@
+accessibility: []
+additionDate: '2018-05-01T18:44:59Z'
+biotoolsCURIE: biotools:plek
+biotoolsID: plek
+collectionID: []
+cost: null
+credit:
+  - email: jyzhang@mail.xidian.edu.cn
+    name: Junying Zhan
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Tool for predicting long non-coding RNAs and messenger RNAs based on
+  an improved k-mer scheme.
+documentation:
+  - note: null
+    type: General
+    url: https://sourceforge.net/projects/plek/files/PLEK.1.2.readme.txt/download
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Nucleic acid feature detection
+        uri: http://edamontology.org/operation_0415
+      - term: Filtering
+        uri: http://edamontology.org/operation_3695
+      - term: RNA-Seq analysis
+        uri: http://edamontology.org/operation_3680
+    output: []
+homepage: https://sourceforge.net/projects/plek/files/
+homepage_status: 0
+language:
+  - Python
+  - C
+lastUpdate: '2018-12-10T12:58:57Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: PLEK
+operatingSystem:
+  - Linux
+otherID: []
+owner: d.gabrielaitis
+publication:
+  - doi: 10.1186/1471-2105-15-311
+    metadata: null
+    pmcid: PMC4177586
+    pmid: '25239089'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+  - term: Functional, regulatory and non-coding RNA
+    uri: http://edamontology.org/topic_0659
+validated: 1
+version: []

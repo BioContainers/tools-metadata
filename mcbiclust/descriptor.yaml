@@ -3,30 +3,30 @@ additionDate: '2018-07-11T12:57:52Z'
 biotoolsCURIE: biotools:mcbiclust
 biotoolsID: mcbiclust
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: robert.bentham.11@ucl.ac.uk
-  name: Robert Bentham
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: robert.bentham.11@ucl.ac.uk
+    name: Robert Bentham
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Custom made algorithm and associated methods for finding, visualising
   and analysing biclusters in large gene expression data sets. Algorithm is based
   on with a supplied gene set of size n, finding the maximum strength correlation
   matrix containing m samples from the data set.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/manuals/MCbiclust/man/MCbiclust.pdf
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/manuals/MCbiclust/man/MCbiclust.pdf
 download:
-- note: null
-  type: Source package
-  url: http://bioconductor.org/packages/release/bioc/src/contrib/MCbiclust_1.4.0.tar.gz
-  version: null
+  - note: null
+    type: Source package
+    url: http://bioconductor.org/packages/release/bioc/src/contrib/MCbiclust_1.4.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -34,52 +34,52 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Clustering
-    uri: http://edamontology.org/operation_3432
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/MCbiclust.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: GPL-2.0
 link:
-- note: null
-  type: Mirror
-  url: http://bioconductor.org/packages/MCbiclust/
-- note: null
-  type: Repository
-  url: https://git.bioconductor.org/packages/MCbiclust
+  - note: null
+    type: Mirror
+    url: http://bioconductor.org/packages/MCbiclust/
+  - note: null
+    type: Repository
+    url: https://git.bioconductor.org/packages/MCbiclust
 maturity: null
 name: MCbiclust
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication:
-- doi: 10.1093/nar/gkx590
-  metadata: null
-  pmcid: PMC5587796
-  pmid: '28911113'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkx590
+    metadata: null
+    pmcid: PMC5587796
+    pmid: '28911113'
+    type: Primary
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: Gene expression
-  uri: http://edamontology.org/topic_0203
-- term: Microarray experiment
-  uri: http://edamontology.org/topic_3518
-- term: RNA-seq
-  uri: http://edamontology.org/topic_3170
-- term: Statistics and probability
-  uri: http://edamontology.org/topic_2269
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Microarray experiment
+    uri: http://edamontology.org/topic_3518
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
 validated: 1
 version:
-- 1.4.0
+  - 1.4.0

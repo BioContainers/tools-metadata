@@ -1,0 +1,97 @@
+accessibility: []
+additionDate: '2017-12-18T00:05:16Z'
+biotoolsCURIE: biotools:cleaner
+biotoolsID: cleaner
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://wiki.c2b2.columbia.edu/califanolab/index.php/Main_Page
+description: 'Cleaner: R-system software package for the assembly of informative,
+  transcript-specific probe-clusters for Affymetrix expression microarrays.'
+documentation:
+  - note: null
+    type: General
+    url: http://califano.c2b2.columbia.edu/cleaner
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence assembly
+        uri: http://edamontology.org/operation_0310
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+    output: []
+homepage: http://wiki.c2b2.columbia.edu/califanolab/index.php/Cleaner
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/cleaner-1-03-assembly-informative-transcript-specific-probe-clusters.html
+maturity: null
+name: Cleaner
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: 10.1186/gb-2009-10-12-r143
+    metadata:
+      abstract: "Gene expression profiling technologies suffer from poor reproducibility\
+        \ across replicate experiments. However, when analyzing large datasets, probe-level\
+        \ expression profile correlation can help identify flawed probes and lead\
+        \ to the construction of truer probe sets with improved reproducibility. We\
+        \ describe methods to eliminate uninformative and flawed probes, account for\
+        \ dependence between probes, and address variability due to transcript-isoform\
+        \ mixtures. We test and validate our approach on Affymetrix microarrays and\
+        \ outline their future adaptation to other technologies. \xA9 2009 Alvarez\
+        \ et al.; licensee BioMed Central Ltd."
+      authors:
+        - name: Alvarez M.J.
+        - name: Sumazin P.
+        - name: Rajbhandari P.
+        - name: Califano A.
+      citationCount: 9
+      date: '2009-12-30T00:00:00Z'
+      journal: Genome Biology
+      title: Correlating measurements across samples improves accuracy of large-scale
+        expression profile experiments
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Assembly
+    uri: http://edamontology.org/topic_0196
+  - term: Microarrays
+    uri: http://edamontology.org/topic_3518
+validated: 1
+version:
+  - '1.03'

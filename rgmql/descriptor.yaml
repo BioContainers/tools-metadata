@@ -3,17 +3,17 @@ additionDate: '2018-07-13T09:00:29Z'
 biotoolsCURIE: biotools:rgmql
 biotoolsID: rgmql
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: simonepallotta@hotmail.com
-  name: Simone Pallotta
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: simonepallotta@hotmail.com
+    name: Simone Pallotta
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: This package brings the GenoMetric Query Language functionalities into
   the R environment. It is a high-level, declarative language to manage heterogeneous
   genomic datasets for biomedical purposes, using simple queries to process genomic
@@ -21,14 +21,14 @@ description: This package brings the GenoMetric Query Language functionalities i
   for big data using cloud-computing technologies allowing GMQL to run on modern infrastructures,
   in order to achieve scalability and high performance.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/manuals/RGMQL/man/RGMQL.pdf
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/manuals/RGMQL/man/RGMQL.pdf
 download:
-- note: null
-  type: Source package
-  url: http://bioconductor.org/packages/release/bioc/src/contrib/RGMQL_1.0.0.tar.gz
-  version: null
+  - note: null
+    type: Source package
+    url: http://bioconductor.org/packages/release/bioc/src/contrib/RGMQL_1.0.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -36,43 +36,43 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/RGMQL.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: Artistic-2.0
 link:
-- note: null
-  type: Mirror
-  url: http://bioconductor.org/packages/RGMQL/
-- note: null
-  type: Mirror
-  url: http://www.bioinformatics.deib.polimi.it/genomic_computing/GMQL/
-- note: null
-  type: Repository
-  url: https://git.bioconductor.org/packages/RGMQL
+  - note: null
+    type: Mirror
+    url: http://bioconductor.org/packages/RGMQL/
+  - note: null
+    type: Mirror
+    url: http://www.bioinformatics.deib.polimi.it/genomic_computing/GMQL/
+  - note: null
+    type: Repository
+    url: https://git.bioconductor.org/packages/RGMQL
 maturity: null
 name: RGMQL
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication: []
 toolType:
-- Library
+  - Library
 topic:
-- term: Data mining
-  uri: http://edamontology.org/topic_3473
+  - term: Data mining
+    uri: http://edamontology.org/topic_3473
 validated: 1
 version:
-- 1.0.0
+  - 1.0.0

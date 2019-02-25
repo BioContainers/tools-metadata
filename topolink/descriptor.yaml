@@ -5,20 +5,20 @@ biotoolsID: topolink
 collectionID: []
 cost: null
 credit:
-- email: leandromartinez98@gmail.com
-  name: Leandro Martinez
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: leandromartinez98@gmail.com
+    name: Leandro Martinez
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Compute topological distances between atoms on the surface of proteins
   and validate structural models from cross-linking experimental data.
 documentation:
-- note: null
-  type: General
-  url: http://leandro.iqm.unicamp.br/topolink/server.shtml
+  - note: null
+    type: General
+    url: http://leandro.iqm.unicamp.br/topolink/server.shtml
 download: []
 editPermission:
   authors: []
@@ -27,44 +27,44 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Molecular surface analysis
-    uri: http://edamontology.org/operation_3351
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Molecular surface analysis
+        uri: http://edamontology.org/operation_3351
+    output: []
 homepage: http://leandro.iqm.unicamp.br/topolink/home.shtml
 homepage_status: 0
 language:
-- C++
+  - C++
 lastUpdate: '2018-12-10T12:58:59Z'
 license: GPL-3.0
 link: []
 maturity: null
 name: TopoLink
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1038/protex.2017.035
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1038/protex.2017.035
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Command-line tool
-- Web application
+  - Command-line tool
+  - Web application
 topic:
-- term: Protein folds and structural domains
-  uri: http://edamontology.org/topic_0736
-- term: Protein structure analysis
-  uri: http://edamontology.org/topic_2814
-- term: Protein structural motifs and surfaces
-  uri: http://edamontology.org/topic_0166
+  - term: Protein folds and structural domains
+    uri: http://edamontology.org/topic_0736
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
 validated: 1
 version: []

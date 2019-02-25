@@ -1,0 +1,63 @@
+accessibility: []
+additionDate: '2017-12-18T00:10:04Z'
+biotoolsCURIE: biotools:pathoqc
+biotoolsID: pathoqc
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://jlab.bu.edu
+description: PATHOQC is a quality control and preprocessing standalone program for
+  a high-throughput dataset. PATHOQC combines three commonly-used quality control
+  programs (FastQC, cutadapt, and prinseq-lite) into one package that can handle a
+  variety type of NGS dataset in a parallel computation.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/jtleek/sva-devel/blob/master/DESCRIPTION
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Quality control
+        uri: http://edamontology.org/operation_2428
+    output: []
+homepage: http://jlab.bu.edu/software/
+homepage_status: 0
+language:
+  - R
+  - C
+lastUpdate: '2018-12-10T12:58:58Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/pathoqc-0-1-1-quality-control-program-high-throughput-dataset.html
+maturity: null
+name: PATHOQC
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: NGS
+    uri: http://edamontology.org/topic_3168
+validated: 1
+version: []

@@ -3,29 +3,29 @@ additionDate: '2018-07-15T22:04:30Z'
 biotoolsCURIE: biotools:trendy
 biotoolsID: trendy
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: rbacher@ufl.edu
-  name: Rhonda Bacher
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: rbacher@ufl.edu
+    name: Rhonda Bacher
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Trendy implements segmented (or breakpoint) regression models to estimate
   breakpoints which represent changes in expression for each feature/gene in high
   throughput data with ordered conditions.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/manuals/Trendy/man/Trendy.pdf
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/manuals/Trendy/man/Trendy.pdf
 download:
-- note: null
-  type: Source package
-  url: http://bioconductor.org/packages/release/bioc/src/contrib/Trendy_1.2.2.tar.gz
-  version: null
+  - note: null
+    type: Source package
+    url: http://bioconductor.org/packages/release/bioc/src/contrib/Trendy_1.2.2.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -33,49 +33,49 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Regression analysis
-    uri: http://edamontology.org/operation_3659
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Regression analysis
+        uri: http://edamontology.org/operation_3659
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/Trendy.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: GPL-3.0
 link:
-- note: null
-  type: Mirror
-  url: https://github.com/rhondabacher/Trendy
-- note: null
-  type: Mirror
-  url: http://bioconductor.org/packages/Trendy/
-- note: null
-  type: Repository
-  url: https://git.bioconductor.org/packages/Trendy
+  - note: null
+    type: Mirror
+    url: https://github.com/rhondabacher/Trendy
+  - note: null
+    type: Mirror
+    url: http://bioconductor.org/packages/Trendy/
+  - note: null
+    type: Repository
+    url: https://git.bioconductor.org/packages/Trendy
 maturity: null
 name: Trendy
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication:
-- doi: 10.1101/185413
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1101/185413
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: RNA-seq
-  uri: http://edamontology.org/topic_3170
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
 validated: 1
 version:
-- 1.2.2
+  - 1.2.2

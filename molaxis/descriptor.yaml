@@ -1,0 +1,110 @@
+accessibility: []
+additionDate: '2017-02-14T09:34:34Z'
+biotoolsCURIE: biotools:molaxis
+biotoolsID: molaxis
+collectionID: []
+cost: null
+credit:
+  - email: eitan.yaffe@gmail.com
+    name: Eitan Yaffe
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: The MolAxis web server allows users to identify transmembrane channels
+  in proteins and channels in macromolecules that connect buried cavities to the external
+  surface. Gating residues, channel lining residues and a 3D graphical representation
+  of the channel surface are output.
+documentation:
+  - note: null
+    type: General
+    url: http://bioinfo3d.cs.tau.ac.il/MolAxis/help.html
+  - note: null
+    type: Manual
+    url: http://bioinfo3d.cs.tau.ac.il/MolAxis/tuto.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Transmembrane protein analysis
+        uri: http://edamontology.org/operation_0270
+      - term: Accessible surface calculation
+        uri: http://edamontology.org/operation_0384
+      - term: Molecular surface analysis
+        uri: http://edamontology.org/operation_3351
+      - term: Molecular surface calculation
+        uri: http://edamontology.org/operation_0387
+      - term: Surface rendering
+        uri: http://edamontology.org/operation_1816
+    output: []
+homepage: http://bioinfo3d.cs.tau.ac.il/MolAxis
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link: []
+maturity: null
+name: MolAxis
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: MolAxis is a freely available, easy-to-use web server for identification
+        of channels that connect buried cavities to the outside of macromolecules
+        and for transmembrane (TM) channels in proteins. Biological channels are essential
+        for physiological processes such as electrolyte and metabolite transport across
+        membranes and enzyme catalysis, and can play a role in substrate specificity.
+        Motivated by the importance of channel identification in macromolecules, we
+        developed the MolAxis server. MolAxis implements state-of-the-art, accurate
+        computational-geometry techniques that reduce the dimensions of the channel
+        finding problem, rendering the algorithm extremely efficient. Given a protein
+        or nucleic acid structure in the PDB format, the server outputs all possible
+        channels that connect buried cavities to the outside of the protein or points
+        to the main channel in TM proteins. For each channel, the gating residues
+        and the narrowest radius termed 'bottleneck' are also given along with a full
+        list of the lining residues and the channel surface in a 3D graphical representation.
+        The users can manipulate advanced parameters and direct the channel search
+        according to their needs. MolAxis is available as a web server or as a stand-alone
+        program at http://bioinfo3d.cs.tau.ac.il/MolAxis.
+      authors:
+        - name: Yaffe E.
+        - name: Fishelovitch D.
+        - name: Wolfson H.J.
+        - name: Halperin D.
+        - name: Nussinov R.
+      citationCount: 38
+      date: '2008-07-01T00:00:00Z'
+      journal: Nucleic acids research
+      title: 'MolAxis: a server for identification of channels in macromolecules.'
+    pmcid: null
+    pmid: '18448468'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+  - term: Membrane and lipoproteins
+    uri: http://edamontology.org/topic_0820
+  - term: Microarray experiment
+    uri: http://edamontology.org/topic_3518
+  - term: Protein folding, stability and design
+    uri: http://edamontology.org/topic_0130
+validated: 1
+version: []

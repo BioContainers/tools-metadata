@@ -1,0 +1,134 @@
+accessibility: []
+additionDate: '2016-10-20T10:31:19Z'
+biotoolsCURIE: biotools:peptideshaker
+biotoolsID: peptideshaker
+collectionID:
+  - de.NBI
+  - BioInfra.Prot
+cost: null
+credit:
+  - email: null
+    name: BioInfra.Prot
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: dominik.kopczynski@isas.de
+    name: Dominik Kopczynsk
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://compomics.github.io/projects/peptide-shaker.html
+description: PeptideShaker is a search engine independent platform for interpretation
+  of proteomics identification results from multiple search engines, currently supporting
+  X!Tandem, MS-GF+, MS Amanda, OMSSA, MyriMatch, Comet, Tide, Mascot, Andromeda and
+  mzIdentML. By combining the results from multiple search engines, while re-calculating
+  PTM localization scores and redoing the protein inference, PeptideShaker attempts
+  to give you the best possible understanding of your proteomics data!
+documentation:
+  - note: null
+    type: General
+    url: http://compomics.github.io/projects/peptide-shaker.html#read-me
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: mzIdentML
+            uri: http://edamontology.org/format_3247
+    note: null
+    operation:
+      - term: PTM identification
+        uri: http://edamontology.org/operation_3645
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: pepXML
+            uri: http://edamontology.org/format_3655
+          - term: mzIdentML
+            uri: http://edamontology.org/format_3247
+          - term: TSV
+            uri: http://edamontology.org/format_3475
+  - cmd: null
+    input:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: mzIdentML
+            uri: http://edamontology.org/format_3247
+    note: null
+    operation:
+      - term: Target-Decoy
+        uri: http://edamontology.org/operation_3649
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: pepXML
+            uri: http://edamontology.org/format_3655
+          - term: mzIdentML
+            uri: http://edamontology.org/format_3247
+          - term: TSV
+            uri: http://edamontology.org/format_3475
+homepage: http://compomics.github.io/projects/peptide-shaker.html
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: PeptideShaker
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: BioInfra.Prot
+publication:
+  - doi: 10.1038/nbt.3109
+    metadata:
+      abstract: ''
+      authors:
+        - name: Vaudel M.
+        - name: Burkhart J.M.
+        - name: Zahedi R.P.
+        - name: Oveland E.
+        - name: Berven F.S.
+        - name: Sickmann A.
+        - name: Martens L.
+        - name: Barsnes H.
+      citationCount: 168
+      date: '2015-01-01T00:00:00Z'
+      journal: Nature Biotechnology
+      title: 'PeptideShaker enables reanalysis of MS-derived proteomics data sets:
+        To the editor'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+  - Desktop application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+validated: 1
+version:
+  - 1.13.6

@@ -1,0 +1,104 @@
+accessibility: []
+additionDate: '2017-08-03T18:37:09Z'
+biotoolsCURIE: biotools:bs-snper
+biotoolsID: bs-snper
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/hellbelly/BS-Snper
+description: An ultrafast and memory-efficient package, a program for BS-Seq variation
+  detection from alignments in standard BAM/SAM format using approximate Bayesian
+  modeling.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/hellbelly/BS-Snper
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: SNP detection
+        uri: http://edamontology.org/operation_0484
+    output: []
+homepage: https://github.com/hellbelly/BS-Snper
+homepage_status: 0
+language:
+  - Perl
+  - C
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/bs-snper-snp-calling-in-bisulfite-seq-data.html
+maturity: null
+name: BS-SNPer
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2015. Published by Oxford University Press. All rights\
+        \ reserved. Sodium bisulfite conversion followed by sequencing (BS-Seq, such\
+        \ as whole genome bisulfite sequencing or reduced representation bisulfite\
+        \ sequencing) has become popular for studying human epigenetic profiles. Identifying\
+        \ single nucleotide polymorphisms (SNPs) is important for quantification of\
+        \ methylation levels and for study of allele-specific epigenetic events such\
+        \ as imprinting. However, SNP calling in such data is complex and time consuming.\
+        \ Here, we present an ultrafast and memory-efficient package named BS-SNPer\
+        \ for the exploration of SNP sites from BS-Seq data. Compared with Bis-SNP,\
+        \ a popular BS-Seq specific SNP caller, BS-SNPer is over 100 times faster\
+        \ and uses less memory. BS-SNPer also offers higher sensitivity and specificity\
+        \ compared with existing methods."
+      authors:
+        - name: Gao S.
+        - name: Zou D.
+        - name: Mao L.
+        - name: Liu H.
+        - name: Song P.
+        - name: Chen Y.
+        - name: Zhao S.
+        - name: Gao C.
+        - name: Li X.
+        - name: Gao Z.
+        - name: Fang X.
+        - name: Yang H.
+        - name: Orntoft T.F.
+        - name: Sorensen K.D.
+        - name: Bolund L.
+      citationCount: 10
+      date: '2015-07-03T00:00:00Z'
+      journal: Bioinformatics
+      title: 'BS-SNPer: SNP calling in bisulfite-seq data'
+    pmcid: null
+    pmid: '26319221'
+    type: null
+    version: null
+toolType:
+  - Library
+topic:
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+validated: 1
+version: []

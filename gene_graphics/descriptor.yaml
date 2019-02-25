@@ -1,0 +1,100 @@
+accessibility: []
+additionDate: '2018-06-24T10:45:03Z'
+biotoolsCURIE: biotools:gene_graphics
+biotoolsID: gene_graphics
+collectionID: []
+cost: null
+credit:
+  - email: katherinejh@ufl.edu
+    name: Katherine J Harrison
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: remizallot@ufl.edu
+    name: "R\xE9mi Zallot"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Genomic neighborhood data visualization web application.
+documentation:
+  - note: null
+    type: General
+    url: https://katlabs.cc/genegraphics/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genome comparison
+        uri: http://edamontology.org/operation_3209
+      - term: Genome visualisation
+        uri: http://edamontology.org/operation_3208
+    output: []
+homepage: https://katlabs.cc/genegraphics/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:59Z'
+license: null
+link: []
+maturity: null
+name: Gene Graphics
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: d.gabrielaitis
+publication:
+  - doi: 10.1093/bioinformatics/btx793
+    metadata:
+      abstract: "\xA9 2017 The Author. Published by Oxford University Press. All rights\
+        \ reserved. All rights reserved.Summary The examination of gene neighborhood\
+        \ is an integral part of comparative genomics but no tools to produce publication\
+        \ quality graphics of gene clusters are available. Gene Graphics is a straightforward\
+        \ web application for creating such visuals. Supported inputs include National\
+        \ Center for Biotechnology Information gene and protein identifiers with automatic\
+        \ fetching of neighboring information, GenBank files and data extracted from\
+        \ the SEED database. Gene representations can be customized for many parameters\
+        \ including gene and genome names, colors and sizes. Gene attributes can be\
+        \ copied and pasted for rapid and user-friendly customization of homologous\
+        \ genes between species. In addition to Portable Network Graphics and Scalable\
+        \ Vector Graphics, produced representations can be exported as Tagged Image\
+        \ File Format or Encapsulated PostScript, formats that are standard for publication.\
+        \ Hands-on tutorials with real life examples inspired from publications are\
+        \ available for training."
+      authors:
+        - name: Harrison K.J.
+        - name: Crecy-Lagard V.D.
+        - name: Zallot R.
+      citationCount: 2
+      date: '2018-04-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'Gene Graphics: A genomic neighborhood data visualization web application'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Comparative genomics
+    uri: http://edamontology.org/topic_0797
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+validated: 1
+version: []

@@ -3,31 +3,31 @@ additionDate: '2018-07-08T12:46:29Z'
 biotoolsCURIE: biotools:desingle
 biotoolsID: desingle
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: miaoz13@mails.tsinghua.edu.cn
-  name: Zhun Miao
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: miaoz13@mails.tsinghua.edu.cn
+    name: Zhun Miao
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: It defines and detects 3 types of differentially expressed genes between
   two groups of single cells, with regard to different expression status (DEs), differential
   expression abundance (DEa), and general differential expression (DEg). DEsingle
   employs Zero-Inflated Negative Binomial model to estimate the proportion of real
   and dropout zeros and to define and detect the 3 types of DE genes.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/manuals/DEsingle/man/DEsingle.pdf
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/manuals/DEsingle/man/DEsingle.pdf
 download:
-- note: null
-  type: Source package
-  url: http://bioconductor.org/packages/release/bioc/src/contrib/DEsingle_1.0.4.tar.gz
-  version: null
+  - note: null
+    type: Source package
+    url: http://bioconductor.org/packages/release/bioc/src/contrib/DEsingle_1.0.4.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -35,55 +35,55 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Differential gene expression analysis
-    uri: http://edamontology.org/operation_3223
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Differential gene expression analysis
+        uri: http://edamontology.org/operation_3223
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/DEsingle.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: GPL-2.0
 link:
-- note: null
-  type: Mirror
-  url: http://bioconductor.org/packages/DEsingle/
-- note: null
-  type: Mirror
-  url: https://miaozhun.github.io/DEsingle/
-- note: null
-  type: Repository
-  url: https://git.bioconductor.org/packages/DEsingle
+  - note: null
+    type: Mirror
+    url: http://bioconductor.org/packages/DEsingle/
+  - note: null
+    type: Mirror
+    url: https://miaozhun.github.io/DEsingle/
+  - note: null
+    type: Repository
+    url: https://git.bioconductor.org/packages/DEsingle
 maturity: null
 name: DEsingle
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication:
-- doi: 10.1093/bioinformatics/bty332
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1093/bioinformatics/bty332
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: Gene expression
-  uri: http://edamontology.org/topic_0203
-- term: RNA-seq
-  uri: http://edamontology.org/topic_3170
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
-- term: Transcriptomics
-  uri: http://edamontology.org/topic_3308
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
 validated: 1
 version:
-- 1.0.4
+  - 1.0.4

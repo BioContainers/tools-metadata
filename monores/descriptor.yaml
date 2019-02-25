@@ -1,0 +1,77 @@
+accessibility:
+  - Freeware
+additionDate: '2018-05-18T05:58:29Z'
+biotoolsCURIE: biotools:monores
+biotoolsID: monores
+collectionID: []
+cost: Free of charge
+credit:
+  - email: jlvilas@cnb.csic.es
+    name: J.L. Vilas
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: An automatic method for determing local resolution of 3D elecron microscopy
+  maps. MonoRes is available via the Xmipp and Scipion software packages
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Raw image
+          uri: http://edamontology.org/data_3424
+        format:
+          - term: Image format
+            uri: http://edamontology.org/format_3547
+    note: null
+    operation:
+      - term: Microscope image visualisation
+        uri: http://edamontology.org/operation_3552
+      - term: Statistical calculation
+        uri: http://edamontology.org/operation_2238
+    output:
+      - data:
+          term: Image
+          uri: http://edamontology.org/data_2968
+        format:
+          - term: Image format
+            uri: http://edamontology.org/format_3547
+homepage: http://scipion.i2pc.es/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:58Z'
+license: null
+link: []
+maturity: Mature
+name: MonoRes
+operatingSystem: []
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '29395788'
+    type: null
+    version: null
+toolType:
+  - Plug-in
+topic:
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+  - term: Electron microscopy
+    uri: http://edamontology.org/topic_0611
+validated: 1
+version: []

@@ -1,0 +1,97 @@
+accessibility: []
+additionDate: '2017-05-01T17:08:53Z'
+biotoolsCURIE: biotools:align-m
+biotoolsID: align-m
+collectionID: []
+cost: null
+credit:
+  - email: ivwalle@vub.ac.be
+    name: Ivo Van Walle
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Align-m is an accurate and highly versatile multiple alignment program.
+  It consists of 3 modules, S2P, P2P and P2M (see figure, manual), which can be used
+  separately or consecutively to accomplish several tasks.
+documentation:
+  - note: null
+    type: Manual
+    url: http://bioinformatics.vub.ac.be/download/align_m_manual.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Multiple sequence alignment
+        uri: http://edamontology.org/operation_0492
+      - term: Global alignment
+        uri: http://edamontology.org/operation_0496
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output: []
+homepage: http://bioinformatics.vub.ac.be/software/software.html
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: Align-m
+operatingSystem:
+  - Linux
+  - Windows
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: Multiple alignment of highly divergent sequences is a\
+        \ challenging problem for which available programs tend to show poor performance.\
+        \ Generally, this is due to a scoring function that does not describe biological\
+        \ reality accurately enough or a heuristic that cannot explore solution space\
+        \ efficiently enough. In this respect, we present a new program, Align-m,\
+        \ that uses a non-progressive local approach to guide a global alignment.\
+        \ Results: Two large test sets were used that represent the entire SCOP classification\
+        \ and cover sequence similarities between 0 and 50% identity. Performance\
+        \ was compared with the publicly available algorithms ClustalW, T-Coffee and\
+        \ DiAlign. In general, Align-m has comparable or slightly higher accuracy\
+        \ in terms of correctly aligned residues, especially for distantly related\
+        \ sequences. Importantly, it aligns much fewer residues incorrectly, with\
+        \ average differences of over 15% compared with some of the other algorithms.\
+        \ \xA9 Oxford University Press 2004; all rights reserved."
+      authors:
+        - name: Van Walle I.
+        - name: Lasters I.
+        - name: Wyns L.
+      citationCount: 70
+      date: '2004-06-12T00:00:00Z'
+      journal: Bioinformatics
+      title: Align-m - A new algorithm for multiple alignment of highly divergent
+        sequences
+    pmcid: null
+    pmid: '14962914'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+validated: 1
+version: []

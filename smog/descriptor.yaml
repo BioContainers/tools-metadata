@@ -1,0 +1,104 @@
+accessibility: []
+additionDate: '2017-03-25T22:39:25Z'
+biotoolsCURIE: biotools:smog
+biotoolsID: smog
+collectionID: []
+cost: null
+credit:
+  - email: info@smog-server.org
+    name: SMOG Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: SMOG@ctbp is a web server for structure based modeling. It is based on
+  the GROMACS molecular dynamics package and comes with tutorials.
+documentation:
+  - note: null
+    type: General
+    url: http://smog-server.org/cgi-bin/GenTopGro.pl
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein modelling
+        uri: http://edamontology.org/operation_0477
+      - term: Protein folding analysis
+        uri: http://edamontology.org/operation_2415
+      - term: Molecular dynamics simulation
+        uri: http://edamontology.org/operation_2476
+      - term: Modelling and simulation
+        uri: http://edamontology.org/operation_2426
+    output: []
+homepage: http://smog-server.org/
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link: []
+maturity: null
+name: SMOG
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Molecular dynamics simulations with coarsegrained and/or simplified\
+        \ Hamiltonians are an effective means of capturing the functionally important\
+        \ long-time and large-length scale motions of proteins and RNAs. Structure-based\
+        \ Hamiltonians, simplified models developed from the energy landscape theory\
+        \ of protein folding, have become a standard tool for investigating biomolecular\
+        \ dynamics. SMOG@ctbp is an effort to simplify the use of structure-based\
+        \ models. The purpose of the web server is two fold. First, the web tool simplifies\
+        \ the process of implementing a well-characterized structure-based model on\
+        \ a state-of-the-art, open source, molecular dynamics package, GROMACS. Second,\
+        \ the tutorial-like format helps speed the learning curve of those unfamiliar\
+        \ with molecular dynamics. A web tool user is able to upload any multi-chain\
+        \ biomolecular system consisting of standard RNA, DNA and amino acids in PDB\
+        \ format and receive as output all files necessary to implement the model\
+        \ in GROMACS. Both Ca and all-atom versions of the model are available. SMOG@ctbp\
+        \ resides at http://smog.ucsd.edu. \xA9 The Author(s) 2010. Published by Oxford\
+        \ University Press."
+      authors:
+        - name: Noel J.K.
+        - name: Whitford P.C.
+        - name: Sanbonmatsu K.Y.
+        - name: Onuchic J.N.
+      citationCount: 187
+      date: '2010-06-04T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'SMOG@ctbp: Simplified deployment of structure-based models in GROMACS'
+    pmcid: null
+    pmid: '20525782'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Molecular dynamics
+    uri: http://edamontology.org/topic_0176
+  - term: Protein folds and structural domains
+    uri: http://edamontology.org/topic_0736
+  - term: Protein folding, stability and design
+    uri: http://edamontology.org/topic_0130
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+validated: 1
+version: []

@@ -1,0 +1,107 @@
+accessibility: []
+additionDate: '2017-01-13T13:13:54Z'
+biotoolsCURIE: biotools:breaktrans
+biotoolsID: breaktrans
+collectionID: []
+cost: null
+credit:
+  - email: kchen3@mdanderson.org
+    name: Ken Chen
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: BreakTrans is a computer program that maps predicted gene fusions to
+  genomic structural rearrangements so as to validate both types of events.
+documentation:
+  - note: null
+    type: General
+    url: http://odin.mdacc.tmc.edu/~kchen3/BreakTrans/release-2013-02-14/BreakTrans-0.0.6/README
+  - note: null
+    type: Manual
+    url: http://bioinformatics.mdanderson.org/main/Tutorials
+download: []
+editPermission:
+  authors:
+    - ELIXIR-EE
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Splice site prediction
+        uri: http://edamontology.org/operation_0433
+      - term: DNA mapping
+        uri: http://edamontology.org/operation_2520
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output: []
+homepage: http://bioinformatics.mdanderson.org/main/BreakTrans
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link: []
+maturity: null
+name: BreakTrans
+operatingSystem: []
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: 10.1186/gb-2013-14-8-r87
+    metadata:
+      abstract: "Producing gene fusions through genomic structural rearrangements\
+        \ is a major mechanism for tumor evolution. Therefore, accurately detecting\
+        \ gene fusions and the originating rearrangements is of great importance for\
+        \ personalized cancer diagnosis and targeted therapy. We present a tool, BreakTrans,\
+        \ that systematically maps predicted gene fusions to structural rearrangements.\
+        \ Thus, BreakTrans not only validates both types of predictions, but also\
+        \ provides mechanistic interpretations. BreakTrans effectively validates known\
+        \ fusions and discovers novel events in a breast cancer cell line. Applying\
+        \ BreakTrans to 43 breast cancer samples in The Cancer Genome Atlas identifies\
+        \ 90 genomically validated gene fusions. BreakTrans is available at http://bioinformatics.mdanderson.org/main/BreakTrans.\
+        \ \xA9 2013 Chen et al.; licensee BioMed Central Ltd."
+      authors:
+        - name: Chen K.
+        - name: Navin N.E.
+        - name: Wang Y.
+        - name: Schmidt H.K.
+        - name: Wallis J.W.
+        - name: Niu B.
+        - name: Fan X.
+        - name: Zhao H.
+        - name: McLellan M.D.
+        - name: Hoadley K.A.
+        - name: Mardis E.R.
+        - name: Ley T.J.
+        - name: Perou C.M.
+        - name: Wilson R.K.
+        - name: Ding L.
+      citationCount: 10
+      date: '2013-08-23T00:00:00Z'
+      journal: Genome Biology
+      title: 'BreakTrans: Uncovering the genomic architecture of gene fusions'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Script
+topic:
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+  - term: Gene transcripts
+    uri: http://edamontology.org/topic_3512
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 1
+version: []

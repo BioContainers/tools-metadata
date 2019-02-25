@@ -1,0 +1,88 @@
+accessibility: []
+additionDate: '2017-01-13T13:15:04Z'
+biotoolsCURIE: biotools:icorn
+biotoolsID: icorn
+collectionID: []
+cost: null
+credit:
+  - email: tdo@sanger.ac.uk
+    name: T. D. Otto
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Iteratively align deep coverage of short sequencing reads to correct
+  errors in reference genome sequences and evaluate their accuracy.
+documentation:
+  - note: null
+    type: General
+    url: http://icorn.sourceforge.net/documentation.html
+  - note: null
+    type: Manual
+    url: http://icorn.sourceforge.net/README.txt
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequencing quality control
+        uri: http://edamontology.org/operation_3218
+      - term: Sequence assembly
+        uri: http://edamontology.org/operation_0310
+    output: []
+homepage: http://icorn.sourceforge.net/
+homepage_status: 0
+language:
+  - Shell
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: ICORN
+operatingSystem:
+  - Linux
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: The accuracy of reference genomes is important for downstream\
+        \ analysis but a low error rate requires expensive manual interrogation of\
+        \ the sequence. Here, we describe a novel algorithm (Iterative Correction\
+        \ of Reference Nucleotides) that iteratively aligns deep coverage of short\
+        \ sequencing reads to correct errors in reference genome sequences and evaluate\
+        \ their accuracy. Results: Using Plasmodium falciparum (81% A+T content) as\
+        \ an extreme example, we show that the algorithm is highly accurate and corrects\
+        \ over 2000 errors in the reference sequence. We give examples of its application\
+        \ to numerous other eukaryotic and prokaryotic genomes and suggest additional\
+        \ applications. \xA9 The Author(s) 2010."
+      authors:
+        - name: Otto T.D.
+        - name: Sanders M.
+        - name: Berriman M.
+        - name: Newbold C.
+      citationCount: 131
+      date: '2010-06-18T00:00:00Z'
+      journal: Bioinformatics
+      title: Iterative correction of reference Nucleotides (iCORN) using second generation
+        sequencing technology
+    pmcid: null
+    pmid: '20562415'
+    type: null
+    version: null
+toolType:
+  - Workflow
+topic:
+  - term: Data quality management
+    uri: http://edamontology.org/topic_3572
+validated: 1
+version: []

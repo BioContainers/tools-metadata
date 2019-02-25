@@ -1,0 +1,80 @@
+accessibility: []
+additionDate: '2017-08-03T19:08:01Z'
+biotoolsCURIE: biotools:ps_scan
+biotoolsID: ps_scan
+collectionID: []
+cost: null
+credit: []
+description: "ps_scan (ScanProsite tool) is a perl program used to scan one or several\
+  \ patterns, rules and/or profiles from PROSITE against one or several protein sequnces\
+  \ in Swiss-Prot or FASTA format. It requires two compiled external programs from\
+  \ the PFTOOLS package : \u201Cpfscan\u201D used to scan a sequence against a profile\
+  \ library and \u201Cpsa2msa\u201D which is necessary for the \u201C-o msa\u201D\
+  \ output format only."
+documentation:
+  - note: null
+    type: Manual
+    url: https://prosite.expasy.org/scanprosite/scanprosite_doc.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+homepage: http://prosite.expasy.org/scanprosite/
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/ps_scan-1-75-prosite-scanning-program.html
+maturity: null
+name: ps_scan
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: Many different software tools are available publicly to scan the PROSITE
+        database of protein families. However, none of them, to our knowledge, wholly
+        implements the PROSITE syntax, or satisfies all the rules for scanning a pattern
+        against a sequence. We hereby propose a strict definition of how a PROSITE
+        pattern is to be scanned against a sequence, and provide a reference implementation
+        of a tool to scan PROSITE patterns, rules and profiles against protein sequences.
+      authors:
+        - name: Gattiker A.
+        - name: Gasteiger E.
+        - name: Bairoch A.
+      citationCount: 335
+      date: '2002-12-01T00:00:00Z'
+      journal: Appl Bioinformatics
+      title: 'ScanProsite: a reference implementation of a PROSITE scanning tool.'
+    pmcid: null
+    pmid: '15130850'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
+validated: 1
+version: []

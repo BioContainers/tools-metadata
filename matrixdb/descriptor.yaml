@@ -5,30 +5,30 @@ biotoolsID: matrixdb
 collectionID: []
 cost: null
 credit:
-- email: sylvie.ricard-blum@univ-lyon1.fr
-  name: MatrixDB Support
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: nicolas.thierry-mieg@univ-grenoble-alpes.fr
-  name: MatrixDB Support
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: sylvie.ricard-blum@univ-lyon1.fr
+    name: MatrixDB Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: nicolas.thierry-mieg@univ-grenoble-alpes.fr
+    name: MatrixDB Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: It is a database focused on interactions established by extracellular
   proteins and polysaccharides. It takes into account the multimeric nature of several
   extracellular protein families for the curation of interactions, and reports interactions
   with individual polypeptide chains or with multimers, considered as permanent complexes.
 documentation:
-- note: null
-  type: General
-  url: http://matrixdb.univ-lyon1.fr/
+  - note: null
+    type: General
+    url: http://matrixdb.univ-lyon1.fr/
 download: []
 editPermission:
   authors: []
@@ -37,21 +37,21 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Protein interaction network analysis
-    uri: http://edamontology.org/operation_0276
-  - term: Pathway or network comparison
-    uri: http://edamontology.org/operation_0277
-  - term: Pathway or network visualisation
-    uri: http://edamontology.org/operation_3083
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  - term: Pathway or network prediction
-    uri: http://edamontology.org/operation_3439
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein interaction network analysis
+        uri: http://edamontology.org/operation_0276
+      - term: Pathway or network comparison
+        uri: http://edamontology.org/operation_0277
+      - term: Pathway or network visualisation
+        uri: http://edamontology.org/operation_3083
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+      - term: Pathway or network prediction
+        uri: http://edamontology.org/operation_3439
+    output: []
 homepage: http://matrixdb.univ-lyon1.fr/
 homepage_status: 0
 language: []
@@ -61,59 +61,60 @@ link: []
 maturity: null
 name: MatrixDB
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-EE
 publication:
-- doi: null
-  metadata:
-    abstract: MatrixDB (http://matrixdb.ibcp.fr) is a freely available database focused
-      on interactions established by extracellular proteins and polysaccharides. Only
-      few databases report protein-polysaccharide interactions and, to the best of
-      our knowledge, there is no other database of extracellular interactions. MatrixDB
-      takes into account the multimeric nature of several extracellular protein families
-      for the curation of interactions, and reports interactionswith individual polypeptide
-      chains or with multimers, considered as permanent complexes, when appropriate.
-      MatrixDB is a member of the International Molecular Exchange consortium (IMEx)
-      and has adopted the PSI-MI standards for the curation and the exchange of interaction
-      data. MatrixDB stores experimental data from our laboratory, data from literature
-      curation, data imported from IMEx databases, and data from the Human Protein
-      Reference Database. MatrixDB is focused on mammalian interactions, but aims
-      to integrate interaction datasets of model organisms when available. MatrixDB
-      provides direct links to databases recapitulating mutations ingenes encoding
-      extracellular proteins, to UniGene and to the Human Protein Atlas that shows
-      expression and localization of proteins in a large variety of normal human tissues
-      and cells. MatrixDB allows researchers to perform customized queries and to
-      build tissue- and disease-specific interaction networks that can be visualized
-      and analyzed with Cytoscape or Medusa. © The Author(s) 2010.
-    authors:
-    - name: Chautard E.
-    - name: Fatoux-Ardore M.
-    - name: Ballut L.
-    - name: Thierry-Mieg N.
-    - name: Ricard-Blum S.
-    citationCount: 70
-    date: '2011-01-01T00:00:00Z'
-    journal: Nucleic Acids Research
-    title: MatrixDB, the extracellular matrix interaction database
-  pmcid: null
-  pmid: '20852260'
-  type: null
-  version: null
+  - doi: null
+    metadata:
+      abstract: "MatrixDB (http://matrixdb.ibcp.fr) is a freely available database\
+        \ focused on interactions established by extracellular proteins and polysaccharides.\
+        \ Only few databases report protein-polysaccharide interactions and, to the\
+        \ best of our knowledge, there is no other database of extracellular interactions.\
+        \ MatrixDB takes into account the multimeric nature of several extracellular\
+        \ protein families for the curation of interactions, and reports interactionswith\
+        \ individual polypeptide chains or with multimers, considered as permanent\
+        \ complexes, when appropriate. MatrixDB is a member of the International Molecular\
+        \ Exchange consortium (IMEx) and has adopted the PSI-MI standards for the\
+        \ curation and the exchange of interaction data. MatrixDB stores experimental\
+        \ data from our laboratory, data from literature curation, data imported from\
+        \ IMEx databases, and data from the Human Protein Reference Database. MatrixDB\
+        \ is focused on mammalian interactions, but aims to integrate interaction\
+        \ datasets of model organisms when available. MatrixDB provides direct links\
+        \ to databases recapitulating mutations ingenes encoding extracellular proteins,\
+        \ to UniGene and to the Human Protein Atlas that shows expression and localization\
+        \ of proteins in a large variety of normal human tissues and cells. MatrixDB\
+        \ allows researchers to perform customized queries and to build tissue- and\
+        \ disease-specific interaction networks that can be visualized and analyzed\
+        \ with Cytoscape or Medusa. \xA9 The Author(s) 2010."
+      authors:
+        - name: Chautard E.
+        - name: Fatoux-Ardore M.
+        - name: Ballut L.
+        - name: Thierry-Mieg N.
+        - name: Ricard-Blum S.
+      citationCount: 70
+      date: '2011-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: MatrixDB, the extracellular matrix interaction database
+    pmcid: null
+    pmid: '20852260'
+    type: null
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
-- term: Protein interactions
-  uri: http://edamontology.org/topic_0128
-- term: Gene and protein families
-  uri: http://edamontology.org/topic_0623
-- term: Database management
-  uri: http://edamontology.org/topic_3489
-- term: Proteins
-  uri: http://edamontology.org/topic_0078
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+  - term: Gene and protein families
+    uri: http://edamontology.org/topic_0623
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
 validated: 1
 version: []

@@ -1,0 +1,105 @@
+accessibility: []
+additionDate: '2017-12-18T00:08:51Z'
+biotoolsCURIE: biotools:mr-mspolygraph
+biotoolsID: mr-mspolygraph
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.eecs.wsu.edu/~ananth/index.htm
+description: MR-MSPOLYGRAPH is a MapReduce based implementation for parallelizing
+  peptide identification from mass spectrometry data
+documentation:
+  - note: null
+    type: General
+    url: http://compbio.eecs.wsu.edu/readme.txt
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Search
+        uri: http://edamontology.org/operation_2421
+    output: []
+homepage: http://compbio.eecs.wsu.edu/
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/mr-mspolygraph-mspolygraph-1-61-mapreduce-implementation-hybrid-spectral-library-database-search-method-large-scale-peptide-identification.html
+maturity: null
+name: MR-MSPOLYGRAPH
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: 10.1093/bioinformatics/btr523
+    metadata:
+      abstract: "Summary: A MapReduce-based implementation called MRMSPolygraph for\
+        \ parallelizing peptide identification from mass spectrometry data is presented.\
+        \ The underlying serial method, MSPolygraph, uses a novel hybrid approach\
+        \ to match an experimental spectrum against a combination of a protein sequence\
+        \ database and a spectral library. Our MapReduce implementation can run on\
+        \ any Hadoop cluster environment. Experimental results demonstrate that, relative\
+        \ to the serial version, MR-MSPolygraph reduces the time to solution from\
+        \ weeks to hours, for processing tens of thousands of experimental spectra.\
+        \ Speedup and other related performance studies are also reported on a 400-core\
+        \ Hadoop cluster using spectral datasets from environmental microbial communities\
+        \ as inputs. \xA9 The Author(s) 2011. Published by Oxford University Press."
+      authors:
+        - name: Kalyanaraman A.
+        - name: Cannon W.R.
+        - name: Latt B.
+        - name: Baxter D.J.
+      citationCount: 17
+      date: '2011-11-01T00:00:00Z'
+      journal: Bioinformatics
+      title: Mapreduce implementation of a hybrid spectral library-database search
+        method for large-scale peptide identification
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Mass spectrometry
+    uri: http://edamontology.org/topic_3520
+  - term: Peptide identification
+    uri: http://edamontology.org/topic_0121
+validated: 1
+version: []

@@ -5,29 +5,29 @@ biotoolsID: discordant
 collectionID: []
 cost: Free of charge
 credit:
-- email: siska.charlotte@gmail.com
-  name: Charlotte Siska
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: siska.charlotte@gmail.com
+    name: Charlotte Siska
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Determine differential correlation of molecular feature pairs from -omics
   data using mixture models.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/manuals/discordant/man/discordant.pdf
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/manuals/discordant/man/discordant.pdf
 download:
-- note: null
-  type: Source package
-  url: http://bioconductor.org/packages/release/bioc/src/contrib/discordant_1.4.0.tar.gz
-  version: null
-- note: null
-  type: Source code
-  url: http://bioconductor.org/packages/release/bioc/vignettes/discordant/inst/doc/Discordant_vignette.R
-  version: null
+  - note: null
+    type: Source package
+    url: http://bioconductor.org/packages/release/bioc/src/contrib/discordant_1.4.0.tar.gz
+    version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor.org/packages/release/bioc/vignettes/discordant/inst/doc/Discordant_vignette.R
+    version: null
 editPermission:
   authors: []
   type: private
@@ -35,55 +35,55 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Correlation
-    uri: http://edamontology.org/operation_3465
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Correlation
+        uri: http://edamontology.org/operation_3465
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/discordant.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: GPL-2.0
 link:
-- note: null
-  type: Mirror
-  url: https://github.com/siskac/discordant
-- note: null
-  type: Mirror
-  url: http://bioconductor.org/packages/discordant/
-- note: null
-  type: Repository
-  url: https://git.bioconductor.org/packages/discordant
+  - note: null
+    type: Mirror
+    url: https://github.com/siskac/discordant
+  - note: null
+    type: Mirror
+    url: http://bioconductor.org/packages/discordant/
+  - note: null
+    type: Repository
+    url: https://git.bioconductor.org/packages/discordant
 maturity: null
 name: discordant
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication:
-- doi: 10.1093/bioinformatics/btv633
-  metadata: null
-  pmcid: PMC5006287
-  pmid: '26520855'
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/btv633
+    metadata: null
+    pmcid: PMC5006287
+    pmid: '26520855'
+    type: Primary
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: Genetics
-  uri: http://edamontology.org/topic_3053
-- term: Microarray experiment
-  uri: http://edamontology.org/topic_3518
-- term: RNA-seq
-  uri: http://edamontology.org/topic_3170
-- term: Statistics and probability
-  uri: http://edamontology.org/topic_2269
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Microarray experiment
+    uri: http://edamontology.org/topic_3518
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
 validated: 1
 version:
-- 1.4.0
+  - 1.4.0

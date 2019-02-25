@@ -1,0 +1,103 @@
+accessibility: []
+additionDate: '2017-08-03T18:45:39Z'
+biotoolsCURIE: biotools:gro2mat
+biotoolsID: gro2mat
+collectionID: []
+cost: null
+credit:
+  - email: deane@stats.ox.ac.uk
+    name: Charlotte Deane
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://opig.stats.ox.ac.uk/
+description: Package that allows fast and easy access to Gromacs output files from
+  Matlab.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output: []
+  - cmd: null
+    input: []
+    note: Function of GROMACS, program that generates the output that this tool reads
+    operation:
+      - term: Molecular dynamics
+        uri: http://edamontology.org/operation_2476
+    output: []
+homepage: http://www.stats.ox.ac.uk/research/proteins/resources
+homepage_status: 0
+language:
+  - MATLAB
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/gro2mat-a-package-to-efficiently-read-gromacs-output-in-matlab.html
+maturity: null
+name: Gro2mat
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Molecular dynamics (MD) simulations are a state-of-the-art computational\
+        \ method used to investigate molecular interactions at atomic scale. Interaction\
+        \ processes out of experimental reach can be monitored using MD software,\
+        \ such as Gromacs. Here, we present the gro2mat package that allows fast and\
+        \ easy access to Gromacs output files from Matlab. Gro2mat enables direct\
+        \ parsing of the most common Gromacs output formats including the binary xtc-format.\
+        \ No openly available Matlab parser currently exists for this format. The\
+        \ xtc reader is orders of magnitudes faster than other available pdb/ascii\
+        \ workarounds. Gro2mat is especially useful for scientists with an interest\
+        \ in quick prototyping of new mathematical and statistical approaches for\
+        \ Gromacs trajectory analyses. \xA9 2014 Wiley Periodicals, Inc. Molecular\
+        \ Dynamics simulations are computational methods used to investigate molecular\
+        \ interactions at atomic scale. Interaction processes out of experimental\
+        \ reach can be monitored using Molecular Dynamics software such as Gromacs.\
+        \ In this article, the gro2mat package is presented. It allows fast and easy\
+        \ access to Gromacs output files from Matlab. This package is especially useful\
+        \ for scientists with an interest in quick prototyping of new mathematical\
+        \ and statistical approaches for Gromacs trajectory analyses. Copyright \xA9\
+        \ 2014 Wiley Periodicals, Inc."
+      authors:
+        - name: Dien H.
+        - name: Deane C.M.
+        - name: Knapp B.
+      citationCount: 10
+      date: '2014-07-30T00:00:00Z'
+      journal: Journal of Computational Chemistry
+      title: 'Gro2mat: A package to efficiently read gromacs output in MATLAB'
+    pmcid: null
+    pmid: '24920464'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Computational chemistry
+    uri: http://edamontology.org/topic_3332
+  - term: Molecular dynamics
+    uri: http://edamontology.org/topic_0176
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
+validated: 1
+version: []

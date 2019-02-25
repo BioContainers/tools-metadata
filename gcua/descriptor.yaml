@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2017-05-16T12:57:19Z'
+biotoolsCURIE: biotools:gcua
+biotoolsID: gcua
+collectionID: []
+cost: null
+credit:
+  - email: thomas.gcua@schoedl.de
+    name: "Thomas Sch\xF6dl"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://gcua.schoedl.de/contact.html
+description: Differences in codon usage preference among organisms lead to a variety
+  of problems concerning heterologous gene expression but can be overcome by rational
+  gene design and gene synthesis. The gcua tool displays the codon quality either
+  in codon usage frequency values or relative adaptiveness values.
+documentation:
+  - note: null
+    type: General
+    url: http://gcua.schoedl.de/seqoverallex.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+      - term: Codon usage table generation
+        uri: http://edamontology.org/operation_0284
+      - term: Codon usage analysis
+        uri: http://edamontology.org/operation_0286
+      - term: Codon usage bias plotting
+        uri: http://edamontology.org/operation_2963
+      - term: Codon usage table comparison
+        uri: http://edamontology.org/operation_0285
+      - term: Codon usage bias calculation
+        uri: http://edamontology.org/operation_2962
+    output: []
+homepage: http://gcua.schoedl.de
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: Graphical Codon Usage Analyser
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: 'The program General Codon Usage Analysis (GCUA) has been developed
+        for analysing codon and amino acid usage patterns. Availability: ftp://ftp.nhm.ac.uk/pub/gcua.
+        Freely available for acedemic use, commercial users should contact the author.
+        Contact: J.McInerney@@@nhm.ac.uk.'
+      authors:
+        - name: McInerney J.O.
+      citationCount: 115
+      date: '1998-01-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'GCUA: General codon usage analysis'
+    pmcid: null
+    pmid: '9632833'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Protein expression
+    uri: http://edamontology.org/topic_0108
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 1
+version: []

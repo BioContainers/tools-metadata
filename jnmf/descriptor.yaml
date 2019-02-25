@@ -1,0 +1,104 @@
+accessibility: []
+additionDate: '2017-08-03T19:06:30Z'
+biotoolsCURIE: biotools:jnmf
+biotoolsID: jnmf
+collectionID: []
+cost: null
+credit:
+  - email: zsh@amss.ac.cn
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://page.amss.ac.cn/shihua.zhang/
+description: Package which implemented the joint matrix factorization technique to
+  integrating multi-dimensional genomics data for the discovery of combinatorial patterns.
+documentation:
+  - note: null
+    type: Manual
+    url: http://page.amss.ac.cn/shihua.zhang/software.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genome comparison
+        uri: http://edamontology.org/operation_3209
+    output: []
+homepage: http://page.amss.ac.cn/shihua.zhang/software.html
+homepage_status: 0
+language:
+  - MATLAB
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/jnmf-discovery-of-combinatorial-patterns.html
+maturity: null
+name: jNMF
+operatingSystem:
+  - Linux
+  - Windows
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Recent technology has made it possible to simultaneously perform\
+        \ multi-platform genomic profiling (e.g. DNA methylation (DM) and gene expression\
+        \ (GE)) of biological samples, resulting in so-called 'multi-dimensional genomic\
+        \ data'. Such data provide unique opportunities to study the coordination\
+        \ between regulatory mechanisms on multiple levels. However, integrative analysis\
+        \ of multi-dimensional genomics data for the discovery of combinatorial patterns\
+        \ is currently lacking. Here, we adopt a joint matrix factorization technique\
+        \ to address this challenge. This method projects multiple types of genomic\
+        \ data onto a common coordinate system, in which heterogeneous variables weighted\
+        \ highly in the same projected direction form a multi-dimensional module (md-module).\
+        \ Genomic variables in such modules are characterized by significant correlations\
+        \ and likely functional associations. We applied this method to the DM, GE,\
+        \ and microRNA expression data of 385 ovarian cancer samples from the The\
+        \ Cancer Genome Atlas project. These md-modules revealed perturbed pathways\
+        \ that would have been overlooked with only a single type of data, uncovered\
+        \ associations between different layers of cellular activities and allowed\
+        \ the identification of clinically distinct patient subgroups. Our study provides\
+        \ an useful protocol for uncovering hidden patterns and their biological implications\
+        \ in multi-dimensional 'omic' data. \xA9 2012 The Author(s)."
+      authors:
+        - name: Zhang S.
+        - name: Liu C.-C.
+        - name: Li W.
+        - name: Shen H.
+        - name: Laird P.W.
+        - name: Zhou X.J.
+      citationCount: 96
+      date: '2012-10-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: Discovery of multi-dimensional modules by integrative analysis of cancer
+        genomic data
+    pmcid: null
+    pmid: '22879375'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Functional genomics
+    uri: http://edamontology.org/topic_0085
+  - term: Applied mathematics
+    uri: http://edamontology.org/topic_3569
+validated: 1
+version: []

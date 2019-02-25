@@ -1,0 +1,86 @@
+accessibility: []
+additionDate: '2017-03-05T08:36:59Z'
+biotoolsCURIE: biotools:bicycle
+biotoolsID: bicycle
+collectionID: []
+cost: Free of charge
+credit:
+  - email: null
+    name: 'Bioinformatics Unit. CNIO: Spanish National Cancer Research Centre'
+    note: null
+    orcidid: null
+    typeEntity: Division
+    typeRole:
+      - Developer
+    url: http://www.cnio.es/es/grupos/plantillas/presentacion.asp?grupo=50004300
+  - email: null
+    name: SING Research Group. Informatics Department. University of Vigo
+    note: null
+    orcidid: null
+    typeEntity: Division
+    typeRole:
+      - Developer
+    url: https://www.sing-group.org
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www.sing-group.org/bicycle/aboutus.html
+description: bicycle (bisulfite-based methylcytosine caller) is a next-generation
+  sequencing bioinformatic pipeline aimed to analyze whole genome bisulfite sequencing
+  data. It can process data from directional (Lister) and non-directional (Cokus)
+  bisulfite sequencing protocols, and from single-end and paired-end sequencing, and
+  performs methylation calls for cytosines in CG and non-CG contexts (CHG and CHH).
+documentation:
+  - note: null
+    type: Manual
+    url: https://www.sing-group.org/bicycle/manual.html
+download:
+  - note: null
+    type: Binary package
+    url: https://www.sing-group.org/bicycle/download.html
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Methylation analysis
+        uri: http://edamontology.org/operation_3204
+      - term: Bisulfite mapping
+        uri: http://edamontology.org/operation_3186
+    output: []
+homepage: https://www.sing-group.org/bicycle/index.html
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:57Z'
+license: LGPL-3.0
+link:
+  - note: GitHub official repository.
+    type: Repository
+    url: https://github.com/sing-group/bicycle
+maturity: Emerging
+name: 'bicycle: bisulfite-based methylcytosine caller'
+operatingSystem:
+  - Linux
+otherID: []
+owner: hlfernandez@uvigo.es
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
+validated: 1
+version:
+  - 1.8.0

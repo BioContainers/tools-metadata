@@ -1,0 +1,111 @@
+accessibility: []
+additionDate: '2017-03-24T14:34:32Z'
+biotoolsCURIE: biotools:superlooper
+biotoolsID: superlooper
+collectionID: []
+cost: null
+credit:
+  - email: peter.hildebrand@charite.de
+    name: Peter Hildebrand
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: SuperLooper is a web tool for the modeling of loops in globular and membrane
+  proteins.
+documentation:
+  - note: null
+    type: General
+    url: http://bioinf-applied.charite.de/superlooper/tutorial.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein modelling
+        uri: http://edamontology.org/operation_0477
+      - term: Protein modelling (mutation)
+        uri: http://edamontology.org/operation_0331
+      - term: Protein globularity prediction
+        uri: http://edamontology.org/operation_0408
+      - term: Transmembrane protein analysis
+        uri: http://edamontology.org/operation_0270
+      - term: Protein modelling (loops)
+        uri: http://edamontology.org/operation_0481
+    output: []
+homepage: http://bioinf-applied.charite.de/superlooper/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link: []
+maturity: null
+name: SuperLooper
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "SuperLooper provides the first online interface for the automatic,\
+        \ quick and interactive search and placement of loops in proteins (LIP). A\
+        \ database containing half a billion segments of water-soluble proteins with\
+        \ lengths up to 35 residues can be screened for candidate loops. A specified\
+        \ database containing 180 000 membrane loops in proteins (LIMP) can be searched,\
+        \ alternatively. Loop candidates are scored based on sequence criteria and\
+        \ the root mean square deviation (RMSD) of the stem atoms. Searching LIP,\
+        \ the average global RMSD of the respective top-ranked loops to the original\
+        \ loops is benchmarked to be <2 \xC5, for loops up to six residues or <3 \xC5\
+        \ for loops shorter than 10 residues. Other suitable conformations may be\
+        \ selected and directly visualized on the web server from a top-50 list. For\
+        \ user guidance, the sequence homology between the template and the original\
+        \ sequence, proline or glycine exchanges or close contacts between a loop\
+        \ candidate and the remainder of the protein are denoted. For membrane proteins,\
+        \ the expansions of the lipid bilayer are automatically modeled using the\
+        \ TMDET algorithm. This allows the user to select the optimal membrane protein\
+        \ loop concerning its relative orientation to the lipid bilayer. The server\
+        \ is online since October 2007 and can be freely accessed at URL: http://bioinformatics.charite.de/superlooper/."
+      authors:
+        - name: Hildebrand P.W.
+        - name: Goede A.
+        - name: Bauer R.A.
+        - name: Gruening B.
+        - name: Ismer J.
+        - name: Michalsky E.
+        - name: Preissner R.
+      citationCount: 60
+      date: '2009-08-04T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: SuperLooper - A prediction server for the modeling of loops in globular
+        and membrane proteins
+    pmcid: null
+    pmid: '19429894'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Membrane and lipoproteins
+    uri: http://edamontology.org/topic_0820
+  - term: Protein folds and structural domains
+    uri: http://edamontology.org/topic_0736
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Lipids
+    uri: http://edamontology.org/topic_0153
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+validated: 1
+version: []

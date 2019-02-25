@@ -1,0 +1,110 @@
+accessibility:
+  - Freeware
+additionDate: '2018-05-30T14:31:21Z'
+biotoolsCURIE: biotools:isafe
+biotoolsID: isafe
+collectionID: []
+cost: Free of charge
+credit:
+  - email: alakbari@ucsd.edu
+    name: Ali Akbari
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: "A program for identifying a favored mutation in positive selective sweep.\
+  \ It enables researchers to accurately pinpoint the favored mutation in a large\
+  \ region (\u223C5 Mbp) by using a statistic derived solely from population genetics\
+  \ signals."
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/alek0991/iSAFE
+download:
+  - note: null
+    type: Command-line specification
+    url: https://github.com/alek0991/iSAFE
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Matrix
+          uri: http://edamontology.org/data_2082
+        format:
+          - term: VCF
+            uri: http://edamontology.org/format_3016
+    note: null
+    operation:
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+      - term: Statistical calculation
+        uri: http://edamontology.org/operation_2238
+    output:
+      - data:
+          term: Matrix
+          uri: http://edamontology.org/data_2082
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
+homepage: https://github.com/alek0991/iSAFE
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:59Z'
+license: BSD-2-Clause
+link: []
+maturity: Mature
+name: iSAFE
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: 10.1038/nmeth.4606
+    metadata:
+      abstract: "\xA9 2018 Nature Publishing Group. All rights reserved. Most approaches\
+        \ that capture signatures of selective sweeps in population genomics data\
+        \ do not identify the specific mutation favored by selection. We present iSAFE\
+        \ (for \"integrated selection of allele favored by evolution\"), a method\
+        \ that enables researchers to accurately pinpoint the favored mutation in\
+        \ a large region (\xE2 1/45 Mbp) by using a statistic derived solely from\
+        \ population genetics signals. iSAFE does not require knowledge of demography,\
+        \ the phenotype under selection, or functional annotations of mutations."
+      authors:
+        - name: Akbari A.
+        - name: Vitti J.J.
+        - name: Iranmehr A.
+        - name: Bakhtiari M.
+        - name: Sabeti P.C.
+        - name: Mirarab S.
+        - name: Bafna V.
+      citationCount: 1
+      date: '2018-04-03T00:00:00Z'
+      journal: Nature Methods
+      title: Identifying the favored mutation in a positive selective sweep
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Population genomics
+    uri: http://edamontology.org/topic_3796
+  - term: Evolutionary biology
+    uri: http://edamontology.org/topic_3299
+  - term: Data mining
+    uri: http://edamontology.org/topic_3473
+validated: 1
+version: []

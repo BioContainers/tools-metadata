@@ -1,0 +1,71 @@
+accessibility: []
+additionDate: '2017-12-18T00:13:02Z'
+biotoolsCURIE: biotools:seqstrap
+biotoolsID: seqstrap
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://public.lanl.gov/jgans/
+description: "\u201CExtrapolating\u201D partial or fragmentary nucleic acid sequences\
+  \ prior to assay design. It works by first loading a set of user specified sequences\
+  \ in FASTA format, iteratively comparing every sequence to every other sequence,\
+  \ and using the best matching sequence as a template for adding additional sequence\
+  \ at the 5\u2032 and 3\u2032 ends of the sequence."
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Loading
+        uri: http://edamontology.org/operation_1812
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Design
+        uri: http://edamontology.org/operation_2430
+    output: []
+homepage: http://public.lanl.gov/jgans/
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:58Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/seqstrap-1-0-extrapolating-partial-fragmentary-nucleic-acid-sequences-prior-assay-design.html
+maturity: null
+name: SeqStrap
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: mbs_import
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequences
+    uri: http://edamontology.org/topic_0080
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+validated: 1
+version:
+  - '1.0'

@@ -1,0 +1,106 @@
+accessibility: []
+additionDate: '2017-07-04T12:32:38Z'
+biotoolsCURIE: biotools:cadd_phred
+biotoolsID: cadd_phred
+collectionID:
+  - RD-connect
+  - Rare Disease
+cost: null
+credit:
+  - email: cadd-support@uw.edu
+    name: CADD support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: CADD is a tool for scoring the deleteriousness of single nucleotide variants
+  as well as insertion/deletions variants in the human genome.
+documentation:
+  - note: null
+    type: General
+    url: http://cadd.gs.washington.edu/info
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Variant prioritisation
+        uri: http://edamontology.org/operation_3226
+      - term: Gene-set enrichment analysis
+        uri: http://edamontology.org/operation_2436
+      - term: Statistical calculation
+        uri: http://edamontology.org/operation_2238
+    output: []
+homepage: http://cadd.gs.washington.edu/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: CADD Phred
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Current methods for annotating and interpreting human genetic variation\
+        \ tend to exploit a single information type (for example, conservation) and/or\
+        \ are restricted in scope (for example, to missense changes). Here we describe\
+        \ Combined Annotation-Dependent Depletion (CADD), a method for objectively\
+        \ integrating many diverse annotations into a single measure (C score) for\
+        \ each variant. We implement CADD as a support vector machine trained to differentiate\
+        \ 14.7 million high-frequency human-derived alleles from 14.7 million simulated\
+        \ variants. We precompute C scores for all 8.6 billion possible human single-nucleotide\
+        \ variants and enable scoring of short insertions-deletions. C scores correlate\
+        \ with allelic diversity, annotations of functionality, pathogenicity, disease\
+        \ severity, experimentally measured regulatory effects and complex trait associations,\
+        \ and they highly rank known pathogenic variants within individual genomes.\
+        \ The ability of CADD to prioritize functional, deleterious and pathogenic\
+        \ variants across many functional categories, effect sizes and genetic architectures\
+        \ is unmatched by any current single-annotation method. \xA9 2014 Nature America,\
+        \ Inc. \xA9 2014 Nature America, Inc."
+      authors:
+        - name: Kircher M.
+        - name: Witten D.M.
+        - name: Jain P.
+        - name: O'roak B.J.
+        - name: Cooper G.M.
+        - name: Shendure J.
+      citationCount: 1430
+      date: '2014-01-01T00:00:00Z'
+      journal: Nature Genetics
+      title: A general framework for estimating the relative pathogenicity of human
+        genetic variants
+    pmcid: null
+    pmid: '24487276'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Human genetics
+    uri: http://edamontology.org/topic_3574
+  - term: Medical informatics
+    uri: http://edamontology.org/topic_3063
+validated: 1
+version: []

@@ -1,0 +1,101 @@
+accessibility:
+  - Open access
+additionDate: '2017-08-02T10:04:58Z'
+biotoolsCURIE: biotools:eggnog-mapper
+biotoolsID: eggnog-mapper
+collectionID:
+  - de.NBI
+cost: Free of charge
+credit:
+  - email: null
+    name: European Molecular Biology Laboratory (EMBL)
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: https://www.embl.de/
+  - email: null
+    name: HD-HuB
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: https://www.hd-hub.de/
+  - email: zeller@embl.de
+    name: Georg Zeller
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: danielrmende@gmail.com
+    name: Daniel Mende
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: 'For fast functional annotation of novel sequences. It uses precomputed
+  orthologous groups and phylogenies from the eggNOG database to transfer functional
+  information from fine-grained orthologs only. Its common uses include the annotation
+  of novel genomes, transcriptomes or even metagenomic gene catalogs.
+
+
+  The use of orthology predictions for functional annotation permits a higher precision
+  than traditional homology searches, as it avoids transferring annotations from close
+  paralogs.'
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/jhcepas/eggnog-mapper/wiki
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+    output: []
+homepage: http://beta-eggnogdb.embl.de/#/app/emapper
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:59Z'
+license: GPL-3.0
+link: []
+maturity: Mature
+name: EggNOG-mapper
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: hdhub
+publication:
+  - doi: null
+    metadata: null
+    pmcid: PMC5210662
+    pmid: null
+    type: null
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Metagenomics
+    uri: http://edamontology.org/topic_3174
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 1
+version:
+  - '1'

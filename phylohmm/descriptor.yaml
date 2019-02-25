@@ -1,0 +1,99 @@
+accessibility: []
+additionDate: '2017-12-18T00:11:00Z'
+biotoolsCURIE: biotools:phylohmm
+biotoolsID: phylohmm
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.moseslab.csb.utoronto.ca/
+description: PhyloHMM (phylogenetic hidden Markov model) is a website with data, software
+  and supporting materials for conserved sequences in disordered regions
+documentation:
+  - note: null
+    type: General
+    url: http://www.moseslab.csb.utoronto.ca/phylo_HMM/help.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+homepage: http://www.moseslab.csb.utoronto.ca/phylo_HMM/
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:58Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/phylohmm-proteome-wide-discovery-evolutionary-conserved-sequences-disordered-regions.html
+maturity: null
+name: PhyloHMM
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: 10.1126/scisignal.2002515
+    metadata:
+      abstract: At least 30% of human proteins are thought to contain intrinsically
+        disordered regions, which lack stable structural conformation. Despite lacking
+        enzymatic functions and having few protein domains, disordered regions are
+        functionally important for protein regulation and contain short linear motifs
+        (short peptide sequences involved in protein-protein interactions), but in
+        most disordered regions, the functional amino acid residues remain unknown.
+        We searched for evolutionarily conserved sequences within disordered regions
+        according to the hypothesis that conservation would indicate functional residues.
+        Using a phylogenetic hidden Markov model (phylo-HMM), we made accurate, specific
+        predictions of functional elements in disordered regions even when these elements
+        are only two or three amino acids long. Among the conserved sequences that
+        we identified were previously known and newly identified short linear motifs,
+        and we experimentally verified key examples, including a motif that may mediate
+        interaction between protein kinase Cbk1 and its substrates.We also observed
+        that hub proteins, which interact with many partners in a protein interaction
+        network, are highly enriched in these conserved sequences. Our analysis enabled
+        the systematic identification of the functional residues in disordered regions
+        and suggested that at least 5% of amino acids in disordered regions are important
+        for function.
+      authors:
+        - name: Nguyen Ba A.N.
+        - name: Yeh B.J.
+        - name: Van Dyk D.
+        - name: Davidson A.R.
+        - name: Andrews B.J.
+        - name: Weiss E.L.
+        - name: Moses A.M.
+      citationCount: 67
+      date: '2012-03-13T00:00:00Z'
+      journal: Science Signaling
+      title: Proteome-wide discovery of evolutionary conserved sequences in disordered
+        regions
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequences
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version:
+  - v2

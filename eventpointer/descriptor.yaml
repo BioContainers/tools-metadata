@@ -3,17 +3,17 @@ additionDate: '2018-07-08T15:34:33Z'
 biotoolsCURIE: biotools:eventpointer
 biotoolsID: eventpointer
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: jpromero@ceit.es
-  name: Juan Pablo Romero
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: jpromero@ceit.es
+    name: Juan Pablo Romero
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: It identifies alternative splicing events that involve either simple
   or complex experimental designs such as time course experiments and studies including
   paired-samples. The algorithm can be used to analyze data from either junction arrays
@@ -21,14 +21,14 @@ description: It identifies alternative splicing events that involve either simpl
   detected alternative splicing events in IGV. This eases the interpretation of results
   and the design of primers for standard PCR validation.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/manuals/EventPointer/man/EventPointer.pdf
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/manuals/EventPointer/man/EventPointer.pdf
 download:
-- note: null
-  type: Source package
-  url: http://bioconductor.org/packages/release/bioc/src/contrib/EventPointer_1.4.0.tar.gz
-  version: null
+  - note: null
+    type: Source package
+    url: http://bioconductor.org/packages/release/bioc/src/contrib/EventPointer_1.4.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -36,54 +36,54 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Splicing model analysis
-    uri: http://edamontology.org/operation_2499
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Splicing model analysis
+        uri: http://edamontology.org/operation_2499
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/EventPointer.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: Artistic-2.0
 link:
-- note: null
-  type: Mirror
-  url: http://bioconductor.org/packages/EventPointer/
-- note: null
-  type: Repository
-  url: https://git.bioconductor.org/packages/EventPointer
+  - note: null
+    type: Mirror
+    url: http://bioconductor.org/packages/EventPointer/
+  - note: null
+    type: Repository
+    url: https://git.bioconductor.org/packages/EventPointer
 maturity: null
 name: EventPointer
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication:
-- doi: 10.1186/s12864-016-2816-x
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1186/s12864-016-2816-x
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: RNA splicing
-  uri: http://edamontology.org/topic_3320
-- term: RNA-seq
-  uri: http://edamontology.org/topic_3170
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
-- term: Gene expression
-  uri: http://edamontology.org/topic_0203
-- term: Microarray experiment
-  uri: http://edamontology.org/topic_3518
+  - term: RNA splicing
+    uri: http://edamontology.org/topic_3320
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Microarray experiment
+    uri: http://edamontology.org/topic_3518
 validated: 1
 version:
-- 1.4.0
+  - 1.4.0

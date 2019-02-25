@@ -1,0 +1,99 @@
+accessibility: []
+additionDate: '2017-01-13T13:14:56Z'
+biotoolsCURIE: biotools:gnumap
+biotoolsID: gnumap
+collectionID: []
+cost: null
+credit:
+  - email: snell@cs.byu.edu
+    name: Dr. Quinn Snell
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: clement@cs.byu.edu
+    name: Dr. Mark Clement
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: The Genomic Next-generation Universal MAPper (gnumap) is a program designed
+  to accurately map sequence data obtained from next-generation sequencing machines
+  (specifically that of Solexa/Illumina) back to a genome of any size. Currently,
+  gnumap is designed to be used with the _int.txt data received from the Solexa/Illumina
+  machine.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Read mapping
+        uri: http://edamontology.org/operation_3198
+    output: []
+homepage: http://dna.cs.byu.edu/gnumap/
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: Mature
+name: Gnumap
+operatingSystem:
+  - Linux
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: The advent of next-generation sequencing technologies\
+        \ has increased the accuracy and quantity of sequence data, opening the door\
+        \ to greater opportunities in genomic research.Results: In this article, we\
+        \ present GNUMAP (Genomic Next-generation Universal MAPper), a program capable\
+        \ of overcoming two major obstacles in the mapping of reads from next-generation\
+        \ sequencing runs. First, we have created an algorithm that probabilistically\
+        \ maps reads to repeat regions in the genome on a quantitative basis. Second,\
+        \ we have developed a probabilistic Needleman-Wunsch algorithm which utilizes\
+        \ _prb.txt and _int.txt files produced in the Solexa/Illumina pipeline to\
+        \ improve the mapping accuracy for lower quality reads and increase the amount\
+        \ of usable data produced in a given experiment. \xA9 The Author 2009. Published\
+        \ by Oxford University Press."
+      authors:
+        - name: Clement N.L.
+        - name: Snell Q.
+        - name: Clement M.J.
+        - name: Hollenhorst P.C.
+        - name: Purwar J.
+        - name: Graves B.J.
+        - name: Cairns B.R.
+        - name: Johnson W.E.
+      citationCount: 44
+      date: '2009-10-27T00:00:00Z'
+      journal: Bioinformatics
+      title: 'The GNUMAP algorithm: Unbiased probabilistic mapping of oligonucleotides
+        from next-generation sequencing'
+    pmcid: null
+    pmid: '19861355'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 1
+version: []

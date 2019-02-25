@@ -1,0 +1,71 @@
+accessibility: []
+additionDate: '2017-12-18T00:04:26Z'
+biotoolsCURIE: biotools:bootfam
+biotoolsID: bootfam
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.csc.kth.se/~arve
+description: BootFam takes as input a set of homologous protein sequences, a species
+  tree, and a sequence-to-species mapping. The output is a set of gene families relative
+  to the species tree.
+documentation:
+  - note: null
+    type: General
+    url: http://www.csc.kth.se/~arve/code/bootfam/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Mapping
+        uri: http://edamontology.org/operation_2429
+    output: []
+homepage: http://www.csc.kth.se/~arve/code/bootfam/
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/bootfam-define-geneprotein-families.html
+maturity: null
+name: BootFam
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequences
+    uri: http://edamontology.org/topic_0080
+  - term: Phylogenetics
+    uri: http://edamontology.org/topic_3293
+  - term: Gene families
+    uri: http://edamontology.org/topic_0623
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+  - term: Protein families
+    uri: http://edamontology.org/topic_0623
+validated: 1
+version: []

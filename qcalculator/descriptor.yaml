@@ -1,0 +1,61 @@
+accessibility: []
+additionDate: '2017-12-18T00:15:31Z'
+biotoolsCURIE: biotools:qcalculator
+biotoolsID: qcalculator
+collectionID: []
+cost: null
+credit:
+  - email: liulin@okstate.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Tool to calculate relative mRNA Gene Expression.
+documentation:
+  - note: null
+    type: General
+    url: http://www.gene-quantification.de/qCalculator-introduction.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: PCR primer design
+        uri: http://edamontology.org/operation_0308
+    output: []
+homepage: http://www.gene-quantification.de/download.html#qcalculator
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:58Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/qcalculator-1-0-calculate-relative-mrna-gene-expression.html
+maturity: null
+name: qcalculator
+operatingSystem:
+  - Windows
+otherID: []
+owner: mbs_import
+publication: []
+toolType:
+  - Desktop application
+topic:
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: mRNA
+    uri: http://edamontology.org/topic_3512
+validated: 1
+version:
+  - '1.0'

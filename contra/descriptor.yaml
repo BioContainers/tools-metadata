@@ -1,0 +1,117 @@
+accessibility: []
+additionDate: '2017-01-13T13:14:10Z'
+biotoolsCURIE: biotools:contra
+biotoolsID: contra
+collectionID: []
+cost: null
+credit:
+  - email: jason.li@petermac.org
+    name: Jason Li
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: richard.lupat@petermac.org
+    name: Richard Lupat
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A tool for copy number variation (CNV) detection from targeted resequencing
+  data such as those from whole-exome capture data.
+documentation:
+  - note: null
+    type: General
+    url: http://contra-cnv.sourceforge.net/#Requirements
+download: []
+editPermission:
+  authors:
+    - ELIXIR-EE
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+      - term: Polymorphism detection
+        uri: http://edamontology.org/operation_3202
+      - term: Copy number estimation
+        uri: http://edamontology.org/operation_3233
+      - term: Structural variation detection
+        uri: http://edamontology.org/operation_3228
+    output: []
+homepage: http://contra-cnv.sourceforge.net/
+homepage_status: 0
+language:
+  - R
+  - Python
+lastUpdate: '2018-12-10T12:58:56Z'
+license: GPL-3.0
+link: []
+maturity: Mature
+name: Contra
+operatingSystem:
+  - Linux
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: In light of the increasing adoption of targeted resequencing\
+        \ (TR) as a cost-effective strategy to identify disease-causing variants,\
+        \ a robust method for copy number variation (CNV) analysis is needed to maximize\
+        \ the value of this promising technology.Results: We present a method for\
+        \ CNV detection for TR data, including whole-exome capture data. Our method\
+        \ calls copy number gains and losses for each target region based on normalized\
+        \ depth of coverage. Our key strategies include the use of base-level log-ratios\
+        \ to remove GC-content bias, correction for an imbalanced library size effect\
+        \ on log-ratios, and the estimation of log-ratio variations via binning and\
+        \ interpolation. Our methods are made available via CONTRA (COpy Number Targeted\
+        \ Resequencing Analysis), a software package that takes standard alignment\
+        \ formats (BAM/SAM) and outputs in variant call format (VCF4.0), for easy\
+        \ integration with other next-generation sequencing analysis packages. We\
+        \ assessed our methods using samples from seven different target enrichment\
+        \ assays, and evaluated our results using simulated data and real germline\
+        \ data with known CNV genotypes. \xA9 The Author(s) 2012. Published by Oxford\
+        \ University Press."
+      authors:
+        - name: Li J.
+        - name: Lupat R.
+        - name: Amarasinghe K.C.
+        - name: Thompson E.R.
+        - name: Doyle M.A.
+        - name: Ryland G.L.
+        - name: Tothill R.W.
+        - name: Halgamuge S.K.
+        - name: Campbell I.G.
+        - name: Gorringe K.L.
+      citationCount: 131
+      date: '2012-05-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'CONTRA: Copy number analysis for targeted resequencing'
+    pmcid: null
+    pmid: '22474122'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Oncology
+    uri: http://edamontology.org/topic_2640
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: DNA structural variation
+    uri: http://edamontology.org/topic_3175
+validated: 1
+version: []

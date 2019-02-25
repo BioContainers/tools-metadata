@@ -5,22 +5,22 @@ biotoolsID: scmfdd
 collectionID: []
 cost: null
 credit:
-- email: zhangwen@whu.edu.cn
-  name: Wen Zhang
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: fliuwhu@whu.edu.cn
-  name: Feng Liu
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: zhangwen@whu.edu.cn
+    name: Wen Zhang
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: fliuwhu@whu.edu.cn
+    name: Feng Liu
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Similarity constrained matrix factorization method for the drug-disease
   association prediction, which makes use of known drug-disease associations, drug
   features and disease semantic information. It projects the drug-disease association
@@ -28,9 +28,9 @@ description: Similarity constrained matrix factorization method for the drug-dis
   diseases, and then introduces drug feature-based similarities and disease semantic
   similarity as constraints for drugs and diseases in low-rank spaces.
 documentation:
-- note: null
-  type: Manual
-  url: http://www.bioinfotech.cn/static/DrugDisease/data/User%20Manual%20for%20SCMFDD.pdf
+  - note: null
+    type: Manual
+    url: http://www.bioinfotech.cn/static/DrugDisease/data/User%20Manual%20for%20SCMFDD.pdf
 download: []
 editPermission:
   authors: []
@@ -39,13 +39,13 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Data handling
-    uri: http://edamontology.org/operation_2409
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Data handling
+        uri: http://edamontology.org/operation_2409
+    output: []
 homepage: http://www.bioinfotech.cn/SCMFDD/
 homepage_status: 0
 language: []
@@ -55,55 +55,56 @@ link: []
 maturity: null
 name: SCMFDD
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication:
-- doi: 10.1186/s12859-018-2220-4
-  metadata:
-    abstract: '© 2018 The Author(s).. Background: Drug-disease associations provide
-      important information for the drug discovery. Wet experiments that identify
-      drug-disease associations are time-consuming and expensive. However, many drug-disease
-      associations are still unobserved or unknown. The development of computational
-      methods for predicting unobserved drug-disease associations is an important
-      and urgent task. Results: In this paper, we proposed a similarity constrained
-      matrix factorization method for the drug-disease association prediction (SCMFDD),
-      which makes use of known drug-disease associations, drug features and disease
-      semantic information. SCMFDD projects the drug-disease association relationship
-      into two low-rank spaces, which uncover latent features for drugs and diseases,
-      and then introduces drug feature-based similarities and disease semantic similarity
-      as constraints for drugs and diseases in low-rank spaces. Different from the
-      classic matrix factorization technique, SCMFDD takes the biological context
-      of the problem into account. In computational experiments, the proposed method
-      can produce high-accuracy performances on benchmark datasets, and outperform
-      existing state-of-the-art prediction methods when evaluated by five-fold cross
-      validation and independent testing. Conclusion: We developed a user-friendly
-      web server by using known associations collected from the CTD database, available
-      at http://www.bioinfotech.cn/SCMFDD/. The case studies show that the server
-      can find out novel associations, which are not included in the CTD database.'
-    authors:
-    - name: Zhang W.
-    - name: Yue X.
-    - name: Lin W.
-    - name: Wu W.
-    - name: Liu R.
-    - name: Huang F.
-    - name: Liu F.
-    citationCount: 0
-    date: '2018-06-19T00:00:00Z'
-    journal: BMC Bioinformatics
-    title: Predicting drug-disease associations by using similarity constrained matrix
-      factorization
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1186/s12859-018-2220-4
+    metadata:
+      abstract: "\xA9 2018 The Author(s).. Background: Drug-disease associations provide\
+        \ important information for the drug discovery. Wet experiments that identify\
+        \ drug-disease associations are time-consuming and expensive. However, many\
+        \ drug-disease associations are still unobserved or unknown. The development\
+        \ of computational methods for predicting unobserved drug-disease associations\
+        \ is an important and urgent task. Results: In this paper, we proposed a similarity\
+        \ constrained matrix factorization method for the drug-disease association\
+        \ prediction (SCMFDD), which makes use of known drug-disease associations,\
+        \ drug features and disease semantic information. SCMFDD projects the drug-disease\
+        \ association relationship into two low-rank spaces, which uncover latent\
+        \ features for drugs and diseases, and then introduces drug feature-based\
+        \ similarities and disease semantic similarity as constraints for drugs and\
+        \ diseases in low-rank spaces. Different from the classic matrix factorization\
+        \ technique, SCMFDD takes the biological context of the problem into account.\
+        \ In computational experiments, the proposed method can produce high-accuracy\
+        \ performances on benchmark datasets, and outperform existing state-of-the-art\
+        \ prediction methods when evaluated by five-fold cross validation and independent\
+        \ testing. Conclusion: We developed a user-friendly web server by using known\
+        \ associations collected from the CTD database, available at http://www.bioinfotech.cn/SCMFDD/.\
+        \ The case studies show that the server can find out novel associations, which\
+        \ are not included in the CTD database."
+      authors:
+        - name: Zhang W.
+        - name: Yue X.
+        - name: Lin W.
+        - name: Wu W.
+        - name: Liu R.
+        - name: Huang F.
+        - name: Liu F.
+      citationCount: 0
+      date: '2018-06-19T00:00:00Z'
+      journal: BMC Bioinformatics
+      title: Predicting drug-disease associations by using similarity constrained
+        matrix factorization
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Web service
+  - Web service
 topic:
-- term: Computational biology
-  uri: http://edamontology.org/topic_3307
+  - term: Computational biology
+    uri: http://edamontology.org/topic_3307
 validated: 1
 version: []

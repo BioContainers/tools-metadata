@@ -1,0 +1,103 @@
+accessibility: []
+additionDate: '2017-08-03T18:57:02Z'
+biotoolsCURIE: biotools:qprot
+biotoolsID: qprot
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.nesvilab.org/
+description: QPROT is a software for differential protein expression using spectral
+  count and intensity data. It also accounts for independent samples and paired samples.
+documentation:
+  - note: Vignette inside each version
+    type: General
+    url: https://sourceforge.net/projects/qprot/files/qprot_v1.3.5.zip/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Differential protein expression analysis
+        uri: http://edamontology.org/operation_3741
+    output: []
+homepage: http://sourceforge.net/projects/qprot/
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/qprot-differential-protein-expression-using-spectral-count-and-intensity-data.html
+maturity: null
+name: QPROT
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015 Elsevier B.V.We introduce QPROT, a statistical framework\
+        \ and computational tool for differential protein expression analysis using\
+        \ protein intensity data. QPROT is an extension of the QSPEC suite, originally\
+        \ developed for spectral count data, adapted for the analysis using continuously\
+        \ measured protein-level intensity data. QPROT offers a new intensity normalization\
+        \ procedure and model-based differential expression analysis, both of which\
+        \ account for missing data. Determination of differential expression of each\
+        \ protein is based on the standardized Z-statistic based on the posterior\
+        \ distribution of the log fold change parameter, guided by the false discovery\
+        \ rate estimated by a well-known Empirical Bayes method. We evaluated the\
+        \ classification performance of QPROT using the quantification calibration\
+        \ data from the clinical proteomic technology assessment for cancer (CPTAC)\
+        \ study and a recently published Escherichia coli benchmark dataset, with\
+        \ evaluation of FDR accuracy in the latter. Biological significance: QPROT\
+        \ is a statistical framework with computational software tool for comparative\
+        \ quantitative proteomics analysis. It features various extensions of QSPEC\
+        \ method originally built for spectral count data analysis, including probabilistic\
+        \ treatment of missing values in protein intensity data. With the increasing\
+        \ popularity of label-free quantitative proteomics data, the proposed method\
+        \ and accompanying software suite will be immediately useful for many proteomics\
+        \ laboratories.This article is part of a Special Issue entitled: Computational\
+        \ Proteomics."
+      authors:
+        - name: Choi H.
+        - name: Kim S.
+        - name: Fermin D.
+        - name: Tsou C.-C.
+        - name: Nesvizhskii A.I.
+      citationCount: 12
+      date: '2015-05-02T00:00:00Z'
+      journal: Journal of Proteomics
+      title: 'QPROT: Statistical method for testing differential expression using
+        protein-level intensity data in label-free quantitative proteomics'
+    pmcid: null
+    pmid: '26254008'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Protein expression
+    uri: http://edamontology.org/topic_0108
+  - term: Sample collections
+    uri: http://edamontology.org/topic_3277
+validated: 1
+version: []

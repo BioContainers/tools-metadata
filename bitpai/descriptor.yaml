@@ -1,0 +1,84 @@
+accessibility: []
+additionDate: '2018-05-16T16:48:14Z'
+biotoolsCURIE: biotools:bitpai
+biotoolsID: bitpai
+collectionID: []
+cost: null
+credit:
+  - email: jloving@bu.edu
+    name: Joshua Loving
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: yhernand@bu.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: gbenson@bu.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A bit-parallel algorithm for general, integer-scoring global alignment.
+  Integer-scoring schemes assign integer weights for match, mismatch and insertion/deletion.
+  This method uses structural properties in the relationship between adjacent scores
+  in the scoring matrix to construct classes of efficient algorithms, each designed
+  for a particular set of weights.
+documentation:
+  - note: null
+    type: General
+    url: http://lobstah.bu.edu/cgi-bin/BitPAl/help.py
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Global alignment
+        uri: http://edamontology.org/operation_0496
+    output: []
+homepage: http://lobstah.bu.edu/cgi-bin/BitPAl/index.cgi
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:58Z'
+license: null
+link: []
+maturity: null
+name: BitPAI
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: aotamendi.1
+publication:
+  - doi: 10.1093/bioinformatics/btu507
+    metadata: null
+    pmcid: PMC4221118
+    pmid: '25075119'
+    type: null
+    version: null
+toolType:
+  - Web service
+topic:
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+validated: 1
+version: []

@@ -1,30 +1,30 @@
 accessibility:
-- Open access
+  - Open access
 additionDate: '2018-06-25T13:01:05Z'
 biotoolsCURIE: biotools:mitotip
 biotoolsID: mitotip
 collectionID: []
 cost: Free of charge
 credit:
-- email: neal.sondheimer@sickkids.ca
-  name: Neal Sondheimer
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: neal.sondheimer@sickkids.ca
+    name: Neal Sondheimer
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: An algorithm for predicting the impact of novel mitochondrial tRNA mutations.
   The algorithm is available through MITOMAP
 documentation:
-- note: null
-  type: General
-  url: https://www.mitomap.org/foswiki/bin/view/MITOMAP/MitoTipInfo
+  - note: null
+    type: General
+    url: https://www.mitomap.org/foswiki/bin/view/MITOMAP/MitoTipInfo
 download:
-- note: null
-  type: Source code
-  url: https://github.com/sonneysa/MitoTIP
-  version: null
+  - note: null
+    type: Source code
+    url: https://github.com/sonneysa/MitoTIP
+    version: null
 editPermission:
   authors: []
   type: private
@@ -32,17 +32,17 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Polymorphism detection
-    uri: http://edamontology.org/operation_3202
-  - term: Variant prioritisation
-    uri: http://edamontology.org/operation_3226
-  - term: SNP annotation
-    uri: http://edamontology.org/operation_3661
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Polymorphism detection
+        uri: http://edamontology.org/operation_3202
+      - term: Variant prioritisation
+        uri: http://edamontology.org/operation_3226
+      - term: SNP annotation
+        uri: http://edamontology.org/operation_3661
+    output: []
 homepage: https://www.mitomap.org/MITOMAP
 homepage_status: 0
 language: []
@@ -52,48 +52,48 @@ link: []
 maturity: Mature
 name: MitoTIP
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-EE
 publication:
-- doi: 10.1371/journal.pcbi.1005867
-  metadata:
-    abstract: © 2017 Sonney et al. Novel or rare variants in mitochondrial tRNA sequences
-      may be observed after mitochondrial DNA analysis. Determining whether these
-      variants are pathogenic is critical, but confirmation of the effect of a variant
-      on mitochondrial function can be challenging. We have used available databases
-      of benign and pathogenic variants, alignment between diverse tRNAs, structural
-      information and comparative genomics to predict the impact of all possible single-base
-      variants and deletions. The Mitochondrial tRNA Informatics Predictor (MitoTIP)
-      is available through MITOMAP at www.mitomap.org. The source code for MitoTIP
-      is available at www.github.com/sonneysa/MitoTIP.
-    authors:
-    - name: Sonney S.
-    - name: Leipzig J.
-    - name: Lott M.T.
-    - name: Zhang S.
-    - name: Procaccio V.
-    - name: Wallace D.C.
-    - name: Sondheimer N.
-    citationCount: 0
-    date: '2017-12-01T00:00:00Z'
-    journal: PLoS Computational Biology
-    title: Predicting the pathogenicity of novel variants in mitochondrial tRNA with
-      MitoTIP
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1371/journal.pcbi.1005867
+    metadata:
+      abstract: "\xA9 2017 Sonney et al. Novel or rare variants in mitochondrial tRNA\
+        \ sequences may be observed after mitochondrial DNA analysis. Determining\
+        \ whether these variants are pathogenic is critical, but confirmation of the\
+        \ effect of a variant on mitochondrial function can be challenging. We have\
+        \ used available databases of benign and pathogenic variants, alignment between\
+        \ diverse tRNAs, structural information and comparative genomics to predict\
+        \ the impact of all possible single-base variants and deletions. The Mitochondrial\
+        \ tRNA Informatics Predictor (MitoTIP) is available through MITOMAP at www.mitomap.org.\
+        \ The source code for MitoTIP is available at www.github.com/sonneysa/MitoTIP."
+      authors:
+        - name: Sonney S.
+        - name: Leipzig J.
+        - name: Lott M.T.
+        - name: Zhang S.
+        - name: Procaccio V.
+        - name: Wallace D.C.
+        - name: Sondheimer N.
+      citationCount: 0
+      date: '2017-12-01T00:00:00Z'
+      journal: PLoS Computational Biology
+      title: Predicting the pathogenicity of novel variants in mitochondrial tRNA
+        with MitoTIP
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Plug-in
+  - Plug-in
 topic:
-- term: Genetic variation
-  uri: http://edamontology.org/topic_0199
-- term: Function analysis
-  uri: http://edamontology.org/topic_1775
-- term: Genotype and phenotype
-  uri: http://edamontology.org/topic_0625
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: Function analysis
+    uri: http://edamontology.org/topic_1775
+  - term: Genotype and phenotype
+    uri: http://edamontology.org/topic_0625
 validated: 1
 version: []

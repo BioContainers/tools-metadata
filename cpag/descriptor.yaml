@@ -1,0 +1,87 @@
+accessibility: []
+additionDate: '2017-12-18T00:04:53Z'
+biotoolsCURIE: biotools:cpag
+biotoolsID: cpag
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://rawlslab.duhs.duke.edu/
+description: CPAG can estimate disease and trait similarity, identify informative
+  disease clusters, and carry out pathway enrichment analysis. It also provides visualization
+  of these results in the form of hierarchical clustering trees, heatmaps, and networks.
+documentation:
+  - note: null
+    type: General
+    url: https://sourceforge.net/p/cpag/wiki/Home/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Enrichment analysis
+        uri: http://edamontology.org/operation_3501
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Analysis
+        uri: http://edamontology.org/operation_2945
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Enrichment
+        uri: http://edamontology.org/operation_3501
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+    output: []
+homepage: http://sourceforge.net/projects/cpag/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/cpag-cross-phenotype-analysis-of-gwas.html
+maturity: null
+name: CPAG
+operatingSystem:
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: Disease
+    uri: http://edamontology.org/topic_0634
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Networks
+    uri: http://edamontology.org/topic_0602
+validated: 1
+version:
+  - '0.2'

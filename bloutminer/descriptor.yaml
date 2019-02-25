@@ -1,0 +1,75 @@
+accessibility: []
+additionDate: '2017-12-18T00:14:32Z'
+biotoolsCURIE: biotools:bloutminer
+biotoolsID: bloutminer
+collectionID: []
+cost: null
+credit:
+  - email: Johan.Bengtsson@microbiology.se
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://microbiology.se/
+description: Aa script for mining data from BLAST reports. Allows you to specify e.g.
+  an E-value cutoff, a length cutoff and a percent identity cutoff, and extract a
+  list of the hits satisfying these cutoffs.
+documentation:
+  - note: null
+    type: General
+    url: http://microbiology.se/sw/bloutminer
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Query
+        uri: http://edamontology.org/operation_0224
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Search
+        uri: http://edamontology.org/operation_2421
+    output: []
+homepage: http://microbiology.se/software/
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:58Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/bloutminer-0-9-5-script-mining-data-blast-reports.html
+maturity: null
+name: bloutminer
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequences
+    uri: http://edamontology.org/topic_0080
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Data acquisition
+    uri: http://edamontology.org/topic_3077
+validated: 1
+version:
+  - 0.9.6

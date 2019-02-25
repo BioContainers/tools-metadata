@@ -5,28 +5,28 @@ biotoolsID: chopstitch
 collectionID: []
 cost: null
 credit:
-- email: hkhan@bcgsc.ca
-  name: Hamza Khan
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: ibirol@bcgsc.ca
-  name: Inanc Birol
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: hkhan@bcgsc.ca
+    name: Hamza Khan
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: ibirol@bcgsc.ca
+    name: Inanc Birol
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Finding putative exons and constructing splicegraphs using Trans-ABySS
   contigs.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/bcgsc/ChopStitch
+  - note: null
+    type: General
+    url: https://github.com/bcgsc/ChopStitch
 download: []
 editPermission:
   authors: []
@@ -35,77 +35,78 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: Splicegraph construction
-  operation:
-  - term: Visualisation
-    uri: http://edamontology.org/operation_0337
-  - term: Sequence annotation
-    uri: http://edamontology.org/operation_0361
-  output: []
+  - cmd: null
+    input: []
+    note: Splicegraph construction
+    operation:
+      - term: Visualisation
+        uri: http://edamontology.org/operation_0337
+      - term: Sequence annotation
+        uri: http://edamontology.org/operation_0361
+    output: []
 homepage: https://github.com/bcgsc/ChopStitch
 homepage_status: 0
 language:
-- C++
-- Python
+  - C++
+  - Python
 lastUpdate: '2018-12-10T12:58:59Z'
 license: GPL-3.0
 link: []
 maturity: null
 name: ChopStitch
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1093/bioinformatics/btx839
-  metadata:
-    abstract: © The Author(s) 2017. Published by Oxford University Press. Motivation
-      Sequencing studies on non-model organisms often interrogate both genomes and
-      transcriptomes with massive amounts of short sequences. Such studies require
-      de novo analysis tools and techniques, when the species and closely related
-      species lack high quality reference resources. For certain applications such
-      as de novo annotation, information on putative exons and alternative splicing
-      may be desirable. Results Here we present ChopStitch, a new method for finding
-      putative exons de novo and constructing splice graphs using an assembled transcriptome
-      and whole genome shotgun sequencing (WGSS) data. ChopStitch identifies exon-exon
-      boundaries in de novo assembled RNA-Seq data with the help of a Bloom filter
-      that represents the k-mer spectrum of WGSS reads. The algorithm also accounts
-      for base substitutions in transcript sequences that may be derived from sequencing
-      or assembly errors, haplotype variations, or putative RNA editing events. The
-      primary output of our tool is a FASTA file containing putative exons. Further,
-      exon edges are interrogated for alternative exon-exon boundaries to detect transcript
-      isoforms, which are represented as splice graphs in DOT output format. Availability
-      and implementation ChopStitch is written in Python and C++ and is released under
-      the GPL license. It is freely available at https://github.com/bcgsc/ChopStitch.
-    authors:
-    - name: Khan H.
-    - name: Mohamadi H.
-    - name: Vandervalk B.P.
-    - name: Warren R.L.
-    - name: Chu J.
-    - name: Birol I.
-    citationCount: 0
-    date: '2018-05-15T00:00:00Z'
-    journal: Bioinformatics
-    title: 'ChopStitch: Exon annotation and splice graph construction using transcriptome
-      assembly and whole genome sequencing data'
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1093/bioinformatics/btx839
+    metadata:
+      abstract: "\xA9 The Author(s) 2017. Published by Oxford University Press. Motivation\
+        \ Sequencing studies on non-model organisms often interrogate both genomes\
+        \ and transcriptomes with massive amounts of short sequences. Such studies\
+        \ require de novo analysis tools and techniques, when the species and closely\
+        \ related species lack high quality reference resources. For certain applications\
+        \ such as de novo annotation, information on putative exons and alternative\
+        \ splicing may be desirable. Results Here we present ChopStitch, a new method\
+        \ for finding putative exons de novo and constructing splice graphs using\
+        \ an assembled transcriptome and whole genome shotgun sequencing (WGSS) data.\
+        \ ChopStitch identifies exon-exon boundaries in de novo assembled RNA-Seq\
+        \ data with the help of a Bloom filter that represents the k-mer spectrum\
+        \ of WGSS reads. The algorithm also accounts for base substitutions in transcript\
+        \ sequences that may be derived from sequencing or assembly errors, haplotype\
+        \ variations, or putative RNA editing events. The primary output of our tool\
+        \ is a FASTA file containing putative exons. Further, exon edges are interrogated\
+        \ for alternative exon-exon boundaries to detect transcript isoforms, which\
+        \ are represented as splice graphs in DOT output format. Availability and\
+        \ implementation ChopStitch is written in Python and C++ and is released under\
+        \ the GPL license. It is freely available at https://github.com/bcgsc/ChopStitch."
+      authors:
+        - name: Khan H.
+        - name: Mohamadi H.
+        - name: Vandervalk B.P.
+        - name: Warren R.L.
+        - name: Chu J.
+        - name: Birol I.
+      citationCount: 0
+      date: '2018-05-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'ChopStitch: Exon annotation and splice graph construction using transcriptome
+        assembly and whole genome sequencing data'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Gene transcripts
-  uri: http://edamontology.org/topic_3512
-- term: RNA splicing
-  uri: http://edamontology.org/topic_3320
-- term: Whole genome sequencing
-  uri: http://edamontology.org/topic_3673
-- term: Transcriptomics
-  uri: http://edamontology.org/topic_3308
+  - term: Gene transcripts
+    uri: http://edamontology.org/topic_3512
+  - term: RNA splicing
+    uri: http://edamontology.org/topic_3320
+  - term: Whole genome sequencing
+    uri: http://edamontology.org/topic_3673
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
 validated: 1
 version: []

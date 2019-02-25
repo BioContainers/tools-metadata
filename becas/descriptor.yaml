@@ -1,0 +1,100 @@
+accessibility: []
+additionDate: '2017-08-03T18:36:48Z'
+biotoolsCURIE: biotools:becas
+biotoolsID: becas
+collectionID: []
+cost: null
+credit:
+  - email: jlo@ua.pt
+    name: "Jos\xE9 Luis Oliveira"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://bioinformatics.ua.pt/
+description: Web application, API and widget for biomedical concept identification.
+  It helps researchers, healthcare professionals and developers in the identification
+  of over 1,200,000 biomedical concepts in text and PubMed abstracts.
+documentation:
+  - note: null
+    type: General
+    url: http://bioinformatics.ua.pt/becas/#!/help
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Annotation
+        uri: http://edamontology.org/operation_0226
+    output: []
+homepage: http://bioinformatics.ua.pt/software/becas/
+homepage_status: 0
+language:
+  - Shell
+  - Python
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/becas-biomedical-concept-annotation-tool-api-and-widget.html
+maturity: null
+name: BECAS
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "The continuous growth of the biomedical scientific literature has\
+        \ been motivating the development of text-mining tools able to efficiently\
+        \ process all this information. Although numerous domain-specific solutions\
+        \ are available, there is no web-based concept-recognition system that combines\
+        \ the ability to select multiple concept types to annotate, to reference external\
+        \ databases and to automatically annotate nested and intercepted concepts.\
+        \ BeCAS, the Biomedical Concept Annotation System, is an API for biomedical\
+        \ concept identification and a web-based tool that addresses these limitations.\
+        \ MEDLINE abstracts or free text can be annotated directly in the web interface,\
+        \ where identified concepts are enriched with links to reference databases.\
+        \ Using its customizable widget, it can also be used to augment external web\
+        \ pages with concept highlighting features. Furthermore, all text-processing\
+        \ and annotation features are made available through an HTTP REST API, allowing\
+        \ integration in any text-processing pipeline.Availability: BeCAS is freely\
+        \ available for non-commercial use at http://bioinformatics.ua.pt/becas.Contacts:\
+        \ or jlo@ua.pt \xA9 2013 The Author 2013. Published by Oxford University Press.\
+        \ All rights reserved. For Permissions, please email: journals.permissions@oup.com."
+      authors:
+        - name: Nunes T.
+        - name: Campos D.
+        - name: Matos S.
+        - name: Oliveira J.L.
+      citationCount: 27
+      date: '2013-08-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'BeCAS: Biomedical concept recognition services and visualization'
+    pmcid: null
+    pmid: '23736528'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Data submission, annotation and curation
+    uri: http://edamontology.org/topic_0219
+  - term: Biomedical science
+    uri: http://edamontology.org/topic_3344
+  - term: Literature and language
+    uri: http://edamontology.org/topic_3068
+validated: 1
+version: []

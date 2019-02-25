@@ -5,27 +5,27 @@ biotoolsID: steak
 collectionID: []
 cost: null
 credit:
-- email: cindy.santander@zoo.ox.ac.uk
-  name: Cindy Santander
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: philippe.gambron@stfc.ac.uk
-  name: Philippe Gambron
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: cindy.santander@zoo.ox.ac.uk
+    name: Cindy Santander
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: philippe.gambron@stfc.ac.uk
+    name: Philippe Gambron
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Specific Transposable Element Aligner (HERV-K).
 documentation:
-- note: null
-  type: General
-  url: https://github.com/applevir/STEAK
+  - note: null
+    type: General
+    url: https://github.com/applevir/STEAK
 download: []
 editPermission:
   authors: []
@@ -34,13 +34,13 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Virulence prediction
-    uri: http://edamontology.org/operation_3461
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Virulence prediction
+        uri: http://edamontology.org/operation_3461
+    output: []
 homepage: https://github.com/applevir/STEAK
 homepage_status: 0
 language: []
@@ -50,25 +50,25 @@ link: []
 maturity: null
 name: STEAK
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1093/ve/vex023
-  metadata: null
-  pmcid: PMC5597868
-  pmid: '28948042'
-  type: null
-  version: null
+  - doi: 10.1093/ve/vex023
+    metadata: null
+    pmcid: PMC5597868
+    pmid: '28948042'
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
-- term: Virology
-  uri: http://edamontology.org/topic_0781
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Virology
+    uri: http://edamontology.org/topic_0781
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
 validated: 1
 version: []

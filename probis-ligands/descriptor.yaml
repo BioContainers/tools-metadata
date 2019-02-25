@@ -1,0 +1,80 @@
+accessibility: []
+additionDate: '2017-05-16T13:43:12Z'
+biotoolsCURIE: biotools:probis-ligands
+biotoolsID: probis-ligands
+collectionID: []
+cost: null
+credit:
+  - email: konc@cmm.ki.si
+    name: ProBiS Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: ProBiS is a web server for predicting ligands by similarity in binding
+  sites.
+documentation:
+  - note: null
+    type: General
+    url: http://probis.cmm.ki.si/ligands/download/probis-ligands-apr-22-2014.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein feature detection
+        uri: http://edamontology.org/operation_3092
+      - term: Transcription factor binding site prediction
+        uri: http://edamontology.org/operation_0445
+      - term: Protein binding site prediction
+        uri: http://edamontology.org/operation_2575
+      - term: Molecular docking
+        uri: http://edamontology.org/operation_0478
+      - term: Protein-ligand docking
+        uri: http://edamontology.org/operation_0482
+    output: []
+homepage: http://probis.cmm.ki.si/ligands
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: ProBiS-ligands
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata: null
+    pmcid: PMC4086080
+    pmid: null
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Protein binding sites
+    uri: http://edamontology.org/topic_3534
+  - term: Nucleic acid sites, features and motifs
+    uri: http://edamontology.org/topic_3511
+  - term: DNA binding sites
+    uri: http://edamontology.org/topic_3125
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
+validated: 1
+version: []

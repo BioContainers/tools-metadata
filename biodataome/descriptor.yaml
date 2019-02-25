@@ -5,30 +5,30 @@ biotoolsID: biodataome
 collectionID: []
 cost: null
 credit:
-- email: kliolak@gmail.com
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: nkvorn@gmail.com
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: tsamard.it@gmail.com
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: kliolak@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: nkvorn@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: tsamard.it@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: A database of uniformly preprocessed and disease annotated omics data.
   We followed the same preprocessing pipeline for each biological mart to produce
   ready for downstream analysis and meta-analysis datasets and automatically annotate
@@ -37,9 +37,9 @@ description: A database of uniformly preprocessed and disease annotated omics da
   are publicly available for querying, browsing and downloading via BioDataome web
   application.
 documentation:
-- note: null
-  type: General
-  url: http://dataome.mensxmachina.org/documentation
+  - note: null
+    type: General
+    url: http://dataome.mensxmachina.org/documentation
 download: []
 editPermission:
   authors: []
@@ -48,13 +48,13 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output: []
 homepage: http://dataome.mensxmachina.org/
 homepage_status: 0
 language: []
@@ -64,18 +64,18 @@ link: []
 maturity: null
 name: BioDataome
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: kliolak
 publication: []
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Informatics
-  uri: http://edamontology.org/topic_0605
-- term: Omics
-  uri: http://edamontology.org/topic_3391
+  - term: Informatics
+    uri: http://edamontology.org/topic_0605
+  - term: Omics
+    uri: http://edamontology.org/topic_3391
 validated: 1
 version: []

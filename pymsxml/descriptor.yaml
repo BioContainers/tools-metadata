@@ -1,0 +1,65 @@
+accessibility: []
+additionDate: '2017-12-18T00:11:25Z'
+biotoolsCURIE: biotools:pymsxml
+biotoolsID: pymsxml
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://edwardslab.bmcb.georgetown.edu/
+description: "Convert vendor specific mass spectrometry data files for Applied Biosystems\u2019\
+  \ Q-Star, 4700, 4800, Mariner, and Voyager mass spectrometers from their raw binary\
+  \ form, to either of the emerging XML file formats for mass spectra: mzXML and mzData."
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output: []
+homepage: http://edwardslab.bmcb.georgetown.edu/software/PyMsXML.html
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:58Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/pymsxml-0-5-4-convert-vendor-specific-mass-spectrometry-file-formats-open-xml-file-formats.html
+maturity: null
+name: PyMsXML
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: Biology
+    uri: http://edamontology.org/topic_3070
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
+  - term: Mass spectrometry
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version:
+  - 0.5.4

@@ -3,31 +3,31 @@ additionDate: '2018-07-25T09:29:45Z'
 biotoolsCURIE: biotools:phenotest
 biotoolsID: phenotest
 collectionID:
-- BioConductor
+  - BioConductor
 cost: Free of charge
 credit:
-- email: evarist.planet@epfl.ch
-  name: Evarist Planet
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: evarist.planet@epfl.ch
+    name: Evarist Planet
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Tools to test correlation between gene expression and phenotype in a
   way that is efficient, structured, fast and scalable. GSEA is also provided.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/manuals/phenoTest/man/phenoTest.pdf
-- note: null
-  type: General
-  url: http://bioconductor.org/packages/release/bioc/vignettes/phenoTest/inst/doc/phenoTest.pdf
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/manuals/phenoTest/man/phenoTest.pdf
+  - note: null
+    type: General
+    url: http://bioconductor.org/packages/release/bioc/vignettes/phenoTest/inst/doc/phenoTest.pdf
 download:
-- note: null
-  type: Source package
-  url: http://bioconductor.org/packages/release/bioc/src/contrib/phenoTest_1.28.0.tar.gz
-  version: null
+  - note: null
+    type: Source package
+    url: http://bioconductor.org/packages/release/bioc/src/contrib/phenoTest_1.28.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -35,62 +35,62 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Classification
-    uri: http://edamontology.org/operation_2990
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Clustering
-    uri: http://edamontology.org/operation_3432
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Differential gene expression analysis
-    uri: http://edamontology.org/operation_3223
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Comparison
-    uri: http://edamontology.org/operation_2424
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Classification
+        uri: http://edamontology.org/operation_2990
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Differential gene expression analysis
+        uri: http://edamontology.org/operation_3223
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Comparison
+        uri: http://edamontology.org/operation_2424
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/phenoTest.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: GPL-2.0
 link:
-- note: null
-  type: Mirror
-  url: http://bioconductor.org/packages/phenoTest/
+  - note: null
+    type: Mirror
+    url: http://bioconductor.org/packages/phenoTest/
 maturity: null
 name: phenoTest
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication: []
 toolType:
-- Library
+  - Library
 topic:
-- term: Microarray experiment
-  uri: http://edamontology.org/topic_3518
-- term: Gene expression
-  uri: http://edamontology.org/topic_0203
-- term: Genotype and phenotype
-  uri: http://edamontology.org/topic_0625
+  - term: Microarray experiment
+    uri: http://edamontology.org/topic_3518
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Genotype and phenotype
+    uri: http://edamontology.org/topic_0625
 validated: 1
 version:
-- 1.28.0
+  - 1.28.0

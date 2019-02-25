@@ -5,30 +5,30 @@ biotoolsID: cafe_sequence_analysis
 collectionID: []
 cost: null
 credit:
-- email: ylu465@usc.edu
-  name: Yang Lu
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: fsun@usc.edu
-  name: Prof. Fengzhu Sun
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: ylu465@usc.edu
+    name: Yang Lu
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: fsun@usc.edu
+    name: Prof. Fengzhu Sun
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: aCcelerated Alignment-FrEe sequence analysis. Compute overall 28 distance/dissimilarity
   measures including (1) conventional measures based on k-mer counts, (2) newly developed
   measures based on background adjusted k-mer counts, and (3) measures based on presence/absence
   of k-mers.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/younglululu/CAFE/blob/master/README.md
+  - note: null
+    type: General
+    url: https://github.com/younglululu/CAFE/blob/master/README.md
 download: []
 editPermission:
   authors: []
@@ -37,54 +37,54 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence assembly
-    uri: http://edamontology.org/operation_0310
-  - term: k-mer counting
-    uri: http://edamontology.org/operation_3472
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence alignment
-    uri: http://edamontology.org/operation_0292
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence assembly
+        uri: http://edamontology.org/operation_0310
+      - term: k-mer counting
+        uri: http://edamontology.org/operation_3472
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output: []
 homepage: https://github.com/younglululu/CAFE
 homepage_status: 0
 language:
-- Python
-- C
+  - Python
+  - C
 lastUpdate: '2018-12-10T12:59:00Z'
 license: null
 link: []
 maturity: null
 name: CAFE
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1093/nar/gkx351
-  metadata: null
-  pmcid: PMC5793812
-  pmid: '28472388'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkx351
+    metadata: null
+    pmcid: PMC5793812
+    pmid: '28472388'
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Desktop application
+  - Command-line tool
+  - Desktop application
 topic:
-- term: Metagenomics
-  uri: http://edamontology.org/topic_3174
-- term: Sequence assembly
-  uri: http://edamontology.org/topic_0196
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
+  - term: Metagenomics
+    uri: http://edamontology.org/topic_3174
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
 validated: 1
 version: []

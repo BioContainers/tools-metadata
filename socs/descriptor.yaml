@@ -1,0 +1,84 @@
+accessibility: []
+additionDate: '2017-01-13T13:16:35Z'
+biotoolsCURIE: biotools:socs
+biotoolsID: socs
+collectionID: []
+cost: null
+credit:
+  - email: nickbergman@gatech.edu
+    name: Nicholas H. Bergman
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: SOLiD reference based, un-gapped alignment with bisulfite capability
+documentation:
+  - note: null
+    type: General
+    url: https://sourceforge.net/p/socs/wiki/Home/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Read mapping
+        uri: http://edamontology.org/operation_3198
+      - term: Bisulfite mapping
+        uri: http://edamontology.org/operation_3186
+    output: []
+homepage: https://sourceforge.net/projects/socs/
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:56Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: SOCS
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Here, we report the development of SOCS (short oligonucleotide color\
+        \ space), a program designed for efficient and flexible mapping of Applied\
+        \ Biosystems SOLiD sequence data onto a reference genome. SOCS performs its\
+        \ mapping within the context of 'color space', and it maximizes usable data\
+        \ by allowing a user-specified number of mismatches. Sequence census functions\
+        \ facilitate a variety of functional genomics applications, including transcriptome\
+        \ mapping and profiling, as well as ChIP-Seq. \xA9 2008 The Author(s)."
+      authors:
+        - name: Ondov B.D.
+        - name: Varadarajan A.
+        - name: Passalacqua K.D.
+        - name: Bergman N.H.
+      citationCount: 55
+      date: '2008-12-01T00:00:00Z'
+      journal: Bioinformatics
+      title: Efficient mapping of Applied Biosystems SOLiD sequence data to a reference
+        genome for functional genomic applications
+    pmcid: null
+    pmid: '18842598'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Epigenetics
+    uri: http://edamontology.org/topic_3295
+  - term: RNA-Seq
+    uri: http://edamontology.org/topic_3170
+validated: 1
+version: []

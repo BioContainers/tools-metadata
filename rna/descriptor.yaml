@@ -1,0 +1,81 @@
+accessibility: []
+additionDate: '2017-01-13T13:16:08Z'
+biotoolsCURIE: biotools:rna
+biotoolsID: rna
+collectionID: []
+cost: null
+credit:
+  - email: rna-support@appliedgenomics.org
+    name: rNA Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A randomized Numerical Aligner for Accurate alignment of NGS reads
+documentation:
+  - note: null
+    type: General
+    url: http://erne.sourceforge.net/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Read mapping
+        uri: http://edamontology.org/operation_3198
+    output: []
+homepage: http://iga-rna.sourceforge.net/
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:56Z'
+license: GPL-3.0
+link: []
+maturity: Mature
+name: RNA
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: 10.1093/bioinformatics/btr617
+    metadata:
+      abstract: "The advent of high-throughput sequencers (HTS) introduced the need\
+        \ of new tools in order to analyse the large amount of data that those machines\
+        \ are able to produce. The mandatory first step for a wide range of analyses\
+        \ is the alignment of the sequences against a reference genome. We present\
+        \ a major update to our rNA (randomized Numerical Aligner) tool. The main\
+        \ feature of rNA is the fact that it achieves an accuracy greater than the\
+        \ majority of other tools in a feasible amount of time. \xA9 The Author 2011.\
+        \ Published by Oxford University Press. All rights reserved."
+      authors:
+        - name: Vezzi F.
+        - name: Del Fabbro C.
+        - name: Tomescu A.I.
+        - name: Policriti A.
+      citationCount: 23
+      date: '2012-01-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'rNA: A fast and accurate short reads numerical aligner'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+validated: 1
+version: []

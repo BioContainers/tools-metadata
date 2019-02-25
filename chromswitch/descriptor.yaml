@@ -3,33 +3,33 @@ additionDate: '2018-07-17T13:51:36Z'
 biotoolsCURIE: biotools:chromswitch
 biotoolsID: chromswitch
 collectionID:
-- BioConductor
+  - BioConductor
 cost: Free of charge
 credit:
-- email: selinjessa@gmail.com
-  name: Selin Jessa
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: selinjessa@gmail.com
+    name: Selin Jessa
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Flexible method to detect chromatin state switches between samples in
   two biological conditions in a specific genomic region of interest given peaks or
   chromatin state calls from ChIP-seq data.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/manuals/chromswitch/man/chromswitch.pdf
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/manuals/chromswitch/man/chromswitch.pdf
 download:
-- note: null
-  type: Source package
-  url: http://bioconductor.org/packages/release/bioc/src/contrib/chromswitch_1.2.1.tar.gz
-  version: null
-- note: null
-  type: Source code
-  url: http://bioconductor.org/packages/release/bioc/vignettes/chromswitch/inst/doc/chromswitch_intro.R
-  version: null
+  - note: null
+    type: Source package
+    url: http://bioconductor.org/packages/release/bioc/src/contrib/chromswitch_1.2.1.tar.gz
+    version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor.org/packages/release/bioc/vignettes/chromswitch/inst/doc/chromswitch_intro.R
+    version: null
 editPermission:
   authors: []
   type: private
@@ -37,63 +37,63 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Clustering
-    uri: http://edamontology.org/operation_3432
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Comparison
-    uri: http://edamontology.org/operation_2424
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Comparison
+        uri: http://edamontology.org/operation_2424
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/chromswitch.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: MIT
 link:
-- note: null
-  type: Mirror
-  url: https://github.com/sjessa/chromswitch
-- note: null
-  type: Issue tracker
-  url: https://github.com/sjessa/chromswitch/issues
-- note: null
-  type: Mirror
-  url: http://bioconductor.org/packages/chromswitch/
-- note: null
-  type: Repository
-  url: https://git.bioconductor.org/packages/chromswitch
+  - note: null
+    type: Mirror
+    url: https://github.com/sjessa/chromswitch
+  - note: null
+    type: Issue tracker
+    url: https://github.com/sjessa/chromswitch/issues
+  - note: null
+    type: Mirror
+    url: http://bioconductor.org/packages/chromswitch/
+  - note: null
+    type: Repository
+    url: https://git.bioconductor.org/packages/chromswitch
 maturity: null
 name: chromswitch
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication:
-- doi: 10.1093/bioinformatics/bty075
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/bty075
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: Epigenetics
-  uri: http://edamontology.org/topic_3295
-- term: Functional genomics
-  uri: http://edamontology.org/topic_0085
-- term: Gene expression
-  uri: http://edamontology.org/topic_0203
+  - term: Epigenetics
+    uri: http://edamontology.org/topic_3295
+  - term: Functional genomics
+    uri: http://edamontology.org/topic_0085
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
 validated: 1
 version:
-- 1.2.1
+  - 1.2.1

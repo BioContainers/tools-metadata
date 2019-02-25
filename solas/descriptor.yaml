@@ -1,0 +1,113 @@
+accessibility: []
+additionDate: '2017-01-13T13:16:35Z'
+biotoolsCURIE: biotools:solas
+biotoolsID: solas
+collectionID: []
+cost: null
+credit:
+  - email: hugues.richard@molgen.mpg.de
+    name: Hugues Richard
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: An R package that allows prediction and quantification of alternative
+  isoforms from exon expression levels in RNA-Seq data.
+documentation:
+  - note: null
+    type: General
+    url: http://cmb.molgen.mpg.de/2ndGenerationSequencing/Solas/installation.html
+download: []
+editPermission:
+  authors:
+    - ELIXIR-EE
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Nucleic acid feature detection
+        uri: http://edamontology.org/operation_0415
+      - term: Splicing model analysis
+        uri: http://edamontology.org/operation_2499
+      - term: RNA-Seq quantification
+        uri: http://edamontology.org/operation_3800
+      - term: RNA-Seq analysis
+        uri: http://edamontology.org/operation_3680
+    output: []
+homepage: http://cmb.molgen.mpg.de/2ndGenerationSequencing/Solas/
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: Mature
+name: Solas
+operatingSystem: []
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Alternative splicing, polyadenylation of premessenger RNA molecules\
+        \ and differential promoter usage can produce a variety of transcript isoforms\
+        \ whose respective expression levels are regulated in time and space, thus\
+        \ contributing specific biological functions. However, the repertoire of mammalian\
+        \ alternative transcripts and their regulation are still poorly understood.\
+        \ Second-generation sequencing is now opening unprecedented routes to address\
+        \ the analysis of entire transcriptomes. Here, we developed methods that allow\
+        \ the prediction and quantification of alternative isoforms derived solely\
+        \ from exon expression levels in RNA-Seq data. These are based on an explicit\
+        \ statistical model and enable the prediction of alternative isoforms within\
+        \ or between conditions using any known gene annotation, as well as the relative\
+        \ quantification of known transcript structures. Applying these methods to\
+        \ a human RNA-Seq dataset, we validated a significant fraction of the predictions\
+        \ by RT-PCR. Data further showed that these predictions correlated well with\
+        \ information originating from junction reads. A direct comparison with exon\
+        \ arrays indicated improved performances of RNA-Seq over microarrays in the\
+        \ prediction of skipped exons. Altogether, the set of methods presented here\
+        \ comprehensively addresses multiple aspects of alternative isoform analysis.\
+        \ The software is available as an open-source R-package called Solas at http://cmb.molgen.mpg.de/2ndGenerationSequencing/Solas/.\
+        \ \xA9 The Author(s) 2010. Published by Oxford University Press."
+      authors:
+        - name: Richard H.
+        - name: Schulz M.H.
+        - name: Sultan M.
+        - name: Nurnberger A.
+        - name: Schrinner S.
+        - name: Balzereit D.
+        - name: Dagand E.
+        - name: Rasche A.
+        - name: Lehrach H.
+        - name: Vingron M.
+        - name: Haas S.A.
+        - name: Yaspo M.-L.
+      citationCount: 92
+      date: '2010-02-11T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: Prediction of alternative isoforms from exon expression levels in RNA-Seq
+        experiments
+    pmcid: null
+    pmid: '20150413'
+    type: null
+    version: null
+toolType:
+  - Library
+topic:
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+  - term: Data mining
+    uri: http://edamontology.org/topic_3473
+  - term: RNA-Seq
+    uri: http://edamontology.org/topic_3170
+validated: 1
+version: []

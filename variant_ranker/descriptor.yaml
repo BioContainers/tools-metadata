@@ -5,21 +5,21 @@ biotoolsID: variant_ranker
 collectionID: []
 cost: null
 credit:
-- email: jalexand@mbg.duth.gr
-  name: John Alexander
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: jalexand@mbg.duth.gr
+    name: John Alexander
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Performs ranking and annotation of variants in genomic datasets, integrating
   information from multiple sources to prioritize each variant by its deleteriousness,
   novelty and existing information.
 documentation:
-- note: null
-  type: General
-  url: http://paschou-lab.mbg.duth.gr/html5up/Tutorial22.html
+  - note: null
+    type: General
+    url: http://paschou-lab.mbg.duth.gr/html5up/Tutorial22.html
 download: []
 editPermission:
   authors: []
@@ -28,47 +28,47 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Genetic variation analysis
-    uri: http://edamontology.org/operation_3197
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output: []
 homepage: http://paschou-lab.mbg.duth.gr/html5up/index.html
 homepage_status: 0
 language:
-- R
-- PHP
-- Javascript
+  - R
+  - PHP
+  - Javascript
 lastUpdate: '2018-12-10T12:59:00Z'
 license: null
 link: []
 maturity: null
 name: Variant Ranker
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1186/s12859-017-1752-3
-  metadata: null
-  pmcid: PMC5514526
-  pmid: '28716001'
-  type: null
-  version: null
+  - doi: 10.1186/s12859-017-1752-3
+    metadata: null
+    pmcid: PMC5514526
+    pmid: '28716001'
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
-- term: Genetic variation
-  uri: http://edamontology.org/topic_0199
-- term: GWAS study
-  uri: http://edamontology.org/topic_3517
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: GWAS study
+    uri: http://edamontology.org/topic_3517
 validated: 1
 version: []

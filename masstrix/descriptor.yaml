@@ -1,0 +1,109 @@
+accessibility: []
+additionDate: '2017-02-14T09:35:38Z'
+biotoolsCURIE: biotools:masstrix
+biotoolsID: masstrix
+collectionID: []
+cost: null
+credit:
+  - email: brigitte.waegele@helmholtz-muenchen.de
+    name: Brigitte Waegele
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: karsten@suhre.fr
+    name: Karsten Suhre
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://qatar-weill.cornell.edu
+description: With applications in metabolomics and other mass spectrometry studies,
+  MassTRIX is a hypothesis driven approach to the annotation of mass spectrometry
+  data. Data is output in context on a KEGG pathway map.
+documentation:
+  - note: null
+    type: General
+    url: http://masstrix3.helmholtz-muenchen.de/masstrix3/doc.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Spectral analysis
+        uri: http://edamontology.org/operation_3214
+      - term: Mass spectra calibration
+        uri: http://edamontology.org/operation_3627
+      - term: Gene to pathway mapping
+        uri: http://edamontology.org/operation_0533
+      - term: Mapping
+        uri: http://edamontology.org/operation_2429
+    output: []
+homepage: http://masstrix.org
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: MassTRIX
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: Recent technical advances in mass spectrometry (MS) have brought the
+        field of metabolomics to a point where large numbers of metabolites from numerous
+        prokaryotic and eukaryotic organisms can now be easily and precisely detected.
+        The challenge today lies in the correct annotation of these metabolites on
+        the basis of their accurate measured masses. Assignment of bulk chemical formula
+        is generally possible, but without consideration of the biological and genomic
+        context, concrete metabolite annotations remain difficult and uncertain. MassTRIX
+        responds to this challenge by providing a hypothesis-driven approach to high
+        precision MS data annotation. It presents the identified chemical compounds
+        in their genomic context as differentially colored objects on KEGG pathway
+        maps. Information on gene transcription or differences in the gene complement
+        (e.g. samples from different bacterial strains) can be easily added. The user
+        can thus interpret the metabolic state of the organism in the context of its
+        potential and, in the case of submitted transcriptomics data, real enzymatic
+        capacities. The MassTRIX web server is freely accessible at http://masstrix.org.
+      authors:
+        - name: Suhre K.
+        - name: Schmitt-Kopplin P.
+      citationCount: 132
+      date: '2008-07-01T00:00:00Z'
+      journal: Nucleic acids research
+      title: 'MassTRIX: mass translator into pathways.'
+    pmcid: null
+    pmid: '18442993'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Metabolomics
+    uri: http://edamontology.org/topic_3172
+  - term: Experimental design and studies
+    uri: http://edamontology.org/topic_3678
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+validated: 1
+version: []

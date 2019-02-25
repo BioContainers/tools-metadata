@@ -1,0 +1,118 @@
+accessibility: []
+additionDate: '2017-12-18T00:12:40Z'
+biotoolsCURIE: biotools:sombrero
+biotoolsID: sombrero
+collectionID: []
+cost: null
+credit:
+  - email: shaun.mahony@nuigalway.ie
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Motif-finder that is based on the Self-Organizing Map neural network
+  algorithm.
+documentation:
+  - note: null
+    type: Manual
+    url: http://bioinf.nuigalway.ie/sombrero/sombrero_manual.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Motif discovery
+        uri: http://edamontology.org/operation_0238
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Processing
+        uri: http://edamontology.org/operation_2409
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Recognition
+        uri: http://edamontology.org/operation_2423
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+    output: []
+homepage: http://bioinf.nuigalway.ie/sombrero/
+homepage_status: 0
+language:
+  - C++
+  - Perl
+lastUpdate: '2018-12-10T12:58:58Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/sombrero-1-1-motif-finder.html
+maturity: null
+name: SOMBRERO
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: 10.1093/bioinformatics/bti256
+    metadata:
+      abstract: "Motivation: The automatic identification of over-represented motifs\
+        \ present in a collection of sequences continues to be a challenging problem\
+        \ in computational biology. In this paper, we propose a self-organizing map\
+        \ of position weight matrices as an alternative method for motif discovery.\
+        \ The advantage of this approach is that it can be used to simultaneously\
+        \ characterize every feature present in the dataset, thus lessening the chance\
+        \ that weaker signals will be missed. Features identified are ranked in terms\
+        \ of over-representation relative to a background model. Results: We present\
+        \ an implementation of this approach, named SOMBRERO (self-organizing map\
+        \ for biological regulatory element recognition and ordering), which is capable\
+        \ of discovering multiple distinct motifs present in a single dataset. Demonstrated\
+        \ here are the advantages of our approach on various datasets and SOMBRERO's\
+        \ improved performance over two popular motif-finding programs, MEME and AlignACE.\
+        \ \xA9 The Author 2005. Published by Oxford University Press. All rights reserved."
+      authors:
+        - name: Mahony S.
+        - name: Hendrix D.
+        - name: Golden A.
+        - name: Smith T.J.
+        - name: Rokhsar D.S.
+      citationCount: 59
+      date: '2005-05-01T00:00:00Z'
+      journal: Bioinformatics
+      title: Transcription factor binding site identification using the self-organizing
+        map
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequences
+    uri: http://edamontology.org/topic_0080
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+validated: 1
+version:
+  - '1.1'

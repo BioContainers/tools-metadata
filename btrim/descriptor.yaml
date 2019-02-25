@@ -1,0 +1,81 @@
+accessibility: []
+additionDate: '2017-01-13T13:13:55Z'
+biotoolsCURIE: biotools:btrim
+biotoolsID: btrim
+collectionID: []
+cost: null
+credit:
+  - email: yong.kong@yale.edu
+    name: Yong Kong
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Fast and lightweight software to trim adapters and low quality regions
+  in reads.
+documentation:
+  - note: null
+    type: General
+    url: http://graphics.med.yale.edu/trim/readme
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence trimming
+        uri: http://edamontology.org/operation_3192
+    output: []
+homepage: http://graphics.med.yale.edu/trim/
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: Mature
+name: Btrim
+operatingSystem:
+  - Linux
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Btrim is a fast and lightweight software to trim adapters and low\
+        \ quality regions in reads from ultra high-throughput next-generation sequencing\
+        \ machines. It also can reliably identify barcodes and assign the reads to\
+        \ the original samples. Based on a modified Myers's bit-vector dynamic programming\
+        \ algorithm, Btrim can handle indels in adapters and barcodes. It removes\
+        \ low quality regions and trims off adapters at both or either end of the\
+        \ reads. A typical trimming of 30. M reads with two sets of adapter pairs\
+        \ can be done in about a minute with a small memory footprint. Btrim is a\
+        \ versatile stand-alone tool that can be used as the first step in virtually\
+        \ all next-generation sequence analysis pipelines. The program is available\
+        \ at http://graphics.med.yale.edu/trim/. \xA9 2011 Elsevier Inc."
+      authors:
+        - name: Kong Y.
+      citationCount: 167
+      date: '2011-08-01T00:00:00Z'
+      journal: Genomics
+      title: 'Btrim: A fast, lightweight adapter and quality trimming program for
+        next-generation sequencing technologies'
+    pmcid: null
+    pmid: '21651976'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

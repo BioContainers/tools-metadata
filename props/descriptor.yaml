@@ -3,33 +3,33 @@ additionDate: '2018-07-12T13:52:05Z'
 biotoolsCURIE: biotools:props
 biotoolsID: props
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: lhan2@stanford.edu
-  name: Lichy Han
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: lhan2@stanford.edu
+    name: Lichy Han
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: This package calculates probabilistic pathway scores using gene expression
   data. Gene expression values are aggregated into pathway-based scores using Bayesian
   network representations of biological pathways.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/manuals/PROPS/man/PROPS.pdf
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/manuals/PROPS/man/PROPS.pdf
 download:
-- note: null
-  type: Source package
-  url: http://bioconductor.org/packages/release/bioc/src/contrib/PROPS_1.2.0.tar.gz
-  version: null
-- note: null
-  type: Source code
-  url: http://bioconductor.org/packages/release/bioc/vignettes/PROPS/inst/doc/props.R
-  version: null
+  - note: null
+    type: Source package
+    url: http://bioconductor.org/packages/release/bioc/src/contrib/PROPS_1.2.0.tar.gz
+    version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor.org/packages/release/bioc/vignettes/PROPS/inst/doc/props.R
+    version: null
 editPermission:
   authors: []
   type: private
@@ -37,50 +37,50 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Classification
-    uri: http://edamontology.org/operation_2990
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Classification
+        uri: http://edamontology.org/operation_2990
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/PROPS.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: GPL-2.0
 link:
-- note: null
-  type: Mirror
-  url: http://bioconductor.org/packages/PROPS/
-- note: null
-  type: Repository
-  url: https://git.bioconductor.org/packages/PROPS
+  - note: null
+    type: Mirror
+    url: http://bioconductor.org/packages/PROPS/
+  - note: null
+    type: Repository
+    url: https://git.bioconductor.org/packages/PROPS
 maturity: null
 name: PROPS
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication:
-- doi: 10.1093/bioinformatics/btx651
-  metadata: null
-  pmcid: PMC5860179
-  pmid: '29048458'
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/btx651
+    metadata: null
+    pmcid: PMC5860179
+    pmid: '29048458'
+    type: Primary
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: Statistics and probability
-  uri: http://edamontology.org/topic_2269
-- term: Gene expression
-  uri: http://edamontology.org/topic_0203
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
 validated: 1
 version:
-- 1.2.0
+  - 1.2.0

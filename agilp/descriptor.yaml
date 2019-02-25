@@ -3,35 +3,35 @@ additionDate: '2018-07-16T11:40:48Z'
 biotoolsCURIE: biotools:agilp
 biotoolsID: agilp
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: b.chain@ucl.ac.uk
-  name: Benny Chain
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: b.chain@ucl.ac.uk
+    name: Benny Chain
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: This script normalises a set of gene expression data files against a
   predefined reference data set. The normalisation uses LOESS regression. The major
   assumption is that the actual data and the reference set have a similar epxression
   frequency distribution. Typically, the reference set used the is average of a large
   number of datasets such as the output of Baseline script in this package.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/manuals/agilp/man/agilp.pdf
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/manuals/agilp/man/agilp.pdf
 download:
-- note: null
-  type: Source package
-  url: http://bioconductor.org/packages/release/bioc/src/contrib/agilp_3.12.0.tar.gz
-  version: null
-- note: null
-  type: Source code
-  url: http://bioconductor.org/packages/release/bioc/vignettes/agilp/inst/doc/agilp_manual.R
-  version: null
+  - note: null
+    type: Source package
+    url: http://bioconductor.org/packages/release/bioc/src/contrib/agilp_3.12.0.tar.gz
+    version: null
+  - note: null
+    type: Source code
+    url: http://bioconductor.org/packages/release/bioc/vignettes/agilp/inst/doc/agilp_manual.R
+    version: null
 editPermission:
   authors: []
   type: private
@@ -39,40 +39,40 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Standardisation and normalisation
-    uri: http://edamontology.org/operation_3435
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Standardisation and normalisation
+        uri: http://edamontology.org/operation_3435
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/agilp.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: GPL-3.0
 link:
-- note: null
-  type: Mirror
-  url: http://bioconductor.org/packages/agilp/
-- note: null
-  type: Repository
-  url: https://git.bioconductor.org/packages/agilp
+  - note: null
+    type: Mirror
+    url: http://bioconductor.org/packages/agilp/
+  - note: null
+    type: Repository
+    url: https://git.bioconductor.org/packages/agilp
 maturity: null
 name: agilp
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication: []
 toolType:
-- Library
+  - Library
 topic:
-- term: Gene expression
-  uri: http://edamontology.org/topic_0203
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
 validated: 1
 version:
-- 3.12.0
+  - 3.12.0

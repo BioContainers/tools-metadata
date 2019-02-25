@@ -3,30 +3,30 @@ additionDate: '2018-07-24T16:16:59Z'
 biotoolsCURIE: biotools:pathprint
 biotoolsID: pathprint
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: s.kariotis@sheffield.ac.uk
-  name: Sokratis Kariotis
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: s.kariotis@sheffield.ac.uk
+    name: Sokratis Kariotis
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Algorithms to convert a gene expression array provided as an expression
   table or a GEO reference to a 'pathway fingerprint', a vector of discrete ternary
   scores representing high (1), low(-1) or insignificant (0) expression in a suite
   of pathways.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/manuals/pathprint/man/pathprint.pdf
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/manuals/pathprint/man/pathprint.pdf
 download:
-- note: null
-  type: Source package
-  url: http://bioconductor.org/packages/release/bioc/src/contrib/pathprint_1.10.4.tar.gz
-  version: null
+  - note: null
+    type: Source package
+    url: http://bioconductor.org/packages/release/bioc/src/contrib/pathprint_1.10.4.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -34,43 +34,43 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Correlation
-    uri: http://edamontology.org/operation_3465
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Correlation
+        uri: http://edamontology.org/operation_3465
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/pathprint.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: GPL-1.0
 link:
-- note: null
-  type: Mirror
-  url: http://bioconductor.org/packages/pathprint/
+  - note: null
+    type: Mirror
+    url: http://bioconductor.org/packages/pathprint/
 maturity: null
 name: pathprint
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication:
-- doi: 10.1186/gm472
-  metadata: null
-  pmcid: PMC3971351
-  pmid: '23890051'
-  type: Primary
-  version: null
+  - doi: 10.1186/gm472
+    metadata: null
+    pmcid: PMC3971351
+    pmid: '23890051'
+    type: Primary
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: Gene expression
-  uri: http://edamontology.org/topic_0203
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
 validated: 1
 version:
-- 1.10.4
+  - 1.10.4

@@ -5,19 +5,19 @@ biotoolsID: openhicamm
 collectionID: []
 cost: null
 credit:
-- email: erwin@fruitfly.org
-  name: Erwin Frise
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: erwin@fruitfly.org
+    name: Erwin Frise
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Open High-content acquisition workflow plugin for Micro-Manager.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/bdgp/OpenHiCAMM/blob/master/docs/OpenHiCAMMWorkflowInstructions.pdf
+  - note: null
+    type: General
+    url: https://github.com/bdgp/OpenHiCAMM/blob/master/docs/OpenHiCAMMWorkflowInstructions.pdf
 download: []
 editPermission:
   authors: []
@@ -26,42 +26,42 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Image analysis
-    uri: http://edamontology.org/operation_3443
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Image analysis
+        uri: http://edamontology.org/operation_3443
+    output: []
 homepage: https://github.com/bdgp/OpenHiCAMM
 homepage_status: 0
 language:
-- SQL
+  - SQL
 lastUpdate: '2018-12-10T12:59:00Z'
 license: null
 link: []
 maturity: null
 name: OpenHiCAMM
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1016/j.isci.2018.03.017
-  metadata: null
-  pmcid: PMC5993205
-  pmid: '29888763'
-  type: null
-  version: null
+  - doi: 10.1016/j.isci.2018.03.017
+    metadata: null
+    pmcid: PMC5993205
+    pmid: '29888763'
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Biological imaging
-  uri: http://edamontology.org/topic_3383
-- term: Light microscopy
-  uri: http://edamontology.org/topic_3385
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
+  - term: Biological imaging
+    uri: http://edamontology.org/topic_3383
+  - term: Light microscopy
+    uri: http://edamontology.org/topic_3385
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
 validated: 1
 version: []

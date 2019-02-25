@@ -1,0 +1,107 @@
+accessibility: []
+additionDate: '2017-08-03T18:54:33Z'
+biotoolsCURIE: biotools:phogly-pseaac
+biotoolsID: phogly-pseaac
+collectionID: []
+cost: null
+credit:
+  - email: xuyan@ustb.edu.cn
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Predicting lysine phosphoglycerylation sites in proteins incorporating
+  with position-specific propensity.
+documentation:
+  - note: null
+    type: General
+    url: http://app.aporc.org/Phogly-PseAAC/ReadMe.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein post-translation modification site prediction
+        uri: http://edamontology.org/operation_0417
+    output: []
+homepage: http://app.aporc.org/Phogly-PseAAC/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/phogly-pseaac-prediction-of-lysine-phosphoglycerylation-in-proteins.html
+maturity: null
+name: Phogly-PseAAC
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015 Elsevier Ltd. Large-scale characterization of post-translational\
+        \ modifications (PTMs), such as posphorylation, acetylation and ubiquitination,\
+        \ has highlighted their importance in the regulation of a myriad of signaling\
+        \ events. However, as another type of PTMs-lysine phosphoglycerylation, the\
+        \ data of phosphoglycerylated sites has just been manually experimented in\
+        \ recent years. Given an uncharacterized protein sequence that contains many\
+        \ lysine residues, which one of them can be phosphoglycerylated and which\
+        \ one not? This is a challenging problem. In view of this, establishing a\
+        \ useful computational method and developing an efficient predictor are highly\
+        \ desired. Here a new predictor named Phogly-PseAAC was developed which incorporated\
+        \ with the position specific amino acid propensity. The feature importance\
+        \ through F-score value has also been ranked. The predictor with the best\
+        \ feature set obtained the accuracy 75.10%, sensitivity 68.87%, specificity\
+        \ 75.57% and MCC 0.2538 in LOO test cross validation with center nearest neighbor\
+        \ algorithm. Meanwhile, a web-server for Phogly-PseAAC is accessible at http://app.aporc.org/Phogly-PseAAC/.\
+        \ For the convenience of most experimental scientists, we have further provided\
+        \ a brief instruction for the web-server, by which users can easily get their\
+        \ desired results without the need to follow the complicated mathematics presented\
+        \ in this paper. It is anticipated that Phogly-PseAAC may become a useful\
+        \ high throughput tool for identifying the lysine phosphoglycerylation sites."
+      authors:
+        - name: Xu Y.
+        - name: Ding Y.-X.
+        - name: Ding J.
+        - name: Wu L.-Y.
+        - name: Deng N.-Y.
+      citationCount: 8
+      date: '2015-08-01T00:00:00Z'
+      journal: Journal of Theoretical Biology
+      title: 'Phogly-PseAAC: Prediction of lysine phosphoglycerylation in proteins
+        incorporating with position-specific propensity'
+    pmcid: null
+    pmid: '25913879'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Protein sites, features and motifs
+    uri: http://edamontology.org/topic_3510
+validated: 1
+version: []

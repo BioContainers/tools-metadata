@@ -1,0 +1,96 @@
+accessibility: []
+additionDate: '2017-12-06T18:14:43Z'
+biotoolsCURIE: biotools:msight
+biotoolsID: msight
+collectionID: []
+cost: null
+credit:
+  - email: msight-support@isb-sib.ch
+    name: MSight Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: 'MSight: An image analysis software for liquid chromatography-mass spectrometry.
+  MSight is a tool specifically developed for the representation of mass spectra along
+  with data from a separation step. It provides simple ways to navigate through very
+  large volumes of data, with the ability to display small regions for closer scrutiny.'
+documentation:
+  - note: null
+    type: General
+    url: https://web.expasy.org/MSight/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Image analysis
+        uri: http://edamontology.org/operation_3443
+      - term: Protein quantification
+        uri: http://edamontology.org/operation_3630
+    output: []
+homepage: https://web.expasy.org/MSight/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: MSight
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: vzn529@binf.ku.dk
+publication:
+  - doi: 10.1002/pmic.200401244
+    metadata:
+      abstract: "Images obtained from high-throughput mass spectrometry (MS) contain\
+        \ information that remains hidden when looking at a single spectrum at a time.\
+        \ Image processing of liquid chromatography-MS datasets can be extremely useful\
+        \ for quality control, experimental monitoring and knowledge extraction. The\
+        \ importance of imaging in differential analysis of proteomic experiments\
+        \ has already been established through two-dimensional gels and can now be\
+        \ foreseen with MS images. We present MSight, a new software designed to construct\
+        \ and manipulate MS images, as well as to facilitate their analysis and comparison.\
+        \ \xA9 2005 WILEY-VCH Verlag GmbH & Co. KGaA."
+      authors:
+        - name: Palagi P.M.
+        - name: Walther D.
+        - name: Quadroni M.
+        - name: Catherinet S.
+        - name: Burgess J.
+        - name: Zimmermann-Ivol C.G.
+        - name: Sanchez J.-C.
+        - name: Binz P.-A.
+        - name: Hochstrasser D.F.
+        - name: Appel R.D.
+      citationCount: 105
+      date: '2005-06-01T00:00:00Z'
+      journal: Proteomics
+      title: 'MSight: An image analysis software for liquid chromatography-mass spectrometry'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Imaging
+    uri: http://edamontology.org/topic_3382
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

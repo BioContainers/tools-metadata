@@ -1,0 +1,114 @@
+accessibility: []
+additionDate: '2017-08-03T18:36:05Z'
+biotoolsCURIE: biotools:affygcqc
+biotoolsID: affygcqc
+collectionID: []
+cost: null
+credit:
+  - email: affygcqc@biologie.ens.fr
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www.biologie.ens.fr/depbio/?lang=fr
+description: This tool performs an Affymetrix GeneChip Quality Control by implementing
+  a graphical representation of QC metrics recommended by Affymetrix for GeneChip
+  oligonucleotide array technology. Most importantly, it performs extreme studentized
+  deviate statistical tests for the set of arrays being compared in a given experiment,
+  thus providing an objective measure for outlier detection.
+documentation:
+  - note: null
+    type: General
+    url: http://www.genomique.biologie.ens.fr/fr/offres_et_services/prestations
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Gene expression analysis
+        uri: http://edamontology.org/operation_2495
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Statistical calculation
+        uri: http://edamontology.org/operation_2238
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequencing quality control
+        uri: http://edamontology.org/operation_3218
+    output: []
+homepage: http://www.transcriptome.ens.fr/AffyGCQC/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/affygcqc-1-02-genechip-data-quality-control.html
+maturity: null
+name: AffyGCQC
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Affymetrix GeneChip\u2122 oligonucleotide arrays are dedicated to\
+        \ analyzing gene expression differences across distinct experimental conditions.\
+        \ Data production for such arrays is an elaborate process with many potential\
+        \ sources of variability unrelated to biologically relevant gene expression\
+        \ variations. Therefore, rigorous data quality assessment is fundamental throughout\
+        \ the process for downstream biologically meaningful analyses. We have developed\
+        \ a program named AffyGCQC, which is the acronym for a bioinformatics tool\
+        \ designed to perform Affy metrix G ene C hip Q uality C ontrol. This program\
+        \ implements a graphical representation of QC metrics recommended by Affymetrix\
+        \ for GeneChip oligonucleotide array technology. Most importantly, it performs\
+        \ extreme studentized deviate statistical tests for the set of arrays being\
+        \ compared in a given experiment, thus providing an objective measure for\
+        \ outlier detection. AffyGCQC has been designed as an easy-to-use Web-based\
+        \ interface (online supplementary information: contact: affygcqc@biologie.ens.fr).\
+        \ \xA9 2008 Imperial College Press."
+      authors:
+        - name: Osorio Forea J.
+        - name: Prina E.
+        - name: Lang T.
+        - name: Milon G.
+        - name: Davory C.
+        - name: Coppee J.-Y.
+        - name: Regnault B.
+      citationCount: 4
+      date: '2008-04-01T00:00:00Z'
+      journal: Journal of Bioinformatics and Computational Biology
+      title: 'AffyGCQC: A web-based interface to detect outlying genechips with extreme
+        studentized deviate tests'
+    pmcid: null
+    pmid: '18464325'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Data quality management
+    uri: http://edamontology.org/topic_3572
+validated: 1
+version: []

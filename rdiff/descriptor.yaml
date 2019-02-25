@@ -1,0 +1,116 @@
+accessibility: []
+additionDate: '2017-01-13T13:16:03Z'
+biotoolsCURIE: biotools:rdiff
+biotoolsID: rdiff
+collectionID: []
+cost: null
+credit:
+  - email: philipp.drewe@mdc-berlin.de
+    name: Philipp Boss
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: raetsch@inf.ethz.ch
+    name: "Gunnar R\xE4tsch"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.raetschlab.org/
+description: rDiff is an open source tool for accurate detection of differential RNA
+  processing from RNA-Seq data. It implements two statistical tests to detect changes
+  of the RNA processing between two samples. rDiff.parametric is a powerful test,
+  which can be applied for well annotated organisms to detect changes in the relative
+  abundance of isoforms. rDiff.nonparametric is an alternative when the annotation
+  is incomplete or missing.
+documentation:
+  - note: null
+    type: General
+    url: https://public.bmi.inf.ethz.ch/user/drewe/rdiff/installation.html
+  - note: null
+    type: Other
+    url: https://public.bmi.inf.ethz.ch/user/drewe/rdiff/examples.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output: []
+homepage: http://bioweb.me/rdiff
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: Mature
+name: RDiff
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Deep transcriptome sequencing (RNA-Seq) has become a vital tool for\
+        \ studying the state of cells in the context of varying environments, genotypes\
+        \ and other factors. RNA-Seq profiling data enable identification of novel\
+        \ isoforms, quantification of known isoforms and detection of changes in transcriptional\
+        \ or RNA-processing activity. Existing approaches to detect differential isoform\
+        \ abundance between samples either require a complete isoform annotation or\
+        \ fall short in providing statistically robust and calibrated significance\
+        \ estimates. Here, we propose a suite of statistical tests to address these\
+        \ open needs: a parametric test that uses known isoform annotations to detect\
+        \ changes in relative isoform abundance and a non-parametric test that detects\
+        \ differential read coverages and can be applied when isoform annotations\
+        \ are not available. Both methods account for the discrete nature of read\
+        \ counts and the inherent biological variability. We demonstrate that these\
+        \ tests compare favorably to previous methods, both in terms of accuracy and\
+        \ statistical calibrations. We use these techniques to analyze RNA-Seq libraries\
+        \ from Arabidopsis thaliana and Drosophila melanogaster. The identified differential\
+        \ RNA processing events were consistent with RT-qPCR measurements and previous\
+        \ studies. The proposed toolkit is available from http://bioweb.me/rdiff and\
+        \ enables in-depth analyses of transcriptomes, with or without available isoform\
+        \ annotation. \xA9 2013 The Author(s) 2013."
+      authors:
+        - name: Drewe P.
+        - name: Stegle O.
+        - name: Hartmann L.
+        - name: Kahles A.
+        - name: Bohnert R.
+        - name: Wachter A.
+        - name: Borgwardt K.
+        - name: Ratsch G.
+      citationCount: 19
+      date: '2013-05-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: Accurate detection of differential RNA processing
+    pmcid: null
+    pmid: '23585274'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: RNA splicing
+    uri: http://edamontology.org/topic_3320
+  - term: RNA-Seq
+    uri: http://edamontology.org/topic_3170
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+validated: 1
+version: []

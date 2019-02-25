@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2017-01-17T14:50:25Z'
+biotoolsCURIE: biotools:mspire_mspire-sequest
+biotoolsID: mspire_mspire-sequest
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: MS data processing in Ruby, including mzML reader/writer/converter, ''in-silico''
+  digestion, isotopic pattern calculation etc.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+    note: null
+    operation:
+      - term: Protein sequence cleavage
+        uri: http://edamontology.org/operation_0366
+      - term: Retention time prediction
+        uri: http://edamontology.org/operation_3633
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output:
+      - data:
+          term: Data
+          uri: http://edamontology.org/data_0006
+        format:
+          - term: pepXML
+            uri: http://edamontology.org/format_3655
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+homepage: http://mspire.rubyforge.org
+homepage_status: 0
+language:
+  - Ruby
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: mspire_mspire-sequest
+operatingSystem: []
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Mass spectrometry-based proteomics stands to gain from additional\
+        \ analysis of its data, but its large, complex datasets make demands on speed\
+        \ and memory usage requiring special consideration from scripting languages.\
+        \ The software library 'mspire' - developed in the Ruby programming language\
+        \ - offers quick and memory-efficient readers for standard xml proteomics\
+        \ formats, converters for intermediate file types in typical proteomics spectral-identification\
+        \ work flows (including the Bioworks .srf format), and modules for the calculation\
+        \ of peptide false identification rates. \xA9 2008 The Author(s)."
+      authors:
+        - name: Prince J.T.
+        - name: Marcotte E.M.
+      citationCount: 15
+      date: '2008-12-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'mspire: Mass spectrometry proteomics in Ruby'
+    pmcid: null
+    pmid: '18930952'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

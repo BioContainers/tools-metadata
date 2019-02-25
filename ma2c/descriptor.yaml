@@ -5,14 +5,14 @@ biotoolsID: ma2c
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://liulab.dfci.harvard.edu/
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://liulab.dfci.harvard.edu/
 description: Model-based Analysis of 2-Color Arrays is a model-based algorithm for
   analyzing 2-color microarrays.A novel normalization method based on the GC content
   of probes is developed for two-color tiling arrays. The proposed method, together
@@ -28,87 +28,88 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Microarray data analysis
-    uri: http://edamontology.org/operation_2495
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Statistical analysis
-    uri: http://edamontology.org/operation_2238
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Analysis
-    uri: http://edamontology.org/operation_2945
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Quality control
-    uri: http://edamontology.org/operation_2428
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Microarray data analysis
+        uri: http://edamontology.org/operation_2495
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Statistical analysis
+        uri: http://edamontology.org/operation_2238
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Analysis
+        uri: http://edamontology.org/operation_2945
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Quality control
+        uri: http://edamontology.org/operation_2428
+    output: []
 homepage: http://liulab.dfci.harvard.edu/MA2C/MA2C.htm
 homepage_status: 0
 language:
-- Python
+  - Python
 lastUpdate: '2018-12-10T12:58:59Z'
 license: null
 link:
-- note: null
-  type: Registry
-  url: http://www.mybiosoftware.com/ma2c-1-4-1-analyze-2-color-microarrays.html
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/ma2c-1-4-1-analyze-2-color-microarrays.html
 maturity: null
 name: MA2C
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: mbs_import
 publication:
-- doi: 10.1186/gb-2007-8-8-r178
-  metadata:
-    abstract: A novel normalization method based on the GC content of probes is developed
-      for two-color tiling arrays. The proposed method, together with robust estimates
-      of the model parameters, is shown to perform superbly on published data sets.
-      A robust algorithm for detecting peak regions is also formulated and shown to
-      perform well compared to other approaches. The tools have been implemented as
-      a stand-alone Java program called MA2C, which can display various plots of statistical
-      analysis for quality control. © 2007 Song et al.; licensee BioMed Central Ltd.
-    authors:
-    - name: Song J.S.
-    - name: Johnson W.E.
-    - name: Zhu X.
-    - name: Zhang X.
-    - name: Li W.
-    - name: Manrai A.K.
-    - name: Liu J.S.
-    - name: Chen R.
-    - name: Shirley X.S.
-    citationCount: 87
-    date: '2007-12-01T00:00:00Z'
-    journal: Genome Biology
-    title: Model-based analysis of two-color arrays (MA2C)
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1186/gb-2007-8-8-r178
+    metadata:
+      abstract: "A novel normalization method based on the GC content of probes is\
+        \ developed for two-color tiling arrays. The proposed method, together with\
+        \ robust estimates of the model parameters, is shown to perform superbly on\
+        \ published data sets. A robust algorithm for detecting peak regions is also\
+        \ formulated and shown to perform well compared to other approaches. The tools\
+        \ have been implemented as a stand-alone Java program called MA2C, which can\
+        \ display various plots of statistical analysis for quality control. \xA9\
+        \ 2007 Song et al.; licensee BioMed Central Ltd."
+      authors:
+        - name: Song J.S.
+        - name: Johnson W.E.
+        - name: Zhu X.
+        - name: Zhang X.
+        - name: Li W.
+        - name: Manrai A.K.
+        - name: Liu J.S.
+        - name: Chen R.
+        - name: Shirley X.S.
+      citationCount: 87
+      date: '2007-12-01T00:00:00Z'
+      journal: Genome Biology
+      title: Model-based analysis of two-color arrays (MA2C)
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Desktop application
+  - Desktop application
 topic:
-- term: Probes
-  uri: http://edamontology.org/topic_0632
-- term: Microarrays
-  uri: http://edamontology.org/topic_3518
+  - term: Probes
+    uri: http://edamontology.org/topic_0632
+  - term: Microarrays
+    uri: http://edamontology.org/topic_3518
 validated: 1
 version:
-- 1.4.1
+  - 1.4.1

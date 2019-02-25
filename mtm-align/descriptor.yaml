@@ -5,14 +5,14 @@ biotoolsID: mtm-align
 collectionID: []
 cost: null
 credit:
-- email: yangjy@nankai.edu.cn
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: yangjy@nankai.edu.cn
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Efficient protein structure comparisons, which includes are two related
   modules. The first is for fast database search with one input structure. The second
   is for multiple structure alignment with two or more input structures. After the
@@ -20,14 +20,14 @@ description: Efficient protein structure comparisons, which includes are two rel
   top 10 structure, using the second module. The users are also able to select other
   structures from the returned list to perform multiple structure alignment.
 documentation:
-- note: null
-  type: General
-  url: http://yanglab.nankai.edu.cn/mTM-align/help/
+  - note: null
+    type: General
+    url: http://yanglab.nankai.edu.cn/mTM-align/help/
 download:
-- note: null
-  type: Source package
-  url: http://yanglab.nankai.edu.cn/mTM-align/version/download.php
-  version: null
+  - note: null
+    type: Source package
+    url: http://yanglab.nankai.edu.cn/mTM-align/version/download.php
+    version: null
 editPermission:
   authors: []
   type: private
@@ -35,27 +35,27 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Multiple structure alignment
-    uri: http://edamontology.org/operation_0504
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Structural similarity search
-    uri: http://edamontology.org/operation_0360
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Pairwise structure alignment
-    uri: http://edamontology.org/operation_0503
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Multiple structure alignment
+        uri: http://edamontology.org/operation_0504
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Structural similarity search
+        uri: http://edamontology.org/operation_0360
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Pairwise structure alignment
+        uri: http://edamontology.org/operation_0503
+    output: []
 homepage: http://yanglab.nankai.edu.cn/mTM-align/
 homepage_status: 0
 language: []
@@ -68,46 +68,47 @@ operatingSystem: []
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1093/nar/gky430
-  metadata:
-    abstract: '© The Author(s) 2018. Published by Oxford University Press on behalf
-      of Nucleic Acids Research. With the rapid increase of the number of protein
-      structures in the Protein Data Bank, it becomes urgent to develop algorithms
-      for efficient protein structure comparisons. In this article, we present the
-      mTM-align server, which consists of two closely related modules: one for structure
-      database search and the other for multiple structure alignment. The database
-      search is speeded up based on a heuristic algorithm and a hierarchical organization
-      of the structures in the database. The multiple structure alignment is performed
-      using the recently developed algorithm mTM-align. Benchmark tests demonstrate
-      that our algorithms outperform other peering methods for both modules, in terms
-      of speed and accuracy. One of the unique features for the server is the interplay
-      between database search and multiple structure alignment. The server provides
-      service not only for performing fast database search, but also for making accurate
-      multiple structure alignment with the structures found by the search. For the
-      database search, it takes about 2-5 min for a structure of a medium size (-
-      1/4300 residues). For the multiple structure alignment, it takes a few seconds
-      for - 1/410 structures of medium sizes. The server is freely available at: http://yanglab.nankai.edu.cn/mTM-align/.'
-    authors:
-    - name: Dong R.
-    - name: Pan S.
-    - name: Peng Z.
-    - name: Zhang Y.
-    - name: Yang J.
-    citationCount: 0
-    date: '2018-07-02T00:00:00Z'
-    journal: Nucleic Acids Research
-    title: 'MTM-align: A server for fast protein structure database search and multiple
-      protein structure alignment'
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gky430
+    metadata:
+      abstract: "\xA9 The Author(s) 2018. Published by Oxford University Press on\
+        \ behalf of Nucleic Acids Research. With the rapid increase of the number\
+        \ of protein structures in the Protein Data Bank, it becomes urgent to develop\
+        \ algorithms for efficient protein structure comparisons. In this article,\
+        \ we present the mTM-align server, which consists of two closely related modules:\
+        \ one for structure database search and the other for multiple structure alignment.\
+        \ The database search is speeded up based on a heuristic algorithm and a hierarchical\
+        \ organization of the structures in the database. The multiple structure alignment\
+        \ is performed using the recently developed algorithm mTM-align. Benchmark\
+        \ tests demonstrate that our algorithms outperform other peering methods for\
+        \ both modules, in terms of speed and accuracy. One of the unique features\
+        \ for the server is the interplay between database search and multiple structure\
+        \ alignment. The server provides service not only for performing fast database\
+        \ search, but also for making accurate multiple structure alignment with the\
+        \ structures found by the search. For the database search, it takes about\
+        \ 2-5 min for a structure of a medium size (- 1/4300 residues). For the multiple\
+        \ structure alignment, it takes a few seconds for - 1/410 structures of medium\
+        \ sizes. The server is freely available at: http://yanglab.nankai.edu.cn/mTM-align/."
+      authors:
+        - name: Dong R.
+        - name: Pan S.
+        - name: Peng Z.
+        - name: Zhang Y.
+        - name: Yang J.
+      citationCount: 0
+      date: '2018-07-02T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'MTM-align: A server for fast protein structure database search and multiple
+        protein structure alignment'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Protein folds and structural domains
-  uri: http://edamontology.org/topic_0736
-- term: Structure prediction
-  uri: http://edamontology.org/topic_0082
+  - term: Protein folds and structural domains
+    uri: http://edamontology.org/topic_0736
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
 validated: 1
 version: []

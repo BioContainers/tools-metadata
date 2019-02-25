@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2017-08-03T18:37:43Z'
+biotoolsCURIE: biotools:bioclojure
+biotoolsID: bioclojure
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/s312569/clj-biosequence
+description: Functional framework for the processing of biological sequence data that
+  provides simple mechanisms for concurrency and lazy evaluation of large datasets.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/s312569/clj-biosequence
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Data retrieval
+        uri: http://edamontology.org/operation_2422
+    output: []
+homepage: https://github.com/s312569/clj-biosequence
+homepage_status: 0
+language:
+  - Lisp
+lastUpdate: '2018-12-10T12:58:58Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/bioclojure-functional-library-for-the-manipulation-of-biological-sequences.html
+maturity: null
+name: Bioclojure
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: BioClojure is an open-source library for the manipulation\
+        \ of biological sequence data written in the language Clojure. BioClojure\
+        \ aims to provide a functional framework for the processing of biological\
+        \ sequence data that provides simple mechanisms for concurrency and lazy evaluation\
+        \ of large datasets. Results: BioClojure provides parsers and accessors for\
+        \ a range of biological sequence formats, including UniProtXML, Genbank XML,\
+        \ FASTA and FASTQ. In addition, it provides wrappers for key analysis programs,\
+        \ including BLAST, SignalP, TMHMM and InterProScan, and parsers for analyzing\
+        \ their output. All interfaces leverage Clojure's functional style and emphasize\
+        \ laziness and composability, so that BioClojure, and user-defined, functions\
+        \ can be chained into simple pipelines that are thread-safe and seamlessly\
+        \ integrate lazy evaluation. \xA9 The Author 2014. Published by Oxford University\
+        \ Press."
+      authors:
+        - name: Plieskatt J.
+        - name: Rinaldi G.
+        - name: Brindley P.J.
+        - name: Jia X.
+        - name: Potriquet J.
+        - name: Bethony J.
+        - name: Mulvenna J.
+      citationCount: 5
+      date: '2014-09-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'Bioclojure: A functional library for the manipulation of biological
+        sequences'
+    pmcid: null
+    pmid: '24794932'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
+validated: 1
+version: []

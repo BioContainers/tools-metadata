@@ -3,31 +3,31 @@ additionDate: '2018-07-26T13:17:40Z'
 biotoolsCURIE: biotools:sevenc
 biotoolsID: sevenc
 collectionID:
-- BioConductor
+  - BioConductor
 cost: Free of charge
 credit:
-- email: j.ibn-salem@uni-mainz.de
-  name: Jonas Ibn-Salem
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: j.ibn-salem@uni-mainz.de
+    name: Jonas Ibn-Salem
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Chromatin looping is an essential feature of eukaryotic genomes and can
   bring regulatory sequences, such as enhancers or transcription factor binding sites,
   in the close physical proximity of regulated target genes. This package uses protein
   binding signals from ChIP-seq and sequence motif information to predict chromatin
   looping events.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/manuals/sevenC/man/sevenC.pdf
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/manuals/sevenC/man/sevenC.pdf
 download:
-- note: null
-  type: Source package
-  url: http://bioconductor.org/packages/release/bioc/src/contrib/sevenC_1.0.0.tar.gz
-  version: null
+  - note: null
+    type: Source package
+    url: http://bioconductor.org/packages/release/bioc/src/contrib/sevenC_1.0.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -35,66 +35,66 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Annotation
-    uri: http://edamontology.org/operation_0226
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Classification
-    uri: http://edamontology.org/operation_2990
-  output: []
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Regression analysis
-    uri: http://edamontology.org/operation_3659
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Annotation
+        uri: http://edamontology.org/operation_0226
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Classification
+        uri: http://edamontology.org/operation_2990
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Regression analysis
+        uri: http://edamontology.org/operation_3659
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/sevenC.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: GPL-3.0
 link:
-- note: null
-  type: Mirror
-  url: https://github.com/ibn-salem/sevenC/
-- note: null
-  type: Issue tracker
-  url: https://github.com/ibn-salem/sevenC/issues
+  - note: null
+    type: Mirror
+    url: https://github.com/ibn-salem/sevenC/
+  - note: null
+    type: Issue tracker
+    url: https://github.com/ibn-salem/sevenC/issues
 maturity: null
 name: sevenC
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication:
-- doi: 10.1101/257584
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1101/257584
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: ChIP-seq
-  uri: http://edamontology.org/topic_3169
-- term: ChIP-on-chip
-  uri: http://edamontology.org/topic_3179
-- term: Epigenetics
-  uri: http://edamontology.org/topic_3295
-- term: Functional genomics
-  uri: http://edamontology.org/topic_0085
+  - term: ChIP-seq
+    uri: http://edamontology.org/topic_3169
+  - term: ChIP-on-chip
+    uri: http://edamontology.org/topic_3179
+  - term: Epigenetics
+    uri: http://edamontology.org/topic_3295
+  - term: Functional genomics
+    uri: http://edamontology.org/topic_0085
 validated: 1
 version:
-- 1.0.0
+  - 1.0.0

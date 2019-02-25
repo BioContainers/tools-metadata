@@ -1,0 +1,106 @@
+accessibility: []
+additionDate: '2017-12-18T00:07:45Z'
+biotoolsCURIE: biotools:impala
+biotoolsID: impala
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://impala.molgen.mpg.de/
+description: IMPaLA is a web tool for the joint pathway analysis of transcriptomics
+  or proteomics and metabolomics data.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Pathway analysis
+        uri: http://edamontology.org/operation_2497
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Analysis
+        uri: http://edamontology.org/operation_2945
+    output: []
+homepage: http://impala.molgen.mpg.de/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/impala-8-integrated-molecular-pathway-level-analysis.html
+maturity: null
+name: IMPaLA
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: 10.1093/bioinformatics/btr499
+    metadata:
+      abstract: "Pathway-level analysis is a powerful approach enabling interpretation\
+        \ of post-genomic data at a higher level than that of individual biomolecules.\
+        \ Yet, it is currently hard to integrate more than one type of omics data\
+        \ in such an approach. Here, we present a web tool 'IMPaLA' for the joint\
+        \ pathway analysis of transcriptomics or proteomics and metabolomics data.\
+        \ It performs over-representation or enrichment analysis with user-specified\
+        \ lists of metabolites and genes using over 3000 pre-annotated pathways from\
+        \ 11 databases. As a result, pathways can be identified that may be disregulated\
+        \ on the transcriptional level, the metabolic level or both. Evidence of pathway\
+        \ disregulation is combined, allowing for the identification of additional\
+        \ pathways with changed activity that would not be highlighted when analysis\
+        \ is applied to any of the functional levels alone. The tool has been implemented\
+        \ both as an interactive website and as a web service to allow a programming\
+        \ interface. \xA9 The Author 2011. Published by Oxford University Press. All\
+        \ rights reserved."
+      authors:
+        - name: Herwig R.
+        - name: Kamburov A.
+        - name: Keun H.C.
+        - name: Cavill R.
+        - name: Ebbels T.M.D.
+        - name: Herwig R.
+        - name: Keun H.C.
+      citationCount: 103
+      date: '2011-10-01T00:00:00Z'
+      journal: Bioinformatics
+      title: Integrated pathway-level analysis of transcriptomics and metabolomics
+        data with IMPaLA
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Metabolomics
+    uri: http://edamontology.org/topic_3172
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+validated: 1
+version:
+  - '9'

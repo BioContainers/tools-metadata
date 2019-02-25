@@ -1,0 +1,96 @@
+accessibility: []
+additionDate: '2017-03-25T17:07:56Z'
+biotoolsCURIE: biotools:webaugustus
+biotoolsID: webaugustus
+collectionID: []
+cost: null
+credit:
+  - email: augustus-web@uni-greifswald.de
+    name: Augustus-web team
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: WebAUGUSTUS is a web server for the prediction of genes in eukaryotic
+  genomic sequences. This web server provides an interface for training AUGUSTUS for
+  predicting genes in genomes of novel species. It also enables users to predict genes
+  in a genome sequence with already trained parameters.
+documentation:
+  - note: null
+    type: General
+    url: http://bioinf.uni-greifswald.de/webaugustus/trainingtutorial.gsp
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Gene prediction
+        uri: http://edamontology.org/operation_2454
+      - term: tRNA gene prediction
+        uri: http://edamontology.org/operation_0464
+      - term: Ab-initio gene prediction
+        uri: http://edamontology.org/operation_3662
+    output: []
+homepage: http://bioinf.uni-greifswald.de/webaugustus
+homepage_status: 0
+language:
+  - C++
+  - Perl
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link: []
+maturity: null
+name: WebAUGUSTUS
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: The prediction of protein coding genes is an important step in the
+        annotation of newly sequenced and assembled genomes. AUGUSTUS is one of the
+        most accurate tools for eukaryotic gene prediction. Here, we present WebAUGUSTUS,
+        a web interface for training AUGUSTUS and predicting genes with AUGUSTUS.
+        Depending on the needs of the user, WebAUGUSTUS generates training gene structures
+        automatically. Besides a genome file, either a file with expressed sequence
+        tags or a file with protein sequences is required for this step. Alternatively,
+        it is possible to submit an externally generated training gene structure file
+        and a genome file. The web service optimizes AUGUSTUS parameters and predicts
+        genes with those parameters. WebAUGUSTUS is available at http://bioinf.uni-greifswald.de/webaugustus.
+      authors:
+        - name: Hoff K.J.
+        - name: Stanke M.
+      citationCount: 69
+      date: '2013-07-01T00:00:00Z'
+      journal: Nucleic acids research
+      title: WebAUGUSTUS--a web service for training AUGUSTUS and predicting genes
+        in eukaryotes.
+    pmcid: null
+    pmid: '23700307'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Gene transcripts
+    uri: http://edamontology.org/topic_3512
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Gene structure
+    uri: http://edamontology.org/topic_0114
+validated: 1
+version: []

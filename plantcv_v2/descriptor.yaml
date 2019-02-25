@@ -5,27 +5,27 @@ biotoolsID: plantcv_v2
 collectionID: []
 cost: null
 credit:
-- email: mgehan@danforthcenter.org
-  name: Malia A. Gehan
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: nfahlgren@danforthcenter.org
-  name: Noah Fahlgren
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: mgehan@danforthcenter.org
+    name: Malia A. Gehan
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: nfahlgren@danforthcenter.org
+    name: Noah Fahlgren
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Plant image analysis using OpenCV.
 documentation:
-- note: null
-  type: General
-  url: http://plantcv.readthedocs.io/en/latest/output_measurements/
+  - note: null
+    type: General
+    url: http://plantcv.readthedocs.io/en/latest/output_measurements/
 download: []
 editPermission:
   authors: []
@@ -34,45 +34,45 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Image analysis
-    uri: http://edamontology.org/operation_3443
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Image analysis
+        uri: http://edamontology.org/operation_3443
+    output: []
 homepage: https://github.com/danforthcenter/plantcv-v2-paper
 homepage_status: 0
 language:
-- Python
+  - Python
 lastUpdate: '2018-12-10T12:59:00Z'
 license: null
 link: []
 maturity: null
 name: PlantCV v2
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.7717/peerj.4088
-  metadata: null
-  pmcid: PMC5713628
-  pmid: '29209576'
-  type: null
-  version: null
+  - doi: 10.7717/peerj.4088
+    metadata: null
+    pmcid: PMC5713628
+    pmid: '29209576'
+    type: null
+    version: null
 toolType:
-- Library
+  - Library
 topic:
-- term: Plant biology
-  uri: http://edamontology.org/topic_0780
-- term: Biological imaging
-  uri: http://edamontology.org/topic_3383
-- term: Imaging
-  uri: http://edamontology.org/topic_3382
-- term: Genotype and phenotype
-  uri: http://edamontology.org/topic_0625
+  - term: Plant biology
+    uri: http://edamontology.org/topic_0780
+  - term: Biological imaging
+    uri: http://edamontology.org/topic_3383
+  - term: Imaging
+    uri: http://edamontology.org/topic_3382
+  - term: Genotype and phenotype
+    uri: http://edamontology.org/topic_0625
 validated: 1
 version: []

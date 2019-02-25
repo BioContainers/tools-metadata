@@ -1,0 +1,111 @@
+accessibility: []
+additionDate: '2017-08-03T18:56:57Z'
+biotoolsCURIE: biotools:pyrotrimmer
+biotoolsID: pyrotrimmer
+collectionID: []
+cost: null
+credit:
+  - email: kmkim@kribb.re.kr
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: rbdls77@kopri.re.kr
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Program that trims barcodes, linkers, primers, and sequence region with
+  low quality scores from 454 sequence reads.
+documentation:
+  - note: null
+    type: Manual
+    url: http://pyrotrimmer.kopri.re.kr/manual.docx
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence cutting
+        uri: http://edamontology.org/operation_0369
+    output: []
+homepage: http://pyrotrimmer.kopri.re.kr/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/pyrotrimmer-preprocessor-of-metagenome-sequences.html
+maturity: null
+name: PyroTrimmer
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "The ultimate goal of metagenome research projects is to understand\
+        \ the ecological roles and physiological functions of the microbial communities\
+        \ in a given natural environment. The 454 pyrosequencing platform produces\
+        \ the longest reads among the most widely used next generation sequencing\
+        \ platforms. Since the relatively longer reads of the 454 platform provide\
+        \ more information for identification of microbial sequences, this platform\
+        \ is dedicated to microbial community and population studies. In order to\
+        \ accurately perform the downstream analysis of the 454 multiplex datasets,\
+        \ it is necessary to remove artificially designed sequences located at either\
+        \ ends of individual reads and to correct low-quality sequences. We have developed\
+        \ a program called PyroTrimmer that removes the barcodes, linkers, and primers,\
+        \ trims sequence regions with low quality scores, and filters out low-quality\
+        \ sequence reads. Although these functions have previously been implemented\
+        \ in other programs as well, PyroTrimmer has novelty in terms of the following\
+        \ features: i) more sensitive primer detection using Levenstein distance and\
+        \ global pairwise alignment, ii) the first stand-alone software with a graphic\
+        \ user interface, and iii) various options for trimming and filtering out\
+        \ the low-quality sequence reads. PyroTrimmer, written in JAVA, is compatible\
+        \ with multiple operating systems and can be downloaded free at http://pyrotrimmer.\
+        \ kobic. re. kr. \xA9 2012 The Microbiological Society of Korea and Springer-Verlag\
+        \ Berlin Heidelberg."
+      authors:
+        - name: Oh J.
+        - name: Kim B.K.
+        - name: Cho W.-S.
+        - name: Hong S.G.
+        - name: Kim K.M.
+      citationCount: 15
+      date: '2012-11-12T00:00:00Z'
+      journal: Journal of Microbiology
+      title: 'PyroTrimmer: A software with GUI for pre-processing 454 amplicon sequences'
+    pmcid: null
+    pmid: '23124743'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Probes and primers
+    uri: http://edamontology.org/topic_0632
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+validated: 1
+version: []

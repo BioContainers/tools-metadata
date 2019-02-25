@@ -5,28 +5,28 @@ biotoolsID: pulser
 collectionID: []
 cost: null
 credit:
-- email: a.uvarovskii@uni-heidelberg.de
-  name: A. Uvarovskii
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: christoph.dieterich@uni-heidelberg.de
-  name: C. Dieterich
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: a.uvarovskii@uni-heidelberg.de
+    name: A. Uvarovskii
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: christoph.dieterich@uni-heidelberg.de
+    name: C. Dieterich
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Flexible interface and readily accommodates numerous different experimental
   designs.
 documentation:
-- note: null
-  type: General
-  url: https://dieterich-lab.github.io/pulseR/
+  - note: null
+    type: General
+    url: https://dieterich-lab.github.io/pulseR/
 download: []
 editPermission:
   authors: []
@@ -35,63 +35,65 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: RNA-seq read count analysis
-    uri: http://edamontology.org/operation_3563
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: RNA-seq read count analysis
+        uri: http://edamontology.org/operation_3563
+    output: []
 homepage: https://github.com/dieterich-lab/pulseR
 homepage_status: 0
 language:
-- Javascript
+  - Javascript
 lastUpdate: '2018-12-10T12:58:59Z'
 license: GPL-3.0
 link: []
 maturity: null
 name: pulseR
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1093/bioinformatics/btx368
-  metadata:
-    abstract: © The Author 2017. Published by Oxford University Press. All rights
-      reserved.Motivation Metabolic labelling of RNA is a well-established and powerful
-      method to estimate RNA synthesis and decay rates. The pulseR R package simplifies
-      the analysis of RNA-seq count data that emerge from corresponding pulse-chase
-      experiments. Results The pulseR package provides a flexible interface and readily
-      accommodates numerous different experimental designs. To our knowledge, it is
-      the first publicly available software solution that models count data with the
-      more appropriate negative-binomial model. Moreover, pulseR handles labelled
-      and unlabelled spike-in sets in its workflow and accounts for potential labeling
-      biases (e.g. number of uridine residues). Availability and implementation The
-      pulseR package is freely available at https://github.com/dieterich-lab/pulseR
-      under the GPLv3.0 licence. Contact a.uvarovskii@uni-heidelberg.de or christoph.dieterich@uni-heidelberg.de
-      Supplementary informationSupplementary dataare available at Bioinformatics online.
-    authors:
-    - name: Uvarovskii A.
-    - name: Dieterich C.
-    citationCount: 1
-    date: '2017-10-15T00:00:00Z'
-    journal: Bioinformatics
-    title: 'PulseR: Versatile computational analysis of RNA turnover from metabolic
-      labeling experiments'
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1093/bioinformatics/btx368
+    metadata:
+      abstract: "\xA9 The Author 2017. Published by Oxford University Press. All rights\
+        \ reserved.Motivation Metabolic labelling of RNA is a well-established and\
+        \ powerful method to estimate RNA synthesis and decay rates. The pulseR R\
+        \ package simplifies the analysis of RNA-seq count data that emerge from corresponding\
+        \ pulse-chase experiments. Results The pulseR package provides a flexible\
+        \ interface and readily accommodates numerous different experimental designs.\
+        \ To our knowledge, it is the first publicly available software solution that\
+        \ models count data with the more appropriate negative-binomial model. Moreover,\
+        \ pulseR handles labelled and unlabelled spike-in sets in its workflow and\
+        \ accounts for potential labeling biases (e.g. number of uridine residues).\
+        \ Availability and implementation The pulseR package is freely available at\
+        \ https://github.com/dieterich-lab/pulseR under the GPLv3.0 licence. Contact\
+        \ a.uvarovskii@uni-heidelberg.de or christoph.dieterich@uni-heidelberg.de\
+        \ Supplementary informationSupplementary dataare available at Bioinformatics\
+        \ online."
+      authors:
+        - name: Uvarovskii A.
+        - name: Dieterich C.
+      citationCount: 1
+      date: '2017-10-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'PulseR: Versatile computational analysis of RNA turnover from metabolic
+        labeling experiments'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: RNA-seq
-  uri: http://edamontology.org/topic_3170
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
-- term: RNA
-  uri: http://edamontology.org/topic_0099
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
 validated: 1
 version: []

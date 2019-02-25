@@ -1,0 +1,93 @@
+accessibility: []
+additionDate: '2017-04-21T12:12:49Z'
+biotoolsCURIE: biotools:cap3
+biotoolsID: cap3
+collectionID: []
+cost: null
+credit:
+  - email: huang@mtu.edu
+    name: X. Huang
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Web-based contig assembly.
+documentation:
+  - note: null
+    type: General
+    url: http://biosrv.cab.unina.it/webcap3/cap3doc.html#capparam
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genome assembly
+        uri: http://edamontology.org/operation_0525
+      - term: Mapping assembly
+        uri: http://edamontology.org/operation_0523
+      - term: Sequence assembly
+        uri: http://edamontology.org/operation_0310
+      - term: Scaffolding
+        uri: http://edamontology.org/operation_3216
+    output: []
+homepage: http://biosrv.cab.unina.it/webcap3/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: CAP3 Sequence Assembly Program
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: We describe the third generation of the CAP sequence assembly program.
+        The CAP3 program includes a number of improvements and new features. The program
+        has a capability to clip 5' and 3' low-quality regions of reads. It uses base
+        quality values in computation of overlaps between reads, construction of multiple
+        sequence alignments of reads, and generation of consensus sequences. The program
+        also uses forward-reverse constraints to correct assembly errors and link
+        contigs. Results of CAP3 on four BAC data sets are presented. The performance
+        of CAP3 was compared with that of PHRAP on a number of BAC data sets. PHRAP
+        often produces longer contigs than CAP3 whereas CAP3 often produces fewer
+        errors in consensus sequences than PHRAP. It is easier to construct scaffolds
+        with CAP3 than with PHRAP on low-pass data with forward-reverse constraints.
+      authors:
+        - name: Huang X.
+        - name: Madan A.
+      citationCount: 3368
+      date: '1999-09-01T00:00:00Z'
+      journal: Genome Research
+      title: 'CAP3: A DNA sequence assembly program'
+    pmcid: null
+    pmid: '10508846'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+validated: 1
+version: []

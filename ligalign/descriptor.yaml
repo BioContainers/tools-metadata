@@ -1,0 +1,99 @@
+accessibility: []
+additionDate: '2017-05-02T07:18:17Z'
+biotoolsCURIE: biotools:ligalign
+biotoolsID: ligalign
+collectionID: []
+cost: null
+credit:
+  - email: ligalign@cs.toronto.edu
+    name: LigAlign support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: 'LigAlign: an automated system and structure visualization tool for flexible
+  ligand alignment and analysis. When performing rigid alignments, LigAlign produces
+  results consistent with manually annotated structural motifs. In performing flexible
+  alignments, LigAlign automatically produces biochemically reasonable ligand fragmentations
+  and subsequently identifies conserved structural motifs that are not detected by
+  rigid alignment.'
+documentation:
+  - note: null
+    type: General
+    url: http://compbio.cs.toronto.edu/ligalign/README.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence alignment analysis (conservation)
+        uri: http://edamontology.org/operation_0448
+      - term: Protein structural motif recognition
+        uri: http://edamontology.org/operation_0245
+      - term: Sequence motif recognition
+        uri: http://edamontology.org/operation_0239
+      - term: Structure alignment
+        uri: http://edamontology.org/operation_0295
+    output: []
+homepage: http://compbio.cs.toronto.edu/ligalign/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: LigAlign
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Ligand-based active site alignment is a widely adopted technique\
+        \ for the structural analysis of protein-ligand complexes. However, existing\
+        \ tools for ligand alignment treat the ligands as rigid objects even though\
+        \ most biological ligands are flexible. We present LigAlign, an automated\
+        \ system for flexible ligand alignment and analysis. When performing rigid\
+        \ alignments, LigAlign produces results consistent with manually annotated\
+        \ structural motifs. In performing flexible alignments, LigAlign automatically\
+        \ produces biochemically reasonable ligand fragmentations and subsequently\
+        \ identifies conserved structural motifs that are not detected by rigid alignment.\
+        \ \xA9 2010."
+      authors:
+        - name: Heifets A.
+        - name: Lilien R.H.
+      citationCount: 19
+      date: '2010-08-01T00:00:00Z'
+      journal: Journal of Molecular Graphics and Modelling
+      title: 'LigAlign: Flexible ligand-based active site alignment and analysis'
+    pmcid: null
+    pmid: '20713281'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+  - term: Structure analysis
+    uri: http://edamontology.org/topic_0081
+  - term: Nucleic acid structure analysis
+    uri: http://edamontology.org/topic_0097
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+  - term: Molecular dynamics
+    uri: http://edamontology.org/topic_0176
+validated: 1
+version: []

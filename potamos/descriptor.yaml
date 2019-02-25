@@ -5,21 +5,21 @@ biotoolsID: potamos
 collectionID: []
 cost: null
 credit:
-- email: gpapamokos@seas.harvard.edu
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://potamos.seas.harvard.edu
+  - email: gpapamokos@seas.harvard.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://potamos.seas.harvard.edu
 description: Post-Translational Modifications Mass Spectrometry Calculator is a free
   web application that simplifies mass spectrometry calculations for post-translationally
   modified proteins.
 documentation:
-- note: null
-  type: Manual
-  url: http://potamos.seas.harvard.edu/Manual
+  - note: null
+    type: Manual
+    url: http://potamos.seas.harvard.edu/Manual
 download: []
 editPermission:
   authors: []
@@ -28,23 +28,23 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Sequence
-      uri: http://edamontology.org/data_2044
-    format:
-    - term: Textual format
-      uri: http://edamontology.org/format_2330
-  note: null
-  operation:
-  - term: PTM identification
-    uri: http://edamontology.org/operation_3645
-  output:
-  - data:
-      term: Report
-      uri: http://edamontology.org/data_2048
-    format: []
+  - cmd: null
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+    note: null
+    operation:
+      - term: PTM identification
+        uri: http://edamontology.org/operation_3645
+    output:
+      - data:
+          term: Report
+          uri: http://edamontology.org/data_2048
+        format: []
 homepage: http://potamos.seas.harvard.edu
 homepage_status: 0
 language: []
@@ -54,53 +54,53 @@ link: []
 maturity: null
 name: POTAMOS
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: apolitou
 publication:
-- doi: 10.1016/j.compbiomed.2014.10.002
-  metadata:
-    abstract: '© 2014 Elsevier Ltd.Mass spectrometry is a widely used technique for
-      protein identification and it has also become the method of choice in order
-      to detect and characterize the post-translational modifications (PTMs) of proteins.
-      Many software tools have been developed to deal with this complication. In this
-      paper we introduce a new, free and user friendly online software tool, named
-      POTAMOS Mass Spectrometry Calculator, which was developed in the open source
-      application framework Ruby on Rails. It can provide calculated mass spectrometry
-      data in a time saving manner, independently of instrumentation. In this web
-      application we have focused on a well known protein family of histones whose
-      PTMs are believed to play a crucial role in gene regulation, as suggested by
-      the so called "histone code" hypothesis. The PTMs implemented in this software
-      are: methylations of arginines and lysines, acetylations of lysines and phosphorylations
-      of serines and threonines. The application is able to calculate the kind, the
-      number and the combinations of the possible PTMs corresponding to a given peptide
-      sequence and a given mass along with the full set of the unique primary structures
-      produced by the possible distributions along the amino acid sequence. It can
-      also calculate the masses and charges of a fragmented histone variant, which
-      carries predefined modifications already implemented. Additional functionality
-      is provided by the calculation of the masses of fragments produced upon protein
-      cleavage by the proteolytic enzymes that are most widely used in proteomics
-      studies.'
-    authors:
-    - name: Vlachopanos A.
-    - name: Soupsana E.
-    - name: Politou A.S.
-    - name: Papamokos G.V.
-    citationCount: 1
-    date: '2014-12-01T00:00:00Z'
-    journal: Computers in Biology and Medicine
-    title: 'POTAMOS mass spectrometry calculator: Computer aided mass spectrometry
-      to the post-translational modifications of proteins. A focus on histones'
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1016/j.compbiomed.2014.10.002
+    metadata:
+      abstract: "\xA9 2014 Elsevier Ltd.Mass spectrometry is a widely used technique\
+        \ for protein identification and it has also become the method of choice in\
+        \ order to detect and characterize the post-translational modifications (PTMs)\
+        \ of proteins. Many software tools have been developed to deal with this complication.\
+        \ In this paper we introduce a new, free and user friendly online software\
+        \ tool, named POTAMOS Mass Spectrometry Calculator, which was developed in\
+        \ the open source application framework Ruby on Rails. It can provide calculated\
+        \ mass spectrometry data in a time saving manner, independently of instrumentation.\
+        \ In this web application we have focused on a well known protein family of\
+        \ histones whose PTMs are believed to play a crucial role in gene regulation,\
+        \ as suggested by the so called \"histone code\" hypothesis. The PTMs implemented\
+        \ in this software are: methylations of arginines and lysines, acetylations\
+        \ of lysines and phosphorylations of serines and threonines. The application\
+        \ is able to calculate the kind, the number and the combinations of the possible\
+        \ PTMs corresponding to a given peptide sequence and a given mass along with\
+        \ the full set of the unique primary structures produced by the possible distributions\
+        \ along the amino acid sequence. It can also calculate the masses and charges\
+        \ of a fragmented histone variant, which carries predefined modifications\
+        \ already implemented. Additional functionality is provided by the calculation\
+        \ of the masses of fragments produced upon protein cleavage by the proteolytic\
+        \ enzymes that are most widely used in proteomics studies."
+      authors:
+        - name: Vlachopanos A.
+        - name: Soupsana E.
+        - name: Politou A.S.
+        - name: Papamokos G.V.
+      citationCount: 1
+      date: '2014-12-01T00:00:00Z'
+      journal: Computers in Biology and Medicine
+      title: 'POTAMOS mass spectrometry calculator: Computer aided mass spectrometry
+        to the post-translational modifications of proteins. A focus on histones'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Web service
+  - Web service
 topic:
-- term: Computational biology
-  uri: http://edamontology.org/topic_3307
+  - term: Computational biology
+    uri: http://edamontology.org/topic_3307
 validated: 1
 version: []

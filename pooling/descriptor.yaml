@@ -1,0 +1,116 @@
+accessibility: []
+additionDate: '2017-08-03T18:56:04Z'
+biotoolsCURIE: biotools:pooling
+biotoolsID: pooling
+collectionID: []
+cost: null
+credit:
+  - email: yek0@cdc.gov
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: kki8@cdc.gov
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Computational framework for next-generation sequencing of heterogeneous
+  viral populations using combinatorial pooling.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/skumsp/Pooling
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output: []
+homepage: http://alan.cs.gsu.edu/NGS/?q=content/pooling
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/pooling-next-generation-sequencing-of-heterogeneous-viral-populations-using-combinatorial-pooling.html
+maturity: null
+name: Pooling
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2014. Published by Oxford University Press. All rights\
+        \ reserved. Motivation: Next-generation sequencing (NGS) allows for analyzing\
+        \ a large number of viral sequences from infected patients, providing an opportunity\
+        \ to implement large-scale molecular surveillance of viral diseases. However,\
+        \ despite improvements in technology, traditional protocols for NGS of large\
+        \ numbers of samples are still highly cost and labor intensive. One of the\
+        \ possible cost-effective alternatives is combinatorial pooling. Although\
+        \ a number of pooling strategies for consensus sequencing of DNA samples and\
+        \ detection of SNPs have been proposed, these strategies cannot be applied\
+        \ to sequencing of highly heterogeneous viral populations. Results: We developed\
+        \ a cost-effective and reliable protocol for sequencing of viral samples,\
+        \ that combines NGS using barcoding and combinatorial pooling and a computational\
+        \ framework including algorithms for optimal virus-specific pools design and\
+        \ deconvolution of individual samples from sequenced pools. Evaluation of\
+        \ the framework on experimental and simulated data for hepatitis C virus showed\
+        \ that it substantially reduces the sequencing costs and allows deconvolution\
+        \ of viral populations with a high accuracy."
+      authors:
+        - name: Skums P.
+        - name: Artyomenko A.
+        - name: Glebova O.
+        - name: Ramachandran S.
+        - name: Mandoiu I.
+        - name: Campo D.S.
+        - name: Dimitrova Z.
+        - name: Zelikovsky A.
+        - name: Khudyakov Y.
+      citationCount: 7
+      date: '2015-03-01T00:00:00Z'
+      journal: Bioinformatics
+      title: Computational framework for next-generation sequencing of heterogeneous
+        viral populations using combinatorial pooling
+    pmcid: null
+    pmid: '25359889'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Virology
+    uri: http://edamontology.org/topic_0781
+validated: 1
+version: []

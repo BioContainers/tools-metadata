@@ -1,0 +1,123 @@
+accessibility: []
+additionDate: '2017-05-01T15:56:20Z'
+biotoolsCURIE: biotools:geneview
+biotoolsID: geneview
+collectionID: []
+cost: null
+credit:
+  - email: leser@informatik.hu-berlin.de
+    name: GeneView Team
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: thomas@informatik.hu-berlin.de
+    name: GeneView Team
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: starling@informatik.hu-berlin.de
+    name: GeneView Team
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: 'Webserver that lets you search scientific articles using keywords and
+  identifiers for specific biological entities. It has advanced features like: recognizing
+  biological entities like genes and SNPs.'
+documentation:
+  - note: null
+    type: General
+    url: http://bc3.informatik.hu-berlin.de/faq
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Text annotation
+        uri: http://edamontology.org/operation_3778
+      - term: Over-representation analysis
+        uri: http://edamontology.org/operation_3501
+      - term: Literature search
+        uri: http://edamontology.org/operation_0305
+      - term: Named-entity and concept recognition
+        uri: http://edamontology.org/operation_3280
+    output: []
+homepage: http://bc3.informatik.hu-berlin.de/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link: []
+maturity: null
+name: GeneView
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Research results are primarily published in scientific literature\
+        \ and curation efforts cannot keep up with the rapid growth of published literature.\
+        \ The plethora of knowledge remains hidden in large text repositories like\
+        \ MEDLINE. Consequently, life scientists have to spend a great amount of time\
+        \ searching for specific information. The enormous ambiguity among most names\
+        \ of biomedical objects such as genes, chemicals and diseases often produces\
+        \ too large and unspecific search results. We present GeneView, a semantic\
+        \ search engine for biomedical knowledge. GeneView is built upon a comprehensively\
+        \ annotated version of PubMed abstracts and openly available PubMed Central\
+        \ full texts. This semi-structured representation of biomedical texts enables\
+        \ a number of features extending classical search engines. For instance, users\
+        \ may search for entities using unique database identifiers or they may rank\
+        \ documents by the number of specific mentions they contain. Annotation is\
+        \ performed by a multitude of state-of-the-art text-mining tools for recognizing\
+        \ mentions from 10 entity classes and for identifying protein-protein interactions.\
+        \ GeneView currently contains annotations for >194 million entities from 10\
+        \ classes for \u223C21 million citations with 271000 full text bodies. GeneView\
+        \ can be searched at http://bc3.informatik.hu-berlin.de/. \xA9 2012 The Author(s)."
+      authors:
+        - name: Thomas P.
+        - name: Starlinger J.
+        - name: Vowinkel A.
+        - name: Arzt S.
+        - name: Leser U.
+      citationCount: 34
+      date: '2012-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'GeneView: A comprehensive semantic search engine for PubMed'
+    pmcid: null
+    pmid: '22693219'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+  - term: Literature and language
+    uri: http://edamontology.org/topic_3068
+  - term: Pathology
+    uri: http://edamontology.org/topic_0634
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
+validated: 1
+version: []

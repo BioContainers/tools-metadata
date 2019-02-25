@@ -1,0 +1,123 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:29Z'
+biotoolsCURIE: biotools:peptideprophet
+biotoolsID: peptideprophet
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: nesvi@umich.edu
+    name: nesvi@umich.edu
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
+  - email: akeller@systemsbiology.org
+    name: akeller@systemsbiology.org
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: validation of peptide identifications by MS/MS and database searches
+documentation:
+  - note: null
+    type: General
+    url: http://tools.proteomecenter.org/wiki/index.php?title=Software:PeptideProphet
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: pepXML
+            uri: http://edamontology.org/format_3655
+          - term: mzIdentML
+            uri: http://edamontology.org/format_3247
+    note: null
+    operation:
+      - term: Target-Decoy
+        uri: http://edamontology.org/operation_3649
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: pepXML
+            uri: http://edamontology.org/format_3655
+homepage: http://tools.proteomecenter.org/PeptideProphet.php
+homepage_status: 0
+language:
+  - C++
+  - Perl
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: PeptideProphet
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: We present a statistical model to estimate the accuracy of peptide
+        assignments to tandem mass (MS/MS) spectra made by database search applications
+        such as SEQUEST. Employing the expectation maximization algorithm, the analysis
+        learns to distinguish correct from incorrect database search results, computing
+        probabilities that peptide assignments to spectra are correct based upon database
+        search scores and the number of tryptic termini of peptides. Using SEQUEST
+        search results for spectra generated from a sample of known protein components,
+        we demonstrate that the computed probabilities are accurate and have high
+        power to discriminate between correctly and incorrectly assigned peptides.
+        This analysis makes it possible to filter large volumes of MS/MS database
+        search results with predictable false identification error rates and can serve
+        as a common standard by which the results of different research groups are
+        compared.
+      authors:
+        - name: Keller A.
+        - name: Nesvizhskii A.I.
+        - name: Kolker E.
+        - name: Aebersold R.
+      citationCount: 3133
+      date: '2002-10-15T00:00:00Z'
+      journal: Analytical Chemistry
+      title: Empirical statistical model to estimate the accuracy of peptide identifications
+        made by MS/MS and database search
+    pmcid: null
+    pmid: '12403597'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

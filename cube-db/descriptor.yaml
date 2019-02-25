@@ -1,0 +1,108 @@
+accessibility: []
+additionDate: '2017-03-30T23:00:14Z'
+biotoolsCURIE: biotools:cube-db
+biotoolsID: cube-db
+collectionID: []
+cost: null
+credit:
+  - email: ivanam@bii.a-star.edu.sg
+    name: Dr. Ivana Mihalek
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: zhangzh@bii.a-star.edu.sg
+    name: Ms. Zhang Zong Hong
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A database of pre-evaluated results for detection of functional divergence
+  in human/vertebrate protein families, but based on all currently available vertebrate
+  genomes.
+documentation:
+  - note: null
+    type: General
+    url: http://epsf.bmad.bii.a-star.edu.sg/cube/db/html/doc.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence alignment analysis (conservation)
+        uri: http://edamontology.org/operation_0448
+      - term: Protein feature detection
+        uri: http://edamontology.org/operation_3092
+    output: []
+homepage: http://epsf.bmad.bii.a-star.edu.sg/cube/db/html/home.html
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: CUBE-DB
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Cube-DB is a database of pre-evaluated results for detection of functional\
+        \ divergence in human/vertebrate protein families. The analysis is organized\
+        \ around the nomenclature associated with the human proteins, but based on\
+        \ all currently available vertebrate genomes. Using full genomes enables us,\
+        \ through a mutual-best-hit strategy, to construct comparable taxonomical\
+        \ samples for all paralogues under consideration. Functional specialization\
+        \ is scored on the residue level according to two models of behavior after\
+        \ divergence: heterotachy and homotachy. In the first case, the positions\
+        \ on the protein sequence are scored highly if they are conserved in the reference\
+        \ group of orthologs, and overlap poorly with the residue type choice in the\
+        \ paralogs groups (such positions will also be termed functional determinants).\
+        \ The second model additionally requires conservation within each group of\
+        \ paralogs (functional discriminants). The scoring functions are phylogeny\
+        \ independent, but sensitive to the residue type similarity. The results are\
+        \ presented as a table of per-residue scores, and mapped onto related structure\
+        \ (when available) via browser-embedded visualization tool. They can also\
+        \ be downloaded as a spreadsheet table, and sessions for two additional molecular\
+        \ visualization tools. The database interface is available at http://epsf.bmad.bii.a-star.edu.\
+        \ sg/cube/db/html/home.html. \xA9 The Author(s) 2011."
+      authors:
+        - name: Zhang Z.H.
+        - name: Bharatham K.
+        - name: Chee S.M.Q.
+        - name: Mihalek I.
+      citationCount: 3
+      date: '2012-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'Cube-DB: Detection of functional divergence in human protein families'
+    pmcid: null
+    pmid: '22139934'
+    type: null
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Gene and protein families
+    uri: http://edamontology.org/topic_0623
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Model organisms
+    uri: http://edamontology.org/topic_0621
+validated: 1
+version: []

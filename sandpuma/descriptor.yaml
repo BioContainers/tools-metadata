@@ -5,27 +5,27 @@ biotoolsID: sandpuma
 collectionID: []
 cost: null
 credit:
-- email: chevrette@wisc.edu
-  name: Marc G. Chevrette
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: marnix.medema@wur.nl
-  name: Marnix H. Medema
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: chevrette@wisc.edu
+    name: Marc G. Chevrette
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: marnix.medema@wur.nl
+    name: Marnix H. Medema
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Specificity of AdenylatioN Domain Prediction Using Multiple Algorithms.
 documentation:
-- note: null
-  type: General
-  url: https://bitbucket.org/chevrm/sandpuma
+  - note: null
+    type: General
+    url: https://bitbucket.org/chevrm/sandpuma
 download: []
 editPermission:
   authors: []
@@ -34,76 +34,79 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Protein domain recognition
-    uri: http://edamontology.org/operation_0246
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein domain recognition
+        uri: http://edamontology.org/operation_0246
+    output: []
 homepage: https://bitbucket.org/chevrm/sandpuma
 homepage_status: 0
 language:
-- Perl
-- Python
+  - Perl
+  - Python
 lastUpdate: '2018-12-10T12:58:59Z'
 license: GPL-3.0
 link: []
 maturity: null
 name: SANDPUMA
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1093/bioinformatics/btx400
-  metadata:
-    abstract: © The Author 2017. Published by Oxford University Press. All rights
-      reserved.Summary Nonribosomally synthesized peptides (NRPs) are natural products
-      with widespread applications in medicine and biotechnology. Many algorithms
-      have been developed to predict the substrate specificities of nonribosomal peptide
-      synthetase adenylation (A) domains from DNA sequences, which enables prioritization
-      and dereplication, and integration with other data types in discovery efforts.
-      However, insufficient training data and a lack of clarity regarding prediction
-      quality have impeded optimal use. Here, we introduce prediCAT, a new phylogenetics-inspired
-      algorithm, which quantitatively estimates the degree of predictability of each
-      A-domain. We then systematically benchmarked all algorithms on a newly gathered,
-      independent test set of 434 A-domain sequences, showing that active-site-motif-based
-      algorithms outperform whole-domain-based methods. Subsequently, we developed
-      SANDPUMA, a powerful ensemble algorithm, based on newly trained versions of
-      all high-performing algorithms, which significantly outperforms individual methods.
-      Finally, we deployed SANDPUMA in a systematic investigation of 7635 Actinobacteria
-      genomes, suggesting that NRP chemical diversity is much higher than previously
-      estimated. SANDPUMA has been integrated into the widely used antiSMASH biosynthetic
-      gene cluster analysis pipeline and is also available as an open-source, standalone
-      tool. Availability and implementation SANDPUMA is freely available at https://bitbucket.org/chevrm/sandpuma
-      and as a docker image at https://hub.docker.com/r/chevrm/sandpuma/ under the
-      GNU Public License 3 (GPL3). Contact chevrette@wisc.edu or marnix.medema@wur.nl
-      Supplementary informationSupplementary dataare available at Bioinformatics online.
-    authors:
-    - name: Chevrette M.G.
-    - name: Aicheler F.
-    - name: Kohlbacher O.
-    - name: Currie C.R.
-    - name: Medema M.H.
-    citationCount: 5
-    date: '2017-10-15T00:00:00Z'
-    journal: Bioinformatics
-    title: 'SANDPUMA: Ensemble predictions of nonribosomal peptide chemistry reveal
-      biosynthetic diversity across Actinobacteria'
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1093/bioinformatics/btx400
+    metadata:
+      abstract: "\xA9 The Author 2017. Published by Oxford University Press. All rights\
+        \ reserved.Summary Nonribosomally synthesized peptides (NRPs) are natural\
+        \ products with widespread applications in medicine and biotechnology. Many\
+        \ algorithms have been developed to predict the substrate specificities of\
+        \ nonribosomal peptide synthetase adenylation (A) domains from DNA sequences,\
+        \ which enables prioritization and dereplication, and integration with other\
+        \ data types in discovery efforts. However, insufficient training data and\
+        \ a lack of clarity regarding prediction quality have impeded optimal use.\
+        \ Here, we introduce prediCAT, a new phylogenetics-inspired algorithm, which\
+        \ quantitatively estimates the degree of predictability of each A-domain.\
+        \ We then systematically benchmarked all algorithms on a newly gathered, independent\
+        \ test set of 434 A-domain sequences, showing that active-site-motif-based\
+        \ algorithms outperform whole-domain-based methods. Subsequently, we developed\
+        \ SANDPUMA, a powerful ensemble algorithm, based on newly trained versions\
+        \ of all high-performing algorithms, which significantly outperforms individual\
+        \ methods. Finally, we deployed SANDPUMA in a systematic investigation of\
+        \ 7635 Actinobacteria genomes, suggesting that NRP chemical diversity is much\
+        \ higher than previously estimated. SANDPUMA has been integrated into the\
+        \ widely used antiSMASH biosynthetic gene cluster analysis pipeline and is\
+        \ also available as an open-source, standalone tool. Availability and implementation\
+        \ SANDPUMA is freely available at https://bitbucket.org/chevrm/sandpuma and\
+        \ as a docker image at https://hub.docker.com/r/chevrm/sandpuma/ under the\
+        \ GNU Public License 3 (GPL3). Contact chevrette@wisc.edu or marnix.medema@wur.nl\
+        \ Supplementary informationSupplementary dataare available at Bioinformatics\
+        \ online."
+      authors:
+        - name: Chevrette M.G.
+        - name: Aicheler F.
+        - name: Kohlbacher O.
+        - name: Currie C.R.
+        - name: Medema M.H.
+      citationCount: 5
+      date: '2017-10-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'SANDPUMA: Ensemble predictions of nonribosomal peptide chemistry reveal
+        biosynthetic diversity across Actinobacteria'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
-- term: Microbiology
-  uri: http://edamontology.org/topic_3301
-- term: Protein folds and structural domains
-  uri: http://edamontology.org/topic_0736
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Microbiology
+    uri: http://edamontology.org/topic_3301
+  - term: Protein folds and structural domains
+    uri: http://edamontology.org/topic_0736
 validated: 1
 version: []

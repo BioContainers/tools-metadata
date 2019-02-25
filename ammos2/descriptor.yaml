@@ -5,48 +5,48 @@ biotoolsID: ammos2
 collectionID: []
 cost: null
 credit:
-- email: contact-drugmod@rpbs.univ-paris-diderot.fr
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-description: Automatic Molecular Mechanics Optimization for in silico Screening 2.
-  Efficient computational refinement of protein–small organic molecule complexes.
-  Employs atomic-level energy minimization of a large number of experimental or modeled
-  protein–ligand complexes.
+  - email: contact-drugmod@rpbs.univ-paris-diderot.fr
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: "Automatic Molecular Mechanics Optimization for in silico Screening 2.\
+  \ Efficient computational refinement of protein\u2013small organic molecule complexes.\
+  \ Employs atomic-level energy minimization of a large number of experimental or\
+  \ modeled protein\u2013ligand complexes."
 documentation: []
 download: []
 editPermission:
   authors:
-  - mariamit
+    - mariamit
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Sequence
-      uri: http://edamontology.org/data_2044
-    format:
-    - term: PDB
-      uri: http://edamontology.org/format_1476
-  note: null
-  operation:
-  - term: Visualisation
-    uri: http://edamontology.org/operation_0337
-  - term: Protein-ligand docking
-    uri: http://edamontology.org/operation_0482
-  output: []
+  - cmd: null
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format:
+          - term: PDB
+            uri: http://edamontology.org/format_1476
+    note: null
+    operation:
+      - term: Visualisation
+        uri: http://edamontology.org/operation_0337
+      - term: Protein-ligand docking
+        uri: http://edamontology.org/operation_0482
+    output: []
 homepage: http://drugmod.rpbs.univ-paris-diderot.fr/ammosHome.php
 homepage_status: 0
 language:
-- Python
-- C
+  - Python
+  - C
 lastUpdate: '2018-12-10T12:59:00Z'
 license: CC-BY-3.0
 link: []
@@ -56,20 +56,20 @@ operatingSystem: []
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1093/nar/gkx397
-  metadata: null
-  pmcid: PMC5570140
-  pmid: '28486703'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkx397
+    metadata: null
+    pmcid: PMC5570140
+    pmid: '28486703'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Protein interactions
-  uri: http://edamontology.org/topic_0128
-- term: Molecular modelling
-  uri: http://edamontology.org/topic_2275
-- term: Small molecules
-  uri: http://edamontology.org/topic_0154
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
 validated: 1
 version: []

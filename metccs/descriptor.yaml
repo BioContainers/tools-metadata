@@ -5,20 +5,20 @@ biotoolsID: metccs
 collectionID: []
 cost: null
 credit:
-- email: jiangzhu@sioc.ac.cn
-  name: Zheng-Jiang Zhu
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: jiangzhu@sioc.ac.cn
+    name: Zheng-Jiang Zhu
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Web server for predicting collision cross-section values of metabolites
   in ion mobility-mass spectrometry based metabolomics.
 documentation:
-- note: null
-  type: General
-  url: http://www.metabolomics-shanghai.org/MetCCS/help/
+  - note: null
+    type: General
+    url: http://www.metabolomics-shanghai.org/MetCCS/help/
 download: []
 editPermission:
   authors: []
@@ -27,13 +27,13 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Spectral analysis
-    uri: http://edamontology.org/operation_3214
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Spectral analysis
+        uri: http://edamontology.org/operation_3214
+    output: []
 homepage: http://www.metabolomics-shanghai.org/MetCCS/
 homepage_status: 0
 language: []
@@ -43,47 +43,47 @@ link: []
 maturity: null
 name: MetCCS
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1093/bioinformatics/btx140
-  metadata:
-    abstract: © 2017 The Author. Published by Oxford University Press. All rights
-      reserved. In metabolomics, rigorous structural identification of metabolites
-      presents a challenge for bioinformatics. The use of collision cross-section
-      (CCS) values of metabolites derived from ion mobility-mass spectrometry effectively
-      increases the confidence of metabolite identification, but this technique suffers
-      from the limit number of available CCS values. Currently, there is no software
-      available for rapidly generating the metabolites' CCS values. Here, we developed
-      the first web server, namely, MetCCS Predictor, for predicting CCS values. It
-      can predict the CCS values of metabolites using molecular descriptors within
-      a few seconds. Common users with limited background on bioinformatics can benefit
-      from this software and effectively improve the metabolite identification in
-      metabolomics.
-    authors:
-    - name: Zhou Z.
-    - name: Xiong X.
-    - name: Zhu Z.-J.
-    citationCount: 9
-    date: '2017-07-15T00:00:00Z'
-    journal: Bioinformatics
-    title: 'MetCCS predictor: A web server for predicting collision cross-section
-      values of metabolites in ion mobility-mass spectrometry based metabolomics'
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1093/bioinformatics/btx140
+    metadata:
+      abstract: "\xA9 2017 The Author. Published by Oxford University Press. All rights\
+        \ reserved. In metabolomics, rigorous structural identification of metabolites\
+        \ presents a challenge for bioinformatics. The use of collision cross-section\
+        \ (CCS) values of metabolites derived from ion mobility-mass spectrometry\
+        \ effectively increases the confidence of metabolite identification, but this\
+        \ technique suffers from the limit number of available CCS values. Currently,\
+        \ there is no software available for rapidly generating the metabolites' CCS\
+        \ values. Here, we developed the first web server, namely, MetCCS Predictor,\
+        \ for predicting CCS values. It can predict the CCS values of metabolites\
+        \ using molecular descriptors within a few seconds. Common users with limited\
+        \ background on bioinformatics can benefit from this software and effectively\
+        \ improve the metabolite identification in metabolomics."
+      authors:
+        - name: Zhou Z.
+        - name: Xiong X.
+        - name: Zhu Z.-J.
+      citationCount: 9
+      date: '2017-07-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'MetCCS predictor: A web server for predicting collision cross-section
+        values of metabolites in ion mobility-mass spectrometry based metabolomics'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Mass spectrometry
-  uri: http://edamontology.org/topic_3520
-- term: Metabolomics
-  uri: http://edamontology.org/topic_3172
-- term: Small molecules
-  uri: http://edamontology.org/topic_0154
+  - term: Mass spectrometry
+    uri: http://edamontology.org/topic_3520
+  - term: Metabolomics
+    uri: http://edamontology.org/topic_3172
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
 validated: 1
 version: []

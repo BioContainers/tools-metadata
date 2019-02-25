@@ -1,0 +1,76 @@
+accessibility: []
+additionDate: '2017-12-18T00:13:42Z'
+biotoolsCURIE: biotools:tableparser
+biotoolsID: tableparser
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.personal.psu.edu/jhm10/Vera/
+description: Extract sequences from tab-delimited assembly alignment files (e.g. SimAssembly
+  and AceParser output). Parse out contigs, singletons, and assembled reads into separate
+  files.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence assembly
+        uri: http://edamontology.org/operation_0310
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Alignment
+        uri: http://edamontology.org/operation_2928
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output: []
+homepage: http://www.personal.psu.edu/jhm10/Vera/SoftwareC.html
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:58Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/tableparser-extract-sequences-tab-delimited-assembly-alignment-files.html
+maturity: null
+name: TableParser
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication: []
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequences
+    uri: http://edamontology.org/topic_0080
+  - term: Assembly
+    uri: http://edamontology.org/topic_0196
+validated: 1
+version: []

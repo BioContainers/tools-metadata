@@ -1,0 +1,129 @@
+accessibility: []
+additionDate: '2017-01-17T15:01:23Z'
+biotoolsCURIE: biotools:edge
+biotoolsID: edge
+collectionID:
+  - BioConductor
+cost: null
+credit:
+  - email: jstorey@princeton.edu
+    name: John D. Storey
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: ajbass@princeton.edu
+    name: Andrew J. Bass
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Software package for the significance analysis of DNA microarray experiments
+  for both standard and time course experiments based on our new Optimal Discovery
+  Procedure and Time Course Methodology.
+documentation:
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/edge.html
+download:
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/edge_2.6.0.tar.gz
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format:
+          - term: Sequence record format
+            uri: http://edamontology.org/format_1919
+    note: null
+    operation:
+      - term: Differential gene expression analysis
+        uri: http://edamontology.org/operation_3223
+    output:
+      - data:
+          term: Plot
+          uri: http://edamontology.org/data_2884
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+          - term: Image format
+            uri: http://edamontology.org/format_3547
+      - data:
+          term: P-value
+          uri: http://edamontology.org/data_1669
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+          - term: Image format
+            uri: http://edamontology.org/format_3547
+homepage: http://bioconductor.org/packages/release/bioc/html/edge.html
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:56Z'
+license: MIT
+link:
+  - note: null
+    type: Mirror
+    url: https://github.com/jdstorey/edge
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/edge-1-1-291-extraction-differential-gene-expression.html
+maturity: null
+name: edge
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: bioconductor_import
+publication:
+  - doi: 10.1093/bioinformatics/btk005
+    metadata:
+      abstract: "Summary: EDGE (Extraction of Differential Gene Expression) is an\
+        \ open source, point-and-click software program for the significance analysis\
+        \ of DNA microarray experiments. EDGE can perform both standard and time course\
+        \ differential expression analysis. The functions are based on newly developed\
+        \ statistical theory and methods. This document introduces the EDGE software\
+        \ package. \xA9 The Author 2005. Published by Oxford University Press. All\
+        \ rights reserved."
+      authors:
+        - name: Leek J.T.
+        - name: Monsen E.
+        - name: Dabney A.R.
+        - name: Storey J.D.
+      citationCount: 177
+      date: '2006-02-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'EDGE: Extraction and analysis of differential gene expression'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Library
+  - Desktop application
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: RNA-Seq
+    uri: http://edamontology.org/topic_3170
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+validated: 1
+version:
+  - 2.6.0

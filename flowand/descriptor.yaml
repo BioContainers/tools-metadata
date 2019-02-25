@@ -1,0 +1,78 @@
+accessibility: []
+additionDate: '2017-12-18T00:06:34Z'
+biotoolsCURIE: biotools:flowand
+biotoolsID: flowand
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://research.med.helsinki.fi/gsb/hautaniemi/default.html
+description: FlowAnd is designed to analyze and integrate largescale, multi-color
+  flow cytometry data. It implements methods for data importing, various transformations,
+  several clustering algorithms for automatic clustering, visualization tools as well
+  as straightforward statistical testing.
+documentation:
+  - note: null
+    type: General
+    url: http://csbi.ltdk.helsinki.fi/flowand/doc.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Statistical testing
+        uri: http://edamontology.org/operation_2238
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+    output: []
+homepage: http://csbi.ltdk.helsinki.fi/flowand/
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/flowand-1-0-analyze-largescale-multi-color-flow-cytometry-data.html
+maturity: null
+name: FlowAnd
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: 10.4172/jpb.1000197
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Algorithms
+    uri: http://edamontology.org/topic_3372
+validated: 1
+version:
+  - '1.0'

@@ -1,0 +1,96 @@
+accessibility: []
+additionDate: '2018-04-26T07:55:35Z'
+biotoolsCURIE: biotools:lord
+biotoolsID: lord
+collectionID:
+  - Rare Disease
+cost: Free of charge
+credit:
+  - email: contact@bndmr.fr
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://enlord.bndmr.fr/#about/contact
+description: LORD (linking opendata for rare diseases) is a tool for browsing information
+  about rare diseases.  It aggregates the information from Orphanet, HPO and OMIM
+  database.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+      - term: Aggregation
+        uri: http://edamontology.org/operation_3436
+    output: []
+homepage: http://enlord.bndmr.fr/#homepage
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link: []
+maturity: Mature
+name: LORD
+operatingSystem: []
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: Characterizing a rare disease diagnosis for a given patient is often
+        made through expert's networks. It is a complex task that could evolve over
+        time depending on the natural history of the disease and the evolution of
+        the scientific knowledge. Most rare diseases have genetic causes and recent
+        improvements of sequencing techniques contribute to the discovery of many
+        new diseases every year. Diagnosis coding in the rare disease field requires
+        data from multiple knowledge bases to be aggregated in order to offer the
+        clinician a global information space from possible diagnosis to clinical signs
+        (phenotypes) and known genetic mutations (genotype). Nowadays, the major barrier
+        to the coding activity is the lack of consolidation of such information scattered
+        in different thesaurus such as Orphanet, OMIM or HPO. The Linking Open data
+        for Rare Diseases (LORD) web portal we developed stands as the first attempt
+        to fill this gap by offering an integrated view of 8,400 rare diseases linked
+        to more than 14,500 signs and 3,270 genes. The application provides a browsing
+        feature to navigate through the relationships between diseases, signs and
+        genes, and some Application Programming Interfaces to help its integration
+        in health information systems in routine.
+      authors:
+        - name: Choquet R.
+        - name: Maaroufi M.
+        - name: Fonjallaz Y.
+        - name: de Carrara A.
+        - name: Vandenbussche P.-Y.
+        - name: Dhombres F.
+        - name: Landais P.
+      citationCount: 2
+      date: '2015-01-01T00:00:00Z'
+      journal: AMIA ... Annual Symposium proceedings. AMIA Symposium
+      title: 'LORD: a phenotype-genotype semantically integrated biomedical data tool
+        to support rare disease diagnosis coding in health information systems'
+    pmcid: null
+    pmid: '26958175'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Rare diseases
+    uri: http://edamontology.org/topic_3325
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: Data integration and warehousing
+    uri: http://edamontology.org/topic_3366
+validated: 1
+version: []

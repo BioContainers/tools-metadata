@@ -1,0 +1,104 @@
+accessibility: []
+additionDate: '2017-08-03T18:37:46Z'
+biotoolsCURIE: biotools:bisulfighter
+biotoolsID: bisulfighter
+collectionID: []
+cost: null
+credit:
+  - email: mituyama-toutai@aist.go.jp
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://epigenome.cbrc.jp/bisulfighter
+description: Software package for detecting methylated cytosines (mCs) and differentially
+  methylated regions (DMRs) from bisulfite sequencing data. Compared with other published
+  tools, it provides greater sensitivity for mCs with fewer false positives, more
+  precise estimates of mC levels, more exact locations of DMRs, and better agreement
+  of DMRs with differentially expressed genes. The superior accuracy is maintained
+  under various sequencing depths and tissue types.
+documentation:
+  - note: null
+    type: General
+    url: https://epigenome.cbrc.jp/bisulfighter
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Bisulfite mapping
+        uri: http://edamontology.org/operation_3186
+    output: []
+homepage: http://epigenome.cbrc.jp/bisulfighter
+homepage_status: 0
+language:
+  - C++
+  - Perl
+  - Python
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/bisulfighter-20131226-accurate-detection-of-methylated-cytosines-and-differentially-methylated-regions.html
+maturity: null
+name: Bisulfighter
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Analysis of bisulfite sequencing data usually requires two tasks:\
+        \ to call methylated cytosines (mCs) in a sample, and to detect differentially\
+        \ methylated regions (DMRs) between paired samples. Although numerous tools\
+        \ have been proposed for mC calling, methods for DMR detection have been largely\
+        \ limited. Here, we present Bisulfighter, a new software package for detecting\
+        \ mCs and DMRs from bisulfite sequencing data. Bisulfighter combines the LAST\
+        \ alignment tool for mC calling, and a novel framework for DMR detection based\
+        \ on hidden Markov models (HMMs). Unlike previous attempts that depend on\
+        \ empirical parameters, Bisulfighter can use the expectationmaximization algorithm\
+        \ for HMMs to adjust parameters for each data set. We conduct extensive experiments\
+        \ in which accuracy of mC calling and DMR detection is evaluated on simulated\
+        \ data with various mC contexts, read qualities, sequencing depths and DMR\
+        \ lengths, as well as on real data from a wide range of biological processes.\
+        \ We demonstrate that Bisulfighter consistently achieves better accuracy than\
+        \ other published tools, providing greater sensitivity for mCs with fewer\
+        \ false positives, more precise estimates of mC levels, more exact locations\
+        \ of DMRs and better agreement of DMRs with gene expression and DNase I hypersensitivity.\
+        \ The source code is available at http://epigenome.cbrc.jp/bisulfighter.\xA9\
+        \ The Author(s) 2014. Published by Oxford University Press."
+      authors:
+        - name: Saito Y.
+        - name: Tsuji J.
+        - name: Mituyama T.
+      citationCount: 30
+      date: '2014-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'Bisulfighter: Accurate detection of methylated cytosines and differentially
+        methylated regions'
+    pmcid: null
+    pmid: '24423865'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Methylated DNA immunoprecipitation
+    uri: http://edamontology.org/topic_3674
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+validated: 1
+version: []

@@ -1,0 +1,83 @@
+accessibility: []
+additionDate: '2017-02-10T14:14:23Z'
+biotoolsCURIE: biotools:ribex
+biotoolsID: ribex
+collectionID: []
+cost: null
+credit:
+  - email: merino@ibt.unam.mx
+    name: Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Seach sequences for known riboswitches and also for predicted bacterial
+  regulatory elements that are highly conserved.
+documentation:
+  - note: null
+    type: General
+    url: http://132.248.32.45:8080/cgi-bin/ribex.cgi?help=1
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Transcriptional regulatory element prediction
+        uri: http://edamontology.org/operation_0438
+      - term: Regulatory element prediction
+        uri: http://edamontology.org/operation_0438
+    output: []
+homepage: http://www.ibt.unam.mx/biocomputo/RibEx.html
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link: []
+maturity: null
+name: RibEx
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "We present RibEx (riboswitch explorer), a web server capable of searching\
+        \ any sequence for known riboswitches as well as other predicted, but highly\
+        \ conserved, bacterial regulatory elements. It allows the visual inspection\
+        \ of the identified motifs in relation to attenuators and open reading frames\
+        \ (ORFs). Any of the ORF's or regulatory elements' sequence can be obtained\
+        \ with a click and submitted to NCBI's BLAST. Alternatively, the genome context\
+        \ of all other genes regulated by the same element can be explored with our\
+        \ genome context tool (GeConT). RibEx is available at http://www.ibt.unam.mx/biocomputo/ribex.html.\
+        \ \xA9 2005 Oxford University Press."
+      authors:
+        - name: Abreu-Goodger C.
+        - name: Merino E.
+      citationCount: 96
+      date: '2005-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'RibEx: A web server for locating riboswitches and other conserved bacterial
+        regulatory elements'
+    pmcid: null
+    pmid: '15980564'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
+validated: 1
+version: []

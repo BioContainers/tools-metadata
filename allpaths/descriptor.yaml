@@ -1,0 +1,93 @@
+accessibility: []
+additionDate: '2017-01-13T13:13:31Z'
+biotoolsCURIE: biotools:allpaths
+biotoolsID: allpaths
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: Contact Form
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www.broadinstitute.org/contact
+description: De novo assembly of whole-genome shotgun microreads.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: De-novo assembly
+        uri: http://edamontology.org/operation_0524
+      - term: Sequence assembly
+        uri: http://edamontology.org/operation_0310
+    output: []
+homepage: https://www.broadinstitute.org/computational-rd/computational-research-and-development
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: Mature
+name: ALLPATHS
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "New DNA sequencing technologies deliver data at dramatically lower\
+        \ costs but demand new analytical methods to take full advantage of the very\
+        \ short reads that they produce. We provide an initial, theoretical solution\
+        \ to the challenge of de novo assembly from whole-genome shotgun \"microreads.\"\
+        \ For 11 genomes of sizes up to 39 Mb, we generated high-quality assemblies\
+        \ from 80x coverage by paired 30-base simulated reads modeled after real Illumina-Solexa\
+        \ reads. The bacterial genomes of Campylobacter jejuni and Escherichia coli\
+        \ assemble optimally, yielding single perfect contigs, and larger genomes\
+        \ yield assemblies that are highly connected and accurate. Assemblies are\
+        \ presented in a graph form that retains intrinsic ambiguities such as those\
+        \ arising from polymorphism, thereby providing information that has been absent\
+        \ from previous genome assemblies. For both C. jejuni and E. coli, this assembly\
+        \ graph is a single edge encompassing the entire genome. Larger genomes produce\
+        \ more complicated graphs, but the vast majority of the bases in their assemblies\
+        \ are present in long edges that are nearly always perfect. We describe a\
+        \ general method for genome assembly that can be applied to all types of DNA\
+        \ sequence data, not only short read data, but also conventional sequence\
+        \ reads. \xA92008 by Cold Spring Harbor Laboratory Press."
+      authors:
+        - name: Butler J.
+        - name: MacCallum I.
+        - name: Kleber M.
+        - name: Shlyakhter I.A.
+        - name: Belmonte M.K.
+        - name: Lander E.S.
+        - name: Nusbaum C.
+        - name: Jaffe D.B.
+      citationCount: 501
+      date: '2008-05-01T00:00:00Z'
+      journal: Genome Research
+      title: 'ALLPATHS: De novo assembly of whole-genome shotgun microreads'
+    pmcid: null
+    pmid: '18340039'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+validated: 1
+version: []

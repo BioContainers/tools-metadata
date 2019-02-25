@@ -5,20 +5,20 @@ biotoolsID: mysyntenyportal
 collectionID: []
 cost: null
 credit:
-- email: jbkim@konkuk.ac.kr
-  name: Jaebum Kim
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-description: It is an easy-to-use application to build and publish websites for synteny
-  block analyses by using users’ own genome sequences or synteny block definitions.
+  - email: jbkim@konkuk.ac.kr
+    name: Jaebum Kim
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: "It is an easy-to-use application to build and publish websites for synteny\
+  \ block analyses by using users\u2019 own genome sequences or synteny block definitions."
 documentation:
-- note: null
-  type: General
-  url: https://github.com/jkimlab/mySyntenyPortal/blob/master/README.md
+  - note: null
+    type: General
+    url: https://github.com/jkimlab/mySyntenyPortal/blob/master/README.md
 download: []
 editPermission:
   authors: []
@@ -27,75 +27,77 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Visualisation
-    uri: http://edamontology.org/operation_0337
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Visualisation
+        uri: http://edamontology.org/operation_0337
+    output: []
 homepage: https://github.com/jkimlab/mySyntenyPortal
 homepage_status: 0
 language:
-- Javascript
-- PHP
-- Perl
+  - Javascript
+  - PHP
+  - Perl
 lastUpdate: '2018-12-10T12:59:00Z'
 license: GPL-3.0
 link: []
 maturity: null
 name: mySyntenyPortal
 operatingSystem:
-- Linux
+  - Linux
 otherID: []
 owner: shadi.m
 publication:
-- doi: 10.1186/s12859-018-2219-x
-  metadata:
-    abstract: '© 2018 The Author(s).Background: Advances in sequencing technologies
-      have facilitated large-scale comparative genomics based on whole genome sequencing.
-      Constructing and investigating conserved genomic regions among multiple species
-      (called synteny blocks) are essential in the comparative genomics. However,
-      they require significant amounts of computational resources and time in addition
-      to bioinformatics skills. Many web interfaces have been developed to make such
-      tasks easier. However, these web interfaces cannot be customized for users who
-      want to use their own set of genome sequences or definition of synteny blocks.
-      Results: To resolve this limitation, we present mySyntenyPortal, a stand-alone
-      application package to construct websites for synteny block analyses by using
-      users'' own genome data. mySyntenyPortal provides both command line and web-based
-      interfaces to build and manage websites for large-scale comparative genomic
-      analyses. The websites can be also easily published and accessed by other users.
-      To demonstrate the usability of mySyntenyPortal, we present an example study
-      for building websites to compare genomes of three mammalian species (human,
-      mouse, and cow) and show how they can be easily utilized to identify potential
-      genes affected by genome rearrangements. Conclusions: mySyntenyPortal will contribute
-      for extended comparative genomic analyses based on large-scale whole genome
-      sequences by providing unique functionality to support the easy creation of
-      interactive websites for synteny block analyses from user''s own genome data.'
-    authors:
-    - name: Lee J.
-    - name: Lee D.
-    - name: Sim M.
-    - name: Kwon D.
-    - name: Kim J.
-    - name: Ko Y.
-    - name: Kim J.
-    citationCount: 0
-    date: '2018-06-05T00:00:00Z'
-    journal: BMC Bioinformatics
-    title: 'mySyntenyPortal: An application package to construct websites for synteny
-      block analysis'
-  pmcid: null
-  pmid: null
-  type: Primary
-  version: null
+  - doi: 10.1186/s12859-018-2219-x
+    metadata:
+      abstract: "\xA9 2018 The Author(s).Background: Advances in sequencing technologies\
+        \ have facilitated large-scale comparative genomics based on whole genome\
+        \ sequencing. Constructing and investigating conserved genomic regions among\
+        \ multiple species (called synteny blocks) are essential in the comparative\
+        \ genomics. However, they require significant amounts of computational resources\
+        \ and time in addition to bioinformatics skills. Many web interfaces have\
+        \ been developed to make such tasks easier. However, these web interfaces\
+        \ cannot be customized for users who want to use their own set of genome sequences\
+        \ or definition of synteny blocks. Results: To resolve this limitation, we\
+        \ present mySyntenyPortal, a stand-alone application package to construct\
+        \ websites for synteny block analyses by using users' own genome data. mySyntenyPortal\
+        \ provides both command line and web-based interfaces to build and manage\
+        \ websites for large-scale comparative genomic analyses. The websites can\
+        \ be also easily published and accessed by other users. To demonstrate the\
+        \ usability of mySyntenyPortal, we present an example study for building websites\
+        \ to compare genomes of three mammalian species (human, mouse, and cow) and\
+        \ show how they can be easily utilized to identify potential genes affected\
+        \ by genome rearrangements. Conclusions: mySyntenyPortal will contribute for\
+        \ extended comparative genomic analyses based on large-scale whole genome\
+        \ sequences by providing unique functionality to support the easy creation\
+        \ of interactive websites for synteny block analyses from user's own genome\
+        \ data."
+      authors:
+        - name: Lee J.
+        - name: Lee D.
+        - name: Sim M.
+        - name: Kwon D.
+        - name: Kim J.
+        - name: Ko Y.
+        - name: Kim J.
+      citationCount: 0
+      date: '2018-06-05T00:00:00Z'
+      journal: BMC Bioinformatics
+      title: 'mySyntenyPortal: An application package to construct websites for synteny
+        block analysis'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
 toolType:
-- Command-line tool
-- Desktop application
+  - Command-line tool
+  - Desktop application
 topic:
-- term: Comparative genomics
-  uri: http://edamontology.org/topic_0797
-- term: Whole genome sequencing
-  uri: http://edamontology.org/topic_3673
+  - term: Comparative genomics
+    uri: http://edamontology.org/topic_0797
+  - term: Whole genome sequencing
+    uri: http://edamontology.org/topic_3673
 validated: 1
 version: []

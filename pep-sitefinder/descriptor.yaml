@@ -1,0 +1,80 @@
+accessibility: []
+additionDate: '2017-05-16T13:43:30Z'
+biotoolsCURIE: biotools:pep-sitefinder
+biotoolsID: pep-sitefinder
+collectionID: []
+cost: null
+credit:
+  - email: rpbs@rpbs.univ-paris-diderot.fr
+    name: General
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: PEP-SiteFinder is a web server tool for the blind identification of peptide
+  binding sites on protein surfaces.
+documentation:
+  - note: null
+    type: General
+    url: http://bioserv.rpbs.univ-paris-diderot.fr/services/PEP-SiteFinder/#usage
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Blind peptide database search
+        uri: http://edamontology.org/operation_3647
+      - term: Molecular surface calculation
+        uri: http://edamontology.org/operation_0387
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
+      - term: Molecular docking
+        uri: http://edamontology.org/operation_0478
+      - term: Protein binding site prediction
+        uri: http://edamontology.org/operation_2575
+    output: []
+homepage: http://bioserv.rpbs.univ-paris-diderot.fr/PEP-SiteFinder
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: PEP-SiteFinder
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata: null
+    pmcid: PMC4086095
+    pmid: null
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Protein binding sites
+    uri: http://edamontology.org/topic_3534
+  - term: Probes and primers
+    uri: http://edamontology.org/topic_0632
+validated: 1
+version: []

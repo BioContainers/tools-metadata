@@ -5,14 +5,14 @@ biotoolsID: threadom_ex
 collectionID: []
 cost: null
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://zhanglab.ccmb.med.umich.edu/ThreaDomEx/help.html
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://zhanglab.ccmb.med.umich.edu/ThreaDomEx/help.html
 description: Takes the amino acid sequence of the query protein as input. It first
   creates multiple threading alignments to recognize homologous and analogous template
   structures, from which a domain conservation score is then calculated for deducing
@@ -20,12 +20,12 @@ description: Takes the amino acid sequence of the query protein as input. It fir
   domain model selections. For discontinuous domain structures, a symmetric alignment
   algorithm is applied to further integrate and refine the domain assignments.
 documentation:
-- note: null
-  type: Training material
-  url: https://zhanglab.ccmb.med.umich.edu/ThreaDomEx/example.php
-- note: null
-  type: General
-  url: https://zhanglab.ccmb.med.umich.edu/ThreaDomEx/help.html
+  - note: null
+    type: Training material
+    url: https://zhanglab.ccmb.med.umich.edu/ThreaDomEx/example.php
+  - note: null
+    type: General
+    url: https://zhanglab.ccmb.med.umich.edu/ThreaDomEx/help.html
 download: []
 editPermission:
   authors: []
@@ -34,29 +34,29 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Protein sequence (raw)
-      uri: http://edamontology.org/data_2974
-    format:
-    - term: FASTA
-      uri: http://edamontology.org/format_1929
-  note: null
-  operation:
-  - term: Protein sequence analysis
-    uri: http://edamontology.org/operation_2479
-  - term: Protein domain recognition
-    uri: http://edamontology.org/operation_0246
-  - term: Protein secondary structure prediction
-    uri: http://edamontology.org/operation_0267
-  output: []
+  - cmd: null
+    input:
+      - data:
+          term: Protein sequence (raw)
+          uri: http://edamontology.org/data_2974
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+      - term: Protein domain recognition
+        uri: http://edamontology.org/operation_0246
+      - term: Protein secondary structure prediction
+        uri: http://edamontology.org/operation_0267
+    output: []
 homepage: http://zhanglab.ccmb.med.umich.edu/ThreaDomEx
 homepage_status: 0
 language:
-- Javascript
-- PHP
-- Perl
+  - Javascript
+  - PHP
+  - Perl
 lastUpdate: '2018-12-10T12:59:00Z'
 license: null
 link: []
@@ -66,20 +66,20 @@ operatingSystem: []
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1093/nar/gkx410
-  metadata: null
-  pmcid: PMC5793814
-  pmid: '28498994'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkx410
+    metadata: null
+    pmcid: PMC5793814
+    pmid: '28498994'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Protein folds and structural domains
-  uri: http://edamontology.org/topic_0736
-- term: Structure prediction
-  uri: http://edamontology.org/topic_0082
-- term: Sequence assembly
-  uri: http://edamontology.org/topic_0196
+  - term: Protein folds and structural domains
+    uri: http://edamontology.org/topic_0736
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
 validated: 1
 version: []

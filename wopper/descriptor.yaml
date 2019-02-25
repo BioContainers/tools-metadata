@@ -5,14 +5,14 @@ biotoolsID: wopper
 collectionID: []
 cost: null
 credit:
-- email: flavio.licciulli@ba.itb.cnr.it
-  name: Flavio Licciulli
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: https://wopper.ba.itb.cnr.it/Credits
+  - email: flavio.licciulli@ba.itb.cnr.it
+    name: Flavio Licciulli
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://wopper.ba.itb.cnr.it/Credits
 description: Webserver for Position Related data analysis of gene Expression in Prokaryotes
   is a web-tool for the analysis of bacteria transcriptomic data. Gene expression
   is integrated with genomic annotations to reveal connections between transcription
@@ -20,61 +20,61 @@ description: Webserver for Position Related data analysis of gene Expression in 
   include clusters of positionally proximal genes having the same trend of differential
   gene expression, along with graphical representations of the modulated clusters.
 documentation:
-- note: null
-  type: Manual
-  url: https://wopper.ba.itb.cnr.it/Tutorials
+  - note: null
+    type: Manual
+    url: https://wopper.ba.itb.cnr.it/Tutorials
 download: []
 editPermission:
   authors:
-  - flavioli
+    - flavioli
   type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Gene expression profile
-      uri: http://edamontology.org/data_0928
-    format:
-    - term: BED
-      uri: http://edamontology.org/format_3003
-  note: null
-  operation:
-  - term: RNA-Seq quantification
-    uri: http://edamontology.org/operation_3800
-  output: []
+  - cmd: null
+    input:
+      - data:
+          term: Gene expression profile
+          uri: http://edamontology.org/data_0928
+        format:
+          - term: BED
+            uri: http://edamontology.org/format_3003
+    note: null
+    operation:
+      - term: RNA-Seq quantification
+        uri: http://edamontology.org/operation_3800
+    output: []
 homepage: https://wopper.ba.itb.cnr.it/
 homepage_status: 0
 language:
-- Javascript
+  - Javascript
 lastUpdate: '2018-12-10T12:58:59Z'
 license: null
 link: []
 maturity: null
 name: WoPPER
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: flavioli
 publication:
-- doi: 10.1093/nar/gkx329
-  metadata: null
-  pmcid: null
-  pmid: '28460063'
-  type: null
-  version: null
+  - doi: 10.1093/nar/gkx329
+    metadata: null
+    pmcid: null
+    pmid: '28460063'
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Gene expression
-  uri: http://edamontology.org/topic_0203
-- term: Gene expression
-  uri: http://edamontology.org/topic_0203
-- term: Nucleic acid sites, features and motifs
-  uri: http://edamontology.org/topic_3511
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Nucleic acid sites, features and motifs
+    uri: http://edamontology.org/topic_3511
 validated: 1
 version: []

@@ -1,0 +1,91 @@
+accessibility: []
+additionDate: '2017-08-03T18:36:25Z'
+biotoolsCURIE: biotools:arshift
+biotoolsID: arshift
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www-vendruscolo.ch.cam.ac.uk/index.html
+description: Method of calculating side-chain aromatic chemical shifts from protein
+  structures.
+documentation:
+  - note: Downloadable PDF within homepage.
+    type: General
+    url: http://www-sidechain.ch.cam.ac.uk/ArShift/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+      - term: Protein secondary structure prediction
+        uri: http://edamontology.org/operation_0267
+    output: []
+homepage: http://www-sidechain.ch.cam.ac.uk/ArShift/
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/arshift-structure-based-predictor-of-protein-aromatic-side-chain-proton-chemical-shifts.html
+maturity: null
+name: ArShift
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Predicting chemical shifts: A method for the structure-based prediction\
+        \ of side-chain aromatic 1H chemical shifts of proteins is presented (see\
+        \ picture; blue structures: aromatic side chains, red spheres: aromatic hydrogen\
+        \ atoms). Its ability to differentiate correct structural models from incorrect\
+        \ ones is also demonstrated, together with its use to detect differences caused\
+        \ by cofactor or ligand binding, or by sequence alterations between structures.\
+        \ Copyright \xA9 2011 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim."
+      authors:
+        - name: Sahakyan A.B.
+        - name: Vranken W.F.
+        - name: Cavalli A.
+        - name: Vendruscolo M.
+      citationCount: 20
+      date: '2011-10-04T00:00:00Z'
+      journal: Angewandte Chemie - International Edition
+      title: Using side-chain aromatic proton chemical shifts for a quantitative analysis
+        of protein structures
+    pmcid: null
+    pmid: '21887824'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Protein secondary structure
+    uri: http://edamontology.org/topic_3542
+validated: 1
+version: []

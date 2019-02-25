@@ -5,31 +5,31 @@ biotoolsID: web3dmol
 collectionID: []
 cost: null
 credit:
-- email: shimx15@mails.tsinghua.edu.cn
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: shimx15@mails.tsinghua.edu.cn
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Protein structure visualization in modern web browsers. Users submit
   a PDB identification code or select a PDB archive from their local disk, and it
   will display and allow interactive manipulation of the 3D structure. Featured functions,
   such as sequence plot, fragment segmentation, measure tool and meta-information
   display, are offered for users to gain a better understanding of protein structure.
 documentation:
-- note: null
-  type: Manual
-  url: http://web3dmol.net/help.html#Introduction
-- note: null
-  type: General
-  url: http://web3dmol.net/faq.html
+  - note: null
+    type: Manual
+    url: http://web3dmol.net/help.html#Introduction
+  - note: null
+    type: General
+    url: http://web3dmol.net/faq.html
 download:
-- note: null
-  type: Source code
-  url: http://web3dmol.net/Web3DMol.zip
-  version: null
+  - note: null
+    type: Source code
+    url: http://web3dmol.net/Web3DMol.zip
+    version: null
 editPermission:
   authors: []
   type: private
@@ -37,15 +37,15 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Protein structural motif recognition
-    uri: http://edamontology.org/operation_0245
-  - term: Visualisation
-    uri: http://edamontology.org/operation_0337
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein structural motif recognition
+        uri: http://edamontology.org/operation_0245
+      - term: Visualisation
+        uri: http://edamontology.org/operation_0337
+    output: []
 homepage: http://web3dmol.duapp.com/
 homepage_status: 0
 language: []
@@ -58,18 +58,18 @@ operatingSystem: []
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1093/nar/gkx383
-  metadata: null
-  pmcid: PMC5570197
-  pmid: '28482028'
-  type: Primary
-  version: null
+  - doi: 10.1093/nar/gkx383
+    metadata: null
+    pmcid: PMC5570197
+    pmid: '28482028'
+    type: Primary
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Protein structural motifs and surfaces
-  uri: http://edamontology.org/topic_0166
-- term: Imaging
-  uri: http://edamontology.org/topic_3382
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+  - term: Imaging
+    uri: http://edamontology.org/topic_3382
 validated: 1
 version: []

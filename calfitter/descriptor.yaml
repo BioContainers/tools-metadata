@@ -5,22 +5,22 @@ biotoolsID: calfitter
 collectionID: []
 cost: null
 credit:
-- email: calfitter@sci.muni.cz
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://loschmidt.chemi.muni.cz/
+  - email: calfitter@sci.muni.cz
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://loschmidt.chemi.muni.cz/
 description: Unified platform for comprehensive data fitting and analysis of protein
   thermal denaturation data. Allows simultaneous global data fitting using any combination
   of input data types and offers 12 protein unfolding pathway models for selection,
@@ -28,12 +28,12 @@ description: Unified platform for comprehensive data fitting and analysis of pro
   produces optimal parameter values, their confidence intervals, and statistical information
   to define unfolding pathways.
 documentation:
-- note: null
-  type: General
-  url: https://loschmidt.chemi.muni.cz/calfitter/?action=help&
-- note: null
-  type: Training material
-  url: https://loschmidt.chemi.muni.cz/calfitter/?action=example&
+  - note: null
+    type: General
+    url: https://loschmidt.chemi.muni.cz/calfitter/?action=help&
+  - note: null
+    type: Training material
+    url: https://loschmidt.chemi.muni.cz/calfitter/?action=example&
 download: []
 editPermission:
   authors: []
@@ -42,15 +42,15 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Protein folding analysis
-    uri: http://edamontology.org/operation_2415
-  - term: Protein structure prediction
-    uri: http://edamontology.org/operation_0474
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein folding analysis
+        uri: http://edamontology.org/operation_2415
+      - term: Protein structure prediction
+        uri: http://edamontology.org/operation_0474
+    output: []
 homepage: https://loschmidt.chemi.muni.cz/calfitter/
 homepage_status: 0
 language: []
@@ -63,50 +63,52 @@ operatingSystem: []
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1093/nar/gky358
-  metadata:
-    abstract: © The Author(s) 2018. Published by Oxford University Press on behalf
-      of Nucleic Acids Research. Despite significant advances in the understanding
-      of protein structure-function relationships, revealing protein folding pathways
-      still poses a challenge due to a limited number of relevant experimental tools.
-      Widely-used experimental techniques, such as calorimetry or spectroscopy, critically
-      depend on a proper data analysis. Currently, there are only separate data analysis
-      tools available for each type of experiment with a limited model selection.
-      To address this problem, we have developed the CalFitter web server to be a
-      unified platform for comprehensive data fitting and analysis of protein thermal
-      denaturation data. The server allows simultaneous global data fitting using
-      any combination of input data types and offers 12 protein unfolding pathway
-      models for selection, including irreversible transitions often missing from
-      other tools. The data fitting produces optimal parameter values, their confidence
-      intervals, and statistical information to define unfolding pathways. The server
-      provides an interactive and easy-to-use interface that allows users to directly
-      analyse input datasets and simulate modelled output based on the model parameters.
-      CalFitter web server is available free at https://loschmidt.chemi.muni.cz/calfitter/.
-    authors:
-    - name: Mazurenko S.
-    - name: Stourac J.
-    - name: Kunka A.
-    - name: Nedeljkovic S.
-    - name: Bednar D.
-    - name: Prokop Z.
-    - name: Damborsky J.
-    citationCount: 0
-    date: '2018-07-02T00:00:00Z'
-    journal: Nucleic Acids Research
-    title: 'CalFitter: A web server for analysis of protein thermal denaturation data'
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1093/nar/gky358
+    metadata:
+      abstract: "\xA9 The Author(s) 2018. Published by Oxford University Press on\
+        \ behalf of Nucleic Acids Research. Despite significant advances in the understanding\
+        \ of protein structure-function relationships, revealing protein folding pathways\
+        \ still poses a challenge due to a limited number of relevant experimental\
+        \ tools. Widely-used experimental techniques, such as calorimetry or spectroscopy,\
+        \ critically depend on a proper data analysis. Currently, there are only separate\
+        \ data analysis tools available for each type of experiment with a limited\
+        \ model selection. To address this problem, we have developed the CalFitter\
+        \ web server to be a unified platform for comprehensive data fitting and analysis\
+        \ of protein thermal denaturation data. The server allows simultaneous global\
+        \ data fitting using any combination of input data types and offers 12 protein\
+        \ unfolding pathway models for selection, including irreversible transitions\
+        \ often missing from other tools. The data fitting produces optimal parameter\
+        \ values, their confidence intervals, and statistical information to define\
+        \ unfolding pathways. The server provides an interactive and easy-to-use interface\
+        \ that allows users to directly analyse input datasets and simulate modelled\
+        \ output based on the model parameters. CalFitter web server is available\
+        \ free at https://loschmidt.chemi.muni.cz/calfitter/."
+      authors:
+        - name: Mazurenko S.
+        - name: Stourac J.
+        - name: Kunka A.
+        - name: Nedeljkovic S.
+        - name: Bednar D.
+        - name: Prokop Z.
+        - name: Damborsky J.
+      citationCount: 0
+      date: '2018-07-02T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'CalFitter: A web server for analysis of protein thermal denaturation
+        data'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
-- term: Nucleic acid structure analysis
-  uri: http://edamontology.org/topic_0097
-- term: NMR
-  uri: http://edamontology.org/topic_0593
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Nucleic acid structure analysis
+    uri: http://edamontology.org/topic_0097
+  - term: NMR
+    uri: http://edamontology.org/topic_0593
 validated: 1
 version:
-- '1.2'
+  - '1.2'

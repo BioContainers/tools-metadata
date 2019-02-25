@@ -1,0 +1,95 @@
+accessibility: []
+additionDate: '2017-08-03T18:55:40Z'
+biotoolsCURIE: biotools:phenolyzer
+biotoolsID: phenolyzer
+collectionID: []
+cost: null
+credit:
+  - email: kaichop@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: yanghui@usc.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Tool focusing on discovering genes based on user-specific disease/phenotype
+  terms.
+documentation:
+  - note: null
+    type: Manual
+    url: http://phenolyzer.wglab.org/download/Phenolyzer_manual.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Pathway or network prediction
+        uri: http://edamontology.org/operation_3439
+    output: []
+homepage: http://phenolyzer.wglab.org/
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/phenolyzer-1-0-1-phenotype-based-gene-analyzer.html
+maturity: null
+name: Phenolyzer
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015 Nature America, Inc.Prior biological knowledge and phenotype\
+        \ information may help to identify disease genes from human whole-genome and\
+        \ whole-exome sequencing studies. We developed Phenolyzer (http://phenolyzer.usc.edu),\
+        \ a tool that uses prior information to implicate genes involved in diseases.\
+        \ Phenolyzer exhibits superior performance over competing methods for prioritizing\
+        \ Mendelian and complex disease genes, based on disease or phenotype terms\
+        \ entered as free text."
+      authors:
+        - name: Yang H.
+        - name: Robinson P.N.
+        - name: Wang K.
+      citationCount: 56
+      date: '2015-01-01T00:00:00Z'
+      journal: Nature Methods
+      title: 'Phenolyzer: Phenotype-based prioritization of candidate genes for human
+        diseases'
+    pmcid: null
+    pmid: '26192085'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+  - Web application
+topic:
+  - term: Pathology
+    uri: http://edamontology.org/topic_0634
+  - term: Human genetics
+    uri: http://edamontology.org/topic_3574
+validated: 1
+version: []

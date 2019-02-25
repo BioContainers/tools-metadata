@@ -1,0 +1,116 @@
+accessibility: []
+additionDate: '2017-01-17T14:50:40Z'
+biotoolsCURIE: biotools:pep3d
+biotoolsID: pep3d
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: xli@systemsbiology.org
+    name: xli@systemsbiology.org
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: plots LC-MS and LC-MS/MS data in a 2D ''m''/''z'' vs time plot
+documentation:
+  - note: null
+    type: General
+    url: http://tools.proteomecenter.org/wiki/index.php?title=Software:Pep3D
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+    note: null
+    operation:
+      - term: Chromatogram visualisation
+        uri: http://edamontology.org/operation_3203
+      - term: Mass spectrum visualisation
+        uri: http://edamontology.org/operation_3694
+    output:
+      - data:
+          term: Image
+          uri: http://edamontology.org/data_2968
+        format:
+          - term: PNG
+            uri: http://edamontology.org/format_3603
+homepage: http://tools.proteomecenter.org/Pep3D.php
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: Pep3D
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: We present a software tool for visualizing data obtained from analyzing
+        complex peptide mixtures by liquid chromatography (LC) electrospray ionization
+        (ESI) mass spectrometry (MS). The data are represented as a two-dimensional
+        density plot. For experiments employing collision-induced dissociation (CID),
+        links are embedded in the image to the CID spectra and the corresponding peptide
+        sequences that are represented by the respective feature. The image provides
+        an intuitive method to evaluate sample quality and the performance of an LC-ESI-MS
+        system and can be used to optimize experimental conditions. Local patterns
+        of the image can also be used to identify chemical contaminants and specific
+        peptide features. Therefore, this software tool may have broad application
+        in MS-based proteomics.
+      authors:
+        - name: Li X.-J.
+        - name: Pedrioli P.G.A.
+        - name: Eng J.
+        - name: Martin D.
+        - name: Yi E.C.
+        - name: Lee H.
+        - name: Aebersold R.
+      citationCount: 75
+      date: '2004-07-01T00:00:00Z'
+      journal: Analytical Chemistry
+      title: A tool to visualize and evaluate data obtained by liquid chromatography-electrospray
+        ionization-mass spectrometry
+    pmcid: null
+    pmid: '15228367'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

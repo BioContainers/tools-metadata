@@ -1,19 +1,19 @@
 accessibility:
-- Open access
+  - Open access
 additionDate: '2018-06-05T19:27:54Z'
 biotoolsCURIE: biotools:xcms_online
 biotoolsID: xcms_online
 collectionID: []
 cost: Free of charge
 credit:
-- email: null
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: http://www.metabolomics-forum.com/index.php?PHPSESSID=6987fb61ao4ovvfn57193halk3;wwwRedirect
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.metabolomics-forum.com/index.php?PHPSESSID=6987fb61ao4ovvfn57193halk3;wwwRedirect
 description: A systems biology tool for analyzing metabolomic data. It automatically
   superimposes raw metabolomic data onto metabolic pathways and integrates it with
   transcriptomic and proteomic data.
@@ -26,27 +26,27 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Spectrum
-      uri: http://edamontology.org/data_3483
-    format:
-    - term: Mass spectrometry data format
-      uri: http://edamontology.org/format_3245
-  note: null
-  operation:
-  - term: Metabolic network modelling
-    uri: http://edamontology.org/operation_3660
-  - term: Pathway or network analysis
-    uri: http://edamontology.org/operation_2497
-  output:
-  - data:
-      term: Pathway or network
-      uri: http://edamontology.org/data_2600
-    format:
-    - term: Biological pathway or network format
-      uri: http://edamontology.org/format_2013
+  - cmd: null
+    input:
+      - data:
+          term: Spectrum
+          uri: http://edamontology.org/data_3483
+        format:
+          - term: Mass spectrometry data format
+            uri: http://edamontology.org/format_3245
+    note: null
+    operation:
+      - term: Metabolic network modelling
+        uri: http://edamontology.org/operation_3660
+      - term: Pathway or network analysis
+        uri: http://edamontology.org/operation_2497
+    output:
+      - data:
+          term: Pathway or network
+          uri: http://edamontology.org/data_2600
+        format:
+          - term: Biological pathway or network format
+            uri: http://edamontology.org/format_2013
 homepage: http://xcmsonline.scripps.edu/landing_page.php?pgcontent=mainPage
 homepage_status: 0
 language: []
@@ -56,55 +56,55 @@ link: []
 maturity: Mature
 name: XCMS Online
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-EE
 publication:
-- doi: 10.1038/nmeth.4260
-  metadata:
-    abstract: ''
-    authors:
-    - name: Huan T.
-    - name: Forsberg E.M.
-    - name: Rinehart D.
-    - name: Johnson C.H.
-    - name: Ivanisevic J.
-    - name: Benton H.P.
-    - name: Fang M.
-    - name: Aisporna A.
-    - name: Hilmers B.
-    - name: Poole F.L.
-    - name: Thorgersen M.P.
-    - name: Adams M.W.W.
-    - name: Krantz G.
-    - name: Fields M.W.
-    - name: Robbins P.D.
-    - name: Niedernhofer L.J.
-    - name: Ideker T.
-    - name: Majumder E.L.
-    - name: Wall J.D.
-    - name: Rattray N.J.W.
-    - name: Goodacre R.
-    - name: Lairson L.L.
-    - name: Siuzdak G.
-    citationCount: 28
-    date: '2017-04-27T00:00:00Z'
-    journal: Nature Methods
-    title: Systems biology guided by XCMS Online metabolomics
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1038/nmeth.4260
+    metadata:
+      abstract: ''
+      authors:
+        - name: Huan T.
+        - name: Forsberg E.M.
+        - name: Rinehart D.
+        - name: Johnson C.H.
+        - name: Ivanisevic J.
+        - name: Benton H.P.
+        - name: Fang M.
+        - name: Aisporna A.
+        - name: Hilmers B.
+        - name: Poole F.L.
+        - name: Thorgersen M.P.
+        - name: Adams M.W.W.
+        - name: Krantz G.
+        - name: Fields M.W.
+        - name: Robbins P.D.
+        - name: Niedernhofer L.J.
+        - name: Ideker T.
+        - name: Majumder E.L.
+        - name: Wall J.D.
+        - name: Rattray N.J.W.
+        - name: Goodacre R.
+        - name: Lairson L.L.
+        - name: Siuzdak G.
+      citationCount: 28
+      date: '2017-04-27T00:00:00Z'
+      journal: Nature Methods
+      title: Systems biology guided by XCMS Online metabolomics
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Systems biology
-  uri: http://edamontology.org/topic_2259
-- term: Molecular interactions, pathways and networks
-  uri: http://edamontology.org/topic_0602
-- term: Metabolomics
-  uri: http://edamontology.org/topic_3172
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Metabolomics
+    uri: http://edamontology.org/topic_3172
 validated: 1
 version: []

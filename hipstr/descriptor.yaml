@@ -1,32 +1,32 @@
 accessibility:
-- Open access
+  - Open access
 additionDate: '2018-06-11T09:17:03Z'
 biotoolsCURIE: biotools:hipstr
 biotoolsID: hipstr
 collectionID: []
 cost: Free of charge
 credit:
-- email: hipstrtool@gmail.com
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: hipstrtool@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Haplotype inference and phasing for Short Tandem Repeats (hipSTR) is
   a haplotype-based method for robustly genotyping and phasing STRs from Illumina
   sequencing data. It also enables genome-wide analysis and validation of de novo
   STR mutations.
 documentation:
-- note: null
-  type: General
-  url: https://hipstr-tool.github.io/HipSTR/#quick-start
+  - note: null
+    type: General
+    url: https://hipstr-tool.github.io/HipSTR/#quick-start
 download:
-- note: null
-  type: Source code
-  url: https://github.com/HipSTR-Tool/HipSTR
-  version: null
+  - note: null
+    type: Source code
+    url: https://github.com/HipSTR-Tool/HipSTR
+    version: null
 editPermission:
   authors: []
   type: private
@@ -34,45 +34,45 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input:
-  - data:
-      term: Sequence
-      uri: http://edamontology.org/data_2044
-    format:
-    - term: BAM
-      uri: http://edamontology.org/format_2572
-  - data:
-      term: Sequence record
-      uri: http://edamontology.org/data_0849
-    format:
-    - term: FASTA
-      uri: http://edamontology.org/format_1929
-  - data:
-      term: Sequence features metadata
-      uri: http://edamontology.org/data_2914
-    format:
-    - term: BED
-      uri: http://edamontology.org/format_3003
-  note: null
-  operation:
-  - term: Sequencing quality control
-    uri: http://edamontology.org/operation_3218
-  - term: Imputation
-    uri: http://edamontology.org/operation_3557
-  - term: Repeat sequence analysis
-    uri: http://edamontology.org/operation_0237
-  output:
-  - data:
-      term: Sequence variations
-      uri: http://edamontology.org/data_3498
-    format:
-    - term: VCF
-      uri: http://edamontology.org/format_3016
+  - cmd: null
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+      - data:
+          term: Sequence record
+          uri: http://edamontology.org/data_0849
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+      - data:
+          term: Sequence features metadata
+          uri: http://edamontology.org/data_2914
+        format:
+          - term: BED
+            uri: http://edamontology.org/format_3003
+    note: null
+    operation:
+      - term: Sequencing quality control
+        uri: http://edamontology.org/operation_3218
+      - term: Imputation
+        uri: http://edamontology.org/operation_3557
+      - term: Repeat sequence analysis
+        uri: http://edamontology.org/operation_0237
+    output:
+      - data:
+          term: Sequence variations
+          uri: http://edamontology.org/data_3498
+        format:
+          - term: VCF
+            uri: http://edamontology.org/format_3016
 homepage: https://hipstr-tool.github.io/HipSTR/
 homepage_status: 0
 language:
-- C++
+  - C++
 lastUpdate: '2018-12-10T12:58:59Z'
 license: Other
 link: []
@@ -82,39 +82,39 @@ operatingSystem: []
 otherID: []
 owner: ELIXIR-EE
 publication:
-- doi: 10.1038/nmeth.4267
-  metadata:
-    abstract: © 2017 Nature America, Inc. All rights reserved. Short tandem repeats
-      (STRs) are highly variable elements that play a pivotal role in multiple genetic
-      diseases, population genetics applications, and forensic casework. However,
-      it has proven problematic to genotype STRs from high-throughput sequencing data.
-      Here, we describe HipSTR, a novel haplotype-based method for robustly genotyping
-      and phasing STRs from Illumina sequencing data, and we report a genome-wide
-      analysis and validation of de novo STR mutations. HipSTR is freely available
-      at https://hipstr-tool.github.io/HipSTR.
-    authors:
-    - name: Willems T.
-    - name: Zielinski D.
-    - name: Yuan J.
-    - name: Gordon A.
-    - name: Gymrek M.
-    - name: Erlich Y.
-    citationCount: 14
-    date: '2017-05-30T00:00:00Z'
-    journal: Nature Methods
-    title: Genome-wide profiling of heritable and de novo STR variations
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1038/nmeth.4267
+    metadata:
+      abstract: "\xA9 2017 Nature America, Inc. All rights reserved. Short tandem\
+        \ repeats (STRs) are highly variable elements that play a pivotal role in\
+        \ multiple genetic diseases, population genetics applications, and forensic\
+        \ casework. However, it has proven problematic to genotype STRs from high-throughput\
+        \ sequencing data. Here, we describe HipSTR, a novel haplotype-based method\
+        \ for robustly genotyping and phasing STRs from Illumina sequencing data,\
+        \ and we report a genome-wide analysis and validation of de novo STR mutations.\
+        \ HipSTR is freely available at https://hipstr-tool.github.io/HipSTR."
+      authors:
+        - name: Willems T.
+        - name: Zielinski D.
+        - name: Yuan J.
+        - name: Gordon A.
+        - name: Gymrek M.
+        - name: Erlich Y.
+      citationCount: 14
+      date: '2017-05-30T00:00:00Z'
+      journal: Nature Methods
+      title: Genome-wide profiling of heritable and de novo STR variations
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Sequence composition, complexity and repeats
-  uri: http://edamontology.org/topic_0157
-- term: Genomics
-  uri: http://edamontology.org/topic_0622
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
+  - term: Sequence composition, complexity and repeats
+    uri: http://edamontology.org/topic_0157
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
 validated: 1
 version: []

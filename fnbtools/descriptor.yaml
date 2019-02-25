@@ -5,27 +5,27 @@ biotoolsID: fnbtools
 collectionID: []
 cost: null
 credit:
-- email: lsun@noble.org
-  name: Liang Sun
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: jwen@noble.org
-  name: Jiangqi Wen
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: lsun@noble.org
+    name: Liang Sun
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: jwen@noble.org
+    name: Jiangqi Wen
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Software to Identify Homozygous Lesions in Deletion Mutant Populations.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/noble-research-institute/fnbtools
+  - note: null
+    type: General
+    url: https://github.com/noble-research-institute/fnbtools
 download: []
 editPermission:
   authors: []
@@ -34,42 +34,42 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Genetic variation analysis
-    uri: http://edamontology.org/operation_3197
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output: []
 homepage: https://github.com/noble-research-institute/fnbtools
 homepage_status: 0
 language:
-- Perl
+  - Perl
 lastUpdate: '2018-12-10T12:59:00Z'
 license: null
 link: []
 maturity: null
 name: FNBtools
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.3389/fpls.2018.00976
-  metadata: null
-  pmcid: PMC6048286
-  pmid: '30042776'
-  type: null
-  version: null
+  - doi: 10.3389/fpls.2018.00976
+    metadata: null
+    pmcid: PMC6048286
+    pmid: '30042776'
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Genetics
-  uri: http://edamontology.org/topic_3053
-- term: Genetic variation
-  uri: http://edamontology.org/topic_0199
-- term: Genetics
-  uri: http://edamontology.org/topic_3053
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
 validated: 1
 version: []

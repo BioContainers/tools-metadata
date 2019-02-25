@@ -1,0 +1,86 @@
+accessibility: []
+additionDate: '2017-08-03T19:08:21Z'
+biotoolsCURIE: biotools:silclod
+biotoolsID: silclod
+collectionID: []
+cost: null
+credit:
+  - email: Inke.Koenig@imbs.uni-luebeck.de
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.imbs-luebeck.de/imbs/node/147
+description: This tool is designed to calculate nominal significance levels and critical
+  LOD scores depending on the length of the investigated region, number of chromosomes,
+  and the cross-over rate. The global significance level as well as the precision
+  of the calculation have to be specified.
+documentation:
+  - note: null
+    type: General
+    url: http://www.imbs-luebeck.de/imbs/sites/default/files/u4/silcLOD.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Linkage analysis
+        uri: http://edamontology.org/operation_0283
+    output: []
+homepage: http://www.imbs-luebeck.de/imbs/de/node/34
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:58Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/silclod-calculate-nominal-significance-levels-critical-lod-scores.html
+maturity: null
+name: silcLOD
+operatingSystem:
+  - Windows
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Genetic studies are under way for many complex traits, spurred by\
+        \ the recent feasibility of whole genome scans. Clear guidelines for the interpretation\
+        \ of linkage results are needed to avoid a flood of false positive claims.\
+        \ At the same time, an overly cautious approach runs the risk of causing true\
+        \ hints of linkage to be missed. We address this problem by proposing specific\
+        \ standards designed to maintain rigor while also promoting communication.\
+        \ \xA9 1995 Nature Publishing Group."
+      authors:
+        - name: Lander E.
+        - name: Kruglyak L.
+      citationCount: 4213
+      date: '1995-01-01T00:00:00Z'
+      journal: Nature Genetics
+      title: 'Genetic dissection of complex traits: Guidelines for interpreting and
+        reporting linkage results'
+    pmcid: null
+    pmid: '7581446'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+validated: 1
+version: []

@@ -1,0 +1,71 @@
+accessibility: []
+additionDate: '2018-04-21T09:07:39Z'
+biotoolsCURIE: biotools:webgivi
+biotoolsID: webgivi
+collectionID: []
+cost: null
+credit:
+  - email: sunliang@udel.edu
+    name: Liang Sun
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: The tool  can accept a gene list that will be used to retrieve a gene
+  symbol and iTerm list. This list can be resubmitted to visualize the gene-iTerm
+  pairs using Cytoscape or Concept Map.
+documentation:
+  - note: null
+    type: General
+    url: http://raven.anr.udel.edu/webgivi/webGIVI_Tutorial.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Enrichment analysis
+        uri: http://edamontology.org/operation_3501
+      - term: Expression data visualisation
+        uri: http://edamontology.org/operation_0571
+    output: []
+homepage: http://raven.anr.udel.edu/webgivi/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:57Z'
+license: BSD-Protection
+link: []
+maturity: null
+name: WebGIVI
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: d.gabrielaitis
+publication:
+  - doi: 10.1186/s12859-017-1664-2
+    metadata: null
+    pmcid: PMC5418709
+    pmid: '28472919'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+validated: 1
+version: []

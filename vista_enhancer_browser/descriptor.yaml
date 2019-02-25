@@ -1,0 +1,102 @@
+accessibility: []
+additionDate: '2018-04-26T13:49:26Z'
+biotoolsCURIE: biotools:vista_enhancer_browser
+biotoolsID: vista_enhancer_browser
+collectionID:
+  - Rare Disease
+cost: Free of charge
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://enhancer.lbl.gov/contactpage_n.html
+description: A resource for experimentally validated human and mouse enhancers. Users
+  can retrieve elements near single genes of interest, search for enhancers that target
+  reporter gene expression to a particular tissue, or download entire collections
+  of enhancers with a defined tissue specificity or conservation depth.
+documentation: []
+download:
+  - note: Data of all available enhancers.
+    type: Biological data
+    url: https://enhancer.lbl.gov/cgi-bin/imagedb3.pl?page_size=100;show=1;search.result=yes;form=search;search.form=no;action=search;search.sequence=1
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+      - term: Gene regulatory network analysis
+        uri: http://edamontology.org/operation_1781
+      - term: Sequence annotation
+        uri: http://edamontology.org/operation_0361
+    output: []
+homepage: https://enhancer.lbl.gov/frnt_page_n.shtml
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link: []
+maturity: Emerging
+name: VISTA Enhancer Browser
+operatingSystem: []
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Despite the known existence of distant-acting cis-regulatory elements\
+        \ in the human genome, only a small fraction of these elements has been identified\
+        \ and experimentally characterized in vivo. This paucity of enhancer collections\
+        \ with defined activities has thus hindered computational approaches for the\
+        \ genome-wide prediction of enhancers and their functions. To fill this void,\
+        \ we utilize comparative genome analysis to identify candidate enhancer elements\
+        \ in the human genome coupled with the experimental determination of their\
+        \ in vivo enhancer activity in transgenic mice [L. A. Pennacchio et al. (2006)\
+        \ Nature, in press]. These data are available through the VISTA Enhancer Browser\
+        \ (http://enhancer.lbl.gov). This growing database currently contains over\
+        \ 250 experimentally tested DNA fragments, of which more than 100 have been\
+        \ validated as tissue-specific enhancers. For each positive enhancer, we provide\
+        \ digital images of whole-mount embryo staining at embryonic day 11.5 and\
+        \ an anatomical description of the reporter gene expression pattern. Users\
+        \ can retrieve elements near single genes of interest, search for enhancers\
+        \ that target reporter gene expression to a particular tissue, or download\
+        \ entire collections of enhancers with a defined tissue specificity or conservation\
+        \ depth. These experimentally validated training sets are expected to provide\
+        \ a basis for a wide range of downstream computational and functional studies\
+        \ of enhancer function. \xA9 2007 Oxford University Press."
+      authors:
+        - name: Visel A.
+        - name: Minovitsky S.
+        - name: Dubchak I.
+        - name: Pennacchio L.A.
+      citationCount: 390
+      date: '2007-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: VISTA Enhancer Browser - A database of tissue-specific human enhancers
+    pmcid: null
+    pmid: '17130149'
+    type: null
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Data governance
+    uri: http://edamontology.org/topic_3571
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
+  - term: Laboratory information management
+    uri: http://edamontology.org/topic_0607
+validated: 1
+version: []

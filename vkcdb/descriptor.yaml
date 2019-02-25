@@ -5,14 +5,14 @@ biotoolsID: vkcdb
 collectionID: []
 cost: null
 credit:
-- email: wgallin@ualberta.ca
-  name: W. Gallin
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: wgallin@ualberta.ca
+    name: W. Gallin
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: The Voltage-gated K(+) Channel DataBase contains full-length or nearly
   full-length unique channel sequences from Bacteria, Archaea and Eukaryotes. Corresponding
   nucleotide sequences of the open reading frames corresponding to the amino acid
@@ -28,17 +28,17 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Data retrieval
-    uri: http://edamontology.org/operation_2422
-  - term: Protein sequence analysis
-    uri: http://edamontology.org/operation_2479
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Data retrieval
+        uri: http://edamontology.org/operation_2422
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output: []
 homepage: http://vkcdb.biology.ualberta.ca
 homepage_status: 0
 language: []
@@ -48,55 +48,56 @@ link: []
 maturity: null
 name: VKCDB
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: ELIXIR-EE
 publication:
-- doi: null
-  metadata:
-    abstract: The Voltage-gated K+ Channel DataBase (VKCDB) (http://vkcdb.biology.ualberta.ca)
-      makes a comprehensive set of sequence data readily available for phylogenetic
-      and comparative analysis. The current update contains 2063 entries for full-length
-      or nearly full-length unique channel sequences from Bacteria (477), Archaea
-      (18) and Eukaryotes (1568), an increase from 346 solely eukaryotic entries in
-      the original release. In addition to protein sequences for channels, corresponding
-      nucleotide sequences of the open reading frames corresponding to the amino acid
-      sequences are now available and can be extracted in parallel with sets of protein
-      sequences. Channels are categorized into subfamilies by phylogenetic analysis
-      and by using hidden Markov model analyses. Although the raw database contains
-      a number of fragmentary, duplicated, obsolete and non-channel sequences that
-      were collected in early steps of data collection, the web interface will only
-      return entries that have been validated as likely K+ channels. The retrieval
-      function of the web interface allows retrieval of entries that contain a substantial
-      fraction of the core structural elements of VKCs, fragmentary entries, or both.
-      The full database can be downloaded as either a MySQL dump or as an XML dump
-      from the web site. We have now implemented automated updates at quarterly intervals.
-      © The Author(s) 2010.
-    authors:
-    - name: Gallin W.J.
-    - name: Boutet P.A.
-    citationCount: 15
-    date: '2011-01-01T00:00:00Z'
-    journal: Nucleic Acids Research
-    title: 'VKCDB: Voltage-gated K+ channel database updated and upgraded'
-  pmcid: null
-  pmid: '20972209'
-  type: null
-  version: null
+  - doi: null
+    metadata:
+      abstract: "The Voltage-gated K+ Channel DataBase (VKCDB) (http://vkcdb.biology.ualberta.ca)\
+        \ makes a comprehensive set of sequence data readily available for phylogenetic\
+        \ and comparative analysis. The current update contains 2063 entries for full-length\
+        \ or nearly full-length unique channel sequences from Bacteria (477), Archaea\
+        \ (18) and Eukaryotes (1568), an increase from 346 solely eukaryotic entries\
+        \ in the original release. In addition to protein sequences for channels,\
+        \ corresponding nucleotide sequences of the open reading frames corresponding\
+        \ to the amino acid sequences are now available and can be extracted in parallel\
+        \ with sets of protein sequences. Channels are categorized into subfamilies\
+        \ by phylogenetic analysis and by using hidden Markov model analyses. Although\
+        \ the raw database contains a number of fragmentary, duplicated, obsolete\
+        \ and non-channel sequences that were collected in early steps of data collection,\
+        \ the web interface will only return entries that have been validated as likely\
+        \ K+ channels. The retrieval function of the web interface allows retrieval\
+        \ of entries that contain a substantial fraction of the core structural elements\
+        \ of VKCs, fragmentary entries, or both. The full database can be downloaded\
+        \ as either a MySQL dump or as an XML dump from the web site. We have now\
+        \ implemented automated updates at quarterly intervals. \xA9 The Author(s)\
+        \ 2010."
+      authors:
+        - name: Gallin W.J.
+        - name: Boutet P.A.
+      citationCount: 15
+      date: '2011-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'VKCDB: Voltage-gated K+ channel database updated and upgraded'
+    pmcid: null
+    pmid: '20972209'
+    type: null
+    version: null
 toolType:
-- Database portal
+  - Database portal
 topic:
-- term: Phylogenetics
-  uri: http://edamontology.org/topic_3293
-- term: Proteins
-  uri: http://edamontology.org/topic_0078
-- term: Database management
-  uri: http://edamontology.org/topic_3489
-- term: Model organisms
-  uri: http://edamontology.org/topic_0621
-- term: Phylogeny
-  uri: http://edamontology.org/topic_0084
+  - term: Phylogenetics
+    uri: http://edamontology.org/topic_3293
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
+  - term: Model organisms
+    uri: http://edamontology.org/topic_0621
+  - term: Phylogeny
+    uri: http://edamontology.org/topic_0084
 validated: 1
 version: []

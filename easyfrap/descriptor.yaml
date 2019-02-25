@@ -5,23 +5,23 @@ biotoolsID: easyfrap
 collectionID: []
 cost: Free of charge
 credit:
-- email: lygerou@upatras.gr
-  name: Zoi Lygerou
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: lygerou@upatras.gr
+    name: Zoi Lygerou
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: A versatile tool that assists quantitative and qualitative analysis of
   fluorescence recovery after photobleaching data. The user can handle simultaneously
   large data sets of raw data, visualize fluorescence recovery curves, exclude low
   quality data, perform data normalization, extract quantitative parameters, perform
   batch analysis and save the resulting data and figures for further use.
 documentation:
-- note: null
-  type: Manual
-  url: http://ccl.med.upatras.gr/data/uploads/easyfrap_manual.pdf
+  - note: null
+    type: Manual
+    url: http://ccl.med.upatras.gr/data/uploads/easyfrap_manual.pdf
 download: []
 editPermission:
   authors: []
@@ -30,15 +30,15 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Data handling
-    uri: http://edamontology.org/operation_2409
-  - term: Visualisation
-    uri: http://edamontology.org/operation_0337
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Data handling
+        uri: http://edamontology.org/operation_2409
+      - term: Visualisation
+        uri: http://edamontology.org/operation_0337
+    output: []
 homepage: http://ccl.med.upatras.gr/easyfrap.html
 homepage_status: 0
 language: []
@@ -48,42 +48,43 @@ link: []
 maturity: Mature
 name: easyFRAP
 operatingSystem:
-- Windows
-- Mac
+  - Windows
+  - Mac
 otherID: []
 owner: lygerou
 publication:
-- doi: 10.1093/bioinformatics/bts241
-  metadata:
-    abstract: We present easyFRAP, a versatile tool that assists quantitative and
-      qualitative analysis of fluorescence recovery after photobleaching (FRAP) data.
-      The user can handle simultaneously large data sets of raw data, visualize fluorescence
-      recovery curves, exclude low quality data, perform data normalization, extract
-      quantitative parameters, perform batch analysis and save the resulting data
-      and figures for further use. Our tool is implemented as a single-screen Graphical
-      User Interface (GUI) and is highly interactive, as it permits parameterization
-      and visual data quality assessment at various points during the analysis. ©
-      The Author 2012. Published by Oxford University Press. All rights reserved.
-    authors:
-    - name: Rapsomaniki M.A.
-    - name: Kotsantis P.
-    - name: Symeonidou I.-E.
-    - name: Giakoumakis N.-N.
-    - name: Taraviras S.
-    - name: Lygerou Z.
-    citationCount: 61
-    date: '2012-07-01T00:00:00Z'
-    journal: Bioinformatics
-    title: 'EasyFRAP: An interactive, easy-to-use tool for qualitative and quantitative
-      analysis of FRAP data'
-  pmcid: null
-  pmid: '22543368'
-  type: Primary
-  version: null
+  - doi: 10.1093/bioinformatics/bts241
+    metadata:
+      abstract: "We present easyFRAP, a versatile tool that assists quantitative and\
+        \ qualitative analysis of fluorescence recovery after photobleaching (FRAP)\
+        \ data. The user can handle simultaneously large data sets of raw data, visualize\
+        \ fluorescence recovery curves, exclude low quality data, perform data normalization,\
+        \ extract quantitative parameters, perform batch analysis and save the resulting\
+        \ data and figures for further use. Our tool is implemented as a single-screen\
+        \ Graphical User Interface (GUI) and is highly interactive, as it permits\
+        \ parameterization and visual data quality assessment at various points during\
+        \ the analysis. \xA9 The Author 2012. Published by Oxford University Press.\
+        \ All rights reserved."
+      authors:
+        - name: Rapsomaniki M.A.
+        - name: Kotsantis P.
+        - name: Symeonidou I.-E.
+        - name: Giakoumakis N.-N.
+        - name: Taraviras S.
+        - name: Lygerou Z.
+      citationCount: 61
+      date: '2012-07-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'EasyFRAP: An interactive, easy-to-use tool for qualitative and quantitative
+        analysis of FRAP data'
+    pmcid: null
+    pmid: '22543368'
+    type: Primary
+    version: null
 toolType:
-- Desktop application
+  - Desktop application
 topic:
-- term: Biology
-  uri: http://edamontology.org/topic_3070
+  - term: Biology
+    uri: http://edamontology.org/topic_3070
 validated: 1
 version: []

@@ -1,0 +1,93 @@
+accessibility: []
+additionDate: '2018-06-12T16:08:40Z'
+biotoolsCURIE: biotools:runbng
+biotoolsID: runbng
+collectionID: []
+cost: null
+credit:
+  - email: dave.edwards@uwa.edu.au
+    name: Dave Edwards
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Quality control of single molecule maps, optical map de novo assembly,
+  comparisons between different optical maps, super-scaffolding and structural variation
+  detection.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/appliedbioinformatics/runBNG
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+      - term: Sequencing quality control
+        uri: http://edamontology.org/operation_3218
+      - term: Genetic mapping
+        uri: http://edamontology.org/operation_0282
+    output: []
+homepage: https://github.com/appliedbioinformatics/runBNG
+homepage_status: 0
+language:
+  - Perl
+  - Python
+lastUpdate: '2018-12-10T12:58:59Z'
+license: null
+link: []
+maturity: null
+name: runBNG
+operatingSystem:
+  - Linux
+otherID: []
+owner: d.gabrielaitis
+publication:
+  - doi: 10.1093/bioinformatics/btx366
+    metadata:
+      abstract: Summary We developed runBNG, an open-source software package which
+        wraps BioNano genomic analysis tools into a single script that can be run
+        on the command line. runBNG can complete analyses, including quality control
+        of single molecule maps, optical map de novo assembly, comparisons between
+        different optical maps, super-scaffolding and structural variation detection.
+        Compared to existing software BioNano IrysView and the KSU scripts, the major
+        advantages of runBNG are that the whole pipeline runs on one single platform
+        and it has a high customizability.
+      authors:
+        - name: Yuan Y.
+        - name: Bayer P.E.
+        - name: Lee H.-T.
+        - name: Edwards D.
+      citationCount: 0
+      date: '2017-01-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'RunBNG: A software package for BioNano genomic analysis on the command
+        line'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+  - term: Quality affairs
+    uri: http://edamontology.org/topic_3393
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+validated: 1
+version: []

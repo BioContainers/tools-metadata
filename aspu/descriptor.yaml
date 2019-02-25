@@ -1,0 +1,113 @@
+accessibility: []
+additionDate: '2017-08-03T19:04:55Z'
+biotoolsCURIE: biotools:aspu
+biotoolsID: aspu
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/ikwak2
+  - email: ikwak@umn.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: R package for adaptive sum of powered score test(ASPU) in genetic association
+  studies.
+documentation:
+  - note: null
+    type: General
+    url: https://cran.r-project.org/web/packages/aSPU/
+  - note: null
+    type: Manual
+    url: https://cran.r-project.org/web/packages/aSPU/aSPU.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Pathway or network analysis
+        uri: http://edamontology.org/operation_2497
+      - term: Statistical calculation
+        uri: http://edamontology.org/operation_2238
+    output: []
+homepage: https://cran.r-project.org/web/packages/aSPU/
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/aspu-adaptive-gene-and-pathway-trait-association-testing-with-gwas.html
+  - note: null
+    type: Repository
+    url: https://github.com/ikwak2/aSPU
+maturity: null
+name: aSPU
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015 The Author. All rights reserved. Background: Gene-and pathway-based\
+        \ analyses offer a useful alternative and complement to the usual single SNP-based\
+        \ analysis for GWAS. On the other hand, most existing gene-and pathway-based\
+        \ tests are not highly adaptive, and/or require the availability of individual-level\
+        \ genotype and phenotype data. It would be desirable to have highly adaptive\
+        \ tests applicable to summary statistics for single SNPs. This has become\
+        \ increasingly important given the popularity of large-scale meta-analyses\
+        \ of multiple GWASs and the practical availability of either single GWAS or\
+        \ meta-analyzed GWAS summary statistics for single SNPs. Results: We extend\
+        \ two adaptive tests for gene-and pathway-level association with a univariate\
+        \ trait to the case with GWAS summary statistics without individual-level\
+        \ genotype and phenotype data. We use the WTCCC GWAS data to evaluate and\
+        \ compare the proposed methods and several existing methods. We further illustrate\
+        \ their applications to a meta-analyzed dataset to identify genes and pathways\
+        \ associated with blood pressure, demonstrating the potential usefulness of\
+        \ the proposed methods. The methods are implemented in R package aSPU, freely\
+        \ and publicly available."
+      authors:
+        - name: Kwak I.-Y.
+        - name: Pan W.
+      citationCount: 13
+      date: '2016-04-15T00:00:00Z'
+      journal: Bioinformatics
+      title: Adaptive gene-and pathway-trait association testing with GWAS summary
+        statistics
+    pmcid: null
+    pmid: '26656570'
+    type: null
+    version: null
+toolType:
+  - Library
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Experimental design and studies
+    uri: http://edamontology.org/topic_3678
+  - term: GWAS study
+    uri: http://edamontology.org/topic_3517
+validated: 1
+version: []

@@ -3,17 +3,17 @@ additionDate: '2018-07-24T15:41:51Z'
 biotoolsCURIE: biotools:ontoproc
 biotoolsID: ontoproc
 collectionID:
-- BioConductor
+  - BioConductor
 cost: Free of charge
 credit:
-- email: stvjc@channing.harvard.edu
-  name: VJ Carey
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: stvjc@channing.harvard.edu
+    name: VJ Carey
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Support harvesting of diverse bioinformatic ontologies, making particular
   use of the ontologyIndex package on CRAN. We provide snapshots of key ontologies
   for terms about cells, cell lines, chemical compounds, and anatomy, to help analyze
@@ -21,21 +21,21 @@ description: Support harvesting of diverse bioinformatic ontologies, making part
   is to strengthen development of compelling use cases for richer interfaces to emerging
   ontologies.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/manuals/ontoProc/man/ontoProc.pdf
-- note: null
-  type: General
-  url: http://bioconductor.org/packages/release/bioc/vignettes/ontoProc/inst/doc/ontoProc.pdf
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/manuals/ontoProc/man/ontoProc.pdf
+  - note: null
+    type: General
+    url: http://bioconductor.org/packages/release/bioc/vignettes/ontoProc/inst/doc/ontoProc.pdf
 download:
-- note: null
-  type: Source package
-  url: http://bioconductor.org/packages/release/bioc/src/contrib/ontoProc_1.2.1.tar.gz
-  version: null
-- note: Old Source Packages for BioC 3.7
-  type: Source package
-  url: http://bioconductor.org/packages/3.7/bioc/src/contrib/Archive/ontoProc/
-  version: null
+  - note: null
+    type: Source package
+    url: http://bioconductor.org/packages/release/bioc/src/contrib/ontoProc_1.2.1.tar.gz
+    version: null
+  - note: Old Source Packages for BioC 3.7
+    type: Source package
+    url: http://bioconductor.org/packages/3.7/bioc/src/contrib/Archive/ontoProc/
+    version: null
 editPermission:
   authors: []
   type: private
@@ -43,37 +43,37 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Analysis
-    uri: http://edamontology.org/operation_2945
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Analysis
+        uri: http://edamontology.org/operation_2945
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/ontoProc.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: Artistic-2.0
 link:
-- note: null
-  type: Mirror
-  url: http://bioconductor.org/packages/ontoProc/
+  - note: null
+    type: Mirror
+    url: http://bioconductor.org/packages/ontoProc/
 maturity: null
 name: ontoProc
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication: []
 toolType:
-- Library
+  - Library
 topic:
-- term: Ontology and terminology
-  uri: http://edamontology.org/topic_0089
+  - term: Ontology and terminology
+    uri: http://edamontology.org/topic_0089
 validated: 1
 version:
-- 1.2.1
+  - 1.2.1

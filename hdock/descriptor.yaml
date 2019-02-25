@@ -5,23 +5,23 @@ biotoolsID: hdock
 collectionID: []
 cost: null
 credit:
-- email: huanglab@hust.edu.cn
-  name: null
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: huanglab@hust.edu.cn
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Protein-protein and protein-DNA/RNA docking based on a hybrid algorithm
   of template-based modeling and ab initio free docking.
 documentation:
-- note: null
-  type: General
-  url: http://hdock.phys.hust.edu.cn/help.html
-- note: null
-  type: Training material
-  url: http://hdock.phys.hust.edu.cn/data/example/
+  - note: null
+    type: General
+    url: http://hdock.phys.hust.edu.cn/help.html
+  - note: null
+    type: Training material
+    url: http://hdock.phys.hust.edu.cn/data/example/
 download: []
 editPermission:
   authors: []
@@ -30,17 +30,17 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Ab initio structure prediction
-    uri: http://edamontology.org/operation_0476
-  - term: Protein binding site prediction
-    uri: http://edamontology.org/operation_2575
-  - term: Molecular docking
-    uri: http://edamontology.org/operation_0478
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Ab initio structure prediction
+        uri: http://edamontology.org/operation_0476
+      - term: Protein binding site prediction
+        uri: http://edamontology.org/operation_2575
+      - term: Molecular docking
+        uri: http://edamontology.org/operation_0478
+    output: []
 homepage: http://hdock.phys.hust.edu.cn/
 homepage_status: 0
 language: []
@@ -53,20 +53,20 @@ operatingSystem: []
 otherID: []
 owner: aotamendi.1
 publication:
-- doi: 10.1093/nar/gkx407
-  metadata: null
-  pmcid: PMC5793843
-  pmid: '28521030'
-  type: null
-  version: null
+  - doi: 10.1093/nar/gkx407
+    metadata: null
+    pmcid: PMC5793843
+    pmid: '28521030'
+    type: null
+    version: null
 toolType:
-- Web application
+  - Web application
 topic:
-- term: Molecular modelling
-  uri: http://edamontology.org/topic_2275
-- term: Protein interactions
-  uri: http://edamontology.org/topic_0128
-- term: RNA
-  uri: http://edamontology.org/topic_0099
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
 validated: 1
 version: []

@@ -1,0 +1,96 @@
+accessibility: []
+additionDate: '2017-08-03T18:37:28Z'
+biotoolsCURIE: biotools:bio-samtools
+biotoolsID: bio-samtools
+collectionID: []
+cost: null
+credit:
+  - email: bonnal@ingm.org
+    name: Raoul J.P. Bonnal
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/helios
+description: A Ruby binding to the SAMtools library.Bio-samtools is a flexible and
+  easy to use interface that programmers of many levels of experience can use to access
+  information in the popular and common SAM/BAM format.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/helios/bioruby-samtools
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Alignment
+        uri: http://edamontology.org/operation_2928
+    output: []
+homepage: https://github.com/helios/bioruby-samtools
+homepage_status: 0
+language:
+  - Ruby
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/bio-samtools-0-6-1-ruby-bindings-samtools.html
+maturity: null
+name: Bio-samtools
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2015. Published by Oxford University Press. All rights\
+        \ reserved. Motivation: bio-samtools is a Ruby language interface to SAMtools,\
+        \ the highly popular library that provides utilities for manipulating high-throughput\
+        \ sequence alignments in the Sequence Alignment/Map format. Advances in Ruby,\
+        \ now allow us to improve the analysis capabilities and increase bio-samtools\
+        \ utility, allowing users to accomplish a large amount of analysis using a\
+        \ very small amount of code. bio-samtools can also be easily developed to\
+        \ include additional SAMtools methods and hence stay current with the latest\
+        \ SAMtools releases. Results: We have added new Ruby classes for the MPileup\
+        \ and Variant Call Format (VCF) data formats emitted by SAMtools and introduced\
+        \ more analysis methods for variant analysis, including alternative allele\
+        \ calculation and allele frequency calling for SNPs. Our new implementation\
+        \ of bio-samtools also ensures that all the functionality of the SAMtools\
+        \ library is now supported and that bio-samtools can be easily extended to\
+        \ include future changes in SAMtools. bio-samtools 2 also provides methods\
+        \ that allow the user to directly produce visualization of alignment data."
+      authors:
+        - name: Etherington G.J.
+        - name: Ramirez-Gonzalez R.H.
+        - name: MacLean D.
+      citationCount: 3
+      date: '2015-01-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'Bio-samtools 2: A package for analysis and visualization of sequence
+        and alignment data with SAMtools in Ruby'
+    pmcid: null
+    pmid: '25819670'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 1
+version: []

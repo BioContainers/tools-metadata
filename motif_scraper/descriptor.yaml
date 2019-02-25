@@ -5,19 +5,19 @@ biotoolsID: motif_scraper
 collectionID: []
 cost: null
 credit:
-- email: eroberson@wustl.edu
-  name: Elisha D O Roberson
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: eroberson@wustl.edu
+    name: Elisha D O Roberson
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Tool for finding matches to degenerate sequence motifs in FASTA files.
 documentation:
-- note: null
-  type: General
-  url: https://github.com/RobersonLab/motif_scraper
+  - note: null
+    type: General
+    url: https://github.com/RobersonLab/motif_scraper
 download: []
 editPermission:
   authors: []
@@ -26,42 +26,42 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Sequence motif recognition
-    uri: http://edamontology.org/operation_0239
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence motif recognition
+        uri: http://edamontology.org/operation_0239
+    output: []
 homepage: https://github.com/RobersonLab/motif_scraper
 homepage_status: 0
 language:
-- Python
+  - Python
 lastUpdate: '2018-12-10T12:58:59Z'
 license: MIT
 link: []
 maturity: null
 name: Motif scraper
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1093/bioinformatics/bty437
-  metadata: null
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1093/bioinformatics/bty437
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Sequence analysis
-  uri: http://edamontology.org/topic_0080
-- term: Nucleic acid sites, features and motifs
-  uri: http://edamontology.org/topic_3511
-- term: Sequencing
-  uri: http://edamontology.org/topic_3168
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Nucleic acid sites, features and motifs
+    uri: http://edamontology.org/topic_3511
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
 validated: 1
 version: []

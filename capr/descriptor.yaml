@@ -1,0 +1,92 @@
+accessibility: []
+additionDate: '2017-08-03T18:39:16Z'
+biotoolsCURIE: biotools:capr
+biotoolsID: capr
+collectionID: []
+cost: null
+credit:
+  - email: fukunaga@is.s.u-tokyo.ac.jp
+    name: Tsukasa Fukunaga
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://sites.google.com/site/fukunagatsu/
+description: The software calculates probabilities that each RNA base position is
+  located within each secondary structural context for long RNA sequences.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/fukunagatsu/CapR
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: RNA secondary structure analysis
+        uri: http://edamontology.org/operation_2439
+    output: []
+homepage: https://sites.google.com/site/fukunagatsu/software/capr
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/capr-revealing-structural-specificities-of-rna-binding-protein-target-recognition.html
+maturity: null
+name: CapR
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2014 Fukunaga et al.RNA-binding proteins (RBPs) bind to their\
+        \ target RNA molecules by recognizing specific RNA sequences and structural\
+        \ contexts. The development of CLIP-seq and related protocols has made it\
+        \ possible to exhaustively identify RNA fragments that bind to RBPs. However,\
+        \ no efficient bioinformatics method exists to reveal the structural specificities\
+        \ of RBP-RNA interactions using these data. We present CapR, an efficient\
+        \ algorithm that calculates the probability that each RNA base position is\
+        \ located within each secondary structural context. Using CapR, we demonstrate\
+        \ that several RBPs bind to their target RNA molecules under specific structural\
+        \ contexts."
+      authors:
+        - name: Fukunaga T.
+        - name: Ozaki H.
+        - name: Terai G.
+        - name: Asai K.
+        - name: Iwasaki W.
+        - name: Kiryu H.
+      citationCount: 24
+      date: '2014-01-01T00:00:00Z'
+      journal: Genome Biology
+      title: 'Capr: Revealing structural specificities of rna-binding protein target
+        recognition using clip-seq data'
+    pmcid: null
+    pmid: '24447569'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Nucleic acid structure analysis
+    uri: http://edamontology.org/topic_0097
+validated: 1
+version: []

@@ -1,0 +1,92 @@
+accessibility: []
+additionDate: '2018-05-28T09:56:38Z'
+biotoolsCURIE: biotools:damidseq_pipeline
+biotoolsID: damidseq_pipeline
+collectionID: []
+cost: null
+credit:
+  - email: o.marshall@gurdon.cam.ac.uk
+    name: Owen Marshall
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Single script that automatically handles sequence alignment, read extension,
+  binned counts, normalisation, pseudocount addition and final ratio file generation.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/owenjm/damidseq_pipeline/blob/master/README.md
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Identifier
+          uri: http://edamontology.org/data_0842
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+          - term: FASTQ
+            uri: http://edamontology.org/format_1930
+    note: null
+    operation:
+      - term: Peak calling
+        uri: http://edamontology.org/operation_3222
+      - term: Standardisation and normalisation
+        uri: http://edamontology.org/operation_3435
+      - term: Read binning
+        uri: http://edamontology.org/operation_3798
+    output:
+      - data:
+          term: Report
+          uri: http://edamontology.org/data_2048
+        format:
+          - term: GFF
+            uri: http://edamontology.org/format_2305
+          - term: bedgraph
+            uri: http://edamontology.org/format_3583
+homepage: http://owenjm.github.io/damidseq_pipeline/
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:58Z'
+license: GPL-2.0
+link:
+  - note: null
+    type: Repository
+    url: https://github.com/owenjm/damidseq_pipeline
+maturity: null
+name: damidseq_pipeline
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: aotamendi.1
+publication:
+  - doi: 10.1093/bioinformatics/btv386
+    metadata: null
+    pmcid: PMC4595905
+    pmid: '26112292'
+    type: null
+    version: null
+toolType:
+  - Workflow
+  - Script
+topic:
+  - term: Workflows
+    uri: http://edamontology.org/topic_0769
+  - term: ChIP-seq
+    uri: http://edamontology.org/topic_3169
+  - term: Microarray experiment
+    uri: http://edamontology.org/topic_3518
+validated: 1
+version: []

@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2017-08-03T18:57:15Z'
+biotoolsCURIE: biotools:quickprobs
+biotoolsID: quickprobs
+collectionID: []
+cost: null
+credit:
+  - email: adam.gudys@polsl.pl
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Fast multiple sequence alignment algorithm designed for graphics processors.
+documentation:
+  - note: null
+    type: General
+    url: http://sun.aei.polsl.pl/REFRESH/index.php?page=projects&project=quickprobs&subpage=about
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Multiple sequence alignment
+        uri: http://edamontology.org/operation_0492
+    output: []
+homepage: http://sun.aei.polsl.pl/REFRESH/index.php?page=projects&project=quickprobs&subpage=about
+homepage_status: 0
+language:
+  - C++
+  - Perl
+  - C
+lastUpdate: '2018-12-10T12:58:57Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/quickprobs-multiple-sequence-alignment-designed-especially-for-gpu.html
+maturity: null
+name: QuickProbs
+operatingSystem:
+  - Linux
+  - Windows
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Multiple sequence alignment is a crucial task in a number of biological\
+        \ analyses like secondary structure prediction, domain searching, phylogeny,\
+        \ etc. MSAProbs is currently the most accurate alignment algorithm, but its\
+        \ effectiveness is obtained at the expense of computational time. In the paper\
+        \ we present QuickProbs, the variant of MSAProbs customised for graphics processors.\
+        \ We selected the two most time consuming stages of MSAProbs to be redesigned\
+        \ for GPU execution: the posterior matrices calculation and the consistency\
+        \ transformation. Experiments on three popular benchmarks (BAliBASE, PREFAB,\
+        \ OXBench-X) on quad-core PC equipped with high-end graphics card show QuickProbs\
+        \ to be 5.7 to 9.7 times faster than original CPU-parallel MSAProbs. Additional\
+        \ tests performed on several protein families from Pfam database give overall\
+        \ speed-up of 6.7. Compared to other algorithms like MAFFT, MUSCLE, or ClustalW,\
+        \ QuickProbs proved to be much more accurate at similar speed. Additionally\
+        \ we introduce a tuned variant of QuickProbs which is significantly more accurate\
+        \ on sets of distantly related sequences than MSAProbs without exceeding its\
+        \ computation time. The GPU part of QuickProbs was implemented in OpenCL,\
+        \ thus the package is suitable for graphics processors produced by all major\
+        \ vendors. \xA9 2014 Gudy\u015B, Deorowicz."
+      authors:
+        - name: Gudys A.
+        - name: Deorowicz S.
+      citationCount: 7
+      date: '2014-02-25T00:00:00Z'
+      journal: PLoS ONE
+      title: QuickProbs - A fast multiple sequence alignment algorithm designed for
+        graphics processors
+    pmcid: null
+    pmid: '24586435'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Gene and protein families
+    uri: http://edamontology.org/topic_0623
+validated: 1
+version: []

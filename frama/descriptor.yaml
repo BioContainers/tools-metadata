@@ -1,0 +1,79 @@
+accessibility: []
+additionDate: '2018-05-18T14:40:01Z'
+biotoolsCURIE: biotools:frama
+biotoolsID: frama
+collectionID: []
+cost: null
+credit:
+  - email: mbens@fli-leibniz.de
+    name: Bens M
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: szafrans@fli-leibniz.de
+    name: Szafranski K
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A transcriptome assembly and mRNA annotation pipeline, which utilizies
+  external and newly developed software components.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/gengit/FRAMA
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence annotation
+        uri: http://edamontology.org/operation_0361
+      - term: Sequence assembly
+        uri: http://edamontology.org/operation_0310
+    output: []
+homepage: https://github.com/gengit/FRAMA
+homepage_status: 0
+language:
+  - R
+  - Perl
+lastUpdate: '2018-12-10T12:58:58Z'
+license: null
+link: []
+maturity: null
+name: FRAMA
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: d.gabrielaitis
+publication:
+  - doi: 10.1186/S12864-015-2349-8
+    metadata: null
+    pmcid: PMC4712544
+    pmid: '26763976'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+  - term: Nucleic acid structure analysis
+    uri: http://edamontology.org/topic_0097
+validated: 1
+version: []

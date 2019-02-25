@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2017-01-17T14:56:16Z'
+biotoolsCURIE: biotools:mergeomics
+biotoolsID: mergeomics
+collectionID: []
+cost: null
+credit:
+  - email: darneson@ucla.edu
+    name: Douglas Arneson
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: xyang123@ucla.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: 'Multidimensional Data Integration. This web aplication serves as a flexible
+  framework for integrating multidimensional omics-disease associations, functional
+  genomics, canonical pathways and gene-gene interaction networks to generate mechanistic
+  hypotheses. It includes two main parts: a Marker Set Enrichment Analysis (MSEA)
+  and a weighted Key Driver Analysis (wKDA).'
+documentation:
+  - note: null
+    type: Training material
+    url: http://mergeomics.research.idre.ucla.edu/tutorial.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Enrichment analysis
+        uri: http://edamontology.org/operation_3501
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Pathway or network analysis
+        uri: http://edamontology.org/operation_2497
+    output: []
+homepage: http://mergeomics.research.idre.ucla.edu/home.php
+homepage_status: 0
+language:
+  - PHP
+  - Javascript
+lastUpdate: '2018-12-10T12:58:58Z'
+license: GPL-2.0
+link:
+  - note: Bioconductor package of Mergeomics
+    type: Registry
+    url: https://bioconductor.org/packages/release/bioc/html/Mergeomics.html
+maturity: null
+name: Mergeomics
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: bioconductor_import
+publication:
+  - doi: 10.1186/s12864-016-3057-8
+    metadata: null
+    pmcid: PMC5016927
+    pmid: '27612452'
+    type: Primary
+    version: null
+toolType:
+  - Web application
+  - Library
+  - Workflow
+  - Suite
+topic:
+  - term: Omics
+    uri: http://edamontology.org/topic_3391
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Functional genomics
+    uri: http://edamontology.org/topic_0085
+  - term: Experimental design and studies
+    uri: http://edamontology.org/topic_3678
+  - term: GWAS study
+    uri: http://edamontology.org/topic_3517
+validated: 1
+version: []

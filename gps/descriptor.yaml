@@ -1,0 +1,106 @@
+accessibility: []
+additionDate: '2017-01-13T13:14:58Z'
+biotoolsCURIE: biotools:gps
+biotoolsID: gps
+collectionID: []
+cost: null
+credit:
+  - email: yguo@mit.edu
+    name: Yuchun Guo
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: mahony@mit.edu
+    name: Shaun Mahony
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: High spatial resolution peak detection algorithm for ChIP-seq data.
+documentation:
+  - note: null
+    type: General
+    url: http://groups.csail.mit.edu/cgs/onePageGPS/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Peak calling
+        uri: http://edamontology.org/operation_3222
+    output: []
+homepage: http://groups.csail.mit.edu/cgs/onePageGPS/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: Mature
+name: GPS
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: Clusters of protein-DNA interaction events involving\
+        \ the same transcription factor are known to act as key components of invertebrate\
+        \ and mammalian promoters and enhancers. However, detecting closely spaced\
+        \ homotypic events from ChIP-Seq data is challenging because random variation\
+        \ in the ChIP fragmentation process obscures event locations. Results: The\
+        \ Genome Positioning System (GPS) can predict protein-DNA interaction events\
+        \ at high spatial resolution from ChIP-Seq data, while retaining the ability\
+        \ to resolve closely spaced events that appear as a single cluster of reads.\
+        \ GPS models observed reads using a complexity penalized mixture model and\
+        \ efficiently predicts event locations with a segmented EM algorithm. An optional\
+        \ mode permits GPS to align common events across distinct experiments. GPS\
+        \ detects more joint events in synthetic and actual ChIP-Seq data and has\
+        \ superior spatial resolution when compared with other methods. In addition,\
+        \ the specificity and sensitivity of GPS are superior to or comparable with\
+        \ other methods. \xA9 The Author 2010. Published by Oxford University Press.\
+        \ All rights reserved."
+      authors:
+        - name: Guo Y.
+        - name: Papachristoudis G.
+        - name: Altshuler R.C.
+        - name: Gerber G.K.
+        - name: Jaakkola T.S.
+        - name: Gifford D.K.
+        - name: Mahony S.
+      citationCount: 30
+      date: '2010-12-01T00:00:00Z'
+      journal: Bioinformatics
+      title: Discovering homotypic binding events at high spatial resolution
+    pmcid: null
+    pmid: '20966006'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: ChIP-seq
+    uri: http://edamontology.org/topic_3169
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
+  - term: Epigenomics
+    uri: http://edamontology.org/topic_3173
+validated: 1
+version: []

@@ -5,35 +5,35 @@ biotoolsID: phageterm
 collectionID: []
 cost: null
 credit:
-- email: julian.garneau@usherbrooke.ca
-  name: Julian Garneau
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: marc.monot@pasteur.fr
-  name: Marc Monot
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
-- email: david.bikard@pasteur.fr
-  name: David Bikard
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: julian.garneau@usherbrooke.ca
+    name: Julian Garneau
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: marc.monot@pasteur.fr
+    name: Marc Monot
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: david.bikard@pasteur.fr
+    name: David Bikard
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Determining Bacteriophage Termini and Packaging using NGS data.
 documentation:
-- note: null
-  type: General
-  url: https://sourceforge.net/projects/phageterm/files/?source=navbar
+  - note: null
+    type: General
+    url: https://sourceforge.net/projects/phageterm/files/?source=navbar
 download: []
 editPermission:
   authors: []
@@ -42,70 +42,72 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Nucleic acid feature detection
-    uri: http://edamontology.org/operation_0415
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Nucleic acid feature detection
+        uri: http://edamontology.org/operation_0415
+    output: []
 homepage: https://sourceforge.net/projects/phageterm/
 homepage_status: 0
 language:
-- Python
+  - Python
 lastUpdate: '2018-12-10T12:59:00Z'
 license: CC-BY-4.0
 link: []
 maturity: null
 name: PhageTerm
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1038/s41598-017-07910-5
-  metadata:
-    abstract: © The Author(s) 2017. The worrying rise of antibiotic resistance in
-      pathogenic bacteria is leading to a renewed interest in bacteriophages as a
-      treatment option. Novel sequencing technologies enable description of an increasing
-      number of phage genomes, a critical piece of information to understand their
-      life cycle, phage-host interactions, and evolution. In this work, we demonstrate
-      how it is possible to recover more information from sequencing data than just
-      the phage genome. We developed a theoretical and statistical framework to determine
-      DNA termini and phage packaging mechanisms using NGS data. Our method relies
-      on the detection of biases in the number of reads, which are observable at natural
-      DNA termini compared with the rest of the phage genome. We implemented our method
-      with the creation of the software PhageTerm and validated it using a set of
-      phages with well-established packaging mechanisms representative of the termini
-      diversity, i.e. 5′cos (Lambda), 3′cos (HK97), pac (P1), headful without a pac
-      site (T4), DTR (T7) and host fragment (Mu). In addition, we determined the termini
-      of nine Clostridium difficile phages and six phages whose sequences were retrieved
-      from the Sequence Read Archive. PhageTerm is freely available (https://sourceforge.net/projects/phageterm),
-      as a Galaxy ToolShed and on a Galaxy-based server (https://galaxy.pasteur.fr).
-    authors:
-    - name: Garneau J.R.
-    - name: Depardieu F.
-    - name: Fortier L.-C.
-    - name: Bikard D.
-    - name: Monot M.
-    citationCount: 6
-    date: '2017-12-01T00:00:00Z'
-    journal: Scientific Reports
-    title: 'PhageTerm: A tool for fast and accurate determination of phage termini
-      and packaging mechanism using next-generation sequencing data'
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1038/s41598-017-07910-5
+    metadata:
+      abstract: "\xA9 The Author(s) 2017. The worrying rise of antibiotic resistance\
+        \ in pathogenic bacteria is leading to a renewed interest in bacteriophages\
+        \ as a treatment option. Novel sequencing technologies enable description\
+        \ of an increasing number of phage genomes, a critical piece of information\
+        \ to understand their life cycle, phage-host interactions, and evolution.\
+        \ In this work, we demonstrate how it is possible to recover more information\
+        \ from sequencing data than just the phage genome. We developed a theoretical\
+        \ and statistical framework to determine DNA termini and phage packaging mechanisms\
+        \ using NGS data. Our method relies on the detection of biases in the number\
+        \ of reads, which are observable at natural DNA termini compared with the\
+        \ rest of the phage genome. We implemented our method with the creation of\
+        \ the software PhageTerm and validated it using a set of phages with well-established\
+        \ packaging mechanisms representative of the termini diversity, i.e. 5\u2032\
+        cos (Lambda), 3\u2032cos (HK97), pac (P1), headful without a pac site (T4),\
+        \ DTR (T7) and host fragment (Mu). In addition, we determined the termini\
+        \ of nine Clostridium difficile phages and six phages whose sequences were\
+        \ retrieved from the Sequence Read Archive. PhageTerm is freely available\
+        \ (https://sourceforge.net/projects/phageterm), as a Galaxy ToolShed and on\
+        \ a Galaxy-based server (https://galaxy.pasteur.fr)."
+      authors:
+        - name: Garneau J.R.
+        - name: Depardieu F.
+        - name: Fortier L.-C.
+        - name: Bikard D.
+        - name: Monot M.
+      citationCount: 6
+      date: '2017-12-01T00:00:00Z'
+      journal: Scientific Reports
+      title: 'PhageTerm: A tool for fast and accurate determination of phage termini
+        and packaging mechanism using next-generation sequencing data'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: NGS
-  uri: http://edamontology.org/topic_3168
-- term: Microbiology
-  uri: http://edamontology.org/topic_3301
-- term: Transcription factors and regulatory sites
-  uri: http://edamontology.org/topic_0749
+  - term: NGS
+    uri: http://edamontology.org/topic_3168
+  - term: Microbiology
+    uri: http://edamontology.org/topic_3301
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
 validated: 1
 version: []

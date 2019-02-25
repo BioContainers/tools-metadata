@@ -5,19 +5,19 @@ biotoolsID: prapi
 collectionID: []
 cost: null
 credit:
-- email: lfgu@fafu.edu.cn
-  name: Lianfeng Gu
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: lfgu@fafu.edu.cn
+    name: Lianfeng Gu
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Post-transcriptional regulation analysis pipeline for Iso-Seq.
 documentation:
-- note: null
-  type: Manual
-  url: http://www.bioinfor.org/bioinfor/tool/PRAPI/manual.php
+  - note: null
+    type: Manual
+    url: http://www.bioinfor.org/bioinfor/tool/PRAPI/manual.php
 download: []
 editPermission:
   authors: []
@@ -26,73 +26,73 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Splicing model analysis
-    uri: http://edamontology.org/operation_2499
-  - term: Transcriptional regulatory element prediction
-    uri: http://edamontology.org/operation_0438
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Splicing model analysis
+        uri: http://edamontology.org/operation_2499
+      - term: Transcriptional regulatory element prediction
+        uri: http://edamontology.org/operation_0438
+    output: []
 homepage: http://www.bioinfor.org/bioinfor/tool/PRAPI/
 homepage_status: 0
 language:
-- Shell
+  - Shell
 lastUpdate: '2018-12-10T12:58:59Z'
 license: null
 link: []
 maturity: null
 name: PRAPI
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1093/bioinformatics/btx830
-  metadata:
-    abstract: © The Author(s) 2017. Published by Oxford University Press. All rights
-      reserved. For Permissions. The single-molecule real-time (SMRT) isoform sequencing
-      (Iso-Seq) based on Pacific Bioscience (PacBio) platform has received increasing
-      attention for its ability to explore full-length isoforms. Thus, comprehensive
-      tools for Iso-Seq bioinformatics analysis are extremely useful. Here, we present
-      a one-stop solution for Iso-Seq analysis, called PRAPI to analyze alternative
-      transcription initiation (ATI), alternative splicing (AS), alternative cleavage
-      and polyadenylation (APA), natural antisense transcripts (NAT), and circular
-      RNAs (circRNAs) comprehensively. PRAPI is capable of combining Iso-Seq full-length
-      isoforms with short read data, such as RNA-Seq or polyadenylation site sequencing
-      (PAS-seq) for differential expression analysis of NAT, AS, APA and circRNAs.
-      Furthermore, PRAPI can annotate new genes and correct mis-annotated genes when
-      gene annotation is available. Finally, PRAPI generates high-quality vector graphics
-      to visualize and highlight the Iso-Seq results. Availability and implementation
-      The Dockerfile of PRAPI is available at http://www.bioinfor.org/tool/PRAPI.
-      Contact lfgu@fafu.edu.cn.
-    authors:
-    - name: Gao Y.
-    - name: Wang H.
-    - name: Zhang H.
-    - name: Wang Y.
-    - name: Chen J.
-    - name: Gu L.
-    citationCount: 0
-    date: '2018-05-01T00:00:00Z'
-    journal: Bioinformatics
-    title: 'PRAPI: Post-transcriptional regulation analysis pipeline for Iso-Seq'
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1093/bioinformatics/btx830
+    metadata:
+      abstract: "\xA9 The Author(s) 2017. Published by Oxford University Press. All\
+        \ rights reserved. For Permissions. The single-molecule real-time (SMRT) isoform\
+        \ sequencing (Iso-Seq) based on Pacific Bioscience (PacBio) platform has received\
+        \ increasing attention for its ability to explore full-length isoforms. Thus,\
+        \ comprehensive tools for Iso-Seq bioinformatics analysis are extremely useful.\
+        \ Here, we present a one-stop solution for Iso-Seq analysis, called PRAPI\
+        \ to analyze alternative transcription initiation (ATI), alternative splicing\
+        \ (AS), alternative cleavage and polyadenylation (APA), natural antisense\
+        \ transcripts (NAT), and circular RNAs (circRNAs) comprehensively. PRAPI is\
+        \ capable of combining Iso-Seq full-length isoforms with short read data,\
+        \ such as RNA-Seq or polyadenylation site sequencing (PAS-seq) for differential\
+        \ expression analysis of NAT, AS, APA and circRNAs. Furthermore, PRAPI can\
+        \ annotate new genes and correct mis-annotated genes when gene annotation\
+        \ is available. Finally, PRAPI generates high-quality vector graphics to visualize\
+        \ and highlight the Iso-Seq results. Availability and implementation The Dockerfile\
+        \ of PRAPI is available at http://www.bioinfor.org/tool/PRAPI. Contact lfgu@fafu.edu.cn."
+      authors:
+        - name: Gao Y.
+        - name: Wang H.
+        - name: Zhang H.
+        - name: Wang Y.
+        - name: Chen J.
+        - name: Gu L.
+      citationCount: 0
+      date: '2018-05-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'PRAPI: Post-transcriptional regulation analysis pipeline for Iso-Seq'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Transcription factors and regulatory sites
-  uri: http://edamontology.org/topic_0749
-- term: RNA-seq
-  uri: http://edamontology.org/topic_3170
-- term: Genetics
-  uri: http://edamontology.org/topic_3053
-- term: Data visualisation
-  uri: http://edamontology.org/topic_0092
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
+  - term: RNA-seq
+    uri: http://edamontology.org/topic_3170
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
 validated: 1
 version: []

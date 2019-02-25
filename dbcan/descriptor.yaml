@@ -1,0 +1,105 @@
+accessibility: []
+additionDate: '2017-03-25T16:30:04Z'
+biotoolsCURIE: biotools:dbcan
+biotoolsID: dbcan
+collectionID: []
+cost: null
+credit:
+  - email: xyn@bmb.uga.edu
+    name: Ying Xu
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://csbl.bmb.uga.edu/~xyn/
+description: dbCAN provides automated carbohydrate-active enzyme signature domain-based
+  annotation for a set of proteins. Each carbohydrate-active enzyme has an assigned
+  signature domain.
+documentation:
+  - note: null
+    type: General
+    url: http://csbl.bmb.uga.edu/dbCAN/help.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Annotation
+        uri: http://edamontology.org/operation_0226
+      - term: Genome annotation
+        uri: http://edamontology.org/operation_0362
+      - term: Protein domain recognition
+        uri: http://edamontology.org/operation_0246
+      - term: Protein feature detection
+        uri: http://edamontology.org/operation_3092
+      - term: Protein fold recognition
+        uri: http://edamontology.org/operation_0303
+    output: []
+homepage: http://csbl.bmb.uga.edu/dbCAN/annotate.php
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: dbCAN
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Carbohydrate-active enzymes (CAZymes) are very important to the biotech\
+        \ industry, particularly the emerging biofuel industry because CAZymes are\
+        \ responsible for the synthesis, degradation and modification of all the carbohydrates\
+        \ on Earth. We have developed a web resource, dbCAN (http://csbl.bmb.uga.edu/dbCAN/annotate.php),\
+        \ to provide a capability for automated CAZyme signature domain-based annotation\
+        \ for any given protein data set (e.g. proteins from a newly sequenced genome)\
+        \ submitted to our server. To accomplish this, we have explicitly defined\
+        \ a signature domain for every CAZyme family, derived based on the CDD (conserved\
+        \ domain database) search and literature curation. We have also constructed\
+        \ a hidden Markov model to represent the signature domain of each CAZyme family.\
+        \ These CAZyme family-specific HMMs are our key contribution and the foundation\
+        \ for the automated CAZyme annotation. \xA9 2012 The Author(s)."
+      authors:
+        - name: Yin Y.
+        - name: Mao X.
+        - name: Yang J.
+        - name: Chen X.
+        - name: Mao F.
+        - name: Xu Y.
+      citationCount: 478
+      date: '2012-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'DbCAN: A web resource for automated carbohydrate-active enzyme annotation'
+    pmcid: null
+    pmid: '22645317'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Enzymes
+    uri: http://edamontology.org/topic_0821
+  - term: Sequence sites, features and motifs
+    uri: http://edamontology.org/topic_0160
+  - term: Protein folds and structural domains
+    uri: http://edamontology.org/topic_0736
+  - term: Carbohydrates
+    uri: http://edamontology.org/topic_0152
+  - term: Gene and protein families
+    uri: http://edamontology.org/topic_0623
+validated: 1
+version: []

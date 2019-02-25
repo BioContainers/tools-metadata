@@ -3,30 +3,30 @@ additionDate: '2018-07-15T09:44:11Z'
 biotoolsCURIE: biotools:singlecellexperiment
 biotoolsID: singlecellexperiment
 collectionID:
-- BioConductor
+  - BioConductor
 cost: null
 credit:
-- email: risso.davide@gmail.com
-  name: Davide Risso
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: risso.davide@gmail.com
+    name: Davide Risso
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Defines a S4 class for storing data from single-cell experiments. This
   includes specialized methods to store and retrieve spike-in information, dimensionality
   reduction coordinates and size factors for each cell, along with the usual metadata
   for genes and libraries.
 documentation:
-- note: null
-  type: Manual
-  url: http://bioconductor.org/packages/release/bioc/manuals/SingleCellExperiment/man/SingleCellExperiment.pdf
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/manuals/SingleCellExperiment/man/SingleCellExperiment.pdf
 download:
-- note: null
-  type: Source package
-  url: http://bioconductor.org/packages/release/bioc/src/contrib/SingleCellExperiment_1.2.0.tar.gz
-  version: null
+  - note: null
+    type: Source package
+    url: http://bioconductor.org/packages/release/bioc/src/contrib/SingleCellExperiment_1.2.0.tar.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -34,40 +34,40 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Query and retrieval
-    uri: http://edamontology.org/operation_0224
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/SingleCellExperiment.html
 homepage_status: 0
 language:
-- R
+  - R
 lastUpdate: '2018-12-10T12:59:00Z'
 license: GPL-3.0
 link:
-- note: null
-  type: Mirror
-  url: http://bioconductor.org/packages/SingleCellExperiment/
-- note: null
-  type: Repository
-  url: https://git.bioconductor.org/packages/SingleCellExperiment
+  - note: null
+    type: Mirror
+    url: http://bioconductor.org/packages/SingleCellExperiment/
+  - note: null
+    type: Repository
+    url: https://git.bioconductor.org/packages/SingleCellExperiment
 maturity: null
 name: SingleCellExperiment
 operatingSystem:
-- Linux
-- Windows
-- Mac
+  - Linux
+  - Windows
+  - Mac
 otherID: []
 owner: shadi.m
 publication: []
 toolType:
-- Library
+  - Library
 topic:
-- term: Clone library
-  uri: http://edamontology.org/topic_3341
+  - term: Clone library
+    uri: http://edamontology.org/topic_3341
 validated: 1
 version:
-- 1.2.0
+  - 1.2.0

@@ -1,0 +1,92 @@
+accessibility: []
+additionDate: '2017-02-14T09:35:52Z'
+biotoolsCURIE: biotools:aquasaxs
+biotoolsID: aquasaxs
+collectionID: []
+cost: null
+credit:
+  - email: fpoitevi@pasteur.fr
+    name: Poitevin F.
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: AquaSAXS is a web server for computation of and fitting of small angle
+  x-ray scattering (SAXS) profiles with non-uniformally hydrated atomic models.
+documentation:
+  - note: null
+    type: General
+    url: http://lorentz.dynstr.pasteur.fr/aquasaxs.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Diffraction data integration
+        uri: http://edamontology.org/operation_3453
+    output: []
+homepage: http://lorentz.dynstr.pasteur.fr/aquasaxs.php
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: AquaSAXS
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Small Angle X-ray Scattering (SAXS) techniques are becoming more\
+        \ and more useful for structural biologists and biochemists, thanks to better\
+        \ access to dedicated synchrotron beamlines, better detectors and the relative\
+        \ easiness of sample preparation. The ability to compute the theoretical SAXS\
+        \ profile of a given structural model, and to compare this profile with the\
+        \ measured scattering intensity, yields crucial structural informations about\
+        \ the macromolecule under study and/or its complexes in solution. An important\
+        \ contribution to the profile, besides the macromolecule itself and its solvent-excluded\
+        \ volume, is the excess density due to the hydration layer. AquaSAXS takes\
+        \ advantage of recently developed methods, such as AquaSol, that give the\
+        \ equilibrium solvent density map around macromolecules, to compute an accurate\
+        \ SAXS/WAXS profile of a given structure and to compare it to the experimental\
+        \ one. Here, we describe the interface architecture and capabilities of the\
+        \ AquaSAXS web server (http://lorentz.dynstr.pasteur.fr/aquasaxs.php). \xA9\
+        \ 2011 The Author(s)."
+      authors:
+        - name: Poitevin F.
+        - name: Orland H.
+        - name: Doniach S.
+        - name: Koehl P.
+        - name: Delarue M.
+      citationCount: 62
+      date: '2011-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'AquaSAXS: A web server for computation and fitting of SAXS profiles
+        with non-uniformally hydrated atomic models'
+    pmcid: null
+    pmid: '21665925'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: X-ray diffraction
+    uri: http://edamontology.org/topic_2828
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+validated: 1
+version: []

@@ -5,19 +5,19 @@ biotoolsID: chemdistiller
 collectionID: []
 cost: null
 credit:
-- email: kirill.veselkov04@imperial.ac.uk
-  name: Kirill A Veselkov
-  note: null
-  orcidid: null
-  typeEntity: Person
-  typeRole:
-  - Primary contact
-  url: null
+  - email: kirill.veselkov04@imperial.ac.uk
+    name: Kirill A Veselkov
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
 description: Engine for metabolite annotation in mass spectrometry.
 documentation:
-- note: null
-  type: General
-  url: https://bitbucket.org/iAnalytica/chemdistillerpython
+  - note: null
+    type: General
+    url: https://bitbucket.org/iAnalytica/chemdistillerpython
 download: []
 editPermission:
   authors: []
@@ -26,69 +26,70 @@ elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
 function:
-- cmd: null
-  input: []
-  note: null
-  operation:
-  - term: Spectral analysis
-    uri: http://edamontology.org/operation_3214
-  - term: Annotation
-    uri: http://edamontology.org/operation_0226
-  output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Spectral analysis
+        uri: http://edamontology.org/operation_3214
+      - term: Annotation
+        uri: http://edamontology.org/operation_0226
+    output: []
 homepage: https://bitbucket.org/iAnalytica/chemdistillerpython
 homepage_status: 0
 language:
-- Python
+  - Python
 lastUpdate: '2018-12-10T12:58:59Z'
 license: BSD-2-Clause
 link: []
 maturity: null
 name: ChemDistiller
 operatingSystem:
-- Linux
-- Mac
+  - Linux
+  - Mac
 otherID: []
 owner: d.gabrielaitis
 publication:
-- doi: 10.1093/bioinformatics/bty080
-  metadata:
-    abstract: © The Author(s) 2018. Motivation High-resolution mass spectrometry permits
-      simultaneous detection of thousands of different metabolites in biological samples;
-      however, their automated annotation still presents a challenge due to the limited
-      number of tailored computational solutions freely available to the scientific
-      community. Results Here, we introduce ChemDistiller, a customizable engine that
-      combines automated large-scale annotation of metabolites using tandem MS data
-      with a compiled database containing tens of millions of compounds with pre-calculated
-      fingerprints' and fragmentation patterns. Our tests using publicly and commercially
-      available tandem MS spectra for reference compounds show retrievals rates comparable
-      to or exceeding the ones obtainable by the current state-of-the-art solutions
-      in the field while offering higher throughput, scalability and processing speed.
-      Availability and implementation Source code freely available for download at
-      https://bitbucket.org/iAnalytica/chemdistillerpython. Supplementary informationSupplementary
-      dataare available at Bioinformatics online.
-    authors:
-    - name: Laponogov I.
-    - name: Sadawi N.
-    - name: Galea D.
-    - name: Mirnezami R.
-    - name: Veselkov K.A.
-    citationCount: 0
-    date: '2018-06-15T00:00:00Z'
-    journal: Bioinformatics
-    title: 'ChemDistiller: An engine for metabolite annotation in mass spectrometry'
-  pmcid: null
-  pmid: null
-  type: null
-  version: null
+  - doi: 10.1093/bioinformatics/bty080
+    metadata:
+      abstract: "\xA9 The Author(s) 2018. Motivation High-resolution mass spectrometry\
+        \ permits simultaneous detection of thousands of different metabolites in\
+        \ biological samples; however, their automated annotation still presents a\
+        \ challenge due to the limited number of tailored computational solutions\
+        \ freely available to the scientific community. Results Here, we introduce\
+        \ ChemDistiller, a customizable engine that combines automated large-scale\
+        \ annotation of metabolites using tandem MS data with a compiled database\
+        \ containing tens of millions of compounds with pre-calculated fingerprints'\
+        \ and fragmentation patterns. Our tests using publicly and commercially available\
+        \ tandem MS spectra for reference compounds show retrievals rates comparable\
+        \ to or exceeding the ones obtainable by the current state-of-the-art solutions\
+        \ in the field while offering higher throughput, scalability and processing\
+        \ speed. Availability and implementation Source code freely available for\
+        \ download at https://bitbucket.org/iAnalytica/chemdistillerpython. Supplementary\
+        \ informationSupplementary dataare available at Bioinformatics online."
+      authors:
+        - name: Laponogov I.
+        - name: Sadawi N.
+        - name: Galea D.
+        - name: Mirnezami R.
+        - name: Veselkov K.A.
+      citationCount: 0
+      date: '2018-06-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'ChemDistiller: An engine for metabolite annotation in mass spectrometry'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
-- Command-line tool
+  - Command-line tool
 topic:
-- term: Mass spectrometry
-  uri: http://edamontology.org/topic_3520
-- term: Small molecules
-  uri: http://edamontology.org/topic_0154
-- term: Compound libraries and screening
-  uri: http://edamontology.org/topic_3343
+  - term: Mass spectrometry
+    uri: http://edamontology.org/topic_3520
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+  - term: Compound libraries and screening
+    uri: http://edamontology.org/topic_3343
 validated: 1
 version:
-- '0.1'
+  - '0.1'
