@@ -1,0 +1,97 @@
+accessibility: []
+additionDate: '2017-01-13T13:15:15Z'
+biotoolsCURIE: biotools:lookseq
+biotoolsID: lookseq
+collectionID: []
+cost: Free of charge
+credit:
+  - email: magnus.manske@sanger.ac.uk
+    name: Dr Magnus Manske
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: AJAX-based browser for visualising deep sequencing data.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/magnusmanske/lookseq
+download: []
+editPermission:
+  authors:
+    - ELIXIR-EE
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+      - term: Sequence visualisation
+        uri: http://edamontology.org/operation_0564
+      - term: Multiple sample visualisation
+        uri: http://edamontology.org/operation_3744
+      - term: Service management
+        uri: http://edamontology.org/operation_3760
+    output: []
+homepage: http://www.sanger.ac.uk/science/tools/lookseq
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:55Z'
+license: GPL-3.0
+link: []
+maturity: null
+name: LookSeq
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Sequencing a genome to great depth can be highly informative about\
+        \ heterogeneity within an individual or a population. Here we address the\
+        \ problem of how to visualize the multiple layers of information contained\
+        \ in deep sequencing data. We propose an interactive AJAX-based web viewer\
+        \ for browsing large data sets of aligned sequence reads. By enabling seamless\
+        \ browsing and fast zooming, the LookSeq program assists the user to assimilate\
+        \ information at different levels of resolution, from an overview of a genomic\
+        \ region to fine details such as heterogeneity within the sample. A specific\
+        \ problem, particularly if the sample is heterogeneous, is how to depict information\
+        \ about structural variation. LookSeq provides a simple graphical representation\
+        \ of paired sequence reads that is more revealing about potential insertions\
+        \ and deletions than are conventional methods. \xA9 2009 by Cold Spring Harbor\
+        \ Laboratory Press."
+      authors:
+        - name: Manske H.M.
+        - name: Kwiatkowski D.P.
+      citationCount: 45
+      date: '2009-11-01T00:00:00Z'
+      journal: Genome Research
+      title: 'LookSeq: A browser-based viewer for deep sequencing data'
+    pmcid: null
+    pmid: '19679872'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

@@ -1,0 +1,86 @@
+accessibility: []
+additionDate: '2017-01-13T13:16:01Z'
+biotoolsCURIE: biotools:quip
+biotoolsID: quip
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: Daniel C. Jones
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/dcjones
+description: Aggressive compression of FASTQ and SAM/BAM files.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/dcjones/quip#readme
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output: []
+homepage: http://homes.cs.washington.edu/%7Edcjones/quip/
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:56Z'
+license: BSD-3-Clause
+link: []
+maturity: Mature
+name: Quip
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "We present Quip, a lossless compression algorithm for next-generation\
+        \ sequencing data in the FASTQ and SAM/BAM formats. In addition to implementing\
+        \ reference-based compression, we have developed, to our knowledge, the first\
+        \ assembly-based compressor, using a novel de novo assembly algorithm. A probabilistic\
+        \ data structure is used to dramatically reduce the memory required by traditional\
+        \ de Bruijn graph assemblers, allowing millions of reads to be assembled very\
+        \ efficiently. Read sequences are then stored as positions within the assembled\
+        \ contigs. This is combined with statistical compression of read identifiers,\
+        \ quality scores, alignment information and sequences, effectively collapsing\
+        \ very large data sets to <15% of their original size with no loss of information.\
+        \ Availability: Quip is freely available under the 3-clause BSD license from\
+        \ http://cs.washington.edu/homes/dcjones/quip. \xA9 2012 The Author(s)."
+      authors:
+        - name: Jones D.C.
+        - name: Ruzzo W.L.
+        - name: Peng X.
+        - name: Katze M.G.
+      citationCount: 85
+      date: '2012-12-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: Compression of next-generation sequencing reads aided by highly efficient
+        de novo assembly
+    pmcid: null
+    pmid: '22904078'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
+validated: 1
+version: []

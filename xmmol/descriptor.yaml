@@ -1,0 +1,89 @@
+accessibility: []
+additionDate: '2017-08-03T19:04:44Z'
+biotoolsCURIE: biotools:xmmol
+biotoolsID: xmmol
+collectionID: []
+cost: null
+credit:
+  - email: rpbs@rpbs.univ-paris-diderot.fr
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://bioserv.rpbs.univ-paris-diderot.fr/contact.html
+description: Desktop macromolecular visualization and modeling tool designed to be
+  easy to use, configure and enhance. Its graphics are based on X11, and part of its
+  user interface is based on Motif. Thus it provides a way of displaying structures
+  on any X11 server.
+documentation:
+  - note: null
+    type: General
+    url: http://bioserv.rpbs.univ-paris-diderot.fr/software/XmMol/XmMolManual.ps
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Structure visualisation
+        uri: http://edamontology.org/operation_0570
+      - term: Protein structure analysis
+        uri: http://edamontology.org/operation_2406
+    output: []
+homepage: http://bioserv.rpbs.univ-paris-diderot.fr/software/XmMol/
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/xmmol-3-1-macromolecular-visualization-modeling-tool.html
+maturity: null
+name: XmMol
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "XmMol is a desktop tool designed to provide both interactive molecular\
+        \ graphics on X11 displays and easy interface with external applications.\
+        \ A kernel provides an interactive wire-frame display of macromolecules. It\
+        \ supports depth cueing, 3D clipping, and stereo. Various representations,\
+        \ coloring, and labeling modes are proposed. Docking and interactive back-bone\
+        \ deformation tools are also supported. Communication protocols allow the\
+        \ user to develop new external features or to use XmMol as a visualization\
+        \ tool for external numerical programs. \xA9 1995."
+      authors:
+        - name: Tuffery P.
+      citationCount: 34
+      date: '1995-01-01T00:00:00Z'
+      journal: Journal of Molecular Graphics
+      title: 'XmMol: An X11 and motif program for macromolecular visualization and
+        modeling'
+    pmcid: null
+    pmid: '7794836'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+  - term: Protein structure analysis
+    uri: http://edamontology.org/topic_2814
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+validated: 1
+version: []

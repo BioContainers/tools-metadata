@@ -1,0 +1,80 @@
+accessibility: []
+additionDate: '2017-08-03T18:54:20Z'
+biotoolsCURIE: biotools:pmsearch
+biotoolsID: pmsearch
+collectionID: []
+cost: null
+credit:
+  - email: gang.su@hotmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: jwang@nju.edu.cn
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Tool that utilizes Position Weight Matrices to search for putative Transcription
+  Factor Binding Sites. PMSearch takes Position Frequency Matrices (PFMs) and DNA
+  sequences to initiate a prediction task. The user may upload motifs/matrices (Position
+  Frequency Matrices, PFM or Position Weight Matrices, PWM) or retrieve PFMs from
+  our local dataset as input.
+documentation:
+  - note: null
+    type: General
+    url: http://mcube.nju.edu.cn/jwang/lab/soft/PMS/help.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Transcriptional regulatory element prediction
+        uri: http://edamontology.org/operation_0438
+    output: []
+homepage: http://mcube.nju.edu.cn/jwang/lab/soft/PMS/home.html
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/pmsearch-poly-matrix-search.html
+maturity: null
+name: PMSearch
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '17597879'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+validated: 1
+version: []

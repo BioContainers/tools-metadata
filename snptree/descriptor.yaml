@@ -1,0 +1,91 @@
+accessibility: []
+additionDate: '2015-05-04T12:30:57Z'
+biotoolsCURIE: biotools:snptree
+biotoolsID: snptree
+collectionID: []
+cost: Free of charge (with restrictions)
+credit:
+  - email: null
+    name: CBS
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.bioinformatics.dtu.dk/english/Service/Contact
+description: SNPs phylogenetic tree from assembled genomes or sets of reads.
+documentation:
+  - note: null
+    type: General
+    url: https://cge.cbs.dtu.dk//services/snpTree/instructions.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format:
+          - term: FASTA-like
+            uri: http://edamontology.org/format_2546
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+    note: Phylogenetic tree construction from assembled genomes or sets of reads
+    operation:
+      - term: Phylogenetic tree generation
+        uri: http://edamontology.org/operation_0323
+    output:
+      - data:
+          term: Phylogenetic tree
+          uri: http://edamontology.org/data_0872
+        format:
+          - term: Phylogenetic tree format
+            uri: http://edamontology.org/format_2006
+homepage: http://cge.cbs.dtu.dk/services/snpTree/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:56Z'
+license: Other
+link:
+  - note: null
+    type: Registry
+    url: http://cbs.dtu.dk/services
+maturity: Emerging
+name: snpTree
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: CBS
+publication:
+  - doi: 10.1186/1471-2164-13-S7-S6
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Phylogenetics
+    uri: http://edamontology.org/topic_3293
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+validated: 1
+version:
+  - '1.1'

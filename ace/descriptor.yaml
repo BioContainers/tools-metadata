@@ -1,0 +1,82 @@
+accessibility: []
+additionDate: '2017-08-03T18:35:32Z'
+biotoolsCURIE: biotools:ace
+biotoolsID: ace
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://github.com/Sheikhizadeh
+description: Corrects substitution errors in an Illumina archive using a k-mer trie.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/sheikhizadeh/ACE/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequencing error detection
+        uri: http://edamontology.org/operation_3195
+    output: []
+homepage: https://github.com/sheikhizadeh/ACE/
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/ace-accurate-correction-of-errors-using-k-mer-tries.html
+maturity: null
+name: ACE
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2015.Summary: The quality of high-throughput next-generation\
+        \ sequencing data significantly influences the performance and memory consumption\
+        \ of assembly and mapping algorithms. The most ubiquitous platform, Illumina,\
+        \ mainly suffers from substitution errors. We have developed a tool, ACE,\
+        \ based on K-mer tries to correct such errors. On real MiSeq and HiSeq Illumina\
+        \ archives, ACE yields higher gains in terms of coverage depth, outperforming\
+        \ state-of-the-art competitors in the majority of cases."
+      authors:
+        - name: Sheikhizadeh S.
+        - name: De Ridder D.
+      citationCount: 5
+      date: '2015-10-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'ACE: Accurate correction of errors using K-mer tries'
+    pmcid: null
+    pmid: '26026137'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+validated: 1
+version: []

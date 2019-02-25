@@ -1,0 +1,96 @@
+accessibility: []
+additionDate: '2017-01-13T13:16:37Z'
+biotoolsCURIE: biotools:splicemap
+biotoolsID: splicemap
+collectionID: []
+cost: null
+credit:
+  - email: kinfai@stanford.edu
+    name: Kin Fai Au
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: "Detects splice junctions from RNA-seq data. This method does not depend\
+  \ on any existing annotation of gene structures and is capable of finding novel\
+  \ splice junctions with high sensitivity and specificity. It can handle long reads\
+  \ (50\u2013100 nt) and can exploit paired-read information to improve mapping accuracy."
+documentation:
+  - note: null
+    type: General
+    url: https://web.stanford.edu/group/wonglab/SpliceMap/tutorial.html
+  - note: null
+    type: Manual
+    url: https://web.stanford.edu/group/wonglab/SpliceMap/manual.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Read mapping
+        uri: http://edamontology.org/operation_3198
+    output: []
+homepage: http://www.stanford.edu/group/wonglab/SpliceMap/
+homepage_status: 0
+language:
+  - C++
+  - Python
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link: []
+maturity: Mature
+name: SpliceMap
+operatingSystem:
+  - Linux
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Alternative splicing is a prevalent posttranscriptional process,\
+        \ which is not only important to normal cellular function but is also involved\
+        \ in human diseases. The newly developed second generation sequencing technique\
+        \ provides highthroughput data (RNA-seq data) to study alternative splicing\
+        \ events in different types of cells. Here, we present a computational method,\
+        \ SpliceMap, to detect splice junctions from RNA-seq data. This method does\
+        \ not depend on any existing annotation of gene structures and is capable\
+        \ of finding novel splice junctions with high sensitivity and specificity.\
+        \ It can handle long reads (50-100 nt) and can exploit paired-read information\
+        \ to improve mapping accuracy. Several parameters are included in the output\
+        \ to indicate the reliability of the predicted junction and help filter out\
+        \ false predictions. We applied SpliceMap to analyze 23 million paired 50-nt\
+        \ reads from human brain tissue. The results show at this depth of sequencing,\
+        \ RNA-seq can support reliable detection of splice junctions except for those\
+        \ that are present at very low level. Compared to current methods, SpliceMap\
+        \ can achieve 12% higher sensitivity without sacrificing specificity. \xA9\
+        \ The Author(s) 2010. Published by Oxford University Press."
+      authors:
+        - name: Au K.F.
+        - name: Jiang H.
+        - name: Lin L.
+        - name: Xing Y.
+        - name: Wong W.H.
+      citationCount: 198
+      date: '2010-04-05T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: Detection of splice junctions from paired-end RNA-seq data by SpliceMap
+    pmcid: null
+    pmid: '20371516'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: RNA-Seq
+    uri: http://edamontology.org/topic_3170
+validated: 1
+version: []

@@ -1,0 +1,99 @@
+accessibility: []
+additionDate: '2017-08-03T18:57:26Z'
+biotoolsCURIE: biotools:raremetal
+biotoolsID: raremetal
+collectionID: []
+cost: null
+credit:
+  - email: goncalo@umich.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: sfengsph@umich.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Program that facilitates the meta-analysis of rare variants from genotype
+  arrays or sequencing.
+documentation:
+  - note: null
+    type: General
+    url: http://genome.sph.umich.edu/wiki/RAREMETAL_Documentation
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output: []
+homepage: http://genome.sph.umich.edu/wiki/RAREMETAL
+homepage_status: 0
+language:
+  - Shell
+  - C++
+  - Fortran
+  - C
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/raremetal-0-4-12-1-meta-analysis-for-rare-variants.html
+maturity: null
+name: RAREMETAL
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2014 The Author.RAREMETAL is a computationally efficient tool\
+        \ for meta-analysis of rare variants genotyped using sequencing or arrays.\
+        \ RAREMETAL facilitates analyses of individual studies, accommodates a variety\
+        \ of input file formats, handles related and unrelated individuals, executes\
+        \ both single variant and burden tests and performs conditional association\
+        \ analyses."
+      authors:
+        - name: Feng S.
+        - name: Liu D.
+        - name: Zhan X.
+        - name: Wing M.K.
+        - name: Abecasis G.R.
+      citationCount: 37
+      date: '2014-01-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'RAREMETAL: Fast and powerful meta-analysis for rare variants'
+    pmcid: null
+    pmid: '24894501'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+validated: 1
+version: []

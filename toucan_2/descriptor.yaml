@@ -1,0 +1,135 @@
+accessibility: []
+additionDate: '2017-02-10T11:34:40Z'
+biotoolsCURIE: biotools:toucan_2
+biotoolsID: toucan_2
+collectionID: []
+cost: null
+credit:
+  - email: stein.aerts@esat.kuleuven.ac.be
+    name: Aerts S.
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Regulatory sequence analysis workbench for Metazoan sequences, directly
+  linked with the Ensembl database and implementing SOAP clients for diverse alignment
+  and motif detection algorithms.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Indel detection
+        uri: http://edamontology.org/operation_0452
+      - term: Sequence motif recognition
+        uri: http://edamontology.org/operation_0239
+      - term: Sequence motif analysis
+        uri: http://edamontology.org/operation_2404
+      - term: Recombination detection
+        uri: http://edamontology.org/operation_0451
+      - term: Sequence feature detection
+        uri: http://edamontology.org/operation_0253
+    output: []
+homepage: http://www.esat.kuleuven.ac.be/~saerts/software/toucan.php
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link: []
+maturity: null
+name: TOUCAN 2
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: TOUCAN is a Java application for the rapid discovery of significant
+        cis-regulatory elements from sets of coexpressed or coregulated genes. Biologists
+        can automatically (i) retrieve genes and intergenic regions, (ii) identify
+        putative regulatory regions, (iii) score sequences for known transcription
+        factor binding sites, (iv) identify candidate motifs for unknown binding sites,
+        and (v) detect those statistically over-represented sites that are characteristic
+        for a gene set. Genes or intergenic regions are retrieved from Ensembl or
+        EMBL, together with orthologs and supporting information. Orthologs are aligned
+        and syntenic regions are selected as candidate regulatory regions. Putative
+        sites for known transcription factors are detected using our MotifScanner,
+        which scores position weight matrices using a probabilistic model. New motifs
+        are detected using our MotifSampler based on Gibbs sampling. Binding sites
+        characteristic for a gene set - and thus statistically over-represented with
+        respect to a reference sequence set - are found using a binomial test. We
+        have validated Toucan by analyzing muscle-specific genes, liver-specific genes
+        and E2F target genes; we have easily detected many known binding sites within
+        intergenic DNA and identified new biologically plausible sites for known and
+        unknown transcription factors. Software available at http://www.esat.kuleuven.ac.be/~dna/Biol/Software.html.
+      authors:
+        - name: Aerts S.
+        - name: Thijs G.
+        - name: Coessens B.
+        - name: Staes M.
+        - name: Moreau Y.
+        - name: De Moor B.
+      citationCount: 150
+      date: '2003-03-15T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'Toucan: Deciphering the cis-regulatory logic of coregulated genes'
+    pmcid: null
+    pmid: '12626717'
+    type: null
+    version: null
+  - doi: null
+    metadata:
+      abstract: "We present the second and improved release of the TOUCAN workbench\
+        \ for cis-regulatory sequence analysis. TOUCAN implements and integrates fast\
+        \ state-of-the-art methods and strategies in gene regulation bioinformatics,\
+        \ including algorithms for comparative genomics and for the detection of cis-regulatory\
+        \ modules. This second release of TOUCAN has become open source and thereby\
+        \ carries the potential to evolve rapidly. The main goal of TOUCAN is to allow\
+        \ a user to come to testable hypotheses regarding the regulation of a gene\
+        \ or of a set of co-regulated genes. TOUCAN can be launched from this location:\
+        \ http://www.esat.kuleuven.ac.be/~saerts/software/toucan.php. \xA9 2005 Oxford\
+        \ University Press."
+      authors:
+        - name: Aerts S.
+        - name: Van Loo P.
+        - name: Thijs G.
+        - name: Mayer H.
+        - name: de Martin R.
+        - name: Moreau Y.
+        - name: De Moor B.
+      citationCount: 104
+      date: '2005-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'TOUCAN 2: The all-inclusive open source workbench for regulatory sequence
+        analysis'
+    pmcid: null
+    pmid: '15980497'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Transcription factors and regulatory sites
+    uri: http://edamontology.org/topic_0749
+  - term: Sequence sites, features and motifs
+    uri: http://edamontology.org/topic_0160
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
+validated: 1
+version: []

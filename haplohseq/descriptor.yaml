@@ -1,0 +1,99 @@
+accessibility: []
+additionDate: '2017-08-03T19:05:56Z'
+biotoolsCURIE: biotools:haplohseq
+biotoolsID: haplohseq
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: Paul Scheet' lab
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://scheet.org/index.html
+description: Identifies regions of allelic imbalance (AI) in sequencing data obtained
+  from impure samples where AI events exist in a potentially low proportion of cells
+  in the sample.
+documentation:
+  - note: null
+    type: General
+    url: https://sites.google.com/site/integrativecancergenomics/software/haplohseq
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Nucleic acid sequence analysis
+        uri: http://edamontology.org/operation_2478
+    output: []
+homepage: https://sites.google.com/site/integrativecancergenomics/software/haplohseq
+homepage_status: 0
+language:
+  - R
+  - Python
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/haplohseq-detection-of-subtle-allelic-imbalance-events-from-next-generation-sequencing-data.html
+maturity: null
+name: hapLOHseq
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2016 The Author. Published by Oxford University Press. Motivation:\
+        \ The detection of subtle genomic allelic imbalance events has many potential\
+        \ applications. For example, identifying cancer-associated allelic imbalanced\
+        \ regions in low tumor-cellularity samples or in low-proportion tumor subclones\
+        \ can be used for early cancer detection, prognostic assessment and therapeutic\
+        \ selection in cancer patients. We developed hapLOHseq for the detection of\
+        \ subtle allelic imbalance events from next-generation sequencing data. Results:\
+        \ Our method identified events of 10 megabases or greater occurring in as\
+        \ little as 16% of the sample in exome sequencing data (at 80\xD7) and 4%\
+        \ in whole genome sequencing data (at 30\xD7), far exceeding the capabilities\
+        \ of existing software. We also found hapLOHseq to be superior at detecting\
+        \ large chromosomal changes across a series of pancreatic samples from TCGA.\
+        \ Availability and Implementation: hapLOHseq is available at scheet.org/software,\
+        \ distributed under an open source MIT license."
+      authors:
+        - name: San Lucas F.A.
+        - name: Sivakumar S.
+        - name: Vattathil S.
+        - name: Fowler J.
+        - name: Vilar E.
+        - name: Scheet P.
+      citationCount: 2
+      date: '2016-10-01T00:00:00Z'
+      journal: Bioinformatics
+      title: Rapid and powerful detection of subtle allelic imbalance from exome sequencing
+        data with hapLOHseq
+    pmcid: null
+    pmid: '27288500'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Genotype and phenotype
+    uri: http://edamontology.org/topic_0625
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+validated: 1
+version: []

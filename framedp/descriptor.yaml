@@ -1,0 +1,106 @@
+accessibility: []
+additionDate: '2017-01-13T13:14:38Z'
+biotoolsCURIE: biotools:framedp
+biotoolsID: framedp
+collectionID: []
+cost: null
+credit:
+  - email: jerome.gouzy@inra.fr
+    name: "J\xE9r\xF4me Gouzy"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: sebastien.carrere@inra.fr
+    name: "S\xE9bastien Carrere"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: erika.sallet@inra.fr
+    name: Erika Sallet
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: ludovic.cottret@inra.fr
+    name: Ludovic Cottret
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Sensitive peptide detection on noisy matured sequences. A self-training
+  integrative pipeline for predicting CDS in transcripts which can adapt itself to
+  different levels of sequence qualities.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein identification
+        uri: http://edamontology.org/operation_3767
+    output: []
+homepage: http://iant.toulouse.inra.fr/FrameDP
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: FrameDP
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: 10.1093/bioinformatics/btp024
+    metadata:
+      abstract: "Summary: Transcriptome sequencing represents a fundamental source\
+        \ of information for genome-wide studies and transcriptome analysis and will\
+        \ become increasingly important for expression analysis as new sequencing\
+        \ technologies takes over array technology. The identification of the protein-coding\
+        \ region in transcript sequences is a prerequisite for systematic amino acid-level\
+        \ analysis and more specifically for domain identification. In this article,\
+        \ we present FrameDP, a self-training integrative pipeline for predicting\
+        \ CDS in transcripts which can adapt itself to different levels of sequence\
+        \ qualities. \xA9 2009 The Author(s)."
+      authors:
+        - name: Gouzy J.
+        - name: Carrere S.
+        - name: Schiex T.
+      citationCount: 73
+      date: '2009-03-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'FrameDP: Sensitive peptide detection on noisy matured sequences'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: RNA-Seq
+    uri: http://edamontology.org/topic_3170
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+validated: 1
+version: []

@@ -1,0 +1,85 @@
+accessibility: []
+additionDate: '2017-08-03T18:53:47Z'
+biotoolsCURIE: biotools:pcoils
+biotoolsID: pcoils
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.eb.tuebingen.mpg.de/departments/1-protein-evolution
+description: PCOILS is a new COILS version that uses profiles as inputs
+documentation:
+  - note: null
+    type: General
+    url: https://toolkit.tuebingen.mpg.de/#/tools/pcoils
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+homepage: http://toolkit.tuebingen.mpg.de/pcoils
+homepage_status: 0
+language:
+  - Perl
+  - C
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/pcoils-1-0-1-coils-version-profiles-inputs.html
+maturity: null
+name: PCOILS
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "In this study we compare commonly used coiled-coil prediction methods\
+        \ against a database derived from proteins of known structure. We find that\
+        \ the two older programs COILS and PairCoil/MultiCoil are significantly outperformed\
+        \ by two recent developments: Marcoil, a program built on hidden Markov models,\
+        \ and PCOILS, a new COILS version that uses profiles as inputs; and to a lesser\
+        \ extent by a PairCoil update, PairCoil2. Overall Marcoil provides a slightly\
+        \ better performance over the reference database than PCOILS and is considerably\
+        \ faster, but it is sensitive to highly charged false positives, whereas the\
+        \ weighting option of PCOILS allows the identification of such sequences.\
+        \ \xA9 2006 Elsevier Inc. All rights reserved."
+      authors:
+        - name: Gruber M.
+        - name: Soding J.
+        - name: Lupas A.N.
+      citationCount: 80
+      date: '2006-08-01T00:00:00Z'
+      journal: Journal of Structural Biology
+      title: Comparative analysis of coiled-coil prediction methods
+    pmcid: null
+    pmid: '16870472'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Topic
+    uri: http://edamontology.org/topic_0003
+validated: 1
+version: []

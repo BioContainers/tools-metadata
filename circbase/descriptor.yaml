@@ -1,0 +1,111 @@
+accessibility: []
+additionDate: '2017-01-24T11:24:38Z'
+biotoolsCURIE: biotools:circbase
+biotoolsID: circbase
+collectionID: []
+cost: null
+credit:
+  - email: rbc@denbi.de
+    name: de.NBI-RBC
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole: []
+    url: null
+  - email: petar.glazar@mdc-berlin.de
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Explore public circRNA datasets and download tools to discover circRNAs
+  in RNA-seq data.
+documentation:
+  - note: null
+    type: General
+    url: http://www.circbase.org/doc/help_mod.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Identifier
+          uri: http://edamontology.org/data_0842
+        format: []
+      - data:
+          term: Gene report
+          uri: http://edamontology.org/data_0916
+        format: []
+      - data:
+          term: Sequence coordinates
+          uri: http://edamontology.org/data_2012
+        format: []
+    note: null
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+    output:
+      - data:
+          term: Feature table
+          uri: http://edamontology.org/data_1270
+        format: []
+      - data:
+          term: RNA sequence (raw)
+          uri: http://edamontology.org/data_3496
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+homepage: http://www.circbase.org/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link: []
+maturity: null
+name: circBase
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: Yusufujiangaili.Dilimulati@mdc
+publication:
+  - doi: 10.1261/rna.043687.113
+    metadata:
+      abstract: "\xA9 2014 Gla\u017Ear et al. Recently, several laboratories have\
+        \ reported thousands of circular RNAs (circRNAs) in animals. Numerous circRNAs\
+        \ are highly stable and have specific spatiotemporal expression patterns.\
+        \ Even though a function for circRNAs is unknown, these features make circRNAs\
+        \ an interesting class of RNAs as possible biomarkers and for further research.\
+        \ We developed a database and website, \"circBase,\" where merged and unified\
+        \ data sets of circRNAs and the evidence supporting their expression can be\
+        \ accessed, downloaded, and browsed within the genomic context. circBase also\
+        \ provides scripts to identify known and novel circRNAs in sequencing data.\
+        \ The database is freely accessible through the web server at http://www.circbase.org/."
+      authors:
+        - name: Glazar P.
+        - name: Papavasileiou P.
+        - name: Rajewsky N.
+      citationCount: 215
+      date: '2014-01-01T00:00:00Z'
+      journal: RNA
+      title: 'CircBase: A database for circular RNAs'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
+validated: 1
+version: []

@@ -1,0 +1,101 @@
+accessibility: []
+additionDate: '2017-08-03T18:55:45Z'
+biotoolsCURIE: biotools:phosphositeanalyzer
+biotoolsID: phosphositeanalyzer
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://sourceforge.net/u/martinbennetzen/profile/
+description: Novel bioinformatical tool for analyzing (quantitative) phosphoproteome
+  datasets. The program retrieves kinase-substrate predictions from NetworKIN (Linding
+  et al) and contains various statistical modules for futher analysis.
+documentation:
+  - note: null
+    type: General
+    url: https://sourceforge.net/p/phosphosite/wiki/Home/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Prediction and recognition
+        uri: http://edamontology.org/operation_2423
+    output: []
+homepage: http://sourceforge.net/projects/phosphosite/
+homepage_status: 0
+language:
+  - R
+  - C#
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/phosphositeanalyzer-bioinformatical-tool-for-analyzing-quantitative-phosphoproteome-datasets.html
+maturity: null
+name: PhosphoSiteAnalyzer
+operatingSystem:
+  - Windows
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Phosphoproteomic experiments are routinely conducted in laboratories\
+        \ worldwide, and because of the fast development of mass spectrometric techniques\
+        \ and efficient phosphopeptide enrichment methods, researchers frequently\
+        \ end up having lists with tens of thousands of phosphorylation sites for\
+        \ further interrogation. To answer biologically relevant questions from these\
+        \ complex data sets, it becomes essential to apply computational, statistical,\
+        \ and predictive analytical methods. Here we provide an advanced bioinformatic\
+        \ platform termed \"PhosphoSiteAnalyzer\" to explore large phosphoproteomic\
+        \ data sets that have been subjected to kinase prediction using the previously\
+        \ published NetworKIN algorithm. NetworKIN applies sophisticated linear motif\
+        \ analysis and contextual network modeling to obtain kinase-substrate associations\
+        \ with high accuracy and sensitivity. PhosphoSiteAnalyzer provides an algorithm\
+        \ to retrieve kinase predictions from the public NetworKIN webpage in a semiautomated\
+        \ way and applies hereafter advanced statistics to facilitate a user-tailored\
+        \ in-depth analysis of the phosphoproteomic data sets. The interface of the\
+        \ software provides a high degree of analytical flexibility and is designed\
+        \ to be intuitive for most users. PhosphoSiteAnalyzer is a freeware program\
+        \ available at http://phosphosite.sourceforge.net. \xA9 2012 American Chemical\
+        \ Society."
+      authors:
+        - name: Bennetzen M.V.
+        - name: Cox J.
+        - name: Mann M.
+        - name: Andersen J.S.
+      citationCount: 14
+      date: '2012-06-01T00:00:00Z'
+      journal: Journal of Proteome Research
+      title: 'PhosphoSiteAnalyzer: A bioinformatic platform for deciphering phospho
+        proteomes using kinase predictions retrieved from networkin'
+    pmcid: null
+    pmid: '22471441'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Protein interaction experiment
+    uri: http://edamontology.org/topic_3557
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+validated: 1
+version: []

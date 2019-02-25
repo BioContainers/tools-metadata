@@ -1,0 +1,107 @@
+accessibility: []
+additionDate: '2017-03-25T16:29:55Z'
+biotoolsCURIE: biotools:speer-server
+biotoolsID: speer-server
+collectionID: []
+cost: null
+credit:
+  - email: saikat@iicb.res.in
+    name: Saikat Chakrabarti
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Web server that encodes the specific conservation pattern of amino acid
+  types in a protein family to identify the specificity determining sites (SDS). The
+  specific conservation pattern is predicted using amino acids_?? physico-chemical
+  properties, relative entropy and the evolutionary rates between the protein subfamilies.
+documentation:
+  - note: null
+    type: General
+    url: http://www.hpppi.iicb.res.in/ss/help.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein binding site prediction
+        uri: http://edamontology.org/operation_2575
+      - term: Protein feature detection
+        uri: http://edamontology.org/operation_3092
+    output: []
+homepage: http://www.hpppi.iicb.res.in/ss/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link: []
+maturity: null
+name: SPEER-SERVER
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Sites that show specific conservation patterns within subsets of\
+        \ proteins in a protein family are likely to be involved in the development\
+        \ of functional specificity. These sites, generally termed specificity determining\
+        \ sites (SDS), might play a crucial role in binding to a specific substrate\
+        \ or proteins. Identification of SDS through experimental techniques is a\
+        \ slow, difficult and tedious job. Hence, it is very important to develop\
+        \ efficient computational methods that can more expediently identify SDS.\
+        \ Herein, we present Specificity prediction using amino acids' Properties,\
+        \ Entropy and Evolution Rate (SPEER)-SERVER, a web server that predicts SDS\
+        \ by analyzing quantitative measures of the conservation patterns of protein\
+        \ sites based on their physico-chemical properties and the heterogeneity of\
+        \ evolutionary changes between and within the protein subfamilies. This web\
+        \ server provides an improved representation of results, adds useful input\
+        \ and output options and integrates a wide range of analysis and data visualization\
+        \ tools when compared with the original standalone version of the SPEER algorithm.\
+        \ Extensive benchmarking finds that SPEER-SERVER exhibits sensitivity and\
+        \ precision performance that, on average, meets or exceeds that of other currently\
+        \ available methods. SPEER-SERVER is available at http://www.hpppi.iicb.res.in/ss/.\
+        \ \xA9 2012 The Author(s)."
+      authors:
+        - name: Chakraborty A.
+        - name: Mandloi S.
+        - name: Lanczycki C.J.
+        - name: Panchenko A.R.
+        - name: Chakrabarti S.
+      citationCount: 14
+      date: '2012-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'SPEER-SERVER: A web server for prediction of protein specificity determining
+        sites'
+    pmcid: null
+    pmid: '22689646'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Gene and protein families
+    uri: http://edamontology.org/topic_0623
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+  - term: Protein binding sites
+    uri: http://edamontology.org/topic_3534
+validated: 1
+version: []

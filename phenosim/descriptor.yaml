@@ -1,0 +1,100 @@
+accessibility: []
+additionDate: '2017-08-03T19:07:50Z'
+biotoolsCURIE: biotools:phenosim
+biotoolsID: phenosim
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://evoplant.uni-hohenheim.de/contact/
+description: Tool to add phenotypes to simulated genotypes It reads the output of
+  coalescent simulators and simulates a qualitative or quantitative phenotype according
+  to user-defined parameters.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/genostats/phenosim
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output: []
+homepage: http://evoplant.uni-hohenheim.de/downloads/
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/phenosim-simulation-phenotypes-genotypes-generated-coalescent-simulators.html
+maturity: null
+name: phenosim
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Background: There is a great interest in understanding the genetic\
+        \ architecture of complex traits in natural populations. Genome-wide association\
+        \ studies (GWAS) are becoming routine in human, animal and plant genetics\
+        \ to understand the connection between naturally occurring genotypic and phenotypic\
+        \ variation. Coalescent simulations are commonly used in population genetics\
+        \ to simulate genotypes under different parameters and demographic models.Results:\
+        \ Here, we present phenosim, a software to add a phenotype to genotypes generated\
+        \ in time-efficient coalescent simulations. Both qualitative and quantitative\
+        \ phenotypes can be generated and it is possible to partition phenotypic variation\
+        \ between additive effects and epistatic interactions between causal variants.\
+        \ The output formats of phenosim are directly usable as input for different\
+        \ GWAS tools. The applicability of phenosim is shown by simulating a genome-wide\
+        \ association study in Arabidopsis thaliana.Conclusions: By using the coalescent\
+        \ approach to generate genotypes and phenosim to add phenotypes, the data\
+        \ sets can be used to assess the influence of various factors such as demography,\
+        \ genetic architecture or selection on the statistical power of association\
+        \ methods to detect causal genetic variants under a wide variety of population\
+        \ genetic scenarios. phenosim is freely available from the authors' website\
+        \ http://evoplant.uni-hohenheim.de. \xA9 2011 G\xFCnther et al; licensee BioMed\
+        \ Central Ltd."
+      authors:
+        - name: Gunther T.
+        - name: Gawenda I.
+        - name: Schmid K.J.
+      citationCount: 10
+      date: '2011-06-29T00:00:00Z'
+      journal: BMC Bioinformatics
+      title: Phenosim - A software to simulate phenotypes for testing in genome-wide
+        association studies
+    pmcid: null
+    pmid: '21714868'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Genotype and phenotype
+    uri: http://edamontology.org/topic_0625
+validated: 1
+version: []

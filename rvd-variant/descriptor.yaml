@@ -1,0 +1,94 @@
+accessibility: []
+additionDate: '2017-08-03T18:58:18Z'
+biotoolsCURIE: biotools:rvd-variant
+biotoolsID: rvd-variant
+collectionID: []
+cost: null
+credit:
+  - email: pjflaherty@wpi.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://genomics.wpi.edu/
+description: An ultra-sensitive variant detection model for low-depth targeted next-generation
+  sequencing data.
+documentation:
+  - note: null
+    type: General
+    url: http://genomics.wpi.edu/rvd2/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Variant calling
+        uri: http://edamontology.org/operation_3227
+    output: []
+homepage: http://genomics.wpi.edu/rvd2/
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/rvd-hierarchical-bayesian-model-to-detect-rare-single-nucleotide-variants.html
+maturity: null
+name: RVD
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2015. Published by Oxford University Press. Motivation:\
+        \ Next-generation sequencing technology is increasingly being used for clinical\
+        \ diagnostic tests. Clinical samples are often genomically heterogeneous due\
+        \ to low sample purity or the presence of genetic subpopulations. Therefore,\
+        \ a variant calling algorithm for calling low-frequency polymorphisms in heterogeneous\
+        \ samples is needed. Results: We present a novel variant calling algorithm\
+        \ that uses a hierarchical Bayesian model to estimate allele frequency and\
+        \ call variants in heterogeneous samples. We show that our algorithm improves\
+        \ upon current classifiers and has higher sensitivity and specificity over\
+        \ a wide range of median read depth and minor allele fraction. We apply our\
+        \ model and identify 15 mutated loci in the PAXP1 gene in a matched clinical\
+        \ breast ductal carcinoma tumor sample; two of which are likely loss-of-heterozygosity\
+        \ events."
+      authors:
+        - name: He Y.
+        - name: Zhang F.
+        - name: Flaherty P.
+      citationCount: 3
+      date: '2015-02-06T00:00:00Z'
+      journal: Bioinformatics
+      title: 'RVD2: An ultra-sensitive variant detection model for low-depth heterogeneous
+        next-generation sequencing data'
+    pmcid: null
+    pmid: '25931517'
+    type: null
+    version: null
+toolType:
+  - Library
+topic:
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+validated: 1
+version: []

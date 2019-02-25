@@ -1,0 +1,102 @@
+accessibility: []
+additionDate: '2017-08-03T19:06:18Z'
+biotoolsCURIE: biotools:isuc-pseopt
+biotoolsID: isuc-pseopt
+collectionID: []
+cost: null
+credit:
+  - email: jdzxiaoxuan@163.com
+    name: Xiao Xuan
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.jci-bioinfo.cn/
+description: This web-server used to predict the lysine succinylation in protein.
+documentation:
+  - note: null
+    type: General
+    url: http://www.jci-bioinfo.cn/iSu/iSuc_readme.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Post-translation modification site prediction
+        uri: http://edamontology.org/operation_0417
+    output: []
+homepage: http://www.jci-bioinfo.cn/iSuc-PseOpt
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/isuc-pseopt-identifying-lysine-succinylation-sites-in-proteins.html
+maturity: null
+name: iSuc-PseOpt
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015 Elsevier Inc. All rights reserved.Succinylation is a posttranslational\
+        \ modification (PTM) where a succinyl group is added to a Lys (K) residue\
+        \ of a protein molecule. Lysine succinylation plays an important role in orchestrating\
+        \ various biological processes, but it is also associated with some diseases.\
+        \ Therefore, we are challenged by the following problem from both basic research\
+        \ and drug development: given an uncharacterized protein sequence containing\
+        \ many Lys residues, which one of them can be succinylated, and which one\
+        \ cannot? With the avalanche of protein sequences generated in the postgenomic\
+        \ age, the answer to the problem has become even more urgent. Fortunately,\
+        \ the statistical significance experimental data for succinylated sites in\
+        \ proteins have become available very recently, an indispensable prerequisite\
+        \ for developing a computational method to address this problem. By incorporating\
+        \ the sequence-coupling effects into the general pseudo amino acid composition\
+        \ and using KNNC (K-nearest neighbors cleaning) treatment and IHTS (inserting\
+        \ hypothetical training samples) treatment to optimize the training dataset,\
+        \ a predictor called iSuc-PseOpt has been developed. Rigorous cross-validations\
+        \ indicated that it remarkably outperformed the existing method. A user-friendly\
+        \ web-server for iSuc-PseOpt has been established at http://www.jci-bioinfo.cn/iSuc-PseOpt,\
+        \ where users can easily get their desired results without needing to go through\
+        \ the complicated mathematical equations involved."
+      authors:
+        - name: Jia J.
+        - name: Liu Z.
+        - name: Xiao X.
+        - name: Liu B.
+        - name: Chou K.-C.
+      citationCount: 104
+      date: '2016-03-15T00:00:00Z'
+      journal: Analytical Biochemistry
+      title: 'ISuc-PseOpt: Identifying lysine succinylation sites in proteins by incorporating
+        sequence-coupling effects into pseudo components and optimizing imbalanced
+        training dataset'
+    pmcid: null
+    pmid: '26723495'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Protein modifications
+    uri: http://edamontology.org/topic_0601
+  - term: Protein expression
+    uri: http://edamontology.org/topic_0108
+validated: 1
+version: []

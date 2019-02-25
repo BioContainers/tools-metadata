@@ -1,0 +1,89 @@
+accessibility: []
+additionDate: '2017-08-03T18:54:23Z'
+biotoolsCURIE: biotools:polyphen
+biotoolsID: polyphen
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://genetics.bwh.harvard.edu/wiki/sunyaevlab/contacts
+description: Tool which predicts possible impact of an amino acid substitution on
+  the structure and function of a human protein using straightforward physical and
+  comparative considerations.
+documentation:
+  - note: null
+    type: General
+    url: http://genetics.bwh.harvard.edu/pph2/dokuwiki/docs
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein modelling (mutation)
+        uri: http://edamontology.org/operation_0331
+    output: []
+homepage: http://genetics.bwh.harvard.edu/pph2/
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/polyphen-2-2-2-prediction-functional-effects-human-nssnps.html
+maturity: null
+name: POLYPHEN
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: ''
+      authors:
+        - name: Adzhubei I.A.
+        - name: Schmidt S.
+        - name: Peshkin L.
+        - name: Ramensky V.E.
+        - name: Gerasimova A.
+        - name: Bork P.
+        - name: Kondrashov A.S.
+        - name: Sunyaev S.R.
+      citationCount: 5569
+      date: '2010-04-01T00:00:00Z'
+      journal: Nature Methods
+      title: A method and server for predicting damaging missense mutations
+    pmcid: null
+    pmid: '20354512'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Genotype and phenotype
+    uri: http://edamontology.org/topic_0625
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+validated: 1
+version: []

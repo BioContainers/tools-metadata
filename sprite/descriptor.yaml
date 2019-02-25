@@ -1,0 +1,109 @@
+accessibility: []
+additionDate: '2017-03-25T13:09:33Z'
+biotoolsCURIE: biotools:sprite
+biotoolsID: sprite
+collectionID: []
+cost: null
+credit:
+  - email: info@mfrlab.org
+    name: Sprite Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: SPRITE is a protein structural motif database searching program. Users
+  can upload a PDB file of a query protein structure, and SPRITE compares the input
+  coordinates to a database of 3D side chain arrangements of sites and motifs using
+  a graph theoretical approach.
+documentation:
+  - note: null
+    type: General
+    url: http://mfrlab.org/grafss/sprite/help.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein modelling (side chains)
+        uri: http://edamontology.org/operation_0480
+      - term: Structural similarity search
+        uri: http://edamontology.org/operation_0360
+      - term: Protein structural motif recognition
+        uri: http://edamontology.org/operation_0245
+      - term: Protein feature detection
+        uri: http://edamontology.org/operation_3092
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output: []
+homepage: http://mfrlab.org/grafss/sprite
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: SPRITE
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Similarities in the 3D patterns of amino acid side chains can provide\
+        \ insights into their function despite the absence of any detectable sequence\
+        \ or fold similarities. Search for protein sites (SPRITE) and amino acid pattern\
+        \ search for substructures and motifs (ASSAM) are graph theoretical programs\
+        \ that can search for 3D amino side chain matches in protein structures, by\
+        \ representing the amino acid side chains as pseudo-atoms. The geometric relationship\
+        \ of the pseudo-atoms to each other as a pattern can be represented as a labeled\
+        \ graph where the pseudo-atoms are the graph's nodes while the edges are the\
+        \ inter-pseudo-atomic distances. Both programs require the input file to be\
+        \ in the PDB format. The objective of using SPRITE is to identify matches\
+        \ of side chains in a query structure to patterns with characterized function.\
+        \ In contrast, a 3D pattern of interest can be searched for existing occurrences\
+        \ in available PDB structures using ASSAM. Both programs are freely accessible\
+        \ without any login requirement. SPRITE is available at http://mfrlab.org/grafss/\
+        \ sprite/while ASSAM can be accessed at http://mfrlab.org/grafss/assam/. \xA9\
+        \ 2012 The Author(s)."
+      authors:
+        - name: Nadzirin N.
+        - name: Gardiner E.J.
+        - name: Willett P.
+        - name: Artymiuk P.J.
+        - name: Firdaus-Raih M.
+      citationCount: 13
+      date: '2012-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'SPRITE and ASSAM: Web servers for side chain 3D-motif searching in protein
+        structures'
+    pmcid: null
+    pmid: '22573174'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+  - term: Protein folds and structural domains
+    uri: http://edamontology.org/topic_0736
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+validated: 1
+version: []

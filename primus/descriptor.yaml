@@ -1,0 +1,93 @@
+accessibility: []
+additionDate: '2017-08-03T18:54:39Z'
+biotoolsCURIE: biotools:primus
+biotoolsID: primus
+collectionID: []
+cost: null
+credit:
+  - email: primus2@uw.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Pedigree reconstruction algorithm that uses estimates of genome-wide
+  identity by descent to reconstruct pedigrees consistent with observed genetic data.
+documentation:
+  - note: null
+    type: General
+    url: https://primus.gs.washington.edu/primusweb/res/documentation.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Pathway or network prediction
+        uri: http://edamontology.org/operation_3439
+    output: []
+homepage: https://primus.gs.washington.edu/
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/primus-pedigree-reconstruction-and-identification-of-a-maximum-unrelated-set.html
+maturity: null
+name: PRIMUS
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015 The Author 2015. Published by Oxford University Press.\
+        \ All rights reserved.Summary: PRIMUS is a pedigree reconstruction algorithm\
+        \ that uses estimates of genome-wide identity by descent to reconstruct pedigrees\
+        \ consistent with observed genetic data. However, when genetic data for individuals\
+        \ within a pedigree are missing, often multiple pedigrees can be reconstructed\
+        \ that fit the data. We report a major expansion of PRIMUS that uses mitochondrial\
+        \ (mtDNA) and non-recombining Y chromosome (NRY) haplotypes to eliminate many\
+        \ pedigree structures that are inconsistent with the genetic data. We demonstrate\
+        \ that discordances in mtDNA and NRY haplotypes substantially reduce the number\
+        \ of potential pedigrees, and often lead to the identification of the correct\
+        \ pedigree. Availability and Implementation: We have implemented PRIMUS updates\
+        \ in PERL and it is available at primus.gs.Washington.edu. Supplementary information:\
+        \ Supplementary data are available at Bioinformatics online."
+      authors:
+        - name: Staples J.
+        - name: Ekunwe L.
+        - name: Lange E.
+        - name: Wilson J.G.
+        - name: Nickerson D.A.
+        - name: Below J.E.
+      citationCount: 2
+      date: '2015-09-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'PRIMUS: Improving pedigree reconstruction using mitochondrial and y
+        haplotypes'
+    pmcid: null
+    pmid: '26515822'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+validated: 1
+version: []

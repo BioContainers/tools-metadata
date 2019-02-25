@@ -1,0 +1,95 @@
+accessibility: []
+additionDate: '2017-01-13T13:16:05Z'
+biotoolsCURIE: biotools:reaper
+biotoolsID: reaper
+collectionID: []
+cost: null
+credit:
+  - email: comms@ebi.ac.uk
+    name: Mary Todd Bergman
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Program for demultiplexing, trimming and filtering short read sequencing
+  data.
+documentation:
+  - note: null
+    type: General
+    url: https://www.ebi.ac.uk/~stijn/reaper/reaper.html#gs
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequencing quality control
+        uri: http://edamontology.org/operation_3218
+      - term: Primer removal
+        uri: http://edamontology.org/operation_3237
+      - term: Sequence trimming
+        uri: http://edamontology.org/operation_3192
+      - term: Community profiling
+        uri: http://edamontology.org/operation_3200
+      - term: Sequence contamination filtering
+        uri: http://edamontology.org/operation_3187
+    output: []
+homepage: http://www.ebi.ac.uk/~stijn/reaper/reaper.html
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:55Z'
+license: GPL-3.0
+link: []
+maturity: Mature
+name: Reaper
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: 10.1093/nar/gkv1352
+    metadata:
+      abstract: "\xA9 The Author(s) 2015. New technologies are revolutionising biological\
+        \ research and its applications by making it easier and cheaper to generate\
+        \ ever-greater volumes and types of data. In response, the services and infrastructure\
+        \ of the European Bioinformatics Institute (EMBL-EBI, www.ebi.ac.UK) are continually\
+        \ expanding: total disk capacity increases significantly every year to keep\
+        \ pace with demand (75 petabytes as of December 2015), and interoperability\
+        \ between resources remains a strategic priority. Since 2014 we have launched\
+        \ two new resources: the European Variation Archive for genetic variation\
+        \ data and EMPIAR for two-dimensional electron microscopy data, as well as\
+        \ a Resource Description Framework platform. We also launched the Embassy\
+        \ Cloud service, which allows users to run large analyses in a virtual environment\
+        \ next to EMBL-EBI's vast public data resources."
+      authors:
+        - name: Cook C.E.
+        - name: Bergman M.T.
+        - name: Finn R.D.
+        - name: Cochrane G.
+        - name: Birney E.
+        - name: Apweiler R.
+      citationCount: 42
+      date: '2016-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'The European Bioinformatics Institute in 2016: Data growth and integration'
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+validated: 1
+version: []

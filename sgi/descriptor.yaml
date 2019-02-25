@@ -1,0 +1,106 @@
+accessibility: []
+additionDate: '2017-08-03T18:59:32Z'
+biotoolsCURIE: biotools:sgi
+biotoolsID: sgi
+collectionID: []
+cost: null
+credit:
+  - email: cxs513@yahoo.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Software for detecting positive and negative selection at single codon
+  sites.
+documentation:
+  - note: null
+    type: General
+    url: http://www.personal.psu.edu/nxm2/sgi2.htm
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Gene expression analysis
+        uri: http://edamontology.org/operation_2495
+    output: []
+homepage: http://www.personal.psu.edu/nxm2/sgi2.htm
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/sgi-detect-positive-negative-selection-individual-codon-sites.html
+maturity: null
+name: SGI
+operatingSystem:
+  - Linux
+  - Windows
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "A method was developed for detecting the selective force at single\
+        \ amine acid sites given a multiple alignment of protein-coding sequences.\
+        \ The phylogenetic tree was reconstructed using the number of synonymous substitutions.\
+        \ Then, the neutrality was tested for each codon site using the numbers of\
+        \ synonymous and nonsynonymous changes throughout the phylogenetic tree. Computer\
+        \ simulation showed that this method accurately estimated the numbers of synonymous\
+        \ and nonsynonymous substitutions per site, as long as the substitution number\
+        \ on each branch was relatively small. The false- positive rate for detecting\
+        \ the selective force was generally low. On the other hand, the true-positive\
+        \ rate for detecting the selective force depended on the parameter values.\
+        \ Within the range of parameter values used in the simulation, the true-positive\
+        \ rate increased as the strength of the selective force and the total branch\
+        \ length (namely the total number of synonymous substitutions per site) in\
+        \ the phylogenetic tree increased. In particular, with the relative rate of\
+        \ nonsynonymous substitutions to synonymous substitutions being 5.0, most\
+        \ of the positively selected codon sites were correctly detected when the\
+        \ total branch length in the phylogenetic tree was \u22652.5. When this method\
+        \ was applied to the human leukocyte antigen (HLA) gene, which included antigen\
+        \ recognition sites (ARSs), positive selection was detected mainly on ARSs.\
+        \ This finding confirmed the effectiveness of the present method with actual\
+        \ data. Moreover, two amine acid sites were newly identified as positively\
+        \ selected in non-ARSs. The three-dimensional structure of the HLA molecule\
+        \ indicated that these sites might be involved in antigen recognition. Positively\
+        \ selected amine acid sites were also identified in the envelope protein of\
+        \ human immunodeficiency virus and the influenza virus hemagglutinin protein.\
+        \ This method may be helpful for predicting functions of amine acid sites\
+        \ in proteins, especially in the present situation, in which sequence data\
+        \ are accumulating at an enormous speed."
+      authors:
+        - name: Suzuki Y.
+        - name: Gojobori T.
+      citationCount: 349
+      date: '1999-01-01T00:00:00Z'
+      journal: Molecular Biology and Evolution
+      title: A method for detecting positive selection at single amino acid sites
+    pmcid: null
+    pmid: '10563013'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+validated: 1
+version: []

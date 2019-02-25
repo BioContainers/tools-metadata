@@ -1,0 +1,105 @@
+accessibility: []
+additionDate: '2017-08-03T19:06:00Z'
+biotoolsCURIE: biotools:hzanalyzer
+biotoolsID: hzanalyzer
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: Tatsuhiko Tsunoda
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://emu.src.riken.jp/
+description: New R package that we have developed for detection, quantification, and
+  visualization of homozygous segments/ROH in high-density SNP datasets.
+documentation:
+  - note: null
+    type: Manual
+    url: http://emu.src.riken.jp/hzAnalyzer/userguides.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Prediction and recognition
+        uri: http://edamontology.org/operation_2423
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Quantification
+        uri: http://edamontology.org/operation_3799
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Visualisation
+        uri: http://edamontology.org/operation_0337
+    output: []
+homepage: http://emu.src.riken.jp/hzAnalyzer/
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/hzanalyzer-detection-and-analysis-of-contiguous-homozygosity-in-high-density-genotyping-datasets.html
+maturity: null
+name: hzAnalyzer
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "The analysis of contiguous homozygosity (runs of homozygous loci)\
+        \ in human genotyping datasets is critical in the search for causal disease\
+        \ variants in monogenic disorders, studies of population history and the identification\
+        \ of targets of natural selection. Here, we report methods for extracting\
+        \ homozygous segments from high-density genotyping datasets, quantifying their\
+        \ local genomic structure, identifying outstanding regions within the genome\
+        \ and visualizing results for comparative analysis between population samples.\
+        \ \xA9 2011 Johnson et al.; licensee BioMed Central Ltd."
+      authors:
+        - name: Johnson T.A.
+        - name: Niimura Y.
+        - name: Tanaka H.
+        - name: Nakamura Y.
+        - name: Tsunoda T.
+      citationCount: 2
+      date: '2011-03-11T00:00:00Z'
+      journal: Genome Biology
+      title: 'HzAnalyzer: Detection, quantification, and visualization of contiguous
+        homozygosity in high-density genotyping datasets'
+    pmcid: null
+    pmid: '21396103'
+    type: null
+    version: null
+toolType:
+  - Library
+topic:
+  - term: Genotype and phenotype
+    uri: http://edamontology.org/topic_0625
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+validated: 1
+version: []

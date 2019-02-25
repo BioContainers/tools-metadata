@@ -1,0 +1,109 @@
+accessibility: []
+additionDate: '2017-03-25T17:08:17Z'
+biotoolsCURIE: biotools:rbpmotif
+biotoolsID: rbpmotif
+collectionID: []
+cost: null
+credit:
+  - email: quaid.morris@utoronto.ca
+    name: Quaid Morris
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Web server for the discovery of sequence and structure preferences of
+  RNA-binding proteins. Input is set of sequences known to be bound and unbound by
+  the RNA-binding protein of interest.
+documentation:
+  - note: null
+    type: General
+    url: http://rnamotif.org/help.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence motif discovery
+        uri: http://edamontology.org/operation_0238
+      - term: Sequence motif recognition
+        uri: http://edamontology.org/operation_0239
+      - term: Sequence motif comparison
+        uri: http://edamontology.org/operation_0240
+      - term: Ab initio structure prediction
+        uri: http://edamontology.org/operation_0476
+    output: []
+homepage: http://www.rnamotif.org
+homepage_status: 0
+language:
+  - PHP
+  - Javascript
+  - R
+  - Python
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link: []
+maturity: null
+name: RBPmotif
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: 'RBPmotif web server (http://www.rnamotif.org) implements tools to
+        identify binding preferences of RNA-binding proteins (RBPs). Given a set of
+        sequences that are known to be bound and unbound by the RBP of interest, RBPmotif
+        provides two types of analysis: (i) de novo motif finding when there is no
+        a priori knowledge on RBP''s binding preferences and (ii) analysis of structure
+        preferences when there is a previously identified sequence motif for the RBP.
+        De novo motif finding is performed with the previously published RNAcontext
+        algorithm that learns discriminative motif models to identify both sequence
+        and structure preferences. The results of this analysis include the inferred
+        binding preferences of the RBP and the added predictive value of incorporating
+        structure preferences. Second type of analysis investigates whether the instances
+        of the previously identified sequence motif are enriched in a particular structure
+        context in bound sequences, relative to its instances in unbound sequences.
+        On completion, the results page shows the comparison of structure contexts
+        of the motif instances between bound and unbound sequences and an assessment
+        of statistical significance of detected preferences. In summary, RBPmotif
+        web server enables the concurrent analysis of sequence and structure preferences
+        of RBPs through a user-friendly interface.'
+      authors:
+        - name: Kazan H.
+        - name: Morris Q.
+      citationCount: 17
+      date: '2013-07-01T00:00:00Z'
+      journal: Nucleic acids research
+      title: 'RBPmotif: a web server for the discovery of sequence and structure preferences
+        of RNA-binding proteins.'
+    pmcid: null
+    pmid: '23754853'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+  - term: Structure prediction
+    uri: http://edamontology.org/topic_0082
+  - term: Sequence sites, features and motifs
+    uri: http://edamontology.org/topic_0160
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version: []

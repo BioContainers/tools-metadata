@@ -1,0 +1,103 @@
+accessibility: []
+additionDate: '2017-08-03T19:06:37Z'
+biotoolsCURIE: biotools:lemon-tree
+biotoolsID: lemon-tree
+collectionID: []
+cost: null
+credit:
+  - email: tom.michoel@roslin.ed.ac.uk
+    name: Dr Tom Michoel
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.roslin.ed.ac.uk/tom-michoel
+description: Algorithm to infer a module network from biological data. It can integrate
+  heterogeneous data types such as expression data, copy number, microRNA, epigenetic
+  profiles.
+documentation:
+  - note: null
+    type: General
+    url: https://github.com/eb00/lemon-tree/wiki
+  - note: null
+    type: Manual
+    url: https://github.com/eb00/lemon-tree/wiki/Tutorial
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Pathway or network analysis
+        uri: http://edamontology.org/operation_2497
+    output: []
+homepage: https://github.com/eb00/lemon-tree
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/lemone-2-5-1-learn-module-networks-gene-expression-data.html
+maturity: null
+name: lemon-tree
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 2015 Bonnet et al.Module network inference is an established\
+        \ statistical method to reconstruct co-expression modules and their upstream\
+        \ regulatory programs from integrated multi-omics datasets measuring the activity\
+        \ levels of various cellular components across different individuals, experimental\
+        \ conditions or time points of a dynamic process. We have developed Lemon-Tree,\
+        \ an open-source, platform-independent, modular, extensible software package\
+        \ implementing state-of-the-art ensemble methods for module network inference.\
+        \ We benchmarked Lemon-Tree using large-scale tumor datasets and showed that\
+        \ Lemon-Tree algorithms compare favorably with state-of-the-art module network\
+        \ inference software. We also analyzed a large dataset of somatic copy-number\
+        \ alterations and gene expression levels measured in glioblastoma samples\
+        \ from The Cancer Genome Atlas and found that Lemon-Tree correctly identifies\
+        \ known glioblastoma oncogenes and tumor suppressors as master regulators\
+        \ in the inferred module network. Novel candidate driver genes predicted by\
+        \ Lemon-Tree were validated using tumor pathway and survival analyses. Lemon-Tree\
+        \ is available from http://lemon-tree.googlecode.com under the GNU General\
+        \ Public License version 2.0."
+      authors:
+        - name: Bonnet E.
+        - name: Calzone L.
+        - name: Michoel T.
+      citationCount: 16
+      date: '2015-01-01T00:00:00Z'
+      journal: PLoS Computational Biology
+      title: Integrative Multi-omics Module Network Inference with Lemon-Tree
+    pmcid: null
+    pmid: '25679508'
+    type: null
+    version: null
+toolType:
+  - Suite
+topic:
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+validated: 1
+version: []

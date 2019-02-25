@@ -1,0 +1,122 @@
+accessibility: []
+additionDate: '2016-04-13T09:52:06Z'
+biotoolsCURIE: biotools:melanomamine
+biotoolsID: melanomamine
+collectionID: []
+cost: null
+credit:
+  - email: acanada@cnio.es
+    name: "Andr\xE9s Ca\xF1ada"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Martin Krallinger
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Spanish National Bioinformatics Institute
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: Spanish Cancer Research Center
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: cnio.es
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: mkrallinger@cnio.es
+    name: Martin Krallinger
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Support
+    url: null
+  - email: mkrallinger@cnio.es
+    name: Martin Krallinger
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: acanada@cnio.es
+    name: "Andr\xE9s Ca\xF1ada"
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Text mining for melanoma.
+documentation: []
+download:
+  - note: null
+    type: Source code
+    url: https://github.com/inab/melanomamine/archive/master.zip
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Relation extraction
+        uri: http://edamontology.org/operation_3625
+      - term: Literature search
+        uri: http://edamontology.org/operation_0305
+      - term: Text mining
+        uri: http://edamontology.org/operation_0306
+    output: []
+homepage: http://melanomamine.bioinfo.cnio.es/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link:
+  - note: null
+    type: Repository
+    url: https://github.com/inab/melanomamine
+maturity: null
+name: MelanomaMine
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: acanada@cnio.es
+publication: []
+toolType:
+  - Web application
+topic:
+  - term: Natural language processing
+    uri: http://edamontology.org/topic_0218
+validated: 1
+version:
+  - '0.1'

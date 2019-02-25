@@ -1,0 +1,92 @@
+accessibility: []
+additionDate: '2017-01-13T13:14:05Z'
+biotoolsCURIE: biotools:cleaveland4
+biotoolsID: cleaveland4
+collectionID: []
+cost: null
+credit:
+  - email: mja18@psu.edu
+    name: Mike Axtell
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A pipeline for using degradome data to find cleaved small RNA targets.
+documentation:
+  - note: null
+    type: Manual
+    url: https://psu.app.box.com/v/axtelldata/file/99708412059
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Nucleic acid sequence analysis
+        uri: http://edamontology.org/operation_2478
+    output: []
+homepage: http://sites.psu.edu/axtell/software/cleaveland4/
+homepage_status: 0
+language:
+  - R
+  - Perl
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link: []
+maturity: Mature
+name: CleaveLand4
+operatingSystem:
+  - Linux
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "MicroRNAs (miRNAs) are \u223C20- to 22-nt long endogenous RNA sequences\
+        \ that play a critical role in the regulation of gene expression in eukaryotic\
+        \ genomes. Confident identification of miRNA targets is vital to understand\
+        \ their functions. Currently available computational algorithms for miRNA\
+        \ target prediction have diverse degrees of sensitivity and specificity and\
+        \ as a consequence each predicted target generally requires experimental confirmation.\
+        \ miRNAs and other small RNAs that direct endonucleolytic cleavage of target\
+        \ mRNAs produce diagnostic uncapped, polyadenylated mRNA fragments. Degradome\
+        \ sequencing [also known as PARE (parallel analysis of RNA ends) and GMUCT\
+        \ (genome-wide mapping of uncapped transcripts)] samples the 5\u2032-ends\
+        \ of uncapped mRNAs and can be used to discover in vivo miRNA targets independent\
+        \ of computational predictions. Here, we describe a generalizable computational\
+        \ pipeline, CleaveLand, for the detection of cleaved miRNA targets from degradome\
+        \ data. CleaveLand takes as input degradome sequences, small RNAs and an mRNA\
+        \ database and outputs small RNA targets. CleaveLand can thus be applied to\
+        \ degradome data from any species provided a set of mRNA transcripts and a\
+        \ set of query miRNAs or other small RNAs are available. \xA9 The Author 2008.\
+        \ Published by Oxford University Press. All rights reserved."
+      authors:
+        - name: Addo-Quaye C.
+        - name: Miller W.
+        - name: Axtell M.J.
+      citationCount: 223
+      date: '2009-01-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'CleaveLand: A pipeline for using degradome data to find cleaved small
+        RNA targets'
+    pmcid: null
+    pmid: '19017659'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Functional, regulatory and non-coding RNA
+    uri: http://edamontology.org/topic_0659
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+validated: 1
+version: []

@@ -1,0 +1,146 @@
+accessibility: []
+additionDate: '2017-02-14T09:34:49Z'
+biotoolsCURIE: biotools:madap
+biotoolsID: madap
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: SIB Swiss Institute of Bioinformatics
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole: []
+    url: null
+  - email: null
+    name: Contact form
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://ccg.vital-it.ch/madap/webmail.html
+description: MADAP is a clustering tool for the interpretation annotation data mapped
+  onto complete or partial genome sequences. Initially developed for determining transcription
+  start sites (TSS) by defining 5&apos, and 3&apos,ends of mRNA, MADAP also has utility
+  in clustering other annotation data types (ChIP-chip data, for example).
+documentation:
+  - note: null
+    type: General
+    url: https://ccg.vital-it.ch/madap/madap.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+      - term: Mapping
+        uri: http://edamontology.org/operation_2429
+    output: []
+homepage: http://ccg.vital-it.ch/madap/
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link: []
+maturity: null
+name: MADAP
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: SIB
+publication:
+  - doi: null
+    metadata:
+      abstract: "A recurring task in the analysis of mass genome annotation data from\
+        \ high-throughput technologies is the identification of peaks or clusters\
+        \ in a noisy signal profile. Examples of such applications are the definition\
+        \ of promoters on the basis of transcription start site profiles, the mapping\
+        \ of transcription factor binding sites based on ChIP-chip data and the identification\
+        \ of quantitative trait loci (QTL) from whole genome SNP profiles. Input to\
+        \ such an analysis is a set of genome coordinates associated with counts or\
+        \ intensities. The output consists of a discrete number of peaks with respective\
+        \ volumes, extensions and center positions. We have developed for this purpose\
+        \ a flexible one-dimensional clustering tool, called MADAP, which we make\
+        \ available as a web server and as standalone program. A set of parameters\
+        \ enables the user to customize the procedure to a specific problem. The web\
+        \ server, which returns results in textual and graphical form, is useful for\
+        \ small to medium-scale applications, as well as for evaluation and parameter\
+        \ tuning in view of large-scale applications, requiring a local installation.\
+        \ The program written in C++ can be freely downloaded from ftp://ftp.epd.\
+        \ unil.ch/pub/ software/unix/madap. The MADAP web server can be accessed at\
+        \ http://www.isrec.isb-sib.ch/madap/. \xA9 2007 The Author(s)."
+      authors:
+        - name: Schmid C.D.
+        - name: Sengstag T.
+        - name: Bucher P.
+        - name: Delorenzi M.
+      citationCount: 6
+      date: '2007-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: MADAP, a flexible clustering tool for the interpretation of one-dimensional
+        genome annotation data
+    pmcid: null
+    pmid: '17526516'
+    type: null
+    version: null
+  - doi: null
+    metadata:
+      abstract: "The Eukaryotic Promoter Database (EPD) is an annotated non-redundant\
+        \ collection of eukaryotic POL II promoters, experimentally defined by a transcription\
+        \ start site (TSS). There may be multiple promoter entries for a single gene.\
+        \ The underlying experimental evidence comes from journal articles and, starting\
+        \ from release 73, from 5\u2032 ESTs of full-length cDNA clones used for so-called\
+        \ in silico primer extension. Access to promoter sequences is provided by\
+        \ pointers to TSS positions in nucleotide sequence entries. The annotation\
+        \ part of an EPD entry includes a description of the type and source of the\
+        \ initiation site mapping data, links to other biological databases and bibliographic\
+        \ references. EPD is structured in a way that facilitates dynamic extraction\
+        \ of biologically meaningful promoter subsets for comparative sequence analysis.\
+        \ Web-based interfaces have been developed that enable the user to view EPD\
+        \ entries in different formats, to select and extract promoter sequences according\
+        \ to a variety of criteria and to navigate to related databases exploiting\
+        \ different cross-references. Tools for analysing sequence motifs around TSSs\
+        \ defined in EPD are provided by the signal search analysis server. EPD can\
+        \ be accessed at http://www.epd.isb-sib.ch."
+      authors:
+        - name: Schmid C.D.
+        - name: Praz V.
+        - name: Delorenzi M.
+        - name: Perier R.
+        - name: Bucher P.
+      citationCount: 75
+      date: '2004-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'The Eukaryotic Promoter Database EPD: The impact of in silico primer
+        extension'
+    pmcid: null
+    pmid: '14681364'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Gene transcripts
+    uri: http://edamontology.org/topic_3512
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+  - term: ChIP-on-chip
+    uri: http://edamontology.org/topic_3179
+  - term: Gene expression
+    uri: http://edamontology.org/topic_0203
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+validated: 1
+version: []

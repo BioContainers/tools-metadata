@@ -1,0 +1,109 @@
+accessibility: []
+additionDate: '2017-08-03T18:55:00Z'
+biotoolsCURIE: biotools:pure
+biotoolsID: pure
+collectionID: []
+cost: null
+credit:
+  - email: mami@kuicr.kyoto-u.ac.jp
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: t-yoneya@kirin.co.jp
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: This tool is a PubMed article recommendation system based on content-based
+  filtering, based on preferred articles.
+documentation:
+  - note: null
+    type: General
+    url: http://www.bic.kyoto-u.ac.jp/pathway/PURE/docs.htm
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Filtering
+        uri: http://edamontology.org/operation_3695
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Named-entity and concept recognition
+        uri: http://edamontology.org/operation_3280
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+    output: []
+homepage: http://www.bic.kyoto-u.ac.jp/pathway/PURE/
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:56Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/pure-pubmed-article-recommendation-system-based-content-based-filtering.html
+maturity: null
+name: PURE
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: We have developed a PubMed article recommendation system, PURE, which
+        is based on content-based filtering. PURE has a web interface by which users
+        can add/delete their preferred articles. Once articles are registered, PURE
+        then performs model-based clustering of the preferred articles and recommends
+        the highly-rated articles by the prediction using the trained model. PURE
+        updates the PubMed articles and reports the recommendation by email on daily-base.
+        This system will be helpful for biologists to reduce the time required for
+        gathering information from PubMed. PURE is downloadable under GPL license,
+        via www.bic.kyoto-u.ac.jp/pathway/mami/out/PURE.tar.gz.
+      authors:
+        - name: Yoneya T.
+        - name: Mamitsuka H.
+      citationCount: 8
+      date: '2007-12-01T00:00:00Z'
+      journal: Genome informatics. International Conference on Genome Informatics
+      title: 'PURE: a PubMed article recommendation system based on content-based
+        filtering.'
+    pmcid: null
+    pmid: '18546494'
+    type: null
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Literature and language
+    uri: http://edamontology.org/topic_3068
+  - term: Biology
+    uri: http://edamontology.org/topic_3070
+validated: 1
+version: []

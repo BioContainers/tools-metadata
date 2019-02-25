@@ -1,0 +1,123 @@
+accessibility: []
+additionDate: '2017-03-03T15:36:30Z'
+biotoolsCURIE: biotools:schloro
+biotoolsID: schloro
+collectionID: []
+cost: Free of charge
+credit:
+  - email: null
+    name: ELIXIR-ITA-BOLOGNA
+    note: null
+    orcidid: null
+    typeEntity: Division
+    typeRole:
+      - Maintainer
+    url: http://www.biocomp.unibo.it
+  - email: savojard@biocomp.unibo.it
+    name: Castrense Savojardo
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: savojard@biocomp.unibo.it
+    name: Castrense Savojardo
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Prediction of protein sub-chloroplastinc localization.
+documentation:
+  - note: null
+    type: General
+    url: https://schloro.biocomp.unibo.it/sclpred/default/index
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Protein sequence (raw)
+          uri: http://edamontology.org/data_2974
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+    note: null
+    operation:
+      - term: Protein subcellular localisation prediction
+        uri: http://edamontology.org/operation_2489
+    output:
+      - data:
+          term: Sequence report
+          uri: http://edamontology.org/data_2955
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+homepage: http://schloro.biocomp.unibo.it
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link: []
+maturity: Mature
+name: SChloro
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-ITA-BOLOGNA
+publication:
+  - doi: 10.1093/bioinformatics/btw656
+    metadata:
+      abstract: "\xA9 The Author 2016. Published by Oxford University Press. Motivation:\
+        \ Chloroplasts are organelles found in plants and involved in several important\
+        \ cell processes. Similarly to other compartments in the cell, chloroplasts\
+        \ have an internal structure comprising several sub-compartments, where different\
+        \ proteins are targeted to perform their functions. Given the relation between\
+        \ protein function and localization, the availability of effective computational\
+        \ tools to predict protein sub-organelle localizations is crucial for large-scale\
+        \ functional studies. Results: In this paper we present SChloro, a novel machine-learning\
+        \ approach to predict protein sub-chloroplastic localization, based on targeting\
+        \ signal detection and membrane protein information. The proposed approach\
+        \ performs multi-label predictions discriminating six chloroplastic sub-compartments\
+        \ that include inner membrane, outer membrane, stroma, thylakoid lumen, plastoglobule\
+        \ and thylakoid membrane. In comparative benchmarks, the proposed method outperforms\
+        \ current state-of-the-art methods in both single- and multi-compartment predictions,\
+        \ with an overall multi-label accuracy of 74%. The results demonstrate the\
+        \ relevance of the approach that is eligible as a good candidate for integration\
+        \ into more general large-scale annotation pipelines of protein subcellular\
+        \ localization."
+      authors:
+        - name: Savojardo C.
+        - name: Martelli P.L.
+        - name: Fariselli P.
+        - name: Casadio R.
+      citationCount: 1
+      date: '2017-01-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'SChloro: Directing Viridiplantae proteins to six chloroplastic sub-compartments'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
+toolType:
+  - Web service
+topic:
+  - term: Protein targeting and localisation
+    uri: http://edamontology.org/topic_0140
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
+  - term: Plant biology
+    uri: http://edamontology.org/topic_0780
+validated: 1
+version:
+  - '1'

@@ -1,0 +1,87 @@
+accessibility: []
+additionDate: '2017-08-03T19:05:09Z'
+biotoolsCURIE: biotools:buccaneer
+biotoolsID: buccaneer
+collectionID: []
+cost: null
+credit:
+  - email: kevin.cowtan@york.ac.uk
+    name: Kevin Cowtan
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.ysbl.york.ac.uk/~cowtan/
+description: BUild Connected C-Alphas, Nautical Excuse for Eponym Required performs
+  statistical chain tracing by identifying connected alpha-carbon positions using
+  a likelihood-based density target.
+documentation:
+  - note: null
+    type: Manual
+    url: http://www.ysbl.york.ac.uk/~cowtan/buccaneer/buccaneer_pipeline.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Statistical inference
+        uri: http://edamontology.org/operation_3658
+    output: []
+homepage: http://www.ysbl.york.ac.uk/~cowtan/buccaneer/buccaneer.html
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/buccaneer-1-5-electron-density-interpretationprotein-model-building-software.html
+maturity: null
+name: buccaneer
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "A new technique for the automated tracing of protein chains in experimental\
+        \ electron-density maps is described. The technique relies on the repeated\
+        \ application of an oriented electron-density likelihood target function to\
+        \ identify likely C\u03B1 positions. This function is applied both in the\
+        \ location of a few promising 'seed' positions in the map and to grow those\
+        \ initial C\u03B1 positions into extended chain fragments. Techniques for\
+        \ assembling the chain fragments into an initial chain trace are discussed.\
+        \ \xA9 2006 International Union of Crystallography - all rights reserved."
+      authors:
+        - name: Cowtan K.
+      citationCount: 999
+      date: '2006-09-01T00:00:00Z'
+      journal: 'Acta Crystallographica Section D: Biological Crystallography'
+      title: The Buccaneer software for automated model building. 1. Tracing protein
+        chains
+    pmcid: null
+    pmid: '16929101'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+validated: 1
+version: []
