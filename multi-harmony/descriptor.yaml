@@ -1,0 +1,103 @@
+accessibility: []
+additionDate: '2017-02-14T09:34:17Z'
+biotoolsCURIE: biotools:multi-harmony
+biotoolsID: multi-harmony
+collectionID: []
+cost: null
+credit:
+  - email: bwbrandt@few.vu.nl
+    name: Bernd Brandt
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Interactive web server for detecting sub-type specific sites in proteins
+  starting from a multiple sequence alignment. Combines Sequence Harmony and Multi-Relief
+  methods.
+documentation:
+  - note: null
+    type: General
+    url: http://ibi.vu.nl/programs/shmrwww/shmr_doc/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Multiple sequence alignment
+        uri: http://edamontology.org/operation_0492
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output: []
+homepage: http://ibi.vu.nl/programs/shmrwww/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link: []
+maturity: null
+name: Multi-Harmony
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Many protein families contain sub-families with functional specialization,\
+        \ such as binding different ligands or being involved in different protein-\
+        \ protein interactions. A small number of amino acids generally determine\
+        \ functional specificity. The identification of these residues can aid the\
+        \ understanding of protein function and help finding targets for experimental\
+        \ analysis. Here, we present multi-Harmony, an interactive web sever for detect-ing\
+        \ sub-type-specific sites in proteins starting from a multiple sequence alignment.\
+        \ Combining our Sequence Harmony (SH) and multi-Relief (mR) methods in one\
+        \ web server allows simultaneous analysis and comparison of specificity residues;\
+        \ fur-thermore, both methods have been significantly improved and extended.\
+        \ SH has been extended to cope with more than two sub-groups. mR has been\
+        \ changed from a sampling implementation to a de-terministic one, making it\
+        \ more consistent and user friendly. For both methods Z-scores are reported.\
+        \ The multi-Harmony web server produces a dynamic output page, which includes\
+        \ interactive connections to the Jalview and Jmol applets, thereby allowing\
+        \ interactive analysis of the results. Multi-Harmony is available at http://www.ibi.vu.nl/programs/shmrwww.\
+        \ \xA9 The Author(s) 2010. Published by Oxford University Press."
+      authors:
+        - name: Brandt B.W.
+        - name: Anton Feenstra K.
+        - name: Heringa J.
+      citationCount: 24
+      date: '2010-06-04T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'Multi-Harmony: Detecting functional specificity from sequence alignment'
+    pmcid: null
+    pmid: '20525785'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+validated: 1
+version: []

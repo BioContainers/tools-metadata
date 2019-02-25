@@ -1,0 +1,108 @@
+accessibility: []
+additionDate: '2015-08-03T09:36:08Z'
+biotoolsCURIE: biotools:globplot_ws_jabaws
+biotoolsID: globplot_ws_jabaws
+collectionID:
+  - JABAWS
+cost: null
+credit:
+  - email: null
+    name: BioCatalogue
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: https://www.biocatalogue.org
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.compbio.dundee.ac.uk/jabaws/contacts.html
+description: Allows the user to plot the tendency within the query protein for order/globularity
+  and disorder.
+documentation:
+  - note: null
+    type: Manual
+    url: http://www.compbio.dundee.ac.uk/jabaws/man_about.html
+  - note: null
+    type: API documentation
+    url: http://www.compbio.dundee.ac.uk/jabaws/full_javadoc/compbio/ws/server/GlobPlotWS.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+homepage: http://www.compbio.dundee.ac.uk/jabaws/
+homepage_status: 0
+language:
+  - Java
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: https://www.biocatalogue.org/services/3714
+maturity: null
+name: GlobPlot WS (jabaws)
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: BioCatalogue
+publication:
+  - doi: 10.1093/nar/gkg519
+    metadata:
+      abstract: A major challenge in the proteomics and structural genomics era is
+        to predict protein structure and function, including identification of those
+        proteins that are partially or wholly unstructured. Non-globular sequence
+        segments often contain short linear peptide motifs (e.g. SH3-binding sites)
+        which are important for protein function. We present here a new tool for discovery
+        of such unstructured, or disordered regions within proteins. GlobPlot (http://globplot.embl.de)
+        is a web service that allows the user to plot the tendency within the query
+        protein for order/globularity and disorder. We show examples with known proteins
+        where it successfully identifies inter-domain segments containing linear motifs,
+        and also apparently ordered regions that do not contain any recognised domain.
+        GlobPlot may be useful in domain hunting efforts. The plots indicate that
+        instances of known domains may often contain additional N- or C-terminal segments
+        that appear ordered. Thus GlobPlot may be of use in the design of constructs
+        corresponding to globular proteins, as needed for many biochemical studies,
+        particularly structural biology. GlobPlot has a pipeline interface - GlobPipe
+        - for the advanced user to do whole proteome analysis. GlobPlot can also be
+        used as a generic infrastructure package for graphical displaying of any possible
+        propensity.
+      authors:
+        - name: Linding R.
+        - name: Russell R.B.
+        - name: Neduva V.
+        - name: Gibson T.J.
+      citationCount: 674
+      date: '2003-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'GlobPlot: Exploring protein sequences for globularity and disorder'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web service
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 1
+version:
+  - '1'

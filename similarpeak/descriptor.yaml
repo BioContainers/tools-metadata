@@ -1,0 +1,125 @@
+accessibility: []
+additionDate: '2017-01-17T14:59:02Z'
+biotoolsCURIE: biotools:similarpeak
+biotoolsID: similarpeak
+collectionID:
+  - BioConductor
+cost: null
+credit:
+  - email: Astrid-Louise.Deschenes@crchudequebec.ulaval.ca
+    name: Astrid Louise Deschenes
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: This package calculates metrics which assign a level of similarity between
+  ChIP-Seq profiles.
+documentation:
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/similaRpeak.html
+download:
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/similaRpeak_1.6.0.tar.gz
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+    note: null
+    operation:
+      - term: Protein-nucleic acid binding prediction
+        uri: http://edamontology.org/operation_0420
+    output:
+      - data:
+          term: Sequence similarity score
+          uri: http://edamontology.org/data_0865
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+homepage: http://bioconductor.org/packages/release/bioc/html/similaRpeak.html
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:54Z'
+license: Artistic-2.0
+link:
+  - note: null
+    type: Mirror
+    url: https://github.com/adeschen/similaRpeak
+maturity: null
+name: similaRpeak
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: bioconductor_import
+publication:
+  - doi: 10.1371/journal.pcbi.1004751
+    metadata:
+      abstract: "\xA9 2016 Joly Beauparlant et al.ChIP-Sequencing (ChIP-Seq) provides\
+        \ a vast amount of information regarding the localization of proteins across\
+        \ the genome. The aggregation of ChIP-Seq enrichment signal in a metagene\
+        \ plot is an approach commonly used to summarize data complexity and to obtain\
+        \ a high level visual representation of the general occupancy pattern of a\
+        \ protein. Here we present the R package metagene, the graphical interface\
+        \ Imetagene and the companion package similaRpeak. Together, they provide\
+        \ a framework to integrate, summarize and compare the ChIP-Seq enrichment\
+        \ signal from complex experimental designs. Those packages identify and quantify\
+        \ similarities or dissimilarities in patterns between large numbers of ChIP-Seq\
+        \ profiles. We used metagene to investigate the differential occupancy of\
+        \ regulatory factors at noncoding regulatory regions (promoters and enhancers)\
+        \ in relation to transcriptional activity in GM12878 B-lymphocytes. The relationships\
+        \ between occupancy patterns and transcriptional activity suggest two different\
+        \ mechanisms of action for transcriptional control: i) a \u201Cgradient effect\u201D\
+        \ where the regulatory factor occupancy levels follow transcription and ii)\
+        \ a \u201Cthreshold effect\u201D where the regulatory factor occupancy levels\
+        \ max out prior to reaching maximal transcription. metagene, Imetagene and\
+        \ similaRpeak are implemented in R under the Artistic license 2.0 and are\
+        \ available on Bioconductor."
+      authors:
+        - name: Joly Beauparlant C.
+        - name: Lamaze F.C.
+        - name: Deschenes A.
+        - name: Samb R.
+        - name: Lemacon A.
+        - name: Belleau P.
+        - name: Bilodeau S.
+        - name: Droit A.
+      citationCount: 4
+      date: '2016-08-01T00:00:00Z'
+      journal: PLoS Computational Biology
+      title: "metagene Profiles Analyses Reveal Regulatory Element\u2019s Factor-Specific\
+        \ Recruitment Patterns"
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+  - Library
+topic:
+  - term: ChIP-seq
+    uri: http://edamontology.org/topic_3169
+  - term: Protein binding sites
+    uri: http://edamontology.org/topic_3534
+validated: 1
+version:
+  - 1.6.0

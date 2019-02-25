@@ -1,0 +1,101 @@
+accessibility: []
+additionDate: '2017-05-02T10:01:04Z'
+biotoolsCURIE: biotools:sam-seqassymanager
+biotoolsID: sam-seqassymanager
+collectionID: []
+cost: null
+credit:
+  - email: rwarren@bcgsc.ca
+    name: SAM Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: SAM is a Whole Genome Assembly (WGA) Management and Visualization Tool.
+  It provides a generic platform for manipulating, analyzing and viewing WGA data,
+  regardless of input type.
+documentation:
+  - note: null
+    type: General
+    url: http://www.bcgsc.ca/platform/bioinfo/software/sam/samTalk8jan04.ppt/view
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genome assembly
+        uri: http://edamontology.org/operation_0525
+      - term: Mapping assembly
+        uri: http://edamontology.org/operation_0523
+      - term: Sequence assembly
+        uri: http://edamontology.org/operation_0310
+      - term: Sequence assembly validation
+        uri: http://edamontology.org/operation_3180
+    output: []
+homepage: http://www.bcgsc.ca/platform/bioinfo/software/sam
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:54Z'
+license: null
+link: []
+maturity: null
+name: SAM - Sequence Assembly Manager
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: We have designed and implemented a system to manage whole genome shotgun
+        sequences and whole genome sequence assembly data flow. The Sequence Assembly
+        Manager (SAM) consists primarily of a MySQL relational database and Perl applications
+        designed to easily manipulate and coordinate the analysis of sequence information
+        and to view and report genome assembly progress through its Common Gateway
+        Interface (CGI) web interface. The application includes a tool to compare
+        sequence assemblies to fingerprint maps that has been used successfully to
+        improve and validate both maps and sequence assemblies of the Rhodococcus
+        sp. RHA1 and Cryptococcus neoformans WM276 genomes.
+      authors:
+        - name: Warren R.L.
+        - name: Butterfield Y.S.
+        - name: Morin R.D.
+        - name: Siddiqui A.S.
+        - name: Marra M.A.
+        - name: Jones S.J.M.
+      citationCount: 6
+      date: '2005-01-01T00:00:00Z'
+      journal: BioTechniques
+      title: Management and visualization of whole genome shotgun assemblies using
+        SAM
+    pmcid: null
+    pmid: '15945370'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Sequence assembly
+    uri: http://edamontology.org/topic_0196
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+  - term: Database management
+    uri: http://edamontology.org/topic_3489
+  - term: Whole genome sequencing
+    uri: http://edamontology.org/topic_3673
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 0
+version: []

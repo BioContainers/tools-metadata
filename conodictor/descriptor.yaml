@@ -1,0 +1,99 @@
+accessibility: []
+additionDate: '2017-03-25T13:09:37Z'
+biotoolsCURIE: biotools:conodictor
+biotoolsID: conodictor
+collectionID: []
+cost: null
+credit:
+  - email: dominique.koua@atheris.ch
+    name: Koua D
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Tool that enables fast and accurate classification of conopeptides (the
+  main bioactive component of cone snail venom) into superfamilies based on their
+  amino acid sequence. Predictions are made using Hidden Markov Models and generalized
+  profiles.
+documentation:
+  - note: null
+    type: General
+    url: http://conco.ebc.ee/index.php?pid=17
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence classification
+        uri: http://edamontology.org/operation_2995
+      - term: Sequence profile generation
+        uri: http://edamontology.org/operation_0296
+    output: []
+homepage: http://conco.ebc.ee
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link: []
+maturity: null
+name: ConoDictor
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "ConoDictor is a tool that enables fast and accurate classification\
+        \ of conopeptides into superfamilies based on their amino acid sequence. ConoDictor\
+        \ combines predictions from two complementary approaches-profile hidden Markov\
+        \ models and generalized profiles. Results appear in a browser as tables that\
+        \ can be downloaded in various formats. This application is particularly valuable\
+        \ in view of the exponentially increasing number of conopeptides that are\
+        \ being identified. ConoDictor was written in Perl using the common gateway\
+        \ interface module with a php submission page. Sequence matching is performed\
+        \ with hmmsearch from HMMER 3 and ps-scan.pl from the pftools 2.3 package.\
+        \ ConoDictor is freely accessible at http://conco.ebc.ee. \xA9 2012 The Author(s)."
+      authors:
+        - name: Koua D.
+        - name: Brauer A.
+        - name: Laht S.
+        - name: Kaplinski L.
+        - name: Favreau P.
+        - name: Remm M.
+        - name: Lisacek F.
+        - name: Stocklin R.
+      citationCount: 17
+      date: '2012-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'ConoDictor: A tool for prediction of conopeptide superfamilies'
+    pmcid: null
+    pmid: '22661581'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+  - term: Sequence sites, features and motifs
+    uri: http://edamontology.org/topic_0160
+  - term: Gene and protein families
+    uri: http://edamontology.org/topic_0623
+  - term: Nucleic acid sites, features and motifs
+    uri: http://edamontology.org/topic_3511
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+validated: 1
+version: []

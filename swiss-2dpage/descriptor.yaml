@@ -1,0 +1,204 @@
+accessibility: []
+additionDate: '2015-10-09T16:38:04Z'
+biotoolsCURIE: biotools:swiss-2dpage
+biotoolsID: swiss-2dpage
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: SIB Swiss Institute of Bioinformatics
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Contributor
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://world-2dpage.expasy.org/contact
+description: Data on proteins identified on various 2-D PAGE and SDS-PAGE reference
+  maps.
+documentation:
+  - note: null
+    type: General
+    url: http://world-2dpage.expasy.org/swiss-2dpage/docs/manch2d.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Protein identifier
+          uri: http://edamontology.org/data_0989
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Experiment report
+          uri: http://edamontology.org/data_2531
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: UniProt accession
+          uri: http://edamontology.org/data_3021
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Experiment report
+          uri: http://edamontology.org/data_2531
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: UniProt accession
+          uri: http://edamontology.org/data_3021
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Experiment report
+          uri: http://edamontology.org/data_2531
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+  - cmd: null
+    input:
+      - data:
+          term: Spot serial number
+          uri: http://edamontology.org/data_2374
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Experiment report
+          uri: http://edamontology.org/data_2531
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Reference map name (SWISS-2DPAGE)
+          uri: http://edamontology.org/data_2791
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Experiment report
+          uri: http://edamontology.org/data_2531
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Reference map name (SWISS-2DPAGE)
+          uri: http://edamontology.org/data_2791
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Experiment report
+          uri: http://edamontology.org/data_2531
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+  - cmd: null
+    input:
+      - data:
+          term: Spot serial number
+          uri: http://edamontology.org/data_2374
+        format: []
+    note: null
+    operation:
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+    output:
+      - data:
+          term: Experiment report
+          uri: http://edamontology.org/data_2531
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+homepage: http://www.expasy.org/ch2d/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:54Z'
+license: null
+link: []
+maturity: null
+name: SWISS-2DPAGE
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: SIB
+publication:
+  - doi: 10.1002/pmic.200300830
+    metadata:
+      abstract: The SWISS-2DPAGE database was established in 1993 and is maintained
+        collaboratively by the Swiss Institute of Bioinformatics (SIB) and the Biomedical
+        Proteomics Research Group (BPRG) of the Geneva University Hospital. During
+        these years, SWISS-2DPAGE underwent constant modification and improvement.
+        Current content includes about 4000 identified spots corresponding to 1200
+        different protein entries in 36 reference maps from human, mouse, Arabidopsis
+        thaliana, Dictyostelium discoideum, Escherichia coli, Saccharomyces cerevisiae
+        and Staphylococcus aureus origins. With a high level of annotation and integration
+        with other relevant databases, SWISS-2DPAGE is a reference source in the proteomics
+        world. Queries to SWISS-2DPAGE database currently reach 1000 hits per day.
+      authors:
+        - name: Hoogland C.
+        - name: Mostaguir K.
+        - name: Sanchez J.-C.
+        - name: Hochstrasser D.F.
+        - name: Appel R.D.
+      citationCount: 79
+      date: '2004-08-01T00:00:00Z'
+      journal: Proteomics
+      title: SWISS-2DPAGE, ten years later
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Database portal
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+validated: 1
+version: []

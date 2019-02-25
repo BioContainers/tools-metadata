@@ -1,0 +1,91 @@
+accessibility: []
+additionDate: '2017-02-10T11:35:55Z'
+biotoolsCURIE: biotools:evacon
+biotoolsID: evacon
+collectionID: []
+cost: null
+credit:
+  - email: eva@cubic.bioc.columbia.edu
+    name: Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Automate the continuous evaluation of inter-residue contact prediction
+  servers. Results can be viewed statically or dynamically generated.
+documentation:
+  - note: null
+    type: General
+    url: http://www.pdg.cnb.uam.es/eva/doc/explain_methods.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Prediction and recognition
+        uri: http://edamontology.org/operation_2423
+      - term: Generation
+        uri: http://edamontology.org/operation_3429
+    output: []
+homepage: http://www.pdg.cnb.uam.es/eva/con/index.html
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link: []
+maturity: null
+name: EVAcon
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Here we introduce EVAcon, an automated web service that evaluates\
+        \ the performance of contact prediction servers. Currently, EVAcon is monitoring\
+        \ nine servers, four of which are specialized in contact prediction and five\
+        \ are general structure prediction servers. Results are compared for all newly\
+        \ determined experimental structures deposited into PDB (\u223C5-50 per week).\
+        \ EVAcon allows for a precise comparison of the results based on a system\
+        \ of common protein subsets and the commonly accepted evaluation criteria\
+        \ that are also used in the corresponding category of the CASP assessment.\
+        \ EVAcon is a new service added to the functionality of the EVA system for\
+        \ the continuous evaluation of protein structure prediction servers. The new\
+        \ service is accesible from any of the three EVA mirrors: PDG (CNB-CSIC, Madrid)\
+        \ (http://www.pdg.cnb.uam.es/ eva/con/index.html); CUBIC (Columbia University,\
+        \ NYC) (http://cubic.bioc.columbia.edu/eva/con/index.html); and Sali Lab (UCSF,\
+        \ San Francisco) (http://eva.compbio.ucsf.edu/~eva/con/index.html). \xA9 2005\
+        \ University Press."
+      authors:
+        - name: Grana O.
+        - name: Eyrich V.A.
+        - name: Pazos F.
+        - name: Rost B.
+        - name: Valencia A.
+      citationCount: 14
+      date: '2005-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'EVAcon: A protein contact prediction evaluation service'
+    pmcid: null
+    pmid: '15980486'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+validated: 1
+version: []

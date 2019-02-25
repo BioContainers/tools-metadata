@@ -1,0 +1,115 @@
+accessibility: []
+additionDate: '2015-08-03T09:37:03Z'
+biotoolsCURIE: biotools:mafft_ebi
+biotoolsID: mafft_ebi
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: BioCatalogue
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: https://www.biocatalogue.org
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://mafft.cbrc.jp/alignment/software/mailform.html
+description: A high-speed multiple sequence alignment program.
+documentation:
+  - note: http://www.ebi.ac.uk/Tools/webservices/services/msa/mafft_rest
+    type: General
+    url: http://mafft.cbrc.jp/alignment/software/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Multiple sequence alignment
+        uri: http://edamontology.org/operation_0492
+      - term: Sequence motif recognition
+        uri: http://edamontology.org/operation_0239
+    output: []
+homepage: https://www.ebi.ac.uk/Tools/msa/mafft/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:54Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: https://www.biocatalogue.org/services/2039
+  - note: null
+    type: Mirror
+    url: https://mafft.cbrc.jp/alignment/software/
+maturity: null
+name: MAFFT (EBI)
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: BioCatalogue
+publication:
+  - doi: 10.1093/bioinformatics/btw412
+    metadata:
+      abstract: "\xA9 The Author 2016. Published by Oxford University Press. All rights\
+        \ reserved.Motivation: Large multiple sequence alignments (MSAs), consisting\
+        \ of thousands of sequences, are becoming more and more common, due to advances\
+        \ in sequencing technologies. The MAFFT MSA program has several options for\
+        \ building large MSAs, but their performances have not been sufficiently assessed\
+        \ yet, because realistic benchmarking of large MSAs has been difficult. Recently,\
+        \ such assessments have been made possible through the HomFam and ContTest\
+        \ benchmark protein datasets. Along with the development of these datasets,\
+        \ an interesting theory was proposed: chained guide trees increase the accuracy\
+        \ of MSAs of structurally conserved regions. This theory challenges the basis\
+        \ of progressive alignment methods and needs to be examined by being compared\
+        \ with other known methods including computationally intensive ones. Results:\
+        \ We used HomFam, ContTest and OXFam (an extended version of OXBench) to evaluate\
+        \ several methods enabled in MAFFT: (1) a progressive method with approximate\
+        \ guide trees, (2) a progressive method with chained guide trees, (3) a combination\
+        \ of an iterative refinement method and a progressive method and (4) a less\
+        \ approximate progressive method that uses a rigorous guide tree and consistency\
+        \ score. Other programs, Clustal Omega and UPP, available for large MSAs,\
+        \ were also included into the comparison. The effect of method 2 (chained\
+        \ guide trees) was positive in ContTest but negative in HomFam and OXFam.\
+        \ Methods 3 and 4 increased the benchmark scores more consistently than method\
+        \ 2 for the three datasets, suggesting that they are safer to use."
+      authors:
+        - name: Yamada K.D.
+        - name: Tomii K.
+        - name: Katoh K.
+      citationCount: 42
+      date: '2016-11-01T00:00:00Z'
+      journal: Bioinformatics
+      title: Application of the MAFFT sequence alignment program to large data - Reexamination
+        of the usefulness of chained guide trees
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 1
+version:
+  - '1'

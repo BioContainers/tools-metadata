@@ -1,0 +1,100 @@
+accessibility: []
+additionDate: '2015-03-05T10:36:59Z'
+biotoolsCURIE: biotools:aria
+biotoolsID: aria
+collectionID:
+  - Instruct
+cost: Free of charge
+credit:
+  - email: null
+    name: Instruct
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: ccisb@stfc.ac.uk
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A software tool for automated NOE assignment and NMR structure calculation.
+documentation:
+  - note: null
+    type: General
+    url: http://aria.pasteur.fr/documentation
+download: []
+editPermission:
+  authors:
+    - bardiaux
+    - khillion
+  type: group
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: ARIA (Ambiguous Restraints for Iterative Assignment) is a software tool
+      for automated NOE assignment and NMR structure calculation
+    operation:
+      - term: Protein structure assignment
+        uri: http://edamontology.org/operation_0320
+    output: []
+homepage: http://aria.pasteur.fr/
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:54Z'
+license: MIT
+link: []
+maturity: Mature
+name: ARIA
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: hmenager
+publication:
+  - doi: 10.1093/bioinformatics/19.2.315
+    metadata:
+      abstract: 'Motivation: In the light of several ongoing structural genomics projects,
+        faster and more reliable methods for structure calculation from NMR data are
+        in great demand. The major bottleneck in the determination of solution NMR
+        structures is the assignment of NOE peaks (nuclear Overhauser effect). Due
+        to the high complexity of the assignment problem, most NOEs cannot be directly
+        converted into unambiguous inter-proton distance restraints. Results: We present
+        version 1.2 of our program ARIA (Ambiguous Restraints for Iterative Assignment)
+        for automated assignment of NOE data and NMR structure calculation. We summarize
+        recent progress in correcting for spin diffusion with a relaxation matrix
+        approach, representing non-bonded interactions in the force field and refining
+        final structures in explicit solvent. We also discuss book-keeping, data exchange
+        with spectra assignment programs and deposition of the analysed experimental
+        data to the databases.'
+      authors:
+        - name: Linge J.P.
+        - name: Habeck M.
+        - name: Rieping W.
+        - name: Nilges M.
+      citationCount: 279
+      date: '2003-02-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'ARIA: Automated NOE assignment and NMR structure calculation'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Structural biology
+    uri: http://edamontology.org/topic_1317
+  - term: NMR
+    uri: http://edamontology.org/topic_0593
+validated: 1
+version:
+  - '1'

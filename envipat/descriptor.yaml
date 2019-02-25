@@ -1,0 +1,113 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:55Z'
+biotoolsCURIE: biotools:envipat
+biotoolsID: envipat
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: martin.loos@alumni.ethz.ch
+    name: Martin Loos
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Batch fine structure, profile and centroid calculation with resolution
+  settings provided.
+documentation:
+  - note: null
+    type: General
+    url: https://cran.r-project.org/web/packages/enviPat/enviPat.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Isotopic distributions calculation
+        uri: http://edamontology.org/operation_3632
+    output: []
+homepage: http://cran.r-project.org/web/packages/enviPat/index.html
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:54Z'
+license: GPL-2.0
+link:
+  - note: null
+    type: Mirror
+    url: http://www.envipat.eawag.ch/
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: enviPat
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: 10.1021/acs.analchem.5b00941
+    metadata:
+      abstract: "\xA9 2015 American Chemical Society. A fast and memory-efficient\
+        \ calculation of theoretical isotope patterns is crucial for the routine interpretation\
+        \ of mass spectrometric data. For high-resolution experiments, calculations\
+        \ must procure the exact masses and probabilities of relevant isotopologues\
+        \ over a wide range of polyisotopic compounds, while pruning low-probable\
+        \ ones. Here, a novel albeit simple treelike structure is introduced to swiftly\
+        \ derive sets of relevant subisotopologues for each element in a molecule,\
+        \ which are then combined to the isotopologues of the full molecule. In contrast\
+        \ to existing approaches, transitions via single replacements of the most\
+        \ abundant isotope per element are used in separable tree branches to derive\
+        \ subisotopologues from each other. Moreover, the underlying transition trees\
+        \ prevent redundant replacements and permit the detection of the most probable\
+        \ isotopologue in a first phase. A relative threshold can then be exploited\
+        \ in a second parallelized phase for a precise prepruning of large fractions\
+        \ of the remaining subisotopologues. The gain in performance from such early\
+        \ pruning and the lower variation in the distortion of simulated data with\
+        \ use of relative rather than absolute thresholds were validated in a large-scale\
+        \ benchmark simulation, unprecedentedly comprising several thousand molecular\
+        \ formulas. Both the algorithm and a wealth of related features are freely\
+        \ available as R-package enviPat and as a user-friendly Web interface."
+      authors:
+        - name: Loos M.
+        - name: Gerber C.
+        - name: Corona F.
+        - name: Hollender J.
+        - name: Singer H.
+      citationCount: 19
+      date: '2015-06-02T00:00:00Z'
+      journal: Analytical Chemistry
+      title: Accelerated isotope fine structure calculation using pruned transition
+        trees
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

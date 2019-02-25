@@ -1,0 +1,95 @@
+accessibility: []
+additionDate: '2017-08-03T18:43:12Z'
+biotoolsCURIE: biotools:fsuite
+biotoolsID: fsuite
+collectionID: []
+cost: null
+credit:
+  - email: fsuite.software@gmail.com
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Integrative solution to exploit inbreeding in dense SNP chip and exome
+  data.
+documentation:
+  - note: null
+    type: General
+    url: http://genestat.cephb.fr/software/FSuite/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Genetic variation analysis
+        uri: http://edamontology.org/operation_3197
+    output: []
+homepage: http://genestat.cephb.fr/software/index.php/FSuite
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/fsuite-1-0-2-exploit-inbreeding-in-dense-snp-chip-and-exome-data.html
+maturity: null
+name: FSuite
+operatingSystem:
+  - Linux
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Summary: FSuite is a user-friendly pipeline developed for exploiting\
+        \ inbreeding information derived from human genomic data. It can make use\
+        \ of single nucleotide polymorphism chip or exome data. Compared with other\
+        \ software, the advantage of FSuite is that it provides a complete suite of\
+        \ scripts to describe and use the inbreeding information. It includes a module\
+        \ to detect inbred individuals and estimate their inbreeding coefficient,\
+        \ a module to describe the proportion of different mating types in the population\
+        \ and the individual probability to be offspring of different mating types\
+        \ that can be useful for population genetic studies. It also allows the identification\
+        \ of shared regions of homozygosity between affected individuals (homozygosity\
+        \ mapping) that can be used to identify rare recessive mutations involved\
+        \ in monogenic or multifactorial diseases. \xA9 The Author 2014."
+      authors:
+        - name: Gazal S.
+        - name: Sahbatou M.
+        - name: Babron M.-C.
+        - name: Genin E.
+        - name: Leutenegger A.-L.
+      citationCount: 14
+      date: '2014-07-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'FSuite: Exploiting inbreeding in dense SNP chip and exome data'
+    pmcid: null
+    pmid: '24632498'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: ChIP-seq
+    uri: http://edamontology.org/topic_3169
+  - term: DNA polymorphism
+    uri: http://edamontology.org/topic_2885
+  - term: Genetics
+    uri: http://edamontology.org/topic_3053
+  - term: Population genetics
+    uri: http://edamontology.org/topic_3056
+validated: 1
+version: []

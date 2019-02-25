@@ -1,0 +1,108 @@
+accessibility: []
+additionDate: '2017-08-03T18:56:41Z'
+biotoolsCURIE: biotools:proteinfuncpred
+biotoolsID: proteinfuncpred
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://sfb.kaust.edu.sa/Pages/ContactUs.aspx
+description: Software of two domain-based protein function prediction methods that
+  encode domain recurrence and order information.
+documentation:
+  - note: null
+    type: General
+    url: https://sfb.kaust.edu.sa/Pages/Software.aspx
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein function prediction
+        uri: http://edamontology.org/operation_1777
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein function prediction
+        uri: http://edamontology.org/operation_1777
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+homepage: http://sfb.kaust.edu.sa/Pages/Software.aspx
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:54Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/proteinfuncpred-protein-function-prediction.html
+maturity: null
+name: ProteinFuncPred
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: Burgeoning sequencing technologies have generated massive\
+        \ amounts of genomic and proteomic data. Annotating the functions of proteins\
+        \ identified in this data has become a big and crucial problem. Various computational\
+        \ methods have been developed to infer the protein functions based on either\
+        \ the sequences or domains of proteins. The existing methods, however, ignore\
+        \ the recurrence and the order of the protein domains in this function inference.\
+        \ Results: We developed two new methods to infer protein functions based on\
+        \ protein domain recurrence and domain order. Our first method, DRDO, calculates\
+        \ the posterior probability of the Gene Ontology terms based on domain recurrence\
+        \ and domain order information, whereas our second method, DRDO-NB, relies\
+        \ on the na\xEFve Bayes methodology using the same domain architecture information.\
+        \ Our large-scale benchmark comparisons show strong improvements in the accuracy\
+        \ of the protein function inference achieved by our new methods, demonstrating\
+        \ that domain recurrence and order can provide important information for inference\
+        \ of protein functions. \xA9 The Author(s) 2012. Published by Oxford University\
+        \ Press."
+      authors:
+        - name: Messih M.A.
+        - name: Chitale M.
+        - name: Bajic V.B.
+        - name: Kihara D.
+        - name: Gao X.
+      citationCount: 18
+      date: '2012-09-01T00:00:00Z'
+      journal: Bioinformatics
+      title: Protein domain recurrence and order can enhance prediction of protein
+        functions
+    pmcid: null
+    pmid: '22962465'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Function analysis
+    uri: http://edamontology.org/topic_1775
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+validated: 1
+version: []

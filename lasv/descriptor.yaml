@@ -1,0 +1,105 @@
+accessibility: []
+additionDate: '2017-08-03T19:06:36Z'
+biotoolsCURIE: biotools:lasv
+biotoolsID: lasv
+collectionID: []
+cost: null
+credit:
+  - email: jiali.zhuang@umassmed.edu
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://www.umassmed.edu/zlab/people/lab-members/
+description: Software that employs a local de novo assembly based approach to detect
+  genomic structural variations from whole-genome high-throughput sequencing datasets.
+documentation:
+  - note: null
+    type: Manual
+    url: https://github.com/JialiUMassWengLab/laSV/blob/master/Manual
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence assembly
+        uri: http://edamontology.org/operation_0310
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Structure analysis
+        uri: http://edamontology.org/operation_2480
+    output: []
+homepage: https://zlab.umassmed.edu/~zhuangj/laSV/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/lasv-local-assembly-based-structural-variation-discovery-tool.html
+maturity: null
+name: laSV
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author(s) 2015. Genomic structural variations (SVs) are\
+        \ pervasive in many types of cancers. Characterizing their underlying mechanisms\
+        \ and potential molecular consequences is crucial for understanding the basic\
+        \ biology of tumorigenesis. Here, we engineered a local assembly-based algorithm\
+        \ (laSV) that detects SVs with high accuracy from paired-end high-throughput\
+        \ genomic sequencing data and pinpoints their breakpoints at single base-pair\
+        \ resolution. By applying laSV to 97 tumor-normal paired genomic sequencing\
+        \ datasets across six cancer types produced by The Cancer Genome Atlas Research\
+        \ Network, we discovered that non-allelic homologous recombination is the\
+        \ primary mechanism for generating somatic SVs in acute myeloid leukemia.\
+        \ This finding contrasts with results for the other five types of solid tumors,\
+        \ in which non-homologous end joining andmicrohomology end joining are the\
+        \ predominant mechanisms. We also found that the genes recursively mutated\
+        \ by single nucleotide alterations differed from the genes recursively mutated\
+        \ by SVs, suggesting that these two types of genetic alterations play different\
+        \ roles during cancer progression. We further characterized how the gene structures\
+        \ of the oncogene JAK1 and the tumor suppressors KDM6A and RB1 are affected\
+        \ by somatic SVs and discussed the potential functional implications of intergenic\
+        \ SVs."
+      authors:
+        - name: Zhuang J.
+        - name: Weng Z.
+      citationCount: 7
+      date: '2015-09-30T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: Local sequence assembly reveals a high-resolution profile of somatic
+        structural variations in 97 cancer genomes
+    pmcid: null
+    pmid: '26283183'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Structural genomics
+    uri: http://edamontology.org/topic_0122
+  - term: Genetic variation
+    uri: http://edamontology.org/topic_0199
+  - term: Population genomics
+    uri: http://edamontology.org/topic_3796
+  - term: Oncology
+    uri: http://edamontology.org/topic_2640
+validated: 1
+version: []

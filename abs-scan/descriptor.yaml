@@ -1,0 +1,71 @@
+accessibility: []
+additionDate: '2017-08-03T18:35:31Z'
+biotoolsCURIE: biotools:abs-scan
+biotoolsID: abs-scan
+collectionID: []
+cost: null
+credit:
+  - email: nchandra@biochem.iisc.ernet.in
+    name: Nagasuma Chandra
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://proline.physics.iisc.ernet.in/chandralab/
+description: Performs alanine scanning mutagenesis for a given protein-ligand complex.
+documentation:
+  - note: null
+    type: General
+    url: http://proline.biochem.iisc.ernet.in/abscan/index.php
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence motif recognition
+        uri: http://edamontology.org/operation_0239
+      - term: Prediction and recognition
+        uri: http://edamontology.org/operation_2423
+    output: []
+homepage: http://proline.biochem.iisc.ernet.in/abscan/
+homepage_status: 0
+language:
+  - PHP
+lastUpdate: '2018-12-10T12:58:54Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/abs-scan-webserver-for-insilico-binding-site-alanine-scanning-mutagenesis.html
+maturity: null
+name: ABS-Scan
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata: null
+    pmcid: null
+    pmid: '25685322'
+    type: null
+    version: null
+toolType:
+  - Web service
+topic:
+  - term: Molecular modelling
+    uri: http://edamontology.org/topic_2275
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+validated: 1
+version: []

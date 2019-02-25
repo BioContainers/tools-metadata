@@ -1,0 +1,86 @@
+accessibility: []
+additionDate: '2017-02-14T09:34:45Z'
+biotoolsCURIE: biotools:pepserve
+biotoolsID: pepserve
+collectionID: []
+cost: null
+credit:
+  - email: gspyrou@bioacademy.gr
+    name: George M. Spyrou
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Web server for peptide analysis, clustering and visualization.
+documentation:
+  - note: null
+    type: General
+    url: http://bioserver-1.bioacademy.gr/Bioserver/PepServe/workflow.htm
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+homepage: http://bioserver-1.bioacademy.gr/Bioserver/PepServe/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link: []
+maturity: null
+name: PepServe
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Peptides, either as protein fragments or as naturally occurring entities\
+        \ are characterized by their sequence and function features. Many times the\
+        \ researchers need to massively manage peptide lists concerning protein identification,\
+        \ biomarker discovery, bioactivity, immune response or other functionalities.\
+        \ We present a web server that manages peptide lists in terms of feature analysis\
+        \ as well as interactive clustering and visualization of the given peptides.\
+        \ PepServe is a useful tool in the understanding of the peptide feature distribution\
+        \ among a group of peptides. The PepServe web application is freely available\
+        \ at http://bioserver-1.bioacademy.gr/Bioserver/PepServe/. \xA9 2011 The Author(s)."
+      authors:
+        - name: Alexandridou A.
+        - name: Dovrolis N.
+        - name: Tsangaris G.T.
+        - name: Nikita K.
+        - name: Spyrou G.
+      citationCount: 4
+      date: '2011-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'PepServe: A web server for peptide analysis, clustering and visualization'
+    pmcid: null
+    pmid: '21572105'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+validated: 1
+version: []

@@ -1,0 +1,89 @@
+accessibility: []
+additionDate: '2017-01-13T13:16:15Z'
+biotoolsCURIE: biotools:segemehl
+biotoolsID: segemehl
+collectionID: []
+cost: null
+credit:
+  - email: steve@bioinf.uni-leipzig.de
+    name: segemehl Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://hoffmann.bioinf.uni-leipzig.de/LIFE/Home.html
+description: A software to map short sequencer reads to reference genomes. Unlike
+  other methods, segemehl is able to detect not only mismatches but also insertions
+  and deletions. Furthermore, this tool is not limited to a specific read length and
+  is able to map primer- or polyadenylation contaminated reads correctly.
+documentation:
+  - note: null
+    type: General
+    url: http://hoffmann.bioinf.uni-leipzig.de/LIFE/segemehl.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: DNA mapping
+        uri: http://edamontology.org/operation_2520
+    output: []
+homepage: http://hoffmann.bioinf.uni-leipzig.de/LIFE/segemehl.html
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:54Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/segemehl-0-1-fast-short-read-mapping-indels.html
+maturity: null
+name: segemehl
+operatingSystem:
+  - Linux
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: Next-generation sequencing has become an important tool\
+        \ in molecular biology. Various protocols to investigate genomic, transcriptomic\
+        \ and epigenomic features across virtually all species and tissues have been\
+        \ devised. For most of these experiments, one of the first crucial steps of\
+        \ bioinformatic analysis is the mapping of reads to reference genomes. Results:\
+        \ Here, we present thorough benchmarks of our read aligner segemehl in comparison\
+        \ with other state-of-the-art methods. Furthermore, we introduce the tool\
+        \ lack to rescue unmapped RNA-seq reads which works in conjunction with segemehl\
+        \ and many other frequently used split-read aligners. \xA9 The Author 2014."
+      authors:
+        - name: Otto C.
+        - name: Stadler P.F.
+        - name: Hoffmann S.
+      citationCount: 19
+      date: '2014-07-01T00:00:00Z'
+      journal: Bioinformatics
+      title: Lacking alignments? The next-generation sequencing mapper segemehl revisited
+    pmcid: null
+    pmid: '24626854'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+validated: 1
+version: []

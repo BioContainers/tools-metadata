@@ -1,0 +1,104 @@
+accessibility: []
+additionDate: '2017-05-02T10:00:48Z'
+biotoolsCURIE: biotools:rnsc
+biotoolsID: rnsc
+collectionID: []
+cost: null
+credit:
+  - email: juris@ai.utoronto.ca
+    name: Dr. Igor Jurisica
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: This tool efficiently partitions networks into clusters using a cost
+  function. Used to detect known and predict still undiscovered protein complexes
+  within the cell's protein-protein interaction (PPI) network. The increasing amount
+  of available PPI data necessitates an accurate and scalable approach to protein
+  complex identification.
+documentation:
+  - note: null
+    type: General
+    url: http://www.cs.utoronto.ca/~juris/data/rnsc/rnsc_techreport.ps
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Pathway or network prediction
+        uri: http://edamontology.org/operation_3439
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+      - term: Protein-protein interaction prediction
+        uri: http://edamontology.org/operation_2464
+      - term: Protein interaction prediction
+        uri: http://edamontology.org/operation_2492
+    output: []
+homepage: http://www.cs.utoronto.ca/~juris/data/rnsc/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:54Z'
+license: null
+link: []
+maturity: null
+name: RNSC
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Motivation: Understanding principles of cellular organization and\
+        \ function can be enhanced if we detect known and predict still undiscovered\
+        \ protein complexes within the cell's protein-protein interaction (PPI) network.\
+        \ Such predictions may be used as an inexpensive tool to direct biological\
+        \ experiments. The increasing amount of available PPI data necessitates an\
+        \ accurate and scalable approach to protein complex identification. Results:\
+        \ We have developed the Restricted Neighborhood Search Clustering Algorithm\
+        \ (RNSC) to efficiently partition networks into clusters using a cost function.\
+        \ We applied this cost-based clustering algorithm to PPI networks of Saccharomyces\
+        \ cerevisiae, Drosophila melanogaster and Caenorhabditis elegans to identify\
+        \ and predict protein complexes. We have determined functional and graph-theoretic\
+        \ properties of true protein complexes from the MIPS database. Based on these\
+        \ properties, we defined filters to distinguish between identified network\
+        \ clusters and true protein complexes. Conclusions: Our application of the\
+        \ cost-based clustering algorithm provides an accurate and scalable method\
+        \ of detecting and predicting protein complexes within a PPI network. \xA9\
+        \ Oxford University Press 2004; all rights reserved."
+      authors:
+        - name: King A.D.
+        - name: Przulj N.
+        - name: Jurisica I.
+      citationCount: 466
+      date: '2004-11-22T00:00:00Z'
+      journal: Bioinformatics
+      title: Protein complex prediction via cost-based clustering
+    pmcid: null
+    pmid: '15180928'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Proteins
+    uri: http://edamontology.org/topic_0078
+  - term: Function analysis
+    uri: http://edamontology.org/topic_1775
+validated: 1
+version: []

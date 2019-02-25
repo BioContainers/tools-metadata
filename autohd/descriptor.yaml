@@ -1,0 +1,109 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:45Z'
+biotoolsCURIE: biotools:autohd
+biotoolsID: autohd
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: magnus.palmblad@gmail.com
+    name: Magnus Palmblad
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Maintainer
+    url: null
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Analysis of H/D-exchange data using isotopic distributions.
+documentation:
+  - note: null
+    type: General
+    url: http://www.ms-utils.org/autohd.html
+download:
+  - note: null
+    type: Source code
+    url: http://www.ms-utils.org/autohd_download.html
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein hydrogen exchange rate calculation
+        uri: http://edamontology.org/operation_0404
+      - term: Protein structure analysis
+        uri: http://edamontology.org/operation_2406
+    output: []
+homepage: http://www.ms-utils.org/autohd.html
+homepage_status: 0
+language:
+  - C
+lastUpdate: '2018-12-10T12:58:54Z'
+license: GPL-3.0
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: AUTOHD
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "High mass-resolving power has been shown to be useful for studying\
+        \ the conformational dynamics of proteins by hydrogen/deuterium (H/D) exchange.\
+        \ A computer algorithm was developed that automatically identifies peptides\
+        \ and their extent of deuterium incorporation from H/D exchange mass spectra\
+        \ of enzymatic digests or fragment ions produced by collisionally induced\
+        \ dissociation (CID) or electron capture dissociation (ECD). The computer\
+        \ algorithm compares measured and calculated isotopic distributions and uses\
+        \ a fast calculation of isotopic distributions using the fast Fourier transform\
+        \ (FFT). The algorithm facilitates rapid and automated analysis of H/D exchange\
+        \ mass spectra suitable for high-throughput approaches to the study of peptide\
+        \ and protein structures. The algorithm also makes the identification independent\
+        \ on comparisons with undeuterated control samples. The applicability of the\
+        \ algorithm was demonstrated on simulated isotopic distributions as well as\
+        \ on experimental data, such as Fourier transform ion cyclotron resonance\
+        \ (FTICR) mass spectra of myoglobin peptic digests, and CID and ECD spectra\
+        \ of substance P. Copyright \xA9 2001 American Society for Mass Spectrometry."
+      authors:
+        - name: Palmblad M.
+        - name: Buijs J.
+        - name: Hakansson P.
+      citationCount: 49
+      date: '2001-12-01T00:00:00Z'
+      journal: Journal of the American Society for Mass Spectrometry
+      title: Automatic analysis of hydrogen/deuterium exchange mass spectra of peptides
+        and proteins using calculations of isotopic distributions
+    pmcid: null
+    pmid: '11720389'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []

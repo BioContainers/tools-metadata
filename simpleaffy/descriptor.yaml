@@ -1,0 +1,115 @@
+accessibility: []
+additionDate: '2017-01-17T14:58:36Z'
+biotoolsCURIE: biotools:simpleaffy
+biotoolsID: simpleaffy
+collectionID:
+  - BioConductor
+cost: null
+credit:
+  - email: cmiller@picr.man.ac.uk
+    name: Crispin Miller
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Provides high level functions for reading Affy .CEL files, phenotypic
+  data, and then computing simple things with it, such as t-tests, fold changes and
+  the like. Makes heavy use of the affy library. Also has some basic scatter plot
+  functions and mechanisms for generating high resolution journal figures.
+documentation:
+  - note: null
+    type: Manual
+    url: http://bioconductor.org/packages/release/bioc/html/simpleaffy.html
+download:
+  - note: null
+    type: Source code
+    url: http://bioconductor/packages/release/bioc/src/contrib/simpleaffy_2.50.0.tar.gz
+    version: null
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Raw microarray data
+          uri: http://edamontology.org/data_3110
+        format:
+          - term: cel
+            uri: http://edamontology.org/format_1638
+          - term: dat
+            uri: http://edamontology.org/format_1637
+    note: null
+    operation:
+      - term: Pairwise sequence alignment
+        uri: http://edamontology.org/operation_0491
+      - term: Scatter plot plotting
+        uri: http://edamontology.org/operation_2940
+      - term: Gene expression analysis
+        uri: http://edamontology.org/operation_2495
+    output:
+      - data:
+          term: Plot
+          uri: http://edamontology.org/data_2884
+        format:
+          - term: Image format
+            uri: http://edamontology.org/format_3547
+homepage: http://bioconductor.org/packages/release/bioc/html/simpleaffy.html
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:54Z'
+license: GPL-2.0
+link:
+  - note: null
+    type: Mirror
+    url: http://www.bioconductor.org
+  - note: null
+    type: Mirror
+    url: http://bioinformatics.picr.man.ac.uk/simpleaffy/
+maturity: null
+name: simpleaffy
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: bioconductor_import
+publication:
+  - doi: 10.1093/bioinformatics/bti605
+    metadata:
+      abstract: "Summary: Quality Control is a fundamental aspect of successful microarray\
+        \ data analysis. Simpleaffy is a BioConductor package that provides access\
+        \ to a variety of QC metrics for assessing the quality of RNA samples and\
+        \ of the intermediate stages of sample preparation and hybridization. Simpleaffy\
+        \ also offers fast implementations of popular algorithms for generating expression\
+        \ summaries and detection calls. \xA9 The Author 2005. Published by Oxford\
+        \ University Press. All rights reserved."
+      authors:
+        - name: Wilson C.L.
+        - name: Miller C.J.
+      citationCount: 240
+      date: '2005-09-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'Simpleaffy: A BioConductor package for Affymetrix Quality Control and
+        data analysis'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Command-line tool
+  - Library
+topic:
+  - term: Microarray experiment
+    uri: http://edamontology.org/topic_3518
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+validated: 1
+version:
+  - 2.50.0

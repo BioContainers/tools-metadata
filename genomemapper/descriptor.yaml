@@ -1,0 +1,85 @@
+accessibility: []
+additionDate: '2017-01-13T13:14:50Z'
+biotoolsCURIE: biotools:genomemapper
+biotoolsID: genomemapper
+collectionID: []
+cost: null
+credit:
+  - email: schneeberger@mpipz.mpg.de
+    name: Korbinian Schneeberger
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: A short read mapping tool designed for accurate read alignments. It quickly
+  aligns millions of reads either with ungapped or gapped alignments. It can be used
+  to align against multiple genomes simulanteously or against a single reference.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Read mapping
+        uri: http://edamontology.org/operation_3198
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output: []
+homepage: http://1001genomes.org/software/genomemapper.html
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:54Z'
+license: null
+link: []
+maturity: null
+name: GenomeMapper
+operatingSystem:
+  - Linux
+otherID: []
+owner: seqwiki_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "Genome resequencing with short reads generally relies on alignments\
+        \ against a single reference. GenomeMapper supports simultaneous mapping of\
+        \ short reads against multiple genomes by integrating related genomes (e.g.,\
+        \ individuals of the same species) into a single graph structure. It constitutes\
+        \ the first approach for handling multiple references and introduces representations\
+        \ for alignments against complex structures. Demonstrated benefits include\
+        \ access to polymorphisms that cannot be identified by alignments against\
+        \ the reference alone. Download GenomeMapper at http://1001genomes.org \xA9\
+        \ 2009 Schneeberger et al.; licensee BioMed Central Ltd."
+      authors:
+        - name: Schneeberger K.
+        - name: Hagmann J.
+        - name: Ossowski S.
+        - name: Warthmann N.
+        - name: Gesing S.
+        - name: Kohlbacher O.
+        - name: Weigel D.
+      citationCount: 110
+      date: '2009-09-17T00:00:00Z'
+      journal: Genome Biology
+      title: Simultaneous alignment of short reads against multiple genomes
+    pmcid: null
+    pmid: '19761611'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Mapping
+    uri: http://edamontology.org/topic_0102
+validated: 1
+version: []

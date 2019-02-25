@@ -1,0 +1,88 @@
+accessibility: []
+additionDate: '2017-08-03T19:08:28Z'
+biotoolsCURIE: biotools:stringgaussnet
+biotoolsID: stringgaussnet
+collectionID: []
+cost: null
+credit:
+  - email: emmanuel.chaplais@inserm.fr
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: "A toolbox for a construction of protein-protein interaction networks\
+  \ through the \u2018STRING\u2019 application programming interface, and an inference\
+  \ of Gaussian networks through \u2018SIMoNe\u2019 and \u2018WGCNA\u2019 approach,\
+  \ from DE genes analysis results and expression data. Additional functions are provided\
+  \ to import automatically networks into an active \u2018Cytoscape\u2019 session."
+documentation:
+  - note: null
+    type: General
+    url: https://cran.r-project.org/web/packages/stringgaussnet/stringgaussnet.pdf
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Protein-protein interaction prediction
+        uri: http://edamontology.org/operation_2464
+    output: []
+homepage: https://cran.r-project.org/web/packages/stringgaussnet/
+homepage_status: 0
+language:
+  - R
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/stringgaussnet-ppi-and-gaussian-network-construction-from-transcriptomic-analysis-results-integrating-a-multilevel-factor.html
+maturity: null
+name: stringgaussnet
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2015. Published by Oxford University Press. All rights\
+        \ reserved. Motivation: Knowledge-based and co-expression networks are two\
+        \ kinds of gene networks that can be currently implemented by sophisticated\
+        \ but distinct tools. We developed stringgaussnet, an R package that integrates\
+        \ both approaches, starting from a list of differentially expressed genes."
+      authors:
+        - name: Chaplais E.
+        - name: Garchon H.-J.
+      citationCount: 0
+      date: '2015-06-18T00:00:00Z'
+      journal: Bioinformatics
+      title: 'Stringgaussnet: From differentially expressed genes to semantic and
+        Gaussian networks generation'
+    pmcid: null
+    pmid: '26231430'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: Systems biology
+    uri: http://edamontology.org/topic_2259
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+validated: 1
+version: []

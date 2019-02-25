@@ -1,0 +1,103 @@
+accessibility: []
+additionDate: '2017-02-10T11:35:41Z'
+biotoolsCURIE: biotools:patmatch
+biotoolsID: patmatch
+collectionID: []
+cost: null
+credit:
+  - email: curator@arabidopsis.org
+    name: PatchMatch Support
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: PatMatch is a pattern matching tool that allows you to search for short
+  (<20 residues) nucleotide or peptide sequences and can accomodate ambiguous/degenerate
+  patterns.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+      - term: Sequence ambiguity calculation
+        uri: http://edamontology.org/operation_0235
+      - term: Protein sequence analysis
+        uri: http://edamontology.org/operation_2479
+    output: []
+homepage: http://www.arabidopsis.org/cgi-bin/patmatch/nph-patmatch.pl
+homepage_status: 0
+language:
+  - Perl
+lastUpdate: '2018-12-10T12:58:54Z'
+license: null
+link: []
+maturity: null
+name: PatMatch
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Here, we present PatMatch, an efficient, web-based pattern-matching\
+        \ program that enables searches for short nucleotide or peptide sequences\
+        \ such as cis-elements in nucleotide sequences or small domains and motifs\
+        \ in protein sequences. The program can be used to find matches to a user-specified\
+        \ sequence pattern that can be described using ambiguous sequence codes and\
+        \ a powerful and flexible pattern syntax based on regular expressions. A recent\
+        \ upgrade has improved performance and now supports both mismatches and wildcards\
+        \ in a single pattern. This enhancement has been achieved by replacing the\
+        \ previous searching algorithm, scan_for_matches [D'Souza et al. (1997), Trends\
+        \ in Genetics, 13, 497-498], with nondeterministic-reverse grep (NR-grep),\
+        \ a general pattern matching tool that allows for approximate string matching\
+        \ [Navarro (2001), Software Practice and Experience, 31, 1265-1312]. We have\
+        \ tailored NR-grep to be used for DNA and protein searches with PatMatch.\
+        \ The stand-alone version of the software can be adapted for use with any\
+        \ sequence dataset and is available for download at The Arabidopsis Information\
+        \ Resource (TAIR) at ftp://ftp.arabidopsis.org/home/tair/Software/Patmatch/.\
+        \ The PatMatch server is available on the web at http://www.arabidopsis.org/\
+        \ cgi-bin/patmatch/nph-patmatch.pl for searching Arabidopsis thaliana sequences.\
+        \ \xA9 2005 Oxford University Press."
+      authors:
+        - name: Yan T.
+        - name: Yoo D.
+        - name: Berardini T.Z.
+        - name: Mueller L.A.
+        - name: Weems D.C.
+        - name: Weng S.
+        - name: Cherry J.M.
+        - name: Rhee S.Y.
+      citationCount: 62
+      date: '2005-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'PatMatch: A program for finding patterns in peptide and nucleotide sequences'
+    pmcid: null
+    pmid: '15980466'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+validated: 1
+version: []

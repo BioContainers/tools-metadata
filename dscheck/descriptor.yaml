@@ -1,0 +1,90 @@
+accessibility: []
+additionDate: '2017-02-10T14:14:34Z'
+biotoolsCURIE: biotools:dscheck
+biotoolsID: dscheck
+collectionID: []
+cost: null
+credit: []
+description: Takes a nucleotide sequence as input and estimates off-target effects
+  caused by dsRNA (double-stranded RNA) employed in RNAi studies. It can be used either
+  to verify previously designed dsRNA sequences, or to design off-target minimized
+  dsRNAs.
+documentation:
+  - note: null
+    type: General
+    url: http://alps3.gi.k.u-tokyo.ac.jp/~dscheck/main/help/verify.html
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Design
+        uri: http://edamontology.org/operation_2430
+    output: []
+homepage: http://dscheck.rnai.jp/
+homepage_status: 0
+language: []
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link: []
+maturity: null
+name: dsCheck
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: ELIXIR-EE
+publication:
+  - doi: null
+    metadata:
+      abstract: "Off-target effects are one of the most serious problems in RNA interference\
+        \ (RNAi). Here, we present dsCheck (http://dsCheck.RNAi.jp/), web-based online\
+        \ software for estimating off-target effects caused by the long double-stranded\
+        \ RNA (dsRNA) used in RNAi studies. In the biochemical process of RNAi, the\
+        \ long dsRNA is cleaved by Dicer into short-interfering RNA (siRNA) cocktails.\
+        \ The software simulates this process and investigates individual 19 nt substrings\
+        \ of the long dsRNA. Subsequently, the software promptly enumerates a list\
+        \ of potential off-target gene candidates based on the order of off-target\
+        \ effects using its novel algorithm, which significantly improves both the\
+        \ efficiency and the sensitivity of the homology search. The website not only\
+        \ provides a rigorous off-target search to verify previously designed dsRNA\
+        \ sequences but also presents 'off-target minimized' dsRNA design, which is\
+        \ essential for reliable experiments in RNAi-based functional genomics. \xA9\
+        \ 2005 Oxford University Press."
+      authors:
+        - name: Naito Y.
+        - name: Yamada T.
+        - name: Matsumiya T.
+        - name: Ui-Tei K.
+        - name: Saigo K.
+        - name: Morishita S.
+      citationCount: 96
+      date: '2005-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'dsCheck: Highly sensitive off-target search software for double-stranded
+        RNA-mediated RNA interference'
+    pmcid: null
+    pmid: '15980542'
+    type: null
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Functional, regulatory and non-coding RNA
+    uri: http://edamontology.org/topic_0659
+  - term: Experimental design and studies
+    uri: http://edamontology.org/topic_3678
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+validated: 1
+version: []

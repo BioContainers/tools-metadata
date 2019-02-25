@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2017-01-17T14:51:41Z'
+biotoolsCURIE: biotools:xpress
+biotoolsID: xpress
+collectionID:
+  - ms-utils
+cost: null
+credit:
+  - email: webmaster@ms-utils.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Documentor
+    url: http://ms-utils.org
+description: Calculates relative abundances from ICAT, cICAT, SILAC and other N-14/N-15
+  experiments.
+documentation:
+  - note: null
+    type: General
+    url: http://tools.proteomecenter.org/wiki/index.php?title=Software:XPRESS
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: SILAC
+        uri: http://edamontology.org/operation_3638
+      - term: Metabolic labeling
+        uri: http://edamontology.org/operation_3715
+    output: []
+homepage: http://tools.proteomecenter.org/XPRESS.php
+homepage_status: 0
+language:
+  - C++
+lastUpdate: '2018-12-10T12:58:54Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://ms-utils.org
+maturity: null
+name: XPRESS
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: msutils_import
+publication:
+  - doi: null
+    metadata:
+      abstract: 'An approach to the systematic identification and quantification of
+        the proteins contained in the microsomal fraction of cells is described. It
+        consists of three steps: (1) preparation of microsomal fractions from cells
+        or tissues representing different states; (2) covalent tagging of the proteins
+        with isotope-coded affinity tag (ICAT) reagents followed by proteolysis of
+        the combined labeled protein samples; and (3) isolation, identification, and
+        quantification of the tagged peptides by multidimensional chromatography,
+        automated tandem mass spectrometry, and computational analysis of the obtained
+        data. The method was used to identify and determine the ratios of abundance
+        of each of 491 proteins contained in the microsomal fractions of naive and
+        in vitrodifferentiated human myeloid leukemia (HL-60) cells. The method and
+        the new software tools to support it are well suited to the large-scale, quantitative
+        analysis of membrane proteins and other classes of proteins that have been
+        refractory to standard proteomics technology.'
+      authors:
+        - name: Han D.K.
+        - name: Eng J.
+        - name: Zhou H.
+        - name: Aebersold R.
+      citationCount: 785
+      date: '2001-10-20T00:00:00Z'
+      journal: Nature Biotechnology
+      title: Quantitative profiling of differentiation-induced microsomal proteins
+        using isotope-coded affinity tags and mass spectrometry
+    pmcid: null
+    pmid: '11581660'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+  - Desktop application
+topic:
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 1
+version: []
