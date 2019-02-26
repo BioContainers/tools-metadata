@@ -35,8 +35,13 @@ description: Database of bioactive compounds, their quantitative properties and 
   from the primary scientific literature.
 documentation:
   - note: null
-    type: General
+    type: FAQ
     url: https://www.ebi.ac.uk/chembl/faq
+  - note: Web service API that provides the functionality to support programmatic
+      retrieval of ChEMBLdb (https://www.ebi.ac.uk/chembldb/) compound, target, assay,
+      and bioactivity data (binding constants, pharmacology and ADMET, etc).
+    type: API documentation
+    url: https://www.ebi.ac.uk/chembldb/index.php/ws/
 download: []
 editPermission:
   authors: []
@@ -45,7 +50,7 @@ elixirNode:
   - EMBL
 elixirPlatform:
   - Data
-elixir_badge: 2
+elixir_badge: 0
 function:
   - cmd: null
     input:
@@ -66,29 +71,10 @@ function:
         format:
           - term: HTML
             uri: http://edamontology.org/format_2331
-  - cmd: null
-    input:
-      - data:
-          term: Compound ID (ChEMBL)
-          uri: http://edamontology.org/data_2646
-        format: []
-    note: 'Data retrieval from ChEMBL compound RDF (Maastricht University, The Netherlands)
-      Identifier for records of ChEMBL compound, following the regular expression:
-      ^CHEMBL\d+$.'
-    operation:
-      - term: Data retrieval
-        uri: http://edamontology.org/operation_2422
-    output:
-      - data:
-          term: Small molecule report
-          uri: http://edamontology.org/data_0962
-        format:
-          - term: HTML
-            uri: http://edamontology.org/format_2331
 homepage: https://www.ebi.ac.uk/chembldb/
 homepage_status: 0
 language: []
-lastUpdate: '2019-02-15T10:24:03Z'
+lastUpdate: '2019-02-25T20:03:23Z'
 license: null
 link:
   - note: null
@@ -104,17 +90,58 @@ otherID: []
 owner: Identifiers.org
 publication:
   - doi: 10.1007/s10822-009-9260-9
-    metadata: null
+    metadata:
+      abstract: ''
+      authors:
+        - name: Warr W.A.
+      citationCount: 123
+      date: '2009-02-12T00:00:00Z'
+      journal: Journal of Computer-Aided Molecular Design
+      title: ChEMBL. An interview with John Overington, team leader, chemogenomics
+        at the European Bioinformatics Institute Outstation of the European Molecular
+        Biology Laboratory (EMBL-EBI)
     pmcid: null
     pmid: '19194660'
     type: Primary
     version: null
+  - doi: 10.1093/nar/gkv1352
+    metadata:
+      abstract: "\xA9 The Author(s) 2015. New technologies are revolutionising biological\
+        \ research and its applications by making it easier and cheaper to generate\
+        \ ever-greater volumes and types of data. In response, the services and infrastructure\
+        \ of the European Bioinformatics Institute (EMBL-EBI, www.ebi.ac.UK) are continually\
+        \ expanding: total disk capacity increases significantly every year to keep\
+        \ pace with demand (75 petabytes as of December 2015), and interoperability\
+        \ between resources remains a strategic priority. Since 2014 we have launched\
+        \ two new resources: the European Variation Archive for genetic variation\
+        \ data and EMPIAR for two-dimensional electron microscopy data, as well as\
+        \ a Resource Description Framework platform. We also launched the Embassy\
+        \ Cloud service, which allows users to run large analyses in a virtual environment\
+        \ next to EMBL-EBI's vast public data resources."
+      authors:
+        - name: Cook C.E.
+        - name: Bergman M.T.
+        - name: Finn R.D.
+        - name: Cochrane G.
+        - name: Birney E.
+        - name: Apweiler R.
+      citationCount: 47
+      date: '2016-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'The European Bioinformatics Institute in 2016: Data growth and integration'
+    pmcid: null
+    pmid: null
+    type: null
+    version: null
 toolType:
+  - Web API
   - Database portal
 topic:
   - term: Small molecules
     uri: http://edamontology.org/topic_0154
   - term: Chemical biology
     uri: http://edamontology.org/topic_3369
+  - term: Cheminformatics
+    uri: http://edamontology.org/topic_2258
 validated: 0
 version: []

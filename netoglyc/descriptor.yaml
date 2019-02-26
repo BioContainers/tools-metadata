@@ -5,9 +5,9 @@ biotoolsID: netoglyc
 collectionID: []
 cost: Free of charge (with restrictions)
 credit:
-  - email: null
+  - email: webmaster@cbs.dtu.dk
     name: CBS
-    note: null
+    note: Contact for technical problems
     orcidid: null
     typeEntity: Institute
     typeRole:
@@ -15,7 +15,7 @@ credit:
     url: null
   - email: hirenj@cbs.dtu.dk
     name: Hiren Joshi
-    note: null
+    note: Contact for scientific problems
     orcidid: http://orcid.org/0000-0002-8192-2829
     typeEntity: Person
     typeRole:
@@ -58,7 +58,7 @@ function:
 homepage: http://www.cbs.dtu.dk/services/NetOGlyc/
 homepage_status: 0
 language: []
-lastUpdate: '2019-01-09T16:49:35Z'
+lastUpdate: '2019-02-25T20:45:35Z'
 license: Other
 link:
   - note: null
@@ -77,12 +77,116 @@ publication:
     pmid: '23584533'
     type: Primary
     version: null
+  - doi: null
+    metadata:
+      abstract: The specificities of the UDP-GalNAc:polypeptide N- acetylgalactosaminyltransferases
+        which link the carbohydrate GalNAc to the side-chain of certain serine and
+        threonine residues in mucin type glycoproteins, are presently unknown. The
+        specificity seems to be modulated by sequence context, secondary structure
+        and surface accessibility. The sequence context of glycosylated threonines
+        was found to differ from that of serine, and the sites were found to cluster.
+        Non-clustered sites had a sequence context different from that of clustered
+        sites. Charged residues were disfavoured at position - 1 and +3. A jury of
+        artificial neural networks was trained to recognize the sequence context and
+        surface accessibility of 299 known and verified mucin type O-glycosylation
+        sites extracted from O- GLYCBASE. The cross-validated NetOglyc network system
+        correctly found 83% of the glycosylated and 90% of the non-glycosylated serine
+        and threonine residues in independent test sets, thus proving more accurate
+        than matrix statistics and vector projection methods. Predictions of O-glycosylation
+        sites in the envelope glycoprotein gp120 from the primate lentiviruses HIV-
+        1, HIV-2 and SIV are presented. The most conserved O-glycosylation signals
+        in these evolutionary-related glycoproteins were found in their first hypervariable
+        loop, V1. However, the strain variation for HIV-1 gp120 was significant. A
+        computer server, available through WWW or E-mail, has been developed for prediction
+        of mucin type O-glycosylation sites in proteins based on the amino acid sequence.
+      authors:
+        - name: Hansen J.E.
+        - name: Lund O.
+        - name: Tolstrup N.
+        - name: Gooley A.A.
+        - name: Williams K.L.
+        - name: Brunak S.
+      citationCount: 414
+      date: '1998-06-18T00:00:00Z'
+      journal: Glycoconjugate Journal
+      title: 'NetOglyc: Prediction of mucin type O-glycosylation sites based on sequence
+        context and surface accessibility'
+    pmcid: null
+    pmid: '9557871'
+    type: null
+    version: null
+  - doi: null
+    metadata:
+      abstract: O-GLYCBASE is an updated database of information on glycoproteins
+        and their O-linked glycosylation sites. Entries are compiled and revised from
+        the literature, and from the SWISS-PROT database. Entries include information
+        about species, sequence, glycosylation sites and glycan type. O-GLYCBASE is
+        now fully cross-referenced to the SWISS-PROT, PIR, PROSITE, PDB, EMBL, HSSP,
+        LISTA and MIM databases. Compared with version 1.0 the number of entries have
+        increased by 34%. Revision of the O-glycan assignment was performed on 20%
+        of the entries. Sequence logos displaying the acceptor specificity patterns
+        for the GalNAc, mannose and GlcNAc transferases are shown. The O-GLYCBASE
+        database is available through WWW or by anonymous FTP.
+      authors:
+        - name: Hansen J.E.
+        - name: Lund O.
+        - name: Rapacki K.
+        - name: Brunak S.
+      citationCount: 103
+      date: '1997-01-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'O-GLYCBASE version 2.0: A revised database of O-glycosylated proteins'
+    pmcid: null
+    pmid: '9016554'
+    type: null
+    version: null
+  - doi: null
+    metadata:
+      abstract: "The specificity of the enzyme(s) catalysing the covalent link between\
+        \ the hydroxyl side chains of serine or threonine and the sugar moiety N-acetylgalactosamine\
+        \ (GalNAc) is unknown. Pattern recognition by artificial neural networks and\
+        \ weight matrix algorithms was performed to determine the exact position of\
+        \ in vivo O-linked GalNAc-glycosylated serine and threonine residues from\
+        \ the primary sequence exclusively. The acceptor sequence context for O-glycosylation\
+        \ of serine was found to differ from that of threonine and the two types were\
+        \ therefore treated separately. The context of the sites showed a high abundance\
+        \ of proline, serine and threonine extending far beyond the previously reported\
+        \ region covering positions -4 through +4 relative to the glycosylated residue.\
+        \ The O-glycosylation sites were found to cluster and to have a high abundance\
+        \ in the N-terminal part of the protein. The sites were also found to have\
+        \ an increased preference for three different classes of \u03B2-turns. No\
+        \ simple consensus-like rule could be deduced for the complex glycosylation\
+        \ sequence acceptor patterns. The neural networks were trained on the hitherto\
+        \ largest data material consisting of 48 carefully examined mammalian glycoproteins\
+        \ comprising 264 O-glycosylation sites. For detection neural network algorithms\
+        \ were much more reliable than weight matrices. The networks correctly found\
+        \ 60-95% of the O-glycosylated serine/threonine residues and 88-97% of the\
+        \ non-glycosylated residues in two independent test sets of known glycoproteins.\
+        \ A computer server using E-mail for prediction of O-glycosylation sites has\
+        \ been implemented and made publicly available."
+      authors:
+        - name: Hansen J.-E.S.
+        - name: Lund O.
+        - name: Engelbrecht J.
+        - name: Bohr H.
+        - name: Nielsen J.O.
+        - name: Hansen J.-E.S.
+        - name: Brunak S.
+      citationCount: 230
+      date: '1995-01-01T00:00:00Z'
+      journal: Biochemical Journal
+      title: 'Prediction of O-glycosylation of mammalian proteins: Specificity patterns
+        of UDP-GalNAc:polypeptide N-acetylgalactosaminyltransferase'
+    pmcid: null
+    pmid: '8948436'
+    type: null
+    version: null
 toolType:
   - Command-line tool
   - Web application
 topic:
   - term: Protein modifications
     uri: http://edamontology.org/topic_0601
-validated: 1
+validated: 0
 version:
   - '4.0'

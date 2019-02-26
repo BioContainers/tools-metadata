@@ -1,0 +1,99 @@
+accessibility: []
+additionDate: '2017-08-03T19:00:41Z'
+biotoolsCURIE: biotools:stamp-metagenomic
+biotoolsID: stamp-metagenomic
+collectionID: []
+cost: null
+credit:
+  - email: beiko@cs.dal.ca
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: https://groups.google.com/forum/?hl=en#!forum/stamp_help
+description: "A software package for analyzing metagenomic profiles (e.g., a taxonomic\
+  \ profile indicating the number of marker genes assigned to different taxonomic\
+  \ units or a functional profile indicating the number of sequences assigned to different\
+  \ biological subsystems or pathways) that promotes \u2018best practices\u2019 in\
+  \ choosing appropriate statistical techniques and reporting results. It encourages\
+  \ the use of effect sizes and confidence intervals in assessing biological importance."
+documentation:
+  - note: null
+    type: General
+    url: http://kiwi.cs.dal.ca/Software/index.php/STAMP
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+      - term: Statistical calculation
+        uri: http://edamontology.org/operation_2238
+    output: []
+homepage: http://kiwi.cs.dal.ca/Software/index.php/STAMP
+homepage_status: 0
+language:
+  - Python
+lastUpdate: '2018-12-10T12:58:55Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/stamp-2-0-0-analyze-metagenomic-profiles.html
+maturity: null
+name: STAMP
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "\xA9 The Author 2014. Published by Oxford University Press.STAMP\
+        \ is a graphical software package that provides statistical hypothesis tests\
+        \ and exploratory plots for analysing taxonomic and functional profiles. It\
+        \ supports tests for comparing pairs of samples or samples organized into\
+        \ two or more treatment groups. Effect sizes and confidence intervals are\
+        \ provided to allow critical assessment of the biological relevancy of test\
+        \ results. A user-friendly graphical interface permits easy exploration of\
+        \ statistical results and generation of publication-quality plots."
+      authors:
+        - name: Parks D.H.
+        - name: Tyson G.W.
+        - name: Hugenholtz P.
+        - name: Beiko R.G.
+      citationCount: 445
+      date: '2014-01-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'STAMP: Statistical analysis of taxonomic and functional profiles'
+    pmcid: null
+    pmid: '25061070'
+    type: null
+    version: null
+toolType:
+  - Desktop application
+topic:
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: DNA
+    uri: http://edamontology.org/topic_0654
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+  - term: Metagenomics
+    uri: http://edamontology.org/topic_3174
+validated: 1
+version: []

@@ -15,17 +15,26 @@ credit:
     typeRole:
       - Primary contact
     url: https://www2.mpi-magdeburg.mpg.de/projects/cna/cna.html
-description: Provides various computational methods for analyzing structure and function
-  of metabolic, signaling, and regulatory networks. For metabolic networks, CNA supports
-  a variety of stoichiometric and constraint-based modeling techniques.
+description: "CellNetAnalyzer (CNA) is a MATLAB toolbox providing various computational\
+  \ methods for analyzing structure and function of metabolic, signaling, and regulatory\
+  \ networks. \n\nMetabolic networks can be analyzed by means of stoichiometric and\
+  \ constraint-based modeling techniques while signal transduction and (gene) regulatory\
+  \ networks can be represented and analyzed as logical networks (Boolean or multivalued\
+  \ logic) or as interaction graphs. Computations can be started within a GUI (interactive\
+  \ network maps) or from command line (via API functions)."
 documentation:
   - note: null
     type: Manual
     url: https://www2.mpi-magdeburg.mpg.de/projects/cna/manual_cellnetanalyzer.pdf
-download: []
+download:
+  - note: null
+    type: Downloads page
+    url: https://www2.mpi-magdeburg.mpg.de/projects/cna/download.html
+    version: null
 editPermission:
-  authors: []
-  type: private
+  authors:
+    - klamt
+  type: group
 elixirNode: []
 elixirPlatform: []
 elixir_badge: 0
@@ -64,7 +73,7 @@ homepage: https://www2.mpi-magdeburg.mpg.de/projects/cna/cna.html
 homepage_status: 0
 language:
   - MATLAB
-lastUpdate: '2018-12-24T21:42:55Z'
+lastUpdate: '2019-02-26T13:58:07Z'
 license: null
 link: []
 maturity: null
@@ -109,7 +118,7 @@ publication:
       authors:
         - name: Klamt S.
         - name: von Kamp A.
-      citationCount: 31
+      citationCount: 32
       date: '2011-08-01T00:00:00Z'
       journal: BioSystems
       title: An application programming interface for CellNetAnalyzer
@@ -117,11 +126,44 @@ publication:
     pmid: '21315797'
     type: Primary
     version: null
+  - doi: null
+    metadata:
+      abstract: "\xA9 2017 The Author(s) Mathematical models of the cellular metabolism\
+        \ have become an essential tool for the optimization of biotechnological processes.\
+        \ They help to obtain a systemic understanding of the metabolic processes\
+        \ in the used microorganisms and to find suitable genetic modifications maximizing\
+        \ the production performance. In particular, methods of stoichiometric and\
+        \ constraint-based modeling are frequently used in the context of metabolic\
+        \ and bioprocess engineering. Since metabolic networks can be complex and\
+        \ comprise hundreds or even thousands of metabolites and reactions, dedicated\
+        \ software tools are required for an efficient analysis. One such software\
+        \ suite is CellNetAnalyzer, a MATLAB package providing, among others, various\
+        \ methods for analyzing stoichiometric and constraint-based metabolic models.\
+        \ CellNetAnalyzer can be used via command-line based operations or via a graphical\
+        \ user interface with embedded network visualizations. Herein we will present\
+        \ key functionalities of CellNetAnalyzer for applications in biotechnology\
+        \ and metabolic engineering and thereby review constraint-based modeling techniques\
+        \ such as metabolic flux analysis, flux balance analysis, flux variability\
+        \ analysis, metabolic pathway analysis (elementary flux modes) and methods\
+        \ for computational strain design."
+      authors:
+        - name: von Kamp A.
+        - name: Thiele S.
+        - name: Hadicke O.
+        - name: Klamt S.
+      citationCount: 5
+      date: '2017-11-10T00:00:00Z'
+      journal: Journal of Biotechnology
+      title: Use of CellNetAnalyzer in biotechnology and metabolic engineering
+    pmcid: null
+    pmid: '28499817'
+    type: null
+    version: null
 toolType:
   - Command-line tool
   - Desktop application
 topic:
   - term: Computational biology
     uri: http://edamontology.org/topic_3307
-validated: 1
+validated: 0
 version: []

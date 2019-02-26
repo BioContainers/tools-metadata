@@ -6,13 +6,21 @@ collectionID: []
 cost: null
 credit:
   - email: ben.goldacre@phc.ox.ac.uk
-    name: Ben GoldacreEmail
+    name: Ben Goldacre
     note: null
     orcidid: null
     typeEntity: Person
     typeRole:
       - Primary contact
     url: https://opentrials.net/about/
+  - email: opentrials@okfn.org
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Support
+    url: null
 description: OpenTrials is a collaboration between Open Knowledge International and
   Dr Ben Goldacre from the University of Oxford DataLab. It aims to locate, match,
   and share all publicly accessible data and documents, on all trials conducted, on
@@ -55,10 +63,16 @@ function:
 homepage: https://opentrials.net/
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:52Z'
+lastUpdate: '2019-02-26T10:13:04Z'
 license: null
-link: []
-maturity: null
+link:
+  - note: null
+    type: Social media
+    url: https://twitter.com/opentrials
+  - note: null
+    type: Discussion forum
+    url: https://discuss.okfn.org/c/projects/open-trials
+maturity: Emerging
 name: OpenTrials API
 operatingSystem:
   - Linux
@@ -96,7 +110,7 @@ publication:
       authors:
         - name: Goldacre B.
         - name: Gray J.
-      citationCount: 18
+      citationCount: 21
       date: '2016-04-08T00:00:00Z'
       journal: Trials
       title: 'OpenTrials: Towards a collaborative open database of all available information
@@ -107,6 +121,7 @@ publication:
     version: null
 toolType:
   - Web API
+  - Database portal
 topic:
   - term: Preclinical and clinical studies
     uri: http://edamontology.org/topic_3379

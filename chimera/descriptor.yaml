@@ -22,8 +22,18 @@ credit:
     typeRole:
       - Primary contact
     url: null
+  - email: null
+    name: Contact Us page
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Support
+    url: http://www.cgl.ucsf.edu/chimera/docs/feedback.html
 description: Highly extensible program for interactive visualization and analysis
-  of molecular structures.
+  of molecular structures and related data, including density maps, supramolecular
+  assemblies, sequence alignments, docking results, trajectories, and conformational
+  ensembles. High-quality images and animations can be generated.
 documentation:
   - note: null
     type: General
@@ -45,11 +55,15 @@ function:
     operation:
       - term: Structure visualisation
         uri: http://edamontology.org/operation_0570
+      - term: Structure analysis
+        uri: http://edamontology.org/operation_2480
     output: []
 homepage: http://www.cgl.ucsf.edu/chimera/
 homepage_status: 0
-language: []
-lastUpdate: '2018-12-10T12:58:50Z'
+language:
+  - C++
+  - Python
+lastUpdate: '2019-02-26T10:25:57Z'
 license: null
 link: []
 maturity: null
@@ -89,7 +103,7 @@ publication:
         - name: Greenblatt D.M.
         - name: Meng E.C.
         - name: Ferrin T.E.
-      citationCount: 13416
+      citationCount: 14340
       date: '2004-10-01T00:00:00Z'
       journal: Journal of Computational Chemistry
       title: UCSF Chimera - A visualization system for exploratory research and analysis
@@ -104,6 +118,6 @@ topic:
     uri: http://edamontology.org/topic_1317
   - term: Electron microscopy
     uri: http://edamontology.org/topic_0611
-validated: 1
+validated: 0
 version:
   - '1.10'
