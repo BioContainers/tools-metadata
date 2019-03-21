@@ -52,7 +52,30 @@ otherID: []
 owner: seqwiki_import
 publication:
   - doi: null
-    metadata: null
+    metadata:
+      abstract: "High-throughput sequencing is now routinely performed in many experiments.\
+        \ But the analysis of the millions of sequences generated, is often beyond\
+        \ the expertise of the wet labs who have no personnel specializing in bioinformatics.\
+        \ Whereas several tools are now available to map high-throughput sequencing\
+        \ data on a genome, few of these can extract biological knowledge from the\
+        \ mapped reads. We have developed a toolbox called S-MART, which handles mapped\
+        \ RNA-Seq data. S-MART is an intuitive and lightweight tool which performs\
+        \ many of the tasks usually required for the analysis of mapped RNA-Seq reads.\
+        \ S-MART does not require any computer science background and thus can be\
+        \ used by all of the biologist community through a graphical interface. S-MART\
+        \ can run on any personal computer, yielding results within an hour even for\
+        \ Gb of data for most queries. S-MART may perform the entire analysis of the\
+        \ mapped reads, without any need for other ad hoc scripts. With this tool,\
+        \ biologists can easily perform most of the analyses on their computer for\
+        \ their RNA-Seq data, from the mapped data to the discovery of important loci.\
+        \ \xA9 2011 Zytnicki, Quesneville."
+      authors:
+        - name: Zytnicki M.
+        - name: Quesneville H.
+      citationCount: 22
+      date: '2011-10-06T00:00:00Z'
+      journal: PLoS ONE
+      title: S-MART, A software toolbox to aid RNA-seq data analysis
     pmcid: null
     pmid: '21998740'
     type: null

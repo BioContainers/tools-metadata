@@ -27,7 +27,11 @@ documentation:
   - note: null
     type: General
     url: http://tools.proteomecenter.org/mzXMLViewer.php
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://sourceforge.net/projects/sashimi/files/OldFiles/mzXMLViewer.tgz/download
+    version: null
 editPermission:
   authors: []
   type: private
@@ -36,19 +40,29 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
     note: null
     operation:
       - term: Mass spectrum visualisation
         uri: http://edamontology.org/operation_3694
-      - term: Chromatogram visualisation
-        uri: http://edamontology.org/operation_3203
-    output: []
+    output:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: png
+            uri: http://edamontology.org/format_3603
 homepage: http://tools.proteomecenter.org/mzXMLViewer.php
 homepage_status: 0
 language:
   - Java
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:28:49Z'
 license: null
 link:
   - note: null
@@ -70,5 +84,7 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Imaging
+    uri: http://edamontology.org/topic_3382
+validated: 0
 version: []

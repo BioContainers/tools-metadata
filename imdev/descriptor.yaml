@@ -27,7 +27,11 @@ documentation:
   - note: null
     type: General
     url: https://imdevsoftware.wordpress.com/imdev/
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://sourceforge.net/projects/imdev/
+    version: null
 editPermission:
   authors: []
   type: private
@@ -36,17 +40,82 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Matrix
+          uri: http://edamontology.org/data_2082
+        format:
+          - term: xls
+            uri: http://edamontology.org/format_3468
     note: null
     operation:
-      - term: Loading
-        uri: http://edamontology.org/operation_1812
-    output: []
+      - term: Statistical modelling
+        uri: http://edamontology.org/operation_3664
+      - term: Regression analysis
+        uri: http://edamontology.org/operation_3659
+      - term: Statistical calculation
+        uri: http://edamontology.org/operation_2238
+      - term: Correlation
+        uri: http://edamontology.org/operation_3465
+      - term: Standardisation and normalisation
+        uri: http://edamontology.org/operation_3435
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+      - term: Statistical inference
+        uri: http://edamontology.org/operation_3658
+      - term: Classification
+        uri: http://edamontology.org/operation_2990
+      - term: Weighted correlation network analysis
+        uri: http://edamontology.org/operation_3766
+    output:
+      - data:
+          term: Matrix
+          uri: http://edamontology.org/data_2082
+        format:
+          - term: xls
+            uri: http://edamontology.org/format_3468
+  - cmd: null
+    input:
+      - data:
+          term: Matrix
+          uri: http://edamontology.org/data_2082
+        format:
+          - term: xls
+            uri: http://edamontology.org/format_3468
+    note: null
+    operation:
+      - term: Scatter plot plotting
+        uri: http://edamontology.org/operation_2940
+      - term: Heat map generation
+        uri: http://edamontology.org/operation_0531
+      - term: Principal component plotting
+        uri: http://edamontology.org/operation_2939
+      - term: Dendrograph plotting
+        uri: http://edamontology.org/operation_2936
+      - term: Plotting
+        uri: http://edamontology.org/operation_3441
+    output:
+      - data:
+          term: Plot
+          uri: http://edamontology.org/data_2884
+        format:
+          - term: JPG
+            uri: http://edamontology.org/format_3579
+          - term: png
+            uri: http://edamontology.org/format_3603
+      - data:
+          term: Heat map
+          uri: http://edamontology.org/data_1636
+        format:
+          - term: JPG
+            uri: http://edamontology.org/format_3579
+          - term: png
+            uri: http://edamontology.org/format_3603
 homepage: http://imdevsoftware.wordpress.com/
 homepage_status: 0
 language:
   - R
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:19:57Z'
 license: null
 link:
   - note: null
@@ -80,7 +149,7 @@ publication:
       authors:
         - name: Grapov D.
         - name: Newman J.W.
-      citationCount: 31
+      citationCount: 33
       date: '2012-09-01T00:00:00Z'
       journal: Bioinformatics
       title: 'imDEV: A graphical user interface to R multivariate analysis tools in
@@ -94,5 +163,9 @@ toolType:
 topic:
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Omics
+    uri: http://edamontology.org/topic_3391
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+validated: 0
 version: []

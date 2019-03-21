@@ -2,7 +2,8 @@ accessibility: []
 additionDate: '2017-02-14T09:35:10Z'
 biotoolsCURIE: biotools:qscop_blast
 biotoolsID: qscop_blast
-collectionID: []
+collectionID:
+  - BLAST
 cost: null
 credit:
   - email: null
@@ -31,17 +32,15 @@ function:
     input: []
     note: null
     operation:
-      - term: Database search
-        uri: http://edamontology.org/operation_2421
+      - term: Sequence similarity search
+        uri: http://edamontology.org/operation_0346
       - term: Structure classification
         uri: http://edamontology.org/operation_2996
-      - term: Protein quantification
-        uri: http://edamontology.org/operation_3630
     output: []
 homepage: http://archive.is/9B7DA
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:57Z'
+lastUpdate: '2019-03-13T10:42:47Z'
 license: null
 link: []
 maturity: null
@@ -55,21 +54,15 @@ owner: ELIXIR-EE
 publication:
   - doi: null
     metadata:
-      abstract: "Summary: The database SCOP (Structural Classification Of Proteins)\
-        \ has become a major resource in bioinformatics and protein science. A particular\
-        \ strength of SCOP is the flexibility of its rules enabling the preservation\
-        \ of the many details spotted by experts in the classification process. Here\
-        \ we endow classic SCOP Families with quantified structural information and\
-        \ comment on the structural diversity found in the SCOP hierarchy. \xA9 2007\
-        \ Oxford University Press."
+      abstract: null
       authors:
         - name: Suhrer S.J.
         - name: Wiederstein M.
         - name: Sippl M.J.
-      citationCount: 15
-      date: '2007-02-15T00:00:00Z'
-      journal: Bioinformatics
-      title: QSCOP - SCOP quantified by structural relationships
+      citationCount: 0
+      date: null
+      journal: null
+      title: null
     pmcid: null
     pmid: '17127679'
     type: null
@@ -89,5 +82,5 @@ topic:
     uri: http://edamontology.org/topic_0623
   - term: Protein structure analysis
     uri: http://edamontology.org/topic_2814
-validated: 1
+validated: 0
 version: []

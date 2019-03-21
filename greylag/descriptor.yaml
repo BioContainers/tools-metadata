@@ -16,7 +16,11 @@ credit:
     url: http://ms-utils.org
 description: Free MS/MS search engine.
 documentation: []
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://sourceforge.net/projects/greylag/
+    version: null
 editPermission:
   authors: []
   type: private
@@ -25,18 +29,42 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Sequence set
+          uri: http://edamontology.org/data_0850
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
     note: null
     operation:
       - term: Blind peptide database search
         uri: http://edamontology.org/operation_3647
-    output: []
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
+      - term: Peptide database search
+        uri: http://edamontology.org/operation_3646
+      - term: Target-Decoy
+        uri: http://edamontology.org/operation_3649
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: SEQUEST .out file
+            uri: http://edamontology.org/format_3758
 homepage: http://greylag.org/
 homepage_status: 0
 language:
   - C++
   - Python
-lastUpdate: '2018-12-10T12:58:57Z'
+lastUpdate: '2019-02-27T11:18:47Z'
 license: null
 link:
   - note: null
@@ -55,5 +83,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

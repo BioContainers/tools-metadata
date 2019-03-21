@@ -3,6 +3,7 @@ additionDate: '2015-01-29T15:47:47Z'
 biotoolsCURIE: biotools:merops_blast
 biotoolsID: merops_blast
 collectionID:
+  - BLAST
   - EBI Tools
 cost: null
 credit:
@@ -105,7 +106,7 @@ function:
 homepage: http://merops.sanger.ac.uk/cgi-bin/blast/submitblast/merops/advanced
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:50Z'
+lastUpdate: '2019-03-13T10:43:30Z'
 license: null
 link: []
 maturity: null
@@ -119,33 +120,15 @@ owner: EMBL-EBI
 publication:
   - doi: 10.1093/nar/gkv1118
     metadata:
-      abstract: "\xA9 The Author(s) 2015. The MEROPS database (http://merops.sanger.ac.UK)\
-        \ is an integrated source of information about peptidases, their substrates\
-        \ and inhibitors, which are of great relevance to biology, medicine and biotechnology.\
-        \ The hierarchical classification of the database is as follows: homologous\
-        \ sets of sequences are grouped into a protein species; protein species are\
-        \ grouped into a family; families are grouped into clans. There is a type\
-        \ example for each protein species (known as a 'holotype'), family and clan,\
-        \ and each protein species, family and clan has its own unique identifier.\
-        \ Pages to show the involvement of peptidases and peptidase inhibitors in\
-        \ biological pathways have been created. Each page shows the peptidases and\
-        \ peptidase inhibitors involved in the pathway, along with the known substrate\
-        \ cleavages and peptidase-inhibitor interactions, and a link to the KEGG database\
-        \ of biological pathways. Links have also been established with the IUPHAR\
-        \ Guide to Pharmacology. A new service has been set up to allow the submission\
-        \ of identified substrate cleavages so that conservation of the cleavage site\
-        \ can be assessed. This should help establish whether or not a cleavage site\
-        \ is physiologically relevant on the basis that such a cleavage site is likely\
-        \ to be conserved."
+      abstract: null
       authors:
         - name: Rawlings N.D.
         - name: Barrett A.J.
         - name: Finn R.
-      citationCount: 253
-      date: '2016-01-01T00:00:00Z'
-      journal: Nucleic Acids Research
-      title: Twenty years of the MEROPS database of proteolytic enzymes, their substrates
-        and inhibitors
+      citationCount: 0
+      date: null
+      journal: null
+      title: null
     pmcid: null
     pmid: null
     type: Primary
@@ -157,6 +140,6 @@ topic:
     uri: http://edamontology.org/topic_0080
   - term: Enzymes
     uri: http://edamontology.org/topic_0821
-validated: 1
+validated: 0
 version:
   - '1'

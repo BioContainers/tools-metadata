@@ -1,0 +1,91 @@
+accessibility: []
+additionDate: '2015-01-22T11:45:57Z'
+biotoolsCURIE: biotools:pdbfun
+biotoolsID: pdbfun
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: ELIXIR-ITA-TORVERGATA
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: citterich@uniroma2.it
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Mass selection and fast comparison of annotated PDB residues.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Structure comparison
+        uri: http://edamontology.org/operation_2483
+    output: []
+homepage: http://pdbfun.uniroma2.it
+homepage_status: 1
+language: []
+lastUpdate: '2018-12-10T12:58:34Z'
+license: null
+link: []
+maturity: null
+name: pdbFun
+operatingSystem: []
+otherID: []
+owner: ELIXIR-ITA-TORVERGATA
+publication:
+  - doi: 10.1093/nar/gki499
+    metadata:
+      abstract: "pdbFun http://pdbfun.uniroma2.it) is a web server for structural\
+        \ and functional analysis of proteins at the residue level. pdbFun gives fast\
+        \ access to the whole Protein Data Bank (PDB) organized as a database of annotated\
+        \ residues. The available data (features) range from solvent exposure to ligand\
+        \ binding ability, location in a protein cavity, secondary structure, residue\
+        \ type, sequence functional pattern, protein domain and catalytic activity.\
+        \ Users can select any residue subset (even including any number of PDB structures)\
+        \ by combining the available features. Selections can be used as probe and\
+        \ target in multiple structure comparison searches. For example a search could\
+        \ involve, as a query, all solvent-exposed, hydrophylic residues that are\
+        \ not in alpha-helices and are involved in nucleotide binding. Possible examples\
+        \ of targets are represented by another selection, a single structure or a\
+        \ dataset composed of many structures. The output is a list of aligned structural\
+        \ matches offered in tabular and also graphical format. \xA9 2005 Oxford University\
+        \ Press."
+      authors:
+        - name: Ausiello G.
+        - name: Zanzoni A.
+        - name: Peluso D.
+        - name: Via A.
+        - name: Helmer-Citterich M.
+      citationCount: 29
+      date: '2005-07-01T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'pdbFun: Mass selection and fast comparison of annotated PDB residues'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Protein structural motifs and surfaces
+    uri: http://edamontology.org/topic_0166
+validated: 1
+version:
+  - '1'

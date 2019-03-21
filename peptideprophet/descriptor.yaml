@@ -30,12 +30,16 @@ credit:
     typeRole:
       - Documentor
     url: http://ms-utils.org
-description: validation of peptide identifications by MS/MS and database searches
+description: Validation of peptide identifications by MS/MS and database searches.
 documentation:
   - note: null
     type: General
     url: http://tools.proteomecenter.org/wiki/index.php?title=Software:PeptideProphet
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://sourceforge.net/projects/peptideprophet/|https://sourceforge.net/projects/sashimi/
+    version: null
 editPermission:
   authors: []
   type: private
@@ -51,10 +55,16 @@ function:
         format:
           - term: pepXML
             uri: http://edamontology.org/format_3655
-          - term: mzIdentML
-            uri: http://edamontology.org/format_3247
+          - term: HTML
+            uri: http://edamontology.org/format_2331
     note: null
     operation:
+      - term: Statistical modelling
+        uri: http://edamontology.org/operation_3664
+      - term: Variant filtering
+        uri: http://edamontology.org/operation_3675
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
       - term: Target-Decoy
         uri: http://edamontology.org/operation_3649
     output:
@@ -64,12 +74,14 @@ function:
         format:
           - term: pepXML
             uri: http://edamontology.org/format_3655
+          - term: HTML
+            uri: http://edamontology.org/format_2331
 homepage: http://tools.proteomecenter.org/PeptideProphet.php
 homepage_status: 0
 language:
   - C++
   - Perl
-lastUpdate: '2018-12-10T12:58:56Z'
+lastUpdate: '2019-03-04T13:48:49Z'
 license: null
 link:
   - note: null
@@ -103,7 +115,7 @@ publication:
         - name: Nesvizhskii A.I.
         - name: Kolker E.
         - name: Aebersold R.
-      citationCount: 3133
+      citationCount: 3219
       date: '2002-10-15T00:00:00Z'
       journal: Analytical Chemistry
       title: Empirical statistical model to estimate the accuracy of peptide identifications
@@ -119,5 +131,7 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+validated: 0
 version: []

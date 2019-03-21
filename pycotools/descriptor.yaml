@@ -51,29 +51,25 @@ owner: d.gabrielaitis
 publication:
   - doi: 10.1093/bioinformatics/bty409
     metadata:
-      abstract: "Motivation: COPASI is an open source software package for constructing,\
-        \ simulating and analyzing dynamic models of biochemical networks. COPASI\
-        \ is primarily intended to be used with a graphical user interface but often\
-        \ it is desirable to be able to access COPASI features programmatically, with\
-        \ a high level interface. Results: PyCoTools is a Python package aimed at\
-        \ providing a high level interface to COPASI tasks with an emphasis on model\
-        \ calibration. PyCoTools enables the construction of COPASI models and the\
-        \ execution of a subset of COPASI tasks including time courses, parameter\
-        \ scans and parameter estimations. Additional 'composite' tasks which use\
-        \ COPASI tasks as building blocks are available for increasing parameter estimation\
-        \ throughput, performing identifiability analysis and performing model selection.\
-        \ PyCoTools supports exploratory data analysis on parameter estimation data\
-        \ to assist with troubleshooting model calibrations. We demonstrate PyCoTools\
-        \ by posing a model selection problem designed to show case PyCoTools within\
-        \ a realistic scenario. The aim of the model selection problem is to test\
-        \ the feasibility of three alternative hypotheses in explaining experimental\
-        \ data derived from neonatal dermal fibroblasts in response to TGF-\u03B2\
-        \ over time. PyCoTools is used to critically analyze the parameter estimations\
-        \ and propose strategies for model improvement. Availability and implementation:\
-        \ PyCoTools can be downloaded from the Python Package Index (PyPI) using the\
-        \ command 'pip install pycotools' or directly from GitHub (https://github.com/CiaranWelsh/pycotools).\
-        \ Documentation at http://pycotools.readthedocs.io. Supplementary information:\
-        \ Supplementary data are available at Bioinformatics online."
+      abstract: "\xA9 The Author(s) 2018. Published by Oxford University Press. Motivation:\
+        \ COPASI is an open source software package for constructing, simulating and\
+        \ analyzing dynamic models of biochemical networks. COPASI is primarily intended\
+        \ to be used with a graphical user interface but often it is desirable to\
+        \ be able to access COPASI features programmatically, with a high level interface.\
+        \ Results: PyCoTools is a Python package aimed at providing a high level interface\
+        \ to COPASI tasks with an emphasis on model calibration. PyCoTools enables\
+        \ the construction of COPASI models and the execution of a subset of COPASI\
+        \ tasks including time courses, parameter scans and parameter estimations.\
+        \ Additional \u2018composite\u2019 tasks which use COPASI tasks as building\
+        \ blocks are available for increasing parameter estimation throughput, performing\
+        \ identifiability analysis and performing model selection. PyCoTools supports\
+        \ exploratory data analysis on parameter estimation data to assist with troubleshooting\
+        \ model calibrations. We demonstrate PyCoTools by posing a model selection\
+        \ problem designed to show case PyCoTools within a realistic scenario. The\
+        \ aim of the model selection problem is to test the feasibility of three alternative\
+        \ hypotheses in explaining experimental data derived from neonatal dermal\
+        \ fibroblasts in response to TGF-b over time. PyCoTools is used to critically\
+        \ analyze the parameter estimations and propose strategies for model improvement."
       authors:
         - name: Welsh C.M.
         - name: Fullard N.
@@ -85,9 +81,9 @@ publication:
         - name: Przyborski S.A.
         - name: Shanley D.P.
       citationCount: 0
-      date: '2018-11-01T00:00:00Z'
-      journal: Bioinformatics (Oxford, England)
-      title: 'PyCoTools: a Python toolbox for COPASI'
+      date: '2018-01-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'PyCoTools: A python toolbox for COPASI'
     pmcid: null
     pmid: null
     type: null

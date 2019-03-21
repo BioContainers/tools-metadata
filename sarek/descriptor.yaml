@@ -24,7 +24,7 @@ download:
   - note: GitHub Releases
     type: Source code
     url: https://github.com/SciLifeLab/Sarek/releases
-    version: 2.2.2
+    version: '2.3'
 editPermission:
   authors: []
   type: private
@@ -61,11 +61,11 @@ function:
         format:
           - term: VCF
             uri: http://edamontology.org/format_3016
-homepage: http://sarek.scilifelab.se/
+homepage: https://sarek.scilifelab.se/
 homepage_status: 0
 language:
   - Groovy
-lastUpdate: '2018-12-20T10:11:44Z'
+lastUpdate: '2019-02-28T08:26:57Z'
 license: MIT
 link:
   - note: Github Repository
@@ -87,14 +87,13 @@ toolType:
 topic:
   - term: Oncology
     uri: http://edamontology.org/topic_2640
-  - term: Bioinformatics
-    uri: http://edamontology.org/topic_0091
   - term: Genomics
     uri: http://edamontology.org/topic_0622
-validated: 1
+validated: 0
 version:
   - 2.0.0
   - 2.1.0
   - 2.2.0
   - 2.2.1
   - 2.2.2
+  - '2.3'

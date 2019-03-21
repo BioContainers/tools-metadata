@@ -24,6 +24,10 @@ download:
     type: Source code
     url: https://web.archive.org/web/20070706084404/http://peptide.ucsd.edu/downloads/PepNovo_src.zip
     version: null
+  - note: null
+    type: Source code
+    url: http://proteomics.ucsd.edu/Software/PepNovo/PepNovo.20120423.zip
+    version: null
 editPermission:
   authors: []
   type: private
@@ -32,17 +36,39 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+          - term: pkl
+            uri: http://edamontology.org/format_3653
+          - term: dta
+            uri: http://edamontology.org/format_3652
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
     note: null
     operation:
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
       - term: de Novo sequencing
         uri: http://edamontology.org/operation_3644
-    output: []
+      - term: Statistical calculation
+        uri: http://edamontology.org/operation_2238
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
 homepage: http://proteomics.ucsd.edu/ProteoSAFe/
 homepage_status: 0
 language:
   - C++
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:31:02Z'
 license: null
 link:
   - note: null
@@ -72,7 +98,7 @@ publication:
       authors:
         - name: Frank A.
         - name: Pevzner P.
-      citationCount: 412
+      citationCount: 418
       date: '2005-02-15T00:00:00Z'
       journal: Analytical Chemistry
       title: 'PepNovo: De novo peptide sequencing via probabilistic network modeling'
@@ -87,5 +113,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

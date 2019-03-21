@@ -54,7 +54,34 @@ otherID: []
 owner: n.m.palmblad@lumc.nl
 publication:
   - doi: 10.1021/acs.jproteome.8b00483
-    metadata: null
+    metadata:
+      abstract: "Copyright \xA9 2018 American Chemical Society.We present EBprotV2,\
+        \ a Perseus plugin for peptide-ratio-based differential protein abundance\
+        \ analysis in labeling-based proteomics experiments. The original version\
+        \ of EBprot models the distribution of log-transformed peptide-level ratios\
+        \ as a Gaussian mixture of differentially abundant proteins and nondifferentially\
+        \ abundant proteins and computes the probability score of differential abundance\
+        \ for each protein based on the reproducible magnitude of peptide ratios.\
+        \ However, the fully parametric model can be inflexible, and its R implementation\
+        \ is time-consuming for data sets containing a large number of peptides (e.g.,\
+        \ >100000). The new tool built in the C++ language is not only faster in computation\
+        \ time but also equipped with a flexible semiparametric model that handles\
+        \ skewed ratio distributions better. We have also developed a Perseus plugin\
+        \ for EBprotV2 for easy access to the tool. In addition, the tool now offers\
+        \ a new submodule (MakeGrpData) to transform label-free peptide intensity\
+        \ data into peptide ratio data for group comparisons and performs differential\
+        \ abundance analysis using mixture modeling. This approach is especially useful\
+        \ when the label-free data have many missing peptide intensity data points."
+      authors:
+        - name: Koh H.W.L.
+        - name: Zhang Y.
+        - name: Vogel C.
+        - name: Choi H.
+      citationCount: 0
+      date: '2019-02-01T00:00:00Z'
+      journal: Journal of Proteome Research
+      title: 'EBprotV2: A Perseus Plugin for Differential Protein Abundance Analysis
+        of Labeling-Based Quantitative Proteomics Data'
     pmcid: null
     pmid: '30411623'
     type: Primary
@@ -92,7 +119,7 @@ publication:
         - name: Ler S.G.
         - name: Gunaratne J.
         - name: Choi H.
-      citationCount: 6
+      citationCount: 7
       date: '2015-08-01T00:00:00Z'
       journal: Proteomics
       title: 'EBprot: Statistical analysis of labeling-based quantitative proteomics

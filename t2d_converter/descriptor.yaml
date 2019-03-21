@@ -16,7 +16,11 @@ credit:
     url: http://ms-utils.org
 description: Converts ABI SCIEX 4700/4800 t2d files to mzXML.
 documentation: []
-download: []
+download:
+  - note: null
+    type: Source code
+    url: http://sequest.scripps.edu/ygao/download/converter.html
+    version: null
 editPermission:
   authors: []
   type: private
@@ -25,17 +29,29 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: Mass spectrometry data format
+            uri: http://edamontology.org/format_3245
     note: null
     operation:
       - term: Formatting
         uri: http://edamontology.org/operation_0335
-    output: []
+    output:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
 homepage: http://www.pepchem.org
 homepage_status: 0
 language:
   - Python
-lastUpdate: '2018-12-10T12:58:38Z'
+lastUpdate: '2019-02-27T11:37:09Z'
 license: null
 link:
   - note: null
@@ -52,5 +68,7 @@ toolType:
 topic:
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+validated: 0
 version: []

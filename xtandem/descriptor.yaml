@@ -22,7 +22,7 @@ credit:
     typeRole:
       - Primary contact
     url: null
-description: matches tandem mass spectra with peptide sequences
+description: Matches tandem mass spectra with peptide sequences.
 documentation:
   - note: null
     type: General
@@ -31,6 +31,10 @@ download:
   - note: null
     type: Source code
     url: ftp://ftp.thegpm.org/projects/tandem/
+    version: null
+  - note: null
+    type: Source code
+    url: ftp://ftp.thegpm.org/projects/tandem/source/
     version: null
 editPermission:
   authors: []
@@ -45,35 +49,52 @@ function:
           term: Mass spectrometry spectra
           uri: http://edamontology.org/data_0943
         format:
+          - term: dta
+            uri: http://edamontology.org/format_3652
+          - term: pkl
+            uri: http://edamontology.org/format_3653
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+          - term: mzData
+            uri: http://edamontology.org/format_3834
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+          - term: X!Tandem XML
+            uri: http://edamontology.org/format_3711
           - term: mzML
             uri: http://edamontology.org/format_3244
+      - data:
+          term: Sequence set
+          uri: http://edamontology.org/data_0850
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
     note: null
     operation:
+      - term: Protein identification
+        uri: http://edamontology.org/operation_3767
       - term: Blind peptide database search
         uri: http://edamontology.org/operation_3647
+      - term: PTM identification
+        uri: http://edamontology.org/operation_3645
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
+      - term: Peptide database search
+        uri: http://edamontology.org/operation_3646
     output:
       - data:
           term: Peptide identification
           uri: http://edamontology.org/data_0945
         format:
-          - term: mzIdentML
-            uri: http://edamontology.org/format_3247
           - term: X!Tandem XML
             uri: http://edamontology.org/format_3711
-  - cmd: null
-    input: []
-    note: null
-    operation:
-      - term: Spectral analysis
-        uri: http://edamontology.org/operation_3214
-      - term: Protein identification
-        uri: http://edamontology.org/operation_3767
-    output: []
+          - term: mzIdentML
+            uri: http://edamontology.org/format_3247
 homepage: http://www.thegpm.org/TANDEM/
 homepage_status: 0
 language:
   - C++
-lastUpdate: '2018-12-10T12:58:56Z'
+lastUpdate: '2019-03-04T13:48:05Z'
 license: null
 link:
   - note: null
@@ -101,7 +122,7 @@ publication:
       authors:
         - name: Craig R.
         - name: Beavis R.C.
-      citationCount: 1533
+      citationCount: 1581
       date: '2004-06-12T00:00:00Z'
       journal: Bioinformatics
       title: 'TANDEM: Matching proteins with tandem mass spectra'
@@ -116,5 +137,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

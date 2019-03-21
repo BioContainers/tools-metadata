@@ -19,7 +19,11 @@ documentation:
   - note: null
     type: General
     url: https://sourceforge.net/p/protms/wiki/Home/
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://sourceforge.net/projects/protms/files/mres2x/
+    version: null
 editPermission:
   authors: []
   type: private
@@ -30,22 +34,49 @@ function:
   - cmd: null
     input:
       - data:
-          term: Data
-          uri: http://edamontology.org/data_0006
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
         format:
           - term: Mascot .dat file
             uri: http://edamontology.org/format_3713
     note: null
     operation:
-      - term: Data handling
-        uri: http://edamontology.org/operation_2409
-    output: []
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output:
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
+          - term: dta
+            uri: http://edamontology.org/format_3652
+  - cmd: null
+    input:
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format:
+          - term: Mascot .dat file
+            uri: http://edamontology.org/format_3713
+    note: null
+    operation:
+      - term: Splitting
+        uri: http://edamontology.org/operation_3359
+    output:
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format:
+          - term: Mascot .dat file
+            uri: http://edamontology.org/format_3713
 homepage: https://sourceforge.net/projects/protms/files/mres2x/
 homepage_status: 0
 language:
   - Java
   - C
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:25:31Z'
 license: null
 link:
   - note: null
@@ -92,7 +123,7 @@ publication:
         - name: Grosse-Coosmann F.
         - name: Boehm A.M.
         - name: Sickmann A.
-      citationCount: 11
+      citationCount: 12
       date: '2005-12-07T00:00:00Z'
       journal: BMC Bioinformatics
       title: "Efficient analysis and extraction of MS/MS result data from Mascot\u2122\
@@ -108,5 +139,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

@@ -2,7 +2,8 @@ accessibility: []
 additionDate: '2017-01-13T13:13:50Z'
 biotoolsCURIE: biotools:blast
 biotoolsID: blast
-collectionID: []
+collectionID:
+  - BLAST
 cost: Free of charge
 credit:
   - email: blast-help@ncbi.nlm.nih.gov
@@ -30,18 +31,26 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format: []
     note: null
     operation:
       - term: Sequence similarity search
         uri: http://edamontology.org/operation_0346
       - term: Sequence alignment
         uri: http://edamontology.org/operation_0292
-    output: []
+    output:
+      - data:
+          term: Sequence search results
+          uri: http://edamontology.org/data_0857
+        format: []
 homepage: https://blast.ncbi.nlm.nih.gov/Blast.cgi
 homepage_status: 0
 language: []
-lastUpdate: '2019-02-13T11:18:20Z'
+lastUpdate: '2019-03-13T09:52:44Z'
 license: null
 link: []
 maturity: Mature

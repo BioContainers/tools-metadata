@@ -28,18 +28,52 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+      - data:
+          term: Sequence set (protein)
+          uri: http://edamontology.org/data_1233
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
     note: null
     operation:
+      - term: Spectral library search
+        uri: http://edamontology.org/operation_3801
+      - term: PTM localisation
+        uri: http://edamontology.org/operation_3755
+      - term: PTM identification
+        uri: http://edamontology.org/operation_3645
+      - term: Protein identification
+        uri: http://edamontology.org/operation_3767
       - term: Blind peptide database search
         uri: http://edamontology.org/operation_3647
-      - term: Protein structure analysis
-        uri: http://edamontology.org/operation_2406
-    output: []
+      - term: Target-Decoy
+        uri: http://edamontology.org/operation_3649
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
+      - term: Peptide database search
+        uri: http://edamontology.org/operation_3646
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
 homepage: http://www.massmatrix.net
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:23:59Z'
 license: null
 link:
   - note: null
@@ -76,7 +110,7 @@ publication:
       authors:
         - name: Xu H.
         - name: Freitas M.A.
-      citationCount: 120
+      citationCount: 122
       date: '2009-03-01T00:00:00Z'
       journal: Proteomics
       title: 'MassMatrix: A database search program for rapid characterization of
@@ -93,5 +127,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

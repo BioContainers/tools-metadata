@@ -1,0 +1,98 @@
+accessibility: []
+additionDate: '2017-08-03T18:59:15Z'
+biotoolsCURIE: biotools:scfg
+biotoolsID: scfg
+collectionID: []
+cost: null
+credit:
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://rna-informatics.uga.edu/malmberg/rlmlab/index.php
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://rna-informatics.uga.edu/malmberg/rlmlab/index.php?s=1&n=7&r=0
+description: Software to calculate RNA structural entropies through stochastic context
+  free grammars.
+documentation:
+  - note: null
+    type: General
+    url: http://rna-informatics.uga.edu/malmberg/rlmlab/index.php?s=1&n=5&r=0
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Nucleic acid thermodynamic property calculation
+        uri: http://edamontology.org/operation_0455
+    output: []
+homepage: http://rna-informatics.uga.edu/malmberg/rlmlab/programs/index.html
+homepage_status: 0
+language: []
+lastUpdate: '2019-02-16T22:32:51Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: http://www.mybiosoftware.com/scfg-structural-entropy-20120907-calculate-rna-structural-entropies-through-stochastic-context-free-grammars.html
+maturity: null
+name: SCFG Structural Entropy
+operatingSystem:
+  - Linux
+otherID: []
+owner: mbs_import
+publication:
+  - doi: null
+    metadata:
+      abstract: "RNA secondary structure ensembles define probability distributions\
+        \ for alternative equilibrium secondary structures of an RNA sequence. Shannon's\
+        \ entropy is a measure for the amount of diversity present in any ensemble.\
+        \ In this work, Shannon's entropy of the SCFG ensemble on an RNA sequence\
+        \ is derived and implemented in polynomial time for both structurally ambiguous\
+        \ and unambiguous grammars. Micro RNA sequences generally have low folding\
+        \ entropy, as previously discovered. Surprisingly, signs of significantly\
+        \ high folding entropy were observed in certain ncRNA families. More effective\
+        \ models coupled with targeted randomization tests can lead to a better insight\
+        \ into folding features of these families. Availability: URL \u3008 http://www.plantbio.uga.edu/~russell/index.php?s=1&n=5&r=0\u3009\
+        . \xA9 2012 Elsevier Ltd."
+      authors:
+        - name: Manzourolajdad A.
+        - name: Wang Y.
+        - name: Shaw T.I.
+        - name: Malmberg R.L.
+      citationCount: 5
+      date: '2013-02-07T00:00:00Z'
+      journal: Journal of Theoretical Biology
+      title: Information-theoretic uncertainty of SCFG-modeled folding space of the
+        non-coding RNA
+    pmcid: null
+    pmid: '23160142'
+    type: null
+    version: null
+toolType:
+  - Command-line tool
+topic:
+  - term: RNA
+    uri: http://edamontology.org/topic_0099
+  - term: Nucleic acid structure analysis
+    uri: http://edamontology.org/topic_0097
+  - term: Computational chemistry
+    uri: http://edamontology.org/topic_3332
+validated: 1
+version: []

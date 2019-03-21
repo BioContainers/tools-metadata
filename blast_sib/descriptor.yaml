@@ -2,7 +2,8 @@ accessibility: []
 additionDate: '2017-12-06T18:14:21Z'
 biotoolsCURIE: biotools:blast_sib
 biotoolsID: blast_sib
-collectionID: []
+collectionID:
+  - BLAST
 cost: null
 credit:
   - email: null
@@ -28,16 +29,26 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format: []
     note: null
     operation:
-      - term: Sequence database search
-        uri: http://edamontology.org/operation_0338
-    output: []
+      - term: Sequence similarity search
+        uri: http://edamontology.org/operation_0346
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output:
+      - data:
+          term: Sequence search results
+          uri: http://edamontology.org/data_0857
+        format: []
 homepage: https://web.expasy.org/blast/
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:56Z'
+lastUpdate: '2019-03-13T10:20:06Z'
 license: null
 link: []
 maturity: null

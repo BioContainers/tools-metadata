@@ -27,16 +27,34 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+      - data:
+          term: Sequence set (protein)
+          uri: http://edamontology.org/data_1233
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
     note: null
     operation:
-      - term: Protein inference
+      - term: Protein identification
         uri: http://edamontology.org/operation_3767
-    output: []
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
 homepage: http://darwin.informatics.indiana.edu/applications/ProteinInference/
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:58Z'
+lastUpdate: '2019-02-27T11:33:25Z'
 license: null
 link:
   - note: null
@@ -75,7 +93,7 @@ publication:
         - name: Radivojac P.
         - name: Reilly J.P.
         - name: Tang H.
-      citationCount: 44
+      citationCount: 46
       date: '2007-12-01T00:00:00Z'
       journal: Pacific Symposium on Biocomputing 2007, PSB 2007
       title: Advancement in protein inference from shotgun proteomics using peptide
@@ -95,5 +113,9 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Mass spectrometry
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+validated: 0
 version: []

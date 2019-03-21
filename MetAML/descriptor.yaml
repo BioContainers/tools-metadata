@@ -13,17 +13,19 @@ credit:
     typeRole:
       - Documentor
     url: null
-description: 'Computational tool (Pasolli et al., 2016; doi.org/10.1371/journal.pcbi.1004977)
-  for metagenomics-based prediction tasks and for quantitative assessment of the strength
-  of potential microbiome-phenotype associations. The tool (i) is based on machine
-  learning classifiers, (ii) includes automatic model and feature selection steps,
-  (iii) comprises cross-validation and cross-study analysis, and (iv) uses as features
-  quantitative microbiome profiles including species-level relative abundances and
-  presence of strain-specific markers.
+description: 'Computational tool for metagenomics-based prediction tasks and for quantitative
+  assessment of the strength of potential microbiome-phenotype associations. The tool
+  (i) is based on machine learning classifiers, (ii) includes automatic model and
+  feature selection steps, (iii) comprises cross-validation and cross-study analysis,
+  and (iv) uses as features quantitative microbiome profiles including species-level
+  relative abundances and presence of strain-specific markers.
 
   It provides also species-level taxonomic profiles, marker presence data, and metadata
   for 3000+ public available metagenomes.'
-documentation: []
+documentation:
+  - note: null
+    type: Tutorial
+    url: https://bitbucket.org/CibioCM/metaml/wiki
 download: []
 editPermission:
   authors: []
@@ -35,9 +37,15 @@ function: []
 homepage: http://segatalab.cibio.unitn.it/tools/metaml/
 homepage_status: 0
 language: []
-lastUpdate: '2019-02-20T09:09:46Z'
+lastUpdate: '2019-03-12T15:39:36Z'
 license: null
-link: []
+link:
+  - note: null
+    type: Repository
+    url: https://bitbucket.org/CibioCM/metaml/src
+  - note: null
+    type: Discussion forum
+    url: https://groups.google.com/forum/#!forum/metaml-users
 maturity: null
 name: MetAML
 operatingSystem: []
@@ -79,7 +87,7 @@ publication:
         - name: Malik F.
         - name: Waldron L.
         - name: Segata N.
-      citationCount: 48
+      citationCount: 49
       date: '2016-07-01T00:00:00Z'
       journal: PLoS Computational Biology
       title: 'Machine Learning Meta-analysis of Large Metagenomic Datasets: Tools
@@ -88,8 +96,11 @@ publication:
     pmid: null
     type: Primary
     version: null
-toolType: []
-topic: []
+toolType:
+  - Command-line tool
+topic:
+  - term: Metagenomics
+    uri: http://edamontology.org/topic_3174
 validated: 0
 version:
   - '1.0'

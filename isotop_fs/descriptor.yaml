@@ -32,6 +32,10 @@ download:
     type: Source code
     url: http://www.ms-utils.org/isotop_fs.html
     version: null
+  - note: null
+    type: Source code
+    url: http://www.ms-utils.org/isotop_fs.html
+    version: null
 editPermission:
   authors:
     - n.m.palmblad@lumc.nl
@@ -41,16 +45,30 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Chemical formula
+          uri: http://edamontology.org/data_0846
+        format:
+          - term: Chemical formula format
+            uri: http://edamontology.org/format_2035
     note: null
     operation:
+      - term: Plotting
+        uri: http://edamontology.org/operation_3441
       - term: Isotopic distributions calculation
         uri: http://edamontology.org/operation_3632
-    output: []
+    output:
+      - data:
+          term: Plot
+          uri: http://edamontology.org/data_2884
+        format:
+          - term: png
+            uri: http://edamontology.org/format_3603
 homepage: http://www.ms-utils.org/isotop_fs.html
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:54Z'
+lastUpdate: '2019-02-27T11:21:45Z'
 license: null
 link:
   - note: null
@@ -70,5 +88,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

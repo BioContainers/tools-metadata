@@ -29,23 +29,59 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Spectrum
+          uri: http://edamontology.org/data_3483
+        format:
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+          - term: dta
+            uri: http://edamontology.org/format_3652
+          - term: pkl
+            uri: http://edamontology.org/format_3653
+      - data:
+          term: Sequence set (protein)
+          uri: http://edamontology.org/data_1233
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
     note: null
     operation:
+      - term: Protein identification
+        uri: http://edamontology.org/operation_3767
       - term: Blind peptide database search
         uri: http://edamontology.org/operation_3647
+      - term: Peptide database search
+        uri: http://edamontology.org/operation_3646
+      - term: Tag-based peptide identification
+        uri: http://edamontology.org/operation_3643
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
+      - term: Target-Decoy
+        uri: http://edamontology.org/operation_3649
     output:
       - data:
-          term: Data
-          uri: http://edamontology.org/data_0006
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
         format:
-          - term: Textual format
-            uri: http://edamontology.org/format_2330
+          - term: TSV
+            uri: http://edamontology.org/format_3475
+      - data:
+          term: P-value
+          uri: http://edamontology.org/data_1669
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
 homepage: http://proteomics.ucsd.edu/ProteoSAFe/
 homepage_status: 0
 language:
   - Java
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:25:59Z'
 license: null
 link:
   - note: null
@@ -97,7 +133,7 @@ publication:
         - name: Mohammed S.
         - name: Heck A.J.R.
         - name: Pevzner P.A.
-      citationCount: 152
+      citationCount: 158
       date: '2010-12-01T00:00:00Z'
       journal: Molecular and Cellular Proteomics
       title: 'The generating function of CID, ETD, and CID/ETD pairs of tandem mass
@@ -113,5 +149,7 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+validated: 0
 version: []

@@ -27,7 +27,11 @@ documentation:
   - note: null
     type: General
     url: https://ms-imaging.org/wp/msimageview/
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://github.com/stoeckli/MSImageViewer
+    version: null
 editPermission:
   authors: []
   type: private
@@ -36,16 +40,34 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: WIFF format
+            uri: http://edamontology.org/format_3710
     note: null
     operation:
-      - term: Visualisation
-        uri: http://edamontology.org/operation_0337
-    output: []
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output:
+      - data:
+          term: Image
+          uri: http://edamontology.org/data_2968
+        format:
+          - term: JPG
+            uri: http://edamontology.org/format_3579
+          - term: png
+            uri: http://edamontology.org/format_3603
+          - term: imzML metadata file
+            uri: http://edamontology.org/format_3682
+          - term: tiff
+            uri: http://edamontology.org/format_3591
 homepage: https://ms-imaging.org/wp/msimageview/
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:54Z'
+lastUpdate: '2019-02-27T11:27:04Z'
 license: null
 link:
   - note: null
@@ -92,7 +114,7 @@ publication:
         - name: Rohner T.C.
         - name: Staab D.
         - name: Stoeckli M.
-      citationCount: 202
+      citationCount: 208
       date: '2005-01-01T00:00:00Z'
       journal: Mechanisms of Ageing and Development
       title: MALDI mass spectrometric imaging of biological tissue sections
@@ -109,5 +131,7 @@ topic:
     uri: http://edamontology.org/topic_3520
   - term: Biological imaging
     uri: http://edamontology.org/topic_3383
-validated: 1
+  - term: Omics
+    uri: http://edamontology.org/topic_3391
+validated: 0
 version: []

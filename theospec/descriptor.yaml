@@ -19,7 +19,11 @@ documentation:
   - note: null
     type: General
     url: https://sourceforge.net/p/protms/wiki/Home/
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://sourceforge.net/projects/protms/files/theospec/
+    version: null
 editPermission:
   authors: []
   type: private
@@ -28,18 +32,30 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
     note: null
     operation:
-      - term: de Novo sequencing
-        uri: http://edamontology.org/operation_3644
-    output: []
+      - term: Calculation
+        uri: http://edamontology.org/operation_3438
+    output:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
 homepage: https://sourceforge.net/projects/protms/files/theospec/
 homepage_status: 0
 language:
   - Java
   - C
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:37:19Z'
 license: null
 link:
   - note: null
@@ -85,5 +101,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

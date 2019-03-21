@@ -2,7 +2,8 @@ accessibility: []
 additionDate: '2017-08-03T19:08:08Z'
 biotoolsCURIE: biotools:rbamtools
 biotoolsID: rbamtools
-collectionID: []
+collectionID:
+  - SAMtools utility
 cost: null
 credit:
   - email: kaisers@med.uni-duesseldorf.de
@@ -42,7 +43,7 @@ homepage: http://cran.r-project.org/web/packages/rbamtools/index.html
 homepage_status: 0
 language:
   - R
-lastUpdate: '2018-12-10T12:58:55Z'
+lastUpdate: '2019-03-14T11:31:44Z'
 license: null
 link:
   - note: null
@@ -58,25 +59,7 @@ otherID: []
 owner: mbs_import
 publication:
   - doi: null
-    metadata:
-      abstract: "\xA9 The Author 2015. Published by Oxford University Press. Summary:\
-        \ The open source environment R isf the most widely used software to statistically\
-        \ explore biological data sets including sequence alignments. BAM is the de\
-        \ facto standard file format for sequence alignment. With rbamtools, we provide\
-        \ now a full spectrum of accessibility to BAM for R users such as reading,\
-        \ writing, extraction of subsets and plotting of alignment depth where the\
-        \ script syntax closely follows the SAM/BAM format. Additionally, rbamtools\
-        \ enables fast accumulative tabulation of splicing events over multiple BAM\
-        \ files."
-      authors:
-        - name: Kaisers W.
-        - name: Schaal H.
-        - name: Schwender H.
-      citationCount: 3
-      date: '2015-01-01T00:00:00Z'
-      journal: Bioinformatics
-      title: 'Rbamtools: An R interface to samtools enabling fast accumulative tabulation
-        of splicing events over multiple RNA-seq samples'
+    metadata: null
     pmcid: null
     pmid: '25563331'
     type: null
@@ -90,5 +73,5 @@ topic:
     uri: http://edamontology.org/topic_3511
   - term: Sequence analysis
     uri: http://edamontology.org/topic_0080
-validated: 1
+validated: 0
 version: []

@@ -20,7 +20,11 @@ documentation:
   - note: null
     type: General
     url: https://omics.pnl.gov/software/deconmsn
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://omics.pnl.gov/sites/default/files/software/DeconMSn_SourceAndSupportingDLLs.zip
+    version: null
 editPermission:
   authors: []
   type: private
@@ -29,17 +33,59 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: Thermo RAW
+            uri: http://edamontology.org/format_3712
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format:
+          - term: Thermo RAW
+            uri: http://edamontology.org/format_3712
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
     note: null
     operation:
+      - term: Peak detection
+        uri: http://edamontology.org/operation_3215
       - term: Deisotoping
         uri: http://edamontology.org/operation_3629
-    output: []
+    output:
+      - data:
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
+        format:
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+          - term: dta
+            uri: http://edamontology.org/format_3652
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format:
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+          - term: dta
+            uri: http://edamontology.org/format_3652
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+          - term: dta
+            uri: http://edamontology.org/format_3652
 homepage: http://omics.pnl.gov/software/DeconMSn.php
 homepage_status: 0
 language:
   - C++
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T14:39:30Z'
 license: null
 link:
   - note: null
@@ -75,7 +121,7 @@ publication:
         - name: Auberry K.J.
         - name: Adkins J.N.
         - name: Smith R.D.
-      citationCount: 95
+      citationCount: 98
       date: '2008-04-01T00:00:00Z'
       journal: Bioinformatics
       title: 'DeconMSn: A software tool for accurate parent ion monoisotopic mass
@@ -91,5 +137,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

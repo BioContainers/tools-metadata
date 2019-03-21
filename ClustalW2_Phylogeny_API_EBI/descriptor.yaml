@@ -1,0 +1,106 @@
+accessibility: []
+additionDate: '2015-08-03T09:35:32Z'
+biotoolsCURIE: biotools:ClustalW2_Phylogeny_API_EBI
+biotoolsID: ClustalW2_Phylogeny_API_EBI
+collectionID:
+  - clustal
+cost: null
+credit:
+  - email: null
+    name: BioCatalogue
+    note: null
+    orcidid: null
+    typeEntity: Project
+    typeRole:
+      - Documentor
+    url: https://www.biocatalogue.org
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.ebi.ac.uk/support/WebServices
+description: Create Neighbor-joining or UPGMA phylogentic trees from a multiple sequence
+  alignment using ClustalW.
+documentation:
+  - note: null
+    type: General
+    url: http://www.ebi.ac.uk/Tools/webservices/services/phylogeny/clustalw2_phylogeny_rest
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format: []
+    note: null
+    operation:
+      - term: Phylogenetic tree generation
+        uri: http://edamontology.org/operation_0323
+    output:
+      - data:
+          term: Phylogenetic tree
+          uri: http://edamontology.org/data_0872
+        format: []
+homepage: https://www.ebi.ac.uk/seqdb/confluence/pages/viewpage.action?pageId=54651945
+homepage_status: 0
+language: []
+lastUpdate: '2019-03-13T17:36:28Z'
+license: null
+link:
+  - note: null
+    type: Registry
+    url: https://www.biocatalogue.org/services/3139
+maturity: null
+name: ClustalW2 Phylogeny API EBI
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: jison
+publication:
+  - doi: 10.1093/bioinformatics/btm404
+    metadata:
+      abstract: null
+      authors:
+        - name: Larkin M.A.
+        - name: Blackshields G.
+        - name: Brown N.P.
+        - name: Chenna R.
+        - name: Mcgettigan P.A.
+        - name: McWilliam H.
+        - name: Valentin F.
+        - name: Wallace I.M.
+        - name: Wilm A.
+        - name: Lopez R.
+        - name: Thompson J.D.
+        - name: Gibson T.J.
+        - name: Higgins D.G.
+      citationCount: 0
+      date: null
+      journal: null
+      title: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web API
+topic:
+  - term: Phylogenetics
+    uri: http://edamontology.org/topic_3293
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 0
+version:
+  - '1'

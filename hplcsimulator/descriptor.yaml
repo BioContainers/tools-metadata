@@ -19,7 +19,11 @@ documentation:
   - note: null
     type: General
     url: http://www.hplcsimulator.org/
-download: []
+download:
+  - note: null
+    type: Source code
+    url: http://www.hplcsimulator.org/development/index.php
+    version: null
 editPermission:
   authors: []
   type: private
@@ -28,16 +32,28 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Molecular property (general)
+          uri: http://edamontology.org/data_2050
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
     note: null
     operation:
       - term: Retention time prediction
         uri: http://edamontology.org/operation_3633
-    output: []
+    output:
+      - data:
+          term: Plot
+          uri: http://edamontology.org/data_2884
+        format:
+          - term: Image format
+            uri: http://edamontology.org/format_3547
 homepage: http://www.hplcsimulator.org/
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:18:58Z'
 license: null
 link:
   - note: null
@@ -63,5 +79,5 @@ toolType:
 topic:
   - term: Analytical chemistry
     uri: http://edamontology.org/topic_3370
-validated: 1
+validated: 0
 version: []

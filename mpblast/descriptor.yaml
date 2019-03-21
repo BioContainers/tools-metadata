@@ -2,7 +2,8 @@ accessibility: []
 additionDate: '2017-08-03T18:50:00Z'
 biotoolsCURIE: biotools:mpblast
 biotoolsID: mpblast
-collectionID: []
+collectionID:
+  - BLAST
 cost: null
 credit:
   - email: ifkorf@ucdavis.edu
@@ -29,23 +30,26 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format: []
     note: null
     operation:
-      - term: Local alignment
-        uri: http://edamontology.org/operation_0495
-    output: []
-  - cmd: null
-    input: []
-    note: null
-    operation:
-      - term: Multiple sequence alignment
-        uri: http://edamontology.org/operation_0492
-    output: []
+      - term: Sequence similarity search
+        uri: http://edamontology.org/operation_0346
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output:
+      - data:
+          term: Sequence search results
+          uri: http://edamontology.org/data_0857
+        format: []
 homepage: http://korflab.ucdavis.edu/software.html
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:45Z'
+lastUpdate: '2019-03-13T12:24:34Z'
 license: null
 link:
   - note: null
@@ -62,19 +66,14 @@ owner: mbs_import
 publication:
   - doi: null
     metadata:
-      abstract: We have developed a program, MPBLAST, that increases the throughput
-        of batch BLASTN searches by multiplexing (concatenating) query sequences and
-        thereby reducing the number of actual database searches performed. Throughput
-        was observed to increase in reciprocal proportion to the component sequence
-        length. For sequencing read-sized queries of 500 bp, an order of magnitude
-        speed-up was seen.
+      abstract: null
       authors:
         - name: Korf I.
         - name: Gish W.
-      citationCount: 19
-      date: '2000-01-01T00:00:00Z'
-      journal: Bioinformatics
-      title: 'MPBLAST: Improved BLAST performance with multiplexed queries'
+      citationCount: 0
+      date: null
+      journal: null
+      title: null
     pmcid: null
     pmid: '11159321'
     type: null
@@ -86,5 +85,5 @@ topic:
     uri: http://edamontology.org/topic_0219
   - term: Sequence analysis
     uri: http://edamontology.org/topic_0080
-validated: 1
+validated: 0
 version: []

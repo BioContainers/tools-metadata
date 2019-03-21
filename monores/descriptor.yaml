@@ -59,7 +59,38 @@ otherID: []
 owner: ELIXIR-EE
 publication:
   - doi: null
-    metadata: null
+    metadata:
+      abstract: "\xA9 2018 Elsevier Ltd Since the beginning of electron microscopy,\
+        \ resolution has been a critical parameter. In this article, we propose a\
+        \ fully automatic, accurate method for determining the local resolution of\
+        \ a 3D map (MonoRes). The foundation of this algorithm is an extension of\
+        \ the concept of analytic signal, termed monogenic signal. The map is filtered\
+        \ at different frequencies and the amplitude of the monogenic signal is calculated,\
+        \ after which a criterion is applied to determine the resolution at each voxel.\
+        \ MonoRes is fully automatic without compulsory user parameters, with great\
+        \ accuracy in all tests, and is computationally more rapid than existing methods\
+        \ in the field. In addition, MonoRes offers the option of local filtering\
+        \ of the original map based on the calculated local resolution. Vilas et al.\
+        \ present MonoRes, a fast and fully automatic method to determine the local\
+        \ resolution in electron density maps. It also allows local filtering of the\
+        \ original map at local resolution values."
+      authors:
+        - name: Vilas J.L.
+        - name: Gomez-Blanco J.
+        - name: Conesa P.
+        - name: Melero R.
+        - name: Miguel de la Rosa-Trevin J.
+        - name: Oton J.
+        - name: Cuenca J.
+        - name: Marabini R.
+        - name: Carazo J.M.
+        - name: Vargas J.
+        - name: Sorzano C.O.S.
+      citationCount: 7
+      date: '2018-02-06T00:00:00Z'
+      journal: Structure
+      title: 'MonoRes: Automatic and Accurate Estimation of Local Resolution for Electron
+        Microscopy Maps'
     pmcid: null
     pmid: '29395788'
     type: null

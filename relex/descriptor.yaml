@@ -16,7 +16,11 @@ credit:
     url: http://ms-utils.org
 description: Calculation of ion current ratios from LC-MS data (requires Xcalibur).
 documentation: []
-download: []
+download:
+  - note: null
+    type: Source code
+    url: http://fields.scripps.edu/downloadfile2.php?me=RelEx&fileme=RelEx.zip&id=4
+    version: null
 editPermission:
   authors: []
   type: private
@@ -25,16 +29,46 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: Thermo RAW
+            uri: http://edamontology.org/format_3712
+          - term: dta
+            uri: http://edamontology.org/format_3652
     note: null
     operation:
-      - term: Spectral analysis
-        uri: http://edamontology.org/operation_3214
-    output: []
+      - term: 18O labeling
+        uri: http://edamontology.org/operation_3640
+      - term: Protein quantification
+        uri: http://edamontology.org/operation_3630
+      - term: Regression analysis
+        uri: http://edamontology.org/operation_3659
+      - term: Label-free quantification
+        uri: http://edamontology.org/operation_3634
+      - term: Metabolic labeling
+        uri: http://edamontology.org/operation_3715
+      - term: Filtering
+        uri: http://edamontology.org/operation_3695
+      - term: Isotope-coded protein label
+        uri: http://edamontology.org/operation_3705
+      - term: Peak detection
+        uri: http://edamontology.org/operation_3215
+      - term: Labeled quantification
+        uri: http://edamontology.org/operation_3635
+    output:
+      - data:
+          term: Expression data
+          uri: http://edamontology.org/data_2603
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
 homepage: http://fields.scripps.edu/downloadfile2.php?name=RelEx&filename=RelEx.zip&id=4
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:48Z'
+lastUpdate: '2019-02-27T11:35:55Z'
 license: null
 link:
   - note: null
@@ -68,7 +102,7 @@ publication:
         - name: Liu H.
         - name: Sadygov R.
         - name: Yates III J.R.
-      citationCount: 223
+      citationCount: 227
       date: '2003-12-15T00:00:00Z'
       journal: Analytical Chemistry
       title: A Correlation Algorithm for the Automated Quantitative Analysis of Shotgun
@@ -84,5 +118,7 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+validated: 0
 version: []

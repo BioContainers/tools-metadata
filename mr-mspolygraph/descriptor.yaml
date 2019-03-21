@@ -19,7 +19,11 @@ documentation:
   - note: null
     type: General
     url: http://compbio.eecs.wsu.edu/readme.txt
-download: []
+download:
+  - note: null
+    type: Source code
+    url: http://compbio.eecs.wsu.edu/
+    version: null
 editPermission:
   authors: []
   type: private
@@ -28,36 +32,55 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: dta
+            uri: http://edamontology.org/format_3652
+      - data:
+          term: Sequence set (protein)
+          uri: http://edamontology.org/data_1233
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
     note: null
     operation:
-      - term: Database search
-        uri: http://edamontology.org/operation_2421
-    output: []
-  - cmd: null
-    input: []
-    note: null
-    operation:
+      - term: Spectral library search
+        uri: http://edamontology.org/operation_3801
+      - term: Blind peptide database search
+        uri: http://edamontology.org/operation_3647
       - term: Peptide identification
         uri: http://edamontology.org/operation_3631
-    output: []
-  - cmd: null
-    input: []
-    note: null
-    operation:
-      - term: Search
-        uri: http://edamontology.org/operation_2421
-    output: []
+      - term: Peptide database search
+        uri: http://edamontology.org/operation_3646
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: dta
+            uri: http://edamontology.org/format_3652
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: dta
+            uri: http://edamontology.org/format_3652
 homepage: http://compbio.eecs.wsu.edu/
 homepage_status: 0
 language:
   - C
-lastUpdate: '2018-12-10T12:58:57Z'
+lastUpdate: '2019-03-01T12:52:41Z'
 license: null
 link:
   - note: null
     type: Registry
     url: http://www.mybiosoftware.com/mr-mspolygraph-mspolygraph-1-61-mapreduce-implementation-hybrid-spectral-library-database-search-method-large-scale-peptide-identification.html
+  - note: Alternative homepage.
+    type: Other
+    url: https://cbb.pnnl.gov/portal/software/mspolygraph.html
 maturity: null
 name: MR-MSPOLYGRAPH
 operatingSystem:
@@ -83,7 +106,7 @@ publication:
         - name: Cannon W.R.
         - name: Latt B.
         - name: Baxter D.J.
-      citationCount: 17
+      citationCount: 18
       date: '2011-11-01T00:00:00Z'
       journal: Bioinformatics
       title: Mapreduce implementation of a hybrid spectral library-database search
@@ -91,6 +114,42 @@ publication:
     pmcid: null
     pmid: null
     type: Primary
+    version: null
+  - doi: 10.1021/pr101130b
+    metadata:
+      abstract: "We report a hybrid search method combining database and spectral\
+        \ library searches that allows for a straightforward approach to characterizing\
+        \ the error rates from the combined data. Using these methods, we demonstrate\
+        \ significantly increased sensitivity and specificity in matching peptides\
+        \ to tandem mass spectra. The hybrid search method increased the number of\
+        \ spectra that can be assigned to a peptide in a global proteomics study by\
+        \ 57-147% at an estimated false discovery rate of 5%, with clear room for\
+        \ even greater improvements. The approach combines the general utility of\
+        \ using consensus model spectra typical of database search methods with the\
+        \ accuracy of the intensity information contained in spectral libraries. A\
+        \ common scoring metric based on recent developments linking data analysis\
+        \ and statistical thermodynamics is used, which allows the use of a conservative\
+        \ estimate of error rates for the combined data. We applied this approach\
+        \ to proteomics analysis of Synechococcus sp. PCC 7002, a cyanobacterium that\
+        \ is a model organism for studies of photosynthetic carbon fixation and biofuels\
+        \ development. The increased specificity and sensitivity of this approach\
+        \ allowed us to identify many more peptides involved in the processes important\
+        \ for photoautotrophic growth. \xA9 2011 American Chemical Society."
+      authors:
+        - name: Cannon W.R.
+        - name: Rawlins M.M.
+        - name: Baxter D.J.
+        - name: Callister S.J.
+        - name: Lipton M.S.
+        - name: Bryant D.A.
+      citationCount: 17
+      date: '2011-05-06T00:00:00Z'
+      journal: Journal of Proteome Research
+      title: Large improvements in MS/MS-based peptide identification rates using
+        a hybrid analysis
+    pmcid: null
+    pmid: '21391700'
+    type: null
     version: null
 toolType:
   - Command-line tool
@@ -101,5 +160,7 @@ topic:
     uri: http://edamontology.org/topic_3520
   - term: Peptide identification
     uri: http://edamontology.org/topic_0121
-validated: 1
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 0
 version: []

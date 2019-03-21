@@ -37,19 +37,29 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Protein structure
+          uri: http://edamontology.org/data_1460
+        format:
+          - term: PDB
+            uri: http://edamontology.org/format_1476
     note: null
     operation:
-      - term: Protein hydrogen exchange rate calculation
-        uri: http://edamontology.org/operation_0404
-      - term: Protein structure analysis
-        uri: http://edamontology.org/operation_2406
-    output: []
+      - term: Protein distance matrix calculation
+        uri: http://edamontology.org/operation_0391
+    output:
+      - data:
+          term: Protein distance matrix
+          uri: http://edamontology.org/data_1546
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
 homepage: https://github.com/jtprince/hydrogen_bondifier
 homepage_status: 0
 language:
   - Python
-lastUpdate: '2018-12-10T12:58:54Z'
+lastUpdate: '2019-02-27T11:19:10Z'
 license: MIT
 link:
   - note: null
@@ -71,5 +81,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

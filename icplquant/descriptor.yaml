@@ -19,7 +19,11 @@ documentation:
   - note: null
     type: General
     url: https://sourceforge.net/p/icplquant/wiki/Home/
-download: []
+download:
+  - note: null
+    type: Source code
+    url: http://sourceforge.net/projects/icplquant/
+    version: null
 editPermission:
   authors: []
   type: private
@@ -28,17 +32,63 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
+        format:
+          - term: XML
+            uri: http://edamontology.org/format_2332
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: XML
+            uri: http://edamontology.org/format_2332
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: Mascot .dat file
+            uri: http://edamontology.org/format_3713
     note: null
     operation:
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+      - term: Protein quantification
+        uri: http://edamontology.org/operation_3630
+      - term: Protein identification
+        uri: http://edamontology.org/operation_3767
+      - term: Target-Decoy
+        uri: http://edamontology.org/operation_3649
+      - term: Deisotoping
+        uri: http://edamontology.org/operation_3629
       - term: Isotope-coded protein label
         uri: http://edamontology.org/operation_3705
-    output: []
+      - term: Quantification
+        uri: http://edamontology.org/operation_3799
+      - term: Chromatogram visualisation
+        uri: http://edamontology.org/operation_3203
+      - term: Labeled quantification
+        uri: http://edamontology.org/operation_3635
+    output:
+      - data:
+          term: Expression data
+          uri: http://edamontology.org/data_2603
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+          - term: xls
+            uri: http://edamontology.org/format_3468
 homepage: http://sourceforge.net/projects/icplquant/
 homepage_status: 0
 language:
   - Java
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:19:21Z'
 license: null
 link:
   - note: null
@@ -81,7 +131,7 @@ publication:
         - name: Dosch D.
         - name: Kellermann J.
         - name: Lottspeich F.
-      citationCount: 20
+      citationCount: 21
       date: '2010-01-01T00:00:00Z'
       journal: Proteomics
       title: ICPLQuant - A software for non-isobaric isotopic labeling proteomics
@@ -96,5 +146,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

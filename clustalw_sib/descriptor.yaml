@@ -2,7 +2,8 @@ accessibility: []
 additionDate: '2017-12-06T18:14:24Z'
 biotoolsCURIE: biotools:clustalw_sib
 biotoolsID: clustalw_sib
-collectionID: []
+collectionID:
+  - clustal
 cost: null
 credit:
   - email: projects@vital-it.ch
@@ -27,18 +28,28 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
     note: null
     operation:
       - term: Multiple sequence alignment
         uri: http://edamontology.org/operation_0492
-      - term: Sequence alignment
-        uri: http://edamontology.org/operation_0292
-    output: []
+    output:
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
 homepage: http://embnet.vital-it.ch/software/ClustalW.html
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:56Z'
+lastUpdate: '2019-03-13T17:00:57Z'
 license: null
 link: []
 maturity: null
@@ -55,9 +66,5 @@ toolType:
 topic:
   - term: Sequence analysis
     uri: http://edamontology.org/topic_0080
-  - term: Proteomics
-    uri: http://edamontology.org/topic_0121
-  - term: Genomics
-    uri: http://edamontology.org/topic_0622
 validated: 0
 version: []

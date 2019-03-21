@@ -37,17 +37,53 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: Mass spectrometry data format
+            uri: http://edamontology.org/format_3245
+      - data:
+          term: Protein sequence
+          uri: http://edamontology.org/data_2976
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
     note: null
     operation:
-      - term: Blind peptide database search
-        uri: http://edamontology.org/operation_3647
-    output: []
+      - term: PTM localisation
+        uri: http://edamontology.org/operation_3755
+      - term: PTM identification
+        uri: http://edamontology.org/operation_3645
+      - term: Protein identification
+        uri: http://edamontology.org/operation_3767
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
+      - term: Peptide database search
+        uri: http://edamontology.org/operation_3646
+      - term: Validation of peptide-spectrum matches
+        uri: http://edamontology.org/operation_3648
+      - term: Filtering
+        uri: http://edamontology.org/operation_3695
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Protein sequence record
+          uri: http://edamontology.org/data_2886
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
 homepage: http://proteomics.informatics.iupui.edu/software/toppic/
 homepage_status: 0
 language:
   - C++
-lastUpdate: '2019-02-06T13:55:35Z'
+lastUpdate: '2019-02-27T11:37:26Z'
 license: Apache-2.0
 link:
   - note: null
@@ -89,7 +125,7 @@ publication:
         - name: Smith R.D.
         - name: Bafna V.
         - name: Pevzner P.A.
-      citationCount: 72
+      citationCount: 73
       date: '2012-06-01T00:00:00Z'
       journal: Molecular and Cellular Proteomics
       title: Protein identification using top-down
@@ -148,7 +184,7 @@ publication:
         - name: Segar M.W.
         - name: Li S.C.
         - name: Kim S.
-      citationCount: 7
+      citationCount: 8
       date: '2014-01-24T00:00:00Z'
       journal: BMC Genomics
       title: Spectral probabilities of top-down tandem mass spectra
@@ -164,5 +200,7 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Protein modifications
+    uri: http://edamontology.org/topic_0601
+validated: 0
 version: []

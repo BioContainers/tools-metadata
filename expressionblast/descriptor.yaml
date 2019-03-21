@@ -27,16 +27,20 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Expression data
+          uri: http://edamontology.org/data_2603
+        format: []
     note: null
     operation:
-      - term: Search
-        uri: http://edamontology.org/operation_2421
+      - term: ' Expression correlation analysis'
+        uri: http://edamontology.org/operation_3463
     output: []
 homepage: http://expression.ml.cmu.edu:8080/ExpressionBlast/
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:46Z'
+lastUpdate: '2019-03-13T12:16:18Z'
 license: null
 link:
   - note: null
@@ -50,17 +54,17 @@ owner: mbs_import
 publication:
   - doi: 10.1038/nmeth.2630
     metadata:
-      abstract: ''
+      abstract: null
       authors:
         - name: Zinman G.E.
         - name: Naiman S.
         - name: Kanfi Y.
         - name: Cohen H.
         - name: Bar-Joseph Z.
-      citationCount: 10
-      date: '2013-10-01T00:00:00Z'
-      journal: Nature Methods
-      title: 'ExpressionBlast: Mining large, unstructured expression databases'
+      citationCount: 0
+      date: null
+      journal: null
+      title: null
     pmcid: null
     pmid: null
     type: Primary
@@ -74,5 +78,5 @@ topic:
     uri: http://edamontology.org/topic_0203
   - term: samples
     uri: http://edamontology.org/topic_3277
-validated: 1
+validated: 0
 version: []

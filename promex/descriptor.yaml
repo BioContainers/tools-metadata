@@ -43,11 +43,40 @@ function:
   - cmd: null
     input:
       - data:
-          term: Locus ID (AGI)
-          uri: http://edamontology.org/data_1895
-        format: []
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
     note: null
     operation:
+      - term: Spectral library search
+        uri: http://edamontology.org/operation_3801
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
+      - term: Protein identification
+        uri: http://edamontology.org/operation_3767
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: png
+            uri: http://edamontology.org/format_3603
+  - cmd: null
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format:
+          - term: Raw sequence format
+            uri: http://edamontology.org/format_2571
+    note: null
+    operation:
+      - term: Mass spectrum visualisation
+        uri: http://edamontology.org/operation_3694
       - term: Query and retrieval
         uri: http://edamontology.org/operation_0224
     output:
@@ -55,12 +84,12 @@ function:
           term: Mass spectrometry spectra
           uri: http://edamontology.org/data_0943
         format:
-          - term: HTML
-            uri: http://edamontology.org/format_2331
+          - term: png
+            uri: http://edamontology.org/format_3603
 homepage: http://promex.pph.univie.ac.at/promex/
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:49Z'
+lastUpdate: '2019-02-27T11:32:43Z'
 license: null
 link: []
 maturity: null
@@ -106,5 +135,7 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Plant biology
     uri: http://edamontology.org/topic_0780
-validated: 1
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 0
 version: []

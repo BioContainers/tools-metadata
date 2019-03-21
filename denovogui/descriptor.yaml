@@ -30,7 +30,11 @@ documentation:
   - note: null
     type: General
     url: http://compomics.github.io/projects/denovogui.html
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://github.com/compomics/denovogui
+    version: null
 editPermission:
   authors: []
   type: private
@@ -41,23 +45,33 @@ function:
   - cmd: null
     input:
       - data:
-          term: Mass spectrometry data
-          uri: http://edamontology.org/data_2536
-        format: []
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: MGF
+            uri: http://edamontology.org/format_3651
     note: null
     operation:
       - term: de Novo sequencing
         uri: http://edamontology.org/operation_3644
+      - term: Validation of peptide-spectrum matches
+        uri: http://edamontology.org/operation_3648
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
+      - term: Protein identification
+        uri: http://edamontology.org/operation_3767
     output:
       - data:
-          term: Protein sequence record
-          uri: http://edamontology.org/data_2886
-        format: []
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
 homepage: http://compomics.github.io/projects/denovogui.html
 homepage_status: 0
 language:
   - Java
-lastUpdate: '2018-12-10T12:58:52Z'
+lastUpdate: '2019-02-27T11:17:35Z'
 license: Apache-2.0
 link: []
 maturity: null
@@ -89,7 +103,7 @@ publication:
         - name: Martens L.
         - name: Vaudel M.
         - name: Barsnes H.
-      citationCount: 29
+      citationCount: 34
       date: '2014-02-07T00:00:00Z'
       journal: Journal of Proteome Research
       title: 'DeNovoGUI: An open source graphical user interface for de novo sequencing
@@ -106,6 +120,8 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteins
     uri: http://edamontology.org/topic_0078
-validated: 1
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+validated: 0
 version:
   - 1.9.6

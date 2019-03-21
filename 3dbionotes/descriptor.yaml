@@ -101,7 +101,7 @@ function:
         uri: http://edamontology.org/operation_0564
     output: []
 homepage: http://3dbionotes.cnb.csic.es/ws
-homepage_status: 0
+homepage_status: 1
 language:
   - SQL
 lastUpdate: '2019-02-15T10:24:03Z'
@@ -117,7 +117,30 @@ otherID: []
 owner: jsegura@cnb.csic.es
 publication:
   - doi: 10.1016/j.jsb.2016.02.007
-    metadata: null
+    metadata:
+      abstract: "\xA9 2016 The Authors. With the advent of high throughput techniques\
+        \ like Next Generation Sequencing, the amount of biological information for\
+        \ genes and proteins is growing faster than ever. Structural information is\
+        \ also rapidly growing, especially in the cryo Electron Microscopy area. However,\
+        \ in many cases, the proteomic and genomic data are spread in multiple databases\
+        \ and with no simple connection to structural information.In this work we\
+        \ present a new web platform that integrates EMDB/PDB structures and UniProt\
+        \ sequences with different sources of protein annotations. The application\
+        \ provides an interactive interface linking sequence and structure, including\
+        \ EM maps, presenting the different sources of information at sequence and\
+        \ structural level. The web application is available at http://3dbionotes.cnb.csic.es."
+      authors:
+        - name: Tabas-Madrid D.
+        - name: Segura J.
+        - name: Sanchez-Garcia R.
+        - name: Cuenca-Alba J.
+        - name: Sorzano C.O.S.
+        - name: Carazo J.M.
+      citationCount: 3
+      date: '2016-05-01T00:00:00Z'
+      journal: Journal of Structural Biology
+      title: '3DBIONOTES: A unified, enriched and interactive view of macromolecular
+        information'
     pmcid: null
     pmid: null
     type: Primary

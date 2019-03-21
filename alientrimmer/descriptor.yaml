@@ -118,7 +118,28 @@ otherID: []
 owner: criscuol
 publication:
   - doi: 10.1016/j.ygeno.2013.07.011
-    metadata: null
+    metadata:
+      abstract: "Contaminant oligonucleotide sequences such as primers and adapters\
+        \ can occur in both ends of high-throughput sequencing (HTS) reads. A. lienT.\
+        \ rimmer was developed in order to detect and remove such contaminants. Based\
+        \ on the decomposition of specified alien nucleotide sequences into k-mers,\
+        \ A. lienT. rimmer is able to determine whether such alien k-mers are occurring\
+        \ in one or in both read ends by using a simple polynomial algorithm. Therefore,\
+        \ A. lienT. rimmer can process typical HTS single- or paired-end files with\
+        \ millions of reads in several minutes with very low computer resources. Based\
+        \ on the analysis of both simulated and real-case Illumina\xAE, 454\u2122\
+        \ and Ion Torrent\u2122 read data, we show that A. lienT. rimmer performs\
+        \ with excellent accuracy and speed in comparison with other trimming tools.\
+        \ The program is freely available at ftp://ftp.pasteur.fr/pub/gensoft/projects/AlienTrimmer/.\
+        \ \xA9 2013 Elsevier Inc."
+      authors:
+        - name: Criscuolo A.
+        - name: Brisse S.
+      citationCount: 57
+      date: '2013-11-01T00:00:00Z'
+      journal: Genomics
+      title: 'AlienTrimmer: A tool to quickly and accurately trim off multiple short
+        contaminant sequences from high-throughput sequencing reads'
     pmcid: null
     pmid: '23912058'
     type: Primary

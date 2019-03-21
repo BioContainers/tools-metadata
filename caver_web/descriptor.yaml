@@ -132,7 +132,50 @@ otherID: []
 owner: Loschmidt Laboratories
 publication:
   - doi: 10.1371/journal.pcbi.1002708
-    metadata: null
+    metadata:
+      abstract: "Tunnels and channels facilitate the transport of small molecules,\
+        \ ions and water solvent in a large variety of proteins. Characteristics of\
+        \ individual transport pathways, including their geometry, physico-chemical\
+        \ properties and dynamics are instrumental for understanding of structure-function\
+        \ relationships of these proteins, for the design of new inhibitors and construction\
+        \ of improved biocatalysts. CAVER is a software tool widely used for the identification\
+        \ and characterization of transport pathways in static macromolecular structures.\
+        \ Herein we present a new version of CAVER enabling automatic analysis of\
+        \ tunnels and channels in large ensembles of protein conformations. CAVER\
+        \ 3.0 implements new algorithms for the calculation and clustering of pathways.\
+        \ A trajectory from a molecular dynamics simulation serves as the typical\
+        \ input, while detailed characteristics and summary statistics of the time\
+        \ evolution of individual pathways are provided in the outputs. To illustrate\
+        \ the capabilities of CAVER 3.0, the tool was applied for the analysis of\
+        \ molecular dynamics simulation of the microbial enzyme haloalkane dehalogenase\
+        \ DhaA. CAVER 3.0 safely identified and reliably estimated the importance\
+        \ of all previously published DhaA tunnels, including the tunnels closed in\
+        \ DhaA crystal structures. Obtained results clearly demonstrate that analysis\
+        \ of molecular dynamics simulation is essential for the estimation of pathway\
+        \ characteristics and elucidation of the structural basis of the tunnel gating.\
+        \ CAVER 3.0 paves the way for the study of important biochemical phenomena\
+        \ in the area of molecular transport, molecular recognition and enzymatic\
+        \ catalysis. The software is freely available as a multiplatform command-line\
+        \ application at http://www.caver.cz. \xA9 2012 Chovancova et al."
+      authors:
+        - name: Chovancova E.
+        - name: Pavelka A.
+        - name: Benes P.
+        - name: Strnad O.
+        - name: Brezovsky J.
+        - name: Kozlikova B.
+        - name: Gora A.
+        - name: Sustr V.
+        - name: Klvana M.
+        - name: Medek P.
+        - name: Biedermannova L.
+        - name: Sochor J.
+        - name: Damborsky J.
+      citationCount: 386
+      date: '2012-10-01T00:00:00Z'
+      journal: PLoS Computational Biology
+      title: 'CAVER 3.0: A Tool for the Analysis of Transport Pathways in Dynamic
+        Protein Structures'
     pmcid: null
     pmid: null
     type: Primary
@@ -142,8 +185,6 @@ toolType:
 topic:
   - term: Protein structure analysis
     uri: http://edamontology.org/topic_2814
-  - term: Bioinformatics
-    uri: http://edamontology.org/topic_0091
 validated: 0
 version:
   - '0.2'

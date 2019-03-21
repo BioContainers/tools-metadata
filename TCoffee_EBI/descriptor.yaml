@@ -1,0 +1,123 @@
+accessibility:
+  - Open access
+additionDate: '2015-01-29T15:47:33Z'
+biotoolsCURIE: biotools:TCoffee_EBI
+biotoolsID: TCoffee_EBI
+collectionID:
+  - T-Coffee
+  - EBI Tools
+cost: Free of charge
+credit:
+  - email: null
+    name: Web Production
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: Cedric Notredame
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Developer
+    url: null
+  - email: null
+    name: EMBL-EBI
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: CRG
+    note: null
+    orcidid: null
+    typeEntity: Institute
+    typeRole:
+      - Provider
+    url: null
+  - email: null
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: http://www.ebi.ac.uk/support/
+  - email: es-request@ebi.ac.uk
+    name: Web Production
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Multiple sequence alignment that combines several alignment methods.
+documentation:
+  - note: null
+    type: Terms of use
+    url: http://www.ebi.ac.uk/about/terms-of-use
+  - note: null
+    type: General
+    url: http://www.ebi.ac.uk/Tools/msa/tcoffee/
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format: []
+    note: null
+    operation:
+      - term: Sequence analysis
+        uri: http://edamontology.org/operation_2403
+      - term: Multiple sequence alignment
+        uri: http://edamontology.org/operation_0492
+    output:
+      - data:
+          term: Sequence alignment
+          uri: http://edamontology.org/data_0863
+        format: []
+homepage: http://www.ebi.ac.uk/Tools/msa/tcoffee/
+homepage_status: 0
+language: []
+lastUpdate: '2019-03-14T11:57:24Z'
+license: null
+link:
+  - note: null
+    type: Helpdesk
+    url: http://www.ebi.ac.uk/support/
+maturity: Mature
+name: T-Coffee EBI
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: jison
+publication:
+  - doi: 10.1006/jmbi.2000.4042
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+validated: 0
+version:
+  - '1'

@@ -40,6 +40,10 @@ download:
     type: Source code
     url: http://mzmine.sourceforge.net/download.shtml
     version: null
+  - note: null
+    type: Source code
+    url: https://github.com/mzmine/mzmine2
+    version: null
 editPermission:
   authors: []
   type: private
@@ -48,17 +52,108 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: netCDF
+            uri: http://edamontology.org/format_3650
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+          - term: Thermo RAW
+            uri: http://edamontology.org/format_3712
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
     note: null
     operation:
-      - term: Spectral analysis
-        uri: http://edamontology.org/operation_3214
-    output: []
+      - term: Natural product identification
+        uri: http://edamontology.org/operation_3803
+      - term: Standardisation and normalisation
+        uri: http://edamontology.org/operation_3435
+      - term: Chromatographic alignment
+        uri: http://edamontology.org/operation_3628
+      - term: Deisotoping
+        uri: http://edamontology.org/operation_3629
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+      - term: Filtering
+        uri: http://edamontology.org/operation_3695
+      - term: Peptide database search
+        uri: http://edamontology.org/operation_3646
+      - term: Peak detection
+        uri: http://edamontology.org/operation_3215
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
+    output:
+      - data:
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
+        format:
+          - term: CSV
+            uri: http://edamontology.org/format_3752
+          - term: XML
+            uri: http://edamontology.org/format_2332
+          - term: mzTab
+            uri: http://edamontology.org/format_3681
+          - term: SQL
+            uri: http://edamontology.org/format_3788
+  - cmd: null
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: netCDF
+            uri: http://edamontology.org/format_3650
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+          - term: Thermo RAW
+            uri: http://edamontology.org/format_3712
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+    note: null
+    operation:
+      - term: Plotting
+        uri: http://edamontology.org/operation_3441
+      - term: Mass spectrum visualisation
+        uri: http://edamontology.org/operation_3694
+      - term: Structure visualisation
+        uri: http://edamontology.org/operation_0570
+      - term: Chromatogram visualisation
+        uri: http://edamontology.org/operation_3203
+      - term: Heat map generation
+        uri: http://edamontology.org/operation_0531
+    output:
+      - data:
+          term: Heat map
+          uri: http://edamontology.org/data_1636
+        format:
+          - term: png
+            uri: http://edamontology.org/format_3603
+          - term: svg
+            uri: http://edamontology.org/format_3604
+      - data:
+          term: Plot
+          uri: http://edamontology.org/data_2884
+        format:
+          - term: png
+            uri: http://edamontology.org/format_3603
+          - term: svg
+            uri: http://edamontology.org/format_3604
+      - data:
+          term: Image
+          uri: http://edamontology.org/data_2968
+        format:
+          - term: png
+            uri: http://edamontology.org/format_3603
+          - term: svg
+            uri: http://edamontology.org/format_3604
 homepage: http://mzmine.sourceforge.net
 homepage_status: 0
 language:
   - Java
-lastUpdate: '2018-12-10T12:58:56Z'
+lastUpdate: '2019-02-27T11:28:37Z'
 license: null
 link:
   - note: null
@@ -99,7 +194,7 @@ publication:
       authors:
         - name: Katajamaa M.
         - name: Oresic M.
-      citationCount: 272
+      citationCount: 279
       date: '2005-07-18T00:00:00Z'
       journal: BMC Bioinformatics
       title: Processing methods for differential analysis of LC/MS profile data
@@ -112,5 +207,11 @@ toolType:
 topic:
   - term: Proteomics
     uri: http://edamontology.org/topic_0121
-validated: 1
+  - term: Metabolomics
+    uri: http://edamontology.org/topic_3172
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+  - term: Small molecules
+    uri: http://edamontology.org/topic_0154
+validated: 0
 version: []

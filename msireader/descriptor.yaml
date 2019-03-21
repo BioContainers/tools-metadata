@@ -29,17 +29,67 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format:
+          - term: imzML metadata file
+            uri: http://edamontology.org/format_3682
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+      - data:
+          term: Image
+          uri: http://edamontology.org/data_2968
+        format:
+          - term: imzML metadata file
+            uri: http://edamontology.org/format_3682
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
     note: null
     operation:
       - term: Visualisation
         uri: http://edamontology.org/operation_0337
-    output: []
+      - term: Spectral analysis
+        uri: http://edamontology.org/operation_3214
+      - term: Filtering
+        uri: http://edamontology.org/operation_3695
+      - term: Mass spectra calibration
+        uri: http://edamontology.org/operation_3627
+      - term: Peak detection
+        uri: http://edamontology.org/operation_3215
+      - term: Image analysis
+        uri: http://edamontology.org/operation_3443
+    output:
+      - data:
+          term: Image
+          uri: http://edamontology.org/data_2968
+        format:
+          - term: xlsx
+            uri: http://edamontology.org/format_3620
+          - term: Image format
+            uri: http://edamontology.org/format_3547
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: xlsx
+            uri: http://edamontology.org/format_3620
+          - term: Image format
+            uri: http://edamontology.org/format_3547
 homepage: http://www4.ncsu.edu/~dcmuddim/msireader.html
 homepage_status: 0
 language:
   - MATLAB
-lastUpdate: '2018-12-10T12:58:54Z'
+lastUpdate: '2019-02-27T11:27:12Z'
 license: BSD-3-Clause
 link:
   - note: null
@@ -80,7 +130,7 @@ publication:
         - name: Garrard K.P.
         - name: Barry J.A.
         - name: Muddiman D.C.
-      citationCount: 120
+      citationCount: 138
       date: '2013-05-01T00:00:00Z'
       journal: Journal of the American Society for Mass Spectrometry
       title: 'MSiReader: An open-source interface to view and analyze high resolving
@@ -98,5 +148,7 @@ topic:
     uri: http://edamontology.org/topic_3520
   - term: Biological imaging
     uri: http://edamontology.org/topic_3383
-validated: 1
+  - term: Imaging
+    uri: http://edamontology.org/topic_3382
+validated: 0
 version: []

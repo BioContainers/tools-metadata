@@ -2,7 +2,8 @@ accessibility: []
 additionDate: '2017-03-24T14:34:16Z'
 biotoolsCURIE: biotools:sib-blast
 biotoolsID: sib-blast
-collectionID: []
+collectionID:
+  - BLAST utility
 cost: null
 credit:
   - email: bundschuh@mps.ohio-state.edu
@@ -29,22 +30,26 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Protein sequence
+          uri: http://edamontology.org/data_2976
+        format: []
     note: null
     operation:
-      - term: Database search
-        uri: http://edamontology.org/operation_2421
-      - term: Protein modelling
-        uri: http://edamontology.org/operation_0477
-      - term: Indel detection
-        uri: http://edamontology.org/operation_0452
-      - term: Recombination detection
-        uri: http://edamontology.org/operation_0451
-    output: []
+      - term: Sequence similarity search
+        uri: http://edamontology.org/operation_0346
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
+    output:
+      - data:
+          term: Sequence search results
+          uri: http://edamontology.org/data_0857
+        format: []
 homepage: http://bioserv.mps.ohio-state.edu/sib-blast/
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:56Z'
+lastUpdate: '2019-03-13T10:46:51Z'
 license: null
 link: []
 maturity: null
@@ -58,27 +63,15 @@ owner: ELIXIR-EE
 publication:
   - doi: null
     metadata:
-      abstract: A SIB-BLAST web server (http://sib-blast.osc.edu) has been established
-        for investigators to use the SimpleIsBeautiful (SIB) algorithm for sequence-based
-        homology detection. SIB was developed to overcome the model corruption frequently
-        observed in the later iterations of PSI-BLAST searches. The algorithm compares
-        resultant hits from the second iteration to the final iteration of a PSI-BLAST
-        search, calculates the figure of merit for each 'overlapped' hit and re-ranks
-        the hits according to their figure of merit. By validating hits generated
-        from the last profile against hits from the first profile when the model is
-        least corrupted, the true and false positives are better delineated, which
-        in turn, improves the accuracy of iterative PSI-BLAST searches. Notably, this
-        improvement to PSI-BLAST comes at minimal computational cost as SIB-BLAST
-        utilizes existing results already produced in a PSI-BLAST search.
+      abstract: null
       authors:
         - name: Lee M.M.
         - name: Chan M.K.
         - name: Bundschuh R.
-      citationCount: 6
-      date: '2009-08-04T00:00:00Z'
-      journal: Nucleic Acids Research
-      title: 'SIB-BLAST: A web server for improved delineation of true and false positives
-        in PSI-BLAST searches'
+      citationCount: 0
+      date: null
+      journal: null
+      title: null
     pmcid: null
     pmid: '19429693'
     type: null
@@ -94,5 +87,5 @@ topic:
     uri: http://edamontology.org/topic_3168
   - term: Mathematics
     uri: http://edamontology.org/topic_3315
-validated: 1
+validated: 0
 version: []

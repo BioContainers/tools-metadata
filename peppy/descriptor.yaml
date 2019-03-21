@@ -38,21 +38,63 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+          - term: pkl
+            uri: http://edamontology.org/format_3653
+          - term: dta
+            uri: http://edamontology.org/format_3652
+      - data:
+          term: Nucleic acid sequence record
+          uri: http://edamontology.org/data_2887
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+      - data:
+          term: Protein sequence record
+          uri: http://edamontology.org/data_2886
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
     note: null
     operation:
-      - term: Sequence feature detection
-        uri: http://edamontology.org/operation_0253
-      - term: Protein feature detection
-        uri: http://edamontology.org/operation_3092
       - term: Protein identification
         uri: http://edamontology.org/operation_3767
-    output: []
+      - term: Peptide database search
+        uri: http://edamontology.org/operation_3646
+      - term: Genome annotation
+        uri: http://edamontology.org/operation_0362
+      - term: Protein sequence cleavage
+        uri: http://edamontology.org/operation_0366
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
+      - term: Target-Decoy
+        uri: http://edamontology.org/operation_3649
+      - term: Validation of peptide-spectrum matches
+        uri: http://edamontology.org/operation_3648
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: HTML
+            uri: http://edamontology.org/format_2331
+      - data:
+          term: Annotation track
+          uri: http://edamontology.org/data_3002
+        format:
+          - term: BED
+            uri: http://edamontology.org/format_3003
 homepage: http://www.geneffects.com/peppy/
 homepage_status: 0
 language:
   - Java
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:31:10Z'
 license: null
 link:
   - note: null
@@ -90,7 +132,7 @@ publication:
         - name: Risk B.A.
         - name: Spitzer W.J.
         - name: Giddings M.C.
-      citationCount: 49
+      citationCount: 51
       date: '2013-07-01T00:00:00Z'
       journal: Journal of Proteome Research
       title: 'Peppy: Proteogenomic search software'
@@ -109,5 +151,7 @@ topic:
     uri: http://edamontology.org/topic_2640
   - term: Proteins
     uri: http://edamontology.org/topic_0078
-validated: 1
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+validated: 0
 version: []

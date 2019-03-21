@@ -28,7 +28,11 @@ documentation:
   - note: null
     type: General
     url: https://cran.r-project.org/web/packages/enviPat/enviPat.pdf
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://cran.r-project.org/web/packages/enviPat/index.html
+    version: null
 editPermission:
   authors: []
   type: private
@@ -37,17 +41,43 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Chemical formula
+          uri: http://edamontology.org/data_0846
+        format:
+          - term: Chemical formula format
+            uri: http://edamontology.org/format_2035
+          - term: R file format
+            uri: http://edamontology.org/format_3554
     note: null
     operation:
+      - term: Plotting
+        uri: http://edamontology.org/operation_3441
       - term: Isotopic distributions calculation
         uri: http://edamontology.org/operation_3632
-    output: []
+      - term: Statistical calculation
+        uri: http://edamontology.org/operation_2238
+    output:
+      - data:
+          term: Plot
+          uri: http://edamontology.org/data_2884
+        format:
+          - term: JPG
+            uri: http://edamontology.org/format_3579
+          - term: png
+            uri: http://edamontology.org/format_3603
+      - data:
+          term: Report
+          uri: http://edamontology.org/data_2048
+        format:
+          - term: CSV
+            uri: http://edamontology.org/format_3752
 homepage: http://cran.r-project.org/web/packages/enviPat/index.html
 homepage_status: 0
 language:
   - R
-lastUpdate: '2018-12-10T12:58:54Z'
+lastUpdate: '2019-02-27T11:17:53Z'
 license: GPL-2.0
 link:
   - note: null
@@ -93,7 +123,7 @@ publication:
         - name: Corona F.
         - name: Hollender J.
         - name: Singer H.
-      citationCount: 19
+      citationCount: 27
       date: '2015-06-02T00:00:00Z'
       journal: Analytical Chemistry
       title: Accelerated isotope fine structure calculation using pruned transition
@@ -109,5 +139,7 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+validated: 0
 version: []

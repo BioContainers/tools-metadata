@@ -19,7 +19,11 @@ documentation:
   - note: null
     type: General
     url: http://retentionprediction.org/hplc/howitworks.php
-download: []
+download:
+  - note: null
+    type: Source code
+    url: http://retentionprediction.org/hplc/development/index.php
+    version: null
 editPermission:
   authors: []
   type: private
@@ -28,17 +32,29 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Molecular property (general)
+          uri: http://edamontology.org/data_2050
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
     note: null
     operation:
       - term: Retention time prediction
         uri: http://edamontology.org/operation_3633
-    output: []
+    output:
+      - data:
+          term: Plot
+          uri: http://edamontology.org/data_2884
+        format:
+          - term: Image format
+            uri: http://edamontology.org/format_3547
 homepage: http://retentionprediction.org/
 homepage_status: 0
 language:
   - Java
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:36:02Z'
 license: null
 link:
   - note: null
@@ -84,7 +100,7 @@ publication:
         - name: Carr P.W.
         - name: Cohen J.D.
         - name: Hegeman A.D.
-      citationCount: 20
+      citationCount: 22
       date: '2011-09-23T00:00:00Z'
       journal: Journal of Chromatography A
       title: Easy and accurate high-performance liquid chromatography retention prediction
@@ -101,5 +117,7 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Analytical chemistry
+    uri: http://edamontology.org/topic_3370
+validated: 0
 version: []

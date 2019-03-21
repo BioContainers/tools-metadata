@@ -214,7 +214,35 @@ otherID: []
 owner: rdf@ebi.ac.uk
 publication:
   - doi: null
-    metadata: null
+    metadata:
+      abstract: Databases of multiple sequence alignments are a valuable aid to protein
+        sequence classification and analysis. One of the main challenges when constructing
+        such a database is to simultaneously satisfy the conflicting demands of completeness
+        on the one hand and quality of alignment and domain definitions on the other.
+        The latter properties are best dealt with by manual approaches, whereas completeness
+        in practice is only amenable to automatic methods. Herein we present a database
+        based on hidden Markov model profiles (HMMs), which combines high quality
+        and completeness. Our database, Pfam, consists of parts A and B. Pfam-A is
+        curated and contains well-characterized protein domain families with high
+        quality alignments, which are maintained by using manually checked seed alignments
+        and HMMs to find and align all members. Pfam-B contains sequence families
+        that were generated automatically by applying the Domainer algorithm to cluster
+        and align the remaining protein sequences after removal of Pfam-A domains.
+        By using Pfam, a large number of previously unannotated proteins from the
+        Caenorhabditis elegans genome project were classified. We have also identified
+        many novel family memberships in known proteins, including new kazal, Fibronectin
+        type III, and response regulator receiver domains. Pfam-A families have permanent
+        accession numbers and form a library of HMMs available for searching and automatic
+        annotation of new protein sequences.
+      authors:
+        - name: Sonnhammer E.L.L.
+        - name: Eddy S.R.
+        - name: Durbin R.
+      citationCount: 785
+      date: '1997-07-16T00:00:00Z'
+      journal: 'Proteins: Structure, Function and Genetics'
+      title: 'Pfam: A comprehensive database of protein domain families based on seed
+        alignments'
     pmcid: null
     pmid: '9223186'
     type: Primary

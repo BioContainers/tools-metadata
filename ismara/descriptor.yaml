@@ -101,7 +101,42 @@ otherID: []
 owner: SIB
 publication:
   - doi: 10.1101/gr.169508.113
-    metadata: null
+    metadata:
+      abstract: "Accurate reconstruction of the regulatory networks that control gene\
+        \ expression is one of the key current challenges in molecular biology. Although\
+        \ gene expression and chromatin state dynamics are ultimately encoded by constellations\
+        \ of binding sites recognized by regulators such as transcriptions factors\
+        \ (TFs) and microRNAs (miRNAs), our understanding of this regulatory code\
+        \ and its context-dependent read-out remains very limited. Given that there\
+        \ are thousands of potential regulators in mammals, it is not practical to\
+        \ use direct experimentation to identify which of these play a key role for\
+        \ a particular system of interest. We developed a methodology that models\
+        \ gene expression or chromatin modifications in terms of genome-wide predictions\
+        \ of regulatory sites and completely automated it into a web-based tool called\
+        \ ISMARA (Integrated System for Motif Activity Response Analysis). Given only\
+        \ gene expression or chromatin state data across a set of samples as input,\
+        \ ISMARA identifies the key TFs and miRNAs driving expression/chromatin changes\
+        \ and makes detailed predictions regarding their regulatory roles. These include\
+        \ predicted activities of the regulators across the samples, their genome-wide\
+        \ targets, enriched gene categories among the targets, and direct interactions\
+        \ between the regulators. Applying ISMARA to data sets from well-studied systems,\
+        \ we show that it consistently identifies known key regulators ab initio.\
+        \ We also present a number of novel predictions including regulatory interactions\
+        \ in innate immunity, a master regulator of mucociliary differentiation, TFs\
+        \ consistently disregulated in cancer, and TFs that mediate specific chromatin\
+        \ modifications. \xA9 2014 Nagarajan et al."
+      authors:
+        - name: Balwierz P.J.
+        - name: Pachkov M.
+        - name: Arnold P.
+        - name: Gruber A.J.
+        - name: Zavolan M.
+        - name: Van Nimwegen E.
+      citationCount: 69
+      date: '2014-01-01T00:00:00Z'
+      journal: Genome Research
+      title: 'ISMARA: automated modeling of genomic signals as a democracy of regulatory
+        motifs'
     pmcid: null
     pmid: null
     type: Primary

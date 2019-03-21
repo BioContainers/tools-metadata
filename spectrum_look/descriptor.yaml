@@ -24,7 +24,11 @@ credit:
     url: http://ms-utils.org
 description: Tool for viewing and annotating MS/MS spectra.
 documentation: []
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://github.com/PNNL-Comp-Mass-Spec/SpectrumLook
+    version: null
 editPermission:
   authors: []
   type: private
@@ -33,19 +37,37 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
     note: null
     operation:
-      - term: Spectral analysis
-        uri: http://edamontology.org/operation_3214
       - term: Mass spectrum visualisation
         uri: http://edamontology.org/operation_3694
-    output: []
+    output:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: png
+            uri: http://edamontology.org/format_3603
+          - term: JPG
+            uri: http://edamontology.org/format_3579
+          - term: GIF
+            uri: http://edamontology.org/format_3467
+          - term: tiff
+            uri: http://edamontology.org/format_3591
+          - term: bmp
+            uri: http://edamontology.org/format_3592
 homepage: http://omics.pnl.gov/software/spectrumlook
 homepage_status: 0
 language:
   - C
-lastUpdate: '2018-12-10T12:58:55Z'
+lastUpdate: '2019-02-27T11:36:50Z'
 license: null
 link:
   - note: null
@@ -65,5 +87,7 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Imaging
+    uri: http://edamontology.org/topic_3382
+validated: 0
 version: []

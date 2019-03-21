@@ -36,7 +36,7 @@ homepage: https://checkmyindex.pasteur.fr
 homepage_status: 0
 language:
   - R
-lastUpdate: '2019-01-14T09:16:46Z'
+lastUpdate: '2019-03-12T13:13:27Z'
 license: GPL-3.0
 link:
   - note: null
@@ -52,7 +52,25 @@ otherID: []
 owner: hvaret
 publication:
   - doi: 10.1093/bioinformatics/bty706
-    metadata: null
+    metadata:
+      abstract: "\xA9 The Author(s) 2018. Published by Oxford University Press. SUMMARY:\
+        \ When sequencing several libraries simultaneously, the selection of compatible\
+        \ combinations of indexes is critical for ensuring that the sequencer will\
+        \ be able to decipher the short, sample-specific barcodes added to each fragment.\
+        \ However, researchers have few tools to help them choose optimal indexes.\
+        \ Here, we present checkMyIndex, an online R/Shiny application that facilitates\
+        \ the selection of the right indexes as a function of the experimental constraints.\
+        \ AVAILABILITY AND IMPLEMENTATION: checkMyIndex is available free of charge\
+        \ at https://checkmyindex.pasteur.fr as an online, web-based R/Shiny application.\
+        \ The source code is available on GitHub at https://github.com/PF2-pasteur-fr/checkMyIndex."
+      authors:
+        - name: Varet H.
+        - name: Coppee J.-Y.
+      citationCount: 0
+      date: '2019-03-01T00:00:00Z'
+      journal: Bioinformatics (Oxford, England)
+      title: 'checkMyIndex: a web-based R/Shiny interface for choosing compatible
+        sequencing indexes'
     pmcid: null
     pmid: '30165585'
     type: Usage
@@ -60,7 +78,9 @@ publication:
 toolType:
   - Command-line tool
   - Web application
-topic: []
-validated: 1
+topic:
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
+validated: 0
 version:
   - 1.0.0

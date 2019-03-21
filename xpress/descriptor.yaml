@@ -20,7 +20,11 @@ documentation:
   - note: null
     type: General
     url: http://tools.proteomecenter.org/wiki/index.php?title=Software:XPRESS
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://sourceforge.net/p/sashimi/code/HEAD/tree/branches/4-8/trans_proteomic_pipeline/src/Quantitation/XPress/
+    version: null
 editPermission:
   authors: []
   type: private
@@ -29,19 +33,33 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: pepXML
+            uri: http://edamontology.org/format_3655
     note: null
     operation:
-      - term: SILAC
-        uri: http://edamontology.org/operation_3638
-      - term: Metabolic labeling
-        uri: http://edamontology.org/operation_3715
-    output: []
+      - term: Protein quantification
+        uri: http://edamontology.org/operation_3630
+      - term: Labeled quantification
+        uri: http://edamontology.org/operation_3635
+      - term: Isotope-coded protein label
+        uri: http://edamontology.org/operation_3705
+    output:
+      - data:
+          term: Expression data
+          uri: http://edamontology.org/data_2603
+        format:
+          - term: pepXML
+            uri: http://edamontology.org/format_3655
 homepage: http://tools.proteomecenter.org/XPRESS.php
 homepage_status: 0
 language:
   - C++
-lastUpdate: '2018-12-10T12:58:54Z'
+lastUpdate: '2019-02-27T11:38:18Z'
 license: null
 link:
   - note: null
@@ -77,7 +95,7 @@ publication:
         - name: Eng J.
         - name: Zhou H.
         - name: Aebersold R.
-      citationCount: 785
+      citationCount: 796
       date: '2001-10-20T00:00:00Z'
       journal: Nature Biotechnology
       title: Quantitative profiling of differentiation-induced microsomal proteins
@@ -94,5 +112,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

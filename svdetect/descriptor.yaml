@@ -54,7 +54,31 @@ otherID: []
 owner: seqwiki_import
 publication:
   - doi: null
-    metadata: null
+    metadata:
+      abstract: "Summary: We present SVDetect, a program designed to identify genomic\
+        \ structural variations from paired-end and mate-pair next-generation sequencing\
+        \ data produced by the Illumina GA and ABI SOLiD platforms. Applying both\
+        \ sliding-window and clustering strategies, we use anomalously mapped read\
+        \ pairs provided by current short read aligners to localize genomic rearrangements\
+        \ and classify them according to their type, e.g. large insertions-deletions,\
+        \ inversions, duplications and balanced or unbalanced inter-chromosomal translocations.\
+        \ SVDetect outputs predicted structural variants in various file formats for\
+        \ appropriate graphical visualization. \xA9 The Author(s) 2010. Published\
+        \ by Oxford University Press. All rights reserved."
+      authors:
+        - name: Zeitouni B.
+        - name: Boeva V.
+        - name: Janoueix-Lerosey I.
+        - name: Loeillet S.
+        - name: Legoix-ne P.
+        - name: Nicolas A.
+        - name: Delattre O.
+        - name: Barillot E.
+      citationCount: 118
+      date: '2010-07-16T00:00:00Z'
+      journal: Bioinformatics
+      title: 'SVDetect: A tool to identify genomic structural variations from paired-end
+        and mate-pair sequencing data'
     pmcid: null
     pmid: '20639544'
     type: null

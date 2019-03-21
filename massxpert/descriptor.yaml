@@ -24,7 +24,11 @@ credit:
     url: http://ms-utils.org
 description: Tool for analysis of polymer and peptide/protein mass spectra.
 documentation: []
-download: []
+download:
+  - note: null
+    type: Source code
+    url: http://download.tuxfamily.org/massxpert/source/
+    version: null
 editPermission:
   authors:
     - ELIXIR-EE
@@ -34,20 +38,54 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Tool identifier
+          uri: http://edamontology.org/data_0977
+        format:
+          - term: XML
+            uri: http://edamontology.org/format_2332
+      - data:
+          term: Protein sequence
+          uri: http://edamontology.org/data_2976
+        format:
+          - term: XML
+            uri: http://edamontology.org/format_2332
     note: null
     operation:
-      - term: Spectral analysis
-        uri: http://edamontology.org/operation_3214
-      - term: Structure analysis
-        uri: http://edamontology.org/operation_2480
+      - term: Nucleic acid restriction digest
+        uri: http://edamontology.org/operation_0365
+      - term: Post-translation modification site prediction
+        uri: http://edamontology.org/operation_0417
+      - term: Sequence visualisation
+        uri: http://edamontology.org/operation_0564
+      - term: Protein fragment weight comparison
+        uri: http://edamontology.org/operation_2929
+      - term: Sequence motif recognition
+        uri: http://edamontology.org/operation_0239
+      - term: Prediction and recognition (protein)
+        uri: http://edamontology.org/operation_3023
+      - term: Prediction and recognition (nucleic acid)
+        uri: http://edamontology.org/operation_3024
       - term: Modelling and simulation
         uri: http://edamontology.org/operation_2426
-    output: []
+    output:
+      - data:
+          term: Tool identifier
+          uri: http://edamontology.org/data_0977
+        format:
+          - term: XML
+            uri: http://edamontology.org/format_2332
+      - data:
+          term: Protein sequence
+          uri: http://edamontology.org/data_2976
+        format:
+          - term: XML
+            uri: http://edamontology.org/format_2332
 homepage: http://www.massxpert.org
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:49Z'
+lastUpdate: '2019-02-27T11:24:16Z'
 license: null
 link:
   - note: null
@@ -91,6 +129,14 @@ topic:
     uri: http://edamontology.org/topic_3520
   - term: Biochemistry
     uri: http://edamontology.org/topic_3292
-validated: 1
+  - term: Genomics
+    uri: http://edamontology.org/topic_0622
+  - term: Nucleic acid sites, features and motifs
+    uri: http://edamontology.org/topic_3511
+  - term: Protein properties
+    uri: http://edamontology.org/topic_0123
+  - term: Protein modifications
+    uri: http://edamontology.org/topic_0601
+validated: 0
 version:
   - massXpert 2

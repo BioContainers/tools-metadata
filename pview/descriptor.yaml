@@ -33,6 +33,10 @@ download:
     type: Source code
     url: http://compbio.cs.princeton.edu/pview/
     version: null
+  - note: null
+    type: Source code
+    url: https://github.com/zia1138/pview
+    version: null
 editPermission:
   authors:
     - ELIXIR-EE
@@ -42,21 +46,65 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Sequence record
+          uri: http://edamontology.org/data_0849
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: pepXML
+            uri: http://edamontology.org/format_3655
     note: null
     operation:
-      - term: Spectral analysis
-        uri: http://edamontology.org/operation_3214
-      - term: Mass spectrum visualisation
-        uri: http://edamontology.org/operation_3694
-      - term: 3D profile generation
-        uri: http://edamontology.org/operation_0297
-    output: []
+      - term: Isotope-coded protein label
+        uri: http://edamontology.org/operation_3705
+      - term: SILAC
+        uri: http://edamontology.org/operation_3638
+      - term: Protein quantification
+        uri: http://edamontology.org/operation_3630
+      - term: Standardisation and normalisation
+        uri: http://edamontology.org/operation_3435
+      - term: Metabolic labeling
+        uri: http://edamontology.org/operation_3715
+      - term: Deisotoping
+        uri: http://edamontology.org/operation_3629
+      - term: Label-free quantification
+        uri: http://edamontology.org/operation_3634
+      - term: Spectral counting
+        uri: http://edamontology.org/operation_3637
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
+      - term: Target-Decoy
+        uri: http://edamontology.org/operation_3649
+      - term: Peptide database search
+        uri: http://edamontology.org/operation_3646
+      - term: Chromatographic alignment
+        uri: http://edamontology.org/operation_3628
+      - term: Isotopic distributions calculation
+        uri: http://edamontology.org/operation_3632
+    output:
+      - data:
+          term: Expression data
+          uri: http://edamontology.org/data_2603
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
 homepage: https://github.com/zia1138/pview
 homepage_status: 0
 language:
   - C++
-lastUpdate: '2018-12-10T12:58:54Z'
+lastUpdate: '2019-02-27T11:34:34Z'
 license: null
 link:
   - note: null
@@ -114,5 +162,5 @@ topic:
     uri: http://edamontology.org/topic_2814
   - term: Data visualisation
     uri: http://edamontology.org/topic_0092
-validated: 1
+validated: 0
 version: []

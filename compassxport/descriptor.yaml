@@ -30,12 +30,8 @@ function:
           term: Mass spectrometry spectra
           uri: http://edamontology.org/data_0943
         format:
-          - term: MGF
-            uri: http://edamontology.org/format_3651
-          - term: mzML
-            uri: http://edamontology.org/format_3244
-          - term: mzXML
-            uri: http://edamontology.org/format_3654
+          - term: Mass spectrometry data format
+            uri: http://edamontology.org/format_3245
     note: null
     operation:
       - term: Formatting
@@ -45,14 +41,18 @@ function:
           term: Mass spectrometry spectra
           uri: http://edamontology.org/data_0943
         format:
-          - term: mzML
-            uri: http://edamontology.org/format_3244
+          - term: CSV
+            uri: http://edamontology.org/format_3752
           - term: mzXML
             uri: http://edamontology.org/format_3654
+          - term: mzData
+            uri: http://edamontology.org/format_3834
+          - term: mzML
+            uri: http://edamontology.org/format_3244
 homepage: https://www.bruker.com/service/support-upgrades/software-downloads/mass-spectrometry.html
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:44Z'
+lastUpdate: '2019-02-27T11:16:16Z'
 license: null
 link:
   - note: null
@@ -69,5 +69,7 @@ toolType:
 topic:
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+validated: 0
 version: []

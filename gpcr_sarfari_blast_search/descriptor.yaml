@@ -3,6 +3,7 @@ additionDate: '2015-01-29T15:44:07Z'
 biotoolsCURIE: biotools:gpcr_sarfari_blast_search
 biotoolsID: gpcr_sarfari_blast_search
 collectionID:
+  - BLAST
   - ChEMBL Tools
   - EBI Tools
 cost: null
@@ -75,7 +76,7 @@ function:
 homepage: https://www.ebi.ac.uk/chembl/sarfari/gpcrsarfari/protein
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:50Z'
+lastUpdate: '2019-03-13T10:56:34Z'
 license: null
 link: []
 maturity: null
@@ -89,20 +90,7 @@ owner: EMBL-EBI
 publication:
   - doi: 10.1093/bioinformatics/btv010
     metadata:
-      abstract: "\xA9 The Author 2015. Published by Oxford University Press. Motivation:\
-        \ ADME SARfari is a freely available web resource that enables comparative\
-        \ analyses of drug-disposition genes. It does so by integrating a number of\
-        \ publicly available data sources, which have subsequently been used to build\
-        \ data mining services, predictive tools and visualizations for drug metabolism\
-        \ researchers. The data include the interactions of small molecules with ADME\
-        \ (absorption, distribution, metabolism and excretion) proteins responsible\
-        \ for the metabolism and transport of molecules; available pharmacokinetic\
-        \ (PK) data; protein sequences of ADME-related molecular targets for pre-clinical\
-        \ model species and human; alignments of the orthologues including information\
-        \ on known SNPs (Single Nucleotide Polymorphism) and information on the tissue\
-        \ distribution of these proteins. In addition, in silico models have been\
-        \ developed, which enable users to predict which ADME relevant protein targets\
-        \ a novel compound is likely to interact with."
+      abstract: null
       authors:
         - name: Davies M.
         - name: Dedman N.
@@ -114,10 +102,10 @@ publication:
         - name: Hasan S.
         - name: Eddershaw P.J.
         - name: Overington J.P.
-      citationCount: 4
-      date: '2015-01-01T00:00:00Z'
-      journal: Bioinformatics
-      title: 'ADME SARfari: Comparative genomics of drug metabolizing systems'
+      citationCount: 0
+      date: null
+      journal: null
+      title: null
     pmcid: null
     pmid: null
     type: Primary
@@ -131,6 +119,6 @@ topic:
     uri: http://edamontology.org/topic_0820
   - term: Cheminformatics
     uri: http://edamontology.org/topic_2258
-validated: 1
+validated: 0
 version:
   - '1'

@@ -24,6 +24,10 @@ download:
     type: Source code
     url: http://sourceforge.net/project/showfiles.php?group_id=109078&package_id=236902
     version: null
+  - note: null
+    type: Source code
+    url: https://sourceforge.net/projects/protms/files/Quant/
+    version: null
 editPermission:
   authors: []
   type: private
@@ -32,18 +36,71 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: dta
+            uri: http://edamontology.org/format_3652
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: xls
+            uri: http://edamontology.org/format_3468
     note: null
     operation:
       - term: iTRAQ
         uri: http://edamontology.org/operation_3639
-    output: []
+      - term: Protein quantification
+        uri: http://edamontology.org/operation_3630
+      - term: Labeled quantification
+        uri: http://edamontology.org/operation_3635
+    output:
+      - data:
+          term: Expression data
+          uri: http://edamontology.org/data_2603
+        format:
+          - term: xls
+            uri: http://edamontology.org/format_3468
+  - cmd: null
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: dta
+            uri: http://edamontology.org/format_3652
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: xls
+            uri: http://edamontology.org/format_3468
+    note: null
+    operation:
+      - term: Plotting
+        uri: http://edamontology.org/operation_3441
+    output:
+      - data:
+          term: Expression data
+          uri: http://edamontology.org/data_2603
+        format:
+          - term: png
+            uri: http://edamontology.org/format_3603
+      - data:
+          term: Plot
+          uri: http://edamontology.org/data_2884
+        format:
+          - term: png
+            uri: http://edamontology.org/format_3603
 homepage: http://sourceforge.net/projects/protms
 homepage_status: 0
 language:
   - Java
   - C
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:35:08Z'
 license: null
 link:
   - note: null
@@ -94,7 +151,7 @@ publication:
         - name: Altenhofer D.
         - name: Sickmann A.
         - name: Falk M.
-      citationCount: 85
+      citationCount: 86
       date: '2007-06-21T00:00:00Z'
       journal: BMC Bioinformatics
       title: "Precise protein quantification based on peptide quantification using\
@@ -110,5 +167,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

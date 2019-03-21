@@ -28,7 +28,11 @@ documentation:
   - note: null
     type: General
     url: https://github.com/binfalse/adjustpkl
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://github.com/binfalse/adjustpkl
+    version: null
 editPermission:
   authors:
     - ELIXIR-EE
@@ -38,23 +42,43 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format:
+          - term: pkl
+            uri: http://edamontology.org/format_3653
+      - data:
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
+        format:
+          - term: pkl
+            uri: http://edamontology.org/format_3653
     note: null
     operation:
-      - term: Peak detection
-        uri: http://edamontology.org/operation_3215
-      - term: Editing
-        uri: http://edamontology.org/operation_3096
-      - term: Mass spectrum visualisation
-        uri: http://edamontology.org/operation_3694
-      - term: Mass spectra calibration
-        uri: http://edamontology.org/operation_3627
-    output: []
+      - term: Chromatogram visualisation
+        uri: http://edamontology.org/operation_3203
+      - term: Chromatographic alignment
+        uri: http://edamontology.org/operation_3628
+    output:
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format:
+          - term: pkl
+            uri: http://edamontology.org/format_3653
+      - data:
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
+        format:
+          - term: pkl
+            uri: http://edamontology.org/format_3653
 homepage: http://blog.binfalse.de/software/adjustpkl/
 homepage_status: 0
 language:
   - Java
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:15:24Z'
 license: null
 link:
   - note: null
@@ -78,5 +102,5 @@ topic:
     uri: http://edamontology.org/topic_0092
   - term: Data quality management
     uri: http://edamontology.org/topic_3572
-validated: 1
+validated: 0
 version: []

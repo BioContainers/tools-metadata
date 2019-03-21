@@ -19,7 +19,11 @@ documentation:
   - note: null
     type: General
     url: https://code.google.com/archive/p/unfinnigan/wikis
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://code.google.com/archive/p/unfinnigan/source
+    version: null
 editPermission:
   authors: []
   type: private
@@ -28,17 +32,29 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: Thermo RAW
+            uri: http://edamontology.org/format_3712
     note: null
     operation:
       - term: Formatting
         uri: http://edamontology.org/operation_0335
-    output: []
+    output:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
 homepage: https://code.google.com/p/unfinnigan/
 homepage_status: 0
 language:
   - Perl
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:37:40Z'
 license: null
 link:
   - note: null
@@ -57,5 +73,7 @@ toolType:
 topic:
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+validated: 0
 version: []

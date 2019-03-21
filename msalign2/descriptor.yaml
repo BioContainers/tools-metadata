@@ -40,6 +40,10 @@ download:
     type: Source code
     url: http://www.ms-utils.org/msalign/msalign.c
     version: null
+  - note: null
+    type: Source code
+    url: http://www.ms-utils.org/msalign/msalign.c
+    version: null
 editPermission:
   authors: []
   type: private
@@ -50,19 +54,21 @@ function:
   - cmd: null
     input:
       - data:
-          term: Data
-          uri: http://edamontology.org/data_0006
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
         format:
           - term: mzXML
             uri: http://edamontology.org/format_3654
     note: null
     operation:
+      - term: Plotting
+        uri: http://edamontology.org/operation_3441
       - term: Chromatographic alignment
         uri: http://edamontology.org/operation_3628
     output:
       - data:
-          term: Data
-          uri: http://edamontology.org/data_0006
+          term: Alignment
+          uri: http://edamontology.org/data_1916
         format:
           - term: mzXML
             uri: http://edamontology.org/format_3654
@@ -70,7 +76,7 @@ homepage: http://www.ms-utils.org/msalign2/index.html
 homepage_status: 0
 language:
   - C
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:26:36Z'
 license: GPL-3.0
 link:
   - note: null
@@ -105,7 +111,7 @@ publication:
         - name: Deelder A.M.
         - name: Mayboroda O.A.
         - name: Palmblad M.
-      citationCount: 42
+      citationCount: 43
       date: '2009-12-01T00:00:00Z'
       journal: Analytical and Bioanalytical Chemistry
       title: Alignment of capillary electrophoresis-mass spectrometry datasets using
@@ -119,5 +125,9 @@ toolType:
 topic:
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Metabolomics
+    uri: http://edamontology.org/topic_3172
+validated: 0
 version: []

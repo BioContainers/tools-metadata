@@ -25,7 +25,14 @@ documentation:
   - note: null
     type: Manual
     url: http://www.htslib.org/doc/#manual-pages
-download: []
+  - note: null
+    type: Installation instructions
+    url: http://www.htslib.org/download/
+download:
+  - note: null
+    type: Downloads page
+    url: http://www.htslib.org/download/
+    version: null
 editPermission:
   authors:
     - ELIXIR-EE
@@ -36,28 +43,56 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Sequence trace
+          uri: http://edamontology.org/data_0924
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+          - term: SAM
+            uri: http://edamontology.org/format_2573
+          - term: CRAM
+            uri: http://edamontology.org/format_3462
     note: null
     operation:
-      - term: Sequence assembly visualisation
-        uri: http://edamontology.org/operation_3184
-      - term: Modelling and simulation
-        uri: http://edamontology.org/operation_2426
-      - term: Sequence alignment
-        uri: http://edamontology.org/operation_0292
+      - term: Indexing
+        uri: http://edamontology.org/operation_0227
+      - term: Editing
+        uri: http://edamontology.org/operation_3096
+      - term: Parsing
+        uri: http://edamontology.org/operation_1812
+      - term: Visualisation
+        uri: http://edamontology.org/operation_0337
       - term: Formatting
         uri: http://edamontology.org/operation_0335
-    output: []
+    output:
+      - data:
+          term: Sequence trace
+          uri: http://edamontology.org/data_0924
+        format:
+          - term: BAM
+            uri: http://edamontology.org/format_2572
+          - term: SAM
+            uri: http://edamontology.org/format_2573
+          - term: CRAM
+            uri: http://edamontology.org/format_3462
 homepage: http://www.htslib.org/
 homepage_status: 0
 language:
   - C
-lastUpdate: '2019-02-12T18:47:11Z'
+lastUpdate: '2019-03-14T11:27:38Z'
 license: MIT
 link:
   - note: null
     type: Repository
     url: https://github.com/samtools/samtools
+  - note: null
+    type: Mailing list
+    url: http://www.htslib.org/support/#lists
+  - note: null
+    type: Issue tracker
+    url: https://github.com/samtools/samtools/issues
 maturity: Mature
 name: SAMtools
 operatingSystem:
@@ -71,16 +106,16 @@ publication:
     metadata: null
     pmcid: null
     pmid: '19505943'
-    type: null
+    type: Primary
     version: null
 toolType:
   - Suite
 topic:
-  - term: Bioinformatics
-    uri: http://edamontology.org/topic_0091
   - term: Mapping
     uri: http://edamontology.org/topic_0102
-  - term: Data architecture, analysis and design
-    uri: http://edamontology.org/topic_3365
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
 validated: 0
 version: []

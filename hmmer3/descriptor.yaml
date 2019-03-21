@@ -3,6 +3,7 @@ additionDate: '2015-04-03T13:17:38Z'
 biotoolsCURIE: biotools:hmmer3
 biotoolsID: hmmer3
 collectionID:
+  - HMMER
   - Animal and Crop Genomics
 cost: null
 credit:
@@ -19,7 +20,7 @@ description: This tool is used for searching sequence databases for homologs of 
   probabilistic models called profile hidden Markov models. The new HMMER3 project,
   HMMER is now as fast as BLAST for protein search.
 documentation:
-  - note: null
+  - note: HMMER User Guide
     type: Manual
     url: http://eddylab.org/software/hmmer3/3.1b2/Userguide.pdf
   - note: null
@@ -377,27 +378,12 @@ function:
           term: Sequence search results
           uri: http://edamontology.org/data_0857
         format: []
-  - cmd: null
-    input: []
-    note: null
-    operation:
-      - term: Sequence similarity search
-        uri: http://edamontology.org/operation_0346
-      - term: Multiple sequence alignment
-        uri: http://edamontology.org/operation_0492
-      - term: Protein sequence analysis
-        uri: http://edamontology.org/operation_2479
-      - term: Sequence database search
-        uri: http://edamontology.org/operation_0338
-      - term: Protein feature detection
-        uri: http://edamontology.org/operation_3092
-    output: []
-homepage: http://hmmer.janelia.org/
+homepage: http://hmmer.org/
 homepage_status: 0
 language:
   - Perl
   - C
-lastUpdate: '2019-02-04T14:30:27Z'
+lastUpdate: '2019-03-13T13:07:29Z'
 license: Other
 link:
   - note: null
@@ -417,33 +403,15 @@ owner: ELIXIR-FR
 publication:
   - doi: 10.1093/nar/gkr367
     metadata:
-      abstract: "HMMER is a software suite for protein sequence similarity searches\
-        \ using probabilistic methods. Previously, HMMER has mainly been available\
-        \ only as a computationally intensive UNIX command-line tool, restricting\
-        \ its use. Recent advances in the software, HMMER3, have resulted in a 100-fold\
-        \ speed gain relative to previous versions. It is now feasible to make efficient\
-        \ profile hidden Markov model (profile HMM) searches via the web. A HMMER\
-        \ web server (http://hmmer.janelia.org) has been designed and implemented\
-        \ such that most protein database searches return within a few seconds. Methods\
-        \ are available for searching either a single protein sequence, multiple protein\
-        \ sequence alignment or profile HMM against a target sequence database, and\
-        \ for searching a protein sequence against Pfam. The web server is designed\
-        \ to cater to a range of different user expertise and accepts batch uploading\
-        \ of multiple queries at once. All search methods are also available as RESTful\
-        \ web services, thereby allowing them to be readily integrated as remotely\
-        \ executed tasks in locally scripted workflows. We have focused on minimizing\
-        \ search times and the ability to rapidly display tabular results, regardless\
-        \ of the number of matches found, developing graphical summaries of the search\
-        \ results to provide quick, intuitive appraisement of them. \xA9 2011 The\
-        \ Author(s)."
+      abstract: null
       authors:
         - name: Finn R.D.
         - name: Clements J.
         - name: Eddy S.R.
-      citationCount: 1521
-      date: '2011-07-01T00:00:00Z'
-      journal: Nucleic Acids Research
-      title: 'HMMER web server: Interactive sequence similarity searching'
+      citationCount: 0
+      date: null
+      journal: null
+      title: null
     pmcid: null
     pmid: null
     type: Primary
@@ -458,18 +426,12 @@ toolType:
   - Command-line tool
   - Web application
 topic:
-  - term: Bioinformatics
-    uri: http://edamontology.org/topic_0091
   - term: Sequence analysis
     uri: http://edamontology.org/topic_0080
   - term: Sequence sites, features and motifs
     uri: http://edamontology.org/topic_0160
-  - term: Proteins
-    uri: http://edamontology.org/topic_0078
-  - term: Small molecules
-    uri: http://edamontology.org/topic_0154
   - term: Gene and protein families
     uri: http://edamontology.org/topic_0623
-validated: 1
+validated: 0
 version:
   - 3.1b1

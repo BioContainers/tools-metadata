@@ -64,7 +64,34 @@ otherID: []
 owner: javi-gv94
 publication:
   - doi: 10.1073/pnas.1616440113
-    metadata: null
+    metadata:
+      abstract: Sequencing has identified millions of somatic mutations in human cancers,
+        but distinguishing cancer driver genes remains a major challenge. Numerous
+        methods have been developed to identify driver genes, but evaluation of the
+        performance of these methods is hindered by the lack of a gold standard, that
+        is, bona fide driver gene mutations. Here, we establish an evaluation framework
+        that can be applied to driver gene prediction methods. We used this framework
+        to compare the performance of eight such methods. One of these methods, described
+        here, incorporated a machinelearning- based ratiometric approach. We show
+        that the driver genes predicted by each of the eight methods vary widely.
+        Moreover, the P values reported by several of the methods were inconsistent
+        with the uniform values expected, thus calling into question the assumptions
+        that were used to generate them. Finally, we evaluated the potential effects
+        of unexplained variability in mutation rates on false-positive driver gene
+        predictions. Our analysis points to the strengths and weaknesses of each of
+        the currently available methods and offers guidance for improving them in
+        the future.
+      authors:
+        - name: Tokheim C.J.
+        - name: Papadopoulos N.
+        - name: Kinzler K.W.
+        - name: Vogelstein B.
+        - name: Karchin R.
+      citationCount: 48
+      date: '2016-12-13T00:00:00Z'
+      journal: Proceedings of the National Academy of Sciences of the United States
+        of America
+      title: Evaluating the evaluation of cancer driver genes
     pmcid: null
     pmid: '27911828'
     type: Comparison
@@ -77,8 +104,6 @@ topic:
     uri: http://edamontology.org/topic_0622
   - term: Oncology
     uri: http://edamontology.org/topic_2640
-  - term: Bioinformatics
-    uri: http://edamontology.org/topic_0091
   - term: Machine learning
     uri: http://edamontology.org/topic_3474
   - term: DNA structural variation

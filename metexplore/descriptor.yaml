@@ -1,0 +1,128 @@
+accessibility: []
+additionDate: '2018-07-09T23:06:59Z'
+biotoolsCURIE: biotools:metexplore
+biotoolsID: metexplore
+collectionID:
+  - EBI Training Tools
+cost: null
+credit:
+  - email: fabien.jourdan@inra.fr
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: ludovic.cottret@inra.fr
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+  - email: metexplore@oulouse.inra.fr
+    name: null
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+    url: null
+description: Metabolic network curation, network exploration and omics data analysis.
+  In particular, it is possible to curate and annotate metabolic networks in a collaborative
+  environment.
+documentation: []
+download: []
+editPermission:
+  authors: []
+  type: private
+elixirNode: []
+elixirPlatform: []
+elixir_badge: 0
+function:
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Metabolic network modelling
+        uri: http://edamontology.org/operation_3660
+    output: []
+  - cmd: null
+    input: []
+    note: null
+    operation:
+      - term: Pathway or network comparison
+        uri: http://edamontology.org/operation_0277
+      - term: Pathway or network visualisation
+        uri: http://edamontology.org/operation_3083
+    output: []
+homepage: http://www.metexplore.fr/
+homepage_status: 0
+language: []
+lastUpdate: '2019-02-17T18:54:33Z'
+license: null
+link: []
+maturity: null
+name: MetExplore2
+operatingSystem:
+  - Linux
+  - Windows
+  - Mac
+otherID: []
+owner: aotamendi.1
+publication:
+  - doi: 10.1093/nar/gky301
+    metadata: null
+    pmcid: null
+    pmid: '29718355'
+    type: Primary
+    version: null
+  - doi: 10.1093/nar/gkq312
+    metadata:
+      abstract: "High-throughput metabolomic experiments aim at identifying and ultimately\
+        \ quantifying all metabolites present in biological systems. The metabolites\
+        \ are interconnected through metabolic reactions, generally grouped into metabolic\
+        \ pathways. Classical metabolic maps provide a relational context to help\
+        \ interpret metabolomics experiments and a wide range of tools have been developed\
+        \ to help place metabolites within metabolic pathways. However, the representation\
+        \ of metabolites within separate disconnected pathways overlooks most of the\
+        \ connectivity of the metabolome. By definition, reference pathways cannot\
+        \ integrate novel pathways nor show relationships between metabolites that\
+        \ may be linked by common neighbours without being considered as joint members\
+        \ of a classical biochemical pathway. MetExplore is a web server that offers\
+        \ the possibility to link metabolites identified in untargeted metabolomics\
+        \ experiments within the context of genome-scale reconstructed metabolic networks.\
+        \ The analysis pipeline comprises mapping metabolomics data onto the specific\
+        \ metabolic network of an organism, then applying graph-based methods and\
+        \ advanced visualization tools to enhance data analysis. The MetExplore web\
+        \ server is freely accessible at http://metexplore.toulouse.inra.fr. \xA9\
+        \ The Author(s) 2010. Published by Oxford University Press."
+      authors:
+        - name: Cottret L.
+        - name: Wildridge D.
+        - name: Vinson F.
+        - name: Barrett M.P.
+        - name: Charles H.
+        - name: Sagot M.-F.
+        - name: Jourdan F.
+      citationCount: 96
+      date: '2010-05-05T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'MetExplore: A web server to link metabolomic experiments and genome-scale
+        metabolic networks'
+    pmcid: null
+    pmid: null
+    type: Primary
+    version: null
+toolType:
+  - Web application
+topic:
+  - term: Molecular interactions, pathways and networks
+    uri: http://edamontology.org/topic_0602
+  - term: Metagenomics
+    uri: http://edamontology.org/topic_3174
+validated: 1
+version:
+  - 2.13.25

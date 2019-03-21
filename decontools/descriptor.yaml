@@ -28,6 +28,10 @@ download:
     type: Source code
     url: http://ncrr.pnl.gov/software/sourcecode_register.asp?id=18
     version: null
+  - note: null
+    type: Source code
+    url: https://github.com/PNNL-Comp-Mass-Spec/DeconTools
+    version: null
 editPermission:
   authors: []
   type: private
@@ -36,17 +40,45 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: WIFF format
+            uri: http://edamontology.org/format_3710
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+          - term: Thermo RAW
+            uri: http://edamontology.org/format_3712
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
     note: null
     operation:
+      - term: Peak detection
+        uri: http://edamontology.org/operation_3215
+      - term: Mass spectrum visualisation
+        uri: http://edamontology.org/operation_3694
+      - term: Chromatogram visualisation
+        uri: http://edamontology.org/operation_3203
+      - term: Isotopic distributions calculation
+        uri: http://edamontology.org/operation_3632
       - term: Deisotoping
         uri: http://edamontology.org/operation_3629
-    output: []
+    output:
+      - data:
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
+        format:
+          - term: CSV
+            uri: http://edamontology.org/format_3752
+          - term: dat
+            uri: http://edamontology.org/format_1637
 homepage: http://omics.pnl.gov/software/DeconTools.php
 homepage_status: 0
 language:
   - C#
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-03-01T12:21:00Z'
 license: null
 link:
   - note: null
@@ -85,7 +117,7 @@ publication:
         - name: Horn D.M.
         - name: Zubarev R.A.
         - name: McLafferty F.W.
-      citationCount: 409
+      citationCount: 419
       date: '2000-12-01T00:00:00Z'
       journal: Journal of the American Society for Mass Spectrometry
       title: Automated reduction and interpretation of high resolution electrospray
@@ -93,6 +125,57 @@ publication:
     pmcid: null
     pmid: '10757168'
     type: null
+    version: null
+  - doi: 10.1186/1471-2105-10-87
+    metadata:
+      abstract: "Background: Data generated from liquid chromatography coupled to\
+        \ high-resolution mass spectrometry (LC-MS)-based studies of a biological\
+        \ sample can contain large amounts of biologically significant information\
+        \ in the form of proteins, peptides, and metabolites. Interpreting this data\
+        \ involves inferring the masses and abundances of biomolecules injected into\
+        \ the instrument. Because of the inherent complexity of mass spectral patterns\
+        \ produced by these biomolecules, the analysis is significantly enhanced by\
+        \ using visualization capabilities to inspect and confirm results. In this\
+        \ paper we describe Decon2LS, an open-source software package for automated\
+        \ processing and visualization of high-resolution MS data. Drawing extensively\
+        \ on algorithms developed over the last ten years for ICR2LS, Decon2LS packages\
+        \ the algorithms as a rich set of modular, reusable processing classes for\
+        \ performing diverse functions such as reading raw data, routine peak finding,\
+        \ theoretical isotope distribution modelling, and deisotoping. Because the\
+        \ source code is openly available, these functionalities can now be used to\
+        \ build derivative applications in relatively fast manner. In addition, Decon2LS\
+        \ provides an extensive set of visualization tools, such as high performance\
+        \ chart controls. Results: With a variety of options that include peak processing,\
+        \ deisotoping, isotope composition, etc, Decon2LS supports processing of multiple\
+        \ raw data formats. Deisotoping can be performed on an individual scan, an\
+        \ individual dataset, or on multiple datasets using batch processing. Other\
+        \ processing options include creating a two dimensional view of mass and liquid\
+        \ chromatography (LC) elution time features, generating spectrum files for\
+        \ tandem MS data, creating total intensity chromatograms, and visualizing\
+        \ theoretical peptide profiles. Application of Decon2LS to deisotope different\
+        \ datasets obtained across different instruments yielded a high number of\
+        \ features that can be used to identify and quantify peptides in the biological\
+        \ sample. Conclusion: Decon2LS is an efficient software package for discovering\
+        \ and visualizing features in proteomics studies that require automated interpretation\
+        \ of mass spectra. Besides being easy to use, fast, and reliable, Decon2LS\
+        \ is also open-source, which allows developers in the proteomics and bioinformatics\
+        \ communities to reuse and refine the algorithms to meet individual needs.\
+        \ \xA9 2009 Jaitly et al; licensee BioMed Central Ltd."
+      authors:
+        - name: Jaitly N.
+        - name: Mayampurath A.
+        - name: Littlefield K.
+        - name: Adkins J.N.
+        - name: Anderson G.A.
+        - name: Smith R.D.
+      citationCount: 152
+      date: '2009-03-17T00:00:00Z'
+      journal: BMC Bioinformatics
+      title: 'Decon2LS: An open-source software package for automated processing and
+        visualization of high resolution mass spectrometry data'
+    pmcid: null
+    pmid: '19292916'
+    type: Primary
     version: null
 toolType:
   - Command-line tool
@@ -102,5 +185,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

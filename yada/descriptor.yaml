@@ -28,17 +28,35 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: MGF
+            uri: http://edamontology.org/format_3651
     note: null
     operation:
+      - term: Mass spectra calibration
+        uri: http://edamontology.org/operation_3627
+      - term: Clustering
+        uri: http://edamontology.org/operation_3432
+      - term: Filtering
+        uri: http://edamontology.org/operation_3695
       - term: Deisotoping
         uri: http://edamontology.org/operation_3629
-    output: []
+    output:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: MGF
+            uri: http://edamontology.org/format_3651
 homepage: http://pcarvalho.com/patternlab/downloads/windows/yada/
 homepage_status: 0
 language:
   - C#
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:38:53Z'
 license: null
 link:
   - note: null
@@ -67,7 +85,7 @@ publication:
         - name: Cociorva D.
         - name: Barbosa V.C.
         - name: Yates III J.R.
-      citationCount: 38
+      citationCount: 42
       date: '2009-10-21T00:00:00Z'
       journal: Bioinformatics
       title: 'YADA: A tool for taking the most out of high-resolution spectra'
@@ -80,5 +98,7 @@ toolType:
 topic:
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+validated: 0
 version: []

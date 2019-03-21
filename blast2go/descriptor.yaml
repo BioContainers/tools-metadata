@@ -2,7 +2,8 @@ accessibility: []
 additionDate: '2017-03-01T15:34:10Z'
 biotoolsCURIE: biotools:blast2go
 biotoolsID: blast2go
-collectionID: []
+collectionID:
+  - BLAST
 cost: null
 credit:
   - email: contact@biobam.com
@@ -49,7 +50,7 @@ function:
 homepage: https://www.blast2go.com/
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-11T19:21:48Z'
+lastUpdate: '2019-03-13T10:35:44Z'
 license: null
 link: []
 maturity: null
@@ -63,15 +64,7 @@ owner: ELIXIR-EE
 publication:
   - doi: 10.1093/bioinformatics/bti610
     metadata:
-      abstract: "Summary: We present here Blast2GO (B2G), a research tool designed\
-        \ with the main purpose of enabling Gene Ontology (GO) based data mining on\
-        \ sequence data for which no GO annotation is yet available. B2G joints in\
-        \ one application GO annotation based on similarity searches with statistical\
-        \ analysis and highlighted visualization on directed acyclic graphs. This\
-        \ tool offers a suitable platform for functional genomics research in non-model\
-        \ species. B2G is an intuitive and interactive desktop application that allows\
-        \ monitoring and comprehension of the whole annotation and analysis process.\
-        \ \xA9 The Author 2005. Published by Oxford University Press. All rights reserved."
+      abstract: null
       authors:
         - name: Conesa A.
         - name: Gotz S.
@@ -79,11 +72,10 @@ publication:
         - name: Terol J.
         - name: Talon M.
         - name: Robles M.
-      citationCount: 5390
-      date: '2005-09-15T00:00:00Z'
-      journal: Bioinformatics
-      title: 'Blast2GO: A universal tool for annotation, visualization and analysis
-        in functional genomics research'
+      citationCount: 0
+      date: null
+      journal: null
+      title: null
     pmcid: null
     pmid: null
     type: Primary
@@ -94,5 +86,5 @@ toolType:
 topic:
   - term: Nucleic acid sites, features and motifs
     uri: http://edamontology.org/topic_3511
-validated: 1
+validated: 0
 version: []

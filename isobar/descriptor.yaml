@@ -27,6 +27,10 @@ download:
     type: Source code
     url: http://bioconductor/packages/release/bioc/src/contrib/isobar_1.20.0.tar.gz
     version: null
+  - note: null
+    type: Source code
+    url: https://github.com/fbreitwieser/isobar
+    version: null
 editPermission:
   authors: []
   type: private
@@ -37,33 +41,47 @@ function:
   - cmd: null
     input:
       - data:
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
+        format:
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+      - data:
           term: Peptide identification
           uri: http://edamontology.org/data_0945
         format:
           - term: CSV
             uri: http://edamontology.org/format_3752
-          - term: TSV
-            uri: http://edamontology.org/format_3475
-          - term: MGF
-            uri: http://edamontology.org/format_3651
     note: null
     operation:
-      - term: Spectral analysis
-        uri: http://edamontology.org/operation_3214
+      - term: TMT-tag
+        uri: http://edamontology.org/operation_3641
+      - term: PTM localisation
+        uri: http://edamontology.org/operation_3755
+      - term: Protein quantification
+        uri: http://edamontology.org/operation_3630
+      - term: Statistical calculation
+        uri: http://edamontology.org/operation_2238
       - term: Standardisation and normalisation
         uri: http://edamontology.org/operation_3435
+      - term: iTRAQ
+        uri: http://edamontology.org/operation_3639
+      - term: Labeled quantification
+        uri: http://edamontology.org/operation_3635
     output:
       - data:
-          term: Gene expression profile
-          uri: http://edamontology.org/data_0928
+          term: Expression data
+          uri: http://edamontology.org/data_2603
         format:
+          - term: xls
+            uri: http://edamontology.org/format_3468
           - term: PDF
             uri: http://edamontology.org/format_3508
 homepage: http://bioconductor.org/packages/release/bioc/html/isobar.html
 homepage_status: 0
 language:
   - R
-lastUpdate: '2018-12-30T15:56:58Z'
+lastUpdate: '2019-03-01T12:35:47Z'
 license: GPL-2.0
 link:
   - note: null
@@ -110,7 +128,7 @@ publication:
         - name: Mechtler K.
         - name: Bennett K.L.
         - name: Colinge J.
-      citationCount: 80
+      citationCount: 82
       date: '2011-06-03T00:00:00Z'
       journal: Journal of Proteome Research
       title: General statistical modeling of data from protein relative expression
@@ -119,12 +137,48 @@ publication:
     pmid: '21526793'
     type: Primary
     version: null
+  - doi: 10.1016/j.jprot.2013.02.022
+    metadata:
+      abstract: "The establishment of extremely powerful proteomics platforms able\
+        \ to map thousands of modification sites, e.g. phosphorylations or acetylations,\
+        \ over entire proteomes calls for equally powerful software tools to effectively\
+        \ extract useful and reliable information from such complex datasets. We present\
+        \ a new quantitative PTM analysis platform aimed at processing iTRAQ or Tandem\
+        \ Mass Tags (TMT) labeled peptides. It covers a broad range of needs associated\
+        \ with proper PTM ratio analysis such as PTM localization validation, robust\
+        \ ratio computation and statistical assessment, and navigable user report\
+        \ generation. IsobarPTM is made available as an R Bioconductor package and\
+        \ it can be run from the command line by non R specialists. Biological significance:\
+        \ \"IsobarPTM is a new software tool facilitating the quantitative analysis\
+        \ of protein modification regulation streamlining important issues related\
+        \ to PTM localization and statistical modeling. Users are provided with a\
+        \ navigable spreadsheet report, which also annotate already public modification\
+        \ sites.\" This article is part of a Special Issue entitled: From Genome to\
+        \ Proteome: Open Innovations. \xA9 2013 Elsevier B.V."
+      authors:
+        - name: Breitwieser F.P.
+        - name: Colinge J.
+      citationCount: 8
+      date: '2013-09-02T00:00:00Z'
+      journal: Journal of Proteomics
+      title: 'IsobarPTM: A software tool for the quantitative analysis of post-translationally
+        modified proteins'
+    pmcid: null
+    pmid: '23470796'
+    type: null
+    version: null
 toolType:
   - Command-line tool
   - Library
 topic:
   - term: Proteomics
     uri: http://edamontology.org/topic_0121
-validated: 1
+  - term: Proteomics experiment
+    uri: http://edamontology.org/topic_3520
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+  - term: Protein modifications
+    uri: http://edamontology.org/topic_0601
+validated: 0
 version:
   - 1.20.0

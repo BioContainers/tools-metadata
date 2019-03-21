@@ -20,7 +20,11 @@ documentation:
   - note: null
     type: General
     url: https://binfalse.de/software/iso2l/iso2l-usage/
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://github.com/binfalse/iso2l
+    version: null
 editPermission:
   authors: []
   type: private
@@ -31,29 +35,43 @@ function:
   - cmd: null
     input:
       - data:
-          term: Data
-          uri: http://edamontology.org/data_0006
+          term: Atomic occupancy
+          uri: http://edamontology.org/data_1857
         format:
-          - term: raw
-            uri: http://edamontology.org/format_1957
-          - term: InChI
-            uri: http://edamontology.org/format_1197
+          - term: Chemical formula format
+            uri: http://edamontology.org/format_2035
+      - data:
+          term: Protein sequence
+          uri: http://edamontology.org/data_2976
+        format:
+          - term: Raw sequence format
+            uri: http://edamontology.org/format_2571
     note: null
     operation:
+      - term: Plotting
+        uri: http://edamontology.org/operation_3441
       - term: Isotopic distributions calculation
         uri: http://edamontology.org/operation_3632
+      - term: Statistical calculation
+        uri: http://edamontology.org/operation_2238
     output:
       - data:
-          term: Data
-          uri: http://edamontology.org/data_0006
+          term: Report
+          uri: http://edamontology.org/data_2048
         format:
           - term: TSV
             uri: http://edamontology.org/format_3475
+      - data:
+          term: Plot
+          uri: http://edamontology.org/data_2884
+        format:
+          - term: png
+            uri: http://edamontology.org/format_3603
 homepage: http://blog.binfalse.de/software/iso2l/
 homepage_status: 0
 language:
   - Java
-lastUpdate: '2018-12-10T12:58:54Z'
+lastUpdate: '2019-02-27T11:20:59Z'
 license: null
 link:
   - note: null
@@ -73,5 +91,7 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+validated: 0
 version: []

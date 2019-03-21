@@ -19,7 +19,11 @@ documentation:
   - note: null
     type: General
     url: http://tools.proteomecenter.org/wiki/index.php?title=Software:massWolf
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://sourceforge.net/projects/sashimi/files/massWolf%20%28MassLynx%20converter%29/|https://sourceforge.net/p/sashimi/code/HEAD/tree/branches/4-8/trans_proteomic_pipeline/src/mzXML/converters/
+    version: null
 editPermission:
   authors: []
   type: private
@@ -28,17 +32,31 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: Mass spectrometry data format
+            uri: http://edamontology.org/format_3245
     note: null
     operation:
       - term: Formatting
         uri: http://edamontology.org/operation_0335
-    output: []
+    output:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
 homepage: http://tools.proteomecenter.org/MassWolf.php
 homepage_status: 0
 language:
   - C++
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:24:12Z'
 license: null
 link:
   - note: null
@@ -56,5 +74,7 @@ toolType:
 topic:
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+validated: 0
 version: []

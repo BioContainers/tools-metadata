@@ -3,9 +3,9 @@ additionDate: '2017-01-17T15:08:23Z'
 biotoolsCURIE: biotools:picard_tools
 biotoolsID: picard_tools
 collectionID:
-  - Picard
-  - Sequencing
   - Genomics
+  - Sequencing
+  - Picard
   - Animal and Crop Genomics
 cost: null
 credit:
@@ -45,7 +45,7 @@ homepage: https://github.com/broadinstitute/picard
 homepage_status: 0
 language:
   - Java
-lastUpdate: '2019-02-12T21:40:08Z'
+lastUpdate: '2019-03-14T13:54:57Z'
 license: MIT
 link: []
 maturity: null
@@ -59,8 +59,10 @@ publication: []
 toolType:
   - Suite
 topic:
-  - term: Bioinformatics
-    uri: http://edamontology.org/topic_0091
+  - term: Sequencing
+    uri: http://edamontology.org/topic_3168
+  - term: Data management
+    uri: http://edamontology.org/topic_3071
 validated: 0
 version:
   - 2.17.x

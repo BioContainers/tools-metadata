@@ -28,16 +28,28 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Protein modification ID
+          uri: http://edamontology.org/data_2618
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
     note: null
     operation:
-      - term: de Novo sequencing
-        uri: http://edamontology.org/operation_3644
-    output: []
+      - term: Database search
+        uri: http://edamontology.org/operation_2421
+    output:
+      - data:
+          term: Molecular mass
+          uri: http://edamontology.org/data_0844
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
 homepage: http://www.unimod.org
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:37:44Z'
 license: null
 link:
   - note: null
@@ -61,7 +73,7 @@ publication:
       authors:
         - name: Creasy D.M.
         - name: Cottrell J.S.
-      citationCount: 147
+      citationCount: 154
       date: '2004-06-01T00:00:00Z'
       journal: Proteomics
       title: 'Unimod: Protein modifications for mass spectrometry'
@@ -76,5 +88,7 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Protein modifications
+    uri: http://edamontology.org/topic_0601
+validated: 0
 version: []

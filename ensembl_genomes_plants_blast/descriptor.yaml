@@ -3,6 +3,7 @@ additionDate: '2015-01-29T15:47:59Z'
 biotoolsCURIE: biotools:ensembl_genomes_plants_blast
 biotoolsID: ensembl_genomes_plants_blast
 collectionID:
+  - BLAST
   - Ensembl Tools
   - Ensembl Genomes
   - EBI Tools
@@ -68,6 +69,8 @@ function:
     operation:
       - term: Sequence similarity search
         uri: http://edamontology.org/operation_0346
+      - term: Sequence alignment
+        uri: http://edamontology.org/operation_0292
     output:
       - data:
           term: Sequence alignment
@@ -80,7 +83,7 @@ function:
 homepage: http://plants.ensembl.org/Multi/blastview
 homepage_status: 0
 language: []
-lastUpdate: '2019-02-13T16:49:14Z'
+lastUpdate: '2019-03-13T10:52:05Z'
 license: null
 link: []
 maturity: null
@@ -93,7 +96,60 @@ otherID: []
 owner: EMBL-EBI
 publication:
   - doi: 10.1093/nar/gkv1157
-    metadata: null
+    metadata:
+      abstract: null
+      authors:
+        - name: Yates A.
+        - name: Akanni W.
+        - name: Amode M.R.
+        - name: Barrell D.
+        - name: Billis K.
+        - name: Carvalho-Silva D.
+        - name: Cummins C.
+        - name: Clapham P.
+        - name: Fitzgerald S.
+        - name: Gil L.
+        - name: Giron C.G.
+        - name: Gordon L.
+        - name: Hourlier T.
+        - name: Hunt S.E.
+        - name: Janacek S.H.
+        - name: Johnson N.
+        - name: Juettemann T.
+        - name: Keenan S.
+        - name: Lavidas I.
+        - name: Martin F.J.
+        - name: Maurel T.
+        - name: McLaren W.
+        - name: Murphy D.N.
+        - name: Nag R.
+        - name: Nuhn M.
+        - name: Parker A.
+        - name: Patricio M.
+        - name: Pignatelli M.
+        - name: Rahtz M.
+        - name: Riat H.S.
+        - name: Sheppard D.
+        - name: Taylor K.
+        - name: Thormann A.
+        - name: Vullo A.
+        - name: Wilder S.P.
+        - name: Zadissa A.
+        - name: Birney E.
+        - name: Harrow J.
+        - name: Muffato M.
+        - name: Perry E.
+        - name: Ruffier M.
+        - name: Spudich G.
+        - name: Trevanion S.J.
+        - name: Cunningham F.
+        - name: Aken B.L.
+        - name: Zerbino D.R.
+        - name: Flicek P.
+      citationCount: 0
+      date: null
+      journal: null
+      title: null
     pmcid: null
     pmid: null
     type: Other

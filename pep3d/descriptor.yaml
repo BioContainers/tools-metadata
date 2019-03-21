@@ -22,12 +22,16 @@ credit:
     typeRole:
       - Documentor
     url: http://ms-utils.org
-description: plots LC-MS and LC-MS/MS data in a 2D ''m''/''z'' vs time plot
+description: Plots LC-MS and LC-MS/MS data in a 2D ''m''/''z'' vs time plot.
 documentation:
   - note: null
     type: General
     url: http://tools.proteomecenter.org/wiki/index.php?title=Software:Pep3D
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://sourceforge.net/projects/sashimi/files/Trans-Proteomic%20Pipeline%20%28TPP%29/
+    version: null
 editPermission:
   authors: []
   type: private
@@ -41,27 +45,39 @@ function:
           term: Mass spectrometry spectra
           uri: http://edamontology.org/data_0943
         format:
-          - term: mzML
-            uri: http://edamontology.org/format_3244
           - term: mzXML
             uri: http://edamontology.org/format_3654
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: pepXML
+            uri: http://edamontology.org/format_3655
     note: null
     operation:
       - term: Chromatogram visualisation
         uri: http://edamontology.org/operation_3203
       - term: Mass spectrum visualisation
         uri: http://edamontology.org/operation_3694
+      - term: Plotting
+        uri: http://edamontology.org/operation_3441
     output:
       - data:
-          term: Image
-          uri: http://edamontology.org/data_2968
+          term: Plot
+          uri: http://edamontology.org/data_2884
         format:
-          - term: PNG
+          - term: png
+            uri: http://edamontology.org/format_3603
+      - data:
+          term: 2D PAGE image
+          uri: http://edamontology.org/data_0942
+        format:
+          - term: png
             uri: http://edamontology.org/format_3603
 homepage: http://tools.proteomecenter.org/Pep3D.php
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:56Z'
+lastUpdate: '2019-03-04T13:49:00Z'
 license: null
 link:
   - note: null
@@ -112,5 +128,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

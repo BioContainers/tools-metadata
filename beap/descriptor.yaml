@@ -69,7 +69,40 @@ publication:
     type: null
     version: null
   - doi: 10.1186/1756-0500-2-11
-    metadata: null
+    metadata:
+      abstract: "Background. Fine-mapping projects require a high density of SNP markers\
+        \ and positional candidate gene sequences. In species with incomplete genomic\
+        \ sequence, the DNA sequences needed to generate markers for fine-mapping\
+        \ within a linkage analysis confidence interval may be available but may not\
+        \ have been assembled. To manually piece these sequences together is laborious\
+        \ and costly. Moreover, annotation and assembly of short, incomplete DNA sequences\
+        \ is time consuming and not always straightforward. Findings. We have created\
+        \ a tool called BEAP that combines BLAST and CAP3 to retrieve sequences and\
+        \ construct contigs for localized genomic regions in species with unfinished\
+        \ sequence drafts. The rational is that a completed genome can be used as\
+        \ a template to query target genomic sequence for closing the gaps or extending\
+        \ contig sequence length in species whose genome is incomplete on the basis\
+        \ that good homology exists. Each user must define what template sequence\
+        \ is appropriate based on comparative mapping data such as radiation hybrid\
+        \ (RH) maps or other evidence linking the gene sequence of the template species\
+        \ to the target species. Conclusion. The BEAP software creates contigs suitable\
+        \ for discovery of orthologous genes for positional cloning. The resulting\
+        \ sequence alignments can be viewed graphically with a Java graphical user\
+        \ interface (GUI), allowing users to evaluate contig sequence quality and\
+        \ predict SNPs. We demonstrate the successful use of BEAP to generate genomic\
+        \ template sequence for positional cloning of the Angus dwarfism mutation.\
+        \ The software is available for free online for use on UNIX systems at http://www.animalgenome.org/bioinfo/tools/\
+        \ beap/. \xA9 2009 Reecy et al."
+      authors:
+        - name: Koltes J.E.
+        - name: Hu Z.-L.
+        - name: Fritz E.
+        - name: Reecy J.M.
+      citationCount: 3
+      date: '2009-12-01T00:00:00Z'
+      journal: BMC Research Notes
+      title: 'BEAP: The BLAST Extension and Alignment Program- a tool for contig construction
+        and analysis of preliminary genome sequence'
     pmcid: null
     pmid: null
     type: Primary

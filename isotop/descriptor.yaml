@@ -22,16 +22,23 @@ credit:
     typeRole:
       - Documentor
     url: http://ms-utils.org
-description: MATLAB code for calculating the isotopic distribution of a molecule (e.g.
-  insulin).
+description: MATLAB and R code for calculating the isotopic distribution of a molecule
+  (e.g. insulin).
 documentation:
   - note: null
     type: General
     url: http://www.ms-utils.org/isotop.html
+  - note: null
+    type: General
+    url: http://www.ms-utils.org/isotop.r
 download:
   - note: null
     type: Source code
     url: http://www.ms-utils.org/isotop.html
+    version: null
+  - note: null
+    type: Source code
+    url: http://www.ms-utils.org/isotop.r
     version: null
 editPermission:
   authors:
@@ -42,18 +49,32 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Chemical formula
+          uri: http://edamontology.org/data_0846
+        format:
+          - term: Chemical formula format
+            uri: http://edamontology.org/format_2035
     note: null
     operation:
+      - term: Plotting
+        uri: http://edamontology.org/operation_3441
       - term: Isotopic distributions calculation
         uri: http://edamontology.org/operation_3632
-    output: []
+    output:
+      - data:
+          term: Plot
+          uri: http://edamontology.org/data_2884
+        format:
+          - term: png
+            uri: http://edamontology.org/format_3603
 homepage: http://www.ms-utils.org/isotop.html
 homepage_status: 0
 language:
   - R
   - MATLAB
-lastUpdate: '2018-12-10T12:58:54Z'
+lastUpdate: '2019-02-27T14:50:33Z'
 license: null
 link:
   - note: null
@@ -75,5 +96,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

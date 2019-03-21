@@ -51,17 +51,17 @@ publication:
   - doi: 10.1093/bioinformatics/bty070
     metadata:
       abstract: "\xA9 The Author(s) 2018. Published by Oxford University Press. All\
-        \ rights reserved. Motivation: Precise assessment of ligand bioactivities\
-        \ (including IC50, EC50, Ki, Kd, etc.) is essential for virtual screening\
-        \ and lead compound identification. However, not all ligands have experimentally\
-        \ determined activities. In particular, many G protein-coupled receptors (GPCRs),\
-        \ which are the largest integral membrane protein family and represent targets\
-        \ of nearly 40% drugs on the market, lack published experimental data about\
-        \ ligand interactions. Computational methods with the ability to accurately\
-        \ predict the bioactivity of ligands can help efficiently address this problem.\
-        \ Results: We proposed a new method, WDL-RF, using weighted deep learning\
-        \ and random forest, to model the bioactivity of GPCR-associated ligand molecules.\
-        \ The pipeline of our algorithm consists of two consecutive stages: (i) molecular\
+        \ rights reserved.Motivation: Precise assessment of ligand bioactivities (including\
+        \ IC50, EC50, Ki, Kd, etc.) is essential for virtual screening and lead compound\
+        \ identification. However, not all ligands have experimentally determined\
+        \ activities. In particular, many G protein-coupled receptors (GPCRs), which\
+        \ are the largest integral membrane protein family and represent targets of\
+        \ nearly 40% drugs on the market, lack published experimental data about ligand\
+        \ interactions. Computational methods with the ability to accurately predict\
+        \ the bioactivity of ligands can help efficiently address this problem. Results:\
+        \ We proposed a new method, WDL-RF, using weighted deep learning and random\
+        \ forest, to model the bioactivity of GPCR-associated ligand molecules. The\
+        \ pipeline of our algorithm consists of two consecutive stages: (i) molecular\
         \ fingerprint generation through a new weighted deep learning method, and\
         \ (ii) bioactivity calculations with a random forest model; where one uniqueness\
         \ of the approach is that the model allows end-to-end learning of prediction\
@@ -85,7 +85,7 @@ publication:
         - name: Chan W.K.B.
         - name: Ke X.
         - name: Zhang Y.
-      citationCount: 1
+      citationCount: 2
       date: '2018-07-01T00:00:00Z'
       journal: Bioinformatics
       title: 'WDL-RF: Predicting bioactivities of ligand molecules acting with G protein-coupled

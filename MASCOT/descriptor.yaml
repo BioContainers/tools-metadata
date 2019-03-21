@@ -49,14 +49,14 @@ function:
         uri: http://edamontology.org/operation_3767
       - term: Blind peptide database search
         uri: http://edamontology.org/operation_3647
-      - term: Peptide database search
-        uri: http://edamontology.org/operation_3646
+      - term: Target-Decoy
+        uri: http://edamontology.org/operation_3649
       - term: Tag-based peptide identification
         uri: http://edamontology.org/operation_3643
       - term: Peptide identification
         uri: http://edamontology.org/operation_3631
-      - term: Target-Decoy
-        uri: http://edamontology.org/operation_3649
+      - term: Peptide database search
+        uri: http://edamontology.org/operation_3646
     output:
       - data:
           term: Peptide identification
@@ -77,7 +77,7 @@ function:
 homepage: http://www.matrixscience.com
 homepage_status: 0
 language: []
-lastUpdate: '2019-02-20T16:16:59Z'
+lastUpdate: '2019-02-27T11:23:18Z'
 license: Proprietary
 link:
   - note: null
@@ -110,7 +110,7 @@ publication:
         - name: Pappin D.J.C.
         - name: Creasy D.M.
         - name: Cottrell J.S.
-      citationCount: 5894
+      citationCount: 5897
       date: '1999-01-01T00:00:00Z'
       journal: Electrophoresis
       title: Probability-based protein identification by searching sequence databases

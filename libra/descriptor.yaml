@@ -30,7 +30,7 @@ credit:
     typeRole:
       - Documentor
     url: http://ms-utils.org
-description: analyzes 4- and 8-channel iTRAQ data
+description: Analyzes 4- and 8-channel iTRAQ data.
 documentation:
   - note: null
     type: General
@@ -57,19 +57,23 @@ function:
         uri: http://edamontology.org/operation_3641
       - term: iTRAQ
         uri: http://edamontology.org/operation_3639
+      - term: Protein quantification
+        uri: http://edamontology.org/operation_3630
+      - term: Labeled quantification
+        uri: http://edamontology.org/operation_3635
     output:
       - data:
-          term: Gene expression profile
-          uri: http://edamontology.org/data_0928
+          term: Expression data
+          uri: http://edamontology.org/data_2603
         format:
-          - term: TSV
-            uri: http://edamontology.org/format_3475
-          - term: mzIdentML
-            uri: http://edamontology.org/format_3247
+          - term: protXML
+            uri: http://edamontology.org/format_3747
+          - term: pepXML
+            uri: http://edamontology.org/format_3655
 homepage: http://tools.proteomecenter.org/Libra.php
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:56Z'
+lastUpdate: '2019-03-04T13:49:30Z'
 license: null
 link:
   - note: null
@@ -109,7 +113,7 @@ publication:
         - name: Martin D.B.
         - name: Nesvizhskii A.I.
         - name: Aebersold R.
-      citationCount: 408
+      citationCount: 426
       date: '2010-03-01T00:00:00Z'
       journal: Proteomics
       title: A guided tour of the Trans-Proteomic Pipeline
@@ -125,5 +129,7 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+validated: 0
 version: []

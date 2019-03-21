@@ -27,7 +27,11 @@ documentation:
   - note: null
     type: General
     url: http://www.ce4csb.org/applications/dat2mgf.zip
-download: []
+download:
+  - note: null
+    type: Source code
+    url: http://www.ce4csb.org/applications/dat2mgf.zip
+    version: null
 editPermission:
   authors: []
   type: private
@@ -38,26 +42,28 @@ function:
   - cmd: null
     input:
       - data:
-          term: Data
-          uri: http://edamontology.org/data_0006
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
         format:
           - term: Mascot .dat file
             uri: http://edamontology.org/format_3713
     note: null
     operation:
+      - term: Parsing
+        uri: http://edamontology.org/operation_1812
       - term: Formatting
         uri: http://edamontology.org/operation_0335
     output:
       - data:
-          term: Data
-          uri: http://edamontology.org/data_0006
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
         format:
           - term: MGF
             uri: http://edamontology.org/format_3651
 homepage: http://www.ce4csb.org/software.shtml
-homepage_status: 0
+homepage_status: 1
 language: []
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:16:54Z'
 license: null
 link:
   - note: null
@@ -77,5 +83,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

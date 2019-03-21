@@ -87,7 +87,25 @@ otherID: []
 owner: ELIXIR-FR
 publication:
   - doi: 10.1186/gb-2011-12-3-r22
-    metadata: null
+    metadata:
+      abstract: "The biochemistry of RNA-Seq library preparation results in cDNA fragments\
+        \ that are not uniformly distributed within the transcripts they represent.\
+        \ This non-uniformity must be accounted for when estimating expression levels,\
+        \ and we show how to perform the needed corrections using a likelihood based\
+        \ approach. We find improvements in expression estimates as measured by correlation\
+        \ with independently performed qRT-PCR and show that correction of bias leads\
+        \ to improved replicability of results across libraries and sequencing technologies.\
+        \ \xA9 2011 Roberts et al.; licensee BioMed Central Ltd."
+      authors:
+        - name: Roberts A.
+        - name: Trapnell C.
+        - name: Donaghey J.
+        - name: Rinn J.L.
+        - name: Pachter L.
+      citationCount: 488
+      date: '2011-03-16T00:00:00Z'
+      journal: Genome Biology
+      title: Improving RNA-Seq expression estimates by correcting for fragment bias
     pmcid: null
     pmid: null
     type: Primary
@@ -101,8 +119,6 @@ publication:
 toolType:
   - Command-line tool
 topic:
-  - term: Bioinformatics
-    uri: http://edamontology.org/topic_0091
   - term: Gene expression
     uri: http://edamontology.org/topic_0203
   - term: Metagenomics

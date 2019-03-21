@@ -29,7 +29,11 @@ documentation:
   - note: null
     type: General
     url: https://wiki.mpi-cbg.de/lipidx/LipidXplorer_Documentation
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://sourceforge.net/projects/lipidxplorer/files/
+    version: null
 editPermission:
   authors: []
   type: private
@@ -43,24 +47,46 @@ function:
           term: Mass spectrometry data
           uri: http://edamontology.org/data_2536
         format:
+          - term: CSV
+            uri: http://edamontology.org/format_3752
           - term: mzML
             uri: http://edamontology.org/format_3244
-    note: Lipid analysis
+          - term: dta
+            uri: http://edamontology.org/format_3652
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: CSV
+            uri: http://edamontology.org/format_3752
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+          - term: dta
+            uri: http://edamontology.org/format_3652
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+    note: null
     operation:
-      - term: Analysis
-        uri: http://edamontology.org/operation_2945
+      - term: Mass spectrum visualisation
+        uri: http://edamontology.org/operation_3694
+      - term: Natural product identification
+        uri: http://edamontology.org/operation_3803
+      - term: Deisotoping
+        uri: http://edamontology.org/operation_3629
     output:
       - data:
-          term: Lipid identifier
-          uri: http://edamontology.org/data_2812
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
         format:
-          - term: TSV
-            uri: http://edamontology.org/format_3475
+          - term: xlsx
+            uri: http://edamontology.org/format_3620
 homepage: https://wiki.mpi-cbg.de/lipidx
 homepage_status: 0
 language:
   - Python
-lastUpdate: '2018-12-10T12:58:52Z'
+lastUpdate: '2019-02-27T11:22:39Z'
 license: null
 link: []
 maturity: null
@@ -95,7 +121,7 @@ publication:
         - name: Bornstein S.R.
         - name: Schroeder M.
         - name: Shevchenko A.
-      citationCount: 101
+      citationCount: 109
       date: '2012-01-17T00:00:00Z'
       journal: PLoS ONE
       title: 'Lipidxplorer: A software for consensual cross-platform lipidomics'
@@ -108,6 +134,8 @@ toolType:
 topic:
   - term: Lipids
     uri: http://edamontology.org/topic_0153
-validated: 1
+  - term: Metabolomics
+    uri: http://edamontology.org/topic_3172
+validated: 0
 version:
   - 1.2.7

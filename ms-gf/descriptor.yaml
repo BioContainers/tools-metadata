@@ -20,7 +20,11 @@ documentation:
   - note: null
     type: General
     url: https://omics.pnl.gov/software/ms-gf
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://github.com/sangtaekim/msgfplus
+    version: null
 editPermission:
   authors: []
   type: private
@@ -29,17 +33,90 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Spectrum
+          uri: http://edamontology.org/data_3483
+        format:
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+          - term: pkl
+            uri: http://edamontology.org/format_3653
+          - term: dta
+            uri: http://edamontology.org/format_3652
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+      - data:
+          term: Sequence set (protein)
+          uri: http://edamontology.org/data_1233
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
     note: null
     operation:
+      - term: Protein identification
+        uri: http://edamontology.org/operation_3767
       - term: Blind peptide database search
         uri: http://edamontology.org/operation_3647
-    output: []
+      - term: Peptide database search
+        uri: http://edamontology.org/operation_3646
+      - term: Tag-based peptide identification
+        uri: http://edamontology.org/operation_3643
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
+      - term: Target-Decoy
+        uri: http://edamontology.org/operation_3649
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: mzIdentML
+            uri: http://edamontology.org/format_3247
+      - data:
+          term: E-value
+          uri: http://edamontology.org/data_1667
+        format:
+          - term: mzIdentML
+            uri: http://edamontology.org/format_3247
+  - cmd: null
+    input:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: mzIdentML
+            uri: http://edamontology.org/format_3247
+      - data:
+          term: E-value
+          uri: http://edamontology.org/data_1667
+        format:
+          - term: mzIdentML
+            uri: http://edamontology.org/format_3247
+    note: null
+    operation:
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output:
+      - data:
+          term: Database search results
+          uri: http://edamontology.org/data_2080
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
+      - data:
+          term: E-value
+          uri: http://edamontology.org/data_1667
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
 homepage: http://omics.pnl.gov/software/ms-gf
 homepage_status: 0
 language:
   - Java
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-03-01T12:57:37Z'
 license: null
 link:
   - note: null
@@ -74,12 +151,42 @@ publication:
       authors:
         - name: Kim S.
         - name: Pevzner P.A.
-      citationCount: 235
+      citationCount: 266
       date: '2014-10-31T00:00:00Z'
       journal: Nature Communications
       title: MS-GF+ makes progress towards a universal database search tool for proteomics
     pmcid: null
     pmid: '25358478'
+    type: Primary
+    version: null
+  - doi: 10.1021/pr8001244
+    metadata:
+      abstract: "A key problem in computational proteomics is distinguishing between\
+        \ correct and false peptide identifications. We argue that evaluating the\
+        \ error rates of peptide identifications is not unlike computing generating\
+        \ functions in combinatorics. We show that the generating functions and their\
+        \ derivatives (spectral energy and spectral probability) represent new features\
+        \ of tandem mass spectra that, similarly to A-scores, significantly improve\
+        \ peptide identifications. Furthermore, the spectral probability provides\
+        \ a rigorous solution to the problem of computing statistical significance\
+        \ of spectral identifications. The spectral energy/probability approach improves\
+        \ the sensitivity-specificity tradeoff of existing MS/MS search tools, addresses\
+        \ the notoriously difficult problem of \"one-hit-wonders\" in mass spectrometry,\
+        \ and often eliminates the need for decoy database searches. We therefore\
+        \ argue that the generating function approach has the potential to increase\
+        \ the number of peptide identifications in MS/MS searches. \xA9 2008 American\
+        \ Chemical Society."
+      authors:
+        - name: Kim S.
+        - name: Gupta N.
+        - name: Pevzner P.A.
+      citationCount: 254
+      date: '2008-08-01T00:00:00Z'
+      journal: Journal of Proteome Research
+      title: 'Spectral probabilities and generating functions of tandem mass spectra:
+        A strike against decoy databases'
+    pmcid: null
+    pmid: '18597511'
     type: null
     version: null
 toolType:
@@ -89,5 +196,7 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+validated: 0
 version: []

@@ -62,11 +62,11 @@ function:
           term: RNA secondary structure
           uri: http://edamontology.org/data_0880
         format: []
-homepage: http://rpredictor.ms.mff.cuni.cz/
+homepage: http://rpredictordb.elixir-czech.cz
 homepage_status: 0
 language:
   - Python
-lastUpdate: '2019-02-15T10:23:59Z'
+lastUpdate: '2019-03-02T18:28:43Z'
 license: null
 link: []
 maturity: Mature
@@ -79,7 +79,34 @@ otherID: []
 owner: ELIXIR-CZ
 publication:
   - doi: 10.1109/BIBM.2014.6999394
-    metadata: null
+    metadata:
+      abstract: "\xA9 2014 IEEE.Determining the structure of ribosomal RNAs (rRNAs)\
+        \ is one of the crucial steps in understanding the process of protein synthesis,\
+        \ for which rRNAs are one of the basic components. Nevertheless, due to extreme\
+        \ technical difficulties, spatial (3D) structures have been resolved experimentally\
+        \ for only 14 organisms. Also, computational prediction of 3D rRNA structure\
+        \ is almost impossible, and prediction of secondary structure (the list of\
+        \ base pairs in the folded RNA), an important intermediate step between sequence\
+        \ and 3D structure that is used broadly in modeling of RNA structures, is\
+        \ in the case of rRNAs hindered by both extreme sequence length and high structure\
+        \ complexity. Here we present a proof-of-concept for an rRNA secondary structure\
+        \ prediction method that utilizes known structures as structural templates.\
+        \ Our template-based prediction algorithm determines those regions of the\
+        \ sequence for which structure is being predicted that are conserved well\
+        \ enough so that their secondary structure can be copied over from the template.\
+        \ The structure of the remaining, unconserved regions is predicted using a\
+        \ thermodynamic folding model. Applying a baseline implementation of our algorithm\
+        \ to the E. coli 16S rRNA, we have achieved state-of-the-art recall and precision\
+        \ using the structure of T. thermophilus 16S rRNA as a template."
+      authors:
+        - name: Panek J.
+        - name: Hajic J.
+        - name: Hoksza D.
+      citationCount: 0
+      date: '2014-01-01T00:00:00Z'
+      journal: Proceedings - 2014 IEEE International Conference on Bioinformatics
+        and Biomedicine, IEEE BIBM 2014
+      title: Template-based prediction of ribosomal RNA secondary structure
     pmcid: null
     pmid: null
     type: Primary

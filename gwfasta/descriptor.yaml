@@ -2,7 +2,8 @@ accessibility: []
 additionDate: '2017-08-03T18:44:53Z'
 biotoolsCURIE: biotools:gwfasta
 biotoolsID: gwfasta
-collectionID: []
+collectionID:
+  - FASTA
 cost: null
 credit:
   - email: raghava@imtech.res.in
@@ -28,17 +29,27 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Sequence
+          uri: http://edamontology.org/data_2044
+        format: []
     note: null
     operation:
       - term: Sequence similarity search
         uri: http://edamontology.org/operation_0346
-    output: []
+      - term: Sequence comparison
+        uri: http://edamontology.org/operation_2451
+    output:
+      - data:
+          term: Sequence search results
+          uri: http://edamontology.org/data_0857
+        format: []
 homepage: http://www.imtech.res.in/raghava/gwfasta/
 homepage_status: 0
 language:
   - C
-lastUpdate: '2018-12-10T12:58:49Z'
+lastUpdate: '2019-03-13T14:17:53Z'
 license: null
 link:
   - note: null
@@ -55,28 +66,14 @@ owner: mbs_import
 publication:
   - doi: null
     metadata:
-      abstract: Similarity searches are a powerful method for solving important biological
-        problems such as database scanning, evolutionary studies, gene prediction,
-        and protein structure prediction. FASTA is a widely used sequence comparison
-        tool for rapid database scanning. Here we describe the GWFASTA server that
-        was developed to assist the FASTA user in similarity searches against partially
-        and/or completely sequenced genomes. GWFASTA consists of more than 60 microbial
-        genomes, eight eukaryote genomes, and proteomes of annotated genomes. In fact,
-        it provides the maximum number of databases for similarity searching from
-        a single platform. GWFASTA allows the submission of more than one sequence
-        as a single query for a FASTA search. It also provides integrated post-processing
-        of FASTA output, including compositional analysis of proteins, multiple sequences
-        alignment, and phylogenetic analysis. Furthermore, it summarizes the search
-        results organism-wise for prokaryotes and chromosome-wise for eukaryotes.
-        Thus, the integration of different tools for sequence analyses makes GWFASTA
-        a powerful tool for biologists.
+      abstract: null
       authors:
         - name: Issac B.
         - name: Raghava G.P.S.
-      citationCount: 3
-      date: '2002-09-01T00:00:00Z'
-      journal: BioTechniques
-      title: 'GWFASTA: Server for FASTA search in eukaryotic and microbial genomes'
+      citationCount: 0
+      date: null
+      journal: null
+      title: null
     pmcid: null
     pmid: '12238765'
     type: null
@@ -90,5 +87,5 @@ topic:
     uri: http://edamontology.org/topic_0080
   - term: Data submission, annotation and curation
     uri: http://edamontology.org/topic_0219
-validated: 1
+validated: 0
 version: []

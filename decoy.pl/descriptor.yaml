@@ -24,6 +24,10 @@ download:
     type: Source code
     url: http://www.matrixscience.com/downloads/decoy.pl.gz
     version: null
+  - note: null
+    type: Source code
+    url: http://www.matrixscience.com/downloads/decoy.pl.gz
+    version: null
 editPermission:
   authors: []
   type: private
@@ -34,27 +38,27 @@ function:
   - cmd: null
     input:
       - data:
-          term: Data
-          uri: http://edamontology.org/data_0006
+          term: Protein sequence
+          uri: http://edamontology.org/data_2976
         format:
-          - term: FASTA
-            uri: http://edamontology.org/format_1929
+          - term: FASTA-like
+            uri: http://edamontology.org/format_2546
     note: null
     operation:
-      - term: Target-Decoy
-        uri: http://edamontology.org/operation_3649
+      - term: Random sequence generation
+        uri: http://edamontology.org/operation_0364
     output:
       - data:
-          term: Data
-          uri: http://edamontology.org/data_0006
+          term: Protein sequence
+          uri: http://edamontology.org/data_2976
         format:
-          - term: FASTA
-            uri: http://edamontology.org/format_1929
+          - term: FASTA-like
+            uri: http://edamontology.org/format_2546
 homepage: http://www.matrixscience.com/help/decoy_help.html
 homepage_status: 0
 language:
   - Perl
-lastUpdate: '2018-12-10T12:58:54Z'
+lastUpdate: '2019-02-27T11:17:24Z'
 license: null
 link:
   - note: null
@@ -90,7 +94,7 @@ publication:
         - name: Haas W.
         - name: Faherty B.K.
         - name: Gygi S.P.
-      citationCount: 532
+      citationCount: 540
       date: '2005-09-01T00:00:00Z'
       journal: Nature Methods
       title: Comparative evaluation of mass spectrometry platforms used in large-scale
@@ -106,5 +110,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

@@ -4,6 +4,7 @@ biotoolsCURIE: biotools:database_manager
 biotoolsID: database_manager
 collectionID:
   - ms-utils
+  - FASTA utility
 cost: null
 credit:
   - email: webmaster@ms-utils.org
@@ -30,27 +31,59 @@ function:
   - cmd: null
     input:
       - data:
-          term: Data
-          uri: http://edamontology.org/data_0006
+          term: DNA sequence
+          uri: http://edamontology.org/data_3494
         format:
-          - term: TSV
-            uri: http://edamontology.org/format_3475
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+      - data:
+          term: DNA sequence
+          uri: http://edamontology.org/data_3494
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+      - data:
+          term: Database metadata
+          uri: http://edamontology.org/data_0957
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
     note: null
     operation:
-      - term: Target-Decoy
-        uri: http://edamontology.org/operation_3649
+      - term: Random sequence generation
+        uri: http://edamontology.org/operation_0364
+      - term: Sequence mutation and randomisation
+        uri: http://edamontology.org/operation_0367
     output:
       - data:
-          term: Data
-          uri: http://edamontology.org/data_0006
+          term: Database
+          uri: http://edamontology.org/data_0581
         format:
-          - term: TSV
-            uri: http://edamontology.org/format_3475
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+      - data:
+          term: Sequence database name
+          uri: http://edamontology.org/data_1057
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+      - data:
+          term: Sequence database cross-references
+          uri: http://edamontology.org/data_1674
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+      - data:
+          term: Database metadata
+          uri: http://edamontology.org/data_0957
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
 homepage: http://pappso.inra.fr/bioinfo/pdm/
 homepage_status: 0
 language:
   - Java
-lastUpdate: '2018-12-10T12:58:54Z'
+lastUpdate: '2019-03-13T13:42:19Z'
 license: null
 link:
   - note: null
@@ -74,5 +107,9 @@ topic:
     uri: http://edamontology.org/topic_3520
   - term: Database management
     uri: http://edamontology.org/topic_3489
-validated: 1
+  - term: Sequence analysis
+    uri: http://edamontology.org/topic_0080
+  - term: Sequence databases
+    uri: http://edamontology.org/topic_3041
+validated: 0
 version: []

@@ -30,8 +30,8 @@ function:
   - cmd: null
     input:
       - data:
-          term: Data
-          uri: http://edamontology.org/data_0006
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
         format:
           - term: MaxQuant APL peaklist format
             uri: http://edamontology.org/format_3714
@@ -41,8 +41,8 @@ function:
         uri: http://edamontology.org/operation_0335
     output:
       - data:
-          term: Data
-          uri: http://edamontology.org/data_0006
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
         format:
           - term: MGF
             uri: http://edamontology.org/format_3651
@@ -50,7 +50,7 @@ homepage: http://www.wehi.edu.au/people/andrew-webb/1298/apl-mgf-converter
 homepage_status: 0
 language:
   - C#
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:15:28Z'
 license: null
 link:
   - note: null
@@ -70,5 +70,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

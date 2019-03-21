@@ -22,12 +22,16 @@ credit:
     typeRole:
       - Documentor
     url: http://ms-utils.org
-description: plots mzXML LC-MS data as virtual gels or heat maps
+description: Plots mzXML LC-MS data as virtual gels or heat maps.
 documentation:
   - note: null
     type: General
     url: http://www.ms-utils.org/mzXMLplot/index.html
 download:
+  - note: null
+    type: Source code
+    url: http://www.ms-utils.org/mzXMLplot/mzXMLplot.c
+    version: null
   - note: null
     type: Source code
     url: http://www.ms-utils.org/mzXMLplot/mzXMLplot.c
@@ -49,22 +53,24 @@ function:
             uri: http://edamontology.org/format_3654
     note: null
     operation:
-      - term: Mass spectrum visualisation
-        uri: http://edamontology.org/operation_3694
       - term: Chromatogram visualisation
         uri: http://edamontology.org/operation_3203
+      - term: Mass spectrum visualisation
+        uri: http://edamontology.org/operation_3694
+      - term: Heat map generation
+        uri: http://edamontology.org/operation_0531
     output:
       - data:
-          term: Image
-          uri: http://edamontology.org/data_2968
+          term: Heat map
+          uri: http://edamontology.org/data_1636
         format:
-          - term: PNG
+          - term: png
             uri: http://edamontology.org/format_3603
 homepage: http://www.ms-utils.org/mzXMLplot/index.html
 homepage_status: 0
 language:
   - C
-lastUpdate: '2018-12-10T12:58:56Z'
+lastUpdate: '2019-03-04T13:49:11Z'
 license: null
 link:
   - note: null
@@ -83,5 +89,7 @@ toolType:
 topic:
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+validated: 0
 version: []

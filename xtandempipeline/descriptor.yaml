@@ -20,7 +20,11 @@ documentation:
   - note: null
     type: General
     url: http://pappso.inra.fr/bioinfo/xtandempipeline/documentation.php
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://sourcesup.reter.fr/projects/xtandempipeline/
+    version: null
 editPermission:
   authors: []
   type: private
@@ -29,17 +33,123 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: dta
+            uri: http://edamontology.org/format_3652
+          - term: pkl
+            uri: http://edamontology.org/format_3653
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+          - term: mzData
+            uri: http://edamontology.org/format_3834
+      - data:
+          term: Sequence set (protein)
+          uri: http://edamontology.org/data_1233
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
     note: null
     operation:
+      - term: Blind peptide database search
+        uri: http://edamontology.org/operation_3647
+      - term: PTM identification
+        uri: http://edamontology.org/operation_3645
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
+      - term: Peptide database search
+        uri: http://edamontology.org/operation_3646
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: X!Tandem XML
+            uri: http://edamontology.org/format_3711
+  - cmd: null
+    input:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: pepXML
+            uri: http://edamontology.org/format_3655
+          - term: Mascot .dat file
+            uri: http://edamontology.org/format_3713
+          - term: X!Tandem XML
+            uri: http://edamontology.org/format_3711
+          - term: SEQUEST .out file
+            uri: http://edamontology.org/format_3758
+    note: null
+    operation:
+      - term: Data handling
+        uri: http://edamontology.org/operation_2409
+      - term: Target-Decoy
+        uri: http://edamontology.org/operation_3649
+      - term: Comparison
+        uri: http://edamontology.org/operation_2424
       - term: Filtering
         uri: http://edamontology.org/operation_3695
-    output: []
+      - term: Protein identification
+        uri: http://edamontology.org/operation_3767
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: XML
+            uri: http://edamontology.org/format_2332
+          - term: TSV
+            uri: http://edamontology.org/format_3475
+      - data:
+          term: Sequence set
+          uri: http://edamontology.org/data_0850
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+  - cmd: null
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: dta
+            uri: http://edamontology.org/format_3652
+          - term: pkl
+            uri: http://edamontology.org/format_3653
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+          - term: mzData
+            uri: http://edamontology.org/format_3834
+    note: null
+    operation:
+      - term: Mass spectrum visualisation
+        uri: http://edamontology.org/operation_3694
+    output:
+      - data:
+          term: Spectrum
+          uri: http://edamontology.org/data_3483
+        format:
+          - term: png
+            uri: http://edamontology.org/format_3603
+          - term: svg
+            uri: http://edamontology.org/format_3604
 homepage: http://pappso.inra.fr/bioinfo/xtandempipeline/
 homepage_status: 0
 language:
   - Java
-lastUpdate: '2018-12-10T12:58:57Z'
+lastUpdate: '2019-02-27T11:38:42Z'
 license: null
 link:
   - note: null
@@ -82,7 +192,7 @@ publication:
         - name: Blein-Nicolas M.
         - name: Bonhomme L.
         - name: Zivy M.
-      citationCount: 23
+      citationCount: 29
       date: '2017-02-03T00:00:00Z'
       journal: Journal of Proteome Research
       title: 'X!TandemPipeline: A Tool to Manage Sequence Redundancy for Protein Inference
@@ -98,5 +208,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

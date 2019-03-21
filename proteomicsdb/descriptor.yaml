@@ -28,16 +28,46 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Protein name
+          uri: http://edamontology.org/data_1009
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
     note: null
     operation:
-      - term: Deposition
-        uri: http://edamontology.org/operation_3431
-    output: []
+      - term: Visualisation
+        uri: http://edamontology.org/operation_0337
+      - term: Protein interaction analysis
+        uri: http://edamontology.org/operation_2949
+      - term: Protein property comparison
+        uri: http://edamontology.org/operation_2930
+      - term: Query and retrieval
+        uri: http://edamontology.org/operation_0224
+      - term: Differential protein expression analysis
+        uri: http://edamontology.org/operation_3741
+      - term: Mass spectrum visualisation
+        uri: http://edamontology.org/operation_3694
+    output:
+      - data:
+          term: Protein report
+          uri: http://edamontology.org/data_0896
+        format:
+          - term: CSV
+            uri: http://edamontology.org/format_3752
+      - data:
+          term: Plot
+          uri: http://edamontology.org/data_2884
+        format:
+          - term: png
+            uri: http://edamontology.org/format_3603
+          - term: svg
+            uri: http://edamontology.org/format_3604
 homepage: https://www.proteomicsdb.org/
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:34:11Z'
 license: null
 link:
   - note: null
@@ -94,7 +124,7 @@ publication:
         - name: Gerstmair A.
         - name: Faerber F.
         - name: Kuster B.
-      citationCount: 784
+      citationCount: 846
       date: '2014-01-01T00:00:00Z'
       journal: Nature
       title: Mass-spectrometry-based draft of the human proteome
@@ -110,7 +140,9 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-  - term: Database management
-    uri: http://edamontology.org/topic_3489
-validated: 1
+  - term: Transcriptomics
+    uri: http://edamontology.org/topic_3308
+  - term: Protein interactions
+    uri: http://edamontology.org/topic_0128
+validated: 0
 version: []

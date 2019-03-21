@@ -40,7 +40,7 @@ elixirNode:
   - EMBL
 elixirPlatform:
   - Data
-elixir_badge: 1
+elixir_badge: 0
 function:
   - cmd: null
     input:
@@ -61,48 +61,10 @@ function:
         format:
           - term: HTML
             uri: http://edamontology.org/format_2331
-  - cmd: null
-    input:
-      - data:
-          term: Sample ID
-          uri: http://edamontology.org/data_3273
-        format: []
-    note: 'Data retrieval from BioSample at NCBI (National Center for Biotechnology
-      Information (NCBI), NIH, Maryland, USA) Identifier for records of BioSample,
-      following the regular expression: ^SAM[NED](\w)?\d+$.'
-    operation:
-      - term: Data retrieval
-        uri: http://edamontology.org/operation_2422
-    output:
-      - data:
-          term: Reference sample report
-          uri: http://edamontology.org/data_3567
-        format:
-          - term: HTML
-            uri: http://edamontology.org/format_2331
-  - cmd: null
-    input:
-      - data:
-          term: Sample ID
-          uri: http://edamontology.org/data_3273
-        format: []
-    note: 'Data retrieval from BioSample at DNA Data Bank of Japan (Institution DNA
-      Data Bank of Japan, Shizuoka, Japan) Identifier for records of BioSample, following
-      the regular expression: ^SAM[NED](\w)?\d+$.'
-    operation:
-      - term: Data retrieval
-        uri: http://edamontology.org/operation_2422
-    output:
-      - data:
-          term: Reference sample report
-          uri: http://edamontology.org/data_3567
-        format:
-          - term: HTML
-            uri: http://edamontology.org/format_2331
 homepage: https://www.ebi.ac.uk/biosamples/
 homepage_status: 0
 language: []
-lastUpdate: '2019-02-15T10:24:01Z'
+lastUpdate: '2019-02-27T18:48:32Z'
 license: null
 link:
   - note: null
@@ -134,5 +96,5 @@ toolType:
 topic:
   - term: Sample collections
     uri: http://edamontology.org/topic_3277
-validated: 1
+validated: 0
 version: []

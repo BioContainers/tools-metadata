@@ -24,6 +24,10 @@ download:
     type: Source code
     url: http://org.uib.no/probe/POSTMan2_0a_sources.zip
     version: null
+  - note: null
+    type: Source code
+    url: http://org.uib.no/probe/POSTMan2_0a_sources.zip
+    version: null
 editPermission:
   authors: []
   type: private
@@ -32,17 +36,49 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
+      - data:
+          term: Protein sequence record
+          uri: http://edamontology.org/data_2886
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
     note: null
     operation:
-      - term: de Novo sequencing
-        uri: http://edamontology.org/operation_3644
-    output: []
+      - term: PTM localisation
+        uri: http://edamontology.org/operation_3755
+      - term: PTM identification
+        uri: http://edamontology.org/operation_3645
+      - term: Post-translation modification site prediction
+        uri: http://edamontology.org/operation_0417
+      - term: Plotting
+        uri: http://edamontology.org/operation_3441
+      - term: Protein fragment weight comparison
+        uri: http://edamontology.org/operation_2929
+      - term: Filtering
+        uri: http://edamontology.org/operation_3695
+      - term: Peptide database search
+        uri: http://edamontology.org/operation_3646
+      - term: Chromatographic alignment
+        uri: http://edamontology.org/operation_3628
+    output:
+      - data:
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
 homepage: http://www.uib.no/en/rg/probe/65847/postman
 homepage_status: 0
 language:
   - C++
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:32:21Z'
 license: null
 link:
   - note: null
@@ -94,5 +130,7 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Protein modifications
+    uri: http://edamontology.org/topic_0601
+validated: 0
 version: []

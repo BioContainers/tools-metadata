@@ -131,7 +131,7 @@ publication:
         - name: Clark M.
         - name: Quek X.C.
         - name: Dinger M.E.
-      citationCount: 26
+      citationCount: 30
       date: '2017-01-01T00:00:00Z'
       journal: Nucleic Acids Research
       title: 'RNAcentral: A comprehensive database of non-coding RNA sequences'
@@ -141,27 +141,84 @@ publication:
     version: null
   - doi: null
     metadata:
-      abstract: "\xA9 The Author(s) 2014. Published by Oxford University Press on\
-        \ behalf of Nucleic Acids Research. The field of non-coding RNA biology has\
+      abstract: "\xA9 The Author(s) 2014. The field of non-coding RNA biology has\
         \ been hampered by the lack of availability of a comprehensive, up-to-date\
         \ collection of accessioned RNA sequences. Here we present the first release\
-        \ of RNAcentral, a database that collates and integrates information from\
+        \ of RNA-central, a database that collates and integrates information from\
         \ an international consortium of established RNA sequence databases. The initial\
         \ release contains over 8.1 million sequences, including representatives of\
         \ all major functional classes. A web portal (http://rnacentral.org) provides\
         \ free access to data, search functionality, cross-references, source code\
         \ and an integrated genome browser for selected species."
-      authors: []
+      authors:
+        - name: Petrov A.I.
+        - name: Kay S.J.E.
+        - name: Gibson R.
+        - name: Kulesha E.
+        - name: Staines D.
+        - name: Bruford E.A.
+        - name: Wright M.W.
+        - name: Burge S.
+        - name: Finn R.D.
+        - name: Kersey P.J.
+        - name: Cochrane G.
+        - name: Bateman A.
+        - name: Griffiths-Jones S.
+        - name: Harrow J.
+        - name: Chan P.P.
+        - name: Lowe T.M.
+        - name: Zwieb C.W.
+        - name: Wower J.
+        - name: Williams K.P.
+        - name: Hudson C.M.
+        - name: Gutell R.
+        - name: Clark M.B.
+        - name: Dinger M.
+        - name: Quek X.C.
+        - name: Bujnicki J.M.
+        - name: Chua N.-H.
+        - name: Liu J.
+        - name: Wang H.
+        - name: Skogerbo G.
+        - name: Zhao Y.
+        - name: Chen R.
+        - name: Zhu W.
+        - name: Cole J.R.
+        - name: Chai B.
+        - name: Huang H.-D.
+        - name: Huang H.-Y.
+        - name: Cherry J.M.
+        - name: Hatzigeorgiou A.
+        - name: Pruitt K.D.
       citationCount: 42
-      date: '2015-01-01T00:00:00Z'
-      journal: Nucleic acids research
-      title: 'RNAcentral: an international database of ncRNA sequences'
+      date: '2015-01-28T00:00:00Z'
+      journal: Nucleic Acids Research
+      title: 'RNAcentral: An international database of ncRNA sequences'
     pmcid: null
     pmid: '25352543'
     type: null
     version: null
   - doi: null
-    metadata: null
+    metadata:
+      abstract: RNAcentral is a comprehensive database of non-coding RNA (ncRNA) sequences,
+        collating information on ncRNA sequences of all types from a broad range of
+        organisms. We have recently added a new genome mapping pipeline that identifies
+        genomic locations for ncRNA sequences in 296 species. We have also added several
+        new types of functional annotations, such as tRNA secondary structures, Gene
+        Ontology annotations, and miRNA-target interactions. A new quality control
+        mechanism based on Rfam family assignments identifies potential contamination,
+        incomplete sequences, and more. The RNAcentral database has become a vital
+        component of many workflows in the RNA community, serving as both the primary
+        source of sequence data for academic and commercial groups, as well as a source
+        of stable accessions for the annotation of genomic and functional features.
+        These examples are facilitated by an improved RNAcentral web interface, which
+        features an updated genome browser, a new sequence feature viewer, and improved
+        text search functionality. RNAcentral is freely available at https://rnacentral.org.
+      authors: []
+      citationCount: 1
+      date: '2019-01-08T00:00:00Z'
+      journal: Nucleic acids research
+      title: 'RNAcentral: a hub of information for non-coding RNA sequences'
     pmcid: null
     pmid: '30395267'
     type: null
@@ -171,7 +228,5 @@ toolType:
 topic:
   - term: Functional, regulatory and non-coding RNA
     uri: http://edamontology.org/topic_0659
-  - term: Bioinformatics
-    uri: http://edamontology.org/topic_0091
 validated: 1
 version: []

@@ -58,7 +58,29 @@ otherID: []
 owner: d.gabrielaitis
 publication:
   - doi: 10.1093/gigascience/giy045
-    metadata: null
+    metadata:
+      abstract: 'Background: RNA sequencing (RNA-seq) analyses can benefit from performing
+        a genome-guided and de novo assembly, in particular for species where the
+        reference genome or the annotation is incomplete. However, tools for integrating
+        an assembled transcriptome with reference annotation are lacking. Findings:
+        Necklace is a software pipeline that runs genome-guided and de novo assembly
+        and combines the resulting transcriptomes with reference genome annotations.
+        Necklace constructs a compact but comprehensive superTranscriptome out of
+        the assembled and reference data. Reads are subsequently aligned and counted
+        in preparation for differential expression testing. Conclusions: Necklace
+        allows a comprehensive transcriptome to be built from a combination of assembled
+        and annotated transcripts, which results in a more comprehensive transcriptome
+        for the majority of organisms. In addition RNA-seq data are mapped back to
+        this newly created superTranscript reference to enable differential expression
+        testing with standard methods.'
+      authors:
+        - name: Davidson N.M.
+        - name: Oshlack A.
+      citationCount: 0
+      date: '2018-05-01T00:00:00Z'
+      journal: GigaScience
+      title: 'Necklace: combining reference and assembled transcriptomes for more
+        comprehensive RNA-Seq analysis'
     pmcid: null
     pmid: null
     type: null

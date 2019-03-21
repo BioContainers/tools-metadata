@@ -33,6 +33,10 @@ download:
     type: Source code
     url: http://www.cs.toronto.edu/%7ejenn/CPM/CPM_code_v1.0.tar.gz
     version: null
+  - note: null
+    type: Source code
+    url: http://www.cs.toronto.edu/%7ejenn/CPM/CPM_code_v1.0.tar.gz
+    version: null
 editPermission:
   authors:
     - ELIXIR-EE
@@ -42,33 +46,95 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
     note: null
     operation:
-      - term: Image analysis
-        uri: http://edamontology.org/operation_3443
-      - term: Sample comparison
-        uri: http://edamontology.org/operation_3731
-      - term: Structure alignment
-        uri: http://edamontology.org/operation_0295
-    output: []
+      - term: Chromatographic alignment
+        uri: http://edamontology.org/operation_3628
+    output:
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
 homepage: http://www.cs.toronto.edu/%7ejenn/CPM/
 homepage_status: 0
 language:
   - MATLAB
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-03-01T12:17:14Z'
 license: null
 link:
   - note: null
     type: Registry
     url: http://ms-utils.org
+  - note: Initial paper on CPM
+    type: Other
+    url: https://papers.nips.cc/paper/2721-multiple-alignment-of-continuous-time-series
 maturity: null
 name: CPM
 operatingSystem:
   - Linux
 otherID: []
 owner: msutils_import
-publication: []
+publication:
+  - doi: 10.1093/bioinformatics/btl326
+    metadata:
+      abstract: "Motivation: There is a pressing need for improved proteomic screening\
+        \ methods allowing for earlier diagnosis of disease, systematic monitoring\
+        \ of physiological responses and the uncovering of fundamental mechanisms\
+        \ of drug action. The combined platform of LC-MS (Liquid-Chromatography-Mass-Spectrometry)\
+        \ has shown promise in moving toward a solution in these areas. In this paper\
+        \ we present atechnique for discovering differences in protein signal between\
+        \ two classes of samples of LC-MS serum proteomic data without use of tandem\
+        \ mass spectrometry, gels or labeling. This method works on data from a lower-precision\
+        \ MS instrument, the type routinely used by and available to the community\
+        \ at large today. We test our technique on a controlled (spike-in) but realistic\
+        \ (serum biomarker discovery) experiment which is therefore verifiable. We\
+        \ also develop a new method for helping to assess the difficulty of a given\
+        \ spike-in problem. Lastly, we show that the problem of class prediction,\
+        \ sometimes mistaken as a solution to biomarker discovery, is actually a much\
+        \ simpler problem. Results: Using precision - recall curves with experimentally\
+        \ extracted ground truth, we show that (1) our technique has good performance\
+        \ using seven replicates from each class, (2) performance degrades with decreasing\
+        \ number of replicates, (3) the signal that we are teasing out is not trivially\
+        \ available (i.e. the differences are not so large that the task is easy).\
+        \ Lastly, we easily obtain perfect classification results for data in which\
+        \ the problem of extracting differences does not produce absolutely perfect\
+        \ results. This emphasizes the different nature of the two problems and also\
+        \ their relative difficulties. \xA9 2007 Oxford University Press."
+      authors:
+        - name: Listgarten J.
+        - name: Neal R.M.
+        - name: Roweis S.T.
+        - name: Wong P.
+        - name: Emili A.
+      citationCount: 66
+      date: '2007-02-06T00:00:00Z'
+      journal: Bioinformatics
+      title: Difference detection in LC-MS data for protein biomarker discovery
+    pmcid: null
+    pmid: '17237092'
+    type: Primary
+    version: null
 toolType:
   - Command-line tool
 topic:
@@ -80,5 +146,5 @@ topic:
     uri: http://edamontology.org/topic_3307
   - term: Bioinformatics
     uri: http://edamontology.org/topic_0091
-validated: 1
+validated: 0
 version: []

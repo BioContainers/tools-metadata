@@ -28,7 +28,11 @@ documentation:
   - note: null
     type: General
     url: http://lababi.bioprocess.org/index.php/lababi-software/80-spidermass
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://bitbucket.org/lababi/spidermass
+    version: null
 editPermission:
   authors: []
   type: private
@@ -37,19 +41,70 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Compound name
+          uri: http://edamontology.org/data_0990
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: ChemSpider ID
+          uri: http://edamontology.org/data_1173
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
     note: null
     operation:
-      - term: Spectral analysis
-        uri: http://edamontology.org/operation_3214
-    output: []
+      - term: Isotopic distributions calculation
+        uri: http://edamontology.org/operation_3632
+      - term: Aggregation
+        uri: http://edamontology.org/operation_3436
+    output:
+      - data:
+          term: Data reference
+          uri: http://edamontology.org/data_2093
+        format:
+          - term: CSV
+            uri: http://edamontology.org/format_3752
+  - cmd: null
+    input:
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Data reference
+          uri: http://edamontology.org/data_2093
+        format:
+          - term: Data index format
+            uri: http://edamontology.org/format_3326
+    note: null
+    operation:
+      - term: Natural product identification
+        uri: http://edamontology.org/operation_3803
+    output:
+      - data:
+          term: Compound identifier
+          uri: http://edamontology.org/data_1086
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Compound name
+          uri: http://edamontology.org/data_0990
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
 homepage: http://lababi.bioprocess.org/index.php/lababi-software/80-spidermass
 homepage_status: 0
 language:
   - C++
   - Python
   - C
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:36:55Z'
 license: null
 link:
   - note: null
@@ -84,5 +139,5 @@ toolType:
 topic:
   - term: Metabolomics
     uri: http://edamontology.org/topic_3172
-validated: 1
+validated: 0
 version: []

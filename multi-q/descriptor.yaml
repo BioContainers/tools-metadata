@@ -28,17 +28,66 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: WIFF format
+            uri: http://edamontology.org/format_3710
     note: null
     operation:
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+  - cmd: null
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: protXML
+            uri: http://edamontology.org/format_3747
+          - term: pepXML
+            uri: http://edamontology.org/format_3655
+    note: null
+    operation:
+      - term: Peak detection
+        uri: http://edamontology.org/operation_3215
+      - term: Validation of peptide-spectrum matches
+        uri: http://edamontology.org/operation_3648
       - term: iTRAQ
         uri: http://edamontology.org/operation_3639
-    output: []
+      - term: Protein quantification
+        uri: http://edamontology.org/operation_3630
+      - term: Labeled quantification
+        uri: http://edamontology.org/operation_3635
+    output:
+      - data:
+          term: Expression data
+          uri: http://edamontology.org/data_2603
+        format:
+          - term: CSV
+            uri: http://edamontology.org/format_3752
+          - term: XML
+            uri: http://edamontology.org/format_2332
 homepage: http://ms.iis.sinica.edu.tw/Multi-Q/
 homepage_status: 0
 language:
   - Perl
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:27:47Z'
 license: null
 link:
   - note: null
@@ -86,7 +135,7 @@ publication:
         - name: Chen Y.-J.
         - name: Sung T.-Y.
         - name: Hsu W.-L.
-      citationCount: 79
+      citationCount: 80
       date: '2006-09-01T00:00:00Z'
       journal: Journal of Proteome Research
       title: 'Multi-Q: A fully automated tool for multiplexed protein quantitation'
@@ -101,5 +150,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

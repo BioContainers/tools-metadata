@@ -61,7 +61,39 @@ otherID: []
 owner: mbs_import
 publication:
   - doi: null
-    metadata: null
+    metadata:
+      abstract: "Microarrays are commonly used to detect changes in gene expression\
+        \ between different biological samples. For this purpose, many analysis tools\
+        \ have been developed that offer visualization, statistical analysis and more\
+        \ sophisticated analysis methods. Most of these tools are designed specifically\
+        \ for messenger RNA microarrays. However, today, more and more different microarray\
+        \ platforms are available. Changes in DNA methylation, microRNA expression\
+        \ or even protein phosphorylation states can be detected with specialized\
+        \ arrays. For these microarray technologies, the number of available tools\
+        \ is small compared with mRNA analysis tools. Especially, a joint analysis\
+        \ of different microarray platforms that have been used on the same set of\
+        \ biological samples is hardly supported by most microarray analysis tools.\
+        \ Here, we present InCroMAP, a tool for the analysis and visualization of\
+        \ high-level microarray data from individual or multiple different platforms.\
+        \ Currently, InCroMAP supports mRNA, microRNA, DNA methylation and protein\
+        \ modification datasets. Several methods are offered that allow for an integrated\
+        \ analysis of data from those platforms. The available features of InCroMAP\
+        \ range from visualization of DNA methylation data over annotation of microRNA\
+        \ targets and integrated gene set enrichment analysis to a joint visualization\
+        \ of data from all platforms in the context of metabolic or signalling pathways.Availability:\
+        \ InCroMAP is freely available as Java\u2122 application at www.cogsys.cs.uni-tuebingen.de/software/InCroMAP,\
+        \ including a comprehensive user's guide and example files. \xA9 2013 The\
+        \ Author."
+      authors:
+        - name: Wrzodek C.
+        - name: Eichner J.
+        - name: Buchel F.
+        - name: Zell A.
+      citationCount: 22
+      date: '2013-02-15T00:00:00Z'
+      journal: Bioinformatics
+      title: 'InCroMAP: Integrated analysis of cross-platform microarray and pathway
+        data'
     pmcid: null
     pmid: '23257199'
     type: null
@@ -69,8 +101,6 @@ publication:
 toolType:
   - Desktop application
 topic:
-  - term: Omics
-    uri: http://edamontology.org/topic_3391
   - term: Epigenetics
     uri: http://edamontology.org/topic_3295
   - term: Gene transcripts

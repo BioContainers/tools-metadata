@@ -2,7 +2,8 @@ accessibility: []
 additionDate: '2017-12-18T00:04:23Z'
 biotoolsCURIE: biotools:blastalign
 biotoolsID: blastalign
-collectionID: []
+collectionID:
+  - BLAST utility
 cost: null
 credit:
   - email: null
@@ -34,29 +35,15 @@ function:
     input: []
     note: null
     operation:
-      - term: Multiple alignment
+      - term: Multiple sequence alignment
         uri: http://edamontology.org/operation_0492
-    output: []
-  - cmd: null
-    input: []
-    note: null
-    operation:
-      - term: Alignment
-        uri: http://edamontology.org/operation_2928
-    output: []
-  - cmd: null
-    input: []
-    note: null
-    operation:
-      - term: Query
-        uri: http://edamontology.org/operation_0224
     output: []
 homepage: http://evolve.zoo.ox.ac.uk/Evolve/Blastalign.html
 homepage_status: 0
 language:
   - Perl
   - Python
-lastUpdate: '2018-12-10T12:58:59Z'
+lastUpdate: '2019-03-13T10:25:27Z'
 license: null
 link:
   - note: null
@@ -73,27 +60,14 @@ owner: mbs_import
 publication:
   - doi: 10.1093/bioinformatics/bth459
     metadata:
-      abstract: "Summary: BlastAlign uses NCBI blastn to build a multiple nucleotide\
-        \ alignment and is intended for use with sequences that have large indels\
-        \ or are otherwise difficult to align globally. The program builds a matrix\
-        \ representing regions of homology along the sequences, from which it selects\
-        \ the 'most representative' sequence and then extracts the blastn query-anchored\
-        \ multiple alignment for this sequence. The matrix is printed and allows subgroups\
-        \ to be identified visually and an option allows other sequences to be used\
-        \ as the 'most representative'. The program contains elements of both Perl\
-        \ and Python and will run on UNIX (including Mac OSX) and DOS. An additional\
-        \ Perl program BlastAlignP uses tblastn to align nucleotide sequences to a\
-        \ single amino acid sequence, thus allowing an open reading frame to be maintained\
-        \ in the resulting multiple alignment. \xA9 Oxford University Press 2004;\
-        \ all rights reserved."
+      abstract: null
       authors:
         - name: Belshaw R.
         - name: Katzourakis A.
-      citationCount: 53
-      date: '2005-01-01T00:00:00Z'
-      journal: Bioinformatics
-      title: 'BlastAlign: A program that uses blast to align problematic nucleotide
-        sequences'
+      citationCount: 0
+      date: null
+      journal: null
+      title: null
     pmcid: null
     pmid: null
     type: Primary
@@ -103,6 +77,6 @@ toolType:
 topic:
   - term: Sequences
     uri: http://edamontology.org/topic_0080
-validated: 1
+validated: 0
 version:
   - '1.4'

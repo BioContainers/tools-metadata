@@ -27,7 +27,11 @@ documentation:
   - note: null
     type: General
     url: http://proteomics.ethz.ch/muellelu/web/LukasReiter/Mayu/manual.html
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://github.com/proteomics-mayu/mayu
+    version: null
 editPermission:
   authors: []
   type: private
@@ -36,18 +40,63 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Sequence record
+          uri: http://edamontology.org/data_0849
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: CSV
+            uri: http://edamontology.org/format_3752
+          - term: pepXML
+            uri: http://edamontology.org/format_3655
     note: null
     operation:
-      - term: Target-Decoy
-        uri: http://edamontology.org/operation_3649
-    output: []
+      - term: Validation of peptide-spectrum matches
+        uri: http://edamontology.org/operation_3648
+      - term: Statistical calculation
+        uri: http://edamontology.org/operation_2238
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: CSV
+            uri: http://edamontology.org/format_3752
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+  - cmd: null
+    input:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: CSV
+            uri: http://edamontology.org/format_3752
+          - term: pepXML
+            uri: http://edamontology.org/format_3655
+    note: null
+    operation:
+      - term: Plotting
+        uri: http://edamontology.org/operation_3441
+    output:
+      - data:
+          term: Plot
+          uri: http://edamontology.org/data_2884
+        format:
+          - term: PDF
+            uri: http://edamontology.org/format_3508
 homepage: http://proteomics.ethz.ch/muellelu/web/LukasReiter/Mayu/
 homepage_status: 0
 language:
   - R
   - Perl
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:24:47Z'
 license: null
 link:
   - note: null
@@ -91,7 +140,7 @@ publication:
         - name: Buhmann J.M.
         - name: Hengartner M.O.
         - name: Aebersold R.
-      citationCount: 176
+      citationCount: 190
       date: '2009-12-22T00:00:00Z'
       journal: Molecular and Cellular Proteomics
       title: Protein identification false discovery rates for very large proteomics
@@ -107,5 +156,7 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Statistics and probability
+    uri: http://edamontology.org/topic_2269
+validated: 0
 version: []

@@ -27,7 +27,11 @@ documentation:
   - note: null
     type: Training material
     url: https://bio.informatik.uni-jena.de/sirius-training/
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://github.com/boecker-lab/sirius_frontend
+    version: null
 editPermission:
   authors: []
   type: private
@@ -36,17 +40,47 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
+        format:
+          - term: CSV
+            uri: http://edamontology.org/format_3752
+          - term: MGF
+            uri: http://edamontology.org/format_3651
     note: null
     operation:
+      - term: Image annotation
+        uri: http://edamontology.org/operation_3553
+      - term: Mass spectrum visualisation
+        uri: http://edamontology.org/operation_3694
       - term: Natural product identification
         uri: http://edamontology.org/operation_3803
-    output: []
+      - term: Isotopic distributions calculation
+        uri: http://edamontology.org/operation_3632
+    output:
+      - data:
+          term: Chemical formula
+          uri: http://edamontology.org/data_0846
+        format:
+          - term: CSV
+            uri: http://edamontology.org/format_3752
+      - data:
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
+        format:
+          - term: JPG
+            uri: http://edamontology.org/format_3579
+          - term: png
+            uri: http://edamontology.org/format_3603
+          - term: GIF
+            uri: http://edamontology.org/format_3467
 homepage: http://bio.informatik.uni-jena.de/sirius
 homepage_status: 0
 language:
   - Java
-lastUpdate: '2018-12-10T12:58:54Z'
+lastUpdate: '2019-02-27T11:36:36Z'
 license: null
 link:
   - note: null
@@ -81,7 +115,7 @@ publication:
         - name: Letzel M.C.
         - name: Liptak Z.
         - name: Pervukhin A.
-      citationCount: 122
+      citationCount: 130
       date: '2009-01-01T00:00:00Z'
       journal: Bioinformatics
       title: 'SIRIUS: Decomposing isotope patterns for metabolite identification'
@@ -97,5 +131,7 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Metabolomics
+    uri: http://edamontology.org/topic_3172
+validated: 0
 version: []

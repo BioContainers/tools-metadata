@@ -1,4 +1,5 @@
-accessibility: []
+accessibility:
+  - Open access
 additionDate: '2017-01-17T14:57:39Z'
 biotoolsCURIE: biotools:muscle
 biotoolsID: muscle
@@ -6,44 +7,67 @@ collectionID:
   - MUSCLE
   - galaxyPasteur
   - BioConductor
-cost: null
+cost: Free of charge
 credit:
   - email: alex.t.kalinka@gmail.com
     name: Alex T. Kalinka
-    note: null
+    note: Maintainer of the BioConductor package
     orcidid: null
     typeEntity: Person
     typeRole:
-      - Primary contact
+      - Maintainer
     url: null
   - email: null
     name: null
-    note: null
+    note: EBI Web Service support
     orcidid: null
     typeEntity: Person
     typeRole:
       - Primary contact
     url: http://www.ebi.ac.uk/support/
+  - email: null
+    name: Technical Support
+    note: null
+    orcidid: null
+    typeEntity: null
+    typeRole: []
+    url: https://www.drive5.com/muscle/manual/support.html
+  - email: robert@drive5.com
+    name: Robert Edgar
+    note: null
+    orcidid: null
+    typeEntity: Person
+    typeRole:
+      - Primary contact
+      - Developer
+    url: null
 description: This tool performs multiple sequence alignments of nucleotide or amino
   acid sequences.
 documentation:
-  - note: null
+  - note: BioConductor package documentation
     type: Manual
     url: http://bioconductor.org/packages/release/bioc/html/muscle.html
-  - note: null
-    type: General
-    url: http://www.ebi.ac.uk/Tools/webservices/services/msa/muscle_rest
-  - note: null
+  - note: EBI Web Service documentation
     type: API documentation
     url: https://www.ebi.ac.uk/seqdb/confluence/display/WEBSERVICES/muscle_rest
-download:
   - note: null
+    type: Manual
+    url: https://www.drive5.com/muscle/manual/
+  - note: null
+    type: Installation instructions
+    url: https://www.drive5.com/muscle/manual/install.html
+download:
+  - note: BioConductor package
     type: Source code
     url: http://bioconductor/packages/release/bioc/src/contrib/muscle_3.16.0.tar.gz
     version: null
-  - note: null
+  - note: EBI MUSCLE Web Service
     type: API specification
     url: https://www.ebi.ac.uk/seqdb/confluence/display/WEBSERVICES/muscle_rest
+    version: null
+  - note: null
+    type: Downloads page
+    url: https://www.drive5.com/muscle/downloads.htm
     version: null
 editPermission:
   authors: []
@@ -105,23 +129,20 @@ function:
             uri: http://edamontology.org/format_1947
           - term: FASTA
             uri: http://edamontology.org/format_1929
-homepage: https://www.bioconductor.org/packages/release/bioc/html/muscle.html
+homepage: https://www.drive5.com/muscle/
 homepage_status: 0
 language: []
-lastUpdate: '2019-02-14T22:41:32Z'
-license: null
+lastUpdate: '2019-03-14T12:55:54Z'
+license: Other
 link:
-  - note: null
-    type: Mirror
-    url: http://www.drive5.com/muscle/
   - note: null
     type: Registry
     url: https://www.biocatalogue.org/services/3135
   - note: null
     type: Galaxy service
     url: https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/oneclick_phylogeny/muscle/3.8.31.1
-maturity: null
-name: MUSCLE (BioConductor)
+maturity: Mature
+name: MUSCLE
 operatingSystem:
   - Linux
   - Windows
@@ -141,15 +162,16 @@ publication:
     pmid: null
     type: Other
     version: null
+  - doi: 10.1186/1471-2105-5-113
+    metadata: null
+    pmcid: null
+    pmid: null
+    type: Other
+    version: null
 toolType:
   - Command-line tool
-  - Library
   - Web API
 topic:
-  - term: Genomics
-    uri: http://edamontology.org/topic_0622
-  - term: Sequencing
-    uri: http://edamontology.org/topic_3168
   - term: Sequence analysis
     uri: http://edamontology.org/topic_0080
 validated: 0

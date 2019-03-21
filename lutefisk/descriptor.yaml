@@ -32,6 +32,10 @@ download:
     type: Source code
     url: http://sourceforge.net/projects/lutefiskxp
     version: null
+  - note: null
+    type: Source code
+    url: http://sourceforge.net/projects/lutefiskxp
+    version: null
 editPermission:
   authors: []
   type: private
@@ -40,17 +44,43 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+          - term: dta
+            uri: http://edamontology.org/format_3652
+      - data:
+          term: Sequence set
+          uri: http://edamontology.org/data_0850
+        format:
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
     note: null
     operation:
+      - term: Validation of peptide-spectrum matches
+        uri: http://edamontology.org/operation_3648
       - term: de Novo sequencing
         uri: http://edamontology.org/operation_3644
-    output: []
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
+    output:
+      - data:
+          term: Sequence set
+          uri: http://edamontology.org/data_0850
+        format:
+          - term: Sequence record format
+            uri: http://edamontology.org/format_1919
 homepage: http://www.hairyfatguy.com/lutefisk
 homepage_status: 0
 language:
   - C
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:22:48Z'
 license: null
 link:
   - note: null
@@ -79,7 +109,7 @@ publication:
       authors:
         - name: Johnson R.S.
         - name: Taylor J.A.
-      citationCount: 64
+      citationCount: 65
       date: '2002-11-01T00:00:00Z'
       journal: Applied Biochemistry and Biotechnology - Part B Molecular Biotechnology
       title: Searching sequence databases via de novo peptide sequencing by tandem
@@ -95,5 +125,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

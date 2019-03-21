@@ -2,7 +2,8 @@ accessibility: []
 additionDate: '2018-05-03T12:46:50Z'
 biotoolsCURIE: biotools:seda
 biotoolsID: seda
-collectionID: []
+collectionID:
+  - FASTA utility
 cost: Free of charge
 credit:
   - email: seda@sing.ei.uvigo.es
@@ -58,7 +59,7 @@ homepage: http://www.sing-group.org/seda/
 homepage_status: 0
 language:
   - Java
-lastUpdate: '2018-12-10T12:58:57Z'
+lastUpdate: '2019-03-17T10:43:23Z'
 license: GPL-3.0
 link: []
 maturity: Emerging
@@ -69,7 +70,13 @@ operatingSystem:
   - Mac
 otherID: []
 owner: hlfernandez@uvigo.es
-publication: []
+publication:
+  - doi: 10.1007/s12539-018-0312-5
+    metadata: null
+    pmcid: null
+    pmid: '30511150'
+    type: Usage
+    version: null
 toolType:
   - Desktop application
 topic:
@@ -77,6 +84,6 @@ topic:
     uri: http://edamontology.org/topic_0080
   - term: Nucleic acids
     uri: http://edamontology.org/topic_0077
-validated: 1
+validated: 0
 version:
-  - 0.2.0
+  - 0.5.0

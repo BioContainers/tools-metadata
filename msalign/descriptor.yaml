@@ -33,6 +33,10 @@ download:
     type: Source code
     url: http://www.ms-utils.org/msalign/msalign.c
     version: null
+  - note: null
+    type: Source code
+    url: http://www.ms-utils.org/msalign/msalign.c
+    version: null
 editPermission:
   authors: []
   type: private
@@ -43,27 +47,33 @@ function:
   - cmd: null
     input:
       - data:
-          term: Data
-          uri: http://edamontology.org/data_0006
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
         format:
           - term: mzXML
             uri: http://edamontology.org/format_3654
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: pepXML
+            uri: http://edamontology.org/format_3655
     note: null
     operation:
       - term: Chromatographic alignment
         uri: http://edamontology.org/operation_3628
     output:
       - data:
-          term: Data
-          uri: http://edamontology.org/data_0006
+          term: Alignment
+          uri: http://edamontology.org/data_1916
         format:
-          - term: mzXML
-            uri: http://edamontology.org/format_3654
+          - term: Alignment format
+            uri: http://edamontology.org/format_1921
 homepage: http://www.ms-utils.org/msalign/index.html
 homepage_status: 0
 language:
   - C
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:26:30Z'
 license: GPL-3.0
 link:
   - note: null
@@ -118,5 +128,7 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Alignment
+    uri: http://edamontology.org/topic_0083
+validated: 0
 version: []

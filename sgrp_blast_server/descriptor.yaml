@@ -23,7 +23,7 @@ credit:
     url: null
 description: One to fourfold more coverage of the genome sequences of over seventy
   isolates of the yeast S. cerevisiae and its closest relative, S. paradoxus are presented
-  here. BLAST tool, andsequence retrieval option.
+  here. BLAST tool, and sequence retrieval option.
 documentation:
   - note: null
     type: General
@@ -40,10 +40,10 @@ function:
     input: []
     note: null
     operation:
-      - term: Genotyping
-        uri: http://edamontology.org/operation_3196
       - term: SNP detection
         uri: http://edamontology.org/operation_0484
+      - term: Genotyping
+        uri: http://edamontology.org/operation_3196
       - term: Phylogenetic tree analysis (natural selection)
         uri: http://edamontology.org/operation_0554
       - term: Genetic variation analysis
@@ -52,7 +52,7 @@ function:
 homepage: http://www.moseslab.csb.utoronto.ca/sgrp/
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:52Z'
+lastUpdate: '2019-03-13T12:09:53Z'
 license: null
 link: []
 maturity: null
@@ -66,30 +66,7 @@ owner: ELIXIR-EE
 publication:
   - doi: null
     metadata:
-      abstract: "Since the completion of the genome sequence of Saccharomyces cerevisiae\
-        \ in 1996 (refs 1, 2), there has been a large increase in complete genome\
-        \ sequences, accompanied by great advances in our understanding of genome\
-        \ evolution. Although little is known about the natural and life histories\
-        \ of yeasts in the wild, there are an increasing number of studies looking\
-        \ at ecological and geographic distributions, population structure and sexual\
-        \ versus asexual reproduction. Less well understood at the whole genome level\
-        \ are the evolutionary processes acting within populations and species that\
-        \ lead to adaptation to different environments, phenotypic differences and\
-        \ reproductive isolation. Here we present one- to fourfold or more coverage\
-        \ of the genome sequences of over seventy isolates of the baker's yeast S.\
-        \ cerevisiae and its closest relative, Saccharomyces paradoxus. We examine\
-        \ variation in gene content, single nucleotide polymorphisms, nucleotide insertions\
-        \ and deletions, copy numbers and transposable elements. We find that phenotypic\
-        \ variation broadly correlates with global genome-wide phylogenetic relationships.\
-        \ S. paradoxus populations are well delineated along geographic boundaries,\
-        \ whereas the variation among worldwide S. cerevisiae isolates shows less\
-        \ differentiation and is comparable to a single S. paradoxus population. Rather\
-        \ than one or two domestication events leading to the extant baker's yeasts,\
-        \ the population structure of S. cerevisiae consists of a few well-defined,\
-        \ geographically isolated lineages and many different mosaics of these lineages,\
-        \ supporting the idea that human influence provided the opportunity for cross-breeding\
-        \ and production of new combinations of pre-existing variations. \xA92009\
-        \ Macmillan Publishers Limited. All rights reserved."
+      abstract: null
       authors:
         - name: Liti G.
         - name: Carter D.M.
@@ -117,10 +94,10 @@ publication:
         - name: Blomberg A.
         - name: Durbin R.
         - name: Louis E.J.
-      citationCount: 801
-      date: '2009-03-19T00:00:00Z'
-      journal: Nature
-      title: Population genomics of domestic and wild yeasts
+      citationCount: 0
+      date: null
+      journal: null
+      title: null
     pmcid: null
     pmid: '19212322'
     type: null
@@ -136,5 +113,5 @@ topic:
     uri: http://edamontology.org/topic_2885
   - term: Genotype and phenotype
     uri: http://edamontology.org/topic_0625
-validated: 1
+validated: 0
 version: []

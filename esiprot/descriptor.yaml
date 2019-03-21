@@ -33,6 +33,10 @@ download:
     type: Source code
     url: http://www.bioprocess.org/esiprot/esiprot.zip
     version: null
+  - note: null
+    type: Source code
+    url: http://www.bioprocess.org/esiprot/esiprot.zip
+    version: null
 editPermission:
   authors: []
   type: private
@@ -41,17 +45,33 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
+        format:
+          - term: Mass spectrometry data format
+            uri: http://edamontology.org/format_3245
     note: null
     operation:
+      - term: Protein molecular weight calculation
+        uri: http://edamontology.org/operation_0398
+      - term: Protein fragment weight comparison
+        uri: http://edamontology.org/operation_2929
       - term: Deisotoping
         uri: http://edamontology.org/operation_3629
-    output: []
+    output:
+      - data:
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
+        format:
+          - term: Mass spectrometry data format
+            uri: http://edamontology.org/format_3245
 homepage: http://www.bioprocess.org/esiprot
 homepage_status: 0
 language:
   - Python
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:18:11Z'
 license: null
 link:
   - note: null
@@ -96,7 +116,7 @@ publication:
         \ \xA9 2010 John Wiley & Sons, Ltd."
       authors:
         - name: Winkler R.
-      citationCount: 24
+      citationCount: 25
       date: '2010-02-01T00:00:00Z'
       journal: Rapid Communications in Mass Spectrometry
       title: 'ESIprot: A universal tool for charge state determination and molecular
@@ -114,5 +134,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

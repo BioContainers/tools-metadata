@@ -48,6 +48,10 @@ download:
     type: Source code
     url: http://www.hxms.com/HXExpress/HX-Express%20Beta.xls
     version: null
+  - note: null
+    type: Source code
+    url: http://www.hxms.com/HXExpress/HX-Express%20Beta.xls
+    version: null
 editPermission:
   authors: []
   type: private
@@ -58,28 +62,32 @@ function:
   - cmd: null
     input:
       - data:
-          term: Data
-          uri: http://edamontology.org/data_0006
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
         format:
-          - term: TSV
-            uri: http://edamontology.org/format_3475
+          - term: Mass spectrometry data format
+            uri: http://edamontology.org/format_3245
     note: null
     operation:
       - term: Protein hydrogen exchange rate calculation
         uri: http://edamontology.org/operation_0404
-      - term: Protein structure analysis
-        uri: http://edamontology.org/operation_2406
     output:
       - data:
-          term: Data
-          uri: http://edamontology.org/data_0006
+          term: Protein structure report
+          uri: http://edamontology.org/data_1537
         format:
-          - term: TSV
-            uri: http://edamontology.org/format_3475
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
+      - data:
+          term: Plot
+          uri: http://edamontology.org/data_2884
+        format:
+          - term: Image format
+            uri: http://edamontology.org/format_3547
 homepage: http://www.hxms.com/HXExpress/
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:54Z'
+lastUpdate: '2019-02-27T11:19:04Z'
 license: GPL-2.0
 link:
   - note: null
@@ -110,7 +118,7 @@ publication:
         - name: Weis D.D.
         - name: Engen J.R.
         - name: Kass I.J.
-      citationCount: 178
+      citationCount: 181
       date: '2006-12-01T00:00:00Z'
       journal: Journal of the American Society for Mass Spectrometry
       title: Semi-Automated Data Processing of Hydrogen Exchange Mass Spectra Using
@@ -126,5 +134,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

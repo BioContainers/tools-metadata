@@ -2,7 +2,8 @@ accessibility: []
 additionDate: '2017-08-03T18:35:43Z'
 biotoolsCURIE: biotools:alp
 biotoolsID: alp
-collectionID: []
+collectionID:
+  - BLAST utility
 cost: null
 credit:
   - email: null
@@ -37,7 +38,7 @@ function:
 homepage: http://www.ncbi.nlm.nih.gov/CBBresearch/Spouge/html_ncbi/html/software/program.html?uid=6
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:43Z'
+lastUpdate: '2019-03-13T12:35:18Z'
 license: null
 link:
   - note: null
@@ -53,28 +54,16 @@ owner: mbs_import
 publication:
   - doi: null
     metadata:
-      abstract: "\xA9 2015 Published by Oxford University Press 2015. Motivation:\
-        \ Pairwise local alignment is an indispensable tool for molecular biologists.\
-        \ In real time (i.e. in about 1 s), ALP (Ascending Ladder Program) calculates\
-        \ the E-values for protein-protein or DNA-DNA local alignments of random sequences,\
-        \ for arbitrary substitution score matrix, gap costs and letter abundances;\
-        \ and FALP (Frameshift Ascending Ladder Program) performs a similar task,\
-        \ although more slowly, for frameshifting DNA-protein alignments. Availability\
-        \ and implementation: To permit other C++ programmers to implement the computational\
-        \ efficiencies in ALP and FALP directly within their own programs, C++ source\
-        \ codes are available in the public domain at http://go.usa.gov/3GTSW under\
-        \ 'ALP' and 'FALP', along with the standalone programs ALP and FALP. Contact:\
-        \ Supplementary information: Supplementary data are available at Bioinformatics\
-        \ online."
+      abstract: null
       authors:
         - name: Sheetlin S.
         - name: Park Y.
         - name: Frith M.C.
         - name: Spouge J.L.
-      citationCount: 2
-      date: '2015-07-22T00:00:00Z'
-      journal: Bioinformatics
-      title: 'ALP & FALP: C++ libraries for pairwise local alignment E-values'
+      citationCount: 0
+      date: null
+      journal: null
+      title: null
     pmcid: null
     pmid: '26428291'
     type: null
@@ -88,5 +77,5 @@ topic:
     uri: http://edamontology.org/topic_2269
   - term: Genomics
     uri: http://edamontology.org/topic_0622
-validated: 1
+validated: 0
 version: []

@@ -27,7 +27,11 @@ documentation:
   - note: null
     type: General
     url: https://github.com/chernan/popitam
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://github.com/chern/popitam
+    version: null
 editPermission:
   authors: []
   type: private
@@ -36,16 +40,50 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+          - term: dta
+            uri: http://edamontology.org/format_3652
+      - data:
+          term: Protein sequence record
+          uri: http://edamontology.org/data_2886
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
     note: null
     operation:
+      - term: PTM identification
+        uri: http://edamontology.org/operation_3645
+      - term: Protein identification
+        uri: http://edamontology.org/operation_3767
+      - term: Tag-based peptide identification
+        uri: http://edamontology.org/operation_3643
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
+      - term: Peptide database search
+        uri: http://edamontology.org/operation_3646
+      - term: Peak detection
+        uri: http://edamontology.org/operation_3215
       - term: de Novo sequencing
         uri: http://edamontology.org/operation_3644
-    output: []
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: XML
+            uri: http://edamontology.org/format_2332
+          - term: Textual format
+            uri: http://edamontology.org/format_2330
 homepage: https://github.com/chernan/popitam
 homepage_status: 0
 language: []
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:32:14Z'
 license: null
 link:
   - note: null
@@ -86,7 +124,7 @@ publication:
         - name: Gras R.
         - name: Frey J.
         - name: Appel R.D.
-      citationCount: 81
+      citationCount: 82
       date: '2003-06-01T00:00:00Z'
       journal: Proteomics
       title: 'Popitam: Towards new heuristic strategies to improve protein identification
@@ -102,5 +140,7 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Protein modifications
+    uri: http://edamontology.org/topic_0601
+validated: 0
 version: []

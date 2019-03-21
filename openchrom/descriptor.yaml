@@ -27,7 +27,11 @@ documentation:
   - note: null
     type: General
     url: https://sourceforge.net/p/openchrom/wiki/Home/
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://sourceforge.net/projects/openchrom/
+    version: null
 editPermission:
   authors: []
   type: private
@@ -36,19 +40,65 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: dat
+            uri: http://edamontology.org/format_1637
+          - term: Thermo RAW
+            uri: http://edamontology.org/format_3712
+          - term: mzXML
+            uri: http://edamontology.org/format_3654
+          - term: CSV
+            uri: http://edamontology.org/format_3752
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+          - term: netCDF
+            uri: http://edamontology.org/format_3650
     note: null
     operation:
-      - term: Mass spectrum visualisation
-        uri: http://edamontology.org/operation_3694
       - term: Chromatogram visualisation
         uri: http://edamontology.org/operation_3203
-    output: []
+      - term: Spectral analysis
+        uri: http://edamontology.org/operation_3214
+      - term: Deisotoping
+        uri: http://edamontology.org/operation_3629
+      - term: Comparison
+        uri: http://edamontology.org/operation_2424
+      - term: Filtering
+        uri: http://edamontology.org/operation_3695
+      - term: Aggregation
+        uri: http://edamontology.org/operation_3436
+      - term: Peak detection
+        uri: http://edamontology.org/operation_3215
+      - term: Mass spectrum visualisation
+        uri: http://edamontology.org/operation_3694
+    output:
+      - data:
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
+        format:
+          - term: xlsx
+            uri: http://edamontology.org/format_3620
+          - term: CSV
+            uri: http://edamontology.org/format_3752
+          - term: netCDF
+            uri: http://edamontology.org/format_3650
+          - term: mzML
+            uri: http://edamontology.org/format_3244
+      - data:
+          term: Image
+          uri: http://edamontology.org/data_2968
+        format:
+          - term: PDF
+            uri: http://edamontology.org/format_3508
 homepage: http://sourceforge.net/projects/openchrom
 homepage_status: 0
 language:
   - Java
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:29:30Z'
 license: null
 link:
   - note: null
@@ -95,7 +145,7 @@ publication:
       authors:
         - name: Wenig P.
         - name: Odermatt J.
-      citationCount: 43
+      citationCount: 46
       date: '2010-07-30T00:00:00Z'
       journal: BMC Bioinformatics
       title: 'OpenChrom: A cross-platform open source software for the mass spectrometric
@@ -109,5 +159,11 @@ toolType:
 topic:
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  - term: Metabolomics
+    uri: http://edamontology.org/topic_3172
+  - term: Data visualisation
+    uri: http://edamontology.org/topic_0092
+validated: 0
 version: []

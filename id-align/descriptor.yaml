@@ -36,18 +36,42 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
+      - data:
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
+        format:
+          - term: TSV
+            uri: http://edamontology.org/format_3475
     note: null
     operation:
       - term: Chromatographic alignment
         uri: http://edamontology.org/operation_3628
-    output: []
+    output:
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format:
+          - term: xlsx
+            uri: http://edamontology.org/format_3620
+      - data:
+          term: Peptide mass fingerprint
+          uri: http://edamontology.org/data_0944
+        format:
+          - term: xlsx
+            uri: http://edamontology.org/format_3620
 homepage: http://www.ce4csb.org/applications/idalign/idalign.html
-homepage_status: 0
+homepage_status: 1
 language:
   - Java
   - Python
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:19:29Z'
 license: null
 link:
   - note: null
@@ -69,5 +93,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

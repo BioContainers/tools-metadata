@@ -24,6 +24,10 @@ download:
     type: Source code
     url: ftp://ftp.thegpm.org/projects/xhunter
     version: null
+  - note: null
+    type: Source code
+    url: ftp://ftp.thegpm.org/projects/xhunter/source
+    version: null
 editPermission:
   authors: []
   type: private
@@ -32,17 +36,47 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input: []
+    input:
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+      - data:
+          term: Sequence set
+          uri: http://edamontology.org/data_0850
+        format:
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
+      - data:
+          term: Mass spectrometry spectra
+          uri: http://edamontology.org/data_0943
+        format:
+          - term: MGF
+            uri: http://edamontology.org/format_3651
     note: null
     operation:
       - term: Spectral library search
         uri: http://edamontology.org/operation_3801
-    output: []
+      - term: PTM identification
+        uri: http://edamontology.org/operation_3645
+      - term: Peptide identification
+        uri: http://edamontology.org/operation_3631
+      - term: Protein identification
+        uri: http://edamontology.org/operation_3767
+    output:
+      - data:
+          term: Peptide identification
+          uri: http://edamontology.org/data_0945
+        format:
+          - term: X!Tandem XML
+            uri: http://edamontology.org/format_3711
 homepage: http://www.thegpm.org/hunter/index.html
 homepage_status: 0
 language:
   - C++
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-02-27T11:38:03Z'
 license: null
 link:
   - note: null
@@ -77,7 +111,7 @@ publication:
         - name: Cortens J.C.
         - name: Fenyo D.
         - name: Beavis R.C.
-      citationCount: 196
+      citationCount: 204
       date: '2006-08-01T00:00:00Z'
       journal: Journal of Proteome Research
       title: Using annotated peptide mass spectrum libraries for protein identification
@@ -92,5 +126,5 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+validated: 0
 version: []

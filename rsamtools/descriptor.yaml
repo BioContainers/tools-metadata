@@ -4,6 +4,7 @@ biotoolsCURIE: biotools:rsamtools
 biotoolsID: rsamtools
 collectionID:
   - BioConductor
+  - SAMtools utility
 cost: null
 credit:
   - email: maintainer@bioconductor.org
@@ -41,14 +42,14 @@ function:
         format:
           - term: BAM
             uri: http://edamontology.org/format_2572
-          - term: tabix
-            uri: http://edamontology.org/format_3616
-          - term: FASTA
-            uri: http://edamontology.org/format_1929
-          - term: SAM
-            uri: http://edamontology.org/format_2573
           - term: BCF
             uri: http://edamontology.org/format_3020
+          - term: tabix
+            uri: http://edamontology.org/format_3616
+          - term: SAM
+            uri: http://edamontology.org/format_2573
+          - term: FASTA
+            uri: http://edamontology.org/format_1929
     note: null
     operation:
       - term: Read pre-processing
@@ -74,7 +75,7 @@ homepage: http://bioconductor.org/packages/release/bioc/html/Rsamtools.html
 homepage_status: 0
 language:
   - R
-lastUpdate: '2018-12-10T12:58:54Z'
+lastUpdate: '2019-03-14T11:28:55Z'
 license: Artistic-2.0
 link:
   - note: null
@@ -90,47 +91,7 @@ otherID: []
 owner: bioconductor_import
 publication:
   - doi: 10.1038/nmeth.3252
-    metadata:
-      abstract: Bioconductor is an open-source, open-development software project
-        for the analysis and comprehension of high-throughput data in genomics and
-        molecular biology. The project aims to enable interdisciplinary research,
-        collaboration and rapid development of scientific software. Based on the statistical
-        programming language R, Bioconductor comprises 934 interoperable packages
-        contributed by a large, diverse community of scientists. Packages cover a
-        range of bioinformatic and statistical applications. They undergo formal initial
-        review and continuous automated testing. We present an overview for prospective
-        users and contributors.
-      authors:
-        - name: Huber W.
-        - name: Carey V.J.
-        - name: Gentleman R.
-        - name: Anders S.
-        - name: Carlson M.
-        - name: Carvalho B.S.
-        - name: Bravo H.C.
-        - name: Davis S.
-        - name: Gatto L.
-        - name: Girke T.
-        - name: Gottardo R.
-        - name: Hahne F.
-        - name: Hansen K.D.
-        - name: Irizarry R.A.
-        - name: Lawrence M.
-        - name: Love M.I.
-        - name: MaCdonald J.
-        - name: Obenchain V.
-        - name: Oles A.K.
-        - name: Pages H.
-        - name: Reyes A.
-        - name: Shannon P.
-        - name: Smyth G.K.
-        - name: Tenenbaum D.
-        - name: Waldron L.
-        - name: Morgan M.
-      citationCount: 545
-      date: '2015-01-01T00:00:00Z'
-      journal: Nature Methods
-      title: Orchestrating high-throughput genomic analysis with Bioconductor
+    metadata: null
     pmcid: null
     pmid: null
     type: Other
@@ -139,8 +100,8 @@ toolType:
   - Command-line tool
   - Library
 topic:
-  - term: RNA-Seq
+  - term: RNA-seq
     uri: http://edamontology.org/topic_3170
-validated: 1
+validated: 0
 version:
   - 1.26.1

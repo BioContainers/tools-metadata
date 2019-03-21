@@ -66,7 +66,43 @@ otherID: []
 owner: n.m.palmblad@lumc.nl
 publication:
   - doi: 10.1021/acs.jproteome.8b00767
-    metadata: null
+    metadata:
+      abstract: "Copyright \xA9 2018 American Chemical Society. Triggered by Offset,\
+        \ Multiplexed, Accurate mass, High resolution, and Absolute Quantitation (TOMAHAQ)\
+        \ is a recently introduced targeted proteomics method that combines peptide\
+        \ and sample multiplexing. TOMAHAQ assays enable sensitive and accurate multiplexed\
+        \ quantification by implementing an intricate data collection scheme that\
+        \ comprises multiple MSn scans, mass inclusion lists, and data-driven filters.\
+        \ Consequently, manual creation of TOMAHAQ methods can be time-consuming and\
+        \ error prone, while the resulting TOMAHAQ data may not be compatible with\
+        \ common mass spectrometry analysis pipelines. To address these concerns we\
+        \ introduce TomahaqCompanion, an open-source desktop application that enables\
+        \ rapid creation of TOMAHAQ methods and analysis of TOMAHAQ data. Starting\
+        \ from a list of peptide sequences, a user can perform each step of TOMAHAQ\
+        \ assay development including (1) generation of priming run target list, (2)\
+        \ analysis of priming run data, (3) generation of TOMAHAQ method file, and\
+        \ (4) analysis and export of quantitative TOMAHAQ data. We demonstrate the\
+        \ flexibility of TomahaqCompanion by creating a variety of methods testing\
+        \ TOMAHAQ parameters (e.g., number of SPS notches, run length, etc.). Lastly,\
+        \ we analyze an interference sample comprising heavy yeast peptides, a standard\
+        \ human peptide mixture, TMT11-plex, and super heavy TMT (shTMT) isobaric\
+        \ labels to demonstrate \u223C10-200 attomol limit of quantification within\
+        \ a complex background using TOMAHAQ."
+      authors:
+        - name: Rose C.M.
+        - name: Erickson B.K.
+        - name: Schweppe D.K.
+        - name: Viner R.
+        - name: Choi J.
+        - name: Rogers J.
+        - name: Bomgarden R.
+        - name: Gygi S.P.
+        - name: Kirkpatrick D.S.
+      citationCount: 0
+      date: '2019-02-01T00:00:00Z'
+      journal: Journal of Proteome Research
+      title: 'TomahaqCompanion: A Tool for the Creation and Analysis of Isobaric Label
+        Based Multiplexed Targeted Assays'
     pmcid: null
     pmid: '30501201'
     type: Primary

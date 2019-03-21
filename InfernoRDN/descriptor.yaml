@@ -23,6 +23,10 @@ download:
     type: Source code
     url: https://github.com/PNNL-Comp-Mass-Spec/InfernoRDN
     version: null
+  - note: null
+    type: Source code
+    url: https://github.com/PNNL-Comp-Mass-Spec/InfernoRDN
+    version: null
 editPermission:
   authors: []
   type: private
@@ -40,10 +44,10 @@ function:
             uri: http://edamontology.org/format_3752
           - term: TSV
             uri: http://edamontology.org/format_3475
-          - term: SEQUEST .out file
-            uri: http://edamontology.org/format_3758
           - term: xlsx
             uri: http://edamontology.org/format_3620
+          - term: SEQUEST .out file
+            uri: http://edamontology.org/format_3758
     note: null
     operation:
       - term: Imputation
@@ -82,7 +86,7 @@ homepage_status: 0
 language:
   - R
   - C#
-lastUpdate: '2019-02-20T16:17:06Z'
+lastUpdate: '2019-02-27T11:20:18Z'
 license: Apache-2.0
 link:
   - note: null

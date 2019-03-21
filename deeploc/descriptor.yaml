@@ -70,14 +70,14 @@ publication:
   - doi: 10.1093/bioinformatics/btx431
     metadata:
       abstract: "\xA9 The Author 2017. Published by Oxford University Press. All rights\
-        \ reserved. For Permissions, please e-mail: journals.permissions@oup.com Motivation:\
+        \ reserved. For Permissions, please e-mail: journals.permissions@oup.comMotivation:\
         \ The prediction of eukaryotic protein subcellular localization is a well-studied\
         \ topic in bioinformatics due to its relevance in proteomics research. Many\
         \ machine learning methods have been successfully applied in this task, but\
         \ in most of them, predictions rely on annotation of homologues from knowledge\
         \ databases. For novel proteins where no annotated homologues exist, and for\
         \ predicting the effects of sequence variants, it is desirable to have methods\
-        \ for predicting protein properties from sequence information only. Results:\
+        \ for predicting protein properties from sequence information only.Results:\
         \ Here, we present a prediction algorithm using deep neural networks to predict\
         \ protein subcellular localization relying only on sequence information. At\
         \ its core, the prediction model uses a recurrent neural network that processes\
@@ -88,18 +88,18 @@ publication:
         \ criteria than previously. We demonstrate that our model achieves a good\
         \ accuracy (78% for 10 categories; 92% for membrane-bound or soluble), outperforming\
         \ current state-of-the-art algorithms, including those relying on homology\
-        \ information. Availability and implementation: The method is available as\
+        \ information.Availability and implementation: The method is available as\
         \ a web server at http://www.cbs.dtu.dk/services/DeepLoc. Example code is\
         \ available at https://github.com/JJAlmagro/subcellular_localization. The\
-        \ dataset is available at http://www.cbs.dtu.dk/services/DeepLoc/data.php.\
-        \ Contact: jjalma@dtu.dk."
+        \ dataset is available at http://www.cbs.dtu.dk/services/DeepLoc/data.php.Contact:\
+        \ jjalma@dtu.dk."
       authors:
         - name: Almagro Armenteros J.J.
         - name: Sonderby C.K.
         - name: Sonderby S.K.
         - name: Nielsen H.
         - name: Winther O.
-      citationCount: 11
+      citationCount: 26
       date: '2017-11-01T00:00:00Z'
       journal: Bioinformatics (Oxford, England)
       title: 'DeepLoc: prediction of protein subcellular localization using deep learning'

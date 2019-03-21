@@ -55,7 +55,28 @@ otherID: []
 owner: seqwiki_import
 publication:
   - doi: null
-    metadata: null
+    metadata:
+      abstract: "Motivation: Analysis of genomic sequencing data requires efficient,\
+        \ easy-to-use access to alignment results and flexible data management tools\
+        \ (e.g. filtering, merging, sorting, etc.). However, the enormous amount of\
+        \ data produced by current sequencing technologies is typically stored in\
+        \ compressed, binary formats that are not easily handled by the text-based\
+        \ parsers commonly used in bioinformatics research. Results: We introduce\
+        \ a software suite for programmers and end users that facilitates research\
+        \ analysis and data management using BAM files. BamTools provides both the\
+        \ first C++ API publicly available for BAM file support as well as a command-line\
+        \ toolkit. \xA9 The Author 2011. Published by Oxford University Press. All\
+        \ rights reserved."
+      authors:
+        - name: Barnett D.W.
+        - name: Garrison E.K.
+        - name: Quinlan A.R.
+        - name: Strmberg M.P.
+        - name: Marth G.T.
+      citationCount: 199
+      date: '2011-06-01T00:00:00Z'
+      journal: Bioinformatics
+      title: 'Bamtools: A C++ API and toolkit for analyzing and managing BAM files'
     pmcid: null
     pmid: '21493652'
     type: null

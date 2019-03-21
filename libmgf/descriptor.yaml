@@ -27,7 +27,11 @@ documentation:
   - note: null
     type: General
     url: http://kirchnerlab.github.io/libmgf/doc/html/index.html
-download: []
+download:
+  - note: null
+    type: Source code
+    url: https://github.com/kirchnerlab/libmgf/
+    version: null
 editPermission:
   authors: []
   type: private
@@ -38,23 +42,41 @@ function:
   - cmd: null
     input:
       - data:
-          term: Data
-          uri: http://edamontology.org/data_0006
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
         format:
           - term: MGF
             uri: http://edamontology.org/format_3651
+          - term: dta
+            uri: http://edamontology.org/format_3652
     note: null
     operation:
-      - term: Loading
-        uri: http://edamontology.org/operation_1812
       - term: Format validation
         uri: http://edamontology.org/operation_0336
-    output: []
+      - term: Read pre-processing
+        uri: http://edamontology.org/operation_3219
+      - term: Generation
+        uri: http://edamontology.org/operation_3429
+      - term: Parsing
+        uri: http://edamontology.org/operation_1812
+      - term: Filtering
+        uri: http://edamontology.org/operation_3695
+      - term: Formatting
+        uri: http://edamontology.org/operation_0335
+    output:
+      - data:
+          term: Mass spectrometry data
+          uri: http://edamontology.org/data_2536
+        format:
+          - term: MGF
+            uri: http://edamontology.org/format_3651
+          - term: dta
+            uri: http://edamontology.org/format_3652
 homepage: http://kirchnerlab.github.io/libmgf/
 homepage_status: 0
 language:
   - C++
-lastUpdate: '2018-12-10T12:58:53Z'
+lastUpdate: '2019-03-01T12:38:13Z'
 license: MIT
 link:
   - note: null
@@ -90,6 +112,38 @@ publication:
     pmid: null
     type: Primary
     version: null
+  - doi: 10.1002/pmic.200900326
+    metadata:
+      abstract: "The effectiveness of database search algorithms, such as Mascot,\
+        \ Sequest and ProteinPilot is limited by the quality of the input spectra:\
+        \ spurious peaks in MS/MS spectra can jeopardize the correct identification\
+        \ of peptides or reduce their score significantly. Consequently, an efficient\
+        \ preprocessing of MS/MS spectra can increase the sensitivity of peptide identification\
+        \ at reduced file sizes and run time without compromising its specificity.\
+        \ We investigate the performance of 25 MS/MS preprocessing methods on various\
+        \ data sets and make software for improved preprocessing of mgf/dta-files\
+        \ freely available from http://hci.iwr.uni-heidelberg. de/mip/proteomics or\
+        \ http://www. childrenshospital.org/research/steenlab. \xA9 2009 Wiley-VCH\
+        \ Verlag GmbH & Co. KGaA."
+      authors:
+        - name: Renard B.Y.
+        - name: Kirchner M.
+        - name: Monigatti F.
+        - name: Ivanov A.R.
+        - name: Rappsilber J.
+        - name: Winter D.
+        - name: Steen J.A.J.
+        - name: Hamprecht F.A.
+        - name: Steen H.
+      citationCount: 53
+      date: '2009-11-01T00:00:00Z'
+      journal: Proteomics
+      title: When less can yield more - Computational preprocessing of MS/MS spectra
+        for peptide identification
+    pmcid: null
+    pmid: '19743429'
+    type: null
+    version: null
 toolType:
   - Command-line tool
 topic:
@@ -97,5 +151,7 @@ topic:
     uri: http://edamontology.org/topic_0121
   - term: Proteomics experiment
     uri: http://edamontology.org/topic_3520
-validated: 1
+  - term: Bioinformatics
+    uri: http://edamontology.org/topic_0091
+validated: 0
 version: []
