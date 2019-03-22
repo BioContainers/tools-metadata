@@ -59,8 +59,8 @@ function:
             uri: http://edamontology.org/format_3650
     note: null
     operation:
-      - term: Chromatogram visualisation
-        uri: http://edamontology.org/operation_3203
+      - term: Mass spectrum visualisation
+        uri: http://edamontology.org/operation_3694
       - term: Spectral analysis
         uri: http://edamontology.org/operation_3214
       - term: Deisotoping
@@ -73,8 +73,8 @@ function:
         uri: http://edamontology.org/operation_3436
       - term: Peak detection
         uri: http://edamontology.org/operation_3215
-      - term: Mass spectrum visualisation
-        uri: http://edamontology.org/operation_3694
+      - term: Chromatogram visualisation
+        uri: http://edamontology.org/operation_3203
     output:
       - data:
           term: Peptide mass fingerprint
@@ -94,11 +94,11 @@ function:
         format:
           - term: PDF
             uri: http://edamontology.org/format_3508
-homepage: http://sourceforge.net/projects/openchrom
+homepage: https://www.openchrom.net/
 homepage_status: 0
 language:
   - Java
-lastUpdate: '2019-02-27T11:29:30Z'
+lastUpdate: '2019-03-22T08:26:39Z'
 license: null
 link:
   - note: null
@@ -114,42 +114,7 @@ otherID: []
 owner: msutils_import
 publication:
   - doi: null
-    metadata:
-      abstract: "Background: Today, data evaluation has become a bottleneck in chromatographic\
-        \ science. Analytical instruments equipped with automated samplers yield large\
-        \ amounts of measurement data, which needs to be verified and analyzed. Since\
-        \ nearly every GC/MS instrument vendor offers its own data format and software\
-        \ tools, the consequences are problems with data exchange and a lack of comparability\
-        \ between the analytical results. To challenge this situation a number of\
-        \ either commercial or non-profit software applications have been developed.\
-        \ These applications provide functionalities to import and analyze several\
-        \ data formats but have shortcomings in terms of the transparency of the implemented\
-        \ analytical algorithms and/or are restricted to a specific computer platform.Results:\
-        \ This work describes a native approach to handle chromatographic data files.\
-        \ The approach can be extended in its functionality such as facilities to\
-        \ detect baselines, to detect, integrate and identify peaks and to compare\
-        \ mass spectra, as well as the ability to internationalize the application.\
-        \ Additionally, filters can be applied on the chromatographic data to enhance\
-        \ its quality, for example to remove background and noise. Extended operations\
-        \ like do, undo and redo are supported.Conclusions: OpenChrom is a software\
-        \ application to edit and analyze mass spectrometric chromatographic data.\
-        \ It is extensible in many different ways, depending on the demands of the\
-        \ users or the analytical procedures and algorithms. It offers a customizable\
-        \ graphical user interface. The software is independent of the operating system,\
-        \ due to the fact that the Rich Client Platform is written in Java. OpenChrom\
-        \ is released under the Eclipse Public License 1.0 (EPL). There are no license\
-        \ constraints regarding extensions. They can be published using open source\
-        \ as well as proprietary licenses. OpenChrom is available free of charge at\
-        \ http://www.openchrom.net. \xA9 2010 Wenig and Odermatt; licensee BioMed\
-        \ Central Ltd."
-      authors:
-        - name: Wenig P.
-        - name: Odermatt J.
-      citationCount: 46
-      date: '2010-07-30T00:00:00Z'
-      journal: BMC Bioinformatics
-      title: 'OpenChrom: A cross-platform open source software for the mass spectrometric
-        analysis of chromatographic data'
+    metadata: null
     pmcid: null
     pmid: '20673335'
     type: null

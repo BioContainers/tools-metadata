@@ -41,8 +41,8 @@ function:
             uri: http://edamontology.org/format_3654
     note: null
     operation:
-      - term: MRM/SRM
-        uri: http://edamontology.org/operation_3636
+      - term: Protein quantification
+        uri: http://edamontology.org/operation_3630
       - term: Deisotoping
         uri: http://edamontology.org/operation_3629
       - term: Isotope-coded protein label
@@ -51,8 +51,8 @@ function:
         uri: http://edamontology.org/operation_3215
       - term: Labeled quantification
         uri: http://edamontology.org/operation_3635
-      - term: Protein quantification
-        uri: http://edamontology.org/operation_3630
+      - term: MRM/SRM
+        uri: http://edamontology.org/operation_3636
     output:
       - data:
           term: Peptide mass fingerprint
@@ -81,11 +81,11 @@ function:
         format:
           - term: Textual format
             uri: http://edamontology.org/format_2330
-homepage: http://sourceforge.net/projects/icplquant/
+homepage: https://www.biochem.mpg.de/en/rg/lottspeich/technologies/ICPLQuant
 homepage_status: 0
 language:
   - Java
-lastUpdate: '2019-02-27T11:19:14Z'
+lastUpdate: '2019-03-22T08:18:23Z'
 license: null
 link:
   - note: null
@@ -101,33 +101,7 @@ otherID: []
 owner: msutils_import
 publication:
   - doi: null
-    metadata:
-      abstract: "ICPL-ESIQuant is a proteomics software tool for quantitatively analyzing\
-        \ large mass spectrometric datasets acquired from ICPL based proteomics experiments.\
-        \ It is able to process mass spectrometric data from various vendors and implements\
-        \ results from the Mascot search engine to generate protein and peptide result\
-        \ tables. This protocol briefly introduces ICPL-ESIQuant and presents a detailed\
-        \ step by step tutorial, how to use the software with MS datasets obtained\
-        \ from ICPL duplex, triplex and quadruplex experiments. Requiring MS raw data\
-        \ in.mzXML file format and Mascot search results in.dat format as input, ICPL-ESIQuant\
-        \ reliably quantifies ICPL labeled proteins and provides additional information\
-        \ about all detected, sequenced and identified features in the sample. The\
-        \ software supports both the shotgun and the directed proteomics strategy,\
-        \ enabling the user to apply mass inclusion lists for identifying peptides\
-        \ not fragmented in the first MS cycle. The software together with a test\
-        \ dataset is freely available under http://sourceforge.net/projects/ icplquant/.\
-        \ This article is part of a Special Issue entitled: Computational Proteomics\
-        \ in the Post-Identification Era. Guest Editors: Martin Eisenacher and Christian\
-        \ Stephan. \xA9 2013 Elsevier B.V. All rights reserved."
-      authors:
-        - name: Brunner A.
-        - name: Kellermann J.
-        - name: Lottspeich F.
-      citationCount: 1
-      date: '2014-01-01T00:00:00Z'
-      journal: Biochimica et Biophysica Acta - Proteins and Proteomics
-      title: A practical guide to the ICPL-ESIQuant software for ICPL-based quantitative
-        proteomics
+    metadata: null
     pmcid: null
     pmid: '23454610'
     type: null

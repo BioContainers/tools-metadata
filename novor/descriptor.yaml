@@ -58,11 +58,11 @@ function:
         format:
           - term: CSV
             uri: http://edamontology.org/format_3752
-homepage: http://cloud.rapidnovor.org/
+homepage: https://www.rapidnovor.com/
 homepage_status: 0
 language:
   - Java
-lastUpdate: '2019-02-27T11:29:09Z'
+lastUpdate: '2019-03-22T08:25:02Z'
 license: null
 link:
   - note: null
@@ -77,32 +77,7 @@ otherID: []
 owner: msutils_import
 publication:
   - doi: null
-    metadata:
-      abstract: "\xA9 2015 The Author(s).(Figure Presented) De novo sequencing software\
-        \ has been widely used in proteomics to sequence new peptides from tandem\
-        \ mass spectrometry data. This study presents a new software tool, Novor,\
-        \ to greatly improve both the speed and accuracy of today's peptide de novo\
-        \ sequencing analyses. To improve the accuracy, Novor's scoring functions\
-        \ are based on two large decision trees built from a peptide spectral library\
-        \ with more than 300,000 spectra with machine learning. Important knowledge\
-        \ about peptide fragmentation is extracted automatically from the library\
-        \ and incorporated into the scoring functions. The decision tree model also\
-        \ enables efficient score calculation and contributes to the speed improvement.\
-        \ To further improve the speed, a two-stage algorithmic approach, namely dynamic\
-        \ programming and refinement, is used. The software program was also carefully\
-        \ optimized. On the testing datasets, Novor sequenced 7%-37% more correct\
-        \ residues than the state-of-the-art de novo sequencing tool, PEAKS, while\
-        \ being an order of magnitude faster. Novor can de novo sequence more than\
-        \ 300 MS/MS spectra per second on a laptop computer. The speed surpasses the\
-        \ acquisition speed of today's mass spectrometer and, therefore, opens a new\
-        \ possibility to de novo sequence in real time while the spectrometer is acquiring\
-        \ the spectral data."
-      authors:
-        - name: Ma B.
-      citationCount: 54
-      date: '2015-11-01T00:00:00Z'
-      journal: Journal of the American Society for Mass Spectrometry
-      title: 'Novor: Real-Time Peptide de Novo Sequencing Software'
+    metadata: null
     pmcid: null
     pmid: '26122521'
     type: null

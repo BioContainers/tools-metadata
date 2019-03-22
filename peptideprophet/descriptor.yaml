@@ -38,7 +38,7 @@ documentation:
 download:
   - note: null
     type: Source code
-    url: https://sourceforge.net/projects/peptideprophet/|https://sourceforge.net/projects/sashimi/
+    url: https://sourceforge.net/projects/peptideprophet/
     version: null
 editPermission:
   authors: []
@@ -76,17 +76,20 @@ function:
             uri: http://edamontology.org/format_3655
           - term: HTML
             uri: http://edamontology.org/format_2331
-homepage: http://tools.proteomecenter.org/PeptideProphet.php
+homepage: http://peptideprophet.sourceforge.net/index.html
 homepage_status: 0
 language:
   - C++
   - Perl
-lastUpdate: '2019-03-04T13:48:49Z'
+lastUpdate: '2019-03-22T08:32:54Z'
 license: null
 link:
   - note: null
     type: Registry
     url: http://ms-utils.org
+  - note: null
+    type: Other
+    url: http://tools.proteomecenter.org/PeptideProphet.php
 maturity: null
 name: PeptideProphet
 operatingSystem:
@@ -96,30 +99,7 @@ otherID: []
 owner: msutils_import
 publication:
   - doi: null
-    metadata:
-      abstract: We present a statistical model to estimate the accuracy of peptide
-        assignments to tandem mass (MS/MS) spectra made by database search applications
-        such as SEQUEST. Employing the expectation maximization algorithm, the analysis
-        learns to distinguish correct from incorrect database search results, computing
-        probabilities that peptide assignments to spectra are correct based upon database
-        search scores and the number of tryptic termini of peptides. Using SEQUEST
-        search results for spectra generated from a sample of known protein components,
-        we demonstrate that the computed probabilities are accurate and have high
-        power to discriminate between correctly and incorrectly assigned peptides.
-        This analysis makes it possible to filter large volumes of MS/MS database
-        search results with predictable false identification error rates and can serve
-        as a common standard by which the results of different research groups are
-        compared.
-      authors:
-        - name: Keller A.
-        - name: Nesvizhskii A.I.
-        - name: Kolker E.
-        - name: Aebersold R.
-      citationCount: 3219
-      date: '2002-10-15T00:00:00Z'
-      journal: Analytical Chemistry
-      title: Empirical statistical model to estimate the accuracy of peptide identifications
-        made by MS/MS and database search
+    metadata: null
     pmcid: null
     pmid: '12403597'
     type: null
