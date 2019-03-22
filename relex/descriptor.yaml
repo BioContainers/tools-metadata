@@ -34,10 +34,10 @@ function:
           term: Peptide identification
           uri: http://edamontology.org/data_0945
         format:
-          - term: Thermo RAW
-            uri: http://edamontology.org/format_3712
           - term: dta
             uri: http://edamontology.org/format_3652
+          - term: Thermo RAW
+            uri: http://edamontology.org/format_3712
     note: null
     operation:
       - term: 18O labeling
@@ -65,10 +65,10 @@ function:
         format:
           - term: Textual format
             uri: http://edamontology.org/format_2330
-homepage: http://fields.scripps.edu/downloadfile2.php?name=RelEx&filename=RelEx.zip&id=4
+homepage: http://fields.scripps.edu/relex/
 homepage_status: 0
 language: []
-lastUpdate: '2019-02-27T11:35:55Z'
+lastUpdate: '2019-03-22T08:40:46Z'
 license: null
 link:
   - note: null
@@ -81,32 +81,7 @@ otherID: []
 owner: msutils_import
 publication:
   - doi: null
-    metadata:
-      abstract: "Quantitative shotgun proteomic analyses are facilitated using chemical\
-        \ tags such as ICAT and metabolic labeling strategies with stable isotopes.\
-        \ The rapid high-throughput production of quantitative \"shotgun\" proteomic\
-        \ data necessitates the development of software to automatically convert mass\
-        \ spectrometry-derived data of peptides into relative protein abundances.\
-        \ We describe a computer program called RelEx, which uses a least-squares\
-        \ regression for the calculation of the peptide ion current ratios from the\
-        \ mass spectrometry-derived ion chromatograms. RelEx is tolerant of poor signal-to-noise\
-        \ data and can automatically discard nonusable chromatograms and outlier ratios.\
-        \ We apply a simple correction for systematic errors that improves the accuracy\
-        \ of the quantitative measurement by 32 \xB1 4%. Our automated approach was\
-        \ validated using labeled mixtures composed of known molar ratios and demonstrated\
-        \ in a real sample by measuring the effect of osmotic stress on protein expression\
-        \ in Saccharomyces cerevisiae."
-      authors:
-        - name: MacCoss M.J.
-        - name: Wu C.C.
-        - name: Liu H.
-        - name: Sadygov R.
-        - name: Yates III J.R.
-      citationCount: 227
-      date: '2003-12-15T00:00:00Z'
-      journal: Analytical Chemistry
-      title: A Correlation Algorithm for the Automated Quantitative Analysis of Shotgun
-        Proteomics Data
+    metadata: null
     pmcid: null
     pmid: '14670053'
     type: null

@@ -25,10 +25,6 @@ download:
     type: Source code
     url: http://bioconductor/packages/release/bioc/src/contrib/viper_1.8.0.tar.gz
     version: null
-  - note: null
-    type: Source code
-    url: https://github.com/PNNL-Comp-Mass-Spec/VIPER
-    version: null
 editPermission:
   authors:
     - ELIXIR-EE
@@ -38,42 +34,16 @@ elixirPlatform: []
 elixir_badge: 0
 function:
   - cmd: null
-    input:
-      - data:
-          term: Mass spectrometry spectra
-          uri: http://edamontology.org/data_0943
-        format:
-          - term: mzData
-            uri: http://edamontology.org/format_3834
-          - term: mzXML
-            uri: http://edamontology.org/format_3654
-      - data:
-          term: Peptide mass fingerprint
-          uri: http://edamontology.org/data_0944
-        format:
-          - term: CSV
-            uri: http://edamontology.org/format_3752
+    input: []
     note: null
     operation:
-      - term: Mass spectrum visualisation
-        uri: http://edamontology.org/operation_3694
-      - term: Chromatographic alignment
-        uri: http://edamontology.org/operation_3628
-      - term: Clustering
-        uri: http://edamontology.org/operation_3432
-      - term: Filtering
-        uri: http://edamontology.org/operation_3695
-      - term: Mass spectra calibration
-        uri: http://edamontology.org/operation_3627
-      - term: Chromatogram visualisation
-        uri: http://edamontology.org/operation_3203
-    output:
-      - data:
-          term: Report
-          uri: http://edamontology.org/data_2048
-        format:
-          - term: TSV
-            uri: http://edamontology.org/format_3475
+      - term: Network simulation
+        uri: http://edamontology.org/operation_3562
+      - term: Gene expression profiling
+        uri: http://edamontology.org/operation_0314
+      - term: Protein quantification
+        uri: http://edamontology.org/operation_3630
+    output: []
 homepage: http://bioconductor.org/packages/release/bioc/html/viper.html
 homepage_status: 0
 language:
@@ -110,12 +80,6 @@ topic:
     uri: http://edamontology.org/topic_3473
   - term: Transcriptomics
     uri: http://edamontology.org/topic_3308
-  - term: Proteomics
-    uri: http://edamontology.org/topic_0121
-  - term: Proteomics experiment
-    uri: http://edamontology.org/topic_3520
-  - term: Imaging
-    uri: http://edamontology.org/topic_3382
-validated: 0
+validated: 1
 version:
   - 1.12.0
