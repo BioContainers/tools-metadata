@@ -5650,9 +5650,10 @@ bioconductor-ebseq:
 peptide-shaker:
     name: peptide-shaker
     description: Interpretation of proteomics identification results.
-    license: Apache License, Version 2.0
-    home_url: http://compomics.github.io/projects/peptide-shaker.html
+    license: Apache-2.0
+    home_url: https://github.com/compomics/peptide-shaker
     total_pulls: 19
+    manually_check: True
 rust-bio-tools:
     name: rust-bio-tools
     description: ">  |\n\n> Licence:  Mit\n\n"
@@ -6204,6 +6205,7 @@ abpoa:
     license: MIT
     home_url: https://github.com/yangao07/abPOA
     total_pulls: 16
+    manually_check: True
 sdrf-pipelines:
     name: sdrf-pipelines
     description: Translate, convert sdrf to configuration pipelines
@@ -7297,16 +7299,18 @@ adam:
     name: adam
     description: Genomics analysis platform built on apache avro, apache spark, and
         apache parquet
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/bigdatagenomics/adam
     total_pulls: 9
+    manually_check: True
 damageprofiler:
     name: damageprofiler
     description: A java based tool to determine damage patterns on ancient dna as
         a replacement for mapdamage
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/Integrative-Transcriptomics/DamageProfiler
     total_pulls: 9
+    manually_check: True
 r-base:
     name: r-base
     description: ''
@@ -7652,9 +7656,10 @@ deepac:
     name: deepac
     description: Predicting pathogenic potentials of novel dna with reverse-complement
         neural networks.
-    license: Not available
+    license: MIT
     home_url: https://gitlab.com/rki_bioinformatics/DeePaC
     total_pulls: 8
+    manually_check: True
 cesm:
     name: cesm
     description:
@@ -10668,9 +10673,10 @@ snpgenie:
 abacat:
     name: abacat
     description: Abacat - a bacterial genome curation and annotation toolkit
-    license: Not available
+    license: MIT
     home_url: https://github.com/vinisalazar/abacat
     total_pulls: 5
+    manually_check: True
 cnvnator:
     name: cnvnator
     description:
@@ -11208,14 +11214,14 @@ ribotish:
     total_pulls: 4
 pandas:
     name: pandas
-    description:
-    license:
-    home_url:
+    description: "High-performance, easy-to-use data structures and data analysis tools."
+    license: BSD-3-Clause
+    home_url: https://github.com/pandas-dev/pandas
     total_pulls: 4
+    manually_check: True
 bioconductor-hiccompare:
     name: bioconductor-hiccompare
-    description: 'Hiccompare: joint normalization and comparative analysis of multiple
-        hi-c datasets'
+    description: 'Hiccompare: joint normalization and comparative analysis of multiple hi-c datasets'
     license: MIT + file LICENSE
     home_url: https://bioconductor.org/packages/3.11/bioc/html/HiCcompare.html
     total_pulls: 4
@@ -28935,11 +28941,10 @@ pytest-cov:
     total_pulls: 1
 python-dateutil:
     name: python-dateutil
-    description: "# Python-Dateutil\n\n> Extensions to the standard python datetime\
-        \ module\n\n> Licence: Bsd License\n\nHome: https://pypi.python.org/packages/source/p/python-dateutil/python-dateutil-2.3.tar.gz\n\
-        \n"
-    license:
-    home_url:
+    description: "Extensions to the standard python datetime module"
+    license: BSD
+    home_url: https://github.com/dateutil/dateutil
+    manually_check: True
     total_pulls: 1
 r-bit:
     name: r-bit
@@ -29435,10 +29440,11 @@ scipy:
     total_pulls: 1
 numpy:
     name: numpy
-    description: ''
-    license:
-    home_url:
+    description: 'Array processing for numbers, strings, records, and objects.'
+    license: BSD-3-Clause
+    home_url: https://github.com/numpy/numpy
     total_pulls: 1
+    manually_check: True
 wisecondorx:
     name: wisecondorx
     description: Within-sample copy number aberration detector, including sex chromosomes
@@ -31820,9 +31826,10 @@ acedb-other:
 aegean:
     name: aegean
     description: Integrated genome analysis toolkit
-    license: custom, see /usr/share/doc/aegean/copyright
-    home_url: http://standage.github.io/AEGeAn
+    license: ISC
+    home_url: https://github.com/BrendelGroup/AEGeAn
     total_pulls: 0
+    manually_check: True
 altree:
     name: altree
     description: Program to perform phylogeny-based association and localization analysis
@@ -31901,9 +31908,10 @@ axe-demultiplexer:
 adun-core:
     name: adun-core
     description: Molecular simulator
-    license: Not available
-    home_url: http://diana.imim.es/Adun
+    license: MIT
+    home_url: https://simtk.org/projects/adun
     total_pulls: 0
+    manually_check: True
 art-nextgen-simulation-tools-profiles:
     name: art-nextgen-simulation-tools-profiles
     description: Profiles for art simulation tools
@@ -34046,9 +34054,10 @@ sspace:
 zstd:
     name: zstd
     description: Fast lossless compression algorithm -- cli tool
-    license: custom, see /usr/share/doc/zstd/copyright
+    license: BSD
     home_url: https://github.com/facebook/zstd
     total_pulls: 0
+    manually_check: True
 relion-bin-plusgui:
     name: relion-bin-plusgui
     description: Parallel toolkit for 3d reconstructions in cryo-electron microscopy
@@ -34784,8 +34793,9 @@ peptideshaker:
         peptideshaker attempts to give you the best possible understanding of your
         proteomics data!
     license: SPDX:Apache-2.0
-    home_url: http://compomics.github.io/projects/peptide-shaker.html
+    home_url: https://github.com/compomics/peptide-shaker
     total_pulls: 0
+    manually_check: True
 msgfp:
     name: msgfp
     description: This package contains function to perform peptide identification
@@ -35356,10 +35366,11 @@ visionegg:
     total_pulls: 0
 ecomet:
     name: ecomet
-    description: ''
-    license:
-    home_url:
+    description: Eco-Metabolomics container containing R and packages used in Ecology and Metabolomics
+    license: Apache-2
+    home_url: https://github.com/phnmnl/container-ecomet
     total_pulls: 0
+    manually_check: True
 falcon:
     name: falcon
     description: Experimental pacbio diploid assembler.
@@ -42179,9 +42190,10 @@ zifa:
     name: zifa
     description: Dimensionality reduction for zero-inflated single-cell gene expression
         analysis
-    license: Not available
+    license: MIT
     home_url: https://github.com/epierson9/ZIFA
     total_pulls: 0
+    manually_check: True
 perl-module-build-tiny:
     name: perl-module-build-tiny
     description: A tiny replacement for module::build
@@ -44081,6 +44093,7 @@ abyss-k128:
     license: GPL-3.
     home_url: https://github.com/bcgsc/abyss
     total_pulls: 0
+    manually_check: True
 r-gprofiler:
     name: r-gprofiler
     description: ">  functional enrichment analysis, gene identifier conversion and\
@@ -47255,9 +47268,10 @@ yanagiba:
     name: yanagiba
     description: Filter short or low quality oxford nanopore reads which have been
         basecalled with albacore.
-    license: Not available
+    license: MIT
     home_url: https://github.com/Adamtaranto/Yanagiba
     total_pulls: 0
+    manually_check: True
 pyquant-ms:
     name: pyquant-ms
     description:
@@ -51488,9 +51502,10 @@ cortexpy:
 abeona:
     name: abeona
     description: A simple transcriptome assembler based on kallisto and cortex graphs.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/winni2k/abeona
     total_pulls: 0
+    manually_check: True
 comparems2:
     name: comparems2
     description:
@@ -54806,6 +54821,7 @@ abra2:
     license: MIT
     home_url: https://github.com/mozack/abra2
     total_pulls: 0
+    manually_check: True
 fastobo:
     name: fastobo
     description:
@@ -55133,15 +55149,17 @@ perl-ensembl-variation:
 perl-ensembl-api:
     name: perl-ensembl-api
     description: The ensembl core perl api and
-    license: Not available
+    license: Apache-2.0
     home_url: https://www.ensembl.org/info/docs/api/index.html
     total_pulls: 0
+    manually_check: True
 abritamr:
     name: abritamr
     description: Running amrfinderplus for mdu
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/MDU-PHL/abritamr
     total_pulls: 0
+    manually_check: True
 omssa:
     name: omssa
     description: Open mass spectrometry search algorithm (omssa)
@@ -55444,6 +55462,7 @@ ac:
     license: GPL-3.
     home_url: https://github.com/cobilab/ac
     total_pulls: 0
+    manually_check: True
 geosketch:
     name: geosketch
     description: Geometry-preserving random sampling
