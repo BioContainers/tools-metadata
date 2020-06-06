@@ -11271,27 +11271,31 @@ rnaquast:
         genome and gene database. in addition, rnaquast is also capable of estimating
         gene database coverage by raw reads and de novo quality assessment using third-party
         software.
-    license: Not available
+    license: GPL-2.0
     home_url: http://cab.spbu.ru/software/rnaquast/
     total_pulls: 4
+    manually_check: True
 clust:
     name: clust
     description: Optimised consensus clustering of multiple heterogeneous datasets.
-    license: Not available
+    license:  LGPL-3.0
     home_url: https://github.com/baselabujamous/clust
     total_pulls: 4
+    manually_check: True
 bioconductor-chromvar:
     name: bioconductor-chromvar
-    description:
-    license:
-    home_url:
+    description: Chromatin Variation Across Regions
+    license: MIT
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/chromVAR.html
     total_pulls: 4
+    manually_check: True
 comet-ms:
     name: comet-ms
-    description:
-    license:
-    home_url:
+    description: Comet is a command line tool that does MS/MS database search.
+    license: Apache-2.0
+    home_url: http://comet-ms.sourceforge.net/
     total_pulls: 4
+    manually_check: True
 rgt:
     name: rgt
     description:
@@ -11302,9 +11306,10 @@ airr:
     name: airr
     description: 'Airr community data representation standard reference library for
         antibody and tcr sequencing data. citations: airr standards <doi:10.5281/zenodo.1185414>.'
-    license: Not available
+    license: CC-BY-4.0
     home_url: http://docs.airr-community.org
     total_pulls: 4
+    manually_check: True
 bioconductor-netbenchmark:
     name: bioconductor-netbenchmark
     description:
