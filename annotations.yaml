@@ -11364,33 +11364,38 @@ hmftools-amber:
 cromshell:
     name: cromshell
     description: Command-line interface to the cromwell workflow manager
-    license: Not available
+    license: BSD-3-Clause
     home_url: https://github.com/broadinstitute/cromshell
     total_pulls: 4
+    manually_check: True
 bioconductor-lrbase.dme.eg.db:
     name: bioconductor-lrbase.dme.eg.db
     description: An annotation package for the lrbasedb object
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/LRBase.Dme.eg.db.html
     total_pulls: 4
+    manually_check: True
 bioconductor-lrbase.gga.eg.db:
     name: bioconductor-lrbase.gga.eg.db
     description: An annotation package for the lrbasedb object
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/LRBase.Gga.eg.db.html
     total_pulls: 4
+    manually_check: True
 sample-sheet:
     name: sample-sheet
     description: An illumina sample sheet parsing library
-    license: Not available
+    license: MIT
     home_url: https://github.com/clintval/sample-sheet
     total_pulls: 4
+    manually_check: True
 bioconductor-singscore:
     name: bioconductor-singscore
-    description:
-    license:
-    home_url:
+    description: Rank-based single-sample gene set scoring method
+    license: GPL-3.0
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/singscore.html
     total_pulls: 4
+    manually_check: True
 plantcv:
     name: plantcv
     description:
@@ -11406,9 +11411,10 @@ bioconductor-universalmotif:
 r-cellassign:
     name: r-cellassign
     description: Automated, probabilistic assignment of cell types in scrna-seq data
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/Irrationone/cellassign
     total_pulls: 4
+    manually_check: True
 dicey:
     name: dicey
     description:
@@ -11429,24 +11435,25 @@ igor_vdj:
     total_pulls: 4
 transposcope:
     name: transposcope
-    description: A package for visualizing read coverage in areas flanking mobile
-        element insertions.
-    license: Not available
+    description: A package for visualizing read coverage in areas flanking mobile element insertions.
+    license: MIT
     home_url: https://github.com/FenyoLab/transposcope
     total_pulls: 4
+    manually_check: True
 fusion-report:
     name: fusion-report
-    description: Tool for parsing outputs from fusion detection tools. part of a nf-core/rnafusion
-        pipeline
-    license: Not available
+    description: Tool for parsing outputs from fusion detection tools. part of a nf-core/rnafusion pipeline
+    license: GPL-3.0
     home_url: https://github.com/matq007/fusion-report
     total_pulls: 4
+    manually_check: True
 irida-uploader:
     name: irida-uploader
     description: Sequence file uploader for irida
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/phac-nml/irida-uploader
     total_pulls: 4
+    manually_check: True
 sword:
     name: sword
     description:
