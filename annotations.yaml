@@ -5650,9 +5650,10 @@ bioconductor-ebseq:
 peptide-shaker:
     name: peptide-shaker
     description: Interpretation of proteomics identification results.
-    license: Apache License, Version 2.0
-    home_url: http://compomics.github.io/projects/peptide-shaker.html
+    license: Apache-2.0
+    home_url: https://github.com/compomics/peptide-shaker
     total_pulls: 19
+    manually_check:True
 rust-bio-tools:
     name: rust-bio-tools
     description: ">  |\n\n> Licence:  Mit\n\n"
@@ -6204,6 +6205,7 @@ abpoa:
     license: MIT
     home_url: https://github.com/yangao07/abPOA
     total_pulls: 16
+    manually_check: True
 sdrf-pipelines:
     name: sdrf-pipelines
     description: Translate, convert sdrf to configuration pipelines
@@ -7652,9 +7654,10 @@ deepac:
     name: deepac
     description: Predicting pathogenic potentials of novel dna with reverse-complement
         neural networks.
-    license: Not available
+    license: MIT
     home_url: https://gitlab.com/rki_bioinformatics/DeePaC
     total_pulls: 8
+    manually_check: True
 cesm:
     name: cesm
     description:
@@ -10668,9 +10671,10 @@ snpgenie:
 abacat:
     name: abacat
     description: Abacat - a bacterial genome curation and annotation toolkit
-    license: Not available
+    license: MIT
     home_url: https://github.com/vinisalazar/abacat
     total_pulls: 5
+    manually_chec
 cnvnator:
     name: cnvnator
     description:
@@ -34784,8 +34788,9 @@ peptideshaker:
         peptideshaker attempts to give you the best possible understanding of your
         proteomics data!
     license: SPDX:Apache-2.0
-    home_url: http://compomics.github.io/projects/peptide-shaker.html
+    home_url: https://github.com/compomics/peptide-shaker
     total_pulls: 0
+    manually_check: True
 msgfp:
     name: msgfp
     description: This package contains function to perform peptide identification
@@ -35356,10 +35361,11 @@ visionegg:
     total_pulls: 0
 ecomet:
     name: ecomet
-    description: ''
-    license:
-    home_url:
+    description: Eco-Metabolomics container containing R and packages used in Ecology and Metabolomics
+    license: Apache-2
+    home_url: https://github.com/phnmnl/container-ecomet
     total_pulls: 0
+    manually_che
 falcon:
     name: falcon
     description: Experimental pacbio diploid assembler.
@@ -44081,6 +44087,7 @@ abyss-k128:
     license: GPL-3.
     home_url: https://github.com/bcgsc/abyss
     total_pulls: 0
+    manually_check:
 r-gprofiler:
     name: r-gprofiler
     description: ">  functional enrichment analysis, gene identifier conversion and\
@@ -51488,9 +51495,10 @@ cortexpy:
 abeona:
     name: abeona
     description: A simple transcriptome assembler based on kallisto and cortex graphs.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/winni2k/abeona
     total_pulls: 0
+    manually_check: True
 comparems2:
     name: comparems2
     description:
@@ -54806,6 +54814,7 @@ abra2:
     license: MIT
     home_url: https://github.com/mozack/abra2
     total_pulls: 0
+    manually_chec
 fastobo:
     name: fastobo
     description:
@@ -55133,15 +55142,17 @@ perl-ensembl-variation:
 perl-ensembl-api:
     name: perl-ensembl-api
     description: The ensembl core perl api and
-    license: Not available
+    license: Apache-2.0
     home_url: https://www.ensembl.org/info/docs/api/index.html
     total_pulls: 0
+    manually_check: True
 abritamr:
     name: abritamr
     description: Running amrfinderplus for mdu
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/MDU-PHL/abritamr
     total_pulls: 0
+    manually_check: True
 omssa:
     name: omssa
     description: Open mass spectrometry search algorithm (omssa)
@@ -55444,6 +55455,7 @@ ac:
     license: GPL-3.
     home_url: https://github.com/cobilab/ac
     total_pulls: 0
+    manually_check: True
 geosketch:
     name: geosketch
     description: Geometry-preserving random sampling
