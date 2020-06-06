@@ -11212,14 +11212,14 @@ ribotish:
     total_pulls: 4
 pandas:
     name: pandas
-    description:
-    license:
-    home_url:
+    description: "High-performance, easy-to-use data structures and data analysis tools."
+    license: BSD-3-Clause
+    home_url: https://github.com/pandas-dev/pandas
     total_pulls: 4
+    manually_check: True
 bioconductor-hiccompare:
     name: bioconductor-hiccompare
-    description: 'Hiccompare: joint normalization and comparative analysis of multiple
-        hi-c datasets'
+    description: 'Hiccompare: joint normalization and comparative analysis of multiple hi-c datasets'
     license: MIT + file LICENSE
     home_url: https://bioconductor.org/packages/3.11/bioc/html/HiCcompare.html
     total_pulls: 4
@@ -28939,11 +28939,10 @@ pytest-cov:
     total_pulls: 1
 python-dateutil:
     name: python-dateutil
-    description: "# Python-Dateutil\n\n> Extensions to the standard python datetime\
-        \ module\n\n> Licence: Bsd License\n\nHome: https://pypi.python.org/packages/source/p/python-dateutil/python-dateutil-2.3.tar.gz\n\
-        \n"
-    license:
-    home_url:
+    description: "Extensions to the standard python datetime module"
+    license: BSD
+    home_url: https://github.com/dateutil/dateutil
+    manually_check: True 
     total_pulls: 1
 r-bit:
     name: r-bit
@@ -29439,10 +29438,11 @@ scipy:
     total_pulls: 1
 numpy:
     name: numpy
-    description: ''
-    license:
-    home_url:
+    description: 'Array processing for numbers, strings, records, and objects.'
+    license: BSD-3-Clause
+    home_url: https://github.com/numpy/numpy
     total_pulls: 1
+    manually_check: True
 wisecondorx:
     name: wisecondorx
     description: Within-sample copy number aberration detector, including sex chromosomes
@@ -31824,9 +31824,10 @@ acedb-other:
 aegean:
     name: aegean
     description: Integrated genome analysis toolkit
-    license: custom, see /usr/share/doc/aegean/copyright
-    home_url: http://standage.github.io/AEGeAn
+    license: ISC
+    home_url: https://github.com/BrendelGroup/AEGeAn
     total_pulls: 0
+    manually_check: True
 altree:
     name: altree
     description: Program to perform phylogeny-based association and localization analysis
@@ -31905,9 +31906,10 @@ axe-demultiplexer:
 adun-core:
     name: adun-core
     description: Molecular simulator
-    license: Not available
-    home_url: http://diana.imim.es/Adun
+    license: MIT
+    home_url: https://simtk.org/projects/adun
     total_pulls: 0
+    manually_check: True
 art-nextgen-simulation-tools-profiles:
     name: art-nextgen-simulation-tools-profiles
     description: Profiles for art simulation tools
@@ -34050,9 +34052,10 @@ sspace:
 zstd:
     name: zstd
     description: Fast lossless compression algorithm -- cli tool
-    license: custom, see /usr/share/doc/zstd/copyright
+    license: BSD
     home_url: https://github.com/facebook/zstd
     total_pulls: 0
+    manually_check: True
 relion-bin-plusgui:
     name: relion-bin-plusgui
     description: Parallel toolkit for 3d reconstructions in cryo-electron microscopy
@@ -42185,9 +42188,10 @@ zifa:
     name: zifa
     description: Dimensionality reduction for zero-inflated single-cell gene expression
         analysis
-    license: Not available
+    license: MIT
     home_url: https://github.com/epierson9/ZIFA
     total_pulls: 0
+    manually_check
 perl-module-build-tiny:
     name: perl-module-build-tiny
     description: A tiny replacement for module::build
@@ -47262,9 +47266,10 @@ yanagiba:
     name: yanagiba
     description: Filter short or low quality oxford nanopore reads which have been
         basecalled with albacore.
-    license: Not available
+    license: MIT
     home_url: https://github.com/Adamtaranto/Yanagiba
     total_pulls: 0
+    manually_check: True
 pyquant-ms:
     name: pyquant-ms
     description:
