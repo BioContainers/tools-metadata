@@ -2750,18 +2750,18 @@ vg:
     name: vg
     description: Variation graph data structures, interchange formats, alignment,
         genotyping, and variant calling methods
-    license: Not available
+    license: MIT
     home_url: https://github.com/vgteam/vg
     total_pulls: 2237
+    manually_check: True
 gawk:
     name: gawk
-    description: "# Gawk\n\n> The awk utility interprets a special-purpose programming\
-        \ language that makes it possible to handle simple data-reformatting jobs\
-        \ with just a few lines of code.\n\n> Licence: Gplv3\n\nHome: http://ftpmirror.gnu.org/gawk/gawk-4.1.3.tar.xz\n\
-        \n"
-    license:
-    home_url:
+    description: "The gawk utility interprets a special-purpose programming language that makes it possible to
+     handle simple data-reformatting jobs with just a few lines of code."
+    license: GPL-3.0
+    home_url: http://ftpmirror.gnu.org/gawk/
     total_pulls: 1942
+    manually_check: True
 openms:
     name: openms
     description: Open source library and a collection of tools and interfaces for
@@ -2772,55 +2772,58 @@ openms:
     license: BSD-3-Clause
     home_url: http://www.openms.de
     total_pulls: 1762
+    manually_check: True
 export2graphlan:
     name: export2graphlan
     description: Conversion software tool for annotating tree with graphlan
-    license: Not available
+    license: MIT
     home_url: https://github.com/segatalab/export2graphlan
     total_pulls: 1736
+    manually_check: True
 r-exomedepth:
     name: r-exomedepth
-    description: ">  calls copy number variants (cnvs) from targeted sequence data,\
-        \ typically exome sequencing\n\n> Licence:  Gpl3\n\n"
-    license:
-    home_url:
+    description: "Calls copy number variants (cnvs) from targeted sequence data, typically exome sequencing"
+    license: GPL-3.0
+    home_url: https://cran.r-project.org/web/packages/ExomeDepth/index.html
     total_pulls: 1718
+    manually_check: True
 isoseq3:
     name: isoseq3
     description: Isoseq3 - scalable de novo isoform discovery
-    license: Not available
+    license: BSD-3-Clause-Clear
     home_url: https://github.com/PacificBiosciences/pbbioconda
     total_pulls: 1676
+    manually_check: True
 ucsc-wigtobigwig:
     name: ucsc-wigtobigwig
-    description: "# Ucsc-Wigtobigwig\n\n> Convert ascii format wig file (in fixedstep,\
-        \ variablestep\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\n\
-        Home: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/wigToBigWig\n\
-        \n"
-    license:
-    home_url:
+    description: "Convert ascii format wig file (in fixedstep, variablestep)"
+    license: Custom License
+    home_url: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/wigToBigWig
     total_pulls: 1669
+    manually_check: True
 collect-columns:
     name: collect-columns
     description: Retrieve a column for each in a set of tables, placing them in a
         single output table.
-    license: Not available
+    license: MIT
     home_url: https://github.com/biowdl/collect-columns
     total_pulls: 1557
+    manually_check: True
 strelka:
     name: strelka
     description: Strelka is an analysis package designed to detect somatic snvs and
         small indels from the aligned sequencing reads of matched tumor-normal samples.
     license: GPL-3.0
-    home_url: https://sites.google.com/site/strelkasomaticvariantcaller/
+    home_url: https://github.com/Illumina/strelka
     total_pulls: 1554
+    manually_check: True
 r-vegan:
     name: r-vegan
-    description: ">  ordination methods, diversity analysis and other functions for\
-        \ community and vegetation\n\n> Licence:  Gpl-2\n\n"
-    license:
-    home_url:
+    description: "Ordination methods, diversity analysis and other functions for community and vegetation"
+    license: GPL-2.0
+    home_url: https://cran.r-project.org/web/packages/vegan/index.html
     total_pulls: 1513
+    manually_check: True
 tn93:
     name: tn93
     description:
