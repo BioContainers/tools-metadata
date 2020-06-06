@@ -11231,9 +11231,10 @@ poppunk:
 cgatcore:
     name: cgatcore
     description: 'Cgat : the computational genomics analysis toolkit'
-    license: Not available
+    license: MIT
     home_url: https://github.com/cgat-developers/cgat-core
     total_pulls: 4
+    manually_check: True
 tracy:
     name: tracy
     description:
@@ -11249,14 +11250,15 @@ rfmix:
 scprep:
     name: scprep
     description: Tools for loading and preprocessing biological matrices in python.
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/KrishnaswamyLab/scprep
     total_pulls: 4
+    manually_check: True
 illumina-utils:
     name: illumina-utils
     description: A library and collection of scripts to work with illumina paired-end
         data (for casava 1.8+).
-    license: Not available
+    license: GPL-2.0
     home_url: https://github.com/meren/illumina-utils
     total_pulls: 4
 tiptoft:
@@ -11319,40 +11321,46 @@ bioconductor-netbenchmark:
 bioconductor-flowfitexampledata:
     name: bioconductor-flowfitexampledata
     description: Example data for the flowfit package
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/experiment/html/flowFitExampleData.html
     total_pulls: 4
+    manually_check: True
 bioconductor-sconify:
     name: bioconductor-sconify
     description: A toolkit for performing knn-based statistics for flow and mass cytometry
         data
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/bioc/html/Sconify.html
     total_pulls: 4
+    manually_check: True
 bioconductor-flowbin:
     name: bioconductor-flowbin
     description: Combining multitube flow cytometry data by binning
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/bioc/html/flowBin.html
     total_pulls: 4
+    manually_check: True
 bioconductor-gatefinder:
     name: bioconductor-gatefinder
     description: Projection-based gating strategy optimization for flow and mass cytometry
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/bioc/html/GateFinder.html
     total_pulls: 4
+    manually_check: True
 bioconductor-immunoclust:
     name: bioconductor-immunoclust
-    description:
-    license:
-    home_url:
+    description: "immunoClust is a model based clustering approach for Flow Cytometry samples. The cell-events of single Flow Cytometry samples are modelled by a mixture of multinominal normal- or t-distributions."
+    license: Artistic-2.0
+    home_url: http://bioconductor.org/packages/release/bioc/html/immunoClust.html
     total_pulls: 4
+    manually_check: True
 hmftools-amber:
     name: hmftools-amber
     description: Generates a tumor baf file for use in purple
-    license: Not available
-    home_url: https://github.com/hartwigmedical/hmftools/blob/master/amber/README.md
+    license: GPL-3.0
+    home_url: https://github.com/hartwigmedical/hmftools/
     total_pulls: 4
+    manually_check: True
 cromshell:
     name: cromshell
     description: Command-line interface to the cromwell workflow manager
