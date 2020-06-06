@@ -57,6 +57,7 @@ blast:
     license: SPDX:MIT
     home_url: http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastHome
     total_pulls: 65738
+    manually_check: True
 tabix:
     name: tabix
     description: Library for reading/writing high-throughput sequencing data. is utilized
@@ -1242,7 +1243,7 @@ ecopcr:
     name: ecopcr
     description: Estimate pcr barcode primers quality
     license: CeCILL_V2
-    home_url: https://git.metabarcoding.org/obitools/ecopcr/wikis/home
+    home_url: https://git.metabarcoding.org/obitools/ecopcr
     total_pulls: 5740
     manually_check: True
 estscan:
@@ -1261,7 +1262,7 @@ estscan:
 edlib:
     name: edlib
     description: Library for sequence alignment using edit distance (python3 module)
-    license: custom, see /usr/share/doc/edlib/copyright
+    license: MIT
     home_url: https://github.com/Martinsos/edlib
     total_pulls: 5726
     manually_check: True
@@ -1290,7 +1291,7 @@ stringtie:
     name: stringtie
     description: "Transcriptome assembly and quantification for rna-seq"
     license: MIT
-    home_url: https://ccb.jhu.edu/software/stringtie/
+    home_url: https://github.com/gpertea/stringtie
     total_pulls: 5462
     manually_check: True
 gffutils:
@@ -2859,16 +2860,18 @@ manta:
 vardict-java:
     name: vardict-java
     description: Java port of the vardict variant discovery program
-    license: Not available
+    license: MIT
     home_url: https://github.com/AstraZeneca-NGS/VarDictJava
     total_pulls: 993
+    manually_check: True
 fgbio:
     name: fgbio
     description: A set of tools for working with genomic and high throughput sequencing
         data, including umis
-    license: Not available
+    license: MIT
     home_url: https://github.com/fulcrumgenomics/fgbio
     total_pulls: 914
+    manually_check: True
 odgi:
     name: odgi
     description:
@@ -3517,9 +3520,10 @@ bioconductor-hipathia:
 ipyrad:
     name: ipyrad
     description: Interactive assembly and analysis of rad-seq data sets.
-    license: Not available
+    license: GPL-3.0
     home_url: http://github.com/dereneaton/ipyrad
     total_pulls: 51
+    manually_check: True
 magicblast:
     name: magicblast
     description: Magic-blast is a new tool for mapping large sets of next-generation
@@ -3529,12 +3533,11 @@ magicblast:
     total_pulls: 50
 macs2:
     name: macs2
-    description: "# Macs2\n\n> Macs -- model-based analysis of chip-seq\n\n> Licence:\
-        \ Bsd New\n\nHome: https://pypi.python.org/packages/9f/99/a8ac96b357f6b0a6f559fe0f5a81bcae12b98579551620ce07c5183aee2c/MACS2-2.1.1.20160309.tar.gz\n\
-        \n"
-    license:
-    home_url:
+    description: "Macs -- model-based analysis of chip-seq"
+    license:  BSD
+    home_url: http://github.com/taoliu/MACS/
     total_pulls: 50
+    manually_check: True
 bam-readcount:
     name: bam-readcount
     description:
