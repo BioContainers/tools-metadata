@@ -3544,9 +3544,10 @@ bam-readcount:
 dropletutils-scripts:
     name: dropletutils-scripts
     description: Cli scripts for the dropletutils package
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/ebi-gene-expression-group/dropletutils-scripts
     total_pulls: 50
+    manually_check: True
 ngmlr:
     name: ngmlr
     description: ">  ngmlr is a long-read mapper desigend to align pacbilo or oxford\
@@ -4011,9 +4012,10 @@ scxa-plots:
     description: A set of wrappers to produce some bespoke plots used by the team
         behind single-cell expresion atlas (scxa) in single-cell rna-seq analysis.
         not to be confused with the plots displayed in scxa itself.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/ebi-gene-expression-group/scxa-plots
     total_pulls: 40
+    manually_check: True
 spacepharer:
     name: spacepharer
     description:
@@ -5426,9 +5428,10 @@ gridss:
 scmap-cli:
     name: scmap-cli
     description: Cli scripts for the scmap package
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/ebi-gene-expression-group/scmap-cli
     total_pulls: 22
+    manually_check: True
 caper:
     name: caper
     description: Cromwell assisted pipeline executor
@@ -6003,9 +6006,10 @@ garnett-cli:
     name: garnett-cli
     description: Collection of wrapper scripts for the garnett scrnaseq cell type
         classification tool.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/ebi-gene-expression-group/garnett-cli
     total_pulls: 17
+    manually_check: True
 panaroo:
     name: panaroo
     description: Panaroo - an updated pipeline for pangenome investigation
@@ -6282,9 +6286,10 @@ seurat-scripts:
         intermediate steps are currently mainly serialized r objects, but the ultimate
         objective is to have language-agnostic intermediate formats allowing composite
         workflows using a variety of software packages.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/ebi-gene-expression-group/r-seurat-scripts
     total_pulls: 15
+    manually_check: True
 ezclermont:
     name: ezclermont
     description: Easily determine the clermont 2013 e coli phylotype
@@ -6305,9 +6310,10 @@ monocle3-cli:
         intermediate steps are currently monocle3 r objects, but the ultimate objective
         is to have language-agnostic intermediate formats allowing composite workflows
         using a variety of software packages.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/ebi-gene-expression-group/monocle-scripts
     total_pulls: 15
+    manually_check: True
 recentrifuge:
     name: recentrifuge
     description: Robust comparative analysis and contamination removal for metagenomics
@@ -7393,9 +7399,10 @@ cell-types-analysis:
     name: cell-types-analysis
     description: A suite of scripts for analysis of scrna-seq cell type classification
         tools outputs.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/ebi-gene-expression-group/cell-types-analysis
     total_pulls: 9
+    manually_check: True
 deepmased:
     name: deepmased
     description: Deep learning for metagenome assembly error detection
@@ -7759,9 +7766,10 @@ scpred-cli:
     name: scpred-cli
     description: A set of command-line wrappers for the core functions in the scpred
         package.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/ebi-gene-expression-group/scPred-cli
     total_pulls: 8
+    manually_check: True
 pybedgraph:
     name: pybedgraph
     description:
@@ -8127,9 +8135,10 @@ r-workflowscriptscommon:
         in r packages are hard to call when building workflows outside of r, so this
         package is used by other packages (e.g. r-seurat-scripts) to add sets of simple
         wrappers with robust argument parsing.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/ebi-gene-expression-group/workflowscriptscommon
     total_pulls: 7
+    manually_check: True
 evidencemodeler:
     name: evidencemodeler
     description: Evidence modeler combines ab intio gene predictions, protein alignments,
@@ -11522,9 +11531,10 @@ atlas-metadata-validator:
     name: atlas-metadata-validator
     description: A mage-tab validator for expression atlas and single cell expression
         atlas
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/ebi-gene-expression-group/atlas-metadata-validator
     total_pulls: 4
+    manually_check: True
 xpressplot:
     name: xpressplot
     description: A toolkit for navigating and analyzing gene expression datasets.
@@ -26753,9 +26763,10 @@ r-firebrowser:
 hca-matrix-downloader:
     name: hca-matrix-downloader
     description: Python client for the hca dcp matrix service
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/ebi-gene-expression-group/hca-matrix-downloader
     total_pulls: 3
+    manually_check: True
 r-tftargets:
     name: r-tftargets
     description: Human transcription factor target genes.
@@ -35559,11 +35570,11 @@ tamenmr:
     total_pulls: 0
 ebi-webservice:
     name: ebi-webservice
-    description: A collection of web service clients to consume ebi bioinfomatics
-        tools
+    description: A collection of web service clients to consume ebi bioinfomatics tools
     license: Apache-2.0
     home_url: https://www.ebi.ac.uk/services
     total_pulls: 0
+    manually_check: True
 python-mne:
     name: python-mne
     description: ''
@@ -51373,9 +51384,10 @@ bioconductor-singlecellexperiment-scripts:
         parsing. intermediate steps are currently mainly serialized r objects, but
         the ultimate objective is to have language-agnostic intermediate formats allowing
         composite workflows using a variety of software packages.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/ebi-gene-expression-group/bioconductor-singlecellexperiment-scripts
     total_pulls: 0
+    manually_check: True
 gatb:
     name: gatb
     description:
@@ -52859,9 +52871,10 @@ tximport-scripts:
         intermediate steps are currently mainly serialized r objects, but the ultimate
         objective is to have language-agnostic intermediate formats allowing composite
         workflows using a variety of software packages.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/ebi-gene-expression-group/tximport-scripts
     total_pulls: 0
+    manually_check: True
 r-bioverbs:
     name: r-bioverbs
     description:
@@ -53154,9 +53167,10 @@ sc3-scripts:
         steps are currently mainly serialized r objects, but the ultimate objective
         is to have language-agnostic intermediate formats allowing composite workflows
         using a variety of software packages.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/ebi-gene-expression-group/bioconductor-sc3-scripts
     total_pulls: 0
+    manually_check: True
 pytest-workflow:
     name: pytest-workflow
     description:
@@ -53282,9 +53296,10 @@ scater-scripts:
         intermediate steps are currently mainly serialized r objects, but the ultimate
         objective is to have language-agnostic intermediate formats allowing composite
         workflows using a variety of software packages.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/ebi-gene-expression-group/bioconductor-scater-scripts
     total_pulls: 0
+    manually_check: True
 bioconductor-moonlightr:
     name: bioconductor-moonlightr
     description:
@@ -55499,6 +55514,7 @@ scran-cli:
         scran implements functions for low-level analyses of single-cell rna-seq data.functions
         r packages are hard to call when building workflows outside of r, so this
         package adds a set of simple wrappers with robust argument parsing.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/ebi-gene-expression-group/scran-cli
     total_pulls: 0
+    manually_check: True
