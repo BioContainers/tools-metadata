@@ -3758,7 +3758,7 @@ ngmlr:
     description: "A long-read mapper desigend to align pacbilo or oxford nanopore to a reference
      genome optimized for structural variation detection"
     license: MIT
-    home_url: '"https://github.com/philres/ngmlr"'
+    home_url: https://github.com/philres/ngmlr
     total_pulls: 48
     manually_check: true
 bioconductor-perfect:
@@ -3767,12 +3767,14 @@ bioconductor-perfect:
     license: Not available
     home_url: https://bioconductor.org/packages/3.11/bioc/html/PERFect.html
     total_pulls: 48
+    manually_check: true
 fwdpy11:
     name: fwdpy11
-    description: "'Forward-time population genetic simulation in Python.'"
-    license: GNU General Public License v3 or later (GPLv3+)
+    description: Forward-time population genetic simulation in Python
+    license: GPL-3.0
     home_url: http://pypi.python.org/pypi/fwdpy11
     total_pulls: 47
+    manually_check: true
 genome_updater:
     name: genome_updater
     description: 'Genome_updater: bash script to download and update snapshots of
@@ -3780,6 +3782,7 @@ genome_updater:
     license: Not available
     home_url: https://github.com/pirovc/genome_updater
     total_pulls: 47
+    manually_check: true
 bioconductor-tximport:
     name: bioconductor-tximport
     description: "# Bioconductor-Tximport\n\n> Imports transcript-level abundance,\
@@ -3789,22 +3792,25 @@ bioconductor-tximport:
         \ as a matrix which can be used as an offset for different expression of gene-level\
         \ counts.\n\n> Licence: Gpl (>=2)\n\nHome: http://bioconductor.org/packages/release/bioc/src/contrib/tximport_1.0.3.tar.gz\n\
         \n"
-    license: "'GPL (>=2)'"
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    license: GPL-2.0
+    home_url: https://bioconductor.org/packages/release/bioc/html/tximport.html
     total_pulls: 46
+    manually_check: true
 convert_zero_one_based:
     name: convert_zero_one_based
     description: Convert between zero and one based coordinate systems
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/griffithlab/convert_zero_one_based.git
     total_pulls: 46
+    manually_check: true
 crispector:
     name: crispector
     description: Accurate estimation of off-target editing activity from comparative
         ngs data
-    license: Not available
+    license: Custom License
     home_url: https://github.com/YakhiniGroup/crispector
     total_pulls: 46
+    manually_check: true
 biscuit:
     name: biscuit
     description: A utility for analyzing sodium bisulfite conversion-based DNA methylation/modification
@@ -3812,6 +3818,7 @@ biscuit:
     license: MIT
     home_url: https://github.com/huishenlab/biscuit
     total_pulls: 46
+    manually_check: true
 bioconductor-purecn:
     name: bioconductor-purecn
     description: This package estimates tumor purity, copy number, loss of heterozygosity
@@ -3822,10 +3829,11 @@ bioconductor-purecn:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/PureCN.html
     total_pulls: 45
+    manually_check: true
 metawrap:
     name: metawrap
     description: Metawrap is a pipeline for genome-resolved metagenomic data analysis
-    license: Not available
+    license: MIT
     home_url: https://github.com/bxlab/metaWRAP
     total_pulls: 45
 zorro:
@@ -3835,41 +3843,45 @@ zorro:
         assembly. the main caracteristic of zorro is the treatment before and after
         assembly to avoid errors.
     license: GPL-3.0
-    home_url: http://lge.ibi.unicamp.br/zorro/
+    home_url: https://sourceforge.net/projects/probmask/
     total_pulls: 44
+    manually_check: true
 wtdbg:
     name: wtdbg
-    description: "'Wtdbg2: A fuzzy Bruijn graph approach to long noisy reads assembly'"
-    license: GPL-3.0+
+    description: A fuzzy Bruijn graph approach to long noisy reads assembly
+    license: GPL-3.0
     home_url: https://github.com/ruanjue/wtdbg2
     total_pulls: 44
+    manually_check: true
 crispresso2:
     name: crispresso2
     description: '"A software pipeline designed to enable rapid and intuitive interpretation
         of genome editing experiments"'
-    license: Partners
+    license: Custom License
     home_url: https://github.com/pinellolab/CRISPResso2
     total_pulls: 44
+    manually_check: true
 bioconductor-mogene10stprobeset.db:
     name: bioconductor-mogene10stprobeset.db
     description: Affymetrix mogene10 annotation data (chip mogene10stprobeset)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/mogene10stprobeset.db.html
     total_pulls: 44
+    manually_check: true
 picard-slim:
     name: picard-slim
     description: Java tools for working with ngs data in the bam format.
-    license: Not available
-    home_url: http://broadinstitute.github.io/picard/
+    license: MIT
+    home_url: https://github.com/broadinstitute/picard
     total_pulls: 44
+    manually_check: true
 genomedata:
     name: genomedata
-    description: "# Genomedata\n\n> Tools for accessing large amounts of genomic data\n\
-        \n> Licence: Gpl2\n\nHome: https://files.pythonhosted.org/packages/ae/c8/504b3674a150128e61f5cd075900cc2139e0ac48dabdb70ddf314fbe8424/genomedata-1.3.5.tar.gz\n\
-        \n"
-    license: GPL2
-    home_url: http://genomedata.hoffmanlab.org/
+    description: "Tools for accessing large amounts of genomic data"
+    license: GPL-2.0
+    home_url: https://bitbucket.org/hoffmanlab/genomedata/
     total_pulls: 43
+    manually_check: true
 comparative-annotation-toolkit:
     name: comparative-annotation-toolkit
     description: A straightforward end-to-end pipeline that takes as input a hal-format
