@@ -31,14 +31,18 @@ for key in file_annotations:
         print("Conda -- " + key)
         with open(recipes_path + key + "/meta.yaml", 'r') as conda_file:
             data = read_template(conda_file)
-            if 'description' in data and (tool['description'] is None or len(tool['description']) == 0):
+            check = True
+            if 'description' in data:
                tool['description'] = data['description']
                check = True
-            if 'license' in data and (tool['license'] is None or len(tool['license']) == 0):
+            if 'license' in data:
                tool['license'] = data['license']
-            if 'home' in data and (tool['home_url'] is None or len(tool['home_url']) == 0):
+               check = True
+            if 'home' in data:
                 tool['home_url'] = data['home']
-
+                check = True
+            if check:
+                tool['manually_check'] = True
     tools[key] = tool
 
 # writing missing
