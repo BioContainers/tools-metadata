@@ -41651,13 +41651,12 @@ rainbow:
     total_pulls: 0
 ra-integrate:
     name: ra-integrate
-    description: "# Ra-Integrate\n\n> Integration of the ra assembler - a de novo\
-        \ dna assembler for third generation sequencing data.\n\n> Licence: Gpl3\n\
-        \nHome: https://github.com/mariokostelac/ra-integrate/archive/v0.1.tar.gz\n\
-        \n"
-    license: GPL3
+    description: Integration of the Ra assembler - a de novo DNA assembler for third
+        generation sequencing data.
+    license: GPL-3.0
     home_url: https://github.com/mariokostelac/ra-integrate
     total_pulls: 0
+    manually_check: true
 r-amap:
     name: r-amap
     description: ">  tools for clustering and principal component analysis (with robust\
@@ -41667,11 +41666,12 @@ r-amap:
     total_pulls: 0
 rapclust:
     name: rapclust
-    description: Accurate, fast and lightweight clustering of de novo transcriptomes
-        using fragment equivalence classes
-    license: Not available
+    description: "'Accurate, Fast and Lightweight Clustering of de novo Transcriptomes\
+        \ using Fragment Equivalence Classes'"
+    license: BSD
     home_url: https://github.com/COMBINE-lab/RapClust
     total_pulls: 0
+    manually_check: true
 r-argparse:
     name: r-argparse
     description: ">  a command line parser to be used with rscript to write \"#!\"\
@@ -41688,12 +41688,11 @@ r-ash:
     total_pulls: 0
 razers3:
     name: razers3
-    description: "# Razers3\n\n> A tool for mapping millions of short genomic reads\
-        \ onto a reference genome\n\n> Licence: Gplv3\n\nHome: http://packages.seqan.de/seqan-src/seqan-src-2.0.1.tar.gz\n\
-        \n"
-    license: GPLv3
+    description: RazerS 3 - Faster, fully sensitive read mapping
+    license: GPL-3.0
     home_url: http://www.seqan.de/projects/razers/
     total_pulls: 0
+    manually_check: true
 r-base64:
     name: r-base64
     description: ">  base 64 encoder/decoder\n\n> Licence:  Gpl (>= 2)\n\n"
@@ -55426,21 +55425,24 @@ perl-archive-tar-wrapper:
 amap:
     name: amap
     description: AMAP is a multiple sequence alignment program based on sequence annealing.
-    license: GPL-2
+    license: GPL-2,0
     home_url: https://web.archive.org/web/20060902044446/http://bio.math.berkeley.edu/amap/
     total_pulls: 0
+    manually_check: true
 seqhax:
     name: seqhax
     description: A collection of next-gen sequence data utilities
-    license: MPL2
+    license: MPL-2.0
     home_url: https://github.com/kdmurray91/seqhax
     total_pulls: 0
+    manually_check: true
 sepp:
     name: sepp
-    description: Sate-enabled phylogenetic placement
-    license: GPLv3
+    description: SATe-enabled phylogenetic placement
+    license: GPL-3.0
     home_url: https://github.com/smirarab/sepp
     total_pulls: 0
+    manually_check: true
 pbwt:
     name: pbwt
     description: Positional Burrows-Wheeler Transform -  methods for storing and computing
@@ -55448,6 +55450,7 @@ pbwt:
     license: Apache-2.0
     home_url: https://github.com/richarddurbin/pbwt
     total_pulls: 0
+    manually_check: true
 bicseq2-norm:
     name: bicseq2-norm
     description: '"BICseq2-norm is for normalizing potential biases in the sequencing
@@ -55455,12 +55458,14 @@ bicseq2-norm:
     license: Custom
     home_url: http://compbio.med.harvard.edu/BIC-seq/
     total_pulls: 0
+    manually_check: true
 gbmunge:
     name: gbmunge
     description: '"Munge GenBank files into FASTA and tab-separated metadata."'
     license: MIT
     home_url: https://github.com/sdwfrost/gbmunge
     total_pulls: 0
+    manually_check: true
 bicseq2-seg:
     name: bicseq2-seg
     description: '"BICseq2-seg is for detecting CNVs based on the normalized data
@@ -55468,19 +55473,22 @@ bicseq2-seg:
     license: Custom
     home_url: http://compbio.med.harvard.edu/BIC-seq/
     total_pulls: 0
+    manually_check: true
 r-sew:
     name: r-sew
-    description: SEW
-    license: BSD3
+    description: SEW is an R program for reference panel free, long read phasing
+    license: BSD-3.0
     home_url: https://github.com/Genomicsplc/SEW
     total_pulls: 0
+    manually_check: true
 igv-reports:
     name: igv-reports
     description: Creates self-contained html pages for visual variant review with
-        igv (igv.js).
-    license: Not available
+        IGV (igv.js).
+    license: MIT
     home_url: https://github.com/igvteam/igv-reports
     total_pulls: 0
+    manually_check: true
 perl-escape-houdini:
     name: perl-escape-houdini
     description:
@@ -55489,40 +55497,46 @@ perl-escape-houdini:
     total_pulls: 0
 jvarkit-bam2wig:
     name: jvarkit-bam2wig
-    description: Bam to fixedstep wiggle converter, or bed graph.
-    license: Not available
+    description: Bam to fixedStep Wiggle converter, or BED GRAPH.
+    license: MIT
     home_url: http://lindenb.github.io/jvarkit/Bam2Wig.html
     total_pulls: 0
+    manually_check: true
 jvarkit-bam2svg:
     name: jvarkit-bam2svg
-    description: Bam to scalar vector graphics (svg)
-    license: Not available
+    description: BAM to Scalar Vector Graphics (SVG)
+    license: MIT
     home_url: http://lindenb.github.io/jvarkit/BamToSVG.html
     total_pulls: 0
+    manually_check: true
 scaden:
     name: scaden
     description: Cell type deconvolution using single cell data
-    license: Not available
+    license: MIT
     home_url: https://github.com/KevinMenden/scaden
     total_pulls: 0
+    manually_check: true
 perl-lyve-set:
     name: perl-lyve-set
-    description: Perl libraries required for lyve-set.
-    license: Not available
+    description: '"Perl libraries required for Lyve-SET."'
+    license: MIT
     home_url: https://github.com/lskatz/lyve-SET
     total_pulls: 0
+    manually_check: true
 perl-cg-pipeline:
     name: perl-cg-pipeline
-    description: Perl libraries required for cg-pipeline.
-    license: Not available
+    description: '"Perl libraries required for CG-Pipeline."'
+    license: GNU GPL
     home_url: https://github.com/lskatz/CG-Pipeline
     total_pulls: 0
+    manually_check: true
 kipoi-utils:
     name: kipoi-utils
-    description: 'Kipoi-utils: utils used in various packages related to kipoi'
-    license: Not available
+    description: '"kipoi-utils: utils used in various packages related to kipoi"'
+    license: MIT
     home_url: https://github.com/kipoi/kipoi-utils
     total_pulls: 0
+    manually_check: true
 kipoi-conda:
     name: kipoi-conda
     description:
@@ -55531,43 +55545,49 @@ kipoi-conda:
     total_pulls: 0
 scvis:
     name: scvis
-    description: Scvis is a python package for dimension reduction of high-dimensional
-        biological data, especially single-cell rna-sequencing (scrna-seq) data.
-    license: Not available
+    description: scvis is a python package for dimension reduction of high-dimensional
+        biological data, especially single-cell RNA-sequencing (scRNA-seq) data.
+    license: CC-BY-4.0
     home_url: https://bitbucket.org/jerry00/scvis-dev/commits/all
     total_pulls: 0
+    manually_check: true
 dropest:
     name: dropest
     description: Pipeline for initial analysis of droplet-based single-cell RNA-seq
         data
-    license: GPL3
+    license: GPL-3.0
     home_url: https://github.com/hms-dbmi/dropEst/
     total_pulls: 0
+    manually_check: true
 ma:
     name: ma
     description: MA - The Modular Aligner
     license: MIT
     home_url: https://github.com/ITBE-Lab/MA
     total_pulls: 0
+    manually_check: true
 super_distance:
     name: super_distance
     description: "'Supertree method with distances'"
-    license: "'GPLv3'"
+    license: GPL-3.0
     home_url: https://github.com/quadram-institute-bioscience/super_distance
     total_pulls: 0
+    manually_check: true
 defiant:
     name: defiant
     description: Differential methylation, Easy, Fast, Identification and ANnoTation.
     license: GPL-2.0
     home_url: https://github.com/hhg7/defiant
     total_pulls: 0
+    manually_check: true
 sexdeterrmine:
     name: sexdeterrmine
-    description: A python script carry out calculate the relative coverage of x and
-        y chromosomes, and their associated error bars, out of capture data.
-    license: Not available
+    description: '"A python script carry out calculate the relative coverage of X
+        and Y chromosomes, and their associated error bars, out of capture data."'
+    license: GPL-3.0
     home_url: https://github.com/TCLamnidis/Sex.DetERRmine
     total_pulls: 0
+    manually_check: true
 r-kaos:
     name: r-kaos
     description:
@@ -55576,22 +55596,25 @@ r-kaos:
     total_pulls: 0
 happer:
     name: happer
-    description: Minimal python library for generating haplotype sequences.
-    license: Not available
+    description: Minimal Python library for generating haplotype sequences.
+    license: BSD
     home_url: https://github.com/bioforensics/happer/
     total_pulls: 0
+    manually_check: true
 perl-test-file:
     name: perl-test-file
-    description: Test file attributes
-    license: Not available
+    description: "'test file attributes'"
+    license: perl_5
     home_url: https://github.com/briandfoy/test-file
     total_pulls: 0
+    manually_check: true
 perl-test-utf8:
     name: perl-test-utf8
-    description: Handy utf8 tests
-    license: Not available
+    description: "'handy utf8 tests'"
+    license: perl_5
     home_url: https://github.com/2shortplanks/Test-utf8/tree
     total_pulls: 0
+    manually_check: true
 mhcnuggets:
     name: mhcnuggets
     description: "'MHCnuggets: Neoantigen peptide MHC binding prediction for class\
