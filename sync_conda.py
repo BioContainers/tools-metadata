@@ -4,7 +4,7 @@ from ruamel.yaml import YAML
 
 
 yaml = YAML()
-with open('annotations.yaml', 'r') as read_file:
+with open('annotations.yaml.072020', 'r') as read_file:
     file_annotations = yaml.load(read_file)
 
 recipes_path = "../bioconda-recipes/recipes/"
@@ -33,6 +33,7 @@ for key in file_annotations:
             data = read_template(conda_file)
             if 'description' in data and (tool['description'] is None or len(tool['description']) == 0):
                tool['description'] = data['description']
+               check = True
             if 'license' in data and (tool['license'] is None or len(tool['license']) == 0):
                tool['license'] = data['license']
             if 'home' in data and (tool['home_url'] is None or len(tool['home_url']) == 0):
