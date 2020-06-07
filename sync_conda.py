@@ -4,7 +4,7 @@ from ruamel.yaml import YAML
 
 
 yaml = YAML()
-with open('annotations.yaml.072020', 'r') as read_file:
+with open('annotations.yaml', 'r') as read_file:
     file_annotations = yaml.load(read_file)
 
 recipes_path = "../bioconda-recipes/recipes/"
