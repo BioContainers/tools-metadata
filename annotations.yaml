@@ -1751,9 +1751,10 @@ proda:
     manually_check: true
 rdp-readseq:
     name: rdp-readseq
-    description: Java based common sequence file format reader and sequence file manipulation.
-    license: NGPL-3.0
-    home_url: https://github.com/rdpstaff/ReadSeq
+    description: "'Java based common sequence file format reader and sequence file\
+        \ manipulation.'"
+    license: GPL-3.0
+    home_url: "'https://github.com/rdpstaff/ReadSeq'"
     total_pulls: 4814
     manually_check: true
 snap-aligner:
@@ -1810,9 +1811,9 @@ raxml:
     manually_check: true
 pybedtools:
     name: pybedtools
-    description: Python 3 wrapper around bedtools for bioinformatics work
-    license: GPL-2+
-    home_url: https://daler.github.io/pybedtools/
+    description: Wraps BEDTools for use in Python and adds many additional features.
+    license: GPL
+    home_url: https://github.com/daler/pybedtools
     total_pulls: 4807
     manually_check: true
 ssake:
@@ -54918,9 +54919,10 @@ rna-cd:
 spectrum_utils:
     name: spectrum_utils
     description: Mass spectrometry utility functions
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/bittremieux/spectrum_utils
     total_pulls: 0
+    manually_check: true
 hr2:
     name: hr2
     description: "'HR2 is a program to calculate elemental compositions for a given\
@@ -54929,76 +54931,87 @@ hr2:
     license: GPL
     home_url: http://fiehnlab.ucdavis.edu
     total_pulls: 0
+    manually_check: true
 howdesbt:
     name: howdesbt
     description: Sequence Bloom Tree, supporting determined/how split filters
     license: MIT
     home_url: https://github.com/medvedevgroup/HowDeSBT
     total_pulls: 0
+    manually_check: true
 mirfix:
     name: mirfix
-    description: Mirfix automatically curates mirna datasets by improving alignments
-        of their precursors, the consistency of the annotation of mature mir and mir*
-        sequence, and the phylogenetic coverage. mirfix produces alignments that are
+    description: MIRfix automatically curates miRNA datasets by improving alignments
+        of their precursors, the consistency of the annotation of mature miR and miR*
+        sequence, and the phylogenetic coverage. MIRfix produces alignments that are
         comparable across families and sets the stage for improved homology search
         as well as quantitative analyses.
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/Bierinformatik/MIRfix
     total_pulls: 0
+    manually_check: true
 cfm:
     name: cfm
     description: "'Tools for applying Competitive Fragmentation Modeling (CFM) to\
         \ spectrum prediction and metabolite identification tasks, as well as a tools\
         \ for fragment generation and peak annotation.'"
-    license: GPL-2
+    license: GPL-2.0
     home_url: https://sourceforge.net/p/cfm-id/wiki/Home/
     total_pulls: 0
+    manually_check: true
 spotyping3:
     name: spotyping3
-    description: 'Spotyping3: fast and accurate in silico mycobacterium spoligotyping
-        from sequence reads, compatible with python3'
-    license: Not available
+    description: "'SpoTyping3: fast and accurate in silico Mycobacterium spoligotyping\
+        \ from sequence reads, compatible with Python3'"
+    license: GPL-3.0
     home_url: https://github.com/matnguyen/SpoTyping
     total_pulls: 0
+    manually_check: true
 jobtree:
     name: jobtree
-    description: Python based pipeline management software for clusters that makes
-        running recursive and dynamically scheduled computations straightforward
-    license: Not available
+    description: "'Python based pipeline management software for clusters that makes\
+        \ running recursive and dynamically scheduled computations straightforward'"
+    license: MIT
     home_url: https://github.com/benedictpaten/jobTree
     total_pulls: 0
+    manually_check: true
 mtnucratio:
     name: mtnucratio
-    description: A small tool to determine mt to nuclear ratios for ngs data.
-    license: Not available
+    description: '"A small tool to determine MT to Nuclear ratios for NGS data."'
+    license: GPL-3.0
     home_url: https://github.com/apeltzer/MTNucRatioCalculator
     total_pulls: 0
+    manually_check: true
 biobb_adapters:
     name: biobb_adapters
     description: Biobb_adapters is the biobb module collection to use the building
         blocks with several workflow managers.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/bioexcel/biobb_adapters
     total_pulls: 0
+    manually_check: true
 bigsi:
     name: bigsi
     description: Bitsliced genomic signature index [bigsi]
-    license: Not available
+    license: MIT
     home_url: https://github.com/Phelimb/BIGSI
     total_pulls: 0
+    manually_check: true
 biobb_wf_mutations:
     name: biobb_wf_mutations
-    description: 'Lysozyme plus mutations workflow built using biobb based on the
-        official gromacs tutorial: http://www.mdtutorials.com/gmx/lysozyme/01_pdb2gmx.html'
-    license: Not available
+    description: "'Lysozyme plus Mutations workflow built using BioBB Based on the\
+        \ official Gromacs tutorial: http://www.mdtutorials.com/gmx/lysozyme/01_pdb2gmx.html'"
+    license: Apache-2.0
     home_url: https://github.com/bioexcel/biobb_md
     total_pulls: 0
+    manually_check: true
 ncbi-util-legacy:
     name: ncbi-util-legacy
     description: NCBI software development toolkit
     license: Public Domain
     home_url: ftp://ftp.ncbi.nih.gov/toolbox/ncbi_tools/
     total_pulls: 0
+    manually_check: true
 oncotator:
     name: oncotator
     description: '"Oncotator is a tool for annotating human genomic point mutations
@@ -55006,19 +55019,22 @@ oncotator:
     license: Custom OSS
     home_url: https://github.com/broadinstitute/oncotator
     total_pulls: 0
+    manually_check: true
 mantis:
     name: mantis
     description: "'Mantis: A Fast, Small, and Exact Large-Scale Sequence-Search Index'"
     license: BSD-3-Clause
     home_url: https://github.com/splatlab/mantis
     total_pulls: 0
+    manually_check: true
 kyototycoon:
     name: kyototycoon
     description: "'a lightweight network server on top of the Kyoto Cabinet key-value\
         \ database, built for high-performance and concurrency'"
-    license: GNU GPL v3.0
+    license: GPL-3.0
     home_url: https://github.com/alticelabs/kyoto
     total_pulls: 0
+    manually_check: true
 scater-scripts:
     name: scater-scripts
     description: A set of wrappers for individual components of the scater package.
@@ -55034,9 +55050,10 @@ scater-scripts:
 bioconductor-moonlightr:
     name: bioconductor-moonlightr
     description: "'Identify oncogenes and tumor suppressor genes from omics data'"
-    license: "'GPL (>= 3)'"
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    license: GPL-3.0
+    home_url: https://bioconductor.org/packages/release/bioc/html/MoonlightR.html
     total_pulls: 0
+    manually_check: true
 bioconductor-ampliqueso:
     name: bioconductor-ampliqueso
     description:
@@ -55057,19 +55074,22 @@ easel:
     license: BSD
     home_url: https://github.com/EddyRivasLab/easel
     total_pulls: 0
+    manually_check: true
 chorus2:
     name: chorus2
     description: A pipeline to select oligonucleotides for fluorescence in situ hbridization
         (Oligo-FISH).
-    license: MIT license
+    license: MIT
     home_url: https://github.com/zhangtaolab/Chorus2
     total_pulls: 0
+    manually_check: true
 gvcf2bed:
     name: gvcf2bed
-    description: Convert gvcf into bed
-    license: Not available
+    description: Convert gVCF into BED
+    license: MIT
     home_url: https://github.com/sndrtj/gvcf2bed
     total_pulls: 0
+    manually_check: true
 biopet-fastqsplitter:
     name: biopet-fastqsplitter
     description: This tool divides a fastq file into smaller fastq files, based on
