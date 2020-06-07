@@ -3964,10 +3964,11 @@ bioconductor-fly.db0:
     total_pulls: 42
 bioconductor-gigsea:
     name: bioconductor-gigsea
-    description: "'Genotype Imputed Gene Set Enrichment Analysis'"
-    license: LGPL-3
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    description: "Genotype Imputed Gene Set Enrichment Analysis"
+    license: LGPL-3.0
+    home_url: http://bioconductor.org/packages/release/bioc/html/GIGSEA.html
     total_pulls: 42
+    manually_check: true
 bioconductor-dune:
     name: bioconductor-dune
     description: Improving replicability in single-cell rna-seq cell type discovery
@@ -3988,45 +3989,46 @@ bioconductor-txdb.mmusculus.ucsc.mm10.ensgene:
     total_pulls: 41
 pyprophet:
     name: pyprophet
-    description: "# Pyprophet\n\n> Python reimplementation of mprophet peak scoring\n\
-        \n> Licence: Bsd License\n\nHome: https://pypi.python.org/packages/0b/b5/4afe0b5b6ebac3755c2d27a58aeac39d57168d5246a0d52f32752cc46c45/pyprophet-0.22.0.tar.gz\n\
-        \n"
-    license: BSD License
+    description: "Python reimplementation of mprophet peak scoring"
+    license: BSD
     home_url: https://github.com/PyProphet/pyprophet
     total_pulls: 41
+    manually_check: true
 breseq:
     name: breseq
-    description: ">  'a computational pipeline for finding mutations relative to a\
-        \ reference sequence in short-read dna re-sequencing data.'\n\n> Licence:\
-        \  Copying\n\nHome:  https://github.com/barricklab/breseq/releases/download/v0.29.0/breseq-0.29.0-Source.tar.gz\n\
-        \n"
+    description: "A computational pipeline for finding mutations relative to a reference sequence in short-read dna re-sequencing data."
     license: GPL-3.0
     home_url: https://github.com/barricklab/breseq
     total_pulls: 41
+    manually_check: true
 bioconductor-otubase:
     name: bioconductor-otubase
     description: Provides a platform for operational taxonomic unit based analysis.
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/OTUbase.html
     total_pulls: 41
+    manually_check: true
 bioconductor-gcrma:
     name: bioconductor-gcrma
-    description:
-    license:
-    home_url:
+    description: Background adjustment using sequence information
+    license: LGPL
+    home_url: https://www.bioconductor.org/packages/release/bioc/html/gcrma.html
     total_pulls: 41
+    manually_check: true
 bioconductor-smite:
     name: bioconductor-smite
-    description: "'Significance-based Modules Integrating the Transcriptome and Epigenome'"
+    description: Significance-based Modules Integrating the Transcriptome and Epigenome
     license: "'GPL (>=2)'"
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    home_url: https://bioconductor.org/packages/release/bioc/html/SMITE.html
     total_pulls: 41
+    manually_check: true
 bioconductor-minet:
     name: bioconductor-minet
-    description: "'Mutual Information NETworks'"
+    description: Mutual Information NETworks
     license: Artistic-2.0
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    home_url: https://bioconductor.org/packages/release/bioc/html/minet.html
     total_pulls: 41
+    manually_check: true
 bioconductor-multiassayexperiment:
     name: bioconductor-multiassayexperiment
     description: Develop an integrative environment where multiple assays are managed
