@@ -10075,29 +10075,33 @@ r-stampp:
 r-metalonda:
     name: r-metalonda
     description: Identify time intervals of differentially abundant metagenomics features
-        in longitudinal studies.
-    license: Not available
+        in longitudinal
+    license: MIT
     home_url: https://github.com/aametwally/MetaLonDA
     total_pulls: 5
+    manually_check: true
 r-phytools:
     name: r-phytools
     description: Phylogenetic tools for comparative biology
-    license: GPL (>= 2)
+    license: GPL-2.0
     home_url: http://github.com/liamrevell/phytools
     total_pulls: 5
+    manually_check: true
 r-lme4qtl:
     name: r-lme4qtl
     description: Linear mixed models (lme4) with flexible covariance structure for
         qtl and association
-    license: GPL (>= 3)
+    license: GPL-3.0
     home_url: https://CRAN.R-project.org/package=lme4qtl
     total_pulls: 5
+    manually_check: true
 morpheus:
     name: morpheus
-    description: Mass spectrometry–based proteomics database search algorithm
-    license: Not available
+    description: mass spectrometry–based proteomics database search algorithm
+    license: MIT
     home_url: https://github.com/cwenger/Morpheus/
     total_pulls: 5
+    manually_check: true
 pasa:
     name: pasa
     description: PASA, acronym for Program to Assemble Spliced Alignments (and pronounced
@@ -10109,6 +10113,7 @@ pasa:
     license: Broad Institute
     home_url: https://pasapipeline.github.io/
     total_pulls: 5
+    manually_check: true
 regtools:
     name: regtools
     description: Tools that integrate DNA-seq and RNA-seq data to help interpret mutations
@@ -10116,27 +10121,31 @@ regtools:
     license: MIT
     home_url: https://github.com/griffithlab/regtools/
     total_pulls: 5
+    manually_check: true
 phame:
     name: phame
-    description: A tool to derive snp matrices and phylogenetic tree from raw reads,
+    description: A tool to derive SNP matrices and phylogenetic tree from raw reads,
         contigs, and full genomes.
-    license: GPLV2
+    license: GPL-2.0
     home_url: https://github.com/LANL-Bioinformatics/PhaME
     total_pulls: 5
+    manually_check: true
 xhmm:
     name: xhmm
     description: XHMM (eXome-Hidden Markov Model).
-    license: GPL3
+    license: GPL-3.0
     home_url: http://atgu.mgh.harvard.edu/xhmm/index.shtml
     total_pulls: 5
+    manually_check: true
 focus:
     name: focus
-    description: Focus is an innovative and agile model to profile and report organisms
-        present in metagenomic samples based on composition usage without sequence
-        length dependencies.
-    license: Not available
+    description: "'FOCUS is an innovative and agile model to profile and report organisms\
+        \ present in metagenomic samples based on composition usage without sequence\
+        \ length dependencies.'"
+    license: GPL-3.0
     home_url: https://edwards.sdsu.edu/FOCUS
     total_pulls: 5
+    manually_check: true
 bioconductor-elmer.data:
     name: bioconductor-elmer.data
     description: "'Data for the ELMER package'"
@@ -10146,30 +10155,33 @@ bioconductor-elmer.data:
     total_pulls: 5
 admixture:
     name: admixture
-    description: Maximum likelihood estimation of individual ancestries from multilocus
-        snp genotype datasets. it uses the same statistical model as structure but
-        calculates estimates using a fast numerical optimization algorithm.
-    license: Not licensed
-    home_url: http://software.genetics.ucla.edu/admixture/
+    description: "'ADMIXTURE is a software tool for maximum likelihood estimation\
+        \ of individual ancestries from multilocus SNP genotype datasets.'"
+    license: Free for Academic Use
+    home_url: http://www.genetics.ucla.edu/software/admixture/index.html
     total_pulls: 5
+    manually_check: true
 r-msqrob:
     name: r-msqrob
-    description: Robust statistical inference for quantitative lc-ms proteomics.
-    license: Not available
+    description: Robust statistical inference for quantitative LC-MS proteomics.
+    license: GPL-2.0
     home_url: https://github.com/statOmics/MSqRob
     total_pulls: 5
+    manually_check: true
 fred2:
     name: fred2
-    description: Python-based framework for computational immunomics.
-    license: Not available
+    description: "'Python-based framework for computational immunomics.'"
+    license: BSD
     home_url: https://fred-2.github.io
     total_pulls: 5
+    manually_check: true
 pydemult:
     name: pydemult
     description: Streamed and parallel demultiplexing of fastq files in python
-    license: Not available
+    license: MIT
     home_url: https://github.com/jenzopr/pydemult
     total_pulls: 5
+    manually_check: true
 bioconductor-metavizr:
     name: bioconductor-metavizr
     description: R interface to the metaviz web app for interactive metagenomics data
@@ -10179,17 +10191,19 @@ bioconductor-metavizr:
     total_pulls: 5
 r-mcpcounter:
     name: r-mcpcounter
-    description: Estimating tissue-infiltrating immune and other stromal subpopulations
-        abundances using gene expression
-    license: Not available
+    description: '"Estimating tissue-infiltrating immune and other stromal subpopulations
+        abundances using gene expression"'
+    license: GPL-3
     home_url: https://github.com/ebecht/MCPcounter
     total_pulls: 5
+    manually_check: true
 bioconductor-dropletutils:
     name: bioconductor-dropletutils
     description: "'Utilities for Handling Single-Cell Droplet Data'"
-    license: GPL-3
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    license: GPL-3.0
+    home_url: https://bioconductor.org/packages/release/bioc/html/DropletUtils.html
     total_pulls: 5
+    manually_check: true
 bioconductor-genie3:
     name: bioconductor-genie3
     description: "'GEne Network Inference with Ensemble of trees'"
@@ -10788,9 +10802,10 @@ r-rismed:
 bioconductor-doscheda:
     name: bioconductor-doscheda
     description: "'A DownStream Chemo-Proteomics Analysis Pipeline'"
-    license: GPL-3
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    license: GPL-3.0
+    home_url: https://www.bioconductor.org/packages/release/bioc/html/Doscheda.html
     total_pulls: 5
+    manually_check: true
 bioconductor-cellscape:
     name: bioconductor-cellscape
     description: "'Explores single cell copy number profiles in the context of a single\
@@ -10992,21 +11007,24 @@ r-pophelper:
     name: r-pophelper
     description: A set of useful functions for processing admixture proportion files
         from the population
-    license: GPL-3
+    license: GPL-3.0
     home_url: https://github.com/royfrancis/pophelper
     total_pulls: 5
+    manually_check: true
 r-misha:
     name: r-misha
     description: "'Toolkit for analysis of genomic data'"
-    license: GPL-2
+    license: GPL-2.0
     home_url: "'https://bitbucket.org/tanaylab/misha-package'"
     total_pulls: 5
+    manually_check: true
 r-umi4c:
     name: r-umi4c
-    description: Process umi-4c data from scratch to produce nice plots.
-    license: Not available
-    home_url: https://bitbucket.org/tanaylab/umi4cpackage
+    description: "'Process UMI-4C data from scratch to produce nice plots.'"
+    license: GPL-2.0
+    home_url: "'https://bitbucket.org/tanaylab/umi4cpackage'"
     total_pulls: 5
+    manually_check: true
 r-mixkernel:
     name: r-mixkernel
     description: Kernel-based methods are powerful methods for integrating  heterogeneous
@@ -11034,25 +11052,28 @@ bioconductor-slingshot:
     license: Not available
     home_url: https://bioconductor.org/packages/3.11/bioc/html/slingshot.html
     total_pulls: 5
+    manually_check: true
 r-minionqc:
     name: r-minionqc
-    description: Quality control for minion sequencing data
-    license: Not available
+    description: "'Quality control for MinION sequencing data'"
+    license: MIT
     home_url: https://github.com/roblanf/minion_qc/blob/master/MinIONQC.R
     total_pulls: 5
+    manually_check: true
 r-minems2:
     name: r-minems2
     description: "'Mine MS-MS spectra using a frequent usbgraph mining approach.'"
     license: GPL-3.0
     home_url: https://github.com/adelabriere/mineMS2
     total_pulls: 5
+    manually_check: true
 bioconductor-mofadata:
     name: bioconductor-mofadata
     description: "'Data package for Multi-Omics Factor Analysis (MOFA)'"
     license: LGPL-3
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/data/experiment/html/{{\
-        \ name }}.html'"
+    home_url: https://bioconductor.org/packages/release/data/experiment/html/MOFAdata.html
     total_pulls: 5
+    manually_check: true
 bioconductor-glad:
     name: bioconductor-glad
     description: "'Gain and Loss Analysis of DNA'"
@@ -11072,6 +11093,7 @@ r-nanopore:
     license: MPL-2.0
     home_url: https://github.com/sagrudd/nanopoRe
     total_pulls: 5
+    manually_check: true
 bioconductor-smad:
     name: bioconductor-smad
     description: "'Statistical Modelling of AP-MS Data (SMAD)'"
@@ -11176,6 +11198,7 @@ r-mgsz:
     license: GPL (>= 2)
     home_url: https://CRAN.R-project.org/package=mGSZ
     total_pulls: 5
+    manually_check: true
 r-metaboanalyst:
     name: r-metaboanalyst
     description: Metaboanalystr 2.0 contains the r functions and libraries underlying
@@ -11185,49 +11208,56 @@ r-metaboanalyst:
     total_pulls: 5
 haplotype-lso:
     name: haplotype-lso
-    description: Haplotype candidatus liberibacter solanacearum (lso) samples from
+    description: Haplotype Candidatus Liberibacter solanacearum (Lso) samples from
         targeted amplicon capillary sequencing data
-    license: Not available
+    license: MIT
     home_url: https://github.com/holtgrewe/haplotype-lso
     total_pulls: 5
+    manually_check: true
 quantwiz-iq:
     name: quantwiz-iq
-    description: Quantwiz-iq is a tool for reporter based ms/ms quantitation using
-        itraq or tmt tags from shotgun proteomics experiments.
-    license: Not available
-    home_url: https://sourceforge.net/projects/quantwiz/
+    description: '"QuantWiz-IQ is a tool for reporter based MS/MS quantitation using
+        iTRAQ or TMT tags from shotgun proteomics experiments."'
+    license: GPL
+    home_url: "'https://sourceforge.net/projects/quantwiz/'"
     total_pulls: 5
+    manually_check: true
 r-velocyto.r:
     name: r-velocyto.r
     description: RNA velocity estimation in R
-    license: GPL-3
+    license: GPL-3.0
     home_url: https://github.com/velocyto-team/velocyto.R
     total_pulls: 5
+    manually_check: true
 r-intlim:
     name: r-intlim
-    description: Integration of omics data using linear modeling
-    license: Not available
+    description: "'Integration of Omics Data Using Linear Modeling'"
+    license: GPL-2.0
     home_url: http://github.com/Mathelab/IntLIM/
     total_pulls: 5
+    manually_check: true
 hail:
     name: hail
-    description: '|'
+    description: Scalable genomic data analysis.
     license: MIT
-    home_url: https://hail.is
+    home_url: https://github.com/hail-is/hail
     total_pulls: 5
+    manually_check: true
 cmseq:
     name: cmseq
-    description: Set of utilities on sequences and bam files
-    license: Not available
+    description: Set of utilities on sequences and BAM files
+    license: MIT
     home_url: https://github.com/SegataLab/cmseq
     total_pulls: 5
+    manually_check: true
 snpgenie:
     name: snpgenie
-    description: Program for estimating πn/πs, dn/ds, and other diversity measures
+    description: Program for estimating πN/πS, dN/dS, and other diversity measures
         from next-generation sequencing data
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/chasewnelson/SNPGenie
     total_pulls: 5
+    manually_check: true
 abacat:
     name: abacat
     description: Abacat - a bacterial genome curation and annotation toolkit
@@ -11241,12 +11271,14 @@ cnvnator:
     license: MIT
     home_url: https://github.com/abyzovlab/CNVnator
     total_pulls: 5
+    manually_check: true
 upimapi:
     name: upimapi
-    description: Uniprot id mapping through api
-    license: Not available
+    description: "'UniProt Id Mapping through API'"
+    license: BSD-3-Clause
     home_url: https://github.com/iquasere/UPIMAPI
     total_pulls: 5
+    manually_check: true
 rnashapes:
     name: rnashapes
     description: "# Rnashapes\n\n> Rnashape abstraction maps structures to a tree-like\
@@ -11296,128 +11328,134 @@ blast-legacy:
     total_pulls: 4
 grep:
     name: grep
-    description: "# Grep\n\n> Grep searches one or more input files for lines containing\
-        \ a match to a specified pattern\n\n> Licence: Gpl\n\nHome: https://depot.galaxyproject.org/software/grep/grep_2.14_src_all.tar.bz2\n\
-        \n"
+    description: Grep searches one or more input files for lines containing a match
+        to a specified pattern
     license: GPL
     home_url: https://www.gnu.org/software/grep/
     total_pulls: 4
+    manually_check: true
 htsbox:
     name: htsbox
-    description: "# Htsbox\n\n> Htsbox is a fork of early htslib. it is a collection\
-        \ of small experimental tools manipulating hts-related files.\n\n> Licence:\
-        \ Unknown\n\nHome: https://github.com/lh3/htsbox/archive/48696952026f1efb2bf7cfa3bc1d3ff227901f79.tar.gz\n\
-        \n"
-    license: Unknown
+    description: HTSbox is a fork of early HTSlib. It is a collection of small experimental
+        tools manipulating HTS-related files.
+    license: Apache-2.0
     home_url: https://github.com/lh3/htsbox
     total_pulls: 4
+    manually_check: true
 igdiscover:
     name: igdiscover
-    description: Analyzes antibody repertoires and discovers new v genes from high-throughput
-        sequencing reads. heavy chains, kappa and lambda light chains are supported
-        (to discover vh, vk and vl genes).
-    license: MIT
-    home_url: http://igdiscover.se/
+    description: "'Analyze antibody repertoires and discover new V genes'"
+    license: "'MIT'"
+    home_url: https://igdiscover.se/
     total_pulls: 4
+    manually_check: true
 nasp:
     name: nasp
-    description: ">  the northern arizona snp pipeline (nasp)\n\n> Licence:  Academic\
-        \ And Research License\n\nHome:  https://github.com/TGenNorth/NASP/archive/69444e55e5b4704a5acae4537123023c28e26d59.tar.gz\n\
-        \n"
+    description: "'NASP: an accurate, rapid method for the identification of SNPs\
+        \ in WGS datasets that supports flexible input and output formats'"
     license: "'Academic and Research License'"
     home_url: "'https://github.com/TGenNorth/nasp'"
     total_pulls: 4
+    manually_check: true
 perl-vcftools-vcf:
     name: perl-vcftools-vcf
-    description: Cpanm ready distribution of vcftools perl libraries
-    license: LGPLv3
+    description: cpanm ready distribution of VCFtools Perl libraries
+    license: LGPL-3.0
     home_url: https://github.com/vcftools/vcftools
     total_pulls: 4
+    manually_check: true
 pronto:
     name: pronto
-    description: Python frontend to ontologies
-    license: Not available
+    description: "'Python frontend to ontologies'"
+    license: MIT
     home_url: http://github.com/althonos/pronto
     total_pulls: 4
+    manually_check: true
 retry_decorator:
     name: retry_decorator
     description: "# Retry_Decorator\n\n> Retry decorator\n\n> Licence: Mit\n\nHome:\
         \ https://pypi.python.org/packages/95/7a/807ac21749ecd26ae3337c3069ed6ac8658b9fbc85f109e419a812b18ab7/retry_decorator-1.1.0.tar.gz\n\
         \n"
-    license:
-    home_url:
+    license: MIR
+    home_url: https://github.com/pnpnpn/retry-decorator
     total_pulls: 4
+    manually_check: true
 r-pore:
     name: r-pore
-    description: An r package to enable organisation and visualisation of nanopore
-        sequencing data
-    license: Not available
+    description: "'An R package to enable organisation and visualisation of nanopore\
+        \ sequencing data'"
+    license: BSD
     home_url: http://sourceforge.net/projects/rpore/
     total_pulls: 4
+    manually_check: true
 r-sleuth:
     name: r-sleuth
-    description: Sleuth is an r library for analysis of rna-seq experiments for which
-        transcript abundances have been quantified with kallisto.
-    license: Not available
+    description: '"Sleuth is an R library for analysis of RNA-Seq experiments for
+        which transcript abundances have been quantified with kallisto."'
+    license: GPL-3.0
     home_url: http://pachterlab.github.io/sleuth
     total_pulls: 4
+    manually_check: true
 snp-pipeline:
     name: snp-pipeline
-    description: Script and functions for snp matrix construction
-    license: Not available
+    description: "'Script and functions for SNP matrix construction'"
+    license: BSD License
     home_url: https://github.com/CFSAN-Biostatistics/snp-pipeline
     total_pulls: 4
+    manually_check: true
 synapseclient:
     name: synapseclient
-    description: Python client for synapse
-    license: Not available
+    description: Python client for Synapse
+    license: Apache-2.0
     home_url: http://synapse.sagebase.org/
     total_pulls: 4
+    manually_check: true
 vawk:
     name: vawk
-    description: An awk-like vcf parser
-    license: Not available
+    description: An awk-like VCF parser
+    license: MIT
     home_url: https://github.com/cc2qe/vawk
     total_pulls: 4
+    manually_check: true
 epic:
     name: epic
-    description: "# Epic\n\n> Chip-seq broad peak/domain finder.\n\n> Licence: Gnu\
-        \ General Public License V3 (Gplv3)\n\nHome: https://pypi.python.org/packages/de/b5/0e9204ab33f9ec53dc0472b6f885f732ee0d9a597790fb0d482c6848c275/bioepic-0.1.24.tar.gz\n\
-        \n"
-    license: GNU General Public License v3 (GPLv3)
+    description: "'Chip-Seq broad peak/domain finder.'"
+    license: GPL-3.0
     home_url: http://github.com/endrebak/epic
     total_pulls: 4
+    manually_check: true
 crispresso:
     name: crispresso
-    description: "# Crispresso\n\n> A software pipeline for the analysis of targeted\
-        \ crispr-cas9 sequencing data\n\n> Licence: Gplv3\n\nHome: https://github.com/lucapinello/CRISPResso/archive/42c37b32a3740a5e0998678a1a0bb221fac69481.zip\n\
-        \n"
-    license: GPLv3
+    description: '"A software pipeline for the analysis of targeted CRISPR-Cas9 sequencing
+        data"'
+    license: GPL-3.0
     home_url: https://github.com/lucapinello/CRISPResso
     total_pulls: 4
+    manually_check: true
 relocate2:
     name: relocate2
     description: A high resolution transposable element insertion sites mapping tool
         for population resequencing
-    license: Not available
+    license: MIT
     home_url: https://github.com/stajichlab/RelocaTE2
     total_pulls: 4
+    manually_check: true
 angsd:
     name: angsd
     description: ">  \"angsd: analysis of next generation sequencing data\"\n\n> Licence:\
         \  Gplv3, Mit\n\n"
-    license: GPLv3, MIT
+    license: GPL-3.0
     home_url: http://www.popgen.dk/angsd/index.php/ANGSD
     total_pulls: 4
+    manually_check: true
 perl-sanger-cgp-vagrent:
     name: perl-sanger-cgp-vagrent
-    description: "# Perl-Sanger-Cgp-Vagrent\n\n> A toolset for comparing genomic variants\
-        \ to reference genome annotation to identify potential biological consequences\n\
-        \n> Licence: Gplv3\n\nHome: https://github.com/cancerit/VAGrENT/archive/v3.2.0.tar.gz\n\
-        \n"
-    license: GPL3
+    description: A toolset for comparing genomic variants to reference genome annotation
+        to identify potential biological consequences.
+    license: GPL-3.0
     home_url: https://github.com/cancerit/VAGrENT
     total_pulls: 4
+    manually_check: true
 bioconductor-methylkit:
     name: bioconductor-methylkit
     description: "# Bioconductor-Methylkit\n\n> Methylkit is an r package for dna\
@@ -11438,41 +11476,46 @@ quake:
     license: Artistic-2.0
     home_url: "'http://www.cbcb.umd.edu/software/quake/'"
     total_pulls: 4
+    manually_check: true
 csvtk:
     name: csvtk
-    description: A cross-platform, efficient, practical csv/tsv toolkit
-    license: Not available
+    description: A cross-platform, efficient, practical CSV/TSV toolkit
+    license: MIT
     home_url: https://github.com/shenwei356/csvtk
     total_pulls: 4
+    manually_check: true
 methyldackel:
     name: methyldackel
-    description: "# Methyldackel\n\n> A (mostly) universal methylation extractor for\
-        \ bs-seq experiments. formerly named pileometh.\n\n> Licence: Mit\n\nHome:\
-        \ https://github.com/dpryan79/MethylDackel/archive/0.2.1.tar.gz\n\n"
+    description: A (mostly) universal methylation extractor for BS-seq experiments.
+        Formerly named PileOMeth.
     license: MIT
     home_url: https://github.com/dpryan79/MethylDackel
     total_pulls: 4
+    manually_check: true
 sff2fastq:
     name: sff2fastq
-    description: ">  'extract 454 genome sequencer reads from a sff file and convert\
-        \ them into a fastq formatted output'\n\n> Licence:  Gpl\n\n"
-    license: GPL-3
+    description: "'Extract 454 Genome Sequencer reads from a SFF file and convert\
+        \ them into a FASTQ formatted output'"
+    license: GPL-3.0
     home_url: https://github.com/indraniel/sff2fastq
     total_pulls: 4
+    manually_check: true
 sistr_cmd:
     name: sistr_cmd
-    description: Salmonella in silico typing resource (sistr) commandline tool for
-        serovar prediction
-    license: Not available
+    description: '"Salmonella In Silico Typing Resource (SISTR) commandline tool for
+        serovar prediction"'
+    license: Apache-2.0
     home_url: https://github.com/peterk87/sistr_cmd/
     total_pulls: 4
+    manually_check: true
 multigps:
     name: multigps
-    description: Multigps is a framework for analyzing collections of multi-condition
-        chip-seq datasets and characterizing differential binding events between conditions.
-    license: Not available
+    description: MultiGPS is a framework for analyzing collections of multi-condition
+        ChIP-seq datasets and characterizing differential binding events between conditions.
+    license: MIT
     home_url: http://mahonylab.org/software/multigps/
     total_pulls: 4
+    manually_check: true
 bpipe:
     name: bpipe
     description: This software provides a platform for running big bioinformatics
@@ -11480,6 +11523,7 @@ bpipe:
     license: BSD-3-clause
     home_url: http://docs.bpipe.org/
     total_pulls: 4
+    manually_check: true
 ddrage:
     name: ddrage
     description: Simulator for ddradseq (double digest restriction site associated
@@ -11494,6 +11538,7 @@ cgat-report:
     license: Not available
     home_url: https://github.com/AndreasHeger/CGATReport
     total_pulls: 4
+    manually_check: true
 velvet-sc:
     name: velvet-sc
     description: Efficient de novo assembly of single-cell bacterial genomes from
@@ -45291,7 +45336,7 @@ agg:
     name: agg
     description: "gvcf aggregation tool"
     license: GPL3
-    home_url: https://github.com/Illumina/agg
+    home_url: https://github.com/Illumina/gvcfgenotyper
     total_pulls: 0
     manually_check: true
 perl-test-files:
