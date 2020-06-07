@@ -45274,18 +45274,18 @@ fastme:
     total_pulls: 0
 sparse-neighbors-search:
     name: sparse-neighbors-search
-    description: "# Sparse-Neighbors-Search\n\n> Licence: Mit\n\nHome: https://github.com/joachimwolff/minHashNearestNeighbors/archive/v0.2.3.tar.gz\n\
-        \n"
+    description: "'Approximate k-nearest neighbors search on sparse datasets'"
     license: MIT
     home_url: https://github.com/joachimwolff/minHashNearestNeighbors
     total_pulls: 0
+    manually_check: true
 r-vgam:
     name: r-vgam
-    description: ">  'an implementation of about 6 major classes of statistical regression\
-        \ models. at the\n\n> Licence:  Gpl3\n\n"
-    license:
-    home_url:
+    description: "An implementation of about 6 major classes of statistical regression models."
+    license: GPL-3.0
+    home_url: https://www.stat.auckland.ac.nz/~yee/VGAM/
     total_pulls: 0
+    manually_check: true
 agg:
     name: agg
     description: "gvcf aggregation tool"
@@ -45307,12 +45307,11 @@ perl-test-output:
     total_pulls: 0
 fann:
     name: fann
-    description: "# Fann\n\n> Fast artificial neural network library\n\n> Licence:\
-        \ Lgpl-2.1\n\nHome: http://downloads.sourceforge.net/project/fann/fann/2.2.0/FANN-2.2.0-Source.zip\n\
-        \n"
+    description: Fast Artificial Neural Network Library
     license: LGPL-2.1
     home_url: http://leenissen.dk/fann/wp/
     total_pulls: 0
+    manually_check: true
 log4cpp:
     name: log4cpp
     description: ">  \"log4cpp is library of c++ classes for flexible logging to files,\
@@ -45323,16 +45322,18 @@ log4cpp:
     total_pulls: 0
 perl-border-style:
     name: perl-border-style
-    description: Border style structure
-    license: Not available
+    description: "'Border style structure'"
+    license: perl_5
     home_url: https://metacpan.org/release/Border-Style
     total_pulls: 0
+    manually_check: true
 perl-clone-pp:
     name: perl-clone-pp
-    description: Recursively copy perl datatypes
-    license: Not available
+    description: "'Recursively copy Perl datatypes'"
+    license: perl_5
     home_url: http://metacpan.org/pod/Clone::PP
     total_pulls: 0
+    manually_check: true
 perl-color-theme:
     name: perl-color-theme
     description: Color theme structure
@@ -45382,6 +45383,7 @@ hicup:
     license: GPL-3.0
     home_url: http://www.bioinformatics.babraham.ac.uk/projects/hicup/
     total_pulls: 0
+    manually_check: true
 pypeflow:
     name: pypeflow
     description: Light weight and reusable make / flow data process library written
@@ -45406,12 +45408,11 @@ r-patpro:
     total_pulls: 0
 randfold:
     name: randfold
-    description: "# Randfold\n\n> Minimum free energy of folding randomization test\
-        \ software\n\n> Licence: Gnu Gplv2\n\nHome: http://bioinformatics.psb.ugent.be/supplementary_data/erbon/nov2003/downloads/randfold-2.0.1.tar.gz\n\
-        \n"
-    license: GNU GPLv2
+    description: Minimum free energy of folding randomization test software
+    license: GPL-2.0
     home_url: http://bioinformatics.psb.ugent.be/software/details/Randfold
     total_pulls: 0
+    manually_check: true
 estmapper:
     name: estmapper
     description: ">  \"software package for the high-throughput alignment of large\
@@ -45421,6 +45422,7 @@ estmapper:
     license: GPL
     home_url: http://kmer.sourceforge.net/wiki/index.php/Getting_Started_with_ESTmapper
     total_pulls: 0
+    manually_check: true
 r-delaporte:
     name: r-delaporte
     description: ">  provides probability mass, distribution, quantile, random-variate\
@@ -45431,16 +45433,17 @@ r-delaporte:
 gtf_to_genes:
     name: gtf_to_genes
     description: Fast gtf parser
-    license: Not available
+    license: MIT
     home_url: http://code.google.com/p/gtf-to-genes/
     total_pulls: 0
+    manually_check: true
 rascaf:
     name: rascaf
-    description: ">  scaffolding with rna-seq read alignment\n\nHome:  https://github.com/mourisl/Rascaf/archive/ed779e100853977307bbdc01c1644390d8556a7b.tar.gz\n\
-        \n"
-    license: GPL2
+    description: Scaffolding with RNA-seq read alignment
+    license: GPL-2.0
     home_url: https://github.com/mourisl/Rascaf/commits/master
     total_pulls: 0
+    manually_check: true
 fido:
     name: fido
     description: "# Fido\n\n> A method for protein identification in ms/ms proteomics.\
@@ -45448,16 +45451,18 @@ fido:
         \ between peptides and spectra, and it fetches a list of proteins ranked by\
         \ posterior probability by doing clever tricks.\n\n> Licence: Mit License\n\
         \nHome: https://noble.gs.washington.edu/proj/fido/fido.tgz\n\n"
-    license: MIT license
+    license: MIT
     home_url: https://noble.gs.washington.edu/proj/fido/
     total_pulls: 0
+    manually_check: true
 vnl:
     name: vnl
-    description: ">  a multi-platform collection of c++ software libraries for computer\
-        \ vision and image understanding.\n\n> Licence:  Bsd\n\n"
+    description: A multi-platform collection of C++ software libraries for Computer
+        Vision and Image Understanding.
     license: BSD
     home_url: https://sf.net/projects/vxl/
     total_pulls: 0
+    manually_check: true
 r-plasmidprofiler:
     name: r-plasmidprofiler
     description: "# R-Plasmidprofiler\n\n> Plasmid profiler\n\n> Licence: Gpl\n\n\
@@ -45477,34 +45482,34 @@ emmix:
     total_pulls: 0
 nextgenmap:
     name: nextgenmap
-    description: ">  nextgenmap is a flexible highly sensitive short read mapping\
-        \ tool that handles much higher mismatch rates than comparable algorithms\
-        \ while still outperforming them in terms of runtime.\n\n> Licence:  Artistic\
-        \ License (Perl) 1.0\n\nHome:  \"https://github.com/Cibiv/NextGenMap/archive/v0.5.3.tar.gz\"\
-        \n\n"
+    description: NextGenMap is a flexible highly sensitive short read mapping tool
+        that
     license: MIT
     home_url: https://github.com/Cibiv/NextGenMap
     total_pulls: 0
+    manually_check: true
 dr-disco:
     name: dr-disco
-    description: 'Dr. disco: fusion gene and genomic breakpoint detection in random
-        hexamer rna-seq data'
-    license: Not available
+    description: "'Dr. Disco: fusion gene and genomic breakpoint detection in random\
+        \ hexamer"
+    license: GPL-3.0
     home_url: https://github.com/yhoogstrate/dr-disco
     total_pulls: 0
+    manually_check: true
 ecmwfapi:
     name: ecmwfapi
     description: Ecmwf api is a set of services developed by ecmwf http://www.ecmwf.int
         to allow users from the outside to access some internal features and data
         of the centre.
-    license: Not available
+    license: Apache-2.0
     home_url: https://software.ecmwf.int/wiki/display/WEBAPI/Access+ECMWF+Public+Datasets#AccessECMWFPublicDatasets-clientlibraries
     total_pulls: 0
+    manually_check: true
 abyss-k128:
     name: abyss-k128
     description: Assembly By Short Sequences - a de novo, parallel, paired-end sequence
         assembler
-    license: GPL-3.
+    license: GPL-3.0
     home_url: https://github.com/bcgsc/abyss
     total_pulls: 0
     manually_check: true
@@ -45548,54 +45553,56 @@ r-ipo-meta:
     total_pulls: 0
 nucleoatac:
     name: nucleoatac
-    description: ">  'python package for calling nucleosomes using atac-seq data.\
-        \ also includes general scripts for working with paired-end atac-seq data\
-        \ (or potentially other paired-end data).'\n\n> Licence:  Mit\n\n"
+    description: "'Python package for calling nucleosomes using ATAC-Seq data. Also\
+        \ includes general scripts for working with paired-end ATAC-Seq data (or potentially\
+        \ other paired-end data).'"
     license: MIT
     home_url: https://github.com/GreenleafLab/NucleoATAC
     total_pulls: 0
+    manually_check: true
 perl-xsloader:
     name: perl-xsloader
-    description: Dynamically load c libraries into perl code
-    license: Not available
+    description: "'Dynamically load C libraries into Perl code'"
+    license: perl_5
     home_url: https://metacpan.org/module/XSLoader
     total_pulls: 0
+    manually_check: true
 perl-package-stash:
     name: perl-package-stash
-    description: "# Perl-Package-Stash\n\n> Routines for manipulating stashes\n\n\
-        > Licence: Perl_5\n\nHome: http://cpan.metacpan.org/authors/id/D/DO/DOY/Package-Stash-0.37.tar.gz\n\
-        \n"
+    description: "'routines for manipulating stashes'"
     license: perl_5
     home_url: http://metacpan.org/release/Package-Stash
     total_pulls: 0
+    manually_check: true
 perl-class-load:
     name: perl-class-load
-    description: A working (require "class::name") and more
-    license: Not available
+    description: "'A working (require \"Class::Name\") and more'"
+    license: perl_5
     home_url: https://github.com/moose/Class-Load
     total_pulls: 0
+    manually_check: true
 perl-class-load-xs:
     name: perl-class-load-xs
-    description: "# Perl-Class-Load-Xs\n\n> Xs implementation of parts of class::load\n\
-        \n> Licence: Artistic_2\n\nHome: https://cpan.metacpan.org/authors/id/E/ET/ETHER/Class-Load-XS-0.09.tar.gz\n\
-        \n"
-    license: artistic_2
+    description: "'XS implementation of parts of Class::Load'"
+    license: Artistic-2.0
     home_url: https://github.com/moose/Class-Load-XS
     total_pulls: 0
+    manually_check: true
 extract-sv-reads:
     name: extract-sv-reads
-    description: "# Extract-Sv-Reads\n\n> Tool for extracting splitter or discordant\
-        \ reads from a bam or cram file.\n\n> Licence: Mit\n\nHome: https://github.com/hall-lab/extract_sv_reads/archive/v1.1.0.tar.gz\n\
-        \n"
+    description: Tool for extracting splitter or discordant reads from a BAM or CRAM
+        file.
     license: MIT
     home_url: https://github.com/hall-lab/extract_sv_reads
     total_pulls: 0
+    manually_check: true
 fastaindex:
     name: fastaindex
-    description: Fasta indexing and sequence retrival.
-    license: Not available
+    description: FastA indexing and sequence retrival.
+    license: GPL-3.0
     home_url: https://github.com/lpryszcz/FastaIndex
     total_pulls: 0
+    manually_check: true
 r-argparser:
     name: r-argparser
     description: ">  cross-platform command-line argument parser written purely in\
@@ -45605,12 +45612,11 @@ r-argparser:
     total_pulls: 0
 transcomb:
     name: transcomb
-    description: ">  a sparse k-mer graph based, memory-efficient genome assembler\n\
-        \nHome:  http://downloads.sourceforge.net/project/transcriptomeassembly/TransComb_v.1.0.tar.gz\n\
-        \n"
-    license: Unknown
+    description: A sparse k-mer graph based, memory-efficient genome assembler
+    license: GPL-3.0
     home_url: https://github.com/yechengxi/SparseAssembler
     total_pulls: 0
+    manually_check: true
 r-tsne:
     name: r-tsne
     description: ">  a \"pure r\" implementation of the t-sne algorithm.\n\n> Licence:\
@@ -45638,11 +45644,12 @@ cluster-picker:
     total_pulls: 0
 chicagotools:
     name: chicagotools
-    description: Chicagotools are an assorted set of scripts associated with the chicago
-        r package.
-    license: Not available
-    home_url: https://bitbucket.org/chicagoTeam/chicago/src/c95eda46cb72e30e25ece06780e517efb3c06cc2/chicagoTools/?at=master
+    description: "'chicagoTools are an assorted set of scripts associated with the\
+        \ Chicago R package.'"
+    license: Artistic-2.0
+    home_url: https://bitbucket.org/chicagoTeam/chicago
     total_pulls: 0
+    manually_check: true
 manormfast:
     name: manormfast
     description: "# Manormfast\n\n> Fast, memory-intensive version of manorm\n\n>\
@@ -45658,42 +45665,44 @@ bismark:
     license: GPL-3.0
     home_url: https://github.com/FelixKrueger/Bismark
     total_pulls: 0
+    manually_check: true
 pash:
     name: pash
-    description: "# Pash\n\n> A versatile software package for read mapping and integrative\
-        \ analysis of genomic and epigenomic variation using massively parallel dna\
-        \ sequencing\n\n> Licence: Unknown\n\nHome: https://genboree.org/pash-supp/pash-3.0.6.2.tar.gz\n\
-        \n"
+    description: A versatile software package for read mapping and integrative analysis
     license: Unknown
     home_url: http://www.bioinformatics.bbsrc.ac.uk/projects/bismark/
     total_pulls: 0
+    manually_check: true
 recycler:
     name: recycler
     description: Recycler is a tool designed for extracting circular sequences from
-        de novo assembly graphs
-    license: Not available
+        de novo
+    license: BSD-3-Clause
     home_url: https://github.com/Shamir-Lab/Recycler
     total_pulls: 0
+    manually_check: true
 sak:
     name: sak
     description: This tool allows one to cut sequences and parts of sequences out
         of sequence files.
-    license: Not available
-    home_url: https://github.com/seqan/seqan/tree/master/apps/sak/README
+    license: Custom License
+    home_url: https://github.com/seqan/seqan/
     total_pulls: 0
+    manually_check: true
 mason:
     name: mason
     description: A fast, feature-rich and hackable read simulator for the simulation
         of ngs and sanger data.
-    license: GPL-3.0
-    home_url: http://www.seqan.de/apps/mason/
+    license: Custom License
+    home_url: https://github.com/seqan/seqan/
     total_pulls: 0
+    manually_check: true
 stellar:
     name: stellar
     description: Stellar is a tool for finding pairwise local alignments between long
         genomic or very many short sequences.
-    license: Not available
-    home_url: https://github.com/seqan/seqan/tree/master/apps/stellar/README
+    license: Custom License
+    home_url: https://github.com/seqan/seqan/
     total_pulls: 0
 r-grimport:
     name: r-grimport
@@ -45740,21 +45749,19 @@ itk:
     total_pulls: 0
 blasr_libcpp:
     name: blasr_libcpp
-    description: ">  blasr_libcpp is a library used by blasr and other executables\
-        \ such as samtoh5, loadpulses for analyzing pacbio sequences\n\n> Licence:\
-        \  Bsd-3-Clause-Clear\n\nHome:  https://github.com/PacificBiosciences/blasr_libcpp/archive/fd288b6.tar.gz\n\
-        \n"
+    description: blasr_libcpp is a support library used by blasr and other PacBio
+        tools
     license: BSD-3-Clause-Clear
     home_url: https://github.com/PacificBiosciences/blasr_libcpp
     total_pulls: 0
+    manually_check: true
 snoscan:
     name: snoscan
-    description: ">  search for c/d box methylation guide snorna genes in a genomic\
-        \ sequence\n\nHome:  http://lowelab.ucsc.edu/software/snoscan-0.9.tar.gz\n\
-        \n"
-    license: GNU General Public License, version 2
+    description: Search for C/D box methylation guide snoRNA genes in a genomic sequence
+    license: GPL-2.0
     home_url: http://lowelab.ucsc.edu/snoscan
     total_pulls: 0
+    manually_check: true
 r-splitstackshape:
     name: r-splitstackshape
     description: ">  online data collection tools like google forms often export multiple-response\
@@ -45764,11 +45771,12 @@ r-splitstackshape:
     total_pulls: 0
 savage:
     name: savage
-    description: ">  savage (strain aware viral genome assembly) reconstructs individual\
-        \ (viral) haplotypes from a mixed sample.\n\n> Licence:  Gpl V3\n\n"
-    license: GPL v3
+    description: SAVAGE (Strain Aware VirAl GEnome assembly) reconstructs individual
+        (viral) haplotypes from a mixed sample.
+    license: GPL-3.0
     home_url: https://github.com/HaploConduct/HaploConduct/tree/master/savage
     total_pulls: 0
+    manually_check: true
 perl-want:
     name: perl-want
     description: This module generalises the mechanism of the wantarray function,
@@ -45796,6 +45804,7 @@ ntcard:
     license: GPL-3.0
     home_url: https://github.com/bcgsc/ntCard
     total_pulls: 0
+    manually_check: true
 r-ptw:
     name: r-ptw
     description:
@@ -45811,15 +45820,17 @@ perl-config-simple:
 metaprob:
     name: metaprob
     description: '"assembly-assisted tool for un-supervised metagenomic binning"'
-    license: '"copyright"'
+    license: MIT
     home_url: https://bitbucket.org/samu661/metaprob/
     total_pulls: 0
+    manually_check: true
 latentstrainanalysis:
     name: latentstrainanalysis
-    description: Partitioning and analysis methods for large, complex sequence datasets
-    license: Not available
+    description: '"Partitioning and analysis methods for large, complex sequence datasets"'
+    license: '"MIT"'
     home_url: https://github.com/brian-cleary/LatentStrainAnalysis
     total_pulls: 0
+    manually_check: true
 r-rphylip:
     name: r-rphylip
     description:
@@ -45835,34 +45846,39 @@ perl-io-prompt:
 fastq-and-furious:
     name: fastq-and-furious
     description: "'Fast handling of FASTQ files'"
-    license: MIT License
+    license: MIT
     home_url: https://github.com/lgautier/fastq-and-furious
     total_pulls: 0
+    manually_check: true
 deepmedic:
     name: deepmedic
-    description: Efficient multi-scale 3d convolutional neural network for brain lesion
-        segmentation.
-    license: Not available
+    description: Efficient Multi-Scale 3D Convolutional Neural Network for Brain Lesion
+        Segmentation.
+    license: BSD
     home_url: https://github.com/Kamnitsask/deepmedic
     total_pulls: 0
+    manually_check: true
 galaxy-ops:
     name: galaxy-ops
     description: Galaxy interval operations
-    license: Not available
+    license: AFL-3.0
     home_url: https://github.com/galaxyproject/gops
     total_pulls: 0
+    manually_check: true
 npyscreen:
     name: npyscreen
     description: Writing user interfaces without all that ugly mucking about in hyperspace
-    license: Not available
+    license: BSD
     home_url: http://www.npcole.com/npyscreen/
     total_pulls: 0
+    manually_check: true
 axiome:
     name: axiome
-    description: 'Axiome2: automation extension and integration of microbial ecology'
-    license: Not available
+    description: "'AXIOME2: Automation Extension and Integration of Microbial Ecology'"
+    license: MIT
     home_url: https://github.com/neufeld/AXIOME2
     total_pulls: 0
+    manually_check: true
 r-idpmisc:
     name: r-idpmisc
     description:
@@ -45871,18 +45887,20 @@ r-idpmisc:
     total_pulls: 0
 picopore:
     name: picopore
-    description: A tool for reducing the size of oxford nanopore technologies' datasets
-        without losing information.
-    license: Not available
+    description: "\"A tool for reducing the size of Oxford Nanopore Technologies'\
+        \ datasets without losing information.\""
+    license: GPL
     home_url: https://github.com/scottgigante/picopore
     total_pulls: 0
+    manually_check: true
 pyscaf:
     name: pyscaf
-    description: Genome assembly scaffolding using information from paired-end/mate-pair
-        libraries, long reads, and synteny to closely related species.
-    license: Not available
+    description: "'Genome assembly scaffolding using information from paired-end/mate-pair\
+        \ libraries, long reads, and synteny to closely related species.'"
+    license: GPL-3.0
     home_url: https://github.com/lpryszcz/pyScaf
     total_pulls: 0
+    manually_check: true
 tetoolkit:
     name: tetoolkit
     description:
@@ -45891,31 +45909,35 @@ tetoolkit:
     total_pulls: 0
 nanosim:
     name: nanosim
-    description: Nanosim is a fast and scalable read simulator that captures the technology-specific
-        features of ont data, and allows for adjustments upon improvement of nanopore
-        sequencing technology.
-    license: Not available
+    description: "'NanoSim is a fast and scalable read simulator that captures the\
+        \ technology-specific features of ONT data, and allows for adjustments upon\
+        \ improvement of nanopore sequencing technology.'"
+    license: GPL
     home_url: https://github.com/bcgsc/NanoSim
     total_pulls: 0
+    manually_check: true
 ngseqbasic:
     name: ngseqbasic
-    description: Basic chip/dnasei/atac analysis - from fastq to visualisation of
-        tracks, in one command.
-    license: Not available
+    description: '"Basic ChIP/DNaseI/ATAC analysis - from FASTQ to visualisation of
+        tracks, in one command."'
+    license: GPL-3.0
     home_url: http://userweb.molbiol.ox.ac.uk/public/telenius/NGseqBasicManual/external/instructionsBioconda.html
     total_pulls: 0
+    manually_check: true
 dunovo:
     name: dunovo
     description: '"Du Novo: A pipeline for processing duplex sequencing data."'
-    license: GPLv2
+    license: GPL-2.0
     home_url: https://github.com/galaxyproject/dunovo
     total_pulls: 0
+    manually_check: true
 taco:
     name: taco
     description: A tool for multi-sample transcriptome assembly from RNA-Seq
     license: MIT
     home_url: https://github.com/tacorna/taco
     total_pulls: 0
+    manually_check: true
 r-itertools:
     name: r-itertools
     description:
@@ -45936,24 +45958,27 @@ lemon:
     total_pulls: 0
 mercat:
     name: mercat
-    description: 'Mercat: a versatile counter and diversity estimator for data base
-        independent property analysis obtained from whole community sequencing data.'
-    license: Not available
+    description: "'Mercat: a versatile counter and diversity estimator for data base\
+        \ independent property analysis obtained from whole community sequencing data.'"
+    license: BSD
     home_url: https://github.com/pnnl/mercat
     total_pulls: 0
+    manually_check: true
 wgs-assembler:
     name: wgs-assembler
     description: '"Celera Assembler (wgs-assembler) is a de novo whole-genome shotgun
         (WGS) DNA sequence assembler"'
     license: MIT
-    home_url: "'http://wgs-assembler.sourceforge.net/wiki/index.php?title=Main_Page'"
+    home_url: http://wgs-assembler.sourceforge.net/
     total_pulls: 0
+    manually_check: true
 segmentation-fold:
     name: segmentation-fold
     description: RNA-Folding with predefined segments including K-turns and loop-E-motifs
-    license: GNU General Public License v3 or later (GPLv3+)
+    license: GPL-3.0
     home_url: https://github.com/yhoogstrate/segmentation-fold
     total_pulls: 0
+    manually_check: true
 perl-tie-hash:
     name: perl-tie-hash
     description: ''
@@ -46002,6 +46027,7 @@ perl-unicode-normalize:
     license: perl_5
     home_url: http://metacpan.org/pod/Unicode::Normalize
     total_pulls: 0
+    manually_check: true
 perl-text-tabs:
     name: perl-text-tabs
     description: Expand and unexpand tabs like unix expand(1) and unexpand(1)
@@ -55454,11 +55480,12 @@ perl-test-utf8:
     total_pulls: 0
 mhcnuggets:
     name: mhcnuggets
-    description: 'Mhcnuggets: neoantigen peptide mhc binding prediction for class
-        i and ii'
-    license: Not available
+    description: "'MHCnuggets: Neoantigen peptide MHC binding prediction for class\
+        \ I and II'"
+    license: Apache-2.0
     home_url: http://karchinlab.org/apps/mhcnuggets.html
     total_pulls: 0
+    manually_check: true
 perl-text-levenshteinxs:
     name: perl-text-levenshteinxs
     description:
@@ -55471,26 +55498,30 @@ sv2:
     license: MIT
     home_url: https://github.com/dantaki/SV2
     total_pulls: 0
+    manually_check: true
 bioconductor-qckitfastq:
     name: bioconductor-qckitfastq
     description: "'FASTQ Quality Control'"
     license: Artistic-2.0
     home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
     total_pulls: 0
+    manually_check: true
 jvarkit-msa2vcf:
     name: jvarkit-msa2vcf
-    description: Writes a vcf from a multiple sequence alignment (msa) in clustaw
-        or a fasta format
-    license: Not available
+    description: Writes a VCF from a multiple sequence alignment (MSA) in CLUSTAW
+        or a FASTA format
+    license: MIT
     home_url: https://lindenb.github.io/jvarkit/MsaToVcf.html
     total_pulls: 0
+    manually_check: true
 mlpy:
     name: mlpy
     description: mlpy is a Python module for Machine Learning built on top of NumPy/SciPy
         and the GNU Scientific Libraries.
-    license: GPL3
+    license: GPL-3.0
     home_url: http://mlpy.sourceforge.net/index.html
     total_pulls: 0
+    manually_check: true
 genomethreader:
     name: genomethreader
     description: "'GenomeThreader is a software tool to compute gene structure predictions.\
@@ -55500,6 +55531,7 @@ genomethreader:
     license: ISC
     home_url: http://genomethreader.org/
     total_pulls: 0
+    manually_check: true
 r-mmod:
     name: r-mmod
     description:
@@ -55514,22 +55546,25 @@ r-hierfstat:
     total_pulls: 0
 perl-math-bigrat:
     name: perl-math-bigrat
-    description: Arbitrary big rational numbers
-    license: Not available
+    description: "'Arbitrary big rational numbers'"
+    license: perl_5
     home_url: http://metacpan.org/pod/Math::BigRat
     total_pulls: 0
+    manually_check: true
 perl-const-fast:
     name: perl-const-fast
-    description: Facility for creating read-only scalars, arrays, and hashes
-    license: Not available
+    description: "'Facility for creating read-only scalars, arrays, and hashes'"
+    license: perl_5
     home_url: http://metacpan.org/pod/Const-Fast
     total_pulls: 0
+    manually_check: true
 crumble:
     name: crumble
     description: Controllable lossy compression of BAM/CRAM files
-    license: multiple BSD style licenses
+    license: BSD
     home_url: https://github.com/jkbonfield/crumble
     total_pulls: 0
+    manually_check: true
 bioconductor-mlm4omics:
     name: bioconductor-mlm4omics
     description:
@@ -55547,99 +55582,115 @@ biobb_pmx:
     name: biobb_pmx
     description: Biobb_pmx is the biobb module collection to perform pmx (http://pmx.mpibpc.mpg.de)
         executions.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/bioexcel/biobb_pmx
     total_pulls: 0
+    manually_check: true
 mfqe:
     name: mfqe
     description: mfqe is a tool for quickly seperating fasta and fastq files
-    license: GPL3
+    license: GPL-3.0
     home_url: https://github.com/wwood/mfqe
     total_pulls: 0
+    manually_check: true
 fineradstructure:
     name: fineradstructure
     description: Inference of population structure from RAD datasets
     license: Attribution-NonCommercial-NoDerivs 3.0 Creative Commons Licence
     home_url: http://cichlid.gurdon.cam.ac.uk/fineRADstructure.html
     total_pulls: 0
+    manually_check: true
 rnasamba:
     name: rnasamba
     description: A tool for computing the coding potential of RNA transcript sequences
         using deep learning.
-    license: GPL-3
+    license: GPL-3.0
     home_url: http://apcamargo.github.io/RNAsamba/
     total_pulls: 0
+    manually_check: true
 bitmapperbs:
     name: bitmapperbs
     description: '"BitMapperBS: a fast and accurate read aligner for whole-genome
         bisulfite sequencing"'
-    license: Apache License 2
+    license: Apache-2.0
     home_url: https://github.com/chhylp123/BitMapperBS
     total_pulls: 0
+    manually_check: true
 maaslin2:
     name: maaslin2
     description: Maaslin2 is comprehensive r package for efficiently determining multivariable
         association between microbial meta'omic features and clinical metadata.
-    license: Not available
-    home_url: http://huttenhower.sph.harvard.edu/maaslin2
+    license: Custom License
+    home_url: https://github.com/biobakery/Maaslin2
     total_pulls: 0
+    manually_check: true
 purple-bio:
     name: purple-bio
-    description: Picking unique relevant peptides for viral experiments
-    license: Not available
+    description: Picking Unique Relevant Peptides for viraL Experiments
+    license: LGPL-3.0
     home_url: https://gitlab.com/HartkopfF/Purple
     total_pulls: 0
+    manually_check: true
 colombo:
     name: colombo
-    description: A software framework equipped with a gui for the prediction of genomic
-        islands (gis) in prokaryotes.
-    license: Not available
+    description: A software framework equipped with a GUI for the prediction of genomic
+        islands (GIs) in prokaryotes.
+    license: CC-BY-3.0
     home_url: https://www.uni-goettingen.de/en/research/185810.html
     total_pulls: 0
+    manually_check: true
 seqan:
     name: seqan
-    description: Seqan is an open source c++ library of efficient algorithms and data
-        structures for the analysis of sequences with the focus on biological data.
-    license: Not available
+    description: "'SeqAn is an open source C++ library of efficient algorithms and\
+        \ data structures for the analysis of sequences with the focus on biological\
+        \ data.'"
+    license: BSD-3-Clause
     home_url: http://www.seqan.de/
     total_pulls: 0
+    manually_check: true
 perl-parallel-iterator:
     name: perl-parallel-iterator
-    description: Simple parallel execution
-    license: Not available
+    description: "'Simple parallel execution'"
+    license: perl_5
     home_url: http://metacpan.org/pod/Parallel::Iterator
     total_pulls: 0
+    manually_check: true
 perl-b-debug:
     name: perl-b-debug
-    description: Print debug info about ops
-    license: Not available
+    description: "'print debug info about ops'"
+    license: perl_5
     home_url: http://metacpan.org/pod/B::Debug
     total_pulls: 0
+    manually_check: true
 perl-devel-cover:
     name: perl-devel-cover
     description: "'Code coverage metrics for Perl'"
     license: perl_5
     home_url: http://www.pjcj.net/perl.html
     total_pulls: 0
+    manually_check: true
 phylommand:
     name: phylommand
     description: Command-line phylogenetics tools.
-    license: GPLv3
+    license: GPL-3.0
     home_url: https://github.com/mr-y/phylommand
     total_pulls: 0
+    manually_check: true
 snostrip:
     name: snostrip
     description: Automatic snoRNA annotation pipeline
-    license: GPL3
+    license: GPL-3.0
     home_url: http://snostrip.bioinf.uni-leipzig.de/help.py
     total_pulls: 0
+    manually_check: true
 triqler:
     name: triqler
-    description: A combined identification and quantification error model of label-free
-        protein quantification
-    license: Not available
+    description: '"A combined identification and quantification error model of label-free
+        protein quantification"'
+    license: Apache-2.0
     home_url: https://github.com/statisticalbiotechnology/triqler
     total_pulls: 0
+    manually_check: true
 hint:
     name: hint
     description: Hint is a computational method for detecting copy number variations
@@ -55657,9 +55708,10 @@ stoatydive:
     name: stoatydive
     description: Stoatydive is a tool to evaluate and classify predicted peak profiles
         to assess the binding specificity of a protein to its targets.
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/BackofenLab/StoatyDive
     total_pulls: 0
+    manually_check: true
 ncbi-amr:
     name: ncbi-amr
     description:
@@ -55669,57 +55721,66 @@ ncbi-amr:
 paragraph:
     name: paragraph
     description: Graph realignment tools for structural variants
-    license: Apache License 2.0
+    license: Apache-2.0
     home_url: https://github.com/Illumina/paragraph
     total_pulls: 0
+    manually_check: true
 centreseq:
     name: centreseq
     description: Fast generation of core genome from bacterial strains
-    license: Not available
+    license: MIT
     home_url: https://github.com/bfssi-forest-dussault/centreseq
     total_pulls: 0
+    manually_check: true
 biobasehttptools:
     name: biobasehttptools
     description: Tools for querying bioinformatics web resources
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/eggzilla/BiobaseHTTPTools
     total_pulls: 0
+    manually_check: true
 wisestork:
     name: wisestork
-    description: Within-sample cnv calling
-    license: Not available
+    description: Within-sample CNV calling
+    license: GPL-3.0
     home_url: https://github.com/sndrtj/wisestork
     total_pulls: 0
+    manually_check: true
 xbioc:
     name: xbioc
     description: "'Extra Base Functions for Bioconductor'"
-    license: "'GPL (>= 3)'"
-    home_url: "'https://github.com/renozao/{{ name }}'"
+    license: GPL-3.0
+    home_url: https://github.com/renozao/xbioc
     total_pulls: 0
+    manually_check: true
 music-deconvolution:
     name: music-deconvolution
     description: "'Multi-subject single cell deconvolution'"
-    license: "'GPL (>= 3)'"
-    home_url: "'https://github.com/xuranw/MuSiC'"
+    license: GPL-3.0
+    home_url: https://github.com/xuranw/MuSiC
     total_pulls: 0
+    manually_check: true
 ripser:
     name: ripser
     description: '"Ripser: efficient computation of Vietoris–Rips persistence barcodes."'
     license: MIT
-    home_url: http://ripser.org/
+    home_url: https://github.com/Ripser/ripser
     total_pulls: 0
+    manually_check: true
 bustools:
     name: bustools
-    description: '|'
-    license: BSD 2-Clause "Simplified" License
+    description: 'bustools is a program for manipulating BUS files for single cell RNA-Seq datasets. It can be used to error correct barcodes, collapse UMIs, produce gene count or transcript compatibility count matrices, and is useful for many other tasks.'
+    license: BSD-2-Clause
     home_url: https://github.com/BUStools/bustools
     total_pulls: 0
+    manually_check: true
 guessmylt:
     name: guessmylt
-    description: Software to guess the rna-seq library type.
-    license: Not available
+    description: Software to guess the RNA-Seq library type.
+    license: GPL-3.0
     home_url: https://github.com/NBISweden/GUESSmyLT
     total_pulls: 0
+    manually_check: true
 cgat-core:
     name: cgat-core
     description:
@@ -55730,52 +55791,60 @@ genrich:
     name: genrich
     description: Detecting sites of genomic enrichment.
     license: MIT
-    home_url: ''
+    home_url: https://github.com/jsh58/Genrich
     total_pulls: 0
+    manually_check: true
 smof:
     name: smof
-    description: Unix-style utilities for fasta file exploration
-    license: Not available
+    description: '"UNIX-style utilities for FASTA file exploration"'
+    license: MIT
     home_url: https://github.com/incertae-sedis/smof
     total_pulls: 0
+    manually_check: true
 mobidic-mpa:
     name: mobidic-mpa
-    description: 'Mpa: mobidic prioritization algorithm'
-    license: Not available
-    home_url: https://neuro-2.iurc.montp.inserm.fr/mpaweb/
+    description: '"MPA: MoBiDiC Prioritization Algorithm"'
+    license: MIT
+    home_url: https://github.com/mobidic/MPA
     total_pulls: 0
+    manually_check: true
 deepstats:
     name: deepstats
     description: A statistical and dataviz toolbox for deeptools, genomic signals,
         and more.
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/gtrichard/deepStats
     total_pulls: 0
+    manually_check: true
 seq-to-first-iso:
     name: seq-to-first-iso
-    description: Compute first two isotopologues intensity from peptide sequence
-    license: Not available
+    description: '"Compute first two isotopologues intensity from peptide sequence"'
+    license: BSD-3-Clause
     home_url: https://github.com/pierrepo/seq-to-first-iso
     total_pulls: 0
+    manually_check: true
 galaxy-ml:
     name: galaxy-ml
     description: APIs for Galaxy machine learning tools
     license: MIT
     home_url: https://github.com/goeckslab/Galaxy-ML
     total_pulls: 0
+    manually_check: true
 dbgraph:
     name: dbgraph
     description: '"A graph-centric approach for metagenome-guided peptide identification
         in metaproteomics. "'
-    license: '"GNU General Public License"'
-    home_url: https://github.com/COL-IU/graph2pro-var/tree/master/Graph2Pro
+    license: GPL-3.0
+    home_url: https://github.com/COL-IU/graph2pro-var/
     total_pulls: 0
+    manually_check: true
 dcplib:
     name: dcplib
-    description: Modules shared among multiple data coordination platform components.
-    license: Not available
+    description: Modules shared among multiple Data Coordination Platform components.
+    license: MIT
     home_url: http://github.com/HumanCellAtlas/dcplib
     total_pulls: 0
+    manually_check: true
 hca:
     name: hca
     description: Human cell atlas data storage system command line interface. this
@@ -55784,9 +55853,10 @@ hca:
         (hca). currently the hca package supports interaction with the upload service
         and data storage service (dss) for services such as uploading, downloading,
         and querying data.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/HumanCellAtlas/dcp-cli
     total_pulls: 0
+    manually_check: true
 msisensor-pro:
     name: msisensor-pro
     description: Microsatellite Instability (MSI) detection using high-throughput
@@ -55794,56 +55864,65 @@ msisensor-pro:
     license: GPL-3.0
     home_url: https://github.com/xjtu-omics/msisensor-pro
     total_pulls: 0
+    manually_check: true
 dinamo:
     name: dinamo
     description: An exact and efficient method for IUPAC motif discovery in DNA sequences
-    license: GPLv3
+    license: GPL-3.0
     home_url: https://github.com/bonsai-team/DiNAMO/
     total_pulls: 0
+    manually_check: true
 ultraheatmap:
     name: ultraheatmap
-    description: Ultraheatmaps facilitates the production of deeptools heatmaps
-    license: Not available
+    description: '"ultraheatmaps facilitates the production of deepTools heatmaps"'
+    license: MIT
     home_url: https://github.com/maxplanck-ie/ultraheatmap/
     total_pulls: 0
+    manually_check: true
 prosampler:
     name: prosampler
     description: An ultra-fast motif finding program in large ChIP-seq datasets.
-    license: GPLv3
+    license: GPL-3.0
     home_url: https://github.com/zhengchangsulab/ProSampler
     total_pulls: 0
+    manually_check: true
 bioconductor-rmelting:
     name: bioconductor-rmelting
     description: "'R Interface to MELTING 5'"
     license: "'GPL-2 | GPL-3'"
     home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
     total_pulls: 0
+    manually_check: true
 bftools:
     name: bftools
     description: Bio-formats command line tools
-    license: Not available
-    home_url: https://docs.openmicroscopy.org/bio-formats/5.7.1/users/comlinetools/index.html
+    license: GPL-2.0
+    home_url: https://github.com/ome/bioformats/
     total_pulls: 0
+    manually_check: true
 python-bioformats:
     name: python-bioformats
-    description: Python-bioformats is a python wrapper for bio-formats, a standalone
-        java library for reading and writing life sciences image file formats.
-    license: Not available
+    description: Python-bioformats is a Python wrapper for Bio-Formats, a standalone
+        Java library for reading and writing life sciences image file formats.
+    license: BSD-3-Clause
     home_url: https://github.com/CellProfiler/python-bioformats
     total_pulls: 0
+    manually_check: true
 genform:
     name: genform
     description: Generation of molecular formulas by high-resolution MS and MS/MS
         data
-    license: "'GPL-2.0-only'"
+    license: GPL-2.0
     home_url: https://sourceforge.net/projects/genform/
     total_pulls: 0
+    manually_check: true
 perl-string-diff:
     name: perl-string-diff
-    description: Simple diff to string
-    license: Not available
+    description: "'Simple diff to String'"
+    license: perl_5
     home_url: https://github.com/yappo/p5-String-Diff
     total_pulls: 0
+    manually_check: true
 mordred:
     name: mordred
     description: ''
@@ -55856,24 +55935,28 @@ elector:
     license: AGPL-3.0
     home_url: https://github.com/kamimrcht/ELECTOR
     total_pulls: 0
+    manually_check: true
 perl-pdf-table:
     name: perl-pdf-table
-    description: A utility class for building table layouts in a pdf::api2 object.
-    license: Not available
+    description: "'A utility class for building table layouts in a PDF::API2 object.'"
+    license: perl_5
     home_url: http://metacpan.org/pod/PDF::Table
     total_pulls: 0
+    manually_check: true
 altamisa:
     name: altamisa
-    description: Alternative python api for accessing isa-tab files.
-    license: Not available
+    description: Alternative Python API for accessing ISA-tab files.
+    license: MIT
     home_url: https://github.com/bihealth/altamisa
     total_pulls: 0
+    manually_check: true
 sesimcmc:
     name: sesimcmc
     description: Motif finding with modified MCMC
     license: MIT
     home_url: http://favorov.bioinfolab.net/SeSiMCMC/
     total_pulls: 0
+    manually_check: true
 graph2pro-var:
     name: graph2pro-var
     description: Meta-proteogenomic identification from mass spec and metagenomic/transcriptomic
@@ -55885,22 +55968,25 @@ crypto_typer:
     name: crypto_typer
     description: 'This package crypto_typer: tool to subtype the parasite, cryptosporidium,
         based on the 18s and gp60 markers.'
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/christineyanta/crypto_typer
     total_pulls: 0
+    manually_check: true
 mapgl:
     name: mapgl
     description: Prediction of lineage-specific gain and loss of sequence elements
         using phylogenetic maximum parsimony.
-    license: Not available
+    license: MIT
     home_url: https://github.com/adadiehl/mapGL
     total_pulls: 0
+    manually_check: true
 mace:
     name: mace
     description: Model Based Analysis for ChIP-exo data
-    license: GPL3
+    license: GPL-3.0
     home_url: http://chipexo.sourceforge.net
     total_pulls: 0
+    manually_check: true
 pyiron:
     name: pyiron
     description: ''
@@ -55915,13 +56001,15 @@ modeltest-ng:
     license: GPL-3.0
     home_url: https://github.com/ddarriba/modeltest
     total_pulls: 0
+    manually_check: true
 carnac-lr:
     name: carnac-lr
     description: Clustering coefficient-based Acquisition of RNA Communities in Long
         Read
-    license: GNU Affero General Public License
+    license: AGPL-3.0
     home_url: https://github.com/kamimrcht/CARNAC-LR
     total_pulls: 0
+    manually_check: true
 bamscale:
     name: bamscale
     description: BAMscale is a one-step tool for either 1) quantifying and normalizing
@@ -55929,49 +56017,57 @@ bamscale:
     license: Public Domain
     home_url: https://github.com/ncbi/BAMscale
     total_pulls: 0
+    manually_check: true
 spliceai-wrapper:
     name: spliceai-wrapper
-    description: A caching wrapper for illumina spliceai.
-    license: Not available
+    description: A caching wrapper for Illumina SpliceAI.
+    license: MIT
     home_url: https://github.com/bihealth/spliceai-wrapper
     total_pulls: 0
+    manually_check: true
 r-rtassel:
     name: r-rtassel
     description: R front-end for tassel
-    license: Not available
+    license: GPL-3.0
     home_url: https://bitbucket.org/bucklerlab/rtassel/wiki/Home
     total_pulls: 0
+    manually_check: true
 malt:
     name: malt
     description: A tool for mapping metagenomic data
     license: GPLv3
     home_url: http://ab.inf.uni-tuebingen.de/software/malt/
     total_pulls: 0
+    manually_check: true
 pylca:
     name: pylca
-    description: Lowest common ancestor (lca) algorithm implementation in python
-    license: Not available
+    description: "'Lowest common ancestor (LCA) algorithm implementation in python'"
+    license: MIT
     home_url: https://github.com/pirovc/pylca
     total_pulls: 0
+    manually_check: true
 karyopype:
     name: karyopype
-    description: Chromosomal visualization in python.
-    license: Not available
-    home_url: http://github.com/jakevc/karyopype
+    description: '"Chromosomal visualization in Python."'
+    license: MIT
+    home_url: '"http://github.com/jakevc/karyopype"'
     total_pulls: 0
+    manually_check: true
 sdm:
     name: sdm
     description: "'sdm - simple demultiplex tool for FASTQ demultiplexing and dereplication'"
-    license: "'GPLv3'"
+    license: GPL-3
     home_url: https://github.com/hildebra/sdm/
     total_pulls: 0
+    manually_check: true
 prefersim:
     name: prefersim
     description: PReFerSim is an ANSI C program that performs forward simulations
         under the PRF model
-    license: GPL3
+    license: GPL-3.0
     home_url: https://github.com/LohmuellerLab/PReFerSim
     total_pulls: 0
+    manually_check: true
 bioconductor-mirsm:
     name: bioconductor-mirsm
     description: "'Inferring miRNA sponge modules by integrating expression data and\
@@ -55981,36 +56077,41 @@ bioconductor-mirsm:
     total_pulls: 0
 biopython.convert:
     name: biopython.convert
-    description: Interconvert various file formats supported by biopython
-    license: Not available
-    home_url: https://github.com/brinkmanlab/BioPython-Convert
+    description: '"Interconvert various file formats supported by BioPython"'
+    license: MIT
+    home_url: '"https://github.com/brinkmanlab/BioPython-Convert"'
     total_pulls: 0
+    manually_check: true
 feature_merge:
     name: feature_merge
-    description: Merge features in gff files
-    license: Not available
+    description: '"Merge features in GFF files"'
+    license: MIT
     home_url: https://github.com/brinkmanlab/feature_merge
     total_pulls: 0
+    manually_check: true
 pypgatk:
     name: pypgatk
-    description: The pypgatk framework and library provides a set of tools to perform
-        proteogenomics analysis.
-    license: Not available
-    home_url: http://github.com/bigbio/py-pgatk
+    description: '"The Pypgatk framework and library provides a set of tools to perform
+        ProteoGenomics Analysis."'
+    license: '"Apache 2"'
+    home_url: '"http://github.com/bigbio/py-pgatk"'
     total_pulls: 0
+    manually_check: true
 jasmine:
     name: jasmine
-    description: 'Jasmine: a java pipeline for isomir characterization in mirna-seq
-        data'
-    license: Not available
-    home_url: https://bitbucket.org/bipous/jasmine/src/master
+    description: "'Jasmine: a Java pipeline for isomiR characterization in miRNA-Seq\
+        \ Data'"
+    license: GPL-3.0
+    home_url: "'https://bitbucket.org/bipous/jasmine/src/master'"
     total_pulls: 0
+    manually_check: true
 python-htsget:
     name: python-htsget
-    description: Python api and command line interface for the ga4gh htsget api.
-    license: Not available
+    description: Python API and command line interface for the GA4GH htsget API.
+    license: Apache-2.0
     home_url: http://pypi.python.org/pypi/htsget
     total_pulls: 0
+    manually_check: true
 blacksheep-outliers:
     name: blacksheep-outliers
     description:
@@ -56021,9 +56122,10 @@ smafa:
     name: smafa
     description: smafa is a tool for querying and clustering pre-aligned small pre-aligned
         DNA and amino acid sequences.
-    license: GPL3
+    license: GPL-3.0
     home_url: https://github.com/wwood/smafa
     total_pulls: 0
+    manually_check: true
 legsta:
     name: legsta
     description: In silico Legionella pneumophila Sequence Based Typing
@@ -56243,7 +56345,7 @@ fastaptamer:
     name: fastaptamer
     description: A Bioinformatic Toolkit for High-Throughput Sequence Analysis of
         Combinatorial Selections
-    license: GNU-3.0
+    license: GPL-3.0
     home_url: http://burkelab.missouri.edu/fastaptamer.html
     total_pulls: 0
     manually_check: true
@@ -56427,7 +56529,7 @@ seacr:
         the 5' and 3' termini of each read pair) using bedtools genomecov with the
         "-bg" flag, or alternatively from name-sorted paired-end bam files as described
         in "preparing input bedgraph files" below.
-    license: Custom License
+    license: GPL-2.0
     home_url: https://github.com/FredHutch/SEACR
     total_pulls: 0
     manually_check: true
@@ -56907,10 +57009,10 @@ lyner:
     manually_check: true
 phyphy:
     name: phyphy
-    description: Facilitating the execution and parsing of standard hyphy (>=2.3.7)
-        analyses
-    license: Not available
-    home_url: https://github.com/sjspielman/phyphy
+    description: '"Facilitating the execution and parsing of standard HyPhy (>=2.3.7)
+        analyses"'
+    license: BSD-3-Clause
+    home_url: '"https://github.com/sjspielman/phyphy"'
     total_pulls: 0
     manually_check: true
 rtk:
@@ -56969,6 +57071,7 @@ perl-ensembl-io:
     license: Not available
     home_url: https://www.ensembl.org/info/docs/api/index.html
     total_pulls: 0
+    manually_check: true
 perl-ensembl-variation:
     name: perl-ensembl-variation
     description: The ensembl core perl api and
@@ -57343,7 +57446,7 @@ phylics:
 ac:
     name: ac
     description: A lossless compression tool for Amino Acid sequences
-    license: GPL-3.
+    license: GPL-3.0
     home_url: https://github.com/cobilab/ac
     total_pulls: 0
     manually_check: true
