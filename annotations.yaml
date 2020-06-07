@@ -847,7 +847,7 @@ aragorn:
 autodock-vina:
     name: autodock-vina
     description: Autodock vina is an open-source program for doing molecular docking
-    license: Apache-2.0.0
+    license: Apache-2.0
     home_url: http://vina.scripps.edu/
     total_pulls: 6630
     manually_check: true
@@ -1824,7 +1824,7 @@ readseq:
     name: readseq
     description: Convert biosequences between a selection of common biological sequence
         formats.
-    license: Apache-2.0.0
+    license: Apache-2.0
     home_url: http://www.ebi.ac.uk/Tools/sfc/readseq/
     total_pulls: 4805
     manually_check: true
@@ -2014,14 +2014,16 @@ lofreq:
     license: MIT
     home_url: https://sourceforge.net/projects/lofreq/
     total_pulls: 3671
+    manually_check: true
 qualimap:
     name: qualimap
     description: Platform-independent application written in java and r that provides
         both a graphical user inteface (gui) and a command-line interface to facilitate
         the quality control of alignment sequencing data.
-    license: GPLv2
-    home_url: http://qualimap.bioinfo.cipf.es/
+    license: GPL-2.0
+    home_url: https://bitbucket.org/kokonech/qualimap/src/master/
     total_pulls: 3627
+    manually_check: true
 snpeff:
     name: snpeff
     description: Variant annotation and effect prediction tool. it annotates and predicts
@@ -2029,6 +2031,7 @@ snpeff:
     license: LGPLv3
     home_url: http://snpeff.sourceforge.net/
     total_pulls: 3580
+    manually_check: true
 crossmap:
     name: crossmap
     description: Crossmap is a program for convenient conversion of genome coordinates
@@ -2036,11 +2039,12 @@ crossmap:
     license: GNU
     home_url: http://crossmap.sourceforge.net
     total_pulls: 3520
+    manually_check: true
 mlst:
     name: mlst
     description: Multi locus sequence typing from an assembled genome or from a set
         of reads.
-    license: Apache-2.0.0
+    license: Apache-2.0
     home_url: http://cge.cbs.dtu.dk/services/MLST/
     total_pulls: 3476
     manually_check: true
@@ -2052,6 +2056,7 @@ hyphy:
     license: Custom License
     home_url: https://github.com/veg/hyphy
     total_pulls: 3461
+    manually_check: true
 hicexplorer:
     name: hicexplorer
     description: Set of programs to process, analyze and visualize hi-c and capture
@@ -2059,6 +2064,7 @@ hicexplorer:
     license: GPL-3.0
     home_url: https://github.com/deeptools/HiCExplorer
     total_pulls: 3460
+    manually_check: true
 abricate:
     name: abricate
     description: Mass screening of contigs for antibiotic resistance genes
@@ -2087,6 +2093,7 @@ repeatmasker:
     license: Open Software License v2.1
     home_url: http://www.repeatmasker.org
     total_pulls: 3398
+    manually_check: true
 moabs:
     name: moabs
     description: A comprehensive, accurate and efficient solution for analysis of
@@ -2094,6 +2101,7 @@ moabs:
     license: GPL-3.0
     home_url: https://code.google.com/archive/p/moabs/
     total_pulls: 3397
+    manually_check: true
 presto:
     name: presto
     description: A bioinformatics toolkit for processing high-throughput lymphocyte
@@ -2101,6 +2109,7 @@ presto:
     license: AGPL-3.0
     home_url: https://bitbucket.org/kleinstein/presto/src/default/
     total_pulls: 3390
+    manually_check: true
 tb-profiler:
     name: tb-profiler
     description: Profiling tool for mycobacterium tuberculosis to detect drug resistance
@@ -2115,6 +2124,7 @@ maxbin2:
     license: BSD-3-Clause
     home_url: https://sourceforgenet/projects/maxbin2/
     total_pulls: 3386
+    manually_check: true
 bioconductor-dexseq:
     name: bioconductor-dexseq
     description: The package is focused on finding differential exon usage using rna-seq
@@ -2127,6 +2137,7 @@ bioconductor-dexseq:
     license: GPL-3.0
     home_url: https://bioconductor.org/packages/release/bioc/html/DEXSeq.html
     total_pulls: 3385
+    manually_check: true
 star-fusion:
     name: star-fusion
     description: Star-fusion fusion variant caller.  all dependencies required to
@@ -2134,6 +2145,7 @@ star-fusion:
     license: BSD-3-Clause
     home_url: https://github.com/STAR-Fusion/STAR-Fusion
     total_pulls: 3385
+    manually_check: true
 sickle-trim:
     name: sickle-trim
     description: Windowed Adaptive Trimming for fastq files using quality
@@ -2145,20 +2157,23 @@ perl-bioperl:
     name: perl-bioperl
     description: Bioinformatics toolkit
     license: perl_5
-    home_url: http://metacpan.org/pod/BioPerl
+    home_url: https://github.com/bioperl/bioperl-live
     total_pulls: 3377
+    manually_check: true
 gemini:
     name: gemini
     description: A lightweight db framework for disease and population genetics
     license: MIT
     home_url: https://github.com/arq5x/gemini
     total_pulls: 3377
+    manually_check: true
 shovill:
     name: shovill
     description: Microbial assembly pipeline for illumina paired-end reads
     license: GPL-3.0
     home_url: https://github.com/tseemann/shovill
     total_pulls: 3373
+    manually_check: true
 anise_basil:
     name: anise_basil
     description: BASIL is a method to detect breakpoints for structural variants (including
@@ -2166,18 +2181,21 @@ anise_basil:
     license: MIT
     home_url: https://github.com/seqan/anise_basil/
     total_pulls: 3369
+    manually_check: true
 plasflow:
     name: plasflow
     description: Plasflow - predicting plasmid sequences in metagenomic data
     license: GPL-3.0
     home_url: https://github.com/smaegol/PlasFlow
     total_pulls: 3368
+    manually_check: true
 ngsutils:
     name: ngsutils
     description: Tools for next-gen sequencing analysis
     license: BSD-3-Clause
     home_url: https://github.com/ngsutils/ngsutils
     total_pulls: 3367
+    manually_check: true
 tetyper:
     name: tetyper
     description: Typing of a specific transposable element (te) of interest from paired-end
@@ -2185,6 +2203,7 @@ tetyper:
     license: GPL-3.0
     home_url: https://github.com/aesheppard/TETyper
     total_pulls: 3366
+    manually_check: true
 shorah:
     name: shorah
     description: ShoRAH (Short Reads Assembly into Haplotypes)
@@ -2195,15 +2214,17 @@ shorah:
 slamdunk:
     name: slamdunk
     description: Slamdunk is a software tool for slamseq data analysis.
-    license: AGPL-3.3.0
+    license: AGPL-3.0
     home_url: https://github.com/t-neumann/slamdunk
     total_pulls: 3364
+    manually_check: true
 tb_variant_filter:
     name: tb_variant_filter
     description: Vcf variant filter optimised for filter m. tuberculosis h37rv variants
     license: GPL-3.0
     home_url: http://github.com/COMBAT-TB/tb_variant_filter
     total_pulls: 3363
+    manually_check: true
 gvcftools:
     name: gvcftools
     description: Utilities to create and analyze gVCF files
@@ -2213,11 +2234,12 @@ gvcftools:
     manually_check: true
 picrust:
     name: picrust
-    description: 'Picrust: phylogenetic investigation of communities by reconstruction
+    description: 'Phylogenetic investigation of communities by reconstruction
         of unobserved states'
     license: GPL
-    home_url: http://picrust.github.com
+    home_url: https://github.com/picrust/picrust
     total_pulls: 3360
+    manually_check: true
 krocus:
     name: krocus
     description: Krocus performs multi-locus sequence typing from uncorrected long
@@ -2225,12 +2247,14 @@ krocus:
     license: GPL-3.0
     home_url: https://github.com/andrewjpage/krocus
     total_pulls: 3360
+    manually_check: true
 ucsc-fasplit:
     name: ucsc-fasplit
     description: Split an fa file into several files
     license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faSplit
     total_pulls: 3359
+    manually_check: true
 schicexplorer:
     name: schicexplorer
     description: Set of programs to process, analyze and visualize single-cell hi-c
@@ -2238,32 +2262,37 @@ schicexplorer:
     license: MIT
     home_url: https://github.com/joachimwolff/scHiCExplorer
     total_pulls: 3359
+    manually_check: true
 goenrichment:
     name: goenrichment
     description: Goenrichment analyses a set of gene products for go term enrichment
-    license: Apache-2.0.0
+    license: Apache-2.0
     home_url: https://github.com/DanFaria/GOEnrichment
     total_pulls: 3358
+    manually_check: true
 nonpareil:
     name: nonpareil
     description: Estimate average coverage and create nonpareil curves for metagenomic
         datasets.
-    license: Artistic License 2.0
+    license: Artistic-2.0
     home_url: http://enve-omics.ce.gatech.edu/nonpareil/
     total_pulls: 3356
+    manually_check: true
 varscan:
     name: varscan
     description: Varscan, an open source tool for variant detection that is compatible
         with several short read align-ers.
     license: The Non-Profit Open Software License version 3.0 (NPOSL-3.0)
-    home_url: http://dkoboldt.github.io/varscan/
+    home_url: https://github.com/dkoboldt/varscan
     total_pulls: 3355
+    manually_check: true
 graph_embed:
     name: graph_embed
     description: Compute a 2d embedding of a data matrix given supervised class information.
     license: MIT
     home_url: https://github.com/fabriziocosta/GraphEmbed
     total_pulls: 3353
+    manually_check: true
 rust-ncbitaxonomy:
     name: rust-ncbitaxonomy
     description: Read NCBI Taxonomy Database from files and work with NCBI Taxonomy
@@ -2271,12 +2300,14 @@ rust-ncbitaxonomy:
     license: MIT
     home_url: https://docs.rs/crate/ncbitaxonomy/1.0.3/source/
     total_pulls: 3353
+    manually_check: true
 ncbi-acc-download:
     name: ncbi-acc-download
     description: Download files from ncbi entrez by accession.
-    license: Apache-2.0.0
+    license: Apache-2.0
     home_url: https://github.com/kblin/ncbi-acc-download/
     total_pulls: 3353
+    manually_check: true
 allegro:
     name: allegro
     description: A fast linkage and haplotype analysis utility making use of MTBDD
@@ -2284,12 +2315,14 @@ allegro:
     license: Custom License
     home_url: https://www.decode.com/software/allegro/
     total_pulls: 3352
+    manually_check: true
 heinz:
     name: heinz
     description: The algorithm for identification of the optimal scoring subnetwork.
     license: MIT
     home_url: https://github.com/ls-cwi/heinz
     total_pulls: 3351
+    manually_check: true
 chira:
     name: chira
     description: An integrated framework for annotation and visualization of chimeric
@@ -2332,9 +2365,10 @@ disco:
 bctools:
     name: bctools
     description: Tools for handling barcodes in ngs data.
-    license: Apache-2.0.0
+    license: Apache-2.0
     home_url: https://github.com/dmaticzka/bctools
     total_pulls: 3348
+    manually_check: true
 transit:
     name: transit
     description: Transit
@@ -2382,9 +2416,10 @@ takeabreak:
     description: tool that can detect inversion breakpoints directly from raw NGS
         reads, without the need of any reference genome and without de novo assembling
         the genomes
-    license: GNU Affero General Public License
+    license: GNU
     home_url: https://colibread.inria.fr/software/takeabreak/
     total_pulls: 3345
+    manually_check: true
 pipelign:
     name: pipelign
     description: A pipeline for automated multiple sequence alignment, particularly
@@ -2399,6 +2434,7 @@ lordec:
     license: CeCILL A license
     home_url: http://www.atgc-montpellier.fr/lordec/
     total_pulls: 3343
+    manually_check: true
 lorikeet:
     name: lorikeet
     description: Tool for digital spoligotyping of mtb strains from illumina read
@@ -2423,8 +2459,9 @@ snp-dists:
     name: snp-dists
     description: Convert a FASTA alignment to SNP distance matrix
     license: GPL3
-    home_url: https://github.com/{{ user }}/{{ name }}
+    home_url: https://github.com/tseemann/snp-dists
     total_pulls: 3338
+    manually_check: true
 nudup:
     name: nudup
     description: Marks/removes duplicate molecules based on the molecular tagging
@@ -2435,10 +2472,11 @@ nudup:
     manually_check: true
 prestor:
     name: prestor
-    description:
-    license:
-    home_url:
+    description: A prototype package for generating quality control plots from pRESTO output.
+    license: CC-BY-SA-4.0
+    home_url: https://bitbucket.org/javh/prototype-prestor
     total_pulls: 3336
+    manually_check: true
 socru:
     name: socru
     description: Order and orientation of complete bacterial genomes
@@ -2452,6 +2490,7 @@ qfilt:
     license: MIT
     home_url: https://github.com/veg/qfilt
     total_pulls: 3333
+    manually_check: true
 structure:
     name: structure
     description: '"The program structure is a free software package for using multi-locus
@@ -2462,14 +2501,16 @@ structure:
         or admixed. It can be applied to most of the commonly-used genetic markers,
         including SNPS, microsatellites, RFLPs and AFLPs."'
     license: MIT
-    home_url: "'https://web.stanford.edu/group/pritchardlab/structure.html'"
+    home_url: "https://web.stanford.edu/group/pritchardlab/structure.html"
     total_pulls: 3330
+    manually_check: true
 spaln:
     name: spaln
-    description: "'Map and align a set of cDNA/EST or protein sequences onto a genome'"
+    description: "Map and align a set of cDNA/EST or protein sequences onto a genome"
     license: GPL-2.0
     home_url: http://www.genome.ist.i.kyoto-u.ac.jp/~aln_user/spaln/
     total_pulls: 3330
+    manually_check: true
 umi_tools:
     name: umi_tools
     description: Tools for dealing with unique molecular identifiers
@@ -2510,47 +2551,49 @@ blat:
     name: blat
     description: Blat is a bioinformatics software tool which performs rapid mrna/dna
         and cross-species protein alignments
-    license: Apache-2.0.0
+    license: Apache-2.0
     home_url: https://users.soe.ucsc.edu/~kent/src/
     total_pulls: 3322
+    manually_check: true
 medaka:
     name: medaka
     description: Neural network sequence error correction.
     license: Mozilla Public License 2.0
     home_url: https://github.com/nanoporetech/medaka
     total_pulls: 3298
+    manually_check: true
 bracken:
     name: bracken
-    description: "'Bracken (Bayesian Reestimation of Abundance with KrakEN) is a highly\
+    description: "Bracken (Bayesian Reestimation of Abundance with KrakEN) is a highly\
         \ accurate statistical method that computes the abundance of species in DNA\
-        \ sequences from a metagenomics sample.'"
+        \ sequences from a metagenomics sample."
     license: GPL-3.0
     home_url: https://github.com/jenniferlu717/Bracken
     total_pulls: 3292
+    manually_check: true
 flash:
     name: flash
-    description: "'Merge mates from fragments that are shorter than twice the read\
-        \ length'"
-    license: GPLv3+
+    description: "Merge mates from fragments that are shorter than twice the read\
+        \ length"
+    license: GPL-3.0
     home_url: https://ccb.jhu.edu/software/FLASH/
     total_pulls: 3288
+    manually_check: true
 meme:
     name: meme
-    description: "# Meme\n\n> Motif based sequence analysis tools\n\n> Licence: Custom\n\
-        \nHome: http://alternate.meme-suite.org/meme-software/4.11.2/meme_4.11.2.tar.gz\n\
-        \n"
-    license: Custom
+    description: "Motif based sequence analysis tools"
+    license: Custom License
     home_url: http://meme-suite.org
     total_pulls: 3276
+    manually_check: true
 datamash:
     name: datamash
-    description: "# Datamash\n\n> Gnu datamash is a command-line program which performs\
-        \ basic numeric,textual and statistical operations on input textual data files.\n\
-        \n> Licence: Gpl3\n\nHome: http://ftpmirror.gnu.org/datamash/datamash-1.1.0.tar.gz\n\
-        \n"
-    license:
-    home_url:
+    description: "Gnu datamash is a command-line program which performs\
+        \ basic numeric,textual and statistical operations on input textual data files."
+    license: GPL-3.0
+    home_url: http://ftpmirror.gnu.org/datamash/
     total_pulls: 3272
+    manually_check: true
 scikit-bio:
     name: scikit-bio
     description:
@@ -2561,15 +2604,17 @@ kraken2:
     name: kraken2
     description: Kraken2 is a system for assigning taxonomic labels to short DNA sequences,
         usually obtained through metagenomic studies.
-    license: GPLv3
+    license: GPL-3.0
     home_url: https://ccb.jhu.edu/software/kraken2/
     total_pulls: 3258
+    manually_check: true
 trinity:
     name: trinity
     description: '"Trinity assembles transcript sequences from Illumina RNA-Seq data."'
     license: BSD-3-Clause
     home_url: https://github.com/trinityrnaseq/trinityrnaseq/
     total_pulls: 3241
+    manually_check: true
 jq:
     name: jq
     description: Jq is a lightweight and flexible command-line json processor.
@@ -2593,10 +2638,11 @@ sina:
     manually_check: true
 mummer4:
     name: mummer4
-    description: '"MUMmer is a system for rapidly aligning entire genomes"'
-    license: '"The Artistic License 2.0"'
-    home_url: "'https://mummer4.github.io/'"
+    description: "MUMmer is a system for rapidly aligning entire genomes"
+    license: Artistic-2.0
+    home_url: https://github.com/mummer4/mummer
     total_pulls: 3228
+    manually_check: true
 perl:
     name: perl
     description: Perl Language
@@ -2649,10 +2695,11 @@ intervene:
     manually_check: true
 mykrobe:
     name: mykrobe
-    description: "'Antibiotic resistance prediction in minutes'"
+    description: Antibiotic resistance prediction in minutes
     license: MIT
     home_url: https://github.com/Mykrobe-tools/mykrobe
     total_pulls: 3211
+    manually_check: true
 bax2bam:
     name: bax2bam
     description: bax2bam converts the legacy PacBio basecall format (bax.h5) into
@@ -2660,6 +2707,7 @@ bax2bam:
     license: BSD-3-Clause-Clear
     home_url: https://github.com/PacificBiosciences/bax2bam
     total_pulls: 3211
+    manually_check: true
 filtlong:
     name: filtlong
     description: "'Filtlong is a tool for filtering long reads. It can take a set\
@@ -2669,6 +2717,7 @@ filtlong:
     license: GPL-3.0
     home_url: https://github.com/rrwick/Filtlong
     total_pulls: 3208
+    manually_check: true
 pureclip:
     name: pureclip
     description: Pureclip is a tool to detect protein-rna interaction footprints from
@@ -2725,9 +2774,10 @@ zerone:
     name: zerone
     description: Zerone discretizes several ChIP-seq replicates simultaneously and
         resolves conflicts between them.
-    license: GPL-3
+    license: GPL-3.0
     home_url: https://github.com/nanakiksc/zerone
     total_pulls: 3203
+    manually_check: true
 perl-onto-perl:
     name: perl-onto-perl
     description: Perl modules for manipulating obo-formatted ontologies, such as the
@@ -2749,6 +2799,7 @@ pear:
     license: "'Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported'"
     home_url: http://sco.h-its.org/exelixis/web/software/pear/
     total_pulls: 3200
+    manually_check: true
 r-data.table:
     name: r-data.table
     description: Fast aggregation of large data (e.g. 100gb in ram), fast ordered
@@ -2818,6 +2869,7 @@ kma:
     license: Apache-2.0
     home_url: https://bitbucket.org/genomicepidemiology/kma
     total_pulls: 3056
+    manually_check: true
 fastani:
     name: fastani
     description: "'FastANI is developed for fast alignment-free computation of whole-genome\
@@ -2825,6 +2877,7 @@ fastani:
     license: Apache-2.0
     home_url: https://github.com/ParBLiSS/FastANI
     total_pulls: 3043
+    manually_check: true
 cpat:
     name: cpat
     description: Coding potential assessment tool
@@ -4988,7 +5041,7 @@ pypore:
     description: "# Pypore\n\n> Pythonic/cythonic nanopore translocation analysis\n\
         \n> Licence: Apache License, Version 2.0\n\nHome: https://pypi.python.org/packages/source/p/pypore/pypore-0.0.5.dev20160304220337.tar.gz\n\
         \n"
-    license: Apache-2.0.0
+    license: Apache-2.0
     home_url: http://parkin.github.io/pypore/
     total_pulls: 35
 perl-moosex-types:
@@ -5775,7 +5828,7 @@ verifybamid2:
 python-msgpack:
     name: python-msgpack
     description: "\"It's like JSON. But fast and small.\""
-    license: Apache-2.0.0
+    license: Apache-2.0
     home_url: https://pypi.org/project/msgpack/#description
     total_pulls: 20
 biolib:
@@ -6951,7 +7004,7 @@ methylpy:
     name: methylpy
     description: '"Bisulfite sequencing data processing and differential methylation
         analysis"'
-    license: Apache-2.0.0
+    license: Apache-2.0
     home_url: https://github.com/yupenghe/methylpy
     total_pulls: 12
 pyomero-upload:
@@ -7665,9 +7718,9 @@ ucsc-liftover:
 fasta3:
     name: fasta3
     description: "# Fasta3\n\n> The fasta package - protein and dna sequence similarity\
-        \ searching and alignment programs\n\n> Licence: Apache-2.0.0\n\nHome: http://faculty.virginia.edu/wrpearson/fasta/fasta36/fasta-36.3.8.tar.gz\n\
+        \ searching and alignment programs\n\n> Licence: Apache-2.0\n\nHome: http://faculty.virginia.edu/wrpearson/fasta/fasta36/fasta-36.3.8.tar.gz\n\
         \n"
-    license: Apache-2.0.0
+    license: Apache-2.0
     home_url: http://faculty.virginia.edu/wrpearson/fasta
     total_pulls: 8
 mgkit:
@@ -7843,7 +7896,7 @@ pbsv:
 htstream:
     name: htstream
     description: '|'
-    license: Apache-2.0.0
+    license: Apache-2.0
     home_url: https://s4hts.github.io/HTStream/
     total_pulls: 8
 bioconductor-decipher:
@@ -7855,7 +7908,7 @@ bioconductor-decipher:
 gvcfgenotyper:
     name: gvcfgenotyper
     description: A utility for merging and genotyping Illumina-style GVCFs.
-    license: Apache-2.0.0
+    license: Apache-2.0
     home_url: https://github.com/Illumina/gvcfgenotyper
     total_pulls: 8
 medpy:
@@ -8708,8 +8761,8 @@ qorts:
 bumbershoot:
     name: bumbershoot
     description: ">  the bumbershoot tool suite for analyzing shotgun proteomic data\n\
-        \n> Licence:  Apache-2.0.0\n\n"
-    license: Apache-2.0.0
+        \n> Licence:  Apache-2.0\n\n"
+    license: Apache-2.0
     home_url: https://proteowizard.sourceforge.net
     total_pulls: 6
 smhasher:
@@ -30318,7 +30371,7 @@ cwl2wdl:
     name: cwl2wdl
     description: Proof of concept converter from common workflow language (cwl) to
         the broad institute's workflow definition language (wdl).
-    license: Apache-2.0.0
+    license: Apache-2.0
     home_url: https://github.com/adamstruck/cwl2wdl
     total_pulls: 1
 nanonet:
@@ -36495,7 +36548,7 @@ shotmap:
 dictobj:
     name: dictobj
     description: Dictionary where keys can be accessed as instance attributes
-    license: Apache-2.0.0
+    license: Apache-2.0
     home_url: http://pypi.python.org/pypi/dictobj
     total_pulls: 0
 univariate:
@@ -38519,7 +38572,7 @@ variant-effect-predictor:
     description: "# Variant-Effect-Predictor\n\n> The vep determines the effect of\
         \ your variants (snps, insertions, deletions, cnvs or structural variants)\
         \ on genes, transcripts, and protein sequence, as well as regulatory regions.\n\
-        \n> Licence: Apache-2.0.0\n\nHome: https://github.com/Ensembl/ensembl-tools/archive/release/87.zip\n\
+        \n> Licence: Apache-2.0\n\nHome: https://github.com/Ensembl/ensembl-tools/archive/release/87.zip\n\
         \n"
     license:
     home_url:
@@ -39017,7 +39070,7 @@ dxua:
     description: "# Dxua\n\n> Command-line tool for uploading files to the dnanexus\
         \ platform\n\n> Licence: Apache V2.0\n\nHome: https://wiki.dnanexus.com/images/files/dnanexus-upload-agent-1.5.11-osx.zip\n\
         \n"
-    license: '"Apache-2.0.0"'
+    license: '"Apache-2.0"'
     home_url: "'https://documentation.dnanexus.com/user/objects/uploading-and-downloading-files/batch/upload-agent'"
     total_pulls: 0
 elasticluster:
@@ -39325,7 +39378,7 @@ gocr:
     total_pulls: 0
 google-api-python-client:
     name: google-api-python-client
-    description: "# Google-Api-Python-Client\n\n> Licence: Apache-2.0.0\n\nHome: https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.4.2.tar.gz\n\
+    description: "# Google-Api-Python-Client\n\n> Licence: Apache-2.0\n\nHome: https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.4.2.tar.gz\n\
         \n"
     license:
     home_url:
@@ -43230,7 +43283,7 @@ uritemplate:
     name: uritemplate
     description: "# Uritemplate\n\n> Python implementation of rfc6570, uri template,\
         \ and can expand templates up to and including level 4 in that specification.\n\
-        \n> Licence: Apache-2.0.0\n\nHome: https://pypi.python.org/packages/source/u/uritemplate/uritemplate-0.6.tar.gz\n\
+        \n> Licence: Apache-2.0\n\nHome: https://pypi.python.org/packages/source/u/uritemplate/uritemplate-0.6.tar.gz\n\
         \n"
     license:
     home_url:
@@ -45555,7 +45608,7 @@ itk:
     name: itk
     description: ">  itk is an open-source, cross-platform system that provides developers\
         \ with an extensive suite of software tools for image analysis.\n\n> Licence:\
-        \  Apache-2.0.0\n\n"
+        \  Apache-2.0\n\n"
     license:
     home_url:
     total_pulls: 0
@@ -48825,7 +48878,7 @@ curlywhirly:
 fastlmm:
     name: fastlmm
     description: "'Fast GWAS'"
-    license: Apache-2.0.0
+    license: Apache-2.0
     home_url: http://research.microsoft.com/en-us/um/redmond/projects/mscompbio/fastlmm/
     total_pulls: 0
 ssu-align:
@@ -49617,7 +49670,7 @@ gmap-fusion:
 pysnptools:
     name: pysnptools
     description: "'Python library for reading and manipulating genetic data'"
-    license: Apache-2.0.0
+    license: Apache-2.0
     home_url: http://research.microsoft.com/en-us/um/redmond/projects/mscompbio/
     total_pulls: 0
 biolite-tools:
@@ -50791,7 +50844,7 @@ itero:
 bibliospec:
     name: bibliospec
     description: The BiblioSpec Spetral Library tool suite
-    license: Apache-2.0.0
+    license: Apache-2.0
     home_url: https://skyline.ms/project/home/software/BiblioSpec/begin.view?
     total_pulls: 0
 forgi:
