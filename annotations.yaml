@@ -1495,7 +1495,7 @@ pbsim:
     license: GPL-2.0
     home_url: https://code.google.com/p/pbsim/
     additional_repo:
-      - https://github.com/pfaucon/PBSIM-PacBio-Simulator
+        - https://github.com/pfaucon/PBSIM-PacBio-Simulator
     total_pulls: 4888
     manually_check: true
 piler:
@@ -8224,110 +8224,126 @@ bioconductor-chipqc:
     total_pulls: 8
 mappy:
     name: mappy
-    description: "Minimap2 Python binding"
+    description: Minimap2 Python binding
     license: MIT
     home_url: https://github.com/lh3/minimap2
     total_pulls: 8
+    manually_check: true
 binsanity:
     name: binsanity
     description: Method to cluster contigs based a biphasic method with coverage and
         composition
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/edgraham/BinSanity
     total_pulls: 8
+    manually_check: true
 lohhla:
     name: lohhla
-    description: A computational tool to evaluate hla loss using next-generation sequencing
-        data.
-    license: Not available
+    description: A computational tool to evaluate hla loss using next-generation sequencing data.
+    license: Non-Commercial Research Purposes
     home_url: https://bitbucket.org/mcgranahanlab/lohhla
     total_pulls: 8
+    manually_check: true
 cannoli:
     name: cannoli
-    description: Distributed execution of bioinformatics tools on apache spark
-    license: Not available
+    description: Distributed execution of bioinformatics tools on Apache Spark
+    license: Apache-2.0
     home_url: https://github.com/bigdatagenomics/cannoli
     total_pulls: 8
+    manually_check: true
 womtool:
     name: womtool
     description: Command line utilities for interacting with wdl
     license: BSD-3-Clause
     home_url: https://cromwell.readthedocs.io/en/develop/WOMtool/
     total_pulls: 8
+    manually_check: true
 pyensembl:
     name: pyensembl
     description: Python interface to ensembl reference genome metadata
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/openvax/pyensembl
     total_pulls: 8
+    manually_check: true
 genomelake:
     name: genomelake
     description: Simple and efficient random access to genomic data for deep learning
         models.
-    license: BSD License
+    license: BSD
     home_url: https://github.com/kundajelab/genomelake
     total_pulls: 8
+    manually_check: true
 novoplasty:
     name: novoplasty
     description: The organelle assembler and heteroplasmy caller
-    license: Not available
+    license: Custom License
     home_url: https://github.com/ndierckx/NOVOPlasty
     total_pulls: 8
+    manually_check: true
 pbsv:
     name: pbsv
-    description: Pbsv - pacbio structural variant (sv) calling and analysis tools
-    license: Not available
+    description: pbsv - PacBio structural variant (SV) calling and analysis tools
+    license: BSD-3-Clause-Clear
     home_url: https://github.com/PacificBiosciences/pbbioconda
     total_pulls: 8
+    manually_check: true
 htstream:
     name: htstream
-    description: '|'
+    description: A high throughput sequence read toolset using a streaming approach facilitated by Linux pipes
     license: Apache-2.0
-    home_url: https://s4hts.github.io/HTStream/
+    home_url: https://github.com/s4hts/HTStream
     total_pulls: 8
+    manually_check: true
 bioconductor-decipher:
     name: bioconductor-decipher
-    description: "Tools for curating, analyzing, and manipulating biological sequences"
+    description: Tools for curating, analyzing, and manipulating biological sequences
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/release/bioc/html/DECIPHER.html
     total_pulls: 8
+    manually_check: true
 gvcfgenotyper:
     name: gvcfgenotyper
     description: A utility for merging and genotyping Illumina-style GVCFs.
     license: Apache-2.0
     home_url: https://github.com/Illumina/gvcfgenotyper
     total_pulls: 8
+    manually_check: true
 medpy:
     name: medpy
     description: Medical image processing in Python
-    license: GNU General Public (GPL)
+    license: GPL-3.0
     home_url: https://github.com/loli/medpy
     total_pulls: 8
+    manually_check: true
 cgat-apps:
     name: cgat-apps
-    description: "Computational Genomics Analysis Toolkit"
+    description: Computational Genomics Analysis Toolkit
     license: MIT
-    home_url: https://www.cgat.org/downloads/public/cgat/documentation
+    home_url: https://github.com/cgat-developers/cgat-apps
     total_pulls: 8
+    manually_check: true
 r-syntactic:
     name: r-syntactic
     description: Make syntactically valid names out of character vectors.
-    license: Not available
-    home_url: https://syntactic.acidgenomics.com/
+    license: MIT
+    home_url: https://github.com/acidgenomics/syntactic
     total_pulls: 8
+    manually_check: true
 dnaio:
     name: dnaio
-    description: "Read FASTA and FASTQ files efficiently"
-    license: MIT License
+    description: Read FASTA and FASTQ files efficiently
+    license: MIT
     home_url: https://github.com/marcelm/dnaio/
     total_pulls: 8
+    manually_check: true
 biobb_structure_manager:
     name: biobb_structure_manager
     description: Biobb_structure_manager is a library to efficiently load and process
         biomolecular 3d structures.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/bioexcel/BioBB_structure_manager
     total_pulls: 8
+    manually_check: true
 deepac:
     name: deepac
     description: Predicting pathogenic potentials of novel dna with reverse-complement
@@ -8340,112 +8356,125 @@ cesm:
     name: cesm
     description: The Community Earth System Model (CESM) is a coupled climate model
         for simulating Earth’s climate system
-    license: BSD 3-Clause
+    license: BSD-3-Clause
     home_url: https://github.com/ESCOMP/cesm
     total_pulls: 8
+    manually_check: true
 pyrle:
     name: pyrle
     description: Genomic Rle-objects for Python
     license: MIT
     home_url: https://github.com/endrebak/pyrle
     total_pulls: 8
+    manually_check: true
 bamread:
     name: bamread
     description: Read bam files quickly into dataframes in Python
     license: MIT
     home_url: http://github.com/endrebak/bamread
     total_pulls: 8
+    manually_check: true
 pyranges:
     name: pyranges
-    description: Genomicranges for python.
-    license: Not available
+    description: GenomicRanges for Python.
+    license: MIT
     home_url: http://github.com/endrebak/pyranges
     total_pulls: 8
+    manually_check: true
 entrezpy:
     name: entrezpy
-    description: Entrezpy is a dedicated python library to interact with ncbi entrez
+    description: Entrezpy is a dedicated Python library to interact with NCBI Entrez
         databases
-    license: Not available
+    license: LGPL-3.0
     home_url: https://gitlab.com/ncbipy/entrezpy
     total_pulls: 8
+    manually_check: true
 samplot:
     name: samplot
     description: Plot structural variant signals from bams and crams.
-    license: Not available
+    license: MIT
     home_url: https://github.com/jbelyeu/samplot
     total_pulls: 8
+    manually_check: true
 mutmap:
     name: mutmap
-    description: 'Mutmap: pipeline to identify causative mutations responsible for
-        a phenotype'
-    license: GPL-3.0-or-later
+    description: 'Mutmap: pipeline to identify causative mutations responsible for a phenotype'
+    license: GPL-3.0
     home_url: https://github.com/YuSugihara/MutMap
     total_pulls: 8
+    manually_check: true
 qtlseq:
     name: qtlseq
-    description: 'Qtl-seq: pipeline to identify causative mutations responsible for
-        a phenotype'
-    license: GPL-3.0-or-later
+    description: 'Qtl-seq: pipeline to identify causative mutations responsible for a phenotype'
+    license: GPL-3.0
     home_url: https://github.com/YuSugihara/QTL-seq
     total_pulls: 8
+    manually_check: true
 fargene:
     name: fargene
     description: Fragmented antibiotic resistance gene ienntifier takes either fragmented
         metagenomic data or longer sequences as input and predicts and delivers full-length
         antiobiotic resistance genes as output
-    license: Not available
+    license: MIT
     home_url: https://github.com/fannyhb/fargene
     total_pulls: 8
+    manually_check: true
 centrosome:
     name: centrosome
-    description: "An open source image processing library. Dependency for CellProfiler"
-    license: BSD 3
+    description: An open source image processing library
+    license: BSD-3.0
     home_url: https://github.com/CellProfiler/centrosome
     total_pulls: 8
+    manually_check: true
 spliceai:
     name: spliceai
     description: A deep learning-based tool to identify splice variants.
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/Illumina/SpliceAI
     total_pulls: 8
+    manually_check: true
 seqsero2:
     name: seqsero2
     description: Salmonella serotype prediction from genome sequencing data
-    license: Not available
+    license: GPL-2.0
     home_url: https://github.com/denglab/SeqSero2
     total_pulls: 8
+    manually_check: true
 desalt:
     name: desalt
     description: De Bruijn graph-based Spliced Aligner for Long Transcriptome reads
     license: MIT
     home_url: https://github.com/ydLiu-HIT/
     total_pulls: 8
+    manually_check: true
 cutesv:
     name: cutesv
     description: Cutesv is a long-read based human genomic structural variation detection
         tool
-    license: Not available
+    license: MIT
     home_url: https://github.com/tjiangHIT/cuteSV
     total_pulls: 8
+    manually_check: true
 isescan:
     name: isescan
-    description: "A python pipeline to identify IS (Insertion Sequence) elements\
-        \ in genome and metagenome "
-    license: GNU General Public License
+    description: "A python pipeline to identify IS (Insertion Sequence elements in genome and metagenome "
+    license: GPL-3.0
     home_url: https://github.com/xiezhq/ISEScan
     total_pulls: 8
+    manually_check: true
 refgenie:
     name: refgenie
     description: Refgenie creates a standardized folder structure for reference genome
         files and indexes. you can download pre-built genomes or build your own for
         any fasta file
-    license: Not available
-    home_url: http://refgenie.databio.org
+    license: BSD-2-Clause
+    home_url: https://github.com/databio/refgenie/
     total_pulls: 8
+    manually_check: true
 svist4get:
     name: svist4get
     description: A simple visualization tool for genomic tracks from sequencing experiments
-    license: Not available
+    license: WTFPL
     home_url: https://bitbucket.org/artegorov/svist4get/
     total_pulls: 8
 scpred-cli:
@@ -8460,104 +8489,119 @@ pybedgraph:
     name: pybedgraph
     description: "A package for fast operations on 1-dimensional genomic signal tracks"
     license: MIT
-    home_url: "https://github.com/TheJacksonLaboratory/pyBedGraph"
+    home_url: https://github.com/TheJacksonLaboratory/pyBedGraph
     total_pulls: 8
+    manually_check: true
 ncbimeta:
     name: ncbimeta
     description: Efficient and comprehensive metadata acquisition from the ncbi databases
         (includes sra).
-    license: Not available
+    license: MIT
     home_url: https://github.com/ktmeaton/NCBImeta
     total_pulls: 8
+    manually_check: true
 libopenms:
     name: libopenms
-    description:
-    license:
-    home_url:
+    description: 'OpenMS is an open-source software C++ library for LC-MS data management and analyses'
+    license: BSD
+    home_url: https://github.com/OpenMS/OpenMS
     total_pulls: 8
+    manually_check: true
 libis:
     name: libis
-    description: Low input bisulfite sequencing alignment
-    license: Not available
+    description: Low input Bisulfite sequencing alignment
+    license: MIT
     home_url: https://github.com/Dangertrip/LiBis
     total_pulls: 8
+    manually_check: true
 haslr:
     name: haslr
     description: A fast tool for hybrid genome assembly of long and short reads
-    license: GPL3
+    license: GPL-3.0
     home_url: https://github.com/vpc-ccg/haslr
     total_pulls: 8
+    manually_check: true
 pyslim:
     name: pyslim
-    description:
-    license:
-    home_url:
+    description: Manipulate tree sequences produced by SLiM.
+    license: MIT
+    home_url: https://github.com/tskit-dev/pyslim
     total_pulls: 8
+    manually_check: true
 openms-thirdparty:
     name: openms-thirdparty
-    description:
-    license:
-    home_url:
+    description: 'OpenMS is an open-source software C++ library for LC-MS data management and analyses'
+    license: BSD
+    home_url: https://github.com/OpenMS/OpenMS
     total_pulls: 8
+    manually_check: true
 isoncorrect:
     name: isoncorrect
     description: De novo error-correction of long-read transcriptome reads.
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/ksahlin/isONcorrect
     total_pulls: 8
+    manually_check: true
 kcounter:
     name: kcounter
-    description: "A simple package for counting DNA k-mers in Python. Written in
-        Rust."
+    description: "A simple package for counting DNA k-mers in Python. Written in Rust."
     license: GPL-3
     home_url: http://apcamargo.github.io/kcounter/
     total_pulls: 8
+    manually_check: true
 taxonomy:
     name: taxonomy
     description: "Python and Rust library for loading, saving, and manipulating taxonomic
         trees"
-    license: MIT License
+    license: MIT
     home_url: https://github.com/onecodex/taxonomy/
     total_pulls: 8
+    manually_check: true
 getorganelle:
     name: getorganelle
     description: Get organelle genomes from genome skimming data
-    license: Not available
+    license: GPL-3.0
     home_url: http://github.com/Kinggerm/GetOrganelle
     total_pulls: 8
+    manually_check: true
 phylorank:
     name: phylorank
     description: Phylorank provides functionality for calculating the relative evolutionary
         divergence (red) of taxa in a tree and for finding the best placement of taxonomic
         labels in a tree.
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/dparks1134/PhyloRank
     total_pulls: 8
+    manually_check: true
 kalign3:
     name: kalign3
     description: "Kalign is a fast and accurate multiple sequence alignment algorithm."
-    license: GPL2
+    license: GPL-2.0
     home_url: https://github.com/TimoLassmann/kalign
     total_pulls: 8
+    manually_check: true
 ddipy:
     name: ddipy
-    description: Python client for omicsdi restful api
-    license: Not available
+    description: Python client for OmicsDI Restful API
+    license: Apache-2.0
     home_url: https://github.com/OmicsDI/ddipy
     total_pulls: 8
+    manually_check: true
 lamassemble:
     name: lamassemble
     description: Merge overlapping long dna reads into a consensus sequence
-    license: Not available
+    license: MIT
     home_url: https://gitlab.com/mcfrith/lamassemble
     total_pulls: 8
+    manually_check: true
 transindel:
     name: transindel
     description: Transindel is used to detect indels (insertions and deletions) from
         dna-seq or rna-seq data by parsing chimeric alignments from bwa-mem..
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/cauyrd/transIndel
     total_pulls: 8
+    manually_check: true
 rnaredprint:
     name: rnaredprint
     description: Tree-decomposition based dynamic programming algorithm for multiple
@@ -8565,6 +8609,7 @@ rnaredprint:
     license: GPL
     home_url: https://github.com/yannponty/RNARedPrint
     total_pulls: 8
+    manually_check: true
 clame:
     name: clame
     description: "CLAME is a binning software for metagenomic reads. It immplements
@@ -8573,6 +8618,7 @@ clame:
     license: GPL-3.0
     home_url: https://github.com/andvides/CLAME
     total_pulls: 8
+    manually_check: true
 strling:
     name: strling
     description: STRling (pronounced like “sterling”) is a method to detect large
@@ -8580,19 +8626,22 @@ strling:
     license: MIT
     home_url: https://github.com/quinlan-lab/STRling
     total_pulls: 8
+    manually_check: true
 tasmanian-mismatch:
     name: tasmanian-mismatch
     description: Tasmanian tool to analyze mismatches at read and position in high
         throughput sequencing data
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/nebiolabs/tasmanian-mismatch
     total_pulls: 8
+    manually_check: true
 bwread:
     name: bwread
-    description: "Read bigwig files quickly into PyRanges or DataFrames"
+    description: Read bigwig files quickly into PyRanges or DataFrames
     license: MIT
-    home_url: "http://github.com/endrebak/bwread"
+    home_url: http://github.com/endrebak/bwread
     total_pulls: 8
+    manually_check: true
 rapifilt:
     name: rapifilt
     description: RAPId FILTer is a quality control of DNA sequences
@@ -8612,9 +8661,10 @@ enano:
     name: enano
     description: ENANO is a FASTQ compression tool especially designed for nanopore
         sequencing FASTQ files.
-    license: MIT License
+    license: MIT
     home_url: https://github.com/guilledufort/EnanoFASTQ
     total_pulls: 8
+    manually_check: true
 cnvpytor:
     name: cnvpytor
     description: Python extension of cnvnator
@@ -8637,27 +8687,31 @@ hicstuff:
     license: Not available
     home_url: https://github.com/koszullab/hicstuff
     total_pulls: 8
+    manually_check: true
 parent-map:
     name: parent-map
     description: Analyze parental contributions to evolved or engineered protein or
         dna sequences
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/damienmarsic/parent-map
     total_pulls: 8
+    manually_check: true
 plncpro:
     name: plncpro
     description: "PlncPRO is a program to predict long non-coding (lncRNAs) transcripts
         using Random Forests."
-    license: "GNU General Public License"
+    license: GPL
     home_url: "https://github.com/urmi-21/PLncPRO"
     total_pulls: 8
+    manually_check: true
 bio-ting:
     name: bio-ting
     description: Ting is a tool clustering large scale t cell receptor repertoires
         by antigen-specificity
-    license: Not available
+    license: MIT
     home_url: https://github.com/FelixMoelder/ting
     total_pulls: 8
+    manually_check: true
 svtk:
     name: svtk
     description: Utilities for consolidating, filtering, resolving, and annotating
@@ -8665,20 +8719,21 @@ svtk:
     license: MIT
     home_url: https://github.com/talkowski-lab/svtk
     total_pulls: 8
+    manually_check: true
 pbipa:
     name: pbipa
     description: "Improved Phased Assembly"
-    license: "BSD 3-Clause Clear License"
-    home_url: "https://github.com/PacificBiosciences/pbbioconda"
+    license: BSD-3-Clause
+    home_url: https://github.com/PacificBiosciences/pbbioconda
     total_pulls: 8
+    manually_check: true
 ucsc-bigwigcat:
     name: ucsc-bigwigcat
-    description: "# Ucsc-Bigwigcat\n\n> Merge non-overlapping bigwig files\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bigWigCat\n\
-        \n"
-    license: "varies; see http://genome.ucsc.edu/license"
-    home_url: "http://hgdownload.cse.ucsc.edu/admin/exe/"
+    description: '"merge non-overlapping bigWig files"'
+    license: Custom License
+    home_url: '"http://hgdownload.cse.ucsc.edu/admin/exe/"'
     total_pulls: 7
+    manually_check: true
 bcbio-nextgen:
     name: bcbio-nextgen
     description: Python scripts and modules for automated next gen sequencing analysis.
@@ -8686,122 +8741,127 @@ bcbio-nextgen:
         an illumina sequencer, converting them to standard fastq format, aligning
         to a reference genome, doing snp calling, and producing a summary pdf of results.
     license: MIT
-    home_url: https://github.com/chapmanb/bcbb/blob/master/nextgen/README.md
+    home_url: https://github.com/chapmanb/bcbio-nextgen
     total_pulls: 7
+    manually_check: true
 kat:
     name: kat
-    description: "# Kat\n\n> Kat is a suite of tools that analyse jellyfish hashes\
-        \ or sequence files (fasta or fastq) using kmer counts\n\n> Licence: Gpl3\n\
-        \nHome: https://github.com/TGAC/KAT/archive/Release-2.0.8.tar.gz\n\n"
-    license: GPL3
+    description: "KAT is a suite of tools that analyse jellyfish hashes or sequence\
+        \ files (fasta or fastq) using kmer counts"
+    license: GPL-3.0
     home_url: https://github.com/TGAC/KAT
     total_pulls: 7
+    manually_check: true
 nextflow:
     name: nextflow
     description: A dsl for data-driven computational pipelines http://nextflow.io
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/nextflow-io/nextflow
     total_pulls: 7
+    manually_check: true
 pybigwig:
     name: pybigwig
-    description: "# Pybigwig\n\n> A python extension written in c for quick access\
-        \ to bigwig files.\n\n> Licence: Mit\n\nHome: https://github.com/dpryan79/pyBigWig/archive/0.1.11.tar.gz\n\
-        \n"
+    description: A python extension written in C for quick access to bigWig files.
     license: MIT
     home_url: https://github.com/dpryan79/pyBigWig
     total_pulls: 7
+    manually_check: true
 pytabix:
     name: pytabix
-    description: "# Pytabix\n\n> Fast random access to sorted files compressed with\
-        \ bgzip and indexed by tabix\n\n> Licence: Mit\n\nHome: https://github.com/slowkow/pytabix/archive/e4a6f81.tar.gz\n\
-        \n"
+    description: Fast random access to sorted files compressed with bgzip and indexed
+        by tabix.
     license: MIT
     home_url: https://github.com/slowkow/pytabix
     total_pulls: 7
+    manually_check: true
 vcfanno:
     name: vcfanno
-    description: "# Vcfanno\n\n> Annotate a vcf with other vcfs/beds/tabixed files\n\
-        \n> Licence: Mit\n\nHome: https://github.com/brentp/vcfanno/releases/download/v0.1.1-dev/vcfanno\n\
-        \n"
+    description: annotate a VCF with other VCFs/BEDs/tabixed files
     license: MIT
     home_url: https://github.com/brentp/vcfanno
     total_pulls: 7
+    manually_check: true
 avro-python2:
     name: avro-python2
-    description: Avro is a serialization and rpc framework.
-    license: Not available
+    description: "'Avro is a serialization and RPC framework.'"
+    license: Apache-2.0
     home_url: http://avro.apache.org/
     total_pulls: 7
+    manually_check: true
 trimal:
     name: trimal
-    description: "# Trimal\n\n> A tool for the automated removal of spurious sequences\
-        \ or poorly aligned regions from a multiple sequence alignment\n\n> Licence:\
-        \ Gnu General Public License V3 Or Later (Gplv3+)\n\nHome: https://github.com/scapella/trimal/archive/v1.4.1.tar.gz\n\
-        \n"
-    license: GNU General Public License v3 or later (GPLv3+)
+    description: A tool for the automated removal of spurious sequences or poorly aligned regions from a multiple sequence alignment
+    license: GPL-3.0
     home_url: "http://trimal.cgenomics.org"
     total_pulls: 7
+    manually_check: true
 ngs-disambiguate:
     name: ngs-disambiguate
-    description: "# Ngs-Disambiguate\n\n> Disambiguation algorithm for reads aligned\
-        \ to human and mouse genomes using tophat or bwa mem\n\n> Licence: Mit\n\n"
+    description: Disambiguation algorithm for reads aligned to human and mouse genomes
+        using Tophat or BWA mem
     license: MIT
     home_url: https://github.com/AstraZeneca-NGS/disambiguate
     total_pulls: 7
+    manually_check: true
 taxonkit:
     name: taxonkit
-    description: A cross-platform and efficient ncbi taxonomy toolkit
-    license: Not available
+    description: A Cross-platform and Efficient NCBI Taxonomy Toolkit
+    license: MIT
     home_url: https://github.com/shenwei356/taxonkit
     total_pulls: 7
+    manually_check: true
 pycoqc:
     name: pycoqc
     description: Pycoqc computes metrics and generates interactive qc plots for oxford
         nanopore technologies sequencing data
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/a-slide/pycoQC
     total_pulls: 7
+    manually_check: true
 pauvre:
     name: pauvre
     description: Tools for plotting oxford nanopore and other long-read data.
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/conchoecia/pauvre
     total_pulls: 7
+    manually_check: true
 bioconductor-mspurity:
     name: bioconductor-mspurity
-    description: "Automated Evaluation of Precursor Ion Purity for Mass Spectrometry\
-        \ Based Fragmentation in Metabolomics"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Automated Evaluation of Precursor Ion Purity for Mass Spectrometry Based Fragmentation in Metabolomics'"
+    license: GPL-2.0
+    home_url: https://www.bioconductor.org/packages/release/bioc/html/msPurity.html
     total_pulls: 7
+    manually_check: true
 bioconductor-genega:
     name: bioconductor-genega
-    description: "Design gene based on both mRNA secondary structure and codon usage\
-        \ bias using Genetic algorithm"
-    license: "GPL version 2"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Design gene based on both mRNA secondary structure and codon usage bias using Genetic algorithm
+    license: GPL-2.0
+    home_url: https://www.bioconductor.org/packages/release/bioc/html/GeneGA.html
     total_pulls: 7
+    manually_check: true
 dedup:
     name: dedup
     description: Dedup is a tool for read deduplication in paired-end read merging
         (e.g. for ancient dna experiments).
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/apeltzer/dedup
     total_pulls: 7
+    manually_check: true
 r-hemdag:
     name: r-hemdag
     description: a collection of Hierarchical Ensemble Methods (HEMs) for Directed
         Acyclic Graphs (DAGs).
-    license: GPL (>= 3)
+    license: GPL-3.0
     home_url: https://github.com/marconotaro/HEMDAG
     total_pulls: 7
+    manually_check: true
 r-qorts:
     name: r-qorts
-    description: "Qorts toolkit for analysis, quality control, and data management\
-        \ of rna-seq\ndatasets.\n"
-    license: Not available
+    description: "The QoRTs software package is a fast, efficient, and portable multifunction toolkit designed to assist in the analysis, quality control, and data management of RNA-Seq and DNA-Seq datasetsn"
+    license: MIT
     home_url: https://github.com/hartleys/QoRTs
     total_pulls: 7
+    manually_check: true
 rcorrector:
     name: rcorrector
     description: Rcorrector(RNA-seq error CORRECTOR) is a kmer-based error correction
@@ -8810,13 +8870,15 @@ rcorrector:
     license: GPL
     home_url: https://github.com/mourisl/Rcorrector/
     total_pulls: 7
+    manually_check: true
 r-ichorcna:
     name: r-ichorcna
-    description: Estimating tumor fraction in cell-free dna from ultra-low-pass whole
+    description: Estimating tumor fraction in cell-free DNA from ultra-low-pass whole
         genome sequencing.
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/broadinstitute/ichorCNA
     total_pulls: 7
+    manually_check: true
 msisensor:
     name: msisensor
     description: MSIsensor is a C++ program to detect replication slippage variants
@@ -8824,12 +8886,14 @@ msisensor:
     license: MIT
     home_url: https://github.com/ding-lab/msisensor
     total_pulls: 7
+    manually_check: true
 pbcoretools:
     name: pbcoretools
     description: Cli tools and add-ons for pacbio's core apis
     license: Not available
     home_url: https://github.com/PacificBiosciences/pbbioconda
     total_pulls: 7
+    manually_check: true
 r-workflowscriptscommon:
     name: r-workflowscriptscommon
     description: Common functions for making r function wapper scripts. functions
@@ -8844,15 +8908,17 @@ evidencemodeler:
     name: evidencemodeler
     description: Evidence modeler combines ab intio gene predictions, protein alignments,
         and transcript alignments into weighted consensus gene structures
-    license: Not available
+    license: BSD-3-Clause
     home_url: https://github.com/EVidenceModeler/EVidenceModeler
     total_pulls: 7
+    manually_check: true
 anvio-minimal:
     name: anvio-minimal
     description: An interactive analysis and visualization platform for omics data
-    license: Not available
-    home_url: http://merenlab.org/software/anvio/index.html
+    license: GPL-3.0
+    home_url: https://github.com/merenlab/anvio
     total_pulls: 7
+    manually_check: true
 fpa:
     name: fpa
     description: Filter Pairwise Alignment filter long read mapping information to
@@ -8860,57 +8926,66 @@ fpa:
     license: MIT
     home_url: https://github.com/natir/yacrd
     total_pulls: 7
+    manually_check: true
 mhcflurry:
     name: mhcflurry
-    description: Peptide-mhc i binding affinity prediction
-    license: Not available
+    description: Peptide-MHC I binding affinity prediction
+    license: Apache-2.0
     home_url: https://github.com/hammerlab/mhcflurry
     total_pulls: 7
+    manually_check: true
 bioconductor-tximeta:
     name: bioconductor-tximeta
     description: "Transcript Quantification Import with Automatic Metadata"
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/release/bioc/html/tximeta.html
     total_pulls: 7
+    manually_check: true
 refinem:
     name: refinem
     description: A toolbox for improving population genomes.
-    license: Not available
+    license: GPL-3.0
     home_url: http://pypi.python.org/pypi/refinem/
     total_pulls: 7
+    manually_check: true
 r-tcr:
     name: r-tcr
     description: Platform for the advanced analysis of T cell receptor and Immunoglobulin
         repertoires
-    license: Apache License 2.0
+    license: Apache-2.0
     home_url: http://imminfo.github.io/tcr/
     total_pulls: 7
+    manually_check: true
 longshot:
     name: longshot
-    description: '|'
+    description: 'Longshot is a variant calling tool for diploid genomes using long error prone reads such as Pacific Biosciences (PacBio) SMRT and Oxford Nanopore Technologies (ONT)'
     license: MIT
     home_url: https://github.com/pjedge/longshot
     total_pulls: 7
+    manually_check: true
 amas:
     name: amas
     description: Calculate various summary statistics on a multiple sequence alignment
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/marekborowiec/AMAS
     total_pulls: 7
+    manually_check: true
 clusterpicker:
     name: clusterpicker
     description: The cluster picker identifies clusters in newick-formatted trees
         containing thousands of sequences within a few minutes.
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/emmahodcroft/cluster-picker-and-cluster-matcher
     total_pulls: 7
+    manually_check: true
 bioconductor-sctensor:
     name: bioconductor-sctensor
     description: Detection of cell-cell interaction from single-cell rna-seq dataset
         by tensor decomposition
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/bioc/html/scTensor.html
     total_pulls: 7
+    manually_check: true
 flextaxd:
     name: flextaxd
     description: Script that allows the creation of custom kraken databases from various
@@ -44495,9 +44570,10 @@ r:
 pileometh:
     name: pileometh
     description: "A (mostly) universal methylation extractor for BS-seq experiments."
-    license:  MIT
+    license: MIT
     home_url: https://github.com/dpryan79/MethylDackel
     total_pulls: 0
+    manually_check: true
 cwltest:
     name: cwltest
     description: Common workflow language testing framework
@@ -48460,19 +48536,18 @@ perl-gdgraph-histogram:
     total_pulls: 0
 scg:
     name: scg
-    description: 'The single cell genotyper (scg): "roth a, mcpherson a, laks e, biele
-        j, yap d, wan a, et al. clonal genotype and population structure inference
-        from single-cell tumor sequencing. nat meth. 2016;13: 573–576. doi:10.1038/nmeth.3867"
-    license: Not available
-    home_url: https://bitbucket.org/aroth85/scg/wiki/Home
+    description: Software for inference of clonal genotypes using targeted single cell nucleus sequencing.
+    license: GPL-3.0
+    home_url: https://bitbucket.org/aroth85/scg/src
     total_pulls: 0
+    manually_check: true
 tadarida-c:
     name: tadarida-c
-    description: Tadarida-c (toolbox for animal detection on acoustic recordings -
-        classification part) for galaxy use.
-    license: Not available
+    description: Toolbox for animal detection on acoustic recordings classification part for galaxy use.
+    license: GPL-3.0
     home_url: https://github.com/YvesBas/Tadarida-C
     total_pulls: 0
+    manually_check: true
 mixcr:
     name: mixcr
     description:
@@ -48481,22 +48556,22 @@ mixcr:
     total_pulls: 0
 daisysuite:
     name: daisysuite
-    description: Daisysuite - mapping-based pipeline for horizontal gene transfer
-        (hgt) detection using sequencing data
-    license: Not available
+    description: Daisysuite - mapping-based pipeline for horizontal gene transfer (hgt) detection using sequencing data
+    license: GPL-3.0
     home_url: https://gitlab.com/eseiler/DaisySuite
     total_pulls: 0
+    manually_check: true
 perl-data-dump:
     name: perl-data-dump
     description: "Pretty printing of data structures"
     license: perl_5
-    home_url: http://metacpan.org/pod/Data::Dump
+    home_url: "http://metacpan.org/pod/Data::Dump"
     total_pulls: 0
 perl-test-trap:
     name: perl-test-trap
     description: Trap exit codes, exceptions, output, etc.
     license: Not available
-    home_url: http://metacpan.org/pod/Test::Trap
+    home_url: "http://metacpan.org/pod/Test::Trap"
     total_pulls: 0
 r-rentrez:
     name: r-rentrez
@@ -54296,15 +54371,18 @@ btrim:
     home_url: https://github.com/Malfoy/BTRIM
     total_pulls: 0
     identifiers:
-      - doi: abs/1711.03336
+        - doi: abs/1711.03336
 bgreat:
     name: bgreat
     description: BGREAT2 is a read mapping tool for NGS sequencing data that align
-        reads on a de Bruijn graph. Preliminary version described at https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1103-9
-        and used in Bcool a short read corrector (https://arxiv.org/abs/1711.03336)
+        reads on a de Bruijn graph.
     license: AGPL-3.0
     home_url: https://github.com/Malfoy/BGREAT2
     total_pulls: 0
+    identifiers:
+        - doi: abs/1711.03336
+        - doi: 10.1186/s12859-016-1103-9
+    meanually_check: true
 pyaavf:
     name: pyaavf
     description: An amino acid variant format parser for python.
@@ -57340,7 +57418,7 @@ genomeconstellation:
     manually_check: true
 r-eacon:
     name: r-eacon
-    description: "Easy Copy Number. EaCoN aims to be an all-packed in, user-friendly'
+    description: "Easy Copy Number. EaCoN aims to be an all-packed in, user-friendly"
     license: MIT
     home_url: https://github.com/gustaveroussy/EaCoN
     total_pulls: 0
