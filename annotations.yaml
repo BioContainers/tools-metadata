@@ -4103,6 +4103,7 @@ bioconductor-consensus:
     license: BSD-3-Clause
     home_url: https://bioconductor.org/packages/3.11/bioc/html/consensus.html
     total_pulls: 41
+    manually_check: true
 bioconductor-hivcdnavantwout03:
     name: bioconductor-hivcdnavantwout03
     description: "'T cell line infections with HIV-1 LAI (BRU)'"
@@ -4113,157 +4114,177 @@ bioconductor-hivcdnavantwout03:
 bioconductor-migsadata:
     name: bioconductor-migsadata
     description: "'MIGSA vignette data'"
-    license: "'GPL (>= 2)'"
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/data/experiment/html/{{\
-        \ name }}.html'"
+    license: GPL-2.0
+    home_url: http://bioconductor.org/packages/release/data/experiment/html/MIGSAdata.html
     total_pulls: 41
+    manually_check: true
 nanocompore:
     name: nanocompore
     description: Nanocompore identifies raw signal changes between two conditions
         drna-seq data.
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/tleonardi/nanocompore
     total_pulls: 41
+    manually_check: true
 cthreepo:
     name: cthreepo
     description: A python script to interconvert seq-ids in gff3, gtf, bed and other
         files.
-    license: Not available
+    license: MIT
     home_url: https://github.com/vkkodali/cthreepo
     total_pulls: 41
+    manually_check: true
 gvcf2coverage:
     name: gvcf2coverage
     description: Coverage extractor from gVCF files.
     license: MIT
     home_url: https://github.com/varda/varda2_preprocessing
     total_pulls: 41
+    manually_check: true
 varda2-client:
     name: varda2-client
-    description: A python cli to varda2 frequency database server.
-    license: Not available
+    description: A python CLI to Varda2 frequency database server.
+    license: MIT
     home_url: https://github.com/varda/varda2-client
     total_pulls: 41
+    manually_check: true
 vcf2variants:
     name: vcf2variants
     description: Convert vcf files to varda variant files.
-    license: Not available
+    license: MIT
     home_url: https://github.com/varda/varda2_preprocessing
     total_pulls: 41
+    manually_check: true
 bioconductor-scthi:
     name: bioconductor-scthi
-    description: "'Indentification of significantly activated ligand-receptor interactions\
+    description: "'Identification of significantly activated ligand-receptor interactions\
         \ across clusters of cells from single-cell RNA sequencing data'"
-    license: GPL-2
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    license: GPL-2.0
+    home_url: https://bioconductor.org/packages/release/bioc/html/scTHI.html
     total_pulls: 41
+    manually_check: true
 bioconductor-rnaseqpower:
     name: bioconductor-rnaseqpower
-    description: "# Bioconductor-Rnaseqpower\n\n> Rna-seq, sample size\n\n> Licence:\
-        \ Lgpl (>=2)\n\nHome: https://bioarchive.galaxyproject.org/RNASeqPower_1.14.0.tar.gz\n\
-        \n"
-    license: "'LGPL (>=2)'"
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    description: "'Sample size for RNAseq studies'"
+    license: LGPL-2.0
+    home_url: https://bioconductor.org/packages/release/bioc/html/RNASeqPower.html
     total_pulls: 40
+    manually_check: true
 bs-seeker2:
     name: bs-seeker2
-    description: Bs seeker 2 is a seamless and versatile pipeline for accurately and
+    description: BS Seeker 2 is a seamless and versatile pipeline for accurately and
         fast mapping the bisulfite-treated short reads.
-    license: Not available
+    license: MIT
     home_url: http://pellegrini.mcdb.ucla.edu/BS_Seeker2/
     total_pulls: 40
+    manually_check: true
 bioconductor-genomeinfodbdata:
     name: bioconductor-genomeinfodbdata
-    description: Species and taxonomy id look up tables used by genomeinfodb
-    license: Not available
-    home_url: https://bioconductor.org/packages/3.11/data/annotation/html/GenomeInfoDbData.html
+    description: "'Species and taxonomy ID look up tables used by GenomeInfoDb'"
+    license: Artistic-2.0
+    home_url: http://bioconductor.org/packages/release/data/annotation/html/GenomeInfoDbData.html
     total_pulls: 40
+    manually_check: true
 bioconductor-qrqc:
     name: bioconductor-qrqc
     description: "'Quick Read Quality Control'"
-    license: "'GPL (>=2)'"
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    license: GPL-2.0
+    home_url: https://www.bioconductor.org/packages/release/bioc/html/qrqc.html
     total_pulls: 40
+    manually_check: true
 bioconductor-yeastcc:
     name: bioconductor-yeastcc
     description: Spellman et al. (1998) and pramila/breeden (2006) yeast cell cycle
         microarray data
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/experiment/html/yeastCC.html
     total_pulls: 40
+    manually_check: true
 bioconductor-microbiome:
     name: bioconductor-microbiome
     description: Microbiome analytics
-    license: Not available
+    license: BSD-2-Clause
     home_url: https://bioconductor.org/packages/3.11/bioc/html/microbiome.html
     total_pulls: 40
+    manually_check: true
 biobb_io:
     name: biobb_io
-    description: Biobb_io is the biobb module collection to fetch data to be consumed
-        by the rest of the biobb building blocks.
-    license: Not available
+    description: Biobb_io is the Biobb module collection to fetch data to be consumed
+        by the rest of the Biobb building blocks.
+    license: Apache-2.0
     home_url: https://github.com/bioexcel/biobb_io
     total_pulls: 40
+    manually_check: true
 bioconductor-rgin:
     name: bioconductor-rgin
     description: "'gin in R'"
-    license: "'MIT + file LICENSE'"
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    license: MIT
+    home_url: https://www.bioconductor.org/packages/release/bioc/html/Rgin.html
     total_pulls: 40
+    manually_check: true
 bioconductor-beadarrayusecases:
     name: bioconductor-beadarrayusecases
     description: "'Analysing Illumina BeadArray expression data using Bioconductor'"
-    license: GPL-2
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/data/experiment/html/{{\
-        \ name }}.html'"
+    license: GPL-2.0
+    home_url: http://bioconductor.org/packages/release/data/experiment/html/BeadArrayUseCases.html
     total_pulls: 40
+    manually_check: true
 bioconductor-hugene10stprobeset.db:
     name: bioconductor-hugene10stprobeset.db
     description: Affymetrix hugene10 annotation data (chip hugene10stprobeset)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/hugene10stprobeset.db.html
     total_pulls: 40
+    manually_check: true
 bioconductor-mgu74b.db:
     name: bioconductor-mgu74b.db
     description: Affymetrix murine genome u74v2 annotation data (chip mgu74b)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/mgu74b.db.html
     total_pulls: 40
+    manually_check: true
 bioconductor-dsqtl:
     name: bioconductor-dsqtl
     description: Dsqtl, data excerpt from degner et al. 2012 nature letter
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/experiment/html/dsQTL.html
     total_pulls: 40
+    manually_check: true
 bioconductor-neve2006:
     name: bioconductor-neve2006
     description: Expression and cgh data on breast cancer cell lines
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/experiment/html/Neve2006.html
     total_pulls: 40
+    manually_check: true
 bioconductor-difflogo:
     name: bioconductor-difflogo
     description: "'DiffLogo: A comparative visualisation of biooligomer motifs'"
-    license: "'GPL (>= 2)'"
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    license: GPL-2.0
+    home_url: https://www.bioconductor.org/packages/release/bioc/html/DiffLogo.html
     total_pulls: 40
+    manually_check: true
 bioconductor-chic:
     name: bioconductor-chic
     description: "'Quality Control Pipeline for ChIP-Seq Data'"
-    license: GPL-2
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    license: GPL-2.0
+    home_url: https://www.bioconductor.org/packages/release/bioc/html/ChIC.html
     total_pulls: 40
+    manually_check: true
 kssd:
     name: kssd
     description: K-mer substring space decomposition
-    license: Apache Software License
+    license: Apache-2.0
     home_url: https://github.com/yhg926/public_kssd
     total_pulls: 40
+    manually_check: true
 pyfastx:
     name: pyfastx
-    description: '|'
+    description: 'A robust python module for fast random access to sequences from plain and gzipped FASTA/Q file'
     license: MIT
     home_url: https://github.com/lmdu/pyfastx
     total_pulls: 40
+    manually_check: true
 scxa-plots:
     name: scxa-plots
     description: A set of wrappers to produce some bespoke plots used by the team
@@ -4277,9 +4298,10 @@ spacepharer:
     name: spacepharer
     description: '"SpacePHARER: Sensitive identification of phages from CRISPR spacers
         in prokaryotic hosts"'
-    license: GPL-3
+    license: GPL-3.0
     home_url: https://github.com/soedinglab/spacepharer
     total_pulls: 40
+    manually_check: true
 bioconductor-ggbio:
     name: bioconductor-ggbio
     description: The package extends and specializes the grammar of graphics for biological
@@ -4292,18 +4314,21 @@ bioconductor-ggbio:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/ggbio.html
     total_pulls: 39
+    manually_check: true
 perl-sanger-cgp-vcf:
     name: perl-sanger-cgp-vcf
-    description: A set of common perl utilities for generating consistent vcf headers
+    description: a set of common perl utilities for generating consistent Vcf headers
     license: GPL-3.0
-    home_url: https://github.com/cancerit/cgpVcf/
+    home_url: https://github.com/cancerit/cgpVcf
     total_pulls: 39
+    manually_check: true
 crimson:
     name: crimson
-    description: Bioinformatics tool outputs converter to json or yaml.
-    license: Not available
+    description: "'Bioinformatics tool outputs converter to JSON or YAML.'"
+    license: BSD
     home_url: https://github.com/bow/crimson
     total_pulls: 39
+    manually_check: true
 bioconductor-oligoclasses:
     name: bioconductor-oligoclasses
     description: "'Classes for high-throughput arrays supported by oligo and crlmm'"
@@ -4571,87 +4596,97 @@ advntr:
     manually_check: true
 perl-file-readbackwards:
     name: perl-file-readbackwards
-    description: Read a file backwards by lines.
-    license: Not available
+    description: "'Read a file backwards by lines.'"
+    license: perl_5
     home_url: http://metacpan.org/pod/File::ReadBackwards
     total_pulls: 38
+    manually_check: true
 perl-test-fork:
     name: perl-test-fork
-    description: Test code which forks
-    license: Not available
+    description: "'test code which forks'"
+    license: perl_5
     home_url: http://metacpan.org/pod/Test::Fork
     total_pulls: 38
+    manually_check: true
 bioconductor-curatedbreastdata:
     name: bioconductor-curatedbreastdata
     description: "'Curated breast cancer gene expression data with survival and treatment\
         \ information'"
-    license: "'GPL (>= 2)'"
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/data/experiment/html/{{\
-        \ name }}.html'"
+    license: GPL-2.0
+    home_url: http://bioconductor.org/packages/release/data/experiment/html/curatedBreastData.html
     total_pulls: 38
+    manually_check: true
 bioconductor-srgnet:
     name: bioconductor-srgnet
     description: "'SRGnet: An R package for studying synergistic response to gene\
         \ mutations from transcriptomics data'"
-    license: GPL-2
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    license: GPL-2.0
+    home_url: https://www.bioconductor.org/packages/release/bioc/html/SRGnet.html
     total_pulls: 38
+    manually_check: true
 bioconductor-kidpack:
     name: bioconductor-kidpack
     description: "'DKFZ kidney package'"
     license: GPL-2
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/data/experiment/html/{{\
-        \ name }}.html'"
+    home_url: http://bioconductor.org/packages/release/data/experiment/html/kidpack.html
     total_pulls: 38
+    manually_check: true
 bioconductor-bsgenome.rnorvegicus.ucsc.rn5:
     name: bioconductor-bsgenome.rnorvegicus.ucsc.rn5
     description: Full genome sequences for rattus norvegicus (ucsc version rn5)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Rnorvegicus.UCSC.rn5.html
     total_pulls: 38
+    manually_check: true
 bioconductor-bsgenome.tguttata.ucsc.taegut2:
     name: bioconductor-bsgenome.tguttata.ucsc.taegut2
     description: Full genome sequences for taeniopygia guttata (ucsc version taegut2)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Tguttata.UCSC.taeGut2.html
     total_pulls: 38
+    manually_check: true
 bioconductor-mirmine:
     name: bioconductor-mirmine
     description: "'Data package with miRNA-seq datasets from miRmine database as RangedSummarizedExperiment'"
-    license: "'GPL (>= 3)'"
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    license: GPL-3.0
+    home_url: https://bioconductor.org/packages/release/bioc/html/miRmine.html
     total_pulls: 38
+    manually_check: true
 bioconductor-hi16cod.db:
     name: bioconductor-hi16cod.db
     description: Codelink human inflammation 16 bioarray annotation data (chip hi16cod)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/hi16cod.db.html
     total_pulls: 38
+    manually_check: true
 bioconductor-illuminahumanv3.db:
     name: bioconductor-illuminahumanv3.db
     description: Illumina humanht12v3 annotation data (chip illuminahumanv3)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/illuminaHumanv3.db.html
     total_pulls: 38
+    manually_check: true
 bioconductor-pd.yg.s98:
     name: bioconductor-pd.yg.s98
     description: Platform design info for the manufacturer's name yg_s98
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/pd.yg.s98.html
     total_pulls: 38
+    manually_check: true
 bioconductor-hapmap500knsp:
     name: bioconductor-hapmap500knsp
     description: "'Sample data - Hapmap 500K NSP Affymetrix'"
     license: GPL
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/data/experiment/html/{{\
-        \ name }}.html'"
+    home_url: http://bioconductor.org/packages/release/data/experiment/html/hapmap500knsp.html
     total_pulls: 38
+    manually_check: true
 bioconductor-prostar:
     name: bioconductor-prostar
     description: Provides a gui for dapar
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/bioc/html/Prostar.html
     total_pulls: 38
+    manually_check: true
 dammet:
     name: dammet
     description: Software to reconstruct methylomes from HTS data underlying and ancient
@@ -4761,9 +4796,10 @@ scala:
 perl-role-tiny-with:
     name: perl-role-tiny-with
     description: Neat interface for consumers of role::tiny roles
-    license: Not available
+    license: perl_5
     home_url: http://metacpan.org/pod/Role::Tiny::With
     total_pulls: 37
+    manually_check: true
 ribodiff:
     name: ribodiff
     description: Ribodiff is a statistical tool that detects the protein translational
@@ -4816,9 +4852,10 @@ pfam_scan:
 bioconductor-illuminahumanmethylationepicmanifest:
     name: bioconductor-illuminahumanmethylationepicmanifest
     description: Manifest for illumina's epic methylation arrays
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/IlluminaHumanMethylationEPICmanifest.html
     total_pulls: 37
+    manually_check: true
 metacherchant:
     name: metacherchant
     description: Genomic environment analysis tool
@@ -4857,8 +4894,8 @@ perl-import-into:
     manually_check: true
 truvari:
     name: truvari
-    description: Structural variant comparison tool for vcfs
-    license: Not available
+    description: "'Structural variant comparison tool for VCFs'"
+    license: MIT
     home_url: https://github.com/spiralgenetics/truvari
     total_pulls: 37
     manually_check: true
@@ -4874,16 +4911,17 @@ bioconductor-parathyroidse:
     description: "'RangedSummarizedExperiment for RNA-Seq of primary cultures of parathyroid\
         \ tumors by Haglund et al., J Clin Endocrinol Metab 2012.'"
     license: LGPL
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/data/experiment/html/{{\
-        \ name }}.html'"
+    home_url: http://bioconductor.org/packages/release/data/experiment/html/parathyroidSE.html
     total_pulls: 37
+    manually_check: true
 bioconductor-bdmmacorrect:
     name: bioconductor-bdmmacorrect
     description: "'Meta-analysis for the metagenomic read counts data from different\
         \ cohorts'"
-    license: "'GPL (>= 2)'"
+    license: GPL-2.0
     home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
     total_pulls: 37
+    manually_check: true
 bioconductor-mafdb.1kgenomes.phase3.hs37d5:
     name: bioconductor-mafdb.1kgenomes.phase3.hs37d5
     description: Minor allele frequency data from 1000 genomes phase 3 for hs37d5
@@ -4894,47 +4932,53 @@ bioconductor-mafdb.1kgenomes.phase3.hs37d5:
 bioconductor-hgug4100a.db:
     name: bioconductor-hgug4100a.db
     description: Agilent human 1 cdna microarray kit annotation data (chip hgug4100a)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/hgug4100a.db.html
     total_pulls: 37
+    manually_check: true
 bioconductor-pocrcannotation.db:
     name: bioconductor-pocrcannotation.db
     description: A package containing metadata for pocrc arrays
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/POCRCannotation.db.html
     total_pulls: 37
+    manually_check: true
 bioconductor-clipper:
     name: bioconductor-clipper
     description: "'Gene Set Analysis Exploiting Pathway Topology'"
     license: AGPL-3
     home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
     total_pulls: 37
+    manually_check: true
 bioconductor-pd.fingene.1.0.st:
     name: bioconductor-pd.fingene.1.0.st
     description: Platform design info for affymetrix fingene-1_0-st
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/pd.fingene.1.0.st.html
     total_pulls: 37
+    manually_check: true
 bioconductor-ngscopydata:
     name: bioconductor-ngscopydata
     description: "'Subset of BAM files of human tumor and pooled normal sequencing\
         \ data (Zhao et al. 2014) for the NGScopy package'"
-    license: "'GPL (>=2)'"
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/data/experiment/html/{{\
-        \ name }}.html'"
+    license: GPL-2.0
+    home_url: https://bioconductor.org/packages/release/data/experiment/html/NGScopyData.html
     total_pulls: 37
+    manually_check: true
 bioconductor-rchyoptimyx:
     name: bioconductor-rchyoptimyx
     description: "'Optimyzed Cellular Hierarchies for Flow Cytometry'"
     license: Artistic-2.0
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    home_url: https://www.bioconductor.org/packages/release/bioc/html/RchyOptimyx.html
     total_pulls: 37
+    manually_check: true
 bioconductor-nanotator:
     name: bioconductor-nanotator
     description: 'Nanotator: next generation structural variant annotation and classification'
-    license: Not available
+    license: BSD-3-clause
     home_url: https://bioconductor.org/packages/3.11/bioc/html/nanotatoR.html
     total_pulls: 37
+    manually_check: true
 cafe:
     name: cafe
     description: Computational Analysis of gene Family Evolution (CAFE)
@@ -4998,9 +5042,10 @@ ig-flowtools:
 perl-data-walk:
     name: perl-data-walk
     description: Traverse perl data structures.
-    license: Not available
+    license: perl_5
     home_url: http://metacpan.org/pod/Data::Walk
     total_pulls: 36
+    manually_check: true
 swalign:
     name: swalign
     description: "'Smith-Waterman local aligner'"
@@ -5011,13 +5056,14 @@ swalign:
 bioconductor-r4rna:
     name: bioconductor-r4rna
     description: "'An R package for RNA visualization and analysis'"
-    license: GPL-3
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    license: GPL-3.0
+    home_url: https://bioconductor.org/packages/release/bioc/html/R4RNA.html
     total_pulls: 36
+    manually_check: true
 perl-io-gzip:
     name: perl-io-gzip
-    description: Perl extension to provide a perlio layer to gzip/gunzip
-    license: Not available
+    description: "'Perl extension to provide a PerlIO layer to gzip/gunzip'"
+    license: perl_5
     home_url: https://metacpan.org/pod/PerlIO::gzip
     total_pulls: 36
     manually_check: true
@@ -5083,16 +5129,18 @@ bioconductor-pd.mirna.2.0:
 bioconductor-openprimer:
     name: bioconductor-openprimer
     description: "'Multiplex PCR Primer Design and Analysis'"
-    license: GPL-2
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    license: GPL-2.0
+    home_url: https://www.bioconductor.org/packages/release/bioc/html/openPrimeR.html
     total_pulls: 36
+    manually_check: true
 bioconductor-goprofiles:
     name: bioconductor-goprofiles
     description: "'goProfiles: an R package for the statistical analysis of functional\
         \ profiles'"
-    license: GPL-2
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    license: GPL-2.0
+    home_url: https://www.bioconductor.org/packages/release/bioc/html/goProfiles.html
     total_pulls: 36
+    manually_check: true
 cytoscape:
     name: cytoscape
     description: "'Cytoscape: an open source platform for network analysis and visualization.'"
@@ -5110,19 +5158,21 @@ perl-bignum:
 bioconductor-bigpint:
     name: bioconductor-bigpint
     description: "'Big multivariate data plotted interactively'"
-    license: GPL-3
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    license: GPL-3.0
+    home_url: https://bioconductor.org/packages/devel/bioc/html/bigPint.html
     total_pulls: 36
+    manually_check: true
 bohra:
     name: bohra
     description: Pipeline for analysing illumina data for microbiological public health.
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/kristyhoran/bohra
     total_pulls: 36
+    manually_check: true
 bioconductor-methcp:
     name: bioconductor-methcp
     description: Differential methylation anlsysis for bisulfite sequencing data
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/bioc/html/MethCP.html
     total_pulls: 36
     manually_check: true
@@ -5136,29 +5186,31 @@ last:
 perl-aceperl:
     name: perl-aceperl
     description: Object-oriented access to acedb databases
-    license: Not available
+    license: perl_5
     home_url: http://metacpan.org/pod/AcePerl
     total_pulls: 35
+    manually_check: true
 perl-forks:
     name: perl-forks
-    description: Drop-in replacement for perl threads using fork()
-    license: Not available
+    description: drop-in replacement for Perl threads using fork()
+    license: perl_5
     home_url: http://search.cpan.org/~rybskej/forks/lib/forks.pm
     total_pulls: 35
+    manually_check: true
 pypore:
     name: pypore
-    description: "# Pypore\n\n> Pythonic/cythonic nanopore translocation analysis\n\
-        \n> Licence: Apache License, Version 2.0\n\nHome: https://pypi.python.org/packages/source/p/pypore/pypore-0.0.5.dev20160304220337.tar.gz\n\
-        \n"
-    license: Apache-2.0
+    description: "'Pythonic/Cythonic Nanopore Translocation Analysis'"
+    license: Apache 2.0
     home_url: http://parkin.github.io/pypore/
     total_pulls: 35
+    manually_check: true
 perl-moosex-types:
     name: perl-moosex-types
-    description: Organise your moose types in libraries
-    license: Not available
+    description: "'Organise your Moose types in libraries'"
+    license: perl_5
     home_url: https://github.com/moose/MooseX-Types
     total_pulls: 35
+    manually_check: true
 disty:
     name: disty
     description: Disty McMatrixface - compute a distance matrix from a core genome
@@ -5184,39 +5236,45 @@ ucsc-newprog:
 bioconductor-bsgenome.mmusculus.ucsc.mm8.masked:
     name: bioconductor-bsgenome.mmusculus.ucsc.mm8.masked
     description: Full masked genome sequences for mus musculus (ucsc version mm8)
-    license: Not available
-    home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Mmusculus.UCSC.mm8.masked.html
+    license: Artistic-2.0
+    home_url: https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Mmusculus.UCSC.mm8.masked.html
     total_pulls: 35
+    manually_check: true
 bioconductor-mesh.bfl.eg.db:
     name: bioconductor-mesh.bfl.eg.db
     description: Mapping table for branchiostoma floridae gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Bfl.eg.db.html
     total_pulls: 35
+    manually_check: true
 bioconductor-mesh.eco.ed1a.eg.db:
     name: bioconductor-mesh.eco.ed1a.eg.db
     description: Mapping table for escherichia coli ed1a gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Eco.ED1a.eg.db.html
     total_pulls: 35
+    manually_check: true
 bioconductor-pd.hg.u95d:
     name: bioconductor-pd.hg.u95d
     description: Platform design info for the manufacturer's name hg u95d
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/pd.hg.u95d.html
     total_pulls: 35
+    manually_check: true
 bioconductor-pd.rg.u34c:
     name: bioconductor-pd.rg.u34c
     description: Platform design info for the manufacturer's name rg_u34c
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/pd.rg.u34c.html
     total_pulls: 35
+    manually_check: true
 xs-sim:
     name: xs-sim
     description: Simulates NGS reads
     license: GPL-2.0
     home_url: https://github.com/pratas/xs
     total_pulls: 35
+    manually_check: true
 rgi:
     name: rgi
     description: This tool provides a preliminary annotation of your dna sequence(s)
@@ -5226,29 +5284,31 @@ rgi:
         and ontology terms this tool will grow increasingly powerful in providing
         first-pass detection of antibiotic resistance associated genes. see license
         at card website
-    license: Not available
+    license: Custom License
     home_url: https://card.mcmaster.ca
     total_pulls: 34
+    manually_check: true
 perl-json:
     name: perl-json
-    description: Json (javascript object notation) encoder/decoder
-    license: Not available
+    description: "'JSON (JavaScript Object Notation) encoder/decoder'"
+    license: perl_5
     home_url: http://metacpan.org/pod/JSON
     total_pulls: 34
+    manually_check: true
 perl-test-nowarnings:
     name: perl-test-nowarnings
     description: Make sure you didn't emit any warnings while testing
-    license: Not available
+    license: Perl
     home_url: https://metacpan.org/pod/Test::NoWarnings
     total_pulls: 34
+    manually_check: true
 homer:
     name: homer
-    description: "# Homer\n\n> Software for motif discovery and next generation sequencing\
-        \ analysis\n\n> Licence: Gplv3\n\nHome: http://homer.salk.edu/homer/configureHomer.pl\n\
-        \n"
-    license: '"GNU General Public v3 (GPLv3)"'
+    description: "'Software for motif discovery and next generation sequencing analysis'"
+    license: GPL-3.0
     home_url: "'http://homer.ucsd.edu/homer/index.html'"
     total_pulls: 34
+    manually_check: true
 query_phenomizer:
     name: query_phenomizer
     description: "'Tool for query and parsing the phenomizer tool'"
@@ -5272,10 +5332,11 @@ snvphyl-tools:
     manually_check: true
 ucsc-hgfakeagp:
     name: ucsc-hgfakeagp
-    description: "\"Create fake AGP file by looking at N's\""
-    license: '"varies; see http://genome.ucsc.edu/license"'
+    description: "Create fake AGP file by looking at N's"
+    license: Custom License
     home_url: '"http://hgdownload.cse.ucsc.edu/admin/exe/"'
     total_pulls: 34
+    manually_check: true
 novobreak:
     name: novobreak
     description: local assembly for breakpoint detection in cancer genomes
@@ -5308,106 +5369,118 @@ fastq-scan:
 bioconductor-pd.drosophila.2:
     name: bioconductor-pd.drosophila.2
     description: Platform design info for the manufacturer's name drosophila_2
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/pd.drosophila.2.html
     total_pulls: 34
+    manually_check: true
 bioconductor-pd.rg.u34a:
     name: bioconductor-pd.rg.u34a
     description: Platform design info for the manufacturer's name rg_u34a
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/pd.rg.u34a.html
     total_pulls: 34
+    manually_check: true
 bioconductor-pd.zebgene.1.1.st:
     name: bioconductor-pd.zebgene.1.1.st
     description: Platform design info for affymetrix zebgene-1_1-st
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/pd.zebgene.1.1.st.html
     total_pulls: 34
+    manually_check: true
 deeplift:
     name: deeplift
-    description: Deeplift (deep learning important features)
-    license: Not available
+    description: DeepLIFT (Deep Learning Important FeaTures)
+    license: MIT License
     home_url: https://github.com/kundajelab/deeplift
     total_pulls: 34
+    manually_check: true
 fgwas:
     name: fgwas
     description: fgwas is a command line tool for integrating functional genomic information
         into a genome-wide association study (GWAS).
-    license: GPL2
+    license: GPL-2.0
     home_url: https://github.com/joepickrell/fgwas
     total_pulls: 34
+    manually_check: true
 transcov:
     name: transcov
     description: A software for mapping coverage around transcription start sites
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/hogfeldt/transcov
     total_pulls: 34
+    manually_check: true
 dimspy:
     name: dimspy
     description: Python package for data processing of direct-infusion mass spectrometry-based
         metabolomics and lipidomics data
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/computational-metabolomics/dimspy
     total_pulls: 33
+    manually_check: true
 bioconductor-deseq2:
     name: bioconductor-deseq2
     description: R package for rna-seq differential expression analysis
     license: LGPL-3+
     home_url: https://bioconductor.org/packages/DESeq2/
     total_pulls: 33
+    manually_check: true
 translatorx:
     name: translatorx
-    description: Translatorx is a web-server designed to align protein coding nucleotide
-        sequences based on their corresponding amino acid translations rather than
-        nucleotide alignments.
-    license: unknown
-    home_url: http://translatorx.co.uk
+    description: Multiple alignment of nucleotide sequences guided by amino acid information
+    license: Apache-2.0
+    home_url: http://pc16141.mncn.csic.es/cgi-bin/translatorx_vLocal.pl
     total_pulls: 33
+    manually_check: true
 perl-class-methodmaker:
     name: perl-class-methodmaker
-    description: Create generic methods for oo perl
-    license: Not available
+    description: "'Create generic methods for OO Perl'"
+    license: perl_5
     home_url: http://search.cpan.org/~schwigon/Class-MethodMaker-2.24/
     total_pulls: 33
+    manually_check: true
 famseq:
     name: famseq
     description: "'Peng G, Fan Y, Palculict TB, Shen P, Ruteshouser EC, Chi A, Davis\
         \ RW, Huff V, Scharfe C, Wang W. Rare variant detection using family-based\
         \ sequencing analysis. Proceedings of the National Academy of Sciences. 2013\
         \ Mar 5;110(10):3985-90'"
-    license: GPL-3
+    license: GPL-3.0
     home_url: http://bioinformatics.mdanderson.org/main/FamSeq
     total_pulls: 33
+    manually_check: true
 biobb_model:
     name: biobb_model
-    description: Biobb_model is the biobb module collection to check and model 3d
+    description: Biobb_model is the Biobb module collection to check and model 3d
         structures, create mutations or reconstruct missing atoms.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/bioexcel/biobb_model
     total_pulls: 33
+    manually_check: true
 gneiss:
     name: gneiss
     description: Compositional data analysis tools and visualizations
-    license: Not available
+    license: BSD
     home_url: https://biocore.github.io/gneiss/
     total_pulls: 33
+    manually_check: true
 braker2:
     name: braker2
-    description: Braker2 is an extension of braker1
-    license: Not available
+    description: '"BRAKER2 is an extension of BRAKER1"'
+    license: Artistic-2.0
     home_url: https://github.com/Gaius-Augustus/BRAKER
     total_pulls: 33
+    manually_check: true
 r-sceasy:
     name: r-sceasy
-    description: A package providing functions to convert between different single-cell
-        data formats.
-    license: Not available
+    description: A package providing functions to convert between different
+    license: GPL-3.0
     home_url: https://github.com/cellgeni/sceasy
     total_pulls: 33
+    manually_check: true
 perl-data-lock:
     name: perl-data-lock
     description: Makes variables (im)?mutable
-    license: Not available
+    license: perl_5
     home_url: http://metacpan.org/pod/Data::Lock
     total_pulls: 33
 jbrowse:
@@ -5418,170 +5491,191 @@ jbrowse:
     license: SPDX:LGPL-3.0-only
     home_url: http://gmod.org/wiki/JBrowse
     total_pulls: 32
+    manually_check: true
 treesapp:
     name: treesapp
     description: '"TreeSAPP is a functional and taxonomic annotation tool for microbial
         genomes and proteins"'
-    license: GNU General Public v3 (GPLv3)
+    license: GPL-3.0
     home_url: https://github.com/hallamlab/TreeSAPP
     total_pulls: 32
+    manually_check: true
 checkv:
     name: checkv
-    description: Assess the quality of metagenome-assembled viral genomes.
-    license: Not available
-    home_url: https://bitbucket.org/berkeleylab/checkv
+    description: '"Assess the quality of metagenome-assembled viral genomes."'
+    license: BSD
+    home_url: '"https://bitbucket.org/berkeleylab/checkv"'
     total_pulls: 32
+    manually_check: true
 ucsc-cell-browser:
     name: ucsc-cell-browser
     description: A browser for single-cell data, main site at http://cells.ucsc.edu
-    license: Not available
+    license: GPL
     home_url: http://cells.ucsc.edu
     total_pulls: 31
+    manually_check: true
 ucsc-genepredtobed:
     name: ucsc-genepredtobed
-    description: "# Ucsc-Genepredtobed\n\n> Convert from genepred to bed format. does\
-        \ not yet handle genepredext\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
-        \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/genePredToBed\n\
-        \n"
-    license: '"varies; see http://genome.ucsc.edu/license"'
+    description: '"Convert from genePred to bed format. Does not yet handle genePredExt"'
+    license: Custom License
     home_url: '"http://hgdownload.cse.ucsc.edu/admin/exe/"'
     total_pulls: 30
+    manually_check: true
 parallel-fastq-dump:
     name: parallel-fastq-dump
-    description: Parallel fastq-dump wrapper
-    license: Not available
+    description: "'parallel fastq-dump wrapper'"
+    license: MIT
     home_url: https://github.com/rvalieris/parallel-fastq-dump
     total_pulls: 30
+    manually_check: true
 flashlfq:
     name: flashlfq
-    description: Ultrafast label-free quantification algorithm for mass-spectrometry
+    description: ultrafast label-free quantification algorithm for mass-spectrometry
         proteomics
-    license: Not available
+    license: LGPL-3.0
     home_url: https://github.com/smith-chem-wisc/FlashLFQ
     total_pulls: 30
+    manually_check: true
 biobb_md:
     name: biobb_md
-    description: Biobb_md is the biobb module collection to perform molecular dynamics
+    description: Biobb_md is the Biobb module collection to perform molecular dynamics
         simulations.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/bioexcel/biobb_md
     total_pulls: 30
+    manually_check: true
 instrain:
     name: instrain
-    description: Calculation of strain-level metrics
-    license: Not available
-    home_url: https://github.com/MrOlm/inStrain
+    description: '"Calculation of strain-level metrics"'
+    license: MIT
+    home_url: '"https://github.com/MrOlm/inStrain"'
     total_pulls: 30
+    manually_check: true
 checkm-genome:
     name: checkm-genome
-    description: Assess the quality of microbial genomes recovered from isolates,
-        single cells, and metagenomes.
-    license: Not available
+    description: "'Assess the quality of microbial genomes recovered from isolates,\
+        \ single cells, and metagenomes.'"
+    license: GPL-3.0
     home_url: https://ecogenomics.github.io/CheckM/
     total_pulls: 29
+    manually_check: true
 arriba:
     name: arriba
     description: Fast and accurate gene fusion detection from RNA-Seq data
     license: MIT
     home_url: https://github.com/suhrig/arriba
     total_pulls: 29
+    manually_check: true
 phylophlan:
     name: phylophlan
     description: Precise phylogenetic analysis of microbial isolates and genomes from
         metagenomes
-    license: Not available
+    license: MIT
     home_url: https://github.com/biobakery/phylophlan
     total_pulls: 29
+    manually_check: true
 nmrml2isa:
     name: nmrml2isa
-    description: Nmrml2isa - nmrml to isa-tab parsing tool
-    license: Not available
+    description: "'nmrml2isa - nmrML to ISA-Tab parsing tool'"
+    license: GPL-3.0
     home_url: http://github.com/ISA-tools/nmrml2isa
     total_pulls: 28
+    manually_check: true
 bioconductor-rtracklayer:
     name: bioconductor-rtracklayer
     description: Gnu r interface to genome browsers and their annotation tracks
     license: Artistic-2.0
     home_url: https://bioconductor.org/packages/rtracklayer/
     total_pulls: 28
+    manually_check: true
 ucsc-fatotwobit:
     name: ucsc-fatotwobit
-    description: "# Ucsc-Fatotwobit\n\n> Convert dna from fasta to 2bit format\n\n\
-        > Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faToTwoBit\n\
-        \n"
-    license: '"varies; see http://genome.ucsc.edu/license"'
+    description: '"Convert DNA from fasta to 2bit format"'
+    license: Custom License
     home_url: '"http://hgdownload.cse.ucsc.edu/admin/exe/"'
     total_pulls: 28
+    manually_check: true
 fusioncatcher:
     name: fusioncatcher
-    description: Finder of somatic fusion genes in rna-seq data.
-    license: Not available
+    description: '"Finder of Somatic Fusion Genes in RNA-seq data."'
+    license: GPL-3.0
     home_url: https://github.com/ndaniel/fusioncatcher
     total_pulls: 28
+    manually_check: true
 kofamscan:
     name: kofamscan
-    description: Kofamkoala assigns k numbers to the user's sequence data by hmmer/hmmsearch
-        against kofam
-    license: Not available
+    description: KofamKOALA assigns K numbers to the user's sequence data by HMMER/HMMSEARCH
+        against KOfam
+    license: MIT
     home_url: https://www.genome.jp/tools/kofamkoala/
     total_pulls: 28
+    manually_check: true
 gaas:
     name: gaas
-    description: Suite of tools related to genome assembly annotation service tasks
-        at nbis.
-    license: Not available
+    description: Suite of tools related to Genome Assembly Annotation Service tasks
+        at NBIS.
+    license: GPL-3.0
     home_url: https://github.com/NBISweden/GAAS
     total_pulls: 28
+    manually_check: true
 nanopolishcomp:
     name: nanopolishcomp
-    description: Nanopolishcomp is a python3 package for downstream analyses of nanopolish
-        output files
-    license: Not available
-    home_url: https://github.com/a-slide/NanopolishComp
+    description: '"NanopolishComp is a Python3 package for downstream analyses of
+        Nanopolish output files"'
+    license: MIT
+    home_url: '"https://github.com/a-slide/NanopolishComp"'
     total_pulls: 28
+    manually_check: true
 iced:
     name: iced
     description: '"The python module iced implements the ICE normalization of hic
         data."'
-    license: new BSD
+    license: BSD
     home_url: https://github.com/hiclib/iced
     total_pulls: 27
+    manually_check: true
 r-monocle3:
     name: r-monocle3
     description: An analysis toolkit for single-cell RNA-seq.
     license: MIT
     home_url: https://cole-trapnell-lab.github.io/monocle3/
     total_pulls: 27
+    manually_check: true
 crisprbact:
     name: crisprbact
-    description: Tools to design and analyse crispri experiments
-    license: Not available
-    home_url: https://gitlab.pasteur.fr/dbikard/crisprbact
+    description: '"Tools to design and analyse CRISPRi experiments"'
+    license: GPL-3.0
+    home_url: '"https://gitlab.pasteur.fr/dbikard/crisprbact"'
     total_pulls: 27
+    manually_check: true
 bioconductor-rbgl:
     name: bioconductor-rbgl
     description: R interface to the graph algorithms contained in the boost library
     license: Artistic-2.0
     home_url: https://bioconductor.org/packages/RBGL/
     total_pulls: 26
+    manually_check: true
 tiddit:
     name: tiddit
     description: '"TIDDIT - structural variant calling."'
     license: GPL-3
     home_url: https://github.com/SciLifeLab/TIDDIT
     total_pulls: 26
+    manually_check: true
 pgcgap:
     name: pgcgap
     description: A prokaryotic genomics and comparative genomics analysis pipeline
-    license: GPLv3
+    license: GPL-3.0
     home_url: https://github.com/liaochenlanruo/pgcgap/blob/master/README.md
     total_pulls: 26
+    manually_check: true
 fastq-count:
     name: fastq-count
     description: '"Simple fastq read and base counter for paired data."'
     license: MIT
     home_url: '"https://github.com/sndrtj/fastq-count"'
     total_pulls: 25
+    manually_check: true
 mindthegap:
     name: mindthegap
     description: Mindthegap performs detection and assembly of dna insertion variants
@@ -5589,18 +5683,21 @@ mindthegap:
     license: SPDX:AGPL-3.0-only
     home_url: https://gatb.inria.fr/software/mind-the-gap/
     total_pulls: 24
+    manually_check: true
 bioconductor-rsamtools:
     name: bioconductor-rsamtools
-    description: Gnu r binary alignment (bam), variant call (bcf), or tabix file import
-    license: Not available
-    home_url: https://bioconductor.org/packages/Rsamtools/
+    description: "'Binary alignment (BAM), FASTA, variant call (BCF), and tabix file import'"
+    license: Artistic-2.0
+    home_url: https://bioconductor.org/packages/release/bioc/html/Rsamtools.html
     total_pulls: 24
+    manually_check: true
 selene-sdk:
     name: selene-sdk
     description: Framework for developing sequence-level deep learning networks.
-    license: BSD 3-clause clear
+    license: BSD-3-Clause
     home_url: https://github.com/FunctionLab/selene
     total_pulls: 24
+    manually_check: true
 pygtftk:
     name: pygtftk
     description: "'The gtftk suite providing facilities to manipulate genomic annotations\
@@ -5608,30 +5705,35 @@ pygtftk:
     license: MIT
     home_url: http://github.com/dputhier/pygtftk
     total_pulls: 24
+    manually_check: true
 pangolin:
     name: pangolin
-    description: Phylogenetic assignment of named global outbreak lineages
-    license: Not available
+    description: Phylogenetic Assignment of Named Global Outbreak LINeages
+    license: GPL-3.0
     home_url: https://github.com/hCoV-2019/pangolin
     total_pulls: 24
+    manually_check: true
 bioconductor-affyio:
     name: bioconductor-affyio
     description: Bioconductor tools for parsing affymetrix data files
     license: LGPL-2.1+
     home_url: https://bioconductor.org/packages/affyio/
     total_pulls: 23
+    manually_check: true
 bioconductor-snpstats:
     name: bioconductor-snpstats
-    description: Bioconductor snpmatrix and xsnpmatrix classes and methods
-    license: GPL-3
+    description: "'SnpMatrix and XSnpMatrix classes and methods'"
+    license: GPL-3.0
     home_url: https://bioconductor.org/packages/snpStats/
     total_pulls: 23
+    manually_check: true
 fuma:
     name: fuma
-    description: 'Fuma: reporting overlap in rna-seq detected fusion genes'
-    license: Not available
+    description: "'FuMa: reporting overlap in RNA-seq detected fusion genes'"
+    license: GPL-3.0
     home_url: https://github.com/yhoogstrate/fuma/
     total_pulls: 23
+    manually_check: true
 hap.py:
     name: hap.py
     description: "# Hap.Py\n\n> Licence: Bsd\n\nHome: https://github.com/Illumina/hap.py/archive/v0.2.9.tar.gz\n\
@@ -5639,6 +5741,7 @@ hap.py:
     license: BSD-2-Clause
     home_url: https://github.com/Illumina/hap.py
     total_pulls: 23
+    manually_check: true
 trinotate:
     name: trinotate
     description: Trinotate is a comprehensive annotation suite designed for automatic
@@ -5649,107 +5752,120 @@ trinotate:
     total_pulls: 23
 fsnviz:
     name: fsnviz
-    description: Tool for plotting gene fusion events detected by various tools using
-        circos.
-    license: Not available
+    description: "'Tool for plotting gene fusion events detected by various tools\
+        \ using Circos.'"
+    license: BSD
     home_url: https://github.com/bow/fsnviz
     total_pulls: 23
+    manually_check: true
 rdptools:
     name: rdptools
-    description: Metaproject for rdp tools
-    license: Not available
+    description: Metaproject for RDP Tools
+    license: CC-BY-SA-3.0
     home_url: http://rdp.cme.msu.edu/misc/resources.jsp
     total_pulls: 23
+    manually_check: true
 wub:
     name: wub
-    description: Tools and software library developed by the ont applications group
-    license: Not available
+    description: "'Tools and software library developed by the ONT Applications group'"
+    license: MPL-2.0
     home_url: https://github.com/nanoporetech/wub
     total_pulls: 23
+    manually_check: true
 skewer:
     name: skewer
     description: A fast and accurate adapter trimmer for paired-end reads.
     license: MIT
     home_url: https://github.com/relipmoc/skewer.git
     total_pulls: 23
+    manually_check: true
 ont-fast5-api:
     name: ont-fast5-api
-    description: Oxford nanopore technologies fast5 api software
-    license: Not available
+    description: Oxford Nanopore Technologies fast5 API software
+    license: MPL-2.0
     home_url: https://github.com/nanoporetech/ont_fast5_api
     total_pulls: 23
+    manually_check: true
 gtdbtk:
     name: gtdbtk
-    description: A toolkit for assigning objective taxonomic classifications to bacterial
-        and archaeal genomes.
-    license: Not available
+    description: "'A toolkit for assigning objective taxonomic classifications to\
+        \ bacterial and archaeal genomes.'"
+    license: GPL-3.0
     home_url: https://github.com/Ecogenomics/GTDBTk
     total_pulls: 23
+    manually_check: true
 augur:
     name: augur
-    description: Process pathogen genome data for the nextstrain platform
-    license: Not available
+    description: "'Process pathogen genome data for the Nextstrain platform'"
+    license: AGPL-3.0
     home_url: https://github.com/nextstrain/augur
     total_pulls: 23
+    manually_check: true
 virsorter:
     name: virsorter
     description: Mining viral signal from microbial genomic data.
     license: GPL-2.0
     home_url: https://github.com/simroux/VirSorter
     total_pulls: 23
+    manually_check: true
 gsalign:
     name: gsalign
     description: '"GSAlign: an ultra-fast sequence alignment tool"'
     license: MIT
     home_url: https://github.com/hsinnan75/GSAlign
     total_pulls: 23
+    manually_check: true
 tetranscripts:
     name: tetranscripts
-    description: A package for including transposable elements in differential enrichment
-        analysis of sequencing datasets.
-    license: Not available
+    description: "'A package for including transposable elements in differential enrichment\
+        \ analysis of sequencing datasets.'"
+    license: GPL-3.0
     home_url: http://hammelllab.labsites.cshl.edu/software#TEToolkit
     total_pulls: 23
+    manually_check: true
 openduck:
     name: openduck
-    description: Open source library for dynamic undocking (duck)
-    license: Not available
+    description: Open source library for dynamic undocking (DUck)
+    license: Apache-2.0
     home_url: https://github.com/galaxycomputationalchemistry/duck
     total_pulls: 23
+    manually_check: true
 bioconductor-hilbertvis:
     name: bioconductor-hilbertvis
     description: Gnu r package to visualise long vector data
-    license: GPL-3
+    license: GPL-3.0
     home_url: https://bioconductor.org/packages/HilbertVis
     total_pulls: 22
+    manually_check: true
 bioconductor-qvalue:
     name: bioconductor-qvalue
     description: Gnu r package for q-value estimation for fdr control
     license: LGPL
     home_url: https://bioconductor.org/packages/qvalue/
     total_pulls: 22
+    manually_check: true
 t_coffee:
     name: t_coffee
-    description: "# T_Coffee\n\n> A collection of tools for computing, evaluating\
-        \ and manipulating multiple alignments of dna, rna, protein sequences and\
-        \ structures.\n\n> Licence: Gnu\n\nHome: http://www.tcoffee.org/Packages/Stable/Latest/linux/T-COFFEE_installer_Version_11.00.8cbe486_linux_x64.bin\n\
-        \n"
+    description: A collection of tools for Computing, Evaluating and Manipulating
+        Multiple Alignments of DNA, RNA, Protein Sequences and Structures.
     license: GNU
     home_url: http://www.tcoffee.org/Projects/tcoffee/
     total_pulls: 22
+    manually_check: true
 umis:
     name: umis
-    description: "# Umis\n\n> Tools for processing umi rna-tag data\n\n> Licence:\
-        \ Mit\n\nHome: https://github.com/vals/umis/archive/d00c41b.tar.gz\n\n"
+    description: Tools for processing UMI RNA-tag data
     license: MIT
     home_url: https://github.com/vals/umis
     total_pulls: 22
+    manually_check: true
 concoct:
     name: concoct
     description: "'Clustering cONtigs with COverage and ComposiTion'"
     license: FreeBSD
     home_url: https://github.com/BinPro/CONCOCT
     total_pulls: 22
+    manually_check: true
 igv:
     name: igv
     description: High-performance visualization tool for interactive exploration of
@@ -5759,18 +5875,21 @@ igv:
     license: LGPL-2.1
     home_url: http://www.broadinstitute.org/igv/
     total_pulls: 22
+    manually_check: true
 atropos:
     name: atropos
     description: "'trim adapters from high-throughput sequencing reads'"
     license: CC0 and partly MIT
-    home_url: https://atropos.readthedocs.io/
+    home_url: https://github.com/jdidion/atropos/
     total_pulls: 22
+    manually_check: true
 r-basejump:
     name: r-basejump
-    description: Base functions for bioinformatics and r package development.
-    license: Not available
+    description: Base functions for bioinformatics and R package development.
+    license: MIT
     home_url: https://basejump.acidgenomics.com/
     total_pulls: 22
+    manually_check: true
 gridss:
     name: gridss
     description: A high-speed next-gen sequencing structural variation caller. it
@@ -5779,6 +5898,7 @@ gridss:
     license: GPL-3.0
     home_url: https://github.com/PapenfussLab/gridss
     total_pulls: 22
+    manually_check: true
 scmap-cli:
     name: scmap-cli
     description: Cli scripts for the scmap package
@@ -5788,16 +5908,18 @@ scmap-cli:
     manually_check: true
 caper:
     name: caper
-    description: Cromwell assisted pipeline executor
-    license: Not available
+    description: Cromwell Assisted Pipeline ExecutoR
+    license: MIT
     home_url: https://github.com/ENCODE-DCC/caper
     total_pulls: 22
+    manually_check: true
 sarscov2summary:
     name: sarscov2summary
-    description: Formatter for galaxy sars-cov2 selection analysis workflow
-    license: Not available
-    home_url: https://github.com/nickeener/sarscov2formatter
+    description: '"Formatter for Galaxy SARS-CoV2 Selection Analysis Workflow"'
+    license: AFL
+    home_url: '"https://github.com/nickeener/sarscov2formatter"'
     total_pulls: 22
+    manually_check: true
 bioconductor-cummerbund:
     name: bioconductor-cummerbund
     description: Allows for persistent storage, access, exploration, and manipulation
@@ -5806,21 +5928,22 @@ bioconductor-cummerbund:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/cummeRbund.html
     total_pulls: 21
+    manually_check: true
 bioconductor-xvector:
     name: bioconductor-xvector
     description: Bioconductor representation and manpulation of external sequences
     license: Not available
     home_url: https://bioconductor.org/packages/XVector/
     total_pulls: 21
+    manually_check: true
 preseq:
     name: preseq
-    description: "# Preseq\n\n> Software for predicting library complexity and genome\
-        \ coverage in high-throughput sequencing\n\n> Licence: Gnu General Public\
-        \ License\n\nHome: https://github.com/smithlabcode/preseq/releases/download/v2.0.2/preseq_v2.0.2.tar.bz2\n\
-        \n"
-    license: GNU GENERAL PUBLIC LICENSE
+    description: "'Software for predicting library complexity and genome coverage\
+        \ in high-throughput sequencing'"
+    license: GNU
     home_url: https://github.com/smithlabcode/preseq
     total_pulls: 21
+    manually_check: true
 repeatmodeler:
     name: repeatmodeler
     description: Repeatmodeler is a de-novo repeat family identification and modeling
@@ -5828,20 +5951,23 @@ repeatmodeler:
     license: Open Software License v2.1
     home_url: http://www.repeatmasker.org/RepeatModeler/
     total_pulls: 21
+    manually_check: true
 mpa-portable:
     name: mpa-portable
-    description: Mpa portable is a light-weight and stand-alone software for the identification
-        of proteins and in-depth analysis of metaproteomics (and also proteomics)
-        data.
-    license: Not available
+    description: '"MPA Portable is a light-weight and stand-alone software for the
+        identification of proteins and in-depth analysis of metaproteomics (and also
+        proteomics) data."'
+    license: Apache-2.0
     home_url: https://github.com/compomics/meta-proteome-analyzer
     total_pulls: 21
+    manually_check: true
 sevenbridges-python:
     name: sevenbridges-python
-    description: Sbg api python client bindings
-    license: Not available
+    description: SBG API python client bindings
+    license: Apache-2.0
     home_url: https://github.com/sbg/sevenbridges-python
     total_pulls: 21
+    manually_check: true
 watchdog-wms:
     name: watchdog-wms
     description: Watchdog, a wms for the automated and distributed analysis of large-scale
@@ -5852,33 +5978,38 @@ watchdog-wms:
         construction using pre-defined modules + a helper script for creating new
         module definitions + no restriction to specific programming languages + provides
         a flexible plugin system for extending without modifying the original sources
-    license: Not available
+    license: GPL-3.0
     home_url: https://www.bio.ifi.lmu.de/watchdog
     total_pulls: 21
+    manually_check: true
 bioconductor-genomewidesnp5crlmm:
     name: bioconductor-genomewidesnp5crlmm
     description: Metadata for fast genotyping with the 'crlmm' package
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/genomewidesnp5Crlmm.html
     total_pulls: 21
+    manually_check: true
 sarscov2formatter:
     name: sarscov2formatter
     description: Formatter for galaxy sars-cov2 selection analysis workflow
-    license: Not available
+    license: AFL
     home_url: https://github.com/nickeener/sarscov2formatter
     total_pulls: 21
+    manually_check: true
 bioconductor-affy:
     name: bioconductor-affy
     description: Bioconductor methods for affymetrix oligonucleotide arrays
     license: Artistic-2.0
     home_url: https://bioconductor.org/packages/affy/
     total_pulls: 20
+    manually_check: true
 bioconductor-s4vectors:
     name: bioconductor-s4vectors
     description: Bioconductor s4 implementation of vectors and lists
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/S4Vectors/
     total_pulls: 20
+    manually_check: true
 cufflinks:
     name: cufflinks
     description: Cufflinks assembles transcripts and estimates their abundances in
@@ -5888,6 +6019,7 @@ cufflinks:
     license: BSL-1.0
     home_url: http://cole-trapnell-lab.github.io/cufflinks
     total_pulls: 20
+    manually_check: true
 qiime:
     name: qiime
     description: Open-source bioinformatics pipeline for performing microbiome analysis
@@ -5896,46 +6028,53 @@ qiime:
         quality graphics and statistics. this includes demultiplexing and quality
         filtering, otu picking, taxonomic assignment, and phylogenetic reconstruction,
         and diversity analyses and visualizations.
-    license: GNU General Public License v2 (GPLv2)
+    license: GP-2.0
     home_url: http://qiime.org/
     total_pulls: 20
+    manually_check: true
 svtools:
     name: svtools
-    description: Tools for processing and analyzing structural variants
-    license: Not available
+    description: "'Tools for processing and analyzing structural variants'"
+    license: MIT License
     home_url: https://github.com/hall-lab/svtools
     total_pulls: 20
+    manually_check: true
 msstitch:
     name: msstitch
-    description: Ms proteomics post processing utilities
-    license: Not available
-    home_url: https://github.com/glormph/msstitch
+    description: MS proteomics post processing utilities
+    license: MIT
+    home_url: https://github.com/lehtiolab/msstitch
     total_pulls: 20
+    manually_check: true
 mapdamage2:
     name: mapdamage2
-    description: 'Mapdamage: tracking and quantifying damage patterns in ancient dna
-        sequences http://geogenetics.ku.dk/all_literature/mapdamage/'
-    license: Not available
+    description: '"mapDamage: tracking and quantifying damage patterns in ancient
+        DNA sequences http://geogenetics.ku.dk/all_literature/mapdamage/"'
+    license: MIT
     home_url: https://github.com/ginolhac/mapDamage
     total_pulls: 20
+    manually_check: true
 genomepy:
     name: genomepy
-    description: Download genomes the easy way.
-    license: Not available
+    description: "'Download genomes the easy way.'"
+    license: MIT
     home_url: https://github.com/vanheeringen-lab/genomepy
     total_pulls: 20
+    manually_check: true
 dxpy:
     name: dxpy
-    description: Dnanexus platform api bindings for python
-    license: Not available
+    description: DNAnexus Platform API bindings for Python
+    license: Apache-2.0
     home_url: https://github.com/dnanexus/dx-toolkit
     total_pulls: 20
+    manually_check: true
 bioconductor-nucler:
     name: bioconductor-nucler
     description: "'Nucleosome positioning package for R'"
-    license: "'LGPL (>= 3)'"
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    license: LGPL-3.0
+    home_url: https://www.bioconductor.org/packages/release/bioc/html/nucleR.html
     total_pulls: 20
+    manually_check: true
 verifybamid2:
     name: verifybamid2
     description: A robust tool for DNA contamination estimation from sequence reads
@@ -5943,57 +6082,64 @@ verifybamid2:
     license: MIT
     home_url: https://github.com/Griffan/VerifyBamID
     total_pulls: 20
+    manually_check: true
 python-msgpack:
     name: python-msgpack
-    description: "\"It's like JSON. But fast and small.\""
+    description: "It's like JSON. But fast and small."
     license: Apache-2.0
-    home_url: https://pypi.org/project/msgpack/#description
+    home_url: https://github.com/msgpack/msgpack-python
     total_pulls: 20
+    manually_check: true
 biolib:
     name: biolib
     description: Package for common tasks in bioinformatics.
-    license: GPL3
+    license: GPL-3.0
     home_url: http://pypi.python.org/pypi/biolib/
     total_pulls: 20
+    manually_check: true
 bioconductor-affymoe4302expr:
     name: bioconductor-affymoe4302expr
-    description: "'Affymetrix Mouse Genome 430 2.0 Array (GPL1261) Expression Data\
-        \ Package'"
-    license: "'GPL (>=2)'"
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/data/experiment/html/{{\
-        \ name }}.html'"
+    description: "'Affymetrix Mouse Genome 430 2.0 Array (GPL1261) Expression Data\Package'"
+    license: GPL-2.0
+    home_url: http://bioconductor.org/packages/release/data/experiment/html/Affymoe4302Expr.html
     total_pulls: 20
+    manually_check: true
 biobb_analysis:
     name: biobb_analysis
     description: Biobb_analysis is the biobb module collection to perform analysis
         of molecular dynamics simulations.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/bioexcel/biobb_analysis
     total_pulls: 20
+    manually_check: true
 pyopenms:
     name: pyopenms
-    description:
-    license:
-    home_url:
+    description: pyOpenMS is an open-source Python library for mass spectrometry, specifically for the analysis of proteomics and metabolomics data in Python. pyOpenMS implements a set of Python bindings to the OpenMS library for computational mass spectrometry.
+    license: BSD-3-Clause
+    home_url: https://github.com/OpenMS/OpenMS
     total_pulls: 20
+    manually_check: true
 sanitizeme:
     name: sanitizeme
-    description: Gui and cli tool for removing host dna from ngs data.
-    license: Not available
+    description: GUI and CLI tool for removing host DNA from NGS data.
+    license: Apache-2.0
     home_url: https://github.com/jiangweiyao/SanitizeMe
     total_pulls: 20
+    manually_check: true
 bioconductor-dnacopy:
     name: bioconductor-dnacopy
     description: 'R package: dna copy number data analysis'
     license: GPL-2.0+
     home_url: http://www.bioconductor.org/packages/DNAcopy/
     total_pulls: 19
+    manually_check: true
 bioconductor-iranges:
     name: bioconductor-iranges
     description: Gnu r low-level containers for storing sets of integer ranges
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/IRanges/
     total_pulls: 19
+    manually_check: true
 bioconductor-ebseq:
     name: bioconductor-ebseq
     description: Differential expression analysis at both gene and isoform level using
@@ -6001,6 +6147,7 @@ bioconductor-ebseq:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/EBSeq.html
     total_pulls: 19
+    manually_check: true
 peptide-shaker:
     name: peptide-shaker
     description: Interpretation of proteomics identification results.
@@ -6010,72 +6157,83 @@ peptide-shaker:
     manually_check: true
 rust-bio-tools:
     name: rust-bio-tools
-    description: ">  |\n\n> Licence:  Mit\n\n"
+    description: "A set of command line utilities based on Rust-Bio."
     license: MIT
     home_url: https://github.com/rust-bio/rust-bio-tools
     total_pulls: 19
+    manually_check: true
 orthofinder:
     name: orthofinder
     description: Accurate inference of orthogroups, orthologues, gene trees and rooted
         species tree made easy!
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/davidemms/OrthoFinder
     total_pulls: 19
+    manually_check: true
 bioconductor-org.gg.eg.db:
     name: bioconductor-org.gg.eg.db
-    description: Genome wide annotation for chicken
-    license: Not available
-    home_url: https://bioconductor.org/packages/3.11/data/annotation/html/org.Gg.eg.db.html
+    description: "'Genome wide annotation for Chicken'"
+    license: Artistic-2.0
+    home_url: http://bioconductor.org/packages/release/data/annotation/html/org.Gg.eg.db.html
     total_pulls: 19
+    manually_check: true
 whatshap:
     name: whatshap
     description: "'phase genomic variants using DNA sequencing reads (haplotype assembly)'"
-    license: MIT License
-    home_url: https://whatshap.readthedocs.io/
+    license: MIT
+    home_url: https://bitbucket.org/whatshap/whatshap
     total_pulls: 19
+    manually_check: true
 bioconductor-bicare:
     name: bioconductor-bicare
     description: "'Biclustering Analysis and Results Exploration'"
     license: GPL-2
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    home_url: https://www.bioconductor.org/packages/release/bioc/html/BicARE.html
     total_pulls: 19
+    manually_check: true
 portcullis:
     name: portcullis
     description: "'Splice junction analysis and filtering from BAM files'"
-    license: GPL3
+    license: GPL-3.0
     home_url: https://github.com/maplesond/portcullis
     total_pulls: 19
+    manually_check: true
 krakenuniq:
     name: krakenuniq
     description: Metagenomics classifier with unique k-mer counting for more specific
         results
-    license: GPLv3
+    license: GPL-3.0
     home_url: https://github.com/fbreitwieser/krakenuniq
     total_pulls: 19
+    manually_check: true
 svim:
     name: svim
-    description: Svim is a structural variant caller for long reads.
-    license: Not available
-    home_url: https://github.com/eldariont/svim
+    description: SVIM is a structural variant caller for long reads.
+    license: GPL-3.0
+    home_url: "'https://github.com/eldariont/svim'"
     total_pulls: 19
+    manually_check: true
 bioconductor-clusterexperiment:
     name: bioconductor-clusterexperiment
     description: "'Compare Clusterings for Single-Cell Sequencing'"
     license: Artistic-2.0
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    home_url: https://bioconductor.org/packages/release/bioc/html/clusterExperiment.html
     total_pulls: 19
+    manually_check: true
 treeswift:
     name: treeswift
-    description: 'Treeswift: fast tree module for python 2 and 3'
-    license: Not available
+    description: '"TreeSwift: Fast tree module for Python 2 and 3"'
+    license: GPL-3.0
     home_url: https://github.com/niemasd/TreeSwift
     total_pulls: 19
+    manually_check: true
 r-acidbase:
     name: r-acidbase
-    description: Low-level base functions imported by acid genomics packages.
-    license: Not available
+    description: Low-level base functions imported by Acid Genomics packages.
+    license: MIT
     home_url: https://acidbase.acidgenomics.com/
     total_pulls: 19
+    manually_check: true
 bioconductor-metavolcanor:
     name: bioconductor-metavolcanor
     description: "'Gene Expression Meta-analysis Visualization Tool'"
@@ -6084,35 +6242,40 @@ bioconductor-metavolcanor:
     total_pulls: 19
 r-pipette:
     name: r-pipette
-    description: Pipette biological data in and out of r.
-    license: Not available
+    description: Pipette biological data in and out of R.
+    license: GPL-3.0
     home_url: https://pipette.acidgenomics.com/
     total_pulls: 19
+    manually_check: true
 graphtyper:
     name: graphtyper
     description: Population-scale genotyping using pangenome graphs
-    license: GNU GPLv3
+    license: GPL-3.0
     home_url: https://github.com/DecodeGenetics/graphtyper
     total_pulls: 19
+    manually_check: true
 r-sgtr:
     name: r-sgtr
     description: Visualize population genomics analyses results in R.
-    license: GPL3
+    license: GPL-3.0
     home_url: https://github.com/SexGenomicsToolkit/sgtr
     total_pulls: 19
+    manually_check: true
 gromacs_py:
     name: gromacs_py
-    description: Gromacs_py is a python library allowing a simplified use of the gromacs
-        md simulation software.
-    license: Not available
-    home_url: https://github.com/samuelmurail/gromacs_py
+    description: '"Gromacs_py is a python library allowing a simplified use of the
+        gromacs MD simulation software."'
+    license: GPL-2.0-only
+    home_url: '"https://github.com/samuelmurail/gromacs_py"'
     total_pulls: 19
+    manually_check: true
 bioconductor-gcsconnection:
     name: bioconductor-gcsconnection
     description: "'Creating R Connection with Google Cloud Storage'"
-    license: "'GPL (>= 2)'"
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    license: GPL-2.0
+    home_url: https://bioconductor.org/packages/release/bioc/html/GCSConnection.html
     total_pulls: 19
+    manually_check: true
 bioconductor-gviz:
     name: bioconductor-gviz
     description: Genomic data analyses requires integrated visualization of known
@@ -6124,98 +6287,111 @@ bioconductor-gviz:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/Gviz.html
     total_pulls: 18
+    manually_check: true
 bioconductor-variantannotation:
     name: bioconductor-variantannotation
     description: Bioconductor annotation of genetic variants
     license: Not available
     home_url: https://bioconductor.org/packages/VariantAnnotation/
     total_pulls: 18
+    manually_check: true
 toil:
     name: toil
     description: A scalable, efficient, cross-platform and easy-to-use workflow engine
-        in pure python
-    license: Not available
+        in pure Python
+    license: Apache 2.0
     home_url: https://github.com/BD2KGenomics/toil
     total_pulls: 18
+    manually_check: true
 arvados-python-client:
     name: arvados-python-client
-    description: Python api for arvados
-    license: Not available
+    description: Python API for Arvados
+    license: Apache-2.0
     home_url: https://github.com/curoverse/arvados/tree/master/sdk/python
     total_pulls: 18
+    manually_check: true
 bioconductor-kcsmart:
     name: bioconductor-kcsmart
     description: "'Multi sample aCGH analysis package using kernel convolution'"
     license: GPL-3
     home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
     total_pulls: 18
+    manually_check: true
 bioconductor-pcaexplorer:
     name: bioconductor-pcaexplorer
-    description: This package provides functionality for interactive visualization
-        of rna-seq datasets based on principal components analysis. the methods provided
-        allow for quick information extraction and effective data exploration. a shiny
-        application encapsulates the whole analysis.
+    description: "'Interactive Visualization of RNA-seq Data Using a Principal Components\
+        \ Approach'"
     license: MIT
-    home_url: http://bioconductor.org/packages/release/bioc/html/pcaExplorer.html
+    home_url: https://www.bioconductor.org/packages/release/bioc/html/pcaExplorer.html
     total_pulls: 18
+    manually_check: true
 bioconductor-roleswitch:
     name: bioconductor-roleswitch
     description: "'Infer miRNA-mRNA interactions using paired expression data from\
         \ a single sample'"
-    license: GPL-2
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    license: GPL-2.0
+    home_url: https://www.bioconductor.org/packages/release/bioc/html/Roleswitch.html
     total_pulls: 18
+    manually_check: true
 bioconductor-txdb.scerevisiae.ucsc.saccer3.sgdgene:
     name: bioconductor-txdb.scerevisiae.ucsc.saccer3.sgdgene
-    description: Annotation package for txdb object(s)
-    license: Not available
-    home_url: https://bioconductor.org/packages/3.11/data/annotation/html/TxDb.Scerevisiae.UCSC.sacCer3.sgdGene.html
+    description: "'Annotation package for TxDb object(s)'"
+    license: Artistic-2.0
+    home_url: http://bioconductor.org/packages/release/data/annotation/html/TxDb.Scerevisiae.UCSC.sacCer3.sgdGene.html
     total_pulls: 18
+    manually_check: true
 bioconductor-annmap:
     name: bioconductor-annmap
     description: "'Genome annotation and visualisation package pertaining to Affymetrix\
         \ arrays and NGS analysis.'"
-    license: GPL-2
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    license: GPL-2.0
+    home_url: https://www.bioconductor.org/packages/release/bioc/html/annmap.html
     total_pulls: 18
+    manually_check: true
 svdb:
     name: svdb
     description: structural variant database software
     license: MIT
     home_url: https://github.com/J35P312/SVDB
     total_pulls: 18
+    manually_check: true
 r-sigtree:
     name: r-sigtree
     description: Provides tools to identify and visualize branches in a phylogenetic
         tree that are
-    license: GPL-3
+    license: GPL-3.0
     home_url: https://CRAN.R-project.org/package=SigTree
     total_pulls: 18
+    manually_check: true
 scvi:
     name: scvi
-    description: Single-cell variational inference
-    license: Not available
+    description: Single-cell Variational Inference
+    license: MIT
     home_url: https://github.com/YosefLab/scVI
     total_pulls: 18
+    manually_check: true
 metabat2:
     name: metabat2
     description: '"Metagenome binning"'
     license: BSD-3-Clause-LBNL
     home_url: https://bitbucket.org/berkeleylab/metabat
     total_pulls: 18
+    manually_check: true
 bioconductor-minfidata:
     name: bioconductor-minfidata
     description: Example data for the illumina methylation 450k array
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/experiment/html/minfiData.html
     total_pulls: 18
+    manually_check: true
 picrust2:
     name: picrust2
-    description: 'Picrust: phylogenetic investigation of communities by reconstruction
-        of unobserved states'
-    license: Not available
+    description: '"PICRUSt: Phylogenetic Investigation of Communities by Reconstruction
+        of Unobserved States"'
+    license: GPL-3.0
     home_url: https://github.com/picrust/picrust2
     total_pulls: 18
+    manually_check: true
 varlociraptor:
     name: varlociraptor
     description: Flexible, uncertainty-aware variant calling with parameter free filtration
@@ -51056,9 +51232,10 @@ hanselx:
 ac-diamond:
     name: ac-diamond
     description: AC-DIAMOND is a DNA-protein alignment tool
-    license: GNU Affero General Public License v3.0
+    license: AGPL-3.0
     home_url: https://github.com/Maihj/AC-DIAMOND
     total_pulls: 0
+    manually_check: true
 perl-perl4-corelibs:
     name: perl-perl4-corelibs
     description: Libraries historically supplied with perl 4
