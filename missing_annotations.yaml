@@ -8640,7 +8640,7 @@ htstream:
     description: |-
         HTStream is a quality control and processing pipeline for High Throughput Sequencing data.
         The difference between HTStream and other tools is that HTStream uses a tab delimited fastq format that allows for streaming from application to application.
-        This streaming creates some awesome efficiencies when processing HTS data and makes it fully interoperable with other standard Linux tools. 
+        This streaming creates some awesome efficiencies when processing HTS data and makes it fully interoperable with other standard Linux tools.
     license: Apache 2.0
     home_url: https://s4hts.github.io/HTStream/
     total_pulls: 8
@@ -45652,7 +45652,7 @@ snver:
         SNVer is a statistical tool for calling common and rare variants in analysis of pool or individual next-generation sequencing data.
         It reports one single overall p-value for evaluating the significance of a candidate locus being a variant, based on which multiplicity control can be obtained.
         Loci with any (low) coverage can be tested and depth of coverage will be quantitatively factored into final significance calculation.
-        SNVer runs very fast, making it feasible for analysis of whole-exome sequencing data, or even whole-genome sequencing data. 
+        SNVer runs very fast, making it feasible for analysis of whole-exome sequencing data, or even whole-genome sequencing data.
     license: GNU General Public License version 3.0 (GPLv3)
     home_url: http://snver.sourceforge.net/
     total_pulls: 0
@@ -45912,12 +45912,12 @@ stream_atac:
 mirtrace:
     name: mirtrace
     description: |
-        miRTrace is a new quality control and taxonomic tracing tool developed specifically for small RNA sequencing data (sRNA-Seq). 
-        Each sample is characterized by profiling sequencing quality, read length, sequencing depth and miRNA complexity and also the 
-        amounts of miRNAs versus undesirable sequences (derived from tRNAs, rRNAs and sequencing artifacts). In addition to these routine 
-        quality control (QC) analyses, miRTrace can accurately and sensitively resolve taxonomic origins of small RNA-Seq data based on the 
-        composition of clade-specific miRNAs. This feature can be used to detect cross-clade contaminations in typical lab settings. It can 
-        also be applied for more specific applications in forensics, food quality control and clinical diagnosis, for instance tracing the 
+        miRTrace is a new quality control and taxonomic tracing tool developed specifically for small RNA sequencing data (sRNA-Seq).
+        Each sample is characterized by profiling sequencing quality, read length, sequencing depth and miRNA complexity and also the
+        amounts of miRNAs versus undesirable sequences (derived from tRNAs, rRNAs and sequencing artifacts). In addition to these routine
+        quality control (QC) analyses, miRTrace can accurately and sensitively resolve taxonomic origins of small RNA-Seq data based on the
+        composition of clade-specific miRNAs. This feature can be used to detect cross-clade contaminations in typical lab settings. It can
+        also be applied for more specific applications in forensics, food quality control and clinical diagnosis, for instance tracing the
         origins of meat products or detecting parasitic microRNAs in host serum.
     license: GPL-2.0
     home_url: https://github.com/friedlanderlab/mirtrace
@@ -47239,7 +47239,7 @@ ripser:
 bustools:
     name: bustools
     description: |-
-        bustools is a program for manipulating BUS files for single cell RNA-Seq datasets.       
+        bustools is a program for manipulating BUS files for single cell RNA-Seq datasets.
     license: BSD 2-Clause "Simplified" License
     home_url: https://github.com/BUStools/bustools
     total_pulls: 0
@@ -47756,7 +47756,7 @@ rop:
         The Read Origin Protocol (ROP) is a computational protocol that aims to
         discover the source of all reads, including those originating from repeat
         sequences, recombinant B and T cell receptors, and microbial communities.
-        
+
     license: GPL-3.0
     home_url: https://github.com/smangul1/rop
     total_pulls: 0
