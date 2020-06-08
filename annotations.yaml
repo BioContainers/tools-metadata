@@ -5747,9 +5747,10 @@ trinotate:
     description: Trinotate is a comprehensive annotation suite designed for automatic
         functional annotation of transcriptomes, particularly de novo assembled transcriptomes,
         from model or non-model organisms
-    license: Not available
+    license: BSD
     home_url: https://trinotate.github.io/
     total_pulls: 23
+    manually_check: true
 fsnviz:
     name: fsnviz
     description: "'Tool for plotting gene fusion events detected by various tools\
@@ -6238,8 +6239,9 @@ bioconductor-metavolcanor:
     name: bioconductor-metavolcanor
     description: "'Gene Expression Meta-analysis Visualization Tool'"
     license: GPL-3
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    home_url: https://bioconductor.org/packages/devel/bioc/html/MetaVolcanoR.html
     total_pulls: 19
+    manually_check: true
 r-pipette:
     name: r-pipette
     description: Pipette biological data in and out of R.
@@ -6396,21 +6398,24 @@ varlociraptor:
     name: varlociraptor
     description: Flexible, uncertainty-aware variant calling with parameter free filtration
         via FDR control.
-    license: GPLv3
+    license: GPL-
     home_url: https://varlociraptor.github.io
     total_pulls: 18
+    manually_check: true
 bbknn:
     name: bbknn
     description: Batch balanced KNN
     license: MIT
     home_url: https://github.com/Teichlab/bbknn
     total_pulls: 18
+    manually_check: true
 sccaf:
     name: sccaf
-    description: Single-cell clustering assessment framework
-    license: Not available
+    description: Single-Cell Clustering Assessment Framework
+    license: MIT
     home_url: https://github.com/SCCAF/sccaf
     total_pulls: 18
+    manually_check: true
 ppanggolin:
     name: ppanggolin
     description: '"PPanGGOLiN : Depicting microbial species diversity via a Partitioned
@@ -6418,26 +6423,30 @@ ppanggolin:
     license: CeCiLL 2.1
     home_url: https://github.com/labgem/PPanGGOLiN
     total_pulls: 18
+    manually_check: true
 iucn_sim:
     name: iucn_sim
     description: Simulate future extinctions and extinction rates for a given set
         of species, based on iucn threat assessments
-    license: Not available
+    license: MIT
     home_url: https://github.com/tobiashofmann88/iucn_extinction_simulator
     total_pulls: 18
+    manually_check: true
 dart:
     name: dart
     description: '"Dart: a fast and accurate RNA-seq mapper"'
     license: MIT
     home_url: https://github.com/hsinnan75/Dart
     total_pulls: 18
+    manually_check: true
 coinfinder:
     name: coinfinder
     description: '"A tool for the identification of coincident (associating and dissociating)
         genes in pangenomes."'
     license: '"GPLv3"'
-    home_url: '"https://github.com/fwhelan/{{ name }}"'
+    home_url: https://github.com/fwhelan/coinfinder
     total_pulls: 18
+    manually_check: true
 probabilistic2020:
     name: probabilistic2020
     description: Simulates somatic mutations, and calls statistically significant
@@ -6445,6 +6454,7 @@ probabilistic2020:
     license: Apache-2-0
     home_url: https://github.com/KarchinLab/probabilistic2020
     total_pulls: 18
+    manually_check: true
 bioconductor-annotationhub:
     name: bioconductor-annotationhub
     description: This package provides a client for the bioconductor corresponding
@@ -6457,6 +6467,7 @@ bioconductor-annotationhub:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/AnnotationHub.html
     total_pulls: 17
+    manually_check: true
 bioconductor-genomicfeatures:
     name: bioconductor-genomicfeatures
     description: A set of tools and methods for making and manipulating transcript
@@ -6468,6 +6479,7 @@ bioconductor-genomicfeatures:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/GenomicFeatures.html
     total_pulls: 17
+    manually_check: true
 bioconductor-gostats:
     name: bioconductor-gostats
     description: A set of tools for interacting with go and microarray data. a variety
@@ -6476,24 +6488,28 @@ bioconductor-gostats:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/GOstats.html
     total_pulls: 17
+    manually_check: true
 ncbi-genome-download:
     name: ncbi-genome-download
     description: Download genome files from the ncbi ftp server.
-    license: Not available
+    license: Apache-2.0
     home_url: https://github.com/kblin/ncbi-genome-download/
     total_pulls: 17
+    manually_check: true
 perl-xml-sax-expat:
     name: perl-xml-sax-expat
-    description: Sax driver for expat
-    license: Not available
+    description: "'SAX Driver for Expat'"
+    license: perl_5
     home_url: http://metacpan.org/pod/XML-SAX-Expat
     total_pulls: 17
+    manually_check: true
 bioconductor-mops:
     name: bioconductor-mops
     description: "'MoPS - Model-based Periodicity Screening'"
-    license: GPL-3
+    license: GPL-3.0
     home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
     total_pulls: 17
+    manually_check: true
 ucsc-blat:
     name: ucsc-blat
     description: '"Standalone BLAT v. 36x2 fast sequence search command line tool"'
@@ -6514,6 +6530,7 @@ bioconductor-yapsa:
     license: GPL-3
     home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
     total_pulls: 17
+    manually_check: true
 fastq-join:
     name: fastq-join
     description: Similar to audy's stitch program, but in C, more efficient and supports
@@ -6522,18 +6539,21 @@ fastq-join:
     license: MIT
     home_url: https://github.com/brwnj/fastq-join
     total_pulls: 17
+    manually_check: true
 perl-heap-simple-perl:
     name: perl-heap-simple-perl
     description: A pure perl implementation of the heap::simple interface
-    license: Not available
+    license: perl_5
     home_url: http://metacpan.org/pod/Heap::Simple::Perl
     total_pulls: 17
+    manually_check: true
 bioconductor-omicrexposome:
     name: bioconductor-omicrexposome
     description: Exposome and omic data associatin and integration analysis
-    license: Not available
+    license: MIT
     home_url: https://bioconductor.org/packages/3.11/bioc/html/omicRexposome.html
     total_pulls: 17
+    manually_check: true
 ivar:
     name: ivar
     description: iVar is a computational package that contains functions broadly useful
@@ -6548,6 +6568,7 @@ ncbi-amrfinderplus:
     license: Public Domain
     home_url: https://github.com/ncbi/amr/wiki
     total_pulls: 17
+    manually_check: true
 garnett-cli:
     name: garnett-cli
     description: Collection of wrapper scripts for the garnett scrnaseq cell type
@@ -6558,10 +6579,11 @@ garnett-cli:
     manually_check: true
 panaroo:
     name: panaroo
-    description: Panaroo - an updated pipeline for pangenome investigation
-    license: Not available
+    description: "'Panaroo - an updated pipeline for pangenome investigation'"
+    license: MIT
     home_url: https://gtonkinhill.github.io/panaroo
     total_pulls: 17
+    manually_check: true
 biomaj:
     name: biomaj
     description: Biomaj is a workflow engine dedicated to data synchronization and
@@ -6570,70 +6592,74 @@ biomaj:
     license: AGPL-3.0
     home_url: http://biomaj.genouest.org/
     total_pulls: 16
+    manually_check: true
 bioconductor-biomart:
     name: bioconductor-biomart
     description: Interface to biomart databases (i.e. ensembl)
     license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/bioc/html/biomaRt.html
     total_pulls: 16
+    manually_check: true
 bioconductor-go.db:
     name: bioconductor-go.db
     description: A set of annotation maps describing the entire gene ontology
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/GO.db.html
     total_pulls: 16
+    manually_check: true
 bioconductor-genomicranges:
     name: bioconductor-genomicranges
     description: Bioconductor representation and manipulation of genomic intervals
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/GenomicRanges/
     total_pulls: 16
+    manually_check: true
 lastz:
     name: lastz
-    description: "# Lastz\n\n> Lastz is a program for aligning dna sequences, a pairwise\
-        \ aligne\n\n> Licence: Mit\n\nHome: http://www.bx.psu.edu/miller_lab/dist/lastz-1.02.00.tar.gz\n\
-        \n"
+    description: LASTZ is a program for aligning DNA sequences, a pairwise aligner.
     license: MIT
     home_url: http://www.bx.psu.edu/~rsharris/lastz/
     total_pulls: 16
+    manually_check: true
 bgt:
     name: bgt
-    description: "# Bgt\n\n> Flexible genotype query among 30,000+ samples whole-genome.\n\
-        \n> Licence: Mit\n\nHome: https://github.com/lh3/bgt/archive/7c66cc885df74328a191b943140e3db96a3c7de6.tar.gz\n\
-        \n"
+    description: Flexible genotype query among 30,000+ samples whole-genome.
     license: MIT
     home_url: https://github.com/lh3/bgt
     total_pulls: 16
+    manually_check: true
 perl-file-which:
     name: perl-file-which
-    description: Perl implementation of the which utility as an api
-    license: Not available
+    description: "'Perl implementation of the which utility as an API'"
+    license: perl_5
     home_url: https://metacpan.org/pod/File::Which
     total_pulls: 16
+    manually_check: true
 sure:
     name: sure
-    description: Utility belt for automated testing in python for python
-    license: Not available
+    description: "'utility belt for automated testing in python for python'"
+    license: GPL-3.0
     home_url: http://github.com/gabrielfalcao/sure
     total_pulls: 16
+    manually_check: true
 bioconductor-gothic:
     name: bioconductor-gothic
-    description: "# Bioconductor-Gothic\n\n> This is a hi-c analysis package using\
+    description: "This is a hi-c analysis package using\
         \ a cumulative binomial test to detect interactions between distal genomic\
         \ loci that have significantly more reads than expected by chance in hi-c\
         \ experiments. it takes mapped paired ngs reads as input and gives back the\
-        \ list of significant interactions for a given bin size in the genome.\n\n\
-        > Licence: Gpl-3\n\nHome: https://bioarchive.galaxyproject.org/GOTHiC_1.10.0.tar.gz\n\
-        \n"
+        \ list of significant interactions for a given bin size in the genome."
     license: GPL-3
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html'"
+    home_url: https://bioconductor.org/packages/devel/bioc/html/MetaVolcanoR.html
     total_pulls: 16
+    manually_check: true
 bioconductor-org.cf.eg.db:
     name: bioconductor-org.cf.eg.db
     description: Genome wide annotation for canine
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/org.Cf.eg.db.html
     total_pulls: 16
+    manually_check: true
 antismash:
     name: antismash
     description: Rapid genome-wide identification, annotation and analysis of secondary
@@ -6643,37 +6669,42 @@ antismash:
     license: AGPL-3.0
     home_url: http://antismash.secondarymetabolites.org
     total_pulls: 16
+    manually_check: true
 ucsc-hubcheck:
     name: ucsc-hubcheck
     description: '"Check a track data hub for integrity."'
-    license: '"varies; see http://genome.ucsc.edu/license"'
+    license: Custom  License
     home_url: '"http://hgdownload.cse.ucsc.edu/admin/exe/"'
     total_pulls: 16
+    manually_check: true
 bioconductor-fcbf:
     name: bioconductor-fcbf
     description: Fast correlation based filter for feature selection
-    license: Not available
+    license: MIT
     home_url: https://bioconductor.org/packages/3.11/bioc/html/FCBF.html
     total_pulls: 16
+    manually_check: true
 bioconductor-ensdb.rnorvegicus.v75:
     name: bioconductor-ensdb.rnorvegicus.v75
     description: Ensembl based annotation package
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/EnsDb.Rnorvegicus.v75.html
     total_pulls: 16
+    manually_check: true
 bioconductor-maizecdf:
     name: bioconductor-maizecdf
     description: maizecdf
     license: LGPL
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/data/annotation/html/{{\
-        \ name }}.html'"
+    home_url: http://bioconductor.org/packages/release/data/annotation/html/maizecdf.html
     total_pulls: 16
+    manually_check: true
 ganon:
     name: ganon
     description: '"ganon: a read classification tool using Interleaved Bloom Filters"'
-    license: MIT License
+    license: MIT
     home_url: https://github.com/pirovc/ganon
     total_pulls: 16
+    manually_check: true
 unitig-caller:
     name: unitig-caller
     description: Determines presence/absence of sequence elements in bacterial sequence
@@ -6681,45 +6712,53 @@ unitig-caller:
     license: Apache-2.0
     home_url: https://github.com/johnlees/unitig-caller
     total_pulls: 16
+    manually_check: true
 biasaway:
     name: biasaway
     description: 'Biasaway: a tool to generate composition-matched background sequences'
-    license: Not available
+    license: GPL-3.0
     home_url: https://bitbucket.org/CBGR/biasaway
     total_pulls: 16
+    manually_check: true
 mtsv-tools:
     name: mtsv-tools
-    description: '|'
+    description: 'mtsv-tools is a suite of core metagenomic binning and analysis tools. It attempts to accurately identify which species
+    are present in a given DNA sample. It assumes that read fragments in samples will be in a "shotgun" or short read format, typically ~50-200 bases in length.'
     license: MIT
     home_url: https://github.com/FofanovLab/mtsv_tools
     total_pulls: 16
+    manually_check: true
 igphyml:
     name: igphyml
     description: '"IgPhyML is a program designed to build phylogenetic trees and test
         evolutionary hypotheses regarding B cell affinity maturation."'
-    license: '"GNU GPL version 2"'
+    license: GPL-2.0
     home_url: '"https://igphyml.readthedocs.io/en/latest/index.html"'
     total_pulls: 16
+    manually_check: true
 phispy:
     name: phispy
     description: '"Prophage finder using multiple metrics"'
-    license: '"MIT License"'
+    license: '"MIT"'
     home_url: '"https://github.com/linsalrob/PhiSpy"'
     total_pulls: 16
+    manually_check: true
 influx_si:
     name: influx_si
     description: '"Metabolic flux and concentration estimation based on stable isotope
         labeling"'
-    license: '"GNU General Public v2 or later (GPLv2+)"'
+    license: GPL
     home_url: '"https://metasys.insa-toulouse.fr/software/influx/"'
     total_pulls: 16
+    manually_check: true
 seqfu:
     name: seqfu
     description: A collection of utilities to manipulate fasta and fastq files, supporting
         gzipped input.
-    license: mit
+    license: MIT
     home_url: https://github.com/quadram-institute-bioscience/seqfu
     total_pulls: 16
+    manually_check: true
 clipcontext:
     name: clipcontext
     description: Extract clip-seq binding regions with both genomic and transcript
@@ -31032,9 +31071,10 @@ catch:
 telseq:
     name: telseq
     description: A software for calculating telomere length
-    license: GPL-3
+    license: GPL-3.0
     home_url: https://github.com/zd1/telseq
     total_pulls: 1
+    manually_check: true
 libdeflate:
     name: libdeflate
     description:
@@ -31044,15 +31084,17 @@ libdeflate:
 biopet-vcfstats:
     name: biopet-vcfstats
     description: Vcfstats is a tool that can generate metrics from a vcf file.
-    license: Not available
+    license: MIT
     home_url: https://github.com/biopet/vcfstats
     total_pulls: 1
+    manually_check: true
 scipy:
     name: scipy
-    description: ''
-    license:
-    home_url:
+    description: Scientific Library for Python
+    license: BSD-3-Clause
+    home_url: https://github.com/scipy/scipy
     total_pulls: 1
+    manually_check: true
 numpy:
     name: numpy
     description: Array processing for numbers, strings, records, and objects.
@@ -31062,17 +31104,19 @@ numpy:
     manually_check: true
 wisecondorx:
     name: wisecondorx
-    description: Within-sample copy number aberration detector, including sex chromosomes
-    license: Not available
+    description: "'WIthin-SamplE COpy Number aberration DetectOR, including sex chromosomes'"
+    license: CC-BY-NC-SA
     home_url: https://github.com/CenterForMedicalGeneticsGhent/wisecondorX
     total_pulls: 1
+    manually_check: true
 asqcan:
     name: asqcan
-    description: A combined pipeline for bacterial genome assembly, quality control
-        and annotation
-    license: Not available
+    description: "'A combined pipeline for bacterial genome assembly, quality control\
+        \ and annotation'"
+    license: GPL-3.
     home_url: https://github.com/bogemad/asqcan
     total_pulls: 1
+    manually_check: true
 flash2:
     name: flash2
     description: "'Merge paired-end reads from fragments that are shorter than twice\
@@ -31080,34 +31124,39 @@ flash2:
     license: GPLv3+
     home_url: https://github.com/dstreett/FLASH2
     total_pulls: 1
+    manually_check: true
 rdp_classifier:
     name: rdp_classifier
-    description: Naive bayesian classifier that can rapidly and accurately provide
-        taxonomic assignments from domain to genus
-    license: Not available
-    home_url: http://rdp.cme.msu.edu/
+    description: '"Naive Bayesian classifier that can rapidly and accurately provide
+        taxonomic assignments from domain to genus"'
+    license: GPL
+    home_url: "'http://rdp.cme.msu.edu/'"
     total_pulls: 1
+    manually_check: true
 flowcraft:
     name: flowcraft
-    description: A nextflow pipeline assembler for genomics. pick your modules. assemble
-        them. run the pipeline.
-    license: Not available
+    description: A Nextflow pipeline assembler for genomics. Pick your modules. Assemble
+        them. Run the pipeline.
+    license: GPL-3.0
     home_url: https://github.com/assemblerflow/flowcraft
     total_pulls: 1
+    manually_check: true
 oases:
     name: oases
     description: De novo transcriptome assembler for short reads
     license: GPL
-    home_url: http://www.ebi.ac.uk/~zerbino/oases/
+    home_url: https://github.com/dzerbino/oases
     total_pulls: 1
+    manually_check: true
 mauve:
     name: mauve
     description: Mauve is a system for constructing multiple genome alignments in
         the presence of large-scale evolutionary events such as rearrangement and
         inversion
-    license: Not available
-    home_url: http://darlinglab.org/mauve/
+    license: GPL-2.0
+    home_url: https://github.com/koadman/mauve
     total_pulls: 1
+    manually_check: true
 dialign2:
     name: dialign2
     description: DIALIGN multiple sequence alignment using various sources of external
@@ -31115,20 +31164,23 @@ dialign2:
     license: LGPL
     home_url: http://dialign.gobics.de
     total_pulls: 1
+    manually_check: true
 deepbinner:
     name: deepbinner
-    description: A signal-level demultiplexer for oxford nanopore reads.
-    license: Not available
+    description: A signal-level demultiplexer for Oxford Nanopore reads.
+    license: GPL-3.0
     home_url: https://github.com/rrwick/Deepbinner
     total_pulls: 1
+    manually_check: true
 connectome-workbench:
     name: connectome-workbench
     description: '"Connectome Workbench is an open source, freely available visualization
         and discovery tool used to map neuroimaging data, especially data generated
         by the Human Connectome Project"'
     license: GPL-2.0
-    home_url: https://www.humanconnectome.org/software/connectome-workbench
+    home_url: https://github.com/Washington-University/workbench
     total_pulls: 1
+    manually_check: true
 scikit-learn:
     name: scikit-learn
     description:
@@ -31155,957 +31207,1100 @@ r-seurat-scripts:
     total_pulls: 1
 gatktool:
     name: gatktool
-    description: Functions and classes used to extend a gatk tool with python
-    license: Not available
-    home_url: https://broadinstitute.org/
+    description: Functions and classes used to extend a GATK tool with Python
+    license: MIT
+    home_url: https://github.com/broadinstitute/gatk
     total_pulls: 1
+    manually_check: true
 clinvar-tsv:
     name: clinvar-tsv
-    description: A snakemake-based program to download clinvar and convert to easy-to-use
-        tsv files.
-    license: Not available
+    description: A Snakemake-based program to download ClinVar and convert to easy-to-use
+        TSV files.
+    license: MIT
     home_url: https://github.com/bihealth/clinvar-tsv
     total_pulls: 1
+    manually_check: true
 sparcc:
     name: sparcc
-    description: Sparcc is a python module for computing correlations in compositional
-        data (16s, metagenomics, etc).
-    license: Not available
+    description: "'SparCC is a python module for computing correlations in compositional\
+        \ data (16S, metagenomics, etc).'"
+    license: MIT
     home_url: https://bitbucket.org/yonatanf/sparcc
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.alyrata.jgi.v1:
     name: bioconductor-bsgenome.alyrata.jgi.v1
     description: Arabidopsis lyrata full genome (jgi version v1.0)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Alyrata.JGI.v1.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.amellifera.beebase.assembly4:
     name: bioconductor-bsgenome.amellifera.beebase.assembly4
     description: Full genome sequences for apis mellifera (beebase assembly4)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Amellifera.BeeBase.assembly4.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.amellifera.ucsc.apimel2:
     name: bioconductor-bsgenome.amellifera.ucsc.apimel2
     description: Full genome sequences for apis mellifera (ucsc version apimel2)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Amellifera.UCSC.apiMel2.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.amellifera.ucsc.apimel2.masked:
     name: bioconductor-bsgenome.amellifera.ucsc.apimel2.masked
     description: Full masked genome sequences for apis mellifera (ucsc version apimel2)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Amellifera.UCSC.apiMel2.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.aofficinalis.ncbi.v1:
     name: bioconductor-bsgenome.aofficinalis.ncbi.v1
-    description: "'Asparagus officinalis (Garden asparagus) full genome (NCBI version\
-        \ Aspof.V1)'"
-    license: GPL-3
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/data/annotation/html/{{\
-        \ name }}.html'"
+    description: "'Asparagus officinalis (Garden asparagus) full genome (NCBI version Aspof.V1)'"
+    license: GPL-3.0
+    home_url: https://www.bioconductor.org/packages/release/data/annotation/html/BSgenome.Aofficinalis.NCBI.V1.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.athaliana.tair.04232008:
     name: bioconductor-bsgenome.athaliana.tair.04232008
     description: Full genome sequences for arabidopsis thaliana (tair version from
         april 23, 2008)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Athaliana.TAIR.04232008.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.athaliana.tair.tair9:
     name: bioconductor-bsgenome.athaliana.tair.tair9
     description: Full genome sequences for arabidopsis thaliana (tair9)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Athaliana.TAIR.TAIR9.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.btaurus.ucsc.bostau3:
     name: bioconductor-bsgenome.btaurus.ucsc.bostau3
     description: Full genome sequences for bos taurus (ucsc version bostau3)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Btaurus.UCSC.bosTau3.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.btaurus.ucsc.bostau3.masked:
     name: bioconductor-bsgenome.btaurus.ucsc.bostau3.masked
     description: Full masked genome sequences for bos taurus (ucsc version bostau3)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Btaurus.UCSC.bosTau3.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.btaurus.ucsc.bostau4:
     name: bioconductor-bsgenome.btaurus.ucsc.bostau4
     description: Full genome sequences for bos taurus (ucsc version bostau4)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Btaurus.UCSC.bosTau4.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.btaurus.ucsc.bostau6:
     name: bioconductor-bsgenome.btaurus.ucsc.bostau6
     description: Full genome sequences for bos taurus (ucsc version bostau6)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Btaurus.UCSC.bosTau6.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.btaurus.ucsc.bostau6.masked:
     name: bioconductor-bsgenome.btaurus.ucsc.bostau6.masked
     description: Full masked genome sequences for bos taurus (ucsc version bostau6)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Btaurus.UCSC.bosTau6.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.btaurus.ucsc.bostau8:
     name: bioconductor-bsgenome.btaurus.ucsc.bostau8
     description: Full genome sequences for bos taurus (ucsc version bostau8)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Btaurus.UCSC.bosTau8.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.carietinum.ncbi.v1:
     name: bioconductor-bsgenome.carietinum.ncbi.v1
     description: "'Cicer arietinum (Chickpea) full genome (NCBI version ASM33114v1)'"
-    license: GPL-3
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/data/annotation/html/{{\
-        \ name }}.html'"
+    license: GPL-3.0
+    home_url: http://bioconductor.org/packages/release/data/annotation/html/BSgenome.Carietinum.NCBI.v1.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.celegans.ucsc.ce11:
     name: bioconductor-bsgenome.celegans.ucsc.ce11
     description: Full genome sequences for caenorhabditis elegans (ucsc version ce11)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Celegans.UCSC.ce11.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.celegans.ucsc.ce2:
     name: bioconductor-bsgenome.celegans.ucsc.ce2
     description: Full genome sequences for caenorhabditis elegans (ucsc version ce2)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Celegans.UCSC.ce2.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.cfamiliaris.ucsc.canfam2:
     name: bioconductor-bsgenome.cfamiliaris.ucsc.canfam2
     description: Full genome sequences for canis lupus familiaris (ucsc version canfam2)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Cfamiliaris.UCSC.canFam2.html
     total_pulls: 1
 bioconductor-bsgenome.cfamiliaris.ucsc.canfam2.masked:
     name: bioconductor-bsgenome.cfamiliaris.ucsc.canfam2.masked
     description: Full masked genome sequences for canis lupus familiaris (ucsc version
         canfam2)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Cfamiliaris.UCSC.canFam2.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.cfamiliaris.ucsc.canfam3:
     name: bioconductor-bsgenome.cfamiliaris.ucsc.canfam3
     description: Full genome sequences for canis lupus familiaris (ucsc version canfam3)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Cfamiliaris.UCSC.canFam3.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.cfamiliaris.ucsc.canfam3.masked:
     name: bioconductor-bsgenome.cfamiliaris.ucsc.canfam3.masked
     description: Full masked genome sequences for canis lupus familiaris (ucsc version
         canfam3)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Cfamiliaris.UCSC.canFam3.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.dmelanogaster.ucsc.dm2:
     name: bioconductor-bsgenome.dmelanogaster.ucsc.dm2
     description: Full genome sequences for drosophila melanogaster (ucsc version dm2)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Dmelanogaster.UCSC.dm2.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.dmelanogaster.ucsc.dm2.masked:
     name: bioconductor-bsgenome.dmelanogaster.ucsc.dm2.masked
     description: Full masked genome sequences for drosophila melanogaster (ucsc version
         dm2)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Dmelanogaster.UCSC.dm2.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.dmelanogaster.ucsc.dm3.masked:
     name: bioconductor-bsgenome.dmelanogaster.ucsc.dm3.masked
     description: Full masked genome sequences for drosophila melanogaster (ucsc version
         dm3)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Dmelanogaster.UCSC.dm3.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.dmelanogaster.ucsc.dm6:
     name: bioconductor-bsgenome.dmelanogaster.ucsc.dm6
     description: Full genome sequences for drosophila melanogaster (ucsc version dm6)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Dmelanogaster.UCSC.dm6.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.drerio.ucsc.danrer10:
     name: bioconductor-bsgenome.drerio.ucsc.danrer10
     description: Full genome sequences for danio rerio (ucsc version danrer10)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Drerio.UCSC.danRer10.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.drerio.ucsc.danrer5:
     name: bioconductor-bsgenome.drerio.ucsc.danrer5
     description: Full genome sequences for danio rerio (ucsc version danrer5)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Drerio.UCSC.danRer5.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.drerio.ucsc.danrer5.masked:
     name: bioconductor-bsgenome.drerio.ucsc.danrer5.masked
     description: Full masked genome sequences for danio rerio (ucsc version danrer5)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Drerio.UCSC.danRer5.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.drerio.ucsc.danrer6:
     name: bioconductor-bsgenome.drerio.ucsc.danrer6
     description: Full genome sequences for danio rerio (ucsc version danrer6)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Drerio.UCSC.danRer6.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.drerio.ucsc.danrer6.masked:
     name: bioconductor-bsgenome.drerio.ucsc.danrer6.masked
     description: Full masked genome sequences for danio rerio (ucsc version danrer6)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Drerio.UCSC.danRer6.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.drerio.ucsc.danrer7.masked:
     name: bioconductor-bsgenome.drerio.ucsc.danrer7.masked
     description: Full masked genome sequences for danio rerio (ucsc version danrer7)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Drerio.UCSC.danRer7.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.gaculeatus.ucsc.gasacu1:
     name: bioconductor-bsgenome.gaculeatus.ucsc.gasacu1
     description: Full genome sequences for gasterosteus aculeatus (ucsc version gasacu1)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Gaculeatus.UCSC.gasAcu1.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked:
     name: bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked
     description: Full masked genome sequences for gasterosteus aculeatus (ucsc version
         gasacu1)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Gaculeatus.UCSC.gasAcu1.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.ggallus.ucsc.galgal3:
     name: bioconductor-bsgenome.ggallus.ucsc.galgal3
     description: Full genome sequences for gallus gallus (ucsc version galgal3)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Ggallus.UCSC.galGal3.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.ggallus.ucsc.galgal3.masked:
     name: bioconductor-bsgenome.ggallus.ucsc.galgal3.masked
     description: Full masked genome sequences for gallus gallus (ucsc version galgal3)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Ggallus.UCSC.galGal3.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.ggallus.ucsc.galgal4:
     name: bioconductor-bsgenome.ggallus.ucsc.galgal4
     description: Full genome sequences for gallus gallus (ucsc version galgal4)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Ggallus.UCSC.galGal4.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.ggallus.ucsc.galgal4.masked:
     name: bioconductor-bsgenome.ggallus.ucsc.galgal4.masked
     description: Full masked genome sequences for gallus gallus (ucsc version galgal4)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Ggallus.UCSC.galGal4.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.ggallus.ucsc.galgal5:
     name: bioconductor-bsgenome.ggallus.ucsc.galgal5
     description: Full genome sequences for gallus gallus (ucsc version galgal5)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Ggallus.UCSC.galGal5.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.hsapiens.1000genomes.hs37d5:
     name: bioconductor-bsgenome.hsapiens.1000genomes.hs37d5
     description: 1000genomes reference genome sequence (hs37d5)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Hsapiens.1000genomes.hs37d5.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.hsapiens.ncbi.grch38:
     name: bioconductor-bsgenome.hsapiens.ncbi.grch38
     description: Full genome sequences for homo sapiens (grch38)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Hsapiens.NCBI.GRCh38.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.hsapiens.ucsc.hg17:
     name: bioconductor-bsgenome.hsapiens.ucsc.hg17
     description: Full genome sequences for homo sapiens (ucsc version hg17)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Hsapiens.UCSC.hg17.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.hsapiens.ucsc.hg17.masked:
     name: bioconductor-bsgenome.hsapiens.ucsc.hg17.masked
     description: Full masked genome sequences for homo sapiens (ucsc version hg17)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Hsapiens.UCSC.hg17.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.hsapiens.ucsc.hg18.masked:
     name: bioconductor-bsgenome.hsapiens.ucsc.hg18.masked
     description: Full masked genome sequences for homo sapiens (ucsc version hg18)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Hsapiens.UCSC.hg18.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.hsapiens.ucsc.hg19.masked:
     name: bioconductor-bsgenome.hsapiens.ucsc.hg19.masked
     description: Full masked genome sequences for homo sapiens (ucsc version hg19,
         based on grch37.p13)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Hsapiens.UCSC.hg19.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.hsapiens.ucsc.hg38.masked:
     name: bioconductor-bsgenome.hsapiens.ucsc.hg38.masked
     description: Full masked genome sequences for homo sapiens (ucsc version hg38,
         based on grch38.p12)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.mfascicularis.ncbi.5.0:
     name: bioconductor-bsgenome.mfascicularis.ncbi.5.0
     description: Full genome sequences for macaca fascicularis (macaca_fascicularis_5.0)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Mfascicularis.NCBI.5.0.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.mfuro.ucsc.musfur1:
     name: bioconductor-bsgenome.mfuro.ucsc.musfur1
     description: Full genome sequences for mustela putorius furo (ucsc version musfur1)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Mfuro.UCSC.musFur1.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.mmulatta.ucsc.rhemac2:
     name: bioconductor-bsgenome.mmulatta.ucsc.rhemac2
     description: Full genome sequences for macaca mulatta (ucsc version rhemac2)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Mmulatta.UCSC.rheMac2.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.mmulatta.ucsc.rhemac2.masked:
     name: bioconductor-bsgenome.mmulatta.ucsc.rhemac2.masked
     description: Full masked genome sequences for macaca mulatta (ucsc version rhemac2)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Mmulatta.UCSC.rheMac2.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.mmulatta.ucsc.rhemac3:
     name: bioconductor-bsgenome.mmulatta.ucsc.rhemac3
     description: Full genome sequences for macaca mulatta (ucsc version rhemac3)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Mmulatta.UCSC.rheMac3.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.mmulatta.ucsc.rhemac3.masked:
     name: bioconductor-bsgenome.mmulatta.ucsc.rhemac3.masked
     description: Full masked genome sequences for macaca mulatta (ucsc version rhemac3)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Mmulatta.UCSC.rheMac3.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.mmulatta.ucsc.rhemac8:
     name: bioconductor-bsgenome.mmulatta.ucsc.rhemac8
     description: Full genome sequences for macaca mulatta (ucsc version rhemac8)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Mmulatta.UCSC.rheMac8.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.mmusculus.ucsc.mm10.masked:
     name: bioconductor-bsgenome.mmusculus.ucsc.mm10.masked
     description: Full masked genome sequences for mus musculus (ucsc version mm10)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Mmusculus.UCSC.mm10.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.mmusculus.ucsc.mm8:
     name: bioconductor-bsgenome.mmusculus.ucsc.mm8
     description: Full genome sequences for mus musculus (ucsc version mm8)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Mmusculus.UCSC.mm8.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.mmusculus.ucsc.mm9.masked:
     name: bioconductor-bsgenome.mmusculus.ucsc.mm9.masked
     description: Full masked genome sequences for mus musculus (ucsc version mm9)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Mmusculus.UCSC.mm9.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.osativa.msu.msu7:
     name: bioconductor-bsgenome.osativa.msu.msu7
     description: Oryza sativa full genome (msu7)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Osativa.MSU.MSU7.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.ptroglodytes.ucsc.pantro2:
     name: bioconductor-bsgenome.ptroglodytes.ucsc.pantro2
     description: Full genome sequences for pan troglodytes (ucsc version pantro2)
-    license: Not available
-    home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Ptroglodytes.UCSC.panTro2.html
-    total_pulls: 1
-bioconductor-bsgenome.ptroglodytes.ucsc.pantro2.masked:
-    name: bioconductor-bsgenome.ptroglodytes.ucsc.pantro2.masked
-    description: Full masked genome sequences for pan troglodytes (ucsc version pantro2)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Ptroglodytes.UCSC.panTro2.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.ptroglodytes.ucsc.pantro3:
     name: bioconductor-bsgenome.ptroglodytes.ucsc.pantro3
     description: Full genome sequences for pan troglodytes (ucsc version pantro3)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Ptroglodytes.UCSC.panTro3.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.ptroglodytes.ucsc.pantro3.masked:
     name: bioconductor-bsgenome.ptroglodytes.ucsc.pantro3.masked
     description: Full masked genome sequences for pan troglodytes (ucsc version pantro3)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Ptroglodytes.UCSC.panTro3.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.ptroglodytes.ucsc.pantro5:
     name: bioconductor-bsgenome.ptroglodytes.ucsc.pantro5
     description: Full genome sequences for pan troglodytes (ucsc version pantro5)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Ptroglodytes.UCSC.panTro5.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.ptroglodytes.ucsc.pantro6:
     name: bioconductor-bsgenome.ptroglodytes.ucsc.pantro6
     description: Full genome sequences for pan troglodytes (ucsc version pantro6)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Ptroglodytes.UCSC.panTro6.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.rnorvegicus.ucsc.rn4:
     name: bioconductor-bsgenome.rnorvegicus.ucsc.rn4
     description: Full genome sequences for rattus norvegicus (ucsc version rn4)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Rnorvegicus.UCSC.rn4.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.rnorvegicus.ucsc.rn4.masked:
     name: bioconductor-bsgenome.rnorvegicus.ucsc.rn4.masked
     description: Full masked genome sequences for rattus norvegicus (ucsc version
         rn4)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Rnorvegicus.UCSC.rn4.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.rnorvegicus.ucsc.rn5.masked:
     name: bioconductor-bsgenome.rnorvegicus.ucsc.rn5.masked
     description: Full masked genome sequences for rattus norvegicus (ucsc version
         rn5)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Rnorvegicus.UCSC.rn5.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.rnorvegicus.ucsc.rn6:
     name: bioconductor-bsgenome.rnorvegicus.ucsc.rn6
     description: Full genome sequences for rattus norvegicus (ucsc version rn6)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Rnorvegicus.UCSC.rn6.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.scerevisiae.ucsc.saccer1:
     name: bioconductor-bsgenome.scerevisiae.ucsc.saccer1
     description: Saccharomyces cerevisiae (yeast) full genome (ucsc version saccer1)
     license: Not available
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Scerevisiae.UCSC.sacCer1.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.scerevisiae.ucsc.saccer2:
     name: bioconductor-bsgenome.scerevisiae.ucsc.saccer2
     description: Saccharomyces cerevisiae (yeast) full genome (ucsc version saccer2)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Scerevisiae.UCSC.sacCer2.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.scerevisiae.ucsc.saccer3:
     name: bioconductor-bsgenome.scerevisiae.ucsc.saccer3
     description: Saccharomyces cerevisiae (yeast) full genome (ucsc version saccer3)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Scerevisiae.UCSC.sacCer3.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.sscrofa.ucsc.susscr11:
     name: bioconductor-bsgenome.sscrofa.ucsc.susscr11
     description: Full genome sequences for sus scrofa (ucsc version susscr11)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Sscrofa.UCSC.susScr11.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.sscrofa.ucsc.susscr3:
     name: bioconductor-bsgenome.sscrofa.ucsc.susscr3
     description: Full genome sequences for sus scrofa (ucsc version susscr3)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Sscrofa.UCSC.susScr3.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.sscrofa.ucsc.susscr3.masked:
     name: bioconductor-bsgenome.sscrofa.ucsc.susscr3.masked
     description: Full masked genome sequences for sus scrofa (ucsc version susscr3)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Sscrofa.UCSC.susScr3.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.tgondii.toxodb.7.0:
     name: bioconductor-bsgenome.tgondii.toxodb.7.0
     description: "'Toxoplasma gondii ME49 (ToxoDB-7.0)'"
-    license: "'GPL 3'"
-    home_url: "'https://bioconductor.org/packages/{{ bioc }}/data/annotation/html/{{\
-        \ name }}.html'"
+    license: GPL-3.0
+    home_url: https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Tgondii.ToxoDB.7.0.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.tguttata.ucsc.taegut1:
     name: bioconductor-bsgenome.tguttata.ucsc.taegut1
     description: Full genome sequences for taeniopygia guttata (ucsc version taegut1)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Tguttata.UCSC.taeGut1.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.tguttata.ucsc.taegut1.masked:
     name: bioconductor-bsgenome.tguttata.ucsc.taegut1.masked
     description: Full masked genome sequences for taeniopygia guttata (ucsc version
         taegut1)
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Tguttata.UCSC.taeGut1.masked.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.vvinifera.urgi.iggp12xv0:
     name: bioconductor-bsgenome.vvinifera.urgi.iggp12xv0
     description: Full reference nuclear genome sequences for vitis vinifera subsp.
         vinifera pn40024 (iggp version 12xv0)
-    license: Not available
+    license: CC0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Vvinifera.URGI.IGGP12Xv0.html
     total_pulls: 1
+    manually_check: true
 bioconductor-bsgenome.vvinifera.urgi.iggp12xv2:
     name: bioconductor-bsgenome.vvinifera.urgi.iggp12xv2
     description: Full reference nuclear genome sequences for vitis vinifera subsp.
         vinifera pn40024 (iggp version 12xv2)
-    license: Not available
+    license: CC0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Vvinifera.URGI.IGGP12Xv2.html
     total_pulls: 1
+    manually_check: true
 bioconductor-phastcons100way.ucsc.hg38:
     name: bioconductor-phastcons100way.ucsc.hg38
     description: Ucsc phastcons conservation scores for hg38
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/phastCons100way.UCSC.hg38.html
     total_pulls: 1
+    manually_check: true
 enabrowsertools:
     name: enabrowsertools
-    description: Enabrowsertools is a set of scripts that interface with the ena web
-        services to download data from ena easily
-    license: Not available
+    description: "'enaBrowserTools is a set of scripts that interface with the ENA\
+        \ web services to download data from ENA easily'"
+    license: Apache-2.0
     home_url: https://github.com/enasequence/enaBrowserTools
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.aca.eg.db:
     name: bioconductor-mesh.aca.eg.db
     description: Mapping table for anolis carolinensis gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Aca.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.aga.pest.eg.db:
     name: bioconductor-mesh.aga.pest.eg.db
     description: Mapping table for anopheles gambiae str. pest gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Aga.PEST.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.ame.eg.db:
     name: bioconductor-mesh.ame.eg.db
     description: Mapping table for ailuropoda melanoleuca gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Ame.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.aml.eg.db:
     name: bioconductor-mesh.aml.eg.db
     description: Mapping table for apis mellifera gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Aml.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.ana.eg.db:
     name: bioconductor-mesh.ana.eg.db
     description: Mapping table for filamentos cyanobacteria gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Ana.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.ani.fgsc.eg.db:
     name: bioconductor-mesh.ani.fgsc.eg.db
     description: Mapping table for aspergillus nidulans fgsc a4 gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Ani.FGSC.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.aor.db:
     name: bioconductor-mesh.aor.db
     description: A set of annotation maps describing the entire mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.AOR.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.ath.eg.db:
     name: bioconductor-mesh.ath.eg.db
     description: Mapping table for arabidopsis thaliana gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Ath.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.bsu.168.eg.db:
     name: bioconductor-mesh.bsu.168.eg.db
     description: Mapping table for bacillus subtilis subsp. spizizenii str. 168 gene
         id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Bsu.168.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.bta.eg.db:
     name: bioconductor-mesh.bta.eg.db
     description: Mapping table for bos taurus gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Bta.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.cal.sc5314.eg.db:
     name: bioconductor-mesh.cal.sc5314.eg.db
     description: Mapping table for candida albicans sc5314 gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Cal.SC5314.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.cbr.eg.db:
     name: bioconductor-mesh.cbr.eg.db
     description: Mapping table for caenorhabditis briggsae gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Cbr.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.cel.eg.db:
     name: bioconductor-mesh.cel.eg.db
     description: Mapping table for caenorhabditis elegans gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Cel.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.cfa.eg.db:
     name: bioconductor-mesh.cfa.eg.db
     description: Mapping table for canis familiaris gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Cfa.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.cin.eg.db:
     name: bioconductor-mesh.cin.eg.db
     description: Mapping table for ciona intestinalis gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Cin.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.cja.eg.db:
     name: bioconductor-mesh.cja.eg.db
     description: Mapping table for callithrix jacchus gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Cja.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.cpo.eg.db:
     name: bioconductor-mesh.cpo.eg.db
     description: Mapping table for cavia porcellus gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Cpo.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.cre.eg.db:
     name: bioconductor-mesh.cre.eg.db
     description: Mapping table for caenorhabditis remani gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Cre.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.dan.eg.db:
     name: bioconductor-mesh.dan.eg.db
     description: Mapping table for drosophila ananassae gene id to mesh
     license: Not available
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Dan.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.dda.3937.eg.db:
     name: bioconductor-mesh.dda.3937.eg.db
     description: Mapping table for dickeya dadantii 3937 gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Dda.3937.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.ddi.ax4.eg.db:
     name: bioconductor-mesh.ddi.ax4.eg.db
     description: Mapping table for dictyostelium discoideum ax4 gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Ddi.AX4.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.der.eg.db:
     name: bioconductor-mesh.der.eg.db
     description: Mapping table for drosophila eracta gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Der.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.dgr.eg.db:
     name: bioconductor-mesh.dgr.eg.db
     description: Mapping table for drosophila grimshawi gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Dgr.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.dme.eg.db:
     name: bioconductor-mesh.dme.eg.db
     description: Mapping table for drosophila melanogaster gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Dme.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.dmo.eg.db:
     name: bioconductor-mesh.dmo.eg.db
     description: Mapping table for drosophila mojavensis gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Dmo.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.dpe.eg.db:
     name: bioconductor-mesh.dpe.eg.db
     description: Mapping table for drosophila persimilis gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Dpe.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.dre.eg.db:
     name: bioconductor-mesh.dre.eg.db
     description: Mapping table for danio rerio gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Dre.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.dse.eg.db:
     name: bioconductor-mesh.dse.eg.db
     description: Mapping table for drosophila sechellia gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Dse.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.dsi.eg.db:
     name: bioconductor-mesh.dsi.eg.db
     description: Mapping table for drosophila simulans gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Dsi.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.dvi.eg.db:
     name: bioconductor-mesh.dvi.eg.db
     description: Mapping table for drosophila virllis gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Dvi.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.dya.eg.db:
     name: bioconductor-mesh.dya.eg.db
     description: Mapping table for drosophila yakuba gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Dya.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.eco.55989.eg.db:
     name: bioconductor-mesh.eco.55989.eg.db
     description: Mapping table for escherichia coli 55989 gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Eco.55989.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.eco.iai39.eg.db:
     name: bioconductor-mesh.eco.iai39.eg.db
     description: Mapping table for escherichia coli iai39 gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Eco.IAI39.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.eco.k12.mg1655.eg.db:
     name: bioconductor-mesh.eco.k12.mg1655.eg.db
     description: Mapping table for escherichia coli str k-12 substr. mg1655 gene id
         to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Eco.K12.MG1655.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.eco.o157.h7.sakai.eg.db:
     name: bioconductor-mesh.eco.o157.h7.sakai.eg.db
     description: Mapping table for escherichia coli o157:h7 sakai gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Eco.O157.H7.Sakai.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.eco.umn026.eg.db:
     name: bioconductor-mesh.eco.umn026.eg.db
     description: Mapping table for escherichia coli umn026 gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Eco.UMN026.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.eqc.eg.db:
     name: bioconductor-mesh.eqc.eg.db
     description: Mapping table for equus caballus gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Eqc.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.gga.eg.db:
     name: bioconductor-mesh.gga.eg.db
     description: Mapping table for gallus gallus gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Gga.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.gma.eg.db:
     name: bioconductor-mesh.gma.eg.db
     description: Mapping table for glycine max gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Gma.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.hsa.eg.db:
     name: bioconductor-mesh.hsa.eg.db
     description: Mapping table for homo sapiens gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Hsa.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.laf.eg.db:
     name: bioconductor-mesh.laf.eg.db
     description: Mapping table for loxodonta africana gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Laf.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.lma.eg.db:
     name: bioconductor-mesh.lma.eg.db
     description: Mapping table for leishmania major strain friedlin gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Lma.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.mdo.eg.db:
     name: bioconductor-mesh.mdo.eg.db
     description: Mapping table for monodelphis domestica gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Mdo.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.mes.eg.db:
     name: bioconductor-mesh.mes.eg.db
     description: Mapping table for na gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Mes.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.mga.eg.db:
     name: bioconductor-mesh.mga.eg.db
     description: Mapping table for meleagris gallopavo gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Mga.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.miy.eg.db:
     name: bioconductor-mesh.miy.eg.db
     description: Mapping table for lotus japonicus gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Miy.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.mml.eg.db:
     name: bioconductor-mesh.mml.eg.db
     description: Mapping table for macaca mulatta gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Mml.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.mmu.eg.db:
     name: bioconductor-mesh.mmu.eg.db
     description: Mapping table for mus musculus gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Mmu.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.mtr.eg.db:
     name: bioconductor-mesh.mtr.eg.db
     description: Mapping table for medicago truncatula gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Mtr.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.nle.eg.db:
     name: bioconductor-mesh.nle.eg.db
     description: Mapping table for normascus leucogenys gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Nle.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.oan.eg.db:
     name: bioconductor-mesh.oan.eg.db
     description: Mapping table for ornithorhynchus anatinus gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Oan.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.ocu.eg.db:
     name: bioconductor-mesh.ocu.eg.db
     description: Mapping table for oryctolagus cuniculus gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Ocu.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.oni.eg.db:
     name: bioconductor-mesh.oni.eg.db
     description: Mapping table for oreochromis niloticus gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Oni.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.osa.eg.db:
     name: bioconductor-mesh.osa.eg.db
     description: Mapping table for oryza sativa japonica gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Osa.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.pab.eg.db:
     name: bioconductor-mesh.pab.eg.db
     description: Mapping table for pongo abelii gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Pab.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.pae.pao1.eg.db:
     name: bioconductor-mesh.pae.pao1.eg.db
     description: Mapping table for pseudomonas aeruginosa pao1 gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Pae.PAO1.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.pcr.db:
     name: bioconductor-mesh.pcr.db
     description: A set of annotation maps describing the entire mesh
     license: Not available
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.PCR.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.pfa.3d7.eg.db:
     name: bioconductor-mesh.pfa.3d7.eg.db
     description: Mapping table for plasmodium falciparum 3d7 gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Pfa.3D7.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.pto.eg.db:
     name: bioconductor-mesh.pto.eg.db
     description: Mapping table for pan troglodytes gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Pto.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.ptr.eg.db:
     name: bioconductor-mesh.ptr.eg.db
     description: Mapping table for populus trichocarpa gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Ptr.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.rno.eg.db:
     name: bioconductor-mesh.rno.eg.db
     description: Mapping table for rattus norvegicus gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Rno.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.sce.s288c.eg.db:
     name: bioconductor-mesh.sce.s288c.eg.db
     description: Mapping table for saccharomyces cerevisiae s288c gene id to mesh
     license: Not available
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Sce.S288c.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.spu.eg.db:
     name: bioconductor-mesh.spu.eg.db
     description: Mapping table for strongylocentrotus purpuratus gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Spu.eg.db.html
     total_pulls: 1
+    manually_check: tru
 bioconductor-mesh.ssc.eg.db:
     name: bioconductor-mesh.ssc.eg.db
     description: Mapping table for sus scrofa gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Ssc.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.sco.a32.eg.db:
     name: bioconductor-mesh.sco.a32.eg.db
     description: Mapping table for streptomyces coelicolor a3(2) gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Sco.A32.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.syn.eg.db:
     name: bioconductor-mesh.syn.eg.db
     description: Mapping table for cyanobacteria gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Syn.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.sil.eg.db:
     name: bioconductor-mesh.sil.eg.db
     description: Mapping table for bombyx mori gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Sil.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.tbr.9274.eg.db:
     name: bioconductor-mesh.tbr.9274.eg.db
     description: Mapping table for trypanosoma brucei brucei strain 927_4 gutat10.1
         gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Tbr.9274.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.tgo.me49.eg.db:
     name: bioconductor-mesh.tgo.me49.eg.db
     description: Mapping table for toxoplasma gondii me49 gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Tgo.ME49.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.tgu.eg.db:
     name: bioconductor-mesh.tgu.eg.db
     description: Mapping table for taeniopygia guttata gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Tgu.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.vvi.eg.db:
     name: bioconductor-mesh.vvi.eg.db
     description: Mapping table for vitis vinifera gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Vvi.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.xla.eg.db:
     name: bioconductor-mesh.xla.eg.db
     description: Mapping table for xenopus laevis gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Xla.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.xtr.eg.db:
     name: bioconductor-mesh.xtr.eg.db
     description: Mapping table for xenopus tropicalis gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Xtr.eg.db.html
     total_pulls: 1
+    manually_check: true
 bioconductor-mesh.zma.eg.db:
     name: bioconductor-mesh.zma.eg.db
     description: Mapping table for zea mays gene id to mesh
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Zma.eg.db.html
     total_pulls: 1
+    manually_check: true
 go:
     name: go
     description: ''
@@ -32127,15 +32322,17 @@ hdf5:
 nullarbor:
     name: nullarbor
     description: Reads to report pipeline for bacterial isolate ngs data
-    license: Not available
+    license: GPL-2.0
     home_url: https://github.com/tseemann/nullarbor
     total_pulls: 1
+    manually_check: true
 epa-ng:
     name: epa-ng
     description: Massively parallel phylogenetic placement of genetic sequences
-    license: GNU Affero General Public License v3.0
+    license: AGPL-3
     home_url: https://github.com/Pbdas/epa-ng
     total_pulls: 1
+    manually_check: true
 bioconductor-pd.081229.hg18.promoter.medip.hx1:
     name: bioconductor-pd.081229.hg18.promoter.medip.hx1
     description: Platform design info for nimblegen 081229_hg18_promoter_medip_hx1
