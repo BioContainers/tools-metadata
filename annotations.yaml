@@ -44570,9 +44570,10 @@ r:
 pileometh:
     name: pileometh
     description: "A (mostly) universal methylation extractor for BS-seq experiments."
-    license:  MIT
+    license: MIT
     home_url: https://github.com/dpryan79/MethylDackel
     total_pulls: 0
+    manually_check: true
 cwltest:
     name: cwltest
     description: Common workflow language testing framework
@@ -48535,7 +48536,7 @@ perl-gdgraph-histogram:
     total_pulls: 0
 scg:
     name: scg
-    description: Software for inference of clonal genotypes using targeted single cell (nucleus) sequencing.
+    description: Software for inference of clonal genotypes using targeted single cell nucleus sequencing.
     license: GPL-3.0
     home_url: https://bitbucket.org/aroth85/scg/src
     total_pulls: 0
@@ -48543,9 +48544,10 @@ scg:
 tadarida-c:
     name: tadarida-c
     description: Toolbox for animal detection on acoustic recordings classification part for galaxy use.
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/YvesBas/Tadarida-C
     total_pulls: 0
+    manually_check: true
 mixcr:
     name: mixcr
     description:
@@ -48555,9 +48557,10 @@ mixcr:
 daisysuite:
     name: daisysuite
     description: Daisysuite - mapping-based pipeline for horizontal gene transfer (hgt) detection using sequencing data
-    license: Not available
+    license: GPL-3.0
     home_url: https://gitlab.com/eseiler/DaisySuite
     total_pulls: 0
+    manually_check: true
 perl-data-dump:
     name: perl-data-dump
     description: "Pretty printing of data structures"
