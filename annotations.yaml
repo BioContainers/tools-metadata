@@ -53973,9 +53973,10 @@ perl-gtdbtk:
 purge_haplotigs:
     name: purge_haplotigs
     description: Pipeline to help with curating heterozygous diploid genome assemblies.
-    license: Not available
+    license: MIT
     home_url: https://bitbucket.org/mroachawri/purge_haplotigs/
     total_pulls: 0
+    manually_check: true
 perl-bio-automatedannotation:
     name: perl-bio-automatedannotation
     description: Automated annotation of assemblies
@@ -53986,9 +53987,10 @@ bazam:
     name: bazam
     description: A tool to extract paired reads in fastq format from coordinate sorted
         bam files
-    license: Not available
+    license: LGPL-2.1
     home_url: https://github.com/ssadedin/bazam
     total_pulls: 0
+    manually_check: true
 dnp-binstrings:
     name: dnp-binstrings
     description: "Convert fasta strings into dinucleotide binary indicator string
@@ -54011,17 +54013,18 @@ dnp-diprofile:
     total_pulls: 0
 dnp-fourier:
     name: dnp-fourier
-    description: "Periodogram of dinucleotide frequency pattern"
+    description: '"Periodogram of dinucleotide frequency pattern"'
     license: MIT
     home_url: https://github.com/erinijapranckeviciene/dnpatterntools
     total_pulls: 0
+    manually_check: true
 riborex:
     name: riborex
-    description: "Riborex is a R package for identification of differential translation\
-        \ from Ribo-seq data."
-    license: GPL-3
-    home_url: "https://github.com/smithlabcode/riborex"
+    description: Riborex is a R package for identification of differential translation from Ribo-seq data.
+    license: GPL-3.0
+    home_url: https://github.com/smithlabcode/riborex
     total_pulls: 0
+    manually_check: true
 fmlrc:
     name: fmlrc
     description: A long-read error correction tool using the multi-string Burrows
@@ -54029,24 +54032,28 @@ fmlrc:
     license: MIT
     home_url: https://github.com/holtjma/fmlrc
     total_pulls: 0
+    manually_check: true
 kopt:
     name: kopt
-    description: Keras-hyperopt (kopt); hyper-parameter tuning for keras using hyperopt.
-    license: Not available
+    description: Keras-hyperopt (kopt); Hyper-parameter tuning for Keras using hyperopt.
+    license: MIT
     home_url: https://github.com/avsecz/keras-hyperopt
     total_pulls: 0
+    manually_check: true
 taxator-tk:
     name: taxator-tk
     description: Taxator-tk sequence taxonomic annotaion
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/fungs/taxator-tk
     total_pulls: 0
+    manually_check: true
 dca:
     name: dca
-    description: Count autoencoder for scrna-seq denoising
-    license: Not available
+    description: Count autoencoder for scRNA-seq denoising
+    license: Apache-2.0
     home_url: https://github.com/theislab/dca
     total_pulls: 0
+    manually_check: true
 vcfsamplecompare:
     name: vcfsamplecompare
     description: This script sorts and (optionally) filters the rows/variants of a
@@ -54060,34 +54067,39 @@ vcfsamplecompare:
         (i.e. observation ratios, e.g. ao/dp) of the same variant state. if sample
         groups are not specified, the pair of samples leading to the greatest difference
         is greedily discovered and chosen to represent the variant/row.
-    license: Not available
+    license: GNU
     home_url: https://github.com/hepcat72/vcfSampleCompare
     total_pulls: 0
+    manually_check: true
 prince:
     name: prince
-    description: Prince estimates variable number tandem repeats (vntr) copy number
-        from raw next generation sequencing (ngs) data.
-    license: Not available
+    description: PRINCE estimates Variable Number Tandem Repeats (VNTR) copy number
+        from raw next generation sequencing (NGS) data.
+    license: MIT
     home_url: https://github.com/WGS-TB/PythonPrince
     total_pulls: 0
+    manually_check: true
 openslide-python:
     name: openslide-python
     description: Python interface to OpenSlide
     license: GNU Lesser General Public v2 (LGPLv2)
     home_url: http://openslide.org/
     total_pulls: 0
+    manually_check: true
 pypairs:
     name: pypairs
-    description: A python scrna-seq classifier
-    license: Not available
+    description: A python scRNA-Seq classifier
+    license: BSD
     home_url: https://github.com/rfechtner/pypairs
     total_pulls: 0
+    manually_check: true
 translate-gard:
     name: translate-gard
     description: "Converts HyPhy 2.3.2 GARD output to JSON"
     license: MIT
     home_url: https://github.com/veg/translate-gard/
     total_pulls: 0
+    manually_check: true
 r-polysat:
     name: r-polysat
     description:
@@ -54097,9 +54109,10 @@ r-polysat:
 sonicparanoid:
     name: sonicparanoid
     description: "SonicParanoid: fast, easy and accurate orthology inference"
-    license: "GNU General Public License v3"
+    license: GPL-3.0
     home_url: "http://iwasakilab.bs.s.u-tokyo.ac.jp/sonicparanoid/"
     total_pulls: 0
+    manually_check: true
 consan:
     name: consan
     description: Pairwise RNA structural alignment, both unconstrained and constrained
@@ -54107,18 +54120,21 @@ consan:
     license: GPL-3.0
     home_url: http://eddylab.org/software/consan/
     total_pulls: 0
+    manually_check: true
 evofold2:
     name: evofold2
-    description: Identifies functional rna-structure in multiple sequence alignments.
-    license: Not available
+    description: Identifies functional RNA-structure in multiple sequence alignments.
+    license: GPL
     home_url: https://github.com/jakob-skou-pedersen/phy
     total_pulls: 0
+    manually_check: true
 any2fasta:
     name: any2fasta
     description: Convert various sequence formats to fasta
-    license: Not available
+    license: GPL-3.0
     home_url: https://github.com/tseemann/any2fasta
     total_pulls: 0
+    manually_check: true
 r-gpca:
     name: r-gpca
     description:
@@ -54127,16 +54143,18 @@ r-gpca:
     total_pulls: 0
 card_trick:
     name: card_trick
-    description: Utility package to find gene <-> drug relationships within card
-    license: Not available
+    description: Utility package to find gene <-> drug relationships within CARD
+    license: MIT
     home_url: https://gitlab.com/cgps/card_trick
     total_pulls: 0
+    manually_check: true
 hmftools-cobalt:
     name: hmftools-cobalt
-    description: Counts read starts within each 1000 base window to use in purple
-    license: Not available
+    description: Counts read starts within each 1000 base window to use in PURPLE
+    license: MIT
     home_url: https://github.com/hartwigmedical/hmftools/blob/master/count-bam-lines/README.md
     total_pulls: 0
+    manually_check: true
 bioconductor-rnaseqsamplesize:
     name: bioconductor-rnaseqsamplesize
     description:
