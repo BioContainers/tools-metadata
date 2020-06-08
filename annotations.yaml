@@ -1495,7 +1495,7 @@ pbsim:
     license: GPL-2.0
     home_url: https://code.google.com/p/pbsim/
     additional_repo:
-      - https://github.com/pfaucon/PBSIM-PacBio-Simulator
+        - https://github.com/pfaucon/PBSIM-PacBio-Simulator
     total_pulls: 4888
     manually_check: true
 piler:
@@ -48535,12 +48535,11 @@ perl-gdgraph-histogram:
     total_pulls: 0
 scg:
     name: scg
-    description: 'The single cell genotyper (scg): "roth a, mcpherson a, laks e, biele
-        j, yap d, wan a, et al. clonal genotype and population structure inference
-        from single-cell tumor sequencing. nat meth. 2016;13: 573–576. doi:10.1038/nmeth.3867"
-    license: Not available
-    home_url: https://bitbucket.org/aroth85/scg/wiki/Home
+    description: Software for inference of clonal genotypes using targeted single cell (nucleus) sequencing.
+    license: GPL-3.0
+    home_url: https://bitbucket.org/aroth85/scg/src
     total_pulls: 0
+    manually_check: true
 tadarida-c:
     name: tadarida-c
     description: Tadarida-c (toolbox for animal detection on acoustic recordings -
@@ -54375,11 +54374,14 @@ btrim:
 bgreat:
     name: bgreat
     description: BGREAT2 is a read mapping tool for NGS sequencing data that align
-        reads on a de Bruijn graph. Preliminary version described at https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1103-9
-        and used in Bcool a short read corrector (https://arxiv.org/abs/1711.03336)
+        reads on a de Bruijn graph.
     license: AGPL-3.0
     home_url: https://github.com/Malfoy/BGREAT2
     total_pulls: 0
+    identifiers:
+      - doi: abs/1711.03336
+      - doi: 10.1186/s12859-016-1103-9
+    meanually_check: true
 pyaavf:
     name: pyaavf
     description: An amino acid variant format parser for python.
@@ -57415,7 +57417,7 @@ genomeconstellation:
     manually_check: true
 r-eacon:
     name: r-eacon
-    description: "Easy Copy Number. EaCoN aims to be an all-packed in, user-friendly'
+    description: "Easy Copy Number. EaCoN aims to be an all-packed in, user-friendly"
     license: MIT
     home_url: https://github.com/gustaveroussy/EaCoN
     total_pulls: 0
