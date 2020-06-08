@@ -72,6 +72,9 @@ blast:
     home_url: http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastHome
     total_pulls: 65738
     manually_check: true
+    identifiers:
+      - biotools:blast
+      - doi:10.1016/S0022-2836(05)80360-2
 tabix:
     name: tabix
     description: Library for reading/writing high-throughput sequencing data. is utilized
@@ -1409,6 +1412,11 @@ stringtie:
     home_url: https://github.com/gpertea/stringtie
     total_pulls: 5462
     manually_check: true
+    identifiers:
+       -  biotools:StringTie
+       -  doi:10.1038/nbt.3122
+       -  doi:10.1038/nprot.2016.095
+       -  doi:10.1186/s13059-019-1910-1
 gffutils:
     name: gffutils
     description: Work with gff and gtf files in a flexible database framework
@@ -1416,6 +1424,8 @@ gffutils:
     home_url: https://github.com/daler/gffutils
     total_pulls: 5429
     manually_check: true
+    identifiers:
+       -  biotools:GFFutils
 gfapy:
     name: gfapy
     description: Flexible and extensible software library for handling sequence graphs
@@ -1464,6 +1474,9 @@ gwama:
     home_url: https://www.geenivaramu.ee/en/tools/gwama
     total_pulls: 5389
     manually_check: true
+    identifiers:
+      - biotools:GWAMA
+      - doi:10.1186/1471-2105-11-288
 jellyfish:
     name: jellyfish
     description: A command-line algorithm for counting k-mers in dna sequence.
@@ -1495,6 +1508,9 @@ kmc:
     home_url: http://sun.aei.polsl.pl/REFRESH/index.php?page=projects&project=kmc&subpage=about
     total_pulls: 5220
     manually_check: true
+    identifiers:
+       -  biotools:KMC
+       -  doi:10.1093/bioinformatics/btx304
 lefse:
     name: lefse
     description: Lda effect size (lefse) (segata et. al 2010) is an algorithm for
@@ -15576,6 +15592,8 @@ bioconductor-cellmapper:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/CellMapper.html
     total_pulls: 3
+    identifiers:
+       -  biotools:cellmapper
 bioconductor-cntools:
     name: bioconductor-cntools
     description: "Convert segment data into a region by sample matrix to allow for\
@@ -15583,18 +15601,27 @@ bioconductor-cntools:
     license: LGPL
     home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
     total_pulls: 3
+    identifiers:
+       -  biotools:cntools
+       -  doi:10.1038/nmeth.3252
 bioconductor-prada:
     name: bioconductor-prada
-    description: "Data analysis for cell-based functional assays"
+    description: Data analysis for cell-based functional assays
     license: LGPL
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/prada.html
     total_pulls: 3
+    identifiers:
+       -  biotools:prada
+       -  doi:10.1038/nmeth.3252
 bioconductor-cfassay:
     name: bioconductor-cfassay
-    description: "Statistical analysis for the Colony Formation Assay"
+    description: Statistical analysis for the Colony Formation Assay
     license: LGPL
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/CFAssay.html
     total_pulls: 3
+    identifiers:
+       -  biotools:cfassay
+       -  doi:10.1186/s13014-015-0529-y
 bioconductor-cellhts2:
     name: bioconductor-cellhts2
     description: This package analyzes high-throughput assays performed in microtitre
@@ -15606,25 +15633,34 @@ bioconductor-cellhts2:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/cellHTS2.html
     total_pulls: 3
+    identifiers:
+       -  biotools:cellhts2
 bioconductor-cghregions:
     name: bioconductor-cghregions
-    description: "Dimension Reduction for Array CGH Data with Minimal Information\
-        \ Loss."
-    license: "GPL (http://www.gnu.org/copyleft/gpl.html)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Dimension Reduction for Array CGH Data with Minimal Information Loss.
+    license: GPL
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/CGHregions.html
     total_pulls: 3
+    identifiers:
+       -  biotools:cghregions
+       -  doi:10.1002/9783527678679.dg00687
 bioconductor-cghmcr:
     name: bioconductor-cghmcr
-    description: "Find chromosome regions showing common gains/losses"
+    description: Find chromosome regions showing common gains/losses
     license: LGPL
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/cghMCR.html
     total_pulls: 3
+    identifiers:
+       -  biotools:cghmcr
+       -  doi:10.1093/bioinformatics/btv298
 bioconductor-casper:
     name: bioconductor-casper
-    description: "Characterization of Alternative Splicing based on Paired-End Reads"
-    license: "GPL (>=2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Characterization of Alternative Splicing based on Paired-End Reads
+    license: GPL (>=2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/casper.html
     total_pulls: 3
+    identifiers:
+       -  biotools:casper
 bioconductor-cand:
     name: bioconductor-cand
     description: Functions to perform the cand test on a set of ancestry proportions.
@@ -15635,24 +15671,34 @@ bioconductor-cand:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/CAnD.html
     total_pulls: 3
+    identifiers:
+       -  biotools:cand
+       -  doi:10.1534/genetics.115.184184
 bioconductor-massir:
     name: bioconductor-massir
-    description: "massiR: MicroArray Sample Sex Identifier"
+    description: 'massiR: MicroArray Sample Sex Identifier'
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/massiR.html
     total_pulls: 3
+    identifiers:
+       -  biotools:massir
 bioconductor-mdqc:
     name: bioconductor-mdqc
-    description: "Mahalanobis Distance Quality Control for microarrays"
-    license: "LGPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Mahalanobis Distance Quality Control for microarrays
+    license: LGPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/mdqc.html
     total_pulls: 3
+    identifiers:
+       -  biotools:mdqc
+       -  doi:10.1093/bioinformatics/btm487
 bioconductor-mdgsa:
     name: bioconductor-mdgsa
-    description: "Multi Dimensional Gene Set Analysis."
+    description: Multi Dimensional Gene Set Analysis.
     license: GPL
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/mdgsa.html
     total_pulls: 3
+    identifiers:
+       -  biotools:mdgsa
 bioconductor-mbased:
     name: bioconductor-mbased
     description: The package implements the corresponding algorithm for detecting
@@ -15661,20 +15707,29 @@ bioconductor-mbased:
         and utilizes simulations to appropriately assess the statistical significance
         of observed ase.
     license: Artistic-2.0
-    home_url: http://bioconductor.org/packages/release/bioc/html/MBASED.html
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/MBASED.html
     total_pulls: 3
+    identifiers:
+       -  biotools:mbased
+       -  doi:10.1186/s13059-014-0405-3
 bioconductor-mbttest:
     name: bioconductor-mbttest
-    description: "Multiple Beta t-Tests"
+    description: Multiple Beta t-Tests
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/MBttest.html
     total_pulls: 3
+    identifiers:
+       -  biotools:mbttest
+       -  doi:10.1371/journal.pone.0123658
 bioconductor-mergemaid:
     name: bioconductor-mergemaid
-    description: "Merge Maid"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Merge Maid
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/MergeMaid.html
     total_pulls: 3
+    identifiers:
+       -  biotools:mergemaid
+       -  doi:10.2202/1544-6115.1046
 bioconductor-meshdbi:
     name: bioconductor-meshdbi
     description: The package is a unified implementation of mesh.db, mesh.aor.db,
@@ -15683,6 +15738,8 @@ bioconductor-meshdbi:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/MeSHDbi.html
     total_pulls: 3
+    identifiers:
+       -  biotools:meshdbi
 bioconductor-mbamethyl:
     name: bioconductor-mbamethyl
     description: This package provides a function for reconstructing dna methylation
@@ -15692,6 +15749,9 @@ bioconductor-mbamethyl:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/MBAmethyl.html
     total_pulls: 3
+    identifiers:
+       -  biotools:mbamethyl
+       -  doi:10.1111/biom.12422
 bioconductor-metacca:
     name: bioconductor-metacca
     description: Performs multivariate analysis of a single or multiple gwas based
@@ -15703,6 +15763,8 @@ bioconductor-metacca:
     license: MIT
     home_url: http://bioconductor.org/packages/release/bioc/html/metaCCA.html
     total_pulls: 3
+    identifiers:
+       -  biotools:metacca
 bioconductor-messina:
     name: bioconductor-messina
     description: "Single-gene classifiers and outlier-resistant detection of differential\
@@ -15710,213 +15772,293 @@ bioconductor-messina:
     license: "EPL (>= 1.0)"
     home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
     total_pulls: 3
+    identifiers:
+       -  biotools:messina
 bioconductor-metahdep:
     name: bioconductor-metahdep
-    description: "Hierarchical Dependence in Meta-Analysis"
-    license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Hierarchical Dependence in Meta-Analysis
+    license: GPL-3.0
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/metahdep.html
     total_pulls: 3
+    identifiers:
+       -  biotools:metahdep
+       -  doi:10.1093/bioinformatics/btp468
 bioconductor-metaseq:
     name: bioconductor-metaseq
-    description: "Meta-analysis of RNA-Seq count data in multiple studies"
+    description: Meta-analysis of RNA-Seq count data in multiple studies
     license: Artistic-2.0
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/metaSeq.html
     total_pulls: 3
+    identifiers:
+       -  biotools:metaseq
+       -  doi:10.1038/nmeth.3252
 bioconductor-methped:
     name: bioconductor-methped
-    description: "A DNA methylation classifier tool for the identification of pediatric\
-        \ brain tumor subtypes"
+    description: A DNA methylation classifier tool for the identification of pediatric
+        brain tumor subtypes
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/MethPed.html
     total_pulls: 3
+    identifiers:
+       -  biotools:methped
+       -  doi:10.1186/s13148-015-0103-3
 bioconductor-methtargetedngs:
     name: bioconductor-methtargetedngs
-    description: Perform step by step methylation analysis of next generation sequencing
-        data.
+    description: Perform Methylation Analysis on Next Generation Sequencing Data
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/MethTargetedNGS.html
     total_pulls: 3
+    identifiers:
+       -  biotools:methtargetedngs
+       -  doi:10.1038/nmeth.3252
 bioconductor-methylmnm:
     name: bioconductor-methylmnm
-    description: "detect different methylation level (DMR)"
-    license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: detect different methylation level (DMR)
+    license: GPL-3.0
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/methylMnM.html
     total_pulls: 3
+    identifiers:
+       -  biotools:methylmnm
+       -  doi:10.1101/gr.156539.113
 bioconductor-mgfm:
     name: bioconductor-mgfm
-    description: "Marker Gene Finder in Microarray gene expression data"
+    description: Marker Gene Finder in Microarray gene expression data
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/MGFM.html
     total_pulls: 3
+    identifiers:
+       -  biotools:mgfm
+       -  doi:10.1186/s12864-015-1785-9
 bioconductor-mgfr:
     name: bioconductor-mgfr
-    description: "Marker Gene Finder in RNA-seq data"
+    description: Marker Gene Finder in RNA-seq data
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/MGFR.html
     total_pulls: 3
+    identifiers:
+       -  biotools:mgfr
+       -  doi:10.1186/s12864-015-1785-9
 bioconductor-mgsa:
     name: bioconductor-mgsa
-    description: "Model-based gene set analysis"
+    description: Model-based gene set analysis
     license: Artistic-2.0
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/mgsa.html
     total_pulls: 3
+    identifiers:
+       -  biotools:mgsa
+       -  doi:10.1093/nar/gkq045
 bioconductor-michip:
     name: bioconductor-michip
-    description: "MiChip Parsing and Summarizing Functions"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: MiChip Parsing and Summarizing Functions
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/MiChip.html
     total_pulls: 3
+    identifiers:
+       -  biotools:michip
+       -  doi:10.1038/nmeth.3252
 bioconductor-microrna:
     name: bioconductor-microrna
-    description: "Data and functions for dealing with microRNAs"
+    description: Data and functions for dealing with microRNAs
     license: Artistic-2.0
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/microRNA.html
     total_pulls: 3
+    identifiers:
+       -  biotools:microrna
+       -  doi:10.1038/nmeth.3252
 bioconductor-mipp:
     name: bioconductor-mipp
-    description: "Misclassification Penalized Posterior Classification"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Misclassification Penalized Posterior Classification
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/MiPP.html
     total_pulls: 3
+    identifiers:
+       -  biotools:mipp
+       -  doi:10.1093/bioinformatics/bti1020
 bioconductor-mirage:
     name: bioconductor-mirage
-    description: "MiRNA Ranking by Gene Expression"
+    description: MiRNA Ranking by Gene Expression
     license: GPL
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/MiRaGE.html
     total_pulls: 3
+    identifiers:
+       -  biotools:mirage
 bioconductor-mirnapath:
     name: bioconductor-mirnapath
-    description: "miRNApath: Pathway Enrichment for miRNA Expression Data"
+    description: 'miRNApath: Pathway Enrichment for miRNA Expression Data'
     license: LGPL-2.1
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/miRNApath.html
     total_pulls: 3
+    identifiers:
+       -  biotools:mirnapath
 bioconductor-mirsynergy:
     name: bioconductor-mirsynergy
     description: Mirsynergy
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/Mirsynergy.html
     total_pulls: 3
+    identifiers:
+       -  biotools:mirsynergy
 bioconductor-mirnatap:
     name: bioconductor-mirnatap
-    description: "miRNAtap: microRNA Targets - Aggregated Predictions"
+    description: 'miRNAtap: microRNA Targets - Aggregated Predictions'
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/miRNAtap.html
     total_pulls: 3
+    identifiers:
+       -  biotools:mirnatap
+       -  doi:10.1038/nmeth.3252
 bioconductor-mlp:
     name: bioconductor-mlp
     description: MLP
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/MLP.html
     total_pulls: 3
+    identifiers:
+       -  biotools:mlp
+       -  doi:10.1007/978-3-642-24007-2_12
 bioconductor-mpfe:
     name: bioconductor-mpfe
-    description: "Estimation of the amplicon methylation pattern distribution from\
-        \ bisulphite sequencing data"
-    license: "GPL (>= 3)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Estimation of the amplicon methylation pattern distribution from
+        bisulphite sequencing data
+    license: GPL (>= 3)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/MPFE.html
     total_pulls: 3
+    identifiers:
+       -  biotools:mpfe
+       -  doi:10.1186/s12859-015-0600-6
 bioconductor-mvcclass:
     name: bioconductor-mvcclass
-    description: "Model-View-Controller (MVC) Classes"
+    description: Model-View-Controller (MVC) Classes
     license: LGPL
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/MVCClass.html
     total_pulls: 3
+    identifiers:
+       -  biotools:mvcclass
+       -  doi:10.1038/nmeth.3252
 bioconductor-myvariant:
     name: bioconductor-myvariant
-    description: A wrapper for querying myvariant.info services.
+    description: Accesses MyVariant.info variant query and annotation services
     license: Artistic-2.0
-    home_url: http://bioconductor.org/packages/release/bioc/html/myvariant.html
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/myvariant.html
     total_pulls: 3
+    identifiers:
+       -  biotools:myvariant
+       -  doi:10.1101/035667
 bioconductor-mzid:
     name: bioconductor-mzid
-    description: "An mzIdentML parser for R"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: An mzIdentML parser for R
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/mzID.html
     total_pulls: 3
+    identifiers:
+       -  biotools:mzid
+       -  doi:10.1038/nmeth.3252
 bioconductor-ncigraph:
     name: bioconductor-ncigraph
-    description: "Pathways from the NCI Pathways Database"
+    description: Pathways from the NCI Pathways Database
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/NCIgraph.html
     total_pulls: 3
+    identifiers:
+       -  biotools:ncigraph
+       -  doi:10.1038/nmeth.3252
 bioconductor-netbiov:
     name: bioconductor-netbiov
-    description: "A package for visualizing complex biological network"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: A package for visualizing complex biological network
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/netbiov.html
     total_pulls: 3
+    identifiers:
+       -  biotools:netbiov
+       -  doi:10.1093/bioinformatics/btu384
 bioconductor-netpathminer:
     name: bioconductor-netpathminer
-    description: "NetPathMiner for Biological Network Construction, Path Mining and\
-        \ Visualization"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: NetPathMiner for Biological Network Construction, Path Mining and
+        Visualization
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/NetPathMiner.html
     total_pulls: 3
+    identifiers:
+       -  biotools:netpathminer
 bioconductor-npgsea:
     name: bioconductor-npgsea
-    description: Current gene set enrichment methods rely upon permutations for inference.
-        these approaches are computationally expensive and have minimum achievable
-        p-values based on the number of permutations, not on the actual observed statistics.
-        we have derived three parametric approximations to the permutation distributions
-        of two gene set enrichment test statistics. we can reduce the computational
-        burden and granularity issues of permutation testing with our method, which
-        is implemented in this package.
+    description: Permutation approximation methods for gene set enrichment analysis
+        (non-permutation GSEA)
     license: Artistic-2.0
-    home_url: http://bioconductor.org/packages/release/bioc/html/npGSEA.html
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/npGSEA.html
     total_pulls: 3
+    identifiers:
+       -  biotools:npgsea
 bioconductor-ntw:
     name: bioconductor-ntw
-    description: "Predict gene network using an Ordinary Differential Equation (ODE)\
-        \ based method"
+    description: Predict gene network using an Ordinary Differential Equation (ODE)
+        based method
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/NTW.html
     total_pulls: 3
+    identifiers:
+       -  biotools:ntw
+       -  doi:10.1093/bioinformatics/btq629
 bioconductor-nucleosim:
     name: bioconductor-nucleosim
-    description: 'This package can generate a synthetic map with reads covering the
-        nucleosome regions as well as a synthetic map with forward and reverse reads
-        emulating next-generation sequencing. the user has choice between three different
-        distributions for the read positioning: normal, student and uniform.'
+    description: Generate synthetic nucleosome maps
     license: Artistic-2.0
-    home_url: http://bioconductor.org/packages/release/bioc/html/nucleoSim.html
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/nucleoSim.html
     total_pulls: 3
+    identifiers:
+       -  biotools:nucleosim
+       -  doi:10.1515/sagmb-2014-0098
 bioconductor-occugene:
     name: bioconductor-occugene
-    description: "Functions for Multinomial Occupancy Distribution"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Functions for Multinomial Occupancy Distribution
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/occugene.html
     total_pulls: 3
+    identifiers:
+       -  biotools:occugene
+       -  doi:10.1007/978-1-59745-321-9_22
 bioconductor-ogsa:
     name: bioconductor-ogsa
-    description: "Outlier Gene Set Analysis"
-    license: "GPL (== 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Outlier Gene Set Analysis
+    license: GPL (== 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/OGSA.html
     total_pulls: 3
+    identifiers:
+       -  biotools:ogsa
+       -  doi:10.1109/TCBB.2013.153
 bioconductor-olin:
     name: bioconductor-olin
-    description: "Optimized local intensity-dependent normalisation of two-color\
-        \ microarrays"
+    description: Optimized local intensity-dependent normalisation of two-color microarrays
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/OLIN.html
     total_pulls: 3
+    identifiers:
+       -  biotools:olin
 bioconductor-omicade4:
     name: bioconductor-omicade4
-    description: "Multiple co-inertia analysis of omics datasets"
+    description: Multiple co-inertia analysis of omics datasets
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/omicade4.html
     total_pulls: 3
+    identifiers:
+       -  biotools:omicade4
 bioconductor-omiccircos:
     name: bioconductor-omiccircos
-    description: "High-quality circular visualization of omics data"
+    description: High-quality circular visualization of omics data
     license: GPL-2
     home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
     total_pulls: 3
+    identifiers:
+       -  biotools:omiccircos
+       -  doi:10.4137/cin.s13495
 bioconductor-oppar:
     name: bioconductor-oppar
-    description: "Outlier profile and pathway analysis in R"
+    description: Outlier profile and pathway analysis in R
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/oppar.html
     total_pulls: 3
+    identifiers:
+       -  biotools:oppar
 bioconductor-osat:
     name: bioconductor-osat
     description: A sizable genomics study often involves the use of multiple batches.
@@ -15929,6 +16071,9 @@ bioconductor-osat:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/OSAT.html
     total_pulls: 3
+    identifiers:
+       -  biotools:osat
+       -  doi:10.1186/1471-2164-13-689
 bioconductor-oscope:
     name: bioconductor-oscope
     description: 'Statistical pipeline developed to identify and recover the base
@@ -15940,37 +16085,53 @@ bioconductor-oscope:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/Oscope.html
     total_pulls: 3
+    identifiers:
+       -  biotools:oscope
+       -  doi:10.1038/nmeth.3549
 bioconductor-outlierd:
     name: bioconductor-outlierd
-    description: "Outlier detection using quantile regression on the M-A scatterplots\
-        \ of high-throughput data"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Outlier detection using quantile regression on the M-A scatterplots
+        of high-throughput data
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/OutlierD.html
     total_pulls: 3
+    identifiers:
+       -  biotools:outlierd
+       -  doi:10.1093/bioinformatics/btn012
 bioconductor-paircompviz:
     name: bioconductor-paircompviz
-    description: "Multiple comparison test visualization"
-    license: "GPL (>=3.0)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Multiple comparison test visualization
+    license: GPL (>=3.0)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/paircompviz.html
     total_pulls: 3
+    identifiers:
+       -  biotools:paircompviz
+       -  doi:10.1038/nmeth.3252
 bioconductor-panp:
     name: bioconductor-panp
-    description: "Presence-Absence Calls from Negative Strand Matching Probesets"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Presence-Absence Calls from Negative Strand Matching Probesets
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/panp.html
     total_pulls: 3
+    identifiers:
+       -  biotools:panp
+       -  doi:10.1109/BIBE.2007.4375552
 bioconductor-path2ppi:
     name: bioconductor-path2ppi
-    description: "Prediction of pathway-related protein-protein interaction networks"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Prediction of pathway-related protein-protein interaction networks
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/Path2PPI.html
     total_pulls: 3
+    identifiers:
+       -  biotools:path2ppi
 bioconductor-pathnet:
     name: bioconductor-pathnet
-    description: "An R package for pathway analysis using topological information"
+    description: An R package for pathway analysis using topological information
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/PathNet.html
     total_pulls: 3
+    identifiers:
+       -  biotools:pathnet
 bioconductor-pcan:
     name: bioconductor-pcan
     description: Phenotypes comparison based on a pathway consensus approach. assess
@@ -15979,18 +16140,26 @@ bioconductor-pcan:
     license: CC-BY-NC-ND-4.0
     home_url: http://bioconductor.org/packages/release/bioc/html/PCAN.html
     total_pulls: 3
+    identifiers:
+       -  biotools:pcan
 bioconductor-pepstat:
     name: bioconductor-pepstat
     description: Statistical analysis of peptide microarrays.
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/pepStat.html
     total_pulls: 3
+    identifiers:
+       -  biotools:pepstat
+       -  doi:10.1007/978-1-4939-3037-1_10
 bioconductor-peca:
     name: bioconductor-peca
-    description: "Probe-level Expression Change Averaging"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Probe-level Expression Change Averaging
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/PECA.html
     total_pulls: 3
+    identifiers:
+       -  biotools:peca
+       -  doi:10.1007/978-1-4939-6518-2_11
 bioconductor-pepxmltab:
     name: bioconductor-pepxmltab
     description: Parsing pepxml files based one xml package. the package tries to
@@ -16000,74 +16169,105 @@ bioconductor-pepxmltab:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/pepXMLTab.html
     total_pulls: 3
+    identifiers:
+       -  biotools:pepxmltab
+       -  doi:10.1038/nmeth.3252
 bioconductor-pickgene:
     name: bioconductor-pickgene
-    description: "Adaptive Gene Picking for Microarray Expression Data Analysis"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Adaptive Gene Picking for Microarray Expression Data Analysis
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/pickgene.html
     total_pulls: 3
+    identifiers:
+       -  biotools:pickgene
+       -  doi:10.1007/0-387-21679-0_13
 bioconductor-pics:
     name: bioconductor-pics
-    description: "Probabilistic inference of ChIP-seq"
+    description: Probabilistic inference of ChIP-seq
     license: Artistic-2.0
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/PICS.html
     total_pulls: 3
+    identifiers:
+       -  biotools:pics
 bioconductor-pkgdeptools:
     name: bioconductor-pkgdeptools
-    description: "Package Dependency Tools"
+    description: Package Dependency Tools
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/pkgDepTools.html
     total_pulls: 3
+    identifiers:
+       -  biotools:pkgdeptools
+       -  doi:10.1038/nmeth.3252
 bioconductor-plgem:
     name: bioconductor-plgem
-    description: "Detect differential expression in microarray and proteomics datasets\
-        \ with the Power Law Global Error Model (PLGEM)"
+    description: Detect differential expression in microarray and proteomics datasets
+        with the Power Law Global Error Model (PLGEM)
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/plgem.html
     total_pulls: 3
+    identifiers:
+       -  biotools:plgem
 bioconductor-plier:
     name: bioconductor-plier
-    description: "Implements the Affymetrix PLIER algorithm"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Implements the Affymetrix PLIER algorithm
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/plier.html
     total_pulls: 3
+    identifiers:
+       -  biotools:plier
+       -  doi:10.1038/nmeth.3252
 bioconductor-plw:
     name: bioconductor-plw
-    description: "Probe level Locally moderated Weighted t-tests."
+    description: Probe level Locally moderated Weighted t-tests.
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/plw.html
     total_pulls: 3
+    identifiers:
+       -  biotools:plw
 bioconductor-podkat:
     name: bioconductor-podkat
-    description: "Position-Dependent Kernel Association Test"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Position-Dependent Kernel Association Test
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/podkat.html
     total_pulls: 3
+    identifiers:
+       -  biotools:podkat
+       -  doi:10.1038/nmeth.3252
 bioconductor-polyfit:
     name: bioconductor-polyfit
-    description: "Add-on to DESeq to improve p-values and q-values"
-    license: "GPL (>= 3)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Add-on to DESeq to improve p-values and q-values
+    license: GPL (>= 3)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/Polyfit.html
     total_pulls: 3
+    identifiers:
+       -  biotools:polyfit
+       -  doi:10.7717/peerj.576
 bioconductor-proper:
     name: bioconductor-proper
-    description: "PROspective Power Evaluation for RNAseq"
+    description: PROspective Power Evaluation for RNAseq
     license: GPL
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/PROPER.html
     total_pulls: 3
+    identifiers:
+       -  biotools:proper
 bioconductor-promise:
     name: bioconductor-promise
-    description: "PRojection Onto the Most Interesting Statistical Evidence"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: PRojection Onto the Most Interesting Statistical Evidence
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/PROMISE.html
     total_pulls: 3
+    identifiers:
+       -  biotools:promise
+       -  doi:10.1093/bioinformatics/btp357
 bioconductor-psea:
     name: bioconductor-psea
-    description: Deconvolution of gene expression data by population-specific expression
-        analysis.
+    description: Population-Specific Expression Analysis.
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/PSEA.html
     total_pulls: 3
+    identifiers:
+       -  biotools:psea
+       -  doi:10.1038/scibx.2011.1159
 bioconductor-psicquic:
     name: bioconductor-psicquic
     description: Project within the hupo proteomics standard initiative (hupo-psi)
@@ -16075,55 +16275,80 @@ bioconductor-psicquic:
     license: Apache-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/PSICQUIC.html
     total_pulls: 3
+    identifiers:
+       -  biotools:psicquic
+       -  doi:10.1038/nmeth.3252
 bioconductor-pvac:
     name: bioconductor-pvac
     description: "PCA-based gene filtering for Affymetrix arrays"
     license: "LGPL (>= 2.0)"
     home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
     total_pulls: 3
+    identifiers:
+       -  biotools:pvac
+       -  doi:10.1093/nar/gkr241
 bioconductor-pviz:
     name: bioconductor-pviz
     description: This tool adapts the gviz package for protein sequences and data.
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/Pviz.html
     total_pulls: 3
+    identifiers:
+       -  biotools:pviz
+       -  doi:10.1007/978-1-4939-3037-1_10
 bioconductor-qpcrnorm:
     name: bioconductor-qpcrnorm
-    description: "Data-driven normalization strategies for high-throughput qPCR data."
-    license: "LGPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Data-driven normalization strategies for high-throughput qPCR data.
+    license: LGPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/qpcrNorm.html
     total_pulls: 3
+    identifiers:
+       -  biotools:qpcrnorm
+       -  doi:10.1186/1471-2105-10-110
 bioconductor-quantro:
     name: bioconductor-quantro
-    description: "A test for when to use quantile normalization"
-    license: "GPL (>=3)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: A test for when to use quantile normalization
+    license: GPL (>=3)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/quantro.html
     total_pulls: 3
+    identifiers:
+       -  biotools:quantro
 bioconductor-quantsmooth:
     name: bioconductor-quantsmooth
-    description: "Quantile smoothing and genomic visualization of array data"
+    description: Quantile smoothing and genomic visualization of array data
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/quantsmooth.html
     total_pulls: 3
+    identifiers:
+       -  biotools:quantsmooth
+       -  doi:10.1038/nmeth.3252
 bioconductor-r3cseq:
     name: bioconductor-r3cseq
-    description: "Analysis of Chromosome Conformation Capture and Next-generation\
-        \ Sequencing (3C-seq)"
+    description: Analysis of Chromosome Conformation Capture and Next-generation Sequencing
+        (3C-seq)
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/r3Cseq.html
     total_pulls: 3
+    identifiers:
+       -  biotools:r3cseq
+       -  doi:10.1093/nar/gkt373
 bioconductor-rain:
     name: bioconductor-rain
-    description: "Rhythmicity Analysis Incorporating Non-parametric Methods"
+    description: Rhythmicity Analysis Incorporating Non-parametric Methods
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/rain.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rain
 bioconductor-rama:
     name: bioconductor-rama
-    description: "Robust Analysis of MicroArrays"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Robust Analysis of MicroArrays
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/rama.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rama
+       -  doi:10.1198/016214505000001096
 bioconductor-randpack:
     name: bioconductor-randpack
     description: A suite of classes and functions for randomizing patients in clinical
@@ -16131,37 +16356,55 @@ bioconductor-randpack:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/randPack.html
     total_pulls: 3
+    identifiers:
+       -  biotools:randpack
+       -  doi:10.1038/nmeth.3252
 bioconductor-rbcbook1:
     name: bioconductor-rbcbook1
     description: Support for springer monograph on bioconductor.
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/RbcBook1.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rbcbook1
+       -  doi:10.1038/nmeth.3252
 bioconductor-rbioinf:
     name: bioconductor-rbioinf
     description: RBioinf
     license: Artistic-2.0
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/RBioinf.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rbioinf
+       -  doi:10.1038/nmeth.3252
 bioconductor-rbm:
     name: bioconductor-rbm
-    description: "RBM: a R package for microarray and RNA-Seq data analysis"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: 'RBM: a R package for microarray and RNA-Seq data analysis'
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/RBM.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rbm
+       -  doi:10.1038/nmeth.3252
 bioconductor-rbowtie:
     name: bioconductor-rbowtie
-    description: "R bowtie wrapper"
-    license: "Artistic-2.0 | file LICENSE"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: R bowtie wrapper
+    license: Artistic-2.0
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/Rbowtie.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rbowtie
+       -  doi:10.1038/nmeth.3252
 bioconductor-rcaspar:
     name: bioconductor-rcaspar
-    description: "A package for survival time prediction based on a piecewise baseline\
-        \ hazard Cox regression model."
-    license: "GPL (>=3)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: A package for survival time prediction based on a piecewise baseline
+        hazard Cox regression model.
+    license: GPL (>=3)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/RCASPAR.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rcaspar
+       -  doi:10.1038/nmeth.3252
 bioconductor-rdgidb:
     name: bioconductor-rdgidb
     description: Wrapper for the drug gene interaction database. for simplicity, its
@@ -16170,31 +16413,45 @@ bioconductor-rdgidb:
     license: MIT
     home_url: http://bioconductor.org/packages/release/bioc/html/rDGIdb.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rdgidb
+       -  doi:10.12688/f1000research.9357.1
 bioconductor-readqpcr:
     name: bioconductor-readqpcr
-    description: "Read qPCR data"
+    description: Read qPCR data
     license: LGPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/ReadqPCR.html
     total_pulls: 3
+    identifiers:
+       -  biotools:readqpcr
 bioconductor-recoup:
     name: bioconductor-recoup
-    description: "An R package for the creation of complex genomic profile plots"
-    license: "GPL (>= 3)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: An R package for the creation of complex genomic profile plots
+    license: GPL (>= 3)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/recoup.html
     total_pulls: 3
+    identifiers:
+       -  biotools:recoup
+       -  doi:10.1038/nmeth.3252
 bioconductor-rfpred:
     name: bioconductor-rfpred
-    description: "Assign rfPred functional prediction scores to a missense variants\
-        \ list"
-    license: "GPL (>=2 )"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Assign rfPred functional prediction scores to a missense variants
+        list
+    license: GPL (>=2 )
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/rfPred.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rfpred
+       -  doi:10.1101/037127
 bioconductor-rgraph2js:
     name: bioconductor-rgraph2js
-    description: "Convert a Graph into a D3js Script"
+    description: Convert a Graph into a D3js Script
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/RGraph2js.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rgraph2js
+       -  doi:10.1038/nmeth.3252
 bioconductor-rgreat:
     name: bioconductor-rgreat
     description: This package makes great (genomic regions enrichment of annotations
@@ -16203,99 +16460,145 @@ bioconductor-rgreat:
     license: GPL-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/rGREAT.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rgreat
+       -  doi:10.1038/nmeth.3252
 bioconductor-rgsea:
     name: bioconductor-rgsea
-    description: "Random Gene Set Enrichment Analysis"
+    description: Random Gene Set Enrichment Analysis
     license: GPL(>=3)
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/RGSEA.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rgsea
+       -  doi:10.1038/nmeth.3252
 bioconductor-rgsepd:
     name: bioconductor-rgsepd
-    description: "Gene Set Enrichment / Projection Displays"
+    description: Gene Set Enrichment / Projection Displays
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/rgsepd.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rgsepd
+       -  doi:10.1038/nmeth.3252
 bioconductor-riboprofiling:
     name: bioconductor-riboprofiling
-    description: "Ribosome Profiling Data Analysis: from BAM to Data Representation\
-        \ and Interpretation"
+    description: 'Ribosome Profiling Data Analysis: from BAM to Data Representation
+        and Interpretation'
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/RiboProfiling.html
     total_pulls: 3
+    identifiers:
+       -  biotools:riboprofiling
+       -  doi:10.12688/f1000research.8964.1
 bioconductor-riboseqr:
     name: bioconductor-riboseqr
-    description: "Analysis of sequencing data from ribosome profiling experiments"
+    description: Analysis of sequencing data from ribosome profiling experiments
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/riboSeqR.html
     total_pulls: 3
+    identifiers:
+       -  biotools:riboseqr
+       -  doi:10.1080/15476286.2016.1141862
 bioconductor-rimmport:
     name: bioconductor-rimmport
-    description: "RImmPort: Enabling Ready-for-analysis Immunology Research Data"
+    description: 'RImmPort: Enabling Ready-for-analysis Immunology Research Data'
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/RImmPort.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rimmport
+       -  doi:10.1093/bioinformatics/btw719
 bioconductor-rnaprobr:
     name: bioconductor-rnaprobr
-    description: "An R package for analysis of massive parallel sequencing based\
-        \ RNA structure probing data"
-    license: "GPL (>=2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: An R package for analysis of massive parallel sequencing based RNA
+        structure probing data
+    license: GPL (>=2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/RNAprobR.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rnaprobr
 bioconductor-rnaseqcomp:
     name: bioconductor-rnaseqcomp
-    description: "Benchmarks for RNA-seq Quantification Pipelines"
+    description: Benchmarks for RNA-seq Quantification Pipelines
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/rnaseqcomp.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rnaseqcomp
 bioconductor-rnits:
     name: bioconductor-rnits
-    description: "R Normalization and Inference of Time Series data"
+    description: R Normalization and Inference of Time Series data
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/Rnits.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rnits
+       -  doi:10.1038/nmeth.3252
 bioconductor-roc:
     name: bioconductor-roc
-    description: "utilities for ROC, with microarray focus"
+    description: utilities for ROC, with microarray focus
     license: Artistic-2.0
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/ROC.html
     total_pulls: 3
+    identifiers:
+       -  biotools:roc
+       -  doi:10.1038/nmeth.3252
 bioconductor-rontotools:
     name: bioconductor-rontotools
-    description: Suite of tools for functional analysis.
+    description: R Onto-Tools suite
     license: CC-BY-NC-ND-4.0
-    home_url: http://bioconductor.org/packages/release/bioc/html/ROntoTools.html
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/ROntoTools.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rontotools
+       -  doi:10.1109/JPROC.2016.2531000
 bioconductor-rrdp:
     name: bioconductor-rrdp
     description: Seamlessly interfaces rdp classifier.
     license: GPL-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/rRDP.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rrdp
+       -  doi:10.1038/nmeth.3252
 bioconductor-rpx:
     name: bioconductor-rpx
-    description: "R Interface to the ProteomeXchange Repository"
+    description: R Interface to the ProteomeXchange Repository
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/rpx.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rpx
+       -  doi:10.1038/nbt.2839
 bioconductor-rrho:
     name: bioconductor-rrho
-    description: "Inference on agreement between ordered lists"
+    description: Inference on agreement between ordered lists
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/RRHO.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rrho
+       -  doi:10.1038/nmeth.3252
 bioconductor-rtca:
     name: bioconductor-rtca
-    description: "Open-source toolkit to analyse data from xCELLigence System (RTCA)"
+    description: Open-source toolkit to analyse data from xCELLigence System (RTCA)
     license: LGPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/RTCA.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rtca
+       -  doi:10.1016/j.compbiolchem.2013.12.004
 bioconductor-rsvsim:
     name: bioconductor-rsvsim
-    description: "RSVSim: an R/Bioconductor package for the simulation of structural\
-        \ variations"
+    description: 'RSVSim: an R/Bioconductor package for the simulation of structural
+        variations'
     license: LGPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/RSVSim.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rsvsim
+       -  doi:10.1093/bioinformatics/btt198
 bioconductor-rtcgatoolbox:
     name: bioconductor-rtcgatoolbox
     description: Managing data from large scale projects such as the cancer genome
@@ -16308,6 +16611,8 @@ bioconductor-rtcgatoolbox:
     license: GPL-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/RTCGAToolbox.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rtcgatoolbox
 bioconductor-rpa:
     name: bioconductor-rpa
     description: Probabilistic analysis of probe reliability and differential gene
@@ -16317,88 +16622,123 @@ bioconductor-rpa:
     license: BSD-4-Clause
     home_url: http://bioconductor.org/packages/release/bioc/html/RPA.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rpa
 bioconductor-rbsurv:
     name: bioconductor-rbsurv
-    description: "Robust likelihood-based survival modeling with microarray data"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Robust likelihood-based survival modeling with microarray data
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/rbsurv.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rbsurv
+       -  doi:10.18637/jss.v029.i01
 bioconductor-rnaseqmap:
     name: bioconductor-rnaseqmap
-    description: "rnaSeq secondary analyses"
+    description: rnaSeq secondary analyses
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/rnaSeqMap.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rnaseqmap
+       -  doi:10.1186/1471-2105-12-200
 bioconductor-rtopper:
     name: bioconductor-rtopper
-    description: "This package is designed to perform Gene Set Analysis across multiple\
-        \ genomic platforms"
-    license: "GPL (>= 3)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: This package is designed to perform Gene Set Analysis across multiple
+        genomic platforms
+    license: GPL (>= 3)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/RTopper.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rtopper
 bioconductor-rtreemix:
     name: bioconductor-rtreemix
-    description: "Rtreemix: Mutagenetic trees mixture models."
+    description: 'Rtreemix: Mutagenetic trees mixture models.'
     license: LGPL
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/Rtreemix.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rtreemix
+       -  doi:10.1093/bioinformatics/btn410
 bioconductor-ruvseq:
     name: bioconductor-ruvseq
-    description: This package implements the remove unwanted variation (ruv) methods
-        for the normalization of rna-seq read counts between samples.
+    description: Remove Unwanted Variation from RNA-Seq Data
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/RUVSeq.html
     total_pulls: 3
+    identifiers:
+       -  biotools:ruvseq
 bioconductor-rtrm:
     name: bioconductor-rtrm
-    description: "Identification of transcriptional regulatory modules from PPI networks"
+    description: Identification of transcriptional regulatory modules from PPI networks
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/rTRM.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rtrm
 bioconductor-safe:
     name: bioconductor-safe
     description: "Significance Analysis of Function and Expression"
     license: "GPL (>= 2)"
     home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
     total_pulls: 3
+    identifiers:
+       -  biotools:safe
+       -  doi:10.1093/bioinformatics/bti260
 bioconductor-sagenhaft:
     name: bioconductor-sagenhaft
-    description: "Collection of functions for reading and comparing SAGE libraries"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Collection of functions for reading and comparing SAGE libraries
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/sagenhaft.html
     total_pulls: 3
+    identifiers:
+       -  biotools:sagenhaft
+       -  doi:10.1038/nmeth.3252
 bioconductor-sagx:
     name: bioconductor-sagx
-    description: "Statistical Analysis of the GeneChip"
+    description: Statistical Analysis of the GeneChip
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/SAGx.html
     total_pulls: 3
+    identifiers:
+       -  biotools:sagx
+       -  doi:10.1038/nmeth.3252
 bioconductor-scater:
     name: bioconductor-scater
-    description: "Single-Cell Analysis Toolkit for Gene Expression Data in R"
+    description: Single-Cell Analysis Toolkit for Gene Expression Data in R
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/scater.html
     total_pulls: 3
+    identifiers:
+       -  biotools:scater
 bioconductor-segmentseq:
     name: bioconductor-segmentseq
-    description: "Methods for identifying small RNA loci from high-throughput sequencing\
-        \ data"
+    description: Methods for identifying small RNA loci from high-throughput sequencing
+        data
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/segmentSeq.html
     total_pulls: 3
+    identifiers:
+       -  biotools:segmentseq
+       -  doi:10.1093/bioinformatics/btr687
 bioconductor-seqgsea:
     name: bioconductor-seqgsea
-    description: "Gene Set Enrichment Analysis (GSEA) of RNA-Seq Data: integrating\
-        \ differential expression and splicing"
-    license: "GPL (>= 3)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: 'Gene Set Enrichment Analysis (GSEA) of RNA-Seq Data: integrating
+        differential expression and splicing'
+    license: GPL (>= 3)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/SeqGSEA.html
     total_pulls: 3
+    identifiers:
+       -  biotools:seqgsea
 bioconductor-seqtools:
     name: bioconductor-seqtools
-    description: "Analysis of nucleotide, sequence and quality content on fastq files"
+    description: Analysis of nucleotide, sequence and quality content on fastq files
     license: Artistic-2.0
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/seqTools.html
     total_pulls: 3
+    identifiers:
+       -  biotools:seqtools
+       -  doi:10.1038/nmeth.3252
 bioconductor-sgseq:
     name: bioconductor-sgseq
     description: Package for analyzing splice events from rna-seq data. input data
@@ -16410,6 +16750,8 @@ bioconductor-sgseq:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/SGSeq.html
     total_pulls: 3
+    identifiers:
+       -  biotools:sgseq
 bioconductor-sights:
     name: bioconductor-sights
     description: Suite of normalization methods, statistical tests, and diagnostic
@@ -16419,18 +16761,27 @@ bioconductor-sights:
     license: GPL-3.0
     home_url: http://bioconductor.org/packages/release/bioc/html/sights.html
     total_pulls: 3
+    identifiers:
+       -  biotools:sights
+       -  doi:10.1177/1087057114548853
 bioconductor-sigpathway:
     name: bioconductor-sigpathway
-    description: "Pathway Analysis"
+    description: Pathway Analysis
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/sigPathway.html
     total_pulls: 3
+    identifiers:
+       -  biotools:sigpathway
+       -  doi:10.1038/nmeth.3252
 bioconductor-simbindprofiles:
     name: bioconductor-simbindprofiles
-    description: "Similar Binding Profiles"
+    description: Similar Binding Profiles
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/SimBindProfiles.html
     total_pulls: 3
+    identifiers:
+       -  biotools:simbindprofiles
+       -  doi:10.1038/nmeth.3252
 bioconductor-similarpeak:
     name: bioconductor-similarpeak
     description: This package calculates metrics which assign a level of similarity
@@ -16438,90 +16789,131 @@ bioconductor-similarpeak:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/similaRpeak.html
     total_pulls: 3
+    identifiers:
+       -  biotools:similarpeak
+       -  doi:10.1371/journal.pcbi.1004751
 bioconductor-sispa:
     name: bioconductor-sispa
-    description: "SISPA: Method for Sample Integrated Set Profile Analysis"
+    description: 'SISPA: Method for Sample Integrated Set Profile Analysis'
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/SISPA.html
     total_pulls: 3
+    identifiers:
+       -  biotools:sispa
+       -  doi:10.1093/nar/gkv1503
 bioconductor-tweedeseq:
     name: bioconductor-tweedeseq
-    description: "RNA-seq data analysis using the Poisson-Tweedie family of distributions"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: RNA-seq data analysis using the Poisson-Tweedie family of distributions
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/tweeDEseq.html
     total_pulls: 3
+    identifiers:
+       -  biotools:tweedeseq
 bioconductor-trio:
     name: bioconductor-trio
-    description: "Testing of SNPs and SNP Interactions in Case-Parent Trio Studies"
+    description: Testing of SNPs and SNP Interactions in Case-Parent Trio Studies
     license: LGPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/trio.html
     total_pulls: 3
+    identifiers:
+       -  biotools:trio
+       -  doi:10.1038/nmeth.3252
 bioconductor-starr:
     name: bioconductor-starr
-    description: "Simple tiling array analysis of Affymetrix ChIP-chip data"
+    description: Simple tiling array analysis of Affymetrix ChIP-chip data
     license: Artistic-2.0
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/Starr.html
     total_pulls: 3
+    identifiers:
+       -  biotools:starr
+       -  doi:10.1186/1471-2105-11-194
 bioconductor-varianttools:
     name: bioconductor-varianttools
-    description: Tools for detecting, filtering, calling, comparing and plotting variants.
+    description: Tools for Exploratory Analysis of Variant Calls
     license: Artistic-2.0
-    home_url: http://bioconductor.org/packages/release/bioc/html/VariantTools.html
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/VariantTools.html
     total_pulls: 3
+    identifiers:
+       -  biotools:varianttools
+       -  doi:10.1101/027227
 bioconductor-spktools:
     name: bioconductor-spktools
-    description: "Methods for Spike-in Arrays"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Methods for Spike-in Arrays
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/spkTools.html
     total_pulls: 3
+    identifiers:
+       -  biotools:spktools
+       -  doi:10.1093/nar/gkn430
 bioconductor-spikeli:
     name: bioconductor-spikeli
-    description: "Affymetrix Spike-in Langmuir Isotherm Data Analysis Tool"
+    description: Affymetrix Spike-in Langmuir Isotherm Data Analysis Tool
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/spikeLI.html
     total_pulls: 3
+    identifiers:
+       -  biotools:spikeli
+       -  doi:10.1038/nmeth.3252
 bioconductor-suprahex:
     name: bioconductor-suprahex
-    description: "supraHex: a supra-hexagonal map for analysing tabular omics data"
+    description: 'supraHex: a supra-hexagonal map for analysing tabular omics data'
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/supraHex.html
     total_pulls: 3
+    identifiers:
+       -  biotools:suprahex
 bioconductor-ternarynet:
     name: bioconductor-ternarynet
-    description: "Ternary Network Estimation"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Ternary Network Estimation
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/ternarynet.html
     total_pulls: 3
+    identifiers:
+       -  biotools:ternarynet
 bioconductor-splinter:
     name: bioconductor-splinter
-    description: "Splice Interpreter of Transcripts"
+    description: Splice Interpreter of Transcripts
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/SPLINTER.html
     total_pulls: 3
+    identifiers:
+       -  biotools:splinter
+       -  doi:10.1038/nmeth.3252
 bioconductor-qusage:
     name: bioconductor-qusage
-    description: "qusage: Quantitative Set Analysis for Gene Expression"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: 'qusage: Quantitative Set Analysis for Gene Expression'
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/qusage.html
     total_pulls: 3
+    identifiers:
+       -  biotools:qusage
 bioconductor-ssviz:
     name: bioconductor-ssviz
-    description: "A small RNA-seq visualizer and analysis toolkit"
+    description: A small RNA-seq visualizer and analysis toolkit
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/ssviz.html
     total_pulls: 3
+    identifiers:
+       -  biotools:ssviz
+       -  doi:10.1038/nmeth.3252
 bioconductor-weaver:
     name: bioconductor-weaver
-    description: "Tools and extensions for processing Sweave documents"
+    description: Tools and extensions for processing Sweave documents
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/weaver.html
     total_pulls: 3
+    identifiers:
+       -  biotools:weaver
+       -  doi:10.1038/nmeth.3252
 bioconductor-timecourse:
     name: bioconductor-timecourse
-    description: "Statistical Analysis for Developmental Microarray Time Course Data"
+    description: Statistical Analysis for Developmental Microarray Time Course Data
     license: LGPL
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/timecourse.html
     total_pulls: 3
+    identifiers:
+       -  biotools:timecourse
+       -  doi:10.1038/nmeth.3252
 bioconductor-viper:
     name: bioconductor-viper
     description: The package uses gene expression data to infer protein activity.
@@ -16529,12 +16921,17 @@ bioconductor-viper:
     license: file LICENSE
     home_url: http://bioconductor.org/packages/release/bioc/html/viper.html
     total_pulls: 3
+    identifiers:
+       -  biotools:viper
 bioconductor-vbmp:
     name: bioconductor-vbmp
-    description: "Variational Bayesian Multinomial Probit Regression"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Variational Bayesian Multinomial Probit Regression
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/vbmp.html
     total_pulls: 3
+    identifiers:
+       -  biotools:vbmp
+       -  doi:10.1093/bioinformatics/btm535
 bioconductor-subseq:
     name: bioconductor-subseq
     description: Subsampling of high throughput sequencing count data for use in experiment
@@ -16588,20 +16985,27 @@ bioconductor-sangerseqr:
     license: GPL-2
     home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
     total_pulls: 3
+    identifiers:
+       -  biotools:sangerseqr
 bioconductor-sseq:
     name: bioconductor-sseq
-    description: "Shrinkage estimation of dispersion in Negative Binomial models\
-        \ for RNA-seq experiments with small sample size"
-    license: "GPL (>= 3)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Shrinkage estimation of dispersion in Negative Binomial models for
+        RNA-seq experiments with small sample size
+    license: GPL (>= 3)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/sSeq.html
     total_pulls: 3
+    identifiers:
+       -  biotools:sseq
+       -  doi:10.1093/bioinformatics/btt143
 bioconductor-switchbox:
     name: bioconductor-switchbox
-    description: "Utilities to train and validate classifiers based on pair switching\
-        \ using the K-Top-Scoring-Pair (KTSP) algorithm"
+    description: Utilities to train and validate classifiers based on pair switching
+        using the K-Top-Scoring-Pair (KTSP) algorithm
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/switchBox.html
     total_pulls: 3
+    identifiers:
+       -  biotools:switchbox
 bioconductor-a4preproc:
     name: bioconductor-a4preproc
     description: "Automated Affymetrix Array Analysis Preprocessing Package"
@@ -18303,25 +18707,33 @@ bioconductor-swimr:
     total_pulls: 3
 bioconductor-synlet:
     name: bioconductor-synlet
-    description: "Hits Selection for Synthetic Lethal RNAi Screen Data"
+    description: Hits Selection for Synthetic Lethal RNAi Screen Data
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/synlet.html
     total_pulls: 3
+    identifiers:
+       -  biotools:synlet
+       -  doi:10.1101/043570
 bioconductor-svaplsseq:
     name: bioconductor-svaplsseq
-    description: "SVAPLSseq-An R package to estimate the hidden factors of unwanted\
-        \ variability and adjust for them to enable a more powerful and accurate differential\
-        \ expression analysis based on RNAseq data"
+    description: SVAPLSseq-An R package to estimate the hidden factors of unwanted
+        variability and adjust for them to enable a more powerful and accurate differential
+        expression analysis based on RNAseq data
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/SVAPLSseq.html
     total_pulls: 3
+    identifiers:
+       -  biotools:svaplsseq
+       -  doi:10.1101/062125
 bioconductor-synapter:
     name: bioconductor-synapter
-    description: "Label-free data analysis pipeline for optimal identification and\
-        \ quantitation"
+    description: Label-free data analysis pipeline for optimal identification and
+        quantitation
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/synapter.html
     total_pulls: 3
+    identifiers:
+       -  biotools:synapter
 bioconductor-splicinggraphs:
     name: bioconductor-splicinggraphs
     description: This package allows the user to create, manipulate, and visualize
@@ -18329,114 +18741,146 @@ bioconductor-splicinggraphs:
         additionally it allows the user to assign rna-seq reads to the edges of a
         set of splicing graphs, and to summarize them in different ways.
     license: Artistic-2.0
-    home_url: http://bioconductor.org/packages/release/bioc/html/SplicingGraphs.html
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/SplicingGraphs.html
     total_pulls: 3
+    identifiers:
+       -  biotools:splicinggraphs
+       -  doi:10.1093/bioinformatics/18.suppl_1.s181
 bioconductor-stan:
     name: bioconductor-stan
     description: "The Genomic STate ANnotation Package"
     license: "GPL (>= 2)"
     home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
     total_pulls: 3
+    identifiers:
+       -  biotools:stan
 bioconductor-spotsegmentation:
     name: bioconductor-spotsegmentation
-    description: "Microarray Spot Segmentation and Gridding for Blocks of Microarray\
-        \ Spots"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Microarray Spot Segmentation and Gridding for Blocks of Microarray
+        Spots
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/spotSegmentation.html
     total_pulls: 3
+    identifiers:
+       -  biotools:spotsegmentation
+       -  doi:10.1093/bioinformatics/bti447
 bioconductor-focalcall:
     name: bioconductor-focalcall
-    description: "Detection of focal aberrations in DNA copy number data"
+    description: Detection of focal aberrations in DNA copy number data
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/focalCall.html
     total_pulls: 3
+    identifiers:
+       -  biotools:focalcall
+       -  doi:10.4137/cin.s19519
 bioconductor-kebabs:
     name: bioconductor-kebabs
-    description: "Kernel-Based Analysis Of Biological Sequences"
-    license: "GPL (>= 2.1)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Kernel-Based Analysis Of Biological Sequences
+    license: GPL (>= 2.1)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/kebabs.html
     total_pulls: 3
 bioconductor-ppidata:
     name: bioconductor-ppidata
     description: A package that contains the bait to prey directed graphs for protein-protein
         interactions.
-    license: Not available
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/experiment/html/ppiData.html
     total_pulls: 3
 bioconductor-procoil:
     name: bioconductor-procoil
-    description: "Prediction of Oligomerization of Coiled Coil Proteins"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Prediction of Oligomerization of Coiled Coil Proteins
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/procoil.html
     total_pulls: 3
+    identifiers:
+       -  biotools:procoil
 bioconductor-ppistats:
     name: bioconductor-ppistats
     description: Tools for the analysis of protein interaction data.
     license: Artistic-2.0
-    home_url: http://bioconductor.org/packages/release/bioc/html/ppiStats.html
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/ppiStats.html
     total_pulls: 3
+    identifiers:
+       -  biotools:ppistats
+       -  doi:10.1186/gb-2007-8-9-r186
 bioconductor-panther.db:
     name: bioconductor-panther.db
-    description: A set of annotation maps describing the entire panther gene ontology
-    license: Not available
+    description: A set of annotation maps describing the entire PANTHER Gene Ontology
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/PANTHER.db.html
     total_pulls: 3
 bioconductor-funchip:
     name: bioconductor-funchip
-    description: "Clustering and Alignment of ChIP-Seq peaks based on their shapes"
+    description: Clustering and Alignment of ChIP-Seq peaks based on their shapes
     license: Artistic-2.0
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/FunChIP.html
     total_pulls: 3
+    identifiers:
+       -  biotools:funchip
+       -  doi:10.1093/bioinformatics/btx201
 bioconductor-quasr:
     name: bioconductor-quasr
-    description: "Quantify and Annotate Short Reads in R"
+    description: Quantify and Annotate Short Reads in R
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/QuasR.html
     total_pulls: 3
+    identifiers:
+       -  biotools:quasr
 bioconductor-pandar:
     name: bioconductor-pandar
-    description: "PANDA Algorithm"
+    description: PANDA Algorithm
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/pandaR.html
     total_pulls: 3
+    identifiers:
+       -  biotools:pandar
 bioconductor-specl:
     name: bioconductor-specl
-    description: "specL - Prepare Peptide Spectrum Matches for Use in Targeted Proteomics"
+    description: specL - Prepare Peptide Spectrum Matches for Use in Targeted Proteomics
     license: GPL-3
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/specL.html
     total_pulls: 3
+    identifiers:
+       -  biotools:specl
 bioconductor-qcmetrics:
     name: bioconductor-qcmetrics
-    description: "A Framework for Quality Control"
+    description: A Framework for Quality Control
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/qcmetrics.html
     total_pulls: 3
+    identifiers:
+       -  biotools:qcmetrics
+       -  doi:10.1038/nmeth.3252
 bioconductor-sim:
     name: bioconductor-sim
-    description: "Integrated Analysis on two human genomic datasets"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Integrated Analysis on two human genomic datasets
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/SIM.html
     total_pulls: 3
+    identifiers:
+       -  biotools:sim
+       -  doi:10.1186/1471-2105-10-203
 bioconductor-seq2pathway.data:
     name: bioconductor-seq2pathway.data
-    description: "data set for R package seq2pathway"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/data/experiment/html/{{\
-        \ name }}.html"
+    description: data set for R package seq2pathway
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/data/experiment/html/seq2pathway.data.html
     total_pulls: 3
 bioconductor-rmir.hs.mirna:
     name: bioconductor-rmir.hs.mirna
-    description: Various databases of microrna targets
-    license: Not available
+    description: Various databases of microRNA Targets
+    license: The Artistic License, Version 2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/RmiR.Hs.miRNA.html
     total_pulls: 3
 bioconductor-rmir:
     name: bioconductor-rmir
-    description: Useful functions to merge microrna and respective targets using differents
-        databases.
+    description: Package to work with miRNAs and miRNA targets with R
     license: Artistic-2.0
-    home_url: http://bioconductor.org/packages/release/bioc/html/RmiR.html
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/RmiR.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rmir
+       -  doi:10.1038/nmeth.3252
 bioconductor-rnainteract:
     name: bioconductor-rnainteract
     description: This tool estimates genetic interactions from multi-dimensional read-outs
@@ -18449,19 +18893,25 @@ bioconductor-rnainteract:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/RNAinteract.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rnainteract
 bioconductor-reder:
     name: bioconductor-reder
-    description: "Interactive visualization and manipulation of nested networks"
-    license: "GPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Interactive visualization and manipulation of nested networks
+    license: GPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/RedeR.html
     total_pulls: 3
+    identifiers:
+       -  biotools:reder
 bioconductor-puma:
     name: bioconductor-puma
-    description: "Propagating Uncertainty in Microarray Analysis(including Affymetrix\
-        \ tranditional 3'' arrays and exon arrays and Human Transcriptome Array 2.0)"
+    description: Propagating Uncertainty in Microarray Analysis(including Affymetrix
+        tranditional 3' arrays and exon arrays and Human Transcriptome Array 2.0)
     license: LGPL
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/puma.html
     total_pulls: 3
+    identifiers:
+       -  biotools:puma
 bioconductor-rcgh:
     name: bioconductor-rcgh
     description: A comprehensive pipeline for analyzing and interactively visualizing
@@ -18471,20 +18921,29 @@ bioconductor-rcgh:
         provides several visualization functions which facilitate individual profiles
         interpretation.
     license: Artistic-2.0
-    home_url: http://bioconductor.org/packages/release/bioc/html/rCGH.html
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/rCGH.html
     total_pulls: 3
+    identifiers:
+       -  biotools:rcgh
+       -  doi:10.1093/bioinformatics/btv718
 bioconductor-pvca:
     name: bioconductor-pvca
     description: "Principal Variance Component Analysis (PVCA)"
     license: "LGPL (>= 2.0)"
     home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
     total_pulls: 3
+    identifiers:
+       -  biotools:pvca
+       -  doi:10.1002/9780470685983.ch12
 bioconductor-pwmenrich:
     name: bioconductor-pwmenrich
-    description: "PWM enrichment analysis"
-    license: "LGPL (>= 2)"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: PWM enrichment analysis
+    license: LGPL (>= 2)
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/PWMEnrich.html
     total_pulls: 3
+    identifiers:
+       -  biotools:pwmenrich
+       -  doi:10.1038/nmeth.3252
 bioconductor-prize:
     name: bioconductor-prize
     description: This tool offers a novel approach to narrow down long lists of candidates
@@ -18493,20 +18952,29 @@ bioconductor-prize:
         structures problems into a hierarchy of elements, and helps to specify numerical
         weights representing the relative importance of each element.
     license: Artistic-2.0
-    home_url: http://bioconductor.org/packages/release/bioc/html/Prize.html
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/Prize.html
     total_pulls: 3
+    identifiers:
+       -  biotools:prize
+       -  doi:10.1038/nmeth.3252
 bioconductor-preda:
     name: bioconductor-preda
-    description: "Position Related Data Analysis"
+    description: Position Related Data Analysis
     license: GPL-2
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/PREDA.html
     total_pulls: 3
+    identifiers:
+       -  biotools:preda
+       -  doi:10.1093/bioinformatics/btr404
 bioconductor-pqsfinder:
     name: bioconductor-pqsfinder
-    description: "Identification of potential quadruplex forming sequences"
-    license: "BSD_2_clause + file LICENSE"
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    description: Identification of potential quadruplex forming sequences
+    license: BSD_2_clause + file LICENSE
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/pqsfinder.html
     total_pulls: 3
+    identifiers:
+       -  biotools:pqsfinder
+       -  doi:10.1093/bioinformatics/btv272
 bioconductor-pathifier:
     name: bioconductor-pathifier
     description: Algorithm that infers pathway deregulation scores for each tumor
@@ -18517,6 +18985,9 @@ bioconductor-pathifier:
     license: Artistic-1.0
     home_url: http://bioconductor.org/packages/release/bioc/html/pathifier.html
     total_pulls: 3
+    identifiers:
+       -  biotools:pathifier
+       -  doi:10.1073/pnas.1219651110
 bioconductor-panr:
     name: bioconductor-panr
     description: This package provides s4 classes and methods for inferring functional
@@ -18525,12 +18996,18 @@ bioconductor-panr:
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/release/bioc/html/PANR.html
     total_pulls: 3
+    identifiers:
+       -  biotools:panr
+       -  doi:10.1371/journal.pcbi.1002566
 bioconductor-pdinfobuilder:
     name: bioconductor-pdinfobuilder
-    description: "Platform Design Information Package Builder"
+    description: Platform Design Information Package Builder
     license: Artistic-2.0
-    home_url: "https://bioconductor.org/packages/{{ bioc }}/bioc/html/{{ name }}.html"
+    home_url: https://bioconductor.org/packages/3.11/bioc/html/pdInfoBuilder.html
     total_pulls: 3
+    identifiers:
+       -  biotools:pdinfobuilder
+       -  doi:10.1093/bioinformatics/btq431
 bioconductor-htqpcr:
     name: bioconductor-htqpcr
     description: Analysis of ct values from high throughput quantitative real-time
@@ -58360,6 +58837,9 @@ kmerstream:
     home_url: https://github.com/pmelsted/KmerStream
     total_pulls: 0
     manually_check: true
+    identifiers:
+       -  biotools:kmerstream
+       -  doi:10.1093/bioinformatics/btu713
 perl-gd-svg:
     name: perl-gd-svg
     description: "Seamlessly enable SVG output from scripts written using GD"
