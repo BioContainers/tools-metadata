@@ -19,7 +19,8 @@ rules:
     level: warning
   empty-lines: enable
   empty-values: disable
-  hyphens: enable
+  hyphens:
+    max-spaces-after: 3
   indentation:
     level: warning
     indent-sequences: whatever
