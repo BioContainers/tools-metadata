@@ -8529,7 +8529,7 @@ r-wgcna:
     name: r-wgcna
     description: Functions necessary to perform Weighted Correlation Network Analysis
         on high-dimensional data as originally described in Horvath and Zhang (2005)
-        <doi:10.2202/1544-6115.1128> and Langfelder and Horvath (2008) <doi:10.1186/1471-2105-9-559>.
+        <> and Langfelder and Horvath (2008) <doi:10.1186/1471-2105-9-559>.
         Includes functions for rudimentary data cleaning, construction of correlation
         networks, module identification, summarization, and relating of variables
         and modules to sample traits. Also includes a number of utility functions
@@ -8541,6 +8541,7 @@ r-wgcna:
     identifiers:
        -  biotools:wgcna
        -  doi:10.1186/1471-2105-9-559
+       -  doi:10.2202/1544-6115.1128
 ushuffle:
     name: ushuffle
     description: uShuffle---a useful tool for shuffling biological sequences while
@@ -10223,8 +10224,7 @@ brass:
     total_pulls: 5
 dia_umpire:
     name: dia_umpire
-    description: |
-        DIA-Umpire is an open source Java program for computational analysis of data independent acquisition (DIA)
+    description: DIA-Umpire is an open source Java program for computational analysis of data independent acquisition (DIA)
         mass spectrometry-based proteomics data. It enables untargeted peptide and protein identification and quantitation
         using DIA data, and also incorporates targeted extraction to reduce the number of cases of missing quantitation.
     license: Apache License, Version 2.0
@@ -10240,8 +10240,7 @@ gnu-wget:
     total_pulls: 5
 mztosqlite:
     name: mztosqlite
-    description: |-
-        Convert proteomics data files into a SQLite database.
+    description: Convert proteomics data files into a SQLite database.
     license: GPL, Version 2.0
     home_url: https://github.com/galaxyproteomics/mzToSQLite
     total_pulls: 5
@@ -12100,8 +12099,7 @@ r-intlim:
     manually_check: true
 hail:
     name: hail
-    description: |
-        Hail is an open-source, general-purpose, Python-based data analysis tool with
+    description: Hail is an open-source, general-purpose, Python-based data analysis tool with
         additional data types and methods for working with genomic data.
     license: MIT
     home_url: https://hail.is
@@ -15106,12 +15104,14 @@ r-chbutils:
     total_pulls: 3
 r-coloc:
     name: r-coloc
-    description: Performs the colocalisation tests described in Plagnol et al (2009)
-        <doi:10.1093/biostatistics/kxn039>, Wallace et al (2013) <doi:10.1002/gepi.21765>
-        and Giambartolomei et al (2013) <doi:10.1371/journal.pgen.1004383>.
+    description: Performs the colocalisation tests
     license: GPL
     home_url: https://CRAN.R-project.org/package=coloc
     total_pulls: 3
+    identifiers:
+        - doi:10.1093/biostatistics/kxn039
+        - doi:10.1002/gepi.21765
+        - doi:10.1371/journal.pgen.1004383
 r-dpeak:
     name: r-dpeak
     description: This package provides functions for fitting dPeak, a statistical
@@ -19301,18 +19301,7 @@ bioconductor-simat:
        -  doi:10.1186/s12859-015-0681-2
 r-traminer:
     name: r-traminer
-    description: Toolbox for the manipulation, description and rendering of sequences,
-        and more generally the mining of sequence data in the field of social sciences.
-        Although the toolbox is primarily intended for analyzing state or event sequences
-        that describe life courses such as family formation histories or professional
-        careers, its features also apply to many other kinds of categorical sequence
-        data. It accepts many different sequence representations as input and provides
-        tools for converting sequences from one format to another. It offers several
-        functions for describing and rendering sequences, for computing distances
-        between sequences with different metrics (among which optimal matching), original
-        dissimilarity-based analysis tools, and simple functions for extracting the
-        most frequent subsequences and identifying the most discriminating ones among
-        them. A user's guide can be found on the TraMineR web page.
+    description: Toolbox for the manipulation, description and rendering of sequences, and more generally the mining of sequence data in the field of social sciences. Although the toolbox is primarily intended for analyzing state or event sequences that describe life courses such as family formation histories or professional careers, its features also apply to many other kinds of categorical sequence data. It accepts many different sequence representations as input and provides tools for converting sequences from one format to another. It offers several functions for describing and rendering sequences, for computing distances between sequences with different metrics (among which optimal matching), original dissimilarity-based analysis tools, and simple functions for extracting the most frequent subsequences and identifying the most discriminating ones amongvthem. A user's guide can be found on the TraMineR web page.
     license: GPL (>= 2)
     home_url: http://traminer.unige.ch
     total_pulls: 3
@@ -31856,8 +31845,7 @@ bioconductor-bsgenome.mmusculus.ucsc.mm9:
     name: bioconductor-bsgenome.mmusculus.ucsc.mm9
     description: Full genome sequences for Mus musculus (UCSC version mm9)
     license: Artistic-2.0
-    home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Mmusculus.UCSC.mm9.html
-    total_pulls: 1
+    home_url: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Mmusculus.UCSC.mm9.html    total_pulls: 1
 cityhash:
     name: cityhash
     description: Python-bindings for CityHash, a fast non-cryptographic hash algorithm
@@ -47858,8 +47846,7 @@ samstats:
     manually_check: true
 encyclopedia:
     name: encyclopedia
-    description: EncyclopeDIA is library search engine comprised of several algorithms
-        for DIA data analysis
+    description: EncyclopeDIA is library search engine comprised of several algorithms for DIA data analysis
     license: Apache License 2.0
     home_url: https://bitbucket.org/searleb/encyclopedia/wiki/Home
     total_pulls: 0
@@ -47896,7 +47883,7 @@ patholive:
     name: patholive
     description: A real-time pathogen diagnostics tool for metagenomic Illumina sequencing
         data.
-    license: BSD 3-Clause
+    license: BBSD-3-Clause
     home_url: https://gitlab.com/SimonHTausch/PathoLive
     total_pulls: 0
     manually_check: true
@@ -48076,7 +48063,7 @@ req:
     description: Estimating the rate of elementary quartets (REQ) of each internal
         branch of a phylogenetic tree from a distance matrix
     license: GPLv3
-    home_url: https://research.pasteur.fr/fr/tool/r%CE%B5q-assessing-branch-supports-o%C6%92-a-distance-based-phylogenetic-tree-with-the-rate-o%C6%92-elementary-quartets/
+    home_url: https://gitlab.pasteur.fr/GIPhy/REQ
     total_pulls: 0
     manually_check: true
 fastalite:
@@ -48380,7 +48367,7 @@ ldsc:
     name: ldsc
     description: ldsc is a tool for estimating heritability and genetic correlation
         from GWAS summary statistics. It also computes LD Scores.
-    license: GPLv3
+    license: GPL-3.0
     home_url: https://github.com/bulik/ldsc/
     total_pulls: 0
     manually_check: true
