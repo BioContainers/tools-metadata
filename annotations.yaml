@@ -1953,6 +1953,9 @@ swarm:
     home_url: https://github.com/torognes/swarm
     total_pulls: 4804
     manually_check: true
+    identifiers:
+       -  biotools:swarm
+       -  doi:10.7717/peerj.593
 probcons:
     name: probcons
     description: Probabilistic consistency-based multiple sequence alignment
@@ -2102,6 +2105,8 @@ quast:
     home_url: https://sourceforge.net/projects/quast/
     total_pulls: 3846
     manually_check: true
+    identifiers:
+       -  biotools:quast
 gffcompare:
     name: gffcompare
     description: classify, merge, tracking and annotation of GFF files by comparing
@@ -2110,6 +2115,8 @@ gffcompare:
     home_url: https://github.com/gpertea/gffcompare
     total_pulls: 3827
     manually_check: true
+    identifiers:
+       -  biotools:gffcompare
 nanoplot:
     name: nanoplot
     description: Plotting suite for long read sequencing data and alignments
@@ -2134,6 +2141,8 @@ qualimap:
     home_url: https://bitbucket.org/kokonech/qualimap/src/master/
     total_pulls: 3627
     manually_check: true
+    identifiers:
+       -  biotools:qualimap
 snpeff:
     name: snpeff
     description: Variant annotation and effect prediction tool. it annotates and predicts
@@ -2142,6 +2151,8 @@ snpeff:
     home_url: http://snpeff.sourceforge.net/
     total_pulls: 3580
     manually_check: true
+    identifiers:
+       -  biotools:snpeff
 crossmap:
     name: crossmap
     description: Crossmap is a program for convenient conversion of genome coordinates
@@ -2175,6 +2186,9 @@ hicexplorer:
     home_url: https://github.com/deeptools/HiCExplorer
     total_pulls: 3460
     manually_check: true
+    identifiers:
+       -  doi:10.1093/nar/gky504
+       -  doi:10.1093/nar/gkaa220
 abricate:
     name: abricate
     description: Mass screening of contigs for antibiotic resistance genes
@@ -2204,6 +2218,8 @@ repeatmasker:
     home_url: http://www.repeatmasker.org
     total_pulls: 3398
     manually_check: true
+    identifiers:
+       -  biotools:RepeatMasker
 moabs:
     name: moabs
     description: A comprehensive, accurate and efficient solution for analysis of
@@ -2228,6 +2244,8 @@ tb-profiler:
     home_url: https://github.com/jodyphelan/TBProfiler
     total_pulls: 3388
     manually_check: true
+    identifiers:
+       -  doi:10.1186/s13073-019-0650-x
 maxbin2:
     name: maxbin2
     description: Software for binning assembled metagenomic sequences based on an
@@ -2249,6 +2267,8 @@ bioconductor-dexseq:
     home_url: https://bioconductor.org/packages/release/bioc/html/DEXSeq.html
     total_pulls: 3385
     manually_check: true
+    identifiers:
+       -  biotools:dexseq
 star-fusion:
     name: star-fusion
     description: Star-fusion fusion variant caller.  all dependencies required to
@@ -2271,6 +2291,9 @@ perl-bioperl:
     home_url: https://github.com/bioperl/bioperl-live
     total_pulls: 3377
     manually_check: true
+    identifiers:
+       -  biotools:bioperl
+       -  doi:10.1007/978-1-59745-535-0_26
 gemini:
     name: gemini
     description: A lightweight db framework for disease and population genetics
@@ -2278,6 +2301,9 @@ gemini:
     home_url: https://github.com/arq5x/gemini
     total_pulls: 3377
     manually_check: true
+    identifiers:
+       -  biotools:GEMINI
+       -  doi:10.1371/journal.pcbi.1003153
 shovill:
     name: shovill
     description: Microbial assembly pipeline for illumina paired-end reads
@@ -2293,6 +2319,8 @@ anise_basil:
     home_url: https://github.com/seqan/anise_basil/
     total_pulls: 3369
     manually_check: true
+    identifiers:
+       -  doi:10.1093/bioinformatics/btv051
 plasflow:
     name: plasflow
     description: Plasflow - predicting plasmid sequences in metagenomic data
@@ -2300,6 +2328,8 @@ plasflow:
     home_url: https://github.com/smaegol/PlasFlow
     total_pulls: 3368
     manually_check: true
+    identifiers:
+       -  doi:10.1093/nar/gkx1321
 ngsutils:
     name: ngsutils
     description: Tools for next-gen sequencing analysis
@@ -2307,6 +2337,8 @@ ngsutils:
     home_url: https://github.com/ngsutils/ngsutils
     total_pulls: 3367
     manually_check: true
+    identifiers:
+       -  biotools:ngsutils
 tetyper:
     name: tetyper
     description: Typing of a specific transposable element (te) of interest from paired-end
@@ -2315,6 +2347,8 @@ tetyper:
     home_url: https://github.com/aesheppard/TETyper
     total_pulls: 3366
     manually_check: true
+    identifiers:
+       -  doi:10.1099/mgen.0.000232
 shorah:
     name: shorah
     description: ShoRAH (Short Reads Assembly into Haplotypes)
@@ -2322,6 +2356,8 @@ shorah:
     home_url: https://github.com/cbg-ethz/shorah
     total_pulls: 3365
     manually_check: true
+    identifiers:
+       -  biotools:shorah
 slamdunk:
     name: slamdunk
     description: Slamdunk is a software tool for slamseq data analysis.
@@ -2329,6 +2365,8 @@ slamdunk:
     home_url: https://github.com/t-neumann/slamdunk
     total_pulls: 3364
     manually_check: true
+    identifiers:
+       -  doi:10.1186/s12859-019-2849-7
 tb_variant_filter:
     name: tb_variant_filter
     description: Vcf variant filter optimised for filter m. tuberculosis h37rv variants
@@ -2397,6 +2435,8 @@ varscan:
     home_url: https://github.com/dkoboldt/varscan
     total_pulls: 3355
     manually_check: true
+    identifiers:
+       -  biotools:varscan
 graph_embed:
     name: graph_embed
     description: Compute a 2d embedding of a data matrix given supervised class information.
@@ -3213,6 +3253,8 @@ bioconductor-dupradar:
     home_url: http://bioconductor.org/packages/release/bioc/html/dupRadar.html
     total_pulls: 793
     manually_check: true
+    identifiers:
+       -  biotools:dupradar
 kallisto:
     name: kallisto
     description: Quantifying abundances of transcripts from rna-seq data, or more
@@ -3221,6 +3263,9 @@ kallisto:
     home_url: https://github.com/pachterlab/kallisto/
     total_pulls: 708
     manually_check: true
+    identifiers:
+       -  biotools:kallisto
+       -  doi:10.1038/nbt.3519
 sambamba:
     name: sambamba
     description: Tools for working with sam/bam data
@@ -3251,6 +3296,9 @@ searchgui:
     home_url: https://github.com/compomics/searchgui
     total_pulls: 630
     manually_check: true
+    identifiers:
+       -  biotools:searchgui
+       -  doi:10.1002/pmic.201000595
 eggnog-mapper:
     name: eggnog-mapper
     description: Fast genome-wide functional annotation through orthology assignment.
@@ -3258,6 +3306,8 @@ eggnog-mapper:
     home_url: https://github.com/jhcepas/eggnog-mapper
     total_pulls: 587
     manually_check: true
+    identifiers:
+       -  doi:10.1093/nar/gky1085
 htslib:
     name: htslib
     description: C library for high-throughput sequencing data formats
@@ -3265,6 +3315,8 @@ htslib:
     home_url: https://github.com/samtools/htslib
     total_pulls: 570
     manually_check: true
+    identifiers:
+       -  biotools:HTSlib
 chunked-scatter:
     name: chunked-scatter
     description: Chunk and scatter the regions in a bed or sequence dict file
@@ -3304,6 +3356,9 @@ proteowizard:
     home_url: http://proteowizard.sourceforge.net/
     total_pulls: 484
     manually_check: true
+    identifiers:
+       -  biotools:proteowizard
+       -  doi:10.1038/nbt.2377
 spectra-cluster-cli:
     name: spectra-cluster-cli
     description: This is a stand-alone implementation of the new updated pride cluster
@@ -3331,6 +3386,9 @@ deeptools:
     home_url: https://github.com/deeptools/deepTools
     total_pulls: 405
     manually_check: true
+    identifiers:
+       -  biotools:deeptools
+       -  doi:10.1093/nar/gkw257
 rxdock:
     name: rxdock
     description: A fast, versatile, and open-source program for docking ligands to
@@ -3346,6 +3404,9 @@ xtandem:
     home_url: https://www.thegpm.org/TANDEM/index.html
     total_pulls: 352
     manually_check: true
+    identifiers:
+       -  biotools:xtandem
+       -  doi:10.1093/bioinformatics/bth092
 gatk:
     name: gatk
     description: The genome analysis toolkit (gatk) is a set of bioinformatic tools
@@ -3357,6 +3418,9 @@ gatk:
     home_url: https://software.broadinstitute.org/gatk/
     total_pulls: 347
     manually_check: true
+    identifiers:
+       -  biotools:gatk
+
 flye:
     name: flye
     description: Flye is a de novo assembler for single molecule sequencing reads,
@@ -3382,6 +3446,9 @@ kaiju:
     home_url: https://github.com/bioinformatics-centre/kaiju
     total_pulls: 326
     manually_check: true
+    identifiers:
+       -  biotools:kaiju
+       -  doi:10.1038/ncomms11257
 kcalign:
     name: kcalign
     description: Kalgin-based codon-aware aligner for multiple sequences
@@ -3396,6 +3463,9 @@ percolator:
     home_url: https://github.com/percolator/percolator
     total_pulls: 304
     manually_check: true
+    identifiers:
+       -  biotools:Percolator
+       -  doi:10.1007/s13361-016-1460-7
 survivor:
     name: survivor
     description: Toolset for SV simulation, comparison and filtering
@@ -3459,6 +3529,8 @@ velvet:
     home_url: https://github.com/dzerbino/velvet
     total_pulls: 186
     manually_check: true
+    identifiers:
+       -  biotools:velvet
 hardklor:
     name: hardklor
     description: Open-source application for identification of features from mass
@@ -3467,6 +3539,8 @@ hardklor:
     home_url: https://github.com/mhoopmann/hardklor
     total_pulls: 186
     manually_check: true
+    identifiers:
+       -  doi:10.1002/0471250953.bi1318s37
 rna-seqc:
     name: rna-seqc
     description: Fast, efficient RNA-Seq metrics for quality control and process optimization
@@ -3496,6 +3570,8 @@ telescope:
     home_url: https://github.com/mlbendall/telescope
     total_pulls: 148
     manually_check: true
+    identifiers:
+       -  doi:10.1101/398172
 tophat:
     name: tophat
     description: Program that aligns rna-seq reads to a genome in order to identify
@@ -3517,6 +3593,8 @@ bioconductor-chipseeker:
     home_url: http://bioconductor.org/packages/release/bioc/html/ChIPseeker.html
     total_pulls: 144
     manually_check: true
+    identifiers:
+       -  biotools:chipseeker
 busco:
     name: busco
     description: Provides measures for quantitative assessment of genome assembly,
@@ -3526,6 +3604,9 @@ busco:
     home_url: https://gitlab.com/ezlab/busco/
     total_pulls: 143
     manually_check: true
+    identifiers:
+       -  biotools:busco
+       -  doi:10.1093/bioinformatics/btv351
 cgpbigwig:
     name: cgpbigwig
     description: BigWig manpulation tools using libBigWig and htslib
@@ -3550,6 +3631,9 @@ bioconductor-trackviewer:
     home_url: https://www.bioconductor.org/packages/release/bioc/html/trackViewer.html
     total_pulls: 131
     manually_check: true
+    identifiers:
+       -  biotools:trackviewer
+       -  doi:10.1038/nmeth.3252
 2pg_cartesian:
     name: 2pg_cartesian
     description: 2pg cartesian is a framework of optimization algorithms for protein
@@ -3574,6 +3658,8 @@ snippy:
     home_url: https://github.com/tseemann/snippy
     total_pulls: 113
     manually_check: true
+    identifiers:
+       -  biotools:snippy
 scanpy-scripts:
     name: scanpy-scripts
     description: A set of wrappers for individual components of the scanpy package.
@@ -3599,6 +3685,8 @@ kronik:
     home_url: https://github.com/mhoopmann/kronik
     total_pulls: 101
     manually_check: true
+    identifiers:
+       -  doi:10.1002/0471250953.bi1318s37
 bioconductor-edger:
     name: bioconductor-edger
     description: Empirical analysis of digital gene expression data in r
@@ -3606,6 +3694,8 @@ bioconductor-edger:
     home_url: http://www.bioconductor.org/packages/release/bioc/html/edgeR.html
     total_pulls: 100
     manually_check: true
+    identifiers:
+       -  biotools:edger
 snpsift:
     name: snpsift
     description: Toolbox that allows you to filter and manipulate annotated files
@@ -3613,6 +3703,9 @@ snpsift:
     home_url: http://snpeff.sourceforge.net/SnpSift.html
     total_pulls: 85
     manually_check: true
+    identifiers:
+       -  biotools:SnpSift
+       -  doi:10.3389/fgene.2012.00035
 agat:
     name: agat
     description: Another gff analysis toolkit (agat). suite of tools to handle gene
@@ -3628,6 +3721,10 @@ gmap:
     home_url: http://research-pub.gene.com/gmap/
     total_pulls: 79
     manually_check: true
+    identifiers:
+       -  biotools:gmap
+       -  doi:10.1093/bioinformatics/bti310
+       -  doi:10.1093/bioinformatics/btq057
 nanovar:
     name: nanovar
     description: Structural variant caller using low-depth long reads
@@ -3649,6 +3746,10 @@ sourmash:
     home_url: https://github.com/dib-lab/sourmash
     total_pulls: 74
     manually_check: true
+    identifiers:
+       -  biotools:sourmash
+       -  doi:10.21105/joss.00027
+       -  doi:10.12688/f1000research.19675.1
 smoove:
     name: smoove
     description: Structural variant calling and genotyping with existing tools, but,
@@ -3671,6 +3772,9 @@ galaxy-util:
     home_url: https://galaxyproject.org
     total_pulls: 70
     manually_check: true
+    identifiers:
+       -  biotools:galaxy
+       -  doi:10.1093/nar/gky379
 nmrpro:
     name: nmrpro
     description: Nmrpro reads and processes different types of nmr spectra.
@@ -3736,6 +3840,8 @@ phylocsf:
     home_url: https://github.com/mlin/PhyloCSF/wiki
     total_pulls: 63
     manually_check: true
+    identifiers:
+       -  biotools:phyloCSF
 ucsc-gtftogenepred:
     name: ucsc-gtftogenepred
     description: Convert a gtf file to a genepred
@@ -3788,6 +3894,9 @@ bioconductor-ensembldb:
     home_url: https://bioconductor.org/packages/ensembldb/
     total_pulls: 57
     manually_check: true
+    identifiers:
+       -  biotools:ensembldb
+       -  doi:10.1038/nmeth.3252
 diamond:
     name: diamond
     description: Accelerated blast compatible local sequence aligner
@@ -3795,6 +3904,9 @@ diamond:
     home_url: https://github.com/bbuchfink/diamond/
     total_pulls: 57
     manually_check: true
+    identifiers:
+       -  biotools:Diamond
+       -  doi:10.1038/nmeth.3176
 circexplorer2:
     name: circexplorer2
     description: Circular rna analysis toolkits
@@ -3809,6 +3921,8 @@ pepnovo:
     home_url: http://proteomics.ucsd.edu/Software/PepNovo/
     total_pulls: 55
     manually_check: true
+    identifiers:
+       -  biotools:pepnovo
 artic:
     name: artic
     description: Artic pipeline - a bioinformatics pipeline for working with virus
@@ -3848,6 +3962,9 @@ bioconductor-graph:
     home_url: https://bioconductor.org/packages/graph/
     total_pulls: 53
     manually_check: true
+    identifiers:
+       -  biotools:graph
+       -  doi:10.1038/nmeth.3252
 adpred:
     name: adpred
     description: Python adpred module for prediction of transcription activation domains
@@ -3872,6 +3989,9 @@ masurca:
     home_url: https://github.com/alekseyzimin/masurca
     total_pulls: 51
     manually_check: true
+    identifiers:
+       -  biotools:masurca
+       -  doi:10.1093/bioinformatics/btt476
 bioconductor-hipathia:
     name: bioconductor-hipathia
     description: "HiPathia: High-throughput Pathway Analysis"
@@ -3894,6 +4014,9 @@ magicblast:
     home_url: https://github.com/ncbi/magicblast
     total_pulls: 50
     manually_check: true
+    identifiers:
+       -  biotools:magicblast
+       -  doi:10.1186/s12859-019-2996-x
 macs2:
     name: macs2
     description: Macs -- model-based analysis of chip-seq
@@ -3958,6 +4081,8 @@ bioconductor-tximport:
     home_url: https://bioconductor.org/packages/release/bioc/html/tximport.html
     total_pulls: 46
     manually_check: true
+    identifiers:
+       -  biotools:tximport
 convert_zero_one_based:
     name: convert_zero_one_based
     description: Convert between zero and one based coordinate systems
@@ -3992,6 +4117,8 @@ bioconductor-purecn:
     home_url: http://bioconductor.org/packages/release/bioc/html/PureCN.html
     total_pulls: 45
     manually_check: true
+    identifiers:
+       -  biotools:purecn
 metawrap:
     name: metawrap
     description: Metawrap is a pipeline for genome-resolved metagenomic data analysis
@@ -4044,6 +4171,9 @@ genomedata:
     home_url: https://bitbucket.org/hoffmanlab/genomedata/
     total_pulls: 43
     manually_check: true
+    identifiers:
+       -  biotools:genomedata
+       -  doi:10.1093/bioinformatics/btq164
 comparative-annotation-toolkit:
     name: comparative-annotation-toolkit
     description: A straightforward end-to-end pipeline that takes as input a hal-format
@@ -4054,6 +4184,8 @@ comparative-annotation-toolkit:
     home_url: https://github.com/ComparativeGenomicsToolkit/Comparative-Annotation-Toolkit
     total_pulls: 43
     manually_check: true
+    identifiers:
+       -  doi:10.1101/231118
 bioconductor-ecoliasv2probe:
     name: bioconductor-ecoliasv2probe
     description: Probe sequence data for microarrays of type ecoliasv2
@@ -4146,6 +4278,9 @@ bioconductor-bsgenome:
     home_url: http://bioconductor.org/packages/release/bioc/html/BSgenome.html
     total_pulls: 41
     manually_check: true
+    identifiers:
+       -  biotools:bsgenome
+       -  doi:10.1038/nmeth.3252
 bioconductor-txdb.mmusculus.ucsc.mm10.ensgene:
     name: bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
     description: Annotation package for txdb object(s)
@@ -4174,6 +4309,9 @@ bioconductor-otubase:
     home_url: http://bioconductor.org/packages/release/bioc/html/OTUbase.html
     total_pulls: 41
     manually_check: true
+    identifiers:
+       -  biotools:otubase
+       -  doi:10.1093/bioinformatics/btr196
 bioconductor-gcrma:
     name: bioconductor-gcrma
     description: Background adjustment using sequence information
@@ -4181,6 +4319,9 @@ bioconductor-gcrma:
     home_url: https://www.bioconductor.org/packages/release/bioc/html/gcrma.html
     total_pulls: 41
     manually_check: true
+    identifiers:
+       -  biotools:gcrma
+       -  doi:10.1186/1471-2105-9-452
 bioconductor-smite:
     name: bioconductor-smite
     description: Significance-based Modules Integrating the Transcriptome and Epigenome
@@ -4188,6 +4329,9 @@ bioconductor-smite:
     home_url: https://bioconductor.org/packages/release/bioc/html/SMITE.html
     total_pulls: 41
     manually_check: true
+    identifiers:
+       -  biotools:smite
+       -  doi:10.1186/s12859-017-1477-3
 bioconductor-minet:
     name: bioconductor-minet
     description: Mutual Information NETworks
@@ -4195,6 +4339,9 @@ bioconductor-minet:
     home_url: https://bioconductor.org/packages/release/bioc/html/minet.html
     total_pulls: 41
     manually_check: true
+    identifiers:
+       -  biotools:minet
+       -  doi:10.1186/1471-2105-9-461
 bioconductor-multiassayexperiment:
     name: bioconductor-multiassayexperiment
     description: Develop an integrative environment where multiple assays are managed
@@ -4203,6 +4350,9 @@ bioconductor-multiassayexperiment:
     home_url: http://bioconductor.org/packages/release/bioc/html/MultiAssayExperiment.html
     total_pulls: 41
     manually_check: true
+    identifiers:
+       -  biotools:multiassayexperiment
+       -  doi:10.1101/144774
 bioconductor-dama:
     name: bioconductor-dama
     description: "Efficient design and analysis of factorial two-colour microarray\
@@ -4211,6 +4361,9 @@ bioconductor-dama:
     home_url: https://www.bioconductor.org/packages/release/bioc/html/daMA.html
     total_pulls: 41
     manually_check: true
+    identifiers:
+       -  biotools:dama
+       -  doi:10.1016/j.csda.2004.08.014
 bioconductor-mircompdata:
     name: bioconductor-mircompdata
     description: Data used in the mircomp package
@@ -4342,6 +4495,9 @@ bioconductor-qrqc:
     home_url: https://www.bioconductor.org/packages/release/bioc/html/qrqc.html
     total_pulls: 40
     manually_check: true
+    identifiers:
+       -  biotools:qrqc
+       -  doi:10.1038/nmeth.3252
 bioconductor-yeastcc:
     name: bioconductor-yeastcc
     description: Spellman et al. (1998) and pramila/breeden (2006) yeast cell cycle
