@@ -44664,13 +44664,11 @@ impute2:
     manually_check: true
 keepalive:
     name: keepalive
-    description: "# Keepalive\n\n> Urllib keepalive support for python\n\n> Licence:\
-        \ Apache Software License\n\nHome: https://pypi.python.org/packages/source/k/keepalive/keepalive-0.5.tar.gz\n\
-        \n"
-    license:
-    home_url:
+    description: "Urllib keepalive support for python"
+    license: Apache-2.0
+    home_url: "https://github.com/wikier/keepalive"
     total_pulls: 0
-    manually_check: false
+    manually_check: true
 kid:
     name: kid
     description: A simple and pythonic xml template language
@@ -44680,18 +44678,14 @@ kid:
     manually_check: true
 cancerit-allelecount:
     name: cancerit-allelecount
-    description: "# Cancerit-Allelecount\n\n> Support code for ngs copy number algorithms\n\
-        \n> Licence: Gplv3\n\nHome: https://github.com/cancerit/alleleCount/archive/v2.1.2.tar.gz\n\
-        \n"
+    description: "Support code for ngs copy number algorithms"
     license: GPLv3
     home_url: https://github.com/cancerit/alleleCount
     total_pulls: 0
     manually_check: true
 ccat:
     name: ccat
-    description: ">  ccat is a software package for the analysis of chip-seq data\
-        \ with negative control.\n\nHome:  http://cmb.gis.a-star.edu.sg/ChIPSeq/tools/CCAT3.0.tar.gz\n\
-        \n"
+    description: "ccat is a software package for the analysis of chip-seq data with negative control."
     license: unknown
     home_url: http://cmb.gis.a-star.edu.sg/ChIPSeq/paperCCAT.htm
     total_pulls: 0
@@ -44701,9 +44695,7 @@ ccat:
        -  doi:10.1093/bioinformatics/btq128
 cdbtools:
     name: cdbtools
-    description: "# Cdbtools\n\n> Cdb (constant database) indexing and retrieval tools\
-        \ for fasta files\n\n> Licence: Public Domain\n\nHome: ftp://occams.dfci.harvard.edu/pub/bio/tgi/software/cdbfasta/cdbfasta.tar.gz\n\
-        \n"
+    description: "Cdb (constant database) indexing and retrieval tools for fasta files"
     license: Public Domain
     home_url: http://compbio.dfci.harvard.edu/tgi
     total_pulls: 0
@@ -56632,7 +56624,7 @@ r-flexmix:
     license: GPL (>=2)
     home_url: https://CRAN.R-project.org/package=flexmix
     total_pulls: 0
-    manually_check: false
+    manually_check: true
 r-diptest:
     name: r-diptest
     description: Compute Hartigan's dip test statistic for unimodality / multimodality
@@ -56641,7 +56633,7 @@ r-diptest:
     license: GPL (>=2)
     home_url: https://CRAN.R-project.org/package=diptest
     total_pulls: 0
-    manually_check: false
+    manually_check: true
 r-reshape:
     name: r-reshape
     description: Flexibly restructure and aggregate data using just melt() and cast().
