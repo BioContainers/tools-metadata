@@ -212,7 +212,7 @@ bowtie2:
         its memory footprint is typically around 3.2 gb. bowtie 2 supports gapped,
         local, and paired-end alignment modes.'
     license: GPL-3.0
-    home_url: http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
+    home_url: https://github.com/BenLangmead/bowtie2
     total_pulls: 17576
     manually_check: true
     identifiers:
@@ -241,7 +241,7 @@ bedops:
         can be easily split by chromosome for distributing whole-genome analyses across
         a computational cluster.
     license: GPL-3.0
-    home_url: https://bedops.readthedocs.io/en/latest/
+    home_url: https://github.com/bedops/bedops
     total_pulls: 17134
     manually_check: true
     identifiers:
@@ -252,7 +252,7 @@ htseq:
     description: Python framework to process and analyse high-throughput sequencing
         (hts) data
     license: GPL-3.0
-    home_url: http://htseq.readthedocs.io/en/release_0.9.1/
+    home_url: https://github.com/simon-anders/htseq
     total_pulls: 16506
     manually_check: true
     identifiers:
@@ -275,7 +275,7 @@ bbmap:
         than almost all short-read aligners, yet retains unrivaled sensitivity and
         specificity, particularly for reads with many errors and indels.
     license: BSD-3-Clause
-    home_url: https://jgi.doe.gov/data-and-tools/bbtools/
+    home_url: https://sourceforge.net/projects/bbmap/
     total_pulls: 14255
     manually_check: true
     identifiers:
@@ -288,7 +288,7 @@ multiqc:
         analysis logs and compiles a html report. i is a general use tool, perfect
         for summarising the output from numerous bioinformatics tools.
     license: GPL-3.0
-    home_url: http://multiqc.info/
+    home_url: https://github.com/ewels/MultiQC
     total_pulls: 14173
     manually_check: true
     identifiers:
@@ -309,7 +309,7 @@ star:
     name: star
     description: Ultrafast universal rna-seq aligner
     license: GPL-3.0
-    home_url: http://code.google.com/p/rna-star/
+    home_url: https://github.com/alexdobin/STAR
     total_pulls: 12965
     manually_check: true
     identifiers:
@@ -318,7 +318,7 @@ hmmer:
     name: hmmer
     description: Profile hidden markov models for protein sequence analysis
     license: GPL-3
-    home_url: http://hmmer.org/
+    home_url: https://github.com/EddyRivasLab/hmmer
     total_pulls: 12431
     manually_check: true
 bamtools:
@@ -352,7 +352,7 @@ easydev:
     name: easydev
     description: Common utilities to ease the development of python packages
     license: BSD-3-Clause/SKL
-    home_url: https://easydev-python.readthedocs.io/en/latest/
+    home_url: https://github.com/cokelaer/easydev
     total_pulls: 11441
     manually_check: true
 pysam:
@@ -384,8 +384,8 @@ emboss:
 platypus-variant:
     name: platypus-variant
     description: A Haplotype-Based Variant Caller For Next Generation Sequence Data
-    license: GPLv3
-    home_url: http://www.well.ox.ac.uk/platypus
+    license: GPL-3.0
+    home_url: https://github.com/andyrimmer/Platypus
     total_pulls: 10152
     manually_check: true
 barrnap:
@@ -404,7 +404,7 @@ matplotlib:
     description: Matplotlib is a comprehensive library for creating static, animated,
         and interactive visualizations in Python.
     license: BSD
-    home_url: https://matplotlib.org/
+    home_url: https://github.com/matplotlib/matplotlib
     total_pulls: 10059
     manually_check: true
 augustus:
@@ -416,7 +416,7 @@ augustus:
         run through a web interface (see https://bio.tools/webaugustus), or downloaded
         and run locally.
     license: Artistic-1.0
-    home_url: http://bioinf.uni-greifswald.de/augustus
+    home_url: https://github.com/Gaius-Augustus/Augustus
     total_pulls: 10025
     manually_check: true
     identifiers:
@@ -436,7 +436,7 @@ bandage:
         made by de novo assemblers such as velvet, spades, megahit and others. it
         visualises assembly graphs, with connections, using graph layout algorithms.
     license: GPL-3.0
-    home_url: https://rrwick.github.io/Bandage/
+    home_url: https://github.com/rrwick/Bandage
     total_pulls: 9835
     manually_check: true
     identifiers:
@@ -459,7 +459,7 @@ openslide:
     name: openslide
     description: Python 3 wrapper for reading whole slide image files
     license: LGPL-2.1
-    home_url: http://openslide.org
+    home_url: https://github.com/openslide/openslide
     total_pulls: 9753
     manually_check: true
 hisat2:
@@ -468,7 +468,7 @@ hisat2:
         dna and rna) to a population of human genomes (as well as to a single reference
         genome).
     license: GPL-3.0
-    home_url: https://ccb.jhu.edu/software/hisat2/index.shtml
+    home_url: https://github.com/DaehwanKimLab/hisat2
     total_pulls: 9648
     manually_check: true
     identifiers:
@@ -514,7 +514,7 @@ bwakit:
     description: A self-consistent installation-free package of scripts and precompiled
         binaries, providing an end-to-end solution to read mapping
     license: GPL-3.0
-    home_url: http://bio-bwa.sourceforge.net/
+    home_url: https://github.com/lh3/bwa
     total_pulls: 9351
     manually_check: true
 rsem:
@@ -555,7 +555,7 @@ discosnp:
     description: This software is designed for discovering single nucleotide polymorphism
         (snp) from raw set(s) of reads obtained with next generation sequencers (ngs).
     license: CECILL-2.0
-    home_url: https://colibread.inria.fr/software/discosnp/
+    home_url: https://github.com/GATB/DiscoSnp
     total_pulls: 8953
     manually_check: true
     identifiers:
@@ -573,7 +573,7 @@ gubbins:
     name: gubbins
     description: Phylogenetic analysis of genome sequences
     license: GPL-2+
-    home_url: https://sanger-pathogens.github.io/gubbins/
+    home_url: https://github.com/sanger-pathogens/gubbins
     total_pulls: 8805
     manually_check: true
 pilon:
@@ -613,7 +613,7 @@ khmer:
         khmer can make de novo assemblies faster, and sometimes better. khmer can
         also identify (and fix) problems with shotgun data.
     license: BSD-3-Clause
-    home_url: http://khmer.readthedocs.org/en/v2.0/
+    home_url: https://github.com/dib-lab/khmer
     total_pulls: 8509
     manually_check: true
     identifiers:
@@ -634,7 +634,7 @@ iqtree:
     name: iqtree
     description: Efficient phylogenetic software by maximum likelihood
     license: GPL-2+
-    home_url: http://www.cibiv.at/software/iqtree/
+    home_url: https://github.com/Cibiv/IQ-TREE/
     total_pulls: 8472
     manually_check: true
 transdecoder:
@@ -651,7 +651,7 @@ mothur:
     name: mothur
     description: Sequence analysis suite for research on microbiota
     license: GPL-3+
-    home_url: http://www.mothur.org
+    home_url: https://github.com/mothur/mothur
     total_pulls: 8405
     manually_check: true
     identifiers:
@@ -659,7 +659,7 @@ mothur:
 mapsembler2:
     name: mapsembler2
     description: Bioinformatics targeted assembly software
-    license: AGPL3
+    license: AGPL-3.0
     home_url: http://colibread.inria.fr/mapsembler2/
     total_pulls: 8342
     manually_check: true
@@ -692,7 +692,7 @@ phyml:
     name: phyml
     description: Phylogenetic estimation software using maximum likelihood
     license: GPL-2.0
-    home_url: http://www.atgc-montpellier.fr/phyml/
+    home_url: https://github.com/stephaneguindon/phyml
     total_pulls: 8234
     manually_check: true
     identifiers:
@@ -721,7 +721,7 @@ porechop:
     name: porechop
     description: Adapter trimmer for oxford nanopore reads
     license: GPL-3+
-    home_url: https://rrwick.github.io/Porechop
+    home_url: https://github.com/rrwick/Porechop
     total_pulls: 8170
     manually_check: true
 progressivemauve:
@@ -747,7 +747,7 @@ paml:
     name: paml
     description: Package of programs for phylogenetic analyses of dna or protein sequences
         using maximum likelihood.
-    license: GPL-3
+    license: GPL-3.0
     home_url: http://abacus.gene.ucl.ac.uk/software/paml.html
     total_pulls: 8073
     manually_check: true
@@ -779,7 +779,7 @@ snap:
     name: snap
     description: The semi-hmm-based nucleic acid parser is a gene prediction tool.
     license: GPL-2.0+
-    home_url: http://korflab.ucdavis.edu/software.html
+    home_url: https://github.com/KorfLab/SNAP
     total_pulls: 7990
     manually_check: true
 salmon:
@@ -1219,7 +1219,7 @@ chromhmm:
     name: chromhmm
     description: Chromhmm is software for learning and characterizing chromatin states.
     license: GPL-3.0
-    home_url: http://compbio.mit.edu/ChromHMM
+    home_url: https://github.com/jernst98/ChromHMM
     total_pulls: 5807
     manually_check: true
     identifiers:
@@ -1229,7 +1229,7 @@ changeo:
     description: A bioinformatics toolkit for processing high-throughput lymphocyte
         receptor sequencing data.
     license: AGPL-3
-    home_url: http://changeo.readthedocs.io
+    home_url: https://bitbucket.org/kleinstein/changeo/
     total_pulls: 5799
     manually_check: true
 circos-tools:
@@ -1300,7 +1300,7 @@ dascrubber:
     name: dascrubber
     description: Alignment-based scrubbing pipeline for dna sequencing reads
     license: BSD-3-Clause-EWM
-    home_url: https://dazzlerblog.wordpress.com/
+    home_url: https://github.com/thegenemyers/DASCRUBBER
     total_pulls: 5752
     manually_check: true
 eigensoft:
@@ -8273,9 +8273,9 @@ viennarna:
 ucsc-bedtobigbed:
     name: ucsc-bedtobigbed
     description: "# Ucsc-Bedtobigbed\n\n> Convert bed file to bigbed. (bigbed version:\
-        \ 4)\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedToBigBed\n\
+        \ 4)\n\n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedToBigBed\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 11
     manually_check: true
@@ -8590,9 +8590,9 @@ arvados-cwl-runner:
 ucsc-gff3togenepred:
     name: ucsc-gff3togenepred
     description: "# Ucsc-Gff3Togenepred\n\n> Convert a gff3 file to a genepred file\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/gff3ToGenePred\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/gff3ToGenePred\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 10
     manually_check: true
@@ -8984,9 +8984,9 @@ deepmased:
 ucsc-bedgraphtobigwig:
     name: ucsc-bedgraphtobigwig
     description: "# Ucsc-Bedgraphtobigwig\n\n> Convert a bedgraph file to bigwig format.\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedGraphToBigWig\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedGraphToBigWig\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 8
     manually_check: true
@@ -8994,7 +8994,7 @@ ucsc-liftover:
     name: ucsc-liftover
     description: "# ucsc-liftover\n\n> Move annotations from one assembly to another\n\
         \nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 8
     manually_check: true
@@ -10085,9 +10085,9 @@ bioconductor-biocinstaller:
 ucsc-twobitinfo:
     name: ucsc-twobitinfo
     description: "# Ucsc-Twobitinfo\n\n> Get information about sequences in a .2bit\
-        \ file\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/twoBitInfo\n\
+        \ file\n\n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/twoBitInfo\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 6
     manually_check: true
@@ -35675,10 +35675,10 @@ bioblend:
 ucsc-bigwigmerge:
     name: ucsc-bigwigmerge
     description: "# Ucsc-Bigwigmerge\n\n> Merge together multiple bigwigs into a single\
-        \ output bedgraph.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ output bedgraph.\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bigWigMerge\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 2
     manually_check: true
@@ -36311,9 +36311,9 @@ theta2:
 ucsc-bigwigtobedgraph:
     name: ucsc-bigwigtobedgraph
     description: "# Ucsc-Bigwigtobedgraph\n\n> Convert from bigwig to bedgraph format.\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bigWigToBedGraph\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bigWigToBedGraph\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 1
     manually_check: true
@@ -44968,16 +44968,16 @@ ucsc-addcols:
     description: "# Ucsc-Addcols\n\n> Sum columns in a text file.\n\n> Licence: Varies;\
         \ See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/addCols\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-axttomaf:
     name: ucsc-axttomaf
     description: "# Ucsc-Axttomaf\n\n> Convert from axt to maf format\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/axtToMaf\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/axtToMaf\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -44986,65 +44986,65 @@ ucsc-axttopsl:
     description: "# Ucsc-Axttopsl\n\n> Convert axt to psl format\n\n> Licence: Varies;\
         \ See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/axtToPsl\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bedclip:
     name: ucsc-bedclip
     description: "# Ucsc-Bedclip\n\n> Remove lines from bed file that refer to off-chromosome\
-        \ places.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome:\
+        \ places.\n\n> Licence: Custom License\n\nHome:\
         \ http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedClip\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bedcommonregions:
     name: ucsc-bedcommonregions
     description: "# Ucsc-Bedcommonregions\n\n> Create a bed file (just bed3) that\
-        \ contains the regions common to all inputs.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ contains the regions common to all inputs.\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedCommonRegions\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bedcoverage:
     name: ucsc-bedcoverage
     description: "# Ucsc-Bedcoverage\n\n> Analyse coverage by bed files - chromosome\
-        \ by \n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedCoverage\n\
+        \ by \n\n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedCoverage\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bedextendranges:
     name: ucsc-bedextendranges
     description: "# Ucsc-Bedextendranges\n\n> Extend length of entries in bed 6+ data\
-        \ to be at least the given length,\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ to be at least the given length,\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedExtendRanges\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bedgeneparts:
     name: ucsc-bedgeneparts
     description: "# Ucsc-Bedgeneparts\n\n> Given a bed, spit out promoter, first exon,\
-        \ or all introns.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ or all introns.\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedGeneParts\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bedgraphpack:
     name: ucsc-bedgraphpack
     description: "# Ucsc-Bedgraphpack\n\n> Pack together adjacent records representing\
-        \ same value.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\n\
+        \ same value.\n\n> Licence: Custom License\n\n\
         Home: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedGraphPack\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45053,36 +45053,36 @@ ucsc-bedintersect:
     description: "# Ucsc-Bedintersect\n\n> Intersect two bed files\n\n> Licence: Varies;\
         \ See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedIntersect\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-beditemoverlapcount:
     name: ucsc-beditemoverlapcount
     description: "# Ucsc-Beditemoverlapcount\n\n> Count number of times a base is\
-        \ overlapped by the\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ overlapped by the\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedItemOverlapCount\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bedpileups:
     name: ucsc-bedpileups
     description: "# Ucsc-Bedpileups\n\n> Find (exact) overlaps if any in bed input\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedPileUps\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedPileUps\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bedremoveoverlap:
     name: ucsc-bedremoveoverlap
     description: "# Ucsc-Bedremoveoverlap\n\n> Remove overlapping records from a (sorted)\
-        \ bed file.  gets rid of\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ bed file.  gets rid of\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedRemoveOverlap\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45091,26 +45091,26 @@ ucsc-splitfile:
     description: "# Ucsc-Splitfile\n\n> Split up a file\n\n> Licence: Varies; See\
         \ Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/splitFile\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-splitfilebycolumn:
     name: ucsc-splitfilebycolumn
     description: "# Ucsc-Splitfilebycolumn\n\n> Split text input into files named\
-        \ by column value\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ by column value\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/splitFileByColumn\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-sqltoxml:
     name: ucsc-sqltoxml
     description: "# Ucsc-Sqltoxml\n\n> Dump out all or part of a relational database\
-        \ to xml, guided\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ to xml, guided\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/sqlToXml\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45119,163 +45119,163 @@ ucsc-stringify:
     description: "# Ucsc-Stringify\n\n> Convert file to c strings\n\n> Licence: Varies;\
         \ See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/stringify\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-subchar:
     name: ucsc-subchar
     description: "# Ucsc-Subchar\n\n> Substitute one character for another throughout\
-        \ a file.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome:\
+        \ a file.\n\n> Licence: Custom License\n\nHome:\
         \ http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/subChar\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-subcolumn:
     name: ucsc-subcolumn
     description: "# Ucsc-Subcolumn\n\n> Substitute one column in a tab-separated file.\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/subColumn\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/subColumn\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-taillines:
     name: ucsc-taillines
     description: "# Ucsc-Taillines\n\n> Add tail to each line of file\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/tailLines\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/tailLines\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-tdbquery:
     name: ucsc-tdbquery
     description: "# Ucsc-Tdbquery\n\n> Query the trackdb system using sql syntax.\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/tdbQuery\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/tdbQuery\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-texthistogram:
     name: ucsc-texthistogram
     description: "# Ucsc-Texthistogram\n\n> Make a histogram in ascii\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/textHistogram\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/textHistogram\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-ticktodate:
     name: ucsc-ticktodate
     description: "# Ucsc-Ticktodate\n\n> Convert seconds since 1970 to time and date\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/tickToDate\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/tickToDate\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-tolower:
     name: ucsc-tolower
     description: "# Ucsc-Tolower\n\n> Convert upper case to lower case in file. leave\
-        \ other chars alone\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ other chars alone\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/toLower\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-toupper:
     name: ucsc-toupper
     description: "# Ucsc-Toupper\n\n> Convert lower case to upper case in file. leave\
-        \ other chars alone\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ other chars alone\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/toUpper\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-trfbig:
     name: ucsc-trfbig
     description: "# Ucsc-Trfbig\n\n> Mask tandem repeats on a big sequence file.\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/trfBig\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/trfBig\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-twobitdup:
     name: ucsc-twobitdup
     description: "# Ucsc-Twobitdup\n\n> Check to see if a twobit file has any identical\
-        \ sequences in it\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ sequences in it\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/twoBitDup\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-twobitmask:
     name: ucsc-twobitmask
     description: "# Ucsc-Twobitmask\n\n> Apply masking to a .2bit file, creating a\
-        \ new .2bit file\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ new .2bit file\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/twoBitMask\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-validatefiles:
     name: ucsc-validatefiles
     description: "# Ucsc-Validatefiles\n\n> Validates the format of different genomic\
-        \ files.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome:\
+        \ files.\n\n> Licence: Custom License\n\nHome:\
         \ http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/validateFiles\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-validatemanifest:
     name: ucsc-validatemanifest
     description: "# Ucsc-Validatemanifest\n\n> Validates the encode3 manifest.txt\
-        \ file.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome:\
+        \ file.\n\n> Licence: Custom License\n\nHome:\
         \ http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/validateManifest\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-wigcorrelate:
     name: ucsc-wigcorrelate
     description: "# Ucsc-Wigcorrelate\n\n> Produce a table that correlates all pairs\
-        \ of wigs.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome:\
+        \ of wigs.\n\n> Licence: Custom License\n\nHome:\
         \ http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/wigCorrelate\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-wordline:
     name: ucsc-wordline
     description: "# Ucsc-Wordline\n\n> Chop up words by white space and output them\
-        \ with one\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome:\
+        \ with one\n\n> Licence: Custom License\n\nHome:\
         \ http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/wordLine\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-xmlcat:
     name: ucsc-xmlcat
     description: "# Ucsc-Xmlcat\n\n> Concatenate xml files together, stuffing all\
-        \ records inside a single outer tag. \n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ records inside a single outer tag. \n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/xmlCat\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-xmltosql:
     name: ucsc-xmltosql
     description: "# Ucsc-Xmltosql\n\n> Convert xml dump into a fairly normalized relational\
-        \ database\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome:\
+        \ database\n\n> Licence: Custom License\n\nHome:\
         \ http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/xmlToSql\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45283,7 +45283,7 @@ ucsc-mafsinregion:
     name: ucsc-mafsinregion
     description: "# ucsc-mafsinregion\n\n> Extract MAFS in a genomic region\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45291,7 +45291,7 @@ ucsc-mafspecieslist:
     name: ucsc-mafspecieslist
     description: "# ucsc-mafspecieslist\n\n> Scan maf and output all species used\
         \ in it.\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45299,7 +45299,7 @@ ucsc-mafspeciessubset:
     name: ucsc-mafspeciessubset
     description: "# ucsc-mafspeciessubset\n\n> Extract a maf that just has a subset\
         \ of species.\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45307,7 +45307,7 @@ ucsc-mafsplit:
     name: ucsc-mafsplit
     description: "# ucsc-mafsplit\n\n> Split multiple alignment files\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45315,7 +45315,7 @@ ucsc-mafsplitpos:
     name: ucsc-mafsplitpos
     description: "# ucsc-mafsplitpos\n\n> Pick positions to split multiple alignment\
         \ input files\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45323,7 +45323,7 @@ ucsc-maftoaxt:
     name: ucsc-maftoaxt
     description: "# ucsc-maftoaxt\n\n> Convert from maf to axt format\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45331,7 +45331,7 @@ ucsc-maftopsl:
     name: ucsc-maftopsl
     description: "# ucsc-maftopsl\n\n> Convert maf to psl format\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45340,7 +45340,7 @@ ucsc-maftosnpbed:
     description: "# ucsc-maftosnpbed\n\n> finds SNPs in MAF and builds a bed with\
         \ their functional consequence\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45348,16 +45348,16 @@ ucsc-netchainsubset:
     name: ucsc-netchainsubset
     description: "# ucsc-netchainsubset\n\n> Create chain file with subset of chains\
         \ that appear in the net\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-nettobed:
     name: ucsc-nettobed
     description: "# Ucsc-Nettobed\n\n> Convert target coverage of net to a bed file.\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/netToBed\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/netToBed\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45366,7 +45366,7 @@ ucsc-pslcat:
     description: "# Ucsc-Pslcat\n\n> Concatenate psl files\n\n> Licence: Varies; See\
         \ Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslCat\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45375,10 +45375,10 @@ ucsc-pslcdnafilter:
     description: "# Ucsc-Pslcdnafilter\n\n>  filter cdna alignments in psl format.\
         \  filtering criteria are comparative, selecting near best in genome alignments\
         \ for each given cdna and non-comparative, based only on the quality of an\
-        \ individual alignment. \n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ individual alignment. \n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslCDnaFilter\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45387,129 +45387,129 @@ ucsc-pslcheck:
     description: "# Ucsc-Pslcheck\n\n> Validate psl files\n\n> Licence: Varies; See\
         \ Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslCheck\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-psldropoverlap:
     name: ucsc-psldropoverlap
     description: "# Ucsc-Psldropoverlap\n\n> Deletes all overlapping self alignments.\
-        \ \n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslDropOverlap\n\
+        \ \n\n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslDropOverlap\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-chainprenet:
     name: ucsc-chainprenet
     description: "# Ucsc-Chainprenet\n\n> Remove chains that don't have a chance of\
-        \ being netted\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\n\
+        \ being netted\n\n> Licence: Custom License\n\n\
         Home: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainPreNet\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-chainsort:
     name: ucsc-chainsort
     description: "# Ucsc-Chainsort\n\n> Sort chains.  by default sorts by score.\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainSort\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainSort\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-chainsplit:
     name: ucsc-chainsplit
     description: "# Ucsc-Chainsplit\n\n> Split chains up by target or query sequence\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainSplit\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainSplit\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-chainstitchid:
     name: ucsc-chainstitchid
     description: "# Ucsc-Chainstitchid\n\n> Join chain fragments with the same chain\
-        \ id into a single\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ id into a single\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainStitchId\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-chainswap:
     name: ucsc-chainswap
     description: "# Ucsc-Chainswap\n\n> Swap target and query in chain\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainSwap\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainSwap\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-chaintoaxt:
     name: ucsc-chaintoaxt
     description: "# Ucsc-Chaintoaxt\n\n> Convert from chain to axt file\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainToAxt\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainToAxt\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-chaintopsl:
     name: ucsc-chaintopsl
     description: "# Ucsc-Chaintopsl\n\n> Convert chain file to psl format\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainToPsl\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainToPsl\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-chaintopslbasic:
     name: ucsc-chaintopslbasic
     description: "# Ucsc-Chaintopslbasic\n\n> Basic conversion chain file to psl format\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainToPslBasic\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainToPslBasic\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-crtreeindexbed:
     name: ucsc-crtreeindexbed
     description: "# Ucsc-Crtreeindexbed\n\n> Create an index for a bed file.\n\n>\
-        \ Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/crTreeIndexBed\n\
+        \ Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/crTreeIndexBed\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-crtreesearchbed:
     name: ucsc-crtreesearchbed
     description: "# Ucsc-Crtreesearchbed\n\n> Search a crtree indexed bed file and\
-        \ print all items that overlap query.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ print all items that overlap query.\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/crTreeSearchBed\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-fetchchromsizes:
     name: ucsc-fetchchromsizes
     description: "# Ucsc-Fetchchromsizes\n\n>  used to fetch chrom.sizes information\
-        \ from ucsc for the given <db> \n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ from ucsc for the given <db> \n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/fetchChromSizes\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-genepredtofakepsl:
     name: ucsc-genepredtofakepsl
     description: "# Ucsc-Genepredtofakepsl\n\n> Create a psl of fake-mrna aligned\
-        \ to gene-preds from a file or table.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ to gene-preds from a file or table.\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/genePredToFakePsl\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45517,7 +45517,7 @@ ucsc-maffetch:
     name: ucsc-maffetch
     description: "# ucsc-maffetch\n\n> get overlapping records from an MAF using an\
         \ index table\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45525,7 +45525,7 @@ ucsc-maffilter:
     name: ucsc-maffilter
     description: "# ucsc-maffilter\n\n> Filter out maf files. Output goes to standard\
         \ out\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45533,7 +45533,7 @@ ucsc-maffrag:
     name: ucsc-maffrag
     description: "# ucsc-maffrag\n\n> Extract maf sequences for a region from database\n\
         \nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45541,7 +45541,7 @@ ucsc-maffrags:
     name: ucsc-maffrags
     description: "# ucsc-maffrags\n\n> Collect MAFs from regions specified in a 6\
         \ column bed file\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45549,7 +45549,7 @@ ucsc-mafgene:
     name: ucsc-mafgene
     description: "# ucsc-mafgene\n\n> output protein alignments using maf and genePred\n\
         \nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45557,7 +45557,7 @@ ucsc-mafmefirst:
     name: ucsc-mafmefirst
     description: "# ucsc-mafmefirst\n\n> Move component to top if it is one of the\
         \ named ones.\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45565,7 +45565,7 @@ ucsc-maforder:
     name: ucsc-maforder
     description: "# ucsc-maforder\n\n> order components within a maf file\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45573,16 +45573,16 @@ ucsc-mafranges:
     name: ucsc-mafranges
     description: "# ucsc-mafranges\n\n> Extract ranges of target (or query) coverage\
         \ from maf and\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-genepredtomafframes:
     name: ucsc-genepredtomafframes
     description: "# Ucsc-Genepredtomafframes\n\n> Create mafframes tables from a genepreds\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/genePredToMafFrames\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/genePredToMafFrames\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45590,7 +45590,7 @@ ucsc-hgloadbed:
     name: ucsc-hgloadbed
     description: "# ucsc-hgloadbed\n\n> Load a generic bed file into database\n\n\
         http://hgdownload.cse.ucsc.edu/admin/exe/\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45598,7 +45598,7 @@ ucsc-hgloadchain:
     name: ucsc-hgloadchain
     description: "# ucsc-hgloadchain\n\n> Load a generic Chain file into database\n\
         \nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45606,7 +45606,7 @@ ucsc-hgloadmaf:
     name: ucsc-hgloadmaf
     description: "# ucsc-hgloadmaf\n\n> Load a maf file index into the database\n\n\
         http://hgdownload.cse.ucsc.edu/admin/exe/\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45614,7 +45614,7 @@ ucsc-hgloadwiggle:
     name: ucsc-hgloadwiggle
     description: "# ucsc-hgloadwiggle\n\n> Load a wiggle track definition into database\n\
         \nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45622,7 +45622,7 @@ ucsc-lavtopsl:
     name: ucsc-lavtopsl
     description: "# ucsc-lavtopsl\n\n> Convert blastz lav to psl format\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45630,7 +45630,7 @@ ucsc-liftup:
     name: ucsc-liftup
     description: "# ucsc-liftup\n\n> change coordinates of .psl, .agp, .gap, .gl,\
         \ .out, .align, .gff, .gtf\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45638,7 +45638,7 @@ ucsc-mafaddirows:
     name: ucsc-mafaddirows
     description: "# ucsc-mafaddirows\n\n> add 'i' rows to a maf\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45646,7 +45646,7 @@ ucsc-mafaddqrows:
     name: ucsc-mafaddqrows
     description: "# ucsc-mafaddqrows\n\n> Add quality data to a maf\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45654,7 +45654,7 @@ ucsc-mafcoverage:
     name: ucsc-mafcoverage
     description: "# ucsc-mafcoverage\n\n> Analyse coverage by maf files - chromosome\
         \ by\n\nhttp://hgdownload.cse.ucsc.edu/admin/exe/\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45662,174 +45662,174 @@ ucsc-bedrestricttopositions:
     name: ucsc-bedrestricttopositions
     description: "# Ucsc-Bedrestricttopositions\n\n> Filter bed file, restricting\
         \ to only ones that match chrom/start/ends specified in restrict.bed file.\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedRestrictToPositions\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedRestrictToPositions\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bedsort:
     name: ucsc-bedsort
     description: "# Ucsc-Bedsort\n\n> Sort a .bed file by chrom,chromstart\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedSort\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedSort\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bedtogenepred:
     name: ucsc-bedtogenepred
     description: "# Ucsc-Bedtogenepred\n\n> Convert bed format files to genepred format\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedToGenePred\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedToGenePred\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bedtopsl:
     name: ucsc-bedtopsl
     description: "# Ucsc-Bedtopsl\n\n> Convert bed format files to psl format\n\n\
-        > Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedToPsl\n\
+        > Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedToPsl\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bedweedoverlapping:
     name: ucsc-bedweedoverlapping
     description: "# Ucsc-Bedweedoverlapping\n\n> Filter out beds that overlap a 'weed.bed'\
-        \ file.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome:\
+        \ file.\n\n> Licence: Custom License\n\nHome:\
         \ http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bedWeedOverlapping\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bigbedinfo:
     name: ucsc-bigbedinfo
     description: "# Ucsc-Bigbedinfo\n\n> Show information about a bigbed file.\n\n\
-        > Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bigBedInfo\n\
+        > Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bigBedInfo\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bigbednameditems:
     name: ucsc-bigbednameditems
     description: "# Ucsc-Bigbednameditems\n\n> Extract item of given name from bigbed\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bigBedNamedItems\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bigBedNamedItems\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bigbedsummary:
     name: ucsc-bigbedsummary
     description: "# Ucsc-Bigbedsummary\n\n> Extract summary information from a bigbed\
-        \ file.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome:\
+        \ file.\n\n> Licence: Custom License\n\nHome:\
         \ http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bigBedSummary\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-pslswap:
     name: ucsc-pslswap
     description: "# Ucsc-Pslswap\n\n>  swap target and query in psls \n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslSwap\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslSwap\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-psltobed:
     name: ucsc-psltobed
     description: "# Ucsc-Psltobed\n\n>  transform a psl format file to a bed format\
-        \ file. \n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome:\
+        \ file. \n\n> Licence: Custom License\n\nHome:\
         \ http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslToBed\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-psltobigpsl:
     name: ucsc-psltobigpsl
     description: "# Ucsc-Psltobigpsl\n\n> Converts psl to bigpsl input (bed format\
-        \ with extra fields)\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ with extra fields)\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslToBigPsl\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-psltochain:
     name: ucsc-psltochain
     description: "# Ucsc-Psltochain\n\n> Convert psl records to chain records \n\n\
-        > Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslToChain\n\
+        > Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslToChain\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-psltopslx:
     name: ucsc-psltopslx
     description: "# Ucsc-Psltopslx\n\n> Convert from psl to pslx format, which includes\
-        \ sequences\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome:\
+        \ sequences\n\n> Licence: Custom License\n\nHome:\
         \ http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslToPslx\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-pslxtofa:
     name: ucsc-pslxtofa
     description: "# Ucsc-Pslxtofa\n\n> Convert pslx (with sequence) to fasta file\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslxToFa\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslxToFa\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-qactowig:
     name: ucsc-qactowig
     description: "# Ucsc-Qactowig\n\n> Convert from compressed quality score format\
-        \ to wiggle format.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ to wiggle format.\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/qacToWig\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-qatoqac:
     name: ucsc-qatoqac
     description: "# Ucsc-Qatoqac\n\n> Convert from uncompressed to compressed\n\n\
-        > Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/qaToQac\n\
+        > Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/qaToQac\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-randomlines:
     name: ucsc-randomlines
     description: "# Ucsc-Randomlines\n\n> Pick out random lines from file\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/randomLines\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/randomLines\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-rasqlquery:
     name: ucsc-rasqlquery
     description: "# Ucsc-Rasqlquery\n\n> Do a sql-like query on a ra file.\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/raSqlQuery\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/raSqlQuery\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-ratolines:
     name: ucsc-ratolines
     description: "# Ucsc-Ratolines\n\n> Output .ra file stanzas as single lines, with\
-        \ pipe-separated fields.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ pipe-separated fields.\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/raToLines\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -45838,202 +45838,202 @@ ucsc-ratotab:
     description: "# Ucsc-Ratotab\n\n> Convert ra file to table.\n\n> Licence: Varies;\
         \ See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/raToTab\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-rmfadups:
     name: ucsc-rmfadups
     description: "# Ucsc-Rmfadups\n\n> Remove duplicate records in fa file\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/rmFaDups\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/rmFaDups\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-rowstocols:
     name: ucsc-rowstocols
     description: "# Ucsc-Rowstocols\n\n> Convert rows to columns and vice versa in\
-        \ a text file.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\n\
+        \ a text file.\n\n> Licence: Custom License\n\n\
         Home: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/rowsToCols\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-spacedtotab:
     name: ucsc-spacedtotab
     description: "# Ucsc-Spacedtotab\n\n> Convert fixed width space separated fields\
-        \ to tab separated\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ to tab separated\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/spacedToTab\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bigbedtobed:
     name: ucsc-bigbedtobed
     description: "# Ucsc-Bigbedtobed\n\n> Convert from bigbed to ascii bed format.\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bigBedToBed\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bigBedToBed\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bigwigaverageoverbed:
     name: ucsc-bigwigaverageoverbed
     description: "# Ucsc-Bigwigaverageoverbed\n\n> Compute average score of big wig\
-        \ over each bed, which may have introns.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ over each bed, which may have introns.\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bigWigAverageOverBed\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bigwigcluster:
     name: ucsc-bigwigcluster
     description: "# Ucsc-Bigwigcluster\n\n> Cluster bigwigs using a hactree\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bigWigCluster\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bigWigCluster\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bigwigcorrelate:
     name: ucsc-bigwigcorrelate
     description: "# Ucsc-Bigwigcorrelate\n\n> Correlate bigwig files, optionally only\
-        \ on target regions.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ on target regions.\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bigWigCorrelate\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bigwiginfo:
     name: ucsc-bigwiginfo
     description: "# Ucsc-Bigwiginfo\n\n> Print out information about bigwig file.\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bigWigInfo\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bigWigInfo\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-blasttopsl:
     name: ucsc-blasttopsl
     description: "# Ucsc-Blasttopsl\n\n> Convert blast alignments to psls.\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/blastToPsl\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/blastToPsl\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-chainantirepeat:
     name: ucsc-chainantirepeat
     description: "# Ucsc-Chainantirepeat\n\n> Get rid of chains that are primarily\
-        \ the results of repeats and degenerate dna\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ the results of repeats and degenerate dna\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainAntiRepeat\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-chainfilter:
     name: ucsc-chainfilter
     description: "# Ucsc-Chainfilter\n\n> Filter chain files.  output goes to standard\
-        \ out.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainFilter\n\
+        \ out.\n\n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainFilter\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-chainmergesort:
     name: ucsc-chainmergesort
     description: "# Ucsc-Chainmergesort\n\n> Combine sorted files into larger sorted\
-        \ file\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainMergeSort\n\
+        \ file\n\n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainMergeSort\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-chainnet:
     name: ucsc-chainnet
     description: "# Ucsc-Chainnet\n\n> Make alignment nets out of chains\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainNet\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chainNet\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-pslreps:
     name: ucsc-pslreps
     description: "# Ucsc-Pslreps\n\n> Analyze repeats and generate genome-wide best\
-        \ alignments from a\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ alignments from a\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslReps\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-pslscore:
     name: ucsc-pslscore
     description: "# Ucsc-Pslscore\n\n> Calculate web blat score from psl files\n\n\
-        > Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslScore\n\
+        > Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslScore\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-pslselect:
     name: ucsc-pslselect
     description: "# Ucsc-Pslselect\n\n> Select records from a psl file.\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslSelect\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslSelect\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-pslpostarget:
     name: ucsc-pslpostarget
     description: "# Ucsc-Pslpostarget\n\n> Flip psl strands so target is positive\
-        \ and implicit\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\n\
+        \ and implicit\n\n> Licence: Custom License\n\n\
         Home: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslPosTarget\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-pslsort:
     name: ucsc-pslsort
     description: "# Ucsc-Pslsort\n\n> Merge and sort pscluster .psl output files\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslSort\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslSort\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-pslpretty:
     name: ucsc-pslpretty
     description: "# Ucsc-Pslpretty\n\n> Convert psl to human-readable output\n\n>\
-        \ Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslPretty\n\
+        \ Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslPretty\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-pslstats:
     name: ucsc-pslstats
     description: "# Ucsc-Pslstats\n\n> Collect statistics from a psl file.\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslStats\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslStats\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-pslrecalcmatch:
     name: ucsc-pslrecalcmatch
     description: "# Ucsc-Pslrecalcmatch\n\n> Recalculate match,mismatch,repmatch columns\
-        \ in psl file.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\n\
+        \ in psl file.\n\n> Licence: Custom License\n\n\
         Home: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslRecalcMatch\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -46042,7 +46042,7 @@ ucsc-pslfilter:
     description: "# Ucsc-Pslfilter\n\n> Filter out psl file\n\n> Licence: Varies;\
         \ See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslFilter\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -46050,55 +46050,55 @@ ucsc-pslhisto:
     name: ucsc-pslhisto
     description: "# Ucsc-Pslhisto\n\n>  collect counts on psl alignments for making\
         \ histograms. these then be analyzed with r, texthistogram, etc. \n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslHisto\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslHisto\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-pslliftsubrangeblat:
     name: ucsc-pslliftsubrangeblat
     description: "# Ucsc-Pslliftsubrangeblat\n\n> Lift psls from blat subrange alignments\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslLiftSubrangeBlat\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslLiftSubrangeBlat\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-pslmap:
     name: ucsc-pslmap
     description: "# Ucsc-Pslmap\n\n> Map psls alignments to new targets using alignments\
-        \ of\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslMap\n\
+        \ of\n\n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslMap\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-pslmrnacover:
     name: ucsc-pslmrnacover
     description: "# Ucsc-Pslmrnacover\n\n> Make histogram of coverage percentage of\
-        \ mrna in psl.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\n\
+        \ mrna in psl.\n\n> Licence: Custom License\n\n\
         Home: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslMrnaCover\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-pslpairs:
     name: ucsc-pslpairs
     description: "# Ucsc-Pslpairs\n\n> Join paired ends in psl alignments\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslPairs\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslPairs\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-pslpartition:
     name: ucsc-pslpartition
     description: "# Ucsc-Pslpartition\n\n> Split psl files into non-overlapping sets\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslPartition\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/pslPartition\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -50992,34 +50992,34 @@ ucsc-ameme:
     description: "# Ucsc-Ameme\n\n> Find common patterns in dna\n\n> Licence: Varies;\
         \ See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/ameme\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-autodtd:
     name: ucsc-autodtd
     description: "# Ucsc-Autodtd\n\n> Give this a xml document to look at and it will\
-        \ come up with a dtd\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ come up with a dtd\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/autoDtd\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-autosql:
     name: ucsc-autosql
     description: "# Ucsc-Autosql\n\n> Create sql and c code for permanently storing\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/autoSql\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/autoSql\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-autoxml:
     name: ucsc-autoxml
     description: "# Ucsc-Autoxml\n\n> Generate structures code and parser for xml\
-        \ file from dtd-like spec\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ file from dtd-like spec\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/autoXml\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -51028,138 +51028,138 @@ ucsc-avecols:
     description: "# Ucsc-Avecols\n\n> Average together columns\n\n> Licence: Varies;\
         \ See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/aveCols\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-axtsort:
     name: ucsc-axtsort
-    description: "# Ucsc-Axtsort\n\n> Sort axt files\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+    description: "# Ucsc-Axtsort\n\n> Sort axt files\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/axtSort\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-axtswap:
     name: ucsc-axtswap
     description: "# Ucsc-Axtswap\n\n> Swap source and query in an axt file\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/axtSwap\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/axtSwap\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bigpsltopsl:
     name: ucsc-bigpsltopsl
     description: "# Ucsc-Bigpsltopsl\n\n> Convert bigpsl file to psle\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bigPslToPsl\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/bigPslToPsl\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-catdir:
     name: ucsc-catdir
     description: "# Ucsc-Catdir\n\n> Concatenate files in directory to stdout.\n\n\
-        > Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/catDir\n\
+        > Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/catDir\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-catuncomment:
     name: ucsc-catuncomment
     description: "# Ucsc-Catuncomment\n\n> Concatenate input removing lines that start\
-        \ with '#'\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome:\
+        \ with '#'\n\n> Licence: Custom License\n\nHome:\
         \ http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/catUncomment\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-checkagpandfa:
     name: ucsc-checkagpandfa
     description: "# Ucsc-Checkagpandfa\n\n> Takes a .agp file and .fa file and ensures\
-        \ that they are in synch\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ that they are in synch\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/checkAgpAndFa\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-checkcoveragegaps:
     name: ucsc-checkcoveragegaps
     description: "# Ucsc-Checkcoveragegaps\n\n> Check for biggest gap in coverage\
-        \ for a list of tracks.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ for a list of tracks.\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/checkCoverageGaps\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-checkhgfindspec:
     name: ucsc-checkhgfindspec
     description: "# Ucsc-Checkhgfindspec\n\n> Test and describe search specs in hgfindspec\
-        \ tables.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome:\
+        \ tables.\n\n> Licence: Custom License\n\nHome:\
         \ http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/checkHgFindSpec\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-checktablecoords:
     name: ucsc-checktablecoords
     description: "# Ucsc-Checktablecoords\n\n> Check invariants on genomic coords\
-        \ in table(s).\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\n\
+        \ in table(s).\n\n> Licence: Custom License\n\n\
         Home: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/checkTableCoords\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-chopfalines:
     name: ucsc-chopfalines
     description: "# Ucsc-Chopfalines\n\n> Read in fa file with long lines and rewrite\
-        \ it with shorter lines\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ it with shorter lines\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chopFaLines\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-chromgraphfrombin:
     name: ucsc-chromgraphfrombin
     description: "# Ucsc-Chromgraphfrombin\n\n> Convert chromgraph binary to ascii\
-        \ format.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome:\
+        \ format.\n\n> Licence: Custom License\n\nHome:\
         \ http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/chromGraphFromBin\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-countchars:
     name: ucsc-countchars
     description: "# Ucsc-Countchars\n\n> Count the number of occurrences of a particular\
-        \ char\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/countChars\n\
+        \ char\n\n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/countChars\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-dbsnoop:
     name: ucsc-dbsnoop
     description: "# Ucsc-Dbsnoop\n\n> Produce an overview of a database.\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/dbSnoop\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/dbSnoop\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-dbtrash:
     name: ucsc-dbtrash
     description: "# Ucsc-Dbtrash\n\n> Drop tables from a database older than specified\
-        \ n hours\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome:\
+        \ n hours\n\n> Licence: Custom License\n\nHome:\
         \ http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/dbTrash\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -51169,9 +51169,9 @@ ucsc-estorient:
         \ based on estorientinfo table or direction in gbcdnainfo table.  update psls\
         \ so that the strand reflects the direction of transcription. by default,\
         \ psls where the direction can't be determined are dropped. \n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/estOrient\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/estOrient\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -51180,7 +51180,7 @@ ucsc-faalign:
     description: "# Ucsc-Faalign\n\n> Align two fasta files\n\n> Licence: Varies;\
         \ See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faAlign\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -51189,43 +51189,43 @@ ucsc-facmp:
     description: "# Ucsc-Facmp\n\n> Compare two .fa files\n\n> Licence: Varies; See\
         \ Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faCmp\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-facount:
     name: ucsc-facount
     description: "# Ucsc-Facount\n\n> Count base statistics and cpgs in fa files.\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faCount\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faCount\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-fafilter:
     name: ucsc-fafilter
     description: "# Ucsc-Fafilter\n\n> Filter fa records, selecting ones that match\
-        \ the specified conditions\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ the specified conditions\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faFilter\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-fafiltern:
     name: ucsc-fafiltern
     description: "# Ucsc-Fafiltern\n\n> Get rid of sequences with too many n's\n\n\
-        > Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faFilterN\n\
+        > Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faFilterN\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-fafrag:
     name: ucsc-fafrag
     description: "# Ucsc-Fafrag\n\n> Extract a piece of dna from a .fa file.\n\n>\
-        \ Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faFrag\n\
+        \ Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faFrag\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -51234,16 +51234,16 @@ ucsc-fanoise:
     description: "# Ucsc-Fanoise\n\n> Add noise to .fa file\n\n> Licence: Varies;\
         \ See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faNoise\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-faonerecord:
     name: ucsc-faonerecord
     description: "# Ucsc-Faonerecord\n\n> Extract a single record from a .fa file\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faOneRecord\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faOneRecord\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -51252,16 +51252,16 @@ ucsc-fapolyasizes:
     description: "# Ucsc-Fapolyasizes\n\n> Get poly a sizes\n\n> Licence: Varies;\
         \ See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faPolyASizes\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-farandomize:
     name: ucsc-farandomize
     description: "# Ucsc-Farandomize\n\n> Program to create random fasta records\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faRandomize\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faRandomize\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -51270,153 +51270,153 @@ ucsc-farc:
     description: "# Ucsc-Farc\n\n> Reverse complement a fa file\n\n> Licence: Varies;\
         \ See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faRc\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-fasize:
     name: ucsc-fasize
     description: "# Ucsc-Fasize\n\n> Print total base count in fa files.\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faSize\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faSize\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-fasomerecords:
     name: ucsc-fasomerecords
     description: "# Ucsc-Fasomerecords\n\n> Extract multiple fa records\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faSomeRecords\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faSomeRecords\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-fastqtofa:
     name: ucsc-fastqtofa
     description: "# Ucsc-Fastqtofa\n\n> Convert from fastq to fasta format.\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/fastqToFa\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/fastqToFa\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-fatofastq:
     name: ucsc-fatofastq
     description: "# Ucsc-Fatofastq\n\n> Convert fa to fastq format, just faking quality\
-        \ values.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome:\
+        \ values.\n\n> Licence: Custom License\n\nHome:\
         \ http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faToFastq\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-fatotab:
     name: ucsc-fatotab
     description: "# Ucsc-Fatotab\n\n> Convert fa file to tab separated file\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faToTab\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faToTab\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-fatrans:
     name: ucsc-fatrans
     description: "# Ucsc-Fatrans\n\n> Translate dna .fa file to peptide\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faTrans\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/faTrans\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-featurebits:
     name: ucsc-featurebits
     description: "# Ucsc-Featurebits\n\n> Correlate tables via bitmap projections.\
-        \ \n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/featureBits\n\
+        \ \n\n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/featureBits\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-findmotif:
     name: ucsc-findmotif
     description: "# Ucsc-Findmotif\n\n> Find specified motif in sequence\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/findMotif\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/findMotif\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-gaptolift:
     name: ucsc-gaptolift
     description: "# Ucsc-Gaptolift\n\n> Create lift file from gap table(s)\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/gapToLift\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/gapToLift\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-genepredcheck:
     name: ucsc-genepredcheck
     description: "# Ucsc-Genepredcheck\n\n> Validate genepred files or tables\n\n\
-        > Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/genePredCheck\n\
+        > Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/genePredCheck\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-genepredfilter:
     name: ucsc-genepredfilter
     description: "# Ucsc-Genepredfilter\n\n> Filter a genepred file\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/genePredFilter\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/genePredFilter\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-genepredhisto:
     name: ucsc-genepredhisto
     description: "# Ucsc-Genepredhisto\n\n> Get data for generating histograms from\
-        \ a genepred file.\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ a genepred file.\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/genePredHisto\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-genepredsinglecover:
     name: ucsc-genepredsinglecover
     description: "# Ucsc-Genepredsinglecover\n\n> Create single-coverage genepred\
-        \ files\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome:\
+        \ files\n\n> Licence: Custom License\n\nHome:\
         \ http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/genePredSingleCover\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-hggcpercent:
     name: ucsc-hggcpercent
     description: "# Ucsc-Hggcpercent\n\n> Calculate gc percentage in 20kb windows\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/hgGcPercent\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/hgGcPercent\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-netclass:
     name: ucsc-netclass
     description: "# Ucsc-Netclass\n\n> Add classification info to net\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/netClass\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/netClass\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-netfilter:
     name: ucsc-netfilter
     description: "# Ucsc-Netfilter\n\n> Filter out parts of net.  what passes\n\n\
-        > Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/netFilter\n\
+        > Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/netFilter\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -51425,34 +51425,34 @@ ucsc-netsyntenic:
     description: "# Ucsc-Netsyntenic\n\n> Add synteny info to net.\n\n> Licence: Varies;\
         \ See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/netSyntenic\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-nettoaxt:
     name: ucsc-nettoaxt
     description: "# Ucsc-Nettoaxt\n\n> Convert net (and chain) to axt.\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/netToAxt\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/netToAxt\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-newpythonprog:
     name: ucsc-newpythonprog
     description: "# Ucsc-Newpythonprog\n\n> Make a skeleton for a new python program\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/newPythonProg\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/newPythonProg\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-nibfrag:
     name: ucsc-nibfrag
     description: "# Ucsc-Nibfrag\n\n> Extract part of a nib file as .fa (all bases/gaps\
-        \ lower case by default)\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\
+        \ lower case by default)\n\n> Licence: Custom License\n\
         \nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/nibFrag\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -51461,53 +51461,53 @@ ucsc-nibsize:
     description: "# Ucsc-Nibsize\n\n> Print size of nibs\n\n> Licence: Varies; See\
         \ Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/nibSize\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-oligomatch:
     name: ucsc-oligomatch
     description: "# Ucsc-Oligomatch\n\n> Find perfect matches in sequence.\n\n> Licence:\
-        \ Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/oligoMatch\n\
+        \ Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/oligoMatch\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-parafetch:
     name: ucsc-parafetch
     description: "# Ucsc-Parafetch\n\n> Try to fetch url with multiple connections\n\
-        \n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/paraFetch\n\
+        \n> Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/paraFetch\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-parasync:
     name: ucsc-parasync
     description: "# Ucsc-Parasync\n\n> Uses parafetch to recursively mirror url to\
-        \ given path\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\n\
+        \ given path\n\n> Licence: Custom License\n\n\
         Home: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/paraSync\n\n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-positionaltblcheck:
     name: ucsc-positionaltblcheck
     description: "# Ucsc-Positionaltblcheck\n\n> Check that positional tables are\
-        \ sorted\n\n> Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome:\
+        \ sorted\n\n> Licence: Custom License\n\nHome:\
         \ http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/positionalTblCheck\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-qactoqa:
     name: ucsc-qactoqa
     description: "# Ucsc-Qactoqa\n\n> Convert from compressed to uncompressed\n\n\
-        > Licence: Varies; See Http://Genome.Ucsc.Edu/License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/qacToQa\n\
+        > Licence: Custom License\n\nHome: http://hgdownload.cse.ucsc.edu/admin/exe/macOSX.x86_64/qacToQa\n\
         \n"
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -58373,14 +58373,14 @@ mea:
 ucsc-getrnapred:
     name: ucsc-getrnapred
     description: Get virtual RNA for gene predictions
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-getrna:
     name: ucsc-getrna
     description: Get mrna for GenBank or RefSeq sequences found in a database
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -58388,14 +58388,14 @@ ucsc-genepredtobiggenepred:
     name: ucsc-genepredtobiggenepred
     description: converts genePred or genePredExt to bigGenePred input (bed format
         with extra fields)
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-chromgraphtobin:
     name: ucsc-chromgraphtobin
     description: Make binary version of chromGraph.
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -58403,70 +58403,70 @@ ucsc-hgbbidblink:
     name: ucsc-hgbbidblink
     description: 'Add table that just contains a pointer to a bbiFile to database.  This
         program '
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-mktime:
     name: ucsc-mktime
     description: convert date string to unix timestamp
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-maftobigmaf:
     name: ucsc-maftobigmaf
     description: Put ucsc standard maf file into bigMaf format
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-ixixx:
     name: ucsc-ixixx
     description: 'Create indices for simple line-oriented file of format '
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-hubpubliccheck:
     name: ucsc-hubpubliccheck
     description: checks that the labels in hubPublic match what is in the hub labels
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-gff3topsl:
     name: ucsc-gff3topsl
     description: convert a GFF3 CIGAR file to a PSL file
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-pslrc:
     name: ucsc-pslrc
     description: reverse-complement psl
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-gmtime:
     name: ucsc-gmtime
     description: convert unix timestamp to date string
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-hgloadoutjoined:
     name: ucsc-hgloadoutjoined
     description: load new style (2014) RepeatMasker .out files into database
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-genepredtoprot:
     name: ucsc-genepredtoprot
     description: create protein sequences by translating gene annotations
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -58480,28 +58480,28 @@ pubchempy:
 ucsc-linestora:
     name: ucsc-linestora
     description: generate .ra format from lines with pipe-separated fields
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-headrest:
     name: ucsc-headrest
     description: Return all *but* the first N lines of a file.
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-netsplit:
     name: ucsc-netsplit
     description: Split a genome net file into chromosome net files
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-localtime:
     name: ucsc-localtime
     description: convert unix timestamp to date string
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -58509,70 +58509,70 @@ ucsc-bamtopsl:
     name: ucsc-bamtopsl
     description: Convert a bam file to a psl and optionally also a fasta file that
         contains the reads.
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-hgloadnet:
     name: ucsc-hgloadnet
     description: Load a generic net file into database
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-ldhggene:
     name: ucsc-ldhggene
     description: load database with gene predictions from a gff file.
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-hgsqldump:
     name: ucsc-hgsqldump
     description: Execute mysqldump using passwords from .hg.conf
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-transmappsltogenepred:
     name: ucsc-transmappsltogenepred
     description: convert PSL alignments of mRNAs to gene annotations.
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-mrnatogene:
     name: ucsc-mrnatogene
     description: convert PSL alignments of mRNAs to gene annotations
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-hgtrackdb:
     name: ucsc-hgtrackdb
     description: Create trackDb table from text files.
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-hgspeciesrna:
     name: ucsc-hgspeciesrna
     description: Create fasta file with RNA from one species
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-hgfindspec:
     name: ucsc-hgfindspec
     description: Create hgFindSpec table from trackDb.ra files.
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-bigmaftomaf:
     name: ucsc-bigmaftomaf
     description: convert bigMaf to maf file
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -58586,7 +58586,7 @@ ucsc-pslmappostchain:
 ucsc-maketablelist:
     name: ucsc-maketablelist
     description: create/recreate tableList tables (cache of SHOW TABLES and DESCRIBE)
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -60137,7 +60137,7 @@ amptk:
 ucsc-clustergenes:
     name: ucsc-clustergenes
     description: Cluster genes from genePred tracks
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -60710,16 +60710,16 @@ illumiprocessor:
     manually_check: true
 r-wicket:
     name: r-wicket
-    description:
-    license:
-    home_url:
+    description: "Utilities to generate bounding boxes from 'WKT' (Well-Known Text) objects and R data types, validate 'WKT' objects and convert object types from the 'sp' package into 'WKT' representations."
+    license: MIT
+    home_url: https://github.com/ropensci/wicket
     total_pulls: 0
     manually_check: true
 r-rvertnet:
     name: r-rvertnet
-    description:
-    license:
-    home_url:
+    description: "Retrieve, map and summarize data from the 'VertNet.org'. Functions allow searching by many parameters, including 'taxonomic' names, places, and dates."
+    license: MIT
+    home_url: https://github.com/ropensci/rvertnet
     total_pulls: 0
     manually_check: true
 r-ridigbio:
@@ -60860,8 +60860,7 @@ r-treesim:
     manually_check: true
 super-focus:
     name: super-focus
-    description: 'Super-focus: a tool for agile functional analysis of shotgun metagenomic
-        data'
+    description: 'Super-focus: a tool for agile functional analysis of shotgun metagenomic data'
     license: Not available
     home_url: https://edwards.sdsu.edu/SUPERFOCUS
     total_pulls: 0
@@ -60870,29 +60869,29 @@ meta-sparse:
     name: meta-sparse
     description: SPARSE indexes reference genomes in public databases into hierarchical
         clusters and uses it to predict origins of metagenomic reads.
-    license: GNU General Public License v3 (GPLv3)
+    license: GPL-3.0
     home_url: https://github.com/zheminzhou/SPARSE/
     total_pulls: 0
     manually_check: true
 r-funrar:
     name: r-funrar
-    description:
-    license:
-    home_url:
+    description: "Computes functional rarity indices as proposed by Violle et al. (2017)"
+    license: GPL-2.0+
+    home_url: https://github.com/Rekyt/funrar
     total_pulls: 0
     manually_check: true
 r-taxa:
     name: r-taxa
-    description:
-    license:
-    home_url:
+    description: "taxa defines taxonomic classes and functions to manipulate them. The goal is to use these classes as low level fundamental taxonomic classes that other R packages can build on and supply robust manipulation functions (e.g. subsetting) that are broadly useful."
+    license: Custom License
+    home_url: https://github.com/ropensci/taxa
     total_pulls: 0
     manually_check: true
 bcov:
     name: bcov
     description: BCov is a software package designed for predicting protein beta-sheet
         topology from amino acid sequence.
-    license: file
+    license: GPL-3.0
     home_url: http://biocomp.unibo.it/savojard/bcov/index.html
     total_pulls: 0
     manually_check: true
@@ -60916,23 +60915,22 @@ pisces:
     manually_check: true
 pathwaymatcher:
     name: pathwaymatcher
-    description: "Pathwaymatcher is a software tool writen in java to search for pathways\
-        \ related to a list of proteins in reactome.\n"
-    license: Not available
+    description: "Pathwaymatcher is a software tool writen in java to search for pathways related to a list of proteins in reactome.\n"
+    license: Apache-2.0
     home_url: https://github.com/PathwayAnalysisPlatform/PathwayMatcher
     total_pulls: 0
     manually_check: true
 confindr:
     name: confindr
     description: Detect intra- and inter-species bacterial contamination in ngs reads
-    license: Not available
+    license: MIT
     home_url: https://github.com/OLC-Bioinformatics/ConFindr
     total_pulls: 0
     manually_check: true
 phyluce:
     name: phyluce
     description: Software for uce (and general) phylogenomics.
-    license: Not available
+    license: Custom License
     home_url: https://github.com/faircloth-lab/phyluce
     total_pulls: 0
     manually_check: true
@@ -60940,9 +60938,9 @@ phyluce:
        -    doi:10.1093/bioinformatics/btv646
 r-kinship2:
     name: r-kinship2
-    description:
-    license:
-    home_url:
+    description: "Routines to handle family data with a pedigree object. The initial purpose was to create correlation structures that describe family relationships such as kinship and identity-by-descent, which can be used to model family data in mixed effects models, such as in the coxme function."
+    license: GPL-2.
+    home_url: https://CRAN.R-project.org/package=kinship2
     total_pulls: 0
     manually_check: true
 biopet-sampleconfig:
@@ -61057,21 +61055,21 @@ ucsc-websync:
     name: ucsc-websync
     description: download from https server, using files.txt on their end to get the
         list of files
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-pslsomerecords:
     name: ucsc-pslsomerecords
     description: Extract multiple psl records
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-paratestjob:
     name: ucsc-paratestjob
     description: version 12.18
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -61088,63 +61086,63 @@ ucsc-parasol:
 ucsc-paranodestatus:
     name: ucsc-paranodestatus
     description: version 12.18
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-paranodestart:
     name: ucsc-paranodestart
     description: version 12.18
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-paranode:
     name: ucsc-paranode
     description: version 12.18
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-parahubstop:
     name: ucsc-parahubstop
     description: version 12.18
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-parahub:
     name: ucsc-parahub
     description: parasol hub server version 12.18
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-para:
     name: ucsc-para
     description: version 12.18
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-hgloadsqltab:
     name: ucsc-hgloadsqltab
     description: Load table into database from SQL and text files.
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-gensub2:
     name: ucsc-gensub2
     description: version 12.18
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 ucsc-endsinlf:
     name: ucsc-endsinlf
     description: Check that last letter in files is end of line
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -61162,7 +61160,7 @@ ucsc-bedjointaboffset:
         values: first get the value of column0, the offset and line length from inTabFile.
         Then go over the bed file, use the name field and append its offset and length
         to the bed file as two separate fields. Write the new bed file to outBed.'
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -64793,7 +64791,7 @@ bioconductor-paxtoolsr:
 ucsc-hggoldgapgl:
     name: ucsc-hggoldgapgl
     description: Put chromosome .agp and .gl files into browser database.
-    license: varies; see http://genome.ucsc.edu/license
+    license: Custom License
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
@@ -67170,8 +67168,7 @@ perl-fastx-abi:
     manually_check: true
 escher:
     name: escher
-    description: 'Escher: a web application for building, sharing, and embedding data-rich
-        visualizations of metabolic pathways'
+    description: 'Escher: a web application for building, sharing, and embedding data-rich visualizations of metabolic pathways'
     license: MIT
     home_url: https://escher.github.io
     total_pulls: 0
@@ -67459,8 +67456,7 @@ jarvis:
     manually_check: true
 conterminator:
     name: conterminator
-    description: 'Conterminator: software to detect contamination in large sequence
-        sets'
+    description: 'Conterminator: software to detect contamination in large sequence sets'
     license: GPL3
     home_url: https://github.com/martin-steinegger/conterminator
     total_pulls: 0
