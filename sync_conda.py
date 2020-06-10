@@ -11,7 +11,7 @@ from bioconda_utils.recipe import (
 
 yaml = YAML()
 yaml_recipe = YAML(typ="rt")  # pylint: disable=invalid-name
-with open('annotations.yaml', 'r') as read_file:
+with open('annotations.yaml.previous.previous', 'r') as read_file:
     file_annotations = yaml.load(read_file)
 
 recipes_path = "../bioconda-recipes/recipes/"
@@ -75,6 +75,6 @@ for key in file_annotations:
 
 # writing missing
 
-yaml.indent(mapping=4, sequence=8, offset=3)
-with open('missing_annotations.yaml', 'w') as outfile:
+yaml.indent(mapping=4, sequence=6, offset=2)
+with open('annotations.yaml.previous.previous', 'w') as outfile:
     yaml.dump(tools, outfile)
