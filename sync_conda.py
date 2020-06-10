@@ -1,8 +1,9 @@
 import os
+import urllib
 
 from bioconda_utils import recipe
 from ruamel.yaml import YAML
-
+import urllib3
 from bioconda_utils.recipe import (
     Recipe,
     EmptyRecipe, MissingMetaYaml, RenderFailure, DuplicateKey, MissingKey
@@ -16,22 +17,7 @@ with open('annotations.yaml', 'r') as read_file:
 recipes_path = "../bioconda-recipes/recipes/"
 tools = {}
 
-
-def read_template(conda_file):
-    # data = {}
-    # for cnt, line in enumerate(conda_file):
-    #     print("Line {}: {}".format(cnt, line))
-    #     if 'summary:' in line:
-    #         data['description'] = line.replace("summary:", "").strip()
-    #     if 'license:' in line:
-    #         data['license'] = line.replace("license:", "").strip()
-    #     if 'home:' in line:
-    #         line = line.replace("home:", "")
-    #         data['home'] = line.strip()
-
-    return data
-
-
+### Annotate bioconductor package
 for key in file_annotations:
     tool = file_annotations[key]
 
@@ -40,16 +26,16 @@ for key in file_annotations:
     try:
         current_recipe = recipe.Recipe.from_file(recipes_path, meta_yaml_path)
         if 'about' in current_recipe.meta:
-            if 'summary' in current_recipe.meta['about']:
+            if 'summary' in current_recipe.meta['about'] and (
+                    tool['description'] is None or len(tool['description']) == 0):
                 tool['description'] = current_recipe.meta['about']['summary']
-            if 'license' in current_recipe.meta['about']:
+            if 'license' in current_recipe.meta['about'] and (tool['license'] is None or len(tool['license']) == 0):
                 tool['license'] = current_recipe.meta['about']['license']
-            if 'home' in current_recipe.meta['about']:
+            if 'home' in current_recipe.meta['about'] and (tool['home_url'] is None or len(tool['home_url']) == 0):
                 tool['home_url'] = current_recipe.meta['about']['home']
         if 'extra' in current_recipe.meta:
             if 'identifiers' in current_recipe.meta['extra']:
                 tool["identifiers"] = current_recipe.meta['extra']["identifiers"]
-        tools[key] = tool
     except Exception as e:
         try:
             bioconda_recipes_path = os.path.split(recipes_path)[0]
@@ -59,25 +45,36 @@ for key in file_annotations:
             meta_yaml_path = bioconda_recipes_path + "/meta.yaml"
             current_recipe = recipe.Recipe.from_file(recipes_path, meta_yaml_path)
             if 'about' in current_recipe.meta:
-                if 'summary' in current_recipe.meta['about']:
+                if 'summary' in current_recipe.meta['about'] and (tool['description'] is None or len(tool['description']) ==0):
                     tool['description'] = current_recipe.meta['about']['summary']
-                if 'license' in current_recipe.meta['about']:
+                if 'license' in current_recipe.meta['about'] and (tool['license'] is None or len(tool['license']) ==0):
                     tool['license'] = current_recipe.meta['about']['license']
-                if 'home' in current_recipe.meta['about']:
+                if 'home' in current_recipe.meta['about'] and (tool['home_url'] is None or len(tool['home_url']) ==0):
                     tool['home_url'] = current_recipe.meta['about']['home']
             if 'extra' in current_recipe.meta:
                 if 'identifiers' in current_recipe.meta['extra']:
                     tool["identifiers"] = current_recipe.meta['extra']["identifiers"]
-                tools[key] = tool
+
         except Exception as e:
             print("Error reading -- " + key + " Error -- " + str(e))
 
+        if 'bioconductor' in key:
+            key_bio = key.replace("bioconductor-", "")
+            url = "https://www.bioconductor.org/packages/release/bioc/html/" + key_bio + ".html"
+            try:
+                with urllib.request.urlopen(url) as url:
+                    s = url.read()
+                    tool['home_url'] = key_bio
+                    print(s)
 
+            except Exception as e:
+                print("Error reading -- " + key + " Error -- " + str(url))
 
-
+            print(tool['home_url'])
+    tools[key] = tool
 
 # writing missing
 
-yaml.indent(mapping=4, sequence=6, offset=3)
+yaml.indent(mapping=4, sequence=8, offset=3)
 with open('missing_annotations.yaml', 'w') as outfile:
     yaml.dump(tools, outfile)
