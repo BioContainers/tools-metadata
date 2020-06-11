@@ -11,7 +11,7 @@ from bioconda_utils.recipe import (
 
 yaml = YAML()
 yaml_recipe = YAML(typ="rt")  # pylint: disable=invalid-name
-with open('annotations.yaml.previous.previous', 'r') as read_file:
+with open('annotations.yaml', 'r') as read_file:
     file_annotations = yaml.load(read_file)
 
 recipes_path = "../bioconda-recipes/recipes/"
