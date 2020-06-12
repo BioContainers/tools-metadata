@@ -80,21 +80,20 @@ tools = {}
 for key in file_annotations:
     tool = file_annotations[key]
     url = tool['home_url']
-    if "github" in tool['home_url']:
-        try:
-            dois = retrieve_doi(url)
-            print(dois)
-            if len(dois) > 0:
-                identifiers = []
-                if 'identifiers' in tool:
-                    identifiers = tools['identifiers']
-                for doi in dois:
-                    identifiers.append('doi:' + doi)
-                identifiers = list(dict.fromkeys(identifiers))
-                tool['identifiers'] = identifiers
-                print(identifiers)
-        except Exception as e:
-            print("Error reading -- " + key + " Error -- " + str(url))
+    try:
+        dois = retrieve_doi(url)
+        print(dois)
+        if len(dois) > 0:
+            identifiers = []
+            if 'identifiers' in tool:
+                identifiers = tools['identifiers']
+            for doi in dois:
+                identifiers.append('doi:' + doi)
+            identifiers = list(dict.fromkeys(identifiers))
+            tool['identifiers'] = identifiers
+            print(identifiers)
+    except Exception as e:
+        print("Error reading -- " + key + " Error -- " + str(url))
 
     print(tool['home_url'])
     tools[key] = tool
