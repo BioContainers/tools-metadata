@@ -3,18 +3,16 @@ import urllib
 
 from bioconda_utils import recipe
 from ruamel.yaml import YAML
-import urllib3
-from bioconda_utils.recipe import (
-    Recipe,
-    EmptyRecipe, MissingMetaYaml, RenderFailure, DuplicateKey, MissingKey
-)
 
+"""
+This script read the metadata from bioconda repo and annotate the metadata from the recipes in the tools 
+"""
 yaml = YAML()
 yaml_recipe = YAML(typ="rt")  # pylint: disable=invalid-name
-with open('annotations.yaml', 'r') as read_file:
+with open('../annotations.yaml', 'r') as read_file:
     file_annotations = yaml.load(read_file)
 
-recipes_path = "../bioconda-recipes/recipes/"
+recipes_path = "../../bioconda-recipes/recipes/"
 tools = {}
 
 ### Annotate bioconductor package
