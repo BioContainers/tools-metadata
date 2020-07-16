@@ -24828,14 +24828,14 @@ r-swamp:
         the inter-relation between sample annotations can be analyzed. simple methods
         are provided for the correction of batch effects and removal of principal
         components.'
-    license: GPL-2 | GPL-3 [expanded from: GPL (≥ 2)]
+    license: "GPL-2.0"
     home_url: https://CRAN.R-project.org/package=swamp
     total_pulls: 3
     manually_check: true
 bioconductor-banocc:
     name: bioconductor-banocc
     description: Bayesian analysis of compositional covariance
-    license: MIT 
+    license: MIT
     home_url: https://bioconductor.org/packages/3.11/bioc/html/banocc.html
     total_pulls: 3
     manually_check: true
@@ -30782,7 +30782,7 @@ r-ncbit:
     name: r-ncbit
     description: Making ncbi taxonomic data locally available and searchable as an
         r object
-    license: GPL-2 | GPL-3 [expanded from: GPL (≥ 2)]
+    license: "GPL-2 | GPL-3 [expanded from: GPL (≥ 2)]"
     home_url: https://CRAN.R-project.org/package=ncbit
     total_pulls: 3
     manually_check: true
@@ -38493,7 +38493,7 @@ bioconductor-genestructuretools:
 bioconductor-maser:
     name: bioconductor-maser
     description: Mapping alternative splicing events to proteins
-    license: MIT 
+    license: MIT
     home_url: https://bioconductor.org/packages/3.11/bioc/html/maser.html
     total_pulls: 3
     manually_check: true
@@ -38510,8 +38510,7 @@ bioconductor-mcsea:
       -   doi:10.18129/b9.bioc.mcsea
 bioconductor-listeretalbsseq:
     name: bioconductor-listeretalbsseq
-    description: Bs-seq data of h1 and imr90 cell line excerpted from lister et al.
-        2009
+    description: Bs-seq data of h1 and imr90 cell line excerpted from lister et al. 2009
     license: Artistic 2.0
     home_url: https://bioconductor.org/packages/3.11/data/experiment/html/ListerEtAlBSseq.html
     total_pulls: 3
@@ -38678,7 +38677,7 @@ bioconductor-scoreinvhap:
 bioconductor-seqcat:
     name: bioconductor-seqcat
     description: High throughput sequencing cell authentication toolkit
-    license: MIT 
+    license: MIT
     home_url: https://bioconductor.org/packages/3.11/bioc/html/seqCAT.html
     total_pulls: 3
     manually_check: true
@@ -39298,7 +39297,7 @@ bioconductor-props:
 bioconductor-metagene:
     name: bioconductor-metagene
     description: A package to produce metagene plots
-    license:Artistic-2.0 | file LICENSE
+    license: Artistic-2.0 | file LICENSE
     home_url: https://bioconductor.org/packages/3.11/bioc/html/metagene.html
     total_pulls: 3
     manually_check: true
@@ -62174,11 +62173,9 @@ pygresql:
     manually_check: true
 intervaltree:
     name: intervaltree
-    description: "# Intervaltree\n\n> Editable interval tree data structure for python\
-        \ 2 and 3\n\n> Licence: Apache Software License\n\nHome: https://files.pythonhosted.org/packages/ca/c1/450d109b70fa58ca9d77972b02f69222412f9175ccf99fdeaf167be9583c/intervaltree-2.1.0.tar.gz\n\
-        \n"
-    license:perl_5
-    home_url:https://metacpan.org/pod/IntervalTree
+    description: "Editable interval tree data structure for python"
+    license: perl_5
+    home_url: https://metacpan.org/pod/IntervalTree
     total_pulls: 0
     manually_check: false
 r-futile.logger:
@@ -63240,8 +63237,8 @@ involucro:
 mono:
     name: mono
     description: Inline-MonoCS
-    license:perl_5
-    home_url:https://metacpan.org/pod/Inline::MonoCS
+    license: perl_5
+    home_url: https://metacpan.org/pod/Inline::MonoCS
     total_pulls: 0
     manually_check: false
 abundancebin:
