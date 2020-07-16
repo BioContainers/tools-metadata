@@ -1,0 +1,38 @@
+nf-core/eager:
+    name: nf-core/eager
+    description: nf-core/eager is a bioinformatics best-practice analysis pipeline for NGS sequencing based ancient DNA (aDNA) data analysis. The pipeline uses Nextflow, a bioinformatics workflow tool. It pre-processes raw data from FASTQ inputs, or preprocessed BAM inputs. It can align reads and performs extensive general NGS and aDNA specific quality-control on the results. It comes with docker, singularity or conda containers making installation trivial and results highly reproducible.
+    license: MIT
+    home_url: https://github.com/nf-core/eager
+    manually_check: true
+    related_tools:
+        - rename
+        - fastqc
+        - adapterremoval
+        - adapterremovalfixprefix
+        - bwa
+        - picard
+        - samtools
+        - dedup
+        - angsd
+        - circularmapper
+        - gatk4
+        - qualimap
+        - vcf2genome
+        - damageprofiler
+        - multiqc
+        - pmdtools
+        - bedtools
+        - sequencetools
+        - preseq
+        - fastp
+        - bamutil
+        - mtnucratio
+        - pysam
+        - python
+        - kraken2
+        - freebayes
+        - sexdeterrmine
+        - multivcfanalyzer
+        - hops
+        - biopython
+        - xopen

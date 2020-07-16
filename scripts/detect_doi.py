@@ -5,6 +5,13 @@ import urllib
 import re
 from collections import OrderedDict
 
+"""
+This script takes url with html and try to detect links to doi files (publications). The input of the script is the ../annotations.yaml. 
+For each tool in the annotatios.yaml, the scripts read the home_url for each tool, get the html and try to detect doi urls. 
+
+The output of the script will will go to a new file missing_annotations.yaml. The curator needs to finally accept the new changes. 
+"""
+
 # DOI regular expressions
 doiurl_re = re.compile("doi:\s?(10\.[a-z0-9\-._:;()/<>]+)", re.U)  # Matches doi:(10. ... )
 doispace_re = re.compile("doi\s?(10\.[a-z0-9\-._:;()/<>]+)", re.U)  # Matches doi (10. ... )
@@ -71,7 +78,7 @@ def find_doi_string_regex(urls):
 
 yaml = YAML()
 yaml_recipe = YAML(typ="rt")  # pylint: disable=invalid-name
-with open('annotations.yaml', 'r') as read_file:
+with open('../annotations.yaml', 'r') as read_file:
     file_annotations = yaml.load(read_file)
 
 tools = {}
