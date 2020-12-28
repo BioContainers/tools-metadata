@@ -512,6 +512,7 @@ augustus:
       -   Multigene Family
       -   Sequence Alignment
       -   Sequence Analysis, Protein
+      -   Proteomics
 fastp:
     name: fastp
     description: A tool designed to provide fast all-in-one preprocessing for fastq
@@ -733,6 +734,8 @@ tpp:
     home_url: https://bioconductor.org/packages/TPP/
     total_pulls: 8530
     manually_check: true
+    keywords:
+      -   Proteomics
 mash:
     name: mash
     description: Fast genome and metagenome distance estimation using minhash.
@@ -3746,6 +3749,8 @@ openms:
     home_url: http://www.openms.de
     total_pulls: 1762
     manually_check: true
+    keywords:
+      -   Proteomics
 export2graphlan:
     name: export2graphlan
     description: Conversion software tool for annotating tree with graphlan
@@ -3966,6 +3971,7 @@ eggnog-mapper:
       -   Molecular Sequence Annotation
       -   Phylogeny
       -   Proteome
+      -   Proteomics
       -   Sequence Alignment
       -   Sequence Homology
       -   Structure-Activity Relationship
@@ -4091,6 +4097,7 @@ xtandem:
       -   Information Storage and Retrieval
       -   Mass Spectrometry
       -   Proteins
+      -   Proteomics
       -   Sequence Alignment
       -   Sequence Analysis, Protein
       -   Sequence Homology, Amino Acid
@@ -4681,6 +4688,8 @@ pepnovo:
     manually_check: true
     identifiers:
       -   biotools:pepnovo
+    keywords:
+      -   Proteomics
 artic:
     name: artic
     description: Artic pipeline - a bioinformatics pipeline for working with virus
@@ -7663,6 +7672,8 @@ mpa-portable:
     home_url: https://github.com/compomics/meta-proteome-analyzer
     total_pulls: 21
     manually_check: true
+    keywords:
+      -   Proteomics
 sevenbridges-python:
     name: sevenbridges-python
     description: SBG API python client bindings
@@ -7775,6 +7786,8 @@ msstitch:
     home_url: https://github.com/lehtiolab/msstitch
     total_pulls: 20
     manually_check: true
+    keywords:
+      -   Proteomics
 mapdamage2:
     name: mapdamage2
     description: 'mapDamage: tracking and quantifying damage patterns in ancient DNA
@@ -7857,6 +7870,8 @@ pyopenms:
     home_url: https://github.com/OpenMS/OpenMS
     total_pulls: 20
     manually_check: true
+    keywords:
+      -   Proteomics
 sanitizeme:
     name: sanitizeme
     description: GUI and CLI tool for removing host DNA from NGS data.
@@ -8099,7 +8114,7 @@ bioconductor-gviz:
 bioconductor-variantannotation:
     name: bioconductor-variantannotation
     description: Bioconductor annotation of genetic variants
-    license: 	Artistic-2.0
+    license: Artistic-2.0
     home_url: https://bioconductor.org/packages/VariantAnnotation/
     total_pulls: 18
     manually_check: true
@@ -8916,6 +8931,8 @@ mpa-server:
     home_url: https://github.com/compomics/meta-proteome-analyzer
     total_pulls: 15
     manually_check: true
+    keywords:
+      -   Proteomics
 bioconductor-multtest:
     name: bioconductor-multtest
     description: Bioconductor resampling-based multiple hypothesis testing
@@ -12736,6 +12753,8 @@ mztosqlite:
     home_url: https://github.com/jj-umn/mztosqlite
     total_pulls: 5
     manually_check: true
+    keywords:
+      -   Proteomics
 vcfkit:
     name: vcfkit
     description: VCF-kit is a command-line based collection of utilities for performing
@@ -13982,6 +14001,8 @@ r-msqrob:
     home_url: https://github.com/statOmics/MSqRob
     total_pulls: 5
     manually_check: true
+    keywords:
+      -   Proteomics
 fred2:
     name: fred2
     description: Python-based framework for computational immunomics.
@@ -15459,6 +15480,8 @@ quantwiz-iq:
     home_url: https://sourceforge.net/projects/quantwiz/
     total_pulls: 5
     manually_check: true
+    keywords:
+      -   Proteomics
 r-velocyto.r:
     name: r-velocyto.r
     description: RNA velocity estimation in R
@@ -15867,6 +15890,8 @@ pyteomics:
     identifiers:
       -   biotools:pyteomics
     manually_check: true
+    keywords:
+      -   Proteomics
 bellmans-gapc:
     name: bellmans-gapc
     description: A language and compiler for algebraic dynamic programming.
@@ -15946,6 +15971,8 @@ metfrag:
     home_url: http://c-ruttkies.github.io/MetFrag/
     total_pulls: 4
     manually_check: true
+    keywords:
+      -   Proteomics
 nanolyse:
     name: nanolyse
     description: Removing lambda DNA control reads from fastq dataset
@@ -16620,7 +16647,7 @@ sword:
 insilicoseq:
     name: insilicoseq
     description: A sequencing simulator.
-    license:MIT
+    license: MIT
     home_url: https://github.com/HadrienG/InSilicoSeq
     total_pulls: 4
     manually_check: true
@@ -16676,6 +16703,8 @@ dinosaur:
     home_url: https://github.com/fickludd/dinosaur
     total_pulls: 4
     manually_check: true
+    keywords:
+      -   Proteomics
 cmsip:
     name: cmsip
     description: A package for detecting differential 5hmc regions from cms-ip sequencing
@@ -17360,8 +17389,7 @@ pygmes:
     manually_check: true
 quantiprot:
     name: quantiprot
-    description: Quantiprot is a python package for quantitative analysis of protein
-        sequences
+    description: Quantiprot is a python package for quantitative analysis of protein sequences
     license: MIT 
     home_url: https://git.e-science.pl/wdyrka/quantiprot
     total_pulls: 4
@@ -17773,6 +17801,8 @@ bioconductor-nparc:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.nparc
+    keywords:
+      -   Proteomics
 bioconductor-dialignr:
     name: bioconductor-dialignr
     description: Dynamic Programming Based Alignment of MS2 Chromatograms
@@ -17791,6 +17821,8 @@ bioconductor-mscoreutils:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.mscoreutils
+    keywords:
+      -   Proteomics
 bioconductor-scthi.data:
     name: bioconductor-scthi.data
     description: The package contains examples of single cell data used in vignettes
@@ -18863,6 +18895,8 @@ bioconductor-camera:
     identifiers:
       -   biotools:camera
     manually_check: true
+    keywords:
+      -   Proteomics
 bioconductor-category:
     name: bioconductor-category
     description: A collection of tools for performing categoric analysis.
@@ -19379,6 +19413,7 @@ bioconductor-protgenerics:
       -   High-Throughput Screening Assays
       -   Programming Languages
       -   User-Computer Interface
+      -   Proteomics
 bioconductor-qdnaseq:
     name: bioconductor-qdnaseq
     description: Quantitative DNA Sequencing for Chromosomal Aberrations
@@ -19958,6 +19993,8 @@ bioconductor-customprodb:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.customprodb
+    keywords:
+      -   Proteomics
 bioconductor-cardinal:
     name: bioconductor-cardinal
     description: A mass spectrometry imaging toolbox for statistical analysis
@@ -20266,6 +20303,8 @@ bioconductor-massspecwavelet:
     identifiers:
       -   biotools:massspecwavelet
     manually_check: true
+    keywords:
+      -   Proteomics
 bioconductor-synergyfinder:
     name: bioconductor-synergyfinder
     description: Calculate and Visualize Synergy Scores for Drug Combinations
@@ -21879,6 +21918,8 @@ bioconductor-plgem:
     identifiers:
       -   biotools:plgem
     manually_check: true
+    keywords:
+      -   Proteomics
 bioconductor-plier:
     name: bioconductor-plier
     description: Implements the Affymetrix PLIER algorithm
@@ -21982,6 +22023,7 @@ bioconductor-psicquic:
       -   High-Throughput Screening Assays
       -   Programming Languages
       -   User-Computer Interface
+      -   Proteomics
 bioconductor-pvac:
     name: bioconductor-pvac
     description: PCA-based gene filtering for Affymetrix arrays
@@ -24538,6 +24580,8 @@ bioconductor-msnbase:
     identifiers:
       -   biotools:msnbase
     manually_check: true
+    keywords:
+      -   Proteomics
 bioconductor-jaspar2016:
     name: bioconductor-jaspar2016
     description: Data package for JASPAR 2016
@@ -24681,6 +24725,7 @@ bioconductor-metcirc:
     keywords:
       -   Flowers
       -   Metabolomics
+      -   Proteomics
       -   Tandem Mass Spectrometry
       -   Tobacco
 bioconductor-metaarray:
@@ -24829,14 +24874,14 @@ r-swamp:
         the inter-relation between sample annotations can be analyzed. simple methods
         are provided for the correction of batch effects and removal of principal
         components.'
-    license: GPL-2 | GPL-3 [expanded from: GPL (≥ 2)]
+    license: "GPL-2.0"
     home_url: https://CRAN.R-project.org/package=swamp
     total_pulls: 3
     manually_check: true
 bioconductor-banocc:
     name: bioconductor-banocc
     description: Bayesian analysis of compositional covariance
-    license: MIT 
+    license: MIT
     home_url: https://bioconductor.org/packages/3.11/bioc/html/banocc.html
     total_pulls: 3
     manually_check: true
@@ -26062,6 +26107,7 @@ bioconductor-globalancova:
       -   Models, Biological
       -   Multigene Family
       -   Proteome
+      -   Proteomics
       -   Signal Transduction
       -   User-Computer Interface
 bioconductor-ggbase:
@@ -26236,6 +26282,7 @@ bioconductor-process:
       -   High-Throughput Screening Assays
       -   Programming Languages
       -   User-Computer Interface
+      -   Proteomics
 bioconductor-annotationhubdata:
     name: bioconductor-annotationhubdata
     description: These recipes convert a wide variety and a growing number of public
@@ -26270,6 +26317,7 @@ bioconductor-proteomicsannotationhubdata:
       -   High-Throughput Screening Assays
       -   Programming Languages
       -   User-Computer Interface
+      -   Proteomics
 bioconductor-philr:
     name: bioconductor-philr
     description: Phylogenetic partitioning based ILR transform for metagenomics data
@@ -26451,6 +26499,7 @@ bioconductor-apcomplex:
       -   Models, Biological
       -   Protein Interaction Mapping
       -   Proteome
+      -   Proteomics
       -   Signal Transduction
       -   Transcription Factors
 bioconductor-scisi:
@@ -26954,6 +27003,8 @@ bioconductor-specl:
     identifiers:
       -   biotools:specl
     manually_check: true
+    keywords:
+      -   Proteomics
 bioconductor-qcmetrics:
     name: bioconductor-qcmetrics
     description: A Framework for Quality Control
@@ -27499,6 +27550,8 @@ bioconductor-proloc:
     manually_check: true
     identifiers:
       -   biotools:proloc
+    keywords:
+      -   Proteomics
 bioconductor-quartpac:
     name: bioconductor-quartpac
     description: Identification of mutational clusters in protein quaternary structures.
@@ -27883,6 +27936,7 @@ bioconductor-msnid:
       -   High-Throughput Screening Assays
       -   Programming Languages
       -   User-Computer Interface
+      -   Proteomics
 bioconductor-director:
     name: bioconductor-director
     description: R package designed to streamline the visualization of molecular effects
@@ -30101,6 +30155,7 @@ bioconductor-translatome:
       -   Humans
       -   Protein Biosynthesis
       -   Proteome
+      -   Proteomics
       -   RNA, Messenger
       -   Regulatory Sequences, Nucleic Acid
       -   Transcriptome
@@ -30783,7 +30838,7 @@ r-ncbit:
     name: r-ncbit
     description: Making ncbi taxonomic data locally available and searchable as an
         r object
-    license: GPL-2 | GPL-3 [expanded from: GPL (≥ 2)]
+    license: "GPL-2 | GPL-3 [expanded from: GPL (≥ 2)]"
     home_url: https://CRAN.R-project.org/package=ncbit
     total_pulls: 3
     manually_check: true
@@ -31112,6 +31167,8 @@ bioconductor-deqms:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.deqms
+    keywords:
+      -   Proteomics
 r-leapp:
     name: r-leapp
     description: These functions take a gene expression value matrix, a primary covariate
@@ -31671,6 +31728,8 @@ bioconductor-msstats:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.msstats
+    keywords:
+      -   Proteomics
 bioconductor-msstatstmt:
     name: bioconductor-msstatstmt
     description: Protein Significance Analysis in shotgun mass spectrometry-based
@@ -33306,6 +33365,8 @@ bioconductor-sdams:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.sdams
+    keywords:
+      -   Proteomics
 bioconductor-sigfeature:
     name: bioconductor-sigfeature
     description: 'sigFeature: Significant feature selection using SVM-RFE & t-statistic'
@@ -33463,6 +33524,8 @@ bioconductor-tpp:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.tpp
+    keywords:
+      -   Proteomics
 bioconductor-tweedeseqcountdata:
     name: bioconductor-tweedeseqcountdata
     description: RNA-seq count data employed in the vignette of the tweeDEseq package
@@ -33799,6 +33862,8 @@ bioconductor-assessorf:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.assessorf
+    keywords:
+      -   Proteomics
 bioconductor-aracne.networks:
     name: bioconductor-aracne.networks
     description: Aracne-inferred gene networks from tcga tumor datasets
@@ -34318,6 +34383,8 @@ bioconductor-proteomm:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.proteomm
+    keywords:
+      -   Proteomics
 bioconductor-hmp16sdata:
     name: bioconductor-hmp16sdata
     description: 16s rrna sequencing data from the human microbiome project
@@ -36118,6 +36185,8 @@ bioconductor-isobar:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.isobar
+    keywords:
+      -   Proteomics
 bioconductor-org.eck12.eg.db:
     name: bioconductor-org.eck12.eg.db
     description: Genome wide annotation for e coli strain k12
@@ -38494,7 +38563,7 @@ bioconductor-genestructuretools:
 bioconductor-maser:
     name: bioconductor-maser
     description: Mapping alternative splicing events to proteins
-    license: MIT 
+    license: MIT
     home_url: https://bioconductor.org/packages/3.11/bioc/html/maser.html
     total_pulls: 3
     manually_check: true
@@ -38511,8 +38580,7 @@ bioconductor-mcsea:
       -   doi:10.18129/b9.bioc.mcsea
 bioconductor-listeretalbsseq:
     name: bioconductor-listeretalbsseq
-    description: Bs-seq data of h1 and imr90 cell line excerpted from lister et al.
-        2009
+    description: Bs-seq data of h1 and imr90 cell line excerpted from lister et al. 2009
     license: Artistic 2.0
     home_url: https://bioconductor.org/packages/3.11/data/experiment/html/ListerEtAlBSseq.html
     total_pulls: 3
@@ -38679,7 +38747,7 @@ bioconductor-scoreinvhap:
 bioconductor-seqcat:
     name: bioconductor-seqcat
     description: High throughput sequencing cell authentication toolkit
-    license: MIT 
+    license: MIT
     home_url: https://bioconductor.org/packages/3.11/bioc/html/seqCAT.html
     total_pulls: 3
     manually_check: true
@@ -39299,7 +39367,7 @@ bioconductor-props:
 bioconductor-metagene:
     name: bioconductor-metagene
     description: A package to produce metagene plots
-    license:Artistic-2.0 | file LICENSE
+    license: Artistic-2.0 | file LICENSE
     home_url: https://bioconductor.org/packages/3.11/bioc/html/metagene.html
     total_pulls: 3
     manually_check: true
@@ -40340,6 +40408,8 @@ bioconductor-dep:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.dep
+    keywords:
+      -   Proteomics
 bioconductor-prolocdata:
     name: bioconductor-prolocdata
     description: Data accompanying the pRoloc package
@@ -40450,6 +40520,8 @@ bioconductor-topdownr:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.topdownr
+    keywords:
+      -   Proteomics
 bioconductor-topdownrdata:
     name: bioconductor-topdownrdata
     description: Example Files for the topdownr R Package
@@ -40468,6 +40540,8 @@ bioconductor-powerexplorer:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.powerexplorer
+    keywords:
+      -   Proteomics
 bioconductor-crossmeta:
     name: bioconductor-crossmeta
     description: Cross platform meta-analysis of microarray data
@@ -42499,6 +42573,8 @@ bioconductor-rforproteomics:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.rforproteomics
+    keywords:
+      -   Proteomics
 bioconductor-cytodx:
     name: bioconductor-cytodx
     description: Robust prediction of clinical outcomes using cytometry data without
@@ -42611,6 +42687,8 @@ bioconductor-sapfinder:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.sapfinder
+    keywords:
+      -   Proteomics
 bioconductor-shinytandem:
     name: bioconductor-shinytandem
     description: Provides a GUI for rTANDEM
@@ -42832,6 +42910,8 @@ bioconductor-fci:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.fci
+    keywords:
+      -   Proteomics
 tspex:
     name: tspex
     description: A python package for calculating tissue-specificity metrics for gene
@@ -43065,7 +43145,7 @@ hca-matrix-downloader:
 r-tftargets:
     name: r-tftargets
     description: Human transcription factor target genes.
-    license: 
+    license: No license
     home_url: https://github.com/slowkow/tftargets
     total_pulls: 3
     manually_check: true
@@ -43146,6 +43226,8 @@ bioconductor-subcellbarcode:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.subcellbarcode
+    keywords:
+      -   Proteomics
 bioconductor-ssrch:
     name: bioconductor-ssrch
     description: A simple search engine
@@ -43468,6 +43550,8 @@ bioconductor-adductomicsr:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.adductomicsr
+    keywords:
+      -   Proteomics
 bioconductor-chetah:
     name: bioconductor-chetah
     description: Fast and accurate scrna-seq cell type identification
@@ -43696,6 +43780,8 @@ bioconductor-probatch:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.probatch
+    keywords:
+      -   Proteomics
 bioconductor-precisiontrialdrawer:
     name: bioconductor-precisiontrialdrawer
     description: A Tool to Analyze and Design NGS Based Custom Gene Panels
@@ -44188,6 +44274,8 @@ bioconductor-msstatssamplesize:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.msstatssamplesize
+    keywords:
+      -   Proteomics
 bioconductor-idr2d:
     name: bioconductor-idr2d
     description: Irreproducible discovery rate for genomic interactions data
@@ -44281,6 +44369,8 @@ bioconductor-pulsedsilac:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.pulsedsilac
+    keywords:
+      -   Proteomics
 bioconductor-target:
     name: bioconductor-target
     description: Predict Combined Function of Transcription Factors
@@ -44335,6 +44425,8 @@ bioconductor-proda:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.proda
+    keywords:
+      -   Proteomics
 bioconductor-lionessr:
     name: bioconductor-lionessr
     description: Modeling networks for individual samples using lioness
@@ -45470,7 +45562,7 @@ r-seurat:
 ncfp:
     name: ncfp
     description: A program/module to find nt sequences that code for aa sequences
-    license:  MIT
+    license: MIT
     home_url: http://widdowquinn.github.io/ncfp/
     total_pulls: 2
     manually_check: true
@@ -53428,6 +53520,8 @@ philosopher:
     home_url: https://github.com/Nesvilab/philosopher
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 jenkins_version:
     name: jenkins_version
     description: ''
@@ -53486,6 +53580,8 @@ dia-umpire:
     home_url: http://diaumpire.sourceforge.net
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 ccmetagen:
     name: ccmetagen
     description: Pipeline to classify organisms in metagenomes or metatranscriptomes
@@ -53501,6 +53597,8 @@ denovogui:
     home_url: https://github.com/compomics/denovogui
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 peptideshaker:
     name: peptideshaker
     description: Peptideshaker is a search engine independent platform for interpretation
@@ -53514,6 +53612,8 @@ peptideshaker:
     home_url: https://github.com/compomics/peptide-shaker
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 msgfp:
     name: msgfp
     description: This package contains function to perform peptide identification
@@ -53662,6 +53762,8 @@ saintq:
     home_url: http://saint-apms.sourceforge.net/Main.html
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 pepnovop:
     name: pepnovop
     description: de novo sequencing of low precision MS/MS data
@@ -53744,6 +53846,8 @@ msnbase:
     home_url: https://github.com/lgatto/MSnbase
     total_pulls: 0
     manually_check: false
+    keywords:
+      -   Proteomics
 metfrag-cli-batch:
     name: metfrag-cli-batch
     description: ''
@@ -53766,6 +53870,8 @@ tandem:
     home_url: http://www.thegpm.org/TANDEM/
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 json2isatab:
     name: json2isatab
     description: A container image definition for the json2isatab converter from the
@@ -54322,6 +54428,8 @@ toppas:
     home_url: http://open-ms.sourceforge.net/workflow-integration/toppasworkflows/
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 python-fast5:
     name: python-fast5
     description: ''
@@ -54562,6 +54670,8 @@ pwiz:
     home_url: https://github.com/ProteoWizard/pwiz
     total_pulls: 0
     manually_check: false
+    keywords:
+      -   Proteomics
 filo:
     name: filo
     description: File and stream operations
@@ -60263,6 +60373,8 @@ r-maldiquant:
     home_url: None
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 r-maldiquantforeign:
     name: r-maldiquantforeign
     description: Functions for reading (tab, csv, Bruker fid, Ciphergen XML, mzXML,
@@ -60325,6 +60437,8 @@ r-mixomics:
     home_url: None
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 r-multicool:
     name: r-multicool
     description: "A set of tools to permute multisets without loops or hash tables\n\
@@ -60557,6 +60671,8 @@ r-readmzxmldata:
     home_url: None
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 r-rfoc:
     name: r-rfoc
     description: Graphics for statistics on a sphere, as applied to geological fault
@@ -62175,11 +62291,9 @@ pygresql:
     manually_check: true
 intervaltree:
     name: intervaltree
-    description: "# Intervaltree\n\n> Editable interval tree data structure for python\
-        \ 2 and 3\n\n> Licence: Apache Software License\n\nHome: https://files.pythonhosted.org/packages/ca/c1/450d109b70fa58ca9d77972b02f69222412f9175ccf99fdeaf167be9583c/intervaltree-2.1.0.tar.gz\n\
-        \n"
-    license:perl_5
-    home_url:https://metacpan.org/pod/IntervalTree
+    description: "Editable interval tree data structure for python"
+    license: perl_5
+    home_url: https://metacpan.org/pod/IntervalTree
     total_pulls: 0
     manually_check: false
 r-futile.logger:
@@ -63241,8 +63355,8 @@ involucro:
 mono:
     name: mono
     description: Inline-MonoCS
-    license:perl_5
-    home_url:https://metacpan.org/pod/Inline::MonoCS
+    license: perl_5
+    home_url: https://metacpan.org/pod/Inline::MonoCS
     total_pulls: 0
     manually_check: false
 abundancebin:
@@ -64191,6 +64305,8 @@ fido:
     home_url: https://noble.gs.washington.edu/proj/fido/
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 vnl:
     name: vnl
     description: A multi-platform collection of C++ software libraries for Computer
@@ -68417,6 +68533,8 @@ pyquant-ms:
     home_url: https://github.com/pandeylab/pyquant
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 rad_haplotyper:
     name: rad_haplotyper
     description: A program for building SNP haplotypes from RAD sequencing data
@@ -68661,6 +68779,8 @@ pyimagingmspec:
     home_url: https://github.com/alexandrovteam/pyImagingMSpec
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 wheezy.template:
     name: wheezy.template
     description: A lightweight template library
@@ -69730,6 +69850,8 @@ r-maldirppa:
     home_url: https://CRAN.R-project.org/package=MALDIrppa
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 repenrich:
     name: repenrich
     description: Repenrich is a method to estimate repetitive element enrichment using
@@ -70320,6 +70442,8 @@ bioconductor-pbase:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.pbase
+    keywords:
+      -   Proteomics
 bioconductor-geneselector:
     name: bioconductor-geneselector
     description: The term 'GeneSelector' refers to a filter selecting those genes
@@ -70988,6 +71112,8 @@ protk:
     home_url: https://github.com/iracooke/protk
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 fast5-research:
     name: fast5-research
     description: Ont research fast5 read/write package
@@ -72656,6 +72782,8 @@ msproteomicstools:
     home_url: https://github.com/msproteomicstools/msproteomicstools
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 scikits-datasmooth:
     name: scikits-datasmooth
     description: Scikits data smoothing package
@@ -74036,6 +74164,8 @@ crux-toolkit:
     home_url: https://github.com/crux-toolkit/crux-toolkit
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 perl-math-complex:
     name: perl-math-complex
     description: Trigonometric functions
@@ -75867,6 +75997,8 @@ r-imp4p:
     home_url: https://CRAN.R-project.org/package=imp4p
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 bioconductor-rhvdm:
     name: bioconductor-rhvdm
     description: A R implementation of HVDM (Genome Biol 2006, V7(3) R25)
@@ -76167,6 +76299,8 @@ bioconductor-proteoqc:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.proteoqc
+    keywords:
+      -   Proteomics
 bioconductor-platecore:
     name: bioconductor-platecore
     description: Provides basic S4 data structures and routines for analyzing plate
