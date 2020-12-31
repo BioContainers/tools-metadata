@@ -65813,7 +65813,7 @@ r-cnogpro:
     manually_check: false
 genonets:
     name: genonets
-    description: A genotype network is a graph in which vertices represent genotypes that have the same phenotype. this tool provides the following features: (i) the construction of genotype networks for categorical and univariate phenotypes; (ii) analyses of genotype network topology and how it relates to robustness and evolvability, as well as analyses of genotype network topography and how it relates to the navigability of a genotype network; (iii) multiple interactive visualizations.
+    description: "A genotype network is a graph in which vertices represent genotypes that have the same phenotype. this tool provides the following features: (i) the construction of genotype networks for categorical and univariate phenotypes; (ii) analyses of genotype network topology and how it relates to robustness and evolvability, as well as analyses of genotype network topography and how it relates to the navigability of a genotype network; (iii) multiple interactive visualizations."
     license: MIT
     home_url: http://ieu-genonets.uzh.ch
     total_pulls: 0
@@ -65953,7 +65953,7 @@ perl-test-trap:
     manually_check: true
 r-rentrez:
     name: r-rentrez
-    description: Provides an R interface to the NCBI's EUtils API allowing users to search databases\nlike GenBank and PubMed, process the results of those searches and pull data into\ntheir R sessions.
+    description: "Provides an R interface to the NCBI's EUtils API allowing users to search databases\nlike GenBank and PubMed, process the results of those searches and pull data into their R sessions."
     license: MIT
     home_url: http://github.com/ropensci/rentrez
     total_pulls: 0
@@ -66309,16 +66309,14 @@ r-km.ci:
     manually_check: true
 r-kmsurv:
     name: r-kmsurv
-    description: Data sets and functions for Klein and Moeschberger (1997), "Survival
-        Analysis, Techniques for Censored and Truncated Data", Springer.
+    description: Data sets and functions for Klein and Moeschberger (1997), "Survival Analysis, Techniques for Censored and Truncated Data", Springer.
     license: GPL (>= 3)
     home_url: https://cran.rstudio.com/web/packages/KMsurv/index.html
     total_pulls: 0
     manually_check: true
 r-exactranktests:
     name: r-exactranktests
-    description: Computes exact conditional p-values and quantiles using an implementation
-        of the Shift-Algorithm by Streitberg & Roehmel.
+    description: Computes exact conditional p-values and quantiles using an implementation of the Shift-Algorithm by Streitberg & Roehmel.
     license: GPL-2|GPL-3
     home_url: https://cran.rstudio.com/web/packages/exactRankTests/index.html
     total_pulls: 0
@@ -66332,15 +66330,14 @@ embl-api-validator:
     manually_check: true
 nanosplit:
     name: nanosplit
-    description: Perform splitting of oxford nanopore sequencing data in a fail and
-        pass dataset.
+    description: Perform splitting of oxford nanopore sequencing data in a fail and pass dataset.
     license: GNU General Public License v3.0
     home_url: https://github.com/wdecoster/nanosplit
     total_pulls: 0
     manually_check: true
 je-suite:
     name: je-suite
-    description: Je is a suite to handle barcoded fastq files with (or without) unique molecule identifiers (umis) and filter read duplicates using these umis
+    description: "Je is a suite to handle barcoded fastq files with (or without) unique molecule identifiers (umis) and filter read duplicates using these umis"
     license: Not available
     home_url: https://gbcs.embl.de/Je
     total_pulls: 0
@@ -66354,16 +66351,14 @@ sonlib:
     manually_check: true
 r-rcpptoml:
     name: r-rcpptoml
-    description: The configuration format defined by 'TOML' (which expands to "Tom's
-        Obvious Markup Language") specifies an excellent format (described at <https
+    description: The configuration format defined by 'TOML' (which expands to "Tom's Obvious Markup Language") specifies an excellent format (described at <https
     license: GPL (>= 2)
     home_url: https://github.com/eddelbuettel/rcpptoml
     total_pulls: 0
     manually_check: true
 mqc:
     name: mqc
-    description: Qualtiy control tool to assess the mapping quality of a ribosome
-        profiling experiment
+    description: Qualtiy control tool to assess the mapping quality of a ribosome profiling experiment
     license: GNU General Public License v3.0
     home_url: https://github.com/Biobix/mQC
     total_pulls: 0
@@ -66377,8 +66372,7 @@ gqt:
     manually_check: true
 midas:
     name: midas
-    description: An integrated pipeline for estimating strain-level genomic variation
-        from metagenomic data
+    description: An integrated pipeline for estimating strain-level genomic variation from metagenomic data
     license: GNU General Public License v3.0
     home_url: https://github.com/snayfach/MIDAS
     total_pulls: 0
@@ -66407,8 +66401,7 @@ midas:
       -   Water Microbiology
 singlecell-barcodes:
     name: singlecell-barcodes
-    description: Whitelisted singlecell barcodes and information regarding where molecular/sample/cellular
-        barcodes are in each read, for various singlecell protocols
+    description: Whitelisted singlecell barcodes and information regarding where molecular/sample/cellular barcodes are in each read, for various singlecell protocols
     license: Not available
     home_url: https://github.com/roryk/singlecell-barcodes
     total_pulls: 0
@@ -66468,15 +66461,13 @@ monovar:
 mdasim:
     name: mdasim
     description: This is MDAsim 2+, a tool to simulate whole genome amplification
-        of a
     license: GPL-3.0
     home_url: https://github.com/hzi-bifo/mdasim
     total_pulls: 0
     manually_check: true
 prosolo:
     name: prosolo
-    description: A highly sensitive and accurate Bayesian caller for variants in single
-        cell sequencing data.
+    description: A highly sensitive and accurate Bayesian caller for variants in single cell sequencing data.
     license: GPL-3.0
     home_url: https://github.com/ProSolo/prosolo
     total_pulls: 0
@@ -66502,8 +66493,7 @@ bioconductor-manta:
       -   doi:10.18129/b9.bioc.manta
 bioconductor-calib:
     name: bioconductor-calib
-    description: Calibration model for estimating absolute expression levels from
-        microarray data
+    description: Calibration model for estimating absolute expression levels from microarray data
     license: LGPL
     home_url: http://bioconductor.org/packages/3.5/bioc/html/CALIB.html
     total_pulls: 0
@@ -66577,8 +66567,7 @@ bioconductor-mvgst:
       -   doi:10.18129/b9.bioc.mvgst
 bioconductor-nem:
     name: bioconductor-nem
-    description: (Dynamic) Nested Effects Models and Deterministic Effects Propagation
-        Networks to reconstruct phenotypic hierarchies
+    description: (Dynamic) Nested Effects Models and Deterministic Effects Propagation Networks to reconstruct phenotypic hierarchies
     license: GPL (>= 2)
     home_url: http://bioconductor.org/packages/3.5/bioc/html/nem.html
     total_pulls: 0
@@ -66599,8 +66588,7 @@ bioconductor-nudge:
       -   doi:10.18129/b9.bioc.nudge
 bioconductor-pannbuilder:
     name: bioconductor-pannbuilder
-    description: Processing annotation data from public data repositories and building
-        protein-centric annotation data packages.
+    description: Processing annotation data from public data repositories and building protein-centric annotation data packages.
     license: LGPL (>= 2.0)
     home_url: http://bioconductor.org/packages/3.5/bioc/html/PAnnBuilder.html
     total_pulls: 0
@@ -66629,8 +66617,7 @@ bioconductor-ramigo:
       -   doi:10.18129/b9.bioc.ramigo
 bioconductor-ripseeker:
     name: bioconductor-ripseeker
-    description: 'RIPSeeker: a statistical package for identifying protein-associated
-        transcripts from RIP-seq experiments'
+    description: 'RIPSeeker: a statistical package for identifying protein-associated transcripts from RIP-seq experiments'
     license: GPL-2
     home_url: http://bioconductor.org/packages/3.5/bioc/html/RIPSeeker.html
     total_pulls: 0
@@ -66687,8 +66674,7 @@ bioconductor-splicegear:
       -   doi:10.18129/b9.bioc.splicegear
 bioconductor-tssi:
     name: bioconductor-tssi
-    description: Identify and normalize transcription start sites in high-throughput
-        sequencing data.
+    description: Identify and normalize transcription start sites in high-throughput sequencing data.
     license: GPL-3
     home_url: http://bioconductor.org/packages/3.5/bioc/html/TSSi.html
     total_pulls: 0
@@ -66697,8 +66683,7 @@ bioconductor-tssi:
       -   doi:10.18129/b9.bioc.tssi
 bioconductor-splicer:
     name: bioconductor-splicer
-    description: An R package for classification of alternative splicing and prediction
-        of coding potential from RNA-seq data.
+    description: An R package for classification of alternative splicing and prediction of coding potential from RNA-seq data.
     license: GPL (>=2)
     home_url: http://bioconductor.org/packages/3.5/bioc/html/spliceR.html
     total_pulls: 0
@@ -66806,8 +66791,7 @@ bioconductor-bgmix:
       -   Models, Genetic
 irida-linker:
     name: irida-linker
-    description: The ngs archive linker is a perl script used to generate a structure
-        of links for files stored in the irida platform.
+    description: The ngs archive linker is a perl script used to generate a structure of links for files stored in the irida platform.
     license: Apache-2.0
     home_url: https://github.com/phac-nml/irida-linker
     total_pulls: 0
@@ -66842,8 +66826,7 @@ mglex:
     manually_check: true
 group_humann2_uniref_abundances_to_go:
     name: group_humann2_uniref_abundances_to_go
-    description: Group abundances of uniref50 gene families obtained with humann2
-        to gene ontology (go) slim terms with relative abundances
+    description: Group abundances of uniref50 gene families obtained with humann2 to gene ontology (go) slim terms with relative abundances
     license: Apache-2.0
     home_url: https://github.com/ASaiM/group_humann2_uniref_abundances_to_GO
     total_pulls: 0
@@ -66852,8 +66835,7 @@ group_humann2_uniref_abundances_to_go:
       -   doi:10.5281/zenodo.50086
 bcftools-snvphyl-plugin:
     name: bcftools-snvphyl-plugin
-    description: The SNVPhyl (Single Nucleotide Variant PHYLogenomics) pipeline is
-        a pipeline
+    description: The SNVPhyl (Single Nucleotide Variant PHYLogenomics) pipeline is a pipeline
     license: Apache-2.0
     home_url: https://github.com/phac-nml/snvphyl-tools
     total_pulls: 0
@@ -66897,8 +66879,7 @@ muse:
     manually_check: true
 connor:
     name: connor
-    description: A command-line tool to deduplicate bam files based on custom, inline
-        barcoding.
+    description: A command-line tool to deduplicate bam files based on custom, inline barcoding.
     license: Apache-2.0
     home_url: https://github.com/umich-brcf-bioinf/Connor
     total_pulls: 0
@@ -66941,8 +66922,7 @@ abruijn:
     manually_check: true
 breakseq2:
     name: breakseq2
-    description: 'BreakSeq2: Ultrafast and accurate nucleotide-resolution analysis
-        of structural variants.'
+    description: 'BreakSeq2: Ultrafast and accurate nucleotide-resolution analysis of structural variants.'
     license: BSD-2-Clause
     home_url: http://bioinform.github.io/breakseq2
     total_pulls: 0
@@ -67038,16 +67018,14 @@ sis:
     manually_check: true
 graphprot:
     name: graphprot
-    description: GraphProt is a tool for modelling binding preferences of RNA-binding
-        proteins from high-throughput experiments such as CLIP-seq and RNAcompete.
+    description: GraphProt is a tool for modelling binding preferences of RNA-binding proteins from high-throughput experiments such as CLIP-seq and RNAcompete.
     license: MIT
     home_url: https://github.com/dmaticzka/graphprot
     total_pulls: 0
     manually_check: true
 yanagiba:
     name: yanagiba
-    description: Filter short or low quality oxford nanopore reads which have been
-        basecalled with albacore.
+    description: Filter short or low quality oxford nanopore reads which have been basecalled with albacore.
     license: MIT
     home_url: https://github.com/Adamtaranto/Yanagiba
     total_pulls: 0
