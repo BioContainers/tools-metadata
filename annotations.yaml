@@ -38923,7 +38923,7 @@ bioconductor-gosim:
       -   doi:10.18129/b9.bioc.gosim
 bioconductor-aucell:
     name: bioconductor-aucell
-    description: AUCell: Analysis of 'gene set' activity in single-cell RNA-seq data (e.g. identify cells with specific gene signatures)
+    description: "AUCell: Analysis of 'gene set' activity in single-cell RNA-seq data (e.g. identify cells with specific gene signatures)"
     license: GPL-3
     home_url: https://bioconductor.org/packages/3.8/bioc/html/AUCell.html
     total_pulls: 3
@@ -41938,12 +41938,14 @@ bioconductor-phantasus:
       -   doi:10.18129/b9.bioc.phantasus
 r-xgr:
     name: r-xgr
-    description: The central goal of XGR by Fang et al. (2016) <doi:10.1186/s13073-016-0384-y>
+    description: The central goal of XGR by Fang et al. (2016)
         is to
     license: GPL-2
     home_url: http://XGR.r-forge.r-project.org, http://galahad.well.ox.ac.uk/XGR
     total_pulls: 3
     manually_check: true
+    identifiers:
+      -   doi:10.1186/s13073-016-0384-y
 bioconductor-pi:
     name: bioconductor-pi
     description: Leveraging Genetic Evidence to Prioritise Drug Targets at the Gene
@@ -44521,7 +44523,7 @@ geneimpacts:
     manually_check: true
 perl-list-moreutils:
     name: perl-list-moreutils
-    description: Provide the stuff missing in list::util
+    description: 'Provide the stuff missing in list::util'
     license: apache_2_0
     home_url: https://metacpan.org/release/List-MoreUtils
     total_pulls: 2
@@ -45282,8 +45284,7 @@ fastq-multx:
     manually_check: true
 galaxy-lib:
     name: galaxy-lib
-    description: Subset of Galaxy (http://galaxyproject.org/) core code base designed
-        to be used a library.
+    description: 'Subset of Galaxy (http://galaxyproject.org/) core code base designed to be used a library.'
     license: AFL
     home_url: https://github.com/galaxyproject/galaxy-lib
     total_pulls: 1
@@ -45392,7 +45393,7 @@ python-dateutil:
     total_pulls: 1
 r-bit:
     name: r-bit
-    description: bitmapped vectors of booleans (no NAs), coercion from and to logicals, integers and integer subscripts; fast boolean operators and fast summary statistics. With 'bit' vectors you can store true binary booleans {FALSE,TRUE} at the expense of 1 bit only, on a 32 bit architecture this means factor 32 less RAM and ~ factor 32 more speed on boolean operations. Due to overhead of R calls, actual speed gain depends on the size of the vector: expect gains for vectors of size > 10000 elements. Even for one-time boolean operations it can pay-off to convert to bit, the pay-off is obvious, when such components are used more than once. Reading from and writing to bit is approximately as fast as accessing standard logicals - mostly due to R's time for memory allocation. The package allows to work with pre-allocated memory for return values by calling .Call() directly: when evaluating the speed of C-access with pre-allocated vector memory, coping from bit to logical requires only 70% of the time for copying from logical to logical; and copying from logical to bit comes at a  performance penalty of 150%. the package now contains further classes for representing logical selections: 'bitwhich' for very skewed selections and  'ri' for selecting ranges of values for chunked processing. All three index classes can be used for subsetting 'ff' objects (ff-2.1-0 and higher).
+    description: "bitmapped vectors of booleans (no NAs), coercion from and to logicals, integers and integer subscripts; fast boolean operators and fast summary statistics. With 'bit' vectors you can store true binary booleans {FALSE,TRUE} at the expense of 1 bit only, on a 32 bit architecture this means factor 32 less RAM and ~ factor 32 more speed on boolean operations. Due to overhead of R calls, actual speed gain depends on the size of the vector: expect gains for vectors of size > 10000 elements. Even for one-time boolean operations it can pay-off to convert to bit, the pay-off is obvious, when such components are used more than once. Reading from and writing to bit is approximately as fast as accessing standard logicals - mostly due to R's time for memory allocation. The package allows to work with pre-allocated memory for return values by calling .Call() directly: when evaluating the speed of C-access with pre-allocated vector memory, coping from bit to logical requires only 70% of the time for copying from logical to logical; and copying from logical to bit comes at a  performance penalty of 150%. the package now contains further classes for representing logical selections: 'bitwhich' for very skewed selections and  'ri' for selecting ranges of values for chunked processing. All three index classes can be used for subsetting 'ff' objects (ff-2.1-0 and higher)."
     license: GPL-2
     home_url: None
     total_pulls: 1
@@ -45443,7 +45444,7 @@ ruamel.yaml:
     manually_check: true
 setuptools_scm:
     name: setuptools_scm
-    description: Setuptools_Scm: The blessed package to manage your versions by scm tags.
+    description: 'Setuptools_Scm: The blessed package to manage your versions by scm tags.'
     license: MIT
     home_url: https://files.pythonhosted.org/packages/84/aa/c693b5d41da513fed3f0ee27f1bf02a303caa75bbdfa5c8cc233a1d778c4/setuptools_scm-1.11.1.tar.gz
     total_pulls: 1
@@ -47148,7 +47149,7 @@ bioconductor-mesh.eco.k12.mg1655.eg.db:
       -   doi:10.18129/b9.bioc.mesh.eco.k12.mg1655.eg.db
 bioconductor-mesh.eco.o157.h7.sakai.eg.db:
     name: bioconductor-mesh.eco.o157.h7.sakai.eg.db
-    description: Mapping table for escherichia coli o157:h7 sakai gene id to mesh
+    description: 'Mapping table for escherichia coli o157:h7 sakai gene id to mesh'
     license: Artistic-2.0
     home_url: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Eco.O157.H7.Sakai.eg.db.html
     total_pulls: 1
@@ -53287,7 +53288,7 @@ mw2isa:
     manually_check: false
 rnmr1d:
     name: rnmr1d
-    description: Rnmr1D is the main module in the NMRProcFlow web application (http://nmrprocflow.org) concerning the NMR spectra processing
+    description: 'Rnmr1D is the main module in the NMRProcFlow web application (http://nmrprocflow.org) concerning the NMR spectra processing'
     license: Not available
     home_url: https://github.com/INRA/Rnmr1D
     total_pulls: 0
@@ -54440,8 +54441,7 @@ bamhash:
     manually_check: true
 r-yaml:
     name: r-yaml
-    description: This package implements the libyaml YAML 1.1 parser and emitter (http://pyyaml.org/wiki/LibYAML)
-        for R.
+    description: 'This package implements the libyaml YAML 1.1 parser and emitter (http://pyyaml.org/wiki/LibYAML) for R.'
     license: BSD_3_clause
     home_url: None
     total_pulls: 0
@@ -55466,7 +55466,7 @@ openmg:
     manually_check: true
 align_it:
     name: align_it
-    description: Align-it is a tool to align molecules according to their pharmacophores. A pharmacophore is an abstract concept based on the specific interactions observed in drug-receptor interactions: hydrogen bonding, charge transfer, electrostatic and hydrophobic interactions.
+    description: "Align-it is a tool to align molecules according to their pharmacophores. A pharmacophore is an abstract concept based on the specific interactions observed in drug-receptor interactions: hydrogen bonding, charge transfer, electrostatic and hydrophobic interactions."
     license: LGPL
     home_url: http://silicos-it.be.s3-website-eu-west-1.amazonaws.com/software/align-it/1.0.4/align-it.html
     total_pulls: 0
@@ -55926,7 +55926,7 @@ data_hacks:
     manually_check: true
 dazz_db:
     name: dazz_db
-    description: Dazz_db: the dazzler data base.
+    description: 'Dazz_db: the dazzler data base.'
     license: Custom
     home_url: https://github.com/thegenemyers/DAZZ_DB
     total_pulls: 0
@@ -56221,7 +56221,7 @@ gecode:
     manually_check: true
 genblastg:
     name: genblastg
-    description: Genblast is a program suite, consisting of two programs: genblasta and genblastg. genblasta parses local alignments, or high-scoring segment pairs (hsps) produced by local sequence alignment programs such as blast and wu-blast and identify groups of hsps.
+    description: 'Genblast is a program suite, consisting of two programs: genblasta and genblastg. genblasta parses local alignments, or high-scoring segment pairs (hsps) produced by local sequence alignment programs such as blast and wu-blast and identify groups of hsps.'
     license: GNU
     home_url: http://genome.sfu.ca/genblast/download.html
     total_pulls: 0
@@ -57071,7 +57071,7 @@ perl-class-std:
     manually_check: true
 perl-class-std-fast:
     name: perl-class-std-fast
-    description: faster but less secure than Class::Std
+    description: 'faster but less secure than Class::Std'
     license: perl_5
     home_url: http://metacpan.org/pod/Class-Std-Fast
     total_pulls: 0
@@ -57120,7 +57120,7 @@ perl-cpan-meta:
     manually_check: true
 perl-cpan-meta-check:
     name: perl-cpan-meta-check
-    description: Verify requirements in a CPAN::Meta object
+    description: 'Verify requirements in a CPAN::Meta object'
     license: perl_5
     home_url: http://metacpan.org/pod/CPAN::Meta::Check
     total_pulls: 0
@@ -57239,7 +57239,7 @@ perl-exporter-tidy:
     manually_check: true
 perl-exporter-tiny:
     name: perl-exporter-tiny
-    description: Exporter with the features of Sub::Exporter but only core dependencies
+    description: 'Exporter with the features of Sub::Exporter but only core dependencies'
     license: perl_5
     home_url: https://metacpan.org/release/Exporter-Tiny
     total_pulls: 0
@@ -57253,7 +57253,7 @@ perl-file-fetch:
     manually_check: true
 perl-file-find-rule:
     name: perl-file-find-rule
-    description: Alternative interface to File::Find
+    description: 'Alternative interface to File::Find'
     license: perl_5
     home_url: http://metacpan.org/pod/File::Find::Rule
     total_pulls: 0
@@ -57358,7 +57358,7 @@ perl-graph:
     manually_check: true
 perl-html-element-extended:
     name: perl-html-element-extended
-    description: Perl extension for manipulating a table composed of HTML::Element style components.
+    description: 'Perl extension for manipulating a table composed of HTML::Element style components.'
     license: Not available
     home_url: http://metacpan.org/pod/HTML-Element-Extended
     total_pulls: 0
@@ -57422,7 +57422,7 @@ perl-html-tree:
     manually_check: true
 perl-html-treebuilder-xpath:
     name: perl-html-treebuilder-xpath
-    description: add XPath support to HTML::TreeBuilder
+    description: 'add XPath support to HTML::TreeBuilder'
     license: perl_5
     home_url: http://metacpan.org/pod/HTML-TreeBuilder-XPath
     total_pulls: 0
@@ -57485,7 +57485,7 @@ perl-io-html:
     manually_check: true
 perl-io-sessiondata:
     name: perl-io-sessiondata
-    description: supporting module for SOAP::Lite
+    description: 'supporting module for SOAP::Lite'
     license: Not available
     home_url: http://metacpan.org/pod/IO-SessionData
     total_pulls: 0
@@ -57499,7 +57499,7 @@ perl-io-socket-inet6:
     manually_check: true
 perl-io-socket-ssl:
     name: perl-io-socket-ssl
-    description: Nearly transparent SSL encapsulation for IO::Socket::INET.
+    description: 'Nearly transparent SSL encapsulation for IO::Socket::INET.'
     license: perl_5
     home_url: https://github.com/noxxi/p5-io-socket-ssl
     total_pulls: 0
@@ -57808,7 +57808,7 @@ perl-perl-unsafe-signals:
     manually_check: true
 perl-postscript:
     name: perl-postscript
-    description: Helper module for postscript::textblock
+    description: 'Helper module for postscript::textblock'
     license: Not available
     home_url: http://metacpan.org/pod/PostScript
     total_pulls: 0
@@ -60627,7 +60627,7 @@ vcftoolbox:
     manually_check: true
 verse:
     name: verse
-    description: Verse: a versatile and efficient rna-seq read counting tool
+    description: 'Verse: a versatile and efficient rna-seq read counting tool'
     license: GPL-3.0
     home_url: https://github.com/qinzhu/VERSE
     total_pulls: 0
@@ -61441,7 +61441,7 @@ stacks_summary:
     manually_check: true
 genesplicer:
     name: genesplicer
-    description: Genesplicer : a computational method for splice site prediction
+    description: 'Genesplicer : a computational method for splice site prediction'
     license: OSI
     home_url: http://www.cs.jhu.edu/~genomics/GeneSplicer
     total_pulls: 0
@@ -61472,7 +61472,7 @@ spectrassembler:
     manually_check: true
 flaimapper:
     name: flaimapper
-    description: Flaimapper: detecting small ncrna derived fragments in small rna-seq data
+    description: 'Flaimapper: detecting small ncrna derived fragments in small rna-seq data'
     license: Custom License
     home_url: https://github.com/yhoogstrate/flaimapper/
     total_pulls: 0
@@ -61488,7 +61488,7 @@ flaimapper:
       -   Sequence Analysis, RNA
 dudes:
     name: dudes
-    description: Dudes: a top-down taxonomic profiler for metagenomics
+    description: 'Dudes: a top-down taxonomic profiler for metagenomics'
     license: MIT
     home_url: https://github.com/pirovc/dudes/
     total_pulls: 0
@@ -61837,8 +61837,7 @@ perl-memoize:
     manually_check: true
 perl-moosex-app-role-log4perl:
     name: perl-moosex-app-role-log4perl
-    description: Add basic Log::Log4perl logging to a MooseX::App application as a
-        role.
+    description: Add basic Log::Log4perl logging to a MooseX::App application as a role.
     license: perl_5
     home_url: https://metacpan.org/pod/MooseX::App::Role::Log4perl
     total_pulls: 0
@@ -63371,7 +63370,7 @@ npyscreen:
     manually_check: true
 axiome:
     name: axiome
-    description: AXIOME2: Automation Extension and Integration of Microbial Ecology
+    description: 'AXIOME2: Automation Extension and Integration of Microbial Ecology'
     license: MIT
     home_url: https://github.com/neufeld/AXIOME2
     total_pulls: 0
@@ -66098,7 +66097,7 @@ r-trimcluster:
     manually_check: false
 r-fpc:
     name: r-fpc
-    description: Various methods for clustering and cluster validation. Fixed point clustering. Linear regression clustering. Clustering by merging Gaussian mixture components. Symmetric and asymmetric discriminant projections for visualisation of the separation of groupings. Cluster validation statistics for distance based clustering including corrected Rand index. Cluster-wise cluster stability assessment. Methods for estimation of the number of clusters: Calinski-Harabasz, Tibshirani and Walther's prediction strength, Fang and Wang's bootstrap stability. Gaussian/multinomial mixture fitting for mixed continuous/categorical variables. Variable-wise statistics for cluster interpretation. DBSCAN clustering. Interface functions for many clustering methods implemented in R, including estimating the number of clusters with kmeans, pam and clara. Modality diagnosis for Gaussian mixtures.
+    description: "Various methods for clustering and cluster validation. Fixed point clustering. Linear regression clustering. Clustering by merging Gaussian mixture components. Symmetric and asymmetric discriminant projections for visualisation of the separation of groupings. Cluster validation statistics for distance based clustering including corrected Rand index. Cluster-wise cluster stability assessment. Methods for estimation of the number of clusters: Calinski-Harabasz, Tibshirani and Walther's prediction strength, Fang and Wang's bootstrap stability. Gaussian/multinomial mixture fitting for mixed continuous/categorical variables. Variable-wise statistics for cluster interpretation. DBSCAN clustering. Interface functions for many clustering methods implemented in R, including estimating the number of clusters with kmeans, pam and clara. Modality diagnosis for Gaussian mixtures."
     license: GPL
     home_url: https://CRAN.R-project.org/package=fpc
     total_pulls: 0
@@ -66119,7 +66118,7 @@ rust-overlaps:
     manually_check: true
 ecopy:
     name: ecopy
-    description: EcoPy: Ecological Data Analysis in Python.
+    description: 'EcoPy: Ecological Data Analysis in Python.'
     license: MIT
     home_url: https://github.com/Auerilas/ecopy
     total_pulls: 0
@@ -66191,7 +66190,7 @@ vdjer:
     manually_check: true
 behst:
     name: behst
-    description: Behst reads an input dataset of chromosome regions, and intersects them with the chromatin interactions available in the hi-c dataset. of these chromosome regions, behst selects those that are presentthe regulatory regions of genes of appris, a dataset of principal isoform annotations. we defined these cis-regulatory regions upon the position of their nearest transcription start site of the appris genes' principal transcripts (obtained through gencode), plus an upstream and downstream extension. afterwards, behst takes the genes of the resulting partner loci found in gene regulatory regions, and performs a gene set enrichment analysis on them through g:profiler. behst, finally, outputs the list of the most significant gene ontology terms detected by g:profiler. citation: davide chicco, haixin sarah bi, juri reimand, and michael m. hoffman, 'behst: genomic set enrichment analysis enhanced through integration of chromatin long-range interactions', 2018. in preparation.
+    description: "Behst reads an input dataset of chromosome regions, and intersects them with the chromatin interactions available in the hi-c dataset. of these chromosome regions, behst selects those that are presentthe regulatory regions of genes of appris, a dataset of principal isoform annotations. we defined these cis-regulatory regions upon the position of their nearest transcription start site of the appris genes' principal transcripts (obtained through gencode), plus an upstream and downstream extension. afterwards, behst takes the genes of the resulting partner loci found in gene regulatory regions, and performs a gene set enrichment analysis on them through g:profiler. behst, finally, outputs the list of the most significant gene ontology terms detected by g:profiler. citation: davide chicco, haixin sarah bi, juri reimand, and michael m. hoffman, 'behst: genomic set enrichment analysis enhanced through integration of chromatin long-range interactions', 2018. in preparation."
     license: GNU GENERAL PUBLIC LICENSE Version 2
     home_url: https://bitbucket.org/hoffmanlab/behst/overview
     total_pulls: 0
@@ -66640,7 +66639,7 @@ bioconductor-ripseeker:
       -   doi:10.18129/b9.bioc.ripseeker
 bioconductor-rmat:
     name: bioconductor-rmat
-    description: This package is an R version of the package MAT and contains functions to parse and merge Affymetrix BPMAP and CEL tiling array files (using C++ based Fusion SDK and Bioconductor package affxparser), normalize tiling arrays using sequence specific models, detect enriched regions from ChIP-chip experiments. Note: users should have GSL and GenomeGraphs installed. Windows users: 'consult the README file available in the inst directory of the source distribution for necessary configuration instructions'. Snow Leopard users can take advantage of increase speed with Grand Central Dispatch!
+    description: "This package is an R version of the package MAT and contains functions to parse and merge Affymetrix BPMAP and CEL tiling array files (using C++ based Fusion SDK and Bioconductor package affxparser), normalize tiling arrays using sequence specific models, detect enriched regions from ChIP-chip experiments. Note: users should have GSL and GenomeGraphs installed. Windows users: 'consult the README file available in the inst directory of the source distribution for necessary configuration instructions'. Snow Leopard users can take advantage of increase speed with Grand Central Dispatch!"
     license: Artistic-2.0
     home_url: http://bioconductor.org/packages/3.5/bioc/html/rMAT.html
     total_pulls: 0
@@ -66822,7 +66821,7 @@ samsift:
     manually_check: true
 riboseed:
     name: riboseed
-    description: Riboseed: assemble across rdna regions.
+    description: 'Riboseed: assemble across rdna regions.'
     license: MIT
     home_url: https://github.com/nickp60/riboSeed
     total_pulls: 0
@@ -67734,16 +67733,14 @@ bioconductor-flipflop:
     manually_check: true
 r-haplo.stats:
     name: r-haplo.stats
-    description: Routines for the analysis of indirectly measured haplotypes. The statistical methods assume that all subjects are unrelated and that haplotypes are ambiguous (due to unknown linkage phase of the genetic markers). The main functions are: haplo.em(), haplo.glm(), haplo.score(), and haplo.power(); all of which have detailed examples in the vignette.
+    description: "lRoutines for the analysis of indirectly measured haplotypes. The statistical methods assume that all subjects are unrelated and that haplotypes are ambiguous (due to unknown linkage phase of the genetic markers). The main functions are: haplo.em(), haplo.glm(), haplo.score(), and haplo.power(); all of which have detailed examples in the vignette."
     license: GPL (>= 2)
     home_url: http://www.mayo.edu/research/labs/statistical-genetics-genetic-epidemiology/software
     total_pulls: 0
     manually_check: true
 sccaller:
     name: sccaller
-    description: 'Dong x et al. accurate identification of single-nucleotide variants
-        in whole-genome-amplified single cells. nat methods. 2017 may;14(5):491-493.
-        doi: 10.1038/nmeth.4227'
+    description: 'Dong x et al. accurate identification of single-nucleotide variants in whole-genome-amplified single cells. nat methods. 2017 may;14(5):491-493.'
     license: GNU Affero General Public License v3.0
     home_url: https://github.com/biosinodx/SCcaller
     total_pulls: 0
@@ -68240,7 +68237,7 @@ mockinbird:
     manually_check: true
 fgap:
     name: fgap
-    description: Fgap: an automated gap closing tool
+    description: 'Fgap: an automated gap closing tool'
     license: MIT
     home_url: https://github.com/pirovc/fgap
     total_pulls: 0
@@ -68614,7 +68611,7 @@ riboseq-rust:
     manually_check: true
 kodoja:
     name: kodoja
-    description: Kodoja: identifying viruses from plant rna sequencing data.
+    description: 'Kodoja: identifying viruses from plant rna sequencing data.'
     license: MIT
     home_url: https://github.com/abaizan/kodoja/
     total_pulls: 0
@@ -69788,8 +69785,7 @@ tardis:
     manually_check: true
 amptk:
     name: amptk
-    description: 'Amptk: amplicon tool kit for processing high throughput amplicon
-        sequencing data.'
+    description: 'Amptk: amplicon tool kit for processing high throughput amplicon sequencing data.'
     license: BSD-2-Clause
     home_url: https://github.com/nextgenusfs/amptk
     total_pulls: 0
@@ -70574,15 +70570,14 @@ r-rbison:
     manually_check: true
 r-oai:
     name: r-oai
-    description: A general purpose client to work with any 'OAI-PMH' (Open Archives Initiative Protocol for 'Metadata' Harvesting) service. The 'OAI-PMH' protocol is described at <http://www.openarchives.org/OAI/openarchivesprotocol.html>. Functions are provided to work with the 'OAI-PMH' verbs: 'GetRecord', 'Identify', 'ListIdentifiers', 'ListMetadataFormats', 'ListRecords', and 'ListSets'.
+    description: "A general purpose client to work with any 'OAI-PMH' (Open Archives Initiative Protocol for 'Metadata' Harvesting) service. The 'OAI-PMH' protocol is described at <http://www.openarchives.org/OAI/openarchivesprotocol.html>. Functions are provided to work with the 'OAI-PMH' verbs: 'GetRecord', 'Identify', 'ListIdentifiers', 'ListMetadataFormats', 'ListRecords', and 'ListSets'."
     license: MIT
     home_url: https://github.com/ropensci/oai
     total_pulls: 0
     manually_check: true
 r-geoaxe:
     name: r-geoaxe
-    description: Split 'geospatial' objects into pieces. Includes support for some
-        spatial object inputs, 'Well-Known Text', and 'GeoJSON'.
+    description: Split 'geospatial' objects into pieces. Includes support for some spatial object inputs, 'Well-Known Text', and 'GeoJSON'.
     license: MIT
     home_url: https://github.com/ropenscilabs/geoaxe
     total_pulls: 0
@@ -70749,8 +70744,7 @@ r-treesim:
     manually_check: true
 super-focus:
     name: super-focus
-    description: 'Super-focus: a tool for agile functional analysis of shotgun metagenomic
-        data'
+    description: 'Super-focus: a tool for agile functional analysis of shotgun metagenomic data'
     license: Not available
     home_url: https://edwards.sdsu.edu/SUPERFOCUS
     total_pulls: 0
@@ -70793,7 +70787,7 @@ bcov:
       -   doi:10.1093/bioinformatics/btt555
 kipoi:
     name: kipoi
-    description: Kipoi: model zoo for genomics
+    description: 'Kipoi: model zoo for genomics'
     license: MIT
     home_url: https://github.com/kipoi/kipoi
     total_pulls: 0
@@ -71290,8 +71284,7 @@ potrace:
     manually_check: true
 itsxpress:
     name: itsxpress
-    description: 'Itsxpress: software to rapidly trim the internally transcribed spacer
-        (its) region from fastq files'
+    description: 'Itsxpress: software to rapidly trim the internally transcribed spacer (its) region from fastq files'
     license: CC0 1.0
     home_url: http://github.com/usda-ars-gbru/itsxpress
     total_pulls: 0
@@ -72766,8 +72759,7 @@ transgenescan:
       -   Transcriptome
 scnic:
     name: scnic
-    description: 'Scnic: sparse cooccurence network investigation for compositional
-        data'
+    description: 'Scnic: sparse cooccurence network investigation for compositional data'
     license: BSD 3-Clause "New" or "Revised" License
     home_url: https://github.com/shafferm/SCNIC
     total_pulls: 0
@@ -72821,8 +72813,7 @@ solexaqa:
       -   Sequence Analysis, RNA
 smcounter2:
     name: smcounter2
-    description: 'Smcounter2: an accurate low-frequency variant caller for targeted
-        sequencing data with unique molecular identifiers'
+    description: 'Smcounter2: an accurate low-frequency variant caller for targeted sequencing data with unique molecular identifiers'
     license: Not available
     home_url: https://github.com/qiaseq/qiaseq-smcounter-v2
     total_pulls: 0
@@ -73147,8 +73138,7 @@ r2r:
     manually_check: true
 red:
     name: red
-    description: 'Red (RepeatsDetector): an intelligent, rapid, accurate tool for
-        detecting repeats de-novo on the genomic scale.'
+    description: 'Red (RepeatsDetector): an intelligent, rapid, accurate tool for detecting repeats de-novo on the genomic scale.'
     license: Custom OSS
     home_url: http://toolsmith.ens.utulsa.edu
     total_pulls: 0
@@ -73615,14 +73605,14 @@ r-goeveg:
     manually_check: true
 kipoi_veff:
     name: kipoi_veff
-    description: Kipoi_veff: variant effect prediction plugin for kipoi
+    description: 'Kipoi_veff: variant effect prediction plugin for kipoi'
     license: MIT
     home_url: https://github.com/kipoi/kipoi-veff
     total_pulls: 0
     manually_check: true
 kipoiseq:
     name: kipoiseq
-    description: Kipoiseq: sequence-based data-laoders for kipoi
+    description: 'Kipoiseq: sequence-based data-laoders for kipoi'
     license: MIT
     home_url: https://github.com/kipoi/kipoiseq
     total_pulls: 0
@@ -73683,7 +73673,7 @@ diamond_add_taxonomy:
     manually_check: true
 cocoscore:
     name: cocoscore
-    description: Cocoscore: context-aware co-occurrence scores for biomedical text mining applications
+    description: 'Cocoscore: context-aware co-occurrence scores for biomedical text mining applications'
     license: MIT
     home_url: https://github.com/JungeAlexander/cocoscore
     total_pulls: 0
