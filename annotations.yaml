@@ -207,7 +207,7 @@ spades:
       -   Genome
 bowtie:
     name: bowtie
-    description: An ultrafast memory-efficient short read aligner
+    description: An ultrafast memory-efficient short read aligner.
     license: GPL-3.0
     home_url: http://bowtie-bio.sourceforge.net/index.shtml
     total_pulls: 18042
@@ -222,14 +222,14 @@ bowtie:
       -   Sequence Alignment
 trim-galore:
     name: trim-galore
-    description: Trim galore! is a wrapper script to automate quality and adapter trimming as well as quality control
+    description: Trim galore is a wrapper script to automate quality and adapter trimming as well as quality control
     license: GPL-3.0
     home_url: http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/
     total_pulls: 17666
     manually_check: true
 bowtie2:
     name: bowtie2
-    description: Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences. it is particularly good at aligning reads of about 50 up to 100s or 1,000s of characters, and particularly good at aligning to relatively long (e.g. mammalian) genomes. bowtie 2 is the genome with an fm index to keep its memory footprint small: for the human genome, its memory footprint is typically around 3.2 gb. bowtie 2 supports gapped, local, and paired-end alignment modes.
+    description: Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences.
     license: GPL-3.0
     home_url: https://github.com/BenLangmead/bowtie2
     total_pulls: 17576
