@@ -207,7 +207,7 @@ spades:
       -   Genome
 bowtie:
     name: bowtie
-    description: An ultrafast memory-efficient short read aligner.
+    description: An ultrafast memory-efficient short read aligner
     license: GPL-3.0
     home_url: http://bowtie-bio.sourceforge.net/index.shtml
     total_pulls: 18042
@@ -229,7 +229,7 @@ trim-galore:
     manually_check: true
 bowtie2:
     name: bowtie2
-    description: Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences.
+    description: Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences. it is particularly good at aligning reads of about 50 up to 100s or 1,000s of characters, and particularly good at aligning to relatively long (e.g. mammalian) genomes. bowtie 2 is the genome with an fm index to keep its memory footprint small for the human genome, its memory footprint is typically around 3.2 gb. bowtie 2 supports gapped, local, and paired-end alignment modes.
     license: GPL-3.0
     home_url: https://github.com/BenLangmead/bowtie2
     total_pulls: 17576
@@ -401,7 +401,7 @@ pysam:
       -   Sequence Analysis, DNA
 genometools:
     name: genometools
-    description: GenomeTools: Scripts and Classes For Working With Genomic Data.
+    description: GenomeTools Scripts and Classes For Working With Genomic Data.
     license: GPL-3.0
     home_url: https://github.com/flo-compbio/genometools
     total_pulls: 11173
@@ -438,7 +438,7 @@ matplotlib:
     manually_check: true
 augustus:
     name: augustus
-    description: Augustus is a eukaryotic gene prediction tool. it can integrate evidence, e.g. from rna-seq, ests, proteomics, but can also predict genes ab initio. the ppx extension to augustus can take a protein sequence multiple sequence alignment as input to find new members of the family in a genome. it can be run through a web interface (see https://bio.tools/webaugustus), or downloaded and run locally.
+    description: Augustus is a eukaryotic gene prediction tool. it can integrate evidence, e.g. from rna-seq, ests, proteomics, but can also predict genes ab initio. the ppx extension to augustus can take a protein sequence multiple sequence alignment as input to find new members of the family in a genome. it can be run through a web interface, or downloaded and run locally.
     license: Artistic-1.0
     home_url: https://github.com/Gaius-Augustus/Augustus
     total_pulls: 10025
