@@ -52880,7 +52880,14 @@ peptideshaker:
     home_url: https://github.com/compomics/peptide-shaker
     total_pulls: 0
     manually_check: true
+    identifiers:
+      -   biotools:peptide-shaker
+      -   doi:10.1038/nbt.3109
     keywords:
+      -   Amino Acid Sequence
+      -   Mass Spectrometry
+      -   Molecular Sequence Data
+      -   Peptides
       -   Proteomics
 msgfp:
     name: msgfp
@@ -53793,16 +53800,16 @@ melting-gui:
     manually_check: true
 python-csb:
     name: python-csb
-    description: ''
-    license: Not available
-    home_url:
+    description: CSB is a python library and application framework, which can be used to solve problems in the field of structural bioinformatics
+    license: MIT
+    home_url: https://github.com/csb-toolbox/CSB
     total_pulls: 0
     manually_check: false
 python-pbsuite-utils:
     name: python-pbsuite-utils
-    description: ''
-    license: Not available
-    home_url:
+    description: 'Software for Pacific Biosciences sequencing data -- Python utilities'
+    license: BSD-2
+    home_url: http://sourceforge.net/projects/pb-jelly
     total_pulls: 0
     manually_check: false
 python-pbgenomicconsensus:
