@@ -53019,9 +53019,12 @@ galaxy-rna-seq-training:
     manually_check: true
 batch_correction:
     name: batch_correction
-    description: ''
-    license: Not available
-    home_url:
+    description: 'Corrects intensities for signal drift and batch-effects'
+    license: GPL
+    home_url: https://github.com/phnmnl/container-batch_correction
+    keywords:
+      - Metabolomics
+      - Batch correction
     total_pulls: 0
     manually_check: true
 iso2flux:
@@ -53033,8 +53036,7 @@ iso2flux:
     manually_check: true
 saintq:
     name: saintq
-    description: Assigning confidence scores to protein-protein interactions based
-        on quantitative proteomics
+    description: Assigning confidence scores to protein-protein interactions based on quantitative proteomics
     license: Not available
     home_url: http://saint-apms.sourceforge.net/Main.html
     total_pulls: 0
@@ -53060,25 +53062,29 @@ ipo:
     description: A Tool for automated Optimization of XCMS Parameters
     license: Custom License
     home_url: https://github.com/rietho/IPO
+    keywords:
+      - Metabolomics
     total_pulls: 0
     manually_check: true
 metabolab:
     name: metabolab
-    description: ''
-    license: Not available
-    home_url:
+    description: 'A container for a non-GUI version of MetaboLab, software for processing and analysing NMR data.'
+    license: GPL
+    home_url: https://github.com/phnmnl/container-metabolab
+    keywords:
+      - Metabolomics
     total_pulls: 0
     manually_check: true
 isodyn:
     name: isodyn
-    description: C++ simulating the dynamics of metabolites and their isotopic isomers
-        in metabolic network kinetic
+    description: C++ simulating the dynamics of metabolites and their isotopic isomers in metabolic network kinetic
     license: Not available
     home_url: https://github.com/seliv55/isodyn
     total_pulls: 0
     manually_check: true
     keywords:
       -   Proteomics
+      -   Metabolomics
 isatab2json:
     name: isatab2json
     description: A container image definition for the isatab2json converter from the
@@ -53092,6 +53098,8 @@ isatab-validator:
     description: A container image definition for the ISA-Tab validator from the ISA
         API
     license: Not available
+    keywords:
+      -   Metabolomics
     home_url:
     total_pulls: 0
     manually_check: true
@@ -53100,7 +53108,7 @@ bior_annotate:
     description: Biological repository is a toolkit and set of catalogs to retrieve
         genomic annotation for variants, genes, diseases, conditions, genetic tests,
         and drugs.
-    license: Not available
+    license: Custom License
     home_url: https://github.com/BioinformaticsToolsAtMayo
     total_pulls: 0
     manually_check: true
@@ -53129,9 +53137,9 @@ msnbase:
       -   Proteomics
 metfrag-cli-batch:
     name: metfrag-cli-batch
-    description: ''
-    license: Not available
-    home_url:
+    description: 'MetFrag is a freely available software for the annotation of high precision tandem mass spectra of metabolites which is a first and critical step for the identification of a molecules structure. Candidate molecules of different databases are fragmented in silico and matched against mass to charge values. A score calculated using the fragment peak matches gives hints to the quality of the candidate spectrum assignment.'
+    license: Apache-2.0
+    home_url: https://github.com/phnmnl/container-metfrag-cli-batch
     total_pulls: 0
     manually_check: true
 midcor:
@@ -53185,7 +53193,7 @@ ramid:
     manually_check: true
 jupyter:
     name: jupyter
-    description: ''
+    description: 'Jupyter metapackage for installation, docs and chat'
     license: BSD 3-Clause "New" or "Revised" License
     home_url: https://github.com/jupyter/jupyter
     total_pulls: 0
@@ -53194,50 +53202,50 @@ galaxy-k8s-runtime:
     name: galaxy-k8s-runtime
     description: First version of a PhenoMeNal runtime for Galaxy running inside a
         container orchestrator
-    license: Not available
-    home_url:
+    license: Apache-2.0
+    home_url: https://github.com/phnmnl/container-galaxy-k8s-runtime
     total_pulls: 0
     manually_check: true
 xcms:
     name: xcms
-    description: ''
-    license: Not available
+    description: 'This is the git repository matching the Bioconductor package xcms: LC/MS and GC/MS Data Analysis'
+    license: Custom Licesnse
     home_url: https://github.com/sneumann/xcms
     total_pulls: 0
     manually_check: true
 mtbls-factors-viz:
     name: mtbls-factors-viz
-    description: ''
-    license: Not available
-    home_url:
+    description: 'Visualize factors and their values for a MetaboLights study'
+    license: Custom License
+    home_url: https://github.com/phnmnl/container-mtbls-factors-viz
     total_pulls: 0
     manually_check: true
 metfrag-cli:
     name: metfrag-cli
     description: Command Line Interface for MetFrag.
-    license: Not available
-    home_url:
+    license: Custom License
+    home_url: https://github.com/phnmnl/container-metfrag-cli
     total_pulls: 0
     manually_check: true
 nmrmlconv:
     name: nmrmlconv
-    description: ''
-    license: Not available
-    home_url:
+    description: 'nmrML is an open mark-up language for NMR data. This project contains files that are needed to use the tools to convert RAW vendor NMR files to nmrML files.'
+    license: MIT
+    home_url: https://github.com/phnmnl/container-nmrmlconv
     total_pulls: 0
     manually_check: true
 batman:
     name: batman
     description: Bayesian Automated Metabolite Analyser for NMR spectra (BATMAN).
-    license: Not available
-    home_url:
+    license: GPL-2.0
+    home_url: https://github.com/phnmnl/container-batman
     total_pulls: 0
     manually_check: true
 lcmsmatching:
     name: lcmsmatching
     description: Annotation of MS peaks using matching on a spectra database.
-    license: Not available
-    home_url:
+    license: MIT
+    home_url: https://github.com/phnmnl/container-lcmsmatching
     total_pulls: 0
     manually_check: true
 escher-fluxomics:
@@ -54075,16 +54083,16 @@ python-pysam:
     manually_check: true
 python-pyfaidx:
     name: python-pyfaidx
-    description: ''
-    license: Not available
-    home_url:
+    description: 'Samtools provides a function “faidx” (FAsta InDeX), which creates a small flat index file “.fai” allowing for fast random access to any subsequence in the indexed FASTA file, while loading a minimal amount of the file in to memory. This python module implements pure Python classes for indexing, retrieval, and in-place modification of FASTA files using a samtools compatible index. The pyfaidx module is API compatible with the pygr seqdb module. A command-line script “faidx” is installed alongside the pyfaidx module, and facilitates complex manipulation of FASTA files without any programming knowledge.'
+    license: MIT
+    home_url: https://github.com/mdshw5/pyfaidx
     total_pulls: 0
     manually_check: true
 python-ruffus:
     name: python-ruffus
-    description: ''
-    license: Not available
-    home_url:
+    description: 'CGAT-ruffus is a lightweight python module for running computational pipelines'
+    license: MIT
+    home_url: https://github.com/cgat-developers/ruffus
     total_pulls: 0
     manually_check: true
 python-schema-salad:
