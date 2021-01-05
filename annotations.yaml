@@ -54068,9 +54068,9 @@ python-pysam-tests:
     manually_check: true
 python-pysam:
     name: python-pysam
-    description: ''
-    license: Not available
-    home_url:
+    description: 'Pysam is a python module for reading and manipulating files in the SAM/BAM format. The SAM/BAM format is a way to store efficiently large numbers of alignments (Li 2009), such as those routinely created by next-generation sequencing methods.'
+    license: MIT
+    home_url: https://github.com/pysam-developers/pysam
     total_pulls: 0
     manually_check: true
 python-pyfaidx:
@@ -80681,21 +80681,20 @@ necat:
     name: necat
     total_pulls: 815
 scvi-tools:
-    description: Deep generative models for end-to-end analysis of single-cell omics
-      data.
+    description: Deep generative models for end-to-end analysis of single-cell omics data.
     home_url: https://github.com/YosefLab/scvi-tools
     identifiers: []
     keywords: []
-    license: Not available
+    license: BSD-3.0
     manually_check: true
     name: scvi-tools
     total_pulls: 5444
 perbase:
-    description: ''
-    home_url: ''
+    description: 'Highly parallelized utility for analyzing metrics at a per-base level.'
+    home_url: https://github.com/sstadick/perbase
     identifiers: []
     keywords: []
-    license: ''
+    license: 'MIT'
     manually_check: true
     name: perbase
     total_pulls: 13278
@@ -80728,11 +80727,11 @@ itolparser:
     name: itolparser
     total_pulls: 844
 minirmd:
-    description: ''
-    home_url: ''
+    description: 'minirmd is a tool to remove duplicate reads. The program is written in C++11 (tested with g++ >= 5.4.0) and works on Linux.'
+    home_url: https://github.com/yuansliu/minirmd
     identifiers: []
     keywords: []
-    license: ''
+    license: GPL-3.0
     manually_check: true
     name: minirmd
     total_pulls: 766
@@ -80746,11 +80745,11 @@ psm_fragments:
     name: psm_fragments
     total_pulls: 1739
 chromeister:
-    description: ''
-    home_url: ''
+    description: 'An ultra fast, heuristic approach to detect conserved signals in extremely large pairwise genome comparisons.'
+    home_url: https://github.com/estebanpw/chromeister
     identifiers: []
     keywords: []
-    license: ''
+    license: GPL-3.0
     manually_check: true
     name: chromeister
     total_pulls: 4252
