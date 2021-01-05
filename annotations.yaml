@@ -9782,9 +9782,9 @@ trimadap:
     manually_check: true
 sixgill:
     name: sixgill
-    description: ''
-    license: {}
-    home_url: None
+    description: 'six-frame genome-inferred libraries for LC-MS/MS'
+    license: Apache-2.0
+    home_url: https://github.com/dhmay/sixgill
     total_pulls: 9
     manually_check: true
 pymvpa:
@@ -44423,9 +44423,9 @@ hypo:
     manually_check: true
 fpocket:
     name: fpocket
-    description: ''
-    license: Not available
-    home_url:
+    description: 'Fpocket: An open source platform for ligand pocket detection'
+    license: MIT
+    home_url: https://github.com/Discngine/fpocket
     total_pulls: 3
     manually_check: true
 r-liger:
@@ -45405,9 +45405,9 @@ r-bit:
     manually_check: true
 r-digest:
     name: r-digest
-    description: ''
-    license: {}
-    home_url: None
+    description: 'Implementation of a function digest() for the creation of hash digests of arbitrary R objects'
+    license: GPL-2.0
+    home_url: http://dirk.eddelbuettel.com/code/digest.html
     total_pulls: 1
     manually_check: true
 regex:
@@ -45419,9 +45419,9 @@ regex:
     manually_check: true
 r-ggplot2:
     name: r-ggplot2
-    description: ''
-    license: {}
-    home_url: None
+    description: 'A system for declaratively creating graphics. You provide the data, tell ggplot2 how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details.'
+    license: BSD-3-Clause
+    home_url: https://github.com/conda-forge/r-ggplot2-feedstock
     total_pulls: 1
     manually_check: true
 r-readr:
@@ -45607,8 +45607,8 @@ bioconductor-bsgenome.mmusculus.ucsc.mm10:
       -   doi:10.18129/b9.bioc.bsgenome.mmusculus.ucsc.mm10
 r-purrr:
     name: r-purrr
-    description: ''
-    license: Not available
+    description: 'Materials for getting to the know the R package purrr'
+    license: Creative Commons
     home_url: https://github.com/jennybc/purrr-tutorial
     total_pulls: 1
     manually_check: true
@@ -45657,15 +45657,15 @@ wgsim:
 guidescan:
     name: guidescan
     description: Tools to create and interface genome-wide CRISPR guideRNA databases
-    license: Not available
+    license: Custom License
     home_url: https://bitbucket.org/arp2012/guidescan_public
     total_pulls: 1
     manually_check: true
 python-igraph:
     name: python-igraph
-    description:
-    license: Not available
-    home_url:
+    description: graph is a library for creating and manipulating graphs. It is intended to be as powerful (ie. fast) as possible to enable the analysis of large graphs.
+    license: GLP-2
+    home_url: https://github.com/igraph/python-igraph
     total_pulls: 1
     manually_check: true
 bio_assembly_refinement:
@@ -47515,9 +47515,9 @@ bioconductor-mesh.zma.eg.db:
       -   doi:10.18129/b9.bioc.mesh.zma.eg.db
 go:
     name: go
-    description: ''
-    license: Not available
-    home_url:
+    description: 'Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.'
+    license: Custom License
+    home_url: https://github.com/golang/go
     total_pulls: 1
     manually_check: true
 pytables:
@@ -47529,9 +47529,9 @@ pytables:
     manually_check: true
 hdf5:
     name: hdf5
-    description: ''
-    license: Not available
-    home_url: https://github.com/live-clones/hdf5
+    description: HDF5 is a data model, library, and file format for storing and managing data
+    license: BSD-3
+    home_url: https://github.com/h5py/h5py
     total_pulls: 1
     manually_check: true
 nullarbor:
