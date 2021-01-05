@@ -52797,9 +52797,9 @@ philosopher:
       -   Proteomics
 jenkins_version:
     name: jenkins_version
-    description: ''
-    license: Not available
-    home_url:
+    description: 'jenkins_version use in Biocontainers'
+    license: Apache-2.0
+    home_url: http://biocontainers.pro
     total_pulls: 0
     manually_check: true
 peptideprophet:
@@ -52840,9 +52840,9 @@ anchore-cli:
     manually_check: true
 biotools-pr:
     name: biotools-pr
-    description: ''
-    license: Not available
-    home_url:
+    description: 'biotools container'
+    license: MIT
+    home_url: http://biocontainers.pro
     total_pulls: 0
     manually_check: true
 dia-umpire:
@@ -52919,23 +52919,23 @@ clustal-omega:
     manually_check: true
 jenkins_spec_check:
     name: jenkins_spec_check
-    description: ''
-    license: Not available
-    home_url:
+    description: 'Jenkins check for biocontainers'
+    license: Apache-2.0
+    home_url: http://biocontainers.pro
     total_pulls: 0
     manually_check: true
 mzquality:
     name: mzquality
-    description: ''
-    license: Not available
-    home_url:
+    description: 'A tool to assess the quality of targeted mass spectrometry measurements.'
+    license: Apache-2.0
+    home_url: https://github.com/phnmnl/container-mzquality
     total_pulls: 0
     manually_check: true
 phenomenal-portal:
     name: phenomenal-portal
-    description: ''
-    license: Not available
-    home_url:
+    description: 'PhenoMeNal portal project'
+    license: Apache-2.0
+    home_url: https://github.com/phnmnl/container-phenomenal-portal
     total_pulls: 0
     manually_check: true
 interproscan:
@@ -52954,11 +52954,7 @@ novor:
     manually_check: true
 pia:
     name: pia
-    description: The main focus lays on the integrated inference algorithms, concluding
-        the proteins from a set of identified spectra. but it also allows you to inspect
-        your peptide spectrum matches, calculate fdr values across different search
-        engine results and visualize the correspondence between psms, peptides and
-        proteins.
+    description: The main focus lays on the integrated inference algorithms, concluding the proteins from a set of identified spectra. but it also allows you to inspect your peptide spectrum matches, calculate fdr values across different search engine results and visualize the correspondence between psms, peptides and proteins.
     license: BSD-3-Clause
     home_url: https://github.com/mpc-bioinformatics/pia
     total_pulls: 0
@@ -52995,9 +52991,9 @@ mtblisa:
     manually_check: true
 isatab-create:
     name: isatab-create
-    description: ''
-    license: Not available
-    home_url:
+    description: 'The ISA-API is a Python 3 library that can create, manipulate, and convert ISA-formatted content. In the isatools.create.models module, there is functionality to create ISA-Tab datasets from experimental design objects. It supports both MS and NMR applications. This is wrapped up as the container-isatab-create container.'
+    license: Apache-2.0
+    home_url: https://github.com/phnmnl/container-isatab-create
     total_pulls: 0
     manually_check: true
 ms-vfetc:
@@ -53009,16 +53005,14 @@ ms-vfetc:
     manually_check: true
 crux:
     name: crux
-    description: Cross-platform suite of analysis tools for interpreting protein mass
-        spectrometry data.
+    description: Cross-platform suite of analysis tools for interpreting protein mass spectrometry data.
     license: Apache-2.0
     home_url: https://github.com/crux-toolkit/crux-toolkit
     total_pulls: 0
     manually_check: true
 galaxy-rna-seq-training:
     name: galaxy-rna-seq-training
-    description: Everything what is needed to run an RNA-seq training, including an
-        interactive Galaxy Tour.
+    description: Everything what is needed to run an RNA-seq training, including an interactive Galaxy Tour.
     license: Not available
     home_url:
     total_pulls: 0
@@ -53178,14 +53172,13 @@ isajson-validator:
 ddi-web-app:
     name: ddi-web-app
     description: OmicsDI Web Application is a web page to index omics datasets
-    license: Not available
-    home_url:
+    license: Apache-2.0
+    home_url: https://github.com/OmicsDI/ddi-web-app
     total_pulls: 0
     manually_check: true
 ramid:
     name: ramid
-    description: R-program to read CDF files created by mass spectrometry and evaluate
-        the MS 13C-labeled metabolites
+    description: R-program to read CDF files created by mass spectrometry and evaluate the MS 13C-labeled metabolites
     license: Not available
     home_url:
     total_pulls: 0
