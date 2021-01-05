@@ -7373,7 +7373,7 @@ peptide-shaker:
     total_pulls: 0
     manually_check: true
     identifiers:
-      -   biotools:peptide-shaker
+      -   biotools:peptideshaker
       -   doi:10.1038/nbt.3109
     keywords:
       -   Amino Acid Sequence
@@ -52886,7 +52886,7 @@ peptideshaker:
     total_pulls: 0
     manually_check: true
     identifiers:
-      -   biotools:peptide-shaker
+      -   biotools:peptideshaker
       -   doi:10.1038/nbt.3109
     keywords:
       -   Amino Acid Sequence
@@ -53250,30 +53250,30 @@ lcmsmatching:
     manually_check: true
 escher-fluxomics:
     name: escher-fluxomics
-    description: ''
-    license: Not available
-    home_url:
+    description: 'Escher-based visualization for fluxes and concentrations generated from fluxomics data sets'
+    license: GPL-3.0
+    home_url: https://github.com/phnmnl/container-escher-fluxomics
     total_pulls: 0
     manually_check: true
 isa2w4m:
     name: isa2w4m
     description: Convert an ISA study into the 3 TSV files format of W4M
-    license: Not available
+    license: Custom License
     home_url: https://github.com/workflow4metabolomics/isa2w4m
     total_pulls: 0
     manually_check: true
 transformation:
     name: transformation
-    description: ''
-    license: Not available
-    home_url:
+    description: 'Transforms the dataMatrix intensity values.'
+    license: Custom License
+    home_url: https://github.com/phnmnl/container-transformation
     total_pulls: 0
     manually_check: true
 multivariate:
     name: multivariate
     description: PCA, PLS(-DA) and OPLS(-DA) for multivariate analysis of omics data
-    license: Not available
-    home_url:
+    license: Custom License
+    home_url: https://github.com/phnmnl/container-multivariate
     total_pulls: 0
     manually_check: true
 ssaha2:
@@ -53286,80 +53286,79 @@ ssaha2:
     manually_check: true
 papy:
     name: papy
-    description: ''
-    license: Not available
-    home_url:
+    description: 'Estimation of statistical power and sample size in metabolic phenotyping.'
+    license: Custom License
+    home_url: https://github.com/jianlianggao/papy
     total_pulls: 0
     manually_check: true
 mw2isa:
     name: mw2isa
-    description: ''
-    license: Not available
-    home_url:
+    description: 'A repo for a docker container for a microservice converting an MWTab to ISA-Tab format'
+    license: Custom License
+    home_url: https://github.com/phnmnl/container-mw2isa
     total_pulls: 0
     manually_check: true
 rnmr1d:
     name: rnmr1d
     description: 'Rnmr1D is the main module in the NMRProcFlow web application (http://nmrprocflow.org) concerning the NMR spectra processing'
-    license: Not available
+    license: Custom License
     home_url: https://github.com/INRA/Rnmr1D
     total_pulls: 0
     manually_check: true
 metfrag-vis:
     name: metfrag-vis
-    description: ''
-    license: Not available
-    home_url:
+    description: 'This tool uses MetFrag generated result CSV files and its parameter files to generate a summary PDF file which contains a specified number of top candidates retrieved from each result file. The output PDF includes also compound images and a URL to the MetFragWeb tool with the used parameters for each query. This enables the rerun of the specified MetFrag query.'
+    license: Custom License
+    home_url: https://github.com/phnmnl/container-metfrag-vis
     total_pulls: 0
     manually_check: true
 mtbl-labs-uploader:
     name: mtbl-labs-uploader
-    description: ''
-    license: Not available
-    home_url:
+    description: 'Facilities for uploading data to MetaboLights Labs'
+    license: Custom License
+    home_url: https://github.com/phnmnl/container-mtbl-labs-uploader
     total_pulls: 0
     manually_check: true
 phnml-jupyter:
     name: phnml-jupyter
     description: PhenoMeNal Jupyter container.
-    license: Not available
-    home_url:
+    license: Custom License
+    home_url: https://github.com/phnmnl/
     total_pulls: 0
     manually_check: true
 metaboliteidconverter:
     name: metaboliteidconverter
-    description: Enrich metabolomic data sets with well known databases such as InChIKey,
-        ChEBI identifiers
-    license: Not available
-    home_url:
+    description: Enrich metabolomic data sets with well known databases such as InChIKey, ChEBI identifiers
+    license: Custom License
+    home_url: https://github.com/phnmnl/container-metaboliteidconverter
     total_pulls: 0
     manually_check: true
 rnmr:
     name: rnmr
-    description: ''
-    license: Not available
-    home_url:
+    description: 'rNMR: open source software for identifying and quantifying metabolites in NMR spectra, developed by the team around Ian A. Lewis (University of Calgary)'
+    license: Custom License
+    home_url: https://github.com/phnmnl/container-rnmr
     total_pulls: 0
     manually_check: true
 qualitymetrics:
     name: qualitymetrics
-    description: ''
-    license: Not available
-    home_url:
+    description: 'Metrics and graphics to check the quality of the data.'
+    license: Custom License
+    home_url: https://github.com/phnmnl/container-qualitymetrics
     total_pulls: 0
     manually_check: true
 container-mtbls-dwnld:
     name: container-mtbls-dwnld
     description: Metabolights downloader
-    license: Not available
-    home_url:
+    license: Custom License
+    home_url: https://github.com/phnmnl/container-mtbls-dwnld
     total_pulls: 0
     manually_check: true
 rbase:
     name: rbase
-    description: ''
-    license: Not available
-    home_url:
+    description: 'Containers of R packages.'
+    license: Custom License
+    home_url: https://github.com/phnmnl/container-rbase
     total_pulls: 0
     manually_check: true
 fastcluster:
@@ -53378,9 +53377,9 @@ gcta:
     manually_check: true
 soap-nmr:
     name: soap-nmr
-    description: ''
-    license: Not available
-    home_url:
+    description: 'Dockerify SOAP-NMR - an R package for 1H-NMR data pre-treatment.'
+    license: Custom License
+    home_url: https://github.com/phnmnl/container-soap-nmr
     total_pulls: 0
     manually_check: true
 luigi:
@@ -53407,7 +53406,7 @@ telescoper:
     manually_check: true
 sbml2metexplorejsongraph:
     name: sbml2metexplorejsongraph
-    description: ''
+    description: 'SBML convert to meteexplore json graph'
     license: GNU Lesser General Public License v3.0
     home_url: https://github.com/bmerlet90/tool-SBML2MetexploreJsonGraph
     total_pulls: 0
@@ -53428,7 +53427,7 @@ seq_crumbs:
     manually_check: true
 tool-generic_filter:
     name: tool-generic_filter
-    description: ''
+    description: 'This tool allows to remove all samples and/or variables corresponding to specific values regarding designated factors or numerical variables, in datasets corresponding to dataMatrix, sampleMetadata and variableMetadata.'
     license: Not available
     home_url: https://github.com/workflow4metabolomics/tool-generic_filter
     total_pulls: 0
@@ -53457,9 +53456,9 @@ dictobj:
     manually_check: true
 univariate:
     name: univariate
-    description: ''
-    license: Not available
-    home_url:
+    description: 'The module performs two sample tests (t-test and Wilcoxon rank test), analysis of variance and Kruskal-Wallis rank test, and correlation tests (by using either the pearson or the spearman correlation), with correction for multiple testing.'
+    license: Custom License
+    home_url: https://github.com/phnmnl/container-univariate
     total_pulls: 0
     manually_check: true
 frc_align:
@@ -53487,8 +53486,8 @@ partitionfinder2:
     manually_check: true
 isa-extractor:
     name: isa-extractor
-    description: ''
-    license: Not available
+    description: 'Extract collections of raw data files (mzML, mzXML, netCDF, mzData or nmrML) from an ISA study.'
+    license: Custom License
     home_url: https://github.com/workflow4metabolomics/isa-extractor
     total_pulls: 0
     manually_check: true
@@ -53504,8 +53503,8 @@ eosc-pilot:
 progressivecactus:
     name: progressivecactus
     description: multiple whole-genome alignment package
-    license: Not available
-    home_url: https://github.com/glennhickey/progressiveCactus
+    license: Custom License
+    home_url: https://github.com/ComparativeGenomicsToolkit/cactus
     total_pulls: 0
     manually_check: true
 pymol-jupiter:
@@ -64203,9 +64202,9 @@ pullseq:
     manually_check: true
 pyfiglet:
     name: pyfiglet
-    description:
+    description: An implementation of figlet written in Python
     license: Not available
-    home_url:
+    home_url: https://github.com/pwaller/pyfiglet
     total_pulls: 0
     manually_check: true
 py2neo:
@@ -64217,8 +64216,7 @@ py2neo:
     manually_check: true
 onto2nx:
     name: onto2nx
-    description: A package for parsing ontologies in the owl and obo format into networkx
-        graphs
+    description: A package for parsing ontologies in the owl and obo format into networkx graphs
     license: GNU General Public License v3.0
     home_url: https://github.com/cthoyt/onto2nx
     total_pulls: 0
