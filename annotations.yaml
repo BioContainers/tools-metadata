@@ -15812,6 +15812,7 @@ comet-ms:
     identifiers:
       -   doi:10.1007/s13361-015-1179-x
       -   doi:10.1002/pmic.201200439
+      -   biotools:comet
     keywords:
       -   Amino Acid Sequence
       -   Databases, Protein
@@ -46072,23 +46073,23 @@ connectome-workbench:
     manually_check: true
 scikit-learn:
     name: scikit-learn
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'scikit-learn: machine learning in Python'
+    license: BSD-3.0
+    home_url: https://github.com/scikit-learn/scikit-learn
     total_pulls: 1
     manually_check: true
 scikit-image:
     name: scikit-image
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Image processing in Python'
+    license: Custom Lice
+    home_url: https://github.com/scikit-image/scikit-image
     total_pulls: 1
     manually_check: true
 spyder:
     name: spyder
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Spyder is a free and open source scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts.'
+    license: MIT
+    home_url: https://github.com/spyder-ide/spyder
     total_pulls: 1
     manually_check: true
 r-seurat-scripts:
@@ -49193,12 +49194,24 @@ picard-tools:
     manually_check: true
 comet:
     name: comet
-    description: Comet is an open source tandem mass spectrometry (ms/ms) sequence
-        database search tool.
+    description: Comet is a command line tool that does MS/MS database search.
     license: Apache-2.0
     home_url: http://comet-ms.sourceforge.net/
-    total_pulls: 0
+    total_pulls: 4
     manually_check: true
+    identifiers:
+      -   doi:10.1007/s13361-015-1179-x
+      -   doi:10.1002/pmic.201200439
+      -   biotools:comet
+    keywords:
+      -   Amino Acid Sequence
+      -   Databases, Protein
+      -   Humans
+      -   Peptides
+      -   Proteins
+      -   Proteomics
+      -   Search Engine
+      -   Tandem Mass Spectrometry
 talon:
     name: talon
     description: Talon is a python package for identifying and quantifying known and
@@ -53582,23 +53595,23 @@ falcon:
     manually_check: true
 python-bz2file:
     name: python-bz2file
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Python library for reading and writing bzip2-compressed files.'
+    license: Custom License
+    home_url: https://github.com/nvawda/bz2file
     total_pulls: 0
     manually_check: true
 python-cutadapt:
     name: python-cutadapt
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Cutadapt finds and removes adapter sequences, primers, poly-A tails and other types of unwanted sequence from your high-throughput sequencing reads.'
+    license: MIT
+    home_url: https://pypi.org/project/cutadapt/
     total_pulls: 0
     manually_check: true
 python-kineticstools:
     name: python-kineticstools
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Tools for detecting DNA modifications from single molecule, real-time sequencing data'
+    license: Custom License
+    home_url: https://github.com/PacificBiosciences/kineticsTools
     total_pulls: 0
     manually_check: true
 python-matplotlib-venn:
