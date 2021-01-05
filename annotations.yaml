@@ -15812,6 +15812,7 @@ comet-ms:
     identifiers:
       -   doi:10.1007/s13361-015-1179-x
       -   doi:10.1002/pmic.201200439
+      -   biotools:comet
     keywords:
       -   Amino Acid Sequence
       -   Databases, Protein
@@ -49193,12 +49194,24 @@ picard-tools:
     manually_check: true
 comet:
     name: comet
-    description: Comet is an open source tandem mass spectrometry (ms/ms) sequence
-        database search tool.
+    description: Comet is a command line tool that does MS/MS database search.
     license: Apache-2.0
     home_url: http://comet-ms.sourceforge.net/
-    total_pulls: 0
+    total_pulls: 4
     manually_check: true
+    identifiers:
+      -   doi:10.1007/s13361-015-1179-x
+      -   doi:10.1002/pmic.201200439
+      -   biotools:comet
+    keywords:
+      -   Amino Acid Sequence
+      -   Databases, Protein
+      -   Humans
+      -   Peptides
+      -   Proteins
+      -   Proteomics
+      -   Search Engine
+      -   Tandem Mass Spectrometry
 talon:
     name: talon
     description: Talon is a python package for identifying and quantifying known and
