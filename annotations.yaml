@@ -78447,12 +78447,12 @@ scran-cli:
     total_pulls: 0
     manually_check: true
 - rnashapes:
-    description: Rnashape abstraction maps structures to a tree-like domain of shapes,
+    description: 'Rnashape abstraction maps structures to a tree-like domain of shapes,
       retaining adjacency and nesting of structural features, but disregarding helix
       lengths. shape abstraction integrates well with dynamic programming algorithms,
       and hence it can be applied during structure prediction rather than afterwards.
       this avoids exponential explosion and can still give us a non-heuristic and
-      complete account of properties of the molecule's folding space.
+      complete account of properties of the molecules folding space.'
     home_url: http://bibiserv.techfak.uni-bielefeld.de/rnashapes
     identifiers: []
     keywords: []
@@ -78576,7 +78576,7 @@ scran-cli:
     home_url: https://github.com/openbabel/openbabel/archive/openbabel-2-4-1.zip
     identifiers: []
     keywords: []
-    license:  Gplv2
+    license: Gplv2
     manually_check: false
     name: openbabel
     total_pulls: 1181939
