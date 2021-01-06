@@ -81772,11 +81772,11 @@ bioconductor-lefser:
     name: bioconductor-lefser
     total_pulls: 361
 bioconductor-hummingbird:
-    description: ''
-    home_url: ''
+    description: 'A package for detecting differential methylation. It exploits a Bayesian hidden Markov model that incorporates location dependence among genomic loci, unlike most existing methods that assume independence among observations. Bayesian priors are applied to permit information sharing across an entire chromosome for improved power of detection. The direct output of our software package is the best sequence of methylation states, eliminating the use of a subjective, and most of the time an arbitrary, threshold of p-value for determining significance. At last, our methodology does not require replication in either or both of the two comparison groups.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/hummingbird.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL (>=2)
     manually_check: true
     name: bioconductor-hummingbird
     total_pulls: 503
@@ -81809,29 +81809,29 @@ bioconductor-isanalytics:
     name: bioconductor-isanalytics
     total_pulls: 362
 bioconductor-ncrnatools:
-    description: ''
-    home_url: ''
+    description: 'ncRNAtools provides a set of basic tools for handling and analyzing non-coding RNAs. These include tools to access the RNAcentral database and to predict and visualize the secondary structure of non-coding RNAs. The package also provides tools to read, write and interconvert the file formats most commonly used for representing such secondary structures.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/ncRNAtools.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: bioconductor-ncrnatools
     total_pulls: 358
 bioconductor-nebulosa:
-    description: ''
-    home_url: ''
+    description: 'This package provides a enhanced visualization of single-cell data based on gene-weighted density estimation. Nebulosa recovers the signal from dropped-out features and allows the inspection of the joint expression from multiple features (e.g. genes). Seurat and SingleCellExperiment objects can be used within Nebulosa.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/Nebulosa.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: bioconductor-nebulosa
     total_pulls: 361
 bioconductor-newwave:
-    description: ''
-    home_url: ''
+    description: 'A model designed for dimensionality reduction and batch effect removal for scRNA-seq data. It is designed to be massively parallelizable using shared objects that prevent memory duplication, and it can be used with different mini-batch approaches in order to reduce time consumption. It assumes a negative binomial distribution for the data with a dispersion parameter that can be both commonwise across gene both genewise.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/NewWave.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: bioconductor-newwave
     total_pulls: 358
@@ -81846,29 +81846,29 @@ bioconductor-tmexplorer:
     name: bioconductor-tmexplorer
     total_pulls: 114
 bioconductor-mofa2:
-    description: ''
-    home_url: ''
+    description: 'The MOFA2 package contains a collection of tools for running and analysing MOFA models.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/MOFA2.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL (>= 2)
     manually_check: true
     name: bioconductor-mofa2
     total_pulls: 521
 bioconductor-marr:
-    description: ''
-    home_url: ''
+    description: 'marr (Maximum Rank Reproducibility) is a nonparametric approach that detects reproducible signals using a maximal rank statistic for high-dimensional biological data. In this R package, we implement functions that measures the reproducibility of features per sample pair and sample pairs per feature in high-dimensional biological replicate experiments. The user-friendly plot functions in this package also plot histograms of the reproducibility of features per sample pair and sample pairs per feature. Furthermore, our approach also allows the users to select optimal filtering threshold values for the identification of reproducible features and sample pairs based on output visualization checks (histograms).'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/marr.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL (>= 3)
     manually_check: true
     name: bioconductor-marr
     total_pulls: 490
 bioconductor-scuttle:
-    description: ''
-    home_url: ''
+    description: 'Provides basic utility functions for performing single-cell analyses, focusing on simple normalization, quality control and data transformations. Also provides some helper functions to assist development of other packages.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/scuttle.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: bioconductor-scuttle
     total_pulls: 635
