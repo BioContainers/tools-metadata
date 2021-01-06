@@ -53694,16 +53694,16 @@ python-pbconsensuscore:
     manually_check: true
 python-vtk-dicom:
     name: python-vtk-dicom
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'This package contains a set of classes for managing DICOM files and metadata from within VTK, and some utility programs for interrogating and converting DICOM files.'
+    license: BSD-3.0
+    home_url: https://github.com/dgobbi/vtk-dicom/
     total_pulls: 0
     manually_check: true
 python3-skbio:
     name: python3-skbio
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Scikit-bio is a Python package providing data structures, algorithms, and educational resources for bioinformatics.'
+    license: Custom License
+    home_url: https://github.com/biocore/scikit-bio
     total_pulls: 0
     manually_check: true
 mothur-mpi:
@@ -53715,15 +53715,16 @@ mothur-mpi:
     manually_check: true
 pwiz-i-agree-to-the-vendor-licenses:
     name: pwiz-i-agree-to-the-vendor-licenses
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Makes it easy to run ProteoWizard and Skyline on Linux.'
+    license: Custom Licen
+    home_url: https://hub.docker.com/r/chambm/pwiz-skyline-i-agree-to-the-vendor-licenses
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 toppas:
     name: toppas
-    description: A graphical workflow editor for the analysis of high-throughput proteomics
-        data
+    description: A graphical workflow editor for the analysis of high-throughput proteomics data
     license: BSD-2-Clause
     home_url: http://open-ms.sourceforge.net/workflow-integration/toppasworkflows/
     total_pulls: 0
@@ -53732,72 +53733,72 @@ toppas:
       -   Proteomics
 python-fast5:
     name: python-fast5
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'ibrary for reading Oxford Nanopore Fast5 files'
+    license: MIT
+    home_url: https://github.com/mateidavid/fast5
     total_pulls: 0
     manually_check: true
 python-gdcm:
     name: python-gdcm
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Grassroots DICOM Python bindings'
+    license: BSD-3.0
+    home_url: http://gdcm.sourceforge.net/
     total_pulls: 0
     manually_check: true
 python-fastcluster:
     name: python-fastcluster
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Fast hierarchical clustering routines for Python'
+    license: BSD
+    home_url: https://cran.r-project.org/package=fastcluster
     total_pulls: 0
     manually_check: true
 python-pbalign:
     name: python-pbalign
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'map Pacific Biosciences reads to reference DNA sequences'
+    license: PacBio-BSD-3-Clause
+    home_url: https://github.com/PacificBiosciences/pbalign
     total_pulls: 0
     manually_check: true
 python-pbcore:
     name: python-pbcore
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Python 2 library for processing PacBio data files'
+    license: PacBio-BSD-3-Clause
+    home_url: https://github.com/PacificBiosciences/pbcore
     total_pulls: 0
     manually_check: true
 python3-biopython-sql:
     name: python3-biopython-sql
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Biopython support for the BioSQL database schema'
+    license: Custom License
+    home_url: https://github.com/biopython/biopython
     total_pulls: 0
     manually_check: true
 python3-bz2file:
     name: python3-bz2file
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Python3 library for reading and writing bzip2-compressed files'
+    license: Apache-2.0
+    home_url: https://github.com/nvawda/bz2file
     total_pulls: 0
     manually_check: true
 python3-fastcluster:
     name: python3-fastcluster
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Fast hierarchical clustering routines for Python 3'
+    license: BSD
+    home_url: https://cran.r-project.org/package=fastcluster
     total_pulls: 0
     manually_check: true
 python3-pbconsensuscore:
     name: python3-pbconsensuscore
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'algorithms for PacBio multiple sequence consensus'
+    license: PacBio-BSD-3-Clause
+    home_url: https://github.com/PacificBiosciences/ConsensusCore
     total_pulls: 0
     manually_check: true
 batchcorrection:
     name: batchcorrection
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Corrects intensities for signal drift and batch-effects'
+    license: Custom License
+    home_url: https://github.com/phnmnl/container-batch_correction
     total_pulls: 0
     manually_check: true
 fis-gtm-6.3-000a:
@@ -63706,17 +63707,16 @@ perl-safe:
     manually_check: true
 perl-pod-checker:
     name: perl-pod-checker
-    description: Pod::checker verifies pod documentation contents for compliance with
-        the pod format specifications
-    license: Not available
+    description: Pod::checker verifies pod documentation contents for compliance with the pod format specifications
+    license: perl_5
     home_url: http://metacpan.org/pod/Pod::Checker
     total_pulls: 0
     manually_check: true
 perl-posix:
     name: perl-posix
-    description: ''
-    license: Not available
-    home_url: None
+    description: 'The POSIX standard defines access to the operating system. Most operating systems (not limited to the UNIX family) provide at least a part of this standard, sometimes as optional or commercial extension package.'
+    license: perl_5
+    home_url: https://metacpan.org/pod/distribution/POSIX-1003/lib/POSIX/Overview.pod
     total_pulls: 0
     manually_check: true
 perl-io-uncompress-bunzip2:
