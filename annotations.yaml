@@ -54298,37 +54298,37 @@ python-intervaltree-bio:
     manually_check: true
 python-mia:
     name: python-mia
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'MIA comprises a set of tools, libraries, and plug-ins for general purpose 2D and 3D gray scale image processing and basic handling of triangular meshes. The libraries provide a basic infrastructure and generic algorithms, that can be specialized by specifying the appropriate plug-ins. This package provides the Python-3 bindings.'
+    license: GNU
+    home_url: http://mia.sourceforge.net/
     total_pulls: 0
     manually_check: true
 python-openslide:
     name: python-openslide
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'OpenSlide is a C library that provides a simple interface for reading whole-slide images, also known as virtual slides, which are high-resolution images used in digital pathology. These images can occupy tens of gigabytes when uncompressed, and so cannot be easily read using standard tools or libraries, which are designed for images that can be comfortably uncompressed into RAM. Whole-slide images are typically multi-resolution; OpenSlide allows reading a small amount of image data at the resolution closest to a desired zoom level.'
+    license: Custom License
+    home_url: https://github.com/openslide/openslide-python
     total_pulls: 0
     manually_check: true
 python-dictobj:
     name: python-dictobj
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: Dictionary where keys can be accessed as instance attributes
+    license: Apache-2.0
+    home_url: http://pypi.python.org/pypi/dictobj
     total_pulls: 0
     manually_check: true
 python-visionegg:
     name: python-visionegg
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: Python library for 2d/3d visual stimulus generation
+    license: LGPL 2.1
+    home_url: https://github.com/visionegg/visionegg
     total_pulls: 0
     manually_check: true
 python3-biom-format:
     name: python3-biom-format
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: Command-line tools for biom format
+    license: GPL
+    home_url: http://biom-format.org/
     total_pulls: 0
     manually_check: true
 python-screed:
@@ -68093,6 +68093,7 @@ ucsc-pslmappostchain:
     description: Post genomic pslMap (TransMap) chaining. This takes transcripts that have been mapped via genomic chains adds back in blocks that didn't get include in genomic chains due to complex rearrangements or other issues.
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
+    license: Custom License
     manually_check: true
 ucsc-maketablelist:
     name: ucsc-maketablelist
