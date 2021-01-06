@@ -53623,9 +53623,9 @@ python-matplotlib-venn:
     manually_check: true
 python3-dna-jellyfish:
     name: python3-dna-jellyfish
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'JELLYFISH is a tool for fast, memory-efficient counting of k-mers in DNA. A k-mer is a substring of length k, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence. JELLYFISH can count k-mers using an order of magnitude less memory and an order of magnitude faster than other k-mer counting packages by using an efficient encoding of a hash table and by exploiting the "compare-and-swap" CPU instruction to increase parallelism.'
+    license: Custom License
+    home_url: https://www.cbcb.umd.edu/software/jellyfish/
     total_pulls: 0
     manually_check: true
 python3-xopen:
@@ -53638,7 +53638,7 @@ python3-xopen:
 smrtanalysis:
     name: smrtanalysis
     description: Software suite for single molecule, real-time sequencing
-    license: Not available
+    license: Custom License
     home_url: http://www.pacb.com/products-and-services/analytical-software/smrt-analysis/
     total_pulls: 0
     manually_check: true
@@ -53651,9 +53651,9 @@ skbio:
     manually_check: true
 isaslicer:
     name: isaslicer
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'A container using the ISA-API for slice querying ISA-Tab metadata.'
+    license: Apache-2.0
+    home_url: https://github.com/phnmnl/container-isaslicer
     total_pulls: 0
     manually_check: true
 epigrass:
@@ -53673,37 +53673,37 @@ python-avro:
     manually_check: true
 python-biopython-sql:
     name: python-biopython-sql
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'The Biopython Project is an international association of developers of freely available Python tools for computational molecular biology.'
+    license: BSD 3-Clause
+    home_url: https://github.com/biopython/biopython
     total_pulls: 0
     manually_check: true
 python-odil:
     name: python-odil
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Odil is a C++11 library for the DICOM standard'
+    license: Custom License
+    home_url: https://github.com/lamyj/odil
     total_pulls: 0
     manually_check: true
 python-pbconsensuscore:
     name: python-pbconsensuscore
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'ConsensusCore is a library of C++ algorithms for Pacific Biosciences multiple sequence consensus that powers Quiver (Python) and ConsensusTools (.NET). This library primarily exists as the backend for GenomicConsensus, which implements Quiver.'
+    license: Custom License
+    home_url: https://github.com/PacificBiosciences/ConsensusCore
     total_pulls: 0
     manually_check: true
 python-vtk-dicom:
     name: python-vtk-dicom
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'This package contains a set of classes for managing DICOM files and metadata from within VTK, and some utility programs for interrogating and converting DICOM files.'
+    license: BSD-3.0
+    home_url: https://github.com/dgobbi/vtk-dicom/
     total_pulls: 0
     manually_check: true
 python3-skbio:
     name: python3-skbio
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Scikit-bio is a Python package providing data structures, algorithms, and educational resources for bioinformatics.'
+    license: Custom License
+    home_url: https://github.com/biocore/scikit-bio
     total_pulls: 0
     manually_check: true
 mothur-mpi:
@@ -53715,15 +53715,16 @@ mothur-mpi:
     manually_check: true
 pwiz-i-agree-to-the-vendor-licenses:
     name: pwiz-i-agree-to-the-vendor-licenses
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Makes it easy to run ProteoWizard and Skyline on Linux.'
+    license: Custom Licen
+    home_url: https://hub.docker.com/r/chambm/pwiz-skyline-i-agree-to-the-vendor-licenses
     total_pulls: 0
     manually_check: true
+    keywords:
+      -   Proteomics
 toppas:
     name: toppas
-    description: A graphical workflow editor for the analysis of high-throughput proteomics
-        data
+    description: A graphical workflow editor for the analysis of high-throughput proteomics data
     license: BSD-2-Clause
     home_url: http://open-ms.sourceforge.net/workflow-integration/toppasworkflows/
     total_pulls: 0
@@ -53732,72 +53733,72 @@ toppas:
       -   Proteomics
 python-fast5:
     name: python-fast5
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'ibrary for reading Oxford Nanopore Fast5 files'
+    license: MIT
+    home_url: https://github.com/mateidavid/fast5
     total_pulls: 0
     manually_check: true
 python-gdcm:
     name: python-gdcm
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Grassroots DICOM Python bindings'
+    license: BSD-3.0
+    home_url: http://gdcm.sourceforge.net/
     total_pulls: 0
     manually_check: true
 python-fastcluster:
     name: python-fastcluster
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Fast hierarchical clustering routines for Python'
+    license: BSD
+    home_url: https://cran.r-project.org/package=fastcluster
     total_pulls: 0
     manually_check: true
 python-pbalign:
     name: python-pbalign
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'map Pacific Biosciences reads to reference DNA sequences'
+    license: PacBio-BSD-3-Clause
+    home_url: https://github.com/PacificBiosciences/pbalign
     total_pulls: 0
     manually_check: true
 python-pbcore:
     name: python-pbcore
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Python 2 library for processing PacBio data files'
+    license: PacBio-BSD-3-Clause
+    home_url: https://github.com/PacificBiosciences/pbcore
     total_pulls: 0
     manually_check: true
 python3-biopython-sql:
     name: python3-biopython-sql
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Biopython support for the BioSQL database schema'
+    license: Custom License
+    home_url: https://github.com/biopython/biopython
     total_pulls: 0
     manually_check: true
 python3-bz2file:
     name: python3-bz2file
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Python3 library for reading and writing bzip2-compressed files'
+    license: Apache-2.0
+    home_url: https://github.com/nvawda/bz2file
     total_pulls: 0
     manually_check: true
 python3-fastcluster:
     name: python3-fastcluster
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Fast hierarchical clustering routines for Python 3'
+    license: BSD
+    home_url: https://cran.r-project.org/package=fastcluster
     total_pulls: 0
     manually_check: true
 python3-pbconsensuscore:
     name: python3-pbconsensuscore
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'algorithms for PacBio multiple sequence consensus'
+    license: PacBio-BSD-3-Clause
+    home_url: https://github.com/PacificBiosciences/ConsensusCore
     total_pulls: 0
     manually_check: true
 batchcorrection:
     name: batchcorrection
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Corrects intensities for signal drift and batch-effects'
+    license: Custom License
+    home_url: https://github.com/phnmnl/container-batch_correction
     total_pulls: 0
     manually_check: true
 fis-gtm-6.3-000a:
@@ -53809,8 +53810,7 @@ fis-gtm-6.3-000a:
     manually_check: true
 melting-gui:
     name: melting-gui
-    description: Graphical interface to compute the melting temperature of nucleic
-        acid duplex
+    description: Graphical interface to compute the melting temperature of nucleic acid duplex
     license: GPL-2+
     home_url: http://www.ebi.ac.uk/compneur-srv/melting/
     total_pulls: 0
@@ -54109,29 +54109,28 @@ python-ruffus:
     manually_check: true
 python-schema-salad:
     name: python-schema-salad
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Salad is a schema language for describing JSON or YAML structured linked data documents. Salad schema describes rules for preprocessing, structural validation, and hyperlink checking for documents described by a Salad schema. Salad supports rich data modeling with inheritance, template specialization, object identifiers, object references, documentation generation, code generation, and transformation to RDF. Salad provides a bridge between document and record oriented data modeling and the Semantic Web.'
+    license: Apache-2.0
+    home_url: https://github.com/common-workflow-language/schema_salad
     total_pulls: 0
     manually_check: true
 python3-openslide:
     name: python3-openslide
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'OpenSlide is a C library that provides a simple interface for reading whole-slide images, also known as virtual slides, which are high-resolution images used in digital pathology. These images can occupy tens of gigabytes when uncompressed, and so cannot be easily read using standard tools or libraries, which are designed for images that can be comfortably uncompressed into RAM. Whole-slide images are typically multi-resolution; OpenSlide allows reading a small amount of image data at the resolution closest to a desired zoom level.'
+    license: Custom License
+    home_url: https://github.com/openslide/openslide-python
     total_pulls: 0
     manually_check: true
 python3-pysam:
     name: python3-pysam
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'A python module for reading, manipulating and writing genomic data sets. pysam is a lightweight wrapper of the htslib C-API and provides facilities to read and write SAM/BAM/VCF/BCF/BED/GFF/GTF/FASTA/FASTQ files as well as access to the command line functionality of the samtools and bcftools packages. The module supports compression and random access through indexing. This module provides a low-level wrapper around the htslib C-API as using cython and a high-level API for convenient access to the data within standard genomic file formats.'
+    license: MIT
+    home_url: https://github.com/pysam-developers/pysam
     total_pulls: 0
     manually_check: true
 rpg:
     name: rpg
-    description: Rpg is a software dedicated to predict proteases-induced cleavage
-        sites on amino acid sequences.
+    description: Rpg is a software dedicated to predict proteases-induced cleavage sites on amino acid sequences.
     license: GPL-3.0-or-later
     home_url: https://gitlab.pasteur.fr/nmaillet/rpg
     total_pulls: 0
@@ -54145,7 +54144,7 @@ casmoothing:
     manually_check: true
 stocsy:
     name: stocsy
-    description: ''
+    description: 'Implementation of the Statistical Total Correlation Spectroscopy( STOCSY)'
     license: MIT
     home_url: https://github.com/cheminfo-js/stocsy
     total_pulls: 0
@@ -54171,23 +54170,23 @@ predictprotein:
     manually_check: true
 python-freecontact:
     name: python-freecontact
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'fast protein contact predictor - binding for Python'
+    license: GNU
+    home_url: https://directory.fsf.org/wiki/Python-freecontact
     total_pulls: 0
     manually_check: true
 python-pyvcf:
     name: python-pyvcf
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'A Variant Call Format reader for Python.'
+    license: MIT
+    home_url: https://github.com/jamescasbon/PyVCF
     total_pulls: 0
     manually_check: true
 python3-mia:
     name: python3-mia
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'MIA comprises a set of tools, libraries, and plug-ins for general purpose 2D and 3D gray scale image processing and basic handling of triangular meshes. The libraries provide a basic infrastructure and generic algorithms, that can be specialized by specifying the appropriate plug-ins. This package provides the Python-3 bindings.'
+    license: GNU
+    home_url: http://mia.sourceforge.net/
     total_pulls: 0
     manually_check: true
 relion-binplusmpi:
@@ -54206,86 +54205,93 @@ sitplus:
     manually_check: true
 python-ball:
     name: python-ball
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Statistical Inference and Sure Independence Screening via Ball Statistics'
+    license: Custom License
+    home_url: https://github.com/Mamba413/Ball
     total_pulls: 0
     manually_check: true
 python-ballview:
     name: python-ballview
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'BALLView is BALL’s standalone molecular modelling and visualization application. Furthermore, it is also a framework for developing molecular visualization functionality.'
+    license: Custom Licesnse
+    home_url: https://ball-project.org/ballview/
     total_pulls: 0
     manually_check: true
 python-burrito:
     name: python-burrito
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Python framework for controlling command-line applications.'
+    license: BSD-3.0
+    home_url: https://github.com/biocore/burrito
     total_pulls: 0
     manually_check: true
 python-biopython:
     name: python-biopython
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'The Biopython Project is an international association of developers of freely available Python tools for computational molecular biology.'
+    license: Custom License
+    home_url: https://github.com/biopython/biopython/
     total_pulls: 0
     manually_check: true
 python-clips:
     name: python-clips
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Python CFFI bindings for the ‘C’ Language Integrated Production System CLIPS'
+    license: BSD-3.0
+    home_url: https://github.com/noxdafox/clipspy
     total_pulls: 0
     manually_check: true
 python-cobra-data:
     name: python-cobra-data
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'COnstraint-Based Reconstruction and Analysis (COBRA) methods are widely used for genome-scale modeling of metabolic networks in both prokaryotes and eukaryotes. COBRApy is a constraint-based modeling package that is designed to accommodate the biological complexity of the next generation of COBRA models and provides access to commonly used COBRA methods, such as flux balance analysis, flux variability analysis, and gene deletion analyses.'
+    license: GPL-2.0
+    home_url: https://github.com/opencobra/cobrapy
     total_pulls: 0
     manually_check: true
 python-corepywrap:
     name: python-corepywrap
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'The RCSB Core Wrapper library was developed to provide an object-oriented application interface to information in mmCIF format. It includes several classes for accessing data dictionaries and mmCIF format data files.'
+    license: MIT
+    home_url: https://sw-tools.rcsb.org/apps/CORE-WRAPPER/index.html
     total_pulls: 0
     manually_check: true
 python-casmoothing:
     name: python-casmoothing
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Smoothing algorithms allow to reduce artifacts from mesh generation, but often degrade accuracy. The method described in the paper "Context-aware mesh smoothing for biomedical applications" identifies staircase artifacts which result from image inhomogeneities and binary segmentation in medical image data for subsequent removal by adaptive mesh smoothing. Thus, context-aware smoothing enables to adaptively smooth artifact areas, while non-artifact features can be preserved. This is a implementation of this method in Cpp with Python bindings.'
+    license: GPL
+    home_url: https://github.com/tfmoraes/python-casmoothing
     total_pulls: 0
     manually_check: true
 python-dendropy:
     name: python-dendropy
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'DendroPy is a Python library for phylogenetic computing. It provides classes and functions for the simulation, processing, and manipulation of phylogenetic trees and character matrices, and supports the reading and writing of phylogenetic data in a range of formats, such as NEXUS, NEWICK, NeXML, Phylip, FASTA, etc. Application scripts for performing some useful phylogenetic operations, such as data conversion and tree posterior distribution summarization, are also distributed and installed as part of the libary. DendroPy can thus function as a stand-alone library for phylogenetics, a component of more complex multi-library phyloinformatic pipelines, or as a scripting "glue" that assembles and drives such pipelines.'
+    license: Custom License
+    home_url: https://github.com/jeetsukumaran/DendroPy
     total_pulls: 0
     manually_check: true
 python-cobra:
     name: python-cobra
-    description: ''
-    license: Not available
-    home_url: Not available
-    total_pulls: 0
+    description: Cobrapy is a package for constraint-based modeling of biological networks.
+    license: GPL-2.0
+    home_url: https://github.com/opencobra/cobrapy
+    total_pulls: 5830
     manually_check: true
+    identifiers:
+      -   doi:10.1186/1752-0509-7-74
+    keywords:
+      -   Genomics
+      -   Metabolic Networks and Pathways
+      -   Models, Biological
+      -   Programming Languages
 python-fitbit:
     name: python-fitbit
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Fitbit API Python Client Implementation'
+    license: Apache-2.0
+    home_url: https://github.com/orcasgit/python-fitbit
     total_pulls: 0
     manually_check: true
 python-intervaltree-bio:
     name: python-intervaltree-bio
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Convenience classes for loading UCSC genomic annotation records into a set of interval tree data structures.'
+    license: MIT
+    home_url: https://github.com/konstantint/intervaltree-bio
     total_pulls: 0
     manually_check: true
 python-mia:
@@ -54360,11 +54366,18 @@ python3-intervaltree-bio:
     manually_check: true
 python3-cobra:
     name: python3-cobra
-    description: ''
-    license: Not available
-    home_url: Not available
-    total_pulls: 0
+    description: Cobrapy is a package for constraint-based modeling of biological networks.
+    license: GPL-2.0
+    home_url: https://github.com/opencobra/cobrapy
+    total_pulls: 5830
     manually_check: true
+    identifiers:
+      -   doi:10.1186/1752-0509-7-74
+    keywords:
+      -   Genomics
+      -   Metabolic Networks and Pathways
+      -   Models, Biological
+      -   Programming Languages
 python3-pyfaidx:
     name: python3-pyfaidx
     description: ''
@@ -55738,7 +55751,7 @@ bcbreport:
     manually_check: true
 bcdoc:
     name: bcdoc
-    description: ''
+    description: 'Tools to help document botocore-based projects'
     license: Apache-2.0
     home_url: https://pypi.python.org/packages/source/b/bcdoc/bcdoc-0.16.0.tar.gz
     total_pulls: 0
@@ -56202,8 +56215,8 @@ flask-script:
     manually_check: true
 flock:
     name: flock
-    description: ''
-    license: Not available
+    description: 'FLOCK - Flow Cytometry Clustering without K.'
+    license: Custom License
     home_url: https://sourceforge.net/projects/immportflock/
     total_pulls: 0
     manually_check: true
@@ -56218,7 +56231,7 @@ ftputil:
     name: ftputil
     description: High-level FTP client library (virtual file system and more)
     license: BSD License
-    home_url: None
+    home_url: https://ftputil.sschwarzer.net/trac
     total_pulls: 0
     manually_check: true
 gatk-framework:
@@ -56349,7 +56362,7 @@ gocr:
     manually_check: true
 google-api-python-client:
     name: google-api-python-client
-    description: ''
+    description: 'The official Python client library for Google discovery based APIs.'
     license: Apache 2.0
     home_url: https://github.com/googleapis/google-api-python-client
     total_pulls: 0
@@ -56797,9 +56810,9 @@ nasm:
     manually_check: true
 netifaces:
     name: netifaces
-    description: ''
+    description: 'Its been annoying me for some time that theres no easy way to get the address(es) of the machines network interfaces from Python. There is a good reason for this difficulty, which is that it is virtually impossible to do so in a portable manner. However, it seems to me that there should be a package you can easy_install that will take care of working out the details of doing so on the machine you are using, then you can get on with writing Python code without concerning yourself with the nitty gritty of system-dependent low-level networking APIs.'
     license: MIT
-    home_url: None
+    home_url: https://github.com/al45tair/netifaces
     total_pulls: 0
     manually_check: true
 networkxgmml:
@@ -56811,9 +56824,9 @@ networkxgmml:
     manually_check: true
 newt:
     name: newt
-    description: ''
-    license: GPL
-    home_url: None
+    description: 'Newt is a programming library for color text mode, widget based user interfaces. Newt can be used to add stacked windows, entry widgets, checkboxes, radio buttons, labels, plain text fields, scrollbars, etc., to text mode user interfaces. Newt is based on the slang library.'
+    license: GPL-2.0
+    home_url: https://fedorahosted.org/newt/
     total_pulls: 0
     manually_check: true
 nose-capturestderr:
@@ -57951,8 +57964,8 @@ perl-sql-statement:
     manually_check: true
 perl-statistics-basic:
     name: perl-statistics-basic
-    description: ''
-    license: Not available
+    description: 'Statistics::Basic - A collection of very basic statistics modules'
+    license: LGPL-2.0
     home_url: http://metacpan.org/pod/Statistics-Basic
     total_pulls: 0
     manually_check: true
@@ -58413,9 +58426,9 @@ pomegranate:
     manually_check: true
 popt:
     name: popt
-    description: ''
-    license: GPL
-    home_url: None
+    description: 'Popt is a C library for parsing command line parameters.'
+    license: MIT
+    home_url: http://rpm5.org/
     total_pulls: 0
     manually_check: true
 prosic:
@@ -58708,17 +58721,16 @@ r-batchjobs:
     manually_check: true
 r-bbmisc:
     name: r-bbmisc
-    description: ''
-    license: {}
-    home_url: None
+    description: 'Miscellaneous helper functions for and from B. Bischl and some other guys, mainly for package development.'
+    license: BSD-2.0
+    home_url: https://github.com/berndbischl/BBmisc
     total_pulls: 0
     manually_check: true
 r-beanplot:
     name: r-beanplot
-    description: Plots univariate comparison graphs, an alternative to boxplot/stripchart/violin
-        plot.
+    description: Plots univariate comparison graphs, an alternative to boxplot/stripchart/violin plot.
     license: GPL-2
-    home_url: None
+    home_url: https://CRAN.R-project.org/package=beanplot
     total_pulls: 0
     manually_check: true
 r-bh:
@@ -59082,9 +59094,9 @@ r-googlevis:
     manually_check: true
 r-gplots:
     name: r-gplots
-    description: ''
-    license: {}
-    home_url: None
+    description: 'Various R programming tools for plotting data'
+    license: GPL-2.0
+    home_url: https://github.com/talgalili/gplots
     total_pulls: 0
     manually_check: true
 r-gsalib:
@@ -59179,9 +59191,9 @@ r-knitrbootstrap:
     manually_check: true
 r-leaps:
     name: r-leaps
-    description: ''
-    license: Not available
-    home_url: None
+    description: 'Regression subset selection, including exhaustive search.'
+    license: GPL-2.0
+    home_url: https://CRAN.R-project.org/package=leaps
     total_pulls: 0
     manually_check: true
 r-longitudinal:
@@ -59353,16 +59365,16 @@ r-phonr:
     manually_check: true
 r-plotly:
     name: r-plotly
-    description: ''
-    license: {}
-    home_url: None
+    description: 'Create interactive web graphics from ggplot2 graphs and/or a custom interface to the (MIT-licensed) JavaScript library plotly.js inspired by the grammar of graphics.'
+    license: MIT
+    home_url: https://github.com/ropensci/plotly
     total_pulls: 0
     manually_check: true
 r-plotrix:
     name: r-plotrix
-    description: ''
-    license: Not available
-    home_url: None
+    description: 'Lots of plots, various labeling, axis and color scaling functions.'
+    license: GPL (>= 2)
+    home_url: https://CRAN.R-project.org/package=plotrix
     total_pulls: 0
     manually_check: true
 r-pmcmr:
@@ -59712,7 +59724,7 @@ r-splancs:
 r-statmod:
     name: r-statmod
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -59950,7 +59962,7 @@ sparsehash:
         class, but with different performance characteristics. It's easy to replace
         hash_map or unordered_map by sparse_hash_map or dense_hash_map in C++ code.  They
         also contain code to serialize and unserialize from disk.
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -61330,7 +61342,8 @@ rnabob:
     manually_check: true
 cansam:
     name: cansam
-    description: ''
+    description: 'The Sequence Alignment/Map (SAM) file format and its binary companion BAM are formats for storing nucleotide sequence alignments. They are designed for the large volumes of short- to middling-length reads produced by
+next-generation sequencing technologies.'
     license: BSD-3-Clause
     home_url: https://github.com/jmarshall/cansam/
     total_pulls: 0
@@ -61444,16 +61457,16 @@ perl-bio-db-hts:
     manually_check: true
 r-relations:
     name: r-relations
-    description: ''
-    license: {}
-    home_url: None
+    description: 'Data structures and algorithms for k-ary relations with arbitrary domains, featuring relational algebra, predicate functions, and fitters for consensus relations.'
+    license: GPL-2.0
+    home_url: https://CRAN.R-project.org/package=relations
     total_pulls: 0
     manually_check: true
 r-sets:
     name: r-sets
-    description: ''
-    license: {}
-    home_url: None
+    description: 'Data structures and basic operations for ordinary sets, generalizations such as fuzzy sets, multisets, and fuzzy multisets, customizable sets, and intervals.'
+    license: GPL-2.0
+    home_url: https://CRAN.R-project.org/package=sets
     total_pulls: 0
     manually_check: true
 stacks_summary:
@@ -61474,9 +61487,9 @@ genesplicer:
       -   biotools:GeneSplicer
 r-wrassp:
     name: r-wrassp
-    description: ''
-    license: {}
-    home_url: None
+    description: 'A wrapper around Michel Scheffers libassp (<http://libassp.sourceforge.net/>). The libassp (Advanced Speech Signal Processor) library aims at providing functionality for handling speech signal files in most common audio formats and for performing analyses common in phonetic science/speech science. This includes the calculation of formants, fundamental frequency, root mean square, auto correlation, a variety of spectral analyses, zero crossing rate, filtering etc. This wrapper provides R with a large subset of libassp signal processing functions and provides them to the user in a (hopefully) user-friendly manner.'
+    license: GPL (>= 3)
+    home_url: https://github.com/IPS-LMU/wrassp
     total_pulls: 0
     manually_check: true
 tgt:
@@ -61547,8 +61560,8 @@ repeatscout:
     manually_check: true
 dscr:
     name: dscr
-    description: ''
-    license: {}
+    description: 'Not available'
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -61653,7 +61666,7 @@ megagta:
 perl-btlib:
     name: perl-btlib
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -61683,7 +61696,7 @@ exparna:
 r-ahocorasicktrie:
     name: r-ahocorasicktrie
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -61827,7 +61840,7 @@ perl-test-harness:
 r-tibble:
     name: r-tibble
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -61961,7 +61974,7 @@ xmltramp2:
 r-rcppgsl:
     name: r-rcppgsl
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -62014,35 +62027,35 @@ r-algdesign:
 r-combinat:
     name: r-combinat
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-gmodels:
     name: r-gmodels
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-klar:
     name: r-klar
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-learnbayes:
     name: r-learnbayes
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-spdep:
     name: r-spdep
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -62061,49 +62074,49 @@ r-gbm:
 r-gam:
     name: r-gam
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-outliers:
     name: r-outliers
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-logging:
     name: r-logging
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-gamlss.data:
     name: r-gamlss.data
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-pscl:
     name: r-pscl
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-gamlss.dist:
     name: r-gamlss.dist
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-gamlss:
     name: r-gamlss
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -62128,14 +62141,14 @@ pipmir:
 r-inlinedocs:
     name: r-inlinedocs
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-penalized:
     name: r-penalized
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -62189,7 +62202,7 @@ gfinisher:
 r-caroline:
     name: r-caroline
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -62261,56 +62274,56 @@ junit-xml:
 r-truncnorm:
     name: r-truncnorm
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-rsolnp:
     name: r-rsolnp
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-r.rsp:
     name: r-r.rsp
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-r.huge:
     name: r-r.huge
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-aroma.apd:
     name: r-aroma.apd
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-r.devices:
     name: r-r.devices
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-gsmoothr:
     name: r-gsmoothr
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-r.filesets:
     name: r-r.filesets
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -62474,28 +62487,28 @@ metacluster:
 r-bbmle:
     name: r-bbmle
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-emdbook:
     name: r-emdbook
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-ada:
     name: r-ada
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-progress:
     name: r-progress
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -62516,70 +62529,70 @@ nspdk:
 r-matrixeqtl:
     name: r-matrixeqtl
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-prroc:
     name: r-prroc
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-survey:
     name: r-survey
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-dplyr:
     name: r-dplyr
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-car:
     name: r-car
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-rocr:
     name: r-rocr
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-stringr:
     name: r-stringr
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-mitools:
     name: r-mitools
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-relaimpo:
     name: r-relaimpo
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-genabel.data:
     name: r-genabel.data
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -62701,7 +62714,7 @@ bioconductor-lpsymphony:
 r-dynamictreecut:
     name: r-dynamictreecut
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -62765,7 +62778,7 @@ fann:
 log4cpp:
     name: log4cpp
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -62855,14 +62868,14 @@ pypeflow:
 paraview:
     name: paraview
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-patpro:
     name: r-patpro
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -62903,7 +62916,7 @@ estmapper:
 r-delaporte:
     name: r-delaporte
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -62944,7 +62957,7 @@ vnl:
 r-plasmidprofiler:
     name: r-plasmidprofiler
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -62999,7 +63012,7 @@ abyss-k128:
 r-gprofiler:
     name: r-gprofiler
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -63098,7 +63111,7 @@ fastaindex:
 r-argparser:
     name: r-argparser
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -63112,21 +63125,21 @@ transcomb:
 r-tsne:
     name: r-tsne
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 gdk-pixbuf:
     name: gdk-pixbuf
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 cluster-picker:
     name: cluster-picker
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -63141,7 +63154,7 @@ chicagotools:
 manormfast:
     name: manormfast
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -63206,45 +63219,44 @@ stellar:
     manually_check: true
 r-grimport:
     name: r-grimport
-    description: ''
-    license: {}
-    home_url: None
+    description: 'Functions for converting, importing, and drawing PostScript pictures in R plots.'
+    license: GPL-2.
+    home_url: https://CRAN.R-project.org/package=grImport
     total_pulls: 0
     manually_check: true
 r-tfmpvalue:
     name: r-tfmpvalue
-    description: ''
-    license: {}
-    home_url: None
+    description: 'In putative Transcription Factor Binding Sites (TFBSs) identification from sequence/alignments, we are interested in the significance of certain match score. TFMPvalue provides the accurate calculation of P-value with score threshold for Position Weight Matrices, or the score with given P-value. It is an interface to code originally made available by Helene Touzet and Jean-Stephane Varre, 2007, Algorithms Mol Biol:2, 15. Touzet and Varre (2007) <DOI:10.1186/1748-7188-2-15>.'
+    license: GPL-2.0
+    home_url: https://github.com/ge11232002/TFMPvalue
     total_pulls: 0
     manually_check: true
 r-aod:
     name: r-aod
-    description: ''
-    license: {}
-    home_url: None
+    description: 'This package provides a set of functions to analyse overdispersed counts or proportions. Most of the methods are already available elsewhere but are scattered in different packages. The proposed functions should be considered as complements to more sophisticated methods such as generalized estimating equations (GEE) or generalized linear mixed effect models (GLMM).'
+    license: GPL (>= 2)
+    home_url: http://cran.r-project.org/package=aod
     total_pulls: 0
     manually_check: true
 gustaf:
     name: gustaf
-    description: Gustaf is a tool primarily designed for multi-split mapping of sequencing
-        reads.
+    description: Gustaf is a tool primarily designed for multi-split mapping of sequencing reads.
     license: Not available
     home_url: https://github.com/seqan/seqan/tree/master/apps/gustaf/README.rst
     total_pulls: 0
     manually_check: true
 r-qiimer:
     name: r-qiimer
-    description: ''
-    license: {}
-    home_url: None
+    description: 'Open QIIME output files in R, compute statistics, and create plots from the data.'
+    license: GPL (>= 2)
+    home_url: https://cran.r-project.org/web/packages/qiimer/index.html
     total_pulls: 0
     manually_check: true
 itk:
     name: itk
-    description: ''
-    license: {}
-    home_url: None
+    description: 'ITK is an open-source toolkit for multidimensional image analysis'
+    license: Apache-2.0
+    home_url: https://itk.org/
     total_pulls: 0
     manually_check: true
 blasr_libcpp:
@@ -63267,7 +63279,7 @@ snoscan:
 r-splitstackshape:
     name: r-splitstackshape
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -63324,7 +63336,7 @@ ntcard:
 r-ptw:
     name: r-ptw
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -63352,7 +63364,7 @@ latentstrainanalysis:
 r-rphylip:
     name: r-rphylip
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -63477,14 +63489,14 @@ taco:
 r-itertools:
     name: r-itertools
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-missforest:
     name: r-missforest
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -63521,7 +63533,7 @@ segmentation-fold:
 perl-tie-hash:
     name: perl-tie-hash
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -63612,14 +63624,14 @@ perl-digest-sha:
 perl-base:
     name: perl-base
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 perl-list-util:
     name: perl-list-util
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -63709,17 +63721,16 @@ perl-safe:
     manually_check: true
 perl-pod-checker:
     name: perl-pod-checker
-    description: Pod::checker verifies pod documentation contents for compliance with
-        the pod format specifications
-    license: Not available
+    description: Pod::checker verifies pod documentation contents for compliance with the pod format specifications
+    license: perl_5
     home_url: http://metacpan.org/pod/Pod::Checker
     total_pulls: 0
     manually_check: true
 perl-posix:
     name: perl-posix
-    description: ''
-    license: {}
-    home_url: None
+    description: 'The POSIX standard defines access to the operating system. Most operating systems (not limited to the UNIX family) provide at least a part of this standard, sometimes as optional or commercial extension package.'
+    license: perl_5
+    home_url: https://metacpan.org/pod/distribution/POSIX-1003/lib/POSIX/Overview.pod
     total_pulls: 0
     manually_check: true
 perl-io-uncompress-bunzip2:
@@ -63767,7 +63778,7 @@ perl-params-check:
 perl-cpan-shell:
     name: perl-cpan-shell
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -63895,7 +63906,7 @@ askocli:
 nanosimh:
     name: nanosimh
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -64053,7 +64064,7 @@ perl-symbol-util:
 r-skellam:
     name: r-skellam
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -64384,7 +64395,7 @@ zeroc-ice:
 munkres:
     name: munkres
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -64403,14 +64414,14 @@ pymot:
 r-rann:
     name: r-rann
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-waveslim:
     name: r-waveslim
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -64467,24 +64478,23 @@ perl-tie-hash-indexed:
     manually_check: true
 mobster:
     name: mobster
-    description: Ngs tool for detecting mei and gene retrotransposition events in
-        wgs and wes data, see thung et al. genome biol. 2014 for more information.
+    description: Ngs tool for detecting mei and gene retrotransposition events in wgs and wes data, see thung et al. genome biol. 2014 for more information.
     license: GNU General Public License v3.0
     home_url: https://github.com/jyhehir/mobster
     total_pulls: 0
     manually_check: true
 r-d3heatmap:
     name: r-d3heatmap
-    description: ''
-    license: {}
-    home_url: None
+    description: 'A D3.js-based heatmap htmlwidget for R'
+    license: Custom License
+    home_url: https://github.com/rstudio/d3heatmap
     total_pulls: 0
     manually_check: true
 r-shinyace:
     name: r-shinyace
-    description: ''
-    license: {}
-    home_url: None
+    description: 'Ace editor bindings to enable a rich text editing environment within Shiny.'
+    license: MI
+    home_url: https://cran.r-project.org/web/packages/shinyAce/index.html
     total_pulls: 0
     manually_check: true
 minepy:
@@ -64546,36 +64556,35 @@ rmblast:
     manually_check: true
 gclib:
     name: gclib
-    description: ''
-    license: {}
-    home_url: None
+    description: 'GCLib - Genomic C++ library of reusable code for bioinformatics projects'
+    license: Artistic-2.0
+    home_url: https://github.com/gpertea/gclib
     total_pulls: 0
     manually_check: true
 r-kriging:
     name: r-kriging
-    description: ''
-    license: {}
-    home_url: None
+    description: 'Simple and highly optimized ordinary kriging algorithm to plot geographical data'
+    license: GPL-2
+    home_url: https://cran.r-project.org/web/packages/kriging/index.html
     total_pulls: 0
     manually_check: true
 r-drc:
     name: r-drc
-    description: ''
-    license: {}
-    home_url: None
+    description: 'Analysis of dose-response data is made available through a suite of flexible and versatile model fitting and after-fitting functions.'
+    license: GPL-2.0
+    home_url: https://cran.r-project.org/web/packages/drc/index.html
     total_pulls: 0
     manually_check: true
 r-nleqslv:
     name: r-nleqslv
-    description: ''
-    license: {}
-    home_url: None
+    description: 'Solve a system of nonlinear equations using a Broyden or a Newton method with a choice of global strategies such as line search and trust region. There are options for using a numerical or user supplied Jacobian, for specifying a banded numerical Jacobian and for allowing a singular or ill-conditioned Jacobian.'
+    license: GPL-3.0
+    home_url: https://cran.r-project.org/web/packages/nleqslv/index.html
     total_pulls: 0
     manually_check: true
 kaptive:
     name: kaptive
-    description: Kaptive reports information about capsular (k) loci found in genome
-        assemblies
+    description: Kaptive reports information about capsular (k) loci found in genome assemblies
     license: GNU General Public License v3.0
     home_url: https://github.com/katholt/Kaptive
     total_pulls: 0
@@ -64583,14 +64592,13 @@ kaptive:
 extern:
     name: extern
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 graftm:
     name: graftm
-    description: Graftm is a pipeline used for identifying and classifying marker
-        gene reads from metagenomic datasets
+    description: Graftm is a pipeline used for identifying and classifying marker gene reads from metagenomic datasets
     license: Not available
     home_url: http://geronimp.github.io/graftM
     total_pulls: 0
@@ -64700,14 +64708,14 @@ stringmlst:
 r-segmented:
     name: r-segmented
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-mixtools:
     name: r-mixtools
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -64939,35 +64947,35 @@ pydotplus:
 r-qlcmatrix:
     name: r-qlcmatrix
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-proxy:
     name: r-proxy
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-fastica:
     name: r-fastica
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-densityclust:
     name: r-densityclust
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-ddrtree:
     name: r-ddrtree
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -65006,7 +65014,7 @@ eqtlbma:
 r-checkpoint:
     name: r-checkpoint
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -65029,49 +65037,49 @@ perl-algorithm-cluster:
 r-rmysql:
     name: r-rmysql
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-fastmatch:
     name: r-fastmatch
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-sqldf:
     name: r-sqldf
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-checkmate:
     name: r-checkmate
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-biglm:
     name: r-biglm
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-som:
     name: r-som
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-ff:
     name: r-ff
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -65136,14 +65144,14 @@ perl-yaml-tiny:
 represent:
     name: represent
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 bucketcache:
     name: bucketcache
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -65208,7 +65216,7 @@ perl-set-intervaltree:
 r-biganalytics:
     name: r-biganalytics
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -65228,14 +65236,14 @@ r-factominer:
 r-locfdr:
     name: r-locfdr
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-nhmmfdr:
     name: r-nhmmfdr
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -65437,7 +65445,7 @@ samsifter:
 r-pack:
     name: r-pack
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -65468,7 +65476,7 @@ ngshmmalign:
 r-flashclust:
     name: r-flashclust
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -65482,14 +65490,14 @@ genologics:
 r-venn:
     name: r-venn
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
 r-rjson:
     name: r-rjson
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -65583,7 +65591,7 @@ r-flowr:
 r-rgraphics:
     name: r-rgraphics
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -65688,7 +65696,7 @@ r-microseq:
 r-htmlwidgets:
     name: r-htmlwidgets
     description: ''
-    license: {}
+    license: Not available
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -65946,15 +65954,14 @@ tadarida-c:
     manually_check: true
 mixcr:
     name: mixcr
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'MiXCR is a universal framework that processes big immunome data from raw sequences to quantitated clonotypes. MiXCR efficiently handles paired- and single-end reads, considers sequence quality, corrects PCR errors and identifies germline hypermutations. The software supports both partial- and full-length profiling and employs all available RNA or DNA information, including sequences upstream of V and downstream of J gene segments.'
+    license: Free for Academics
+    home_url: https://github.com/milaboratory/mixcr
     total_pulls: 0
     manually_check: true
 daisysuite:
     name: daisysuite
-    description: Daisysuite - mapping-based pipeline for horizontal gene transfer
-        (hgt) detection using sequencing data
+    description: Daisysuite - mapping-based pipeline for horizontal gene transfer (hgt) detection using sequencing data
     license: GPL-3.0
     home_url: https://gitlab.com/eseiler/DaisySuite
     total_pulls: 0
@@ -67125,9 +67132,9 @@ simwalk2:
     manually_check: true
 pglite:
     name: pglite
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'This a Python module allowing to use a PostgreSQL instance "as if" it was a simple SQLite database: no admin privileges, no configuration needed.'
+    license: Apache 2.0
+    home_url: https://gitlab.com/Oslandia/pglite
     total_pulls: 0
     manually_check: true
 sparc:
@@ -70039,16 +70046,16 @@ fast5seek:
     manually_check: true
 mdanalysis:
     name: mdanalysis
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'MDAnalysis is a Python library for the analysis of computer simulations of many-body systems at the molecular scale, spanning use cases from interactions of drugs with proteins to novel materials. It is widely used in the scientific community and is written by scientists for scientists.'
+    license: GPL-2.0
+    home_url: https://github.com/MDAnalysis/mdanalysis
     total_pulls: 0
     manually_check: true
 gap:
     name: gap
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'GAP - Groups, Algorithms, Programming, a System for Computational Discrete Algebra'
+    license: GPL-2.
+    home_url: https://github.com/gap-system/gap
     total_pulls: 0
     manually_check: true
 r-markdown:
@@ -70124,8 +70131,7 @@ sfs_code:
       -   Selection, Genetic
 livekraken:
     name: livekraken
-    description: LiveKraken is a real-time metagenomic classifier for Illumina sequencing
-        data.
+    description: LiveKraken is a real-time metagenomic classifier for Illumina sequencing data.
     license: GPL-3.0
     home_url: https://gitlab.com/SimonHTausch/LiveKraken
     total_pulls: 0
@@ -72155,9 +72161,9 @@ tandem-genotypes:
     manually_check: true
 plotly:
     name: plotly
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'The interactive graphing library for Python (includes Plotly Express)'
+    license: MI
+    home_url: https://github.com/plotly/plotly.py
     total_pulls: 0
     manually_check: true
 ksw:
@@ -72171,15 +72177,14 @@ ksw:
       -   biotools:ksw
 qhull:
     name: qhull
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Qhull computes the convex hull, Delaunay triangulation, Voronoi diagram, halfspace intersection about a point, furthest-site Delaunay triangulation, and furthest-site Voronoi diagram.'
+    license: Custom License
+    home_url: https://github.com/qhull/qhull
     total_pulls: 0
     manually_check: true
 banner:
     name: banner
-    description: Banner is a tool that lives inside hulk and aims to make sense of
-        hulk histosketches.
+    description: Banner is a tool that lives inside hulk and aims to make sense of hulk histosketches.
     license: UKRI Academic license
     home_url: https://www.github.com/will-rowe/banner
     total_pulls: 0
@@ -72838,9 +72843,9 @@ gatb:
     manually_check: true
 thermorawparser:
     name: thermorawparser
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Thermo RAW file parser that runs on Linux with mono'
+    license: Apache-2.0
+    home_url: https://github.com/compomics/ThermoRawFileParser
     total_pulls: 0
     manually_check: true
 bioconductor-scater-scripts:
@@ -73637,9 +73642,9 @@ r-bedr:
     manually_check: true
 r-shinybs:
     name: r-shinybs
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'shinyBS is a package that adds several additional Twitter Boostrap components to shiny. In January RStudio updated shiny to work with Bootstrap3 which completely broke the original shinyBS.'
+    license: Custom License
+    home_url: https://github.com/ebailey78/shinyBS
     total_pulls: 0
     manually_check: true
 cgat-daisy:
@@ -80512,29 +80517,30 @@ ymp:
     name: ymp
     total_pulls: 597
 grafimo:
-    description: ''
-    home_url: ''
+    description: 'GRAph-based Finding of Individual Motif Occurrences'
+    home_url: https://github.com/pinellolab/GRAFIMO
     identifiers: []
     keywords: []
-    license: Not available
+    license: MIT
     manually_check: true
     name: grafimo
     total_pulls: 2298
 mbg:
-    description: ''
-    home_url: ''
+    description: 'Minimizer based sparse de Bruijn graph constructor'
+    home_url: https://github.com/maickrau/MBG
     identifiers: []
     keywords: []
-    license: Not available
+    license: MIT
     manually_check: true
     name: mbg
     total_pulls: 3159
 yass:
-    description: ''
-    home_url: ''
-    identifiers: []
+    description: 'YASS is a genomic similarity search tool, for nucleic (DNA/RNA) sequences in fasta or plain text format'
+    home_url: http://bioinfo.lifl.fr/yass/
+    identifiers:
+       -  biotools:yass
     keywords: []
-    license: Not available
+    license: CeCILL Free Software License
     manually_check: true
     name: yass
     total_pulls: 3004
@@ -80543,7 +80549,7 @@ liftoff:
     home_url: https://github.com/agshumate/Liftoff
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: liftoff
     total_pulls: 3027
@@ -80568,20 +80574,21 @@ igblast-parser:
     name: igblast-parser
     total_pulls: 2027
 plink2:
-    description: ''
-    home_url: ''
+    description: 'Whole genome association analysis toolset, designed to perform a range of basic, large-scale analyses in a computationally efficient manner.'
+    home_url: https://www.cog-genomics.org/plink2
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: plink2
     total_pulls: 1268
 sherpas:
-    description: ''
-    home_url: ''
-    identifiers: []
+    description: 'A new, alignment-free genome recombination detection tool exploiting the idea of phylo-kmers (Linard et al. 2019) to accelerate the process by several orders of magnitude while keeping comparable accuracy.'
+    home_url: https://github.com/phylo42/sherpas
+    identifiers:
+       -   doi:10.1101/2020.06.22.161422
     keywords: []
-    license: Not available
+    license: MIT
     manually_check: true
     name: sherpas
     total_pulls: 1052
@@ -80634,8 +80641,7 @@ fastmlst:
     name: fastmlst
     total_pulls: 3555
 phigaro:
-    description: Phigaro is a scalable command-line tool for predicting phages and
-      prophages.
+    description: Phigaro is a scalable command-line tool for predicting phages and prophages.
     home_url: https://phigaro.readthedocs.io/
     identifiers: []
     keywords: []
@@ -80672,29 +80678,29 @@ badread:
     name: badread
     total_pulls: 644
 consent:
-    description: ''
-    home_url: ''
+    description: 'Scalable long read self-correction and assembly polishing with multiple sequence alignment'
+    home_url: https://github.com/morispi/CONSENT
     identifiers: []
     keywords: []
-    license: Not available
+    license: AGPL-3.0
     manually_check: true
     name: consent
     total_pulls: 3199
 hydra-multi:
-    description: ''
-    home_url: ''
+    description: 'Hydra detects structural variation breakpoints in both unique and duplicated genomic regions.'
+    home_url: https://github.com/arq5x/Hydra
     identifiers: []
     keywords: []
-    license: Not available
+    license: MIT
     manually_check: true
     name: hydra-multi
     total_pulls: 803
 necat:
-    description: ''
-    home_url: ''
+    description: 'Nanopore data assembler'
+    home_url: https://github.com/xiaochuanle/NECAT
     identifiers: []
     keywords: []
-    license: Not available
+    license: Custom License
     manually_check: true
     name: necat
     total_pulls: 815
@@ -80802,11 +80808,11 @@ ope:
     name: ope
     total_pulls: 979
 pyspoa:
-    description: ''
-    home_url: ''
+    description: 'Python binding for SPOA. Spoa (SIMD POA) is a c++ implementation of the partial order alignment (POA) algorithm (as described in 10.1093/bioinformatics/18.3.452) which is used to generate consensus sequences (as described in 10.1093/bioinformatics/btg109). It supports three alignment modes: local (Smith-Waterman), global (Needleman-Wunsch) and semi-global alignment (overlap), and three gap modes: linear, affine and convex (piecewise affine). It also supports Intel SSE4.1+ and AVX2 vectorization (marginally faster due to high latency shifts), SIMDe and dispatching.'
+    home_url: https://github.com/nanoporetech/pyspoa
     identifiers: []
     keywords: []
-    license: Not available
+    license: MIT
     manually_check: true
     name: pyspoa
     total_pulls: 3586
@@ -80831,11 +80837,11 @@ pm4ngs:
     name: pm4ngs
     total_pulls: 1685
 mmult:
-    description: ''
-    home_url: ''
+    description: 'Multiple sample analysis from large-scale WGBS data'
+    home_url: https://github.com/lijinbio/MMULT
     identifiers: []
     keywords: []
-    license: Not available
+    license: MIT
     manually_check: true
     name: mmult
     total_pulls: 735
@@ -80850,11 +80856,11 @@ seqiolib:
     name: seqiolib
     total_pulls: 539
 chembl_structure_pipeline:
-    description: ''
-    home_url: ''
+    description: 'ChEMBL protocols used to standardise and salt strip molecules.'
+    home_url: https://github.com/chembl/ChEMBL_Structure_Pipeline
     identifiers: []
     keywords: []
-    license: Not available
+    license: MIT
     manually_check: true
     name: chembl_structure_pipeline
     total_pulls: 622
@@ -80878,8 +80884,7 @@ raptor:
     name: raptor
     total_pulls: 2000
 cryptogenotyper:
-    description: 'This package crypto_typer: tool to subtype the parasite, cryptosporidium,
-      based on the 18s and gp60 markers.'
+    description: 'This package crypto_typer: tool to subtype the parasite, cryptosporidium, based on the 18s and gp60 markers.'
     home_url: https://github.com/phac-nml/CryptoGenotyper
     identifiers: []
     keywords: []
@@ -81775,11 +81780,11 @@ bioconductor-lefser:
     name: bioconductor-lefser
     total_pulls: 361
 bioconductor-hummingbird:
-    description: ''
-    home_url: ''
+    description: 'A package for detecting differential methylation. It exploits a Bayesian hidden Markov model that incorporates location dependence among genomic loci, unlike most existing methods that assume independence among observations. Bayesian priors are applied to permit information sharing across an entire chromosome for improved power of detection. The direct output of our software package is the best sequence of methylation states, eliminating the use of a subjective, and most of the time an arbitrary, threshold of p-value for determining significance. At last, our methodology does not require replication in either or both of the two comparison groups.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/hummingbird.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL (>=2)
     manually_check: true
     name: bioconductor-hummingbird
     total_pulls: 503
@@ -81812,29 +81817,29 @@ bioconductor-isanalytics:
     name: bioconductor-isanalytics
     total_pulls: 362
 bioconductor-ncrnatools:
-    description: ''
-    home_url: ''
+    description: 'ncRNAtools provides a set of basic tools for handling and analyzing non-coding RNAs. These include tools to access the RNAcentral database and to predict and visualize the secondary structure of non-coding RNAs. The package also provides tools to read, write and interconvert the file formats most commonly used for representing such secondary structures.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/ncRNAtools.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: bioconductor-ncrnatools
     total_pulls: 358
 bioconductor-nebulosa:
-    description: ''
-    home_url: ''
+    description: 'This package provides a enhanced visualization of single-cell data based on gene-weighted density estimation. Nebulosa recovers the signal from dropped-out features and allows the inspection of the joint expression from multiple features (e.g. genes). Seurat and SingleCellExperiment objects can be used within Nebulosa.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/Nebulosa.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: bioconductor-nebulosa
     total_pulls: 361
 bioconductor-newwave:
-    description: ''
-    home_url: ''
+    description: 'A model designed for dimensionality reduction and batch effect removal for scRNA-seq data. It is designed to be massively parallelizable using shared objects that prevent memory duplication, and it can be used with different mini-batch approaches in order to reduce time consumption. It assumes a negative binomial distribution for the data with a dispersion parameter that can be both commonwise across gene both genewise.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/NewWave.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: bioconductor-newwave
     total_pulls: 358
@@ -81849,29 +81854,29 @@ bioconductor-tmexplorer:
     name: bioconductor-tmexplorer
     total_pulls: 114
 bioconductor-mofa2:
-    description: ''
-    home_url: ''
+    description: 'The MOFA2 package contains a collection of tools for running and analysing MOFA models.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/MOFA2.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL (>= 2)
     manually_check: true
     name: bioconductor-mofa2
     total_pulls: 521
 bioconductor-marr:
-    description: ''
-    home_url: ''
+    description: 'marr (Maximum Rank Reproducibility) is a nonparametric approach that detects reproducible signals using a maximal rank statistic for high-dimensional biological data. In this R package, we implement functions that measures the reproducibility of features per sample pair and sample pairs per feature in high-dimensional biological replicate experiments. The user-friendly plot functions in this package also plot histograms of the reproducibility of features per sample pair and sample pairs per feature. Furthermore, our approach also allows the users to select optimal filtering threshold values for the identification of reproducible features and sample pairs based on output visualization checks (histograms).'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/marr.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL (>= 3)
     manually_check: true
     name: bioconductor-marr
     total_pulls: 490
 bioconductor-scuttle:
-    description: ''
-    home_url: ''
+    description: 'Provides basic utility functions for performing single-cell analyses, focusing on simple normalization, quality control and data transformations. Also provides some helper functions to assist development of other packages.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/scuttle.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: bioconductor-scuttle
     total_pulls: 635
@@ -82138,11 +82143,11 @@ bioconductor-rnaeditr:
     name: bioconductor-rnaeditr
     total_pulls: 106
 bioconductor-multicrispr:
-    description: ''
-    home_url: ''
+    description: 'This package is for designing Crispr/Cas9 and Prime Editing experiments. It contains functions to (1) define and transform genomic targets, (2) find spacers (4) count offtarget (mis)matches, and (5) compute Doench2016/2014 targeting efficiency. Care has been taken for multicrispr to scale well towards large target sets, enabling the design of large Crispr/Cas9 libraries.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/multicrispr.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-2.0
     manually_check: true
     name: bioconductor-multicrispr
     total_pulls: 353
@@ -82185,11 +82190,11 @@ bioconductor-timecoursedata:
     name: bioconductor-timecoursedata
     total_pulls: 112
 bioconductor-nearbynding:
-    description: Discern rna structure proximal to protein binding
+    description: 'Provides a pipeline to discern RNA structure at and proximal to the site of protein binding within regions of the transcriptome defined by the user. CLIP protein-binding data can be input as either aligned BAM or peak-called bedGraph files. RNA structure can either be predicted internally from sequence or users have the option to input their own RNA structure data. RNA structure binding profiles can be visually and quantitatively compared across multiple formats.'
     home_url: https://bioconductor.org/packages/3.12/bioc/html/nearBynding.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: Artistic-2.0
     manually_check: true
     name: bioconductor-nearbynding
     total_pulls: 686
@@ -82203,11 +82208,11 @@ bioconductor-hcamatrixbrowser:
     name: bioconductor-hcamatrixbrowser
     total_pulls: 351
 bioconductor-spsimseq:
-    description: ''
-    home_url: ''
+    description: 'SPsimSeq uses a specially designed exponential family for density estimation to constructs the distribution of gene expression levels from a given real RNA sequencing data (single-cell or bulk), and subsequently simulates a new dataset from the estimated marginal distributions using Gaussian-copulas to retain the dependence between genes. It allows simulation of multiple groups and batches with any required sample size and library size.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/SPsimSeq.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-2.0
     manually_check: true
     name: bioconductor-spsimseq
     total_pulls: 116
@@ -82230,38 +82235,38 @@ bioconductor-escape:
     name: bioconductor-escape
     total_pulls: 368
 bioconductor-gpumagic:
-    description: ''
-    home_url: ''
+    description: 'The package aims to help users write openCL code with little or no effort. It is able to compile an user-defined R function and run it on a device such as a CPU or a GPU. The user can also write and run their openCL code directly by calling .kernel function.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/gpuMagic.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: bioconductor-gpumagic
     total_pulls: 485
 bioconductor-peacoqc:
-    description: ''
-    home_url: ''
+    description: 'This is a package that includes pre-processing and quality control functions that can remove margin events, compensate and transform the data and that will use PeacoQCSignalStability for quality control. This last function will first detect peaks in each channel of the flowframe. It will remove anomalies based on the IsolationTree function and the MAD outlier detection method. This package can be used for both flow- and mass cytometry data.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/PeacoQC.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL (>=3)
     manually_check: true
     name: bioconductor-peacoqc
     total_pulls: 113
 bioconductor-scdataviz:
-    description: ''
-    home_url: ''
+    description: 'In the single cell World, which includes flow cytometry, mass cytometry, single-cell RNA-seq (scRNA-seq), and others, there is a need to improve data visualisation and to bring analysis capabilities to researchers even from non-technical backgrounds. scDataviz attempts to fit into this space, while also catering for advanced users. Additonally, due to the way that scDataviz is designed, which is based on SingleCellExperiment, it has a plug and play feel, and immediately lends itself as flexibile and compatibile with studies that go beyond scDataviz. Finally, the graphics in scDataviz are generated via the ggplot engine, which means that users can add on features to these with ease.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/scDataviz.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: bioconductor-scdataviz
     total_pulls: 121
 bioconductor-poma:
-    description: ''
-    home_url: ''
+    description: 'POMA introduces a structured, reproducible and easy-to-use workflow for the visualization, pre-processing, exploratory and statistical analysis of mass spectrometry data. The main aim of POMA is to enable a flexible data cleaning and statistical analysis processes in one comprehensible and user-friendly R package. This package also has a Shiny app version that implements all POMA functions.'
+    home_url: https://github.com/pcastellanoescuder/POMAShiny
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: bioconductor-poma
     total_pulls: 117
@@ -82285,11 +82290,11 @@ bioconductor-tadcompare:
     name: bioconductor-tadcompare
     total_pulls: 119
 bioconductor-microbiomeexplorer:
-    description: Microbiome exploration app
+    description: 'The MicrobiomeExplorer R package is designed to facilitate the analysis and visualization of marker-gene survey feature data. It allows a user to perform and visualize typical microbiome analytical workflows either through the command line or an interactive Shiny application included with the package. In addition to applying common analytical workflows the application enables automated analysis report generation.'
     home_url: https://bioconductor.org/packages/3.12/bioc/html/microbiomeExplorer.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: MIT
     manually_check: true
     name: bioconductor-microbiomeexplorer
     total_pulls: 360
@@ -82303,30 +82308,29 @@ r-codedepends:
     name: r-codedepends
     total_pulls: 110
 bioconductor-regenrich:
-    description: ''
-    home_url: ''
+    description: 'This package is a pipeline to identify the key gene regulators in a biological process, for example in cell differentiation and in cell development after stimulation. There are four major steps in this pipeline: (1) differential expression analysis; (2) regulator-target network inference; (3) enrichment analysis; and (4) regulators scoring and ranking.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/RegEnrich.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL (>= 2)
     manually_check: true
     name: bioconductor-regenrich
     total_pulls: 111
 bioconductor-fieldeffectcrc:
-    description: Tumor, tumor-adjacent normal, and healthy colorectal transcriptomes
-      as summarizedexperiment objects
+    description: 'Processed RNA-seq data for 1,139 human primary colorectal tissue samples across three phenotypes, including tumor, normal adjacent-to-tumor, and healthy, available as Synapse ID syn22237139 on synapse.org. Data have been parsed into SummarizedExperiment objects available via ExperimentHub to facilitate reproducibility and extension of results from Dampier et al. (PMCID: PMC7386360, PMID: 32764205).'
     home_url: https://bioconductor.org/packages/3.12/data/experiment/html/FieldEffectCrc.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: Artistic-2.0
     manually_check: true
     name: bioconductor-fieldeffectcrc
     total_pulls: 361
 bioconductor-corral:
-    description: ''
-    home_url: ''
+    description: 'Correspondence analysis (CA) is a matrix factorization method, and is similar to principal components analysis (PCA). Whereas PCA is designed for application to continuous, approximately normally distributed data, CA is appropriate for non-negative, count-based data that are in the same additive scale. The corral package implements CA for dimensionality reduction of a single matrix of single-cell data, as well as a multi-table adaptation of CA that leverages data-optimized scaling to align data generated from different sequencing platforms by projecting into a shared latent space. corral utilizes sparse matrices and a fast implementation of SVD, and can be called directly on Bioconductor objects (e.g., SingleCellExperiment) for easy pipeline integration. The package also includes the option to apply CA-style processing to continuous data (e.g., proteomic TOF intensities) with the Hellinger distance adaptation of CA.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/corral.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-2.0
     manually_check: true
     name: bioconductor-corral
     total_pulls: 364
@@ -82340,17 +82344,16 @@ bioconductor-dasper:
     name: bioconductor-dasper
     total_pulls: 362
 bioconductor-rebook:
-    description: ''
-    home_url: ''
+    description: 'Provides utilities to re-use content across chapters of a Bioconductor book. This is mostly based on functionality developed while writing the OSCA book, but generalized for potential use in other large books with heavy compute. Also contains some functions to assist book deployment.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/rebook.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: bioconductor-rebook
     total_pulls: 106
 bioconductor-flowcut:
-    description: Precise and accurate automated removal of outlier events and flagging
-      of files based on time versus fluorescence analysis
+    description: Precise and accurate automated removal of outlier events and flagging of files based on time versus fluorescence analysis
     home_url: https://bioconductor.org/packages/3.12/bioc/html/flowCut.html
     identifiers: []
     keywords: []
@@ -82359,11 +82362,11 @@ bioconductor-flowcut:
     name: bioconductor-flowcut
     total_pulls: 359
 bioconductor-multibac:
-    description: ''
-    home_url: ''
+    description: 'MultiBaC is a strategy to correct batch effects from multiomic datasets distributed across different labs or data acquisition events. MultiBaC is the first Batch effect correction algorithm that dealing with batch effect correction in multiomics datasets. MultiBaC is able to remove batch effects across different omics generated within separate batches provided that at least one common omic data type is included in all the batches considered.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/MultiBaC.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: bioconductor-multibac
     total_pulls: 355
@@ -82395,38 +82398,38 @@ ultraplex:
     name: ultraplex
     total_pulls: 404
 bioconductor-pagerank:
-    description: ''
-    home_url: ''
+    description: 'Implemented temporal PageRank analysis as defined by Rozenshtein and Gionis. Implemented multiplex PageRank as defined by Halu et al. Applied temporal and multiplex PageRank in gene regulatory network analysis.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/pageRank.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-2.0
     manually_check: true
     name: bioconductor-pagerank
     total_pulls: 350
 bioconductor-timirgen:
-    description: ''
-    home_url: ''
+    description: 'TimiRGeN (Time Incorporated miR-mRNA Generation of Networks) is a novel R package which functionally analyses and integrates time course miRNA-mRNA differential expression data. This tool can generate small networks within R or export results into cytoscape or pathvisio for more detailed network construction and hypothesis generation. This tool is created for researchers that wish to dive deep into time series multi-omic datasets. TimiRGeN goes further than many other tools in terms of data reduction. Here, potentially hundreds of thousands of potential miRNA-mRNA interactions can be whittled down into a handful of high confidence miRNA-mRNA interactions effecting a signalling pathway, across a time course.'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/TimiRGeN.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: bioconductor-timirgen
     total_pulls: 114
 bioconductor-musicatk:
-    description: ''
-    home_url: ''
+    description: 'Mutational signatures are carcinogenic exposures or aberrant cellular processes that can cause alterations to the genome. We created musicatk (MUtational SIgnature Comprehensive Analysis ToolKit) to address shortcomings in versatility and ease of use in other pre-existing computational tools. Although many different types of mutational data have been generated, current software packages do not have a flexible framework to allow users to mix and match different types of mutations in the mutational signature inference process. Musicatk enables users to count and combine multiple mutation types, including SBS, DBS, and indels. Musicatk calculates replication strand, transcription strand and combinations of these features along with discovery from unique and proprietary genomic feature associated with any mutation type. Musicatk also implements several methods for discovery of new signatures as well as methods to infer exposure given an existing set of signatures. Musicatk provides functions for visualization and downstream exploratory analysis including the ability to compare signatures between cohorts and find matching signatures in COSMIC V2 or COSMIC V3.'
+    home_url: 'https://bioconductor.org/packages/3.12/bioc/html/musicatk.html'
     identifiers: []
     keywords: []
-    license: Not available
+    license: LGPL-3.0
     manually_check: true
     name: bioconductor-musicatk
     total_pulls: 357
 bioconductor-infinityflow:
-    description: ''
-    home_url: ''
+    description: 'Augmenting Massively Parallel Cytometry Experiments Using Multivariate Non-Linear Regressions. Pipeline to analyze and merge data files produced by BioLegends LEGENDScreen or BD Human Cell Surface Marker Screening Panel (BD Lyoplates).'
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/infinityFlow.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: bioconductor-infinityflow
     total_pulls: 359
@@ -82440,11 +82443,11 @@ bioconductor-clustifyrdatahub:
     name: bioconductor-clustifyrdatahub
     total_pulls: 366
 bioconductor-celldex:
-    description: ''
-    home_url: ''
+    description: 'Reference Index for Cell Types'
+    home_url: https://bioconductor.org/packages/3.12/data/experiment/html/celldex.html
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: bioconductor-celldex
     total_pulls: 380
@@ -82543,8 +82546,7 @@ sqlite:
     name: sqlite
     total_pulls: 3953301
 panacota:
-    description: 'Large scale comparative genomics tools: annotate genomes, do pangenome,
-      core/persistent genome, align core/persistent families, infer phylogenetic tree.'
+    description: 'Large scale comparative genomics tools: annotate genomes, do pangenome, core/persistent genome, align core/persistent families, infer phylogenetic tree.'
     home_url: https://github.com/gem-pasteur/PanACoTA
     identifiers: []
     keywords: []
@@ -82798,7 +82800,7 @@ appspam:
     name: appspam
     total_pulls: 904
 bioconductor-rsbml:
-    description: 'R support for SBML, using libsbml'
+    description: 'Links R to libsbml for SBML parsing, validating output, provides an S4 SBML DOM, converts SBML to R graph objects. Optionally links to the SBML ODE Solver Library (SOSLib) for simulating models.'
     home_url: https://bioconductor.org/packages/3.12/bioc/html/rsbml.html
     identifiers: []
     keywords: []
@@ -82828,11 +82830,11 @@ bioconductor-biggr:
     name: bioconductor-biggr
     total_pulls: 98
 bioconductor-epinem:
-    description: 'epiNEM'
+    description: 'epiNEM is an extension of the original Nested Effects Models (NEM). EpiNEM is able to take into account double knockouts and infer more complex network signalling pathways.'
     home_url: https://bioconductor.org/packages/3.12/bioc/html/epiNEM.html
     identifiers: []
     keywords: []
-    license: GPL-3
+    license: GPL-3.0
     manually_check: true
     name: bioconductor-epinem
     total_pulls: 313
@@ -83254,11 +83256,11 @@ pegasusio:
     name: pegasusio
     total_pulls: 966
 chap:
-    description: ''
-    home_url: ''
+    description: 'CHAP is a tool for the functional annotation of ion channel structures'
+    home_url: https://github.com/channotation/chap
     identifiers: []
     keywords: []
-    license: Not available
+    license: MIT
     manually_check: true
     name: chap
     total_pulls: 124
