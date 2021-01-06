@@ -49350,8 +49350,7 @@ mypy:
     manually_check: true
 sqlsoup:
     name: sqlsoup
-    description: One step database access tool for python3, built on the sqlalchemy
-        orm
+    description: One step database access tool for python3, built on the sqlalchemy orm
     license: Expat
     home_url: https://pypi.python.org/pypi/sqlsoup
     total_pulls: 0
@@ -53908,12 +53907,13 @@ python3-hl7:
     total_pulls: 0
     manually_check: true
 python3-rdflib-jsonld:
-    name: python3-rdflib-jsonld
-    description: ''
-    license: Not available
-    home_url: Not available
-    total_pulls: 0
+    description: Rdflib extension adding json-ld parser and serializer in python 3
+    home_url: https://github.com/RDFLib/rdflib-jsonld
+    identifiers: []
+    keywords: []
+    license: BSD-3-clause
     manually_check: true
+    total_pulls: 0
 r-other-mott-happy.hbrem:
     name: r-other-mott-happy.hbrem
     description: Gnu r package for fine-mapping complex diseases
@@ -53951,16 +53951,16 @@ python-pbbanana:
     manually_check: true
 python-sqlsoup:
     name: python-sqlsoup
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: One step database access tool for python3, built on the sqlalchemy orm
+    license: Expat
+    home_url: https://pypi.python.org/pypi/sqlsoup
     total_pulls: 0
     manually_check: true
 python3-matplotlib-venn:
     name: python3-matplotlib-venn
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Area-weighted venn-diagrams for Python/matplotlib'
+    license: MIT
+    home_url: https://github.com/konstantint/matplotlib-venn
     total_pulls: 0
     manually_check: true
 pwiz:
@@ -53981,37 +53981,37 @@ filo:
     manually_check: true
 python-multipletau:
     name: python-multipletau
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: Multiple-tau algorithm for python3/numpy
+    license: BSD-3-Clause
+    home_url: https://github.com/FCS-analysis/multipletau
     total_pulls: 0
     manually_check: true
 python3-avro:
     name: python3-avro
-    description: ''
+    description: 'Apache Avro is a data serialization system.'
     license: Not available
-    home_url: Not available
+    home_url: https://pypi.org/project/avro-python3/
     total_pulls: 0
     manually_check: true
 python-tifffile:
     name: python-tifffile
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: Read and write image data from and to tiff files
+    license: BSD-3-clause
+    home_url: https://github.com/cgohlke/tifffile
     total_pulls: 0
     manually_check: true
 python3-cutadapt:
     name: python3-cutadapt
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Cutadapt finds and removes adapter sequences, primers, poly-A tails and other types of unwanted sequence from your high-throughput sequencing reads.'
+    license: MIT
+    home_url: https://pypi.org/project/cutadapt/
     total_pulls: 0
     manually_check: true
 python3-sqlsoup:
     name: python3-sqlsoup
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: One step database access tool for python3, built on the sqlalchemy orm
+    license: Expat
+    home_url: https://pypi.python.org/pypi/sqlsoup
     total_pulls: 0
     manually_check: true
 smrtanalysis-dev:
@@ -54039,30 +54039,31 @@ openmolar:
     manually_check: true
 python-cogent:
     name: python-cogent
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: Framework for genomic biology
+    license: GPL-2
+    home_url: https://github.com/pycogent/pycogent
     total_pulls: 0
     manually_check: true
 python-hl7:
     name: python-hl7
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: Python3 library for parsing hl7 messages
+    license: BSD-3-clause
+    home_url: https://github.com/johnpaulett/python-hl7/
     total_pulls: 0
     manually_check: true
 python-rdflib-jsonld:
-    name: python-rdflib-jsonld
-    description: ''
-    license: Not available
-    home_url: Not available
-    total_pulls: 0
+    description: Rdflib extension adding json-ld parser and serializer in python 3
+    home_url: https://github.com/RDFLib/rdflib-jsonld
+    identifiers: []
+    keywords: []
+    license: BSD-3-clause
     manually_check: true
+    total_pulls: 0
 python3-multipletau:
     name: python3-multipletau
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: Multiple-tau algorithm for python3/numpy
+    license: BSD-3-Clause
+    home_url: https://github.com/FCS-analysis/multipletau
     total_pulls: 0
     manually_check: true
 biomaj-properties:
@@ -59723,9 +59724,9 @@ r-splancs:
     manually_check: true
 r-statmod:
     name: r-statmod
-    description: ''
-    license: Not available
-    home_url: None
+    description: 'A collection of algorithms and functions to aid statistical modeling. Includes growth curve comparisons, limiting dilution analysis (aka ELDA), mixed linear models, heteroscedastic regression, inverse-Gaussian probability calculations, Gauss quadrature and a secure convergence algorithm for nonlinear models. Includes advanced generalized linear model functions that implement secure convergence, dispersion modeling and Tweedie power-law families.'
+    license: GPL-3
+    home_url: https://cran.r-project.org/package=statmod
     total_pulls: 0
     manually_check: true
 r-svdialogs:
@@ -59752,9 +59753,9 @@ ruamel.ordereddict:
     manually_check: true
 ruby:
     name: ruby
-    description: ''
-    license: BSD
-    home_url: None
+    description: 'A dynamic, open source programming language with a focus on simplicity and productivity.'
+    license: BSD-2-Clause
+    home_url: https://github.com/ruby/ruby
     total_pulls: 0
     manually_check: true
 r-upsetr:
@@ -59791,11 +59792,7 @@ r-viridis:
     manually_check: true
 r-writexls:
     name: r-writexls
-    description: 'Cross-platform Perl based R function to create Excel 2003 (XLS)
-        and Excel 2007 (XLSX) files from one or more data frames. Each data frame
-        will be written to a separate named worksheet in the Excel spreadsheet. The
-        worksheet name will be the name of the data frame it contains or can be specified
-        by the user. '
+    description: 'Cross-platform Perl based R function to create Excel 2003 (XLS) and Excel 2007 (XLSX) files from one or more data frames. Each data frame will be written to a separate named worksheet in the Excel spreadsheet. The worksheet name will be the name of the data frame it contains or can be specified by the user. '
     license: GPL (>= 2)
     home_url: None
     total_pulls: 0
@@ -59920,9 +59917,9 @@ simple_sv_annotation:
     manually_check: true
 slang:
     name: slang
-    description: ''
+    description: 'S-Lang allows developers to create robust multi-platform software'
     license: GPL
-    home_url: None
+    home_url: http://www.jedsoft.org/slang/
     total_pulls: 0
     manually_check: true
 slclust:
@@ -60098,9 +60095,9 @@ taxtastic:
     manually_check: true
 tbb:
     name: tbb
-    description: ''
-    license: GPL-2.0
-    home_url: None
+    description: 'High level abstract threading library'
+    license: Apache-2.0
+    home_url: https://github.com/oneapi-src/oneTBB
     total_pulls: 0
     manually_check: true
 tclap:
@@ -60128,7 +60125,7 @@ testfixtures:
 textinput:
     name: textinput
     description: Streamlined version of stdlib fileinput
-    license: Not available
+    license: Custom License
     home_url: http://www.ebi.ac.uk/~hoffman/software/textinput/
     total_pulls: 0
     manually_check: true
@@ -80994,8 +80991,7 @@ samwell:
     name: samwell
     total_pulls: 1404
 pyhalcyon:
-    description: 'Halcyon: an accurate basecaller exploiting an encoder-decoder model
-      with monotonic attention'
+    description: 'Halcyon: an accurate basecaller exploiting an encoder-decoder model with monotonic attention'
     home_url: https://pypi.org/project/pyhalcyon
     identifiers: []
     keywords: []
@@ -83387,8 +83383,7 @@ bugseq-porechop:
     name: bugseq-porechop
     total_pulls: 12
 siann:
-    description: Siann was created to allow creation of local small sets of bacterial/viral
-      genomes to perform strain level differentiation from fastq data
+    description: Siann was created to allow creation of local small sets of bacterial/viral genomes to perform strain level differentiation from fastq data
     home_url: https://github.com/signaturescience/siann/wiki
     identifiers: []
     keywords:
