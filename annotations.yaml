@@ -54333,37 +54333,37 @@ python3-biom-format:
     manually_check: true
 python-screed:
     name: python-screed
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: Short nucleotide read sequence utils in python 3
+    license: BSD-3-Clause
+    home_url: https://screed.readthedocs.org
     total_pulls: 0
     manually_check: true
 python3-burrito:
     name: python3-burrito
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Python framework for controlling command-line applications.'
+    license: BSD-3.0
+    home_url: https://github.com/biocore/burrito
     total_pulls: 0
     manually_check: true
 python3-biopython:
     name: python3-biopython
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'The Biopython Project is an international association of developers of freely available Python tools for computational molecular biology.'
+    license: Custom License
+    home_url: https://github.com/biopython/biopython/
     total_pulls: 0
     manually_check: true
 python3-dendropy:
     name: python3-dendropy
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'DendroPy is a Python library for phylogenetic computing. It provides classes and functions for the simulation, processing, and manipulation of phylogenetic trees and character matrices, and supports the reading and writing of phylogenetic data in a range of formats, such as NEXUS, NEWICK, NeXML, Phylip, FASTA, etc. Application scripts for performing some useful phylogenetic operations, such as data conversion and tree posterior distribution summarization, are also distributed and installed as part of the libary. DendroPy can thus function as a stand-alone library for phylogenetics, a component of more complex multi-library phyloinformatic pipelines, or as a scripting "glue" that assembles and drives such pipelines.'
+    license: Custom License
+    home_url: https://github.com/jeetsukumaran/DendroPy
     total_pulls: 0
     manually_check: true
 python3-intervaltree-bio:
     name: python3-intervaltree-bio
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Convenience classes for loading UCSC genomic annotation records into a set of interval tree data structures.'
+    license: MIT
+    home_url: https://github.com/konstantint/intervaltree-bio
     total_pulls: 0
     manually_check: true
 python3-cobra:
@@ -54382,51 +54382,51 @@ python3-cobra:
       -   Programming Languages
 python3-pyfaidx:
     name: python3-pyfaidx
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Samtools provides a function “faidx” (FAsta InDeX), which creates a small flat index file “.fai” allowing for fast random access to any subsequence in the indexed FASTA file, while loading a minimal amount of the file in to memory. This python module implements pure Python classes for indexing, retrieval, and in-place modification of FASTA files using a samtools compatible index. The pyfaidx module is API compatible with the pygr seqdb module. A command-line script “faidx” is installed alongside the pyfaidx module, and facilitates complex manipulation of FASTA files without any programming knowledge.'
+    license: MIT
+    home_url: https://github.com/mdshw5/pyfaidx
     total_pulls: 0
     manually_check: true
 python3-dictobj:
     name: python3-dictobj
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: Dictionary where keys can be accessed as instance attributes
+    license: Apache-2.0
+    home_url: http://pypi.python.org/pypi/dictobj
     total_pulls: 0
     manually_check: true
 python3-pymummer:
     name: python3-pymummer
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: Python3 wrapper for running MUMmer and parsing the output. MUMmer is a modular and versatile package that relies on a suffix tree data structure for efficient pattern matching.
+    license: GPL-3.0
+    home_url: https://github.com/sanger-pathogens/pymummer
     total_pulls: 0
     manually_check: true
 python3-pyvcf:
     name: python3-pyvcf
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'A Variant Call Format reader for Python.'
+    license: MIT
+    home_url: https://github.com/jamescasbon/PyVCF
     total_pulls: 0
     manually_check: true
 python3-screed:
     name: python3-screed
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: Short nucleotide read sequence utils in python 3
+    license: BSD-3-Clause
+    home_url: https://screed.readthedocs.org
     total_pulls: 0
     manually_check: true
 python3-ruffus:
     name: python3-ruffus
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'CGAT-ruffus is a lightweight python module for running computational pipelines'
+    license: MIT
+    home_url: https://github.com/cgat-developers/ruffus
     total_pulls: 0
     manually_check: true
 python3-sphinxcontrib.autoprogram:
     name: python3-sphinxcontrib.autoprogram
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: Automated documentation of cli programs for sphinx (python 3)
+    license: BSD-3-clause
+    home_url: https://pythonhosted.org/sphinxcontrib-autoprogram/
     total_pulls: 0
     manually_check: true
 sitplus-data:
@@ -64539,9 +64539,9 @@ canvas:
       -   Neoplasms
 editdistance:
     name: editdistance
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Fast implementation of the edit distance(Levenshtein distance)'
+    license: MIT
+    home_url: https://www.github.com/aflc/editdistance
     total_pulls: 0
     manually_check: true
 rmblast:
@@ -64589,9 +64589,9 @@ kaptive:
     manually_check: true
 extern:
     name: extern
-    description: ''
-    license: Not available
-    home_url: None
+    description: 'Opinionated version of Python subprocess'
+    license: MIT
+    home_url: https://pypi.org/project/extern/
     total_pulls: 0
     manually_check: true
 graftm:
@@ -64705,16 +64705,16 @@ stringmlst:
     manually_check: true
 r-segmented:
     name: r-segmented
-    description: ''
-    license: Not available
-    home_url: None
+    description: 'Given a regression model, segmented updates it by adding one or more segmented (i.e., piece-wise linear) relationships. Several variables with multiple breakpoints are allowed. The estimation method is discussed in Muggeo (2003, <doi:10.1002/sim.1545>) and illustrated in Muggeo (2008, <https://www.r-project.org/doc/Rnews/Rnews_2008-1.pdf>). An approach for hypothesis testing is presented in Muggeo (2016, <doi:10.1080/00949655.2016.1149855>), and interval estimation for the breakpoint is discussed in Muggeo (2017, <doi:10.1111/anzs.12200>).'
+    license: GPL
+    home_url: https://cran.r-project.org/package=segmented
     total_pulls: 0
     manually_check: true
 r-mixtools:
     name: r-mixtools
-    description: ''
-    license: Not available
-    home_url: None
+    description: 'Analyzes finite mixture models for various parametric and semiparametric settings. This includes mixtures of parametric distributions (normal, multivariate normal, multinomial, gamma), various Reliability Mixture Models (RMMs), mixtures-of-regressions settings (linear regression, logistic regression, Poisson regression, linear regression with changepoints, predictor-dependent mixing proportions, random effects regressions, hierarchical mixtures-of-experts), and tools for selecting the number of components (bootstrapping the likelihood ratio test statistic and model selection criteria). Bayesian estimation of mixtures-of-linear-regressions models is available as well as a novel data depth method for obtaining credible bands.'
+    license: GPL (>= 2)
+    home_url: https://CRAN.R-project.org/package=mixtools
     total_pulls: 0
     manually_check: true
 footprint:
@@ -64894,9 +64894,9 @@ pymzml:
       -   biotools:pymzml
 ndg-httpsclient:
     name: ndg-httpsclient
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'Provides enhanced HTTPS support for httplib and urllib2 using PyOpenSSL.'
+    license: BSD3-Clause
+    home_url: https://github.com/cedadev/ndg_httpsclient
     total_pulls: 0
     manually_check: true
 imfusion:
@@ -64937,16 +64937,16 @@ socksipy-branch:
     manually_check: true
 pydotplus:
     name: pydotplus
-    description: ''
-    license: Not available
-    home_url: Not available
+    description: 'PyDotPlus is an improved version of the old pydot project that provides a Python Interface to the Graphviz Dot language.'
+    license: MIT
+    home_url: https://github.com/carlos-jenkins/pydotplus
     total_pulls: 0
     manually_check: true
 r-qlcmatrix:
     name: r-qlcmatrix
-    description: ''
-    license: Not available
-    home_url: None
+    description: 'Extension of the functionality of the Matrix package for using sparse matrices. Some of the functions are very general, while other are highly specific for special data format as used for quantitative language comparison (QLC).'
+    license: GPL-3.
+    home_url: https://CRAN.R-project.org/package=qlcMatrix
     total_pulls: 0
     manually_check: true
 r-proxy:
@@ -65554,7 +65554,7 @@ r-tiff:
     manually_check: true
 r-viridislite:
     name: r-viridislite
-    description: ''
+    description: 'Port of the new matplotlib color maps (viridis - the default -, magma, plasma and inferno) to R. matplotlib <http://matplotlib.org/ > is a popular plotting library for python. These color maps are designed in such a way that they will analytically be perfectly perceptually-uniform, both in regular form and also when converted to black-and-white. They are also designed to be perceived by readers with the most common form of color blindness.'
     license: Not available
     home_url: None
     total_pulls: 0
@@ -65588,8 +65588,8 @@ r-flowr:
     manually_check: true
 r-rgraphics:
     name: r-rgraphics
-    description: ''
-    license: Not available
+    description: 'R graphics support for R packages'
+    license: Custom License
     home_url: None
     total_pulls: 0
     manually_check: true
@@ -65602,8 +65602,7 @@ pvacseq:
     manually_check: true
 lace:
     name: lace
-    description: 'Building SuperTranscripts: A linear representation of transcriptome
-        data'
+    description: 'Building SuperTranscripts: A linear representation of transcriptome data'
     license: GNU General Public License
     home_url: https://github.com/Oshlack/Lace
     total_pulls: 0
@@ -65693,9 +65692,9 @@ r-microseq:
     manually_check: true
 r-htmlwidgets:
     name: r-htmlwidgets
-    description: ''
-    license: Not available
-    home_url: None
+    description: 'The htmlwidgets package provides a framework for easily creating R bindings to JavaScript libraries.'
+    license: Custom
+    home_url: https://github.com/ramnathv/htmlwidgets
     total_pulls: 0
     manually_check: true
 r-ks:
@@ -78721,8 +78720,8 @@ xopen:
     name: xopen
     total_pulls: 3057558
 boutroslabplottinggeneral:
-    description: ''
-    home_url: https://labs.oicr.on.ca/boutros-lab/software/bpg
+    description: 'Boutros Lab general plotting functions'
+    home_url: http://bpg.oicr.on.ca/API/BoutrosLab.plotting.general/5.3.4/index.html
     identifiers: []
     keywords: []
     license: Not available
@@ -78730,11 +78729,11 @@ boutroslabplottinggeneral:
     name: boutroslabplottinggeneral
     total_pulls: 13086
 spingo:
-    description: ''
-    home_url: ''
+    description: 'Species level IdentificatioN of metaGenOmic amplicons'
+    home_url: https://github.com/GuyAllard/SPINGO
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: spingo
     total_pulls: 30602
@@ -78759,7 +78758,7 @@ tango:
     home_url: https://github.com/johnne/tango
     identifiers: []
     keywords: []
-    license: Not available
+    license: MIT
     manually_check: true
     name: tango
     total_pulls: 6390
