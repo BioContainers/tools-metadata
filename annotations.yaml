@@ -61342,7 +61342,8 @@ rnabob:
     manually_check: true
 cansam:
     name: cansam
-    description: ''
+    description: 'The Sequence Alignment/Map (SAM) file format and its binary companion BAM are formats for storing nucleotide sequence alignments. They are designed for the large volumes of short- to middling-length reads produced by
+next-generation sequencing technologies.'
     license: BSD-3-Clause
     home_url: https://github.com/jmarshall/cansam/
     total_pulls: 0
@@ -61456,16 +61457,16 @@ perl-bio-db-hts:
     manually_check: true
 r-relations:
     name: r-relations
-    description: ''
-    license: Not available
-    home_url: None
+    description: 'Data structures and algorithms for k-ary relations with arbitrary domains, featuring relational algebra, predicate functions, and fitters for consensus relations.'
+    license: GPL-2.0
+    home_url: https://CRAN.R-project.org/package=relations
     total_pulls: 0
     manually_check: true
 r-sets:
     name: r-sets
-    description: ''
-    license: Not available
-    home_url: None
+    description: 'Data structures and basic operations for ordinary sets, generalizations such as fuzzy sets, multisets, and fuzzy multisets, customizable sets, and intervals.'
+    license: GPL-2.0
+    home_url: https://CRAN.R-project.org/package=sets
     total_pulls: 0
     manually_check: true
 stacks_summary:
@@ -61486,9 +61487,9 @@ genesplicer:
       -   biotools:GeneSplicer
 r-wrassp:
     name: r-wrassp
-    description: ''
-    license: Not available
-    home_url: None
+    description: 'A wrapper around Michel Scheffers libassp (<http://libassp.sourceforge.net/>). The libassp (Advanced Speech Signal Processor) library aims at providing functionality for handling speech signal files in most common audio formats and for performing analyses common in phonetic science/speech science. This includes the calculation of formants, fundamental frequency, root mean square, auto correlation, a variety of spectral analyses, zero crossing rate, filtering etc. This wrapper provides R with a large subset of libassp signal processing functions and provides them to the user in a (hopefully) user-friendly manner.'
+    license: GPL (>= 3)
+    home_url: https://github.com/IPS-LMU/wrassp
     total_pulls: 0
     manually_check: true
 tgt:
@@ -61559,7 +61560,7 @@ repeatscout:
     manually_check: true
 dscr:
     name: dscr
-    description: ''
+    description: 'Not available'
     license: Not available
     home_url: None
     total_pulls: 0
@@ -80516,29 +80517,30 @@ ymp:
     name: ymp
     total_pulls: 597
 grafimo:
-    description: ''
-    home_url: ''
+    description: 'GRAph-based Finding of Individual Motif Occurrences'
+    home_url: https://github.com/pinellolab/GRAFIMO
     identifiers: []
     keywords: []
-    license: Not available
+    license: MIT
     manually_check: true
     name: grafimo
     total_pulls: 2298
 mbg:
-    description: ''
-    home_url: ''
+    description: 'Minimizer based sparse de Bruijn graph constructor'
+    home_url: https://github.com/maickrau/MBG
     identifiers: []
     keywords: []
-    license: Not available
+    license: MIT
     manually_check: true
     name: mbg
     total_pulls: 3159
 yass:
-    description: ''
-    home_url: ''
-    identifiers: []
+    description: 'YASS is a genomic similarity search tool, for nucleic (DNA/RNA) sequences in fasta or plain text format'
+    home_url: http://bioinfo.lifl.fr/yass/
+    identifiers:
+       -  biotools:yass
     keywords: []
-    license: Not available
+    license: CeCILL Free Software License
     manually_check: true
     name: yass
     total_pulls: 3004
@@ -80547,7 +80549,7 @@ liftoff:
     home_url: https://github.com/agshumate/Liftoff
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: liftoff
     total_pulls: 3027
@@ -80572,20 +80574,21 @@ igblast-parser:
     name: igblast-parser
     total_pulls: 2027
 plink2:
-    description: ''
-    home_url: ''
+    description: 'Whole genome association analysis toolset, designed to perform a range of basic, large-scale analyses in a computationally efficient manner.'
+    home_url: https://www.cog-genomics.org/plink2
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: plink2
     total_pulls: 1268
 sherpas:
-    description: ''
-    home_url: ''
-    identifiers: []
+    description: 'A new, alignment-free genome recombination detection tool exploiting the idea of phylo-kmers (Linard et al. 2019) to accelerate the process by several orders of magnitude while keeping comparable accuracy.'
+    home_url: https://github.com/phylo42/sherpas
+    identifiers:
+       -   doi:10.1101/2020.06.22.161422
     keywords: []
-    license: Not available
+    license: MIT
     manually_check: true
     name: sherpas
     total_pulls: 1052
@@ -80675,29 +80678,29 @@ badread:
     name: badread
     total_pulls: 644
 consent:
-    description: ''
-    home_url: ''
+    description: 'Scalable long read self-correction and assembly polishing with multiple sequence alignment'
+    home_url: https://github.com/morispi/CONSENT
     identifiers: []
     keywords: []
-    license: Not available
+    license: AGPL-3.0
     manually_check: true
     name: consent
     total_pulls: 3199
 hydra-multi:
-    description: ''
-    home_url: ''
+    description: 'Hydra detects structural variation breakpoints in both unique and duplicated genomic regions.'
+    home_url: https://github.com/arq5x/Hydra
     identifiers: []
     keywords: []
-    license: Not available
+    license: MIT
     manually_check: true
     name: hydra-multi
     total_pulls: 803
 necat:
-    description: ''
-    home_url: ''
+    description: 'Nanopore data assembler'
+    home_url: https://github.com/xiaochuanle/NECAT
     identifiers: []
     keywords: []
-    license: Not available
+    license: Custom License
     manually_check: true
     name: necat
     total_pulls: 815
@@ -80805,11 +80808,11 @@ ope:
     name: ope
     total_pulls: 979
 pyspoa:
-    description: ''
-    home_url: ''
+    description: 'Python binding for SPOA. Spoa (SIMD POA) is a c++ implementation of the partial order alignment (POA) algorithm (as described in 10.1093/bioinformatics/18.3.452) which is used to generate consensus sequences (as described in 10.1093/bioinformatics/btg109). It supports three alignment modes: local (Smith-Waterman), global (Needleman-Wunsch) and semi-global alignment (overlap), and three gap modes: linear, affine and convex (piecewise affine). It also supports Intel SSE4.1+ and AVX2 vectorization (marginally faster due to high latency shifts), SIMDe and dispatching.'
+    home_url: https://github.com/nanoporetech/pyspoa
     identifiers: []
     keywords: []
-    license: Not available
+    license: MIT
     manually_check: true
     name: pyspoa
     total_pulls: 3586
@@ -80834,11 +80837,11 @@ pm4ngs:
     name: pm4ngs
     total_pulls: 1685
 mmult:
-    description: ''
-    home_url: ''
+    description: 'Multiple sample analysis from large-scale WGBS data'
+    home_url: https://github.com/lijinbio/MMULT
     identifiers: []
     keywords: []
-    license: Not available
+    license: MIT
     manually_check: true
     name: mmult
     total_pulls: 735
@@ -80853,11 +80856,11 @@ seqiolib:
     name: seqiolib
     total_pulls: 539
 chembl_structure_pipeline:
-    description: ''
-    home_url: ''
+    description: 'ChEMBL protocols used to standardise and salt strip molecules.'
+    home_url: https://github.com/chembl/ChEMBL_Structure_Pipeline
     identifiers: []
     keywords: []
-    license: Not available
+    license: MIT
     manually_check: true
     name: chembl_structure_pipeline
     total_pulls: 622
@@ -80881,8 +80884,7 @@ raptor:
     name: raptor
     total_pulls: 2000
 cryptogenotyper:
-    description: 'This package crypto_typer: tool to subtype the parasite, cryptosporidium,
-      based on the 18s and gp60 markers.'
+    description: 'This package crypto_typer: tool to subtype the parasite, cryptosporidium, based on the 18s and gp60 markers.'
     home_url: https://github.com/phac-nml/CryptoGenotyper
     identifiers: []
     keywords: []
