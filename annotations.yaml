@@ -79373,12 +79373,13 @@ artic-porechop:
 fingerprintscan:
     description: Search against FingerPRINTScan with a protein query sequence to identify the closest matching PRINTS sequence motif fingerprints in a protein sequence.
     home_url: https://github.com/ebi-pf-team/interproscan
-    identifiers: []
     keywords: []
     license: GPL-2.0
     manually_check: true
     name: fingerprintscan
     total_pulls: 669
+    identifiers:
+      -   biotools:fingerprintscan
 tendo:
     description: Tendo is a python module that adds basic functionality that is not
       (yet) provided by python.
@@ -80008,12 +80009,13 @@ gwas-fasp:
 libsbml:
     description: 'LibSBML is an application programming interface library for reading, writing, manipulating and validating content expressed in the Systems Biology Markup Language (SBML) format. It is written in ISO C and C++, provides language bindings for Common Lisp, Java, Python, Perl, MATLAB and Octave, and includes many features that facilitate adoption and use of both SBML and the library. Developers can embed libSBML in their applications, saving themselves the work of implementing their own SBML parsing, manipulation and validation software.'
     home_url: https://sourceforge.net/p/sbml/code/HEAD/tree/trunk/libsbml/
-    identifiers: []
     keywords: []
     license: LGPL-2.1
     manually_check: true
     name: libsbml
     total_pulls: 5382
+    identifiers:
+      -   biotools:libsbml
 bioconductor-mafdb.gnomad.r2.1.grch38:
     description: Minor allele frequency data from gnomad release 2.1 for grch38
     home_url: https://bioconductor.org/packages/3.12/data/annotation/html/MafDb.gnomAD.r2.1.GRCh38.html
