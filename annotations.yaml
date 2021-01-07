@@ -115,6 +115,8 @@ picard:
     home_url: https://github.com/broadinstitute/picard
     total_pulls: 43322
     manually_check: true
+    identifiers:
+      -   biotools:picard_tools
 galaxy_sequence_utils:
     name: galaxy_sequence_utils
     description: Sequence utilities from the galaxy project
@@ -136,6 +138,8 @@ gatk4:
     home_url: https://www.broadinstitute.org/gatk/
     total_pulls: 33888
     manually_check: true
+    identifiers:
+      -   biotools:gatk
 cutadapt:
     name: cutadapt
     description: Clean biological sequences from high-throughput sequencing reads
@@ -1915,6 +1919,8 @@ soapdenovo2:
     home_url: http://soap.genomics.org.cn/soapdenovo.html
     total_pulls: 4826
     manually_check: true
+    identifiers:
+      -   biotools:soapdenovo
 sumaclust:
     name: sumaclust
     description: Fast and exact clustering of genomic sequences
@@ -1977,6 +1983,8 @@ sickle:
     home_url: https://github.com/najoshi/sickle
     total_pulls: 4818
     manually_check: true
+    identifiers:
+      -   biotools:sickle
 transrate-tools:
     name: transrate-tools
     description: Helper for transrate
@@ -3228,6 +3236,8 @@ prinseq:
     home_url: http://prinseq.sourceforge.net/
     total_pulls: 3205
     manually_check: true
+    identifiers:
+      -   biotools:prinseq
 goslimmer:
     name: goslimmer
     description: Goslimmer transforms go annotations to a slimmed version of go
