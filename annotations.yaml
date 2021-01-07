@@ -62072,51 +62072,51 @@ r-gbm:
     manually_check: true
 r-gam:
     name: r-gam
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Functions for fitting and working with generalized additive models, as described in chapter 7 of "Statistical Models in S" (Chambers and Hastie (eds), 1991), and "Generalized Additive Models" (Hastie and Tibshirani, 1990).'
+    license: GPL-2
+    home_url: https://cran.r-project.org/package=gam
     total_pulls: 0
     manually_check: true
 r-outliers:
     name: r-outliers
-    description: Not available
-    license: Not available
-    home_url: None
+    description: A collection of some tests commonly used for identifying outliers.
+    license: GPL (>= 2)
+    home_url: https://cran.r-project.org/package=outliers
     total_pulls: 0
     manually_check: true
 r-logging:
     name: r-logging
-    description: Not available
-    license: Not available
-    home_url: None
+    description: logging is a pure R package that implements the ubiquitous log4j package.
+    license: GPL (>= 2)
+    home_url: https://CRAN.R-project.org/package=logging
     total_pulls: 0
     manually_check: true
 r-gamlss.data:
     name: r-gamlss.data
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Data used as examples to demonstrate GAMLSS models.
+    license: GPL-3.0
+    home_url: http://www.gamlss.org/
     total_pulls: 0
     manually_check: true
 r-pscl:
     name: r-pscl
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Bayesian analysis of item-response theory (IRT) models, roll call analysis; computing highest density regions; maximum likelihood estimation of zero-inflated and hurdle models for count data; goodness-of-fit measures for GLMs; data sets used in writing and teaching at the Political Science Computational Laboratory; seats-votes curves.'
+    license: GPL-2.0
+    home_url: http://pscl.stanford.edu/
     total_pulls: 0
     manually_check: true
 r-gamlss.dist:
     name: r-gamlss.dist
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'A set of distributions which can be used for modelling the response variables in Generalized Additive Models for Location Scale and Shape, Rigby and Stasinopoulos (2005), <doi:10.1111/j.1467-9876.2005.00510.x>. The distributions can be continuous, discrete or mixed distributions. Extra distributions can be created, by transforming, any continuous distribution defined on the real line, to a distribution defined on ranges 0 to infinity or 0 to 1, by using a log or a logit transformation respectively.'
+    license: GPL-3.0
+    home_url: https://cran.r-project.org/package=gamlss.dist
     total_pulls: 0
     manually_check: true
 r-gamlss:
     name: r-gamlss
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Functions for fitting the Generalized Additive Models for Location Scale and Shape introduced by Rigby and Stasinopoulos (2005), <doi:10.1111/j.1467-9876.2005.00510.x>. The models use a distributional regression approach where all the parameters of the conditional distribution of the response variable are modelled using explanatory variables.'
+    license: GPL-3.0
+    home_url: https://cran.r-project.org/package=gamlss
     total_pulls: 0
     manually_check: true
 pipmir:
@@ -62139,16 +62139,16 @@ pipmir:
       -   RNA, Plant
 r-inlinedocs:
     name: r-inlinedocs
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Generates Rd files from R source code with comments. The main features of the default syntax are that (1) docs are defined in comments near the relevant code, (2) function argument names are not repeated in comments, and (3) examples are defined in R code, not comments. It is also easy to define a new syntax.'
+    license: GPL-3.0
+    home_url: https://cran.r-project.org/package=inlinedocs
     total_pulls: 0
     manually_check: true
 r-penalized:
     name: r-penalized
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Fitting possibly high dimensional penalized regression models. The penalty structure can be any combination of an L1 penalty (lasso and fused lasso), an L2 penalty (ridge) and a positivity constraint on the regression coefficients. The supported regression models are linear, logistic and Poisson regression and the Cox Proportional Hazards model. Cross-validation routines allow optimization of the tuning parameters.'
+    license: GPL (>= 2)
+    home_url: https://CRAN.R-project.org/package=penalized
     total_pulls: 0
     manually_check: true
 xmlbuilder:
@@ -62200,9 +62200,9 @@ gfinisher:
     manually_check: true
 r-caroline:
     name: r-caroline
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'The caroline R library contains dozens of functions useful for: database migration (dbWriteTable2), database style joins & aggregation (nerge, groupBy & bestBy), data structure conversion (nv, tab2df), legend table making (sstable & leghead), plot annotation (labsegs & mvlabs), data visualization (violins, pies & raPlot), character string manipulation (m & pad), file I/O (write.delim), batch scripting and more. The packages greatest contributions lie in the database style merge, aggregation and interface functions as well as in its extensive use and propagation of row, column and vector names in most functions.'
+    license: Artistic-2.0
+    home_url: https://CRAN.R-project.org/package=caroline
     total_pulls: 0
     manually_check: true
 pancake:
@@ -63622,16 +63622,16 @@ perl-digest-sha:
     manually_check: true
 perl-base:
     name: perl-base
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'base - Establish an ISA relationship with base classes at compile time'
+    license: perl_5
+    home_url: https://perldoc.perl.org/base
     total_pulls: 0
     manually_check: true
 perl-list-util:
     name: perl-list-util
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'List::Util - A selection of general-utility list subroutines'
+    license: perl_5
+    home_url: https://perldoc.perl.org/List::Util
     total_pulls: 0
     manually_check: true
 perl-time-local:
@@ -63776,9 +63776,9 @@ perl-params-check:
     manually_check: true
 perl-cpan-shell:
     name: perl-cpan-shell
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'CPAN - query, download and build perl modules from CPAN sites'
+    license: perl_5
+    home_url: https://perldoc.perl.org/5.8.2/CPAN
     total_pulls: 0
     manually_check: true
 perl-file-find:
@@ -63904,9 +63904,9 @@ askocli:
     manually_check: true
 nanosimh:
     name: nanosimh
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'NanoSim-H is a simulator of Oxford Nanopore reads that captures the technology-specific features of ONT data, and allows for adjustments upon improvement of Nanopore sequencing technology. NanoSim-H has been derived from NanoSim, a software package developed by Chen Yang at Canada’s Michael Smith Genome Sciences Centre. The fork was created from version 1.0.1 and the versions of NanoSim-H and NanoSim are kept synchronized.'
+    license: GPL-3.0
+    home_url: https://github.com/karel-brinda/nanosim-h
     total_pulls: 0
     manually_check: true
 erne:
@@ -64062,9 +64062,9 @@ perl-symbol-util:
     manually_check: true
 r-skellam:
     name: r-skellam
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Functions for the Skellam distribution, including: density (pmf), cdf, quantiles and regression.'
+    license: GPL (>= 2)
+    home_url: https://cran.r-project.org/package=skellam
     total_pulls: 0
     manually_check: true
 perl-text-ansitable:
@@ -64232,9 +64232,9 @@ pyfiglet:
     manually_check: true
 py2neo:
     name: py2neo
-    description: Not available
-    license: Not available
-    home_url: Not available
+    description: Python client library and toolkit for Neo4j
+    license: Apache-2.0
+    home_url: https://github.com/technige/py2neo
     total_pulls: 0
     manually_check: true
 onto2nx:
@@ -64369,8 +64369,8 @@ ibdne:
     manually_check: true
 rgi_conda_dev:
     name: rgi_conda_dev
-    description: Not available
-    license: Not available
+    description: Conda Galaxy Toool
+    license: Apache-2.0
     home_url: Not available
     total_pulls: 0
     manually_check: true
@@ -64393,9 +64393,9 @@ zeroc-ice:
     manually_check: true
 munkres:
     name: munkres
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'The Munkres module provides an O(n^3) implementation of the Munkres algorithm (also called the Hungarian algorithm or the Kuhn-Munkres algorithm).'
+    license: Apache-2.0
+    home_url: https://github.com/bmc/munkres
     total_pulls: 0
     manually_check: true
 pymot:
@@ -64412,16 +64412,16 @@ pymot:
       -   doi:10.1007/978-3-540-68585-2_1
 r-rann:
     name: r-rann
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Finds the k nearest neighbours for every point in a given dataset in O(N log N) time using Arya and Mounts ANN library (v1.1.3). There is support for approximate as well as exact searches, fixed radius searches and bd as well as kd trees. The distance is computed using the L2 (Euclidean) metric. Please see package RANN.L1 for the same functionality using the L1 (Manhattan, taxicab) metric.'
+    license: GPL (>= 3)
+    home_url: https://github.com/jefferis/RANN
     total_pulls: 0
     manually_check: true
 r-waveslim:
     name: r-waveslim
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Basic wavelet routines for time series (1D), image (2D) and array (3D) analysis. The code provided here is based on wavelet methodology developed in Percival and Walden (2000); Gencay, Selcuk and Whitcher (2001); the dual-tree complex wavelet transform (DTCWT) from Kingsbury (1999, 2001) as implemented by Selesnick; and Hilbert wavelet pairs (Selesnick 2001, 2002). All figures in chapters 4-7 of GSW (2001) are reproducible using this package and R code available at the book website(s) below.'
+    license: BSD-3-clause
+    home_url: https://cran.r-project.org/package=waveslim
     total_pulls: 0
     manually_check: true
 garnet:
@@ -64652,9 +64652,9 @@ libsequence:
     manually_check: true
 ucsc_tools:
     name: ucsc_tools
-    description: Not available
-    license: Not available
-    home_url: Not available
+    description: Subset of UCSC tools required by tools and converters distributed with Galaxy.
+    license: Custom License
+    home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 rabix-bunny:
