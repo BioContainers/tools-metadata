@@ -62272,58 +62272,58 @@ junit-xml:
     manually_check: true
 r-truncnorm:
     name: r-truncnorm
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Density, probability, quantile and random number generation functions for the truncated normal distribution.'
+    license: GPL (>= 2)
+    home_url: https://github.com/olafmersmann/truncnorm
     total_pulls: 0
     manually_check: true
 r-rsolnp:
     name: r-rsolnp
-    description: Not available
-    license: Not available
-    home_url: None
+    description: General Non-linear Optimization Using Augmented Lagrange Multiplier Method.
+    license: GPL
+    home_url: https://CRAN.R-project.org/package=Rsolnp
     total_pulls: 0
     manually_check: true
 r-r.rsp:
     name: r-r.rsp
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'The RSP markup language makes any text-based document come alive. RSP provides a powerful markup for controlling the content and output of LaTeX, HTML, Markdown, AsciiDoc, Sweave and knitr documents (and more). Contrary to many other literate programming languages, with RSP it is straightforward to loop over mixtures of code and text sections, e.g. in month-by-month summaries. RSP has also several preprocessing directives for incorporating static and dynamic contents of external files (local or online) among other things. Functions rstring() and rcat() make it easy to process RSP strings, rsource() sources an RSP file as it was an R script, while rfile() compiles it (even online) into its final output format. RSP is ideal for self-contained scientific reports and R package vignettes.'
+    license: LGPL (>= 2.1)
+    home_url: https://cran.r-project.org/package=R.rsp
     total_pulls: 0
     manually_check: true
 r-r.huge:
     name: r-r.huge
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'DEPRECATED. Do not start building new projects based on this package. Cross-platform alternatives are the following packages: bigmemory (CRAN), ff (CRAN), BufferedMatrix (Bioconductor). The main usage of it was inside the aroma.affymetrix package. (The package currently provides a class representing a matrix where the actual data is stored in a binary format on the local file system. This way the size limit of the data is set by the file system and not the memory.)'
+    license: LGPL (>= 2.1)
+    home_url: https://github.com/HenrikBengtsson/R.huge
     total_pulls: 0
     manually_check: true
 r-aroma.apd:
     name: r-aroma.apd
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'DEPRECATED. Do not start building new projects based on this package. (The (in-house) APD file format was initially developed to store Affymetrix probe-level data, e.g. normalized CEL intensities. Chip types can be added to APD file and similar to methods in the affxparser package, this package provides methods to read APDs organized by units (probesets). In addition, the probe elements can be arranged optimally such that the elements are guaranteed to be read in order when, for instance, data is read unit by unit. This speeds up the read substantially. This package is supporting the Aroma framework and should not be used elsewhere.)'
+    license: LGPL (>= 2.1)
+    home_url: https://github.com/HenrikBengtsson/aroma.apd
     total_pulls: 0
     manually_check: true
 r-r.devices:
     name: r-r.devices
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Functions for creating plots and image files in a unified way regardless of output format (EPS, PDF, PNG, SVG, TIFF, WMF, etc.). Default device options as well as scales and aspect ratios are controlled in a uniform way across all device types. Switching output format requires minimal changes in code. This package is ideal for large-scale batch processing, because it will never leave open graphics devices or incomplete image files behind, even on errors or user interrupts.'
+    license: LGPL-2.1
+    home_url: https://github.com/HenrikBengtsson/R.devices
     total_pulls: 0
     manually_check: true
 r-gsmoothr:
     name: r-gsmoothr
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Tools rewritten in C for various smoothing tasks
+    license: LGPL (>= 2.0)
+    home_url: https://CRAN.R-project.org/package=gsmoothr
     total_pulls: 0
     manually_check: true
 r-r.filesets:
     name: r-r.filesets
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'A file set refers to a set of files located in one or more directories on the file system. This package provides classes and methods to locate, setup, subset, navigate and iterate such sets. The API is designed such that these classes can be extended via inheritance to provide a richer API for special file formats. Moreover, a specific name format is defined such that filenames and directories can be considered to have full names which consists of a name followed by comma-separated tags. This adds additional flexibility to identify file sets and individual files.'
+    license: LGPL (>= 2.1)
+    home_url: https://github.com/HenrikBengtsson/R.filesets
     total_pulls: 0
     manually_check: true
 eden:
