@@ -46,6 +46,6 @@ for key in file_annotations:
 for tool in not_biotools:
     for biotool in biotools_list:
         distance = SequenceMatcher(None, biotool['biotoolsCURIE'].replace('biotools:', ''), tool).ratio()
-        if distance > 0.80:
+        if distance > 0.95:
             print(biotool['biotoolsCURIE'].replace('biotools:', '') + "\t" + tool + "\t: " + str(distance))
 
