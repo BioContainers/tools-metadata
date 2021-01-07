@@ -20,7 +20,6 @@ tools = {}
 biotools_list = []
 next_biotools_page = '?page=1'
 while next_biotools_page is not None:
-    print('getting page %s' % next_biotools_page)
     url = 'https://bio.tools/api/tool/' + next_biotools_page + '&format=json'
     page = requests.get(url).json()
     biotools_list += page['list']
@@ -33,7 +32,6 @@ for key in file_annotations:
     tool = file_annotations[key]
 
     if 'identifiers' not in tool:
-        print(key)
         not_biotools.append(key)
     else:
         biotools = False
@@ -41,11 +39,10 @@ for key in file_annotations:
             if 'biotools' in ids:
                 biotools = True
         if not biotools:
-            print(key)
             not_biotools.append(key)
 for tool in not_biotools:
     for biotool in biotools_list:
         distance = SequenceMatcher(None, biotool['biotoolsCURIE'].replace('biotools:', ''), tool).ratio()
         if distance > 0.95:
             #print(biotool['biotoolsCURIE'].replace('biotools:', '') + "\t" + tool + "\t: " + str(distance))
-            print('identifiers:\n   t-  ' + biotool['biotoolsCURIE'])
+            print('identifiers:\n    -   ' + biotool['biotoolsCURIE'])

@@ -49664,9 +49664,11 @@ biopython-sql:
     name: biopython-sql
     description: Biopython support for the biosql database schema (python 3)
     license: other
-    home_url: https://github.com/biopython/biopython.github.io
+    home_url: https://github.com/biopython/biopython
     total_pulls: 0
     manually_check: true
+    identifiers:
+      -   biotools:biopython
 ball:
     name: ball
     description: Python bindings for the biochemical algorithms library
@@ -78234,6 +78236,7 @@ oligoarrayaux:
     manually_check: true
     identifiers:
       -   doi:10.1007/978-1-60327-429-6_1
+      -   biotools:oligoarrayaux
     keywords:
       -   Base Sequence
       -   DNA
@@ -80803,7 +80806,6 @@ itolparser:
 minirmd:
     description: 'minirmd is a tool to remove duplicate reads. The program is written in C++11 (tested with g++ >= 5.4.0) and works on Linux.'
     home_url: https://github.com/yuansliu/minirmd
-    identifiers: []
     keywords: []
     license: GPL-3.0
     manually_check: true
