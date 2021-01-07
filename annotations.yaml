@@ -61664,9 +61664,9 @@ megagta:
     manually_check: true
 perl-btlib:
     name: perl-btlib
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Binary Search Tree library
+    license: Open Source
+    home_url: https://sourceforge.net/projects/estscan/files/BTLib
     total_pulls: 0
     manually_check: true
 perl-text-csv:
@@ -61694,9 +61694,9 @@ exparna:
       -   biotools:exparna
 r-ahocorasicktrie:
     name: r-ahocorasicktrie
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Aho-Corasick is an optimal algorithm for finding many keywords in a text. It can locate all matches in a text in O(N+M) time; i.e., the time needed scales linearly with the number of keywords (N) and the size of the text (M). Compare this to the naive approach which takes O(N*M) time to loop through each pattern and scan for it in the text. This implementation builds the trie (the generic name of the data structure) and runs the search in a single function call. If you want to search multiple texts with the same trie, the function will take a list or vector of texts and return a list of matches to each text. By default, all 128 ASCII characters are allowed in both the keywords and the text. A more efficient trie is possible if the alphabet size can be reduced. For example, DNA sequences use at most 19 distinct characters and usually only 4; protein sequences use at most 26 distinct characters and usually only 20. UTF-8 (Unicode) matching is not currently supported.'
+    license: Apache 2.0
+    home_url: https://github.com/chambm/AhoCorasickTrie
     total_pulls: 0
     manually_check: true
 pantools:
@@ -61838,9 +61838,9 @@ perl-test-harness:
     manually_check: true
 r-tibble:
     name: r-tibble
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Provides a tbl_df class (the tibble) that provides stricter checking and better formatting than the traditional data frame.
+    license: MIT
+    home_url: https://cran.r-project.org/package=tibble
     total_pulls: 0
     manually_check: true
 perl-data-optlist:
@@ -61972,9 +61972,9 @@ xmltramp2:
     manually_check: true
 r-rcppgsl:
     name: r-rcppgsl
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Rcpp integration for GNU GSL vectors and matrices The GNU Scientific Library (or GSL) is a collection of numerical routines for scientific computing. It is particularly useful for C and C++ programs as it provides a standard C interface to a wide range of mathematical routines. There are over 1000 functions in total with an extensive test suite. The RcppGSL package provides an easy-to-use interface between GSL data structures and R using concepts from Rcpp which is itself a package that eases the interfaces between R and C++. This package also serves as a prime example of how to build a package that uses Rcpp to connect to another third-party library. The autoconf script, inline plugin and example package can all be used as a stanza to write a similar package against another library.'
+    license: GPL-2.0
+    home_url: https://cran.r-project.org/package=RcppGSL
     total_pulls: 0
     manually_check: true
 plant_tribes_gene_family_classifier:
@@ -62025,37 +62025,37 @@ r-algdesign:
     manually_check: true
 r-combinat:
     name: r-combinat
-    description: Not available
-    license: Not available
-    home_url: None
+    description: routines for combinatorics
+    license: GPL-2.0
+    home_url: https://CRAN.R-project.org/package=combinat
     total_pulls: 0
     manually_check: true
 r-gmodels:
     name: r-gmodels
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Various R programming tools for model fitting.
+    license: GPL-2.0
+    home_url: http://www.sf.net/projects/r-gregmisc
     total_pulls: 0
     manually_check: true
 r-klar:
     name: r-klar
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Miscellaneous functions for classification and visualization, e.g. regularized discriminant analysis, sknn() kernel-density naive Bayes, an interface to svmlight and stepclass() wrapper variable selection for supervised classification, partimat() visualization of classification rules and shardsplot() of cluster results as well as kmodes() clustering for categorical data, corclust() variable clustering, variable extraction from different variable clustering models and weight of evidence preprocessing.'
+    license: GPL-2.0
+    home_url: http://www.statistik.tu-dortmund.de
     total_pulls: 0
     manually_check: true
 r-learnbayes:
     name: r-learnbayes
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'A collection of functions helpful in learning the basic tenets of Bayesian statistical inference. It contains functions for summarizing basic one and two parameter posterior distributions and predictive distributions. It contains MCMC algorithms for summarizing posterior distributions defined by the user. It also contains functions for regression models, hierarchical models, Bayesian tests, and illustrations of Gibbs sampling.'
+    license: GPL (>= 2)
+    home_url: https://CRAN.R-project.org/package=LearnBayes
     total_pulls: 0
     manually_check: true
 r-spdep:
     name: r-spdep
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'A collection of functions to create spatial weights matrix objects from polygon contiguities, from point patterns by distance and tessellations, for summarizing these objects, and for permitting their use in spatial data analysis, including regional aggregation by minimum spanning tree; a collection of tests for spatial autocorrelation'
+    license: GPL-2.0
+    home_url: https://github.com/r-spatial/spdep/
     total_pulls: 0
     manually_check: true
 r-gbm:
@@ -62072,51 +62072,51 @@ r-gbm:
     manually_check: true
 r-gam:
     name: r-gam
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Functions for fitting and working with generalized additive models, as described in chapter 7 of "Statistical Models in S" (Chambers and Hastie (eds), 1991), and "Generalized Additive Models" (Hastie and Tibshirani, 1990).'
+    license: GPL-2
+    home_url: https://cran.r-project.org/package=gam
     total_pulls: 0
     manually_check: true
 r-outliers:
     name: r-outliers
-    description: Not available
-    license: Not available
-    home_url: None
+    description: A collection of some tests commonly used for identifying outliers.
+    license: GPL (>= 2)
+    home_url: https://cran.r-project.org/package=outliers
     total_pulls: 0
     manually_check: true
 r-logging:
     name: r-logging
-    description: Not available
-    license: Not available
-    home_url: None
+    description: logging is a pure R package that implements the ubiquitous log4j package.
+    license: GPL (>= 2)
+    home_url: https://CRAN.R-project.org/package=logging
     total_pulls: 0
     manually_check: true
 r-gamlss.data:
     name: r-gamlss.data
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Data used as examples to demonstrate GAMLSS models.
+    license: GPL-3.0
+    home_url: http://www.gamlss.org/
     total_pulls: 0
     manually_check: true
 r-pscl:
     name: r-pscl
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Bayesian analysis of item-response theory (IRT) models, roll call analysis; computing highest density regions; maximum likelihood estimation of zero-inflated and hurdle models for count data; goodness-of-fit measures for GLMs; data sets used in writing and teaching at the Political Science Computational Laboratory; seats-votes curves.'
+    license: GPL-2.0
+    home_url: http://pscl.stanford.edu/
     total_pulls: 0
     manually_check: true
 r-gamlss.dist:
     name: r-gamlss.dist
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'A set of distributions which can be used for modelling the response variables in Generalized Additive Models for Location Scale and Shape, Rigby and Stasinopoulos (2005), <doi:10.1111/j.1467-9876.2005.00510.x>. The distributions can be continuous, discrete or mixed distributions. Extra distributions can be created, by transforming, any continuous distribution defined on the real line, to a distribution defined on ranges 0 to infinity or 0 to 1, by using a log or a logit transformation respectively.'
+    license: GPL-3.0
+    home_url: https://cran.r-project.org/package=gamlss.dist
     total_pulls: 0
     manually_check: true
 r-gamlss:
     name: r-gamlss
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Functions for fitting the Generalized Additive Models for Location Scale and Shape introduced by Rigby and Stasinopoulos (2005), <doi:10.1111/j.1467-9876.2005.00510.x>. The models use a distributional regression approach where all the parameters of the conditional distribution of the response variable are modelled using explanatory variables.'
+    license: GPL-3.0
+    home_url: https://cran.r-project.org/package=gamlss
     total_pulls: 0
     manually_check: true
 pipmir:
@@ -62139,16 +62139,16 @@ pipmir:
       -   RNA, Plant
 r-inlinedocs:
     name: r-inlinedocs
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Generates Rd files from R source code with comments. The main features of the default syntax are that (1) docs are defined in comments near the relevant code, (2) function argument names are not repeated in comments, and (3) examples are defined in R code, not comments. It is also easy to define a new syntax.'
+    license: GPL-3.0
+    home_url: https://cran.r-project.org/package=inlinedocs
     total_pulls: 0
     manually_check: true
 r-penalized:
     name: r-penalized
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Fitting possibly high dimensional penalized regression models. The penalty structure can be any combination of an L1 penalty (lasso and fused lasso), an L2 penalty (ridge) and a positivity constraint on the regression coefficients. The supported regression models are linear, logistic and Poisson regression and the Cox Proportional Hazards model. Cross-validation routines allow optimization of the tuning parameters.'
+    license: GPL (>= 2)
+    home_url: https://CRAN.R-project.org/package=penalized
     total_pulls: 0
     manually_check: true
 xmlbuilder:
@@ -62200,9 +62200,9 @@ gfinisher:
     manually_check: true
 r-caroline:
     name: r-caroline
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'The caroline R library contains dozens of functions useful for: database migration (dbWriteTable2), database style joins & aggregation (nerge, groupBy & bestBy), data structure conversion (nv, tab2df), legend table making (sstable & leghead), plot annotation (labsegs & mvlabs), data visualization (violins, pies & raPlot), character string manipulation (m & pad), file I/O (write.delim), batch scripting and more. The packages greatest contributions lie in the database style merge, aggregation and interface functions as well as in its extensive use and propagation of row, column and vector names in most functions.'
+    license: Artistic-2.0
+    home_url: https://CRAN.R-project.org/package=caroline
     total_pulls: 0
     manually_check: true
 pancake:
@@ -62272,58 +62272,58 @@ junit-xml:
     manually_check: true
 r-truncnorm:
     name: r-truncnorm
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Density, probability, quantile and random number generation functions for the truncated normal distribution.'
+    license: GPL (>= 2)
+    home_url: https://github.com/olafmersmann/truncnorm
     total_pulls: 0
     manually_check: true
 r-rsolnp:
     name: r-rsolnp
-    description: Not available
-    license: Not available
-    home_url: None
+    description: General Non-linear Optimization Using Augmented Lagrange Multiplier Method.
+    license: GPL
+    home_url: https://CRAN.R-project.org/package=Rsolnp
     total_pulls: 0
     manually_check: true
 r-r.rsp:
     name: r-r.rsp
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'The RSP markup language makes any text-based document come alive. RSP provides a powerful markup for controlling the content and output of LaTeX, HTML, Markdown, AsciiDoc, Sweave and knitr documents (and more). Contrary to many other literate programming languages, with RSP it is straightforward to loop over mixtures of code and text sections, e.g. in month-by-month summaries. RSP has also several preprocessing directives for incorporating static and dynamic contents of external files (local or online) among other things. Functions rstring() and rcat() make it easy to process RSP strings, rsource() sources an RSP file as it was an R script, while rfile() compiles it (even online) into its final output format. RSP is ideal for self-contained scientific reports and R package vignettes.'
+    license: LGPL (>= 2.1)
+    home_url: https://cran.r-project.org/package=R.rsp
     total_pulls: 0
     manually_check: true
 r-r.huge:
     name: r-r.huge
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'DEPRECATED. Do not start building new projects based on this package. Cross-platform alternatives are the following packages: bigmemory (CRAN), ff (CRAN), BufferedMatrix (Bioconductor). The main usage of it was inside the aroma.affymetrix package. (The package currently provides a class representing a matrix where the actual data is stored in a binary format on the local file system. This way the size limit of the data is set by the file system and not the memory.)'
+    license: LGPL (>= 2.1)
+    home_url: https://github.com/HenrikBengtsson/R.huge
     total_pulls: 0
     manually_check: true
 r-aroma.apd:
     name: r-aroma.apd
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'DEPRECATED. Do not start building new projects based on this package. (The (in-house) APD file format was initially developed to store Affymetrix probe-level data, e.g. normalized CEL intensities. Chip types can be added to APD file and similar to methods in the affxparser package, this package provides methods to read APDs organized by units (probesets). In addition, the probe elements can be arranged optimally such that the elements are guaranteed to be read in order when, for instance, data is read unit by unit. This speeds up the read substantially. This package is supporting the Aroma framework and should not be used elsewhere.)'
+    license: LGPL (>= 2.1)
+    home_url: https://github.com/HenrikBengtsson/aroma.apd
     total_pulls: 0
     manually_check: true
 r-r.devices:
     name: r-r.devices
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Functions for creating plots and image files in a unified way regardless of output format (EPS, PDF, PNG, SVG, TIFF, WMF, etc.). Default device options as well as scales and aspect ratios are controlled in a uniform way across all device types. Switching output format requires minimal changes in code. This package is ideal for large-scale batch processing, because it will never leave open graphics devices or incomplete image files behind, even on errors or user interrupts.'
+    license: LGPL-2.1
+    home_url: https://github.com/HenrikBengtsson/R.devices
     total_pulls: 0
     manually_check: true
 r-gsmoothr:
     name: r-gsmoothr
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Tools rewritten in C for various smoothing tasks
+    license: LGPL (>= 2.0)
+    home_url: https://CRAN.R-project.org/package=gsmoothr
     total_pulls: 0
     manually_check: true
 r-r.filesets:
     name: r-r.filesets
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'A file set refers to a set of files located in one or more directories on the file system. This package provides classes and methods to locate, setup, subset, navigate and iterate such sets. The API is designed such that these classes can be extended via inheritance to provide a richer API for special file formats. Moreover, a specific name format is defined such that filenames and directories can be considered to have full names which consists of a name followed by comma-separated tags. This adds additional flexibility to identify file sets and individual files.'
+    license: LGPL (>= 2.1)
+    home_url: https://github.com/HenrikBengtsson/R.filesets
     total_pulls: 0
     manually_check: true
 eden:
@@ -62485,30 +62485,30 @@ metacluster:
       -   Sequence Analysis, DNA
 r-bbmle:
     name: r-bbmle
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Methods and functions for fitting maximum likelihood models in R. This package modifies and extends the mle classes in the stats4 package.'
+    license: GPL
+    home_url: https://CRAN.R-project.org/package=bbmle
     total_pulls: 0
     manually_check: true
 r-emdbook:
     name: r-emdbook
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Auxiliary functions and data sets for "Ecological Models and Data", a book presenting maximum likelihood estimation and related topics for ecologists (ISBN 978-0-691-12522-0).'
+    license: GPL-3
+    home_url: http://www.math.mcmaster.ca/bolker/emdbook
     total_pulls: 0
     manually_check: true
 r-ada:
     name: r-ada
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Performs discrete, real, and gentle boost under both exponential and logistic loss on a given data set. The package ada provides a straightforward, well-documented, and broad boosting routine for classification, ideally suited for small to moderate-sized data sets.'
+    license: GPL
+    home_url: https://CRAN.R-project.org/package=ada
     total_pulls: 0
     manually_check: true
 r-progress:
     name: r-progress
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Configurable Progress bars, they may include percentage, elapsed time, and/or the estimated completion time. They work in terminals, in Emacs ESS, RStudio, Windows Rgui and the macOS R.app. The package also provides a C++ API, that works with or without Rcpp.'
+    license: MIT
+    home_url: https://github.com/r-lib/progress
     total_pulls: 0
     manually_check: true
 pgma-simple:
@@ -62527,72 +62527,72 @@ nspdk:
     manually_check: true
 r-matrixeqtl:
     name: r-matrixeqtl
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Matrix eQTL is designed for fast eQTL analysis on large datasets. Matrix eQTL can test for association between genotype and gene expression using linear regression with either additive or ANOVA genotype effects. The models can include covariates to account for factors as population stratification, gender, and clinical variables. It also supports models with heteroscedastic and/or correlated errors, false discovery rate estimation and separate treatment of local (cis) and distant (trans) eQTLs. For more details see Shabalin (2012) <doi:10.1093/bioinformatics/bts163>.'
+    license: LGPL-3.0
+    home_url: https://cran.r-project.org/package=MatrixEQTL
     total_pulls: 0
     manually_check: true
 r-prroc:
     name: r-prroc
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Computes the areas under the precision-recall (PR) and ROC curve for weighted (e.g., soft-labeled) and unweighted data. In contrast to other implementations, the interpolation between points of the PR curve is done by a non-linear piecewise function. In addition to the areas under the curves, the curves themselves can also be computed and plotted by a specific S3-method. References: Davis and Goadrich (2006) <doi:10.1145/1143844.1143874>; Keilwagen et al. (2014) <doi:10.1371/journal.pone.0092209>; Grau et al. (2015) <doi:10.1093/bioinformatics/btv153>.'
+    license: GPL-3.0
+    home_url: https://CRAN.R-project.org/package=PRROC
     total_pulls: 0
     manually_check: true
 r-survey:
     name: r-survey
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Summary statistics, two-sample tests, rank tests, generalised linear models, cumulative link models, Cox models, loglinear models, and general maximum pseudolikelihood estimation for multistage stratified, cluster-sampled, unequally weighted survey samples. Variances by Taylor series linearisation or replicate weights. Post-stratification, calibration, and raking. Two-phase subsampling designs. Graphics. PPS sampling without replacement. Principal components, factor analysis.'
+    license: GPL-3.0
+    home_url: http://r-survey.r-forge.r-project.org/survey/
     total_pulls: 0
     manually_check: true
 r-dplyr:
     name: r-dplyr
-    description: Not available
-    license: Not available
-    home_url: None
+    description: A fast, consistent tool for working with data frame like objects, both in memory and out of memory.
+    license: MIT
+    home_url: https://cran.r-project.org/package=dplyr
     total_pulls: 0
     manually_check: true
 r-car:
     name: r-car
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Functions to Accompany J. Fox and S. Weisberg, An R Companion to Applied Regression, Third Edition, Sage, 2019.
+    license: GPL-2.0
+    home_url: https://cran.r-project.org/package=car
     total_pulls: 0
     manually_check: true
 r-rocr:
     name: r-rocr
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'ROC graphs, sensitivity/specificity curves, lift charts, and precision/recall plots are popular examples of trade-off visualizations for specific pairs of performance measures. ROCR is a flexible tool for creating cutoff-parameterized 2D performance curves by freely combining two from over 25 performance measures (new performance measures can be added using a standard interface). Curves from different cross-validation or bootstrapping runs can be averaged by different methods, and standard deviations, standard errors or box plots can be used to visualize the variability across the runs. The parameterization can be visualized by printing cutoff values at the corresponding curve positions, or by coloring the curve according to cutoff. All components of a performance plot can be quickly adjusted using a flexible parameter dispatching mechanism. Despite its flexibility, ROCR is easy to use, with only three commands and reasonable default values for all optional parameters.'
+    license: GPL-2.0
+    home_url: https://cran.r-project.org/package=ROCR
     total_pulls: 0
     manually_check: true
 r-stringr:
     name: r-stringr
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'A consistent, simple and easy to use set of wrappers around the fantastic stringi package. All function and argument names (and positions) are consistent, all functions deal with NAs and zero length vectors in the same way, and the output from one function is easy to feed into the input of another.'
+    license: GPL-2.0
+    home_url: https://github.com/tidyverse/stringr
     total_pulls: 0
     manually_check: true
 r-mitools:
     name: r-mitools
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Tools to perform analyses and combine results from multiple-imputation datasets.
+    license: GPL-2.0
+    home_url: https://CRAN.R-project.org/package=mitools
     total_pulls: 0
     manually_check: true
 r-relaimpo:
     name: r-relaimpo
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Provides several metrics for assessing relative importance in linear models. These can be printed, plotted and bootstrapped. The recommended metric is lmg, which provides a decomposition of the model explained variance into non-negative contributions. There is a version of this package available that additionally provides a new and also recommended metric called pmvd. If you are a non-US user, you can download this extended version from Ulrike Groempings web site.'
+    license: GPL-2.0
+    home_url: https://cran.r-project.org/package=relaimpo
     total_pulls: 0
     manually_check: true
 r-genabel.data:
     name: r-genabel.data
-    description: Not available
-    license: Not available
-    home_url: None
+    description: GenABEL.data package consists of a data set used by GenABEL functions
+    license: GPL (>= 2)
+    home_url: https://cran.r-project.org/package=GenABEL.data
     total_pulls: 0
     manually_check: true
 kpal:
@@ -62604,9 +62604,9 @@ kpal:
     manually_check: true
 git-lfs:
     name: git-lfs
-    description: Not available
-    license: Not available
-    home_url: Not available
+    description: An open source Git extension for versioning large files
+    license: MIT
+    home_url: https://github.com/git-lfs/git-lfs
     total_pulls: 0
     manually_check: true
 remurna:
@@ -62712,9 +62712,9 @@ bioconductor-lpsymphony:
       -   doi:10.1007/0-387-23529-9_5
 r-dynamictreecut:
     name: r-dynamictreecut
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Contains methods for detection of clusters in hierarchical clustering dendrograms.
+    license: GPL (>= 2)
+    home_url: https://cran.r-project.org/package=dynamicTreeCut
     total_pulls: 0
     manually_check: true
 fastme:
@@ -62776,9 +62776,9 @@ fann:
     manually_check: true
 log4cpp:
     name: log4cpp
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Log4cpp is library of C++ classes for flexible logging to files'
+    license: LGPL-2.1
+    home_url: http://log4cpp.sourceforge.net
     total_pulls: 0
     manually_check: true
 perl-border-style:
@@ -62866,16 +62866,16 @@ pypeflow:
     manually_check: true
 paraview:
     name: paraview
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'ParaView is an open-source, multi-platform data analysis and visualization application based on Visualization Toolkit (VTK).'
+    license: BSD-3-Clause
+    home_url: https://github.com/Kitware/ParaView
     total_pulls: 0
     manually_check: true
 r-patpro:
     name: r-patpro
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Quickly and easily visualize longitudinal microbiome profiles using standard output from the QIIME microbiome analysis toolkit'
+    license: GPL-3.0
+    home_url: https://CRAN.R-project.org/package=patPRO
     total_pulls: 0
     manually_check: true
 randfold:
@@ -62914,9 +62914,9 @@ estmapper:
     manually_check: true
 r-delaporte:
     name: r-delaporte
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Provides probability mass, distribution, quantile, random-variate generation, and method-of-moments parameter-estimation functions for the Delaporte distribution. The Delaporte is a discrete probability distribution which can be considered the convolution of a negative binomial distribution with a Poisson distribution. Alternatively, it can be considered a counting distribution with both Poisson and negative binomial components. It has been studied in actuarial science as a frequency distribution which has more variability than the Poisson, but less than the negative binomial.'
+    license: BSD-2-Clause
+    home_url: https://cran.r-project.org/package=Delaporte
     total_pulls: 0
     manually_check: true
 gtf_to_genes:
@@ -62955,9 +62955,9 @@ vnl:
     manually_check: true
 r-plasmidprofiler:
     name: r-plasmidprofiler
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Contains functions developed to combine the results of querying a plasmid database using short-read sequence typing with the results of a blast analysis against the query results.'
+    license: Apache-2.0
+    home_url: https://CRAN.R-project.org/package=Plasmidprofiler
     total_pulls: 0
     manually_check: true
 emmix:
@@ -63010,9 +63010,9 @@ abyss-k128:
       -   Sequence Analysis, DNA
 r-gprofiler:
     name: r-gprofiler
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Functional enrichment analysis, gene identifier conversion and mapping homologous genes across related organisms via the g:Profiler toolkit'
+    license: GPL (>= 2)
+    home_url: https://CRAN.R-project.org/package=gProfileR
     total_pulls: 0
     manually_check: true
 cgat-scripts-nosetests:
@@ -63109,9 +63109,9 @@ fastaindex:
     manually_check: true
 r-argparser:
     name: r-argparser
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Cross-platform command-line argument parser written purely in R with no external dependencies. It is useful with the Rscript front-end and facilitates turning an R script into an executable script.
+    license: GPL (>= 3)
+    home_url: https://bitbucket.org/djhshih/argparser
     total_pulls: 0
     manually_check: true
 transcomb:
@@ -63123,23 +63123,23 @@ transcomb:
     manually_check: true
 r-tsne:
     name: r-tsne
-    description: Not available
-    license: Not available
-    home_url: None
+    description: A pure R implementation of the t-SNE algorithm.
+    license: GPL
+    home_url: https://github.com/jdonaldson/rtsne/
     total_pulls: 0
     manually_check: true
 gdk-pixbuf:
     name: gdk-pixbuf
-    description: Not available
-    license: Not available
-    home_url: None
+    description: GdkPixbuf is a library for image loading and manipulation.
+    license: GPL-2.0
+    home_url: https://developer.gnome.org/gdk-pixbuf/
     total_pulls: 0
     manually_check: true
 cluster-picker:
     name: cluster-picker
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Picking and Describing HIV Clusters in Phylogenetic Trees. A tool combination for the analysis of phylogenetic clusters of nucleotide sequences
+    license: GPL-3.0
+    home_url: https://github.com/emmahodcroft/cluster-picker-and-cluster-matcher
     total_pulls: 0
     manually_check: true
 chicagotools:
@@ -63152,9 +63152,9 @@ chicagotools:
     manually_check: true
 manormfast:
     name: manormfast
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'ChIP-Seq is widely used to characterize genome-wide binding patterns of transcription factors and other chromatin-associated proteins. Although comparison of ChIP-Seq data sets is critical for understanding cell type-dependent and cell state-specific binding, and thus the study of cell-specific gene regulation, few quantitative approaches have been developed. Here, we present a simple and effective method, MAnorm, for quantitative comparison of ChIP-Seq data sets describing transcription factor binding sites and epigenetic modifications. The quantitative binding differences inferred by MAnorm showed strong correlation with both the changes in expression of target genes and the binding of cell type-specific regulators.'
+    license: Apache-2.0
+    home_url: https://github.com/semal/MAnormFast
     total_pulls: 0
     manually_check: true
 bismark:
@@ -63277,9 +63277,9 @@ snoscan:
       -   biotools:snoscan
 r-splitstackshape:
     name: r-splitstackshape
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Online data collection tools like Google Forms often export multiple-response questions with data concatenated in cells. The concat.split (cSplit) family of functions splits such data into separate cells. The package also includes functions to stack groups of columns and to reshape wide data, even when the data are "unbalanced"---something which reshape (from base R) does not handle, and which melt and dcast from reshape2 do not easily handle.'
+    license: GPL-3.0
+    home_url: http://github.com/mrdwab/splitstackshape
     total_pulls: 0
     manually_check: true
 savage:
@@ -63334,9 +63334,9 @@ ntcard:
       -   Sequence Analysis, DNA
 r-ptw:
     name: r-ptw
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Parametric Time Warping aligns patterns, i.e. it aims to put corresponding features at the same locations. The algorithm searches for an optimal polynomial describing the warping. It is possible to align one sample to a reference, several samples to the same reference, or several samples to several references. One can choose between calculating individual warpings, or one global warping for a set of samples and one reference. Two optimization criteria are implemented: RMS (Root Mean Square error) and WCC (Weighted Cross Correlation). Both warping of peak profiles and of peak lists are supported.'
+    license: GPL (>= 2)
+    home_url: https://CRAN.R-project.org/package=ptw
     total_pulls: 0
     manually_check: true
 perl-config-simple:
@@ -63362,9 +63362,9 @@ latentstrainanalysis:
     manually_check: true
 r-rphylip:
     name: r-rphylip
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Rphylip provides an R interface for the PHYLIP package. All users of Rphylip will thus first have to install the PHYLIP phylogeny methods program package (Felsenstein 2013).'
+    license: GPL (>= 2)
+    home_url: https://cran.r-project.org/package=Rphylip
     total_pulls: 0
     manually_check: true
 perl-io-prompt:
@@ -63487,23 +63487,23 @@ taco:
     manually_check: true
 r-itertools:
     name: r-itertools
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Various tools for creating iterators, many patterned after functions in the Python itertools module, and others patterned after functions in the snow package'
+    license: GPL-2.0
+    home_url: https://CRAN.R-project.org/package=itertools
     total_pulls: 0
     manually_check: true
 r-missforest:
     name: r-missforest
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'The function missForest in this package is used to impute missing values particularly in the case of mixed-type data. It uses a random forest trained on the observed values of a data matrix to predict the missing values. It can be used to impute continuous and/or categorical data including complex interactions and non-linear relations. It yields an out-of-bag (OOB) imputation error estimate without the need of a test set or elaborate cross-validation. It can be run in parallel to save computation time.'
+    license: GPL (>= 2)
+    home_url: https://github.com/stekhoven/missForest
     total_pulls: 0
     manually_check: true
 lemon:
     name: lemon
-    description: Not available
-    license: Not available
-    home_url: Not available
+    description: Library for Efficient Modeling and Optimization in Networks
+    license: Boost-1.0
+    home_url: https://lemon.cs.elte.hu/trac/lemon
     total_pulls: 0
     manually_check: true
 mercat:
@@ -63531,9 +63531,9 @@ segmentation-fold:
     manually_check: true
 perl-tie-hash:
     name: perl-tie-hash
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Tie::Hash, Tie::StdHash, Tie::ExtraHash - base class definitions for tied hashes
+    license: perl_5
+    home_url: https://perldoc.perl.org/Tie::Hash
     total_pulls: 0
     manually_check: true
 perl-warnings-register:
@@ -63622,16 +63622,16 @@ perl-digest-sha:
     manually_check: true
 perl-base:
     name: perl-base
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'base - Establish an ISA relationship with base classes at compile time'
+    license: perl_5
+    home_url: https://perldoc.perl.org/base
     total_pulls: 0
     manually_check: true
 perl-list-util:
     name: perl-list-util
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'List::Util - A selection of general-utility list subroutines'
+    license: perl_5
+    home_url: https://perldoc.perl.org/List::Util
     total_pulls: 0
     manually_check: true
 perl-time-local:
@@ -63776,9 +63776,9 @@ perl-params-check:
     manually_check: true
 perl-cpan-shell:
     name: perl-cpan-shell
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'CPAN - query, download and build perl modules from CPAN sites'
+    license: perl_5
+    home_url: https://perldoc.perl.org/5.8.2/CPAN
     total_pulls: 0
     manually_check: true
 perl-file-find:
@@ -63904,9 +63904,9 @@ askocli:
     manually_check: true
 nanosimh:
     name: nanosimh
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'NanoSim-H is a simulator of Oxford Nanopore reads that captures the technology-specific features of ONT data, and allows for adjustments upon improvement of Nanopore sequencing technology. NanoSim-H has been derived from NanoSim, a software package developed by Chen Yang at Canada’s Michael Smith Genome Sciences Centre. The fork was created from version 1.0.1 and the versions of NanoSim-H and NanoSim are kept synchronized.'
+    license: GPL-3.0
+    home_url: https://github.com/karel-brinda/nanosim-h
     total_pulls: 0
     manually_check: true
 erne:
@@ -64062,9 +64062,9 @@ perl-symbol-util:
     manually_check: true
 r-skellam:
     name: r-skellam
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Functions for the Skellam distribution, including: density (pmf), cdf, quantiles and regression.'
+    license: GPL (>= 2)
+    home_url: https://cran.r-project.org/package=skellam
     total_pulls: 0
     manually_check: true
 perl-text-ansitable:
@@ -64232,9 +64232,9 @@ pyfiglet:
     manually_check: true
 py2neo:
     name: py2neo
-    description: Not available
-    license: Not available
-    home_url: Not available
+    description: Python client library and toolkit for Neo4j
+    license: Apache-2.0
+    home_url: https://github.com/technige/py2neo
     total_pulls: 0
     manually_check: true
 onto2nx:
@@ -64369,8 +64369,8 @@ ibdne:
     manually_check: true
 rgi_conda_dev:
     name: rgi_conda_dev
-    description: Not available
-    license: Not available
+    description: Conda Galaxy Toool
+    license: Apache-2.0
     home_url: Not available
     total_pulls: 0
     manually_check: true
@@ -64393,9 +64393,9 @@ zeroc-ice:
     manually_check: true
 munkres:
     name: munkres
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'The Munkres module provides an O(n^3) implementation of the Munkres algorithm (also called the Hungarian algorithm or the Kuhn-Munkres algorithm).'
+    license: Apache-2.0
+    home_url: https://github.com/bmc/munkres
     total_pulls: 0
     manually_check: true
 pymot:
@@ -64412,16 +64412,16 @@ pymot:
       -   doi:10.1007/978-3-540-68585-2_1
 r-rann:
     name: r-rann
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Finds the k nearest neighbours for every point in a given dataset in O(N log N) time using Arya and Mounts ANN library (v1.1.3). There is support for approximate as well as exact searches, fixed radius searches and bd as well as kd trees. The distance is computed using the L2 (Euclidean) metric. Please see package RANN.L1 for the same functionality using the L1 (Manhattan, taxicab) metric.'
+    license: GPL (>= 3)
+    home_url: https://github.com/jefferis/RANN
     total_pulls: 0
     manually_check: true
 r-waveslim:
     name: r-waveslim
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Basic wavelet routines for time series (1D), image (2D) and array (3D) analysis. The code provided here is based on wavelet methodology developed in Percival and Walden (2000); Gencay, Selcuk and Whitcher (2001); the dual-tree complex wavelet transform (DTCWT) from Kingsbury (1999, 2001) as implemented by Selesnick; and Hilbert wavelet pairs (Selesnick 2001, 2002). All figures in chapters 4-7 of GSW (2001) are reproducible using this package and R code available at the book website(s) below.'
+    license: BSD-3-clause
+    home_url: https://cran.r-project.org/package=waveslim
     total_pulls: 0
     manually_check: true
 garnet:
@@ -64652,9 +64652,9 @@ libsequence:
     manually_check: true
 ucsc_tools:
     name: ucsc_tools
-    description: Not available
-    license: Not available
-    home_url: Not available
+    description: Subset of UCSC tools required by tools and converters distributed with Galaxy.
+    license: Custom License
+    home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
 rabix-bunny:
@@ -64952,37 +64952,37 @@ r-qlcmatrix:
     manually_check: true
 r-proxy:
     name: r-proxy
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Provides an extensible framework for the efficient calculation of auto- and cross-proximities, along with implementations of the most popular ones.
+    license: GPL-2.0
+    home_url: https://CRAN.R-project.org/package=proxy
     total_pulls: 0
     manually_check: true
 r-fastica:
     name: r-fastica
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Implementation of FastICA algorithm to perform Independent Component Analysis (ICA) and Projection Pursuit.
+    license: GPL-3.0
+    home_url: https://CRAN.R-project.org/package=fastICA
     total_pulls: 0
     manually_check: true
 r-densityclust:
     name: r-densityclust
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'An improved implementation (based on k-nearest neighbors) of the density peak clustering algorithm, originally described by Alex Rodriguez and Alessandro Laio (Science, 2014 vol. 344). It can handle large datasets (> 100, 000 samples) very efficiently. It was initially implemented by Thomas Lin Pedersen, with inputs from Sean Hughes and later improved by Xiaojie Qiu to handle large datasets with kNNs.'
+    license: GPL (>= 2)
+    home_url: https://CRAN.R-project.org/package=densityClust
     total_pulls: 0
     manually_check: true
 r-ddrtree:
     name: r-ddrtree
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Provides an implementation of the framework of reversed graph embedding (RGE) which projects data into a reduced dimensional space while constructs a principal tree which passes through the middle of the data simultaneously. DDRTree shows superiority to alternatives (Wishbone, DPT) for inferring the ordering as well as the intrinsic structure of the single cell genomics data. In general, it could be used to reconstruct the temporal progression as well as bifurcation structure of any datatype.'
+    license: Artistic-2.0
+    home_url: https://cran.r-project.org/package=DDRTree
     total_pulls: 0
     manually_check: true
 extractpirs:
     name: extractpirs
-    description: Not available
-    license: Not available
-    home_url: Not available
+    description: 'SHAPEIT is a fast and accurate method for estimation of haplotypes (aka phasing) from genotype or sequencing data.'
+    license: Academic License
+    home_url: https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html
     total_pulls: 0
     manually_check: true
 lightning:
@@ -64995,9 +64995,9 @@ lightning:
     manually_check: true
 shapeit:
     name: shapeit
-    description: Not available
-    license: Not available
-    home_url: Not available
+    description: 'SHAPEIT is a fast and accurate method for estimation of haplotypes (aka phasing) from genotype or sequencing data.'
+    license: Academic License
+    home_url: https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html
     total_pulls: 0
     manually_check: true
 eqtlbma:
@@ -65012,9 +65012,9 @@ eqtlbma:
       -   biotools:eQtlBma
 r-checkpoint:
     name: r-checkpoint
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'The goal of checkpoint is to solve the problem of package reproducibility in R. Specifically, checkpoint allows you to install packages as they existed on CRAN on a specific snapshot date as if you had a CRAN time machine. To achieve reproducibility, the checkpoint() function installs the packages required or called by your project and scripts to a local library exactly as they existed at the specified point in time. Only those packages are available to your project, thereby avoiding any package updates that came later and may have altered your results. In this way, anyone using checkpoints checkpoint() can ensure the reproducibility of your scripts or projects at any time. To create the snapshot archives, once a day (at midnight UTC) Microsoft refreshes the Austria CRAN mirror on the "Microsoft R Archived Network" server (<https://mran.microsoft.com/>). Immediately after completion of the rsync mirror process, the process takes a snapshot, thus creating the archive. Snapshot archives exist starting from 2014-09-17.'
+    license: GPL-2.0
+    home_url: https://github.com/RevolutionAnalytics/checkpoint
     total_pulls: 0
     manually_check: true
 nanosim-h:
@@ -65035,51 +65035,51 @@ perl-algorithm-cluster:
     manually_check: true
 r-rmysql:
     name: r-rmysql
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Legacy DBI interface to MySQL / MariaDB based on old code ported from S-PLUS. A modern MySQL client based on Rcpp is available from the RMariaDB package.'
+    license: GPL-2.0
+    home_url: https://downloads.mariadb.org/connector-c/
     total_pulls: 0
     manually_check: true
 r-fastmatch:
     name: r-fastmatch
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Package providing a fast match() replacement for cases that require repeated look-ups. It is slightly faster that Rs built-in match() function on first match against a table, but extremely fast on any subsequent lookup as it keeps the hash table in memory.'
+    license: GPL-2.0
+    home_url: https://cran.r-project.org/package=fastmatch
     total_pulls: 0
     manually_check: true
 r-sqldf:
     name: r-sqldf
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'The sqldf() function is typically passed a single argument which is an SQL select statement where the table names are ordinary R data frame names. sqldf() transparently sets up a database, imports the data frames into that database, performs the SQL select or other statement and returns the result using a heuristic to determine which class to assign to each column of the returned data frame. The sqldf() or read.csv.sql() functions can also be used to read filtered files into R even if the original files are larger than R itself can handle. RSQLite, RH2, RMySQL and RPostgreSQL backends are supported.'
+    license: GPL-2.0
+    home_url: https://github.com/ggrothendieck/sqldf
     total_pulls: 0
     manually_check: true
 r-checkmate:
     name: r-checkmate
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Tests and assertions to perform frequent argument checks. A substantial part of the package was written in C to minimize any worries about execution time overhead.
+    license: BSD-3-Clause
+    home_url: https://github.com/mllg/checkmate
     total_pulls: 0
     manually_check: true
 r-biglm:
     name: r-biglm
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Regression for data too large to fit in memory
+    license: GPL-3.0
+    home_url: https://cran.r-project.org/package=biglm
     total_pulls: 0
     manually_check: true
 r-som:
     name: r-som
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Self-Organizing Map (with application in gene clustering).
+    license: GPL (>= 3)
+    home_url: https://CRAN.R-project.org/package=som
     total_pulls: 0
     manually_check: true
 r-ff:
     name: r-ff
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'The ff package provides data structures that are stored on disk but behave (almost) as if they were in RAM by transparently mapping only a section (pagesize) in main memory - the effective virtual memory consumption per ff object.'
+    license: GPL-2.0
+    home_url: https://cran.r-project.org/package=ff
     total_pulls: 0
     manually_check: true
 nlstradamus:
@@ -65214,9 +65214,9 @@ perl-set-intervaltree:
     manually_check: true
 r-biganalytics:
     name: r-biganalytics
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Extend the bigmemory package with various analytics. Functions bigkmeans and binit may also be used with native R objects. For tapply-like functions, the bigtabulate package may also be helpful. For linear algebra support, see bigalgebra. For mutex (locking) support for advanced shared-memory usage, see synchronicity.'
+    license: Apache 2.0
+    home_url: https://cran.r-project.org/package=biganalytics
     total_pulls: 0
     manually_check: true
 r-factominer:
@@ -65234,16 +65234,16 @@ r-factominer:
     manually_check: true
 r-locfdr:
     name: r-locfdr
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Computation of local false discovery rates.
+    license: GPL-2.0
+    home_url: https://CRAN.R-project.org/package=locfdr
     total_pulls: 0
     manually_check: true
 r-nhmmfdr:
     name: r-nhmmfdr
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'The NHMMfdr package implements the non-homogeneous Hidden Markov Model based FDR control as described in Kuan et al., 2011 for multiple comparison adjustment under dependence. It allows for prior information to be incorporated in the model to improve detection of significant tests.'
+    license: GPL (>= 2)
+    home_url: http://www.ams.sunysb.edu/~pfkuan/NHMMfdr/
     total_pulls: 0
     manually_check: true
 genomebaser:
@@ -65443,9 +65443,9 @@ samsifter:
     manually_check: true
 r-pack:
     name: r-pack
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Functions to easily convert data to binary formats other programs/machines can understand.
+    license: GPL-3.0
+    home_url: https://CRAN.R-project.org/package=pack
     total_pulls: 0
     manually_check: true
 glimmerhmm:
@@ -65474,9 +65474,9 @@ ngshmmalign:
     manually_check: true
 r-flashclust:
     name: r-flashclust
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Fast implementation of hierarchical clustering
+    license: GPL (>= 2)
+    home_url: https://CRAN.R-project.org/package=flashClust
     total_pulls: 0
     manually_check: true
 genologics:
@@ -65488,16 +65488,16 @@ genologics:
     manually_check: true
 r-venn:
     name: r-venn
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Draws and displays Venn diagrams up to 7 sets, and any Boolean union of set intersections.
+    license: GPL (>= 2)
+    home_url: https://CRAN.R-project.org/package=venn
     total_pulls: 0
     manually_check: true
 r-rjson:
     name: r-rjson
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Converts R object into JSON objects and vice-versa.
+    license: GPL-2.0
+    home_url: https://CRAN.R-project.org/package=rjson
     total_pulls: 0
     manually_check: true
 r-params:
