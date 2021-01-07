@@ -61664,9 +61664,9 @@ megagta:
     manually_check: true
 perl-btlib:
     name: perl-btlib
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Binary Search Tree library
+    license: Open Source
+    home_url: https://sourceforge.net/projects/estscan/files/BTLib
     total_pulls: 0
     manually_check: true
 perl-text-csv:
@@ -61694,9 +61694,9 @@ exparna:
       -   biotools:exparna
 r-ahocorasicktrie:
     name: r-ahocorasicktrie
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Aho-Corasick is an optimal algorithm for finding many keywords in a text. It can locate all matches in a text in O(N+M) time; i.e., the time needed scales linearly with the number of keywords (N) and the size of the text (M). Compare this to the naive approach which takes O(N*M) time to loop through each pattern and scan for it in the text. This implementation builds the trie (the generic name of the data structure) and runs the search in a single function call. If you want to search multiple texts with the same trie, the function will take a list or vector of texts and return a list of matches to each text. By default, all 128 ASCII characters are allowed in both the keywords and the text. A more efficient trie is possible if the alphabet size can be reduced. For example, DNA sequences use at most 19 distinct characters and usually only 4; protein sequences use at most 26 distinct characters and usually only 20. UTF-8 (Unicode) matching is not currently supported.'
+    license: Apache 2.0
+    home_url: https://github.com/chambm/AhoCorasickTrie
     total_pulls: 0
     manually_check: true
 pantools:
@@ -61838,9 +61838,9 @@ perl-test-harness:
     manually_check: true
 r-tibble:
     name: r-tibble
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Provides a tbl_df class (the tibble) that provides stricter checking and better formatting than the traditional data frame.
+    license: MIT
+    home_url: https://cran.r-project.org/package=tibble
     total_pulls: 0
     manually_check: true
 perl-data-optlist:
@@ -61972,9 +61972,9 @@ xmltramp2:
     manually_check: true
 r-rcppgsl:
     name: r-rcppgsl
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Rcpp integration for GNU GSL vectors and matrices The GNU Scientific Library (or GSL) is a collection of numerical routines for scientific computing. It is particularly useful for C and C++ programs as it provides a standard C interface to a wide range of mathematical routines. There are over 1000 functions in total with an extensive test suite. The RcppGSL package provides an easy-to-use interface between GSL data structures and R using concepts from Rcpp which is itself a package that eases the interfaces between R and C++. This package also serves as a prime example of how to build a package that uses Rcpp to connect to another third-party library. The autoconf script, inline plugin and example package can all be used as a stanza to write a similar package against another library.'
+    license: GPL-2.0
+    home_url: https://cran.r-project.org/package=RcppGSL
     total_pulls: 0
     manually_check: true
 plant_tribes_gene_family_classifier:
@@ -62025,37 +62025,37 @@ r-algdesign:
     manually_check: true
 r-combinat:
     name: r-combinat
-    description: Not available
-    license: Not available
-    home_url: None
+    description: routines for combinatorics
+    license: GPL-2.0
+    home_url: https://CRAN.R-project.org/package=combinat
     total_pulls: 0
     manually_check: true
 r-gmodels:
     name: r-gmodels
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Various R programming tools for model fitting.
+    license: GPL-2.0
+    home_url: http://www.sf.net/projects/r-gregmisc
     total_pulls: 0
     manually_check: true
 r-klar:
     name: r-klar
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Miscellaneous functions for classification and visualization, e.g. regularized discriminant analysis, sknn() kernel-density naive Bayes, an interface to svmlight and stepclass() wrapper variable selection for supervised classification, partimat() visualization of classification rules and shardsplot() of cluster results as well as kmodes() clustering for categorical data, corclust() variable clustering, variable extraction from different variable clustering models and weight of evidence preprocessing.'
+    license: GPL-2.0
+    home_url: http://www.statistik.tu-dortmund.de
     total_pulls: 0
     manually_check: true
 r-learnbayes:
     name: r-learnbayes
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'A collection of functions helpful in learning the basic tenets of Bayesian statistical inference. It contains functions for summarizing basic one and two parameter posterior distributions and predictive distributions. It contains MCMC algorithms for summarizing posterior distributions defined by the user. It also contains functions for regression models, hierarchical models, Bayesian tests, and illustrations of Gibbs sampling.'
+    license: GPL (>= 2)
+    home_url: https://CRAN.R-project.org/package=LearnBayes
     total_pulls: 0
     manually_check: true
 r-spdep:
     name: r-spdep
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'A collection of functions to create spatial weights matrix objects from polygon contiguities, from point patterns by distance and tessellations, for summarizing these objects, and for permitting their use in spatial data analysis, including regional aggregation by minimum spanning tree; a collection of tests for spatial autocorrelation'
+    license: GPL-2.0
+    home_url: https://github.com/r-spatial/spdep/
     total_pulls: 0
     manually_check: true
 r-gbm:
@@ -62485,30 +62485,30 @@ metacluster:
       -   Sequence Analysis, DNA
 r-bbmle:
     name: r-bbmle
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Methods and functions for fitting maximum likelihood models in R. This package modifies and extends the mle classes in the stats4 package.'
+    license: GPL
+    home_url: https://CRAN.R-project.org/package=bbmle
     total_pulls: 0
     manually_check: true
 r-emdbook:
     name: r-emdbook
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Auxiliary functions and data sets for "Ecological Models and Data", a book presenting maximum likelihood estimation and related topics for ecologists (ISBN 978-0-691-12522-0).'
+    license: GPL-3
+    home_url: http://www.math.mcmaster.ca/bolker/emdbook
     total_pulls: 0
     manually_check: true
 r-ada:
     name: r-ada
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Performs discrete, real, and gentle boost under both exponential and logistic loss on a given data set. The package ada provides a straightforward, well-documented, and broad boosting routine for classification, ideally suited for small to moderate-sized data sets.'
+    license: GPL
+    home_url: https://CRAN.R-project.org/package=ada
     total_pulls: 0
     manually_check: true
 r-progress:
     name: r-progress
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Configurable Progress bars, they may include percentage, elapsed time, and/or the estimated completion time. They work in terminals, in Emacs ESS, RStudio, Windows Rgui and the macOS R.app. The package also provides a C++ API, that works with or without Rcpp.'
+    license: MIT
+    home_url: https://github.com/r-lib/progress
     total_pulls: 0
     manually_check: true
 pgma-simple:
