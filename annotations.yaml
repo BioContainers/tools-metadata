@@ -79229,7 +79229,7 @@ pgx-pipe-helper:
     name: pgx-pipe-helper
     total_pulls: 1219
 r-mgcv:
-    description: 'Generalized additive (mixed) models, some of their extensions and other generalized ridge regression with multiple smoothing parameter estimation by (Restricted) Marginal Likelihood, Generalized Cross Validation and similar, or using iterated nested Laplace approximation for fully Bayesian inference. See Wood (2017) <doi:10.1201/9781315370279> for an overview. Includes a gam() function, a wide variety of smoothers, JAGS support and distributions beyond the exponential family.'
+    description: 'Generalized additive (mixed) models, some of their extensions and other generalized ridge regression with multiple smoothing parameter estimation by (Restricted) Marginal Likelihood, Generalized Cross Validation and similar, or using iterated nested Laplace approximation for fully Bayesian inference. Includes a gam() function, a wide variety of smoothers, JAGS support and distributions beyond the exponential family.'
     home_url: https://cran.r-project.org/package=mgcv
     identifiers: []
     keywords: []
@@ -79237,6 +79237,8 @@ r-mgcv:
     manually_check: true
     name: r-mgcv
     total_pulls: 334290
+    identifiers:
+      -   doi:10.1201/9781315370279
 diapysef:
     description: Analysis, conversion and visualization of diapasef data.
     home_url: https://github.com/Roestlab/dia-pasef
@@ -81510,7 +81512,7 @@ bioconductor-fscanr:
     name: bioconductor-fscanr
     total_pulls: 371
 bioconductor-densvis:
-    description: 'Implements the density-preserving modification to t-SNE and UMAP described by Narayan et al. (2020) <doi:10.1101/2020.05.12.077776>. The non-linear dimensionality reduction techniques t-SNE and UMAP enable users to summarise complex high-dimensional sequencing data such as single cell RNAseq using lower dimensional representations. These lower dimensional representations enable the visualisation of discrete transcriptional states, as well as continuous trajectory (for example, in early development). However, these methods focus on the local neighbourhood structure of the data. In some cases, this results in misleading visualisations, where the density of cells in the low-dimensional embedding does not represent the transcriptional heterogeneity of data in the original high-dimensional space. den-SNE and densMAP aim to enable more accurate visual interpretation of high-dimensional datasets by producing lower-dimensional embeddings that accurately represent the heterogeneity of the original high-dimensional space, enabling the identification of homogeneous and heterogeneous cell states. This accuracy is accomplished by including in the optimisation process a term which considers the local density of points in the original high-dimensional space. This can help to create visualisations that are more representative of heterogeneity in the original high-dimensional space.'
+    description: 'Implements the density-preserving modification to t-SNE and UMAP described by Narayan et al. (2020). The non-linear dimensionality reduction techniques t-SNE and UMAP enable users to summarise complex high-dimensional sequencing data such as single cell RNAseq using lower dimensional representations. These lower dimensional representations enable the visualisation of discrete transcriptional states, as well as continuous trajectory (for example, in early development). However, these methods focus on the local neighbourhood structure of the data. In some cases, this results in misleading visualisations, where the density of cells in the low-dimensional embedding does not represent the transcriptional heterogeneity of data in the original high-dimensional space. den-SNE and densMAP aim to enable more accurate visual interpretation of high-dimensional datasets by producing lower-dimensional embeddings that accurately represent the heterogeneity of the original high-dimensional space, enabling the identification of homogeneous and heterogeneous cell states. This accuracy is accomplished by including in the optimisation process a term which considers the local density of points in the original high-dimensional space. This can help to create visualisations that are more representative of heterogeneity in the original high-dimensional space.'
     home_url: https://bioconductor.org/packages/3.12/bioc/html/densvis.html
     identifiers: []
     keywords: []
@@ -81518,8 +81520,10 @@ bioconductor-densvis:
     manually_check: true
     name: bioconductor-densvis
     total_pulls: 505
+    identifiers:
+      -   doi:10.1101/2020.05.12.077776
 bioconductor-snifter:
-    description: 'Provides an R wrapper for the implementation of FI-tSNE from the python package openTNSE. See Poličar et al. (2019) <doi:10.1101/731877> and the algorithm described by Linderman et al. (2018) <doi:10.1038/s41592-018-0308-4>.'
+    description: 'Provides an R wrapper for the implementation of FI-tSNE from the python package openTNSE. See Poličar et al. (2019) and the algorithm described by Linderman et al. (2018).'
     home_url: https://bioconductor.org/packages/3.12/bioc/html/snifter.html
     identifiers: []
     keywords: []
@@ -81527,6 +81531,9 @@ bioconductor-snifter:
     manually_check: true
     name: bioconductor-snifter
     total_pulls: 115
+    identifiers:
+      -   doi:10.1101/731877
+      -   doi:10.1038/s41592-018-0308-4
 bioconductor-rtpca:
     description: 'R package for performing thermal proximity co-aggregation analysis with thermal proteome profiling datasets to analyse protein complex assembly and (differential) protein-protein interactions across conditions.'
     home_url: https://bioconductor.org/packages/3.12/bioc/html/Rtpca.html
