@@ -62955,9 +62955,9 @@ vnl:
     manually_check: true
 r-plasmidprofiler:
     name: r-plasmidprofiler
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Contains functions developed to combine the results of querying a plasmid database using short-read sequence typing with the results of a blast analysis against the query results.'
+    license: Apache-2.0
+    home_url: https://CRAN.R-project.org/package=Plasmidprofiler
     total_pulls: 0
     manually_check: true
 emmix:
@@ -63010,9 +63010,9 @@ abyss-k128:
       -   Sequence Analysis, DNA
 r-gprofiler:
     name: r-gprofiler
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Functional enrichment analysis, gene identifier conversion and mapping homologous genes across related organisms via the g:Profiler toolkit'
+    license: GPL (>= 2)
+    home_url: https://CRAN.R-project.org/package=gProfileR
     total_pulls: 0
     manually_check: true
 cgat-scripts-nosetests:
@@ -63109,9 +63109,9 @@ fastaindex:
     manually_check: true
 r-argparser:
     name: r-argparser
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Cross-platform command-line argument parser written purely in R with no external dependencies. It is useful with the Rscript front-end and facilitates turning an R script into an executable script.
+    license: GPL (>= 3)
+    home_url: https://bitbucket.org/djhshih/argparser
     total_pulls: 0
     manually_check: true
 transcomb:
@@ -63123,23 +63123,23 @@ transcomb:
     manually_check: true
 r-tsne:
     name: r-tsne
-    description: Not available
-    license: Not available
-    home_url: None
+    description: A pure R implementation of the t-SNE algorithm.
+    license: GPL
+    home_url: https://github.com/jdonaldson/rtsne/
     total_pulls: 0
     manually_check: true
 gdk-pixbuf:
     name: gdk-pixbuf
-    description: Not available
-    license: Not available
-    home_url: None
+    description: GdkPixbuf is a library for image loading and manipulation.
+    license: GPL-2.0
+    home_url: https://developer.gnome.org/gdk-pixbuf/
     total_pulls: 0
     manually_check: true
 cluster-picker:
     name: cluster-picker
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Picking and Describing HIV Clusters in Phylogenetic Trees. A tool combination for the analysis of phylogenetic clusters of nucleotide sequences
+    license: GPL-3.0
+    home_url: https://github.com/emmahodcroft/cluster-picker-and-cluster-matcher
     total_pulls: 0
     manually_check: true
 chicagotools:
@@ -63152,9 +63152,9 @@ chicagotools:
     manually_check: true
 manormfast:
     name: manormfast
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'ChIP-Seq is widely used to characterize genome-wide binding patterns of transcription factors and other chromatin-associated proteins. Although comparison of ChIP-Seq data sets is critical for understanding cell type-dependent and cell state-specific binding, and thus the study of cell-specific gene regulation, few quantitative approaches have been developed. Here, we present a simple and effective method, MAnorm, for quantitative comparison of ChIP-Seq data sets describing transcription factor binding sites and epigenetic modifications. The quantitative binding differences inferred by MAnorm showed strong correlation with both the changes in expression of target genes and the binding of cell type-specific regulators.'
+    license: Apache-2.0
+    home_url: https://github.com/semal/MAnormFast
     total_pulls: 0
     manually_check: true
 bismark:
@@ -63277,9 +63277,9 @@ snoscan:
       -   biotools:snoscan
 r-splitstackshape:
     name: r-splitstackshape
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Online data collection tools like Google Forms often export multiple-response questions with data concatenated in cells. The concat.split (cSplit) family of functions splits such data into separate cells. The package also includes functions to stack groups of columns and to reshape wide data, even when the data are "unbalanced"---something which reshape (from base R) does not handle, and which melt and dcast from reshape2 do not easily handle.'
+    license: GPL-3.0
+    home_url: http://github.com/mrdwab/splitstackshape
     total_pulls: 0
     manually_check: true
 savage:
@@ -63334,9 +63334,9 @@ ntcard:
       -   Sequence Analysis, DNA
 r-ptw:
     name: r-ptw
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Parametric Time Warping aligns patterns, i.e. it aims to put corresponding features at the same locations. The algorithm searches for an optimal polynomial describing the warping. It is possible to align one sample to a reference, several samples to the same reference, or several samples to several references. One can choose between calculating individual warpings, or one global warping for a set of samples and one reference. Two optimization criteria are implemented: RMS (Root Mean Square error) and WCC (Weighted Cross Correlation). Both warping of peak profiles and of peak lists are supported.'
+    license: GPL (>= 2)
+    home_url: https://CRAN.R-project.org/package=ptw
     total_pulls: 0
     manually_check: true
 perl-config-simple:
@@ -63362,9 +63362,9 @@ latentstrainanalysis:
     manually_check: true
 r-rphylip:
     name: r-rphylip
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Rphylip provides an R interface for the PHYLIP package. All users of Rphylip will thus first have to install the PHYLIP phylogeny methods program package (Felsenstein 2013).'
+    license: GPL (>= 2)
+    home_url: https://cran.r-project.org/package=Rphylip
     total_pulls: 0
     manually_check: true
 perl-io-prompt:
@@ -63487,23 +63487,23 @@ taco:
     manually_check: true
 r-itertools:
     name: r-itertools
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Various tools for creating iterators, many patterned after functions in the Python itertools module, and others patterned after functions in the snow package'
+    license: GPL-2.0
+    home_url: https://CRAN.R-project.org/package=itertools
     total_pulls: 0
     manually_check: true
 r-missforest:
     name: r-missforest
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'The function missForest in this package is used to impute missing values particularly in the case of mixed-type data. It uses a random forest trained on the observed values of a data matrix to predict the missing values. It can be used to impute continuous and/or categorical data including complex interactions and non-linear relations. It yields an out-of-bag (OOB) imputation error estimate without the need of a test set or elaborate cross-validation. It can be run in parallel to save computation time.'
+    license: GPL (>= 2)
+    home_url: https://github.com/stekhoven/missForest
     total_pulls: 0
     manually_check: true
 lemon:
     name: lemon
-    description: Not available
-    license: Not available
-    home_url: Not available
+    description: Library for Efficient Modeling and Optimization in Networks
+    license: Boost-1.0
+    home_url: https://lemon.cs.elte.hu/trac/lemon
     total_pulls: 0
     manually_check: true
 mercat:
@@ -63531,9 +63531,9 @@ segmentation-fold:
     manually_check: true
 perl-tie-hash:
     name: perl-tie-hash
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Tie::Hash, Tie::StdHash, Tie::ExtraHash - base class definitions for tied hashes
+    license: perl_5
+    home_url: https://perldoc.perl.org/Tie::Hash
     total_pulls: 0
     manually_check: true
 perl-warnings-register:
