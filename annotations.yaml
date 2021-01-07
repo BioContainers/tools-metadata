@@ -83424,15 +83424,6 @@ CRISPR-TAPE:
       -   doi:10.15252/msb.20209475
     keywords:
       -   Proteomics
-sdrf-pipelines:
-    name: sdrf-pipelines
-    description: A repository to convert SDRF proteomics files into pipelines config files
-    license: GPL-2.0
-    home_url: https://github.com/bigbio/sdrf-pipelines
-    total_pulls: 60
-    manually_check: true
-    keywords:
-      -   Proteomics
 pyopenms-nightly:
     name: pyopenms-nightly
     description: 'This package contains Python bindings for a large part of the OpenMS library for mass spectrometry based proteomics. It thus provides providing facile access to a feature-rich, open-source algorithm library for mass-spectrometry based proteomics analysis. These Python bindings allow raw access to the data-structures and algorithms implemented in OpenMS, specifically those for file access (mzXML, mzML, TraML, mzIdentML among others), basic signal processing (smoothing, filtering, de-isotoping and peak-picking) and complex data analysis (including label-free, SILAC, iTRAQ and SWATH analysis tools).'
@@ -83442,15 +83433,7 @@ pyopenms-nightly:
     manually_check: true
     keywords:
       -   Proteomics
-pyopenms:
-    name: pyopenms
-    description: 'This package contains Python bindings for a large part of the OpenMS library for mass spectrometry based proteomics. It thus provides providing facile access to a feature-rich, open-source algorithm library for mass-spectrometry based proteomics analysis. These Python bindings allow raw access to the data-structures and algorithms implemented in OpenMS, specifically those for file access (mzXML, mzML, TraML, mzIdentML among others), basic signal processing (smoothing, filtering, de-isotoping and peak-picking) and complex data analysis (including label-free, SILAC, iTRAQ and SWATH analysis tools).'
-    license: BSD
-    home_url: https://pypi.org/project/pyopenms/
-    total_pulls: 0
-    manually_check: true
-    keywords:
-      -   Proteomics
+
 camprot:
     name: camprot
     description: Scripts and modules for computational proteomics
@@ -83460,24 +83443,6 @@ camprot:
     manually_check: true
     keywords:
       -   Computational
-      -   Proteomics
-msproteomicstools:
-    name: msproteomicstools
-    description: python module for MS-based proteomics
-    license: BSD
-    home_url: https://github.com/msproteomicstools/msproteomicstools
-    total_pulls: 111
-    manually_check: true
-    keywords:
-      -   Proteomics
-pyteomics:
-    name: pyteomics
-    description: 'Pyteomics is a collection of lightweight and handy tools for Python that help to handle various sorts of proteomics data. Pyteomics provides a growing set of modules to facilitate the most common tasks in proteomics data analysis.'
-    license: Apache-2.0
-    home_url: https://github.com/levitsky/pyteomics
-    total_pulls: 19
-    manually_check: true
-    keywords:
       -   Proteomics
 ursgal:
     name: ursgal
@@ -83504,7 +83469,7 @@ blast-score-ratio:
     home_url: https://pypi.org/project/blast-score-ratio/
     total_pulls: 0
     manually_check: true
-    identifiers: 
+    identifiers:
       -   doi:10.1186/1471-2105-6-2
     keywords:
       -   Proteomics
@@ -83533,7 +83498,7 @@ multiplierz:
     home_url: https://github.com/BlaisProteomics/multiplierz
     total_pulls: 0
     manually_check: true
-    identifiers: 
+    identifiers:
       -   doi:10.1002/pmic.201700091
     keywords:
       -   Biology
@@ -83556,7 +83521,7 @@ ms1searchpy:
     home_url: https://github.com/markmipt/ms1searchpy
     total_pulls: 0
     manually_check: true
-    identifiers: 
+    identifiers:
       -   doi:10.1021/acs.analchem.9b05095
     keywords:
       -   Proteomics
@@ -83576,7 +83541,7 @@ hamstr1s:
     home_url: https://github.com/BIONF/HaMStR
     total_pulls: 0
     manually_check: true
-    identifiers: 
+    identifiers:
       -   doi:10.1186/1471-2148-9-157
     keywords:
       -   Proteomics
@@ -83596,7 +83561,7 @@ catastrophy:
     home_url: https://github.com/ccdmb/catastrophy
     total_pulls: 1
     manually_check: true
-    identifiers: 
+    identifiers:
       -    doi: 10.3389/fmicb.2019.03088
     keywords:
       -   Proteomics
@@ -83607,7 +83572,7 @@ fdog:
     home_url: https://github.com/BIONF/fDOG
     total_pulls: 0
     manually_check: true
-    identifiers: 
+    identifiers:
       -   doi:10.1186/1471-2148-9-157
     keywords:
       -   Proteomics
