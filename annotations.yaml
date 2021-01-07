@@ -62527,44 +62527,44 @@ nspdk:
     manually_check: true
 r-matrixeqtl:
     name: r-matrixeqtl
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Matrix eQTL is designed for fast eQTL analysis on large datasets. Matrix eQTL can test for association between genotype and gene expression using linear regression with either additive or ANOVA genotype effects. The models can include covariates to account for factors as population stratification, gender, and clinical variables. It also supports models with heteroscedastic and/or correlated errors, false discovery rate estimation and separate treatment of local (cis) and distant (trans) eQTLs. For more details see Shabalin (2012) <doi:10.1093/bioinformatics/bts163>.'
+    license: LGPL-3.0
+    home_url: https://cran.r-project.org/package=MatrixEQTL
     total_pulls: 0
     manually_check: true
 r-prroc:
     name: r-prroc
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Computes the areas under the precision-recall (PR) and ROC curve for weighted (e.g., soft-labeled) and unweighted data. In contrast to other implementations, the interpolation between points of the PR curve is done by a non-linear piecewise function. In addition to the areas under the curves, the curves themselves can also be computed and plotted by a specific S3-method. References: Davis and Goadrich (2006) <doi:10.1145/1143844.1143874>; Keilwagen et al. (2014) <doi:10.1371/journal.pone.0092209>; Grau et al. (2015) <doi:10.1093/bioinformatics/btv153>.'
+    license: GPL-3.0
+    home_url: https://CRAN.R-project.org/package=PRROC
     total_pulls: 0
     manually_check: true
 r-survey:
     name: r-survey
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'Summary statistics, two-sample tests, rank tests, generalised linear models, cumulative link models, Cox models, loglinear models, and general maximum pseudolikelihood estimation for multistage stratified, cluster-sampled, unequally weighted survey samples. Variances by Taylor series linearisation or replicate weights. Post-stratification, calibration, and raking. Two-phase subsampling designs. Graphics. PPS sampling without replacement. Principal components, factor analysis.'
+    license: GPL-3.0
+    home_url: http://r-survey.r-forge.r-project.org/survey/
     total_pulls: 0
     manually_check: true
 r-dplyr:
     name: r-dplyr
-    description: Not available
-    license: Not available
-    home_url: None
+    description: A fast, consistent tool for working with data frame like objects, both in memory and out of memory.
+    license: MIT
+    home_url: https://cran.r-project.org/package=dplyr
     total_pulls: 0
     manually_check: true
 r-car:
     name: r-car
-    description: Not available
-    license: Not available
-    home_url: None
+    description: Functions to Accompany J. Fox and S. Weisberg, An R Companion to Applied Regression, Third Edition, Sage, 2019.
+    license: GPL-2.0
+    home_url: https://cran.r-project.org/package=car
     total_pulls: 0
     manually_check: true
 r-rocr:
     name: r-rocr
-    description: Not available
-    license: Not available
-    home_url: None
+    description: 'ROC graphs, sensitivity/specificity curves, lift charts, and precision/recall plots are popular examples of trade-off visualizations for specific pairs of performance measures. ROCR is a flexible tool for creating cutoff-parameterized 2D performance curves by freely combining two from over 25 performance measures (new performance measures can be added using a standard interface). Curves from different cross-validation or bootstrapping runs can be averaged by different methods, and standard deviations, standard errors or box plots can be used to visualize the variability across the runs. The parameterization can be visualized by printing cutoff values at the corresponding curve positions, or by coloring the curve according to cutoff. All components of a performance plot can be quickly adjusted using a flexible parameter dispatching mechanism. Despite its flexibility, ROCR is easy to use, with only three commands and reasonable default values for all optional parameters.'
+    license: GPL-2.0
+    home_url: https://cran.r-project.org/package=ROCR
     total_pulls: 0
     manually_check: true
 r-stringr:
