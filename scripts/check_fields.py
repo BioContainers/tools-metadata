@@ -47,5 +47,5 @@ for tool in not_biotools:
     for biotool in biotools_list:
         distance = SequenceMatcher(None, biotool['biotoolsCURIE'].replace('biotools:', ''), tool).ratio()
         if distance > 0.95:
-            print(biotool['biotoolsCURIE'].replace('biotools:', '') + "\t" + tool + "\t: " + str(distance))
-
+            #print(biotool['biotoolsCURIE'].replace('biotools:', '') + "\t" + tool + "\t: " + str(distance))
+            print('identifiers:\n   t-  ' + biotool['biotoolsCURIE'])
