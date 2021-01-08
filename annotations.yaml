@@ -1247,6 +1247,8 @@ clustalw:
     home_url: http://www.clustal.org/download/1.X/ftp-igbmc.u-strasbg.fr/pub/
     total_pulls: 5853
     manually_check: true
+    identifiers:
+      -   biotools:clustalw
 circos:
     name: circos
     description: Circos is tool for visualizing data in a circular format. it was developed for genomic data but can work for many other kinds of data as well.
@@ -1349,6 +1351,8 @@ codonw:
     home_url: http://codonw.sourceforge.net
     total_pulls: 5812
     manually_check: true
+    identifiers:
+      -   biotools:codonw
 clonalframeml:
     name: clonalframeml
     description: Efficient inference of recombination in whole bacterial genomes
@@ -1356,6 +1360,8 @@ clonalframeml:
     home_url: https://github.com/xavierdidelot/ClonalFrameML
     total_pulls: 5808
     manually_check: true
+    identifiers:
+      -   biotools:clonalframeml
 clearcut:
     name: clearcut
     description: Extremely efficient phylogenetic tree reconstruction
@@ -1506,6 +1512,8 @@ figtree:
     home_url: https://github.com/rambaut/figtree
     total_pulls: 5745
     manually_check: true
+    identifiers:
+      -   biotools:figtree
 dwgsim:
     name: dwgsim
     description: Short sequencing read simulator
@@ -2711,6 +2719,8 @@ goenrichment:
     home_url: https://github.com/DanFaria/GOEnrichment
     total_pulls: 3358
     manually_check: true
+    identifiers:
+      -   biotools:goenrichment
 nonpareil:
     name: nonpareil
     description: Estimate average coverage and create nonpareil curves for metagenomic datasets.
@@ -2762,6 +2772,8 @@ heinz:
     home_url: https://github.com/ls-cwi/heinz
     total_pulls: 3351
     manually_check: true
+    identifiers:
+      -   biotools:heinz
 chira:
     name: chira
     description: An integrated framework for annotation and visualization of chimeric reads.
@@ -3249,6 +3261,8 @@ feelnc:
     home_url: https://github.com/tderrien/FEELnc
     total_pulls: 3206
     manually_check: true
+    identifiers:
+      -   biotools:feelnc
 bioconductor-rdavidwebservice:
     name: bioconductor-rdavidwebservice
     description: An R Package for retrieving data from DAVID into R objects using Web Services API.
@@ -3426,6 +3440,8 @@ sra-tools:
     home_url: https://github.com/ncbi/sra-tools
     total_pulls: 2660
     manually_check: true
+    identifiers:
+      -   biotools:sra-tools
 biopet-scatterregions:
     name: biopet-scatterregions
     description: This tool breaks a reference or bed file into smaller scatter regions of equal size.
@@ -3454,6 +3470,8 @@ openms:
     home_url: http://www.openms.de
     total_pulls: 1762
     manually_check: true
+    identifiers:
+      -   biotools:openms
     keywords:
       -   Proteomics
 export2graphlan:
@@ -7358,6 +7376,8 @@ pyopenms:
     manually_check: true
     keywords:
       -   Proteomics
+    identifiers:
+      -   biotools:pyOpenMS
 sanitizeme:
     name: sanitizeme
     description: GUI and CLI tool for removing host DNA from NGS data.
@@ -8589,6 +8609,8 @@ bioservices:
     home_url: https://github.com/cokelaer/bioservices
     total_pulls: 13
     manually_check: true
+    identifiers:
+      -   biotools:bioservices
 bitstring:
     name: bitstring
     description: Simple construction, analysis and modification of binary data.
@@ -9976,6 +9998,8 @@ covtobed:
     home_url: https://github.com/telatin/covtobed/
     total_pulls: 9
     manually_check: true
+    identifiers:
+      -   biotools:covtobed
 fastutils:
     name: fastutils
     description: A light toolkit for parsing, manipulating and analysis of FASTA and
@@ -10198,6 +10222,8 @@ binsanity:
     home_url: https://github.com/edgraham/BinSanity
     total_pulls: 8
     manually_check: true
+    identifiers:
+      -   biotools:binsanity
 lohhla:
     name: lohhla
     description: A computational tool to evaluate hla loss using next-generation sequencing
@@ -10494,6 +10520,8 @@ svist4get:
     home_url: https://bitbucket.org/artegorov/svist4get/
     total_pulls: 8
     manually_check: true
+    identifiers:
+      -   biotools:svist4get
 scpred-cli:
     name: scpred-cli
     description: A set of command-line wrappers for the core functions in the scpred
@@ -10525,6 +10553,8 @@ libopenms:
     home_url: https://github.com/OpenMS/OpenMS
     total_pulls: 8
     manually_check: true
+    identifiers:
+      -   biotools:openms
 libis:
     name: libis
     description: Low input Bisulfite sequencing alignment
@@ -10554,6 +10584,8 @@ openms-thirdparty:
     home_url: https://github.com/OpenMS/OpenMS
     total_pulls: 8
     manually_check: true
+    identifiers:
+      -   biotools:openms
 isoncorrect:
     name: isoncorrect
     description: De novo error-correction of long-read transcriptome reads.
@@ -10748,6 +10780,7 @@ plncpro:
     manually_check: true
     identifiers:
       -   doi:10.1093/nar/gkx866
+      -   biotools:plncpro
     keywords:
       -   Adaptation, Physiological
       -   Cicer
@@ -10845,6 +10878,8 @@ vcfanno:
     home_url: https://github.com/brentp/vcfanno
     total_pulls: 7
     manually_check: true
+    identifiers:
+      -   biotools:vcfanno
 avro-python2:
     name: avro-python2
     description: Avro is a serialization and RPC framework.
@@ -15748,6 +15783,7 @@ poppunk:
     total_pulls: 4
     identifiers:
       -   doi:10.1101/gr.241455.118
+      -   biotools:poppunk
     manually_check: true
     keywords:
       -   Bacteria
@@ -16461,6 +16497,8 @@ luciphor2:
     home_url: http://luciphor2.sourceforge.net/
     total_pulls: 4
     manually_check: true
+    identifiers:
+      -   biotools:luciphor2
 interleafq:
     name: interleafq
     description: Interleave and deinterleave fastq files
@@ -16969,6 +17007,7 @@ dadaist2:
     manually_check: true
     identifiers:
       -   doi:10.1038/nmeth.3869
+      -   biotools:dadaist2
     keywords:
       -   Animals
       -   Cohort Studies
@@ -56704,6 +56743,8 @@ metasv:
     home_url: https://github.com/bioinform/metasv
     total_pulls: 0
     manually_check: true
+    identifiers:
+      -   biotools:metasv
 metavelvet:
     name: metavelvet
     description: 'Metavelvet : an extension of velvet assembler to de novo metagenome
@@ -59408,6 +59449,7 @@ ropebwt2:
     manually_check: true
     identifiers:
       -   doi:10.1007/978-3-642-21458-5_20
+      -   biotools:ropebwt2
 r-ore:
     name: r-ore
     description: Provides an alternative to R's built-in functionality for handling
@@ -59904,6 +59946,8 @@ scalpel:
     home_url: http://scalpel.sourceforge.net/
     total_pulls: 0
     manually_check: true
+    identifiers:
+      -   biotools:scalpel
 schema:
     name: schema
     description: Simple data validation library
@@ -60065,6 +60109,8 @@ splitmem:
     home_url: https://sourceforge.net/projects/splitmem/
     total_pulls: 0
     manually_check: true
+    identifiers:
+      -   biotools:splitmem
 sprinkles:
     name: sprinkles
     description: Plugins! easy!
@@ -66993,6 +67039,8 @@ clustergrammer:
     home_url: https://github.com/MaayanLab/clustergrammer-py
     total_pulls: 0
     manually_check: true
+    identifiers:
+      -   biotools:clustergrammer
 rmats2sashimiplot:
     name: rmats2sashimiplot
     description: Rmats2sashimiplot is a tool that generates sahimi plots from rmats
@@ -67274,12 +67322,13 @@ slncky:
     manually_check: true
 hmmcopy:
     name: hmmcopy
-    description: C++ based programs for analyzing BAM files and preparing read counts
-        -- used with bioconductor-hmmcopy
+    description: C++ based programs for analyzing BAM files and preparing read counts -- used with bioconductor-hmmcopy
     license: GPL-3
     home_url: http://compbio.bccrc.ca/software/hmmcopy/
     total_pulls: 0
     manually_check: true
+    identifiers:
+      -   biotools:hmmcopy
 pypiper:
     name: pypiper
     description: Pypiper is a lightweight python toolkit that helps you write slick
@@ -67316,6 +67365,7 @@ meneco:
       -   doi:10.1111/tpj.12627
       -   doi:10.1007/978-3-642-40564-8_25
       -   doi:10.1007/978-3-642-02846-5_27
+      -   biotools:meneco
     keywords:
       -   Genome, Plant
       -   Molecular Sequence Data
@@ -67427,6 +67477,8 @@ dupre:
     home_url: https://bitbucket.org/genomeinformatics/dupre/
     total_pulls: 0
     manually_check: true
+    identifiers:
+      -   biotools:dupre
 blastbesties:
     name: blastbesties
     description: Rapid discovery of reciprocal best blast pairs from blast output files.
@@ -67702,6 +67754,8 @@ nest:
     home_url: https://github.com/nest/nest-simulator
     total_pulls: 0
     manually_check: true
+    identifiers:
+      -   biotools:nest
 micro_razers:
     name: micro_razers
     description: MicroRazerS - Rapid Alignment of Small RNA Reads
@@ -67709,6 +67763,8 @@ micro_razers:
     home_url: https://github.com/seqan/seqan/tree/seqan-v2.1.1/apps/micro_razers
     total_pulls: 0
     manually_check: true
+    identifiers:
+      -   biotools:microrazers
 bioconductor-rchemcpp:
     name: bioconductor-rchemcpp
     description: The Rchemcpp package implements the marginalized graph kernel and
@@ -71452,6 +71508,8 @@ metavelvet-annois:
     home_url: http://metavelvet.dna.bio.keio.ac.jp
     total_pulls: 0
     manually_check: true
+    identifiers:
+      -   biotools:metavelvet
 pauda:
     name: pauda
     description: Pauda is a new approach toward the problem of comparing dna reads
@@ -78078,6 +78136,8 @@ openms-tools:
     manually_check: true
     keywords:
       -   Proteomics
+    identifiers:
+      -   biotools:openms
 perl-math-matrix:
     name: perl-math-matrix
     description: Multiply and invert matrices
@@ -82387,9 +82447,10 @@ bioconductor-regenrich:
     name: bioconductor-regenrich
     total_pulls: 111
 bioconductor-fieldeffectcrc:
-    description: 'Processed RNA-seq data for 1,139 human primary colorectal tissue samples across three phenotypes, including tumor, normal adjacent-to-tumor, and healthy, available as Synapse ID syn22237139 on synapse.org. Data have been parsed into SummarizedExperiment objects available via ExperimentHub to facilitate reproducibility and extension of results from Dampier et al. (PMCID: PMC7386360, PMID: 32764205).'
+    description: 'Processed RNA-seq data for 1,139 human primary colorectal tissue samples across three phenotypes, including tumor, normal adjacent-to-tumor, and healthy, available as Synapse ID syn22237139 on synapse.org. Data have been parsed into SummarizedExperiment objects available via ExperimentHub to facilitate reproducibility and extension of results from Dampier et al.'
     home_url: https://bioconductor.org/packages/3.12/data/experiment/html/FieldEffectCrc.html
-    identifiers: []
+    identifiers:
+      -   doi:10.14309/ctg.0000000000000210
     keywords: []
     license: Artistic-2.0
     manually_check: true
@@ -83499,7 +83560,8 @@ pyopenms-nightly:
     manually_check: true
     keywords:
       -   Proteomics
-
+    identifiers:
+      -   biotools:pyOpenMS
 camprot:
     name: camprot
     description: Scripts and modules for computational proteomics
@@ -83623,6 +83685,8 @@ pyopenms-extra-Fabian-Yannik-Laura:
     manually_check: true
     keywords:
       -   Proteomics
+    identifiers:
+      -   biotools:pyOpenMS
 catastrophy:
     name: catastrophy
     description: 'CATAStrophy is a classification method for describing lifestyles/trophic characteristics of filamentous plant pathogens using carbohydrate-active enzymes (CAZymes).'
