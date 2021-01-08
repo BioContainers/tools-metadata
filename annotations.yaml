@@ -230,7 +230,7 @@ trim-galore:
     name: trim-galore
     description: Trim galore is a wrapper script to automate quality and adapter trimming as well as quality control
     license: GPL-3.0
-    home_url: http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/
+    home_url: https://github.com/FelixKrueger/TrimGalore
     total_pulls: 17666
     manually_check: true
 bowtie2:
@@ -254,9 +254,11 @@ csb:
     name: csb
     description: Computational structural biology toolbox
     license: MIT
-    home_url: http://github.com/csb-toolbox
+    home_url: https://github.com/csb-toolbox/CSB
     total_pulls: 17436
     manually_check: true
+    identifiers:
+      -   doi:10.1093/bioinformatics/bts538
 fast5:
     name: fast5
     description: A c++ header-only library for reading oxford nanopore fast5 files.
@@ -34732,9 +34734,7 @@ bioconductor-htmg430bcdf:
       -   doi:10.18129/b9.bioc.htmg430bcdf
 bioconductor-htmg430bprobe:
     name: bioconductor-htmg430bprobe
-    description: This package was automatically created by package AnnotationForge
-        version 1.11.21. The probe sequence data was obtained from http://www.affymetrix.com.
-        The file name was HT\_MG-430B\_probe\_tab.
+    description: This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http://www.affymetrix.com. The file name was HT\_MG-430B\_probe\_tab.
     license: LGPL
     home_url: https://bioconductor.org/packages/3.8/data/annotation/html/htmg430bprobe.html
     total_pulls: 3
@@ -70347,8 +70347,7 @@ r-genometricorr:
       -   User-Computer Interface
 stereogene:
     name: stereogene
-    description: 'StereoGene: Rapid Estimation of Genomewide Correlation of Continuous
-        or Interval Feature Data'
+    description: 'StereoGene: Rapid Estimation of Genomewide Correlation of Continuous or Interval Feature Data'
     license: Artistic-2.0
     home_url: https://github.com/favorov/stereogene
     total_pulls: 0
@@ -70357,8 +70356,7 @@ stereogene:
       -   doi:10.1101/059584
 erds:
     name: erds
-    description: Inferring copy number variants in high-coverage human genomes with
-        next-generation sequencing data.
+    description: Inferring copy number variants in high-coverage human genomes with next-generation sequencing data.
     license: Free to academia and non-profit organizations
     home_url: https://github.com/JieYang031/erds1.1
     total_pulls: 0
@@ -70400,8 +70398,7 @@ prophasm:
     manually_check: true
 cortex_con:
     name: cortex_con
-    description: cortex_con (primary contact Mario Caccamo) is for consensus genome
-        assembly
+    description: cortex_con (primary contact Mario Caccamo) is for consensus genome assembly
     license: GPL-3.0
     home_url: http://cortexassembler.sourceforge.net/index.html
     total_pulls: 0
@@ -70421,8 +70418,7 @@ cortex_con:
       -   Sequence Analysis, DNA
 bsmap:
     name: bsmap
-    description: BSMAP is a short reads mapping software for bisulfite sequencing
-        reads.
+    description: BSMAP is a short reads mapping software for bisulfite sequencing reads.
     license: GNU GPL v3
     home_url: https://code.google.com/archive/p/bsmap/
     total_pulls: 0
