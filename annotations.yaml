@@ -675,6 +675,8 @@ tpp:
     manually_check: true
     keywords:
       -   Proteomics
+    identifiers:
+      -   biotools:tpp
 mash:
     name: mash
     description: Fast genome and metagenome distance estimation using minhash.
@@ -1203,6 +1205,9 @@ phast:
     home_url: http://phast.wishartlab.com/
     total_pulls: 6303
     manually_check: true
+    identifiers:
+      -   biotools:phast
+      -   doi:10.1093/nar/gkr485
 delly:
     name: delly
     description: Structural variant discovery by integrated paired-end and split-read analysis
@@ -1325,6 +1330,8 @@ cgview:
     home_url: http://stothard.afns.ualberta.ca/cgview_server/
     total_pulls: 5820
     manually_check: true
+    identifiers:
+      -   biotools:cgview
 cwltool:
     name: cwltool
     description: Common workflow language reference implementation
@@ -1445,6 +1452,8 @@ dialign-tx:
     home_url: http://dialign-tx.gobics.de/
     total_pulls: 5756
     manually_check: true
+    identifiers:
+      -   biotools:dialign-tx
 fastahack:
     name: fastahack
     description: Utility for indexing and sequence extraction from fasta files
@@ -1500,6 +1509,8 @@ gemma:
     home_url: http://chibi.ubc.ca/Gemma
     total_pulls: 5746
     manually_check: true
+    identifiers:
+      -   biotools:gemma
 dcmtk:
     name: dcmtk
     description: Offis dicom toolkit command line utilities
@@ -1553,6 +1564,8 @@ vt:
     home_url: https://github.com/atks/vt
     total_pulls: 5605
     manually_check: true
+    identifiers:
+      -   biotools:vt
 igvtools:
     name: igvtools
     description: Command line tools for igv
@@ -32970,6 +32983,7 @@ bioconductor-tpp:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.tpp
+      -   biotools:tpp
     keywords:
       -   Proteomics
 bioconductor-tweedeseqcountdata:
@@ -73978,8 +73992,8 @@ bgreat:
     identifiers:
       -   doi:abs/1711.03336
       -   doi:10.1186/s12859-016-1103-9
-    meanually_check: true
     manually_check: true
+
 pyaavf:
     name: pyaavf
     description: An amino acid variant format parser for Python.
