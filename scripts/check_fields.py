@@ -21,6 +21,7 @@ biotools_list = []
 next_biotools_page = '?page=1'
 while next_biotools_page is not None:
     url = 'https://bio.tools/api/tool/' + next_biotools_page + '&format=json'
+    print(url)
     page = requests.get(url).json()
     biotools_list += page['list']
     next_biotools_page = page['next']
@@ -45,4 +46,4 @@ for tool in not_biotools:
         distance = SequenceMatcher(None, biotool['biotoolsCURIE'].replace('biotools:', ''), tool).ratio()
         if distance > 0.95:
             #print(biotool['biotoolsCURIE'].replace('biotools:', '') + "\t" + tool + "\t: " + str(distance))
-            print('identifiers:\n    -   ' + biotool['biotoolsCURIE'])
+            print('identifiers:\n      -   ' + biotool['biotoolsCURIE'])

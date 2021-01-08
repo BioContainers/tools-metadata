@@ -684,6 +684,9 @@ mash:
     home_url: https://github.com/marbl/mash
     total_pulls: 8522
     manually_check: true
+    identifiers:
+      -   biotools:mash
+      -   doi:10.1186/s13059-016-0997-x
 khmer:
     name: khmer
     description: Khmer is a set of command-line tools for working with dna shotgun sequencing data from genomes, transcriptomes, metagenomes, and single cells. khmer can make de novo assemblies faster, and sometimes better. khmer can also identify (and fix) problems with shotgun data.
@@ -1231,6 +1234,8 @@ canu:
     home_url: https://github.com/marbl/canu
     total_pulls: 5904
     manually_check: true
+    identifiers:
+      -   biotools:canu
 clustalo:
     name: clustalo
     description: Multiple sequence alignment software. the name is occassionally spelled as clustalomega, clustal ω, clustalω, clustal o, clustalo.
