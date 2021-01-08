@@ -1450,6 +1450,8 @@ fastml:
     home_url: http://fastml.tau.ac.il/
     total_pulls: 5759
     manually_check: true
+    identifiers:
+      -   biotools:fastml
 dialign-tx:
     name: dialign-tx
     description: Segment-based multiple sequence alignment
@@ -1677,6 +1679,8 @@ jellyfish:
     home_url: https://github.com/gmarcais/Jellyfish
     total_pulls: 5322
     manually_check: true
+    identifiers:
+      -   biotools:jellyfish
 iva:
     name: iva
     description: Iva is a de novo assembler designed to assemble virus genomes that have no repeat sequences, using illumina read pairs sequenced from mixed populations at extremely high and variable depth.
@@ -1684,6 +1688,8 @@ iva:
     home_url: https://github.com/sanger-pathogens/iva
     total_pulls: 5233
     manually_check: true
+    identifiers:
+      -   biotools:iva
 king:
     name: king
     description: Interactive system for three-dimensional vector graphics
@@ -1743,6 +1749,8 @@ nanopolish:
     home_url: https://github.com/jts/nanopolish
     total_pulls: 4981
     manually_check: true
+    identifiers:
+      -   biotools:nanopolish
 minimap:
     name: minimap
     description: Tool for approximate mapping of long biosequences such as dna reads
@@ -1775,6 +1783,8 @@ plink:
     home_url: http://zzz.bwh.harvard.edu/plink/
     total_pulls: 4902
     manually_check: true
+    identifiers:
+      -   biotools:plink
 pbcommand:
     name: pbcommand
     description: Library for generating the cli of various pacbio tools
@@ -1798,6 +1808,8 @@ pbsim:
       -   https://github.com/pfaucon/PBSIM-PacBio-Simulator
     total_pulls: 4888
     manually_check: true
+    identifiers:
+      -   biotools:pbsim
 piler:
     name: piler
     description: PILER is public domain software for analyzing repetitive DNA found in genome sequences.
@@ -1883,6 +1895,8 @@ sniffles:
     home_url: https://github.com/fritzsedlazeck/Sniffles
     total_pulls: 4878
     manually_check: true
+    identifiers:
+      -   biotools:sniffles
 racon:
     name: racon
     description: Consensus module for raw de novo dna assembly of long uncorrected reads
@@ -2085,6 +2099,7 @@ proda:
     manually_check: true
     identifiers:
       -   doi:10.1093/nar/gkl511
+      -   biotools:proda
     keywords:
       -   Internet
       -   Protein Structure, Tertiary
@@ -2201,6 +2216,8 @@ readseq:
     home_url: http://www.ebi.ac.uk/Tools/sfc/readseq/
     total_pulls: 4805
     manually_check: true
+    identifiers:
+      -   biotools:readseq
 prank:
     name: prank
     description: Probabilistic multiple alignment program for dna, codon and amino-acid sequences.
@@ -2305,7 +2322,6 @@ segemehl:
     manually_check: true
     identifiers:
       -   biotools:segemehl
-
 pyqi:
     name: pyqi
     description: Python framework for wrapping general commands in multiple interfaces
@@ -5162,6 +5178,7 @@ kssd:
     manually_check: true
     identifiers:
       -   doi:10.1101/729665
+      -   biotools:kssd
 pyfastx:
     name: pyfastx
     description: A robust python module for fast random access to sequences from plain and gzipped FASTA/Q file
@@ -83411,7 +83428,7 @@ pegasusio:
     manually_check: true
     name: pegasusio
     total_pulls: 966
-chap:
+pegasusio:
     description: 'CHAP is a tool for the functional annotation of ion channel structures'
     home_url: https://github.com/channotation/chap
     identifiers: []
