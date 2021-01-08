@@ -1537,6 +1537,8 @@ estscan:
     home_url: http://myhits.isb-sib.ch/cgi-bin/estscan
     total_pulls: 5738
     manually_check: true
+    identifiers:
+      -   biotools:estscan
 edlib:
     name: edlib
     description: Library for sequence alignment using edit distance (python3 module)
@@ -1604,6 +1606,8 @@ gfapy:
     home_url: https://github.com/ggonnella/gfapy
     total_pulls: 5421
     manually_check: true
+    identifiers:
+      -   biotools:gfapy
 ghmm:
     name: ghmm
     description: General hidden-markov-model library - tools
@@ -70362,7 +70366,7 @@ erds:
     total_pulls: 0
     manually_check: true
     identifiers:
-      -   doi: 10.1016/j.ajhg.2012.07.004
+      -   doi:10.1016/j.ajhg.2012.07.004
 mirge:
     name: mirge
     description: Comprehensive analysis of mirna sequencing data
@@ -73961,7 +73965,7 @@ btrim:
     home_url: https://github.com/Malfoy/BTRIM
     total_pulls: 0
     identifiers:
-      -   doi: abs/1711.03336
+      -   doi:abs/1711.03336
     manually_check: true
 bgreat:
     name: bgreat
@@ -73972,8 +73976,8 @@ bgreat:
     home_url: https://github.com/Malfoy/BGREAT2
     total_pulls: 0
     identifiers:
-      -   doi: abs/1711.03336
-      -   doi: 10.1186/s12859-016-1103-9
+      -   doi:abs/1711.03336
+      -   doi:10.1186/s12859-016-1103-9
     meanually_check: true
     manually_check: true
 pyaavf:
@@ -74815,7 +74819,7 @@ r-hardyweinberg:
         and permutation tests) with bi-allelic variants are included in the package,
         as well as functions for power computation and for the simulation of marker
         data under equilibrium and disequilibrium. Routines for dealing with markers
-        on the X-chromosome are included (Graffelman & Weir, 2016) <doi: 10.1038/hdy.2016.20>,
+        on the X-chromosome are included (Graffelman & Weir, 2016),
         including Bayesian procedures. Some exact and permutation procedures also
         work with multi-allelic variants. Special test procedures that jointly address
         Hardy-Weinberg equilibrium and equality of allele frequencies in both sexes
@@ -74828,6 +74832,8 @@ r-hardyweinberg:
     home_url: https://www.r-project.org, http://www-eio.upc.edu/~jan
     total_pulls: 0
     manually_check: true
+    identifiers:
+      -   doi:10.1038/hdy.2016.20
 bioconductor-chrogps:
     name: bioconductor-chrogps
     description: 'chroGPS2: Generation, visualization and differential analysis of
@@ -82912,7 +82918,7 @@ bioconductor-netboost:
     description: 'Network Analysis Supported by Boosting'
     home_url: https://bioconductor.org/packages/3.12/bioc/html/netboost.html
     identifiers:
-      -   doi: 10.1109/TCBB.2020.2983010
+      -   doi:10.1109/TCBB.2020.2983010
     keywords: []
     license: GPL-3
     manually_check: true
@@ -83416,7 +83422,7 @@ aodp:
     description: 'Cluster oligonucleotide signatures for rapid identification by sequencing'
     home_url: https://github.com/peterk87/aodp
     identifiers:
-      -   doi: 10.1186/s12859-018-2363-3
+      -   doi:10.1186/s12859-018-2363-3
     keywords: []
     license: GPL-3
     manually_check: true
@@ -83694,7 +83700,7 @@ catastrophy:
     total_pulls: 1
     manually_check: true
     identifiers:
-      -    doi: 10.3389/fmicb.2019.03088
+      -    doi:10.3389/fmicb.2019.03088
     keywords:
       -   Proteomics
 fdog:
