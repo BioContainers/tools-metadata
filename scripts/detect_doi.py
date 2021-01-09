@@ -103,7 +103,12 @@ for key in file_annotations:
         print("Error reading -- " + key + " Error -- " + str(url))
 
     print(tool['home_url'])
+
+    #check description spaces
+    tool['description'] = tool['description'].replace("\n", " ")
+
     tools[key] = tool
+
 
 yaml.indent(mapping=4, sequence=6, offset=2)
 with open('missing_annotations.yaml', 'w') as outfile:
