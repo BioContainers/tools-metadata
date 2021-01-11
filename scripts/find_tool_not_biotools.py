@@ -16,9 +16,9 @@ not_biotools = []
 
 
 def search_tool(key):
-    url = 'https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE:"'+key+'"&format=json&pageSize=1000'
+    url = 'https://www.ebi.ac.uk/europepmc/webservices/rest/search?query="'+key+'"&format=json&pageSize=1000'
     page = requests.get(url).json()
-    if page['hitCount'] == 2 and 'resultList' in page:
+    if page['hitCount'] == 1 and 'resultList' in page:
         for publication in page['resultList']['result']:
             try:
                 print(key + ' ---- ' + publication['title'] + ' --- ' + publication['doi'])
