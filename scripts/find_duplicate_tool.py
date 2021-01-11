@@ -1,12 +1,9 @@
-from metapub import PubMedFetcher
-from metapub.convert import doi2pmid
+
+
 from ruamel.yaml import YAML
-import requests
-from difflib import SequenceMatcher
 
 """
-The following script will read doi accessions in the identifiers section of the tool and find the pubmed accession of corresponding to it. 
-Finally, if the pubmed accession is found, the script will look for mesh keywords associated with the publications and added to the tool_tags. 
+This script try to find duplicated tools in the annotation file
 """
 
 yaml = YAML()
@@ -15,19 +12,25 @@ with open('../annotations.yaml', 'r') as read_file:
     file_annotations = yaml.load(read_file)
 
 tools = {}
-not_biotools = []
 for key in file_annotations:
     tool = file_annotations[key]
+    for key2 in file_annotations:
+        tool2
 
     if 'identifiers' not in tool:
-        not_biotools.append(key)
+        not_biotools.append(key + ' -- not biotools, dois')
     else:
         dois = False
+        biotools = False
         for ids in tool['identifiers']:
             if 'doi' in ids:
                 dois = True
+            if 'biotools' in ids:
+                biotools = True
         if not dois:
-            not_biotools.append(key)
+            not_biotools.append(key + ' -- not dois')
+        if not biotools:
+            not_biotools.append(key + ' -- not biotools')
 
 for tool in not_biotools:
     print(tool)

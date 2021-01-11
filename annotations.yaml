@@ -2546,7 +2546,8 @@ hmmer2:
     home_url: http://hmmer.janelia.org/
     total_pulls: 5392
     manually_check: true
-    keywords: []
+    keywords:
+      -   doi:10.1093/nar/gkr367
 gwama:
     name: gwama
     description: Genome-wide association meta analysis software performs meta-analysis
@@ -63881,7 +63882,8 @@ hmmer2-pvm:
     home_url: http://hmmer.janelia.org/
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   doi:10.1093/nar/gkr367
 hdmedians:
     name: hdmedians
     description: High-dimensional medians in python3
@@ -105247,7 +105249,9 @@ pargenes:
         on thousands of genes
     home_url: https://github.com/BenoitMorel/ParGenes
     identifiers: []
-    keywords: []
+    keywords:
+      -    doi:10.1093/bioinformatics/bty839
+      -    doi:10.1101/447110
     license: GPL-3
     manually_check: true
     name: pargenes
@@ -105468,6 +105472,7 @@ crema-ms:
     manually_check: true
     keywords:
       -   Proteomics
+      -   Mass spectrometry
 ms1searchpy:
     name: ms1searchpy
     description: a DirectMS1 proteomics search engine for LC-MS1 spectra
