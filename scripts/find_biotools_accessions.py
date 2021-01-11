@@ -1,14 +1,12 @@
-from metapub import PubMedFetcher
-from metapub.convert import doi2pmid
 from ruamel.yaml import YAML
 import requests
 from difflib import SequenceMatcher
 
 """
-The following script will read doi accessions in the identifiers section of the tool and find the pubmed accession of corresponding to it. 
-Finally, if the pubmed accession is found, the script will look for mesh keywords associated with the publications and added to the tool_tags. 
+This script takes the list of current annotations by name of the tool, etc: msgf and search in the list of all biotools a tool that has a similar name: similarity score > 0.95. The tool prints the recommended identifiers for all tools. 
 """
 
+# Read the annotations file
 yaml = YAML()
 yaml_recipe = YAML(typ="rt")  # pylint: disable=invalid-name
 with open('../annotations.yaml', 'r') as read_file:
@@ -16,7 +14,7 @@ with open('../annotations.yaml', 'r') as read_file:
 
 tools = {}
 
-# check biotools accessions
+# Create a list of all biotools
 biotools_list = []
 next_biotools_page = '?page=1'
 while next_biotools_page is not None:
@@ -28,7 +26,7 @@ while next_biotools_page is not None:
 
 
 not_biotools = []
-# check bio.tools
+# check all the tools in the annotations file that do not contains biotools and try to find the corresponding biotools id by similarity scores.
 for key in file_annotations:
     tool = file_annotations[key]
 
@@ -45,5 +43,4 @@ for tool in not_biotools:
     for biotool in biotools_list:
         distance = SequenceMatcher(None, biotool['biotoolsCURIE'].replace('biotools:', ''), tool).ratio()
         if distance > 0.95:
-            #print(biotool['biotoolsCURIE'].replace('biotools:', '') + "\t" + tool + "\t: " + str(distance))
             print('identifiers:\n      -   ' + biotool['biotoolsCURIE'])
