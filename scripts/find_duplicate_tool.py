@@ -1,4 +1,4 @@
-
+from difflib import SequenceMatcher
 
 from ruamel.yaml import YAML
 
@@ -11,26 +11,29 @@ yaml_recipe = YAML(typ="rt")  # pylint: disable=invalid-name
 with open('../annotations.yaml', 'r') as read_file:
     file_annotations = yaml.load(read_file)
 
-tools = {}
-for key in file_annotations:
-    tool = file_annotations[key]
-    for key2 in file_annotations:
-        tool2
+tools = file_annotations.values()
+import itertools
 
-    if 'identifiers' not in tool:
-        not_biotools.append(key + ' -- not biotools, dois')
-    else:
-        dois = False
-        biotools = False
-        for ids in tool['identifiers']:
-            if 'doi' in ids:
-                dois = True
-            if 'biotools' in ids:
-                biotools = True
-        if not dois:
-            not_biotools.append(key + ' -- not dois')
-        if not biotools:
-            not_biotools.append(key + ' -- not biotools')
 
-for tool in not_biotools:
-    print(tool)
+def get_biotools(a):
+    biotool = None
+    if 'identifiers' in a:
+        for identifier in a['identifiers']:
+            if 'biotool' in identifier:
+                biotool = identifier
+    return biotool
+
+
+def compare(a, b):
+    biotool_a = get_biotools(a)
+    biotool_b = get_biotools(b)
+    if biotool_a is not None and biotool_b is not None:
+        return biotool_a == biotool_b
+    return SequenceMatcher(None, a['name'].replace('biotools:', ''), b['name'].replace('biotools:', '')).ratio() > 0.95
+
+
+for a, b in itertools.combinations(tools, 2):
+    if 'name' not in a or 'name' not in b:
+        print("Error")
+    if compare(a, b):
+        print('Tools: ' + a['name'] + " and " + b['name'] + " equal")
