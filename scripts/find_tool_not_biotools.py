@@ -42,7 +42,7 @@ for key in file_annotations:
                 biotools = True
         if not dois:
             not_biotools.append(key + ' -- not dois')
-            search_tool(key)
+            # search_tool(key)
         if not biotools:
             not_biotools.append(key + ' -- not biotools')
 
