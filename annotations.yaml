@@ -554,6 +554,8 @@ hmmer:
     total_pulls: 12431
     manually_check: true
     keywords: []
+    identifiers:
+      -   doi:10.1093/nar/gkr367
 bamtools:
     name: bamtools
     description: Bamtools provides a fast, flexible c++ api & toolkit for reading,
@@ -821,7 +823,7 @@ ruffus:
     home_url: http://www.ruffus.org.uk/
     total_pulls: 9621
     manually_check: true
-    keywords:
+    identifiers:
       -   doi:10.1093/bioinformatics/btq524
 pyfaidx:
     name: pyfaidx
@@ -872,6 +874,10 @@ bwakit:
     total_pulls: 9351
     manually_check: true
     keywords: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btp324
+      -   doi:10.1093/bioinformatics/btp698
+      -   arXiv:1303.3997
 rsem:
     name: rsem
     description: We present a generative statistical model and associated inference
@@ -1709,6 +1715,8 @@ bwameth:
     total_pulls: 6401
     manually_check: true
     keywords: []
+    identifiers:
+      -   arXiv:1401.1129
 centrifuge:
     name: centrifuge
     description: A very rapid and memory-efficient system for the classification of
@@ -2551,7 +2559,7 @@ hmmer2:
     home_url: http://hmmer.janelia.org/
     total_pulls: 5392
     manually_check: true
-    keywords:
+    identifiers:
       -   doi:10.1093/nar/gkr367
 gwama:
     name: gwama
@@ -3873,7 +3881,7 @@ pygenometracks:
     home_url: https://github.com/deeptools/pyGenomeTracks/
     total_pulls: 3428
     manually_check: true
-    keywords:
+    identifiers:
       -   doi:10.1093/bioinformatics/btaa692
 python-bioext:
     name: python-bioext
@@ -6959,6 +6967,8 @@ crispresso2:
     total_pulls: 44
     manually_check: true
     keywords: []
+    identifiers:
+      -   doi:10.1038/s41587-019-0032-3
 bioconductor-mogene10stprobeset.db:
     name: bioconductor-mogene10stprobeset.db
     description: Affymetrix mogene10 annotation data (chip mogene10stprobeset)
@@ -20426,6 +20436,8 @@ crispresso:
     total_pulls: 4
     manually_check: true
     keywords: []
+    identifiers:
+      -   doi:10.1038/nbt.3583
 relocate2:
     name: relocate2
     description: A high resolution transposable element insertion sites mapping tool
@@ -20435,6 +20447,8 @@ relocate2:
     total_pulls: 4
     manually_check: true
     keywords: []
+    identifiers:
+      -   doi:10.7717/peerj.2942
 angsd:
     name: angsd
     description: 'ANGSD: Analysis of next generation Sequencing Data'
@@ -63902,7 +63916,7 @@ hmmer2-pvm:
     home_url: http://hmmer.janelia.org/
     total_pulls: 0
     manually_check: true
-    keywords:
+    identifiers:
       -   doi:10.1093/nar/gkr367
 hdmedians:
     name: hdmedians
@@ -68784,7 +68798,7 @@ python-ruffus:
     home_url: https://github.com/cgat-developers/ruffus
     total_pulls: 0
     manually_check: true
-    keywords:
+    identifiers:
       -   doi:10.1093/bioinformatics/btq524
     anchor_tool: ruffus
 python-schema-salad:
@@ -69291,7 +69305,7 @@ python3-ruffus:
     home_url: https://github.com/cgat-developers/ruffus
     total_pulls: 0
     manually_check: true
-    keywords:
+    identifiers:
       -   doi:10.1093/bioinformatics/btq524
     anchor_tool: ruffus
 python3-sphinxcontrib.autoprogram:
