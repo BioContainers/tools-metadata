@@ -155,6 +155,7 @@ picard:
     manually_check: true
     identifiers:
       -   biotools:picard_tools
+      -   doi:10.1101/gr.107524.110
     keywords:
       -   Sequencing
       -   Data management
@@ -820,7 +821,8 @@ ruffus:
     home_url: http://www.ruffus.org.uk/
     total_pulls: 9621
     manually_check: true
-    keywords: []
+    keywords:
+      -   doi:10.1093/bioinformatics/btq524
 pyfaidx:
     name: pyfaidx
     description: This python module implements pure python classes for indexing, retrieval,
@@ -987,6 +989,7 @@ pilon:
     manually_check: true
     identifiers:
       -   biotools:pilon
+      -   doi:10.1371/journal.pone.0112963
     keywords:
       -   Assembly
 kissplice:
@@ -2025,6 +2028,7 @@ freebayes:
     manually_check: true
     identifiers:
       -   biotools:freebayes
+      -   arXiv:1207.3907
     keywords:
       -   Genomics
       -   Genetic variation
@@ -3867,7 +3871,8 @@ pygenometracks:
     home_url: https://github.com/deeptools/pyGenomeTracks/
     total_pulls: 3428
     manually_check: true
-    keywords: []
+    keywords:
+      -   doi:10.1093/bioinformatics/btaa692
 python-bioext:
     name: python-bioext
     description: A few handy bioinformatics tools not already in biopython
@@ -5673,6 +5678,7 @@ htslib:
     manually_check: true
     identifiers:
       -   biotools:HTSlib
+      -   doi:10.1101/397935
     keywords:
       -   Data management
 chunked-scatter:
@@ -6060,6 +6066,7 @@ fqtools:
     manually_check: true
     identifiers:
       -   biotools:fqtools
+      -   doi:10.1093/bioinformatics/btw088
     keywords:
       -   Sequence analysis
 telescope:
@@ -10707,6 +10714,7 @@ krakenuniq:
     manually_check: true
     identifiers:
       -   biotools:krakenhll
+      -   doi:10.1186/s13059-018-1568-0
     keywords: []
 svim:
     name: svim
@@ -12656,6 +12664,7 @@ kmer-jellyfish:
       -   Sequence Analysis, DNA
       -   Sequence analysis
       -   Genomics
+    anchor_tool: jellyfish
 vibrant:
     name: vibrant
     description: Virus Identification By iteRative ANnoTation
@@ -12773,6 +12782,7 @@ bttoxin_digger:
     total_pulls: 12
     identifiers:
       -   biotools:bttoxin_digger
+      -   doi:10.1101/2020.05.26.114520
     manually_check: true
     keywords: []
 deepaclive:
@@ -15523,6 +15533,7 @@ ananse:
     manually_check: true
     identifiers:
       -   biotools:ananse
+      -   doi:10.1101/2020.06.05.135798
     keywords: []
 bioconductor-matrixgenerics:
     name: bioconductor-matrixgenerics
@@ -26405,6 +26416,7 @@ pydna:
     manually_check: true
     identifiers:
       -   biotools:pydna
+      -   doi:10.1186/s12859-015-0544-x
     keywords:
       -   Molecular biology
       -   DNA
@@ -62187,6 +62199,7 @@ ampliconnoise:
     manually_check: true
     identifiers:
       -   biotools:ampliconnoise
+      -   doi:10.1093/bioinformatics/bty096
     keywords: []
 art-nextgen-simulation-tools:
     name: art-nextgen-simulation-tools
@@ -64197,6 +64210,7 @@ jellyfish1:
     total_pulls: 0
     manually_check: true
     keywords: []
+    anchor_tool: jellyfish
 lamarc:
     name: lamarc
     description: Likelihood analysis with metropolis algorithm using random coalescence
@@ -68141,6 +68155,7 @@ python3-dna-jellyfish:
     total_pulls: 0
     manually_check: true
     keywords: []
+    anchor_tool: jellyfish
 python3-xopen:
     name: python3-xopen
     description: Open any compressed file in Python
@@ -68524,6 +68539,7 @@ dna-jellyfish:
     total_pulls: 0
     manually_check: true
     keywords: []
+    anchor_tool: jellyfish
 otf-symbols-circos:
     name: otf-symbols-circos
     description: Transitional dummy package
@@ -68763,7 +68779,9 @@ python-ruffus:
     home_url: https://github.com/cgat-developers/ruffus
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   doi:10.1093/bioinformatics/btq524
+    anchor_tool: ruffus
 python-schema-salad:
     name: python-schema-salad
     description: Salad is a schema language for describing JSON or YAML structured
@@ -69268,7 +69286,9 @@ python3-ruffus:
     home_url: https://github.com/cgat-developers/ruffus
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   doi:10.1093/bioinformatics/btq524
+    anchor_tool: ruffus
 python3-sphinxcontrib.autoprogram:
     name: python3-sphinxcontrib.autoprogram
     description: Automated documentation of cli programs for sphinx (python 3)
@@ -89508,6 +89528,7 @@ ngmerge:
     manually_check: true
     identifiers:
       -   biotools:ngmerge
+      -   doi:10.1186/s12859-018-2579-2
     keywords: []
 esimsa:
     name: esimsa
@@ -94102,6 +94123,7 @@ xmatchview:
     manually_check: true
     identifiers:
       -   biotools:xmatchview
+      -   doi:10.1101/238220
     keywords:
       -   Sequence analysis
       -   Data visualisation
@@ -98662,6 +98684,7 @@ popera:
     manually_check: true
     identifiers:
       -   biotools:popera
+      -   doi:10.3109/03009742.2015.1019560
     keywords: []
 dashing:
     name: dashing
@@ -99752,8 +99775,9 @@ nglview:
 openbabel:
     description: 'Openbabel: A chemical toolbox designed to speak the many languages
         of chemical data'
-    home_url: https://github.com/openbabel/openbabel/archive/openbabel-2-4-1.zip
-    identifiers: []
+    home_url: https://github.com/openbabel/openbabel
+    identifiers:
+      -   doi:10.1186/1758-2946-3-33
     keywords: []
     license: Gplv2
     manually_check: true
@@ -99906,7 +99930,8 @@ boutroslabplottinggeneral:
 spingo:
     description: Species level IdentificatioN of metaGenOmic amplicons
     home_url: https://github.com/GuyAllard/SPINGO
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12859-015-0747-1
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -100655,7 +100680,8 @@ circminer:
     description: Sensitive and fast computational tool for detecting circular RNAs
         (circRNAs) from RNA-Seq data.
     home_url: https://github.com/vpc-ccg/circminer
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btaa232
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -100891,7 +100917,8 @@ beepmod:
 longgf:
     description: A fast tool to detect gene fusion from long-read RNA-seq data.
     home_url: https://github.com/WGLab/LongGF
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12864-020-07207-4
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -100958,7 +100985,8 @@ ssuissero:
 orfm:
     description: OrfM is a simple and not slow ORF caller
     home_url: https://github.com/wwood/OrfM
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btw241
     keywords: []
     license: LGPL-3.0
     manually_check: true
@@ -101193,7 +101221,8 @@ gefast:
         by broadening the applicability of the original fastidious approach and introducing
         further refinement methods.
     home_url: https://github.com/romueller/gefast
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12859-018-2349-1
     keywords: []
     license: AGPL-3.0
     manually_check: true
@@ -101427,7 +101456,8 @@ bna_features_viewer:
 cellsnp-lite:
     description: Efficient genotyping bi-allelic SNPs on single cells
     home_url: https://github.com/single-cell-genetics/cellsnp-lite
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.12.31.424913
     keywords: []
     license: Apache-2.0
     manually_check: true
@@ -101505,7 +101535,8 @@ metatree:
     description: Visualisation of polyphyletic groups between phylogenetic trees to
         a reference tree.
     home_url: https://github.com/aaronmussig/metatree
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.06.24.169078
     keywords: []
     license: Not available
     manually_check: true
@@ -101574,7 +101605,8 @@ pyclone:
 bacphlip:
     description: A random forest classifier to predict bacteriophage lifestyle
     home_url: https://github.com/adamhockenberry/bacphlip
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.05.13.094805
     keywords: []
     license: Not available
     manually_check: true
@@ -101665,7 +101697,8 @@ pgdspider:
     description: An automated data conversion tool for connecting population genetics
         and genomics programs
     home_url: http://www.cmpg.unibe.ch/software/PGDSpider/
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btr642
     keywords: []
     license: Not available
     manually_check: true
@@ -101731,7 +101764,8 @@ pathracer:
     description: PathRacer is a tool for alignment of profile HMM against assembly
         graph.
     home_url: http://cab.spbu.ru/software/pathracer/
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/562579
     keywords: []
     license: GPL--2.0
     manually_check: true
@@ -101811,7 +101845,8 @@ f5c:
 isoquant:
     description: Isoquant is a tool for reference-based analysis of long rna reads.
     home_url: https://github.com/ablab/IsoQuant
-    identifiers: []
+    identifiers:
+      -   doi:10.1021/ac300510t
     keywords: []
     license: Not available
     manually_check: true
@@ -101874,7 +101909,8 @@ pydownsampler:
 cellxgene:
     description: Web application for exploration of large scale scrna-seq datasets
     home_url: https://chanzuckerberg.github.io/cellxgene/
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.08.28.270652
     keywords: []
     license: Not available
     manually_check: true
@@ -102045,7 +102081,8 @@ hamip:
 biotransformer:
     description: Predicts small molecule metabolism.
     home_url: https://bitbucket.org/djoumbou/biotransformer
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13321-018-0324-5
     keywords: []
     license: Not available
     manually_check: true
@@ -102054,7 +102091,8 @@ biotransformer:
 fastmlst:
     description: A fast multilocus sequence typing scan against pubmlst typing schemes
     home_url: https://github.com/EnzoAndree/FastMLST
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.10.13.338517
     keywords: []
     license: Not available
     manually_check: true
@@ -102117,7 +102155,8 @@ hydra-multi:
     description: Hydra detects structural variation breakpoints in both unique and
         duplicated genomic regions.
     home_url: https://github.com/arq5x/Hydra
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btu771
     keywords: []
     license: MIT
     manually_check: true
@@ -102191,6 +102230,7 @@ minirmd:
     total_pulls: 766
     identifiers:
       -   biotools:minirmd
+      -   doi:10.1093/bioinformatics/btaa915
 psm_fragments:
     description: 'Psm validation against ion fragmentation '
     home_url: https://github.com/galaxyproteomics/psm_fragments
@@ -102260,7 +102300,8 @@ plasmidhawk:
     description: Plasmidhawk is a program for detecting lab-of-origin of input plasmids
         by building an annotated pangenome of training plasmids.
     home_url: https://gitlab.com/treangenlab/plasmidhawk
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.05.22.110270
     keywords: []
     license: Not available
     manually_check: true
@@ -102277,6 +102318,7 @@ pm4ngs:
     total_pulls: 1685
     identifiers:
       -   biotools:pm4ngs
+      -    doi:10.1093/gigascience/giaa141
 mmult:
     description: Multiple sample analysis from large-scale WGBS data
     home_url: https://github.com/lijinbio/MMULT
@@ -102358,7 +102400,8 @@ orfipy:
     description: 'orfipy: fast and flexible search for open reading frames in fasta
         sequences'
     home_url: https://github.com/urmi-21/orfipy
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.10.20.348052
     keywords: []
     license: MIT
     manually_check: true
@@ -102699,7 +102742,8 @@ kb-python:
 piler-cr:
     description: Identification and analysis of CRISPR repeats.
     home_url: http://www.drive5.com/pilercr/
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/1471-2105-8-18
     keywords: []
     license: Public Domain
     manually_check: true
@@ -103282,7 +103326,8 @@ bioconductor-seqgate:
 coolbox:
     description: Jupyter notebook based genomic data visulization toolkit.
     home_url: https://github.com/GangCaoLab/CoolBox
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/614222
     keywords: []
     license: Not available
     manually_check: true
@@ -104129,7 +104174,8 @@ mirge3:
 ultraplex:
     description: Fastq demultiplexer
     home_url: https://github.com/ulelab/ultraplex.git
-    identifiers: []
+    identifiers:
+      -   doi:10.1196/annals.1313.030
     keywords: []
     license: Not available
     manually_check: true
@@ -104318,7 +104364,8 @@ panacota:
         core/persistent genome, align core/persistent families, infer phylogenetic
         tree.'
     home_url: https://github.com/gem-pasteur/PanACoTA
-    identifiers: []
+    identifiers:
+      -    doi:10.1101/2020.09.11.293472
     keywords: []
     license: Not available
     manually_check: true
@@ -104764,7 +104811,8 @@ matchms:
     description: Python library for fuzzy comparison of mass spectrum data and other
         python objects
     home_url: https://github.com/matchms/matchms
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.08.06.239244
     keywords: []
     license: Not available
     manually_check: true
@@ -104982,7 +105030,8 @@ deltapd:
 mokapot:
     description: Fast and flexible semi-supervised learning for peptide detection
     home_url: https://github.com/wfondrie/mokapot
-    identifiers: []
+    identifiers:
+      -    doi:10.1101/2020.12.01.407270
     keywords: []
     license: Not available
     manually_check: true
@@ -105065,7 +105114,8 @@ markov_clustering:
 ryuto:
     description: Network-Flow based Transcriptome Reconstruction
     home_url: https://github.com/studla/RYUTO/
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12859-019-2786-5
     keywords: []
     license: BSD
     manually_check: true
@@ -105123,7 +105173,8 @@ rfplasmid:
     description: Rfplasmid predicts plasmid contigs from assemblies using single copy
         marker genes, plasmid genes, and kmers.
     home_url: https://github.com/aldertzomer/RFPlasmid
-    identifiers: []
+    identifiers:
+      -    doi:10.1101/2020.07.31.230631
     keywords: []
     license: GPL-3
     manually_check: true
@@ -105172,7 +105223,8 @@ demuxem:
 balrog:
     description: A universal protein model for prokaryotic gene prediction
     home_url: https://github.com/Markusjsommer/BalrogCPP
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.09.06.285304
     keywords: []
     license: MIT
     manually_check: true
@@ -105223,7 +105275,8 @@ haystac:
     description: Species identification pipeline for both single species and metagenomic
         samples.
     home_url: https://github.com/antonisdim/haystac
-    identifiers: []
+    identifiers:
+      -    doi:10.1063/1.5055246
     keywords: []
     license: GPL-3
     manually_check: true
@@ -105273,7 +105326,8 @@ ribominer:
     description: A python toolset for mining multi-dimensional features of the translatome
         with ribosome profiling data
     home_url: https://github.com/xryanglab/RiboMiner
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12859-020-03670-8
     keywords:
       -   Ribosome
     license: GPL-3.0
@@ -105293,7 +105347,8 @@ siann:
     description: Siann was created to allow creation of local small sets of bacterial/viral
         genomes to perform strain level differentiation from fastq data
     home_url: https://github.com/signaturescience/siann/wiki
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/001727
     keywords:
       -   Genome
     license: GPL
