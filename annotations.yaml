@@ -3692,6 +3692,7 @@ gffread:
     manually_check: true
     identifiers:
       -   biotools:gffread
+      -   doi:10.12688/f1000research.23297.2
     keywords:
       -   Nucleic acids
       -   Sequence analysis
@@ -3737,6 +3738,7 @@ gffcompare:
     manually_check: true
     identifiers:
       -   biotools:gffcompare
+      -   doi:10.12688/f1000research.23297.2
     keywords:
       -   Nucleic acids
       -   Sequence analysis
@@ -22164,6 +22166,7 @@ yamda:
     total_pulls: 4
     identifiers:
       -   biotools:yamda
+      -   doi:10.1093/bioinformatics/bty396
     manually_check: true
     keywords: []
 psass:
@@ -22266,6 +22269,7 @@ hitac:
     manually_check: true
     identifiers:
       -   biotools:hitac
+      -   doi:10.1101/2020.04.24.014852
     keywords: []
 lusstr:
     name: lusstr
@@ -100334,7 +100338,8 @@ ncbi-amr:
 cgat-core:
     description: 'CGAT : the Computational Genomics Analysis Toolkit'
     home_url: https://github.com/cgat-developers/cgat-core
-    identifiers: []
+    identifiers:
+      -   doi:10.12688/f1000research.18674.2
     keywords: []
     license: MIT
     manually_check: true
@@ -100890,7 +100895,8 @@ polystest:
 clipkit:
     description: Alignment trimming software for phylogenetics.
     home_url: https://github.com/jlsteenwyk/clipkit
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pbio.3001007
     keywords: []
     license: Not available
     manually_check: true
@@ -100928,7 +100934,8 @@ nanomod:
     description: A computational method for nanopore signal analysis and modification
         detection.
     home_url: https://github.com/WGLab/NanoMod
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12864-018-5372-8
     keywords: []
     license: Not available
     manually_check: true
@@ -100995,7 +101002,8 @@ orfm:
 cellrank:
     description: Continuous lineage decisions uncovered by rna velocity
     home_url: https://github.com/theislab/cellrank
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.10.19.345983
     keywords: []
     license: Not available
     manually_check: true
@@ -101066,7 +101074,8 @@ rgccacmd:
 plasclass:
     description: Classification of plasmid sequences
     home_url: https://github.com/Shamir-Lab/PlasClass
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pcbi.1007781
     keywords: []
     license: Not available
     manually_check: true
@@ -101085,7 +101094,8 @@ ldblockshow:
     description: A tool for showing linkage disequilibrium heatmaps from variant call
         format (VCF) files
     home_url: https://github.com/BGI-shenzhen/LDBlockShow
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bib/bbaa227
     keywords: []
     license: MIT
     manually_check: true
@@ -101429,7 +101439,8 @@ hifiasm:
 merqury:
     description: Evaluate genome assemblies with k-mers and more.
     home_url: https://github.com/marbl/merqury
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13059-020-02134-9
     keywords: []
     license: Not available
     manually_check: true
@@ -102102,7 +102113,8 @@ phigaro:
     description: Phigaro is a scalable command-line tool for predicting phages and
         prophages.
     home_url: https://phigaro.readthedocs.io/
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btaa250
     keywords: []
     license: Not available
     manually_check: true
@@ -102639,7 +102651,8 @@ phylobayes-mpi:
     description: A Bayesian software for phylogentic reconstrunction using mixture
         models
     home_url: https://github.com/bayesiancook/pbmpi
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/sysbio/syt022
     keywords: []
     license: GPL-2.0
     manually_check: true
@@ -104822,7 +104835,8 @@ kmer-db:
     description: Kmer-db is a fast and memory-efficient tool for estimating evolutionary
         distances.
     home_url: https://github.com/refresh-bio/kmer-db
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bty610
     keywords: []
     license: GPL-3
     manually_check: true
@@ -105078,7 +105092,8 @@ gnuvid:
 grapetree:
     description: Web interface of grapetree, which is a program for phylogenetic analysis.
     home_url: https://github.com/achtman-lab/GrapeTree
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/gr.232397.117
     keywords: []
     license: Not available
     manually_check: true
@@ -105305,10 +105320,10 @@ pargenes:
     description: A massively parallel tool for model selection and tree inference
         on thousands of genes
     home_url: https://github.com/BenoitMorel/ParGenes
-    identifiers: []
-    keywords:
+    identifiers:
       -    doi:10.1093/bioinformatics/bty839
       -    doi:10.1101/447110
+    keywords: []
     license: GPL-3
     manually_check: true
     name: pargenes
