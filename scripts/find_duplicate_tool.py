@@ -1,8 +1,9 @@
 
+
 from ruamel.yaml import YAML
 
 """
-This script print all the tools that do not have a corresponding biotools accession or doi.   
+This script try to find duplicated tools in the annotation file
 """
 
 yaml = YAML()
@@ -11,9 +12,10 @@ with open('../annotations.yaml', 'r') as read_file:
     file_annotations = yaml.load(read_file)
 
 tools = {}
-not_biotools = []
 for key in file_annotations:
     tool = file_annotations[key]
+    for key2 in file_annotations:
+        tool2
 
     if 'identifiers' not in tool:
         not_biotools.append(key + ' -- not biotools, dois')
