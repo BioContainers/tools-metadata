@@ -5580,6 +5580,7 @@ manta:
     manually_check: true
     identifiers:
       -   biotools:Manta9235
+      -   doi:10.1093/bioinformatics/btv710
     keywords: []
 vardict-java:
     name: vardict-java
@@ -13241,6 +13242,7 @@ malva:
     total_pulls: 11
     identifiers:
       -   biotools:malva
+      -   doi:10.1016/j.isci.2019.07.011
     manually_check: true
     keywords: []
 r-bisquerna:
@@ -15912,6 +15914,7 @@ wham:
     manually_check: true
     identifiers:
       -   biotools:Wham6216
+      -    doi:10.1371/journal.pcbi.1004572
     keywords: []
 qorts:
     name: qorts
@@ -16554,13 +16557,14 @@ firecloud:
     keywords: []
 r-qtl2:
     name: r-qtl2
-    description: R/qtl2 provides a set of tools to perform quantitative trait locus
-        (QTL) analysis
+    description: R/qtl2 provides a set of tools to perform quantitative trait locus (QTL) analysis
     license: GPL-3
-    home_url: https://kbroman.org/qtl2, https://github.com/rqtl/qtl2
+    home_url: https://github.com/rqtl/qtl2
     total_pulls: 6
     manually_check: true
     keywords: []
+    identifiers:
+      -   doi:10.1534/genetics.118.301595
 rnabloom:
     name: rnabloom
     description: Java tool for rna-seq assembly
@@ -20074,7 +20078,7 @@ r-motifbinner:
     description: MotifBinner processes high-throughput sequencing data of an RNA virus
         population.
     license: GPL-3.0
-    home_url: https://github.com/HIVDiversity/MotifBinner2, http://biom-format.org/
+    home_url: https://github.com/HIVDiversity/MotifBinner2
     total_pulls: 5
     manually_check: true
     keywords: []
@@ -25832,7 +25836,7 @@ r-aroma.core:
     description: core methods and classes used by higher-level aroma.* packages part
         of the aroma project.
     license: LGPL (>= 2.1)
-    home_url: https://github.com/HenrikBengtsson/aroma.core, http://www.aroma-project.org/
+    home_url: https://github.com/HenrikBengtsson/aroma.core
     total_pulls: 3
     manually_check: true
     keywords: []
@@ -25845,7 +25849,7 @@ r-aroma.affymetrix:
         studies to process tens of thousands of arrays.  this package has actively
         been used since 2006.
     license: LGPL (>= 2.1)
-    home_url: http://www.aroma-project.org/, https://github.com/HenrikBengtsson/aroma.affymetrix
+    home_url: https://github.com/HenrikBengtsson/aroma.affymetrix
     total_pulls: 3
     manually_check: true
     keywords: []
@@ -49400,7 +49404,7 @@ r-dnet:
     description: The focus of the dnet by Fang and Gough (2014) <doi:10.1186/s13073-014-0064-8>
         is
     license: GPL-2
-    home_url: http://dnet.r-forge.r-project.org, https://github.com/hfang-bristol/dnet
+    home_url: https://github.com/hfang-bristol/dnet
     total_pulls: 3
     manually_check: true
     keywords: []
@@ -53288,7 +53292,7 @@ r-xgr:
     name: r-xgr
     description: The central goal of XGR by Fang et al. (2016) is to
     license: GPL-2
-    home_url: http://XGR.r-forge.r-project.org, http://galahad.well.ox.ac.uk/XGR
+    home_url: http://galahad.well.ox.ac.uk/XGR
     total_pulls: 3
     manually_check: true
     identifiers:
@@ -87682,6 +87686,7 @@ mvp:
     manually_check: true
     identifiers:
       -   biotools:mvp
+      -   doi:10.1186/s12864-017-3687-5
     keywords:
       -   Structure analysis
       -   Molecular modelling
@@ -89578,6 +89583,8 @@ mirge:
     total_pulls: 0
     manually_check: true
     keywords: []
+    identifiers:
+      -   doi:10.1186/s12859-018-2287-y
 gtfparse:
     name: gtfparse
     description: Gtf parsing
@@ -93188,13 +93195,14 @@ nf-core:
     keywords: []
 kinsimriboswitch:
     name: kinsimriboswitch
-    description: Pipeline for the simulation of RNA--ligand interaction kinetics as
-        outlined in Kuehnl et al. 2017, https://doi.org/10.1186/s12859-017-1823-5
+    description: Pipeline for the simulation of RNA--ligand interaction kinetics as outlined in Kuehnl et al. 2017.
     license: GPL-3.0
     home_url: http://www.bioinf.uni-leipzig.de/~felix/
     total_pulls: 0
     manually_check: true
     keywords: []
+    identifiers:
+      -   doi:10.1186/s12859-017-1823-5
 popdel:
     name: popdel
     description: Fast structural deletion calling on population-scale short read paired-end
@@ -93878,7 +93886,7 @@ r-sads:
     description: Maximum likelihood tools to fit and compare models of species abundance
         distributions and of species rank-abundance distributions.
     license: GPL-2
-    home_url: http://piLaboratory.github.io/sads, https://github.com/piklprado/sads
+    home_url: https://github.com/piklprado/sads
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -94922,7 +94930,7 @@ r-hardyweinberg:
         several graphics for exploring the equilibrium status of a large set of bi-allelic
         markers: ternary plots with acceptance regions, log-ratio plots and Q-Q plots. '
     license: GPL (>= 2)
-    home_url: https://www.r-project.org, http://www-eio.upc.edu/~jan
+    home_url: http://www-eio.upc.edu/~jan
     total_pulls: 0
     manually_check: true
     identifiers:
@@ -96411,6 +96419,7 @@ sepp:
     manually_check: true
     identifiers:
       -   biotools:sepp
+      -   doi:10.1142/9789814366496_0024
     keywords: []
 pbwt:
     name: pbwt
@@ -96422,6 +96431,7 @@ pbwt:
     manually_check: true
     identifiers:
       -   biotools:pbwt
+      -   doi:10.1101/2020.01.14.906487
     keywords:
       -   Genomics
       -   Genetic variation
@@ -99864,7 +99874,7 @@ avro:
     total_pulls: 21760
 blinker:
     description: 'Blinker: Fast, simple object-to-object and broadcast signaling'
-    home_url: https://pypi.python.org/packages/source/b/blinker/blinker-1.4.tar.gz
+    home_url: https://github.com/jek/blinker
     identifiers: []
     keywords: []
     license: MIT
@@ -99872,8 +99882,7 @@ blinker:
     name: blinker
     total_pulls: 3760691
 colormap:
-    description: Ease manipulation of matplotlib colormaps and color codecs (python
-        3)
+    description: Ease manipulation of matplotlib colormaps and color codecs (python 3)
     home_url: https://colormap.readthedocs.io/
     identifiers: []
     keywords: []
@@ -100642,7 +100651,8 @@ libis_moabs:
 padel:
     description: Software to calculate molecular descriptors and fingerprints.
     home_url: http://www.yapcwsoft.com/dd/padeldescriptor/
-    identifiers: []
+    identifiers:
+      -   doi:10.1002/jcc.21707
     keywords: []
     license: GNU Affero GPL v3
     manually_check: true
@@ -102218,10 +102228,10 @@ constax:
       -   doi:10.1186/s12859-017-1952-x
 ymp:
     description: Create entire ngs pipelines with one command
-    home_url: https://ymp.readthedocs.io
+    home_url: https://github.com/epruesse/ymp
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: ymp
     total_pulls: 597
@@ -102237,7 +102247,8 @@ grafimo:
 mbg:
     description: Minimizer based sparse de Bruijn graph constructor
     home_url: https://github.com/maickrau/MBG
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.09.18.303156
     keywords: []
     license: MIT
     manually_check: true
@@ -102267,7 +102278,8 @@ yass:
 liftoff:
     description: An accurate gff3/gtf lift over pipeline
     home_url: https://github.com/agshumate/Liftoff
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btaa1016
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -102666,10 +102678,10 @@ pbaa:
     name: pbaa
     total_pulls: 583
 raptor:
-    description: 'Raptor: A fast and space-efficient pre-filter for querying very
-        large collections of nucleotide sequences'
+    description: 'Raptor: A fast and space-efficient pre-filter for querying very large collections of nucleotide sequences'
     home_url: https://github.com/seqan/raptor
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.10.08.330985
     keywords: []
     license: BSD-3-Clause
     manually_check: true
@@ -102737,7 +102749,8 @@ abnumber:
 cpgeneprofiler:
     description: 'Generate a profile of carbapenamase genes from the genome assemblies. '
     home_url: https://github.com/ramadatta/CPgeneProfiler
-    identifiers: []
+    identifiers:
+      -   doi:10.21105/joss.02473
     keywords: []
     license: Not available
     manually_check: true
@@ -102745,10 +102758,11 @@ cpgeneprofiler:
     total_pulls: 502
 open-cravat:
     description: Opencravat - variant analysis toolkit
-    home_url: http://www.opencravat.org
-    identifiers: []
+    home_url: https://github.com/KarchinLab/open-cravat
+    identifiers:
+      -   doi:10.1101/794297
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: open-cravat
     total_pulls: 819
@@ -102802,7 +102816,7 @@ vsclust:
       -   doi:10.1093/bioinformatics/bty224
 samwell:
     description: Useful utilities for biological data formats and analyses
-    home_url: https://pypi.org/project/samwell/
+    home_url: https://github.com/myriad-opensource/samwell
     identifiers: []
     keywords: []
     license: MIT
@@ -102961,7 +102975,7 @@ phylobayes-mpi:
     total_pulls: 1002
 snakelines:
     description: Computational pipelines for processing of paired-end sequencing reads.
-    home_url: https://snakelines.readthedocs.io/en/latest/
+    home_url: https://github.com/jbudis/snakelines
     identifiers: []
     keywords: []
     license: Not available
@@ -102973,7 +102987,8 @@ burst:
         sequence aligner specialized in aligning many ngs short reads against large
         reference databases.
     home_url: https://github.com/knights-lab/BURST
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.806850
     keywords: []
     license: Not available
     manually_check: true
@@ -103092,7 +103107,8 @@ quip:
 lra:
     description: Long read aligner for sequences and contigs
     home_url: https://github.com/ChaissonLab/LRA
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.11.15.383273
     keywords: []
     license: USC-RL v1.0
     manually_check: true
@@ -104490,7 +104506,8 @@ bioconductor-nanoporernaseq:
 mirge3:
     description: Comprehensive analysis of small rna sequencing data
     home_url: https://github.com/mhalushka/miRge3.0/
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12859-018-2287-y
     keywords: []
     license: Not available
     manually_check: true
@@ -104662,7 +104679,8 @@ bioconductor-cytotree:
 mirge-build:
     description: 'Mirge-build: building libraries of small rna sequencing data'
     home_url: https://github.com/mhalushka/miRge3_build
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12859-018-2287-y
     keywords: []
     license: Not available
     manually_check: true
@@ -104758,15 +104776,15 @@ bioconductor-gsgalgor:
     description: An evolutionary framework for the identification and study of prognostic
         gene expression signatures in cancer
     home_url: https://bioconductor.org/packages/3.12/bioc/html/GSgalgoR.html
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btaa619
     keywords: []
     license: Not available
     manually_check: true
     name: bioconductor-gsgalgor
     total_pulls: 326
 bioconductor-mogamun:
-    description: 'Mogamun: a multi-objective genetic algorithm to find active modules
-        in multiplex biological networks'
+    description: 'Mogamun: a multi-objective genetic algorithm to find active modules in multiplex biological networks'
     home_url: https://bioconductor.org/packages/3.12/bioc/html/MOGAMUN.html
     identifiers: []
     keywords: []
@@ -104926,7 +104944,7 @@ dagchainer:
 r-interpretmsspectrum:
     description: Annotate and interpret deconvoluted mass spectra (mass*intensity
         pairs) from high resolution mass spectrometry devices.
-    home_url: http://dx.doi.org/10.1021/acs.analchem.6b02743
+    home_url: https://cran.r-project.org/package=InterpretMSSpectrum
     identifiers:
       -   doi:10.1021/acs.analchem.6b02743
     keywords:
@@ -105286,10 +105304,10 @@ genomescope2:
     name: genomescope2
     total_pulls: 218
 adapt:
-    description: A package to efficiently design activity-informed nucleic acid diagnostics
-        for viruses.
+    description: A package to efficiently design activity-informed nucleic acid diagnostics for viruses.
     home_url: https://github.com/broadinstitute/adapt
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.11.28.401877
     keywords: []
     license: Not available
     manually_check: true
@@ -105555,7 +105573,8 @@ clinker:
         etc), that can be then be either viewed in genome viewers such as igv or through
         the included plotting feature developed with gviz.
     home_url: https://github.com/Oshlack/Clinker
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/gigascience/giy079
     keywords: []
     license: MIT
     manually_check: true
@@ -105573,7 +105592,8 @@ pegasusio:
 chap:
     description: CHAP is a tool for the functional annotation of ion channel structures
     home_url: https://github.com/channotation/chap
-    identifiers: []
+    identifiers:
+      -   doi:10.1016/j.jmb.2019.06.003
     keywords: []
     license: MIT
     manually_check: true
