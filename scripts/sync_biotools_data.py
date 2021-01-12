@@ -14,29 +14,49 @@ with open('../annotations.yaml', 'r') as read_file:
     file_annotations = yaml.load(read_file)
 
 recipes_path = "/Users/yperez/IdeaProjects/github-repo/biodocker/content/data/{}/{}.bioschemas.jsonld"
-folder_path = "/Users/yperez/IdeaProjects/github-repo/biodocker/content/data/{}/"
+folder_path = "/Users/yperez/IdeaProjects/github-repo/biodocker/content/data/{}/{}.biotools.json"
+debian_path = "/Users/yperez/IdeaProjects/github-repo/biodocker/content/data/{}/{}.debian.yaml"
 tools = {}
 
 ### Annotate bioconductor package
 for key in file_annotations:
     tool = file_annotations[key]
-    path = recipes_path.format(key, key)
-    folder = folder_path.format(key)
+    path_jsonld = recipes_path.format(key, key)
+    path_biotools = folder_path.format(key, key)
+    path_debian = debian_path.format(key,key)
+
+    # folder = folder_path.format(key)
 
     identifiers = []
     if 'identifiers' in tool:
         identifiers = tool['identifiers']
 
-    if not any("doi" in word for word in identifiers) and os.path.isdir(folder):
-        print(folder)
+    # if not any("doi" in word for word in identifiers) and os.path.isdir(folder):
+    #     print(folder)
 
-    if not any("doi" in word for word in identifiers) and os.path.isfile(path):
-        with open(path) as f:
+    if not any("doi" in word for word in identifiers) and os.path.isfile(path_jsonld):
+        with open(path_jsonld) as f:
             data = json.load(f)
             if '@graph' in data:
                 for entity in data['@graph']:
                     if 'doi' in entity['@id']:
                         identifiers.append(entity['@id'].replace('https://doi.org/',''))
+    else:
+        if not any("doi" in word for word in identifiers) and os.path.isfile(path_biotools):
+            with open(path_biotools) as f:
+                data = json.load(f)
+                if 'publication' in data:
+                    for publication in data['publication']:
+                        if 'doi' in publication:
+                            identifiers.append(publication['doi'])
+        if not any("doi" in word for word in identifiers) and os.path.isfile(path_debian):
+            with open(path_debian) as f:
+                data = yaml.load(f)
+                if 'publication' in data:
+                    for publication in data['publication']:
+                        if 'doi' in publication:
+                            identifiers.append(publication['doi'])
+
     identifiers = list(dict.fromkeys(identifiers))
     tool['identifiers'] = identifiers
     tools[key] = tool
