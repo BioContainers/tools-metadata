@@ -18,7 +18,7 @@ tools = {}
 for key in file_annotations:
     tool = file_annotations[key]
 
-    if 'identifiers' in tool:
+    if 'identifiers' in tool and ('keywords' not in tool or len(tool['keywords'])==0) :
         identifiers = tool['identifiers']
         for identifier in identifiers:
             try:

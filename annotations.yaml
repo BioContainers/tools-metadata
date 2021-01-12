@@ -553,7 +553,10 @@ hmmer:
     home_url: https://github.com/EddyRivasLab/hmmer
     total_pulls: 12431
     manually_check: true
-    keywords: []
+    keywords:
+      -   Internet
+      -   Sequence Alignment
+      -   Sequence Analysis, Protein
     identifiers:
       -   doi:10.1093/nar/gkr367
 bamtools:
@@ -825,6 +828,10 @@ ruffus:
     manually_check: true
     identifiers:
       -   doi:10.1093/bioinformatics/btq524
+    keywords:
+      -   Computational Biology
+      -   Databases, Factual
+      -   Internet
 pyfaidx:
     name: pyfaidx
     description: This python module implements pure python classes for indexing, retrieval,
@@ -873,7 +880,13 @@ bwakit:
     home_url: https://github.com/lh3/bwa
     total_pulls: 9351
     manually_check: true
-    keywords: []
+    keywords:
+      -   Base Sequence
+      -   Genome, Human
+      -   Genomics
+      -   Humans
+      -   Sequence Alignment
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btp324
       -   doi:10.1093/bioinformatics/btp698
@@ -1235,7 +1248,15 @@ metaphlan2:
     home_url: https://github.com/biobakery/metaphlan
     total_pulls: 8182
     manually_check: true
-    keywords: []
+    keywords:
+      -   DNA Barcoding, Taxonomic
+      -   Humans
+      -   Metagenome
+      -   Metagenomics
+      -   Phylogeny
+      -   Propionibacterium acnes
+      -   Reproducibility of Results
+      -   Skin
     identifiers:
       -   doi:10.1038/nmeth.3589
 stacks:
@@ -1989,7 +2010,14 @@ circlator:
     home_url: https://github.com/sanger-pathogens/circlator
     total_pulls: 5834
     manually_check: true
-    keywords: []
+    keywords:
+      -   Contig Mapping
+      -   DNA, Circular
+      -   Genome, Bacterial
+      -   Genome, Mitochondrial
+      -   Genome, Protozoan
+      -   Humans
+      -   Plasmodium falciparum
     identifiers:
       -   doi:10.1186/s13059-015-0849-0
 cobra:
@@ -2565,6 +2593,10 @@ hmmer2:
     manually_check: true
     identifiers:
       -   doi:10.1093/nar/gkr367
+    keywords:
+      -   Internet
+      -   Sequence Alignment
+      -   Sequence Analysis, Protein
 gwama:
     name: gwama
     description: Genome-wide association meta analysis software performs meta-analysis
@@ -3237,7 +3269,12 @@ proteinortho:
     home_url: http://www.bioinf.uni-leipzig.de/Software/proteinortho/
     total_pulls: 4817
     manually_check: true
-    keywords: []
+    keywords:
+      -   Base Sequence
+      -   Databases, Genetic
+      -   Genomics
+      -   Phylogeny
+      -   Sequence Alignment
     identifiers:
       -   doi:10.1186/1471-2105-12-124
 pymummer:
@@ -3889,6 +3926,7 @@ pygenometracks:
     manually_check: true
     identifiers:
       -   doi:10.1093/bioinformatics/btaa692
+    keywords: []
 python-bioext:
     name: python-bioext
     description: A few handy bioinformatics tools not already in biopython
@@ -4200,7 +4238,17 @@ picrust:
     home_url: https://github.com/picrust/picrust
     total_pulls: 3360
     manually_check: true
-    keywords: []
+    keywords:
+      -   Bacteria
+      -   Genes, Bacterial
+      -   Genetic Markers
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Metagenomics
+      -   Microbiota
+      -   Phylogeny
+      -   RNA, Ribosomal, 16S
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1038/nbt.2676
 krocus:
@@ -6974,7 +7022,14 @@ crispresso2:
     home_url: https://github.com/pinellolab/CRISPResso2
     total_pulls: 44
     manually_check: true
-    keywords: []
+    keywords:
+      -   CRISPR-Cas Systems
+      -   Gene Editing
+      -   Genome, Human
+      -   Humans
+      -   Polymorphism, Single Nucleotide
+      -   RNA Editing
+      -   Sequence Analysis
     identifiers:
       -   doi:10.1038/s41587-019-0032-3
 bioconductor-mogene10stprobeset.db:
@@ -10735,7 +10790,9 @@ krakenuniq:
     identifiers:
       -   biotools:krakenhll
       -   doi:10.1186/s13059-018-1568-0
-    keywords: []
+    keywords:
+      -   Infections
+      -   Metagenomics
 svim:
     name: svim
     description: SVIM is a structural variant caller for long reads.
@@ -11041,7 +11098,17 @@ picrust2:
     home_url: https://github.com/picrust/picrust2
     total_pulls: 18
     manually_check: true
-    keywords: []
+    keywords:
+      -   Bacteria
+      -   Genes, Bacterial
+      -   Genetic Markers
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Metagenomics
+      -   Microbiota
+      -   Phylogeny
+      -   RNA, Ribosomal, 16S
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1038/nbt.2676
 varlociraptor:
@@ -20445,7 +20512,16 @@ crispresso:
     home_url: https://github.com/lucapinello/CRISPResso
     total_pulls: 4
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   CRISPR-Cas Systems
+      -   Clustered Regularly Interspaced Short Palindromic Repeats
+      -   Computer Simulation
+      -   Gene Editing
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Models, Genetic
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1038/nbt.3583
 relocate2:
@@ -22193,7 +22269,10 @@ yamda:
       -   biotools:yamda
       -   doi:10.1093/bioinformatics/bty396
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computer Graphics
+      -   Deep Learning
+      -   Time Factors
 psass:
     name: psass
     description: Comparison of pooled-sequencing data for two populations
@@ -63928,6 +64007,10 @@ hmmer2-pvm:
     manually_check: true
     identifiers:
       -   doi:10.1093/nar/gkr367
+    keywords:
+      -   Internet
+      -   Sequence Alignment
+      -   Sequence Analysis, Protein
 hdmedians:
     name: hdmedians
     description: High-dimensional medians in python3
@@ -64327,7 +64410,15 @@ metaphlan2-data:
     home_url: https://bitbucket.org/biobakery/metaphlan2
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   DNA Barcoding, Taxonomic
+      -   Humans
+      -   Metagenome
+      -   Metagenomics
+      -   Phylogeny
+      -   Propionibacterium acnes
+      -   Reproducibility of Results
+      -   Skin
     identifiers:
       -   doi:10.1038/nmeth.3589
 logol-bin:
@@ -68813,6 +68904,10 @@ python-ruffus:
     identifiers:
       -   doi:10.1093/bioinformatics/btq524
     anchor_tool: ruffus
+    keywords:
+      -   Computational Biology
+      -   Databases, Factual
+      -   Internet
 python-schema-salad:
     name: python-schema-salad
     description: Salad is a schema language for describing JSON or YAML structured
@@ -69320,6 +69415,10 @@ python3-ruffus:
     identifiers:
       -   doi:10.1093/bioinformatics/btq524
     anchor_tool: ruffus
+    keywords:
+      -   Computational Biology
+      -   Databases, Factual
+      -   Internet
 python3-sphinxcontrib.autoprogram:
     name: python3-sphinxcontrib.autoprogram
     description: Automated documentation of cli programs for sphinx (python 3)
@@ -89560,7 +89659,10 @@ ngmerge:
     identifiers:
       -   biotools:ngmerge
       -   doi:10.1186/s12859-018-2579-2
-    keywords: []
+    keywords:
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Sequence Analysis, DNA
 esimsa:
     name: esimsa
     description: Simple deconvolution of electrospray ionization peak lists
@@ -97488,7 +97590,9 @@ msaconverter:
     home_url: https://github.com/linzhi2013/msaconverter
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Sequence Alignment
     identifiers:
       -   doi:10.1093/bioinformatics/btv494
 bold-identification:
@@ -97555,7 +97659,15 @@ smudgeplot:
     home_url: https://github.com/KamilSJaron/smudgeplot
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Computational Biology
+      -   Fragaria
+      -   Genome, Plant
+      -   Heterozygote
+      -   Phylogeny
+      -   Polyploidy
+      -   Tylenchoidea
     identifiers:
       -   doi:10.1038/s41467-020-14998-3
 aquila:
@@ -98094,7 +98206,13 @@ seqan3:
     manually_check: true
     identifiers:
       -   doi:10.1186/1471-2105-9-11
-    keywords: []
+    keywords:
+      -   Database Management Systems
+      -   Databases, Genetic
+      -   Programming Languages
+      -   Sequence Alignment
+      -   Sequence Analysis
+      -   User-Computer Interface
 rmetl:
     name: rmetl
     description: rMETL is a realignment-based Mobile Element insertion detection Tool
@@ -98263,7 +98381,13 @@ abra2:
     home_url: https://github.com/mozack/abra2
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   DNA
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   INDEL Mutation
+      -   RNA
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btz033
 fastobo:
@@ -98724,7 +98848,28 @@ popera:
     identifiers:
       -   biotools:popera
       -   doi:10.3109/03009742.2015.1019560
-    keywords: []
+    keywords:
+      -   Adult
+      -   Aged
+      -   Arthritis, Rheumatoid
+      -   Disease Progression
+      -   Drug Therapy, Combination
+      -   Female
+      -   Follow-Up Studies
+      -   Humans
+      -   Hydroxychloroquine
+      -   Infliximab
+      -   Longitudinal Studies
+      -   Male
+      -   Methotrexate
+      -   Middle Aged
+      -   Radiography
+      -   Severity of Illness Index
+      -   Sulfasalazine
+      -   Sweden
+      -   Time Factors
+      -   Treatment Outcome
+      -   Tumor Necrosis Factor-alpha
 dashing:
     name: dashing
     description: Fast and accurate genomic distances using HyperLogLog
@@ -99971,7 +100116,12 @@ spingo:
     home_url: https://github.com/GuyAllard/SPINGO
     identifiers:
       -   doi:10.1186/s12859-015-0747-1
-    keywords: []
+    keywords:
+      -   Bacteria
+      -   High-Throughput Nucleotide Sequencing
+      -   Metagenomics
+      -   RNA, Ribosomal, 16S
+      -   Sequence Analysis, RNA
     license: GPL-3.0
     manually_check: true
     name: spingo
@@ -100722,7 +100872,12 @@ circminer:
     home_url: https://github.com/vpc-ccg/circminer
     identifiers:
       -   doi:10.1093/bioinformatics/btaa232
-    keywords: []
+    keywords:
+      -   Base Sequence
+      -   RNA
+      -   RNA Splicing
+      -   RNA, Circular
+      -   Sequence Analysis, RNA
     license: GPL-3.0
     manually_check: true
     name: circminer
@@ -100971,7 +101126,17 @@ nanomod:
     home_url: https://github.com/WGLab/NanoMod
     identifiers:
       -   doi:10.1186/s12864-018-5372-8
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Computer Simulation
+      -   DNA
+      -   Escherichia coli
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Nanopores
+      -   Reproducibility of Results
+      -   Sequence Analysis, DNA
+      -   Workflow
     license: Not available
     manually_check: true
     name: nanomod
@@ -101030,7 +101195,13 @@ orfm:
     home_url: https://github.com/wwood/OrfM
     identifiers:
       -   doi:10.1093/bioinformatics/btw241
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Gene Expression Profiling
+      -   Genome
+      -   Humans
+      -   Metagenomics
+      -   Open Reading Frames
     license: LGPL-3.0
     manually_check: true
     name: orfm
@@ -101112,7 +101283,13 @@ plasclass:
     home_url: https://github.com/Shamir-Lab/PlasClass
     identifiers:
       -   doi:10.1371/journal.pcbi.1007781
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   DNA
+      -   DNA, Bacterial
+      -   Genome, Bacterial
+      -   Plasmids
+      -   Sequence Analysis, DNA
     license: Not available
     manually_check: true
     name: plasclass
@@ -101255,7 +101432,10 @@ macse:
       -   biotools:macse
       -   doi:10.1371/journal.pone.0022594
       -   doi:10.1093/molbev/msy159
-    keywords: []
+    keywords:
+      -   Codon, Terminator
+      -   Frameshift Mutation
+      -   Sequence Alignment
     license: CeCILL 2.1
     manually_check: true
     name: macse
@@ -101272,7 +101452,12 @@ gefast:
     home_url: https://github.com/romueller/gefast
     identifiers:
       -   doi:10.1186/s12859-018-2349-1
-    keywords: []
+    keywords:
+      -   Cluster Analysis
+      -   Databases as Topic
+      -   High-Throughput Nucleotide Sequencing
+      -   RNA, Ribosomal, 16S
+      -   Time Factors
     license: AGPL-3.0
     manually_check: true
     name: gefast
@@ -101579,7 +101764,15 @@ ms2pip:
       -   doi:10.1093/bioinformatics/btt544
       -   doi:10.1093/nar/gkv542
       -   doi:10.1093/nar/gkz299
-    keywords: []
+    keywords:
+      -   Amino Acid Sequence
+      -   Humans
+      -   Internet
+      -   Peptide Fragments
+      -   Phosphopeptides
+      -   Proteomics
+      -   Staining and Labeling
+      -   Tandem Mass Spectrometry
     license: Apache-2.0
     manually_check: true
     name: ms2pip
@@ -101652,7 +101845,15 @@ pyclone:
     identifiers:
       -   doi:10.1038/nmeth.2883
       -   doi:10.1186/s12859-020-03919-2
-    keywords: []
+    keywords:
+      -   Bayes Theorem
+      -   Databases, Genetic
+      -   Genome, Human
+      -   Humans
+      -   Mutation
+      -   Neoplasms
+      -   User-Computer Interface
+      -   Whole Genome Sequencing
     license: Not available
     manually_check: true
     name: pyclone
@@ -101754,7 +101955,11 @@ pgdspider:
     home_url: http://www.cmpg.unibe.ch/software/PGDSpider/
     identifiers:
       -   doi:10.1093/bioinformatics/btr642
-    keywords: []
+    keywords:
+      -   Genetics, Population
+      -   Genomics
+      -   Information Storage and Retrieval
+      -   User-Computer Interface
     license: Not available
     manually_check: true
     name: pgdspider
@@ -101764,7 +101969,12 @@ ragtag:
     home_url: https://github.com/malonge/RagTag
     identifiers:
       -   doi:10.1186/s13059-019-1829-6
-    keywords: []
+    keywords:
+      -   Arabidopsis
+      -   Genome, Plant
+      -   Genomic Structural Variation
+      -   Genomics
+      -   Lycopersicon esculentum
     license: Not available
     manually_check: true
     name: ragtag
@@ -101906,7 +102116,18 @@ isoquant:
     home_url: https://github.com/ablab/IsoQuant
     identifiers:
       -   doi:10.1021/ac300510t
-    keywords: []
+    keywords:
+      -   Amino Acids
+      -   Animals
+      -   Cells, Cultured
+      -   Chromatography, High Pressure Liquid
+      -   Databases, Protein
+      -   Hippocampus
+      -   Isotope Labeling
+      -   Proteins
+      -   Proteomics
+      -   Rats
+      -   Tandem Mass Spectrometry
     license: Not available
     manually_check: true
     name: isoquant
@@ -102163,7 +102384,11 @@ phigaro:
     home_url: https://phigaro.readthedocs.io/
     identifiers:
       -   doi:10.1093/bioinformatics/btaa250
-    keywords: []
+    keywords:
+      -   High-Throughput Nucleotide Sequencing
+      -   Metagenome
+      -   Metagenomics
+      -   Prophages
     license: Not available
     manually_check: true
     name: phigaro
@@ -102218,7 +102443,16 @@ hydra-multi:
     home_url: https://github.com/arq5x/Hydra
     identifiers:
       -   doi:10.1093/bioinformatics/btu771
-    keywords: []
+    keywords:
+      -   Animals
+      -   Databases, Factual
+      -   Gene Deletion
+      -   Genetics, Population
+      -   Genomic Structural Variation
+      -   Genomics
+      -   Humans
+      -   Hydra
+      -   Sequence Alignment
     license: MIT
     manually_check: true
     name: hydra-multi
@@ -102308,7 +102542,19 @@ chromeister:
     home_url: https://github.com/estebanpw/chromeister
     identifiers:
       -   doi:10.1038/s41598-019-46773-w
-    keywords: []
+    keywords:
+      -   Animals
+      -   Biological Evolution
+      -   Data Visualization
+      -   Genome
+      -   Genomics
+      -   Humans
+      -   Mammals
+      -   Mice
+      -   Poaceae
+      -   Synteny
+      -   Time Factors
+      -   Triticum
     license: GPL-3.0
     manually_check: true
     name: chromeister
@@ -102704,7 +102950,11 @@ phylobayes-mpi:
     home_url: https://github.com/bayesiancook/pbmpi
     identifiers:
       -   doi:10.1093/sysbio/syt022
-    keywords: []
+    keywords:
+      -   Bayes Theorem
+      -   Computational Biology
+      -   Models, Genetic
+      -   Phylogeny
     license: GPL-2.0
     manually_check: true
     name: phylobayes-mpi
@@ -102808,7 +103058,18 @@ piler-cr:
     home_url: http://www.drive5.com/pilercr/
     identifiers:
       -   doi:10.1186/1471-2105-8-18
-    keywords: []
+    keywords:
+      -   Archaea
+      -   Bacteria
+      -   Conserved Sequence
+      -   DNA, Archaeal
+      -   DNA, Bacterial
+      -   Genomics
+      -   Information Storage and Retrieval
+      -   Repetitive Sequences, Nucleic Acid
+      -   Sensitivity and Specificity
+      -   Sequence Alignment
+      -   Sequence Analysis, DNA
     license: Public Domain
     manually_check: true
     name: piler-cr
@@ -104240,7 +104501,19 @@ ultraplex:
     home_url: https://github.com/ulelab/ultraplex.git
     identifiers:
       -   doi:10.1196/annals.1313.030
-    keywords: []
+    keywords:
+      -   Antibodies, Antinuclear
+      -   Antibody Specificity
+      -   Autoantibodies
+      -   Biomarkers
+      -   Electronic Data Processing
+      -   Enzyme-Linked Immunosorbent Assay
+      -   Fluorescent Antibody Technique, Indirect
+      -   Fluoroimmunoassay
+      -   Humans
+      -   Microscopy, Electron
+      -   Microspheres
+      -   Sensitivity and Specificity
     license: Not available
     manually_check: true
     name: ultraplex
@@ -104814,7 +105087,10 @@ slimfastq:
     home_url: https://github.com/Infinidat/slimfastq
     identifiers:
       -    doi:10.1371/journal.pone.0059190
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Data Compression
+      -   Sequence Analysis, DNA
     license: BSD-3
     manually_check: true
     name: slimfastq
@@ -104889,7 +105165,10 @@ kmer-db:
     home_url: https://github.com/refresh-bio/kmer-db
     identifiers:
       -   doi:10.1093/bioinformatics/bty610
-    keywords: []
+    keywords:
+      -   Biological Evolution
+      -   Computational Biology
+      -   Genome
     license: GPL-3
     manually_check: true
     name: kmer-db
@@ -105031,7 +105310,17 @@ metachip:
     home_url: https://github.com/songweizhi/MetaCHIP
     identifiers:
       -   doi:10.1186/s40168-019-0649-y
-    keywords: []
+    keywords:
+      -   Bacteria
+      -   Computational Biology
+      -   Databases, Genetic
+      -   Drug Resistance, Bacterial
+      -   Evolution, Molecular
+      -   Gene Transfer, Horizontal
+      -   Humans
+      -   Metagenomics
+      -   Phylogeny
+      -   Soil Microbiology
     license: Not available
     manually_check: true
     name: metachip
@@ -105147,7 +105436,12 @@ grapetree:
     home_url: https://github.com/achtman-lab/GrapeTree
     identifiers:
       -   doi:10.1101/gr.232397.117
-    keywords: []
+    keywords:
+      -   Alleles
+      -   Bacteria
+      -   DNA Barcoding, Taxonomic
+      -   Genome, Bacterial
+      -   Phylogeny
     license: Not available
     manually_check: true
     name: grapetree
@@ -105184,7 +105478,14 @@ ryuto:
     home_url: https://github.com/studla/RYUTO/
     identifiers:
       -   doi:10.1186/s12859-019-2786-5
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Gene Expression Profiling
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   RNA, Messenger
+      -   Sequence Analysis, RNA
+      -   Transcriptome
     license: BSD
     manually_check: true
     name: ryuto
@@ -105376,7 +105677,11 @@ pargenes:
     identifiers:
       -    doi:10.1093/bioinformatics/bty839
       -    doi:10.1101/447110
-    keywords: []
+    keywords:
+      -   Genomics
+      -   Phylogeny
+      -   Probability
+      -   Sequence Alignment
     license: GPL-3
     manually_check: true
     name: pargenes
