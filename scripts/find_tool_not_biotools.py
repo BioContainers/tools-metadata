@@ -33,7 +33,7 @@ for key in file_annotations:
     tool = file_annotations[key]
 
     if 'identifiers' not in tool:
-        not_biotools.append(key + ' -- not biotools, not doi')
+        not_biotools.append(key + '\t' + file_annotations[key]['home_url'] + '\t' + '-- not biotools, not doi')
     else:
         dois = False
         biotools = False
@@ -43,10 +43,10 @@ for key in file_annotations:
             if 'biotools' in ids:
                 biotools = True
         if not dois:
-            not_biotools.append(key + ' -- not dois')
-            search_tool(key)
+            not_biotools.append(key + '\t' + file_annotations[key]['home_url'] + '\t' + '-- not doi')
+            #search_tool(key)
         if not biotools:
-            not_biotools.append(key + ' -- not biotools')
+            not_biotools.append(key + '\t' + file_annotations[key]['home_url'] + '\t' + '-- not biotools')
 
 for tool in not_biotools:
     print(tool)
