@@ -18,20 +18,22 @@ not_biotools = []
 def search_tool(key):
     url = 'https://www.ebi.ac.uk/europepmc/webservices/rest/search?query="'+key+'"&format=json&pageSize=1000'
     page = requests.get(url).json()
-    if page['hitCount'] == 1 and 'resultList' in page:
+    if 'resultList' in page:
         for publication in page['resultList']['result']:
             try:
-                print(key + ' ---- ' + publication['title'] + ' --- ' + publication['doi'])
+                common_name = key + ":";
+                if common_name in publication['title'].lower():
+                    print(key + ' ---- ' + publication['title'] + ' --- ' + publication['doi'])
             except Exception as e:
-                print('Error doi --' + publication['title'])
-    print('----------------------------------------------')
+                print('Error doi --' + key)
+    # print('----------------------------------------------')
 
 
 for key in file_annotations:
     tool = file_annotations[key]
 
     if 'identifiers' not in tool:
-        not_biotools.append(key + ' -- not biotools, dois')
+        not_biotools.append(key + ' -- not biotools, not doi')
     else:
         dois = False
         biotools = False
@@ -42,7 +44,7 @@ for key in file_annotations:
                 biotools = True
         if not dois:
             not_biotools.append(key + ' -- not dois')
-            # search_tool(key)
+            search_tool(key)
         if not biotools:
             not_biotools.append(key + ' -- not biotools')
 
