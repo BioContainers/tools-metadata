@@ -89582,6 +89582,8 @@ mirge:
     total_pulls: 0
     manually_check: true
     keywords: []
+    identifiers:
+      -   doi:10.1186/s12859-018-2287-y
 gtfparse:
     name: gtfparse
     description: Gtf parsing
@@ -102745,7 +102747,8 @@ abnumber:
 cpgeneprofiler:
     description: 'Generate a profile of carbapenamase genes from the genome assemblies. '
     home_url: https://github.com/ramadatta/CPgeneProfiler
-    identifiers: []
+    identifiers:
+      -   doi:10.21105/joss.02473
     keywords: []
     license: Not available
     manually_check: true
@@ -102753,10 +102756,11 @@ cpgeneprofiler:
     total_pulls: 502
 open-cravat:
     description: Opencravat - variant analysis toolkit
-    home_url: http://www.opencravat.org
-    identifiers: []
+    home_url: https://github.com/KarchinLab/open-cravat
+    identifiers:
+      -   doi:10.1101/794297
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: open-cravat
     total_pulls: 819
@@ -102810,7 +102814,7 @@ vsclust:
       -   doi:10.1093/bioinformatics/bty224
 samwell:
     description: Useful utilities for biological data formats and analyses
-    home_url: https://pypi.org/project/samwell/
+    home_url: https://github.com/myriad-opensource/samwell
     identifiers: []
     keywords: []
     license: MIT
@@ -102969,7 +102973,7 @@ phylobayes-mpi:
     total_pulls: 1002
 snakelines:
     description: Computational pipelines for processing of paired-end sequencing reads.
-    home_url: https://snakelines.readthedocs.io/en/latest/
+    home_url: https://github.com/jbudis/snakelines
     identifiers: []
     keywords: []
     license: Not available
@@ -104500,7 +104504,8 @@ bioconductor-nanoporernaseq:
 mirge3:
     description: Comprehensive analysis of small rna sequencing data
     home_url: https://github.com/mhalushka/miRge3.0/
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12859-018-2287-y
     keywords: []
     license: Not available
     manually_check: true
@@ -104672,7 +104677,8 @@ bioconductor-cytotree:
 mirge-build:
     description: 'Mirge-build: building libraries of small rna sequencing data'
     home_url: https://github.com/mhalushka/miRge3_build
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12859-018-2287-y
     keywords: []
     license: Not available
     manually_check: true
