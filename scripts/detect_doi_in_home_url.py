@@ -106,7 +106,6 @@ for key in file_annotations:
 
     #check description spaces
     tool['description'] = tool['description'].replace("\n", " ")
-
     tools[key] = tool
 
 
