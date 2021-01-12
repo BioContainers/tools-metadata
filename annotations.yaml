@@ -5226,7 +5226,7 @@ r-data.table:
     description: Fast aggregation of large data (e.g. 100gb in ram), fast ordered
         joins, fast add/modify/delete
     license: GPL-3.0
-    home_url: https://cran.r-project.org/web/packages/data.table/
+    home_url: https://CRAN.R-project.org/package=data.table
     total_pulls: 3199
     manually_check: true
     keywords: []
@@ -5471,7 +5471,7 @@ r-exomedepth:
     description: Calls copy number variants (cnvs) from targeted sequence data, typically
         exome sequencing
     license: GPL-3.0
-    home_url: https://cran.r-project.org/web/packages/ExomeDepth/index.html
+    home_url: https://CRAN.R-project.org/package=ExomeDepth
     total_pulls: 1718
     manually_check: true
     keywords: []
@@ -5533,7 +5533,7 @@ r-vegan:
     description: Ordination methods, diversity analysis and other functions for community
         and vegetation
     license: GPL-2.0
-    home_url: https://cran.r-project.org/web/packages/vegan/index.html
+    home_url: https://CRAN.R-project.org/package=vegan
     total_pulls: 1513
     manually_check: true
     keywords: []
@@ -61745,6 +61745,8 @@ deepbgc:
     total_pulls: 1
     manually_check: true
     keywords: []
+    identifiers:
+      -   doi:10.1093/nar/gkz654
 bcbio-gff:
     name: bcbio-gff
     description: A python library to read and write generic feature format (gff).
@@ -61762,6 +61764,8 @@ cactus:
     total_pulls: 1
     manually_check: true
     keywords: []
+    identifiers:
+      -   doi:10.1038/s41586-020-2871-y
 gapfiller:
     name: gapfiller
     description: Gapfiller is a seed-and-extend local assembler to fill the gap within
@@ -70125,7 +70129,7 @@ ucsc-wigcorrelate:
     home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
     total_pulls: 0
     manually_check: true
-    keywords:
+    keywords: []
     identifiers:
       -   doi:10.1093/bioinformatics/btq351
       -   doi:10.1101/gr.229102
@@ -78660,7 +78664,7 @@ r-bigmemory.sri:
     description: This package provides a shared resource interface for the bigmemory
         and synchronicity
     license: Apache-2.0
-    home_url: https://cran.r-project.org/web/packages/bigmemory.sri/index.html
+    home_url: https://CRAN.R-project.org/package=bigmemory.sri
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -79570,7 +79574,7 @@ r-agricolae:
     description: Original idea was presented in the thesis a statistical analysis
         tool for agricultural
     license: GPL-3.0
-    home_url: https://cran.r-project.org/web/packages/agricolae/index.html
+    home_url: https://CRAN.R-project.org/package=agricolae
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -79579,7 +79583,7 @@ r-algdesign:
     description: Algorithmic experimental designs. calculates exact and approximate
         theory experimental
     license: GPL-3.0
-    home_url: https://cran.r-project.org/web/packages/AlgDesign/index.html
+    home_url: https://CRAN.R-project.org/package=AlgDesign
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -81287,7 +81291,7 @@ r-qiimer:
     description: Open QIIME output files in R, compute statistics, and create plots
         from the data.
     license: GPL (>= 2)
-    home_url: https://cran.r-project.org/web/packages/qiimer/index.html
+    home_url: https://CRAN.R-project.org/package=qiimer
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -81513,7 +81517,7 @@ r-idpmisc:
         color ramps, drawing nice arrows, zooming 2D-plots, creating figures with
         differently colored margin and plot region
     license: GPL (≥ 3)
-    home_url: https://cran.r-project.org/web/packages/IDPmisc/index.html
+    home_url: https://CRAN.R-project.org/package=IDPmisc
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -82770,7 +82774,7 @@ zeroc-ice:
     description: Ice is a comprehensive RPC framework that helps you network your
         software with minimal effort.
     license: GPL v2 with exceptions
-    home_url: None
+    home_url: https://github.com/zeroc-ice/ice
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -82924,7 +82928,7 @@ r-shinyace:
     description: Ace editor bindings to enable a rich text editing environment within
         Shiny.
     license: MI
-    home_url: https://cran.r-project.org/web/packages/shinyAce/index.html
+    home_url: https://CRAN.R-project.org/package=shinyAce
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -83004,7 +83008,7 @@ r-kriging:
     description: Simple and highly optimized ordinary kriging algorithm to plot geographical
         data
     license: GPL-2
-    home_url: https://cran.r-project.org/web/packages/kriging/index.html
+    home_url:  ttps://CRAN.R-project.org/package=kriging
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -83013,7 +83017,7 @@ r-drc:
     description: Analysis of dose-response data is made available through a suite
         of flexible and versatile model fitting and after-fitting functions.
     license: GPL-2.0
-    home_url: https://cran.r-project.org/web/packages/drc/index.html
+    home_url: https://CRAN.R-project.org/package=drc
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -83025,7 +83029,7 @@ r-nleqslv:
         a banded numerical Jacobian and for allowing a singular or ill-conditioned
         Jacobian.
     license: GPL-3.0
-    home_url: https://cran.r-project.org/web/packages/nleqslv/index.html
+    home_url: https://CRAN.R-project.org/package=nleqslv
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -83113,7 +83117,7 @@ r-fnn:
         and related applications including KNN classification, regression and information
         measures are implemented.
     license: GPL-3.0
-    home_url: https://cran.r-project.org/web/packages/FNN/index.html
+    home_url: https://CRAN.R-project.org/package=FNN
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -83162,7 +83166,7 @@ r-gdtools:
     name: r-gdtools
     description: Useful tools for writing vector graphics devices.
     license: GPL-3.0
-    home_url: https://cran.r-project.org/web/packages/gdtools/index.html
+    home_url: https://CRAN.R-project.org/package=gdtools
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -83258,7 +83262,7 @@ r-rtsne:
         implementation by Van der Maaten (see <https://github.com/lvdmaaten/bhtsne/>
         for more information on the original implementation).
     license: BSD-style licence
-    home_url: https://cran.r-project.org/web/packages/Rtsne/index.html
+    home_url: https://CRAN.R-project.org/package=Rtsne
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -85146,7 +85150,7 @@ r-e1071:
         fuzzy clustering, support vector machines, shortest path computation, bagged
         clustering, naive Bayes classifier, ...
     license: GPL-2
-    home_url: https://cran.r-project.org/web/packages/e1071/index.html
+    home_url: https://CRAN.R-project.org/package=e1071
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -85157,7 +85161,7 @@ r-prabclus:
         abundance and multilocus genetical data for species delimitation, nearest
         neighbor based noise detection. Try package?prabclus for on overview.
     license: GPL
-    home_url: https://cran.r-project.org/web/packages/prabclus/index.html
+    home_url: https://CRAN.R-project.org/package=prabclus
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -85168,7 +85172,7 @@ r-kernlab:
         Among other methods 'kernlab' includes Support Vector Machines, Spectral Clustering,
         Kernel PCA, Gaussian Processes and a QP solver.
     license: GPL (>=2)
-    home_url: https://cran.r-project.org/web/packages/kernlab/index.html
+    home_url: https://CRAN.R-project.org/package=kernlab
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -85189,7 +85193,7 @@ r-trimcluster:
     name: r-trimcluster
     description: Trimmed k-means clustering.
     license: GPL
-    home_url: https://cran.r-project.org/web/packages/trimcluster/index.html
+    home_url: https://CRAN.R-project.org/package=trimcluster
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -90567,7 +90571,7 @@ r-seqminer:
         files; (3) read tables from a tabix-indexed files; (4) annotate VCF/BCF files;
         (5) create customized workflow based on Makefile.
     license: GPL
-    home_url: https://cran.r-project.org/web/packages/seqminer/index.html
+    home_url: https://CRAN.R-project.org/package=seqminer
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -94457,7 +94461,7 @@ r-polysat:
         (and samples of mixed ploidy) where allele copy number is not known in partially
         heterozygous genotypes.
     license: GPL (>= 2)
-    home_url: https://cran.r-project.org/web/packages/polysat/index.html
+    home_url: https://CRAN.R-project.org/package=polysat
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -101082,7 +101086,7 @@ rdflib-jsonld:
     total_pulls: 60515
 r-rmarkdown:
     description: Convert r markdown documents into a variety of formats
-    home_url: https://cran.r-project.org/web/packages/rmarkdown/index.html
+    home_url: https://CRAN.R-project.org/package=rmarkdown
     identifiers: []
     keywords: []
     license: GPL-3.0
