@@ -1,4 +1,3 @@
-tool	url	doi
 tabix	https://github.com/samtools/htslib	--
 galaxy_sequence_utils	https://github.com/galaxyproject/sequence_utils	--
 prodigal	http://prodigal.ornl.gov/	--
@@ -578,7 +577,7 @@ parent-map	https://github.com/damienmarsic/parent-map	--
 bio-ting	https://github.com/FelixMoelder/ting	--
 svtk	https://github.com/talkowski-lab/svtk	--
 pbipa	https://github.com/PacificBiosciences/pbbioconda	--
-ucsc-bigwigcat	http://hgdownload.cse.ucsc.edu/admin/exe/	--
+ucsc-bigwigcat	"http://hgdownload.cse.ucsc.edu/admin/exe/"	--
 pytabix	https://github.com/slowkow/pytabix	--
 avro-python2	https://github.com/apache/avro	--
 ngs-disambiguate	https://github.com/AstraZeneca-NGS/disambiguate	--
@@ -875,8 +874,8 @@ r-probmetab	https://github.com/rsilvabioinfo/ProbMetab	--
 r-wasabi	https://github.com/COMBINE-lab/wasabi	--
 smartdenovo	https://github.com/ruanjue/smartdenovo	--
 r-pscbs	https://github.com/HenrikBengtsson/PSCBS	--
-r-aroma.core	https://github.com/HenrikBengtsson/aroma.core, http://www.aroma-project.org/	--
-r-aroma.affymetrix	http://www.aroma-project.org/, https://github.com/HenrikBengtsson/aroma.affymetrix	--
+r-aroma.core	https://github.com/HenrikBengtsson/aroma.core	--
+r-aroma.affymetrix	https://github.com/HenrikBengtsson/aroma.affymetrix	--
 r-peer	https://github.com/PMBio/peer/	--
 r-ampvis	https://github.com/MadsAlbertsen/ampvis	--
 r-soap-nmr	https://github.com/ManonMartin/SOAP-NMR	--
@@ -928,7 +927,7 @@ r-leapp	https://CRAN.R-project.org/package=leapp	--
 r-cate	https://CRAN.R-project.org/package=cate	--
 r-grain	http://people.math.aau.dk/~sorenh/software/gR/	--
 r-rsnps	https://github.com/ropensci/rsnps	--
-r-dnet	http://dnet.r-forge.r-project.org, https://github.com/hfang-bristol/dnet	--
+r-dnet	https://github.com/hfang-bristol/dnet	--
 r-isva	https://CRAN.R-project.org/package=isva	--
 r-htscluster	https://CRAN.R-project.org/package=HTSCluster	--
 r-smartsva	https://CRAN.R-project.org/package=SmartSVA	--
@@ -3632,7 +3631,6 @@ perl-bundle-bioperl	http://metacpan.org/pod/Bundle::BioPerl	--
 mtbseq	https://github.com/ngs-fzb/MTBseq_source	--
 plass	https://github.com/soedinglab/plass	--
 nf-core	https://github.com/nf-core/nf-co.re	--
-kinsimriboswitch	http://www.bioinf.uni-leipzig.de/~felix/	--
 popdel	https://github.com/kehrlab/PopDel	--
 tinyfasta	https://github.com/tjelvar-olsson/tinyfasta	--
 purge_haplotigs	https://bitbucket.org/mroachawri/purge_haplotigs/	--
@@ -3681,7 +3679,7 @@ r-nam	https://CRAN.R-project.org/package=NAM	--
 r-guilds	https://github.com/thijsjanzen/GUILDS	--
 mhcnames	https://github.com/hammerlab/mhcnames	--
 r-breakaway	https://CRAN.R-project.org/package=breakaway	--
-r-sads	http://piLaboratory.github.io/sads, https://github.com/piklprado/sads	--
+r-sads	https://github.com/piklprado/sads	--
 r-ebimetagenomics	https://CRAN.R-project.org/package=ebimetagenomics	--
 pyaavf	http://github.com/winhiv/PyAAVF	--
 var-agg	https://github.com/bihealth/var-agg	--

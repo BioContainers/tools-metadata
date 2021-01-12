@@ -25836,7 +25836,7 @@ r-aroma.core:
     description: core methods and classes used by higher-level aroma.* packages part
         of the aroma project.
     license: LGPL (>= 2.1)
-    home_url: https://github.com/HenrikBengtsson/aroma.core, http://www.aroma-project.org/
+    home_url: https://github.com/HenrikBengtsson/aroma.core
     total_pulls: 3
     manually_check: true
     keywords: []
@@ -25849,7 +25849,7 @@ r-aroma.affymetrix:
         studies to process tens of thousands of arrays.  this package has actively
         been used since 2006.
     license: LGPL (>= 2.1)
-    home_url: http://www.aroma-project.org/, https://github.com/HenrikBengtsson/aroma.affymetrix
+    home_url: https://github.com/HenrikBengtsson/aroma.affymetrix
     total_pulls: 3
     manually_check: true
     keywords: []
@@ -49404,7 +49404,7 @@ r-dnet:
     description: The focus of the dnet by Fang and Gough (2014) <doi:10.1186/s13073-014-0064-8>
         is
     license: GPL-2
-    home_url: http://dnet.r-forge.r-project.org, https://github.com/hfang-bristol/dnet
+    home_url: https://github.com/hfang-bristol/dnet
     total_pulls: 3
     manually_check: true
     keywords: []
@@ -53292,7 +53292,7 @@ r-xgr:
     name: r-xgr
     description: The central goal of XGR by Fang et al. (2016) is to
     license: GPL-2
-    home_url: http://XGR.r-forge.r-project.org, http://galahad.well.ox.ac.uk/XGR
+    home_url: http://galahad.well.ox.ac.uk/XGR
     total_pulls: 3
     manually_check: true
     identifiers:
@@ -93195,13 +93195,14 @@ nf-core:
     keywords: []
 kinsimriboswitch:
     name: kinsimriboswitch
-    description: Pipeline for the simulation of RNA--ligand interaction kinetics as
-        outlined in Kuehnl et al. 2017, https://doi.org/10.1186/s12859-017-1823-5
+    description: Pipeline for the simulation of RNA--ligand interaction kinetics as outlined in Kuehnl et al. 2017.
     license: GPL-3.0
     home_url: http://www.bioinf.uni-leipzig.de/~felix/
     total_pulls: 0
     manually_check: true
     keywords: []
+    identifiers:
+      -   doi:10.1186/s12859-017-1823-5
 popdel:
     name: popdel
     description: Fast structural deletion calling on population-scale short read paired-end
@@ -93885,7 +93886,7 @@ r-sads:
     description: Maximum likelihood tools to fit and compare models of species abundance
         distributions and of species rank-abundance distributions.
     license: GPL-2
-    home_url: http://piLaboratory.github.io/sads, https://github.com/piklprado/sads
+    home_url: https://github.com/piklprado/sads
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -94929,7 +94930,7 @@ r-hardyweinberg:
         several graphics for exploring the equilibrium status of a large set of bi-allelic
         markers: ternary plots with acceptance regions, log-ratio plots and Q-Q plots. '
     license: GPL (>= 2)
-    home_url: https://www.r-project.org, http://www-eio.upc.edu/~jan
+    home_url: http://www-eio.upc.edu/~jan
     total_pulls: 0
     manually_check: true
     identifiers:
