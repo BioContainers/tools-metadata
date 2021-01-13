@@ -143,7 +143,12 @@ tabix:
     home_url: https://github.com/samtools/htslib
     total_pulls: 45860
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Genome
+      -   Genomics
+      -   Information Storage and Retrieval
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btq671
 picard:
@@ -756,7 +761,10 @@ fastp:
     home_url: https://github.com/OpenGene/fastp/
     total_pulls: 9887
     manually_check: true
-    keywords: []
+    keywords:
+      -   Humans
+      -   Programming Languages
+      -   Quality Control
     identifiers:
       -   doi:10.1093/bioinformatics/bty560
 bandage:
@@ -942,7 +950,15 @@ cd-hit:
     home_url: https://github.com/weizhongli/cdhit
     total_pulls: 9213
     manually_check: true
-    keywords: []
+    keywords:
+      -   Biomedical Research
+      -   Computational Biology
+      -   Databases, Genetic
+      -   Datasets as Topic
+      -   Humans
+      -   Internet
+      -   Reproducibility of Results
+      -   User-Computer Interface
     identifiers:
       -   doi:10.7490/f1000research.1114334.1
       -   doi:10.1093/bioinformatics/bts565
@@ -1040,7 +1056,22 @@ kissplice:
     home_url: http://kissplice.prabi.fr/
     total_pulls: 8564
     manually_check: true
-    keywords: []
+    keywords:
+      -   Amino Acid Sequence
+      -   Animals
+      -   Base Sequence
+      -   Computational Biology
+      -   Genetic Markers
+      -   Genome
+      -   Genomics
+      -   Genotype
+      -   Humans
+      -   Phenotype
+      -   Polymorphism, Single Nucleotide
+      -   Reproducibility of Results
+      -   Sequence Analysis, DNA
+      -   Sequence Analysis, RNA
+      -   Transcriptome
     identifiers:
       -   doi:10.1093/nar/gkw655
 tpp:
@@ -1324,7 +1355,11 @@ progressivemauve:
     home_url: http://darlinglab.org/mauve/user-guide/progressivemauve.html
     total_pulls: 8161
     manually_check: true
-    keywords: []
+    keywords:
+      -   Gene Rearrangement
+      -   Genome, Bacterial
+      -   Models, Theoretical
+      -   Sequence Alignment
     identifiers:
       -   doi:10.1371/journal.pone.0011147
 roary:
@@ -1395,7 +1430,13 @@ snp-sites:
     home_url: https://github.com/sanger-pathogens/snp-sites
     total_pulls: 8026
     manually_check: true
-    keywords: []
+    keywords:
+      -   Base Sequence
+      -   Genome
+      -   High-Throughput Nucleotide Sequencing
+      -   Polymorphism, Single Nucleotide
+      -   Sequence Alignment
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1099/mgen.0.000056
 snap:
@@ -1540,7 +1581,23 @@ cat:
     home_url: https://github.com/dutilh/CAT
     total_pulls: 6732
     manually_check: true
-    keywords: []
+    keywords:
+      -   2-Propanol
+      -   Acetamides
+      -   Acetanilides
+      -   Benzene
+      -   Binding Sites
+      -   Cluster Analysis
+      -   Humans
+      -   Imidazoles
+      -   Ligands
+      -   Macromolecular Substances
+      -   Molecular Dynamics Simulation
+      -   Protein Domains
+      -   Proteins
+      -   Proteome
+      -   Receptors, Androgen
+      -   Solvents
     identifiers:
       -   doi:10.1038/S41598-019-55394-2
 bx-python:
@@ -1618,7 +1675,15 @@ ariba:
     home_url: https://github.com/sanger-pathogens/ariba
     total_pulls: 6641
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Drug Resistance, Microbial
+      -   Enterococcus faecium
+      -   Genomics
+      -   Humans
+      -   Infections
+      -   Neisseria gonorrhoeae
+      -   Shigella sonnei
     identifiers:
       -   doi:10.1099/mgen.0.000131
 andi:
@@ -1690,7 +1755,11 @@ assemblytics:
     home_url: http://assemblytics.com/
     total_pulls: 6617
     manually_check: true
-    keywords: []
+    keywords:
+      -   Genetic Variation
+      -   Genome
+      -   Genomics
+      -   Humans
     identifiers:
       -   doi:10.1093/bioinformatics/btw369
 baitfisher:
@@ -1700,7 +1769,16 @@ baitfisher:
     home_url: https://github.com/cmayer/BaitFisher-package
     total_pulls: 6611
     manually_check: true
-    keywords: []
+    keywords:
+      -   DNA
+      -   DNA Probes
+      -   Gene Library
+      -   Genome
+      -   High-Throughput Nucleotide Sequencing
+      -   Nucleic Acid Amplification Techniques
+      -   Phylogeny
+      -   Polymerase Chain Reaction
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/molbev/msw056
 minimap2:
@@ -1737,7 +1815,15 @@ miniasm:
     home_url: https://github.com/lh3/miniasm
     total_pulls: 6481
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Bacteria
+      -   Caenorhabditis elegans
+      -   Chromosome Mapping
+      -   Computational Biology
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btw152
 subread:
@@ -1921,7 +2007,15 @@ delly:
     home_url: https://github.com/dellytools/delly
     total_pulls: 6094
     manually_check: true
-    keywords: []
+    keywords:
+      -   Chromosome Mapping
+      -   Genome, Human
+      -   Genomic Structural Variation
+      -   Genomics
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Sequence Analysis, DNA
+      -   Sequence Deletion
     identifiers:
       -   doi:10.1093/bioinformatics/bts378
 exonerate:
@@ -1983,7 +2077,16 @@ clustalo:
     home_url: http://www.clustal.org/omega/
     total_pulls: 5871
     manually_check: true
-    keywords: []
+    keywords:
+      -   Amino Acid Sequence
+      -   Base Sequence
+      -   Data Mining
+      -   Databases, Factual
+      -   Molecular Sequence Data
+      -   Proteins
+      -   Sequence Alignment
+      -   Sequence Analysis, Protein
+      -   Systems Biology
     identifiers:
       -   doi:10.1002/pro.3290
       -   doi:10.1002/0471250953.bi0313s48
@@ -2214,7 +2317,14 @@ clearcut:
     home_url: http://bioinformatics.hungry.com/clearcut/
     total_pulls: 5807
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Computer Simulation
+      -   Evolution, Molecular
+      -   Models, Genetic
+      -   Models, Statistical
+      -   Phylogeny
+      -   Programming Languages
     identifiers:
       -   doi:10.1093/bioinformatics/btl478
 chromhmm:
@@ -2517,7 +2627,8 @@ edlib:
     home_url: https://github.com/Martinsos/edlib
     total_pulls: 5726
     manually_check: true
-    keywords: []
+    keywords:
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btw753
 vt:
@@ -2569,7 +2680,12 @@ infernal:
     home_url: https://github.com/EddyRivasLab/infernal
     total_pulls: 5463
     manually_check: true
-    keywords: []
+    keywords:
+      -   Nucleic Acid Conformation
+      -   RNA
+      -   Sequence Alignment
+      -   Sequence Analysis, RNA
+      -   Sequence Homology, Nucleic Acid
     identifiers:
       -   doi:10.1093/bioinformatics/btt509
 stringtie:
@@ -2941,7 +3057,13 @@ pirs:
     home_url: https://github.com/galaxy001/pirs
     total_pulls: 4889
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computer Simulation
+      -   High-Throughput Nucleotide Sequencing
+      -   Human Genome Project
+      -   Humans
+      -   Markov Chains
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/bts187
 pbsim:
@@ -2972,7 +3094,19 @@ piler:
     home_url: http://www.drive5.com/piler/
     total_pulls: 4888
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Arabidopsis
+      -   Computational Biology
+      -   Drosophila melanogaster
+      -   Gene Library
+      -   Genome
+      -   Genome, Human
+      -   Genomics
+      -   Humans
+      -   Microsatellite Repeats
+      -   Models, Genetic
+      -   Terminal Repeat Sequences
     identifiers:
       -   doi:10.1093/bioinformatics/bti1003
 mustang:
@@ -3226,7 +3360,13 @@ scrm:
     home_url: https://github.com/scrm/scrm
     total_pulls: 4833
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computer Simulation
+      -   Genetic Linkage
+      -   Genomics
+      -   High-Throughput Nucleotide Sequencing
+      -   Models, Genetic
+      -   Recombination, Genetic
     identifiers:
       -   doi:10.1093/bioinformatics/btu861
 screed:
@@ -3633,7 +3773,11 @@ pynast:
     home_url: https://github.com/biocore/qiime
     total_pulls: 4803
     manually_check: true
-    keywords: []
+    keywords:
+      -   Databases, Genetic
+      -   Sequence Alignment
+      -   Sequence Analysis, RNA
+      -   User-Computer Interface
     identifiers:
       -   doi:10.1093/bioinformatics/btp636
 treetime:
@@ -3924,7 +4068,18 @@ lofreq:
     home_url: https://sourceforge.net/projects/lofreq/
     total_pulls: 3671
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computer Simulation
+      -   Dengue Virus
+      -   Escherichia coli
+      -   Genetic Variation
+      -   Genomics
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Mutation
+      -   Sensitivity and Specificity
+      -   Stomach Neoplasms
+      -   Viral Proteins
     identifiers:
       -   doi:10.1093/nar/gks918
 qualimap:
@@ -3975,7 +4130,15 @@ crossmap:
     home_url: http://crossmap.sourceforge.net
     total_pulls: 3520
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Base Sequence
+      -   Genome
+      -   Genomics
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Mice
+      -   Sequence Alignment
     identifiers:
       -   doi:10.1093/bioinformatics/btt730
 mlst:
@@ -4008,7 +4171,13 @@ hyphy:
     home_url: https://github.com/veg/hyphy
     total_pulls: 3461
     manually_check: true
-    keywords: []
+    keywords:
+      -   Amino Acids
+      -   Bayes Theorem
+      -   Evolution, Molecular
+      -   Hepacivirus
+      -   Phylogeny
+      -   Proteins
     identifiers:
       -   doi:10.1007/978-1-4939-8736-8_6
 hicexplorer:
@@ -4079,7 +4248,13 @@ moabs:
     home_url: https://code.google.com/archive/p/moabs/
     total_pulls: 3397
     manually_check: true
-    keywords: []
+    keywords:
+      -   CpG Islands
+      -   DNA Methylation
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Models, Statistical
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1186/gb-2014-15-2-r38
 presto:
@@ -4443,7 +4618,11 @@ nonpareil:
     home_url: http://enve-omics.ce.gatech.edu/nonpareil/
     total_pulls: 3356
     manually_check: true
-    keywords: []
+    keywords:
+      -   Metagenome
+      -   Metagenomics
+      -   Microbiota
+      -   Soil Microbiology
     identifiers:
       -   doi:10.1093/bioinformatics/btt584
 varscan:
@@ -5139,7 +5318,21 @@ mummer4:
     home_url: https://github.com/mummer4/mummer
     total_pulls: 3228
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Arabidopsis
+      -   Computational Biology
+      -   Genome, Human
+      -   Genome, Plant
+      -   Genomics
+      -   Humans
+      -   Models, Theoretical
+      -   Pan troglodytes
+      -   Polymorphism, Single Nucleotide
+      -   Programming Languages
+      -   Sequence Alignment
+      -   Sequence Analysis, DNA
+      -   Sequence Analysis, Protein
     identifiers:
       -   doi:10.1371/journal.pcbi.1005944
 perl:
@@ -5258,7 +5451,15 @@ filtlong:
     home_url: https://github.com/rrwick/Filtlong
     total_pulls: 3208
     manually_check: true
-    keywords: []
+    keywords:
+      -   Bacteroides fragilis
+      -   Drug Resistance, Multiple, Bacterial
+      -   Genome, Bacterial
+      -   Genomics
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Sequence Analysis, DNA
+      -   Whole Genome Sequencing
     identifiers:
       -   doi:10.1099/MGEN.0.000312
 pureclip:
@@ -5376,7 +5577,14 @@ zerone:
     home_url: https://github.com/nanakiksc/zerone
     total_pulls: 3203
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Chromatin Immunoprecipitation
+      -   DNA Replication
+      -   Genome
+      -   Quality Control
+      -   Reproducibility of Results
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btw336
 perl-onto-perl:
@@ -5578,7 +5786,11 @@ cpat:
     home_url: http://rna-cpat.sourceforge.net/
     total_pulls: 2884
     manually_check: true
-    keywords: []
+    keywords:
+      -   Logistic Models
+      -   Open Reading Frames
+      -   RNA, Untranslated
+      -   Sequence Analysis, RNA
     identifiers:
       -   doi:10.1093/nar/gkt006
 sra-tools:
@@ -5795,7 +6007,12 @@ seqkit:
     home_url: https://github.com/shenwei356/seqkit/
     total_pulls: 1153
     manually_check: true
-    keywords: []
+    keywords:
+      -   Amino Acid Sequence
+      -   Base Sequence
+      -   Data Mining
+      -   Sequence Alignment
+      -   Web Browser
     identifiers:
       -   doi:10.1371/journal.pone.0163962
 faqcs:
@@ -6169,7 +6386,13 @@ flye:
     home_url: https://github.com/fenderglass/Flye
     total_pulls: 346
     manually_check: true
-    keywords: []
+    keywords:
+      -   DNA, Bacterial
+      -   Enterobacteriaceae
+      -   Gene Library
+      -   Genome, Bacterial
+      -   High-Throughput Nucleotide Sequencing
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1099/MGEN.0.000294
 ensembl-vep:
@@ -6316,7 +6539,9 @@ singularity:
     home_url: https://github.com/hpcng/singularity
     total_pulls: 197
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computers
+      -   User-Computer Interface
     identifiers:
       -   doi:10.1371/journal.pone.0177459
 velvet:
@@ -6679,7 +6904,17 @@ nanovar:
     home_url: https://github.com/cytham/nanovar
     total_pulls: 78
     manually_check: true
-    keywords: []
+    keywords:
+      -   Cells, Cultured
+      -   Genetic Testing
+      -   Genomic Structural Variation
+      -   HCT116 Cells
+      -   Humans
+      -   Leukemia, Myeloid
+      -   Nanopore Sequencing
+      -   Reproducibility of Results
+      -   Sensitivity and Specificity
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1186/s13059-020-01968-7
 mzml2isa:
@@ -6818,7 +7053,11 @@ rdock:
     home_url: http://rdock.sourceforge.net/
     total_pulls: 65
     manually_check: true
-    keywords: []
+    keywords:
+      -   Drug Discovery
+      -   Ligands
+      -   Nucleic Acids
+      -   Proteins
     identifiers:
       -   doi:10.1371/journal.pcbi.1003571
 snakemake-minimal:
@@ -6887,7 +7126,11 @@ tpmcalculator:
     home_url: https://github.com/ncbi/TPMCalculator
     total_pulls: 62
     manually_check: true
-    keywords: []
+    keywords:
+      -   Exons
+      -   Genomics
+      -   RNA, Messenger
+      -   Sequence Analysis, RNA
     identifiers:
       -   doi:10.1093/bioinformatics/bty896
 tidehunter:
@@ -6898,7 +7141,11 @@ tidehunter:
     home_url: https://github.com/yangao07/TideHunter
     total_pulls: 61
     manually_check: true
-    keywords: []
+    keywords:
+      -   High-Throughput Nucleotide Sequencing
+      -   Nanopores
+      -   Sequence Analysis, DNA
+      -   Tandem Repeat Sequences
     identifiers:
       -   doi:10.1093/BIOINFORMATICS/BTZ376
 soapec:
@@ -6917,7 +7164,14 @@ metilene:
     home_url: http://www.bioinf.uni-leipzig.de/Software/metilene/
     total_pulls: 58
     manually_check: true
-    keywords: []
+    keywords:
+      -   Case-Control Studies
+      -   Cerebellar Neoplasms
+      -   CpG Islands
+      -   DNA Methylation
+      -   Humans
+      -   Medulloblastoma
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1101/gr.196394.115
 metaphlan:
@@ -6984,7 +7238,14 @@ circexplorer2:
     home_url: https://github.com/YangLab/CIRCexplorer2
     total_pulls: 56
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Databases, Nucleic Acid
+      -   Genome-Wide Association Study
+      -   Molecular Sequence Annotation
+      -   RNA
+      -   RNA Splicing
+      -   RNA, Circular
     identifiers:
       -   doi:10.1007/978-1-4939-8808-2_10
 pepnovo:
@@ -7145,7 +7406,8 @@ ipyrad:
     home_url: http://github.com/dereneaton/ipyrad
     total_pulls: 51
     manually_check: true
-    keywords: []
+    keywords:
+      -   Documentation
     identifiers:
       -   doi:10.1093/bioinformatics/btz966
 magicblast:
@@ -7484,7 +7746,11 @@ primedrpa:
     home_url: https://github.com/MatthewHiggins2017/bioconda-PrimedRPA/
     total_pulls: 43
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   DNA Primers
+      -   Nucleic Acid Amplification Techniques
+      -   Recombinases
     identifiers:
       -   doi:10.1093/bioinformatics/bty701
 mgltools:
@@ -7606,7 +7872,17 @@ breseq:
     home_url: https://github.com/barricklab/breseq
     total_pulls: 41
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Directed Molecular Evolution
+      -   Escherichia coli
+      -   Genome, Microbial
+      -   Genomic Structural Variation
+      -   Haploidy
+      -   High-Throughput Nucleotide Sequencing
+      -   Interspersed Repetitive Sequences
+      -   Mutation
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.7490/f1000research.1114334.1
       -   doi:10.1093/nar/gkw343
@@ -8216,7 +8492,21 @@ seroba:
     home_url: https://github.com/sanger-pathogens/seroba
     total_pulls: 39
     manually_check: true
-    keywords: []
+    keywords:
+      -   Alleles
+      -   Child, Preschool
+      -   Databases, Genetic
+      -   Genes, Bacterial
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Pneumococcal Infections
+      -   Polymorphism, Single Nucleotide
+      -   Sensitivity and Specificity
+      -   Serogroup
+      -   Serotyping
+      -   Streptococcus mitis
+      -   Streptococcus pneumoniae
+      -   Whole Genome Sequencing
     identifiers:
       -   doi:10.1099/mgen.0.000186
 bioconductor-geneattribution:
@@ -8792,7 +9082,16 @@ dammet:
     home_url: https://gitlab.com/KHanghoj/DamMet
     total_pulls: 38
     manually_check: true
-    keywords: []
+    keywords:
+      -   Autopsy
+      -   Computational Biology
+      -   CpG Islands
+      -   DNA Damage
+      -   DNA Methylation
+      -   Epigenomics
+      -   Gene Expression Profiling
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
     identifiers:
       -   doi:10.1093/gigascience/giz025
 compare-reads:
@@ -8977,7 +9276,13 @@ ribodiff:
     home_url: http://public.bmi.inf.ethz.ch/user/zhongy/RiboDiff/index.html
     total_pulls: 37
     manually_check: true
-    keywords: []
+    keywords:
+      -   Gene Expression Regulation
+      -   High-Throughput Nucleotide Sequencing
+      -   Protein Biosynthesis
+      -   RNA, Messenger
+      -   Ribosomes
+      -   Sequence Analysis, RNA
     identifiers:
       -   doi:10.1093/bioinformatics/btw585
 ribocode:
@@ -9058,7 +9363,12 @@ metacherchant:
     home_url: https://github.com/ctlab/metacherchant
     total_pulls: 37
     manually_check: true
-    keywords: []
+    keywords:
+      -   Bacteria
+      -   Drug Resistance, Bacterial
+      -   Gastrointestinal Microbiome
+      -   Humans
+      -   Metagenomics
     identifiers:
       -   doi:10.1093/bioinformatics/btx681
 r-perfmeas:
@@ -9581,7 +9891,12 @@ pypore:
     home_url: http://parkin.github.io/pypore/
     total_pulls: 35
     manually_check: true
-    keywords: []
+    keywords:
+      -   Genome
+      -   High-Throughput Nucleotide Sequencing
+      -   Nanopore Sequencing
+      -   Nanopores
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btz269
 perl-moosex-types:
@@ -9800,7 +10115,16 @@ novobreak:
     home_url: https://github.com/czc/nb_distribution
     total_pulls: 34
     manually_check: true
-    keywords: []
+    keywords:
+      -   Chromosome Breakpoints
+      -   Computational Biology
+      -   Genome, Human
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Mutation
+      -   Neoplasms
+      -   Sequence Analysis, DNA
+      -   Tumor Cells, Cultured
     identifiers:
       -   doi:10.1038/nmeth.4084
 cistrome_beta:
@@ -9976,7 +10300,23 @@ famseq:
     home_url: http://bioinformatics.mdanderson.org/main/FamSeq
     total_pulls: 33
     manually_check: true
-    keywords: []
+    keywords:
+      -   Bayes Theorem
+      -   Family
+      -   Female
+      -   Genetic Variation
+      -   Genome, Human
+      -   Humans
+      -   Kidney Neoplasms
+      -   Likelihood Functions
+      -   Male
+      -   Mitochondrial Diseases
+      -   Models, Genetic
+      -   Neurodegenerative Diseases
+      -   Pedigree
+      -   Polymorphism, Single Nucleotide
+      -   Sequence Analysis, DNA
+      -   Wilms Tumor
     identifiers:
       -   doi:10.1073/pnas.1222158110
 biobb_model:
@@ -10183,7 +10523,11 @@ nmrml2isa:
     home_url: http://github.com/ISA-tools/nmrml2isa
     total_pulls: 28
     manually_check: true
-    keywords: []
+    keywords:
+      -   Data Mining
+      -   Information Storage and Retrieval
+      -   Metabolomics
+      -   Metadata
     identifiers:
       -   doi:10.1093/bioinformatics/btx169
 bioconductor-rtracklayer:
@@ -10622,7 +10966,15 @@ tetranscripts:
     home_url: https://github.com/mhammell-laboratory/TEtranscripts
     total_pulls: 23
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   DNA Transposable Elements
+      -   Databases, Genetic
+      -   Drosophila melanogaster
+      -   Gene Expression Profiling
+      -   Mice
+      -   RNA, Messenger
+      -   Sequence Analysis, RNA
     identifiers:
       -   doi:10.1093/bioinformatics/btv422
 openduck:
@@ -11034,7 +11386,11 @@ svtools:
     home_url: https://github.com/hall-lab/svtools
     total_pulls: 20
     manually_check: true
-    keywords: []
+    keywords:
+      -   Genome, Human
+      -   Humans
+      -   Sequence Deletion
+      -   Whole Genome Sequencing
     identifiers:
       -   doi:10.5281/zenodo.3406745
       -   doi:10.1093/bioinformatics/btz492
@@ -11282,7 +11638,13 @@ orthofinder:
     home_url: https://github.com/davidemms/OrthoFinder
     total_pulls: 19
     manually_check: true
-    keywords: []
+    keywords:
+      -   Genes, Plant
+      -   Genomics
+      -   Multigene Family
+      -   Phylogeny
+      -   Proteins
+      -   Transcription Factors
     identifiers:
       -   doi:10.1186/s13059-015-0721-2
       -   doi:10.1101/466201
@@ -11367,7 +11729,12 @@ svim:
     home_url: https://github.com/eldariont/svim
     total_pulls: 19
     manually_check: true
-    keywords: []
+    keywords:
+      -   Genome
+      -   Genomics
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btz041
 bioconductor-clusterexperiment:
@@ -11511,7 +11878,10 @@ toil:
     home_url: https://github.com/DataBiosphere/toil
     total_pulls: 18
     manually_check: true
-    keywords: []
+    keywords:
+      -   Biomedical Research
+      -   Electronic Data Processing
+      -   Humans
     identifiers:
       -   doi:10.1038/nbt.3772
 arvados-python-client:
@@ -12005,7 +12375,12 @@ ivar:
     identifiers:
       -   biotools:ivar
       -   doi:10.1186/s13059-018-1618-7
-    keywords: []
+    keywords:
+      -   Genetic Variation
+      -   Genomics
+      -   Sequence Analysis, RNA
+      -   West Nile virus
+      -   Zika Virus
 ncbi-amrfinderplus:
     name: ncbi-amrfinderplus
     description: AMRFinderPlus finds antimicrobial resistance and other genes in protein
@@ -12475,7 +12850,15 @@ afterqc:
     home_url: https://github.com/OpenGene/AfterQC
     total_pulls: 15
     manually_check: true
-    keywords: []
+    keywords:
+      -   Amino Acid Sequence
+      -   DNA
+      -   DNA Mismatch Repair
+      -   Databases, Genetic
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Quality Control
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1186/s12859-017-1469-3
 bioconductor-scran:
@@ -12617,7 +13000,18 @@ recentrifuge:
     home_url: https://github.com/khyox/recentrifuge
     total_pulls: 15
     manually_check: true
-    keywords: []
+    keywords:
+      -   Big Data
+      -   Computational Biology
+      -   DNA Contamination
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Internet
+      -   Metagenome
+      -   Metagenomics
+      -   Microbiota
+      -   Sequence Analysis, DNA
+      -   Whole Genome Sequencing
     identifiers:
       -   doi:10.1371/journal.pcbi.1006967
 mpa-server:
@@ -12650,7 +13044,15 @@ optitype:
     home_url: https://github.com/FRED-2/OptiType
     total_pulls: 14
     manually_check: true
-    keywords: []
+    keywords:
+      -   Exome
+      -   Genotyping Techniques
+      -   HLA Antigens
+      -   High-Throughput Nucleotide Sequencing
+      -   Histocompatibility Testing
+      -   Humans
+      -   Introns
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btu548
 svviz:
@@ -13010,7 +13412,11 @@ pandaseq:
     home_url: https://github.com/neufeld/pandaseq
     total_pulls: 13
     manually_check: true
-    keywords: []
+    keywords:
+      -   Bacteria
+      -   Metagenomics
+      -   RNA, Bacterial
+      -   RNA, Ribosomal, 16S
     identifiers:
       -   doi:10.1186/1471-2105-13-31
 peddy:
@@ -14550,7 +14956,12 @@ ntjoin:
     home_url: http://www.bcgsc.ca/platform/bioinfo/software/ntjoin
     total_pulls: 10
     manually_check: true
-    keywords: []
+    keywords:
+      -   Genome, Human
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Sequence Analysis, DNA
+      -   Synteny
     identifiers:
       -   doi:10.1093/bioinformatics/btaa253
 sensv:
@@ -15040,7 +15451,9 @@ expansionhunter:
     home_url: https://github.com/Illumina/ExpansionHunter
     total_pulls: 8
     manually_check: true
-    keywords: []
+    keywords:
+      -   Genotype
+      -   Microsatellite Repeats
     identifiers:
       -   doi:10.1093/bioinformatics/btz431
 primer3-py:
@@ -15155,7 +15568,11 @@ ushuffle:
     home_url: http://digital.cs.usu.edu/~mjiang/ushuffle/
     total_pulls: 8
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computer Simulation
+      -   Models, Genetic
+      -   Models, Statistical
+      -   Sequence Analysis
     identifiers:
       -   doi:10.1186/1471-2105-9-192
 bioconductor-titancna:
@@ -15390,7 +15807,11 @@ deepac:
     home_url: https://gitlab.com/rki_bioinformatics/DeePaC
     total_pulls: 8
     manually_check: true
-    keywords: []
+    keywords:
+      -   DNA
+      -   Deep Learning
+      -   Neural Networks, Computer
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btz541
 cesm:
@@ -15443,7 +15864,8 @@ entrezpy:
     home_url: https://gitlab.com/ncbipy/entrezpy
     total_pulls: 8
     manually_check: true
-    keywords: []
+    keywords:
+      -   Databases, Factual
     identifiers:
       -   doi:10.1093/BIOINFORMATICS/BTZ385
 samplot:
@@ -15550,7 +15972,10 @@ desalt:
     home_url: https://github.com/ydLiu-HIT/
     total_pulls: 8
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Humans
+      -   Sequence Alignment
     identifiers:
       -   doi:10.1186/S13059-019-1895-9
 cutesv:
@@ -15634,7 +16059,11 @@ pybedgraph:
     home_url: https://github.com/TheJacksonLaboratory/pyBedGraph
     total_pulls: 8
     manually_check: true
-    keywords: []
+    keywords:
+      -   Chromatin
+      -   Genome
+      -   Genomics
+      -   High-Throughput Nucleotide Sequencing
     identifiers:
       -   doi:10.1093/bioinformatics/btaa061
 ncbimeta:
@@ -17158,7 +17587,8 @@ python-edlib:
     home_url: https://github.com/Martinsos/edlib
     total_pulls: 6
     manually_check: true
-    keywords: []
+    keywords:
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btw753
 quicksect:
@@ -21118,7 +21548,13 @@ pepquery:
     home_url: https://github.com/bzhanglab/PepQuery
     total_pulls: 5
     manually_check: true
-    keywords: []
+    keywords:
+      -   Genome, Human
+      -   Humans
+      -   Polymorphism, Genetic
+      -   Proteome
+      -   Sequence Analysis, DNA
+      -   Sequence Analysis, Protein
     identifiers:
       -   doi:10.1101/gr.235028.118
 bioconductor-easyqpcr:
@@ -22352,7 +22788,17 @@ plascope:
     home_url: https://github.com/labgem/PlaScope
     total_pulls: 4
     manually_check: true
-    keywords: []
+    keywords:
+      -   Chromosomes, Bacterial
+      -   Drug Resistance, Bacterial
+      -   Escherichia coli
+      -   Genome, Bacterial
+      -   Klebsiella pneumoniae
+      -   Operon
+      -   Plasmids
+      -   Virulence Factors
+      -   Whole Genome Sequencing
+      -   Workflow
     identifiers:
       -   doi:10.1099/mgen.0.000211
 bamclipper:
@@ -22535,7 +22981,10 @@ rnaquast:
     home_url: http://cab.spbu.ru/software/rnaquast/
     total_pulls: 4
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Sequence Analysis, RNA
+      -   Transcriptome
     identifiers:
       -   doi:10.1093/bioinformatics/btw218
 clust:
@@ -22872,7 +23321,12 @@ circle-map:
     home_url: https://github.com/iprada/Circle-Map
     total_pulls: 4
     manually_check: true
-    keywords: []
+    keywords:
+      -   DNA, Circular
+      -   Databases, Genetic
+      -   Humans
+      -   Nucleotides
+      -   Sequence Alignment
     identifiers:
       -   doi:10.1186/S12859-019-3160-3
 wget:
@@ -22974,7 +23428,14 @@ hops:
     home_url: https://github.com/rhuebler/HOPS/
     total_pulls: 4
     manually_check: true
-    keywords: []
+    keywords:
+      -   Genetic Pleiotropy
+      -   Genetic Variation
+      -   Genome, Human
+      -   Genome-Wide Association Study
+      -   Genomics
+      -   Humans
+      -   Multifactorial Inheritance
     identifiers:
       -   doi:10.1186/S13059-019-1844-7
 kounta:
@@ -23240,7 +23701,16 @@ metaeuk:
     home_url: https://github.com/soedinglab/metaeuk
     total_pulls: 4
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Databases, Genetic
+      -   Eukaryota
+      -   High-Throughput Screening Assays
+      -   Metagenome
+      -   Metagenomics
+      -   Microbiota
+      -   Molecular Sequence Annotation
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1186/s40168-020-00808-x
       -   doi:10.1101/851964
@@ -23381,7 +23851,12 @@ edta:
     home_url: https://github.com/oushujun/EDTA
     total_pulls: 4
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Benchmarking
+      -   DNA Transposable Elements
+      -   Humans
+      -   Molecular Sequence Annotation
     identifiers:
       -   doi:10.1186/S13059-019-1905-Y
 pairsnp:
@@ -23880,7 +24355,10 @@ ptrimmer:
     home_url: https://github.com/DMU-lilab/pTrimmer
     total_pulls: 4
     manually_check: true
-    keywords: []
+    keywords:
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1186/S12859-019-2854-X
 opentargets:
@@ -41309,7 +41787,11 @@ mmseqs2:
     home_url: https://github.com/soedinglab/mmseqs2
     total_pulls: 3
     manually_check: true
-    keywords: []
+    keywords:
+      -   Database Management Systems
+      -   Databases, Protein
+      -   Sequence Alignment
+      -   Sequence Analysis, Protein
     identifiers:
       -   doi:10.1093/bioinformatics/bty1057
       -   doi:10.1038/s41467-018-04964-5
@@ -41345,7 +41827,15 @@ gblocks:
     home_url: http://molevol.cmima.csic.es/castresana/Gblocks.html
     total_pulls: 3
     manually_check: true
-    keywords: []
+    keywords:
+      -   Biomedical Research
+      -   Computational Biology
+      -   Databases, Genetic
+      -   Datasets as Topic
+      -   Humans
+      -   Internet
+      -   Reproducibility of Results
+      -   User-Computer Interface
     identifiers:
       -   doi:10.7490/f1000research.1114334.1
       -   doi:10.1093/nar/gkw343
@@ -55059,7 +55549,11 @@ capc-map:
     home_url: https://github.com/cbrackley/capC-MAP
     total_pulls: 3
     manually_check: true
-    keywords: []
+    keywords:
+      -   Chromatin
+      -   Chromosomes
+      -   Genome
+      -   Genomics
     identifiers:
       -   doi:10.1093/bioinformatics/btz480
 ribotricer:
@@ -55094,7 +55588,11 @@ crispritz:
     home_url: https://github.com/pinellolab/CRISPRitz
     total_pulls: 3
     manually_check: true
-    keywords: []
+    keywords:
+      -   CRISPR-Cas Systems
+      -   Clustered Regularly Interspaced Short Palindromic Repeats
+      -   Gene Editing
+      -   RNA, Guide
     identifiers:
       -   doi:10.1093/BIOINFORMATICS/BTZ867
 bioconductor-cola:
@@ -57503,7 +58001,14 @@ cellprofiler:
     home_url: https://github.com/CellProfiler/CellProfiler
     total_pulls: 3
     manually_check: true
-    keywords: []
+    keywords:
+      -   Cell Count
+      -   Colony Count, Microbial
+      -   Cytological Techniques
+      -   Image Processing, Computer-Assisted
+      -   Saccharomyces cerevisiae
+      -   Tissue Array Analysis
+      -   Wound Healing
     identifiers:
       -   doi:10.2144/000112257
 intarna:
@@ -59106,7 +59611,17 @@ xgboost:
     home_url: https://pypi.python.org/packages/34/85/456a1a8c762f646671043e446a59efbce02b5f408f522c4ef8793e860c5e/xgboost-0.6a2.tar.gz
     total_pulls: 1
     manually_check: true
-    keywords: []
+    keywords:
+      -   Biomarkers, Tumor
+      -   Computational Biology
+      -   Databases, Genetic
+      -   Gene Expression Profiling
+      -   Gene Expression Regulation, Neoplastic
+      -   Humans
+      -   Neoplasms
+      -   Reproducibility of Results
+      -   Sequence Analysis, RNA
+      -   Supervised Machine Learning
     identifiers:
       -   doi:10.1186/S12864-019-6412-8
 ericscript:
@@ -65283,7 +65798,8 @@ edlib-aligner:
     home_url: https://github.com/Martinsos/edlib
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btw753
 dindel:
@@ -65411,7 +65927,15 @@ examl:
     home_url: https://github.com/stamatak/ExaML
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computer Simulation
+      -   Computers
+      -   Genome, Human
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Phylogeny
+      -   Sequence Analysis, DNA
+      -   User-Computer Interface
     identifiers:
       -   doi:10.1093/bioinformatics/btv184
 dotter:
@@ -68735,7 +69259,11 @@ sumtrees:
     home_url: https://github.com/jeetsukumaran/DendroPy
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Databases, Factual
+      -   Phylogeny
+      -   Programming Languages
     identifiers:
       -   doi:10.1093/bioinformatics/btq228
 samtools-test:
@@ -69647,7 +70175,15 @@ ramid:
     home_url: Not available
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Carbon Isotopes
+      -   Cell Line
+      -   Humans
+      -   Isotope Labeling
+      -   Kinetics
+      -   Mass Spectrometry
+      -   Metabolomics
+      -   Workflow
     identifiers:
       -   doi:10.1007/978-1-0716-0159-4_12
 jupyter:
@@ -70889,7 +71425,17 @@ peptimapper:
     home_url: https://github.com/laeticlo/Ectoline
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Amino Acid Sequence
+      -   Codon
+      -   Eukaryota
+      -   Genome
+      -   Mass Spectrometry
+      -   Molecular Sequence Annotation
+      -   Peptides
+      -   Proteogenomics
+      -   Reproducibility of Results
+      -   Workflow
     identifiers:
       -   doi:10.1186/s12864-019-5431-9
 openmolar:
@@ -86362,7 +86908,16 @@ lemon:
     home_url: https://lemon.cs.elte.hu/trac/lemon
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Bacteria
+      -   Computer Simulation
+      -   Databases, Genetic
+      -   Gastrointestinal Tract
+      -   Gene Fusion
+      -   Gene Transfer, Horizontal
+      -   Humans
+      -   Metagenomics
+      -   Transcriptome
     identifiers:
       -   doi:10.1186/S12859-019-3301-8
 mercat:
@@ -89993,7 +90548,14 @@ mixcr:
     home_url: https://github.com/milaboratory/mixcr
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Adaptive Immunity
+      -   Animals
+      -   DNA
+      -   Gene Expression Regulation
+      -   Humans
+      -   Mice
+      -   RNA
     identifiers:
       -   doi:10.1038/nmeth.3364
 daisysuite:
@@ -90427,7 +90989,17 @@ spine:
     home_url: https://github.com/egonozer/Spine
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   DNA Transposable Elements
+      -   Evolution, Molecular
+      -   Gene Library
+      -   Humans
+      -   Mutagenesis, Insertional
+      -   Oligonucleotides
+      -   Potassium Channels, Inwardly Rectifying
+      -   Protein Domains
+      -   Protein Engineering
+      -   Recombination, Genetic
     identifiers:
       -   doi:10.1093/NAR/GKZ1110
 secimtools:
@@ -90600,7 +91172,24 @@ mqc:
     home_url: https://github.com/Biobix/mQC
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Cell Line, Tumor
+      -   Colonic Neoplasms
+      -   Computational Biology
+      -   Cycloheximide
+      -   Gene Expression Profiling
+      -   Genome-Wide Association Study
+      -   HCT116 Cells
+      -   HEK293 Cells
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Open Reading Frames
+      -   Quality Control
+      -   RNA, Messenger
+      -   Reproducibility of Results
+      -   Ribosomes
+      -   Sequence Analysis, DNA
+      -   Sequence Analysis, RNA
     identifiers:
       -   doi:10.1016/j.cmpb.2018.10.018
 gqt:
@@ -91136,7 +91725,17 @@ riboseed:
     home_url: https://github.com/nickp60/riboSeed
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Base Sequence
+      -   Chromosome Mapping
+      -   DNA, Bacterial
+      -   DNA, Ribosomal
+      -   Escherichia coli
+      -   Genome, Bacterial
+      -   Genomics
+      -   High-Throughput Nucleotide Sequencing
+      -   Klebsiella pneumoniae
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/nar/gky212
 qtip:
@@ -91630,7 +92229,18 @@ ideas:
     home_url: https://github.com/yuzhang123/IDEAS
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Epigenomics
+      -   Forecasting
+      -   Gene Regulatory Networks
+      -   Genome, Human
+      -   Genomics
+      -   Humans
+      -   Polymorphism, Single Nucleotide
+      -   Regulatory Elements, Transcriptional
+      -   Regulatory Sequences, Nucleic Acid
+      -   Sequence Analysis, DNA
+      -   Whole Genome Sequencing
     identifiers:
       -   doi:10.1371/JOURNAL.PCBI.1007399
 swiftlink:
@@ -96950,7 +97560,14 @@ pathwaymatcher:
     home_url: https://github.com/PathwayAnalysisPlatform/PathwayMatcher
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Gene Regulatory Networks
+      -   Humans
+      -   Polymorphism, Single Nucleotide
+      -   Protein Interaction Mapping
+      -   Protein Processing, Post-Translational
+      -   Signal Transduction
     identifiers:
       -   doi:10.1093/GIGASCIENCE/GIZ088
 confindr:
@@ -98616,7 +99233,13 @@ lordfast:
     home_url: https://github.com/vpc-ccg/lordfast
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Genome, Human
+      -   Genomics
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/bty544
 perl-graphics-colornames:
@@ -98737,7 +99360,18 @@ hulk:
     home_url: https://github.com/will-rowe/hulk
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Anti-Bacterial Agents
+      -   Bacteria
+      -   Bacterial Infections
+      -   Cohort Studies
+      -   Gastrointestinal Microbiome
+      -   Humans
+      -   Infant, Newborn
+      -   Infant, Premature
+      -   Machine Learning
+      -   Metagenomics
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1186/s40168-019-0653-2
 perl-heap-simple:
@@ -99959,7 +100593,17 @@ topas:
     home_url: https://github.com/subwaystation/TOPAS
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Eye Neoplasms
+      -   Humans
+      -   Melanoma
+      -   Monte Carlo Method
+      -   Precision Medicine
+      -   Proton Therapy
+      -   Radiosurgery
+      -   Radiotherapy Dosage
+      -   Scattering, Radiation
+      -   Tomography, X-Ray Computed
     identifiers:
       -   doi:10.1118/1.4758060
 perl-autodie:
@@ -100196,7 +100840,12 @@ plass:
     home_url: https://github.com/soedinglab/plass
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Amino Acid Sequence
+      -   Codon
+      -   Metagenomics
+      -   Open Reading Frames
+      -   Proteins
     identifiers:
       -   doi:10.1101/386110
       -   doi:10.1038/s41592-019-0437-4
@@ -100368,7 +101017,9 @@ bazam:
     home_url: https://github.com/ssadedin/bazam
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   High-Throughput Nucleotide Sequencing
+      -   Sequence Alignment
     identifiers:
       -   doi:10.1186/s13059-019-1688-1
 dnp-binstrings:
@@ -100737,7 +101388,13 @@ metaseq:
     home_url: http://github.com/daler/metaseq
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Gene Expression Profiling
+      -   Genomics
+      -   High-Throughput Screening Assays
+      -   Programming Languages
+      -   User-Computer Interface
     identifiers:
       -   doi:10.1038/nmeth.3252
 ska:
@@ -101423,7 +102080,9 @@ lambda:
     home_url: http://seqan.github.io/lambda/
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Sequence Analysis, RNA
+      -   Single-Cell Analysis
     identifiers:
       -   doi:10.1093/BIOINFORMATICS/BTZ295
 xmatchview:
@@ -102704,7 +103363,10 @@ fastqpuri:
     home_url: https://github.com/jengelmann/FastqPuri
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Sequence Analysis, RNA
     identifiers:
       -   doi:10.1186/s12859-019-2799-0
 finestructure:
@@ -103585,7 +104247,14 @@ pybda:
     home_url: https://github.com/cbg-ethz/pybda
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Automation
+      -   Computational Biology
+      -   Computing Methodologies
+      -   HeLa Cells
+      -   Humans
+      -   Image Processing, Computer-Assisted
+      -   Machine Learning
     identifiers:
       -   doi:10.1186/s12859-019-3087-8
 pepgenome:
@@ -104402,7 +105071,10 @@ bustools:
     home_url: https://github.com/BUStools/bustools
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Sequence Analysis, RNA
+      -   Single-Cell Analysis
+      -   Whole Exome Sequencing
     identifiers:
       -   doi:10.1093/BIOINFORMATICS/BTZ279
 guessmylt:
@@ -104719,7 +105391,11 @@ modeltest-ng:
     home_url: https://github.com/ddarriba/modeltest
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Amino Acid Substitution
+      -   Evolution, Molecular
+      -   Genetic Techniques
+      -   Models, Genetic
     identifiers:
       -   doi:10.1093/MOLBEV/MSZ189
 carnac-lr:
@@ -104960,7 +105636,20 @@ uvp:
     home_url: https://github.com/CPTR-ReSeqTB/UVP
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Antitubercular Agents
+      -   Bacterial Proteins
+      -   Drug Resistance, Multiple, Bacterial
+      -   Genome, Bacterial
+      -   Genotype
+      -   Humans
+      -   Knowledge Bases
+      -   Mutation
+      -   Mycobacterium tuberculosis
+      -   Polymorphism, Single Nucleotide
+      -   Sequence Analysis, DNA
+      -   Tuberculosis, Multidrug-Resistant
+      -   Whole Genome Sequencing
     identifiers:
       -   doi:10.1038/s41598-018-33731-1
 aquila_umap:
@@ -105262,7 +105951,22 @@ panpasco:
     home_url: https://gitlab.com/rki_bioinformatics/panpasco
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Chromosome Mapping
+      -   Computational Biology
+      -   Computer Simulation
+      -   DNA, Bacterial
+      -   Databases, Genetic
+      -   Disease Outbreaks
+      -   Genome, Bacterial
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Molecular Epidemiology
+      -   Mycobacterium tuberculosis
+      -   Polymorphism, Single Nucleotide
+      -   Sequence Analysis, DNA
+      -   Tuberculosis
+      -   Whole Genome Sequencing
     identifiers:
       -   doi:10.1371/JOURNAL.PCBI.1007527
 fastaptamer:
@@ -105414,7 +106118,12 @@ rappas:
     home_url: https://github.com/blinard-BIOINFO/RAPPAS
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Likelihood Functions
+      -   Metagenome
+      -   Phylogeny
+      -   Sequence Alignment
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btz068
 tagore:
@@ -105820,7 +106529,11 @@ cryfa:
     home_url: https://github.com/smortezah/cryfa
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Data Compression
+      -   Genomics
+      -   High-Throughput Nucleotide Sequencing
     identifiers:
       -   doi:10.1093/bioinformatics/bty645
 abra2:
@@ -106280,7 +106993,15 @@ lca:
     home_url: https://github.com/hildebra/LCA/
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Biomedical Research
+      -   Computational Biology
+      -   Databases, Genetic
+      -   Datasets as Topic
+      -   Humans
+      -   Internet
+      -   Reproducibility of Results
+      -   User-Computer Interface
     identifiers:
       -   doi:10.7490/f1000research.1114334.1
       -   doi:10.1093/nar/gkw343
@@ -106310,7 +107031,12 @@ scssim:
     home_url: https://github.com/qasimyu/scssim
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Chromosome Mapping
+      -   Genomics
+      -   High-Throughput Nucleotide Sequencing
+      -   Sequence Analysis, DNA
+      -   Whole Genome Sequencing
     identifiers:
       -   doi:10.1093/BIOINFORMATICS/BTZ713
 popera:
@@ -107583,7 +108309,11 @@ sed:
     home_url: Not available
     identifiers:
       -   doi:10.1093/BIOINFORMATICS/BTZ336
-    keywords: []
+    keywords:
+      -   Humans
+      -   Ligands
+      -   Neural Networks, Computer
+      -   Receptors, G-Protein-Coupled
     license: GPL
     manually_check: true
     name: sed
@@ -108145,7 +108875,14 @@ bolt:
     home_url: https://github.com/sakkayaphab/bolt
     identifiers:
       -   doi:10.1007/S13361-019-02306-3
-    keywords: []
+    keywords:
+      -   Databases, Protein
+      -   HeLa Cells
+      -   Humans
+      -   Peptides
+      -   Proteomics
+      -   Sequence Analysis, Protein
+      -   Tandem Mass Spectrometry
     license: MIT
     manually_check: true
     name: bolt
@@ -111116,7 +111853,10 @@ bioconductor-rfastp:
     home_url: https://bioconductor.org/packages/3.12/bioc/html/Rfastp.html
     identifiers:
       -   doi:10.1093/bioinformatics/bty560
-    keywords: []
+    keywords:
+      -   Humans
+      -   Programming Languages
+      -   Quality Control
     license: GPL-3.0
     manually_check: true
     name: bioconductor-rfastp
