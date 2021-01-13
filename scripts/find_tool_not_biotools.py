@@ -22,7 +22,7 @@ def search_tool(key):
         for publication in page['resultList']['result']:
             try:
                 common_name = key + ":";
-                if common_name in publication['title'].lower():
+                if common_name in publication['title'].lower() and ('nmeth.' in publication['doi'] or 'bioinformatics' in publication['doi']):
                     print(key + ' ---- ' + publication['title'] + ' --- ' + publication['doi'])
             except Exception as e:
                 print('Error doi --' + key)
@@ -43,11 +43,10 @@ for key in file_annotations:
                 biotools = True
         if not dois:
             not_biotools.append(key + '\t' + file_annotations[key]['home_url'] + '\t' + '-- not doi')
-            if 'bioconductor-' in key:
-                search_tool(key.replace("bioconductor-", ""))
-                print('bioconductor')
-            else:
-                search_tool(key)
+            # if 'bioconductor-' in key:
+            #     search_tool(key.replace("bioconductor-", ""))
+            # else:
+            #     search_tool(key)
         if not biotools:
             not_biotools.append(key + '\t' + file_annotations[key]['home_url'] + '\t' + '-- not biotools')
 
