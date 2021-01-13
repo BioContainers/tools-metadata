@@ -1088,6 +1088,7 @@ tpp:
       -   Proteomics experiment
     identifiers:
       -   biotools:tpp
+      -   doi:10.18129/b9.bioc.tpp
     anchor_tool: bioconductor-tpp
 mash:
     name: mash
@@ -2266,7 +2267,8 @@ cwltool:
     total_pulls: 5816
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.6084/m9.figshare.3115156.v2
 cogent:
     name: cogent
     description: Framework for genomic biology
@@ -2617,6 +2619,10 @@ estscan:
     manually_check: true
     identifiers:
       -   biotools:estscan
+      -   doi:10.1093/nar/gkm352
+      -   doi:10.1093/nar/gkh479
+      -   doi:10.1186/1751-0473-2-2
+      -   doi:10.1093/nar/29.1.148
     keywords:
       -   Genomics
       -   Transcriptomics
@@ -3601,7 +3607,8 @@ schema-salad:
     total_pulls: 4812
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.6084/m9.figshare.3115156.v2
 ray:
     name: ray
     description: De novoassembly of single genomes and metagenomes. also analyses
@@ -4237,6 +4244,7 @@ repeatmasker:
     manually_check: true
     identifiers:
       -   biotools:RepeatMasker
+      -   doi:10.1101/856591
     keywords:
       -   Sequence analysis
       -   Sequence composition, complexity and repeats
@@ -4566,7 +4574,8 @@ krocus:
     total_pulls: 3360
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.7717/peerj.5233
 ucsc-fasplit:
     name: ucsc-fasplit
     description: Split an fa file into several files
@@ -4598,7 +4607,8 @@ schicexplorer:
     total_pulls: 3359
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkaa220
 goenrichment:
     name: goenrichment
     description: Goenrichment analyses a set of gene products for go term enrichment
@@ -4768,7 +4778,8 @@ biotradis:
     total_pulls: 3350
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btw022
 fermi2:
     name: fermi2
     description: Fermi2 focuses on the exploration of fmd-index as a graph.
@@ -5389,7 +5400,8 @@ ococo:
     total_pulls: 3215
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.1066531
 enasearch:
     name: enasearch
     description: A python library for interacting with ena's api
@@ -5778,7 +5790,8 @@ fastani:
     total_pulls: 3043
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41467-018-07641-9
 cpat:
     name: cpat
     description: Coding potential assessment tool
@@ -6332,7 +6345,9 @@ rxdock:
     total_pulls: 374
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pcbi.1003571
+      -   doi:10.1023/b:jcam.0000035199.48747.1e
 xtandem:
     name: xtandem
     description: software that can match tandem mass spectra with peptide sequences
@@ -8943,7 +8958,8 @@ advntr:
     total_pulls: 38
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.05.25.114082
 perl-file-readbackwards:
     name: perl-file-readbackwards
     description: Read a file backwards by lines.
@@ -9294,7 +9310,8 @@ ribocode:
     total_pulls: 37
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gky179
 maker:
     name: maker
     description: Portable and easily configurable genome annotation pipeline. it’s
@@ -9325,7 +9342,8 @@ xyalign:
     total_pulls: 37
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/346940
 sts-smctc:
     name: sts-smctc
     description: A C++ template class library for the efficient and convenient implementation
@@ -10515,7 +10533,8 @@ phylophlan:
     total_pulls: 29
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41467-020-16366-7
 nmrml2isa:
     name: nmrml2isa
     description: nmrml2isa - nmrML to ISA-Tab parsing tool
@@ -10687,6 +10706,7 @@ pgcgap:
     manually_check: true
     identifiers:
       -   biotools:pgcgap
+      -   doi:10.21203/rs.2.21224/v3
     keywords: []
 fastq-count:
     name: fastq-count
@@ -10743,7 +10763,8 @@ selene-sdk:
     total_pulls: 24
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/438291
 pygtftk:
     name: pygtftk
     description: The gtftk suite providing facilities to manipulate genomic annotations
@@ -10753,7 +10774,9 @@ pygtftk:
     total_pulls: 24
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btz116
+      -   doi:10.1093/bioinformatics/btz810
 pangolin:
     name: pangolin
     description: Phylogenetic Assignment of Named Global Outbreak LINeages
@@ -10762,7 +10785,11 @@ pangolin:
     total_pulls: 24
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/molbev/msu300
+      -   doi:10.1093/molbev/msx281
+      -   doi:10.1093/sysbio/syq010
+      -   doi:10.1093/bioinformatics/bty191
 bioconductor-affyio:
     name: bioconductor-affyio
     description: Bioconductor tools for parsing affymetrix data files
@@ -11815,7 +11842,8 @@ r-sgtr:
     total_pulls: 19
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3766090
 gromacs_py:
     name: gromacs_py
     description: Gromacs_py is a python library allowing a simplified use of the gromacs
@@ -11825,7 +11853,8 @@ gromacs_py:
     total_pulls: 19
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.1455734
 bioconductor-gcsconnection:
     name: bioconductor-gcsconnection
     description: Creating R Connection with Google Cloud Storage
@@ -11851,6 +11880,7 @@ bioconductor-gviz:
     identifiers:
       -   biotools:gviz
       -   pmid:27272860
+      -   doi:10.18129/b9.bioc.gviz
     keywords:
       -   Genomics
       -   Data visualisation
@@ -12390,7 +12420,8 @@ ncbi-amrfinderplus:
     total_pulls: 17
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1128/aac.00483-19
 garnett-cli:
     name: garnett-cli
     description: Collection of wrapper scripts for the garnett scrnaseq cell type
@@ -12677,7 +12708,8 @@ unitig-caller:
     total_pulls: 16
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/695338
 biasaway:
     name: biasaway
     description: 'Biasaway: a tool to generate composition-matched background sequences'
@@ -12750,7 +12782,8 @@ clipcontext:
     total_pulls: 16
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12864-020-07297-0
 easypqp:
     name: easypqp
     description: 'EasyPQP: Simple library generation for OpenSWATH'
@@ -12908,7 +12941,8 @@ hg-color:
     total_pulls: 15
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bty521
 deepvariant:
     name: deepvariant
     description: Deepvariant is an analysis pipeline that uses a deep neural network
@@ -12918,7 +12952,9 @@ deepvariant:
     total_pulls: 15
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/nbt.4235
+      -   doi:10.1101/2020.02.10.942086
 scanpy:
     name: scanpy
     description: Single-Cell Analysis in Python. Scales to >1M cells.
@@ -13728,7 +13764,6 @@ bioconductor-shortread:
     identifiers:
       -   biotools:shortread
       -   doi:10.1093/bioinformatics/btp450
-      -   doi:10.1093/bioinformatics/btp450
     manually_check: true
     keywords:
       -   Computational Biology
@@ -13995,6 +14030,7 @@ bttcmp:
     total_pulls: 12
     identifiers:
       -   biotools:bttcmp
+      -   doi:10.21203/rs.2.21224/v2
     manually_check: true
     keywords: []
 bttoxin_digger:
@@ -14038,7 +14074,8 @@ galru:
     total_pulls: 12
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.05.31.126490
 stark:
     name: stark
     description: A tool for bluntifying a bidirected de bruijn graph by removing overlaps.
@@ -14411,7 +14448,8 @@ r-bisquerna:
     total_pulls: 11
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/669911
 n50:
     name: n50
     description: A script to calculate n50 from one or multiple fasta/fastq files
@@ -14739,7 +14777,8 @@ prophyle:
     total_pulls: 10
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.1045429
 nanofilt:
     name: nanofilt
     description: Filtering and trimming of oxford nanopore sequencing data
@@ -15509,7 +15548,9 @@ sequana:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bty034
+      -   doi:10.1101/162701
 mashtree:
     name: mashtree
     description: Create a tree using Mash distances
@@ -15518,7 +15559,8 @@ mashtree:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.21105/joss.01762
 hivtrace:
     name: hivtrace
     description: HIV TRACE is an application that identifies potential transmission
@@ -15628,7 +15670,8 @@ mappy:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bty191
 binsanity:
     name: binsanity
     description: Method to cluster contigs based a biphasic method with coverage and
@@ -15761,7 +15804,8 @@ medpy:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.2565940
 cgat-apps:
     name: cgat-apps
     description: Computational Genomics Analysis Toolkit
@@ -15949,7 +15993,8 @@ spliceai:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1016/j.cell.2018.12.015
 seqsero2:
     name: seqsero2
     description: Salmonella serotype prediction from genome sequencing data
@@ -16075,7 +16120,8 @@ ncbimeta:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.21105/joss.01990
 libopenms:
     name: libopenms
     description: OpenMS is an open-source software C++ library for LC-MS data management
@@ -16161,7 +16207,8 @@ isoncorrect:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41467-020-20340-8
 kcounter:
     name: kcounter
     description: A simple package for counting DNA k-mers in Python. Written in Rust.
@@ -16366,7 +16413,9 @@ hicstuff:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.2620608
+      -   doi:10.5281/zenodo.4066363
 parent-map:
     name: parent-map
     description: Analyze parental contributions to evolved or engineered protein or
@@ -16584,7 +16633,9 @@ ngs-disambiguate:
     total_pulls: 7
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.166017
+      -   doi:10.12688/f1000research.10082.1
 taxonkit:
     name: taxonkit
     description: A Cross-platform and Efficient NCBI Taxonomy Toolkit
@@ -16593,7 +16644,8 @@ taxonkit:
     total_pulls: 7
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/513523
 pycoqc:
     name: pycoqc
     description: Pycoqc computes metrics and generates interactive qc plots for oxford
@@ -16657,7 +16709,8 @@ dedup:
     total_pulls: 7
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13059-016-0918-z
 r-hemdag:
     name: r-hemdag
     description: a collection of Hierarchical Ensemble Methods (HEMs) for Directed
@@ -16705,7 +16758,8 @@ r-ichorcna:
     total_pulls: 7
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41467-017-00965-y
 msisensor:
     name: msisensor
     description: MSIsensor is a C++ program to detect replication slippage variants
@@ -16777,7 +16831,8 @@ fpa:
     total_pulls: 7
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.1093'
 mhcflurry:
     name: mhcflurry
     description: Peptide-MHC I binding affinity prediction
@@ -16896,7 +16951,8 @@ r-metacoder:
     total_pulls: 7
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pcbi.1005404
 rasusa:
     name: rasusa
     description: Randomly subsample sequencing reads to a specified coverage
@@ -16905,7 +16961,11 @@ rasusa:
     total_pulls: 7
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3546168
+      -   doi:10.1099/mgen.0.000294
+      -   doi:10.1099/mgen.0.000188
+      -   doi:10.5281/zenodo.3731394
 r-acidgenerics:
     name: r-acidgenerics
     description: S4 generics for Acid Genomics R packages.
@@ -17411,7 +17471,8 @@ python-libsbml:
     total_pulls: 6
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btz860
 gap2seq:
     name: gap2seq
     description: Gap2Seq is a tool for filling gaps between contigs in genome assemblies.
@@ -17455,7 +17516,8 @@ metameta:
     total_pulls: 6
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s40168-017-0318-y
 maxentpy:
     name: maxentpy
     description: maxentpy is a python wrapper for MaxEntScan to calculate splice site
@@ -17619,7 +17681,9 @@ r-pma:
     total_pulls: 6
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.1093'
+      -   '10.2202'
 bam2fastx:
     name: bam2fastx
     description: Converting and demultiplexing of PacBio BAM files into gzipped fasta
@@ -17685,7 +17749,8 @@ hicmatrix:
     total_pulls: 6
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkaa220
 r-nabor:
     name: r-nabor
     description: An r wrapper for 'libnabo', an exact or approximate k nearest neighbour
@@ -17888,7 +17953,8 @@ albatradis:
     total_pulls: 6
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/593624
 sequenza-utils:
     name: sequenza-utils
     description: Analysis of cancer sequencing samples, utilities for the R package
@@ -17907,7 +17973,8 @@ krbalancing:
     total_pulls: 6
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/imanum/drs019
 idba_subasm:
     name: idba_subasm
     description: Fork of IDBA with modifications to perform subassembly for the read
@@ -17970,7 +18037,8 @@ vamb:
     total_pulls: 6
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41587-020-00777-4
 refgenieserver:
     name: refgenieserver
     description: This server provides both a web interface and a restful api. users
@@ -18137,7 +18205,9 @@ cami-amber:
     total_pulls: 6
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/gigascience/giy069
+      -   doi:10.1038/nmeth.4458
 bioconductor-tbsignatureprofiler:
     name: bioconductor-tbsignatureprofiler
     description: Profile ra-seq data using tb pathway signatures
@@ -18263,6 +18333,7 @@ bioconductor-rhdf5:
     total_pulls: 5
     identifiers:
       -   biotools:rhdf5
+      -   doi:10.18129/b9.bioc.rhdf5
     manually_check: true
     keywords:
       -   Data management
@@ -18290,7 +18361,8 @@ gseapy:
     total_pulls: 5
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3748085
 perl-velvetoptimiser:
     name: perl-velvetoptimiser
     description: Automatically optimise three of velvet's assembly parameters.
@@ -19849,7 +19921,8 @@ r-stampp:
     total_pulls: 5
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.1111'
 r-metalonda:
     name: r-metalonda
     description: Identify time intervals of differentially abundant metagenomics features
@@ -19940,6 +20013,7 @@ phame:
     manually_check: true
     identifiers:
       -   biotools:phame
+      -   doi:10.1038/s41598-020-58356-1
     keywords: []
 xhmm:
     name: xhmm
@@ -21366,7 +21440,8 @@ r-mixkernel:
     total_pulls: 5
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.1093'
 rawtools:
     name: rawtools
     description: RawTools is an open-source and freely available package designed
@@ -21404,7 +21479,8 @@ r-minionqc:
     total_pulls: 5
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bty654
 r-minems2:
     name: r-minems2
     description: Mine MS-MS spectra using a frequent usbgraph mining approach.
@@ -21665,7 +21741,9 @@ r-metaboanalyst:
     total_pulls: 5
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.3390/metabo10050186
+      -   doi:10.1093/bioinformatics/bty528
 haplotype-lso:
     name: haplotype-lso
     description: Haplotype Candidatus Liberibacter solanacearum (Lso) samples from
@@ -21967,7 +22045,8 @@ pronto:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.595572
 retry_decorator:
     name: retry_decorator
     description: Decorator for retrying when exceptions occur
@@ -22005,7 +22084,8 @@ snp-pipeline:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.7717/peerj-cs.20
 synapseclient:
     name: synapseclient
     description: Python client for Synapse
@@ -22165,7 +22245,8 @@ methyldackel:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/481283
 sff2fastq:
     name: sff2fastq
     description: Extract 454 Genome Sequencer reads from a SFF file and convert them
@@ -22464,7 +22545,9 @@ menetools:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pcbi.1006146
+      -   doi:10.7554/elife.61968
 bioconductor-chimeraviz:
     name: bioconductor-chimeraviz
     description: Visualization tools for gene fusions
@@ -22724,7 +22807,8 @@ yacrd:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.1093'
 gretel:
     name: gretel
     description: An algorithm for recovering haplotypes from metagenomes
@@ -22914,7 +22998,8 @@ tracy:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12864-020-6635-8
 rfmix:
     name: rfmix
     description: RFMix implements a fast discriminative approach to modeling ancestry
@@ -22970,7 +23055,8 @@ tiptoft:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.21105/joss.01021
 rnaquast:
     name: rnaquast
     description: Rnaquast is a tool for evaluating rna-seq assemblies using reference
@@ -23286,7 +23372,8 @@ sword:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btw445
 insilicoseq:
     name: insilicoseq
     description: A sequencing simulator.
@@ -23295,7 +23382,8 @@ insilicoseq:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bty630
 trnanalysis:
     name: trnanalysis
     description: tRNA analysis pipeline
@@ -23506,7 +23594,8 @@ raven-assembler:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.08.07.242461
 protmapper:
     name: protmapper
     description: Map protein sites to human reference sequence.
@@ -23535,7 +23624,9 @@ arcs:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/100750
+      -   doi:10.1186/s12859-018-2243-x
 mapcaller:
     name: mapcaller
     description: 'MapCaller: combined short-read mapper and variant caller'
@@ -23594,7 +23685,8 @@ genmap:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btaa222
 rilseq:
     name: rilseq
     description: Processing rilseq experiments results
@@ -23826,7 +23918,8 @@ ltr_retriever:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gky730
 ntedit:
     name: ntedit
     description: ultra fast, scalable genome assembly polishing and snv detection
@@ -23949,7 +24042,9 @@ svim-asm:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41587-020-0503-6
+      -   doi:10.1101/2020.10.27.356907
 pybiomart:
     name: pybiomart
     description: A simple pythonic interface to biomart.
@@ -23976,7 +24071,8 @@ minipolish:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3752203
 eukrep:
     name: eukrep
     description: Classification of eukaryotic and prokaryotic sequences from metagenomic
@@ -23986,7 +24082,8 @@ eukrep:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/171355
 bttoxin_scanner:
     name: bttoxin_scanner
     description: A toxin exploration tool for bacillus thuringiensis
@@ -23995,6 +24092,7 @@ bttoxin_scanner:
     total_pulls: 4
     identifiers:
       -   biotools:BtToxin_scanner
+      -   doi:10.21203/rs.2.21224/v2
     manually_check: true
     keywords: []
 binlorry:
@@ -24072,7 +24170,8 @@ phylodm:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3998716
 bifrost:
     name: bifrost
     description: Highly parallel construction and indexing of colored and compacted
@@ -24168,7 +24267,8 @@ diego:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btx690
 coils:
     name: coils
     description: A generalized profile syntax for biomolecular sequence motifs and
@@ -24202,7 +24302,8 @@ singlem:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btu170
 mergenotcombined:
     name: mergenotcombined
     description: Merge Forward and reverse reads from fastq files
@@ -24347,7 +24448,9 @@ bedparse:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.2578820
+      -   doi:10.21105/joss.01228
 ptrimmer:
     name: ptrimmer
     description: Used to trim off the primer sequence from mutiplex amplicon sequencing
@@ -24446,7 +24549,8 @@ tgsgapcloser:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/gigascience/giaa094
 gcnvkernel:
     name: gcnvkernel
     description: Python package to support gatk gcnv calling.
@@ -25705,7 +25809,8 @@ checkqc:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.21105/joss.00556
 r-clinfun:
     name: r-clinfun
     description: Utilities to make your clinical collaborations easier if not fun.
@@ -25875,7 +25980,8 @@ trtools:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btaa736
 hypro:
     name: hypro
     description: Extend hypothetical prokka protein annotations using additional homology
@@ -27310,7 +27416,8 @@ r-dpeak:
     total_pulls: 3
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3687178
 r-empiricalfdr.deseq2:
     name: r-empiricalfdr.deseq2
     description: Auxiliary functions for the deseq2 package to simulate read counts
@@ -28139,7 +28246,8 @@ r-cimpl:
     total_pulls: 3
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bts448
 bioconductor-massspecwavelet:
     name: bioconductor-massspecwavelet
     description: Mass spectrum processing by wavelet-based algorithms
@@ -28253,7 +28361,8 @@ r-rubic:
     total_pulls: 3
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bts448
 pydna:
     name: pydna
     description: Representing double stranded dna and simulating cloning, homologous
@@ -28632,6 +28741,7 @@ bioconductor-biocworkflowtools:
     total_pulls: 3
     identifiers:
       -   biotools:BiocWorkflowTools
+      -   doi:10.18129/b9.bioc.biocworkflowtools
     manually_check: true
     keywords:
       -   Workflows
@@ -34750,6 +34860,7 @@ bioconductor-beaddatapackr:
     identifiers:
       -   biotools:beaddatapackr
       -   pmid:20981138
+      -   doi:10.18129/b9.bioc.beaddatapackr
     keywords:
       -   Imaging
       -   Data architecture, analysis and design
@@ -35650,7 +35761,8 @@ r-gwpcr:
     total_pulls: 3
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bty283
 r-tcga2stat:
     name: r-tcga2stat
     description: Automatically downloads and processes tcga genomics and clinical
@@ -38471,6 +38583,7 @@ bioconductor-crlmm:
     identifiers:
       -   biotools:crlmm
       -   pmid:22523482
+      -   doi:10.18129/b9.bioc.crlmm
     keywords:
       -   DNA polymorphism
       -   Genotype and phenotype
@@ -42216,7 +42329,8 @@ r-poppr:
     total_pulls: 3
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.7717/peerj.281
 bioconductor-enrichplot:
     name: bioconductor-enrichplot
     description: Visualization of Functional Enrichment Result
@@ -57953,7 +58067,8 @@ r-liger:
     total_pulls: 3
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1016/j.cell.2018.07.028
 gcluster:
     name: gcluster
     description: Gcluster is a simple-to-use tool for visualizing and comparing genome
@@ -57973,7 +58088,8 @@ galah:
     total_pulls: 3
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41587-020-0501-8
 r-txrevise:
     name: r-txrevise
     description: Construct custom transcript annotations for salmon and kallisto
@@ -58424,7 +58540,8 @@ cooler:
     total_pulls: 2
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btz540
 w4mclassfilter:
     name: w4mclassfilter
     description: Filter workflow4metabolomics feature list, optionally imputing na
@@ -58818,7 +58935,9 @@ cami-opal:
     total_pulls: 2
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13059-019-1646-y
+      -   doi:10.1038/nmeth.4458
 sabre:
     name: sabre
     description: A barcode demultiplexing and trimming tool for FastQ files
@@ -58895,7 +59014,8 @@ seaborn:
     total_pulls: 2
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.592845
 cgmlst-dists:
     name: cgmlst-dists
     description: Convert cgMLST table to distance matrix
@@ -59231,7 +59351,8 @@ nanocall:
     total_pulls: 1
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btw569
 perl-compress-raw-zlib:
     name: perl-compress-raw-zlib
     description: Basic utilities for writing tests.
@@ -60011,7 +60132,8 @@ panx:
     total_pulls: 1
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkx977
 a5-miseq:
     name: a5-miseq
     description: A5-miseq is a pipeline for assembling dna sequence data generated
@@ -63942,7 +64064,8 @@ talon:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/672931
 biocontainers:
     name: biocontainers
     description: Base image for biodocker
@@ -63972,7 +64095,8 @@ transcriptclean:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bty483
 freecontact:
     name: freecontact
     description: Fast protein contact predictor - binding for python3
@@ -64008,7 +64132,8 @@ bcbio:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3564938
 bx-tools:
     name: bx-tools
     description: Command line interface to python3-bx
@@ -64262,7 +64387,8 @@ beast-mcmc:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/ve/vey016
 bioperl:
     name: bioperl
     description: A collection of perl modules that facilitate the development of perl
@@ -64382,7 +64508,8 @@ art-nextgen-simulation-tools-profiles:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btr708
 bart:
     name: bart
     description: Transcription factor prediction tool with query gene sets or epigenomic
@@ -64444,7 +64571,8 @@ art-nextgen-simulation-tools:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btr708
 autogrid:
     name: autogrid
     description: Pre-calculate binding of ligands to their receptor
@@ -64785,7 +64913,8 @@ biosquid:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btl582
 unanimity:
     name: unanimity
     description: Generate and process accurate consensus nucleotide sequences
@@ -65790,7 +65919,8 @@ diamond-aligner:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/nmeth.3176
 edlib-aligner:
     name: edlib-aligner
     description: Edlib sequence alignment tool using edit distance
@@ -66994,7 +67124,8 @@ mne:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.592483
 mira-assembler:
     name: mira-assembler
     description: Mira 3 - whole genome shotgun and est sequence assembler
@@ -68454,7 +68585,8 @@ ssw-align:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pone.0082138
 typed-ast:
     name: typed-ast
     description: Ast with pep 484 type comments support
@@ -68720,7 +68852,8 @@ repeatmasker-recon:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/856591
 sofa-tutorials:
     name: sofa-tutorials
     description: Simulation open framework architecture - tutorials
@@ -68829,7 +68962,8 @@ ruby-rgfa:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.7717/peerj.2681
 zalign:
     name: zalign
     description: Parallel local alignment of biological sequences
@@ -69125,7 +69259,12 @@ sbml5:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.4293358
+      -   doi:10.5281/zenodo.2645216
+      -   doi:10.5281/zenodo.1250696
+      -   doi:10.5281/zenodo.1095483
+      -   doi:10.5281/zenodo.495344
 tracetuner:
     name: tracetuner
     description: Interpretation of dna sanger sequencing data
@@ -69871,7 +70010,9 @@ isatab-create:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.163640
+      -   doi:10.1038/ng.1054
 ms-vfetc:
     name: ms-vfetc
     description: A container image definition for ms-vfetc
@@ -70233,7 +70374,9 @@ mtbls-factors-viz:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.163640
+      -   doi:10.1038/ng.1054
 metfrag-cli:
     name: metfrag-cli
     description: Command Line Interface for MetFrag.
@@ -70375,7 +70518,8 @@ mw2isa:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.163640
 rnmr1d:
     name: rnmr1d
     description: Rnmr1D is the main module in the NMRProcFlow web application (http://nmrprocflow.org)
@@ -70522,7 +70666,8 @@ luigi:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13321-016-0179-6
 raremetalworker:
     name: raremetalworker
     description: Single variant analysis, generating summary statistics for gene level
@@ -70703,7 +70848,10 @@ progressivecactus:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41586-020-2871-y
+      -   doi:10.1101/gr.123356.111
+      -   doi:10.1089/cmb.2010.0252
 pymol-jupiter:
     name: pymol-jupiter
     description: A portable way of interacting with pymol via jupyter notebook
@@ -71007,7 +71155,8 @@ toppas:
     manually_check: true
     keywords:
       -   Proteomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/nmeth.3959
 python-fast5:
     name: python-fast5
     description: Library for reading Oxford Nanopore Fast5 files
@@ -71126,7 +71275,9 @@ melting-gui:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/17.12.1226
+      -   doi:10.1186/1471-2105-13-101
 python-csb:
     name: python-csb
     description: CSB is a python library and application framework, which can be used
@@ -71136,7 +71287,8 @@ python-csb:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bts538
 python-pbsuite-utils:
     name: python-pbsuite-utils
     description: Software for Pacific Biosciences sequencing data -- Python utilities
@@ -71203,7 +71355,8 @@ python-mne:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.592483
 python-qcli:
     name: python-qcli
     description: Qcli commandline tools for python
@@ -71240,7 +71393,8 @@ python3-csb:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bts538
 python3-hl7:
     name: python3-hl7
     description: Python3 library for parsing hl7 messages
@@ -71638,7 +71792,8 @@ biosquid-dev:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btl582
 predictprotein:
     name: predictprotein
     description: Predictprotein is a protein sequence analysis and structure prediction
@@ -71728,7 +71883,8 @@ python-ball:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1080/01621459.2018.1543600
 python-ballview:
     name: python-ballview
     description: BALLView is BALL’s standalone molecular modelling and visualization
@@ -75309,7 +75465,8 @@ viral-ngs:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.252549
 geodl:
     name: geodl
     description: Download fastq files from geo-ncbi and ena with ease
@@ -75623,7 +75780,7 @@ bioconductor-jmosaics:
     manually_check: true
     keywords: []
     identifiers:
-      -    doi:10.1186/gb-2013-14-4-r38
+      -   doi:10.1186/gb-2013-14-4-r38
 bioconductor-mmdiff:
     name: bioconductor-mmdiff
     description: This package detects statistically significant difference between
@@ -75654,7 +75811,8 @@ bioepic:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btz232
 bleach:
     name: bleach
     description: An easy whitelist-based HTML-sanitizing tool.
@@ -76546,7 +76704,8 @@ ipython-cluster-helper:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3459799
 isodate:
     name: isodate
     description: An iso 8601 date/time/duration parser and formatter
@@ -83737,7 +83896,8 @@ pileometh:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/481283
 cwltest:
     name: cwltest
     description: Common workflow language testing framework
@@ -83755,7 +83915,8 @@ rnabob:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btl582
 cansam:
     name: cansam
     description: The Sequence Alignment/Map (SAM) file format and its binary companion
@@ -84000,7 +84161,8 @@ spectrassembler:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btx370
 flaimapper:
     name: flaimapper
     description: 'Flaimapper: detecting small ncrna derived fragments in small rna-seq
@@ -84031,7 +84193,8 @@ dudes:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btw150
 biogridpy:
     name: biogridpy
     description: Python client for the biogrid rest api webservice
@@ -84104,7 +84267,9 @@ rscape:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/789404
+      -   doi:10.1101/2020.02.04.933952
 perl-text-tabs-wrap:
     name: perl-text-tabs-wrap
     description: Expand tabs and do simple line wrapping
@@ -84771,7 +84936,16 @@ r-spdep:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1002/(sici)1097-0258(19990830)18:16
+      -   doi:10.1111/j.1538-4632.1992.tb00261.x
+      -   doi:10.1111/j.1538-4632.2007.00708.x
+      -   doi:10.1111/j.1538-4632.1995.tb00338.x
+      -   doi:10.1111/j.1538-4632.1995.tb00912.x
+      -   doi:10.1111/j.1538-4632.2002.tb01084.x
+      -   doi:10.1016/j.csda.2008.07.021
+      -   doi:10.1007/s00168-011-0492-y
+      -   doi:10.1007/s11749-018-0599-x
 r-gbm:
     name: r-gbm
     description: An implementation of extensions to Freund and Schapire's AdaBoost
@@ -84852,7 +85026,8 @@ r-gamlss.dist:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.1111'
 r-gamlss:
     name: r-gamlss
     description: Functions for fitting the Generalized Additive Models for Location
@@ -84865,7 +85040,8 @@ r-gamlss:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.1111'
 pipmir:
     name: pipmir
     description: We developed the PIPmiR algorithm to identify novel plant miRNA
@@ -85534,7 +85710,10 @@ r-prroc:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.1145'
+      -   '10.1371'
+      -   '10.1093'
 r-survey:
     name: r-survey
     description: Summary statistics, two-sample tests, rank tests, generalised linear
@@ -86610,7 +86789,8 @@ savage:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/gr.215038.116
 perl-want:
     name: perl-want
     description: This module generalises the mechanism of the wantarray function,
@@ -87493,7 +87673,9 @@ nanosimh:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.1341249
+      -   doi:10.1093/gigascience/gix010
 erne:
     name: erne
     description: ERNE - Extended Randomized Numerical alignEr
@@ -87966,7 +88148,8 @@ onto2nx:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.1478027
 pybel:
     name: pybel
     description: Pybel is a python package for parsing and handling biological networks
@@ -88390,7 +88573,8 @@ editdistance:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1.1.19.7158
 rmblast:
     name: rmblast
     description: RMBlast is a RepeatMasker compatible version of the standard NCBI
@@ -88660,7 +88844,10 @@ r-segmented:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.1002'
+      -   '10.1080'
+      -   '10.1111'
 r-mixtools:
     name: r-mixtools
     description: Analyzes finite mixture models for various parametric and semiparametric
@@ -89121,7 +89308,8 @@ lightning:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.200504
 shapeit:
     name: shapeit
     description: SHAPEIT is a fast and accurate method for estimation of haplotypes
@@ -89189,7 +89377,9 @@ nanosim-h:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.1341249
+      -   doi:10.1093/gigascience/gix010
 perl-algorithm-cluster:
     name: perl-algorithm-cluster
     description: Perl interface to the C Clustering Library
@@ -89406,7 +89596,8 @@ proot:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3751971
 udocker:
     name: udocker
     description: Freely available tools for computational molecular biology.
@@ -89415,7 +89606,8 @@ udocker:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1016/j.cpc.2018.05.021
 secapr:
     name: secapr
     description: Process sequence-capture fastq files into alignments for phylogenetic
@@ -90034,7 +90226,8 @@ biofluff:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.7717/peerj.2209
 plant_tribes_gene_family_aligner:
     name: plant_tribes_gene_family_aligner
     description: Gene family aligner pipeline
@@ -90791,7 +90984,8 @@ r-trimcluster:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.1214'
 r-fpc:
     name: r-fpc
     description: "Various methods for clustering and cluster validation. Fixed point\
@@ -90928,7 +91122,8 @@ vdjer:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btw526
 behst:
     name: behst
     description: "Behst reads an input dataset of chromosome regions, and intersects\
@@ -91285,7 +91480,8 @@ shiver:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/ve/vey007
 monovar:
     name: monovar
     description: Single cell joint genotyper
@@ -91316,7 +91512,8 @@ mdasim:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1109/bibm.2012.6392622
 prosolo:
     name: prosolo
     description: A highly sensitive and accurate Bayesian caller for variants in single
@@ -91390,7 +91587,8 @@ phyloflash:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1128/msystems.00920-20
 bioconductor-mmnet:
     name: bioconductor-mmnet
     description: This package gives the implementations microbiome metabolic network
@@ -91720,7 +91918,8 @@ samsift:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.1048211
 riboseed:
     name: riboseed
     description: 'Riboseed: assemble across rdna regions.'
@@ -91917,7 +92116,10 @@ abruijn:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41592-020-00971-x
+      -   doi:10.1038/s41587-019-0072-8
+      -   doi:10.1073/pnas.1604560113
 breakseq2:
     name: breakseq2
     description: 'BreakSeq2: Ultrafast and accurate nucleotide-resolution analysis
@@ -92029,7 +92231,8 @@ bio_hansel:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.01.10.902056
 sis:
     name: sis
     description: A tool that uses mummer to scaffold small genomes.
@@ -92433,7 +92636,8 @@ afplot:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3238297
 pyimagingmspec:
     name: pyimagingmspec
     description: Python library for processing imaging mass spectrometry data
@@ -92751,7 +92955,9 @@ r-precrec:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btw570
+      -   doi:10.1371/journal.pone.0118432
 r-ic10trainingdata:
     name: r-ic10trainingdata
     description: Training datasets for iC10; which implements the classifier described
@@ -94299,7 +94505,8 @@ r-maldirppa:
     manually_check: true
     keywords:
       -   Proteomics
-    identifiers: []
+    identifiers:
+      -   '10.1093'
 repenrich:
     name: repenrich
     description: Repenrich is a method to estimate repetitive element enrichment using
@@ -94651,7 +94858,9 @@ kodoja:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1099/jgv.0.001210
+      -   doi:10.5281/zenodo.1406071
 refseq_masher:
     name: refseq_masher
     description: Refseq_masher finds what ncbi refseq genomes match or are contained
@@ -94953,7 +95162,8 @@ krakenhll:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13059-018-1568-0
 bloomfiltertrie:
     name: bloomfiltertrie
     description: An alignment-free, reference-free and incremental data structure
@@ -95619,7 +95829,8 @@ prophex:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.1247431
 trumicount:
     name: trumicount
     description: For ngs experiments using unique molecular identifiers (umis), molecules
@@ -95697,7 +95908,8 @@ rnasketch:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btx263
 perl-sys-sigaction:
     name: perl-sys-sigaction
     description: Perl extension for consistent signal handling
@@ -96047,7 +96259,8 @@ libssw:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pone.0082138
 perl-file-touch:
     name: perl-file-touch
     description: Update file access and modification times, optionally creating files
@@ -96654,7 +96867,11 @@ r-biclust:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.1101'
+      -   '10.1016'
+      -   '10.1142'
+      -   '10.1093'
 sfs_code:
     name: sfs_code
     description: This article introduces a new forward population genetic simulation
@@ -96887,7 +97104,9 @@ prophasm:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.01.12.903443
+      -   doi:10.1007/978-3-030-45257-5_10
 cortex_con:
     name: cortex_con
     description: cortex_con (primary contact Mario Caccamo) is for consensus genome
@@ -97069,7 +97288,9 @@ r-ecodist:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.18637'
+      -   '10.1007'
 r-adephylo:
     name: r-adephylo
     description: Multivariate tools to analyze comparative data, i.e. a phylogeny
@@ -97335,7 +97556,9 @@ r-aptreeshape:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.1093'
+      -   '10.1101'
 ctat-mutations:
     name: ctat-mutations
     description: ' mutation detection in rna-seq using gatk-v4.0 in rna-seq variant
@@ -97371,7 +97594,8 @@ r-nodiv:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.1111'
 biopet-extractadaptersfastqc:
     name: biopet-extractadaptersfastqc
     description: Extractadaptersfastqc reads which adapter sequences where found from
@@ -97485,7 +97709,9 @@ meta-sparse:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1007/978-3-319-89929-9_15
+      -   doi:10.1101/215707
 r-funrar:
     name: r-funrar
     description: Computes functional rarity indices as proposed by Violle et al. (2017)
@@ -97494,7 +97720,9 @@ r-funrar:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1016/j.tree.2017.02.002
+      -   doi:10.1111/ddi.12629
 r-taxa:
     name: r-taxa
     description: taxa defines taxonomic classes and functions to manipulate them.
@@ -97535,7 +97763,9 @@ kipoi:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/375345
+      -   doi:10.1038/s41587-019-0140-0
 pisces:
     name: pisces
     description: Somatic and germline variant caller for amplicon data. recommended
@@ -97612,7 +97842,8 @@ r-kinship2:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.1159'
 biopet-sampleconfig:
     name: biopet-sampleconfig
     description: extracttsv  this mean can extract samples, libraries and readgroups
@@ -98276,7 +98507,8 @@ sshmm:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkx756
 biopet-basecounter:
     name: biopet-basecounter
     description: Basecounter counts the bases from genes and transcripts and outputs
@@ -99001,7 +99233,8 @@ pairtools:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.1490831
 perl-font-afm:
     name: perl-font-afm
     description: Interface to adobe font metrics files
@@ -99102,7 +99335,8 @@ r-coenocliner:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.7717/peerj.95
 r-phylosignal:
     name: r-phylosignal
     description: A collection of tools to explore the phylogenetic signal in univariate
@@ -99131,7 +99365,8 @@ r-ggrasp:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.1093'
 perl-ipc-sharelite:
     name: perl-ipc-sharelite
     description: Lightweight interface to shared memory
@@ -99470,7 +99705,8 @@ tandem-genotypes:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13059-019-1667-6
 plotly:
     name: plotly
     description: The interactive graphing library for Python (includes Plotly Express)
@@ -99888,7 +100124,8 @@ r-fateid:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.1038'
 showit:
     name: showit
     description: Simple and sensible display of images in python
@@ -100526,7 +100763,8 @@ cortexpy:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.3389/fpls.2018.01625
 abeona:
     name: abeona
     description: A simple transcriptome assembler based on kallisto and cortex graphs.
@@ -100588,7 +100826,8 @@ reparation_blast:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkx758
 topas:
     name: topas
     description: 'This toolkit allows the efficient manipulation of sequence data
@@ -100971,7 +101210,8 @@ popdel:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/740225
 tinyfasta:
     name: tinyfasta
     description: Tiny python package, with no external dependencies, for parsing fasta
@@ -101198,7 +101438,8 @@ pypairs:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1016/j.ymeth.2015.06.021
 translate-gard:
     name: translate-gard
     description: Converts HyPhy 2.3.2 GARD output to JSON
@@ -101218,7 +101459,8 @@ r-polysat:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.1111'
 sonicparanoid:
     name: sonicparanoid
     description: 'SonicParanoid: fast, easy and accurate orthology inference'
@@ -101465,7 +101707,8 @@ bcftools-gtc2vcf-plugin:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btm443
 r-bedr:
     name: r-bedr
     description: Genomic regions processing using open-source command line tools such
@@ -101549,7 +101792,8 @@ cocoscore:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.6084/m9.figshare.7198280.v1
 r-lncpipereporter:
     name: r-lncpipereporter
     description: Automatically Aggregating and Summarizing lncRNA Analysis Results
@@ -101652,7 +101896,8 @@ r-nam:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.1093'
 r-guilds:
     name: r-guilds
     description: A collection of sampling formulas for the unified neutral model of
@@ -101819,7 +102064,18 @@ microhapdb:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.3389/fgene.2020.00781
+      -   doi:10.1093/nar/gkr924
+      -   doi:10.1002/elps.201800092
+      -   doi:10.1016/j.fsigen.2018.05.008
+      -   doi:10.1016/j.legalmed.2015.06.003
+      -   doi:10.1016/j.fsigen.2019.02.018
+      -   doi:10.1016/j.fsigen.2018.05.001
+      -   doi:10.1016/j.fsigen.2019.102213
+      -   doi:10.1038/nature15393
+      -   doi:10.1086/380416
+      -   doi:10.2307/2408641
 bioconductor-onassisjavalibs:
     name: bioconductor-onassisjavalibs
     description: OnassisJavaLibs, java libraries to run conceptmapper and semantic
@@ -102663,7 +102919,8 @@ r-bc3net:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   '10.1371'
 bioconductor-condcomp:
     name: bioconductor-condcomp
     description: For a given clustered data, which can also be split into two conditions,
@@ -103750,7 +104007,8 @@ rna-cd:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3251945
 spectrum_utils:
     name: spectrum_utils
     description: Mass spectrometry utility functions
@@ -104003,6 +104261,7 @@ chorus2:
     manually_check: true
     identifiers:
       -   biotools:chorus2
+      -   doi:10.1007/s00412-018-0664-y
     keywords: []
 gvcf2bed:
     name: gvcf2bed
@@ -104076,7 +104335,8 @@ athena_meta:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/nbt.4266
 booster:
     name: booster
     description: BOOSTER is a new way of computing bootstrap supports in large phylogenies.
@@ -104147,7 +104407,8 @@ makehub:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/550145
 perl-logger-simple:
     name: perl-logger-simple
     description: Implementation of the Simran-Log-Log and Simran-Error-Error modules
@@ -104202,7 +104463,8 @@ svict:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkz067
 ismapper:
     name: ismapper
     description: A mapping-based tool for identification of the site and orientation
@@ -104303,7 +104565,8 @@ snp-mutator:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.7717/peerj-cs.20
 mark-nonconverted-reads:
     name: mark-nonconverted-reads
     description: A simple filter to mark potential nonconverted reads from methylation
@@ -104341,7 +104604,8 @@ wgs2ncbi:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.21105/joss.01364
 kronos:
     name: kronos
     description: Kronos is a highly flexible Python-based software tool that mainly
@@ -104573,7 +104837,8 @@ dropest:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13059-018-1449-6
 ma:
     name: ma
     description: MA - The Modular Aligner
@@ -104690,7 +104955,8 @@ sv2:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btx813
 bioconductor-qckitfastq:
     name: bioconductor-qckitfastq
     description: FASTQ Quality Control
@@ -104805,7 +105071,8 @@ fineradstructure:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/molbev/msy023
 rnasamba:
     name: rnasamba
     description: A tool for computing the coding potential of RNA transcript sequences
@@ -105039,7 +105306,8 @@ wisestork:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3245885
 xbioc:
     name: xbioc
     description: Extra Base Functions for Bioconductor
@@ -105057,7 +105325,8 @@ music-deconvolution:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41467-018-08023-x
 ripser:
     name: ripser
     description: 'Ripser: efficient computation of Vietoris–Rips persistence barcodes.'
@@ -105066,7 +105335,8 @@ ripser:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1088/0266-5611/27/12/124003
 bustools:
     name: bustools
     description: bustools is a program for manipulating BUS files for single cell
@@ -105339,7 +105609,8 @@ altamisa:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.21105/joss.01610
 sesimcmc:
     name: sesimcmc
     description: Motif finding with modified MCMC
@@ -105378,7 +105649,8 @@ mapgl:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/827907
 mace:
     name: mace
     description: Model Based Analysis for ChIP-exo data
@@ -105423,7 +105695,8 @@ bamscale:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/669275
 spliceai-wrapper:
     name: spliceai-wrapper
     description: A caching wrapper for Illumina SpliceAI.
@@ -105709,6 +105982,7 @@ bold-identification:
     manually_check: true
     identifiers:
       -   biotools:bold-identification
+      -   doi:10.1186/s12864-020-07255-w
     keywords: []
 taxonomy_ranks:
     name: taxonomy_ranks
@@ -105720,6 +105994,7 @@ taxonomy_ranks:
     manually_check: true
     identifiers:
       -   biotools:taxonomy_ranks
+      -   doi:10.1093/nar/gkz173
     keywords: []
 extract_fasta_seq:
     name: extract_fasta_seq
@@ -105949,7 +106224,8 @@ fings:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gks1443
 panpasco:
     name: panpasco
     description: Pipeline for pangenome mapping and pairwise SNP distance
@@ -106229,7 +106505,8 @@ mavis:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bty621
 jass_preprocessing:
     name: jass_preprocessing
     description: Harmonizing raw GWAS summary statistic for further analysis with
@@ -106265,7 +106542,8 @@ seacr:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13072-019-0287-4
 quasirecomb:
     name: quasirecomb
     description: Software of Inference of Quasispecies subjected to Recombination
@@ -106376,7 +106654,8 @@ rmetl:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btz106
 shapeit4:
     name: shapeit4
     description: fast and accurate method for estimation of haplotypes (phasing)
@@ -107128,7 +107407,9 @@ phyphy:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.21105/joss.00514
+      -   doi:10.1101/206011
 rtk:
     name: rtk
     description: rtk - rarefaction toolkit for OTU tables
@@ -107437,7 +107718,9 @@ haploconduct:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/gr.215038.116
+      -   doi:10.1101/378356
 gencore:
     name: gencore
     description: Generate consensus reads to reduce sequencing noises and remove duplications
@@ -107767,7 +108050,9 @@ perl-metabolomics-fragment-annotation:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1289/ehp4713
+      -   doi:10.1093/pcp/pcr165
 genericrepeatfinder:
     name: genericrepeatfinder
     description: Generic Repeat Finder (GRF).
@@ -107889,7 +108174,8 @@ ac:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1007/s12539-019-00322-1
 geosketch:
     name: geosketch
     description: Geometry-preserving random sampling
@@ -108031,7 +108317,8 @@ orfquant:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/608794
 kmerstream:
     name: kmerstream
     description: Streaming algorithm for computing kmer statistics for massive genomics
@@ -108394,7 +108681,8 @@ spingo:
 tantan:
     description: Low complexity and tandem repeat masker for biosequences
     home_url: http://www.cbrc.jp/tantan/
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkq1212
     keywords:
       -   biology
       -   bioinformatics
@@ -108507,7 +108795,8 @@ perl-data-match:
 bioconductor-idmappingretrieval:
     description: Data retrieval for identifier mapping performance analysis
     home_url: https://bioconductor.org/packages/3.9/bioc/html/IdMappingRetrieval.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.idmappingretrieval
     keywords: []
     license: Not available
     manually_check: true
@@ -108520,7 +108809,8 @@ r-ldrtools:
         liski, e.nordhausen k., oja h., ruiz-gazen a. (2016) combining linear dimension
         reduction subspaces <doi:10.1007/978-81-322-3643-6_7>.
     home_url: https://CRAN.R-project.org/package=LDRTools
-    identifiers: []
+    identifiers:
+      -   '10.1007'
     keywords: []
     license: Not available
     manually_check: true
@@ -108531,7 +108821,8 @@ bioconductor-flowqb:
         the detector efficiency (q), optical background (b) and intrinsic cv of the
         beads.
     home_url: https://bioconductor.org/packages/3.9/bioc/html/flowQB.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.flowqb
     keywords: []
     license: Not available
     manually_check: true
@@ -108540,7 +108831,8 @@ bioconductor-flowqb:
 bioconductor-idmappinganalysis:
     description: Identifier mapping performance analysis
     home_url: https://bioconductor.org/packages/3.9/bioc/html/IdMappingAnalysis.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.idmappinganalysis
     keywords: []
     license: Not available
     manually_check: true
@@ -108549,7 +108841,8 @@ bioconductor-idmappinganalysis:
 spoa:
     description: Simd partial order alignment tool
     home_url: https://github.com/rvaser/spoa
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/gr.214270.116
     keywords: []
     license: MIT
     manually_check: true
@@ -108578,7 +108871,8 @@ pytest-workflow:
     description: A pytest plugin for configuring workflow/pipeline tests using yaml
         files
     home_url: https://github.com/LUMC/pytest-workflow
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3757727
     keywords: []
     license: Not available
     manually_check: true
@@ -108588,7 +108882,8 @@ bioconductor-ampliqueso:
     description: The package provides tools and reports for the analysis of amplicon
         sequencing panels, such as ampliseq
     home_url: https://bioconductor.org/packages/3.8/bioc/html/ampliQueso.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.ampliqueso
     keywords: []
     license: Not available
     manually_check: true
@@ -108703,7 +108998,9 @@ perl-escape-houdini:
 kipoi-conda:
     description: 'Kipoi: model zoo for genomics'
     home_url: https://github.com/kipoi/kipoi
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/375345
+      -   doi:10.1038/s41587-019-0140-0
     keywords: []
     license: MIT
     manually_check: true
@@ -108760,7 +109057,9 @@ bioconductor-mlm4omics:
         random responses. The purpose is to provide a similar format as the other
         R regression functions but using Stan models.
     home_url: https://bioconductor.org/packages/3.9/bioc/html/mlm4omics.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.mlm4omics
+      -   doi:10.1101/153049
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -108823,7 +109122,8 @@ pyiron:
     description: pyiron - an integrated development environment (IDE) for computational
         materials science.
     home_url: https://github.com/pyiron/pyiron
-    identifiers: []
+    identifiers:
+      -   doi:10.1016/j.commatsci.2018.07.043
     keywords: []
     license: BSD-3-Clause
     manually_check: true
@@ -109038,7 +109338,13 @@ metabinkit:
         is also available to create BLAST databases and to perform BLAST alignments,
         which can be passed directly to metabin.
     home_url: https://github.com/envmetagen/metabinkit
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pone.0199609
+      -   doi:10.1111/2041-210x.12849
+      -   doi:10.1111/1755-0998.12628
+      -   doi:10.1111/2041-210x.12687
+      -   doi:10.1186/1471-2164-11-434
+      -   doi:10.1093/nar/gkr732
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -109104,7 +109410,8 @@ tendo:
 dgenies:
     description: Dotplot large genomes in an interactive, efficient and simple way
     home_url: http://dgenies.toulouse.inra.fr
-    identifiers: []
+    identifiers:
+      -   doi:10.7717/peerj.4958
     keywords: []
     license: Not available
     manually_check: true
@@ -109163,7 +109470,8 @@ bioconductor-mafh5.gnomad.r3.0.grch38:
     description: Minor allele frequency data from gnomad release 3.0 for grch38 stored
         using a hdf5 backend
     home_url: https://bioconductor.org/packages/3.12/data/annotation/html/MafH5.gnomAD.r3.0.GRCh38.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.mafh5.gnomad.r3.0.grch38
     keywords: []
     license: Not available
     manually_check: true
@@ -109172,7 +109480,8 @@ bioconductor-mafh5.gnomad.r3.0.grch38:
 bioconductor-mafdb.gnomad.r3.0.grch38:
     description: Minor allele frequency data from gnomad release 3.0 for grch38
     home_url: https://bioconductor.org/packages/3.12/data/annotation/html/MafDb.gnomAD.r3.0.GRCh38.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.mafdb.gnomad.r3.0.grch38
     keywords: []
     license: Not available
     manually_check: true
@@ -109239,7 +109548,8 @@ r-dimsum:
     description: An error model and pipeline for analyzing deep mutational scanning
         (dms) data and diagnosing common experimental pathologies
     home_url: https://github.com/lehner-lab/DiMSum
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13059-020-02091-3
     keywords: []
     license: Not available
     manually_check: true
@@ -109259,7 +109569,8 @@ sequnwinder:
         motifs in a collection of genomic loci that have several (overlapping) annotation
         labels.
     home_url: http://mahonylab.org/software/sequnwinder/
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btx271
     keywords: []
     license: Not available
     manually_check: true
@@ -109268,7 +109579,8 @@ sequnwinder:
 psascan:
     description: A parallel external memory suffix array construction algorithm
     home_url: https://www.cs.helsinki.fi/group/pads/pSAscan.html
-    identifiers: []
+    identifiers:
+      -   doi:10.1007/978-3-319-19929-0_28
     keywords: []
     license: MIT
     manually_check: true
@@ -109422,7 +109734,8 @@ nanomod:
 pyrodigal:
     description: Python bindings to Prodigal, an ORF finder for microbial sequences.
     home_url: https://github.com/althonos/pyrodigal
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.4015169
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -109668,7 +109981,8 @@ bioconda2biocontainer:
 chisel:
     description: Copy-number haplotype inference in single-cell by evolutionary links
     home_url: https://github.com/raphael-group/chisel
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41587-020-0661-6
     keywords: []
     license: Not available
     manually_check: true
@@ -109686,7 +110000,11 @@ hpsuissero:
 cellrank-krylov:
     description: Continuous Lineage Decisions Uncovered by RNA Velocity
     home_url: https://github.com/theislab/cellrank
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41586-018-0414-6
+      -   doi:10.1038/s41587-020-0591-3
+      -   doi:10.1242/dev.173849
+      -   doi:10.1101/2020.10.19.345983
     keywords: []
     license: BSD
     manually_check: true
@@ -109808,7 +110126,8 @@ gwas-fasp:
     description: Container image for gwas analysis workflow for ga4gh plenary 2020
         fasp demonstrator containging plink and custom scripts
     home_url: https://www.cog-genomics.org/plink2
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13742-015-0047-8
     keywords: []
     license: SPDX:GPL-3.0-or-later
     manually_check: true
@@ -109843,7 +110162,8 @@ libsbml:
 bioconductor-mafdb.gnomad.r2.1.grch38:
     description: Minor allele frequency data from gnomad release 2.1 for grch38
     home_url: https://bioconductor.org/packages/3.12/data/annotation/html/MafDb.gnomAD.r2.1.GRCh38.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.mafdb.gnomad.r2.1.grch38
     keywords: []
     license: Not available
     manually_check: true
@@ -109852,7 +110172,8 @@ bioconductor-mafdb.gnomad.r2.1.grch38:
 bioconductor-meat:
     description: Muscle epigenetic age test
     home_url: https://bioconductor.org/packages/3.12/bioc/html/MEAT.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.meat
     keywords: []
     license: Not available
     manually_check: true
@@ -109862,7 +110183,8 @@ chexalign:
     description: Chexalign is used for alignment and quantification of chip-exo crosslinking
         patterns.
     home_url: https://github.com/seqcode/chexalign
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/868604
     keywords: []
     license: Not available
     manually_check: true
@@ -109923,7 +110245,8 @@ smaca:
     description: smaca is a python tool to detect putative SMA carriers and estimate
         the absolute SMN1 copy-number in a population.
     home_url: https://github.com/babelomics/SMAca
-    identifiers: []
+    identifiers:
+      -   doi:10.1002/humu.24120
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -110192,7 +110515,8 @@ trycycler:
     description: Trycycler is a tool for generating consensus long-read assemblies
         for bacterial genomes
     home_url: https://github.com/rrwick/Trycycler
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3965017
     keywords: []
     license: Not available
     manually_check: true
@@ -110221,7 +110545,8 @@ r-harmony:
     description: Fast, sensitive and accurate integration of single-cell data with
         Harmony
     home_url: https://github.com/immunogenomics/harmony
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41592-019-0619-0
     keywords: []
     license: GPL-3.0-only
     manually_check: true
@@ -110301,7 +110626,9 @@ mosca:
 stringdecomposer:
     description: A tool for decomposing of strings into a set of given monomers
     home_url: https://github.com/ablab/stringdecomposer
-    identifiers: []
+    identifiers:
+      -   doi:10.6084/m9.figshare.12783371
+      -   doi:10.1093/bioinformatics/btaa454
     keywords: []
     license: GPL-2.0
     manually_check: true
@@ -110558,7 +110885,9 @@ bioinfokit:
         to analyze, visualize, and interpret the biological data generated from genome-scale
         omics experiments.
     home_url: https://reneshbedre.github.io/blog/howtoinstall.html
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3965241
+      -   doi:10.5281/zenodo.3629446
     keywords: []
     license: Not available
     manually_check: true
@@ -110577,7 +110906,8 @@ plink2:
     description: Whole genome association analysis toolset, designed to perform a
         range of basic, large-scale analyses in a computationally efficient manner.
     home_url: https://www.cog-genomics.org/plink2
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13742-015-0047-8
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -110687,7 +111017,8 @@ treecluster:
 beepnog:
     description: Deep learning tool for protein orthologous group assignment
     home_url: https://github.com/univieCUBE/deepnog
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btaa1051
     keywords: []
     license: Not available
     manually_check: true
@@ -110696,7 +111027,9 @@ beepnog:
 badread:
     description: A long read simulator that can imitate many types of read problems
     home_url: https://github.com/rrwick/Badread
-    identifiers: []
+    identifiers:
+      -   doi:10.21105/joss.01316
+      -   doi:10.5281/zenodo.2622997
     keywords: []
     license: Not available
     manually_check: true
@@ -110778,7 +111111,8 @@ bioconductor-meskit:
     description: A tool kit for dissecting cancer evolution from multi-region derived
         tumor biopsies via somatic alterations
     home_url: https://bioconductor.org/packages/3.12/bioc/html/MesKit.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.meskit
     keywords: []
     license: Not available
     manually_check: true
@@ -110929,7 +111263,8 @@ seqiolib:
 chembl_structure_pipeline:
     description: ChEMBL protocols used to standardise and salt strip molecules.
     home_url: https://github.com/chembl/ChEMBL_Structure_Pipeline
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13321-020-00456-1
     keywords: []
     license: MIT
     manually_check: true
@@ -110970,7 +111305,9 @@ lumpy-sv-minimal:
     description: A general probabilistic framework for structural variant discovery.
         This package contains only the lumpy executable
     home_url: https://github.com/arq5x/lumpy-sv
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/gb-2014-15-6-r84
+      -   doi:10.1093/bioinformatics/btu356
     keywords: []
     license: MIT
     manually_check: true
@@ -111059,6 +111396,9 @@ scepia:
     home_url: https://github.com/vanheeringen-lab/scepia
     identifiers:
       -   biotools:scepia
+      -   doi:10.1126/science.aba7612
+      -   doi:10.1016/j.cell.2018.06.052
+      -   '10.1101'
     keywords: []
     license: MIT
     manually_check: true
@@ -111105,7 +111445,8 @@ pyhalcyon:
 gofasta:
     description: Some functions for working on alignments in fasta format
     home_url: https://github.com/cov-ert/gofasta
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btg412
     keywords: []
     license: MIT
     manually_check: true
@@ -111169,7 +111510,8 @@ md-cogent:
 fanc:
     description: Framework for the ANalysis of C-data.
     home_url: https://github.com/vaquerizaslab/fanc
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13059-020-02215-9
     keywords: []
     license: Academic Public License (FAN-C)
     manually_check: true
@@ -111178,7 +111520,9 @@ fanc:
 ggcaller:
     description: A gene caller for Bifrost graphs
     home_url: https://github.com/samhorsfield96/ggCaller
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/695338
+      -   doi:10.1016/j.jbiotec.2017.07.017
     keywords: []
     license: MIT
     manually_check: true
@@ -111388,7 +111732,8 @@ fates-emerald:
         Simulator (FATES) with Community Terrestrial Systems Model as host model is
         maintained by the University of Oslo.
     home_url: https://github.com/NordicESMhub/ctsm/tree/fates_emerald_api
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3739617
     keywords: []
     license: BSD-3-Clause
     manually_check: true
@@ -111527,7 +111872,8 @@ sibeliaz:
 bioconductor-geneplast.data:
     description: Input data for the geneplast package via annotationhub
     home_url: https://bioconductor.org/packages/3.12/data/annotation/html/geneplast.data.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.geneplast.data
     keywords: []
     license: Not available
     manually_check: true
@@ -111552,7 +111898,8 @@ bioconductor-herper:
         conda dependencies we recommend using basilisk (https://bioconductor.org/packages/release/bioc/html/basilisk.html)
         to internally support these system requirments pre-hoc.
     home_url: http://www.bioconductor.org/packages/release/bioc/html/Herper.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.herper
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -111561,7 +111908,8 @@ bioconductor-herper:
 bioconductor-biocthis:
     description: Automate package and project setup for bioconductor packages
     home_url: https://bioconductor.org/packages/3.12/bioc/html/biocthis.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.biocthis
     keywords: []
     license: Not available
     manually_check: true
@@ -111571,7 +111919,8 @@ bioconductor-jaspar2020:
     description: Data package for JASPAR2020. To search this databases, please use
         the package TFBSTools (>= 1.23.1).
     home_url: https://bioconductor.org/packages/release/data/annotation/html/JASPAR2020.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.jaspar2020
     keywords: []
     license: GPL-2.0
     manually_check: true
@@ -111593,7 +111942,8 @@ bioconductor-fmrs:
         Mixture of Accelerated Failure Time Regression and Finite Mixture of Regression
         Models. Furthermore, this package provides Ridge Regression and Elastic Net.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/fmrs.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.fmrs
     keywords: []
     license: GPL (>= 3)
     manually_check: true
@@ -111608,7 +111958,8 @@ bioconductor-informeasure:
         The first estimator is used to infer bivariate network while the last four
         estimators are dedicated to analyze trivariate networks.'
     home_url: https://bioconductor.org/packages/3.12/bioc/html/Informeasure.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.informeasure
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -111620,7 +111971,8 @@ bioconductor-gcsfilesystem:
         the package, you need to install GCSDokan on Windows or gcsfuse on Linux and
         MacOs.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/GCSFilesystem.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.gcsfilesystem
     keywords: []
     license: GPL (>= 2)
     manually_check: true
@@ -111629,7 +111981,8 @@ bioconductor-gcsfilesystem:
 bioconductor-omixer:
     description: Randomize samples for -omics profiling
     home_url: https://bioconductor.org/packages/3.12/bioc/html/Omixer.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.omixer
     keywords: []
     license: Not available
     manually_check: true
@@ -111650,7 +112003,8 @@ bioconductor-gwas.bayes:
         The research related to this package was supported in part by National Science
         Foundation Award 1853549.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/GWAS.BAYES.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.gwas.bayes
     keywords: []
     license: GPL-2 | GPL-3
     manually_check: true
@@ -111660,7 +112014,8 @@ bioconductor-msstatsconvert:
     description: Import data from various mass spectrometry signal processing tools
         to msstats format
     home_url: https://bioconductor.org/packages/3.12/bioc/html/MSstatsConvert.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.msstatsconvert
     keywords: []
     license: Not available
     manually_check: true
@@ -111669,7 +112024,8 @@ bioconductor-msstatsconvert:
 bioconductor-rhdf5filters:
     description: Provides a collection of compression filters for use with HDF5 datasets.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/rhdf5filters.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.rhdf5filters
     keywords: []
     license: BSD-2-Clause
     manually_check: true
@@ -111679,7 +112035,8 @@ bioconductor-fscanr:
     description: Detect programmed ribosomal frameshifting events from mrna/cdna blastx
         output
     home_url: https://bioconductor.org/packages/3.12/bioc/html/FScanR.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.fscanr
     keywords: []
     license: Not available
     manually_check: true
@@ -111750,7 +112107,8 @@ bioconductor-rtpca:
 bioconductor-gseamining:
     description: Make biological sense of gene set enrichment analysis outputs
     home_url: https://bioconductor.org/packages/3.12/bioc/html/GSEAmining.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.gseamining
     keywords: []
     license: Not available
     manually_check: true
@@ -111761,7 +112119,8 @@ bioconductor-tiledbarray:
         sparse arrays in the TileDB format. The resulting TileDBArrays are compatible
         with all Bioconductor pipelines that can accept DelayedArray instances.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/TileDBArray.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.tiledbarray
     keywords: []
     license: MIT
     manually_check: true
@@ -111770,7 +112129,8 @@ bioconductor-tiledbarray:
 bioconductor-rsemmed:
     description: An interface to the semantic medline database
     home_url: https://bioconductor.org/packages/3.12/bioc/html/rsemmed.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.rsemmed
     keywords: []
     license: Not available
     manually_check: true
@@ -111784,7 +112144,8 @@ bioconductor-residualmatrix:
         of residuals, most notably matrix multiplication and calculation of row/column
         sums or means.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/ResidualMatrix.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.residualmatrix
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -111795,7 +112156,8 @@ bioconductor-bluster:
         Backends are implemented for hierarchical, k-means and graph-based clustering.
         Several utilities are also provided to compare and evaluate clustering results.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/bluster.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.bluster
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -111807,7 +112169,8 @@ bioconductor-metaboliteidmapping:
         merged from four publicly available source, including HMDB, Comptox Dashboard,
         ChEBI, and the graphite Bioconductor R package.
     home_url: https://bioconductor.org/packages/3.12/data/annotation/html/metaboliteIDmapping.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.metaboliteidmapping
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -111838,7 +112201,8 @@ bioconductor-metabcombiner:
         by a similarity score. Input tables are assumed to be acquired using similar
         (but not necessarily identical) analytical methods.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/metabCombiner.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.metabcombiner
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -111876,7 +112240,8 @@ bioconductor-rfastp:
 bioconductor-mseadbi:
     description: Dbi to construct msea-related package
     home_url: https://bioconductor.org/packages/3.12/bioc/html/MSEADbi.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.mseadbi
     keywords: []
     license: Not available
     manually_check: true
@@ -111885,7 +112250,8 @@ bioconductor-mseadbi:
 bioconductor-spectra:
     description: Spectra infrastructure for mass spectrometry data
     home_url: https://bioconductor.org/packages/3.12/bioc/html/Spectra.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.spectra
     keywords:
       -   Proteomics
       -   Metabolomics
@@ -111900,7 +112266,8 @@ bioconductor-cellarepertorium:
         paired heavy-light chain data. Tests for specific expansion, as well as omnibus
         oligoclonality under hypergeometric models.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/CellaRepertorium.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.cellarepertorium
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -111924,7 +112291,8 @@ bioconductor-filterffpe:
         of false positive structural variation (SV) calls. The required input is an
         indexed BAM file of a FFPE sample.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/FilterFFPE.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.filterffpe
     keywords: []
     license: LGPL-3.0
     manually_check: true
@@ -111937,7 +112305,8 @@ bioconductor-seqgate:
         of the distibution of counts in replicate samples. The gate is the threshold
         above which sequenced features can be considered as confidently quantified.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/SeqGate.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.seqgate
     keywords: []
     license: GPL (>= 2.0)
     manually_check: true
@@ -111956,7 +112325,8 @@ coolbox:
 bioconductor-biocio:
     description: Standard input and output for bioconductor packages
     home_url: https://bioconductor.org/packages/3.12/bioc/html/BiocIO.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.biocio
     keywords: []
     license: Not available
     manually_check: true
@@ -111965,7 +112335,8 @@ bioconductor-biocio:
 bioconductor-tomoda:
     description: Tomo-seq data analysis
     home_url: https://bioconductor.org/packages/3.12/bioc/html/tomoda.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.tomoda
     keywords: []
     license: Not available
     manually_check: true
@@ -111975,7 +112346,8 @@ bioconductor-phosr:
     description: A set of methods and tools for comprehensive analysis of phosphoproteomics
         data
     home_url: https://bioconductor.org/packages/3.12/bioc/html/PhosR.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.phosr
     keywords:
       -   Proteomics
     license: Not available
@@ -111985,7 +112357,8 @@ bioconductor-phosr:
 bioconductor-anvilpublish:
     description: Publish packages and other resources to anvil workspaces
     home_url: https://bioconductor.org/packages/3.12/bioc/html/AnVILPublish.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.anvilpublish
     keywords: []
     license: Not available
     manually_check: true
@@ -111995,7 +112368,8 @@ bioconductor-mousefm:
     description: This package provides methods for genetic finemapping in inbred mice
         by taking advantage of their very high homozygosity rate (>95%).
     home_url: https://bioconductor.org/packages/3.12/bioc/html/MouseFM.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.mousefm
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -112009,7 +112383,8 @@ bioconductor-vplotr:
         the generation of V-plots and footprint profiles over single or aggregated
         genomic loci of interest.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/VplotR.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.vplotr
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -112022,7 +112397,8 @@ bioconductor-idpr:
         dynamic results. Additionally, this package includes tools for IDP-based sequence
         analysis to be used in conjunction with other R packages.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/idpr.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.idpr
     keywords: []
     license: LGPL-3.0
     manually_check: true
@@ -112046,7 +112422,8 @@ bioconductor-cfdnapro:
         intensive. This package intends to simplify this exploration process, and
         it offers two sets of functions for data characterization and data visualization.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/cfDNAPro.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.cfdnapro
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -112055,7 +112432,8 @@ bioconductor-cfdnapro:
 bioconductor-tidysummarizedexperiment:
     description: Brings SummarizedExperiment to the Tidyverse
     home_url: https://bioconductor.org/packages/3.12/bioc/html/tidySummarizedExperiment.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.tidysummarizedexperiment
     keywords: []
     license: GPL-3
     manually_check: true
@@ -112064,7 +112442,8 @@ bioconductor-tidysummarizedexperiment:
 bioconductor-lefser:
     description: R implementation of the lefse method for microbiome biomarker discovery
     home_url: https://bioconductor.org/packages/3.12/bioc/html/lefser.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.lefser
     keywords: []
     license: Not available
     manually_check: true
@@ -112081,7 +112460,8 @@ bioconductor-hummingbird:
         determining significance. At last, our methodology does not require replication
         in either or both of the two comparison groups.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/hummingbird.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.hummingbird
     keywords: []
     license: GPL (>=2)
     manually_check: true
@@ -112090,7 +112470,8 @@ bioconductor-hummingbird:
 bioconductor-msstatsptm:
     description: Statistical characterization of post-translational modifications
     home_url: https://bioconductor.org/packages/3.12/bioc/html/MSstatsPTM.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.msstatsptm
     keywords: []
     license: Not available
     manually_check: true
@@ -112099,7 +112480,8 @@ bioconductor-msstatsptm:
 bioconductor-brainsaber:
     description: Brain span atlas in biobase expressionset r toolset
     home_url: https://bioconductor.org/packages/3.12/bioc/html/BrainSABER.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.brainsaber
     keywords: []
     license: Not available
     manually_check: true
@@ -112109,7 +112491,8 @@ bioconductor-isanalytics:
     description: Analyze gene therapy vector insertion sites data identified from
         genomics next generation sequencing reads for clonal tracking studies
     home_url: https://bioconductor.org/packages/3.12/bioc/html/ISAnalytics.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.isanalytics
     keywords: []
     license: Not available
     manually_check: true
@@ -112122,7 +112505,8 @@ bioconductor-ncrnatools:
         also provides tools to read, write and interconvert the file formats most
         commonly used for representing such secondary structures.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/ncRNAtools.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.ncrnatools
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -112135,7 +112519,8 @@ bioconductor-nebulosa:
         multiple features (e.g. genes). Seurat and SingleCellExperiment objects can
         be used within Nebulosa.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/Nebulosa.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.nebulosa
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -112149,7 +112534,8 @@ bioconductor-newwave:
         binomial distribution for the data with a dispersion parameter that can be
         both commonwise across gene both genewise.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/NewWave.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.newwave
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -112170,7 +112556,8 @@ bioconductor-mofa2:
     description: The MOFA2 package contains a collection of tools for running and
         analysing MOFA models.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/MOFA2.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.mofa2
     keywords: []
     license: GPL (>= 2)
     manually_check: true
@@ -112188,7 +112575,8 @@ bioconductor-marr:
         of reproducible features and sample pairs based on output visualization checks
         (histograms).
     home_url: https://bioconductor.org/packages/3.12/bioc/html/marr.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.marr
     keywords: []
     license: GPL (>= 3)
     manually_check: true
@@ -112199,7 +112587,8 @@ bioconductor-scuttle:
         focusing on simple normalization, quality control and data transformations.
         Also provides some helper functions to assist development of other packages.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/scuttle.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.scuttle
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -112208,7 +112597,8 @@ bioconductor-scuttle:
 bioconductor-customcmpdb:
     description: Customize and query compound annotation database
     home_url: https://bioconductor.org/packages/3.12/bioc/html/customCMPdb.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.customcmpdb
     keywords: []
     license: Not available
     manually_check: true
@@ -112217,7 +112607,8 @@ bioconductor-customcmpdb:
 bioconductor-experimentsubset:
     description: Manages subsets of data with bioconductor experiment objects
     home_url: https://bioconductor.org/packages/3.12/bioc/html/ExperimentSubset.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.experimentsubset
     keywords: []
     license: Not available
     manually_check: true
@@ -112226,7 +112617,8 @@ bioconductor-experimentsubset:
 bioconductor-zellkonverter:
     description: Conversion between scrna-seq objects
     home_url: https://bioconductor.org/packages/3.12/bioc/html/zellkonverter.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.zellkonverter
     keywords: []
     license: Not available
     manually_check: true
@@ -112236,7 +112628,8 @@ bioconductor-msstatstmtptm:
     description: Post translational modification (ptm) significance analysis in shotgun
         mass spectrometry-based proteomic experiments with tandem mass tag (tmt) labeling
     home_url: https://bioconductor.org/packages/3.12/bioc/html/MSstatsTMTPTM.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.msstatstmtptm
     keywords: []
     license: Not available
     manually_check: true
@@ -112245,7 +112638,8 @@ bioconductor-msstatstmtptm:
 bioconductor-velociraptor:
     description: Toolkit for single-cell velocity
     home_url: https://bioconductor.org/packages/3.12/bioc/html/velociraptor.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.velociraptor
     keywords: []
     license: Not available
     manually_check: true
@@ -112254,7 +112648,8 @@ bioconductor-velociraptor:
 bioconductor-recount3:
     description: Explore and download data from the recount3 project
     home_url: https://bioconductor.org/packages/3.12/bioc/html/recount3.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.recount3
     keywords: []
     license: Not available
     manually_check: true
@@ -112263,7 +112658,8 @@ bioconductor-recount3:
 bioconductor-qfeatures:
     description: Quantitative features for mass spectrometry data
     home_url: https://bioconductor.org/packages/3.12/bioc/html/QFeatures.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.qfeatures
     keywords: []
     license: Not available
     manually_check: true
@@ -112273,7 +112669,8 @@ bioconductor-padma:
     description: Individualized Multi-Omic Pathway Deviation Scores Using Multiple
         Factor Analysis
     home_url: https://bioconductor.org/packages/3.12/bioc/html/padma.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.padma
     keywords: []
     license: GPL (>=3)
     manually_check: true
@@ -112292,7 +112689,8 @@ bioconductor-radiogx:
 bioconductor-toxicogx:
     description: Analysis of large-scale toxico-genomic data
     home_url: https://bioconductor.org/packages/3.12/bioc/html/ToxicoGx.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.toxicogx
     keywords: []
     license: Not available
     manually_check: true
@@ -112301,7 +112699,8 @@ bioconductor-toxicogx:
 bioconductor-metabolomicsworkbenchr:
     description: Metabolomics Workbench in R
     home_url: https://bioconductor.org/packages/3.12/bioc/html/metabolomicsWorkbenchR.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.metabolomicsworkbenchr
     keywords: []
     license: GPL-3
     manually_check: true
@@ -112310,7 +112709,8 @@ bioconductor-metabolomicsworkbenchr:
 bioconductor-bsgenome.ppaniscus.ucsc.panpan1:
     description: Full genome sequences for pan paniscus (ucsc version panpan1)
     home_url: https://bioconductor.org/packages/3.12/data/annotation/html/BSgenome.Ppaniscus.UCSC.panPan1.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.bsgenome.ppaniscus.ucsc.panpan1
     keywords: []
     license: Not available
     manually_check: true
@@ -112319,7 +112719,8 @@ bioconductor-bsgenome.ppaniscus.ucsc.panpan1:
 bioconductor-ancombc:
     description: Analysis of compositions of microbiomes with bias correction
     home_url: https://bioconductor.org/packages/3.12/bioc/html/ANCOMBC.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.ancombc
     keywords: []
     license: Not available
     manually_check: true
@@ -112328,7 +112729,8 @@ bioconductor-ancombc:
 bioconductor-scp:
     description: Mass spectrometry-based single-cell proteomics data analysis
     home_url: https://bioconductor.org/packages/3.12/bioc/html/scp.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.scp
     keywords:
       -   Proteomics
     license: Not available
@@ -112338,7 +112740,8 @@ bioconductor-scp:
 bioconductor-aggregatebiovar:
     description: Differential Gene Expression Analysis for Multi-subject scRNA-seq
     home_url: https://bioconductor.org/packages/3.12/bioc/html/aggregateBioVar.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.aggregatebiovar
     keywords: []
     license: GPL-3
     manually_check: true
@@ -112347,7 +112750,8 @@ bioconductor-aggregatebiovar:
 bioconductor-tidysinglecellexperiment:
     description: Brings SingleCellExperiment to the Tidyverse
     home_url: https://bioconductor.org/packages/3.12/bioc/html/tidySingleCellExperiment.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.tidysinglecellexperiment
     keywords: []
     license: GPL-3
     manually_check: true
@@ -112356,7 +112760,8 @@ bioconductor-tidysinglecellexperiment:
 bioconductor-spatialexperiment:
     description: S4 Class for Spatial Experiments handling
     home_url: https://bioconductor.org/packages/3.12/bioc/html/SpatialExperiment.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.spatialexperiment
     keywords: []
     license: GPL-3
     manually_check: true
@@ -112365,7 +112770,8 @@ bioconductor-spatialexperiment:
 bioconductor-scatedata:
     description: Data for scate (single-cell atac-seq signal extraction and enhancement)
     home_url: https://bioconductor.org/packages/3.12/data/experiment/html/SCATEData.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.scatedata
     keywords: []
     license: Not available
     manually_check: true
@@ -112374,7 +112780,9 @@ bioconductor-scatedata:
 bioconductor-transomics2cytoscape:
     description: A tool set for 3d trans-omic network visualization with cytoscape
     home_url: https://bioconductor.org/packages/3.12/bioc/html/transomics2cytoscape.html
-    identifiers: []
+    identifiers:
+      -   doi:10.1016/j.celrep.2014.07.021
+      -   doi:10.18129/b9.bioc.transomics2cytoscape
     keywords: []
     license: Not available
     manually_check: true
@@ -112383,7 +112791,8 @@ bioconductor-transomics2cytoscape:
 bioconductor-txdb.mmusculus.ucsc.mm39.refgene:
     description: Annotation package for txdb object(s)
     home_url: https://bioconductor.org/packages/3.12/data/annotation/html/TxDb.Mmusculus.UCSC.mm39.refGene.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.txdb.mmusculus.ucsc.mm39.refgene
     keywords: []
     license: Not available
     manually_check: true
@@ -112392,7 +112801,8 @@ bioconductor-txdb.mmusculus.ucsc.mm39.refgene:
 bioconductor-bsgenome.ppaniscus.ucsc.panpan2:
     description: Full genome sequences for pan paniscus (ucsc version panpan2)
     home_url: https://bioconductor.org/packages/3.12/data/annotation/html/BSgenome.Ppaniscus.UCSC.panPan2.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.bsgenome.ppaniscus.ucsc.panpan2
     keywords: []
     license: Not available
     manually_check: true
@@ -112402,7 +112812,8 @@ bioconductor-bambu:
     description: Reference-guided isoform reconstruction and quantification for long
         read RNA-Seq data
     home_url: https://bioconductor.org/packages/3.12/bioc/html/bambu.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.bambu
     keywords: []
     license: GPL-3
     manually_check: true
@@ -112411,7 +112822,8 @@ bioconductor-bambu:
 bioconductor-periodicdna:
     description: Set of tools to identify periodic occurrences of k-mers in dna sequences
     home_url: https://bioconductor.org/packages/3.12/bioc/html/periodicDNA.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.periodicdna
     keywords: []
     license: Not available
     manually_check: true
@@ -112420,7 +112832,8 @@ bioconductor-periodicdna:
 bioconductor-nanomethviz:
     description: Visualise methlation data from Oxford Nanopore sequencing
     home_url: https://bioconductor.org/packages/3.12/bioc/html/NanoMethViz.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.nanomethviz
     keywords: []
     license: Apache (>= 2.0)
     manually_check: true
@@ -112430,7 +112843,8 @@ bioconductor-sccb2:
     description: CB2 improves power of cell detection in droplet-based single-cell
         RNA sequencing data
     home_url: https://bioconductor.org/packages/3.12/bioc/html/scCB2.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.sccb2
     keywords: []
     license: GPL-3
     manually_check: true
@@ -112450,7 +112864,7 @@ bioconductor-degnorm:
     description: degradation normalization for RNA-seq data
     home_url: https://bioconductor.org/packages/3.12/bioc/html/DegNorm.html
     identifiers:
-      -    doi:10.1186/s13059-019-1682-7
+      -   doi:10.1186/s13059-019-1682-7
     keywords: []
     license: LGPL (>= 3)
     manually_check: true
@@ -112459,7 +112873,8 @@ bioconductor-degnorm:
 bioconductor-txdb.rnorvegicus.ucsc.rn6.ncbirefseq:
     description: Annotation package for txdb object(s)
     home_url: https://bioconductor.org/packages/3.12/data/annotation/html/TxDb.Rnorvegicus.UCSC.rn6.ncbiRefSeq.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.txdb.rnorvegicus.ucsc.rn6.ncbirefseq
     keywords: []
     license: Not available
     manually_check: true
@@ -112468,7 +112883,8 @@ bioconductor-txdb.rnorvegicus.ucsc.rn6.ncbirefseq:
 bioconductor-rnaeditr:
     description: Statistical analysis of RNA editing sites and hyper-editing regions
     home_url: https://bioconductor.org/packages/3.12/bioc/html/rnaEditr.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.rnaeditr
     keywords: []
     license: GPL-3
     manually_check: true
@@ -112492,7 +112908,8 @@ bioconductor-multicrispr:
 bioconductor-proactiv:
     description: Estimate promoter activity from rna-seq data
     home_url: https://bioconductor.org/packages/3.12/bioc/html/proActiv.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.proactiv
     keywords: []
     license: Not available
     manually_check: true
@@ -112502,7 +112919,8 @@ bioconductor-umi4cats:
     description: 'Umi4cats: processing, analysis and visualization of umi-4c chromatin
         contact data'
     home_url: https://bioconductor.org/packages/3.12/bioc/html/UMI4Cats.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.umi4cats
     keywords: []
     license: Not available
     manually_check: true
@@ -112511,7 +112929,8 @@ bioconductor-umi4cats:
 bioconductor-ripat:
     description: Retroviral integration pattern analysis tool (ripat)
     home_url: https://bioconductor.org/packages/3.12/bioc/html/RIPAT.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.ripat
     keywords: []
     license: Not available
     manually_check: true
@@ -112521,7 +112940,8 @@ bioconductor-timecoursedata:
     description: A data package for timecourse rna-seq and microarray gene expression
         data sets
     home_url: https://bioconductor.org/packages/3.12/data/experiment/html/timecoursedata.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.timecoursedata
     keywords: []
     license: Not available
     manually_check: true
@@ -112546,7 +112966,8 @@ bioconductor-nearbynding:
 bioconductor-hcamatrixbrowser:
     description: Extract and manage matrix data from the human cell atlas project
     home_url: https://bioconductor.org/packages/3.12/bioc/html/HCAMatrixBrowser.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.hcamatrixbrowser
     keywords: []
     license: Not available
     manually_check: true
@@ -112560,7 +112981,8 @@ bioconductor-spsimseq:
         to retain the dependence between genes. It allows simulation of multiple groups
         and batches with any required sample size and library size.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/SPsimSeq.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.spsimseq
     keywords: []
     license: GPL-2.0
     manually_check: true
@@ -112579,7 +113001,8 @@ bioconductor-simplifyenrichment:
 bioconductor-escape:
     description: Easy single cell analysis platform for enrichment
     home_url: https://bioconductor.org/packages/3.12/bioc/html/escape.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.escape
     keywords: []
     license: Not available
     manually_check: true
@@ -112591,7 +113014,8 @@ bioconductor-gpumagic:
         such as a CPU or a GPU. The user can also write and run their openCL code
         directly by calling .kernel function.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/gpuMagic.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.gpumagic
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -112605,7 +113029,8 @@ bioconductor-peacoqc:
         based on the IsolationTree function and the MAD outlier detection method.
         This package can be used for both flow- and mass cytometry data.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/PeacoQC.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.peacoqc
     keywords: []
     license: GPL (>=3)
     manually_check: true
@@ -112623,7 +113048,8 @@ bioconductor-scdataviz:
         via the ggplot engine, which means that users can add on features to these
         with ease.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/scDataviz.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.scdataviz
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -112654,7 +113080,8 @@ bioconductor-megadepth:
     name: bioconductor-megadepth
     total_pulls: 370
 bioconductor-tadcompare:
-    description: 'Tadcompare: identification and characterization of differential tads'
+    description: 'Tadcompare: identification and characterization of differential
+        tads'
     home_url: https://bioconductor.org/packages/3.12/bioc/html/TADCompare.html
     identifiers:
       -   doi:10.3389/fgene.2020.00158
@@ -112698,7 +113125,8 @@ bioconductor-regenrich:
         expression analysis; (2) regulator-target network inference; (3) enrichment
         analysis; and (4) regulators scoring and ranking.'
     home_url: https://bioconductor.org/packages/3.12/bioc/html/RegEnrich.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.regenrich
     keywords: []
     license: GPL (>= 2)
     manually_check: true
@@ -112733,7 +113161,8 @@ bioconductor-corral:
         data (e.g., proteomic TOF intensities) with the Hellinger distance adaptation
         of CA.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/corral.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.corral
     keywords: []
     license: GPL-2.0
     manually_check: true
@@ -112742,7 +113171,8 @@ bioconductor-corral:
 bioconductor-dasper:
     description: Detecting abberant splicing events from rna-sequencing data
     home_url: https://bioconductor.org/packages/3.12/bioc/html/dasper.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.dasper
     keywords: []
     license: Not available
     manually_check: true
@@ -112754,7 +113184,8 @@ bioconductor-rebook:
         book, but generalized for potential use in other large books with heavy compute.
         Also contains some functions to assist book deployment.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/rebook.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.rebook
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -112764,7 +113195,8 @@ bioconductor-flowcut:
     description: Precise and accurate automated removal of outlier events and flagging
         of files based on time versus fluorescence analysis
     home_url: https://bioconductor.org/packages/3.12/bioc/html/flowCut.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.flowcut
     keywords: []
     license: Not available
     manually_check: true
@@ -112788,7 +113220,8 @@ bioconductor-multibac:
 bioconductor-nanoporernaseq:
     description: Nanopore rna-seq example data
     home_url: https://bioconductor.org/packages/3.12/data/experiment/html/NanoporeRNASeq.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.nanoporernaseq
     keywords: []
     license: Not available
     manually_check: true
@@ -112840,7 +113273,8 @@ bioconductor-pagerank:
         and Gionis. Implemented multiplex PageRank as defined by Halu et al. Applied
         temporal and multiplex PageRank in gene regulatory network analysis.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/pageRank.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.pagerank
     keywords: []
     license: GPL-2.0
     manually_check: true
@@ -112858,7 +113292,8 @@ bioconductor-timirgen:
         down into a handful of high confidence miRNA-mRNA interactions effecting a
         signalling pathway, across a time course.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/TimiRGeN.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.timirgen
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -112881,7 +113316,8 @@ bioconductor-musicatk:
         and downstream exploratory analysis including the ability to compare signatures
         between cohorts and find matching signatures in COSMIC V2 or COSMIC V3.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/musicatk.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.musicatk
     keywords: []
     license: LGPL-3.0
     manually_check: true
@@ -112893,7 +113329,8 @@ bioconductor-infinityflow:
         by BioLegends LEGENDScreen or BD Human Cell Surface Marker Screening Panel
         (BD Lyoplates).
     home_url: https://bioconductor.org/packages/3.12/bioc/html/infinityFlow.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.infinityflow
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -112902,7 +113339,8 @@ bioconductor-infinityflow:
 bioconductor-clustifyrdatahub:
     description: External data sets for clustifyr in experimenthub
     home_url: https://bioconductor.org/packages/3.12/data/experiment/html/clustifyrdatahub.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.clustifyrdatahub
     keywords: []
     license: Not available
     manually_check: true
@@ -112911,7 +113349,8 @@ bioconductor-clustifyrdatahub:
 bioconductor-celldex:
     description: Reference Index for Cell Types
     home_url: https://bioconductor.org/packages/3.12/data/experiment/html/celldex.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.celldex
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -112920,7 +113359,8 @@ bioconductor-celldex:
 bioconductor-recountmethylation:
     description: Access and analyze dna methylation array databases
     home_url: https://bioconductor.org/packages/3.12/bioc/html/recountmethylation.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.recountmethylation
     keywords: []
     license: Not available
     manually_check: true
@@ -112949,7 +113389,8 @@ bioconductor-droplettestfiles:
 bioconductor-methylseqdata:
     description: Collection of public dna methylation sequencing datasets
     home_url: https://bioconductor.org/packages/3.12/data/experiment/html/MethylSeqData.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.methylseqdata
     keywords: []
     license: Not available
     manually_check: true
@@ -113008,7 +113449,8 @@ regenie:
 arcas-hla:
     description: High resolution hla typing from rna seq
     home_url: https://github.com/RabadanLab/arcasHLA
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btz474
     keywords: []
     license: Not available
     manually_check: true
@@ -113139,7 +113581,8 @@ submission-tool-validator:
 bioconductor-adimpute:
     description: Adaptive dropout imputer (adimpute)
     home_url: https://bioconductor.org/packages/3.12/bioc/html/ADImpute.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.adimpute
     keywords: []
     license: Not available
     manually_check: true
@@ -113149,7 +113592,8 @@ bioconductor-anvilbilling:
     description: Provide functions to retrieve and report on usage expenses in nhgri
         anvil (anvilproject.org).
     home_url: https://bioconductor.org/packages/3.12/bioc/html/AnVILBilling.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.anvilbilling
     keywords: []
     license: Not available
     manually_check: true
@@ -113210,7 +113654,8 @@ bioconductor-spatialdecon:
     description: Deconvolution of mixed cells from spatial and/or bulk gene expression
         data
     home_url: https://bioconductor.org/packages/3.12/bioc/html/SpatialDecon.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.spatialdecon
     keywords: []
     license: Not available
     manually_check: true
@@ -113219,7 +113664,8 @@ bioconductor-spatialdecon:
 bioconductor-spatialheatmap:
     description: Spatialheatmap
     home_url: https://bioconductor.org/packages/3.12/bioc/html/spatialHeatmap.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.spatialheatmap
     keywords: []
     license: Not available
     manually_check: true
@@ -113229,7 +113675,8 @@ bioconductor-systempipeshiny:
     description: 'Systempipeshiny: an interactive framework for workflow management
         and visualization'
     home_url: https://bioconductor.org/packages/3.12/bioc/html/systemPipeShiny.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.systempipeshiny
     keywords: []
     license: Not available
     manually_check: true
@@ -113279,7 +113726,8 @@ krakmeopen:
 bioconductor-sictools:
     description: Find SNV/Indel differences between two bam files with near relationship
     home_url: https://bioconductor.org/packages/3.12/bioc/html/SICtools.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.sictools
     keywords: []
     license: GPL (>=2)
     manually_check: true
@@ -113288,7 +113736,8 @@ bioconductor-sictools:
 bioconductor-scate:
     description: 'Scate: single-cell atac-seq signal extraction and enhancement'
     home_url: https://bioconductor.org/packages/3.12/bioc/html/SCATE.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.scate
     keywords: []
     license: Not available
     manually_check: true
@@ -113308,7 +113757,11 @@ appspam:
     description: Alignment-free Phylogenetic Placement algorithm based on Spaced-word
         Matches
     home_url: https://github.com/matthiasblanke/App-SpaM/
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.10.19.344986
+      -   doi:10.1093/bioinformatics/btw776
+      -   doi:10.1371/journal.pone.0031009
+      -   doi:10.1093/bioinformatics/btaa657
     keywords: []
     license: GPL-3
     manually_check: true
@@ -113319,7 +113772,8 @@ bioconductor-rsbml:
         an S4 SBML DOM, converts SBML to R graph objects. Optionally links to the
         SBML ODE Solver Library (SOSLib) for simulating models.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/rsbml.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.rsbml
     keywords: []
     license: Artistic-2.0
     manually_check: true
@@ -113349,7 +113803,8 @@ kakscalculator2:
 bioconductor-biggr:
     description: Constraint based modeling in r using metabolic reconstruction databases
     home_url: https://bioconductor.org/packages/3.12/bioc/html/BiGGR.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.biggr
     keywords: []
     license: Not available
     manually_check: true
@@ -113360,7 +113815,8 @@ bioconductor-epinem:
         EpiNEM is able to take into account double knockouts and infer more complex
         network signalling pathways.
     home_url: https://bioconductor.org/packages/3.12/bioc/html/epiNEM.html
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/b9.bioc.epinem
     keywords: []
     license: GPL-3.0
     manually_check: true
@@ -113527,6 +113983,11 @@ bakta:
     home_url: https://github.com/oschwengers/bakta
     identifiers:
       -   biotools:bakta
+      -   doi:10.5281/zenodo.4247252
+      -   doi:10.1038/s41597-019-0180-9
+      -   doi:10.1093/nar/gkaa1100
+      -   doi:10.1101/614032
+      -   doi:10.1093/nar/gkh152
     keywords: []
     license: GPLv3
     manually_check: true
@@ -113535,7 +113996,8 @@ bakta:
 conduit-assembler:
     description: Long- and short-read hybrid de novo transcriptome assembly
     home_url: https://github.com/NatPRoach/conduit
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.02.08.939942
     keywords:
       -   Transcriptome
       -   Transcriptomics
@@ -113570,7 +114032,8 @@ knot-asm-analysis:
     description: 'Knot: knowledge network overlap extraction is a tool for the investigation
         of fragmented long read assemblies.'
     home_url: https://github.com/natir/knot
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btz219
     keywords: []
     license: Not available
     manually_check: true
@@ -113608,7 +114071,9 @@ variantmap:
 genomescope2:
     description: Reference-free profiling of polyploid genomes
     home_url: https://github.com/tbenavi1/genomescope2.0
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41467-020-14998-3
+      -   doi:10.1093/bioinformatics/btx153
     keywords: []
     license: Not available
     manually_check: true
@@ -114047,7 +114512,8 @@ pargenes:
 mitobim:
     description: Mitochondrial baiting and iterative mapping
     home_url: https://github.com/chrishah/MITObim
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.1408102
     keywords: []
     license: MIT
     manually_check: true

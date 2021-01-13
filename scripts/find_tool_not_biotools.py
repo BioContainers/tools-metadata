@@ -28,7 +28,6 @@ def search_tool(key):
                 print('Error doi --' + key)
     # print('----------------------------------------------')
 
-
 for key in file_annotations:
     tool = file_annotations[key]
 
@@ -44,11 +43,11 @@ for key in file_annotations:
                 biotools = True
         if not dois:
             not_biotools.append(key + '\t' + file_annotations[key]['home_url'] + '\t' + '-- not doi')
-            # if 'bioconductor-' in key:
-            #     search_tool(key.replace("bioconductor-", ""))
-            #     print('bioconductor')
-            # else:
-            #     search_tool(key)
+            if 'bioconductor-' in key:
+                search_tool(key.replace("bioconductor-", ""))
+                print('bioconductor')
+            else:
+                search_tool(key)
         if not biotools:
             not_biotools.append(key + '\t' + file_annotations[key]['home_url'] + '\t' + '-- not biotools')
 
