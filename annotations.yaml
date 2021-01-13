@@ -6317,7 +6317,8 @@ singularity:
     total_pulls: 197
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pone.0177459
 velvet:
     name: velvet
     description: Short read de novo assembler using de bruijn graphs
@@ -10622,7 +10623,8 @@ tetranscripts:
     total_pulls: 23
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btv422
 openduck:
     name: openduck
     description: Open source library for dynamic undocking (DUck)
@@ -11366,7 +11368,8 @@ svim:
     total_pulls: 19
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btz041
 bioconductor-clusterexperiment:
     name: bioconductor-clusterexperiment
     description: Compare Clusterings for Single-Cell Sequencing
@@ -11385,7 +11388,8 @@ treeswift:
     total_pulls: 19
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/325522
 r-acidbase:
     name: r-acidbase
     description: Low-level base functions imported by Acid Genomics packages.
@@ -11504,11 +11508,12 @@ toil:
     description: A scalable, efficient, cross-platform and easy-to-use workflow engine
         in pure Python
     license: Apache 2.0
-    home_url: https://github.com/BD2KGenomics/toil
+    home_url: https://github.com/DataBiosphere/toil
     total_pulls: 18
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/nbt.3772
 arvados-python-client:
     name: arvados-python-client
     description: Python API for Arvados
@@ -11745,7 +11750,8 @@ iucn_sim:
     total_pulls: 18
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2019.12.16.878249
 dart:
     name: dart
     description: 'Dart: a fast and accurate RNA-seq mapper'
@@ -11998,6 +12004,7 @@ ivar:
     manually_check: true
     identifiers:
       -   biotools:ivar
+      -   doi:10.1186/s13059-018-1618-7
     keywords: []
 ncbi-amrfinderplus:
     name: ncbi-amrfinderplus
@@ -12304,7 +12311,8 @@ biasaway:
     total_pulls: 16
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btaa928
 mtsv-tools:
     name: mtsv-tools
     description: mtsv-tools is a suite of core metagenomic binning and analysis tools.
@@ -12468,7 +12476,8 @@ afterqc:
     total_pulls: 15
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12859-017-1469-3
 bioconductor-scran:
     name: bioconductor-scran
     description: Methods for Single-Cell RNA-Seq Data Analysis
@@ -12642,7 +12651,8 @@ optitype:
     total_pulls: 14
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btu548
 svviz:
     name: svviz
     description: A read visualizer for structural variants
@@ -13001,7 +13011,8 @@ pandaseq:
     total_pulls: 13
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/1471-2105-13-31
 peddy:
     name: peddy
     description: Genotype ped correspondence check, ancestry check, sex check, quickly
@@ -14540,7 +14551,8 @@ ntjoin:
     total_pulls: 10
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btaa253
 sensv:
     name: sensv
     description: SENSV
@@ -14738,7 +14750,8 @@ damageprofiler:
     total_pulls: 9
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.10.01.322206
 r-base:
     name: r-base
     description: R is a free software environment for statistical computing and graphics.
@@ -15143,7 +15156,8 @@ ushuffle:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/1471-2105-9-192
 bioconductor-titancna:
     name: bioconductor-titancna
     description: Subclonal copy number and LOH prediction from whole genome sequencing
@@ -15377,7 +15391,8 @@ deepac:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btz541
 cesm:
     name: cesm
     description: The Community Earth System Model (CESM) is a coupled climate model
@@ -15620,7 +15635,8 @@ pybedgraph:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btaa061
 ncbimeta:
     name: ncbimeta
     description: Efficient and comprehensive metadata acquisition from the ncbi databases
@@ -15663,7 +15679,8 @@ libis:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bib/bbaa332
 haslr:
     name: haslr
     description: A fast tool for hybrid genome assembly of long and short reads
@@ -15672,7 +15689,8 @@ haslr:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1016/j.isci.2020.101389
 pyslim:
     name: pyslim
     description: Manipulate tree sequences produced by SLiM.
@@ -15742,7 +15760,8 @@ getorganelle:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13059-020-02154-5
 phylorank:
     name: phylorank
     description: Phylorank provides functionality for calculating the relative evolutionary
@@ -15781,7 +15800,8 @@ lamassemble:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1007/978-1-0716-1036-7_9
 transindel:
     name: transindel
     description: Transindel is used to detect indels (insertions and deletions) from
@@ -15876,7 +15896,8 @@ haphpipe:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/molbev/msaa315
 enano:
     name: enano
     description: ENANO is a FASTQ compression tool especially designed for nanopore
@@ -15886,7 +15907,8 @@ enano:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btaa551
 cnvpytor:
     name: cnvpytor
     description: Python extension of cnvnator
