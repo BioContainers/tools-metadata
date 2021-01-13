@@ -7,7 +7,7 @@ from collections import OrderedDict
 
 """
 This script takes url with html and try to detect links to doi files (publications). The input of the script is the ../annotations.yaml. 
-For each tool in the annotatios.yaml, the scripts read the home_url for each tool, get the html and try to detect doi urls. 
+For each tool in the annotations.yaml, the scripts read the home_url for each tool, get the html and try to detect doi urls. 
 
 The output of the script will will go to a new file missing_annotations.yaml. The curator needs to finally accept the new changes. 
 """
@@ -15,7 +15,7 @@ The output of the script will will go to a new file missing_annotations.yaml. Th
 # DOI regular expressions
 doiurl_re = re.compile("doi:\s?(10\.[a-z0-9\-._:;()/<>]+)", re.U)  # Matches doi:(10. ... )
 doispace_re = re.compile("doi\s?(10\.[a-z0-9\-._:;()/<>]+)", re.U)  # Matches doi (10. ... )
-dx_re = re.compile("dx.doi.org/(10\.[a-z0-9\-._:;()/<>]+)", re.U)  # Matches dx.doi.org/(10. ...)
+dx_re = re.compile("doi.org/(10\.[a-z0-9\-._:;()/<>]+)", re.U)  # Matches dx.doi.org/(10. ...)
 doi_re = re.compile("(?:\s|^)(10\.[0-9.]+/[a-z0-9\-._:;()/<>]+)", re.U)  # Mathces (10. ... )
 
 
@@ -87,23 +87,28 @@ tools = {}
 for key in file_annotations:
     tool = file_annotations[key]
     url = tool['home_url']
+    identifiers = []
+    if 'identifiers' in tool:
+        identifiers = tool['identifiers']
     try:
-        dois = retrieve_doi(url)
-        print(dois)
-        if len(dois) > 0:
-            identifiers = []
-            if 'identifiers' in tool:
-                identifiers = tools['identifiers']
-            for doi in dois:
-                identifiers.append('doi:' + doi)
-            identifiers = list(dict.fromkeys(identifiers))
-            tool['identifiers'] = identifiers
-            print(identifiers)
+        if not any("doi" in word for word in identifiers):
+            dois = retrieve_doi(url)
+            print(dois)
+            if len(dois) > 0:
+                for doi in dois:
+                    identifiers.append('doi:' + doi)
+
+        identifiers = list(dict.fromkeys(identifiers))
+        tool['identifiers'] = identifiers
     except Exception as e:
         print("Error reading -- " + key + " Error -- " + str(url))
 
     print(tool['home_url'])
+
+    #check description spaces
+    tool['description'] = tool['description'].replace("\n", " ")
     tools[key] = tool
+
 
 yaml.indent(mapping=4, sequence=6, offset=2)
 with open('missing_annotations.yaml', 'w') as outfile:
