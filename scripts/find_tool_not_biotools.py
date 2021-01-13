@@ -28,7 +28,6 @@ def search_tool(key):
                 print('Error doi --' + key)
     # print('----------------------------------------------')
 
-
 for key in file_annotations:
     tool = file_annotations[key]
 
