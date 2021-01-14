@@ -177,7 +177,9 @@ galaxy_sequence_utils:
     total_pulls: 39447
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 prodigal:
     name: prodigal
     description: Microbial (bacterial and archaeal) gene finding program
@@ -8767,6 +8769,7 @@ crimson:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bioconductor-oligoclasses:
     name: bioconductor-oligoclasses
     description: Classes for high-throughput arrays supported by oligo and crlmm
@@ -11502,7 +11505,10 @@ openduck:
     total_pulls: 23
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/nchem.2660
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 bioconductor-hilbertvis:
     name: bioconductor-hilbertvis
     description: Gnu r package to visualise long vector data
@@ -12259,6 +12265,7 @@ portcullis:
     keywords:
       -   RNA-Seq
     identifiers: []
+    no_doi: true
 krakenuniq:
     name: krakenuniq
     description: Metagenomics classifier with unique k-mer counting for more specific
@@ -13924,6 +13931,7 @@ megalodon:
       -   Genetics
       -   Transcriptome
     identifiers: []
+    no_doi: true
 bioconductor-biobase:
     name: bioconductor-biobase
     description: 'Biobase: Base functions for Bioconductor'
@@ -15184,7 +15192,8 @@ radsex:
     manually_check: true
     keywords:
       -   Genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.04.22.054866
 requests:
     name: requests
     description: Requests is an elegant and simple HTTP library for Python
@@ -16698,7 +16707,8 @@ samplot:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.09.23.310110
 mutmap:
     name: mutmap
     description: 'Mutmap: pipeline to identify causative mutations responsible for
@@ -17031,7 +17041,8 @@ taxonomy:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/027607
 getorganelle:
     name: getorganelle
     description: Get organelle genomes from genome skimming data
@@ -17215,7 +17226,9 @@ nebulizer:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 hicstuff:
     name: hicstuff
     description: General purpose stuff to generate and handle hi-c data in its simplest
@@ -60860,6 +60873,8 @@ bioblend:
       -   Genomics
     identifiers:
       -   doi:10.1093/bioinformatics/btt199
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 ucsc-bigwigmerge:
     name: ucsc-bigwigmerge
     description: Merge together multiple bigwigs into a single output bedgraph.
@@ -62041,7 +62056,9 @@ galaxy-lib:
     total_pulls: 1
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 graphmap:
     name: graphmap
     description: a highly sensitive and accurate mapper for long, error-prone reads.
@@ -73679,7 +73696,9 @@ galaxy-k8s-runtime:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 xcms:
     name: xcms
     description: 'This is the git repository matching the Bioconductor package xcms:
@@ -90466,7 +90485,8 @@ recycler:
     manually_check: true
     keywords:
       -   Metagenome
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btw651
 sak:
     name: sak
     description: This tool allows one to cut sequences and parts of sequences out
@@ -90811,7 +90831,9 @@ galaxy-ops:
     manually_check: true
     keywords:
       -   Clustering
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 npyscreen:
     name: npyscreen
     description: Writing user interfaces without all that ugly mucking about in hyperspace
@@ -90943,7 +90965,8 @@ taco:
     keywords:
       -   RNA-Seq
       -   Transcriptome
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/nmeth.4078
 r-itertools:
     name: r-itertools
     description: Various tools for creating iterators, many patterned after functions
@@ -92271,7 +92294,9 @@ rgi_conda_dev:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 perl-image-exiftool:
     name: perl-image-exiftool
     description: Exiftool is a platform-independent perl library plus a command-line
@@ -92403,7 +92428,8 @@ music:
     manually_check: true
     keywords:
       -   Transcription Factors
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13059-014-0474-3
 damidseq_pipeline:
     name: damidseq_pipeline
     description: An automated pipeline for processing damid sequencing datasets
@@ -96841,7 +96867,9 @@ galaxy-parsec:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 galaxy-ie-helpers:
     name: galaxy-ie-helpers
     description: Helper scripts to work with galaxy's interactive environments
@@ -96850,7 +96878,9 @@ galaxy-ie-helpers:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 dupre:
     name: dupre
     description: Duplicate rate estimation using linear programming and the hypergeometric
@@ -100175,7 +100205,9 @@ gxformat2:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 bxtools:
     name: bxtools
     description: Tools for analyzing 10X Genomics data
@@ -114658,7 +114690,9 @@ pytaxonkit:
 galaxy-workflow-executor:
     description: Execute workflows on galaxy through the cli
     home_url: https://github.com/ebi-gene-expression-group/galaxy-workflow-executor
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
     keywords: []
     license: Not available
     manually_check: true
@@ -115589,7 +115623,9 @@ metatree:
 galaxyxml:
     description: Galaxy xml generation library
     home_url: https://github.com/hexylena/galaxyxml/
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
     keywords: []
     license: Not available
     manually_check: true
