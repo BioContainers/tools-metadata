@@ -745,7 +745,8 @@ matplotlib:
     total_pulls: 10059
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1109/MCSE.2007.55
 augustus:
     name: augustus
     description: Augustus is a eukaryotic gene prediction tool. It can integrate evidence,
@@ -1072,7 +1073,8 @@ gubbins:
     manually_check: true
     keywords:
       -   Genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gku1196
 pilon:
     name: pilon
     description: Read alignment analysis to diagnose, report, and automatically improve
@@ -1399,7 +1401,8 @@ porechop:
     total_pulls: 8170
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:
 progressivemauve:
     name: progressivemauve
     description: Progressivemauve computes multiple genome alignment with gene gain,
@@ -3056,7 +3059,8 @@ mhap:
     total_pulls: 5139
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/nbt.3238
 nanopolish:
     name: nanopolish
     description: A package for detecting cytosine methylations and genetic variations
@@ -3397,7 +3401,8 @@ parsnp:
     total_pulls: 4875
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13059-014-0524-x
 phipack:
     name: phipack
     description: Phi test and other tests of recombination
@@ -3635,7 +3640,8 @@ transrate-tools:
     manually_check: true
     keywords:
       -   Transcriptome
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/gr.196469.115
 proteinortho:
     name: proteinortho
     description: Detection of (co-)orthologs in large-scale protein analysis
@@ -4218,7 +4224,8 @@ nanoplot:
     total_pulls: 3772
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bty149
 lofreq:
     name: lofreq
     description: A fast and sensitive variant-caller for inferring snvs and indels
@@ -5299,7 +5306,8 @@ structureharvester:
     manually_check: true
     keywords:
       -   Genetics
-    identifiers: []
+    identifiers:
+      -   doi:10.1007/s12686-011-9548-7
 valet:
     name: valet
     description: Pipeline for detecting mis-assemblies in metagenomic assemblies
@@ -18959,7 +18967,8 @@ scrublet:
     keywords:
       -   RNA-Seq
       -   Transcriptome
-    identifiers: []
+    identifiers:
+      -   doi:10.1016/j.cels.2018.11.005
 vamb:
     name: vamb
     description: Variational autoencoder for metagenomic binning
@@ -39406,7 +39415,8 @@ dbg2olc:
     total_pulls: 3
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/srep31900
 bioconductor-copyhelper:
     name: bioconductor-copyhelper
     description: Helper files for CopywriteR
@@ -43653,7 +43663,8 @@ k-slam:
       -   Genomics
       -   Metagenomics
       -   Sequence Alignment
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw1248
 bioconductor-maftools:
     name: bioconductor-maftools
     description: Summarize, Analyze and Visualize MAF Files
@@ -63291,7 +63302,8 @@ deepbinner:
     total_pulls: 1
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -    doi:10.1371/journal.pcbi.1006583
 connectome-workbench:
     name: connectome-workbench
     description: Connectome Workbench is an open source, freely available visualization
@@ -120394,3 +120406,480 @@ fdog:
       -   Models, Genetic
       -   Phylogeny
       -   Sequence Analysis, DNA
+pandas:
+    name: pandas
+    description: High-performance, easy-to-use data structures and data analysis tools.
+    license: BSD-3-Clause
+    home_url: https://github.com/pandas-dev/pandas
+    total_pulls: 99368421
+    manually_check: false
+    identifiers: []
+    keywords: []
+r-blockfest:
+    name: r-blockfest
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 64820
+    manually_check: false
+    identifiers: []
+    keywords: []
+r-popgenome:
+    name: r-popgenome
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 40554
+    manually_check: false
+    identifiers: []
+    keywords: []
+r-metstat:
+    name: r-metstat
+    description: A diverse collection of metabolomics related statistical tools.
+    license: Not available
+    home_url: https://CRAN.R-project.org/package=MetStaT
+    total_pulls: 31890
+    manually_check: false
+    identifiers: []
+    keywords: []
+wtdbg2:
+    name: wtdbg2
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 131
+    manually_check: false
+    identifiers: []
+    keywords: []
+batvi:
+    name: batvi
+    description: Detect viral integrations
+    license: GPLv3+
+    home_url: https://www.comp.nus.edu.sg/~bioinfo/batvi/
+    total_pulls: 8630
+    manually_check: false
+    identifiers: []
+    keywords: []
+bioconductor-bsgenome.ptroglodytes.ucsc.pantro2.masked:
+    name: bioconductor-bsgenome.ptroglodytes.ucsc.pantro2.masked
+    description: Full masked genome sequences for pan troglodytes (ucsc version pantro2)
+    license: Not available
+    home_url: https://bioconductor.org/packages/3.12/data/annotation/html/BSgenome.Ptroglodytes.UCSC.panTro2.masked.html
+    total_pulls: 2277
+    manually_check: false
+    identifiers: []
+    keywords: []
+astropy:
+    name: astropy
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 1303539
+    manually_check: false
+    identifiers: []
+    keywords: []
+r-rismed:
+    name: r-rismed
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 15267
+    manually_check: false
+    identifiers: []
+    keywords: []
+perl-text-levenshtein:
+    name: perl-text-levenshtein
+    description: Calculate the levenshtein edit distance between two strings
+    license: Not available
+    home_url: https://github.com/neilbowers/Text-Levenshtein
+    total_pulls: 2508
+    manually_check: false
+    identifiers: []
+    keywords: []
+r-genemodel:
+    name: r-genemodel
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 5491
+    manually_check: false
+    identifiers: []
+    keywords: []
+velocyto.py:
+    name: velocyto.py
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 17838
+    manually_check: false
+    identifiers: []
+    keywords: []
+deepmod:
+    name: deepmod
+    description: A deep-learning method for dna modifcation (5mc and 6ma) prediction.
+    license: Not available
+    home_url: https://github.com/WGLab/DeepMod
+    total_pulls: 1322
+    manually_check: false
+    identifiers: []
+    keywords: []
+dram:
+    name: dram
+    description: 'Distilled and refined annotation of metabolism: a tool for the annotation
+      and curation of function for microbial and viral genomes'
+    license: Not available
+    home_url: https://github.com/shafferm/DRAM/
+    total_pulls: 1829
+    manually_check: false
+    identifiers: []
+    keywords: []
+deepgoplus:
+    name: deepgoplus
+    description: Deepgoplus is a novel method for predicting protein functions from
+      protein sequences using deep neural networks combined with sequence similarity
+      based predictions.
+    license: SPDX:BSD-3-Clause
+    home_url: http://deepgoplus.bio2vec.net/
+    total_pulls: 508
+    manually_check: false
+    identifiers: []
+    keywords:
+      -  protein function prediction
+drop:
+    name: drop
+    description: Detection of rna outlier pipeline
+    license: Not available
+    home_url: https://github.com/gagneurlab/drop
+    total_pulls: 4274
+    manually_check: false
+    identifiers: []
+    keywords: []
+duplomap:
+    name: duplomap
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 3207
+    manually_check: false
+    identifiers: []
+    keywords: []
+dna_features_viewer:
+    name: dna_features_viewer
+    description: Plot features from dna sequences (e.g. genbank) with python
+    license: Not available
+    home_url: https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer
+    total_pulls: 1795
+    manually_check: false
+    identifiers: []
+    keywords: []
+dfast_qc:
+    name: dfast_qc
+    description: 'Dfast_qc: taxonomy and completeness check for prokaryotic genomes'
+    license: Not available
+    home_url: https://dfast.nig.ac.jp
+    total_pulls: 1177
+    manually_check: false
+    identifiers: []
+    keywords: []
+deepnog:
+    name: deepnog
+    description: Deep learning tool for protein orthologous group assignment
+    license: Not available
+    home_url: https://github.com/univieCUBE/deepnog
+    total_pulls: 600
+    manually_check: false
+    identifiers: []
+    keywords: []
+dligand2:
+    name: dligand2
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 753
+    manually_check: false
+    identifiers: []
+    keywords: []
+psiclass:
+    name: psiclass
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 97
+    manually_check: false
+    identifiers: []
+    keywords: []
+epiweeks:
+    name: epiweeks
+    description: Calculate epidemiological weeks using the cdc (mmwr) and iso week
+      numbering systems.
+    license: Not available
+    home_url: https://github.com/dralshehri/epiweeks
+    total_pulls: 58
+    manually_check: false
+    identifiers: []
+    keywords: []
+datafunk:
+    name: datafunk
+    description: Miscellaneous data manipulation tools for fasta and sam files
+    license: Not available
+    home_url: https://github.com/cov-ert/datafunk
+    total_pulls: 57
+    manually_check: false
+    identifiers: []
+    keywords: []
+pulchra:
+    name: pulchra
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 82
+    manually_check: false
+    identifiers: []
+    keywords: []
+shovill-se:
+    name: shovill-se
+    description: An fork of shovill (microbial assembly pipeline for illumina paired-end
+      reads) that supports single-end reads.
+    license: Not available
+    home_url: https://github.com/rpetit3/shovill
+    total_pulls: 93
+    manually_check: false
+    identifiers: []
+    keywords: []
+clinker-py:
+    name: clinker-py
+    description: Gene cluster comparison figure generator
+    license: Not available
+    home_url: https://github.com/gamcil/clinker
+    total_pulls: 49
+    manually_check: false
+    identifiers: []
+    keywords: []
+pangolearn:
+    name: pangolearn
+    description: Store of the trained model for pangolin to access.
+    license: Not available
+    home_url: https://github.com/cov-lineages/pangoLEARN
+    total_pulls: 44
+    manually_check: false
+    identifiers: []
+    keywords: []
+uvaia:
+    name: uvaia
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 54
+    manually_check: false
+    identifiers: []
+    keywords: []
+run-dbcan:
+    name: run-dbcan
+    description: Standalone version of dbcan annotation tool for automated cazyme
+      annotation
+    license: Not available
+    home_url: https://github.com/linnabrown/run_dbcan
+    total_pulls: 52
+    manually_check: false
+    identifiers: []
+    keywords: []
+xtea:
+    name: xtea
+    description: Te insertion caller for both short and long reads
+    license: Not available
+    home_url: https://github.com/parklab/xTea
+    total_pulls: 47
+    manually_check: false
+    identifiers: []
+    keywords: []
+sap:
+    name: sap
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 53
+    manually_check: false
+    identifiers: []
+    keywords: []
+bayesase:
+    name: bayesase
+    description: Bayesian analysis of allele specific expression
+    license: Not available
+    home_url: https://github.com/McIntyre-Lab/BayesASE
+    total_pulls: 25
+    manually_check: false
+    identifiers: []
+    keywords: []
+primalscheme:
+    name: primalscheme
+    description: Primalscheme is a tool for designing primer panels for multiplex
+      pcr
+    license: Not available
+    home_url: https://github.com/aresti/primalscheme
+    total_pulls: 19
+    manually_check: false
+    identifiers: []
+    keywords: []
+bamkit:
+    name: bamkit
+    description: Tools for common bam file manipulations
+    license: Not available
+    home_url: https://github.com/hall-lab/bamkit
+    total_pulls: 5
+    manually_check: false
+    identifiers: []
+    keywords: []
+integron_finder:
+    name: integron_finder
+    description: Finds integrons in dna sequences
+    license: Not available
+    home_url: https://github.com/gem-pasteur/Integron_Finder
+    total_pulls: 5
+    manually_check: false
+    identifiers: []
+    keywords: []
+cmip:
+    name: cmip
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 17
+    manually_check: false
+    identifiers: []
+    keywords: []
+niemads:
+    name: niemads
+    description: 'Niemads: non-standard data structures for python 2 and 3'
+    license: Not available
+    home_url: https://github.com/niemasd/NiemaDS
+    total_pulls: 5
+    manually_check: false
+    identifiers: []
+    keywords: []
+pmx_biobb:
+    name: pmx_biobb
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 5
+    manually_check: false
+    identifiers: []
+    keywords: []
+r-acidplyr:
+    name: r-acidplyr
+    description: A dplyr-like approach for classes defined in s4vectors.
+    license: Not available
+    home_url: https://acidplyr.acidgenomics.com/
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+r-acidgenomes:
+    name: r-acidgenomes
+    description: Toolkit for downloading and processing genome annotations.
+    license: Not available
+    home_url: https://acidgenomes.acidgenomics.com/
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+r-crmn:
+    name: r-crmn
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+bioconductor-msprep:
+    name: bioconductor-msprep
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+bioconductor-pipecomp:
+    name: bioconductor-pipecomp
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+bioconductor-ggtreeextra:
+    name: bioconductor-ggtreeextra
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+bioconductor-uncoverapplib:
+    name: bioconductor-uncoverapplib
+    description: Interactive graphical application for clinical assessment of sequence
+      coverage at the base-pair level
+    license: Not available
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/uncoverappLib.html
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+bioconductor-iloreg:
+    name: bioconductor-iloreg
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+bioconductor-bgx:
+    name: bioconductor-bgx
+    description: Bayesian integrated analysis of Affymetrix GeneChips
+    license: GPL-2
+    home_url: https://www.bioconductor.org/packages/release/bioc/html/bgx.html
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+bioconductor-wpm:
+    name: bioconductor-wpm
+    description: Well plate maker
+    license: Not available
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/wpm.html
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+gamma:
+    name: gamma
+    description: Tool for gene allele mutation microbial assessment
+    license: Not available
+    home_url: https://github.com/rastanton/GAMMA
+    total_pulls: 10
+    manually_check: false
+    identifiers: []
+    keywords: []
+spatyper:
+    name: spatyper
+    description: Computational method for finding spa types.
+    license: Not available
+    home_url: https://github.com/HCGB-IGTP/spaTyper
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+tatajuba:
+    name: tatajuba
+    description: Identification and classification of homopolymeric tracts from reads.
+    license: GPL
+    home_url: https://github.com/quadram-institute-bioscience/tatajuba
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
