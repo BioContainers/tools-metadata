@@ -186,7 +186,8 @@ prodigal:
     total_pulls: 36174
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/1471-2105-11-119
 gatk4:
     name: gatk4
     description: Genome analysis toolkit (gatk4)
@@ -299,7 +300,8 @@ python:
     total_pulls: 21851
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1109/MCSE.2007.58
 megahit:
     name: megahit
     description: An ultra-fast single-node solution for large and complex metagenomics
@@ -716,7 +718,8 @@ platypus-variant:
     total_pulls: 10152
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/ng.3036
 barrnap:
     name: barrnap
     description: Predict the location of ribosomal rna genes in genomes. it supports
@@ -838,7 +841,8 @@ openslide:
     total_pulls: 9753
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.4103/2153-3539.119005
 hisat2:
     name: hisat2
     description: Alignment program for mapping next-generation sequencing reads (both
@@ -1797,7 +1801,10 @@ autodock-vina:
     total_pulls: 6630
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   biotools:autodock
+      -   doi:10.1002/jcc.21256
+      -   doi:10.26434/CHEMRXIV.9702389.V1
 beagle:
     name: beagle
     description: Beagle is a software package that performs genotype calling, genotype
@@ -2360,7 +2367,8 @@ cogent:
     total_pulls: 5815
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/gb-2007-8-8-r171
 cassiopee:
     name: cassiopee
     description: Index and search tool in genomic sequences
@@ -2968,7 +2976,9 @@ king:
     manually_check: true
     keywords:
       -   Genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1002/pro.250
+      -   pmid:19768809
 kmc:
     name: kmc
     description: Kmc is a utility designed for counting k-mers (sequences of consecutive
@@ -3415,7 +3425,8 @@ poa:
     manually_check: true
     keywords:
       -   Sequence Alignment
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bth126
 sga:
     name: sga
     description: Sga is a de novo assembler designed to assemble large genomes from
@@ -4053,7 +4064,8 @@ quorum:
     total_pulls: 4795
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pone.0130821
 sqt:
     name: sqt
     description: Sequencing tools for biological dna/rna high-throughput data
@@ -5232,7 +5244,8 @@ structure:
     manually_check: true
     identifiers:
       -   biotools:Structure
-      -   pmid:10835412
+      -   doi:10.1534/genetics.114.164350
+      -   pmid:12930761
     keywords:
       -   Population genetics
       -   Clustering
@@ -5347,6 +5360,7 @@ medaka:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bracken:
     name: bracken
     description: Bracken (Bayesian Reestimation of Abundance with KrakEN) is a highly
@@ -6734,7 +6748,8 @@ survivor:
     total_pulls: 295
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/ncomms14061
 deeplc:
     name: deeplc
     description: 'Deeplc: retention time prediction for (modified) peptides using
@@ -8572,7 +8587,8 @@ biobb_io:
     total_pulls: 40
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 bioconductor-rgin:
     name: bioconductor-rgin
     description: gin in R
@@ -10458,7 +10474,8 @@ homer:
       -   RNA-Seq
       -   Functional genomics
       -   Transcription Factors
-    identifiers: []
+    identifiers:
+      -   doi:10.1016/j.molcel.2010.05.004
 query_phenomizer:
     name: query_phenomizer
     description: Tool for query and parsing the phenomizer tool
@@ -10631,7 +10648,8 @@ fgwas:
     keywords:
       -   Genomics
       -   Functional genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1016/j.ajhg.2014.03.004
 transcov:
     name: transcov
     description: A software for mapping coverage around transcription start sites
@@ -10744,16 +10762,18 @@ biobb_model:
     total_pulls: 33
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 gneiss:
     name: gneiss
     description: Compositional data analysis tools and visualizations
     license: BSD
-    home_url: https://biocore.github.io/gneiss/
+    home_url: https://github.com/biocore/gneiss
     total_pulls: 33
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1128/mSystems.00162-16
 braker2:
     name: braker2
     description: BRAKER2 is an extension of BRAKER1
@@ -10909,7 +10929,8 @@ biobb_md:
     manually_check: true
     keywords:
       -   Molecular Dynamics
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 instrain:
     name: instrain
     description: Calculation of strain-level metrics
@@ -10942,6 +10963,7 @@ arriba:
     keywords:
       -   RNA-Seq
     identifiers: []
+    no_doi: true
 phylophlan:
     name: phylophlan
     description: Precise phylogenetic analysis of microbial isolates and genomes from
@@ -12003,7 +12025,8 @@ biobb_analysis:
     manually_check: true
     keywords:
       -   Molecular Dynamics
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 pyopenms:
     name: pyopenms
     description: pyOpenMS is an open-source Python library for mass spectrometry,
@@ -15565,7 +15588,8 @@ biobb_structure_checking:
     manually_check: true
     keywords:
       -   Molecular Dynamics
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 magpurify:
     name: magpurify
     description: Identify and remove incorrectly binned contigs from metagenome-assembled
@@ -15601,7 +15625,8 @@ biobb_chemistry:
     manually_check: true
     keywords:
       -   Molecular Dynamics
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 staden_io_lib:
     name: staden_io_lib
     description: Staden io_lib is a library of file reading and writing code e.g.
@@ -15643,7 +15668,8 @@ biobb_structure_utils:
     total_pulls: 10
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 referenceseeker:
     name: referenceseeker
     description: Rapid determination of appropriate reference genomes.
@@ -16564,7 +16590,8 @@ biobb_structure_manager:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 deepac:
     name: deepac
     description: Predicting pathogenic potentials of novel dna with reverse-complement
@@ -18094,7 +18121,8 @@ python-hyphy-python:
     total_pulls: 6
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bti079
 pytriangle:
     name: pytriangle
     description: A python interface to the 2D triangulation program TRIANGLE.
@@ -44006,7 +44034,8 @@ biobb_common:
     total_pulls: 3
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 pb-falcon:
     name: pb-falcon
     description: FALCON/Unzip tool-suite (originally by Jason Chin)
@@ -60996,21 +61025,23 @@ mmtf-python:
     name: mmtf-python
     description: A decoding libary for the PDB mmtf format
     license: MIT
-    home_url: None
+    home_url: https://github.com/rcsb/mmtf-python
     total_pulls: 2
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pcbi.1005575
 cromwell:
     name: cromwell
     description: A Workflow Management System geared towards scientific workflows
         described in WDL
     license: BSD
-    home_url: None
+    home_url: https://github.com/broadinstitute/cromwell
     total_pulls: 2
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.7490/f1000research.1114634.1
 kobas:
     name: kobas
     description: Kegg orthology-based annotation system (kobas) annotates sequences
@@ -67334,7 +67365,10 @@ autodock-getdata:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   biotools:autodock
+      -   doi:10.1002/jcc.21256
+      -   doi:10.26434/CHEMRXIV.9702389.V1
 ballview:
     name: ballview
     description: Free molecular modeling and molecular graphics tool
@@ -67470,7 +67504,8 @@ autogrid:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1002/jcc.21256
 autodock:
     name: autodock
     description: Analysis of ligand binding to protein structure
@@ -67499,7 +67534,10 @@ autogrid-test:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   biotools:autodock
+      -   doi:10.1002/jcc.21256
+      -   doi:10.26434/CHEMRXIV.9702389.V1
 bedtools-test:
     name: bedtools-test
     description: Test data for the bedtools package
@@ -67534,7 +67572,10 @@ autodock-test:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   biotools:autodock
+      -   doi:10.1002/jcc.21256
+      -   doi:10.26434/CHEMRXIV.9702389.V1
 biopython-sql:
     name: biopython-sql
     description: Biopython support for the biosql database schema (python 3)
@@ -69681,11 +69722,12 @@ insighttoolkit4-python:
     description: Image processing toolkit for registration and segmentation - python
         bindings
     license: custom, see /usr/share/doc/insighttoolkit4-python/copyright
-    home_url: http://www.itk.org/
+    home_url: https://github.com/InsightSoftwareConsortium/ITK
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.3389/fninf.2014.00013
 jemboss:
     name: jemboss
     description: Graphical user interface to emboss
@@ -83585,11 +83627,12 @@ r-findpython:
     name: r-findpython
     description: Package designed to find an acceptable python binary.
     license: MIT
-    home_url: None
+    home_url: https://CRAN.R-project.org/package=findpython
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   cran:findpython
 r-fitdistrplus:
     name: r-fitdistrplus
     description: Extends the fitdistr function (of the MASS package) with several
@@ -83601,11 +83644,12 @@ r-fitdistrplus:
         methods (available only for non-censored data). Weighted versions of MLE,
         MME and QME are available.
     license: GPL (>= 2)
-    home_url: None
+    home_url: https://CRAN.R-project.org/package=fitdistrplus
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   cran:fitdistrplus
 r-genenet:
     name: r-genenet
     description: 'Analyzes gene expression (time series) data with focus on the inference
@@ -83613,11 +83657,15 @@ r-genenet:
         and  Strimmer (2005a,b,c) and Opgen-Rhein and Strimmer (2006, 2007) for learning
         large-scale gene association networks (including assignment of putative directions).  '
     license: GPL (>= 3)
-    home_url: None
+    home_url: https://CRAN.R-project.org/package=GeneNet
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   cran:genenet
+      -   doi:10.1186/1752-0509-1-37
+      -   doi:10.1093/bioinformatics/bti062
+      -   doi:10.2202/1544-6115.1175
 r-geomap:
     name: r-geomap
     description: Set of routines for making Map Projections (forward and inverse),
@@ -98188,7 +98236,8 @@ smina:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1021/ci300604z
 python-newick:
     name: python-newick
     description: A python module to read and write the newick format
@@ -100193,7 +100242,8 @@ skmer:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13059-019-1632-4
 bioformats:
     name: bioformats
     description: A collection of python classes to handle bioinformatics data.
@@ -101903,7 +101953,8 @@ confindr:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.7717/peerj.6995
 phyluce:
     name: phyluce
     description: Software for uce (and general) phylogenomics.
@@ -103979,6 +104030,7 @@ tagger:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 python-consensuscore2:
     name: python-consensuscore2
     description: Pacbio arrow consensus library for sequel data
@@ -104455,7 +104507,8 @@ clairvoyante:
     manually_check: true
     keywords:
       -   Genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s42256-020-0167-4
 collect_mgf:
     name: collect_mgf
     description: Collects MGF files and dd_results from an XMass setup_QDD.tcl experiment
@@ -104725,7 +104778,8 @@ scnic:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.11.13.380733
 tigmint:
     name: tigmint
     description: Correct misassemblies using linked reads
@@ -104873,7 +104927,9 @@ ghost-tree:
     keywords:
       -   Phylogenetics
       -   Genetics
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s40168-016-0153-6
+      -   doi:10.7287/peerj.preprints.1106v1
 libarbdb:
     name: libarbdb
     description: ARB 6 Sequence Analysis Suite
@@ -108486,7 +108542,8 @@ biobb_adapters:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 bigsi:
     name: bigsi
     description: BItsliced Genomic Signature Index [BIGSI]
@@ -108530,7 +108587,8 @@ biobb_wf_mutations:
     manually_check: true
     keywords:
       -   Molecular Dynamics
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 ncbi-util-legacy:
     name: ncbi-util-legacy
     description: NCBI software development toolkit
@@ -109492,7 +109550,8 @@ biobb_pmx:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 mfqe:
     name: mfqe
     description: mfqe is a tool for quickly seperating fasta and fastq files
@@ -114552,7 +114611,8 @@ biobb_ml:
     description: Biobb_ml is the biobb module collection to perform machine learning
         predictions.
     home_url: https://github.com/bioexcel/biobb_ml
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
     keywords: []
     license: Not available
     manually_check: true
