@@ -12680,6 +12680,7 @@ svdb:
     keywords:
       -   Clustering
     identifiers: []
+    no_doi: true
 r-sigtree:
     name: r-sigtree
     description: Provides tools to identify and visualize branches in a phylogenetic
@@ -12693,7 +12694,8 @@ r-sigtree:
     keywords:
       -   Phylogenetics
       -   Genetics
-    identifiers: []
+    identifiers:
+      -   doi:10.1016/j.csbj.2017.06.002
 scvi:
     name: scvi
     description: Single-cell Variational Inference
@@ -83468,6 +83470,7 @@ ra:
     keywords:
       -   Transcriptome
     identifiers: []
+    no_doi: true
 r-abind:
     name: r-abind
     description: Combine multidimensional arrays into a single array. This is a generalization
@@ -84989,34 +84992,37 @@ ruby:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-upsetr:
     name: r-upsetr
     description: Creates visualizations of intersecting sets using a novel matrix
         design, along with visualizations of several common set, element and attribute
         related tasks.
     license: MIT
-    home_url: None
+    home_url: https://cran.r-project.org/package=UpSetR
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:doi:10.1093/bioinformatics/btx364
 rust:
     name: rust
     description: rust is a systems programming language that runs blazingly fast,
         prevents segfaults, and guarantees thread safety.
     license: MIT
-    home_url: Not available
+    home_url: https://github.com/rust-lang/rust
     total_pulls: 0
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-venndiagram:
     name: r-venndiagram
     description: A set of functions to generate high-resolution Venn and Euler plots.
         Includes handling for several special cases, including two-case scaling, and
         extensive customization of plot shape and structure.
     license: GPL-2
-    home_url: None
+    home_url: https://cran.r-project.org/package=VennDiagram
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -85364,6 +85370,7 @@ sprinkles:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 sqlalchemy-datatables:
     name: sqlalchemy-datatables
     description: Sqlalchemy integration of jquery datatables
