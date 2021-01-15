@@ -120981,19 +120981,20 @@ dfast_qc:
 deepnog:
     name: deepnog
     description: Deep learning tool for protein orthologous group assignment
-    license: Not available
+    license: BSD-3-Clause
     home_url: https://github.com/univieCUBE/deepnog
     total_pulls: 600
-    manually_check: false
-    identifiers: []
+    manually_check: true
+    identifiers:
+      -   doi:10.1093/bioinformatics/btaa1051
     keywords: []
 dligand2:
     name: dligand2
     description: 'DLIGAND2: an improved knowledge-based energy function for protein-ligand interactions using the distance-scaled, finite, ideal-gas reference state.'
-    license: Not available
-    home_url: Not available
+    license: MIT
+    home_url: https://github.com/sysu-yanglab/DLIGAND2
     total_pulls: 753
-    manually_check: false
+    manually_check: true
     identifiers:
       -   doi:10.1186/s13321-019-0373-4
     keywords: []
@@ -121110,8 +121111,7 @@ bayesase:
     keywords: []
 primalscheme:
     name: primalscheme
-    description: Primalscheme is a tool for designing primer panels for multiplex
-      pcr
+    description: Primalscheme is a tool for designing primer panels for multiplex pcr
     license: Not available
     home_url: https://github.com/aresti/primalscheme
     total_pulls: 19
