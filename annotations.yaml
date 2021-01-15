@@ -138,6 +138,7 @@ blast:
       -   Sequence analysis
       -   Genomics
       -   Sequence Alignment
+      -   Protein Sequences
 tabix:
     name: tabix
     description: Library for reading/writing high-throughput sequencing data. is utilized
@@ -366,6 +367,7 @@ spades:
       -   RNA-Seq
       -   Metagenome
       -   Transcriptome
+      -   Protein Sequences
 bowtie:
     name: bowtie
     description: An ultrafast memory-efficient short read aligner
@@ -1054,6 +1056,7 @@ fasttree:
       -   Clustering
       -   Genomics
       -   Genetics
+      -   Protein Sequences
 discosnp:
     name: discosnp
     description: This software is designed for discovering single nucleotide polymorphism
@@ -1491,6 +1494,7 @@ paml:
       -   User-Computer Interface
       -   Phylogenetics
       -   Sequence analysis
+      -   Protein Sequences
 vsearch:
     name: vsearch
     description: High-throughput search and clustering sequence analysis tool. it
@@ -2617,6 +2621,7 @@ dialign-tx:
       -   Protein structure analysis
       -   Protein secondary structure
       -   Genetics
+      -   Protein Sequences
 fastahack:
     name: fastahack
     description: Utility for indexing and sequence extraction from fasta files
@@ -2776,6 +2781,7 @@ estscan:
     keywords:
       -   Genomics
       -   Transcriptomics
+      -   Protein Sequences
 edlib:
     name: edlib
     description: Library for sequence alignment using edit distance (python3 module)
@@ -3092,6 +3098,7 @@ logol:
       -   doi:10.1007/978-3-319-09192-1_4
     keywords:
       -   Sequence sites, features and motifs
+      -   Protein Sequences
 mhap:
     name: mhap
     description: 'Mhap: minhash alignment protocol. a tool for finding overlaps of
@@ -3207,6 +3214,7 @@ mummer:
       -   Mapping
       -   Sequencing
       -   Clustering
+      -   Protein Sequences
 plink:
     name: plink
     description: Free, open-source whole genome association analysis toolset, designed
@@ -3719,6 +3727,7 @@ proteinortho:
       -   Phylogeny
       -   Sequence Alignment
       -   Clustering
+      -   Ortholog
     identifiers:
       -   doi:10.1186/1471-2105-12-124
 pymummer:
@@ -3764,6 +3773,7 @@ proda:
       -   Sequence analysis
       -   Protein structure analysis
       -   Protein folds and structural domains
+      -   Protein Sequences
 rdp-readseq:
     name: rdp-readseq
     description: Java based common sequence file format reader and sequence file manipulation.
@@ -5349,6 +5359,8 @@ spaln:
       -   RNA Splicing
       -   Sequence Alignment
       -   Species Specificity
+      -   Protein Sequences
+      -   Ortholog
 umi_tools:
     name: umi_tools
     description: Tools for dealing with unique molecular identifiers
@@ -5589,6 +5601,7 @@ humann2:
       -   RNA-Seq
       -   Metagenome
       -   Transcriptome
+      -   Protein Sequences
     identifiers: []
 sina:
     name: sina
@@ -5635,6 +5648,7 @@ mummer4:
       -   Sequence Analysis, DNA
       -   Sequence Analysis, Protein
       -   Clustering
+      -   Protein Sequences
     identifiers:
       -   doi:10.1371/journal.pcbi.1005944
 perl:
@@ -6097,6 +6111,7 @@ fastani:
     keywords:
       -   Genomics
       -   Sequence Alignment
+      -   Ortholog
     identifiers:
       -   doi:10.1038/s41467-018-07641-9
 cpat:
@@ -6113,6 +6128,7 @@ cpat:
       -   Sequence Analysis, RNA
       -   RNA-Seq
       -   Transcriptome
+      -   Ortholog
     identifiers:
       -   doi:10.1093/nar/gkt006
 sra-tools:
@@ -6345,6 +6361,7 @@ seqkit:
       -   Data Mining
       -   Sequence Alignment
       -   Web Browser
+      -   Protein Sequences
     identifiers:
       -   doi:10.1371/journal.pone.0163962
 faqcs:
@@ -6546,6 +6563,7 @@ eggnog-mapper:
       -   Web Browser
       -   Metagenomics
       -   Transcriptome
+      -   Ortholog
 htslib:
     name: htslib
     description: C library for high-throughput sequencing data formats
@@ -6711,6 +6729,7 @@ xtandem:
       -   Peptides
       -   Mass spectra
       -   Mass spectrometry
+      -   Protein Sequences
 gatk:
     name: gatk
     description: The genome analysis toolkit (gatk) is a set of bioinformatic tools
@@ -6794,6 +6813,7 @@ kaiju:
       -   Metagenomics
       -   Proteins
       -   Genomics
+      -   Protein Sequences
 kcalign:
     name: kcalign
     description: Kalgin-based codon-aware aligner for multiple sequences
@@ -7175,7 +7195,8 @@ scanpy-scripts:
     home_url: https://github.com/ebi-gene-expression-group/scanpy-scripts
     total_pulls: 104
     manually_check: true
-    keywords: []
+    keywords:
+      -   Clustering
     identifiers: []
 ucsc-genepredtogtf:
     name: ucsc-genepredtogtf
@@ -7494,6 +7515,8 @@ phylocsf:
       -   Genomics
       -   Sequence Alignment
       -   Transcriptome
+      -   Protein Sequences
+      -   Ortholog
 ucsc-gtftogenepred:
     name: ucsc-gtftogenepred
     description: Convert a gtf file to a genepred
@@ -7745,6 +7768,7 @@ bioconductor-graph:
       -   User-Computer Interface
       -   Molecular interactions, pathways and networks
       -   Data visualisation
+      -   Ortholog
 adpred:
     name: adpred
     description: Python adpred module for prediction of transcription activation domains
@@ -7753,7 +7777,8 @@ adpred:
     home_url: https://github.com/FredHutch/adpred
     total_pulls: 52
     manually_check: true
-    keywords: []
+    keywords:
+      -   Protein Sequences
     identifiers: []
 pathoscope:
     name: pathoscope
@@ -8095,6 +8120,7 @@ comparative-annotation-toolkit:
     keywords:
       -   Genomics
       -   RNA-Seq
+      -   Ortholog
 bioconductor-ecoliasv2probe:
     name: bioconductor-ecoliasv2probe
     description: Probe sequence data for microarrays of type ecoliasv2
@@ -9642,6 +9668,7 @@ pirate:
       -   Genetic variation
       -   Sequencing
       -   Clustering
+      -   Ortholog
 bioconductor-tradeseq:
     name: bioconductor-tradeseq
     description: Trajectory-based differential expression analysis for sequencing
@@ -10214,6 +10241,7 @@ dig2:
       -   biotools:dig2
     keywords:
       -   Proteomics
+      -   Protein Sequences
 drep:
     name: drep
     description: De-replication of microbial genomes assembled from multiple samples
@@ -10906,6 +10934,8 @@ braker2:
       -   Functional genomics
       -   Sequence Alignment
       -   Transcriptome
+      -   Protein Sequences
+      -   Ortholog
 r-sceasy:
     name: r-sceasy
     description: A package providing functions to convert between different
@@ -10964,6 +10994,7 @@ treesapp:
       -   Sequence Alignment
       -   Genetics
       -   Metagenome
+      -   Ortholog
     identifiers:
       -   doi:10.1093/bioinformatics/btaa588
 checkv:
@@ -11173,9 +11204,11 @@ kofamscan:
       -   Amino Acid Sequence
       -   Computers
       -   Databases, Factual
+      -   Ortholog
 gaas:
     name: gaas
-    description: Suite of tools related to Genome Assembly Annotation Service tasks at NBIS.
+    description: Suite of tools related to Genome Assembly Annotation Service tasks
+        at NBIS.
     license: GPL-3.0
     home_url: https://github.com/NBISweden/GAAS
     total_pulls: 28
@@ -11244,6 +11277,7 @@ bioconductor-rbgl:
       -   Transcription Factors
       -   User-Computer Interface
       -   Data management
+      -   Ortholog
 tiddit:
     name: tiddit
     description: TIDDIT - structural variant calling.
@@ -11271,6 +11305,7 @@ pgcgap:
       -   doi:10.21203/rs.2.21224/v3
     keywords:
       -   Genomics
+      -   Ortholog
 fastq-count:
     name: fastq-count
     description: Simple fastq read and base counter for paired data.
@@ -11648,7 +11683,8 @@ t_coffee:
     home_url: https://github.com/cbcrg/tcoffee
     total_pulls: 22
     manually_check: true
-    keywords: []
+    keywords:
+      -   Protein Sequences
     identifiers: []
 umis:
     name: umis
@@ -12048,6 +12084,7 @@ msstitch:
     keywords:
       -   Proteomics
       -   Peptides
+      -   Protein Sequences
     identifiers: []
 mapdamage2:
     name: mapdamage2
@@ -12276,6 +12313,7 @@ peptide-shaker:
       -   Proteomics experiment
       -   Proteome
       -   Protein Structure
+      -   Protein Sequences
 rust-bio-tools:
     name: rust-bio-tools
     description: A set of command line utilities based on Rust-Bio.
@@ -12303,6 +12341,7 @@ orthofinder:
       -   Transcription Factors
       -   Clustering
       -   Sequence Alignment
+      -   Ortholog
     identifiers:
       -   doi:10.1186/s13059-015-0721-2
       -   doi:10.1101/466201
@@ -13095,7 +13134,8 @@ ncbi-amrfinderplus:
     home_url: https://github.com/ncbi/amr/wiki
     total_pulls: 17
     manually_check: true
-    keywords: []
+    keywords:
+      -   Protein Sequences
     identifiers:
       -   doi:10.1128/aac.00483-19
 garnett-cli:
@@ -13555,6 +13595,7 @@ dlcpar:
       -   Clustering
       -   Genomics
       -   Sequence Alignment
+      -   Ortholog
     identifiers: []
 lsc:
     name: lsc
@@ -13993,6 +14034,7 @@ platon:
       -   Mobile genetic elements
       -   Clustering
       -   Genomics
+      -   Protein Sequences
 python-goenrichment:
     name: python-goenrichment
     description: GO enrichment analysis from a list of gene names using a precomputed
@@ -14413,6 +14455,7 @@ bioconductor-annotationdbi:
       -   Data integration and warehousing
       -   Sequence analysis
       -   Proteomics
+      -   Ortholog
 bioconductor-annotate:
     name: bioconductor-annotate
     description: Using r enviroments for annotation.
@@ -14813,6 +14856,7 @@ bttcmp:
     manually_check: true
     keywords:
       -   Genomics
+      -   Protein Sequences
 bttoxin_digger:
     name: bttoxin_digger
     description: A toxin minging tool for bacillus thuringiensis
@@ -14825,6 +14869,7 @@ bttoxin_digger:
     manually_check: true
     keywords:
       -   Genomics
+      -   Protein Sequences
 deepaclive:
     name: deepaclive
     description: Detecting novel pathogens from ngs reads in real-time during a sequencing
@@ -15859,7 +15904,8 @@ recognizer:
     home_url: https://github.com/iquasere/reCOGnizer
     total_pulls: 10
     manually_check: true
-    keywords: []
+    keywords:
+      -   Protein Sequences
     identifiers: []
 yaha:
     name: yaha
@@ -16100,6 +16146,7 @@ jcvi:
       -   doi:10.5281/zenodo.31631
     keywords:
       -   Genomics
+      -   Ortholog
 r-grbase:
     name: r-grbase
     description: The gRbase package provides general features which are used by other
@@ -16873,6 +16920,7 @@ fargene:
     keywords:
       -   Peptides
       -   Metagenome
+      -   Protein Sequences
     identifiers: []
 centrosome:
     name: centrosome
@@ -17699,7 +17747,7 @@ r-qorts:
       -   RNA-Seq
       -   Gene Expression
     identifiers:
-      -    doi:10.1186/s12859-015-0670-5
+      -   doi:10.1186/s12859-015-0670-5
 rcorrector:
     name: rcorrector
     description: Rcorrector(RNA-seq error CORRECTOR) is a kmer-based error correction
@@ -17834,6 +17882,7 @@ mhcflurry:
       -   Immunology
       -   Immunoproteins, genes and antigens
       -   Protein interactions
+      -   Protein Sequences
 bioconductor-tximeta:
     name: bioconductor-tximeta
     description: Transcript Quantification Import with Automatic Metadata
@@ -17894,6 +17943,7 @@ amas:
       -   Sequence analysis
       -   Statistics and probability
       -   Sequence Alignment
+      -   Protein Sequences
 clusterpicker:
     name: clusterpicker
     description: The cluster picker identifies clusters in newick-formatted trees
@@ -18041,6 +18091,7 @@ r-singlecellnet:
       -   Sensitivity and Specificity
       -   Sequence Analysis, RNA
       -   Whole Exome Sequencing
+      -   Ortholog
 ananse:
     name: ananse
     description: 'Ananse: analysis algorithm for networks specified by enhancers -
@@ -18114,6 +18165,7 @@ bioconductor-biocinstaller:
     keywords:
       -   Genomics
       -   Genetics
+      -   Ortholog
     identifiers: []
 ucsc-twobitinfo:
     name: ucsc-twobitinfo
@@ -18167,6 +18219,7 @@ alignlib-lite:
     manually_check: true
     keywords:
       -   Sequence Alignment
+      -   Protein Sequences
     identifiers: []
 gat:
     name: gat
@@ -18211,6 +18264,7 @@ igblast:
       -   Sequence analysis
       -   Sequencing
       -   Immunoproteins, genes and antigens
+      -   Protein Sequences
 links:
     name: links
     description: Long Interval Nucleotide K-mer Scaffolder
@@ -19236,6 +19290,7 @@ bioconductor-dorothea:
     keywords:
       -   RNA-Seq
       -   Gene Expression
+      -   Ortholog
 bioconductor-snapcount:
     name: bioconductor-snapcount
     description: R/bioconductor package for interfacing with snaptron for rapid querying
@@ -20387,6 +20442,7 @@ bioconductor-geneplast:
       -   User-Computer Interface
       -   Evolutionary biology
       -   Genetics
+      -   Ortholog
 bioconductor-mmdiff2:
     name: bioconductor-mmdiff2
     description: Statistical Testing for ChIP-Seq data sets
@@ -20980,7 +21036,8 @@ bioconductor-hgu95av2.db:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.hgu95av2.db
-    keywords: []
+    keywords:
+      -   Ortholog
 bioconductor-scde:
     name: bioconductor-scde
     description: Single Cell Differential Expression
@@ -22895,7 +22952,8 @@ r-motifbinner:
     identifiers: []
 r-virfinder:
     name: r-virfinder
-    description: 'VirFinder: a novel k-mer based tool for identifying viral sequences from assembled metagenomic data.'
+    description: 'VirFinder: a novel k-mer based tool for identifying viral sequences
+        from assembled metagenomic data.'
     license: USC-RL v1.0
     home_url: https://github.com/jessieren/VirFinder
     total_pulls: 5
@@ -23040,6 +23098,7 @@ cmseq:
       -   Genomics
       -   Metagenomics
       -   Metagenome
+      -   Protein Sequences
     identifiers: []
 snpgenie:
     name: snpgenie
@@ -23114,6 +23173,7 @@ upimapi:
     manually_check: true
     keywords:
       -   Genomics
+      -   Protein Sequences
     identifiers: []
 bioconductor-deseq:
     name: bioconductor-deseq
@@ -23182,6 +23242,7 @@ blast-legacy:
     manually_check: true
     keywords:
       -   Sequence Alignment
+      -   Protein Sequences
     identifiers: []
 grep:
     name: grep
@@ -23315,6 +23376,7 @@ r-pore:
     manually_check: true
     keywords:
       -   Sequence Alignment
+      -   Protein Sequences
     identifiers: []
 r-sleuth:
     name: r-sleuth
@@ -23700,7 +23762,8 @@ bioconductor-all:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.all
-    keywords: []
+    keywords:
+      -   Ortholog
 nanomath:
     name: nanomath
     description: A few simple math function for other Oxford Nanopore processing scripts
@@ -24253,7 +24316,8 @@ cgatcore:
     home_url: https://github.com/cgat-developers/cgat-core
     total_pulls: 4
     manually_check: true
-    keywords: []
+    keywords:
+      -   Genomics
     identifiers: []
 tracy:
     name: tracy
@@ -24369,6 +24433,7 @@ clust:
       -   Clustering
       -   RNA-Seq
       -   Gene Expression
+      -   Ortholog
 bioconductor-chromvar:
     name: bioconductor-chromvar
     description: Chromatin Variation Across Regions
@@ -24685,7 +24750,7 @@ trnanalysis:
     name: trnanalysis
     description: tRNA analysis pipeline
     license: MIT
-    home_url: https://github.com/Acribbs/tRNAnalysis/blob/master/docs/index.rst
+    home_url: https://github.com/Acribbs/tRNAnalysis
     total_pulls: 4
     manually_check: true
     keywords: []
@@ -24916,7 +24981,8 @@ protmapper:
     home_url: https://github.com/indralab/protmapper
     total_pulls: 4
     manually_check: true
-    keywords: []
+    keywords:
+      -   Ortholog
     identifiers:
       -   doi:10.1101/822668
 whatsgnu:
@@ -24929,7 +24995,9 @@ whatsgnu:
     keywords:
       -   Proteomics
       -   Genetics
-    identifiers:  
+      -   Protein Sequences
+      -   Ortholog
+    identifiers:
       -   doi:10.1186/s13059-020-01965-w
 arcs:
     name: arcs
@@ -25129,6 +25197,7 @@ metaeuk:
       -   Molecular Sequence Annotation
       -   Sequence Analysis, DNA
       -   Genomics
+      -   Protein Sequences
     identifiers:
       -   doi:10.1186/s40168-020-00808-x
       -   doi:10.1101/851964
@@ -25367,6 +25436,7 @@ yamda:
       -   Computer Graphics
       -   Deep Learning
       -   Time Factors
+      -   Protein Sequences
 psass:
     name: psass
     description: Comparison of pooled-sequencing data for two populations
@@ -25452,6 +25522,7 @@ bttoxin_scanner:
     manually_check: true
     keywords:
       -   Genomics
+      -   Protein Sequences
 binlorry:
     name: binlorry
     description: Binlorry, a flexible tool for binning and filtering sequencing reads
@@ -25584,6 +25655,7 @@ msaprobs:
       -   Sequence analysis
       -   Genomics
       -   Metagenomics
+      -   Protein Sequences
 tag:
     name: tag
     description: Genome annotation data analysis and management implemented in pure
@@ -25663,6 +25735,8 @@ coils:
       -   Proteins
       -   Statistics and probability
       -   Protein structure analysis
+      -   Clustering
+      -   Protein Sequences
 singlem:
     name: singlem
     description: Singlem is a tool to find the abundances of discrete operational
@@ -25705,7 +25779,8 @@ sfld:
     home_url: https://github.com/ebi-pf-team/interproscan
     total_pulls: 4
     manually_check: true
-    keywords: []
+    keywords:
+      -   Protein Sequences
     identifiers: []
 perl-bio-phylo-cipres:
     name: perl-bio-phylo-cipres
@@ -25966,7 +26041,8 @@ transposonpsi:
     home_url: http://transposonpsi.sourceforge.net/
     total_pulls: 4
     manually_check: true
-    keywords: []
+    keywords:
+      -   Protein Sequences
     identifiers: []
 start-asap:
     name: start-asap
@@ -26057,6 +26133,8 @@ comparem:
     keywords:
       -   Clustering
       -   Genomics
+      -   Protein Sequences
+      -   Ortholog
     identifiers: []
 simplesam:
     name: simplesam
@@ -29756,6 +29834,7 @@ r-nastiseq:
       -   Genomics
       -   RNA-Seq
       -   Gene Expression
+      -   Ortholog
 bioconductor-flowviz:
     name: bioconductor-flowviz
     description: Provides visualization tools for flow cytometry data.
@@ -32418,6 +32497,7 @@ bioconductor-pviz:
       -   Proteins
       -   Sequence analysis
       -   Proteomics
+      -   Protein Sequences
 bioconductor-qpcrnorm:
     name: bioconductor-qpcrnorm
     description: Data-driven normalization strategies for high-throughput qPCR data.
@@ -35387,6 +35467,7 @@ bioconductor-annotationtools:
       -   Sequence analysis
       -   Data integration and warehousing
       -   Gene Expression
+      -   Ortholog
 bioconductor-dnashaper:
     name: bioconductor-dnashaper
     description: High-throughput prediction of DNA shape features
@@ -39766,6 +39847,7 @@ bioconductor-mlinterfaces:
       -   User-Computer Interface
       -   Machine learning
       -   Clustering
+      -   Ortholog
 bioconductor-spacepac:
     name: bioconductor-spacepac
     description: Identification of Mutational Clusters in 3D Protein Space via Simulation.
@@ -41987,6 +42069,7 @@ bioconductor-keggorthology:
       -   User-Computer Interface
       -   Evolutionary biology
       -   Sequence analysis
+      -   Ortholog
 bioconductor-kegglincs:
     name: bioconductor-kegglincs
     description: Visualize all edges within a KEGG pathway and overlay LINCS data
@@ -43937,6 +44020,7 @@ gblocks:
       -   Reproducibility of Results
       -   User-Computer Interface
       -   Sequence Alignment
+      -   Protein Sequences
     identifiers:
       -   doi:10.7490/f1000research.1114334.1
       -   doi:10.1093/nar/gkw343
@@ -52169,6 +52253,7 @@ bioconductor-omadb:
     keywords:
       -   Genomics
       -   Genetics
+      -   Ortholog
 bioconductor-transcriptogramer:
     name: bioconductor-transcriptogramer
     description: Transcriptional analysis based on transcriptograms
@@ -57057,6 +57142,7 @@ bioconductor-pasilla:
       -   RNA-Seq
       -   Gene Expression
       -   Transcriptome
+      -   Ortholog
 bioconductor-pcagopromoter.rn.rn4:
     name: bioconductor-pcagopromoter.rn.rn4
     description: pcaGoPromoter.Rn.rn4 is a data package used by pcaGoPromoter
@@ -57389,6 +57475,7 @@ bioconductor-scbn:
       -   doi:10.18129/b9.bioc.scbn
     keywords:
       -   RNA-Seq
+      -   Ortholog
 bioconductor-scfeaturefilter:
     name: bioconductor-scfeaturefilter
     description: A correlation-based method for quality filtering of single-cell rnaseq
@@ -59877,6 +59964,7 @@ bioconductor-sbgnview.data:
     keywords:
       -   RNA-Seq
       -   Gene Expression
+      -   Ortholog
 bioconductor-crossicc:
     name: bioconductor-crossicc
     description: An interactive consensus clustering framework for multi-platform
@@ -61422,6 +61510,7 @@ mashmap:
       -   Sequence analysis
       -   DNA mutation
       -   Sequence Alignment
+      -   Ortholog
 cooler:
     name: cooler
     description: Sparse binary format for genomic interaction matrices
@@ -61499,6 +61588,8 @@ plant_tribes_gene_family_phylogeny_builder:
       -   Clustering
       -   Genomics
       -   Sequence Alignment
+      -   Protein Sequences
+      -   Ortholog
     identifiers: []
 arb-bio:
     name: arb-bio
@@ -61681,7 +61772,8 @@ ncfp:
     home_url: http://widdowquinn.github.io/ncfp/
     total_pulls: 2
     manually_check: true
-    keywords: []
+    keywords:
+      -   Protein Sequences
     identifiers: []
 bioconductor-exomepeak:
     name: bioconductor-exomepeak
@@ -61736,6 +61828,7 @@ agfusion:
     keywords:
       -   Genomics
       -   RNA-Seq
+      -   Protein Sequences
 gem3-mapper:
     name: gem3-mapper
     description: The GEM read mapper (v3).
@@ -61815,7 +61908,8 @@ hla-la:
     identifiers:
       -   biotools:hla-la
     manually_check: true
-    keywords: []
+    keywords:
+      -   Ortholog
 bioconductor-iclusterplus:
     name: bioconductor-iclusterplus
     description: Integrative clustering of multi-type genomic data
@@ -62120,6 +62214,7 @@ ribotaper:
       -   Functional genomics
       -   Genomics
       -   RNA-Seq
+      -   Ortholog
 bcbio-nextgen-vm:
     name: bcbio-nextgen-vm
     description: Run bcbio-nextgen genomic sequencing analyses using isolated containers
@@ -62537,6 +62632,7 @@ tbl2asn:
       -   Sequence Alignment
       -   Genetics
       -   Metagenome
+      -   Protein Sequences
     identifiers: []
 tqdm:
     name: tqdm
@@ -62684,6 +62780,7 @@ paralyzer:
       -   Sequence analysis
       -   Genomics
       -   RNA-Seq
+      -   Ortholog
 maxentscan:
     name: maxentscan
     description: Maxentscan is based on the approach for modeling the sequences of
@@ -63492,7 +63589,7 @@ deepbinner:
       -   Neural Networks, Computer
       -   Reproducibility of Results
     identifiers:
-      -    doi:10.1371/journal.pcbi.1006583
+      -   doi:10.1371/journal.pcbi.1006583
 connectome-workbench:
     name: connectome-workbench
     description: Connectome Workbench is an open source, freely available visualization
@@ -66981,6 +67078,7 @@ crass:
     keywords:
       -   Clustering
       -   Sequence Alignment
+      -   Protein Sequences
     identifiers: []
 pbgcpp:
     name: pbgcpp
@@ -67079,21 +67177,23 @@ vmatch:
       -   Metagenome
       -   Transcription Factors
       -   Transcriptome
+      -   Protein Sequences
 logomaker:
     name: logomaker
     description: Package for making sequence logos
     license: MIT
-    home_url: https://github.com/jbkinney/logomaker/blob/master/docs/index.rst
+    home_url: https://github.com/jbkinney/logomaker
     total_pulls: 1
     manually_check: true
-    keywords: []
+    keywords:
+      -   Protein Sequences
     identifiers:
       -   doi:10.1101/635029
 svanalyzer:
     name: svanalyzer
     description: 'Svanalyzer: tools for the analysis of structural variation in genomes'
     license: CC0
-    home_url: https://github.com/nhansen/SVanalyzer/blob/master/docs/index.rst
+    home_url: https://github.com/nhansen/SVanalyzer
     total_pulls: 1
     manually_check: true
     keywords: []
@@ -67279,6 +67379,7 @@ bcbio:
     keywords:
       -   RNA-Seq
       -   Genetics
+      -   Transcriptome
     identifiers:
       -   doi:10.5281/zenodo.3564938
 bx-tools:
@@ -68148,6 +68249,7 @@ biosquid:
     manually_check: true
     keywords:
       -   Sequence Alignment
+      -   Ortholog
     identifiers:
       -   doi:10.1093/bioinformatics/btl582
 unanimity:
@@ -68548,6 +68650,7 @@ clustalx:
     manually_check: true
     keywords:
       -   Sequence Alignment
+      -   Protein Sequences
     identifiers: []
 camitk-imp:
     name: camitk-imp
@@ -68998,6 +69101,7 @@ fsa:
       -   Sensitivity and Specificity
       -   Sequence Alignment
       -   Sequence Analysis
+      -   Ortholog
 gbrowse-calign:
     name: gbrowse-calign
     description: Calign helper
@@ -69090,6 +69194,7 @@ dialign-tx-data:
     keywords:
       -   Sequence Alignment
       -   Genetics
+      -   Protein Sequences
     identifiers: []
 galileo:
     name: galileo
@@ -69399,6 +69504,7 @@ elph:
     keywords:
       -   Genomics
       -   Metagenomics
+      -   Protein Sequences
     identifiers: []
 depinfo:
     name: depinfo
@@ -70296,7 +70402,8 @@ metastudent-data-2:
     home_url: https://github.com/Rostlab/MetaStudent
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Protein Sequences
     identifiers: []
 meryl:
     name: meryl
@@ -70342,7 +70449,8 @@ metastudent-data:
     home_url: https://github.com/Rostlab/MetaStudent
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Protein Sequences
     identifiers: []
 melting:
     name: melting
@@ -70421,6 +70529,7 @@ metastudent:
       -   Proteins
       -   Sequence Homology, Amino Acid
       -   Computational biology
+      -   Protein Sequences
 lucy:
     name: lucy
     description: A program for dna sequence quality trimming and vector removal. its
@@ -70796,6 +70905,7 @@ ncoils:
       -   Protein Conformation
       -   Proteins
       -   Protein secondary structure
+      -   Protein Sequences
 pftools:
     name: pftools
     description: The pftools are a collection of programs to build, calibrate, and
@@ -71239,6 +71349,7 @@ neobio:
       -   Algorithms
       -   Sequence Alignment
       -   Protein Structure
+      -   Protein Sequences
 orthanc-dev:
     name: orthanc-dev
     description: Orthanc development files
@@ -71334,7 +71445,7 @@ poretools-data:
     name: poretools-data
     description: Toolkit for nanopore nucleotide sequencing data -- sample datasets
     license: GPL-1+
-    home_url: https://github.com/arq5x/poretools/blob/master/docs/index.rst
+    home_url: https://github.com/arq5x/poretools
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -72100,6 +72211,7 @@ theseus:
     manually_check: true
     keywords:
       -   Sequence Alignment
+      -   Protein Sequences
     identifiers:
       -   doi:10.1093/bioinformatics/btl332
 smithwaterman:
@@ -72361,6 +72473,7 @@ spaced:
     manually_check: true
     keywords:
       -   Genetics
+      -   Protein Sequences
     identifiers: []
 xmedcon:
     name: xmedcon
@@ -72508,7 +72621,7 @@ pysam-tests:
     description: Interface for the sam/bam sequence alignment and mapping format (test
         data)
     license: MIT
-    home_url: https://github.com/pysam-developers/pysam/blob/master/doc/index.rst
+    home_url: https://github.com/pysam-developers/pysam
     total_pulls: 0
     manually_check: true
     keywords:
@@ -72857,6 +72970,7 @@ prime-phylo:
     keywords:
       -   Phylogenetics
       -   Genetics
+      -   Ortholog
     identifiers: []
 seqan-dev:
     name: seqan-dev
@@ -73384,6 +73498,7 @@ peptideshaker:
       -   Proteomics experiment
       -   Proteome
       -   Protein Structure
+      -   Protein Sequences
     anchor_tool: peptide-shaker
 msgfp:
     name: msgf_plus
@@ -73861,6 +73976,7 @@ tandem:
       -   Mass spectrometry
       -   Peptides
       -   Mass spectra
+      -   Protein Sequences
     identifiers:
       -   doi:xtandem
 json2isatab:
@@ -74437,6 +74553,7 @@ famli:
       -   Peptides
       -   Metagenomics
       -   Metagenome
+      -   Protein Sequences
     identifiers: []
 partitionfinder2:
     name: partitionfinder2
@@ -75362,7 +75479,7 @@ python-pysam-tests:
     description: Interface for the sam/bam sequence alignment and mapping format (test
         data)
     license: MIT
-    home_url: https://github.com/pysam-developers/pysam/blob/master/doc/index.rst
+    home_url: https://github.com/pysam-developers/pysam
     total_pulls: 0
     manually_check: true
     keywords:
@@ -75500,6 +75617,7 @@ biosquid-dev:
     manually_check: true
     keywords:
       -   Sequence Alignment
+      -   Ortholog
     identifiers:
       -   doi:10.1093/bioinformatics/btl582
 predictprotein:
@@ -76033,7 +76151,8 @@ rnacode:
     home_url: https://github.com/ViennaRNA/RNAcode
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Sequence Alignment
     identifiers:
       -   doi:10.1261/rna.2536111
 bamhash:
@@ -79747,6 +79866,7 @@ crb-blast:
     keywords:
       -   Genetics
       -   Transcriptome
+      -   Ortholog
     identifiers: []
 cyordereddict:
     name: cyordereddict
@@ -79956,6 +80076,7 @@ ete2:
       -   Phylogenetics
       -   Sequence Alignment
       -   Genetics
+      -   Ortholog
     identifiers: []
 express:
     name: express
@@ -80966,6 +81087,7 @@ mugsy:
       -   Humans
       -   Sequence Alignment
       -   Streptococcus pneumoniae
+      -   Ortholog
     identifiers:
       -   doi:10.1093/bioinformatics/btq665
 multiprocess:
@@ -84068,7 +84190,8 @@ r-genenet:
     home_url: https://CRAN.R-project.org/package=GeneNet
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Gene Expression
     identifiers:
       -   cran:genenet
       -   doi:10.1186/1752-0509-1-37
@@ -85055,7 +85178,8 @@ r-venndiagram:
     home_url: https://cran.r-project.org/package=VennDiagram
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Proteomics
     identifiers: []
 r-viridis:
     name: r-viridis
@@ -87925,6 +88049,7 @@ rnabob:
     manually_check: true
     keywords:
       -   Sequence Alignment
+      -   Ortholog
     identifiers:
       -   doi:10.1093/bioinformatics/btl582
 cansam:
@@ -88025,7 +88150,8 @@ treebest:
     home_url: http://treesoft.sourceforge.net/treebest.shtml
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Ortholog
     identifiers: []
 pythomics:
     name: pythomics
@@ -88488,7 +88614,8 @@ r-ahocorasicktrie:
     home_url: https://github.com/chambm/AhoCorasickTrie
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Protein Sequences
     identifiers: []
 pantools:
     name: pantools
@@ -88866,6 +88993,8 @@ plant_tribes_assembly_post_processor:
       -   Clustering
       -   Genomics
       -   Sequence Alignment
+      -   Protein Sequences
+      -   Ortholog
     identifiers: []
 xmltramp2:
     name: xmltramp2
@@ -88906,6 +89035,8 @@ plant_tribes_gene_family_classifier:
       -   Clustering
       -   Genomics
       -   Sequence Alignment
+      -   Protein Sequences
+      -   Ortholog
     identifiers: []
 involucro:
     name: involucro
@@ -89143,6 +89274,7 @@ pipmir:
       -   Transcriptomics
       -   Genomics
       -   RNA-Seq
+      -   Ortholog
 r-inlinedocs:
     name: r-inlinedocs
     description: Generates Rd files from R source code with comments. The main features
@@ -91805,6 +91937,7 @@ paladin:
       -   Proteins
       -   Nucleic acid structure analysis
       -   Metagenome
+      -   Protein Sequences
 intemap:
     name: intemap
     description: Integrated metagenomic assembly pipeline for short reads
@@ -92929,6 +93062,8 @@ kaptive:
     manually_check: true
     keywords:
       -   Genomics
+      -   Protein Sequences
+      -   Ortholog
     identifiers:
       -   doi:10.1101/869370
 extern:
@@ -92967,6 +93102,7 @@ graftm:
       -   Genomics
       -   Transcriptomics
       -   Transcriptome
+      -   Protein Sequences
 shapemapper:
     name: shapemapper
     description: ShapeMapper converts raw sequencing files into mutational profiles,
@@ -93194,6 +93330,7 @@ footprint:
     keywords:
       -   Genomics
       -   RNA-Seq
+      -   Ortholog
     identifiers:
       -   doi:10.1093/nar/gku810
 r-rtsne:
@@ -94273,6 +94410,8 @@ effectivet3:
       -   Yersinia
       -   Sequence analysis
       -   Genomics
+      -   Protein Sequences
+      -   Ortholog
 yahmm:
     name: yahmm
     description: YAHMM is a HMM package for Python, implemented in Cython for speed.
@@ -94598,6 +94737,8 @@ plant_tribes_gene_family_aligner:
       -   Clustering
       -   Genomics
       -   Sequence Alignment
+      -   Protein Sequences
+      -   Ortholog
     identifiers: []
 plant_tribes_kaks_analysis:
     name: plant_tribes_kaks_analysis
@@ -94610,6 +94751,8 @@ plant_tribes_kaks_analysis:
       -   Clustering
       -   Genomics
       -   Sequence Alignment
+      -   Protein Sequences
+      -   Ortholog
     identifiers: []
 plant_tribes_gene_family_integrator:
     name: plant_tribes_gene_family_integrator
@@ -94622,6 +94765,8 @@ plant_tribes_gene_family_integrator:
       -   Clustering
       -   Genomics
       -   Sequence Alignment
+      -   Protein Sequences
+      -   Ortholog
     identifiers: []
 crisper_recognition_tool:
     name: crisper_recognition_tool
@@ -95001,6 +95146,7 @@ trawler:
     manually_check: true
     keywords:
       -   Clustering
+      -   Ortholog
     identifiers: []
 embassy-phylip:
     name: embassy-phylip
@@ -95041,6 +95187,7 @@ domclust:
     keywords:
       -   Clustering
       -   Genomics
+      -   Ortholog
     identifiers: []
 taxmapper:
     name: taxmapper
@@ -95174,6 +95321,7 @@ r-rentrez:
     keywords:
       -   Genomics
       -   Genetics
+      -   Protein Sequences
 r-r2html:
     name: r-r2html
     description: Includes HTML function and methods to write in an HTML file. Thus,
@@ -95622,6 +95770,7 @@ panoct:
     manually_check: true
     keywords:
       -   Clustering
+      -   Ortholog
     identifiers:
       -   doi:10.1093/nar/gks757
 libmuscle:
@@ -95641,7 +95790,8 @@ odose:
     home_url: https://github.com/ODoSE/odose.nl
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Ortholog
     identifiers: []
 hera:
     name: hera
@@ -96957,6 +97107,7 @@ slncky:
       -   Evolutionary biology
       -   Zoology
       -   RNA-Seq
+      -   Ortholog
 hmmcopy:
     name: hmmcopy
     description: C++ based programs for analyzing BAM files and preparing read counts
@@ -98867,7 +99018,8 @@ asn2gb:
     home_url: https://www.ncbi.nlm.nih.gov/IEB/ToolBox/C_DOC/lxr/source/doc/asn2gb.txt
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Protein Sequences
     identifiers: []
 mockinbird:
     name: mockinbird
@@ -99117,7 +99269,8 @@ repenrich:
     identifiers: []
 seq-seq-pan:
     name: seq-seq-pan
-    description: 'seq-seq-pan: building a computational pan-genome data structure on whole genome alignment.'
+    description: 'seq-seq-pan: building a computational pan-genome data structure
+        on whole genome alignment.'
     license: BSD
     home_url: https://gitlab.com/chrjan/seq-seq-pan
     total_pulls: 0
@@ -99621,6 +99774,7 @@ ghostx:
       -   Sequence Homology
       -   Clustering
       -   Metagenome
+      -   Protein Sequences
 tinysink:
     name: tinysink
     description: Synchronise nanopore reads with a server.
@@ -99691,6 +99845,7 @@ ghostz:
       -   Sequence analysis
       -   Molecular genetics
       -   Clustering
+      -   Protein Sequences
 biodiff:
     name: biodiff
     description: exact comparison of biological sequences
@@ -100577,6 +100732,7 @@ shmlast:
       -   Gene Expression
       -   Genetics
       -   Transcriptome
+      -   Ortholog
     identifiers: []
 rnablueprint:
     name: rnablueprint
@@ -101701,6 +101857,7 @@ jali:
       -   Sequence Alignment
       -   Sequence Homology, Amino Acid
       -   Sequence analysis
+      -   Protein Sequences
 riboraptor:
     name: riboraptor
     description: Python package to analyse ribosome profiling data
@@ -103404,6 +103561,7 @@ deltabs:
     manually_check: true
     keywords:
       -   Genetic variation
+      -   Ortholog
     identifiers: []
 msproteomicstools:
     name: msproteomicstools
@@ -103558,7 +103716,8 @@ perl-estscan2:
     home_url: http://estscan.sourceforge.net
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Protein Sequences
     identifiers: []
 metavelvet-annois:
     name: metavelvet-annois
@@ -103894,7 +104053,8 @@ perl-estscan1:
     home_url: http://estscan.sourceforge.net
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Protein Sequences
     identifiers: []
     no_doi: true
 perl-io-uncompress-rawinflate:
@@ -104731,7 +104891,8 @@ tagger:
     home_url: https://github.com/larsjuhljensen/tagger
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Ortholog
     identifiers: []
     no_doi: true
 python-consensuscore2:
@@ -105521,7 +105682,8 @@ transgenescan:
       -   Transcriptomics
 scnic:
     name: scnic
-    description: 'Scnic: sparse cooccurence network investigation for compositional data'
+    description: 'Scnic: sparse cooccurence network investigation for compositional
+        data'
     license: BSD 3-Clause "New" or "Revised" License
     home_url: https://github.com/shafferm/SCNIC
     total_pulls: 0
@@ -105567,7 +105729,8 @@ shannon:
     home_url: https://github.com/sreeramkannan/Shannon/
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   RNA-Seq
     identifiers:
       -   doi:10.1101/039230
 solexaqa:
@@ -105888,6 +106051,7 @@ reparation_blast:
     manually_check: true
     keywords:
       -   Genomics
+      -   Protein Sequences
     identifiers:
       -   doi:10.1093/nar/gkx758
 topas:
@@ -106287,6 +106451,7 @@ kinsimriboswitch:
       -   Probability
       -   RNA
       -   Thermodynamics
+      -   Ortholog
     identifiers:
       -   doi:10.1186/s12859-017-1823-5
 popdel:
@@ -106581,6 +106746,8 @@ sonicparanoid:
       -   Genome
       -   Genomics
       -   Clustering
+      -   Protein Sequences
+      -   Ortholog
 consan:
     name: consan
     description: Pairwise RNA structural alignment, both unconstrained and constrained
@@ -110189,6 +110356,7 @@ super_distance:
       -   Clustering
       -   Genomics
       -   Genetics
+      -   Ortholog
 defiant:
     name: defiant
     description: Differential methylation, Easy, Fast, Identification and ANnoTation.
@@ -110322,6 +110490,8 @@ genomethreader:
       -   RNA-Seq
       -   Genetics
       -   Transcriptome
+      -   Protein Sequences
+      -   Ortholog
 perl-math-bigrat:
     name: perl-math-bigrat
     description: Arbitrary big rational numbers
@@ -110556,6 +110726,7 @@ snostrip:
       -   Sequence Analysis, RNA
       -   Sequence analysis
       -   RNA-Seq
+      -   Ortholog
 triqler:
     name: triqler
     description: A combined identification and quantification error model of label-free
@@ -111021,7 +111192,8 @@ mapgl:
     home_url: https://github.com/adadiehl/mapGL
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Ortholog
     identifiers:
       -   doi:10.1101/827907
 mace:
@@ -111198,6 +111370,7 @@ pypgatk:
       -   Proteomics
       -   Genomics
       -   Peptides
+      -   Protein Sequences
     identifiers: []
 jasmine:
     name: jasmine
@@ -111624,6 +111797,7 @@ traitar:
       -   Phylogenetics
       -   Metagenomics
       -   Clustering
+      -   Protein Sequences
 fings:
     name: fings
     description: Filters for next generation sequencing
@@ -112201,6 +112375,7 @@ decoypyrat:
       -   Peptides
       -   Mass spectra
       -   Mass spectrometry
+      -   Protein Sequences
     identifiers:
       -   doi:10.4172/jpb.1000404
 kmasker:
@@ -113334,7 +113509,8 @@ tesorter:
     home_url: https://github.com/NBISweden/TEsorter
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Protein Sequences
     identifiers:
       -   doi:10.1101/800177
 thesias:
@@ -113564,7 +113740,8 @@ genericrepeatfinder:
     identifiers: []
 nthits:
     name: nthits
-    description: a method for identifying repeats in high-throughput DNA sequencing data.
+    description: a method for identifying repeats in high-throughput DNA sequencing
+        data.
     license: MIT
     home_url: https://github.com/bcgsc/ntHits
     total_pulls: 0
@@ -113597,7 +113774,8 @@ conterminator:
     home_url: https://github.com/martin-steinegger/conterminator
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Protein Sequences
     identifiers:
       -   doi:10.1101/2020.01.26.920173
 spring:
@@ -113743,6 +113921,7 @@ tbl2asn-forever:
       -   Sequence Alignment
       -   Genetics
       -   Metagenome
+      -   Protein Sequences
     identifiers: []
 callstate:
     name: callstate
@@ -114178,7 +114357,9 @@ xopen:
     description: Python3 module to open compressed files transparently
     home_url: https://github.com/marcelm/xopen
     identifiers: []
-    keywords: []
+    keywords:
+      -   Genomics
+      -   Metagenomics
     license: MIT
     manually_check: true
     name: xopen
@@ -114220,6 +114401,7 @@ tantan:
       -   program
       -   utility
       -   biological-sequence
+      -   Protein Sequences
     license: GPL-3+
     manually_check: true
     name: tantan
@@ -114940,6 +115122,7 @@ fingerprintscan:
       -   Proteins
       -   Gene and protein families
       -   Sequence sites, features and motifs
+      -   Protein Sequences
     license: GPL-2.0
     manually_check: true
     name: fingerprintscan
@@ -115445,6 +115628,7 @@ ngsep:
       -   Sequence Alignment
       -   Genetics
       -   Transcriptome
+      -   Ortholog
     license: GPL-3
     manually_check: true
     name: ngsep
@@ -115478,6 +115662,7 @@ bram:
       -   Genomics
       -   Metagenomics
       -   Metagenome
+      -   Ortholog
     license: Not available
     manually_check: true
     name: dram
@@ -115656,7 +115841,8 @@ scapp:
     home_url: https://github.com/Shamir-Lab/SCAPP
     identifiers:
       -   doi:10.1101/2020.01.12.903252
-    keywords: []
+    keywords:
+      -   Protein Sequences
     license: Not available
     manually_check: true
     name: scapp
@@ -115763,6 +115949,7 @@ beepgoplus:
       -   doi:10.1093/bioinformatics/btz595
     keywords:
       -   protein function prediction
+      -   Protein Sequences
     license: SPDX:BSD-3-Clause
     manually_check: true
     name: deepgoplus
@@ -116001,6 +116188,7 @@ fastg2protlib:
     keywords:
       -   Proteomics
       -   Peptides
+      -   Protein Sequences
     license: Not available
     manually_check: true
     name: fastg2protlib
@@ -116155,6 +116343,7 @@ keggcharter:
       -   Genomics
       -   Transcriptomics
       -   Gene Expression
+      -   Ortholog
     license: Not available
     manually_check: true
     name: keggcharter
@@ -116221,6 +116410,7 @@ jcast:
     keywords:
       -   Proteomics
       -   RNA-Seq
+      -   Protein Sequences
     license: Not available
     manually_check: true
     name: jcast
@@ -116737,7 +116927,9 @@ beepnog:
     home_url: https://github.com/univieCUBE/deepnog
     identifiers:
       -   doi:10.1093/bioinformatics/btaa1051
-    keywords: []
+    keywords:
+      -   Protein Sequences
+      -   Ortholog
     license: Not available
     manually_check: true
     name: deepnog
@@ -117660,7 +117852,8 @@ bioconductor-geneplast.data:
     home_url: https://bioconductor.org/packages/3.12/data/annotation/html/geneplast.data.html
     identifiers:
       -   doi:10.18129/b9.bioc.geneplast.data
-    keywords: []
+    keywords:
+      -   Ortholog
     license: Not available
     manually_check: true
     name: bioconductor-geneplast.data
@@ -119506,6 +119699,7 @@ r-biomartr:
       -   Sequence Analysis, DNA
       -   Metagenomics
       -   Metagenome
+      -   Ortholog
     license: GPL-2
     manually_check: true
     name: r-biomartr
@@ -119932,7 +120126,8 @@ batch_brb:
         analysis using fasttree
     home_url: https://github.com/erin-r-butterfield/batch_brb
     identifiers: []
-    keywords: []
+    keywords:
+      -   Ortholog
     license: Not available
     manually_check: true
     name: batch_brb
@@ -119959,6 +120154,7 @@ bakta:
       -   doi:10.1093/nar/gkh152
     keywords:
       -   Genomics
+      -   Protein Sequences
     license: GPLv3
     manually_check: true
     name: bakta
@@ -120414,7 +120610,8 @@ balrog:
     home_url: https://github.com/Markusjsommer/BalrogCPP
     identifiers:
       -   doi:10.1101/2020.09.06.285304
-    keywords: []
+    keywords:
+      -   Protein Sequences
     license: MIT
     manually_check: true
     name: balrog
@@ -120675,6 +120872,7 @@ blast-score-ratio:
       -   Proteomics
       -   Sequence Alignment
       -   User-Computer Interface
+      -   Protein Sequences
 kontools:
     name: kontools
     description: A collection of python functions for computational biology / bioinformatics.
@@ -120786,6 +120984,7 @@ hamstr1s:
       -   Models, Genetic
       -   Phylogeny
       -   Sequence Analysis, DNA
+      -   Ortholog
 pyopenms-extra-Fabian-Yannik-Laura:
     name: pyopenms-extra-Fabian-Yannik-Laura
     description: pyOpenMS are the Python bindings to the OpenMS open-source C++ library
@@ -120840,6 +121039,7 @@ fdog:
       -   Models, Genetic
       -   Phylogeny
       -   Sequence Analysis, DNA
+      -   Ortholog
 pandas:
     name: pandas
     description: High-performance, easy-to-use data structures and data analysis tools.
@@ -120903,7 +121103,8 @@ bioconductor-bsgenome.ptroglodytes.ucsc.pantro2.masked:
     total_pulls: 2277
     manually_check: false
     identifiers: []
-    keywords: []
+    keywords:
+      -   Genetics
 astropy:
     name: astropy
     description: Not available
@@ -120961,25 +121162,30 @@ deepmod:
 dram:
     name: dram
     description: 'Distilled and refined annotation of metabolism: a tool for the annotation
-      and curation of function for microbial and viral genomes'
+        and curation of function for microbial and viral genomes'
     license: Not available
     home_url: https://github.com/shafferm/DRAM/
     total_pulls: 1829
     manually_check: false
     identifiers: []
-    keywords: []
+    keywords:
+      -   Genomics
+      -   Metagenomics
+      -   Metagenome
+      -   Ortholog
 deepgoplus:
     name: deepgoplus
     description: Deepgoplus is a novel method for predicting protein functions from
-      protein sequences using deep neural networks combined with sequence similarity
-      based predictions.
+        protein sequences using deep neural networks combined with sequence similarity
+        based predictions.
     license: SPDX:BSD-3-Clause
     home_url: http://deepgoplus.bio2vec.net/
     total_pulls: 508
     manually_check: false
     identifiers: []
     keywords:
-      -  protein function prediction
+      -   protein function prediction
+      -   Protein Sequences
 drop:
     name: drop
     description: Detection of rna outlier pipeline
@@ -120988,7 +121194,8 @@ drop:
     total_pulls: 4274
     manually_check: false
     identifiers: []
-    keywords: []
+    keywords:
+      -   RNA-Seq
 duplomap:
     name: duplomap
     description: Not available
@@ -121015,7 +121222,8 @@ dfast_qc:
     total_pulls: 1177
     manually_check: false
     identifiers: []
-    keywords: []
+    keywords:
+      -   Genetics
 deepnog:
     name: deepnog
     description: Deep learning tool for protein orthologous group assignment
@@ -121025,10 +121233,13 @@ deepnog:
     manually_check: true
     identifiers:
       -   doi:10.1093/bioinformatics/btaa1051
-    keywords: []
+    keywords:
+      -   Protein Sequences
+      -   Ortholog
 dligand2:
     name: dligand2
-    description: 'DLIGAND2: an improved knowledge-based energy function for protein-ligand interactions using the distance-scaled, finite, ideal-gas reference state.'
+    description: 'DLIGAND2: an improved knowledge-based energy function for protein-ligand
+        interactions using the distance-scaled, finite, ideal-gas reference state.'
     license: MIT
     home_url: https://github.com/sysu-yanglab/DLIGAND2
     total_pulls: 753
@@ -121048,7 +121259,7 @@ psiclass:
 epiweeks:
     name: epiweeks
     description: Calculate epidemiological weeks using the cdc (mmwr) and iso week
-      numbering systems.
+        numbering systems.
     license: Not available
     home_url: https://github.com/dralshehri/epiweeks
     total_pulls: 58
@@ -121076,13 +121287,15 @@ pulchra:
 shovill-se:
     name: shovill-se
     description: An fork of shovill (microbial assembly pipeline for illumina paired-end
-      reads) that supports single-end reads.
+        reads) that supports single-end reads.
     license: Not available
     home_url: https://github.com/rpetit3/shovill
     total_pulls: 93
     manually_check: false
     identifiers: []
-    keywords: []
+    keywords:
+      -   Whole genome sequencing
+      -   Metagenome
 clinker-py:
     name: clinker-py
     description: Gene cluster comparison figure generator
@@ -121113,13 +121326,15 @@ uvaia:
 run-dbcan:
     name: run-dbcan
     description: Standalone version of dbcan annotation tool for automated cazyme
-      annotation
+        annotation
     license: Not available
     home_url: https://github.com/linnabrown/run_dbcan
     total_pulls: 52
     manually_check: false
     identifiers: []
-    keywords: []
+    keywords:
+      -   Metagenome
+      -   Protein Sequences
 xtea:
     name: xtea
     description: Te insertion caller for both short and long reads
@@ -121149,7 +121364,8 @@ bayesase:
     keywords: []
 primalscheme:
     name: primalscheme
-    description: Primalscheme is a tool for designing primer panels for multiplex pcr
+    description: Primalscheme is a tool for designing primer panels for multiplex
+        pcr
     license: Not available
     home_url: https://github.com/aresti/primalscheme
     total_pulls: 19
@@ -121224,14 +121440,17 @@ r-acidgenomes:
     keywords: []
 r-crmn:
     name: r-crmn
-    description: 'Implements the Cross-contribution Compensating Multiple standard Normalization (CCMN) method described in Redestig et al. (2009) Analytical Chemistry and other normalization algorithms.'
+    description: Implements the Cross-contribution Compensating Multiple standard
+        Normalization (CCMN) method described in Redestig et al. (2009) Analytical
+        Chemistry and other normalization algorithms.
     license: GPL (≥ 3)
     home_url: https://CRAN.R-project.org/package=crmn
     total_pulls: 6
     manually_check: true
     identifiers:
       -   doi:10.1021/ac901143w
-    keywords: []
+    keywords:
+      -   Metabolomics
 bioconductor-msprep:
     name: bioconductor-msprep
     description: Not available
@@ -121262,7 +121481,7 @@ bioconductor-ggtreeextra:
 bioconductor-uncoverapplib:
     name: bioconductor-uncoverapplib
     description: Interactive graphical application for clinical assessment of sequence
-      coverage at the base-pair level
+        coverage at the base-pair level
     license: Not available
     home_url: https://bioconductor.org/packages/3.12/bioc/html/uncoverappLib.html
     total_pulls: 6
@@ -121286,7 +121505,8 @@ bioconductor-bgx:
     total_pulls: 6
     manually_check: false
     identifiers: []
-    keywords: []
+    keywords:
+      -   Gene Expression
 bioconductor-wpm:
     name: bioconductor-wpm
     description: Well plate maker
@@ -121295,7 +121515,8 @@ bioconductor-wpm:
     total_pulls: 6
     manually_check: false
     identifiers: []
-    keywords: []
+    keywords:
+      -   Proteomics
 gamma:
     name: gamma
     description: Tool for gene allele mutation microbial assessment
@@ -121313,7 +121534,8 @@ spatyper:
     total_pulls: 6
     manually_check: false
     identifiers: []
-    keywords: []
+    keywords:
+      -   Genomics
 tatajuba:
     name: tatajuba
     description: Identification and classification of homopolymeric tracts from reads.
