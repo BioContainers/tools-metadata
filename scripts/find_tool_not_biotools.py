@@ -32,18 +32,21 @@ def search_tool(key):
                count = count + 1
     # print('----------------------------------------------')
 
-
+count = 0
 for key in file_annotations:
     tool = file_annotations[key]
 
-    if 'identifiers' not in tool or len(tool['identifiers']) == 0:
-        not_biotools.append(key)
+    if 'no_doi' not in tool and ('identifiers' not in tool or len(tool['identifiers']) == 0):
+           not_biotools.append(key)
+           print(key + "\t" + tool['home_url'] + "\t")
+           count = count + 1
     # else:
     #     if not any("doi" in word for word in tool['identifiers']):
     #         not_biotools.append(key)
-
+print(str(count))
 for tool in not_biotools:
     if 'bioconductor-' in tool:
         search_tool(tool.replace("bioconductor-", ""))
     else:
         search_tool(tool)
+    count = 0
