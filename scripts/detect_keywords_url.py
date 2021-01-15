@@ -30,7 +30,8 @@ with open('../annotations.yaml', 'r') as read_file:
 tools = {}
 
 words = ['Clustering', 'Cluster Analysis', 'Proteomics', 'Genomics', 'Peptides', 'Mass spectra', 'Mass spectrometry', 'Metabolomics', 'Metaproteomics', 'Metagenomics', 'Whole genome sequencing', 'RNA-Seq', 'Data visualisation', 'Molecular Dynamics',
-         'Transcriptomics', 'Functional genomics', 'Phylogenetics', 'Gene Expression', 'Sequence Alignment', 'Genetics', 'Genetic variation', 'Metagenome', 'Gene Expression', 'Markov Chains', 'Protein Structure', 'Transcription Factors', 'Transcriptome', 'Molecular Imaging']
+         'Transcriptomics', 'Functional genomics', 'Phylogenetics', 'Gene Expression', 'Sequence Alignment', 'Genetics', 'Genetic variation', 'Metagenome', 'Gene Expression', 'Markov Chains', 'Protein Structure', 'Transcription Factors', 'Transcriptome',
+         'Molecular Imaging', 'Protein Sequences', 'Ortholog']
 
 ### Annotate bioconductor package
 for key in file_annotations:
