@@ -11175,14 +11175,14 @@ kofamscan:
       -   Databases, Factual
 gaas:
     name: gaas
-    description: Suite of tools related to Genome Assembly Annotation Service tasks
-        at NBIS.
+    description: Suite of tools related to Genome Assembly Annotation Service tasks at NBIS.
     license: GPL-3.0
     home_url: https://github.com/NBISweden/GAAS
     total_pulls: 28
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3835504
 nanopolishcomp:
     name: nanopolishcomp
     description: NanopolishComp is a Python3 package for downstream analyses of Nanopolish
@@ -11784,6 +11784,7 @@ caper:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 sarscov2summary:
     name: sarscov2summary
     description: Formatter for Galaxy SARS-CoV2 Selection Analysis Workflow
@@ -22878,8 +22879,7 @@ r-motifbinner:
     identifiers: []
 r-virfinder:
     name: r-virfinder
-    description: 'VirFinder: a novel k-mer based tool for identifying viral sequences
-        from assembled metagenomic data.'
+    description: 'VirFinder: a novel k-mer based tool for identifying viral sequences from assembled metagenomic data.'
     license: USC-RL v1.0
     home_url: https://github.com/jessieren/VirFinder
     total_pulls: 5
@@ -23701,7 +23701,8 @@ irfinder:
     manually_check: true
     keywords:
       -   RNA-Seq
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13059-017-1184-4
 bioconductor-methylpipe:
     name: bioconductor-methylpipe
     description: Base resolution DNA methylation data analysis
@@ -23930,7 +23931,8 @@ nucdiff:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12859-017-1748-z
 bioconductor-ctc:
     name: bioconductor-ctc
     description: Cluster and Tree Conversion.
@@ -23959,7 +23961,9 @@ ephemeris:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 idr-py:
     name: idr-py
     description: Helper methods for accessing the Image Data Resource (IDR)
@@ -62962,7 +62966,8 @@ orthomcl:
     total_pulls: 1
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s41044-016-0019-8
 bioconductor-ggcyto:
     name: bioconductor-ggcyto
     description: With the dedicated fority method implemented for flowset, ncdfflowset
@@ -63306,7 +63311,8 @@ numpy:
     total_pulls: 1
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41586-020-2649-2
 wisecondorx:
     name: wisecondorx
     description: WIthin-SamplE COpy Number aberration DetectOR, including sex chromosomes
@@ -70824,7 +70830,8 @@ pbhoney:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/1471-2105-15-180
 murasaki-common:
     name: murasaki-common
     description: Homology detection tool across multiple large genomes (common files)
@@ -71180,7 +71187,8 @@ phybin:
     manually_check: true
     keywords:
       -   Clustering
-    identifiers: []
+    identifiers:
+      -   doi:10.7717/peerj.187
 neobio:
     name: neobio
     description: Neobio is a java class library of computational biology algorithms.
@@ -71507,7 +71515,8 @@ plasmidseeker:
     manually_check: true
     keywords:
       -   Whole genome sequencing
-    identifiers: []
+    identifiers:
+      -   doi:10.7717/peerj.4588
 norsnet:
     name: norsnet
     description: Identification unstructured loops from sequence.
@@ -71567,6 +71576,7 @@ populations:
     keywords:
       -   Genetics
     identifiers: []
+    no_doi: true
 rna-star:
     name: rna-star
     description: Ultrafast universal rna-seq aligner
@@ -73509,7 +73519,8 @@ metabomatching:
     manually_check: true
     keywords:
       -   Metabolomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pcbi.1005839
 mtblisa:
     name: mtblisa
     description: A container image definition for the mtbls module of the ISA API
@@ -74661,7 +74672,8 @@ epigrass:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/1751-0473-3-3
 python-avro:
     name: python-avro
     description: Apache Avro is a data serialization system.
@@ -79232,6 +79244,7 @@ aria2:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 arvados-cli:
     name: arvados-cli
     description: Command line interface to arvados, a free and open source platform
@@ -79860,6 +79873,7 @@ dropbox:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 dxua:
     name: dxua
     description: Command-line tool for uploading files to the dnanexus platform.
@@ -86991,7 +87005,8 @@ verse:
     manually_check: true
     keywords:
       -   RNA-Seq
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/053306
 visitor:
     name: visitor
     description: A tiny pythonic visitor implementation.
@@ -89532,6 +89547,7 @@ ecoprimers:
     manually_check: true
     keywords: []
     identifiers: []
+      -   doi:10.1093/nar/gkr732
 perl-math-combinatorics:
     name: perl-math-combinatorics
     description: Perform combinations and permutations on lists
