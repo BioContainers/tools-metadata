@@ -177,7 +177,9 @@ galaxy_sequence_utils:
     total_pulls: 39447
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 prodigal:
     name: prodigal
     description: Microbial (bacterial and archaeal) gene finding program
@@ -186,7 +188,8 @@ prodigal:
     total_pulls: 36174
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/1471-2105-11-119
 gatk4:
     name: gatk4
     description: Genome analysis toolkit (gatk4)
@@ -299,7 +302,8 @@ python:
     total_pulls: 21851
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1109/MCSE.2007.58
 megahit:
     name: megahit
     description: An ultra-fast single-node solution for large and complex metagenomics
@@ -716,7 +720,8 @@ platypus-variant:
     total_pulls: 10152
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/ng.3036
 barrnap:
     name: barrnap
     description: Predict the location of ribosomal rna genes in genomes. it supports
@@ -740,7 +745,8 @@ matplotlib:
     total_pulls: 10059
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1109/MCSE.2007.55
 augustus:
     name: augustus
     description: Augustus is a eukaryotic gene prediction tool. It can integrate evidence,
@@ -838,7 +844,8 @@ openslide:
     total_pulls: 9753
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.4103/2153-3539.119005
 hisat2:
     name: hisat2
     description: Alignment program for mapping next-generation sequencing reads (both
@@ -1066,7 +1073,8 @@ gubbins:
     manually_check: true
     keywords:
       -   Genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gku1196
 pilon:
     name: pilon
     description: Read alignment analysis to diagnose, report, and automatically improve
@@ -1393,7 +1401,8 @@ porechop:
     total_pulls: 8170
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:
 progressivemauve:
     name: progressivemauve
     description: Progressivemauve computes multiple genome alignment with gene gain,
@@ -1797,7 +1806,10 @@ autodock-vina:
     total_pulls: 6630
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   biotools:autodock
+      -   doi:10.1002/jcc.21256
+      -   doi:10.26434/CHEMRXIV.9702389.V1
 beagle:
     name: beagle
     description: Beagle is a software package that performs genotype calling, genotype
@@ -2360,7 +2372,8 @@ cogent:
     total_pulls: 5815
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/gb-2007-8-8-r171
 cassiopee:
     name: cassiopee
     description: Index and search tool in genomic sequences
@@ -2968,7 +2981,9 @@ king:
     manually_check: true
     keywords:
       -   Genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1002/pro.250
+      -   pmid:19768809
 kmc:
     name: kmc
     description: Kmc is a utility designed for counting k-mers (sequences of consecutive
@@ -3044,7 +3059,8 @@ mhap:
     total_pulls: 5139
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/nbt.3238
 nanopolish:
     name: nanopolish
     description: A package for detecting cytosine methylations and genetic variations
@@ -3385,7 +3401,8 @@ parsnp:
     total_pulls: 4875
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13059-014-0524-x
 phipack:
     name: phipack
     description: Phi test and other tests of recombination
@@ -3415,7 +3432,8 @@ poa:
     manually_check: true
     keywords:
       -   Sequence Alignment
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bth126
 sga:
     name: sga
     description: Sga is a de novo assembler designed to assemble large genomes from
@@ -3622,7 +3640,8 @@ transrate-tools:
     manually_check: true
     keywords:
       -   Transcriptome
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/gr.196469.115
 proteinortho:
     name: proteinortho
     description: Detection of (co-)orthologs in large-scale protein analysis
@@ -4053,7 +4072,8 @@ quorum:
     total_pulls: 4795
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pone.0130821
 sqt:
     name: sqt
     description: Sequencing tools for biological dna/rna high-throughput data
@@ -4204,7 +4224,8 @@ nanoplot:
     total_pulls: 3772
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bty149
 lofreq:
     name: lofreq
     description: A fast and sensitive variant-caller for inferring snvs and indels
@@ -4758,7 +4779,14 @@ schicexplorer:
     home_url: https://github.com/joachimwolff/scHiCExplorer
     total_pulls: 3359
     manually_check: true
-    keywords: []
+    keywords:
+      -   Chromatin
+      -   Computer Graphics
+      -   Genetic Techniques
+      -   Internet
+      -   Molecular Conformation
+      -   Reproducibility of Results
+      -   Single-Cell Analysis
     identifiers:
       -   doi:10.1093/nar/gkaa220
 goenrichment:
@@ -5225,7 +5253,8 @@ structure:
     manually_check: true
     identifiers:
       -   biotools:Structure
-      -   pmid:10835412
+      -   doi:10.1534/genetics.114.164350
+      -   pmid:12930761
     keywords:
       -   Population genetics
       -   Clustering
@@ -5266,6 +5295,7 @@ perl-xml-xpath:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 structureharvester:
     name: structureharvester
     description: Structureharvester.py is a python script capable of extracting all
@@ -5276,7 +5306,8 @@ structureharvester:
     manually_check: true
     keywords:
       -   Genetics
-    identifiers: []
+    identifiers:
+      -   doi:10.1007/s12686-011-9548-7
 valet:
     name: valet
     description: Pipeline for detecting mis-assemblies in metagenomic assemblies
@@ -5340,6 +5371,7 @@ medaka:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bracken:
     name: bracken
     description: Bracken (Bayesian Reestimation of Abundance with KrakEN) is a highly
@@ -6574,7 +6606,12 @@ rxdock:
     home_url: https://github.com/rxdock/rxdock
     total_pulls: 374
     manually_check: true
-    keywords: []
+    keywords:
+      -   Fluorescence Resonance Energy Transfer
+      -   Hydrogen Bonding
+      -   Ligands
+      -   Models, Molecular
+      -   RNA
     identifiers:
       -   doi:10.1371/journal.pcbi.1003571
       -   doi:10.1023/b:jcam.0000035199.48747.1e
@@ -6722,7 +6759,8 @@ survivor:
     total_pulls: 295
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/ncomms14061
 deeplc:
     name: deeplc
     description: 'Deeplc: retention time prediction for (modified) peptides using
@@ -8560,7 +8598,8 @@ biobb_io:
     total_pulls: 40
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 bioconductor-rgin:
     name: bioconductor-rgin
     description: gin in R
@@ -8738,6 +8777,7 @@ crimson:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bioconductor-oligoclasses:
     name: bioconductor-oligoclasses
     description: Classes for high-throughput arrays supported by oligo and crlmm
@@ -8878,6 +8918,7 @@ perl-module-loaded:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 assembly-scan:
     name: assembly-scan
     description: Assembly summary statistics in JSON format
@@ -9090,6 +9131,7 @@ perl-cpan-meta-validator:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-text-wrap:
     name: perl-text-wrap
     description: line wrapping to form simple paragraphs
@@ -9099,6 +9141,7 @@ perl-text-wrap:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bioconductor-nnnorm:
     name: bioconductor-nnnorm
     description: Spatial and intensity based normalization of cDNA microarray data
@@ -9292,6 +9335,7 @@ perl-file-readbackwards:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test-fork:
     name: perl-test-fork
     description: test code which forks
@@ -9301,6 +9345,7 @@ perl-test-fork:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bioconductor-curatedbreastdata:
     name: bioconductor-curatedbreastdata
     description: Curated breast cancer gene expression data with survival and treatment
@@ -9549,6 +9594,7 @@ perl-rest-client:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 gnomic:
     name: gnomic
     description: A grammar for describing microbial genotypes and phenotypes
@@ -9622,6 +9668,7 @@ perl-role-tiny-with:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 ribodiff:
     name: ribodiff
     description: Ribodiff is a statistical tool that detects the protein translational
@@ -9763,6 +9810,7 @@ perl-xml-libxml:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-import-into:
     name: perl-import-into
     description: Import packages into other packages
@@ -9772,6 +9820,7 @@ perl-import-into:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 truvari:
     name: truvari
     description: Structural variant comparison tool for VCFs
@@ -9958,6 +10007,7 @@ perl-threaded:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 msgf_plus:
     name: msgf_plus
     description: Ms-gf+ is a new ms/ms database search tool that is sensitive (it
@@ -9991,6 +10041,7 @@ perl-file-chdir:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 ig-flowtools:
     name: ig-flowtools
     description: Set of tools for flow cytometry analysis
@@ -10009,6 +10060,7 @@ perl-data-walk:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 swalign:
     name: swalign
     description: Smith-Waterman local aligner
@@ -10045,6 +10097,7 @@ perl-io-gzip:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 nanopore_simulation:
     name: nanopore_simulation
     description: Nanopore SimulatION is a tool for simulating an Oxfornd Nanopore
@@ -10064,6 +10117,7 @@ perl-test-mockmodule:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 dig2:
     name: dig2
     description: dig2 is a simple but flexible in silico digester of protein sequences
@@ -10193,6 +10247,7 @@ perl-bignum:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bioconductor-bigpint:
     name: bioconductor-bigpint
     description: Big multivariate data plotted interactively
@@ -10255,6 +10310,7 @@ perl-aceperl:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-forks:
     name: perl-forks
     description: drop-in replacement for Perl threads using fork()
@@ -10264,6 +10320,7 @@ perl-forks:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pypore:
     name: pypore
     description: Pythonic/Cythonic Nanopore Translocation Analysis
@@ -10288,6 +10345,7 @@ perl-moosex-types:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 disty:
     name: disty
     description: Disty McMatrixface - compute a distance matrix from a core genome
@@ -10425,6 +10483,7 @@ perl-json:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test-nowarnings:
     name: perl-test-nowarnings
     description: Make sure you didn't emit any warnings while testing
@@ -10434,6 +10493,7 @@ perl-test-nowarnings:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 homer:
     name: homer
     description: Software for motif discovery and next generation sequencing analysis
@@ -10446,7 +10506,8 @@ homer:
       -   RNA-Seq
       -   Functional genomics
       -   Transcription Factors
-    identifiers: []
+    identifiers:
+      -   doi:10.1016/j.molcel.2010.05.004
 query_phenomizer:
     name: query_phenomizer
     description: Tool for query and parsing the phenomizer tool
@@ -10619,7 +10680,8 @@ fgwas:
     keywords:
       -   Genomics
       -   Functional genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1016/j.ajhg.2014.03.004
 transcov:
     name: transcov
     description: A software for mapping coverage around transcription start sites
@@ -10695,6 +10757,7 @@ perl-class-methodmaker:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 famseq:
     name: famseq
     description: Peng G, Fan Y, Palculict TB, Shen P, Ruteshouser EC, Chi A, Davis
@@ -10732,16 +10795,18 @@ biobb_model:
     total_pulls: 33
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 gneiss:
     name: gneiss
     description: Compositional data analysis tools and visualizations
     license: BSD
-    home_url: https://biocore.github.io/gneiss/
+    home_url: https://github.com/biocore/gneiss
     total_pulls: 33
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1128/mSystems.00162-16
 braker2:
     name: braker2
     description: BRAKER2 is an extension of BRAKER1
@@ -10777,6 +10842,7 @@ perl-data-lock:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 jbrowse:
     name: jbrowse
     description: Slick, speedy genome browser with a responsive and dynamic ajax interface
@@ -10897,7 +10963,8 @@ biobb_md:
     manually_check: true
     keywords:
       -   Molecular Dynamics
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 instrain:
     name: instrain
     description: Calculation of strain-level metrics
@@ -10930,6 +10997,7 @@ arriba:
     keywords:
       -   RNA-Seq
     identifiers: []
+    no_doi: true
 phylophlan:
     name: phylophlan
     description: Precise phylogenetic analysis of microbial isolates and genomes from
@@ -11445,7 +11513,10 @@ openduck:
     total_pulls: 23
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/nchem.2660
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 bioconductor-hilbertvis:
     name: bioconductor-hilbertvis
     description: Gnu r package to visualise long vector data
@@ -11991,7 +12062,8 @@ biobb_analysis:
     manually_check: true
     keywords:
       -   Molecular Dynamics
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 pyopenms:
     name: pyopenms
     description: pyOpenMS is an open-source Python library for mass spectrometry,
@@ -12201,6 +12273,7 @@ portcullis:
     keywords:
       -   RNA-Seq
     identifiers: []
+    no_doi: true
 krakenuniq:
     name: krakenuniq
     description: Metagenomics classifier with unique k-mer counting for more specific
@@ -12778,6 +12851,7 @@ perl-xml-sax-expat:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bioconductor-mops:
     name: bioconductor-mops
     description: MoPS - Model-based Periodicity Screening
@@ -12885,6 +12959,7 @@ perl-heap-simple-perl:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bioconductor-omicrexposome:
     name: bioconductor-omicrexposome
     description: Exposome and omic data associatin and integration analysis
@@ -13063,6 +13138,7 @@ perl-file-which:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 sure:
     name: sure
     description: utility belt for automated testing in python for python
@@ -13465,7 +13541,11 @@ hg-color:
     home_url: https://github.com/pierre-morisse/HG-CoLoR
     total_pulls: 15
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   High-Throughput Nucleotide Sequencing
+      -   Nanopores
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/bty521
 deepvariant:
@@ -13544,6 +13624,7 @@ perl-fastx-reader:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 monocle3-cli:
     name: monocle3-cli
     description: A set of wrappers for individual components of the monocle3 package.
@@ -13858,6 +13939,7 @@ megalodon:
       -   Genetics
       -   Transcriptome
     identifiers: []
+    no_doi: true
 bioconductor-biobase:
     name: bioconductor-biobase
     description: 'Biobase: Base functions for Bioconductor'
@@ -14390,6 +14472,7 @@ perl-mce:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 motifscan:
     name: motifscan
     description: A package for motif discovery and motif enrichment analysis
@@ -15117,7 +15200,8 @@ radsex:
     manually_check: true
     keywords:
       -   Genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.04.22.054866
 requests:
     name: requests
     description: Requests is an elegant and simple HTTP library for Python
@@ -15127,6 +15211,7 @@ requests:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 peaksql:
     name: peaksql
     description: Dynamic machine learning database for genomics.
@@ -15549,7 +15634,8 @@ biobb_structure_checking:
     manually_check: true
     keywords:
       -   Molecular Dynamics
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 magpurify:
     name: magpurify
     description: Identify and remove incorrectly binned contigs from metagenome-assembled
@@ -15585,7 +15671,8 @@ biobb_chemistry:
     manually_check: true
     keywords:
       -   Molecular Dynamics
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 staden_io_lib:
     name: staden_io_lib
     description: Staden io_lib is a library of file reading and writing code e.g.
@@ -15627,7 +15714,8 @@ biobb_structure_utils:
     total_pulls: 10
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 referenceseeker:
     name: referenceseeker
     description: Rapid determination of appropriate reference genomes.
@@ -15682,7 +15770,11 @@ yaha:
     home_url: https://github.com/GregoryFaust/yaha
     total_pulls: 9
     manually_check: true
-    keywords: []
+    keywords:
+      -   Base Sequence
+      -   Computational Biology
+      -   Sequence Alignment
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/bts456
 bioconductor-biovizbase:
@@ -16544,7 +16636,8 @@ biobb_structure_manager:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 deepac:
     name: deepac
     description: Predicting pathogenic potentials of novel dna with reverse-complement
@@ -16622,7 +16715,8 @@ samplot:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.09.23.310110
 mutmap:
     name: mutmap
     description: 'Mutmap: pipeline to identify causative mutations responsible for
@@ -16688,7 +16782,8 @@ centrosome:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.2144/000112257
 spliceai:
     name: spliceai
     description: A deep learning-based tool to identify splice variants.
@@ -16696,7 +16791,19 @@ spliceai:
     home_url: https://github.com/Illumina/SpliceAI
     total_pulls: 8
     manually_check: true
-    keywords: []
+    keywords:
+      -   Alternative Splicing
+      -   Autistic Disorder
+      -   Deep Learning
+      -   Exons
+      -   Forecasting
+      -   Humans
+      -   Intellectual Disability
+      -   Introns
+      -   Neural Networks, Computer
+      -   RNA Precursors
+      -   RNA Splice Sites
+      -   RNA Splicing
     identifiers:
       -   doi:10.1016/j.cell.2018.12.015
 seqsero2:
@@ -16942,7 +17049,8 @@ taxonomy:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/027607
 getorganelle:
     name: getorganelle
     description: Get organelle genomes from genome skimming data
@@ -17126,7 +17234,9 @@ nebulizer:
     total_pulls: 8
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 hicstuff:
     name: hicstuff
     description: General purpose stuff to generate and handle hi-c data in its simplest
@@ -17440,7 +17550,12 @@ dedup:
     home_url: https://github.com/apeltzer/dedup
     total_pulls: 7
     manually_check: true
-    keywords: []
+    keywords:
+      -   Chromosome Mapping
+      -   Fossils
+      -   Genome
+      -   Sequence Analysis, DNA
+      -   Workflow
     identifiers:
       -   doi:10.1186/s13059-016-0918-z
 r-hemdag:
@@ -17572,7 +17687,9 @@ fpa:
     home_url: https://github.com/natir/yacrd
     total_pulls: 7
     manually_check: true
-    keywords: []
+    keywords:
+      -   High-Throughput Nucleotide Sequencing
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btaa262
 mhcflurry:
@@ -18055,7 +18172,8 @@ python-hyphy-python:
     total_pulls: 6
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bti079
 pytriangle:
     name: pytriangle
     description: A python interface to the 2D triangulation program TRIANGLE.
@@ -18240,7 +18358,13 @@ python-libsbml:
     home_url: http://sbml.org
     total_pulls: 6
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computer Simulation
+      -   Ecosystem
+      -   Humans
+      -   Models, Biological
+      -   Programming Languages
+      -   Systems Biology
     identifiers:
       -   doi:10.1093/bioinformatics/btz860
 gap2seq:
@@ -18464,7 +18588,18 @@ r-pma:
     home_url: https://CRAN.R-project.org/package=PMA
     total_pulls: 6
     manually_check: true
-    keywords: []
+    keywords:
+      -   Biometry
+      -   Breast Neoplasms
+      -   Chromosomes, Human, Pair 1
+      -   DNA, Neoplasm
+      -   Data Interpretation, Statistical
+      -   Female
+      -   Gene Dosage
+      -   Genomics
+      -   Humans
+      -   Models, Statistical
+      -   Principal Component Analysis
     identifiers:
       -   doi:10.1093/biostatistics/kxp008
 bam2fastx:
@@ -18534,7 +18669,14 @@ hicmatrix:
     home_url: https://github.com/deeptools/HiCMatrix
     total_pulls: 6
     manually_check: true
-    keywords: []
+    keywords:
+      -   Chromatin
+      -   Computer Graphics
+      -   Genetic Techniques
+      -   Internet
+      -   Molecular Conformation
+      -   Reproducibility of Results
+      -   Single-Cell Analysis
     identifiers:
       -   doi:10.1093/nar/gkaa220
 r-nabor:
@@ -18825,7 +18967,8 @@ scrublet:
     keywords:
       -   RNA-Seq
       -   Transcriptome
-    identifiers: []
+    identifiers:
+      -   doi:10.1016/j.cels.2018.11.005
 vamb:
     name: vamb
     description: Variational autoencoder for metagenomic binning
@@ -20780,7 +20923,12 @@ r-stampp:
     home_url: https://CRAN.R-project.org/package=StAMPP
     total_pulls: 5
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Genetics, Population
+      -   Genotype
+      -   Ploidies
+      -   Polymorphism, Single Nucleotide
     identifiers:
       -   doi:10.1111/1755-0998.12129
 r-metalonda:
@@ -22365,7 +22513,12 @@ r-mixkernel:
     home_url: https://CRAN.R-project.org/package=mixKernel
     total_pulls: 5
     manually_check: true
-    keywords: []
+    keywords:
+      -   Breast Neoplasms
+      -   Computational Biology
+      -   Female
+      -   Humans
+      -   Unsupervised Machine Learning
     identifiers:
       -   doi:10.1093/bioinformatics/btx682
 rawtools:
@@ -22406,7 +22559,12 @@ r-minionqc:
     home_url: https://github.com/roblanf/minion_qc/blob/master/MinIONQC.R
     total_pulls: 5
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Gene Library
+      -   High-Throughput Nucleotide Sequencing
+      -   Quality Control
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/bty654
 r-minems2:
@@ -23766,7 +23924,9 @@ yacrd:
     home_url: https://github.com/natir/yacrd
     total_pulls: 4
     manually_check: true
-    keywords: []
+    keywords:
+      -   High-Throughput Nucleotide Sequencing
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btaa262
 gretel:
@@ -24701,7 +24861,10 @@ genmap:
     home_url: https://github.com/cpockrandt/genmap
     total_pulls: 4
     manually_check: true
-    keywords: []
+    keywords:
+      -   Genome
+      -   Genomics
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btaa222
 rilseq:
@@ -24943,7 +25106,14 @@ ltr_retriever:
     home_url: https://github.com/oushujun/LTR_retriever
     total_pulls: 4
     manually_check: true
-    keywords: []
+    keywords:
+      -   Chromosomes, Artificial, Bacterial
+      -   Computational Biology
+      -   Genome, Plant
+      -   Genomics
+      -   Oryza
+      -   Retroelements
+      -   Solanum
     identifiers:
       -   doi:10.1093/nar/gky730
 ntedit:
@@ -25072,7 +25242,18 @@ svim-asm:
     home_url: https://github.com/eldariont/svim-asm
     total_pulls: 4
     manually_check: true
-    keywords: []
+    keywords:
+      -   Benchmarking
+      -   Chromosomes, Human
+      -   Deep Learning
+      -   Genome, Human
+      -   Genomics
+      -   HLA Antigens
+      -   Haploidy
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Nanopore Sequencing
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1038/s41587-020-0503-6
       -   doi:10.1101/2020.10.27.356907
@@ -25311,7 +25492,11 @@ diego:
     home_url: http://www.bioinf.uni-leipzig.de/Software/DIEGO
     total_pulls: 4
     manually_check: true
-    keywords: []
+    keywords:
+      -   Alternative Splicing
+      -   Protein Isoforms
+      -   RNA
+      -   Sequence Analysis, RNA
     identifiers:
       -   doi:10.1093/bioinformatics/btx690
 coils:
@@ -26378,6 +26563,7 @@ perl-if:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bioconductor-bgeecall:
     name: bioconductor-bgeecall
     description: Automatic RNA-Seq present/absent gene expression calls generation
@@ -30019,7 +30205,16 @@ apoc:
     home_url: http://cssb.biology.gatech.edu/APoc
     total_pulls: 3
     manually_check: true
-    keywords: []
+    keywords:
+      -   Bacteria
+      -   Bacterial Proteins
+      -   Binding Sites
+      -   GTP Phosphohydrolases
+      -   Ligands
+      -   Models, Molecular
+      -   Models, Statistical
+      -   Protein Conformation
+      -   Proteins
     identifiers:
       -   doi:10.1093/bioinformatics/btt024
 bioconductor-biocworkflowtools:
@@ -39220,7 +39415,8 @@ dbg2olc:
     total_pulls: 3
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/srep31900
 bioconductor-copyhelper:
     name: bioconductor-copyhelper
     description: Helper files for CopywriteR
@@ -43467,7 +43663,8 @@ k-slam:
       -   Genomics
       -   Metagenomics
       -   Sequence Alignment
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw1248
 bioconductor-maftools:
     name: bioconductor-maftools
     description: Summarize, Analyze and Visualize MAF Files
@@ -43892,7 +44089,8 @@ biobb_common:
     total_pulls: 3
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 pb-falcon:
     name: pb-falcon
     description: FALCON/Unzip tool-suite (originally by Jason Chin)
@@ -60682,9 +60880,12 @@ bioblend:
     home_url: http://bioblend.readthedocs.org/
     total_pulls: 2
     manually_check: true
-    keywords: []
+    keywords:
+      -   Genomics
     identifiers:
       -   doi:10.1093/bioinformatics/btt199
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 ucsc-bigwigmerge:
     name: ucsc-bigwigmerge
     description: Merge together multiple bigwigs into a single output bedgraph.
@@ -60747,6 +60948,7 @@ perl-list-moreutils:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-pathtools:
     name: perl-pathtools
     description: Get pathname of current working directory
@@ -60756,6 +60958,7 @@ perl-pathtools:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-uri:
     name: perl-uri
     description: Uniform resource identifiers (absolute and relative)
@@ -60765,6 +60968,7 @@ perl-uri:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-yaml:
     name: perl-yaml
     description: Yaml ain't markup language™
@@ -60774,6 +60978,7 @@ perl-yaml:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 phylowgs:
     name: phylowgs
     description: Application for inferring subclonal composition and evolution from
@@ -60881,21 +61086,23 @@ mmtf-python:
     name: mmtf-python
     description: A decoding libary for the PDB mmtf format
     license: MIT
-    home_url: None
+    home_url: https://github.com/rcsb/mmtf-python
     total_pulls: 2
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pcbi.1005575
 cromwell:
     name: cromwell
     description: A Workflow Management System geared towards scientific workflows
         described in WDL
     license: BSD
-    home_url: None
+    home_url: https://github.com/broadinstitute/cromwell
     total_pulls: 2
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.7490/f1000research.1114634.1
 kobas:
     name: kobas
     description: Kegg orthology-based annotation system (kobas) annotates sequences
@@ -60948,6 +61155,7 @@ perl-compress-raw-bzip2:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 kneaddata:
     name: kneaddata
     description: Kneaddata is a tool designed to perform quality control on metagenomic
@@ -61024,7 +61232,13 @@ primerprospector:
     home_url: http://pprospector.sourceforge.net/
     total_pulls: 2
     manually_check: true
-    keywords: []
+    keywords:
+      -   Base Sequence
+      -   DNA Primers
+      -   Humans
+      -   Phylogeny
+      -   Polymerase Chain Reaction
+      -   Sequence Alignment
     identifiers:
       -   doi:10.1093/bioinformatics/btr087
 mashmap:
@@ -61220,7 +61434,12 @@ wiggletools:
     home_url: https://github.com/Ensembl/WiggleTools
     total_pulls: 2
     manually_check: true
-    keywords: []
+    keywords:
+      -   Genome
+      -   Genomic Library
+      -   Genomics
+      -   High-Throughput Nucleotide Sequencing
+      -   Internet
     identifiers:
       -   doi:10.1093/bioinformatics/btt737
 misopy:
@@ -61848,7 +62067,9 @@ galaxy-lib:
     total_pulls: 1
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 graphmap:
     name: graphmap
     description: a highly sensitive and accurate mapper for long, error-prone reads.
@@ -61907,7 +62128,12 @@ nanocall:
     home_url: https://github.com/mateidavid/nanocall
     total_pulls: 1
     manually_check: true
-    keywords: []
+    keywords:
+      -   DNA
+      -   Escherichia coli
+      -   Humans
+      -   Polymerase Chain Reaction
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btw569
 perl-compress-raw-zlib:
@@ -61919,6 +62145,7 @@ perl-compress-raw-zlib:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-extutils-makemaker:
     name: perl-extutils-makemaker
     description: Create a module Makefile
@@ -61928,6 +62155,7 @@ perl-extutils-makemaker:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-gd:
     name: perl-gd
     description: Perl interface to the gd2 graphics library
@@ -61937,6 +62165,7 @@ perl-gd:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-graphviz:
     name: perl-graphviz
     description: Interface to AT&T's GraphViz. Deprecated. See GraphViz2
@@ -61946,6 +62175,7 @@ perl-graphviz:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-json-xs:
     name: perl-json-xs
     description: JSON serialising/deserialising, done correctly and fast
@@ -61955,6 +62185,7 @@ perl-json-xs:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-scalar-list-utils:
     name: perl-scalar-list-utils
     description: Common Scalar and List utility subroutines
@@ -61964,6 +62195,7 @@ perl-scalar-list-utils:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pyaml:
     name: pyaml
     description: Pyyaml-based module to produce pretty and readable yaml-serialized
@@ -61974,6 +62206,7 @@ pyaml:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pytest-cov:
     name: pytest-cov
     description: Pytest plugin for measuring coverage.
@@ -61983,6 +62216,7 @@ pytest-cov:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 python-dateutil:
     name: python-dateutil
     description: Extensions to the standard python datetime module
@@ -61992,6 +62226,7 @@ python-dateutil:
     total_pulls: 1
     keywords: []
     identifiers: []
+    no_doi: true
 r-bit:
     name: r-bit
     description: "bitmapped vectors of booleans (no NAs), coercion from and to logicals,\
@@ -62234,6 +62469,7 @@ perl-io-compress:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 nanoraw:
     name: nanoraw
     description: Analysis of nanopore sequencing data.
@@ -62712,7 +62948,15 @@ panx:
     home_url: http://pangenome.de
     total_pulls: 1
     manually_check: true
-    keywords: []
+    keywords:
+      -   Bacteria
+      -   Computational Biology
+      -   Evolution, Molecular
+      -   Genome, Bacterial
+      -   Genomics
+      -   Multigene Family
+      -   Phylogeny
+      -   Reproducibility of Results
     identifiers:
       -   doi:10.1093/nar/gkx977
 a5-miseq:
@@ -63058,7 +63302,8 @@ deepbinner:
     total_pulls: 1
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -    doi:10.1371/journal.pcbi.1006583
 connectome-workbench:
     name: connectome-workbench
     description: Connectome Workbench is an open source, freely available visualization
@@ -67102,7 +67347,17 @@ altree:
     home_url: https://gitlab.inria.fr/NGS/ALTree
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Genetic Diseases, Inborn
+      -   Genetic Predisposition to Disease
+      -   Genetics, Population
+      -   Haplotypes
+      -   Humans
+      -   Models, Genetic
+      -   Models, Statistical
+      -   Phylogeny
+      -   Programming Languages
     identifiers:
       -   doi:10.1093/bioinformatics/btl131
 beast-mcmc:
@@ -67185,7 +67440,10 @@ autodock-getdata:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   biotools:autodock
+      -   doi:10.1002/jcc.21256
+      -   doi:10.26434/CHEMRXIV.9702389.V1
 ballview:
     name: ballview
     description: Free molecular modeling and molecular graphics tool
@@ -67321,7 +67579,8 @@ autogrid:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1002/jcc.21256
 autodock:
     name: autodock
     description: Analysis of ligand binding to protein structure
@@ -67350,7 +67609,10 @@ autogrid-test:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   biotools:autodock
+      -   doi:10.1002/jcc.21256
+      -   doi:10.26434/CHEMRXIV.9702389.V1
 bedtools-test:
     name: bedtools-test
     description: Test data for the bedtools package
@@ -67385,7 +67647,10 @@ autodock-test:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   biotools:autodock
+      -   doi:10.1002/jcc.21256
+      -   doi:10.26434/CHEMRXIV.9702389.V1
 biopython-sql:
     name: biopython-sql
     description: Biopython support for the biosql database schema (python 3)
@@ -67521,7 +67786,9 @@ bioperl-run:
     manually_check: true
     keywords:
       -   Sequence Alignment
-    identifiers: []
+    identifiers:
+      -   biotools:bioperl
+      -   doi:10.1007/978-1-59745-535-0_26
 biomaj3-core:
     name: biomaj3-core
     description: Biomaj core library - python 3.x
@@ -68700,7 +68967,14 @@ diamond-aligner:
     home_url: https://github.com/bbuchfink/diamond
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Base Sequence
+      -   Humans
+      -   Metagenomics
+      -   Microbiota
+      -   Sensitivity and Specificity
+      -   Sequence Alignment
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1038/nmeth.3176
 edlib-aligner:
@@ -68740,7 +69014,16 @@ fastdnaml:
     home_url: ftp://ftp.bio.indiana.edu/molbio/evolve/fastdnaml/fastDNAml.html
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Bacteria
+      -   DNA
+      -   DNA, Bacterial
+      -   Databases, Factual
+      -   Evaluation Studies as Topic
+      -   Likelihood Functions
+      -   Phylogeny
+      -   RNA, Ribosomal, 16S
+      -   Sequence Alignment
     identifiers:
       -   doi:10.1093/bioinformatics/10.1.41
 freediams-doc-en:
@@ -68830,7 +69113,18 @@ e-mem:
     home_url: https://github.com/lucian-ilie/E-MEM
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Databases, Factual
+      -   Genome
+      -   Humans
+      -   Mice
+      -   Programming Languages
+      -   Sequence Alignment
+      -   Sequence Analysis, DNA
+      -   Species Specificity
+      -   Systems Biology
+      -   Triticum
     identifiers:
       -   doi:10.1093/bioinformatics/btu687
 freediams:
@@ -69158,7 +69452,12 @@ hilive:
     home_url: https://gitlab.com/SimonHTausch/HiLive
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Genome, Human
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Sequence Analysis, RNA
+      -   Transcriptome
     identifiers:
       -   doi:10.1093/bioinformatics/btw659
 gwyddion:
@@ -69500,11 +69799,12 @@ insighttoolkit4-python:
     description: Image processing toolkit for registration and segmentation - python
         bindings
     license: custom, see /usr/share/doc/insighttoolkit4-python/copyright
-    home_url: http://www.itk.org/
+    home_url: https://github.com/InsightSoftwareConsortium/ITK
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.3389/fninf.2014.00013
 jemboss:
     name: jemboss
     description: Graphical user interface to emboss
@@ -69512,7 +69812,19 @@ jemboss:
     home_url: http://emboss.sourceforge.net
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computer Graphics
+      -   Database Management Systems
+      -   Databases, Factual
+      -   Europe
+      -   Hypermedia
+      -   Information Storage and Retrieval
+      -   Internet
+      -   Local Area Networks
+      -   Molecular Biology
+      -   Programming Languages
+      -   Software Design
+      -   User-Computer Interface
     identifiers:
       -   doi:10.1093/bioinformatics/btg251
 igor:
@@ -69758,7 +70070,16 @@ leaff:
     home_url: http://kmer.sourceforge.net
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Base Sequence
+      -   Biological Evolution
+      -   DNA, Complementary
+      -   Genome
+      -   Humans
+      -   RNA Splicing
+      -   Sequence Alignment
+      -   Vertebrates
     identifiers:
       -   doi:10.1093/bioinformatics/btr285
 metastudent-data-2:
@@ -69959,7 +70280,11 @@ mobyle:
     home_url: https://projets.pasteur.fr/projects/mobyle
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Databases, Factual
+      -   Internet
+      -   User-Computer Interface
     identifiers:
       -   doi:10.1093/bioinformatics/btp493
 mobyle-tutorials:
@@ -69969,7 +70294,11 @@ mobyle-tutorials:
     home_url: https://projets.pasteur.fr/projects/mobyle/wiki/Download
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Databases, Factual
+      -   Internet
+      -   User-Computer Interface
     identifiers:
       -   doi:10.1093/bioinformatics/btp493
 microbegps:
@@ -70021,7 +70350,11 @@ mobyle-utils:
     home_url: https://projets.pasteur.fr/projects/mobyle
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Databases, Factual
+      -   Internet
+      -   User-Computer Interface
     identifiers:
       -   doi:10.1093/bioinformatics/btp493
 mlv-smile:
@@ -70049,7 +70382,11 @@ mobyle-programs:
     home_url: https://projets.pasteur.fr/projects/show/mobyle
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Databases, Factual
+      -   Internet
+      -   User-Computer Interface
     identifiers:
       -   doi:10.1093/bioinformatics/btp493
 microbiomeutil:
@@ -70354,7 +70691,16 @@ perlprimer:
     home_url: http://perlprimer.sourceforge.net
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Chromosome Mapping
+      -   DNA Primers
+      -   Oligonucleotide Array Sequence Analysis
+      -   Online Systems
+      -   Polymerase Chain Reaction
+      -   Sequence Alignment
+      -   Sequence Analysis, DNA
+      -   Sulfites
+      -   User-Computer Interface
     identifiers:
       -   doi:10.1093/bioinformatics/bth254
 pirs-profiles:
@@ -70720,7 +71066,11 @@ phyutility:
     home_url: http://github.com/blackrim/phyutility
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Phylogeny
+      -   Sequence Alignment
+      -   User-Computer Interface
     identifiers:
       -   doi:10.1093/bioinformatics/btm619
 plast-example:
@@ -72010,7 +72360,15 @@ sbmltoolbox:
     home_url: http://sbml.org/Software/SBMLToolbox
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computer Simulation
+      -   Database Management Systems
+      -   Databases, Factual
+      -   Information Storage and Retrieval
+      -   Models, Biological
+      -   Models, Chemical
+      -   Programming Languages
+      -   Systems Biology
     identifiers:
       -   doi:10.1093/bioinformatics/btl111
 vtk-dicom-tools:
@@ -72234,7 +72592,14 @@ varna:
     home_url: http://varna.lri.fr/
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Computer Graphics
+      -   Databases, Factual
+      -   Information Storage and Retrieval
+      -   Nucleic Acid Conformation
+      -   RNA
+      -   User-Computer Interface
     identifiers:
       -   doi:10.1093/bioinformatics/btp250
 pyflow:
@@ -72401,6 +72766,7 @@ spectra:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 ray-extra:
     name: ray-extra
     description: Scripts and xsl sheets for post-processing for ray
@@ -72954,7 +73320,8 @@ cava:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13073-015-0195-6
 metabomatching:
     name: metabomatching
     description: metabomatching identifies metabolites using genetic spiking.
@@ -73341,7 +73708,9 @@ galaxy-k8s-runtime:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 xcms:
     name: xcms
     description: 'This is the git repository matching the Bioconductor package xcms:
@@ -73925,6 +74294,7 @@ normalization:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 coregenebuilder:
     name: coregenebuilder
     description: Coregenebuilder can be used to extract a core genome (or a persistent
@@ -74112,6 +74482,7 @@ python-avro:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 python-biopython-sql:
     name: python-biopython-sql
     description: The Biopython Project is an international association of developers
@@ -74334,7 +74705,15 @@ melting-gui:
     home_url: http://www.ebi.ac.uk/compneur-srv/melting/
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   DNA
+      -   Nucleic Acid Denaturation
+      -   Nucleic Acid Hybridization
+      -   Nucleic Acids
+      -   RNA
+      -   Temperature
+      -   Thermodynamics
+      -   User-Computer Interface
     identifiers:
       -   doi:10.1093/bioinformatics/17.12.1226
       -   doi:10.1186/1471-2105-13-101
@@ -74346,7 +74725,13 @@ python-csb:
     home_url: https://github.com/csb-toolbox/CSB
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Computational Biology
+      -   DNA
+      -   Humans
+      -   Programming Languages
+      -   Proteins
     identifiers:
       -   doi:10.1093/bioinformatics/bts538
 python-pbsuite-utils:
@@ -74455,7 +74840,13 @@ python3-csb:
     home_url: https://github.com/csb-toolbox/CSB
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Computational Biology
+      -   DNA
+      -   Humans
+      -   Programming Languages
+      -   Proteins
     identifiers:
       -   doi:10.1093/bioinformatics/bts538
 python3-hl7:
@@ -78663,7 +79054,10 @@ asciigenome:
     home_url: https://github.com/dariober/ASCIIGenome
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Genome
+      -   Genomics
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btx007
 astalavista:
@@ -78911,7 +79305,18 @@ bioconductor-mmdiff:
     home_url: None
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Cell Line
+      -   Chromatin Immunoprecipitation
+      -   Computational Biology
+      -   Computer Simulation
+      -   Epigenomics
+      -   Histones
+      -   Humans
+      -   Mice
+      -   Sequence Analysis, DNA
+      -   Statistics, Nonparametric
     identifiers:
       -   doi:10.1186/1471-2164-14-826
 bioconductor-rcytoscape:
@@ -78921,7 +79326,13 @@ bioconductor-rcytoscape:
     home_url: None
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Chromosome Mapping
+      -   Computational Biology
+      -   Genome, Human
+      -   Glioblastoma
+      -   Humans
+      -   Models, Genetic
     identifiers:
       -   doi:10.1186/1471-2105-14-217
 bioepic:
@@ -78931,7 +79342,11 @@ bioepic:
     home_url: https://github.com/biocore-ntnu/epic2
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Chromatin Immunoprecipitation
+      -   Chromatin Immunoprecipitation Sequencing
+      -   High-Throughput Nucleotide Sequencing
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btz232
 bleach:
@@ -79136,7 +79551,12 @@ debwt:
     home_url: https://github.com/DixianZhu/deBWT
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Genome, Human
+      -   Genomics
+      -   Humans
+      -   Programming Languages
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btw266
 denovogear:
@@ -79147,7 +79567,17 @@ denovogear:
     home_url: https://github.com/denovogear/denovogear
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Exome
+      -   Gene Deletion
+      -   Genome, Human
+      -   Human Genome Project
+      -   Humans
+      -   INDEL Mutation
+      -   Likelihood Functions
+      -   Models, Genetic
+      -   Mutagenesis, Insertional
+      -   Point Mutation
     identifiers:
       -   doi:10.1038/nmeth.2611
 detonate:
@@ -79534,7 +79964,14 @@ genblastg:
     home_url: http://genome.sfu.ca/genblast/download.html
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Arabidopsis
+      -   Caenorhabditis elegans
+      -   Computational Biology
+      -   Genomics
+      -   Models, Genetic
+      -   Sequence Alignment
     identifiers:
       -   doi:10.1093/bioinformatics/btr342
 genepop:
@@ -79572,7 +80009,16 @@ gfold:
     home_url: http://compbio.tongji.edu.cn/~fengjx/GFOLD/gfold.html
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Base Sequence
+      -   Databases, Genetic
+      -   Gene Expression
+      -   Gene Expression Profiling
+      -   Humans
+      -   Models, Molecular
+      -   Oligonucleotide Array Sequence Analysis
+      -   RNA
+      -   Sequence Analysis, RNA
     identifiers:
       -   doi:10.1093/bioinformatics/bts515
 ghostscript:
@@ -80268,7 +80714,12 @@ mugsy:
     home_url: http://mugsy.sourceforge.net
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Genome, Bacterial
+      -   Genomics
+      -   Humans
+      -   Sequence Alignment
+      -   Streptococcus pneumoniae
     identifiers:
       -   doi:10.1093/bioinformatics/btq665
 multiprocess:
@@ -80577,12 +81028,13 @@ perl-algorithm-diff:
     name: perl-algorithm-diff
     description: Compute intelligent differences between two files / lists but use
         the old (<=0.59) interface.
-    license: Not available
+    license: perl_5
     home_url: http://metacpan.org/pod/Algorithm-Diff
     total_pulls: 0
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-algorithm-munkres:
     name: perl-algorithm-munkres
     description: Munkres.pm
@@ -80601,6 +81053,7 @@ perl-app-cpanminus:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-archive-zip:
     name: perl-archive-zip
     description: Provide an interface to zip archive files.
@@ -80610,6 +81063,7 @@ perl-archive-zip:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-array-compare:
     name: perl-array-compare
     description: Perl extension for comparing arrays.
@@ -80628,6 +81082,7 @@ perl-authen-sasl-saslprep:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-bio-asn1-entrezgene:
     name: perl-bio-asn1-entrezgene
     description: Regular expression-based perl parser for ncbi entrez gene
@@ -80655,7 +81110,9 @@ perl-bioperl-core:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   biotools:bioperl
+      -   doi:10.1007/978-1-59745-535-0_26
 perl-bioperl-run:
     name: perl-bioperl-run
     description: Bioperl-run - wrapper toolkit
@@ -80664,7 +81121,9 @@ perl-bioperl-run:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   biotools:bioperl
+      -   doi:10.1007/978-1-59745-535-0_26
 perl-bio-samtools:
     name: perl-bio-samtools
     description: Read sam/bam files
@@ -80683,6 +81142,7 @@ perl-bit-vector:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-bloom-faster:
     name: perl-bloom-faster
     description: Perl extension for the c library libbloom.
@@ -80710,6 +81170,7 @@ perl-capture-tiny:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-cgi:
     name: perl-cgi
     description: A generic file fetching mechanism
@@ -80719,6 +81180,7 @@ perl-cgi:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-class-data-inheritable:
     name: perl-class-data-inheritable
     description: Inheritable, overridable class data
@@ -80728,6 +81190,7 @@ perl-class-data-inheritable:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-class-inspector:
     name: perl-class-inspector
     description: Get information about a class and its structure
@@ -80737,6 +81200,7 @@ perl-class-inspector:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-class-method-modifiers:
     name: perl-class-method-modifiers
     description: Provides Moose-like method modifiers
@@ -80746,6 +81210,7 @@ perl-class-method-modifiers:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-class-std:
     name: perl-class-std
     description: Support for creating standard "inside-out" classes
@@ -80755,6 +81220,7 @@ perl-class-std:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-class-std-fast:
     name: perl-class-std-fast
     description: faster but less secure than Class::Std
@@ -80764,6 +81230,7 @@ perl-class-std-fast:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-clone:
     name: perl-clone
     description: recursively copy Perl datatypes
@@ -80773,6 +81240,7 @@ perl-clone:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-common-sense:
     name: perl-common-sense
     description: Sane defaults for Perl programs
@@ -80782,6 +81250,7 @@ perl-common-sense:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-config-autoconf:
     name: perl-config-autoconf
     description: A module to implement some of AutoConf macros in pure perl.
@@ -80791,6 +81260,7 @@ perl-config-autoconf:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-convert-binary-c:
     name: perl-convert-binary-c
     description: Binary Data Conversion using C Types
@@ -80800,6 +81270,7 @@ perl-convert-binary-c:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-convert-binhex:
     name: perl-convert-binhex
     description: extract data from Macintosh BinHex files
@@ -80809,6 +81280,7 @@ perl-convert-binhex:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-cpan-meta:
     name: perl-cpan-meta
     description: the distribution metadata for a CPAN dist
@@ -80818,6 +81290,7 @@ perl-cpan-meta:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-cpan-meta-check:
     name: perl-cpan-meta-check
     description: Verify requirements in a CPAN::Meta object
@@ -80827,6 +81300,7 @@ perl-cpan-meta-check:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-crypt-rc4:
     name: perl-crypt-rc4
     description: Perl implementation of the RC4 encryption algorithm
@@ -80836,6 +81310,7 @@ perl-crypt-rc4:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-data-uuid:
     name: perl-data-uuid
     description: Globally/Universally Unique Identifiers (GUIDs/UUIDs)
@@ -80845,6 +81320,7 @@ perl-data-uuid:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-dbd-sqlite:
     name: perl-dbd-sqlite
     description: Self Contained RDBMS in a DBI Driver
@@ -80854,6 +81330,7 @@ perl-dbd-sqlite:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-db-file:
     name: perl-db-file
     description: Perl5 access to Berkeley DB version 1.x.
@@ -80863,6 +81340,7 @@ perl-db-file:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-dbi:
     name: perl-dbi
     description: Database independent interface for Perl
@@ -80872,6 +81350,7 @@ perl-dbi:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-devel-globaldestruction:
     name: perl-devel-globaldestruction
     description: Provides function returning the equivalent for older perls.
@@ -80880,7 +81359,7 @@ perl-devel-globaldestruction:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    no_doi: true
 perl-devel-stacktrace:
     name: perl-devel-stacktrace
     description: An object representing a stack trace
@@ -80890,6 +81369,7 @@ perl-devel-stacktrace:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-digest-hmac:
     name: perl-digest-hmac
     description: Keyed-hashing for message authentication
@@ -80899,6 +81379,7 @@ perl-digest-hmac:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-digest-perl-md5:
     name: perl-digest-perl-md5
     description: Perl Implementation of Rivest's MD5 algorithm
@@ -80908,6 +81389,7 @@ perl-digest-perl-md5:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-dist-checkconflicts:
     name: perl-dist-checkconflicts
     description: declare version conflicts for your dist
@@ -80926,6 +81408,7 @@ perl-email-date-format:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-encode-locale:
     name: perl-encode-locale
     description: Determine the locale encoding
@@ -80935,6 +81418,7 @@ perl-encode-locale:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-error:
     name: perl-error
     description: Error/exception handling in an OO-ish way
@@ -80944,6 +81428,7 @@ perl-error:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-excel-writer-xlsx:
     name: perl-excel-writer-xlsx
     description: Create a new file in the Excel 2007+ XLSX format.
@@ -80953,6 +81438,7 @@ perl-excel-writer-xlsx:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-exception-class:
     name: perl-exception-class
     description: A module that allows you to declare real exception classes in Perl
@@ -80962,6 +81448,7 @@ perl-exception-class:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-exporter-tidy:
     name: perl-exporter-tidy
     description: Another way of exporting symbols
@@ -80971,6 +81458,7 @@ perl-exporter-tidy:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-exporter-tiny:
     name: perl-exporter-tiny
     description: Exporter with the features of Sub::Exporter but only core dependencies
@@ -80980,6 +81468,7 @@ perl-exporter-tiny:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-file-fetch:
     name: perl-file-fetch
     description: Generic file fetching code
@@ -80989,6 +81478,7 @@ perl-file-fetch:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-file-find-rule:
     name: perl-file-find-rule
     description: Alternative interface to File::Find
@@ -80998,6 +81488,7 @@ perl-file-find-rule:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-file-listing:
     name: perl-file-listing
     description: parse directory listing
@@ -81007,6 +81498,7 @@ perl-file-listing:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-file-path:
     name: perl-file-path
     description: Create or remove directory trees
@@ -81016,6 +81508,7 @@ perl-file-path:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-file-sharedir:
     name: perl-file-sharedir
     description: Locate per-dist and per-module shared files
@@ -81025,6 +81518,7 @@ perl-file-sharedir:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-file-sharedir-install:
     name: perl-file-sharedir-install
     description: Install shared files
@@ -81034,6 +81528,7 @@ perl-file-sharedir-install:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-file-slurp:
     name: perl-file-slurp
     description: Simple and Efficient Reading/Writing/Modifying of Complete Files
@@ -81043,6 +81538,7 @@ perl-file-slurp:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-file-slurper:
     name: perl-file-slurper
     description: A simple, sane and efficient module to slurp a file
@@ -81052,6 +81548,7 @@ perl-file-slurper:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-file-slurp-tiny:
     name: perl-file-slurp-tiny
     description: A simple, sane and efficient file slurper [DISCOURAGED]
@@ -81061,6 +81558,7 @@ perl-file-slurp-tiny:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-file-sort:
     name: perl-file-sort
     description: Sort a file or merge sort multiple files
@@ -81070,6 +81568,7 @@ perl-file-sort:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-filesys-df:
     name: perl-filesys-df
     description: Perl extension for filesystem disk space information.
@@ -81079,6 +81578,7 @@ perl-filesys-df:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-font-ttf:
     name: perl-font-ttf
     description: TTF font support for Perl
@@ -81088,6 +81588,7 @@ perl-font-ttf:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-gdgraph:
     name: perl-gdgraph
     description: Produces charts with GD
@@ -81097,6 +81598,7 @@ perl-gdgraph:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-gdtextutil:
     name: perl-gdtextutil
     description: Text utilities for use with GD
@@ -81106,6 +81608,7 @@ perl-gdtextutil:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-getopt-long:
     name: perl-getopt-long
     description: Module to handle parsing command line options
@@ -81115,6 +81618,7 @@ perl-getopt-long:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-graph:
     name: perl-graph
     description: a Perl extension for keeping data partially sorted
@@ -81125,6 +81629,7 @@ perl-graph:
     keywords:
       -   Clustering
     identifiers: []
+    no_doi: true
 perl-html-element-extended:
     name: perl-html-element-extended
     description: Perl extension for manipulating a table composed of HTML::Element
@@ -81135,6 +81640,7 @@ perl-html-element-extended:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-html-entities-numbered:
     name: perl-html-entities-numbered
     description: Conversion of numbered HTML entities
@@ -81144,6 +81650,7 @@ perl-html-entities-numbered:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-html-formatter:
     name: perl-html-formatter
     description: Base class for HTML formatters
@@ -81153,6 +81660,7 @@ perl-html-formatter:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-html-parser:
     name: perl-html-parser
     description: HTML parser class
@@ -81162,6 +81670,7 @@ perl-html-parser:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-html-tableextract:
     name: perl-html-tableextract
     description: Perl module for extracting the content contained in tables within
@@ -82426,7 +82935,8 @@ planemo:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gky379
 platypus-conquistador:
     name: platypus-conquistador
     description: 'Platypus conquistador: confirming specific taxonomic groups within
@@ -83259,11 +83769,12 @@ r-findpython:
     name: r-findpython
     description: Package designed to find an acceptable python binary.
     license: MIT
-    home_url: None
+    home_url: https://CRAN.R-project.org/package=findpython
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   cran:findpython
 r-fitdistrplus:
     name: r-fitdistrplus
     description: Extends the fitdistr function (of the MASS package) with several
@@ -83275,11 +83786,12 @@ r-fitdistrplus:
         methods (available only for non-censored data). Weighted versions of MLE,
         MME and QME are available.
     license: GPL (>= 2)
-    home_url: None
+    home_url: https://CRAN.R-project.org/package=fitdistrplus
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   cran:fitdistrplus
 r-genenet:
     name: r-genenet
     description: 'Analyzes gene expression (time series) data with focus on the inference
@@ -83287,11 +83799,15 @@ r-genenet:
         and  Strimmer (2005a,b,c) and Opgen-Rhein and Strimmer (2006, 2007) for learning
         large-scale gene association networks (including assignment of putative directions).  '
     license: GPL (>= 3)
-    home_url: None
+    home_url: https://CRAN.R-project.org/package=GeneNet
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   cran:genenet
+      -   doi:10.1186/1752-0509-1-37
+      -   doi:10.1093/bioinformatics/bti062
+      -   doi:10.2202/1544-6115.1175
 r-geomap:
     name: r-geomap
     description: Set of routines for making Map Projections (forward and inverse),
@@ -86470,6 +86986,7 @@ perl-io-interactive:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-log-log4perl:
     name: perl-log-log4perl
     description: Log4j implementation for perl
@@ -86479,6 +86996,7 @@ perl-log-log4perl:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-mixin-linewise:
     name: perl-mixin-linewise
     description: Write your linewise code for handles; this does the rest
@@ -86488,6 +87006,7 @@ perl-mixin-linewise:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-moosex-app:
     name: perl-moosex-app
     description: Write user-friendly command line apps with even less suffering
@@ -86497,6 +87016,7 @@ perl-moosex-app:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-moosex-fileattribute:
     name: perl-moosex-fileattribute
     description: Sugar for classes that have file or directory attributes
@@ -86506,6 +87026,7 @@ perl-moosex-fileattribute:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-moosex-types-path-class:
     name: perl-moosex-types-path-class
     description: A path::class type library for moose
@@ -86515,6 +87036,7 @@ perl-moosex-types-path-class:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-pod-elemental:
     name: perl-pod-elemental
     description: Perl-Pod-Elemental\n\n> Work with nestable pod elements
@@ -86524,6 +87046,7 @@ perl-pod-elemental:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bats:
     name: bats
     description: Bash automated testing system
@@ -86564,6 +87087,7 @@ perl-extutils-config:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-extutils-helpers:
     name: perl-extutils-helpers
     description: Various portability utilities for module builders
@@ -86573,6 +87097,7 @@ perl-extutils-helpers:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-extutils-installpaths:
     name: perl-extutils-installpaths
     description: Build.pl install path logic made easy
@@ -86591,6 +87116,7 @@ perl-hpc-runner:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-hpc-runner-scheduler:
     name: perl-hpc-runner-scheduler
     description: Base Library for HPC::Runner::Slurm and HPC::Runner::PBS
@@ -86600,6 +87126,7 @@ perl-hpc-runner-scheduler:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 schavott:
     name: schavott
     description: Assembly and scaffolding of bacterial genomes in real time using
@@ -87502,6 +88029,7 @@ perl-text-tabs-wrap:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 musicc:
     name: musicc
     description: 'Musicc: a marker genes based framework for metagenomic normalization
@@ -87521,6 +88049,7 @@ perl-array-utils:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-parse-yapp:
     name: perl-parse-yapp
     description: A perl frontend to the parse::yapp module
@@ -87530,6 +88059,7 @@ perl-parse-yapp:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-file-grep:
     name: perl-file-grep
     description: Find matches to a pattern in a series of files and related functions
@@ -87539,6 +88069,7 @@ perl-file-grep:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-scope-guard:
     name: perl-scope-guard
     description: Lexically-scoped resource management
@@ -87548,6 +88079,7 @@ perl-scope-guard:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-term-encoding:
     name: perl-term-encoding
     description: Detect encoding of the current terminal
@@ -87557,6 +88089,7 @@ perl-term-encoding:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 hlama:
     name: hlama
     description: Simple matching of hts samples based on hla typing
@@ -87627,6 +88160,7 @@ perl-text-csv:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 zagros:
     name: zagros
     description: Zagros is a motif-discovery tool for clip-seq data.
@@ -87702,6 +88236,7 @@ perl-algorithm-dependency:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-config-tiny:
     name: perl-config-tiny
     description: Read/write .ini style files with as little code as possible
@@ -87711,6 +88246,7 @@ perl-config-tiny:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-dbd-pg:
     name: perl-dbd-pg
     description: Postgresql database driver for the dbi module
@@ -87720,6 +88256,7 @@ perl-dbd-pg:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-dbm-deep:
     name: perl-dbm-deep
     description: A pure perl multi-level hash/array dbm that supports transactions
@@ -87729,6 +88266,7 @@ perl-dbm-deep:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-digest-md5:
     name: perl-digest-md5
     description: Perl interface to the md-5 algorithm
@@ -87738,6 +88276,7 @@ perl-digest-md5:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-extutils-manifest:
     name: perl-extutils-manifest
     description: Utilities to write and check a manifest file
@@ -87747,6 +88286,7 @@ perl-extutils-manifest:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-inline-c:
     name: perl-inline-c
     description: A library to extract height/width from images
@@ -87756,6 +88296,7 @@ perl-inline-c:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-inline:
     name: perl-inline
     description: Write perl subroutines in other programming languages
@@ -87765,6 +88306,7 @@ perl-inline:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-io-all:
     name: perl-io-all
     description: Combines all of the best perl io modules into a single nifty object
@@ -87775,6 +88317,7 @@ perl-io-all:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-pegex:
     name: perl-pegex
     description: Pegex grammar for the pegex grammar language
@@ -87784,6 +88327,7 @@ perl-pegex:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-yaml-libyaml:
     name: perl-yaml-libyaml
     description: Perl yaml serialization using xs and libyaml
@@ -87793,6 +88337,7 @@ perl-yaml-libyaml:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 python-cluster:
     name: python-cluster
     description: Python-cluster is a "simple" package that allows to create several
@@ -87813,6 +88358,7 @@ perl-list-uniq:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-apache-test:
     name: perl-apache-test
     description: Special tests sequence failure finder
@@ -87822,6 +88368,7 @@ perl-apache-test:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-archive-tar:
     name: perl-archive-tar
     description: Manipulates tar archives
@@ -87831,6 +88378,7 @@ perl-archive-tar:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-io-zlib:
     name: perl-io-zlib
     description: 'IO:: style interface to Compress::Zlib'
@@ -87840,6 +88388,7 @@ perl-io-zlib:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-sort-versions:
     name: perl-sort-versions
     description: A perl 5 module for sorting of revision-like numbers
@@ -87849,6 +88398,7 @@ perl-sort-versions:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test-harness:
     name: perl-test-harness
     description: contributing to TAP::Harness
@@ -87858,6 +88408,7 @@ perl-test-harness:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-tibble:
     name: r-tibble
     description: Provides a tbl_df class (the tibble) that provides stricter checking
@@ -87877,6 +88428,7 @@ perl-data-optlist:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-devel-checkbin:
     name: perl-devel-checkbin
     description: check that a command is available
@@ -87886,6 +88438,7 @@ perl-devel-checkbin:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-git-wrapper:
     name: perl-git-wrapper
     description: Wrap git(7) command-line interface
@@ -87895,6 +88448,7 @@ perl-git-wrapper:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-memoize:
     name: perl-memoize
     description: Make functions faster by trading space for time
@@ -87904,6 +88458,7 @@ perl-memoize:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-moosex-app-role-log4perl:
     name: perl-moosex-app-role-log4perl
     description: Add basic Log::Log4perl logging to a MooseX::App application as a
@@ -87914,6 +88469,7 @@ perl-moosex-app-role-log4perl:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-perl-version:
     name: perl-perl-version
     description: Parse and manipulate perl version strings
@@ -87923,6 +88479,7 @@ perl-perl-version:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-statistics-frequency:
     name: perl-statistics-frequency
     description: simple counting of elements
@@ -87932,6 +88489,7 @@ perl-statistics-frequency:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-sub-exporter:
     name: perl-sub-exporter
     description: a sophisticated exporter for custom-built routines
@@ -87941,6 +88499,7 @@ perl-sub-exporter:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-sub-install:
     name: perl-sub-install
     description: install subroutines into packages easily
@@ -87950,6 +88509,7 @@ perl-sub-install:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-text-parsewords:
     name: perl-text-parsewords
     description: parse text into an array of tokens or array of arrays
@@ -87959,6 +88519,7 @@ perl-text-parsewords:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-version-next:
     name: perl-version-next
     description: increment module version numbers simply and correctly
@@ -87968,6 +88529,7 @@ perl-version-next:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-class-accessor:
     name: perl-class-accessor
     description: Automated accessor generation
@@ -87977,6 +88539,7 @@ perl-class-accessor:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-file-details:
     name: perl-file-details
     description: File details in an object, stat, hash, etc..
@@ -87986,6 +88549,7 @@ perl-file-details:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-file-homedir:
     name: perl-file-homedir
     description: Find your home and other directories on any platform
@@ -87995,6 +88559,7 @@ perl-file-homedir:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-git-wrapper-plus:
     name: perl-git-wrapper-plus
     description: A Toolkit for working with Git::Wrapper in an Object Oriented Way.
@@ -88004,6 +88569,7 @@ perl-git-wrapper-plus:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 fastuniq:
     name: fastuniq
     description: FastUniq, A Fast De Novo Duplicates Removal Tool for Paired Short
@@ -88750,6 +89316,7 @@ perl-math-combinatorics:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-graph-readwrite:
     name: perl-graph-readwrite
     description: Modules for reading and writing directed graphs
@@ -88759,6 +89326,7 @@ perl-graph-readwrite:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 verifybamid:
     name: verifybamid
     description: verifyBamID verifies identity and purity of sequence data
@@ -88965,7 +89533,15 @@ r-prroc:
     home_url: https://CRAN.R-project.org/package=PRROC
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Area Under Curve
+      -   Computer Graphics
+      -   Data Interpretation, Statistical
+      -   Humans
+      -   Mathematical Computing
+      -   Pattern Recognition, Automated
+      -   ROC Curve
+      -   User-Computer Interface
     identifiers:
       -   doi:10.1145/1143844.1143874
       -   doi:10.1371/journal.pone.0092209
@@ -89165,6 +89741,7 @@ perl-date-manip:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test-inter:
     name: perl-test-inter
     description: framework for more readable interactive test scripts
@@ -89174,6 +89751,7 @@ perl-test-inter:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-tie-cacher:
     name: perl-tie-cacher
     description: Cache a (sub)set of key/value pairs. Tie and OO interface.
@@ -89183,6 +89761,7 @@ perl-tie-cacher:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 rapsearch:
     name: rapsearch
     description: RAPSearch2 is a tool for fast protein similarity searches.
@@ -89302,6 +89881,7 @@ perl-test-files:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test-output:
     name: perl-test-output
     description: Utilities to test STDOUT and STDERR messages.
@@ -89311,6 +89891,7 @@ perl-test-output:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 fann:
     name: fann
     description: Fast Artificial Neural Network Library
@@ -89338,6 +89919,7 @@ perl-border-style:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-clone-pp:
     name: perl-clone-pp
     description: Recursively copy Perl datatypes
@@ -89347,6 +89929,7 @@ perl-clone-pp:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-color-theme:
     name: perl-color-theme
     description: Color theme structure
@@ -89356,6 +89939,7 @@ perl-color-theme:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-json-maybexs:
     name: perl-json-maybexs
     description: Use Cpanel::JSON::XS with a fallback to JSON::XS and JSON::PP
@@ -89365,6 +89949,7 @@ perl-json-maybexs:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-log-any:
     name: perl-log-any
     description: Bringing loggers and listeners together
@@ -89374,6 +89959,7 @@ perl-log-any:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-perl-osnames:
     name: perl-perl-osnames
     description: List possible $^O ($OSNAME) values, with description
@@ -89383,6 +89969,7 @@ perl-perl-osnames:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-term-app-roles:
     name: perl-term-app-roles
     description: Collection of roles for terminal-based application
@@ -89392,6 +89979,7 @@ perl-term-app-roles:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-term-detect-software:
     name: perl-term-detect-software
     description: Detect terminal (emulator) software and its capabilities
@@ -89401,6 +89989,7 @@ perl-term-detect-software:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 rdfextras:
     name: rdfextras
     description: RDFExtras provide tools, extra stores and such for RDFLib.
@@ -89593,7 +90182,12 @@ nextgenmap:
     home_url: https://github.com/Cibiv/NextGenMap
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Genome
+      -   Genomics
+      -   High-Throughput Nucleotide Sequencing
+      -   Polymorphism, Genetic
+      -   Sequence Alignment
     identifiers:
       -   doi:10.1093/bioinformatics/btt468
 dr-disco:
@@ -89725,6 +90319,7 @@ perl-xsloader:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-package-stash:
     name: perl-package-stash
     description: routines for manipulating stashes
@@ -89734,6 +90329,7 @@ perl-package-stash:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-class-load:
     name: perl-class-load
     description: A working (require "Class::Name") and more
@@ -89743,6 +90339,7 @@ perl-class-load:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-class-load-xs:
     name: perl-class-load-xs
     description: XS implementation of parts of Class::Load
@@ -89752,6 +90349,7 @@ perl-class-load-xs:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 extract-sv-reads:
     name: extract-sv-reads
     description: Tool for extracting splitter or discordant reads from a BAM or CRAM
@@ -89899,7 +90497,8 @@ recycler:
     manually_check: true
     keywords:
       -   Metagenome
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btw651
 sak:
     name: sak
     description: This tool allows one to cut sequences and parts of sequences out
@@ -89990,7 +90589,14 @@ gustaf:
     home_url: https://github.com/seqan/seqan/tree/master/apps/gustaf/README.rst
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Genomic Structural Variation
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Sequence Alignment
+      -   Sequence Analysis, DNA
+      -   Sequence Deletion
+      -   Translocation, Genetic
     identifiers:
       -   doi:10.1093/bioinformatics/btu431
 r-qiimer:
@@ -90069,7 +90675,16 @@ savage:
     home_url: https://github.com/HaploConduct/HaploConduct/tree/master/savage
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Contig Mapping
+      -   Genome, Viral
+      -   Genomics
+      -   Haplotypes
+      -   Hepacivirus
+      -   Polymorphism, Genetic
+      -   Reference Standards
+      -   Sequence Analysis, DNA
+      -   Zika Virus
     identifiers:
       -   doi:10.1101/gr.215038.116
 perl-want:
@@ -90083,6 +90698,7 @@ perl-want:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pp:
     name: pp
     description: Parallel and distributed programming for python
@@ -90092,6 +90708,7 @@ pp:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 dkfz-bias-filter:
     name: dkfz-bias-filter
     description: The dkfz bias filter flags snvs that appear to be biased based on
@@ -90148,6 +90765,7 @@ perl-config-simple:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 metaprob:
     name: metaprob
     description: assembly-assisted tool for un-supervised metagenomic binning
@@ -90155,7 +90773,13 @@ metaprob:
     home_url: https://bitbucket.org/samu661/metaprob/
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Cluster Analysis
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Metagenomics
+      -   Models, Statistical
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btw466
 latentstrainanalysis:
@@ -90190,6 +90814,7 @@ perl-io-prompt:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 fastq-and-furious:
     name: fastq-and-furious
     description: Fast handling of FASTQ files
@@ -90218,7 +90843,9 @@ galaxy-ops:
     manually_check: true
     keywords:
       -   Clustering
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 npyscreen:
     name: npyscreen
     description: Writing user interfaces without all that ugly mucking about in hyperspace
@@ -90350,7 +90977,8 @@ taco:
     keywords:
       -   RNA-Seq
       -   Transcriptome
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/nmeth.4078
 r-itertools:
     name: r-itertools
     description: Various tools for creating iterators, many patterned after functions
@@ -90436,6 +91064,7 @@ perl-tie-hash:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-warnings-register:
     name: perl-warnings-register
     description: Warnings import function
@@ -90445,6 +91074,7 @@ perl-warnings-register:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-symbol:
     name: perl-symbol
     description: Manipulate perl symbols and their names
@@ -90454,6 +91084,7 @@ perl-symbol:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-io-handle:
     name: perl-io-handle
     description: Supply object methods for i/o handles
@@ -90463,6 +91094,7 @@ perl-io-handle:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-mime-quotedprint:
     name: perl-mime-quotedprint
     description: Encoding and decoding of quoted-printable strings
@@ -90472,6 +91104,7 @@ perl-mime-quotedprint:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-dynaloader:
     name: perl-dynaloader
     description: Dynamically load c libraries into perl code
@@ -90481,6 +91114,7 @@ perl-dynaloader:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-pod-simple-text:
     name: perl-pod-simple-text
     description: Format pod as plaintext
@@ -90490,6 +91124,7 @@ perl-pod-simple-text:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-unicode-normalize:
     name: perl-unicode-normalize
     description: Unicode Normalization Forms
@@ -90499,6 +91134,7 @@ perl-unicode-normalize:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-text-tabs:
     name: perl-text-tabs
     description: Expand and unexpand tabs like unix expand(1) and unexpand(1)
@@ -90508,6 +91144,7 @@ perl-text-tabs:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-blib:
     name: perl-blib
     description: Use makemaker's uninstalled version of a package
@@ -90517,6 +91154,7 @@ perl-blib:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-module-load-conditional:
     name: perl-module-load-conditional
     description: Looking up module information / loading at runtime
@@ -90526,6 +91164,7 @@ perl-module-load-conditional:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test-more:
     name: perl-test-more
     description: This scanner will check if a given test is using recent functions
@@ -90536,6 +91175,7 @@ perl-test-more:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-digest-sha:
     name: perl-digest-sha
     description: Perl extension for sha-1/224/256/384/512
@@ -90545,6 +91185,7 @@ perl-digest-sha:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-base:
     name: perl-base
     description: base - Establish an ISA relationship with base classes at compile
@@ -90564,6 +91205,7 @@ perl-list-util:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-time-local:
     name: perl-time-local
     description: Efficiently compute time from local and gmt time
@@ -90573,6 +91215,7 @@ perl-time-local:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-integer:
     name: perl-integer
     description: Perl pragma to use integer arithmetic instead of floating point
@@ -90582,6 +91225,7 @@ perl-integer:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-pod-plaintext:
     name: perl-pod-plaintext
     description: Convert pod data to formatted ascii text
@@ -90591,6 +91235,7 @@ perl-pod-plaintext:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-io-uncompress-gunzip:
     name: perl-io-uncompress-gunzip
     description: Read rfc 1952 files/buffers
@@ -90600,6 +91245,7 @@ perl-io-uncompress-gunzip:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-io-compress-deflate:
     name: perl-io-compress-deflate
     description: Write rfc 1950 files/buffers
@@ -90609,6 +91255,7 @@ perl-io-compress-deflate:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-net-netrc:
     name: perl-net-netrc
     description: Oo interface to users netrc file
@@ -90618,6 +91265,7 @@ perl-net-netrc:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-vars:
     name: perl-vars
     description: Perl pragma to predeclare global variable names
@@ -90627,6 +91275,7 @@ perl-vars:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-attribute-handlers:
     name: perl-attribute-handlers
     description: Simpler definition of attribute handlers
@@ -90636,6 +91285,7 @@ perl-attribute-handlers:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-filter-simple:
     name: perl-filter-simple
     description: Simplified source filtering
@@ -90645,6 +91295,7 @@ perl-filter-simple:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-time-piece:
     name: perl-time-piece
     description: Object oriented time objects
@@ -90654,6 +91305,7 @@ perl-time-piece:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-date-format:
     name: perl-date-format
     description: Date formating subroutines
@@ -90663,6 +91315,7 @@ perl-date-format:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-safe:
     name: perl-safe
     description: Compile and execute code in restricted compartments
@@ -90672,6 +91325,7 @@ perl-safe:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-pod-checker:
     name: perl-pod-checker
     description: Pod::checker verifies pod documentation contents for compliance with
@@ -90682,6 +91336,7 @@ perl-pod-checker:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-posix:
     name: perl-posix
     description: The POSIX standard defines access to the operating system. Most operating
@@ -90693,6 +91348,7 @@ perl-posix:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-io-uncompress-bunzip2:
     name: perl-io-uncompress-bunzip2
     description: Read bzip2 files/buffers
@@ -90702,6 +91358,7 @@ perl-io-uncompress-bunzip2:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-io-scalar:
     name: perl-io-scalar
     description: 'Io:: interface for reading/writing a scalar'
@@ -90711,6 +91368,7 @@ perl-io-scalar:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-findbin:
     name: perl-findbin
     description: Locate directory of original perl script
@@ -90720,6 +91378,7 @@ perl-findbin:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-tap-harness-env:
     name: perl-tap-harness-env
     description: Parsing harness related environmental variables where appropriate
@@ -90967,7 +91626,11 @@ nanosimh:
     home_url: https://github.com/karel-brinda/nanosim-h
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Genomics
+      -   High-Throughput Nucleotide Sequencing
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.5281/zenodo.1341249
       -   doi:10.1093/gigascience/gix010
@@ -91328,7 +91991,15 @@ soapdenovo-trans:
     home_url: http://soap.genomics.org.cn/SOAPdenovo-Trans.html
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Alternative Splicing
+      -   Animals
+      -   Gene Expression Profiling
+      -   Genomics
+      -   High-Throughput Nucleotide Sequencing
+      -   Mice
+      -   Oryza
+      -   Sequence Analysis, RNA
     identifiers:
       -   doi:10.1093/bioinformatics/btu077
 perl-datetime-locale:
@@ -91635,7 +92306,9 @@ rgi_conda_dev:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 perl-image-exiftool:
     name: perl-image-exiftool
     description: Exiftool is a platform-independent perl library plus a command-line
@@ -91767,7 +92440,8 @@ music:
     manually_check: true
     keywords:
       -   Transcription Factors
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13059-014-0474-3
 damidseq_pipeline:
     name: damidseq_pipeline
     description: An automated pipeline for processing damid sequencing datasets
@@ -91843,7 +92517,11 @@ minepy:
     home_url: None
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Data Mining
+      -   Gene Expression Profiling
+      -   Metagenome
     identifiers:
       -   doi:10.1093/bioinformatics/bts707
 intervaltree_bio:
@@ -92053,7 +92731,15 @@ libsequence:
     home_url: http://http://molpopgen.github.io/libsequence/
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Evolution, Molecular
+      -   Gene Expression Profiling
+      -   Genetic Variation
+      -   Polymorphism, Genetic
+      -   Polymorphism, Single Nucleotide
+      -   Programming Languages
+      -   Sequence Alignment
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/btg316
 ucsc_tools:
@@ -92175,7 +92861,15 @@ r-segmented:
     home_url: https://cran.r-project.org/package=segmented
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Bronchitis
+      -   Chronic Disease
+      -   Dust
+      -   Heart Transplantation
+      -   Humans
+      -   Models, Statistical
+      -   Regression Analysis
+      -   Survival Analysis
     identifiers:
       -   doi:10.1002/sim.1545
       -   doi:10.1080/00949655.2016.1149855
@@ -92727,7 +93421,11 @@ nanosim-h:
     home_url: https://github.com/karel-brinda/NanoSim-H
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Genomics
+      -   High-Throughput Nucleotide Sequencing
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.5281/zenodo.1341249
       -   doi:10.1093/gigascience/gix010
@@ -95597,7 +96295,16 @@ squeakr:
     home_url: https://github.com/splatlab/squeakr
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Eukaryota
+      -   Gene Expression Profiling
+      -   Genome
+      -   Genomics
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Sequence Analysis, DNA
+      -   Sequence Analysis, RNA
     identifiers:
       -   doi:10.1093/bioinformatics/btx636
 perl-digest-md5-file:
@@ -96097,7 +96804,10 @@ tadtool:
     home_url: https://github.com/vaquerizaslab/tadtool
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Genome
+      -   Humans
     identifiers:
       -   doi:10.1093/bioinformatics/btw368
 afplot:
@@ -96169,7 +96879,9 @@ galaxy-parsec:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 galaxy-ie-helpers:
     name: galaxy-ie-helpers
     description: Helper scripts to work with galaxy's interactive environments
@@ -96178,7 +96890,9 @@ galaxy-ie-helpers:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 dupre:
     name: dupre
     description: Duplicate rate estimation using linear programming and the hypergeometric
@@ -96436,7 +97150,10 @@ r-precrec:
     home_url: https://github.com/takayasaito/precrec
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Classification
+      -   Datasets as Topic
+      -   ROC Curve
     identifiers:
       -   doi:10.1093/bioinformatics/btw570
       -   doi:10.1371/journal.pone.0118432
@@ -96578,7 +97295,12 @@ bioconductor-rchemcpp:
     home_url: https://bioconductor.org/packages/release/bioc/html/Rchemcpp.html
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Databases, Chemical
+      -   Drug Discovery
+      -   Gene Expression
+      -   Internet
+      -   Machine Learning
     identifiers:
       -   doi:10.1093/bioinformatics/btv373
 bioconductor-genomegraphs:
@@ -96588,7 +97310,19 @@ bioconductor-genomegraphs:
     home_url: https://bioconductor.org/packages/release/bioc/html/GenomeGraphs.html
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Computer Graphics
+      -   Data Interpretation, Statistical
+      -   Exons
+      -   Genome
+      -   Genomics
+      -   Humans
+      -   Models, Statistical
+      -   Programming Languages
+      -   Protein Isoforms
+      -   Transcription, Genetic
+      -   User-Computer Interface
     identifiers:
       -   doi:10.1186/1471-2105-10-2
 quicktree:
@@ -96599,7 +97333,17 @@ quicktree:
     home_url: https://github.com/khowe/quicktree
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Database Management Systems
+      -   Databases, Protein
+      -   Evolution, Molecular
+      -   HIV Envelope Protein gp120
+      -   Humans
+      -   Phylogeny
+      -   Quality Control
+      -   Sensitivity and Specificity
+      -   Sequence Alignment
+      -   Sequence Analysis, Protein
     identifiers:
       -   doi:10.1093/bioinformatics/18.11.1546
 bioconductor-genominator:
@@ -96635,7 +97379,19 @@ bioconductor-birte:
     home_url: https://www.bioconductor.org/packages/release/bioc/html/birte.html
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Bayes Theorem
+      -   Computer Simulation
+      -   Escherichia coli
+      -   Gene Expression
+      -   Gene Expression Profiling
+      -   Gene Regulatory Networks
+      -   Humans
+      -   Male
+      -   MicroRNAs
+      -   Prostatic Neoplasms
+      -   RNA, Messenger
+      -   Transcription Factors
     identifiers:
       -   doi:10.1093/bioinformatics/btv379
 lcfit:
@@ -96658,6 +97414,7 @@ perl-test-base:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 gotohscan:
     name: gotohscan
     description: a search tool that finds shorter sequences (usually genes) in large
@@ -97711,7 +98468,12 @@ ls-gkm:
     home_url: https://github.com/Dongwon-Lee/lsgkm
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Chromatin Immunoprecipitation
+      -   DNA
+      -   Gene Regulatory Networks
+      -   Humans
+      -   Support Vector Machine
     identifiers:
       -   doi:10.1093/bioinformatics/btw142
 shortreadconnector:
@@ -97732,7 +98494,8 @@ smina:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1021/ci300604z
 python-newick:
     name: python-newick
     description: A python module to read and write the newick format
@@ -97883,6 +98646,7 @@ perl-try-tiny-retry:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 cpinsim:
     name: cpinsim
     description: Cpinsim is a package for the simulation of protein complex assembly
@@ -97981,6 +98745,7 @@ perl-go-perl:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-icluster:
     name: r-icluster
     description: Integrative clustering of multiple genomic data types using a joint
@@ -98054,6 +98819,7 @@ perl-moose:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 break-point-inspector:
     name: break-point-inspector
     description: Bpi uses manta’s variant calls to re-analyse bam files and precisely
@@ -98106,6 +98872,7 @@ perl-indirect:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-http-server-simple:
     name: perl-http-server-simple
     description: Lightweight http server
@@ -98115,6 +98882,7 @@ perl-http-server-simple:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-biomark:
     name: r-biomark
     description: 'Variable selection methods are provided for several classification
@@ -98297,6 +99065,7 @@ perl-text-balanced:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bioconductor-ideal:
     name: bioconductor-ideal
     description: Interactive differential expression analysis
@@ -98335,6 +99104,7 @@ perl-statistics-r:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-moosex-types-path-tiny:
     name: perl-moosex-types-path-tiny
     description: Moosex::types::path::tiny - path::tiny types and coercions for moose
@@ -98344,6 +99114,7 @@ perl-moosex-types-path-tiny:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-moosex-nonmoose:
     name: perl-moosex-nonmoose
     description: Moosex::nonmoose - easy subclassing of non-moose classes
@@ -98353,6 +99124,7 @@ perl-moosex-nonmoose:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 riboseq-rust:
     name: riboseq-rust
     description: Ribo-seq unit step transformation. tools to characterise the determinants
@@ -98476,6 +99248,7 @@ perl-extutils-pkgconfig:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-extutils-depends:
     name: perl-extutils-depends
     description: Easily build xs extensions that depend on xs extensions
@@ -98485,6 +99258,7 @@ perl-extutils-depends:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-cairo:
     name: perl-cairo
     description: Perl interface to the cairo 2d vector graphics library
@@ -98494,6 +99268,7 @@ perl-cairo:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 soapdenovo2-gapcloser:
     name: soapdenovo2-gapcloser
     description: a tool named GapCloser for SOAPdenovo.
@@ -98772,6 +99547,7 @@ perl-mime-base64:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-params-coerce:
     name: perl-params-coerce
     description: Allows your classes to do coercion of parameters
@@ -98781,6 +99557,7 @@ perl-params-coerce:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-filedirutil:
     name: perl-filedirutil
     description: A moose role for basic file io
@@ -98790,6 +99567,7 @@ perl-filedirutil:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-json-create:
     name: perl-json-create
     description: Fast, minimal, utf-8-only serialization of data to json
@@ -98799,6 +99577,7 @@ perl-json-create:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bioconductor-pcagopromoter:
     name: bioconductor-pcagopromoter
     description: pcaGoPromoter is used to analyze DNA micro array data
@@ -98936,6 +99715,7 @@ perl-tie-refhash:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-tie-refhash-weak:
     name: perl-tie-refhash-weak
     description: A tie::refhash subclass with weakened references in the keys.
@@ -98945,6 +99725,7 @@ perl-tie-refhash-weak:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-hash-util-fieldhash-compat:
     name: perl-hash-util-fieldhash-compat
     description: Use hash::util::fieldhash or ties, depending on availability
@@ -98954,6 +99735,7 @@ perl-hash-util-fieldhash-compat:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-tie-toobject:
     name: perl-tie-toobject
     description: Tie to an existing object.
@@ -98963,6 +99745,7 @@ perl-tie-toobject:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-data-visitor:
     name: perl-data-visitor
     description: Visitor style traversal of perl data structures
@@ -98972,6 +99755,7 @@ perl-data-visitor:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-moosex-clone:
     name: perl-moosex-clone
     description: Fine-grained cloning support for moose objects.
@@ -98981,6 +99765,7 @@ perl-moosex-clone:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bioconductor-lol:
     name: bioconductor-lol
     description: Various optimization methods for Lasso inference with matrix warpper
@@ -99033,6 +99818,7 @@ perl-hook-lexwrap:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bioconductor-wavetiling:
     name: bioconductor-wavetiling
     description: Wavelet-Based Models for Tiling Array Transcriptome Analysis
@@ -99053,6 +99839,7 @@ perl-file-remove:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test-object:
     name: perl-test-object
     description: Thoroughly testing objects via registered handlers
@@ -99062,6 +99849,7 @@ perl-test-object:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bioconductor-chipxpressdata:
     name: bioconductor-chipxpressdata
     description: ChIPXpress Pre-built Databases
@@ -99120,6 +99908,7 @@ perl-class-xsaccessor:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test-subcalls:
     name: perl-test-subcalls
     description: Track the number of times subs are called
@@ -99129,6 +99918,7 @@ perl-test-subcalls:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-ppi:
     name: perl-ppi
     description: Parse, analyze and manipulate perl (without perl)
@@ -99137,6 +99927,7 @@ perl-ppi:
     total_pulls: 0
     manually_check: true
     keywords: []
+    no_doi: true
     identifiers: []
 perl-module-extract-use:
     name: perl-module-extract-use
@@ -99147,6 +99938,7 @@ perl-module-extract-use:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test-prereq:
     name: perl-test-prereq
     description: Check if makefile.pl has the right pre-requisites
@@ -99156,6 +99948,7 @@ perl-test-prereq:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bioconductor-flowq:
     name: bioconductor-flowq
     description: Provides quality control and quality assessment tools for flow cytometry
@@ -99176,6 +99969,7 @@ perl-test-file-contents:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-module-corelist:
     name: perl-module-corelist
     description: What modules shipped with versions of perl
@@ -99185,6 +99979,7 @@ perl-module-corelist:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-ipc-cmd:
     name: perl-ipc-cmd
     description: A cross platform way of running (interactive) commandline programs.
@@ -99194,6 +99989,7 @@ perl-ipc-cmd:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-file-share:
     name: perl-file-share
     description: Extend file::sharedir to local libraries
@@ -99203,6 +99999,7 @@ perl-file-share:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bis-snp:
     name: bis-snp
     description: Bisulfite-seq/nome-seq snps & cytosine methylation caller
@@ -99353,7 +100150,20 @@ cas-offinder:
     home_url: https://github.com/snugel/cas-offinder
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Bacterial Proteins
+      -   Base Sequence
+      -   CRISPR-Associated Protein 9
+      -   DNA
+      -   Endonucleases
+      -   Genome, Human
+      -   Genome, Plant
+      -   Humans
+      -   Mice
+      -   RNA, Guide
+      -   Sequence Analysis, DNA
+      -   Time Factors
     identifiers:
       -   doi:10.1093/bioinformatics/btu048
 pal_finder:
@@ -99407,7 +100217,9 @@ gxformat2:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
 bxtools:
     name: bxtools
     description: Tools for analyzing 10X Genomics data
@@ -99457,7 +100269,11 @@ rnasketch:
     home_url: https://github.com/ViennaRNA/RNAsketch
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Models, Molecular
+      -   Nucleic Acid Conformation
+      -   RNA
+      -   Synthetic Biology
     identifiers:
       -   doi:10.1093/bioinformatics/btx263
 perl-sys-sigaction:
@@ -99469,6 +100285,7 @@ perl-sys-sigaction:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-acme-damn:
     name: perl-acme-damn
     description: Unbless' Perl objects.
@@ -99478,6 +100295,7 @@ perl-acme-damn:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 kmerinshort:
     name: kmerinshort
     description: KmerInShort counts kmers from a fasta/fastq file or list of files,
@@ -99665,6 +100483,7 @@ perl-module-fromperlver:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-findbin-libs:
     name: perl-findbin-libs
     description: Locate and a 'use lib' or export directories based on $findbin::bin.
@@ -99674,6 +100493,7 @@ perl-findbin-libs:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 suppa:
     name: suppa
     description: A tool to study splicing across multiple conditions at high speed
@@ -99720,7 +100540,8 @@ skmer:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13059-019-1632-4
 bioformats:
     name: bioformats
     description: A collection of python classes to handle bioinformatics data.
@@ -99818,6 +100639,7 @@ perl-super:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 libssw:
     name: libssw
     description: An SIMD Smith-Waterman C/C++/Python/Java Library for Use in Genomic
@@ -99840,6 +100662,7 @@ perl-file-touch:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-bio-mlst-check:
     name: perl-bio-mlst-check
     description: Multilocus sequence type checking using blast
@@ -99937,6 +100760,7 @@ perl-file-tee:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-perl-ostype:
     name: perl-perl-ostype
     description: Map perl operating system names to generic types
@@ -99946,6 +100770,7 @@ perl-perl-ostype:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 xatlas:
     name: xatlas
     description: xAtlas is a fast and retrainable small variant caller that has been
@@ -100131,6 +100956,7 @@ perl-extutils-cbuilder:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 assemblerflow:
     name: assemblerflow
     description: A nextflow pipeline assembler for genomics. pick your modules. assemble
@@ -100169,6 +100995,7 @@ perl-extutils-constant:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-quorts:
     name: r-quorts
     description: The QoRTs software package is a fast, efficient, and portable multifunction
@@ -100205,6 +101032,7 @@ perl-socket:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 desman:
     name: desman
     description: De novo Extraction of Strains from MetAgeNomes
@@ -100250,6 +101078,7 @@ perl-perl4-corelibs:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 akt:
     name: akt
     description: Ancestry and Kinship Tools (AKT) provides a handful of useful statistical
@@ -100452,7 +101281,14 @@ r-biclust:
     home_url: https://CRAN.R-project.org/package=biclust
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Artificial Intelligence
+      -   Cluster Analysis
+      -   Databases, Genetic
+      -   Gene Expression
+      -   Gene Expression Profiling
+      -   Oligonucleotide Array Sequence Analysis
+      -   Pattern Recognition, Automated
     identifiers:
       -   doi:10.1101/gr.648603
       -   doi:10.1016/j.csda.2004.02.003
@@ -100954,6 +101790,7 @@ perl-extutils-cppguess:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 snpsplit:
     name: snpsplit
     description: Snpsplit is an allele-specific alignment sorter which is designed
@@ -101321,7 +102158,11 @@ r-funrar:
     home_url: https://github.com/Rekyt/funrar
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Biodiversity
+      -   Biological Evolution
+      -   Ecology
+      -   Ecosystem
     identifiers:
       -   doi:10.1016/j.tree.2017.02.002
       -   doi:10.1111/ddi.12629
@@ -101419,7 +102260,8 @@ confindr:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.7717/peerj.6995
 phyluce:
     name: phyluce
     description: Software for uce (and general) phylogenomics.
@@ -101446,7 +102288,13 @@ r-kinship2:
     home_url: https://CRAN.R-project.org/package=kinship2
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Female
+      -   Genetic Linkage
+      -   Humans
+      -   Male
+      -   Pedigree
+      -   Programming Languages
     identifiers:
       -   doi:10.1159/000363105
 biopet-sampleconfig:
@@ -101572,6 +102420,7 @@ perl-file-util:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 fasta-splitter:
     name: fasta-splitter
     description: Divides a large fasta file into a set of smaller, approximately equally
@@ -101600,6 +102449,7 @@ perl-mce-shared:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 biopet-validatefastq:
     name: biopet-validatefastq
     description: This tool validates a fastq file.
@@ -101964,6 +102814,7 @@ perl-string-random:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 metaquant:
     name: metaquant
     description: Quantitative microbiome analysis
@@ -101971,7 +102822,13 @@ metaquant:
     home_url: The package home page
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Artificial Intelligence
+      -   Gas Chromatography-Mass Spectrometry
+      -   Gene Expression Profiling
+      -   Peptide Mapping
+      -   Proteome
+      -   User-Computer Interface
     identifiers:
       -   doi:10.1093/bioinformatics/btl526
 phenix:
@@ -102063,6 +102920,7 @@ perl-env-path:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-hash-merge:
     name: perl-hash-merge
     description: Merges arbitrarily deep hashes into a single hash
@@ -102072,6 +102930,7 @@ perl-hash-merge:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 rpkmforgenes:
     name: rpkmforgenes
     description: Calculates gene expression from a read mapping file
@@ -102147,7 +103006,18 @@ sshmm:
     home_url: https://github.molgen.mpg.de/heller/ssHMM
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Base Sequence
+      -   Computational Biology
+      -   Models, Molecular
+      -   Nucleic Acid Conformation
+      -   Nucleotide Motifs
+      -   Protein Binding
+      -   Protein Domains
+      -   RNA
+      -   RNA-Binding Proteins
+      -   Reproducibility of Results
+      -   Sequence Analysis, RNA
     identifiers:
       -   doi:10.1093/nar/gkx756
 biopet-basecounter:
@@ -102264,6 +103134,7 @@ perl-xml-parser-lite:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test-builder-tester:
     name: perl-test-builder-tester
     description: Test testsuites that have been built with test::builder
@@ -102273,6 +103144,7 @@ perl-test-builder-tester:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-module-metadata:
     name: perl-module-metadata
     description: Gather package and pod information from perl module files
@@ -102282,6 +103154,7 @@ perl-module-metadata:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-math-base-convert:
     name: perl-math-base-convert
     description: Very fast base to base conversion
@@ -102291,6 +103164,7 @@ perl-math-base-convert:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-ipc-run:
     name: perl-ipc-run
     description: System() and background procs w/ piping, redirs, ptys (unix, win32)
@@ -102300,6 +103174,7 @@ perl-ipc-run:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-file-compare:
     name: perl-file-compare
     description: Compare files or filehandles
@@ -102309,6 +103184,7 @@ perl-file-compare:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-digest-crc32:
     name: perl-digest-crc32
     description: Cyclic redundency check digests implementation
@@ -102318,6 +103194,7 @@ perl-digest-crc32:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-file-copy-recursive:
     name: perl-file-copy-recursive
     description: Perl extension for recursively copying files and directories
@@ -102327,6 +103204,7 @@ perl-file-copy-recursive:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-estscan2:
     name: perl-estscan2
     description: Detects coding regions in dna sequences even if they are of low quality.
@@ -102379,6 +103257,7 @@ perl-importer:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test-longstring:
     name: perl-test-longstring
     description: Tests strings for equality, with more helpful failures
@@ -102388,6 +103267,7 @@ perl-test-longstring:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test2-suite:
     name: perl-test2-suite
     description: Distribution with a rich set of tools built upon the test2 framework.
@@ -102397,6 +103277,7 @@ perl-test2-suite:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-devel-size:
     name: perl-devel-size
     description: Perl extension for finding the memory usage of Perl variables
@@ -102406,6 +103287,7 @@ perl-devel-size:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-dbd-mysql:
     name: perl-dbd-mysql
     description: A MySQL driver for the Perl5 Database Interface (DBI)
@@ -102436,6 +103318,7 @@ perl-config-general:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-file-next:
     name: perl-file-next
     description: File-finding iterator
@@ -102445,6 +103328,7 @@ perl-file-next:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test-classapi:
     name: perl-test-classapi
     description: Provides basic first-pass api testing for large class trees
@@ -102454,6 +103338,7 @@ perl-test-classapi:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-sereal-decoder:
     name: perl-sereal-decoder
     description: Fast, compact, powerful binary deserialization
@@ -102463,6 +103348,7 @@ perl-sereal-decoder:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-sereal-encoder:
     name: perl-sereal-encoder
     description: Fast, compact, powerful binary serialization
@@ -102481,6 +103367,7 @@ perl-sereal:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-lwp-protocol-https:
     name: perl-lwp-protocol-https
     description: Provide https support for lwp::useragent
@@ -102490,6 +103377,7 @@ perl-lwp-protocol-https:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-appconfig:
     name: perl-appconfig
     description: Appconfig is a bundle of perl5 modules for reading configuration
@@ -102500,6 +103388,7 @@ perl-appconfig:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-perlio-utf8_strict:
     name: perl-perlio-utf8_strict
     description: Fast and correct UTF-8 IO
@@ -102509,6 +103398,7 @@ perl-perlio-utf8_strict:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-storable:
     name: perl-storable
     description: persistence for Perl data structures
@@ -102518,6 +103408,7 @@ perl-storable:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 corset:
     name: corset
     description: Software for clustering de novo assembled transcripts and counting
@@ -102609,6 +103500,7 @@ perl-json-pp:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-cpan-meta-yaml:
     name: perl-cpan-meta-yaml
     description: Read and write a subset of yaml for cpan meta files
@@ -102618,6 +103510,7 @@ perl-cpan-meta-yaml:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-text-abbrev:
     name: perl-text-abbrev
     description: Abbrev - create an abbreviation table from a list
@@ -102627,6 +103520,7 @@ perl-text-abbrev:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-version:
     name: perl-version
     description: Structured version objects
@@ -102636,6 +103530,7 @@ perl-version:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 p7zip:
     name: p7zip
     description: p7zip is a quick port of 7z.exe and 7za.exe (command line version
@@ -102657,6 +103552,7 @@ perl-estscan1:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-io-uncompress-rawinflate:
     name: perl-io-uncompress-rawinflate
     description: Read rfc 1951 files/buffers
@@ -102666,6 +103562,7 @@ perl-io-uncompress-rawinflate:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pyopt:
     name: pyopt
     description: A python-based package for formulating and solving nonlinear constrained
@@ -102695,6 +103592,7 @@ perl-list-moreutils-xs:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-archive-extract:
     name: perl-archive-extract
     description: Generic archive extracting mechanism
@@ -102704,6 +103602,7 @@ perl-archive-extract:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 lrzip:
     name: lrzip
     description: Long Range ZIP or Lzma RZIP.
@@ -102774,6 +103673,7 @@ perl-extutils-parsexs:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 ldhelmet:
     name: ldhelmet
     description: Software program for statistical inference of fine-scale crossover
@@ -102830,6 +103730,7 @@ perl-package-stash-xs:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-class-singleton:
     name: perl-class-singleton
     description: Base class for creating singleton objects
@@ -102839,6 +103740,7 @@ perl-class-singleton:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-ipc-run3:
     name: perl-ipc-run3
     description: Run a subprocess with input/ouput redirection
@@ -102848,6 +103750,7 @@ perl-ipc-run3:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test-without-module:
     name: perl-test-without-module
     description: Test fallback behaviour in absence of modules
@@ -102857,6 +103760,7 @@ perl-test-without-module:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 vkmz:
     name: vkmz
     description: Metabolomics formula prediction and van krevelen diagram generation
@@ -102898,6 +103802,7 @@ perl-font-afm:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 squid:
     name: squid
     description: Detector for fusion-gene and non-fusion-gene transcriptomic structural
@@ -103021,7 +103926,11 @@ r-ggrasp:
     home_url: https://CRAN.R-project.org/package=ggrasp
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Cluster Analysis
+      -   Genome
+      -   Genomics
+      -   Normal Distribution
     identifiers:
       -   doi:10.1093/bioinformatics/bty300
 perl-ipc-sharelite:
@@ -103033,6 +103942,7 @@ perl-ipc-sharelite:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-digest-sha1:
     name: perl-digest-sha1
     description: Perl interface to the SHA-1 algorithm
@@ -103042,6 +103952,7 @@ perl-digest-sha1:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-cache-cache:
     name: perl-cache-cache
     description: Extends cache::sizeawarememorycache
@@ -103051,6 +103962,7 @@ perl-cache-cache:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pymisc-utils:
     name: pymisc-utils
     description: Utility library for rp-bp
@@ -103163,6 +104075,7 @@ perl-graphics-colorobject:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 fastqe:
     name: fastqe
     description: A emoji based bioinformatics command line tool
@@ -103205,6 +104118,7 @@ perl-padwalker:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-devel-cycle:
     name: perl-devel-cycle
     description: Find memory cycles in objects
@@ -103214,6 +104128,7 @@ perl-devel-cycle:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test-memory-cycle:
     name: perl-test-memory-cycle
     description: Verifies code hasn't left circular references
@@ -103223,6 +104138,7 @@ perl-test-memory-cycle:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-bio-gff3:
     name: perl-bio-gff3
     description: Fast, low-level gff3 manipulation
@@ -103242,6 +104158,7 @@ perl-heap-simple-xs:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 centroid_rna_package:
     name: centroid_rna_package
     description: Collection of rna secondary structure prediction programs based on
@@ -103293,6 +104210,7 @@ perl-heap-simple:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-xml-libxslt:
     name: perl-xml-libxslt
     description: Interface to gnome libxslt library
@@ -103302,6 +104220,7 @@ perl-xml-libxslt:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test-requiresinternet:
     name: perl-test-requiresinternet
     description: Easily test network connectivity
@@ -103311,6 +104230,7 @@ perl-test-requiresinternet:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-data-stag:
     name: perl-data-stag
     description: Structured tags
@@ -103320,6 +104240,7 @@ perl-data-stag:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-bio-phylo:
     name: perl-bio-phylo
     description: An object-oriented perl toolkit for analyzing and manipulating phyloinformatic
@@ -103376,7 +104297,16 @@ tandem-genotypes:
     home_url: https://github.com/mcfrith/tandem-genotypes
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Adult
+      -   Computational Biology
+      -   Epilepsies, Myoclonic
+      -   Genetic Predisposition to Disease
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Sequence Analysis, DNA
+      -   Tandem Repeat Sequences
+      -   Whole Genome Sequencing
     identifiers:
       -   doi:10.1186/s13059-019-1667-6
 plotly:
@@ -103459,6 +104389,7 @@ tagger:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 python-consensuscore2:
     name: python-consensuscore2
     description: Pacbio arrow consensus library for sequel data
@@ -103493,6 +104424,7 @@ perl-unicode-utf8:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 neurodocker:
     name: neurodocker
     description: Neurodocker is a command-line program that generates custom Dockerfiles
@@ -103540,6 +104472,7 @@ perl-compress-bgzf:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-package-deprecationmanager:
     name: perl-package-deprecationmanager
     description: Manage deprecation warnings for your distribution
@@ -103549,6 +104482,7 @@ perl-package-deprecationmanager:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-file-pushd:
     name: perl-file-pushd
     description: Change directory temporarily for a limited scope
@@ -103558,6 +104492,7 @@ perl-file-pushd:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-module-runtime-conflicts:
     name: perl-module-runtime-conflicts
     description: Provide information on conflicts for module::runtime
@@ -103567,6 +104502,7 @@ perl-module-runtime-conflicts:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-mro-compat:
     name: perl-mro-compat
     description: Mro::* interface compatibility for perls < 5.9.5
@@ -103576,6 +104512,7 @@ perl-mro-compat:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test-needs:
     name: perl-test-needs
     description: Skip tests when modules not available
@@ -103585,6 +104522,7 @@ perl-test-needs:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-devel-overloadinfo:
     name: perl-devel-overloadinfo
     description: Introspect overloaded operators
@@ -103594,6 +104532,7 @@ perl-devel-overloadinfo:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-cpan-meta-requirements:
     name: perl-cpan-meta-requirements
     description: A set of version requirements for a cpan dist
@@ -103603,6 +104542,7 @@ perl-cpan-meta-requirements:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test-cleannamespaces:
     name: perl-test-cleannamespaces
     description: Check for uncleaned imports
@@ -103612,6 +104552,7 @@ perl-test-cleannamespaces:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-biox-seq:
     name: perl-biox-seq
     description: A basic but fast biological sequence object and associated parsers
@@ -103647,6 +104588,7 @@ perl-env:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-getopt-long-descriptive:
     name: perl-getopt-long-descriptive
     description: Getopt::long, but simpler and more powerful
@@ -103656,6 +104598,7 @@ perl-getopt-long-descriptive:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-moosex-role-withoverloading:
     name: perl-moosex-role-withoverloading
     description: (DEPRECATED) Roles which support overloading
@@ -103665,6 +104608,7 @@ perl-moosex-role-withoverloading:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-file-copy-recursive-reduced:
     name: perl-file-copy-recursive-reduced
     description: Recursive copying of files and directories within perl 5 toolchain
@@ -103674,6 +104618,7 @@ perl-file-copy-recursive-reduced:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-fastqcr:
     name: r-fastqcr
     description: "'FASTQC' is the most widely used tool for evaluating the quality\
@@ -103699,6 +104644,7 @@ perl-module-util:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-data-munge:
     name: perl-data-munge
     description: Various utility functions
@@ -103708,6 +104654,7 @@ perl-data-munge:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-return-multilevel:
     name: perl-return-multilevel
     description: Return across multiple call levels
@@ -103717,6 +104664,7 @@ perl-return-multilevel:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-module-pluggable:
     name: perl-module-pluggable
     description: Automatically give your module the ability to have plugins
@@ -103726,6 +104674,7 @@ perl-module-pluggable:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-sub-info:
     name: perl-sub-info
     description: Tool for inspecting subroutines.
@@ -103735,6 +104684,7 @@ perl-sub-info:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-term-table:
     name: perl-term-table
     description: Format a header and rows into a table
@@ -103744,6 +104694,7 @@ perl-term-table:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-slurp:
     name: perl-slurp
     description: Slurp entire files into variables
@@ -103753,6 +104704,7 @@ perl-slurp:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test-exec:
     name: perl-test-exec
     description: Test that some code calls exec without terminating testing
@@ -103762,6 +104714,7 @@ perl-test-exec:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-sub-exporter-formethods:
     name: perl-sub-exporter-formethods
     description: Helper routines for using sub::exporter to build methods
@@ -103771,6 +104724,7 @@ perl-sub-exporter-formethods:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-moosex-role-parameterized:
     name: perl-moosex-role-parameterized
     description: Moose roles with composition parameters
@@ -103780,6 +104734,7 @@ perl-moosex-role-parameterized:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-carp-clan:
     name: perl-carp-clan
     description: Report errors from perspective of caller of a clan of modules
@@ -103789,6 +104744,7 @@ perl-carp-clan:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-fateid:
     name: r-fateid
     description: Application of 'FateID' allows computation and visualization of cell
@@ -103829,6 +104785,7 @@ perl-moosex-types-stringlike:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-raceid:
     name: r-raceid
     description: Application of 'RaceID' allows inference of cell types and prediction
@@ -103851,6 +104808,7 @@ perl-string-rewriteprefix:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-string-truncate:
     name: perl-string-truncate
     description: A module for when strings are too long to be displayed in...
@@ -103860,6 +104818,7 @@ perl-string-truncate:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 regional:
     name: regional
     description: Simple manipulation and display of spatial regions in python
@@ -103898,6 +104857,7 @@ perl-business-isbn-data:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-business-isbn:
     name: perl-business-isbn
     description: Work with international standard book numbers
@@ -103907,6 +104867,7 @@ perl-business-isbn:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 clairvoyante:
     name: clairvoyante
     description: Identifying the variants of dna sequences sensitively and accurately
@@ -103935,7 +104896,8 @@ clairvoyante:
     manually_check: true
     keywords:
       -   Genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s42256-020-0167-4
 collect_mgf:
     name: collect_mgf
     description: Collects MGF files and dd_results from an XMass setup_QDD.tcl experiment
@@ -103978,6 +104940,7 @@ perl-sys-info-base:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-test-sys-info:
     name: perl-test-sys-info
     description: Centralized test suite for sys::info.
@@ -103987,6 +104950,7 @@ perl-test-sys-info:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-devel-assert:
     name: perl-devel-assert
     description: assertions for Perl >= 5.14
@@ -103996,6 +104960,7 @@ perl-devel-assert:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-sys-info-driver-linux:
     name: perl-sys-info-driver-linux
     description: Linux driver for sys::info
@@ -104005,6 +104970,7 @@ perl-sys-info-driver-linux:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 crux-toolkit:
     name: crux-toolkit
     description: A cross-platform suite of analysis tools for interpreting protein
@@ -104025,6 +104991,7 @@ perl-math-complex:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-math-bigint:
     name: perl-math-bigint
     description: Arbitrary size floating point math package
@@ -104034,6 +105001,7 @@ perl-math-bigint:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-object-insideout:
     name: perl-object-insideout
     description: Comprehensive inside-out object support module
@@ -104043,6 +105011,7 @@ perl-object-insideout:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-parallel-loops:
     name: perl-parallel-loops
     description: Execute loops using parallel forked subprocesses
@@ -104052,6 +105021,7 @@ perl-parallel-loops:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-math-random-mt-auto:
     name: perl-math-random-mt-auto
     description: Auto-seeded Mersenne Twister PRNGs
@@ -104061,6 +105031,7 @@ perl-math-random-mt-auto:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-xml-entities:
     name: perl-xml-entities
     description: Mapping of xml entities to unicode
@@ -104070,6 +105041,7 @@ perl-xml-entities:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-mac-propertylist:
     name: perl-mac-propertylist
     description: Work with mac plists at a low level
@@ -104079,6 +105051,7 @@ perl-mac-propertylist:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-sys-info:
     name: perl-sys-info
     description: Fetch information from the host system
@@ -104088,6 +105061,7 @@ perl-sys-info:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 teloclip:
     name: teloclip
     description: A tool for the recovery of unassembled telomeres from soft-clipped
@@ -104137,6 +105111,7 @@ perl-heap:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-experimental:
     name: perl-experimental
     description: Experimental features made easy
@@ -104146,6 +105121,7 @@ perl-experimental:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-module-list:
     name: perl-module-list
     description: Module `directory' listing
@@ -104155,6 +105131,7 @@ perl-module-list:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-sub-quote:
     name: perl-sub-quote
     description: Efficient generation of subroutines via string eval
@@ -104164,6 +105141,7 @@ perl-sub-quote:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-specio:
     name: perl-specio
     description: Type constraints and coercions for perl
@@ -104173,6 +105151,7 @@ perl-specio:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 transgenescan:
     name: transgenescan
     description: Software tool for finding genes in assembled transcripts from metatranscriptomic
@@ -104198,14 +105177,14 @@ transgenescan:
       -   Transcriptomics
 scnic:
     name: scnic
-    description: 'Scnic: sparse cooccurence network investigation for compositional
-        data'
+    description: 'Scnic: sparse cooccurence network investigation for compositional data'
     license: BSD 3-Clause "New" or "Revised" License
     home_url: https://github.com/shafferm/SCNIC
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.11.13.380733
 tigmint:
     name: tigmint
     description: Correct misassemblies using linked reads
@@ -104241,11 +105220,12 @@ shannon:
     name: shannon
     description: A program for assembling transcripts from rna-seq data.
     license: GPL 3.0 license
-    home_url: http://sreeramkannan.github.io/Shannon/
+    home_url: https://github.com/sreeramkannan/Shannon/
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/039230
 solexaqa:
     name: solexaqa
     description: Quality statistics and visual representations for second-generation
@@ -104273,7 +105253,12 @@ smcounter2:
     home_url: https://github.com/qiaseq/qiaseq-smcounter-v2
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Gene Frequency
+      -   High-Throughput Nucleotide Sequencing
+      -   Mutation
+      -   Polymerase Chain Reaction
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/bty790
 bioconductor-singlecellexperiment-scripts:
@@ -104336,6 +105321,7 @@ bioconductor-scater-scripts:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 ghost-tree:
     name: ghost-tree
     description: Ghost-tree is a bioinformatics tool that combines sequence data from
@@ -104348,7 +105334,9 @@ ghost-tree:
     keywords:
       -   Phylogenetics
       -   Genetics
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s40168-016-0153-6
+      -   doi:10.7287/peerj.preprints.1106v1
 libarbdb:
     name: libarbdb
     description: ARB 6 Sequence Analysis Suite
@@ -104357,7 +105345,9 @@ libarbdb:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   biotools:arb
+      -   doi:10.1093/nar/gkh293
 arb-bio-tools:
     name: arb-bio-tools
     description: ARB 6 Sequence Analysis Suite
@@ -104366,7 +105356,9 @@ arb-bio-tools:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkh293
+      -   biotools:arb
 arb-bio-devel:
     name: arb-bio-devel
     description: ARB 6 Sequence Analysis Suite
@@ -104375,7 +105367,9 @@ arb-bio-devel:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkh293
+      -   biotools:arb
 mccortex:
     name: mccortex
     description: 'De novo genome assembly and multisample variant calling '
@@ -104556,6 +105550,7 @@ perl-autodie:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 simka:
     name: simka
     description: Simka and simkaMin are de novo comparative metagenomics tools. Simka
@@ -104763,7 +105758,9 @@ perl-bundle-bioperl:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   biotools:bioperl
+      -   doi:10.1007/978-1-59745-535-0_26
 mtbseq:
     name: mtbseq
     description: Pipeline for wgs analysis of m. tuberculosis
@@ -105180,7 +106177,15 @@ r-polysat:
     home_url: https://CRAN.R-project.org/package=polysat
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Animals
+      -   Diploidy
+      -   Fishes
+      -   Genotype
+      -   Genotyping Techniques
+      -   Microsatellite Repeats
+      -   Models, Genetic
+      -   Polyploidy
     identifiers:
       -   doi:10.1111/j.1755-0998.2011.02985.x
       -   doi:10.1111/1755-0998.12639
@@ -105326,6 +106331,7 @@ perl-number-range:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 sompy:
     name: sompy
     description: Numpy based SOM Library.
@@ -105587,6 +106593,7 @@ perl-findbin-real:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-mvr:
     name: r-mvr
     description: 'This is a non-parametric method for joint adaptive mean-variance
@@ -106060,6 +107067,7 @@ perl-math-utils:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-rbamtools:
     name: r-rbamtools
     description: Provides an R interface to functions of the 'SAMtools' C-Library
@@ -106364,7 +107372,8 @@ nemo:
       -   Genomics
       -   Genetics
       -   Genetic variation
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btl415
 seqlogo:
     name: seqlogo
     description: Python port of the r bioconductor `seqlogo` package
@@ -106767,12 +107776,13 @@ calour:
     name: calour
     description: Exploratory and interactive microbiome analyses based on heatmaps
     license: Not available
-    home_url: https://biocore.github.io/calour/
+    home_url: https://github.com/biocore/calour/
     total_pulls: 0
     manually_check: true
     keywords:
       -   Metabolomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1128/mSystems.00269-18
 bioconductor-ngscopy:
     name: bioconductor-ngscopy
     description: NGScopy provides a quantitative caller for detecting copy number
@@ -107026,7 +108036,8 @@ unifrac:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41592-018-0187-8
 kwip:
     name: kwip
     description: kWIP implements a de novo, alignment free measure of sample genetic
@@ -107037,7 +108048,7 @@ kwip:
     identifiers:
       -   biotools:kWIP
       -   doi:10.1371/JOURNAL.PCBI.1005727
-      -   doi:https://doi.org/10.1371/journal.pcbi.1005727
+      -   doi:10.1371/journal.pcbi.1005727
     manually_check: true
     keywords:
       -   Chlamydomonas
@@ -107230,7 +108241,8 @@ prokaryote:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.2144/000112257
 srnapipe:
     name: srnapipe
     description: Pipeline for bioinformatic in-depth exploration of small RNA-seq
@@ -107241,7 +108253,8 @@ srnapipe:
     manually_check: true
     keywords:
       -   RNA-Seq
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13100-018-0130-7
 nucleosome_prediction:
     name: nucleosome_prediction
     description: This tool allows you to submit a genomic sequence and to recieve
@@ -107417,6 +108430,7 @@ shapeshifter:
       -   RNA-Seq
       -   Gene Expression
     identifiers: []
+    no_doi: true
 fusioncatcher-seqtk:
     name: fusioncatcher-seqtk
     description: This is modified Seqtk version required for FusionCatcher.
@@ -107580,7 +108594,8 @@ gff3sort:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12859-017-1930-3
 bioconductor-bridgedbr:
     name: bioconductor-bridgedbr
     description: Code for using BridgeDb identifier mapping framework from within
@@ -107953,7 +108968,8 @@ biobb_adapters:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 bigsi:
     name: bigsi
     description: BItsliced Genomic Signature Index [BIGSI]
@@ -107997,7 +109013,8 @@ biobb_wf_mutations:
     manually_check: true
     keywords:
       -   Molecular Dynamics
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 ncbi-util-legacy:
     name: ncbi-util-legacy
     description: NCBI software development toolkit
@@ -108329,7 +109346,16 @@ svict:
     home_url: https://github.com/vpc-ccg/svict
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Cell-Free Nucleic Acids
+      -   Circulating Tumor DNA
+      -   DNA Mutational Analysis
+      -   Datasets as Topic
+      -   Humans
+      -   Male
+      -   Mutation
+      -   Prostatic Neoplasms
+      -   Sensitivity and Specificity
     identifiers:
       -   doi:10.1093/nar/gkz067
 ismapper:
@@ -108950,7 +109976,8 @@ biobb_pmx:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
 mfqe:
     name: mfqe
     description: mfqe is a tool for quickly seperating fasta and fastq files
@@ -108967,7 +109994,12 @@ fineradstructure:
     home_url: https://github.com/millanek/fineRADstructure
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Alleles
+      -   Caryophyllaceae
+      -   Genomics
+      -   Population
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/molbev/msy023
 rnasamba:
@@ -108992,7 +110024,8 @@ bitmapperbs:
     manually_check: true
     keywords:
       -   Genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/442798
 maaslin2:
     name: maaslin2
     description: MaAsLin2 is comprehensive R package for efficiently determining multivariable
@@ -109413,7 +110446,8 @@ msisensor-pro:
       -   Proteomics
       -   Genomics
       -   Whole genome sequencing
-    identifiers: []
+    identifiers:
+      -   doi:10.1016/j.gpb.2020.02.001
 dinamo:
     name: dinamo
     description: An exact and efficient method for IUPAC motif discovery in DNA sequences
@@ -109491,7 +110525,8 @@ python-bioformats:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.2144/000112257
 genform:
     name: genform
     description: Generation of molecular formulas by high-resolution MS and MS/MS
@@ -109717,7 +110752,8 @@ prefersim:
     manually_check: true
     keywords:
       -   Genetic variation
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btw478
 bioconductor-mirsm:
     name: bioconductor-mirsm
     description: Inferring miRNA sponge modules by integrating expression data and
@@ -109832,7 +110868,8 @@ svaba:
     manually_check: true
     keywords:
       -   Genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/gr.221028.117
 pynnotator:
     name: pynnotator
     description: A Python Annotation Framework for VCFs using multiple tools.
@@ -109948,7 +110985,17 @@ taxonomy_ranks:
     identifiers:
       -   biotools:taxonomy_ranks
       -   doi:10.1093/nar/gkz173
-    keywords: []
+    keywords:
+      -   Animals
+      -   Computational Biology
+      -   DNA, Mitochondrial
+      -   Genes, Mitochondrial
+      -   Genome, Mitochondrial
+      -   Genomics
+      -   High-Throughput Nucleotide Sequencing
+      -   Internet
+      -   Molecular Sequence Annotation
+      -   Sequence Analysis, DNA
 extract_fasta_seq:
     name: extract_fasta_seq
     description: To extract specific fasta sequences from a fasta file.
@@ -110220,7 +111267,8 @@ fastaptamer:
     manually_check: true
     keywords:
       -   Clustering
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/mtna.2015.4
 python-eel:
     name: python-eel
     description: Tool for finding evolutionarily conserved mammalian enhancer elements.
@@ -111015,7 +112063,8 @@ hapcut2:
     manually_check: true
     keywords:
       -   Genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.4172/jpb.1000404
 tepeaks:
     name: tepeaks
     description: Package for including repetitive regions in peak calling from ChIP-seq
@@ -111572,7 +112621,8 @@ oncogemini:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.03.10.979591
 perl-bio-trace-abif:
     name: perl-bio-trace-abif
     description: 'Bio::Trace::ABIF - Perl extension for reading and parsing ABIF (Applied
@@ -111741,7 +112791,16 @@ haploconduct:
     home_url: https://github.com/HaploConduct/HaploConduct
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Contig Mapping
+      -   Genome, Viral
+      -   Genomics
+      -   Haplotypes
+      -   Hepacivirus
+      -   Polymorphism, Genetic
+      -   Reference Standards
+      -   Sequence Analysis, DNA
+      -   Zika Virus
     identifiers:
       -   doi:10.1101/gr.215038.116
       -   doi:10.1101/378356
@@ -112209,7 +113268,11 @@ ac:
     home_url: https://github.com/cobilab/ac
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Amino Acid Sequence
+      -   Data Compression
+      -   High-Throughput Nucleotide Sequencing
+      -   Markov Chains
     identifiers:
       -   doi:10.1007/s12539-019-00322-1
 geosketch:
@@ -113417,7 +114480,18 @@ metabinkit:
       -   doi:10.1111/2041-210x.12687
       -   doi:10.1186/1471-2164-11-434
       -   doi:10.1093/nar/gkr732
-    keywords: []
+    keywords:
+      -   Animals
+      -   DNA Barcoding, Taxonomic
+      -   DNA Primers
+      -   Data Mining
+      -   Genetic Markers
+      -   Genome, Bacterial
+      -   Genome, Chloroplast
+      -   Genome, Mitochondrial
+      -   Genomics
+      -   Polymerase Chain Reaction
+      -   Vertebrates
     license: GPL-3.0
     manually_check: true
     name: metabinkit
@@ -113574,7 +114648,13 @@ bioconductor-optimalflow:
     home_url: http://www.bioconductor.org/packages/release/bioc/html/optimalFlow.html
     identifiers:
       -   doi:10.1186/s12859-020-03795-w
-    keywords: []
+    keywords:
+      -   Cluster Analysis
+      -   Databases as Topic
+      -   Flow Cytometry
+      -   Humans
+      -   Statistics as Topic
+      -   Supervised Machine Learning
     license: Artistic-2.0
     manually_check: true
     name: bioconductor-optimalflow
@@ -113622,7 +114702,9 @@ pytaxonkit:
 galaxy-workflow-executor:
     description: Execute workflows on galaxy through the cli
     home_url: https://github.com/ebi-gene-expression-group/galaxy-workflow-executor
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
     keywords: []
     license: Not available
     manually_check: true
@@ -113656,7 +114738,14 @@ sequnwinder:
     home_url: http://mahonylab.org/software/sequnwinder/
     identifiers:
       -   doi:10.1093/bioinformatics/btx271
-    keywords: []
+    keywords:
+      -   Chromosomes, Human
+      -   Genome, Human
+      -   Genomics
+      -   Humans
+      -   Models, Molecular
+      -   Molecular Conformation
+      -   Sequence Analysis, DNA
     license: Not available
     manually_check: true
     name: sequnwinder
@@ -113958,7 +115047,8 @@ biobb_ml:
     description: Biobb_ml is the biobb module collection to perform machine learning
         predictions.
     home_url: https://github.com/bioexcel/biobb_ml
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
     keywords: []
     license: Not available
     manually_check: true
@@ -114545,7 +115635,9 @@ metatree:
 galaxyxml:
     description: Galaxy xml generation library
     home_url: https://github.com/hexylena/galaxyxml/
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw343
+      -   doi:10.1093/nar/gky379
     keywords: []
     license: Not available
     manually_check: true
@@ -115514,7 +116606,18 @@ lumpy-sv-minimal:
     identifiers:
       -   doi:10.1186/gb-2014-15-6-r84
       -   doi:10.1093/bioinformatics/btu356
-    keywords: []
+    keywords:
+      -   Artifacts
+      -   Cell Line
+      -   Databases, Genetic
+      -   Genome, Human
+      -   Genomics
+      -   Genotype
+      -   Haploidy
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   INDEL Mutation
+      -   Polymorphism, Single Nucleotide
     license: MIT
     manually_check: true
     name: lumpy-sv-minimal
@@ -115660,7 +116763,15 @@ gofasta:
     home_url: https://github.com/cov-ert/gofasta
     identifiers:
       -   doi:10.1093/bioinformatics/btg412
-    keywords: []
+    keywords:
+      -   Biological Evolution
+      -   Computer Graphics
+      -   Evolution, Molecular
+      -   Gene Expression Profiling
+      -   Genetics, Population
+      -   Phylogeny
+      -   Programming Languages
+      -   User-Computer Interface
     license: MIT
     manually_check: true
     name: gofasta
@@ -115741,7 +116852,14 @@ ggcaller:
     identifiers:
       -   doi:10.1101/695338
       -   doi:10.1016/j.jbiotec.2017.07.017
-    keywords: []
+    keywords:
+      -   Databases, Genetic
+      -   Genome, Human
+      -   Genomics
+      -   High-Throughput Nucleotide Sequencing
+      -   Humans
+      -   Sequence Alignment
+      -   Sequence Analysis, DNA
     license: MIT
     manually_check: true
     name: ggcaller
@@ -115973,7 +117091,8 @@ fates-emerald:
 cellprofiler-core:
     description: Dependency for cellprofiler v4
     home_url: https://github.com/CellProfiler/core
-    identifiers: []
+    identifiers:
+      -   doi:10.2144/000112257
     keywords: []
     license: Not available
     manually_check: true
@@ -116459,7 +117578,14 @@ bioconductor-multigsea:
     home_url: https://bioconductor.org/packages/3.12/bioc/html/multiGSEA.html
     identifiers:
       -   doi:10.1186/s12859-020-03910-x
-    keywords: []
+    keywords:
+      -   Animals
+      -   Computational Biology
+      -   Databases, Factual
+      -   Humans
+      -   Metabolome
+      -   Proteome
+      -   Transcriptome
     license: GPL-3.0
     manually_check: true
     name: bioconductor-multigsea
@@ -117079,7 +118205,21 @@ bioconductor-transomics2cytoscape:
     identifiers:
       -   doi:10.1016/j.celrep.2014.07.021
       -   doi:10.18129/b9.bioc.transomics2cytoscape
-    keywords: []
+    keywords:
+      -   Allosteric Regulation
+      -   Animals
+      -   Cell Line, Tumor
+      -   HEK293 Cells
+      -   Humans
+      -   Insulin
+      -   Metabolic Networks and Pathways
+      -   Metabolome
+      -   Phosphoproteins
+      -   Phosphorylation
+      -   Protein Processing, Post-Translational
+      -   Proteome
+      -   Rats
+      -   Signal Transduction
     license: Not available
     manually_check: true
     name: bioconductor-transomics2cytoscape
@@ -118432,7 +119572,11 @@ knot-asm-analysis:
     home_url: https://github.com/natir/knot
     identifiers:
       -   doi:10.1093/bioinformatics/btz219
-    keywords: []
+    keywords:
+      -   Bacteria
+      -   Genome, Bacterial
+      -   High-Throughput Nucleotide Sequencing
+      -   Sequence Analysis, DNA
     license: Not available
     manually_check: true
     name: knot-asm-analysis
@@ -119069,7 +120213,8 @@ glyxtoolms:
     keywords:
       -   Proteomics
       -   Mass spectrometry
-    identifiers: []
+    identifiers:
+      -   doi:10.1021/acs.analchem.8b02087
 blast-score-ratio:
     name: blast-score-ratio
     description: Obtain BLAST score ratios (BSRs), for use in comparative genomics
@@ -119261,3 +120406,480 @@ fdog:
       -   Models, Genetic
       -   Phylogeny
       -   Sequence Analysis, DNA
+pandas:
+    name: pandas
+    description: High-performance, easy-to-use data structures and data analysis tools.
+    license: BSD-3-Clause
+    home_url: https://github.com/pandas-dev/pandas
+    total_pulls: 99368421
+    manually_check: false
+    identifiers: []
+    keywords: []
+r-blockfest:
+    name: r-blockfest
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 64820
+    manually_check: false
+    identifiers: []
+    keywords: []
+r-popgenome:
+    name: r-popgenome
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 40554
+    manually_check: false
+    identifiers: []
+    keywords: []
+r-metstat:
+    name: r-metstat
+    description: A diverse collection of metabolomics related statistical tools.
+    license: Not available
+    home_url: https://CRAN.R-project.org/package=MetStaT
+    total_pulls: 31890
+    manually_check: false
+    identifiers: []
+    keywords: []
+wtdbg2:
+    name: wtdbg2
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 131
+    manually_check: false
+    identifiers: []
+    keywords: []
+batvi:
+    name: batvi
+    description: Detect viral integrations
+    license: GPLv3+
+    home_url: https://www.comp.nus.edu.sg/~bioinfo/batvi/
+    total_pulls: 8630
+    manually_check: false
+    identifiers: []
+    keywords: []
+bioconductor-bsgenome.ptroglodytes.ucsc.pantro2.masked:
+    name: bioconductor-bsgenome.ptroglodytes.ucsc.pantro2.masked
+    description: Full masked genome sequences for pan troglodytes (ucsc version pantro2)
+    license: Not available
+    home_url: https://bioconductor.org/packages/3.12/data/annotation/html/BSgenome.Ptroglodytes.UCSC.panTro2.masked.html
+    total_pulls: 2277
+    manually_check: false
+    identifiers: []
+    keywords: []
+astropy:
+    name: astropy
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 1303539
+    manually_check: false
+    identifiers: []
+    keywords: []
+r-rismed:
+    name: r-rismed
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 15267
+    manually_check: false
+    identifiers: []
+    keywords: []
+perl-text-levenshtein:
+    name: perl-text-levenshtein
+    description: Calculate the levenshtein edit distance between two strings
+    license: Not available
+    home_url: https://github.com/neilbowers/Text-Levenshtein
+    total_pulls: 2508
+    manually_check: false
+    identifiers: []
+    keywords: []
+r-genemodel:
+    name: r-genemodel
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 5491
+    manually_check: false
+    identifiers: []
+    keywords: []
+velocyto.py:
+    name: velocyto.py
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 17838
+    manually_check: false
+    identifiers: []
+    keywords: []
+deepmod:
+    name: deepmod
+    description: A deep-learning method for dna modifcation (5mc and 6ma) prediction.
+    license: Not available
+    home_url: https://github.com/WGLab/DeepMod
+    total_pulls: 1322
+    manually_check: false
+    identifiers: []
+    keywords: []
+dram:
+    name: dram
+    description: 'Distilled and refined annotation of metabolism: a tool for the annotation
+      and curation of function for microbial and viral genomes'
+    license: Not available
+    home_url: https://github.com/shafferm/DRAM/
+    total_pulls: 1829
+    manually_check: false
+    identifiers: []
+    keywords: []
+deepgoplus:
+    name: deepgoplus
+    description: Deepgoplus is a novel method for predicting protein functions from
+      protein sequences using deep neural networks combined with sequence similarity
+      based predictions.
+    license: SPDX:BSD-3-Clause
+    home_url: http://deepgoplus.bio2vec.net/
+    total_pulls: 508
+    manually_check: false
+    identifiers: []
+    keywords:
+      -  protein function prediction
+drop:
+    name: drop
+    description: Detection of rna outlier pipeline
+    license: Not available
+    home_url: https://github.com/gagneurlab/drop
+    total_pulls: 4274
+    manually_check: false
+    identifiers: []
+    keywords: []
+duplomap:
+    name: duplomap
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 3207
+    manually_check: false
+    identifiers: []
+    keywords: []
+dna_features_viewer:
+    name: dna_features_viewer
+    description: Plot features from dna sequences (e.g. genbank) with python
+    license: Not available
+    home_url: https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer
+    total_pulls: 1795
+    manually_check: false
+    identifiers: []
+    keywords: []
+dfast_qc:
+    name: dfast_qc
+    description: 'Dfast_qc: taxonomy and completeness check for prokaryotic genomes'
+    license: Not available
+    home_url: https://dfast.nig.ac.jp
+    total_pulls: 1177
+    manually_check: false
+    identifiers: []
+    keywords: []
+deepnog:
+    name: deepnog
+    description: Deep learning tool for protein orthologous group assignment
+    license: Not available
+    home_url: https://github.com/univieCUBE/deepnog
+    total_pulls: 600
+    manually_check: false
+    identifiers: []
+    keywords: []
+dligand2:
+    name: dligand2
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 753
+    manually_check: false
+    identifiers: []
+    keywords: []
+psiclass:
+    name: psiclass
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 97
+    manually_check: false
+    identifiers: []
+    keywords: []
+epiweeks:
+    name: epiweeks
+    description: Calculate epidemiological weeks using the cdc (mmwr) and iso week
+      numbering systems.
+    license: Not available
+    home_url: https://github.com/dralshehri/epiweeks
+    total_pulls: 58
+    manually_check: false
+    identifiers: []
+    keywords: []
+datafunk:
+    name: datafunk
+    description: Miscellaneous data manipulation tools for fasta and sam files
+    license: Not available
+    home_url: https://github.com/cov-ert/datafunk
+    total_pulls: 57
+    manually_check: false
+    identifiers: []
+    keywords: []
+pulchra:
+    name: pulchra
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 82
+    manually_check: false
+    identifiers: []
+    keywords: []
+shovill-se:
+    name: shovill-se
+    description: An fork of shovill (microbial assembly pipeline for illumina paired-end
+      reads) that supports single-end reads.
+    license: Not available
+    home_url: https://github.com/rpetit3/shovill
+    total_pulls: 93
+    manually_check: false
+    identifiers: []
+    keywords: []
+clinker-py:
+    name: clinker-py
+    description: Gene cluster comparison figure generator
+    license: Not available
+    home_url: https://github.com/gamcil/clinker
+    total_pulls: 49
+    manually_check: false
+    identifiers: []
+    keywords: []
+pangolearn:
+    name: pangolearn
+    description: Store of the trained model for pangolin to access.
+    license: Not available
+    home_url: https://github.com/cov-lineages/pangoLEARN
+    total_pulls: 44
+    manually_check: false
+    identifiers: []
+    keywords: []
+uvaia:
+    name: uvaia
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 54
+    manually_check: false
+    identifiers: []
+    keywords: []
+run-dbcan:
+    name: run-dbcan
+    description: Standalone version of dbcan annotation tool for automated cazyme
+      annotation
+    license: Not available
+    home_url: https://github.com/linnabrown/run_dbcan
+    total_pulls: 52
+    manually_check: false
+    identifiers: []
+    keywords: []
+xtea:
+    name: xtea
+    description: Te insertion caller for both short and long reads
+    license: Not available
+    home_url: https://github.com/parklab/xTea
+    total_pulls: 47
+    manually_check: false
+    identifiers: []
+    keywords: []
+sap:
+    name: sap
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 53
+    manually_check: false
+    identifiers: []
+    keywords: []
+bayesase:
+    name: bayesase
+    description: Bayesian analysis of allele specific expression
+    license: Not available
+    home_url: https://github.com/McIntyre-Lab/BayesASE
+    total_pulls: 25
+    manually_check: false
+    identifiers: []
+    keywords: []
+primalscheme:
+    name: primalscheme
+    description: Primalscheme is a tool for designing primer panels for multiplex
+      pcr
+    license: Not available
+    home_url: https://github.com/aresti/primalscheme
+    total_pulls: 19
+    manually_check: false
+    identifiers: []
+    keywords: []
+bamkit:
+    name: bamkit
+    description: Tools for common bam file manipulations
+    license: Not available
+    home_url: https://github.com/hall-lab/bamkit
+    total_pulls: 5
+    manually_check: false
+    identifiers: []
+    keywords: []
+integron_finder:
+    name: integron_finder
+    description: Finds integrons in dna sequences
+    license: Not available
+    home_url: https://github.com/gem-pasteur/Integron_Finder
+    total_pulls: 5
+    manually_check: false
+    identifiers: []
+    keywords: []
+cmip:
+    name: cmip
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 17
+    manually_check: false
+    identifiers: []
+    keywords: []
+niemads:
+    name: niemads
+    description: 'Niemads: non-standard data structures for python 2 and 3'
+    license: Not available
+    home_url: https://github.com/niemasd/NiemaDS
+    total_pulls: 5
+    manually_check: false
+    identifiers: []
+    keywords: []
+pmx_biobb:
+    name: pmx_biobb
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 5
+    manually_check: false
+    identifiers: []
+    keywords: []
+r-acidplyr:
+    name: r-acidplyr
+    description: A dplyr-like approach for classes defined in s4vectors.
+    license: Not available
+    home_url: https://acidplyr.acidgenomics.com/
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+r-acidgenomes:
+    name: r-acidgenomes
+    description: Toolkit for downloading and processing genome annotations.
+    license: Not available
+    home_url: https://acidgenomes.acidgenomics.com/
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+r-crmn:
+    name: r-crmn
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+bioconductor-msprep:
+    name: bioconductor-msprep
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+bioconductor-pipecomp:
+    name: bioconductor-pipecomp
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+bioconductor-ggtreeextra:
+    name: bioconductor-ggtreeextra
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+bioconductor-uncoverapplib:
+    name: bioconductor-uncoverapplib
+    description: Interactive graphical application for clinical assessment of sequence
+      coverage at the base-pair level
+    license: Not available
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/uncoverappLib.html
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+bioconductor-iloreg:
+    name: bioconductor-iloreg
+    description: Not available
+    license: Not available
+    home_url: Not available
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+bioconductor-bgx:
+    name: bioconductor-bgx
+    description: Bayesian integrated analysis of Affymetrix GeneChips
+    license: GPL-2
+    home_url: https://www.bioconductor.org/packages/release/bioc/html/bgx.html
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+bioconductor-wpm:
+    name: bioconductor-wpm
+    description: Well plate maker
+    license: Not available
+    home_url: https://bioconductor.org/packages/3.12/bioc/html/wpm.html
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+gamma:
+    name: gamma
+    description: Tool for gene allele mutation microbial assessment
+    license: Not available
+    home_url: https://github.com/rastanton/GAMMA
+    total_pulls: 10
+    manually_check: false
+    identifiers: []
+    keywords: []
+spatyper:
+    name: spatyper
+    description: Computational method for finding spa types.
+    license: Not available
+    home_url: https://github.com/HCGB-IGTP/spaTyper
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
+tatajuba:
+    name: tatajuba
+    description: Identification and classification of homopolymeric tracts from reads.
+    license: GPL
+    home_url: https://github.com/quadram-institute-bioscience/tatajuba
+    total_pulls: 6
+    manually_check: false
+    identifiers: []
+    keywords: []
