@@ -112163,7 +112163,8 @@ decoypyrat:
       -   Peptides
       -   Mass spectra
       -   Mass spectrometry
-    identifiers: []
+    identifiers:
+      -   doi:10.4172/jpb.1000404
 kmasker:
     name: kmasker
     description: A tool for masking and exploring of sequences from plant species.
@@ -113197,7 +113198,8 @@ genefuse:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.7150/ijbs.24626
 mutscan:
     name: mutscan
     description: Detect and visualize target mutations by scanning FastQ files directly
@@ -113524,8 +113526,7 @@ genericrepeatfinder:
     identifiers: []
 nthits:
     name: nthits
-    description: a method for identifying repeats in high-throughput DNA sequencing
-        data.
+    description: a method for identifying repeats in high-throughput DNA sequencing data.
     license: MIT
     home_url: https://github.com/bcgsc/ntHits
     total_pulls: 0
@@ -121155,13 +121156,16 @@ niemads:
     keywords: []
 pmx_biobb:
     name: pmx_biobb
-    description: Not available
-    license: Not available
-    home_url: Not available
+    description: Biobb_pmx is the biobb module collection to perform pmx (http://pmx.mpibpc.mpg.de)
+        executions.
+    license: Apache-2.0
+    home_url: https://github.com/bioexcel/biobb_pmx
     total_pulls: 5
-    manually_check: false
-    identifiers: []
+    manually_check: true
     keywords: []
+    identifiers:
+      -   doi:10.1038/s41597-019-0177-4
+    anchor_tool: biobb_pmx
 r-acidplyr:
     name: r-acidplyr
     description: A dplyr-like approach for classes defined in s4vectors.
@@ -121182,12 +121186,13 @@ r-acidgenomes:
     keywords: []
 r-crmn:
     name: r-crmn
-    description: Not available
-    license: Not available
-    home_url: Not available
+    description: 'Implements the Cross-contribution Compensating Multiple standard Normalization (CCMN) method described in Redestig et al. (2009) Analytical Chemistry and other normalization algorithms.'
+    license: GPL (≥ 3)
+    home_url: https://CRAN.R-project.org/package=crmn
     total_pulls: 6
-    manually_check: false
-    identifiers: []
+    manually_check: true
+    identifiers:
+      -   doi:10.1021/ac901143w
     keywords: []
 bioconductor-msprep:
     name: bioconductor-msprep
