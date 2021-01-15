@@ -26,7 +26,7 @@ def search_tool(key):
                 #         'nmeth.' in publication['doi'] or 'bioinformatics' in publication['doi'] or 'nar\/' in publication['doi'] or 'gigascience' in publication['doi'] or 'nbt.' in publication['doi']):
                 #     print(key + ' ---- ' + publication['title'] + ' --- ' + publication['doi'])
                 if common_name in publication['title'].lower():
-                    print(key + ' ---- ' + publication['title'] + ' --- ' + publication['doi'])
+                    print(key + ' ---- ' + publication['title'] + ' --- ' + '  -' + '   doi:' + publication['doi'])
             except Exception:
                 # print('Error doi --' + key)
                count = count + 1
@@ -45,8 +45,11 @@ for key in file_annotations:
     #         not_biotools.append(key)
 print(str(count))
 for tool in not_biotools:
+
     if 'bioconductor-' in tool:
-        search_tool(tool.replace("bioconductor-", ""))
-    else:
-        search_tool(tool)
+        tool = tool.replace("bioconductor-", "");
+    if 'r-' in tool:
+        tool = tool.replace("r-", "");
+
+    search_tool(tool)
     count = 0
