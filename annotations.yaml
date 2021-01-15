@@ -3702,6 +3702,7 @@ sickle:
       -   biotools:sickle
     keywords:
       -   Data quality management
+    no_doi: true
 transrate-tools:
     name: transrate-tools
     description: Helper for transrate
@@ -4462,6 +4463,7 @@ abricate:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pygenometracks:
     name: pygenometracks
     description: Standalone program and library to plot beautiful genome browser tracks.
@@ -4613,6 +4615,7 @@ sickle-trim:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-bioperl:
     name: perl-bioperl
     description: Bioinformatics toolkit
@@ -4925,7 +4928,9 @@ graph_embed:
     manually_check: true
     keywords:
       -   Clustering
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.825832
+    no_doi: true
 rust-ncbitaxonomy:
     name: rust-ncbitaxonomy
     description: Read NCBI Taxonomy Database from files and work with NCBI Taxonomy
@@ -5602,7 +5607,8 @@ humann2:
       -   Metagenome
       -   Transcriptome
       -   Protein Sequences
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41592-018-0176-y
 sina:
     name: sina
     description: Reference based multiple sequence alignment
@@ -6080,7 +6086,8 @@ vcf2maf:
     total_pulls: 3076
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.593251
 kma:
     name: kma
     description: KMA is mapping a method designed to map raw reads directly against
@@ -6400,7 +6407,8 @@ vardict-java:
     total_pulls: 993
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw227
 fgbio:
     name: fgbio
     description: A set of tools for working with genomic and high throughput sequencing
@@ -6649,7 +6657,8 @@ spectra-cluster-cli:
       -   Proteomics
       -   Mass Spectrometry
       -   Clustering
-    identifiers: []
+    identifiers:
+      -   doi: 10.1038/nmeth.3902
 clever-toolkit:
     name: clever-toolkit
     description: The clever toolkit (ctk) is a suite of tools to analyze next-generation
@@ -7127,7 +7136,8 @@ cnv_facets:
     total_pulls: 132
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw520
 bioconductor-trackviewer:
     name: bioconductor-trackviewer
     description: A R/Bioconductor package with web interface for drawing elegant interactive
@@ -87112,7 +87122,8 @@ vardict:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw227
 variantbam:
     name: variantbam
     description: Filtering and profiling of next-generational sequencing data using
@@ -115180,7 +115191,8 @@ cath-tools:
     description: Protein structure comparison tools such as SSAP, as used by the Orengo
         Group in curating CATH.
     home_url: https://github.com/UCLOrengoGroup/cath-tools
-    identifiers: []
+    identifiers:
+      -   arXiv:1109.2378
     keywords:
       -   Clustering
       -   Protein Structure
@@ -115477,10 +115489,12 @@ snakefmt:
     manually_check: true
     name: snakefmt
     total_pulls: 5810
+    no_doi: true
 beepmod:
     description: A deep-learning method for dna modifcation (5mc and 6ma) prediction.
     home_url: https://github.com/WGLab/DeepMod
-    identifiers: []
+    identifiers:
+      -    doi:10.1038/s41467-019-10168-2
     keywords: []
     license: Not available
     manually_check: true
@@ -115759,7 +115773,8 @@ jasminesv:
 bwa-mem2:
     description: The next version of bwa-mem
     home_url: https://github.com/bwa-mem2/bwa-mem2
-    identifiers: []
+    identifiers:
+      -   arXiv:1907.12931
     keywords:
       -   Genomics
     license: MIT
@@ -115788,7 +115803,8 @@ bioconda2biocontainer:
     description: 'Biocontainers api client: find biocontainer images for bioconda
         packages'
     home_url: https://github.com/BioContainers/bioconda2biocontainer
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.07.21.187609
     keywords:
       -   Proteomics
       -   Genomics
@@ -117624,15 +117640,17 @@ unitem:
     home_url: https://github.com/dparks1134/UniteM
     identifiers: []
     keywords: []
-    license: Not available
+    license: GPL-3.0
     manually_check: true
     name: unitem
     total_pulls: 462
+    no_doi: true
 cliquesnv:
     description: Scalable reconstruction of intra-host viral populations from ngs
         reads
     home_url: https://github.com/vtsyvina/CliqueSNV
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/264242
     keywords:
       -   Clustering
     license: Not available
@@ -117643,7 +117661,9 @@ kb-python:
     description: 'A wrapper for the kallisto | bustools workflow for single-cell rna-seq
         pre-processing '
     home_url: https://github.com/pachterlab/kb_python
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/nbt.3519
+      -   doi:10.1101/673285
     keywords:
       -   RNA-Seq
     license: Not available
@@ -119617,7 +119637,8 @@ r-saige:
     description: SAIGE is an R package with Scalable and Accurate Implementation of
         Generalized mixed model
     home_url: https://github.com/weizhouUMICH/SAIGE
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41588-020-0621-6
     keywords:
       -   Genetics
     license: GNU GPL
@@ -120023,7 +120044,8 @@ gem2:
 cooltools:
     description: Analysis tools for genomic interaction data stored in .cool format
     home_url: https://github.com/open2c/cooltools
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3787004
     keywords: []
     license: MIT
     manually_check: true
@@ -120135,6 +120157,7 @@ batch_brb:
     manually_check: true
     name: batch_brb
     total_pulls: 507
+    no_doi: true
 qax:
     description: Extract data, metadata, bibliography and provenance from Qiime2 artifacts
     home_url: https://github.com/telatin/qax
@@ -120243,6 +120266,7 @@ variantmap:
     manually_check: true
     name: variantmap
     total_pulls: 232
+    no_doi: true
 genomescope2:
     description: Reference-free profiling of polyploid genomes
     home_url: https://github.com/tbenavi1/genomescope2.0
@@ -120355,7 +120379,8 @@ deltapd:
     description: DeltaPD is a tool used to determine outliers in a gene tree when
         compared against a reference tree.
     home_url: https://github.com/Ecogenomics/DeltaPD
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.4301163
     keywords:
       -   Genomics
     license: AGPL-3
@@ -120378,7 +120403,8 @@ mokapot:
 pore-c:
     description: Toolkit for processing pore-c concatemers
     home_url: https://github.com/nanoporetech/pore-c
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/833590
     keywords: []
     license: Not available
     manually_check: true
@@ -120388,15 +120414,17 @@ genotyphi:
     description: Assign genotypes to salmonella typhi genomes based on vcf files (mapped
         to typhi ct18 reference genome)
     home_url: https://github.com/katholt/genotyphi
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/ncomms12827
+      -   doi:10.1371/journal.pntd.0006408
+      -   doi:10.1128/mBio.00105-18
     keywords: []
     license: Not available
     manually_check: true
     name: genotyphi
     total_pulls: 155
 mavenn:
-    description: 'Mave-nn: genotype-phenotype maps from multiplex assays of variant
-        effect'
+    description: 'Mave-nn: genotype-phenotype maps from multiplex assays of variant effect'
     home_url: http://mavenn.readthedocs.io
     identifiers: []
     keywords: []
@@ -120515,6 +120543,7 @@ bamaddrg:
     manually_check: true
     name: bamaddrg
     total_pulls: 127
+    no_doi: true
 chewiesnake:
     description: Chewiesnake is a snakemake workflow that performs cgmlst allele calling
         for a set of assembled genomes using chewbbaca.
@@ -121170,7 +121199,8 @@ dram:
     home_url: https://github.com/shafferm/DRAM/
     total_pulls: 1829
     manually_check: false
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkaa621
     keywords:
       -   Genomics
       -   Metagenomics
