@@ -2,10 +2,10 @@ import requests
 
 
 def main():
-    i = 0
+    offset = 0
     while True:
         limit = 1000
-        url = "https://api.biocontainers.pro/ga4gh/trs/v2/tools?limit=" + str(limit) + "&offset=" + str(i)
+        url = "https://api.biocontainers.pro/ga4gh/trs/v2/tools?limit=" + str(limit) + "&offset=" + str(offset)
         # print(url)
         resp = requests.get(url)
         if resp.status_code == 204:
@@ -18,7 +18,7 @@ def main():
                 if 'tool_tags' not in tool:
                     tool['tool_tags'] = []
                 print(tool['id'] + "\t" + str(tool['pulls']) + "\t" + ','.join(tool['tool_tags']))
-            i = i + limit
+            offset = offset + limit
 
 
 if __name__ == "__main__":
