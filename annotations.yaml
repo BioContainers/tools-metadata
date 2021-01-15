@@ -79367,6 +79367,7 @@ ant:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 argh:
     name: argh
     description: An unobtrusive argparse wrapper with natural syntax
@@ -79585,7 +79586,9 @@ beagle-lib:
     keywords:
       -   Phylogenetics
       -   Genetics
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/sysbio/syr100
+      -   doi:10.1093/bioinformatics/btp244
 besst:
     name: besst
     description: This tool is a scaffolder. the input is a contig file and a set of
