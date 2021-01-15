@@ -17876,7 +17876,8 @@ longshot:
     total_pulls: 7
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/564443
 amas:
     name: amas
     description: Calculate various summary statistics on a multiple sequence alignment
@@ -18754,7 +18755,8 @@ pheniqs:
     keywords:
       -   Genomics
       -   Genetics
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/128512
 phantompeakqualtools:
     name: phantompeakqualtools
     description: This package computes informative enrichment and quality measures
@@ -18956,7 +18958,8 @@ r-rphast:
     total_pulls: 6
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bib/bbq072
 r-rtfbs:
     name: r-rtfbs
     description: Identifies and scores possible Transcription Factor Binding Sites
@@ -21072,7 +21075,8 @@ r-metalonda:
     keywords:
       -   Genomics
       -   Metagenomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s40168-018-0402-y
 r-phytools:
     name: r-phytools
     description: Phylogenetic tools for comparative biology
@@ -21091,7 +21095,8 @@ r-lme4qtl:
     total_pulls: 5
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12859-018-2057-x
 morpheus:
     name: morpheus
     description: mass spectrometry–based proteomics database search algorithm
@@ -23010,7 +23015,8 @@ r-intlim:
     keywords:
       -   Metabolomics
       -   Gene Expression
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12859-018-2085-6
 hail:
     name: hail
     description: Hail is an open-source, general-purpose, Python-based data analysis
@@ -24923,7 +24929,7 @@ whatsgnu:
     keywords:
       -   Proteomics
       -   Genetics
-    identifiers: []
+    identifiers:  -   doi:10.1186/s13059-020-01965-w
 arcs:
     name: arcs
     description: Scaffolding genome sequence assemblies using 10X Genomics data
@@ -58517,7 +58523,8 @@ r-firebrowser:
     total_pulls: 3
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/database/baw160
 hca-matrix-downloader:
     name: hca-matrix-downloader
     description: Python client for the hca dcp matrix service
@@ -62425,6 +62432,7 @@ r-digest:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 regex:
     name: regex
     description: Alternative regular expression module, to replace re.
@@ -62434,6 +62442,7 @@ regex:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-ggplot2:
     name: r-ggplot2
     description: A system for declaratively creating graphics. You provide the data,
@@ -62454,6 +62463,7 @@ r-readr:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-testthat:
     name: r-testthat
     description: A unit testing system designed to be fun, flexible and easy to set
@@ -62464,6 +62474,7 @@ r-testthat:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 ruamel.yaml:
     name: ruamel.yaml
     description: A YAML package for Python. It is a derivative of Kirill Simonov's
@@ -62474,6 +62485,7 @@ ruamel.yaml:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 setuptools_scm:
     name: setuptools_scm
     description: 'Setuptools_Scm: The blessed package to manage your versions by scm
@@ -62484,6 +62496,7 @@ setuptools_scm:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 stamp:
     name: stamp
     description: A graphical software package for analyzing taxonomic and functional
