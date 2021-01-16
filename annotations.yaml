@@ -13352,6 +13352,7 @@ sure:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bioconductor-gothic:
     name: bioconductor-gothic
     description: This is a hi-c analysis package using a cumulative binomial test
@@ -13797,6 +13798,7 @@ qcat:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 seurat-scripts:
     name: seurat-scripts
     description: A set of wrappers for individual components of the seurat package.
@@ -18011,7 +18013,8 @@ r-tcr:
     total_pulls: 7
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3367200
 longshot:
     name: longshot
     description: Longshot is a variant calling tool for diploid genomes using long
@@ -19160,6 +19163,7 @@ r-diffcorr:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-nbpseq:
     name: r-nbpseq
     description: Negative Binomial (NB) models for two-group comparisons and regression
