@@ -88137,11 +88137,13 @@ strip_it:
     description: Strip-it is a program that extracts predefined scaffolds from organic
         small molecules.
     license: LGPL
-    home_url: None
+    home_url: http://silicos-it.be.s3-website-eu-west-1.amazonaws.com/software/software.html
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1021/jm9602928
+      -   doi:10.1021/ci7003412
 r-shape:
     name: r-shape
     description: Functions for plotting graphical shapes such as ellipses, circles,
@@ -88152,6 +88154,7 @@ r-shape:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 triform2:
     name: triform2
     description: Improved sensitivity, specificity and control of false discovery
@@ -88162,7 +88165,8 @@ triform2:
     manually_check: true
     keywords:
       -   Genetics
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btz232
 r-biom:
     name: r-biom
     description: This is an R package for interfacing with the BIOM format.
@@ -88184,11 +88188,12 @@ r-circlize:
         more convenience and freedom to design figures for  better understanding complex
         patterns behind multi-dimensional data.
     license: GPL (>= 2)
-    home_url: None
+    home_url: https://github.com/jokergoo/circlize
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btu393
 r-diagram:
     name: r-diagram
     description: Visualises simple graphs (networks) based on a transition matrix,
@@ -88295,16 +88300,17 @@ r-globals:
         package is to make it as simple as possible to identify global objects for
         the purpose of exporting them in distributed compute environments.
     license: LGPL (>= 2.1)
-    home_url: None
+    home_url: https://CRAN.R-project.org/package=globals
     total_pulls: 0
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-hwriter:
     name: r-hwriter
     description: Easy-to-use and versatile functions to output R objects in HTML format
     license: LGPL-2.1
-    home_url: None
+    home_url: https://CRAN.R-project.org/package=hwriter
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -88314,11 +88320,12 @@ r-listenv:
     description: List environments are environments that can be indexed similarly
         to lists, e.g. 'x <- listenv(); x[[2]] <- "b"; names(x)[2] <- "B"; print(x$B)'.
     license: LGPL (>= 2.1)
-    home_url: None
+    home_url: https://CRAN.R-project.org/package=listenv
     total_pulls: 0
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-lsd:
     name: r-lsd
     description: Create lots of colorful plots in a plethora of variations (try the
