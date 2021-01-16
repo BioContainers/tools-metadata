@@ -4062,7 +4062,7 @@ salmid:
     total_pulls: 4802
     manually_check: true
     identifiers:
-      -   DOI:10.5281/zenodo.1409766
+      -   doi:10.5281/zenodo.1409766
     keywords: []
 segemehl:
     name: segemehl
@@ -4671,6 +4671,7 @@ shovill:
       -   Sequence assembly
       -   Whole genome sequencing
       -   Metagenome
+    no_doi: true
 anise_basil:
     name: anise_basil
     description: BASIL is a method to detect breakpoints for structural variants (including
@@ -5213,6 +5214,7 @@ pipelign:
       -   Clustering
       -   Sequence Alignment
     identifiers: []
+    no_doi: true
 lordec:
     name: lordec
     description: A hybrid error correction program for long, PacBio reads
@@ -5899,6 +5901,7 @@ python-hivclustering:
     keywords:
       -   Clustering
     identifiers: []
+    no_doi: true
 zerone:
     name: zerone
     description: Zerone discretizes several ChIP-seq replicates simultaneously and
@@ -6053,6 +6056,7 @@ berokka:
     keywords:
       -   Genomics
     identifiers: []
+    no_doi: true
 weblogo:
     name: weblogo
     description: Web-based application designed to make generate sequence logos.
@@ -6671,7 +6675,7 @@ spectra-cluster-cli:
       -   Mass Spectrometry
       -   Clustering
     identifiers:
-      -   doi: 10.1038/nmeth.3902
+      -   doi:10.1038/nmeth.3902
 clever-toolkit:
     name: clever-toolkit
     description: The clever toolkit (ctk) is a suite of tools to analyze next-generation
@@ -7378,6 +7382,7 @@ mzml2isa:
       -   Metabolomics
       -   Proteomics
     identifiers: []
+    no_doi: true
 sourmash:
     name: sourmash
     description: Compute and compare minhash signatures for dna data sets.
@@ -7465,7 +7470,8 @@ pyani:
     keywords:
       -   Clustering
       -   Sequence Alignment
-    identifiers: []
+    identifiers:
+      -   doi:10.1039/C5AY02550H
 tobias:
     name: tobias
     description: Transcription factor Occupancy prediction By Investigation of ATAC-seq
@@ -7486,7 +7492,8 @@ chromosight:
     manually_check: true
     keywords:
       -   Genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41467-020-19562-7
 scelvis:
     name: scelvis
     description: Scelvis - web-based visualization of single-cell data
@@ -8019,6 +8026,7 @@ crispector:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 biscuit:
     name: biscuit
     description: A utility for analyzing sodium bisulfite conversion-based DNA methylation/modification
@@ -8096,7 +8104,9 @@ wtdbg:
     total_pulls: 44
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41592-019-0669-3
+      -   doi:10.1101/530972
 crispresso2:
     name: crispresso2
     description: A software pipeline designed to enable rapid and intuitive interpretation
@@ -9672,6 +9682,7 @@ halla:
     keywords:
       -   Gene Expression
     identifiers: []
+    no_doi: true
 gmcloser:
     name: gmcloser
     description: GMcloser fills and closes the gaps present in scaffold assemblies,
@@ -10751,6 +10762,7 @@ cistrome_beta:
       -   Transcription Factors
       -   Transcriptome
     identifiers: []
+    no_doi: true
 genclust:
     name: genclust
     description: A genetic algorithm for clustering gene expression data.
@@ -10827,6 +10839,7 @@ deeplift:
       -   Clustering
       -   Genomics
     identifiers: []
+    no_doi: true
 fgwas:
     name: fgwas
     description: fgwas is a command line tool for integrating functional genomic information
@@ -10860,7 +10873,8 @@ dimspy:
     keywords:
       -   Metabolomics
       -   Mass spectrometry
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.3764169
 bioconductor-deseq2:
     name: bioconductor-deseq2
     description: R package for rna-seq differential expression analysis
@@ -11273,6 +11287,7 @@ nanopolishcomp:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 iced:
     name: iced
     description: The python module iced implements the ICE normalization of hic data.
@@ -11858,6 +11873,7 @@ scmap-cli:
     keywords:
       -   Clustering
     identifiers: []
+    no_doi: true
 caper:
     name: caper
     description: Cromwell Assisted Pipeline ExecutoR
@@ -11954,6 +11970,7 @@ repeatmodeler:
     keywords:
       -   Sequence composition, complexity and repeats
       -   Genomics
+    no_doi: true
 mpa-portable:
     name: mpa-portable
     description: MPA Portable is a light-weight and stand-alone software for the identification
@@ -12144,6 +12161,7 @@ mapdamage2:
     keywords:
       -   Genetics
     identifiers: []
+    no_doi: true
 genomepy:
     name: genomepy
     description: Download genomes the easy way.
@@ -12271,6 +12289,7 @@ sanitizeme:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bioconductor-dnacopy:
     name: bioconductor-dnacopy
     description: 'R package: dna copy number data analysis'
@@ -12937,7 +12956,8 @@ probabilistic2020:
     keywords:
       -   Clustering
       -   Protein Structure
-    identifiers: []
+    identifiers:
+      -   doi:10.1073/pnas.1616440113
 bioconductor-annotationhub:
     name: bioconductor-annotationhub
     description: This package provides a client for the bioconductor corresponding
@@ -13506,6 +13526,7 @@ mtsv-tools:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 igphyml:
     name: igphyml
     description: IgPhyML is a program designed to build phylogenetic trees and test
@@ -14406,6 +14427,7 @@ pychopper:
       -   Sequence Alignment
       -   Transcriptome
     identifiers: []
+    no_doi: true
 thapbi-pict:
     name: thapbi-pict
     description: THAPBI Phytophthora ITS1 Classifier Tool (PICT).
@@ -14745,6 +14767,7 @@ gatk4-spark:
       -   Clustering
       -   Genomics
     identifiers: []
+    no_doi: true
 r-deseqanalysis:
     name: r-deseqanalysis
     description: Toolkit for performing differential expression with deseq2.
@@ -15279,6 +15302,7 @@ hic2cool:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 rapidnj:
     name: rapidnj
     description: RapidNJ is an algorithmic engineered implementation of canonical
@@ -15370,7 +15394,7 @@ n50:
 motifraptor:
     name: motifraptor
     description: Motif-centric analysis on GWAS data
-    license: Partners
+    license: AGPL-3.0
     home_url: https://github.com/pinellolab/MotifRaptor
     total_pulls: 11
     manually_check: true
@@ -15379,6 +15403,7 @@ motifraptor:
       -   Gene Expression
       -   Transcription Factors
     identifiers: []
+    no_doi: true
 radsex:
     name: radsex
     description: The radsex software is part of RADSex, a computational workflow for
@@ -15709,7 +15734,8 @@ nanofilt:
     total_pulls: 10
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bty149
 alfred:
     name: alfred
     description: BAM alignment statistics, feature counting and feature annotation
@@ -15782,7 +15808,8 @@ bcalm:
     total_pulls: 10
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btw279
 r-stitch:
     name: r-stitch
     description: STITCH - Sequencing To Imputation Through Constructing Haplotypes
@@ -15804,7 +15831,7 @@ r-stitch:
       -   Polymorphism, Single Nucleotide
       -   Sequence Analysis, DNA
     identifiers:
-      -   doi10.1038/ng.3594
+      -   doi:10.1038/ng.3594
 ataqv:
     name: ataqv
     description: ataqv is a toolkit for measuring and comparing ATAC-seq results.
@@ -16294,6 +16321,7 @@ funannotate:
     keywords:
       -   Genomics
     identifiers: []
+    no_doi: true
 covtobed:
     name: covtobed
     description: covtobed - generate a BED file of covered regions from a BAM file
@@ -17292,7 +17320,8 @@ phylorank:
     manually_check: true
     keywords:
       -   Genomics
-    identifiers: []
+    identifiers:
+    no_doi: true
 kalign3:
     name: kalign3
     description: Kalign is a fast and accurate multiple sequence alignment algorithm.
@@ -17526,7 +17555,8 @@ bio-ting:
     manually_check: true
     keywords:
       -   Clustering
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.05.04.069914
 svtk:
     name: svtk
     description: Utilities for consolidating, filtering, resolving, and annotating
@@ -17799,7 +17829,8 @@ r-hemdag:
     total_pulls: 7
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12859-017-1854-y
 r-qorts:
     name: r-qorts
     description: The QoRTs software package is a fast, efficient, and portable multifunction
@@ -18042,6 +18073,7 @@ flextaxd:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-metacoder:
     name: r-metacoder
     description: A set of tools for parsing, manipulating, and graphing data classified
@@ -18124,7 +18156,8 @@ quickmerge:
     total_pulls: 7
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1534/g3.118.200162
 r-ddir:
     name: r-ddir
     description: An R package to access to Omics Discovery Index API
@@ -18525,7 +18558,8 @@ qorts:
     keywords:
       -   RNA-Seq
       -   Gene Expression
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12859-015-0670-5
 bumbershoot:
     name: bumbershoot
     description: The Bumbershoot tool suite for analyzing shotgun proteomic data
@@ -18686,7 +18720,8 @@ maxentpy:
     total_pulls: 6
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1089/1066527041410418
 genometools-genometools:
     name: genometools-genometools
     description: GenomeTools genome analysis system.
@@ -19317,7 +19352,8 @@ rnabloom:
     keywords:
       -   RNA-Seq
       -   Transcriptome
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/gr.260174.119
 goetia:
     name: goetia
     description: streaming de Bruijn graph compaction and sketching.
@@ -19605,6 +19641,7 @@ perl-velvetoptimiser:
     total_pulls: 5
     identifiers:
       -   biotools:velvetoptimiser
+      -   doi:10.1101/gr.074492.107
     manually_check: true
     keywords:
       -   Genomics
@@ -21148,6 +21185,7 @@ nvc:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bioconductor-fis:
     name: bioconductor-fis
     description: Human Functional Interactions (FIs) for splineTimeR package
@@ -21303,6 +21341,7 @@ regtools:
       -   Transcriptome
     identifiers:
       -   doi:10.1101/436634
+      -   doi:10.5281/zenodo.3596951
 phame:
     name: phame
     description: A tool to derive SNP matrices and phylogenetic tree from raw reads,
@@ -21397,7 +21436,8 @@ fred2:
     total_pulls: 5
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btw113
 pydemult:
     name: pydemult
     description: Streamed and parallel demultiplexing of fastq files in python
@@ -23039,7 +23079,9 @@ r-motifbinner:
     total_pulls: 5
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1073/pnas.1110064108
+      -   doi:10.1128/JVI.00522-15
 r-virfinder:
     name: r-virfinder
     description: 'VirFinder: a novel k-mer based tool for identifying viral sequences
@@ -23690,7 +23732,8 @@ multigps:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pcbi.1003501
 bpipe:
     name: bpipe
     description: This software provides a platform for running big bioinformatics
@@ -23867,7 +23910,8 @@ nanomath:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bty149
 irfinder:
     name: irfinder
     description: Intron Retention Finder
@@ -23949,7 +23993,8 @@ nanolyse:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bty149
 menetools:
     name: menetools
     description: Python 3 Metabolic Network Topology Tools
@@ -24044,6 +24089,7 @@ chipseq-greylist:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 vcfpy:
     name: vcfpy
     description: Python 3 VCF library with good support for both reading and writing
@@ -24191,7 +24237,8 @@ mamotif:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/s41421-018-0045-y
 ngs-bits:
     name: ngs-bits
     description: Short-read sequencing tools
@@ -24284,7 +24331,9 @@ mob_suite:
     keywords:
       -   Clustering
       -   Genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1099/mgen.0.000206
+      -   doi:10.1099/mgen.0.000435
 gotree:
     name: gotree
     description: gotree is a set of command line tools to manipulate phylogenetic
@@ -24295,6 +24344,7 @@ gotree:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pbcopper:
     name: pbcopper
     description: Core C++ library for data structures, algorithms, and utilities
@@ -24686,6 +24736,7 @@ hmftools-amber:
     keywords:
       -   Genomics
     identifiers: []
+    no_doi: true
 cromshell:
     name: cromshell
     description: Command-line interface to the cromwell workflow manager
@@ -24695,6 +24746,7 @@ cromshell:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bioconductor-lrbase.dme.eg.db:
     name: bioconductor-lrbase.dme.eg.db
     description: An annotation package for the lrbasedb object
@@ -24791,6 +24843,7 @@ fastq_utils:
     keywords:
       -   RNA-Seq
     identifiers: []
+    no_doi: true
 igor_vdj:
     name: igor_vdj
     description: IGoR is a C++ software designed to infer V(D)J recombination related
@@ -24866,7 +24919,8 @@ trnanalysis:
     total_pulls: 4
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/655829
 rsidx:
     name: rsidx
     description: Library for indexing vcf files for random access searches by rsid
@@ -25060,7 +25114,9 @@ xpressplot:
       -   Genomics
       -   RNA-Seq
       -   Gene Expression
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/704320
+      -   doi:10.1371/journal.pcbi.1007625
 flair:
     name: flair
     description: Correction, isoform definition, and alternative splicing analysis
@@ -25333,7 +25389,8 @@ minys:
     keywords:
       -   Genomics
       -   Metagenomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2019.12.13.875021
 ngsderive:
     name: ngsderive
     description: Backwards derive attributes from ngs data
@@ -25483,6 +25540,7 @@ pairsnp:
     keywords:
       -   Sequence Alignment
     identifiers: []
+    no_doi: true
 readucks:
     name: readucks
     description: 'Readucks: a simple demultiplexer for nanopore reads'
@@ -26239,6 +26297,7 @@ eukcc:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 docking_py:
     name: docking_py
     description: Docking_py is a python library allowing a simplified use of the smina,
@@ -67940,7 +67999,8 @@ augustus-data:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btn013
 aghermann:
     name: aghermann
     description: Sleep-research experiment manager
@@ -68107,7 +68167,8 @@ bedtools-test:
     manually_check: true
     keywords:
       -   Genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btq033
 alter-sequence-alignment:
     name: alter-sequence-alignment
     description: Genomic sequences alignment transformation environment
@@ -69339,6 +69400,7 @@ dazzdb:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 disulfinder-data:
     name: disulfinder-data
     description: Data files for predictor of disulfide bonds in proteins
@@ -69463,6 +69525,7 @@ garli:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 diamond-aligner:
     name: diamond-aligner
     description: Accelerated blast compatible local sequence aligner
@@ -69727,6 +69790,7 @@ garli-mpi:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 genometester:
     name: genometester
     description: Analyse whether pcr primers have excessive number of binding sites
@@ -70013,6 +70077,7 @@ hdmedians:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 hunspell-de-med:
     name: hunspell-de-med
     description: German medical dictionary for hunspell
@@ -70212,7 +70277,9 @@ jmodeltest:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/nmeth.2109
+      -   doi:10.1080/10635150390235520
 imagevis3d:
     name: imagevis3d
     description: Desktop volume rendering application for large data
@@ -70749,7 +70816,8 @@ lambda-align2:
     keywords:
       -   Genomics
       -   Metagenomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btu439
 plink1.9:
     name: plink1.9
     description: Whole-genome association analysis toolset
@@ -72202,7 +72270,8 @@ seqsero:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1128/JCM.00323-15
 profnet-chop:
     name: profnet-chop
     description: Neural network architecture for profchop
@@ -72320,6 +72389,7 @@ tifffile:
     keywords:
       -   Molecular Dynamics
     identifiers: []
+    no_doi: true
 vtkgdcm:
     name: vtkgdcm
     description: Grassroots dicom vtk/python bindings
@@ -72379,7 +72449,8 @@ unicycler-data:
     manually_check: true
     keywords:
       -   Metagenome
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pcbi.1005595
 profphd:
     name: profphd
     description: Secondary structure and solvent accessibility predictor
@@ -72587,7 +72658,8 @@ rtax:
     manually_check: true
     keywords:
       -   Clustering
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/ismej.2011.208
 relion-bin-plusmpi-plusgui:
     name: relion-bin-plusmpi-plusgui
     description: Parallel toolkit for 3d reconstructions in cryo-electron microscopy
@@ -72839,7 +72911,8 @@ pysam-tests:
     manually_check: true
     keywords:
       -   Sequence Alignment
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btp352
 pscan-tfbs:
     name: pscan-tfbs
     description: Search for transcription factor binding sites
@@ -73521,7 +73594,8 @@ smalr:
     manually_check: true
     keywords:
       -   Genetic variation
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/ncomms8438
 test-ci:
     name: test-ci
     description: A test container for internal testing
@@ -89652,7 +89726,7 @@ r-speedglm:
     description: fitting linear models and generalized linear models to large data
         sets by updating
     license: GPL-3.0
-    home_url: https://cran:.r-project.org/web/packages/speedglm/index.html
+    home_url: https://cran.r-project.org/web/packages/speedglm/index.html
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -101237,7 +101311,8 @@ pispino:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1111/2041-210X.12399
 vcf2genome:
     name: vcf2genome
     description: A tool to create a draft genome file out of a gatk vcf file and enabling
@@ -101857,11 +101932,12 @@ r-pegas:
         (HWE), haplotype networks, minimum spanning tree and network, and median-joining
         networks.
     license: GPL (>= 2)
-    home_url: http
+    home_url: http://ape-package.ird.fr/pegas.html
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btp696
 perl-socket:
     name: perl-socket
     description: Networking constants and support functions
@@ -102438,7 +102514,7 @@ esimsa:
     manually_check: true
     identifiers:
       -   biotools:esimsa
-      -   'doi: 10.1002/1097-0231(20000630)14:12<1029::AID-RCM984>3.0.CO;2-#'
+      -   'doi:10.1002/1097-0231(20000630)14:12<1029::AID-RCM984>3.0.CO;2-#'
     keywords:
       -   Proteomics
       -   Proteomics experiment
@@ -103658,8 +103734,8 @@ perl-string-random:
 metaquant:
     name: metaquant
     description: Quantitative microbiome analysis
-    license: Not available
-    home_url: The package home page
+    license: Apache
+    home_url: https://github.com/caleb-easterly/metaquant
     total_pulls: 0
     manually_check: true
     keywords:
@@ -113618,7 +113694,7 @@ rsat-core:
     manually_check: true
     identifiers:
       -   biotools:rsat
-      -   'doi: 10.1002/(SICI)1097-0061(20000130)16:2<177::AID-YEA516>3.0.CO;2-9'
+      -   'doi:10.1002/(SICI)1097-0061(20000130)16:2<177::AID-YEA516>3.0.CO;2-9'
       -   doi:10.1093/nar/gkg567
       -   doi:10.1006/jmbi.1998.1947
       -   doi:10.1093/nar/gkn304
@@ -116490,10 +116566,10 @@ merqury:
     total_pulls: 1282
 yak:
     description: Yet another k-mer analyzer
-    home_url: MIT
+    home_url: https://github.com/lh3/yak
     identifiers: []
     keywords: []
-    license: https://github.com/lh3/yak
+    license: MIT
     manually_check: true
     name: yak
     total_pulls: 936
