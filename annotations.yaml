@@ -16606,9 +16606,7 @@ smallgenomeutilities:
 r-wgcna:
     name: r-wgcna
     description: Functions necessary to perform Weighted Correlation Network Analysis
-        on high-dimensional data as originally described in Horvath and Zhang (2005)
-        <> and Langfelder and Horvath (2008) <doi:10.1186/1471-2105-9-559>. Includes
-        functions for rudimentary data cleaning, construction of correlation networks,
+        on high-dimensional data. Includes functions for rudimentary data cleaning, construction of correlation networks,
         module identification, summarization, and relating of variables and modules
         to sample traits. Also includes a number of utility functions for data manipulation
         and visualization.
@@ -18469,8 +18467,7 @@ pytriangle:
     identifiers: []
 r-spp:
     name: r-spp
-    description: Analysis of ChIP-seq and other functional sequencing data [Kharchenko
-        PV (2008) <DOI:10.1038/nbt.1508>].
+    description: Analysis of ChIP-seq and other functional sequencing data.
     license: GPL-2
     home_url: https://CRAN.R-project.org/package=spp
     total_pulls: 6
@@ -22835,7 +22832,7 @@ r-mixkernel:
         of the data. mixKernel also integrates kernel PCA to visualize similarities
         between samples in a non linear space and from the multiple source point of
         view. Functions to assess and display important variables are also provided
-        in the package. Jerome Mariette and  Nathalie Villa-Vialaneix (2017) <doi:10.1093/bioinformatics/btx682>.
+        in the package.
     license: GPL (>= 2)
     home_url: https://CRAN.R-project.org/package=mixKernel
     total_pulls: 5
@@ -44267,17 +44264,17 @@ r-shazam:
     description: 'Provides a computational framework for analyzing mutations in immunoglobulin
         (ig) sequences. includes methods for bayesian estimation of antigen-driven
         selection pressure, mutational load quantification, building of somatic hypermutation
-        (shm) models, and model-dependent distance calculations. also includes empirically
-        derived models of shm for both mice and humans. citations:  gupta and vander
-        heiden, et al (2015) <doi:10.1093/bioinformatics/btv359>,  yaari, et al (2012)
-        <doi:10.1093/nar/gks457>,  yaari, et al (2013) <doi:10.3389/fimmu.2013.00358>,  cui,
-        et al (2016) <doi:10.4049/jimmunol.1502263>.'
+        (shm) models, and model-dependent distance calculations.'
     license: AGPL-3
     home_url: http://shazam.readthedocs.io
     total_pulls: 3
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btv359
+      -   doi:10.4049/jimmunol.1502263
+      -   doi:10.3389/fimmu.2013.00358
+      -   doi:10.1093/nar/gks457
 r-scimpute:
     name: r-scimpute
     description: scImpute is accurate and robust imputation of single-cell RNA sequencing
@@ -53993,14 +53990,14 @@ bioconductor-appreci8r:
       -   Genomics
 r-dnet:
     name: r-dnet
-    description: The focus of the dnet by Fang and Gough (2014) <doi:10.1186/s13073-014-0064-8>
-        is
+    description: The focus of the dnet by Fang and Gough.
     license: GPL-2
     home_url: https://github.com/hfang-bristol/dnet
     total_pulls: 3
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+     -    doi:10.1186/s13073-014-0064-8
 bioconductor-randomwalkrestartmh:
     name: bioconductor-randomwalkrestartmh
     description: Random walk with restart on multiplex and heterogeneous Networks
@@ -61987,16 +61984,16 @@ r-seurat:
     description: A toolkit for quality control, analysis, and exploration of single
         cell RNA sequencing data. 'Seurat' aims to enable users to identify and interpret
         sources of heterogeneity from single cell transcriptomic measurements, and
-        to integrate diverse types of single cell data. See Satija R, Farrell J, Gennert
-        D, et al (2015) <doi:10.1038/nbt.3192>, Macosko E, Basu A, Satija R, et al
-        (2015) <doi:10.1016/j.cell.2015.05.002>, and Butler A and Satija R (2017)
-        <doi:10.1101/164889> for more details.
+        to integrate diverse types of single cell data.
     license: GPL-3
     home_url: http://www.satijalab.org/seurat
     total_pulls: 2
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/nbt.3192
+      -   doi:10.1101/164889
+      -   doi:10.1016/j.cell.2015.05.002
 ncfp:
     name: ncfp
     description: A program/module to find nt sequences that code for aa sequences
@@ -81044,6 +81041,7 @@ knot:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 libgtextutils:
     name: libgtextutils
     description: '# Libgtextutils'
@@ -81053,6 +81051,7 @@ libgtextutils:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 logbook:
     name: logbook
     description: A logging replacement for python
@@ -81062,6 +81061,7 @@ logbook:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 mathstats:
     name: mathstats
     description: Statistical functions, goodness-of-fit tests and special and special
@@ -81072,6 +81072,7 @@ mathstats:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 mawk:
     name: mawk
     description: Mawk is an interpreter for the awk programming language.
@@ -81081,6 +81082,7 @@ mawk:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 mbuffer:
     name: mbuffer
     description: Mbuffer is a tool for buffering data streams with a large set of
@@ -81091,6 +81093,7 @@ mbuffer:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 medusa:
     name: medusa
     description: A draft genome scaffolder that uses multiple reference genomes in
@@ -81116,6 +81119,7 @@ melt:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 mendelscan:
     name: mendelscan
     description: Analyze exome data for mendelian disorders.
@@ -81124,7 +81128,8 @@ mendelscan:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1016/j.ajhg.2014.01.016
 merfishtools:
     name: merfishtools
     description: merfishtools implement a bayesian framework for accurately predicting
@@ -81134,7 +81139,8 @@ merfishtools:
     manually_check: true
     keywords:
       -   Gene Expression
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bty718
 metaseq-all:
     name: metaseq-all
     description: Meta-package for metaseq including bedtools and ucsc tools
@@ -81166,8 +81172,7 @@ metasv:
       -   Structure analysis
 metavelvet:
     name: metavelvet
-    description: 'Metavelvet : an extension of velvet assembler to de novo metagenome
-        assembly from short sequence reads'
+    description: 'Metavelvet : an extension of velvet assembler to de novo metagenome assembly from short sequence reads'
     license: GPL-2.0
     home_url: http://metavelvet.dna.bio.keio.ac.jp
     total_pulls: 0
@@ -81217,7 +81222,8 @@ minced:
     manually_check: true
     keywords:
       -   Metagenome
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/1471-2105-8-209
 mira:
     name: mira
     description: Mira is a whole genome shotgun and est sequence assembler for sanger,
@@ -81266,7 +81272,8 @@ mirdeep2:
       -   Genetics
       -   Transcription Factors
       -   Transcriptome
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/nbt1394
 moca:
     name: moca
     description: Tool for motif conservation analysis
@@ -81276,6 +81283,7 @@ moca:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 moreutils:
     name: moreutils
     description: A growing collection of the unix tools that nobody thought to write
@@ -81286,6 +81294,7 @@ moreutils:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 mosaik:
     name: mosaik
     description: Mosaik is a stable, sensitive and open-source program for mapping
@@ -81388,7 +81397,8 @@ msprime:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pcbi.1004842
 mugsy:
     name: mugsy
     description: Mugsy is a multiple whole genome aligner.
@@ -81414,6 +81424,7 @@ multiprocess:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 mvicuna:
     name: mvicuna
     description: M-vicuna is a modularized version of vicuna, a de novo assembly program
@@ -81428,7 +81439,8 @@ mvicuna:
       -   Metabolomics
       -   Sequence Alignment
       -   Genetics
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/1471-2164-13-475
 mygene:
     name: mygene
     description: Python client for mygene.info services.
@@ -81450,6 +81462,7 @@ mysqlclient:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 mysql-connector-c:
     name: mysql-connector-c
     description: MySQL Connector/C, the C interface for communicating with MySQL servers.
@@ -81459,15 +81472,17 @@ mysql-connector-c:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 nasm:
     name: nasm
     description: NASM, the Netwide Assembler.
     license: Simplified BSD License
-    home_url: None
+    home_url: https://github.com/netwide-assembler/nasm
     total_pulls: 0
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 netifaces:
     name: netifaces
     description: Its been annoying me for some time that theres no easy way to get
@@ -81484,6 +81499,7 @@ netifaces:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 networkxgmml:
     name: networkxgmml
     description: Xgmml parser for networkx
@@ -81493,6 +81509,7 @@ networkxgmml:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 newt:
     name: newt
     description: Newt is a programming library for color text mode, widget based user
@@ -81523,6 +81540,7 @@ nose-capturestderr:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 oauth2client:
     name: oauth2client
     description: Client library for oauth 2.0
@@ -81532,6 +81550,7 @@ oauth2client:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 ocrad:
     name: ocrad
     description: Ocrad is an optical character recognition program.
@@ -81541,6 +81560,7 @@ ocrad:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 oligotyping:
     name: oligotyping
     description: The oligotyping and minimum entropy decomposition (med) pipeline
@@ -81550,7 +81570,8 @@ oligotyping:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1073/pnas.1409644111
 openpyxl:
     name: openpyxl
     description: A python library to read/write excel 2007 xlsx/xlsm files
@@ -81560,6 +81581,7 @@ openpyxl:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 optbuild:
     name: optbuild
     description: Build command lines for external programs
@@ -81569,6 +81591,7 @@ optbuild:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 optplus:
     name: optplus
     description: Additional options for optparse
@@ -81578,6 +81601,7 @@ optplus:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 parallel:
     name: parallel
     description: Gnu parallel is a shell tool for executing jobs in parallel using
@@ -81588,6 +81612,7 @@ parallel:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pathtools:
     name: pathtools
     description: File system general utilities
@@ -81597,6 +81622,7 @@ pathtools:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pbgzip:
     name: pbgzip
     description: Parallel block gzip
@@ -81604,9 +81630,9 @@ pbgzip:
     home_url: https://github.com/nh13/pbgzip
     total_pulls: 0
     manually_check: true
-    keywords:
-      -   Genomics
+    keywords: []
     identifiers: []
+    no_doi: true
 pdfkit:
     name: pdfkit
     description: Wkhtmltopdf python wrapper to convert html to pdf using the webkit
@@ -81617,6 +81643,7 @@ pdfkit:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 peakranger:
     name: peakranger
     description: Peakranger is a multi-purporse software suite for analyzing next-generation
@@ -81672,6 +81699,7 @@ ped_parser:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 peewee:
     name: peewee
     description: A little orm
@@ -81681,6 +81709,7 @@ peewee:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pepr:
     name: pepr
     description: Peak-calling and prioritization pipeline for replicated chip-seq
@@ -81727,6 +81756,7 @@ perl-algorithm-munkres:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-app-cpanminus:
     name: perl-app-cpanminus
     description: Get, unpack, build and install modules from cpan
@@ -88094,14 +88124,14 @@ r-seqinr:
     name: r-seqinr
     description: Exploratory data analysis and data visualization for biological sequence
         (DNA and protein) data. Seqinr includes  utilities for sequence data management
-        under the ACNUC system described in Gouy, M. et al. (1984) Nucleic Acids Res.
-        12:121-127 <doi:10.1093/nar/12.1Part1.121>.
+        under the ACNUC system.
     license: GPL (>= 2)
     home_url: None
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/12.1Part1.121
 strip_it:
     name: strip_it
     description: Strip-it is a program that extracts predefined scaffolds from organic
@@ -89605,16 +89635,17 @@ r-pscl:
         for GLMs; data sets used in writing and teaching at the Political Science
         Computational Laboratory; seats-votes curves.
     license: GPL-2.0
-    home_url: http://pscl.stanford.edu/
+    home_url: https://github.com/atahk/pscl
     total_pulls: 0
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-gamlss.dist:
     name: r-gamlss.dist
     description: A set of distributions which can be used for modelling the response
         variables in Generalized Additive Models for Location Scale and Shape, Rigby
-        and Stasinopoulos (2005), <doi:10.1111/j.1467-9876.2005.00510.x>. The distributions
+        and Stasinopoulos (2005). The distributions
         can be continuous, discrete or mixed distributions. Extra distributions can
         be created, by transforming, any continuous distribution defined on the real
         line, to a distribution defined on ranges 0 to infinity or 0 to 1, by using
@@ -89629,7 +89660,7 @@ r-gamlss.dist:
 r-gamlss:
     name: r-gamlss
     description: Functions for fitting the Generalized Additive Models for Location
-        Scale and Shape introduced by Rigby and Stasinopoulos (2005), <doi:10.1111/j.1467-9876.2005.00510.x>.
+        Scale and Shape introduced by Rigby and Stasinopoulos (2005).
         The models use a distributional regression approach where all the parameters
         of the conditional distribution of the response variable are modelled using
         explanatory variables.
@@ -90295,6 +90326,7 @@ r-progress:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pgma-simple:
     name: pgma-simple
     description: Pgma is a simple program for building WPGMA trees.
@@ -90345,9 +90377,7 @@ r-prroc:
         for weighted (e.g., soft-labeled) and unweighted data. In contrast to other
         implementations, the interpolation between points of the PR curve is done
         by a non-linear piecewise function. In addition to the areas under the curves,
-        the curves themselves can also be computed and plotted by a specific S3-method.
-        References: Davis and Goadrich (2006) <doi:10.1145/1143844.1143874>; Keilwagen
-        et al. (2014) <doi:10.1371/journal.pone.0092209>; Grau et al. (2015) <doi:10.1093/bioinformatics/btv153>.'
+        the curves themselves can also be computed and plotted by a specific S3-method.'
     license: GPL-3.0
     home_url: https://CRAN.R-project.org/package=PRROC
     total_pulls: 0
@@ -91380,13 +91410,14 @@ r-tfmpvalue:
         match score. TFMPvalue provides the accurate calculation of P-value with score
         threshold for Position Weight Matrices, or the score with given P-value. It
         is an interface to code originally made available by Helene Touzet and Jean-Stephane
-        Varre, 2007, Algorithms Mol Biol:2, 15. Touzet and Varre (2007) <DOI:10.1186/1748-7188-2-15>.
+        Varre, 2007, Algorithms Mol Biol:2, 15. Touzet and Varre (2007) <>.
     license: GPL-2.0
     home_url: https://github.com/ge11232002/TFMPvalue
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/1748-7188-2-15
 r-aod:
     name: r-aod
     description: This package provides a set of functions to analyse overdispersed
@@ -93689,10 +93720,7 @@ r-segmented:
     name: r-segmented
     description: Given a regression model, segmented updates it by adding one or more
         segmented (i.e., piece-wise linear) relationships. Several variables with
-        multiple breakpoints are allowed. The estimation method is discussed in Muggeo
-        (2003, <doi:10.1002/sim.1545>) and illustrated in Muggeo (2008, <https://www.r-project.org/doc/Rnews/Rnews_2008-1.pdf>).
-        An approach for hypothesis testing is presented in Muggeo (2016, <doi:10.1080/00949655.2016.1149855>),
-        and interval estimation for the breakpoint is discussed in Muggeo (2017, <doi:10.1111/anzs.12200>).
+        multiple breakpoints are allowed.
     license: GPL
     home_url: https://cran.r-project.org/package=segmented
     total_pulls: 0
@@ -100933,14 +100961,14 @@ r-asics:
     description: 'With a set of pure metabolite spectra, ASICS quantifies  metabolites
         concentration in a complex spectrum. The identification of  metabolites is
         performed by fitting a mixture model to the spectra of the library with a
-        sparse penalty. The method and its statistical properties are  described in
-        Tardivel et al. (2017) <doi:10.1007/s11306-017-1244-5>. '
+        sparse penalty.'
     license: GPL (>= 2)
     home_url: https://CRAN.R-project.org/package=ASICS
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1007/s11306-017-1244-5
 treekin:
     name: treekin
     description: Compute folding dynamics on coarse grained version of an energy landscape
@@ -102938,8 +102966,7 @@ r-nodiv:
     name: r-nodiv
     description: 'An implementation of the nodiv algorithm, see Borregaard, M.K.,
         Rahbek, C., Fjeldsaa, J., Parra, J.L., Whittaker, R.J. & Graham, C.H. 2014.
-        Node-based analysis of species distributions. Methods in Ecology and Evolution
-        5(11): 1225-1235. <DOI:10.1111/2041-210X.12283>. Package for phylogenetic
+        Node-based analysis of species distributions. Package for phylogenetic
         analysis of species distributions. The main function goes through each node
         in the phylogeny, compares the distributions of the two descendant nodes,
         and compares the result to a null model. This highlights nodes where major
@@ -104841,10 +104868,7 @@ r-ggrasp:
         the package clusters the genomes and selects the most representative members
         of each cluster. Additional data can be provided to the prioritize certain
         genomes. The results can be printed out as a list or a new phylogeny with
-        graphs of the trees and distance distributions also available. For detailed
-        introduction see: Thomas H Clarke, Lauren M Brinkac, Granger Sutton, and Derrick
-        E Fouts (2018), GGRaSP: a R-package for selecting representative genomes using
-        Gaussian mixture models, Bioinformatics, bty300, <doi:10.1093/bioinformatics/bty300>.'
+        graphs of the trees and distance distributions also available.'
     license: GPL-2
     home_url: https://CRAN.R-project.org/package=ggrasp
     total_pulls: 0
@@ -105672,8 +105696,7 @@ perl-carp-clan:
 r-fateid:
     name: r-fateid
     description: Application of 'FateID' allows computation and visualization of cell
-        fate bias for multi-lineage single cell transcriptome data. Herman, J.S.,
-        Sagar, Grün D. (2017) <DOI:10.1038/nmeth.4662>.
+        fate bias for multi-lineage single cell transcriptome data.
     license: GPL-3
     home_url: https://CRAN.R-project.org/package=FateID
     total_pulls: 0
@@ -107605,8 +107628,7 @@ r-corbi:
 r-nam:
     name: r-nam
     description: Designed for association studies in nested association mapping (NAM)
-        panels, experimental and random panels. The method is described by Xavier
-        et al. (2015) <doi:10.1093/bioinformatics/btv448>. It includes tools for genome-wide
+        panels, experimental and random panels. It includes tools for genome-wide
         associations of multiple populations, marker quality control, population genetics
         analysis, genome-wide prediction, solving mixed models and finding variance
         components through likelihood and Bayesian methods.
@@ -108046,7 +108068,8 @@ r-rbamtools:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btu846
 r-gwasexacthw:
     name: r-gwasexacthw
     description: This package contains a function to do exact Hardy-Weinburg testing
@@ -108105,6 +108128,7 @@ r-qpcr:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 biothings_client:
     name: biothings_client
     description: Python client for biothings api services.
@@ -108260,13 +108284,14 @@ r-gap:
         analysis, and association analysis involving genetic markers including haplotype
         analysis with or without environmental covariates.
     license: GPL (>= 2)
-    home_url: https://jinghuazhao.github.io
+    home_url: https://github.com/jinghuazhao/R
     total_pulls: 0
     manually_check: true
     keywords:
       -   Genomics
       -   Genetics
     identifiers: []
+    no_doi: true
 perl-array-set:
     name: perl-array-set
     description: Perform set operations on arrays
@@ -108679,8 +108704,7 @@ mirtrace:
 r-bc3net:
     name: r-bc3net
     description: 'Implementation of the BC3NET algorithm for gene regulatory network
-        inference (de Matos Simoes and Frank Emmert-Streib, Bagging Statistical Network
-        Inference from Large-Scale Gene Expression Data, PLoS ONE 7(3): e33624, <doi:10.1371/journal.pone.0033624>).'
+        inference. Bagging Statistical Network Inference from Large-Scale Gene Expression Data.'
     license: GPL (>= 2)
     home_url: https://CRAN.R-project.org/package=bc3net
     total_pulls: 0
@@ -108809,8 +108833,7 @@ bioconductor-immunespacer:
       -   Gene Expression
 r-hardyweinberg:
     name: r-hardyweinberg
-    description: 'Contains tools for exploring Hardy-Weinberg equilibrium (Hardy,
-        1908;  Weinberg, 1908) <doi:10.1126/science.28.706.49> for bi and multi-allelic
+    description: 'Contains tools for exploring Hardy-Weinberg equilibrium for bi and multi-allelic
         genetic marker data. All classical tests (chi-square, exact, likelihood-ratio
         and permutation tests) with bi-allelic variants are included in the package,
         as well as functions for power computation and for the simulation of marker
@@ -108829,6 +108852,7 @@ r-hardyweinberg:
     manually_check: true
     identifiers:
       -   doi:10.1038/hdy.2016.20
+      -   doi:10.1126/science.28.706.49
     keywords:
       -   Chromosomes, Human, X
       -   Female
@@ -121542,10 +121566,11 @@ r-popgenome:
     name: r-popgenome
     description: Not available
     license: Not available
-    home_url: Not available
+    home_url: https://CRAN.R-project.org/package=PopGenome
     total_pulls: 40554
     manually_check: false
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/molbev/msu136
     keywords: []
 r-metstat:
     name: r-metstat
@@ -121669,7 +121694,7 @@ deepgoplus:
 drop:
     name: drop
     description: Detection of rna outlier pipeline
-    license: Not available
+    license: MIT
     home_url: https://github.com/gagneurlab/drop
     total_pulls: 4274
     manually_check: false
