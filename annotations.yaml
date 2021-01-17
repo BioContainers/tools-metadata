@@ -63240,7 +63240,8 @@ kraken-biom:
     keywords:
       -   Genomics
       -   Metagenomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/gb-2014-15-3-r46
 bioconductor-bsgenome.celegans.ucsc.ce10:
     name: bioconductor-bsgenome.celegans.ucsc.ce10
     description: Full genome sequences for caenorhabditis elegans (ucsc version ce10)
@@ -63260,7 +63261,8 @@ nanoqc:
     total_pulls: 1
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bty149
 hs-blastn:
     name: hs-blastn
     description: hs-blastn, a fast and accurate nucleotide-nucleotide sequences aligner.
@@ -83801,6 +83803,7 @@ py-graphviz:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pyinotify:
     name: pyinotify
     description: Linux filesystem events monitoring.
@@ -83810,6 +83813,7 @@ pyinotify:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pyloh:
     name: pyloh
     description: Deconvolving tumor purity and ploidy by integrating copy number alterations
@@ -83846,6 +83850,7 @@ pyomo:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pytest-mock:
     name: pytest-mock
     description: Thin-wrapper around the mock package for easier use with py.test.
@@ -83855,6 +83860,7 @@ pytest-mock:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pytest-mpl:
     name: pytest-mpl
     description: Pytest plugin to help with testing figures output.
@@ -83864,6 +83870,7 @@ pytest-mpl:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pytest-timeout:
     name: pytest-timeout
     description: py.test plugin to abort hanging tests
@@ -83873,6 +83880,7 @@ pytest-timeout:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 python-consensuscore:
     name: python-consensuscore
     description: c++ library of multiple-sequence consensus routines with swig bindings.
@@ -83891,6 +83899,7 @@ python-fakemp:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 python-magic:
     name: python-magic
     description: File type identification using libmagic
@@ -83900,6 +83909,7 @@ python-magic:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pythonpy:
     name: pythonpy
     description: The swiss army knife of the command line
@@ -83909,6 +83919,7 @@ pythonpy:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 python-weblogo:
     name: python-weblogo
     description: Tool for creating sequence logos from biological sequence alignments
@@ -83927,6 +83938,7 @@ python-wget:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pyx:
     name: pyx
     description: Python package for the generation of postscript, pdf, and svg files
@@ -83936,6 +83948,7 @@ pyx:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 qiime-default-reference:
     name: qiime-default-reference
     description: Default reference data files for use with qiime.
@@ -83975,11 +83988,12 @@ r-abind:
         arrays.  Also provides functions 'adrop', 'asub', and 'afill' for manipulating,
         extracting and replacing data in arrays.
     license: LGPL (>= 2)
-    home_url: None
+    home_url: https://cran.r-project.org/package=abind
     total_pulls: 0
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-ade4:
     name: r-ade4
     description: Tools for multivariate data analysis. Several methods are provided
@@ -83989,11 +84003,12 @@ r-ade4:
         coinertia analysis). The philosophy of the package is described in Dray and
         Dufour (2007)
     license: GPL (>= 2)
-    home_url: None
+    home_url: https://cran.r-project.org/package=ade4
     total_pulls: 0
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 rainbow:
     name: rainbow
     description: Efficient tool for clustering and assembling short reads, especially
@@ -87953,7 +87968,8 @@ r-mutationalpatterns:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13073-018-0539-0
 pygresql:
     name: pygresql
     description: Python postgresql interfaces
@@ -87962,7 +87978,8 @@ pygresql:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+    no_doi: true
 intervaltree:
     name: intervaltree
     description: Editable interval tree data structure for python
@@ -88266,33 +88283,36 @@ r-future:
         Additional types of futures are provided by other packages enhancing this
         package.
     license: LGPL (>= 2.1)
-    home_url: None
+    home_url: https://cran.r-project.org/package=future
     total_pulls: 0
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-getoptlong:
     name: r-getoptlong
     description: This is yet another command-line argument parser which wraps the  powerful
         Perl module Getopt::Long and with some adaptation for easier use in R. It
         also provides a simple way for variable interpolation in R.
     license: GPL (>= 2)
-    home_url: None
+    home_url: https://cran.r-project.org/package=getoptlong
     total_pulls: 0
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-ggally:
     name: r-ggally
     description: GGally is designed to be a helper to ggplot2. It contains templates
         for different plots to be combined into a plot matrix, a parallel coordinate
         plot function, as well as a function for making a network plot.
     license: GPL (>= 2.0)
-    home_url: None
+    home_url: https://CRAN.R-project.org/package=ggally
     total_pulls: 0
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-globals:
     name: r-globals
     description: Identifies global ("unknown") objects in R expressions by code inspection
@@ -88331,11 +88351,12 @@ r-lsd:
     description: Create lots of colorful plots in a plethora of variations (try the
         LSD demotour() )
     license: Unlimited
-    home_url: None
+    home_url: https://CRAN.R-project.org/package=lsd
     total_pulls: 0
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-matrixstats:
     name: r-matrixstats
     description: High-performing functions operating on rows and columns of matrices,
@@ -88344,53 +88365,58 @@ r-matrixstats:
         usage and processing time is minimized.  There are also optimized vector-based
         methods, e.g. binMeans(), madDiff() and weightedMedians().
     license: Artistic-2.0
-    home_url: None
+    home_url: https://CRAN.R-project.org/package=matrixstats
     total_pulls: 0
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-mclust:
     name: r-mclust
     description: Normal Mixture Modelling fitted via EM algorithm for Model-Based
         Clustering, Classification, and Density Estimation, including Bayesian regularization.
     license: GPL (>= 2)
-    home_url: None
+    home_url: https://CRAN.R-project.org/package=mclust
     total_pulls: 0
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 discovardenovo:
     name: discovardenovo
     description: Genome assembler designed for state-of-the-art data. it can generate
         de novo assemblies for both large and small genomes. it currently does not
         call variants.
-    license: Not available
+    license: Custom License
     home_url: http://www.broadinstitute.org/software/discovar/blog/
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/ng.3121
 r-getopt:
     name: r-getopt
     description: package designed to be used with rscript to write ``#!'' shebang
         scripts that accept
     license: GPL (>= 2)
-    home_url: Not available
+    home_url: https://CRAN.R-project.org/package=getopt
     total_pulls: 0
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-lambda.r:
     name: r-lambda.r
     description: A language extension to efficiently write functional programs in
         R. Syntax extensions include multi-part function definitions, pattern matching,
         guard statements, built-in (optional) type safety.
     license: LGPL-3
-    home_url: None
+    home_url: https://CRAN.R-project.org/package=lambda.r
     total_pulls: 0
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-bigmemory:
     name: r-bigmemory
     description: Create, store, access, and manipulate massive matrices. Matrices
@@ -88398,11 +88424,12 @@ r-bigmemory:
         'biganalytics', 'bigtabulate', 'synchronicity', and 'bigalgebra' provide advanced
         functionality.
     license: LGPL-3 | Apache-2.0
-    home_url: None
+    home_url: https://CRAN.R-project.org/package=bigmemory
     total_pulls: 0
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-bigmemory.sri:
     name: r-bigmemory.sri
     description: This package provides a shared resource interface for the bigmemory
@@ -88413,6 +88440,7 @@ r-bigmemory.sri:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 lz4-bin:
     name: lz4-bin
     description: Extremely Fast Compression Application
@@ -88422,6 +88450,7 @@ lz4-bin:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r:
     name: r
     description: R is a free software environment for statistical computing and graphics.
@@ -88456,6 +88485,7 @@ cwltest:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 rnabob:
     name: rnabob
     description: Fast rna motif searching
@@ -88481,6 +88511,7 @@ cansam:
     keywords:
       -   Sequence Alignment
     identifiers: []
+    no_doi: true
 gnuplot-py:
     name: gnuplot-py
     description: A Python interface to the gnuplot plotting program.
@@ -88490,6 +88521,7 @@ gnuplot-py:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-grass:
     name: perl-grass
     description: "Gene Rearrangement AnalySiS: Takes pairs of coordinates describing\
@@ -88501,16 +88533,18 @@ perl-grass:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-rlist:
     name: r-rlist
     description: provides a set of functions for data manipulation with list objects,
         including mapping
     license: MIT
-    home_url: Not available
+    home_url: https://CRAN.R-project.org/package=rlist
     total_pulls: 0
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 sbt:
     name: sbt
     description: 'SBT Scala language '
@@ -88520,6 +88554,7 @@ sbt:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 goleft:
     name: goleft
     description: goleft is a collection of bioinformatics tools distributed under
@@ -88531,6 +88566,7 @@ goleft:
     keywords:
       -   Genomics
     identifiers: []
+    no_doi: true
 pywdl:
     name: pywdl
     description: A Python implementation of a WDL parser and language bindings.
@@ -88540,6 +88576,7 @@ pywdl:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 xtermcolor:
     name: xtermcolor
     description: Python library for terminal color support (including 256-color support
@@ -88549,6 +88586,7 @@ xtermcolor:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 dextractor:
     name: dextractor
     description: Bax File Decoder and Data Compressor
@@ -88558,6 +88596,7 @@ dextractor:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 treebest:
     name: treebest
     description: 'TreeBeST: Tree Building guided by Species Tree, used in the Ensembl
@@ -88569,6 +88608,7 @@ treebest:
     keywords:
       -   Ortholog
     identifiers: []
+    no_doi: true
 pythomics:
     name: pythomics
     description: A multi-omic python package
@@ -88581,6 +88621,7 @@ pythomics:
       -   Genomics
       -   Transcriptomics
     identifiers: []
+    no_doi: true
 myriad:
     name: myriad
     description: Simple distributed computing.
@@ -88590,6 +88631,7 @@ myriad:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 rmap:
     name: rmap
     description: rmap is a short reads mapper for next-generation sequencing data
@@ -88620,6 +88662,7 @@ xsd:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-bio-db-hts:
     name: perl-bio-db-hts
     description: Read files using HTSlib including BAM/CRAM, Tabix and BCF database
@@ -88631,6 +88674,7 @@ perl-bio-db-hts:
     keywords:
       -   Sequence Alignment
     identifiers: []
+    no_doi: true
 r-relations:
     name: r-relations
     description: Data structures and algorithms for k-ary relations with arbitrary
@@ -88642,6 +88686,7 @@ r-relations:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-sets:
     name: r-sets
     description: Data structures and basic operations for ordinary sets, generalizations
@@ -88653,6 +88698,7 @@ r-sets:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 stacks_summary:
     name: stacks_summary
     description: Stacks reports generator
@@ -88700,6 +88746,7 @@ r-wrassp:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 tgt:
     name: tgt
     description: Textgridtools -- read, write, and manipulate praat textgrid files
@@ -88709,6 +88756,7 @@ tgt:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 spectrassembler:
     name: spectrassembler
     description: Tool (experimental) to compute layout from overlaps with spectral
@@ -88766,7 +88814,8 @@ biogridpy:
     manually_check: true
     keywords:
       -   Genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btr062
 drive:
     name: drive
     description: Google drive client for the commandline
@@ -88776,6 +88825,7 @@ drive:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 recon:
     name: recon
     description: The recon package performs de novo identification and classification
@@ -88807,11 +88857,12 @@ repeatscout:
     name: repeatscout
     description: De novo identification of repeat families in large genomes.
     license: GPL
-    home_url: http://repeatscout.bioprojects.org
+    home_url: http://bix.ucsd.edu/repeatscout/
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/bti1018
 dscr:
     name: dscr
     description: Not available
@@ -88821,6 +88872,7 @@ dscr:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 rscape:
     name: rscape
     description: R-scape (rna structural covariation above phylogenetic expectation)
@@ -89624,6 +89676,7 @@ r-logging:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-gamlss.data:
     name: r-gamlss.data
     description: Data used as examples to demonstrate GAMLSS models.
@@ -93984,6 +94037,7 @@ perl-hpc-runner-command-plugin-logger-sqlite:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-params-validate:
     name: perl-params-validate
     description: Validate method/function parameters
@@ -93993,6 +94047,7 @@ perl-params-validate:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 neptune:
     name: neptune
     description: 'Neptune: genomic signature discovery'
@@ -94028,6 +94083,7 @@ requests-mock:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 ciso8601:
     name: ciso8601
     description: Fast ISO8601 date time parser for Python written in C
@@ -94037,6 +94093,7 @@ ciso8601:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 sqlalchemy-utils:
     name: sqlalchemy-utils
     description: Various utility functions for SQLAlchemy.
@@ -94056,6 +94113,7 @@ dominate:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pymzml:
     name: pymzml
     description: Python module to parse mzml data based on celementtree.
@@ -94092,7 +94150,8 @@ imfusion:
     manually_check: true
     keywords:
       -   RNA-Seq
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkx461
 scoop:
     name: scoop
     description: Scalable concurrent operations in python
@@ -94102,6 +94161,7 @@ scoop:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pygraphviz:
     name: pygraphviz
     description: Python interface to Graphviz
@@ -94111,6 +94171,7 @@ pygraphviz:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 intervals:
     name: intervals
     description: Python tools for handling intervals (ranges of comparable objects).
@@ -94120,6 +94181,7 @@ intervals:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 socksipy-branch:
     name: socksipy-branch
     description: A python socks module
@@ -94129,6 +94191,7 @@ socksipy-branch:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pydotplus:
     name: pydotplus
     description: PyDotPlus is an improved version of the old pydot project that provides
@@ -94139,6 +94202,7 @@ pydotplus:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-qlcmatrix:
     name: r-qlcmatrix
     description: Extension of the functionality of the Matrix package for using sparse
@@ -116555,6 +116619,7 @@ buplomap:
     manually_check: true
     name: duplomap
     total_pulls: 2992
+    no_doi: true
 centrifuge-core:
     description: Classifier for metagenomic sequences. Does not include evaluation
         scripts
@@ -116588,6 +116653,7 @@ hifiasm:
     manually_check: true
     name: hifiasm
     total_pulls: 7341
+    no_doi: true
 merqury:
     description: Evaluate genome assemblies with k-mers and more.
     home_url: https://github.com/marbl/merqury
@@ -120076,6 +120142,7 @@ sqlite:
     manually_check: true
     name: sqlite
     total_pulls: 3953301
+    no_doi: true
 panacota:
     description: 'Large scale comparative genomics tools: annotate genomes, do pangenome,
         core/persistent genome, align core/persistent families, infer phylogenetic
@@ -122016,7 +122083,8 @@ bioconductor-bgx:
     home_url: https://www.bioconductor.org/packages/release/bioc/html/bgx.html
     total_pulls: 6
     manually_check: false
-    identifiers: []
+    identifiers:
+      -   doi:10.18129/B9.bioc.bgx
     keywords:
       -   Gene Expression
 bioconductor-wpm:
@@ -122038,6 +122106,7 @@ gamma:
     manually_check: false
     identifiers: []
     keywords: []
+    no_doi: true
 spatyper:
     name: spatyper
     description: Computational method for finding spa types.
