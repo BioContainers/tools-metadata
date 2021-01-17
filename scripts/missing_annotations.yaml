@@ -27819,14 +27819,13 @@ metaprokka:
     license: GPL-3.0
     home_url: https://github.com/telatin/metaprokka
     total_pulls: 4
-    identifiers:
-      -   biotools:metaprokka
     manually_check: true
     keywords:
       -   Metagenome
     identifiers:
       -   doi:10.1093/bioinformatics/btu153
-      -   PMID:24642063
+      -   pmid:24642063
+      -   biotools:metaprokka
 stringmeup:
     name: stringmeup
     description: A post-processing tool to reclassify kraken 2 output based on the
@@ -29242,7 +29241,13 @@ braker:
     home_url: https://github.com/Gaius-Augustus/Augustus
     total_pulls: 3
     manually_check: true
-    keywords: []
+    keywords:
+      -   Alternative Splicing
+      -   Animals
+      -   DNA, Complementary
+      -   Expressed Sequence Tags
+      -   Humans
+      -   Sequence Alignment
     identifiers:
       -   doi:10.1093/bioinformatics/btn013
 kmergenie:
@@ -30887,7 +30892,10 @@ nanostat:
     home_url: https://github.com/wdecoster/nanostat
     total_pulls: 3
     manually_check: true
-    keywords: []
+    keywords:
+      -   Escherichia coli
+      -   High-Throughput Nucleotide Sequencing
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/bty149
 bioconductor-signer:
@@ -63353,7 +63361,10 @@ nanoqc:
     home_url: https://github.com/wdecoster/nanoQC
     total_pulls: 1
     manually_check: true
-    keywords: []
+    keywords:
+      -   Escherichia coli
+      -   High-Throughput Nucleotide Sequencing
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/bty149
 hs-blastn:
@@ -63537,7 +63548,10 @@ nanocomp:
     home_url: https://github.com/wdecoster/NanoComp
     total_pulls: 1
     manually_check: true
-    keywords: []
+    keywords:
+      -   Escherichia coli
+      -   High-Throughput Nucleotide Sequencing
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1093/bioinformatics/bty149
 panx:
@@ -74728,7 +74742,13 @@ metaboliteidconverter:
     home_url: https://github.com/phnmnl/container-metaboliteidconverter
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computer Simulation
+      -   Databases, Protein
+      -   Humans
+      -   Metabolome
+      -   Models, Biological
+      -   Proteome
     identifiers:
       -   doi:10.1093/bioinformatics/btq476
       -   doi:10.1038/nbt.2488
@@ -75095,7 +75115,11 @@ integron-finder:
     home_url: https://github.com/gem-pasteur/Integron_Finder
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Databases, Genetic
+      -   Genome, Bacterial
+      -   Peptide Chain Initiation, Translational
+      -   Prokaryotic Cells
     identifiers:
       -   doi:10.1093/nar/gkw319
       -   doi:10.1093/bioinformatics/btt509
@@ -79692,7 +79716,14 @@ variant-effect-predictor:
     home_url: https://github.com/Ensembl/ensembl-vep
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Databases, Nucleic Acid
+      -   Genetic Variation
+      -   Genomics
+      -   Humans
+      -   Internet
+      -   Molecular Sequence Annotation
     identifiers:
       -   doi:10.1186/s13059-016-0974-4
 circexplorer:
@@ -79762,7 +79793,13 @@ cofold:
     home_url: http://www.e-rna.org/cofold/
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Kinetics
+      -   Nucleic Acid Conformation
+      -   RNA
+      -   RNA Folding
+      -   RNA, Ribosomal
+      -   Transcription, Genetic
     identifiers:
       -   doi:10.1093/nar/gkt174
 pynacl:
@@ -80271,7 +80308,11 @@ cage:
     home_url: https://github.com/adambloniarz/CAGe
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   DNA Copy Number Variations
+      -   Genomics
+      -   Humans
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1007/978-3-319-05269-4_3
       -   doi:10.1007/s11222-016-9687-5
@@ -80314,7 +80355,16 @@ cmfinder:
     home_url: https://sourceforge.net/projects/weinberg-cmfinder/
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Base Sequence
+      -   Computer Simulation
+      -   Conserved Sequence
+      -   Models, Genetic
+      -   Molecular Sequence Data
+      -   Sequence Alignment
+      -   Sequence Analysis, RNA
+      -   Sequence Homology, Nucleic Acid
+      -   Statistics as Topic
     identifiers:
       -   doi:10.1093/bioinformatics/btk008
 colorbrewer:
@@ -102746,7 +102796,7 @@ esimsa:
     manually_check: true
     identifiers:
       -   biotools:esimsa
-      -   'doi:10.1002/1097-0231(20000630)14:12<1029::AID-RCM984>3.0.CO;2-#'
+      -   doi:10.1002/1097-0231(20000630)14:12<1029::AID-RCM984>3.0.CO;2-#
     keywords:
       -   Proteomics
       -   Proteomics experiment
@@ -113926,7 +113976,7 @@ rsat-core:
     manually_check: true
     identifiers:
       -   biotools:rsat
-      -   'doi:10.1002/(SICI)1097-0061(20000130)16:2<177::AID-YEA516>3.0.CO;2-9'
+      -   doi:10.1002/(SICI)1097-0061(20000130)16:2<177::AID-YEA516>3.0.CO;2-9
       -   doi:10.1093/nar/gkg567
       -   doi:10.1006/jmbi.1998.1947
       -   doi:10.1093/nar/gkn304
