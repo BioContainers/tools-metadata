@@ -16915,6 +16915,7 @@ cesm:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pyrle:
     name: pyrle
     description: Genomic Rle-objects for Python
@@ -16924,6 +16925,7 @@ pyrle:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bamread:
     name: bamread
     description: Read bam files quickly into dataframes in Python
@@ -16933,6 +16935,7 @@ bamread:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 pyranges:
     name: pyranges
     description: GenomicRanges for Python.
@@ -79630,11 +79633,12 @@ variant-effect-predictor:
         deletions, CNVs or structural variants) on genes, transcripts, and protein
         sequence, as well as regulatory regions.
     license: Apache 2.0
-    home_url: None
+    home_url: https://github.com/Ensembl/ensembl-vep
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13059-016-0974-4
 circexplorer:
     name: circexplorer
     description: A combined strategy to identify circular rnas (circrnas and cirnas)
@@ -79703,7 +79707,8 @@ cofold:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkt174
 pynacl:
     name: pynacl
     description: Python binding to the Networking and Cryptography (NaCl) library
@@ -79713,6 +79718,7 @@ pynacl:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 viral-ngs:
     name: viral-ngs
     description: A set of scripts and tools for the analysis of viral ngs data.
@@ -79734,6 +79740,7 @@ geodl:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 aniso8601:
     name: aniso8601
     description: A library for parsing iso 8601 strings.
@@ -79743,6 +79750,7 @@ aniso8601:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 ansible:
     name: ansible
     description: Radically simple IT automation
@@ -79752,6 +79760,7 @@ ansible:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 ant:
     name: ant
     description: Apache ant is a java library and command-line tool that help building
@@ -79772,6 +79781,7 @@ argh:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 argutils:
     name: argutils
     description: Functions to build matched argument parsers and config files
@@ -79781,6 +79791,7 @@ argutils:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 aria2:
     name: aria2
     description: Aria2 is a lightweight multi-protocol & multi-source, cross platform
@@ -79803,6 +79814,7 @@ arvados-cli:
     keywords:
       -   Genomics
     identifiers: []
+    no_doi: true
 asciigenome:
     name: asciigenome
     description: Command-line genome browser running from terminal window and solely
@@ -79848,6 +79860,7 @@ autolog:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 avro-python3:
     name: avro-python3
     description: Avro is a serialization and rpc framework.
@@ -79866,6 +79879,7 @@ awscli:
     total_pulls: 0
     manually_check: true
     keywords: []
+    no_doi: true
     identifiers: []
 backports.csv:
     name: backports.csv
@@ -79876,6 +79890,7 @@ backports.csv:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 backports.unittest_mock:
     name: backports.unittest_mock
     description: backports.unittest_mock
@@ -79885,6 +79900,7 @@ backports.unittest_mock:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bcbio_monitor:
     name: bcbio_monitor
     description: Bcbio-monitor is an extension of bcbio-nextgen to visualize its progress
@@ -79952,6 +79968,7 @@ bcdoc:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bcl2fastq-nextseq:
     name: bcl2fastq-nextseq
     description: Nextseq .bcl conversion
@@ -80118,6 +80135,7 @@ bleach:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 blockbuster:
     name: blockbuster
     description: Blockbuster detects blocks of overlapping reads using a gaussian-distribution
@@ -80146,6 +80164,7 @@ bmtagger:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 boltons:
     name: boltons
     description: Boltons is a set of over 230 BSD-licensed, pure-Python utilities
@@ -80157,6 +80176,7 @@ boltons:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 botocore:
     name: botocore
     description: A low-level interface to a growing number of Amazon Web Services
@@ -80166,6 +80186,7 @@ botocore:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bottle:
     name: bottle
     description: Fast and simple wsgi-framework for small web-applications.
@@ -80175,7 +80196,7 @@ bottle:
     manually_check: true
     keywords: []
     identifiers: []
-    no_doi:
+    no_doi: true
 brewer2mpl:
     name: brewer2mpl
     description: Connect colorbrewer2.org color maps to python and matplotlib.
@@ -80185,6 +80206,7 @@ brewer2mpl:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 cage:
     name: cage
     description: Changepoint analysis for efficient variant calling
@@ -80205,6 +80227,7 @@ cgcloud-lib:
     keywords:
       -   Genomics
     identifiers: []
+    no_doi: true
 chainmap:
     name: chainmap
     description: Backport/clone of ChainMap for py26, py32, and pypy3.
@@ -80214,6 +80237,7 @@ chainmap:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 check-sort-order:
     name: check-sort-order
     description: Check sort-order of genomic files according to a genomefile
@@ -80223,6 +80247,7 @@ check-sort-order:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 cmfinder:
     name: cmfinder
     description: Cmfinder - a covariance model based rna motif finding algorithm.
@@ -80231,7 +80256,8 @@ cmfinder:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btk008
 colorbrewer:
     name: colorbrewer
     description: An easy way to get access to colorbrewer schemes from within a python
@@ -80242,6 +80268,7 @@ colorbrewer:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 cosi2:
     name: cosi2
     description: Cosi2 is an efficient coalescent simulator with support for selection,
@@ -80277,6 +80304,7 @@ cyordereddict:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 data_hacks:
     name: data_hacks
     description: Command line utilities for data analysis.
@@ -80286,6 +80314,7 @@ data_hacks:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 dazz_db:
     name: dazz_db
     description: 'Dazz_db: the dazzler data base.'
@@ -80295,6 +80324,7 @@ dazz_db:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 deap:
     name: deap
     description: Distributed evolutionary algorithms in python
@@ -80304,6 +80334,7 @@ deap:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 debwt:
     name: debwt
     description: A efficient method to construct bwt index of a given dna sequence,
@@ -80419,11 +80450,12 @@ doit:
     name: doit
     description: doit - Automation Tool
     license: MIT
-    home_url: None
+    home_url: https://github.com/pydoit/doit
     total_pulls: 0
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 dropbox:
     name: dropbox
     description: Official Dropbox API Client
@@ -80443,6 +80475,7 @@ dxua:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 elasticluster:
     name: elasticluster
     description: Create, manage and setup computing clusters hosted on a public or
@@ -80454,6 +80487,7 @@ elasticluster:
     keywords:
       -   Clustering
     identifiers: []
+    no_doi: true
 epydoc:
     name: epydoc
     description: Edward loper's api documentation generation tool
@@ -80463,6 +80497,7 @@ epydoc:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 esmre:
     name: esmre
     description: Regular expression accelerator
@@ -80472,6 +80507,7 @@ esmre:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 ete2:
     name: ete2
     description: Phylogenetic tree analyses and exploration
@@ -80485,7 +80521,8 @@ ete2:
       -   Sequence Alignment
       -   Genetics
       -   Ortholog
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/molbev/msw046
 express:
     name: express
     description: Express is a streaming dna/rna sequence quantification tool.
@@ -80521,6 +80558,7 @@ extract_fullseq:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 fadapa:
     name: fadapa
     description: Fastqc data parser - a minimal parser to parse fastqc output data
@@ -88331,6 +88369,7 @@ r-future:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-getoptlong:
     name: r-getoptlong
     description: This is yet another command-line argument parser which wraps the  powerful
@@ -88342,6 +88381,7 @@ r-getoptlong:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-ggally:
     name: r-ggally
     description: GGally is designed to be a helper to ggplot2. It contains templates
@@ -88353,6 +88393,7 @@ r-ggally:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-globals:
     name: r-globals
     description: Identifies global ("unknown") objects in R expressions by code inspection
@@ -88365,6 +88406,7 @@ r-globals:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-hwriter:
     name: r-hwriter
     description: Easy-to-use and versatile functions to output R objects in HTML format
@@ -88374,6 +88416,7 @@ r-hwriter:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-listenv:
     name: r-listenv
     description: List environments are environments that can be indexed similarly
@@ -88384,6 +88427,7 @@ r-listenv:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-lsd:
     name: r-lsd
     description: Create lots of colorful plots in a plethora of variations (try the
@@ -88394,6 +88438,7 @@ r-lsd:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-matrixstats:
     name: r-matrixstats
     description: High-performing functions operating on rows and columns of matrices,
@@ -88407,6 +88452,7 @@ r-matrixstats:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-mclust:
     name: r-mclust
     description: Normal Mixture Modelling fitted via EM algorithm for Model-Based
@@ -88438,6 +88484,7 @@ r-getopt:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-lambda.r:
     name: r-lambda.r
     description: A language extension to efficiently write functional programs in
@@ -88449,6 +88496,7 @@ r-lambda.r:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-bigmemory:
     name: r-bigmemory
     description: Create, store, access, and manipulate massive matrices. Matrices
@@ -88461,6 +88509,7 @@ r-bigmemory:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-bigmemory.sri:
     name: r-bigmemory.sri
     description: This package provides a shared resource interface for the bigmemory
@@ -88480,6 +88529,7 @@ lz4-bin:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r:
     name: r
     description: R is a free software environment for statistical computing and graphics.
@@ -88514,6 +88564,7 @@ cwltest:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 rnabob:
     name: rnabob
     description: Fast rna motif searching
