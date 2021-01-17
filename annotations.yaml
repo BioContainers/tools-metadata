@@ -7493,6 +7493,7 @@ chromosight:
     keywords:
       -   Genomics
     identifiers:
+      -   doi:10.5281/zenodo.3742095
       -   doi:10.1038/s41467-020-19562-7
 scelvis:
     name: scelvis
@@ -26402,6 +26403,7 @@ comparem:
       -   Protein Sequences
       -   Ortholog
     identifiers: []
+    no_doi: true
 simplesam:
     name: simplesam
     description: Simple pure python sam parser and objects for working with sam records
@@ -27818,6 +27820,7 @@ metaprokka:
     home_url: https://github.com/telatin/metaprokka
     total_pulls: 4
     identifiers:
+      -   doi:10.1093/bioinformatics/btu153
       -   biotools:metaprokka
     manually_check: true
     keywords:
@@ -29237,8 +29240,15 @@ braker:
     home_url: https://github.com/Gaius-Augustus/Augustus
     total_pulls: 3
     manually_check: true
-    keywords: []
-    identifiers: []
+    keywords:
+      -   Alternative Splicing
+      -   Animals
+      -   DNA, Complementary
+      -   Expressed Sequence Tags
+      -   Humans
+      -   Sequence Alignment
+    identifiers:
+      -   doi:10.1093/bioinformatics/btn013
 kmergenie:
     name: kmergenie
     description: KmerGenie estimates the best k-mer length for genome de novo assembly
@@ -30050,7 +30060,8 @@ r-ampvis:
     manually_check: true
     keywords:
       -   Clustering
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pone.0132783
 r-soap-nmr:
     name: r-soap-nmr
     description: 'R package for 1h-nmr data pre-treatment '
@@ -30880,8 +30891,12 @@ nanostat:
     home_url: https://github.com/wdecoster/nanostat
     total_pulls: 3
     manually_check: true
-    keywords: []
-    identifiers: []
+    keywords:
+      -   Escherichia coli
+      -   High-Throughput Nucleotide Sequencing
+      -   Sequence Analysis, DNA
+    identifiers:
+      -   doi:10.1093/bioinformatics/bty149
 bioconductor-signer:
     name: bioconductor-signer
     description: Empirical Bayesian approach to mutational signature discovery
@@ -54055,6 +54070,7 @@ r-rsnps:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 bioconductor-appreci8r:
     name: bioconductor-appreci8r
     description: 'appreci8R: an R/Bioconductor package for filtering SNVs and short
@@ -58927,6 +58943,7 @@ r-tftargets:
     keywords:
       -   Transcription Factors
     identifiers: []
+    no_doi: true
 bioconductor-clumsiddata:
     name: bioconductor-clumsiddata
     description: Data for the clumsid package
@@ -61271,7 +61288,8 @@ hypo:
     total_pulls: 3
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2019.12.19.882506
 fpocket:
     name: fpocket
     description: 'Fpocket: An open source platform for ligand pocket detection'
@@ -61876,6 +61894,7 @@ pplacer:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-carp:
     name: perl-carp
     description: Alternative warn and die for modules
@@ -62439,7 +62458,8 @@ homoeditdistance:
     total_pulls: 2
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/2020.05.27.118273
 rnastructure:
     name: rnastructure
     description: Rnastructure is a complete package for rna and dna secondary structure  prediction
@@ -63059,7 +63079,8 @@ nanoraw:
     manually_check: true
     keywords:
       -   Clustering
-    identifiers: []
+    identifiers:
+      -   doi:10.1101/094672
 paralyzer:
     name: paralyzer
     description: Tool to analyze cross-linking and immunoprecipitation data (clip)
@@ -63233,7 +63254,8 @@ ete3:
       -   Genomics
       -   Phylogenetics
       -   Genetics
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/molbev/msw046
 wgsim:
     name: wgsim
     description: Wgsim is a small tool for simulating sequence reads from a reference
@@ -63338,8 +63360,12 @@ nanoqc:
     home_url: https://github.com/wdecoster/nanoQC
     total_pulls: 1
     manually_check: true
-    keywords: []
-    identifiers: []
+    keywords:
+      -   Escherichia coli
+      -   High-Throughput Nucleotide Sequencing
+      -   Sequence Analysis, DNA
+    identifiers:
+      -   doi:10.1093/bioinformatics/bty149
 hs-blastn:
     name: hs-blastn
     description: hs-blastn, a fast and accurate nucleotide-nucleotide sequences aligner.
@@ -63521,8 +63547,12 @@ nanocomp:
     home_url: https://github.com/wdecoster/NanoComp
     total_pulls: 1
     manually_check: true
-    keywords: []
-    identifiers: []
+    keywords:
+      -   Escherichia coli
+      -   High-Throughput Nucleotide Sequencing
+      -   Sequence Analysis, DNA
+    identifiers:
+      -   doi:10.1093/bioinformatics/bty149
 panx:
     name: panx
     description: Microbial pan-genome analysis and exploration tool
@@ -63721,7 +63751,8 @@ telseq:
     manually_check: true
     keywords:
       -   Whole genome sequencing
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gku181
 libdeflate:
     name: libdeflate
     description: libdeflate is a library for fast, whole-buffer DEFLATE-based compression
@@ -63911,6 +63942,7 @@ deepbinner:
       -   Neural Networks, Computer
       -   Reproducibility of Results
     identifiers:
+      -   doi:10.1101/366526
       -   doi:10.1371/journal.pcbi.1006583
 connectome-workbench:
     name: connectome-workbench
@@ -63932,6 +63964,7 @@ scikit-learn:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 scikit-image:
     name: scikit-image
     description: Image processing in Python
@@ -63981,6 +64014,7 @@ gatktool:
     keywords:
       -   Genomics
     identifiers: []
+    no_doi: true
 clinvar-tsv:
     name: clinvar-tsv
     description: A Snakemake-based program to download ClinVar and convert to easy-to-use
@@ -65647,6 +65681,7 @@ pytables:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 hdf5:
     name: hdf5
     description: HDF5 is a data model, library, and file format for storing and managing
@@ -65669,6 +65704,7 @@ nullarbor:
     keywords:
       -   Genomics
       -   Model organisms
+    no_doi: true
 epa-ng:
     name: epa-ng
     description: Massively parallel phylogenetic placement of genetic sequences
@@ -67573,6 +67609,7 @@ phastaf:
     keywords:
       -   Genomics
     identifiers: []
+    no_doi: true
 chembl_webresource_client:
     name: chembl_webresource_client
     description: This is the only official Python client library developed and supported
@@ -68255,6 +68292,7 @@ bedtools-test:
       -   Genomics
     identifiers:
       -   doi:10.1093/bioinformatics/btq033
+      -   doi:10.1093/bioinformatics/btr539
 alter-sequence-alignment:
     name: alter-sequence-alignment
     description: Genomic sequences alignment transformation environment
@@ -72373,6 +72411,7 @@ seqsero:
       -   Salmonella Infections, Animal
       -   Serotyping
     identifiers:
+      -   pmid:25762776
       -   doi:10.1128/JCM.00323-15
 profnet-chop:
     name: profnet-chop
@@ -73014,6 +73053,7 @@ pysam-tests:
     keywords:
       -   Sequence Alignment
     identifiers:
+      -   pmid:19505943
       -   doi:10.1093/bioinformatics/btp352
 pscan-tfbs:
     name: pscan-tfbs
@@ -73327,7 +73367,7 @@ psortb:
     name: psortb
     description: It is a high-precision localization prediction method for bacterial
         proteins. it has remained the most precise bacterial protein subcellular localization
-        (scl) predictor.  psortb version improved recall, higher proteome-scale prediction
+        (scl) predictor.  psortb version improved recall, higher proteome-scale prediction
         coverage, and new refined localization subcategories. it is the first scl
         predictor specifically geared for all prokaryotes, including archaea and bacteria
         with atypical membrane/cell wall topologies.
@@ -74135,7 +74175,10 @@ batch_correction:
       -   Mass spectrometry
     total_pulls: 0
     manually_check: true
-    identifiers: []
+    identifiers:
+      -   doi:10.1021/pr900499r
+      -   doi:10.1038/nprot.2011.335
+      -   doi:10.1021/acs.jproteome.5b00354
 iso2flux:
     name: iso2flux
     description: Open source software for steady state 13C flux analysis
@@ -74231,7 +74274,9 @@ metabolab:
       -   Metabolomics
     total_pulls: 0
     manually_check: true
-    identifiers: []
+    identifiers:
+      -   doi:10.1006/jmre.2000.2071
+      -   doi:10.1186/1471-2105-12-366
 isodyn:
     name: isodyn
     description: C++ simulating the dynamics of metabolites and their isotopic isomers
@@ -74493,7 +74538,8 @@ metfrag-cli:
     keywords:
       -   Mass spectra
       -   Metabolomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13321-016-0115-9
 nmrmlconv:
     name: nmrmlconv
     description: nmrML is an open mark-up language for NMR data. This project contains
@@ -74505,7 +74551,8 @@ nmrmlconv:
     manually_check: true
     keywords:
       -   Metabolomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1007/s11306-015-0879-3
 batman:
     name: batman
     description: Bayesian Automated Metabolite Analyser for NMR spectra (BATMAN).
@@ -74627,7 +74674,8 @@ papy:
     manually_check: true
     keywords:
       -   Metabolomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1021/acs.analchem.6b00188
 mw2isa:
     name: mw2isa
     description: A repo for a docker container for a microservice converting an MWTab
@@ -74693,8 +74741,16 @@ metaboliteidconverter:
     home_url: https://github.com/phnmnl/container-metaboliteidconverter
     total_pulls: 0
     manually_check: true
-    keywords: []
-    identifiers: []
+    keywords:
+      -   Computer Simulation
+      -   Databases, Protein
+      -   Humans
+      -   Metabolome
+      -   Models, Biological
+      -   Proteome
+    identifiers:
+      -   doi:10.1093/bioinformatics/btq476
+      -   doi:10.1038/nbt.2488
 rnmr:
     name: rnmr
     description: 'rNMR: open source software for identifying and quantifying metabolites
@@ -74722,7 +74778,10 @@ qualitymetrics:
     manually_check: true
     keywords:
       -   Metabolomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1021/acs.jproteome.5b00354
+      -   doi:10.1093/bioinformatics/btr138
+      -   doi:10.1093/bioinformatics/btu813
 container-mtbls-dwnld:
     name: container-mtbls-dwnld
     description: Metabolights downloader
@@ -75046,7 +75105,8 @@ coregenebuilder:
     manually_check: true
     keywords:
       -   Genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.165206
 integron-finder:
     name: integron-finder
     description: Integron finder aims at detecting integrons in dna sequences.
@@ -75054,8 +75114,16 @@ integron-finder:
     home_url: https://github.com/gem-pasteur/Integron_Finder
     total_pulls: 0
     manually_check: true
-    keywords: []
-    identifiers: []
+    keywords:
+      -   Databases, Genetic
+      -   Genome, Bacterial
+      -   Peptide Chain Initiation, Translational
+      -   Prokaryotic Cells
+    identifiers:
+      -   doi:10.1093/nar/gkw319
+      -   doi:10.1093/bioinformatics/btt509
+      -   doi:10.1371/journal.pcbi.1002195
+      -   doi:10.1186/1471-2105-11-119
 hyphygui:
     name: hyphygui
     description: Hypothesis testing using phylogenies (gtk+ gui)
@@ -75085,6 +75153,7 @@ ecomet:
     keywords:
       -   Metabolomics
     identifiers: []
+    no_doi: true
 falcon:
     name: falcon
     description: Experimental pacbio diploid assembler.
@@ -75203,7 +75272,10 @@ isaslicer:
     keywords:
       -   Metabolomics
       -   Genetics
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gks1004
+      -   doi:10.5281/zenodo.163640
+      -   doi:10.1038/ng.1054
 epigrass:
     name: epigrass
     description: Scientific tool for simulations and scenario analysis in network
@@ -75429,7 +75501,10 @@ batchcorrection:
     keywords:
       -   Mass spectrometry
       -   Metabolomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1021/pr900499r
+      -   doi:10.1038/nprot.2011.335
+      -   doi:10.1021/acs.jproteome.5b00354
 fis-gtm-6.3-000a:
     name: fis-gtm-6.3-000a
     description: Package for fis-gt.m database
@@ -75742,6 +75817,7 @@ python-tifffile:
     keywords:
       -   Molecular Dynamics
     identifiers: []
+    no_doi: true
 python3-cutadapt:
     name: python3-cutadapt
     description: Cutadapt finds and removes adapter sequences, primers, poly-A tails
@@ -75877,7 +75953,9 @@ python-pysam-tests:
     manually_check: true
     keywords:
       -   Sequence Alignment
-    identifiers: []
+    identifiers:
+      -   pmid:19505943
+      -   doi:10.1093/bioinformatics/btp352
 python-pysam:
     name: python-pysam
     description: Pysam is a python module for reading and manipulating files in the
@@ -75938,6 +76016,7 @@ python-schema-salad:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 python3-openslide:
     name: python3-openslide
     description: OpenSlide is a C library that provides a simple interface for reading
@@ -79636,7 +79715,14 @@ variant-effect-predictor:
     home_url: https://github.com/Ensembl/ensembl-vep
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Computational Biology
+      -   Databases, Nucleic Acid
+      -   Genetic Variation
+      -   Genomics
+      -   Humans
+      -   Internet
+      -   Molecular Sequence Annotation
     identifiers:
       -   doi:10.1186/s13059-016-0974-4
 circexplorer:
@@ -79706,7 +79792,13 @@ cofold:
     home_url: http://www.e-rna.org/cofold/
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Kinetics
+      -   Nucleic Acid Conformation
+      -   RNA
+      -   RNA Folding
+      -   RNA, Ribosomal
+      -   Transcription, Genetic
     identifiers:
       -   doi:10.1093/nar/gkt174
 pynacl:
@@ -79930,6 +80022,7 @@ bcbio-rnaseq:
     keywords:
       -   RNA-Seq
     identifiers: []
+    no_doi: true
 bcbio-variation:
     name: bcbio-variation
     description: Toolkit to analyze genomic variation data, built on the gatk with
@@ -80214,9 +80307,15 @@ cage:
     home_url: https://github.com/adambloniarz/CAGe
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   DNA Copy Number Variations
+      -   Genomics
+      -   Humans
+      -   Sequence Analysis, DNA
     identifiers:
       -   doi:10.1007/978-3-319-05269-4_3
+      -   doi:10.1007/s11222-016-9687-5
+      -   doi:10.1093/bioinformatics/btx212
 cgcloud-lib:
     name: cgcloud-lib
     description: Components shared between cgcloud-core and cgcloud-agent
@@ -80255,7 +80354,16 @@ cmfinder:
     home_url: https://sourceforge.net/projects/weinberg-cmfinder/
     total_pulls: 0
     manually_check: true
-    keywords: []
+    keywords:
+      -   Base Sequence
+      -   Computer Simulation
+      -   Conserved Sequence
+      -   Models, Genetic
+      -   Molecular Sequence Data
+      -   Sequence Alignment
+      -   Sequence Analysis, RNA
+      -   Sequence Homology, Nucleic Acid
+      -   Statistics as Topic
     identifiers:
       -   doi:10.1093/bioinformatics/btk008
 colorbrewer:
@@ -80333,8 +80441,10 @@ deap:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
-    no_doi: true
+    identifiers:
+      -   doi:10.1145/2330784.2330799
+      -   doi:10.5555/2503308.2503311
+      -   doi:10.1145/2597453.2597455
 debwt:
     name: debwt
     description: A efficient method to construct bwt index of a given dna sequence,
@@ -80609,6 +80719,7 @@ fftw:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 ficus:
     name: ficus
     description: Provides a context manager for matplotlib figures.
@@ -80646,6 +80757,7 @@ flask-admin:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 flask-basicauth:
     name: flask-basicauth
     description: Http basic access authentication for flask.
@@ -81024,6 +81136,7 @@ hcluster_sg:
     keywords:
       -   Clustering
     identifiers: []
+    no_doi: true
 hgtools:
     name: hgtools
     description: Classes and setuptools plugin for mercurial and git repositories
@@ -81409,6 +81522,7 @@ moca:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 moreutils:
     name: moreutils
     description: A growing collection of the unix tools that nobody thought to write
@@ -81617,6 +81731,7 @@ netifaces:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 networkxgmml:
     name: networkxgmml
     description: Xgmml parser for networkx
@@ -82586,6 +82701,7 @@ perl-http-message:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-http-negotiate:
     name: perl-http-negotiate
     description: choose a variant to serve
@@ -82902,6 +83018,7 @@ perl-net-http:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-net-ssleay:
     name: perl-net-ssleay
     description: Perl extension for using openssl.
@@ -83164,6 +83281,7 @@ perl-spiffy:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 perl-spreadsheet-parseexcel:
     name: perl-spreadsheet-parseexcel
     description: Read information from an excel file.
@@ -84154,7 +84272,9 @@ rapclust:
       -   Clustering
       -   RNA-Seq
       -   Transcriptome
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/nbt.2450
+      -   doi:10.12688/f1000research.7563.2
 r-argparse:
     name: r-argparse
     description: A command line parser to be used with Rscript to write "#!" shebang
@@ -85887,6 +86007,7 @@ simple_sv_annotation:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 slang:
     name: slang
     description: S-Lang allows developers to create robust multi-platform software
@@ -86033,6 +86154,7 @@ sqlitebrowser:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 srprism:
     name: srprism
     description: Srprism - short read alignment tool
@@ -86103,7 +86225,8 @@ svtyper:
     keywords:
       -   Genomics
       -   Whole genome sequencing
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/nmeth.3505
 sweepfinder2:
     name: sweepfinder2
     description: The bwa read mapper.
@@ -88817,7 +88940,8 @@ tgt:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.5281/zenodo.2582132
 spectrassembler:
     name: spectrassembler
     description: Tool (experimental) to compute layout from overlaps with spectral
@@ -88875,7 +88999,8 @@ biogridpy:
     manually_check: true
     keywords:
       -   Genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btr062
 drive:
     name: drive
     description: Google drive client for the commandline
@@ -89282,6 +89407,7 @@ python-cluster:
     keywords:
       -   Clustering
     identifiers: []
+    no_doi: true
 perl-list-uniq:
     name: perl-list-uniq
     description: Extract the unique elements of a list
@@ -89854,6 +89980,7 @@ maaslin:
     keywords:
       -   Metagenome
     identifiers: []
+    no_doi: true
 dnapi:
     name: dnapi
     description: De novo adapter prediction (iterative) algorithm for small RNA sequencing
@@ -95656,7 +95783,7 @@ r-openxlsx:
         of 'Rcpp', read/write times are comparable to the 'xlsx' and 'XLConnect' packages
         with the added benefit of removing the dependency on Java.
     license: GPL-3
-    home_url: https
+    home_url: https://cran.r-project.org/web/packages/openxlsx/index.html
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -95888,7 +96015,7 @@ r-r2html:
         flat files containing R code and to automatically write the corresponding
         outputs (tables and graphs).
     license: GPL (>= 2)
-    home_url: https
+    home_url: https://cran.r-project.org/web/packages/R2HTML/index.html
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -102876,7 +103003,7 @@ snpsplit:
 migraine:
     name: migraine
     description: Implements coalescent algorithms for maximum likelihood analysis
-        of population genetic data. The data currently  handled are allelic counts
+        of population genetic data. The data currently  handled are allelic counts
         but sequences will be handled in the forthcoming version.
     license: CeCILL
     home_url: http://kimura.univ-montp2.fr/~rousset/Migraine.htm
