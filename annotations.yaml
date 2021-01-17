@@ -37757,6 +37757,7 @@ bioconductor-mutationalpatterns:
     manually_check: true
     identifiers:
       -   doi:10.18129/b9.bioc.mutationalpatterns
+      -   doi:10.1186/s13073-018-0539-0
     keywords:
       -   Genetics
 bioconductor-gtrellis:
@@ -44505,7 +44506,8 @@ r-structssi:
     total_pulls: 3
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.18637/jss.v059.i13
 r-spieceasi:
     name: r-spieceasi
     description: Estimate networks from the precision matrix of compositional microbial
@@ -58603,7 +58605,8 @@ tspex:
     manually_check: true
     keywords:
       -   Gene Expression
-    identifiers: []
+    identifiers:
+      -   doi:10.21203/rs.3.rs-51998/v1
 bioconductor-flowmerge:
     name: bioconductor-flowmerge
     description: Cluster Merging for Flow Cytometry Data
@@ -61279,7 +61282,8 @@ r-scpred:
     total_pulls: 3
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+     -   doi:10.1186/s13059-019-1862-5
 r-statvisual:
     name: r-statvisual
     description: Visualization functions in the applications of translational medicine
@@ -65702,6 +65706,7 @@ hdf5:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 nullarbor:
     name: nullarbor
     description: Reads to report pipeline for bacterial isolate ngs data
@@ -69585,6 +69590,7 @@ galileo:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 dcm2niix:
     name: dcm2niix
     description: Next generation dicom to nifti converter
@@ -70727,7 +70733,8 @@ ltrsift:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/1759-8753-3-18
 maq:
     name: maq
     description: Mapping and assembly with qualities (renamed from mapass2). particularly
@@ -84738,11 +84745,12 @@ r-fields:
         can be viewed by expanding the source code file (ending in tar.gz) and looking
         in the R subdirectory. Please cite fields along with its DOI in your publications!
     license: GPL (>= 2)
-    home_url: None
+    home_url: https://cran.r-project.org/package=fields
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -    doi:10.5065/D6W957CT
 r-findpython:
     name: r-findpython
     description: Package designed to find an acceptable python binary.
@@ -84753,6 +84761,7 @@ r-findpython:
     keywords: []
     identifiers:
       -   cran:findpython
+     no_doi: true
 r-fitdistrplus:
     name: r-fitdistrplus
     description: Extends the fitdistr function (of the MASS package) with several
@@ -85120,12 +85129,13 @@ r-mixomics:
         Canonical Correlation Analysis and P-integration with variants of multi-group
         Partial Least Squares.'
     license: GPL (>= 2)
-    home_url: None
+    home_url: https://CRAN.R-project.org/package=mixomics
     total_pulls: 0
     manually_check: true
     keywords:
       -   Proteomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pcbi.1005752
 r-multicool:
     name: r-multicool
     description: A set of tools to permute multisets without loops or hash tables
@@ -85690,6 +85700,7 @@ r-sparql:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 r-splancs:
     name: r-splancs
     description: 'The Splancs package was written as an enhancement to S-Plus for
@@ -86096,7 +86107,8 @@ spectacle:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13059-015-0598-0
 sphinx-argparse:
     name: sphinx-argparse
     description: Sphinx extension that automatically document argparse commands and
@@ -86408,6 +86420,7 @@ trackhub:
     keywords:
       -   Genomics
     identifiers: []
+    no_doi: rue
 trinculo:
     name: trinculo
     description: A toolkit for carrying out genetic association for multi-category
@@ -89020,6 +89033,7 @@ drive:
     manually_check: true
     keywords: []
     identifiers: []
+    no_doi: true
 recon:
     name: recon
     description: The recon package performs de novo identification and classification
@@ -89887,7 +89901,7 @@ r-pscl:
         for GLMs; data sets used in writing and teaching at the Political Science
         Computational Laboratory; seats-votes curves.
     license: GPL-2.0
-    home_url: http://pscl.stanford.edu/
+    home_url: https://github.com/atahk/pscl
     total_pulls: 0
     manually_check: true
     keywords: []
@@ -91212,12 +91226,13 @@ rascaf:
     name: rascaf
     description: Scaffolding with RNA-seq read alignment
     license: GPL-2.0
-    home_url: https://github.com/mourisl/Rascaf/commits/master
+    home_url: https://github.com/mourisl/Rascaf/
     total_pulls: 0
     manually_check: true
     keywords:
       -   RNA-Seq
-    identifiers: []
+    identifiers:
+      -   doi:10.3835/plantgenome2016.03.0027
 fido:
     name: fido
     description: A method for protein identification in MS/MS proteomics. Think of
@@ -91490,7 +91505,8 @@ transcomb:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/1471-2105-13-S6-S1
 r-tsne:
     name: r-tsne
     description: A pure R implementation of the t-SNE algorithm.
@@ -94694,7 +94710,8 @@ plasmidtron:
     manually_check: true
     keywords:
       -   Genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.1099/mgen.0.000164
 np-likeness-scorer:
     name: np-likeness-scorer
     description: Calculates natural product(np)-likeness of a molecule, i.e. the similarity
@@ -95321,7 +95338,8 @@ r-dendextend:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btv428
 r-tiff:
     name: r-tiff
     description: This package provides an easy and simple way to read, write and display
@@ -95750,7 +95768,8 @@ r-cnogpro:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btv070
 genonets:
     name: genonets
     description: 'A genotype network is a graph in which vertices represent genotypes
@@ -95839,7 +95858,8 @@ trawler:
     keywords:
       -   Clustering
       -   Ortholog
-    identifiers: []
+    identifiers:
+      -   doi:10.1038/nmeth1061
 embassy-phylip:
     name: embassy-phylip
     description: embassy/emboss wrappers for phylip functions
@@ -95858,7 +95878,8 @@ r-micropan:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12859-015-0517-0
 assembly-stats:
     name: assembly-stats
     description: Get assembly statistics from FASTA and FASTQ files
@@ -96785,7 +96806,8 @@ prosolo:
     manually_check: true
     keywords:
       -   Genetics
-    identifiers: []
+    identifiers:
+     -   doi:10.1101/2020.04.27.064071
 newick_utils:
     name: newick_utils
     description: The Newick Utilities are a suite of Unix shell tools for processing
@@ -98197,7 +98219,8 @@ r-phangorn:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btq706
 backspinpy:
     name: backspinpy
     description: Backspin clustering algorythm
@@ -98260,7 +98283,8 @@ r-genabel:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btm108
 ndex-python:
     name: ndex-python
     description: Ndex python includes a client and a data model.
@@ -98727,7 +98751,8 @@ r-snpassoc:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btm025
 strainest:
     name: strainest
     description: Abundance estimation of strains
@@ -99856,7 +99881,8 @@ scanindel:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s13073-015-0251-2
 reaper:
     name: reaper
     description: Tool for demultiplexing, trimming and filtering sequencing data.
@@ -99934,7 +99960,8 @@ r-purbayes:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btt293
 r-maldirppa:
     name: r-maldirppa
     description: Provides methods for quality control and robust pre-processing and
@@ -102939,7 +102966,8 @@ r-adephylo:
     keywords:
       -   Phylogenetics
       -   Genetics
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btq292
 satrap:
     name: satrap
     description: A SOLiD assembly translation program.
@@ -107016,7 +107044,8 @@ mtbseq:
     manually_check: true
     keywords:
       -   Genomics
-    identifiers: []
+    identifiers:
+      -   doi:10.7717/peerj.5895
 slimm:
     name: slimm
     description: Slimm - species level identification of microbes from metagenomes
@@ -107888,7 +107917,8 @@ r-corbi:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/1752-0509-7-s2-s6
 r-nam:
     name: r-nam
     description: Designed for association studies in nested association mapping (NAM)
@@ -108333,7 +108363,8 @@ r-rbamtools:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/bioinformatics/btu846
 r-gwasexacthw:
     name: r-gwasexacthw
     description: This package contains a function to do exact Hardy-Weinburg testing
@@ -109082,7 +109113,8 @@ r-enrichr:
     total_pulls: 0
     manually_check: true
     keywords: []
-    identifiers: []
+    identifiers:
+      -   doi:10.1093/nar/gkw377
 bioconductor-immunespacer:
     name: bioconductor-immunespacer
     description: A Thin Wrapper around the ImmuneSpace Database
@@ -113975,7 +114007,8 @@ hypercluster:
     keywords:
       -   Clustering
       -   RNA-Seq
-    identifiers: []
+    identifiers:
+      -   doi:10.1186/s12859-020-03774-1
 rsat-core:
     name: rsat-core
     description: Detection of regulatory signals in non-coding sequences.
@@ -115297,7 +115330,8 @@ r-ampliconduo:
         sets of a split sample, is intended to help interpret the obtained read frequency
         distribution across split samples, and to filter the false positive reads.
     home_url: https://cran.r-project.org/package=AmpliconDuo
-    identifiers: []
+    identifiers:
+      -   doi:10.1371/journal.pone.0141590
     keywords: []
     license: GPL (>= 3)
     manually_check: true
