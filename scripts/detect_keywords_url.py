@@ -1,5 +1,4 @@
 from ruamel.yaml import YAML
-from urlextract import URLExtract
 import urllib
 
 import re
@@ -32,8 +31,18 @@ tools = {}
 words = ['Clustering', 'Cluster Analysis', 'Proteomics', 'Genomics', 'Peptides', 'Mass spectra', 'Mass spectrometry', 'Metabolomics', 'Metaproteomics', 'Metagenomics', 'Whole genome sequencing', 'RNA-Seq', 'Data visualisation', 'Molecular Dynamics',
          'Transcriptomics', 'Functional genomics', 'Phylogenetics', 'Gene Expression', 'Sequence Alignment', 'Genetics', 'Genetic variation', 'Metagenome', 'Gene Expression', 'Markov Chains', 'Protein Structure', 'Transcription Factors', 'Transcriptome',
          'Molecular Imaging', 'Protein Sequences', 'Ortholog']
+synonyms = {'Transcriptomics':['RNA-Seq', 'Gene Expression', 'Transcriptome','Functional genomics'],
+            'Genomics':['Genetics', 'Whole genome sequencing', 'Genome', 'Genetic Variation']}
 
 ### Annotate bioconductor package
+def clean_keywords(keywords):
+    for a in synonyms:
+        for keyword in synonyms[a]:
+            if keyword in keywords:
+                keywords.append(a)
+    return list(dict.fromkeys(keywords))
+
+
 for key in file_annotations:
     tool = file_annotations[key]
     url = tool['home_url']
@@ -47,7 +56,9 @@ for key in file_annotations:
     except Exception:
         print(key + " --- error")
 
+    keywords = clean_keywords(keywords)
     tool['keywords'] = keywords
+
     tools[key] = tool
 
 
