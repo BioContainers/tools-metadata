@@ -22,8 +22,10 @@ def main():
                     for image in tool_version['images']:
                         if 'downloads' not in image:
                             image['downloads'] = 0
+                        if 'tool_tags' not in tool:
+                            tool['tool_tags'] = []
                         print(tool['id'] + "\t" + tool_version['id'] + "\t" + image['image_type'] + "\t" +
-                              image['image_name'] + "\t" + str(image['downloads']))
+                              image['image_name'] + "\t" + str(image['downloads']) + "\t" + ','.join(tool['tool_tags']))
 
             offset = offset + limit
 
